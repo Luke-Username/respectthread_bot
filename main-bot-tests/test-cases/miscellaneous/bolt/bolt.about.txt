@@ -1,0 +1,1 @@
+This test case is to test if the bot can determine when a post has the character Bolt from the movie "Bolt", as indicated in parenthesis.

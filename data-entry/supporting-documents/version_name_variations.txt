@@ -1,0 +1,3646 @@
+A document that keeps track of different verses and what regular expressions can be used to refer to them.
+This file helps when using data_to_insert.py on characters that have not been added to the database yet.
+The ctrl+f shortcut is typically used to find the relevant verse.
+Note that these are guidelines, not rules.
+
+Formatting
+- Verses are ordered alphabetically
+- Strings hold regular expressions (RegEx) that can be copy and pasted into Python or PostgreSQL
+- "Version" and "Display Version Name" correlate to columns in the database (see: character_data.csv)
+- Sometimes a number sign (#) is used to write additional comments
+- An example of a verse is shown below
+
+Name of the Verse
+	Version
+		'{"An array of RegExs to help tell what version of the character we need"}',
+		'{"Both Version and Display Version Name are columns in the database (see: character_data.csv)"}',
+		'{"Here is how you add apostrophe\'\'s to a verse name"}',
+		r'{"Here is how you add \\(brackets\\) to a verse name"}'
+	Specific (optional)
+		'{"A RegEx that names a specific title of some verse. It is kept separate to help against false positives."}'
+	Acronyms (optional)
+		'{"Acronyms can be under Version, but sometimes they cause false positives if we are not careful"}'
+	Sometimes Called (optional)
+		'{"For verse names that might cause too many false positives if used with the character name"}'
+	Other ways to determine the version (optional)
+		'{"Any remaining patterns that do not match the other categories. Usually written as an if-statement."}'
+	Displayed Version Name
+		"This is shown when the bot replies to a post"
+		# A verse can have multiple different display version names for various reasons. Write them underneath if needed.
+			"2nd Displayed Version Name"
+
+**************************************************
+
+(#)
+
+8-Bit Theater
+	Version
+		'{"8(-| )Bit Theat(er|re)"}'
+	Displayed Version Name
+		"8-Bit Theater"
+
+2000 AD
+	Version
+		'{"2000 ?AD"}'
+	Displayed Version Name
+		"2000 AD"
+
+(A)
+
+Absolution
+	Version
+		'{"Absolution"}', '{"Avatar Press"}'
+	Specific
+		'{"Wonder Woman", "Storm"}'
+		'{"Batman", "Wolverine"}'
+		'{"Superboy", "Spider(-| )?Man"}'
+	Displayed Version Name
+		"Absolution"
+
+Acchi Kocchi
+	Version
+		'{"Acchi(-| )Kocchi"}', '{"Place to Place"}'
+	Displayed Version Name
+		"Acchi Kocchi"
+
+The Adventures of Sonic the Hedgehog
+	Version
+		'{"Adventures of Sonic the Hedgehog"}', '{"T?AoSTH"}'
+	Displayed Version Name
+		"The Adventures of Sonic the Hedgehog"
+
+Adventure Time
+	Version
+		'{"Adventure Time"}', '{"AT"}'
+	Displayed Version Name
+		"Adventure Time"
+
+Akame Ga Kill!
+	Version
+		'{"Akame"}'
+	Displayed Version Name
+		"Akame Ga Kill!"
+
+Aladdin
+	Version
+		'{"Aladdin"}'
+	If name == "Aladdin":
+		r'{"\\(Aladdin\\)"}'
+	Displayed Version Name
+		"Aladdin"
+
+Aliens vs. Predator
+	Version
+		'{"Aliens? vs\.? Predator"}'
+	Acronyms
+		'{"AVP"}'
+	Specific
+		'{"Requiem"}'
+	Displayed Version Name
+		"Aliens vs. Predator"
+
+Amalgam Comics
+	Version
+		'{"Amalgam"}'
+	Displayed Version Name
+		"Amalgam Comics"
+
+The Amazing Spider-Man
+	Version
+		'{"Amazing Spider(-| )?Man"}', '{"T?ASM"}'
+	Displayed Version Name
+		"The Amazing Spider-Man"
+
+American Dad
+	Version
+		'{"American Dad"}'
+	Displayed Version Name
+		"American Dad"
+
+Amethyst, Princess Of Gemworld
+	Version
+		'{"Gemworld"}'
+	Displayed Version Name
+		"Amethyst, Princess Of Gemworld"
+
+Angry Video Game Nerd
+	Version
+		'{"Angry Video Game Nerd"}',
+		'{"AVGN"}'
+	Displayed Version Name
+		""
+
+A Practical Guide to Evil
+	Version
+		'{"Practical Guide to Evil"}', '{"APGTE"}'
+	Displayed Version Name
+		"A Practical Guide to Evil"
+
+Archer
+	Version
+		'{"Archer"}'
+	Displayed Version Name
+		"Archer"
+
+Archie Comics
+	Version
+		'{"Archie"}'
+	Specific
+		'{"Vampironica"}'
+		'{"Jughead:? The Hunger"}'
+	Displayed Version Name
+		"Archie Comics"
+
+Arrowverse
+	Version
+		'{"(Fl)?arrow(-| )?verse"}', '{"(DC)?CW"}', '{"DC ?TV"}'
+	Displayed Version Name
+		"CW Arrowverse"
+
+asdfmovie
+	Version
+		'{"asdf"}'
+	Displayed Version Name
+		"asdfmovie"
+		# If character name == "asdf":
+			default = "asdf"
+
+Assassin's Creed
+	Version
+		'{"Assassin", "Creed"}', r'{"AC\\d"}'
+	Displayed Version Name
+		"Assassin''s Creed"
+
+Asura's Wraith
+	Version
+		'{"Asura\'\'?s Wraith"}'
+	If the full title isn't nessesary
+		'{"Asura"}'
+	Displayed Version Name
+		"Asura''s Wraith"
+
+Atop the Fourth Wall
+	Version
+		'{"Atop the (Fourth|4th) Wall"}', '{"AT(F|4)W"}'
+	Displayed Version Name
+		"Atop the Fourth Wall"
+
+Attack on Titan
+	Version
+		'{"Attack on Titan"}', '{"Shingeki no Kyojin"}', '{"AOT"}', '{"SnK"}'
+	Displayed Version Name
+		"Attack on Titan"
+
+Arthurian Myth
+	Version
+		'{"Arthurian"}'
+	Displayed Version Name
+		"Arthurian Myth"
+
+Avatar: The Last Airbender / The Legend of Korra
+	Version
+		'{"Avatar"}', '{"A?TLA"}', '{"Air(-| )bender"}', '{"Aang"}', '{"Korra"}', '{"A?T?LOK"}'
+	Sometimes
+		'{"Red Lotus"}'
+	Displayed Version Name
+		"Avatar: TLA"
+
+The Avengers: Earth's Mightiest Heroes
+	Version
+		"{\"Earth''s Mightiest Heroes\"}", '{"Avengers:? Earths? Mightiest Heroes"}', '{"Avengers:? Earth\'\'s Mightiest Heroes"}', '{"EMH"}'
+	Displayed Version Name
+		"Earth''s Mightiest Heroes"
+
+(B)
+
+Baki the Grappler / Grappler Baki
+	Version
+		'{"Baki"}'
+	Sometimes
+		'{"grapplers?"}'
+	Displayed Version Name
+		"Baki the Grappler"
+
+Bastard!!
+	Version
+		'{"Bastard"}'
+	Displayed Version Name
+		"Bastard!!"
+
+Batman: Arkham
+	Version
+		'{"Arkham(-| )?verse"}', r'{"\\(Arkham\\)"}', '{"Arkham (games?|series)"}', '{"Batman: Arkham"}',
+		'{"Arkham City"}', '{"Arkham Origins"}', '{"Arkham Knight"}'
+	Displayed Version Name
+		"Batman: Arkham"
+
+The Batman of Shanghai
+	Version
+		'{"Batman of Shanghai"}'
+	Displayed Version Name
+		"The Batman of Shanghai"
+
+Batman Unlimited
+	Version
+		'{"Batman Unlimited"}'
+	Displayed Version Name
+		"Batman Unlimited"
+
+Batman vs. Teenage Mutant Ninja Turtles
+	Version
+		'{"Batman", "Teenaged? Mutant Ninja Turtles"}', '{"Batman", "TMNT"}'
+	Displayed Version Name
+		"Batman vs. Teenage Mutant Ninja Turtles"
+
+Bayonetta
+	Version
+		'{"Bayonetta"}'
+	Displayed Version Name
+		"Bayonetta"
+
+Beauty and the Beast
+	Version
+		'{"Beauty (and |& )the Beast"}', '{"BATB"}'
+	Displayed Version Name
+		"Beauty and the Beast"
+
+Ben 10
+	Version
+		'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+	Displayed Version Name
+		"Ben 10"
+
+Berserk
+	Version
+		'{"Ber(s|z)erk"}'
+	Displayed Version Name
+		"Berserk"
+
+Betrayal Knows My Name
+	Version
+		'{"Uragiri wa Boku no Namae wo Shitteiru"}', '{"Betrayal Knows My Name"}'
+	Displayed Version Name
+		"Betrayal Knows My Name"
+
+The Bible
+	Version
+		'{"Biblical"}', '{"Bible"}', '{"Jehova"}', '{"(Old|New) Testament"}', '{"Judeo|Christian(ity)?"}'
+	Displayed Version Name
+		"Bible"
+
+Big Hero 6 (Disney)
+	Version
+		'{"Disney"}'
+	Sometimes called
+		'{"Big Hero"}'
+	Displayed Version Name
+		"Disney''s Big Hero 6"
+
+The Big O
+	Version
+		'{"Big(-| )O"}'
+	Displayed Version Name
+		"The Big O"
+
+Bill & Ted's Excellent Adventure
+	Version
+		'{"Excellent Adventure"}'
+	Displayed version name
+		"Bill & Ted"
+		# if name == "Bill & Ted"
+			""
+
+BIONICLE
+	Version
+		'{"BIONICLE"}'
+	Display Version Name
+		"BIONICLE"
+
+BioShock
+	Version
+		'{"Bio ?Shock"}'
+	Specific
+		'{"Infinite"}', '{"Columbia"}', '{"Booker"}'
+	Displayed Version Name
+		"BioShock"
+
+Black Bullet
+	Main
+		'{"Black Bullet"}'
+	Displayed Version Name
+		"Black Bullet"
+
+Black Clover
+	Version
+		'{"Black ?Clover"}'
+	Displayed Version Name
+		"Black Clover"
+
+Black★Rock Shooter (Black Rock Shooter)
+	Version
+		'{"Black(★| )Rock Shooter"}'
+	Displayed Version Name
+		"Black★Rock Shooter"
+
+Bloodborne
+	Version
+		'{"Blood ?borne?"}'
+	Displayed Version Name
+		"Bloodborne"
+
+Bloody Bunny: The First Blood
+	Version
+		'{"First Blood"}'
+	Displayed Version Name
+		"Bloody Bunny: The First Blood"
+
+Blue Exorcist
+	Version
+		'{"Blue Excorcist"}', '{"Blue Exorcist"}', '{"Aoi? no Exorcist"}'
+	Displayed Version Name
+		"Blue Exorcist"
+
+Bobobo-bo Bo-bobo
+	Version
+		'{"BoBoBo(Bo)*"}'
+	Displayed Version Name
+		"Bobobo-bo Bo-bobo"
+
+BOFURI: I Don’t Want to Get Hurt, so I’ll Max Out My Defense
+	Version
+		'{"BOFURI"}', '{"Max Out My Defense"}'
+	Displayed Version Name
+		"BOFURI"
+
+Bolt
+	Version
+		r'{"\\(Bolt\\)"}'
+	If character name == "Bolt":
+		r'{"\\(Bolt\\)"}', '{"Disney"}'
+	Displayed Version Name
+		"Bolt"
+
+BOOM! Studios / comics
+	Version
+		'{"BOOM!? Studios?"}'
+	If the name is unambiguous enough
+		'{"BOOM"}'
+	Displayed Version Name
+		"BOOM! Studios"
+
+Borderlands
+	Version
+		'{"Border ?lands?"}', r'{"BL\\d"}'
+	Displayed Version Name
+		"Borderlands"
+
+The Boys (Amazon TV series)
+	Version
+		'{"The Boys", "TV"}', '{"The Boys", "show"}', '{"The Boys", "2019"}', '{"show version"}', '{"TV shows?"}'
+	If character_name == "The Boys"
+		'{"Amazon"}', '{"TV"}'
+	Displayed Version Name
+		"The Boys, 2019"
+		# If character_name == "The Boys"
+			"Amazon"
+
+The Boys (Comics)
+	Version
+		'{"Comics?"}', '{"Dynamite"}'
+	Displayed Version Name
+		"Dynamite Entertainment"
+		# If character_name == "The Seven"
+			"The Boys"
+
+Bruce Almighty
+	Version
+		'{"Bruce Almighty"}'
+	Displayed Version Name
+		"Bruce Almighty"
+
+Buffy the Vampire Slayer
+	Version
+		'{"Buffy the Vampire Slayer"}', r'{"\\(Buffy\\)"}', '{"Buffyverse"}', '{"BTVS"}'
+	Displayed Version Name
+		"Buffy the Vampire Slayer"
+
+Bungou Stray Dogs
+	Version
+		'{"Bungou? Stray Dogs"}'
+	Displayed Version Name
+		"Bungou Stray Dogs"
+
+(C)
+
+CalebCity
+	Version
+		'{"Caleb ?City"}'
+	Displayed Version Name
+		"CalebCity"
+		# If character name is "CalebCity"
+			Displayed Version Name == ""
+
+Call of Duty
+	Version
+		'{"Call of Duty"}', '{"COD"}'
+	Specific
+		'{"Black Ops"}'
+		'{"Modern Warfare"}', r'{"MW\\d"}'
+	Displayed Version Name
+		"Call of Duty"
+
+Calvin and Hobbes
+	Version
+		'{"Calvin|Hobbes"}'
+	If character name == "Calvin"
+		'{"Hobbes"}'
+	If character name == "Hobbes"
+		'{"Calvin"}'
+	Displayed Version Name
+		"Calvin and Hobbes"
+
+Captain Pronin
+	Version
+		'{"Captain Pronin"}'
+	Displayed Version Name
+		"Captain Pronin"
+
+CartoonHooligans
+	Version
+		'{"Cartoon ?Hooligans"}'
+	Displayed Version Name
+		"CartoonHooligans"
+
+Castlevania
+	Version
+		'{"Castle(-| )?vania"}'
+	Displayed Version Name
+		"Castlevania"
+
+Chainsaw Man
+	Version
+		'{"Chainsaw(-| )?Man"}'
+	Displayed Version Name
+		"Chainsaw Man"
+
+Character Scramble
+	Version
+		'{"Character Scramble"}'
+	Displayed Version Name
+		"Character Scramble"
+
+Chivalry of a Failed Knight
+	Version
+		'{"Chivalry of a Failed Knight"}', '{"Rakudai"}'
+	Displayed Version Name
+		"Chivalry of a Failed Knight"
+
+Chowder
+	Version
+		'{"Chowder"}'
+	Displayed Version Name
+		"Chowder"
+
+CollegeHumor
+	Version
+		'{"College ?Humor"}'
+	Displayed Version Name
+		"CollegeHumor"
+
+Creepypasta
+	Version
+		'{"Creepy ?pastas?"}'
+	Displayed Version Name
+		"Creepypasta"
+
+Critical Role
+	Version
+		'{"Critical Role"}'
+	Displayed Version Name
+		"Critical Role"
+
+Cubix: Robots For Everyone
+	Version
+		'{"Cubix"}', '{"Robots For Everyone"}'
+	Displayed Version Name
+		"Cubix: Robots For Everyone"
+
+Culture series
+	Version
+		'{"Culture"}'
+	Displayed Version Name
+		"Culture series"
+
+Cyanide & Happiness
+	Version
+		'{"Cyanide (and|&) Happiness"}'
+	Displayed Version Name
+		"Cyanide & Happiness"
+
+(D)
+
+Dakotaverse
+	Version
+		'{"Dakota(-| )?verse"}'
+	Displayed Version Name
+		"Dakotaverse"
+
+Daneboe
+	Version
+		'{"Dane ?boe"}'
+	Displayed Version Name
+		"Daneboe"
+
+Danganronpa
+	Version
+		'{"Dangan ?ronpa"}'
+	Displayed Version Name
+		"Danganronpa"
+
+Danny Phantom
+	Version
+		'{"Danny Phantom"}'
+	Displayed Version Name
+		"Danny Phantom"
+
+Dan Vs.
+	Version
+		r'{"\\(Dan vs\\)"}'
+	Displayed Version Name
+		"(Dan Vs.)"
+
+Dark Horse Comics
+	Version
+		'{"Dark(-| )?Horse"}'
+	Displayed Version Name
+		"Dark Horse Comics"
+
+Dark Souls
+	Version
+		'{"(Dark|Demon) ?Souls"}', '{"Soulsborne"}'
+	If full title isn't needed
+		'{"Souls"}'
+	Displayed Version Name
+		"Dark Souls"
+
+The Dark Tower
+	Version
+		'{"Stephan King"}', '{"Dark ?Tower"}'
+	Displayed Version Name
+		"The Dark Tower"
+
+Darling in the Franxx
+	Version
+		'{"Franxx"}', '{"DITF"}'
+	Displayed Version Name
+		"Darling in the Franxx"
+
+DC Animated Universe (DCAU)
+	Version
+		'{"DC Animated Universe"}',	'{"Animated DC"}', '{"DCAU"}', '{"Timmverse"}'
+	Specific
+		'{"Justice League:? Unlimited"}', '{"JL Unlimited"}', '{"JLU"}'
+		'{"Batman", "Animated Series"}', '{"B:?TAS"}'
+		'{"New Batman Adventures"}', '{"TNBA"}'
+		'{"1999"}'
+		'{"Superman:? The Animated Series"}', '{"STAS"}'
+		r'{"\\(Static Shock\\)"}'
+		'{"Batman Beyond"}'
+	Displayed Version Name
+		"DCAU"
+	
+	Justice League vs. the Fatal Five
+		Version
+			r'{"Justice League vs\\.? the Fatal Five"}'
+		Displayed Version Name
+			"Justice League vs. the Fatal Five"
+
+DC Animated Film Universe / DC Animated Movie Universe / DCAMU
+	Version
+		'{"DC Animated Film Universe"}', '{"DCA(F|M)U"}', '{"DC Animated Movies?"}'
+	Specific
+		'{"Justice League:? War"}'
+	Displayed Version Name
+		"DC Animated Movie Universe"
+
+DC Cinematic Universe
+	Version
+		'{"DC Extended Universe"}', '{"DC ?(E|C)U"}', '{"DC Cinematic Universe"}'
+	Displayed Version Name
+		"DCEU"
+
+DC Comics
+	Version
+		r'{"(\\(|\\[)DC( Comics)?(\\)|\\])"}' ( Though theoretically, it should be (\(|\[)DC( Comics)?(\)|\]) )
+	Displayed Version Name
+		"DC"
+
+DC Dark Multiverse
+	Version
+		'{"Dark Multiverse"}'
+	Displayed Version Name
+		"Dark Multiverse"
+
+DC Elseworlds
+	Version
+		'{"Elseworlds?"}'
+	Displayed Version Name
+		"Elseworlds"
+
+DC's Masters of the Universe
+	Version
+		'{"DC", "Masters of the Universe"}'
+	Displayed Version Name
+		"DC''s Masters of the Universe"
+
+Deadpool Kills the Marvel Universe
+	Version
+		'{"Deadpool Kills the Marvel Universe"}', '{"DKT?MU"}', '{"12101"}'
+	Displayed Version Name
+		"Deadpool Kills the Marvel Universe"
+
+Deadpool Movies
+	Version
+		r'{"Something ?\\(Deadpool"}'
+	Displayed Version Name
+		"FOX"
+
+DEATH BATTLE!
+	Version
+		'{"DEATH BATTLE"}'
+	Displayed Version Name
+		"DEATH BATTLE!"
+
+Demon Slayer: Kimetsu no Yaiba
+	Version
+		'{"Demon ?Slayer"}', '{"Kimetsu no Yaiba"}', '{"KnY"}'
+	Sometimes Called
+		'{"DS"}'
+	Displayed Version Name
+		"Demon Slayer"
+
+Destiny
+	Version
+		'{"Destiny"}'
+	Displayed Version Name
+		"Destiny"
+
+Detective Conan
+	Version
+		'{"Detective Conan"}'
+	Displayed Version Name
+		"Detective Conan"
+
+The Devil is a Part-Timer
+	Version
+		'{"Devil is a Part(-| )Timer"}'
+	Displayed Version Name
+		"The Devil is a Part-Timer"
+
+Dexter's Laboratory
+	Version
+		'{"Dexter"}'
+	Specific
+		'{"Dial M for Monkey"}'
+		'{"Justice Friends"}'
+	Displayed Version Name
+		"Dexter''s Laboratory"
+
+DevilArtemis
+	Version
+		'{"Devil ?Artemis"}'
+	Displayed Version Name
+		"DevilArtemis"
+
+Devil May Cry
+	Version
+		'{"Devil May Cry"}', r'{"DMC\\d?"}'
+	Displayed Version Name
+		"Devil May Cry"
+
+D.Gray-Man
+	Version
+		'{"D\.? ?Gray(-| )?Man"}'
+	Displayed Version Name
+		"D.Gray-Man"
+
+Dies Irae
+	Version
+		'{"Dies Irae"}', '{"Shinza"}', '{"Masadaverse"}'
+	Specific
+		'{"Ikabey"}', '{"Kaziklu Bey"}'
+	Displayed Version Name
+		"Dies Irae"
+
+Digimon
+	Version
+		'{"Digimon"}'
+	Displayed Version Name
+		"Digimon"
+
+The Disastrous Life of Saiki K.
+	Version
+		'{"Saiki K"}'
+	Displayed Version Name
+		"The Disastrous Life of Saiki K."
+
+Discworld
+	Version
+		'{"Dis(c|k) ?world"}'
+	Displayed Version Name
+		"Discworld"
+
+Dishonored
+	Version
+		'{"Dishonou?red"}'
+	Displayed Version Name
+		"Dishonored"
+
+Disney's American Legends
+	Version
+		'{"Disney"}'
+	Displayed Version Name
+		"Disney's American Legends"
+
+Disney's Hercules
+	Version
+	If character name == "Hercules"
+		'{"Disney"}'
+	Displayed Version Name
+		"Hercules, 1997"
+		# If character name == "Hercules":
+			default	= "Disney"
+
+Dr. Stone
+	Version
+		'{"(Doctor|Dr\.?) ?Stone"}'
+	Displayed Version Name
+		"Dr. Stone"
+
+Doctor Who
+	Version
+		r'{"(Doctor|Dr\\.?) ?Who"}', '{"Who(ni)?verse"}'
+	Displayed Version Name
+		"Doctor Who"
+
+Dog Nigga
+	Version
+		'{"Dog Nigga"}', r'{"Dog N\\*gga"}'
+	Displayed Version Name
+		"Dog Nigga"
+
+Donkey Kong
+	Version
+		'{"Donkey Kong"}'
+	If character is a Kong and using first name only
+		'{"Kong"}'
+	Displayed Version Name
+		"Donkey Kong"
+
+Doom comic
+	Version
+		'{"Doom comics?"}'
+	Displayed Version Name
+		"Doom comic"
+
+Dorkly
+	Version
+		'{"Dorkly"}'
+	Specific
+		'{"Rusty"}'
+		'{"Pok(e|é)mon Rusty"}'
+	Displayed Version Name
+		"Dorkly"
+
+Dota 2 (Defense of the Ancients)
+	Version
+		'{"Dota2?"}', '{"Defense of the Ancients"}'
+	Displayed Version Name
+		"Dota 2"
+
+Dragon Ball
+	Version
+		'{"Dragon ?Ball"}', '{"DB(Z|S)?"}'
+	Specific
+		'{"Fusion Reborn"}'
+	Displayed Version Name
+		"Dragon Ball"
+
+Dr. Horrible's Sing-Along Blog
+	Version
+		r'{"(Dr\\.?|Doctor) Horrible"}'
+	Displayed Version Name
+		"Dr. Horrible''s Sing-Along Blog"
+
+Dungeons & Dragons / Dungeons and Dragons
+	Version
+		'{"Dungeons (&|and) Dragons"}', '{"D ?& ?D"}'
+	Displayed Version Name
+		"Dungeons & Dragons"
+
+Durarara!!
+	Version
+		'{"Dura(ra)+"}', '{"DRR+"}'
+	Displayed Version Name
+		"Durarara!!"
+
+D.Y.N. Freaks
+	Version
+		r'{"D\\.?Y\\.?N\\.? Freaks"}'
+	Displayed Version Name
+		"D.Y.N. Freaks"
+
+(E)
+
+Earth 4
+	Version
+		'{"Earth(-| )4"}'
+	Displayed Version Name
+		"Earth 4"
+
+Earth 6
+	Version
+		'{"Earth 6"}'
+	Displayed Version Name
+		"Earth 6"
+
+Earth-10
+	Version
+		'{"Earth(-| )(10|Ten)"}'
+	Displayed Version Name
+		"Earth-10"
+
+Earth-31
+	Version
+		'{"Earth(-| )31"}', '{"Miller-?verse"}', '{"Frank Miller"}'
+	Displayed Version Name
+		"Millerverse"
+
+Earth 36
+	Version
+		'{"Earth(-| )36"}'
+	Displayed Version Name
+		"Earth 36"
+
+Earth-8107
+	Version
+		'{"The Incredible Hulk", "1982"}', '{"Spider-?Man (&|and) His Amazing Friends"}', '{"8107"}'
+
+EarthBound
+	Version
+		'{"Earth(-| )?bound"}'
+	Sometimes
+		'{"Mother"}'
+	Displayed Version Name
+		"EarthBound"
+
+Elder Scrolls
+	Version
+		'{"Elder Scrolls?"}'
+	Specific
+		'{"Skyrim"}'
+	Displayed Version Name
+		"Elder Scrolls"
+
+ēlDLIVE
+	Version
+		'{"(ē|e)LDLIVE"}'
+	Displayed Version Name
+		"ēlDLIVE"
+
+(F)
+
+Fairly Oddparents
+	Version
+		'{"Fairly Odd ?parents"}', '{"FOP"}'
+	Displayed Version Name
+		"Fairly OddParents"
+
+Fairy Tail
+	Version
+		'{"Fairy Tail"}', '{"Fairy Tale"}'
+	Displayed Version Name
+		"Fairy Tail"
+
+Fallout: Nuka Break
+	Version
+		'{"Fallout:? Nuka Break"}'
+	Displayed Version Name
+		"Fallout: Nuka Break"
+
+Family Guy
+	Version
+		'{"Family Guy"}'
+	Displayed Version Name
+		"Family Guy"
+
+Fantastic Four Foxverse
+	Version
+		'{"Rise of (the )? Silver Surfer"}', '{"ROTSS"}', '{"121698"}', r'{"Fantastic 4 \\(movie\\)"}'
+		r'{"\\(Fantastic Four Movie\\)"}', r'{"\\(Movie Versions?\\)"}', r'{"Fantastic 4 \\(movies?\\)"}', '{"Movie Fantastic Four"}'
+	If name == "Silver Surfer":
+		'{"Movie Silver Surfer"}', '{"2007", "film"}'
+	Sometimes Called
+		'{"FOX(verse)?"}'
+	Displayed Version Name
+		"121698"
+
+Fargo
+	Version
+	Displayed Version Name
+		"Fargo, 1996"
+
+Fargo (TV Series)
+	Version
+	Displayed Version Name
+		"Fargo"
+
+Fast and Furious
+	Version
+		'{"Fast and (the )?Furious"}', '{"Fast & Furious"}'
+	Displayed Version Name
+		"The Fast and the Furious"
+
+Feng Shen Ji
+	Version
+		'{"Feng (Sh|J)en Ji"}', '{"FSJ"}'
+	Displayed Version Name
+		"Feng Shen Ji"
+
+Final Fantasy
+	Version
+		'{"Final Fantasy"}', r'{"FF\\d?\\d?"}', r'{"FF\\w\\w?\\w?"}'
+	Displayed Version Name
+		"Final Fantasy"
+
+Fire Emblem
+	Version
+		'{"Fire Emblem"}'
+	Acronyms
+		'{"FE"}'
+	Specific
+		'{"Fates"}'
+		'{"Path of Radiance"}', '{"Radiant Dawn"}'
+		'{"Sacred Stone"}'
+		'{"Three Houses"}', '{"FE3H"}'
+	Displayed Version Name
+		"Fire Emblem"
+
+Fire Force
+	Version
+		'{"Fire ?Force"}'
+	Displayed Version Name
+		"Fire Force"
+
+Fist of the North Star
+	Version
+		'{"Fist of the North Star"}', '{"FOTNS"}', '{"Hokuto no Ken"}', '{"HnK"}'
+	Displayed Version Name
+		"Fist of the North Star"
+
+Five Nights at Freddies
+	Version
+		'{"Five Nights at Freddies"}', '{"FNAF"}'
+	Displayed Version Name
+		"FNAF"
+
+Flashpoint
+	Version
+		'{"Flash(-| )?point"}'
+	Displayed Version Name
+		"Flashpoint"
+
+FLCL
+	Version
+		'{"FLCL"}', '{"Fooly Cooly"}'
+	Displayed Version Name
+		"FLCL"
+
+Folklore
+	Version
+		'{"Folk ?(lore|tale)"}'
+	Displayed Version Name
+		"Folklore"
+
+FOX
+	Version
+		'{"Fox(verse)?"}', '{"X(-| )?Men (Movie|Film)s?"}', '{"X-?Men Cinematic Universe"}'
+	Sometimes Called
+		'{"XCU"}'
+	Specific
+		'{"Origins"}'
+		'{"X-?Men:? Apocalypse"}'
+		'{"Days of Future Past"}', '{"DOFP"}'
+		'{"Last Stand"}'
+		'{"First Class"}'
+		'{"The Wolverine"}'
+	Displayed Version Name
+		"FOX"
+
+Freakazoid!
+	Version
+		'{"Freakazoid"}'
+	Displayed Version Name
+		"Freakazoid!"
+
+Friday the 13th
+	Version
+		'{"Friday the 13th"}'
+	Sometimes
+		'{"F13"}'
+	Displayed Version Name
+		"Friday the 13th"
+
+Fullmetal Alchemist
+	Version
+		'{"Full ?metal"}', '{"FMA:?B?"}'
+	Displayed Version Name
+		"Fullmetal Alchemist"
+
+Fun and Fancy Free
+	Version
+		'{"Disney"}', '{"Fun and Fancy Free"}'
+	Displayed Version Name
+		"Fun and Fancy Free"
+
+Futurama
+	Version
+		'{"Futurama"}'
+	Displayed Version Name
+		"Futurama"
+
+(G)
+
+Gadget and the Gadgetinis
+	Version
+		'{"Gadgetinis"}'
+	Displayed Version Name
+		"Gadget and the Gadgetinis"
+
+Garfield
+	Version
+		'{"Garfield"}'
+	If character_name == "Garfield":
+		'{"comics?"}', r'{"\\[Garfield\\]"}', r'{"\\(Garfield\\)"}', '{"vs\.? Garfield"}'
+	Displayed Version Name
+		"Garfield"
+		# If character_name == "Garfield":
+			"Comics"
+
+Garzey's Wings
+	Version
+		'{"Garzey"}'
+	Displayed Version Name
+		"Garzey''s Wings"
+
+Generation X (1996)
+	Version
+		'{"Generation X", "1996"}'
+	If name == "Generation X"
+		'{"1996"}', r'{"\\(Generation X\\)"}'
+	Displayed Version Name
+		"Generation X, 1996"
+
+Generator Rex
+	Version
+		'{"Generator Rex"}'
+	Displayed Version Name
+		"Generator Rex"
+
+gen:LOCK
+	Version
+		'{"gen(:|;| )?LOCK"}'
+	Displayed Version Name
+		"gen:LOCK"
+
+Ghost in the Shell
+	Version
+		'{"Ghost in the Shell"}'
+	Acronyms
+		'{"GITS"}'
+	Displayed Version Name
+		"Ghost in the Shell"
+
+Ghosts 'n Goblins
+	Version
+		'{"Ghosts \'\'n Goblins"}', '{"Ghosts n Goblins"}', '{"Gargoyle\'\'s Quest"}', '{"Gargoyles Quest"}', '{"Capcom"}'
+	Sometimes
+		'{"Arthur"}'
+		'{"Ridley"}'
+	Displayed Version Name
+		"Ghosts ''n Goblins"
+
+The God of High School
+	Version
+		'{"God of High ?School"}'
+	Acronyms
+		r'{"G\\.?O\\.?H"}'
+	Displayed Version Name
+		"The God of High School"
+
+God of War
+	Version
+		'{"God of War"}', r'{"G\\.?O\\.?W"}'
+	Displayed Version Name
+		"God of War"
+
+Godzilla (1998)
+	Version
+		'{"1998"}', '{"TriStar"}'
+	Displayed Version Name
+		"Godzilla, 1998"
+
+Godzilla: Rulers of Earth
+	Version
+		'{"Rulers? of Earth"}'
+	Displayed Version Name
+		"Godzilla: Rulers of Earth"
+
+Godzilla: The Half-Century War
+	Version
+		'{"Half(-| )Century War"}'
+	Displayed Version Name
+		"Godzilla: The Half-Century War"
+
+Gokushufudo: Way Of The House Husband
+	Version
+		'{"Gokushufudo"}', '{"Way Of The House Husband"}'
+	Displayed Version Name
+		"Gokushufudo: Way Of The House Husband"
+
+Good Luck Girl!
+	Version
+		'{"Good Luck Girl"}', '{"Binbougami(-| )ga"}'
+	Displayed Version Name
+		"Good Luck Girl!"
+
+Grand Theft Auto (GTA)
+	Version
+		r'{"GTA(\\d|\\w+)?"}', '{"Grand Theft Auto"}'
+	Displayed Version Name
+		"GTA"
+
+Graveyard Comics
+	Version
+		'{"Graveyard"}'
+	Sometimes
+		'{"Graveyard", "Comics"}'
+	Displayed Version Name
+		"Graveyard Comics"
+
+Gravity Falls
+	Version
+		'{"Gravity Falls"}'
+	Acronyms
+		'{"GF"}'
+	Displayed Version Name
+		"Gravity Falls"
+
+The Great Mission to Rescue Princess Peach
+	Version
+		'{"Great Mission to Rescue Princess Peach"}', '{"Peach(-| )Hime Kyushutsu Dai Sakusen"}'
+	Displayed Version Name
+		"The Great Mission to Rescue Princess Peach!"
+
+Green Hornet 2011 film
+	Movie
+		'{"movie versions?"}', '{"2011"}'
+	Displayed Version Name
+		"The Green Hornet, 2011"
+
+Green Hornet Dynamite Comics
+	Comics
+		'{"Dynamite"}', '{"Comics?"}'
+	Displayed Version Name
+		"Dynamite Entertainment"
+	
+Green Hornet Radio series
+	Version
+		'{"radio"}', '{"original"}'
+	Displayed Version Name
+		"Green Hornet Radio series"
+
+Green Lantern: The Animated Series
+	Version
+		'{"Green Lantern:?( The)? Animated Series"}', r'{"Green Lantern ?\\((The )?Animated Series"}'
+	Displayed Version Name
+		"Green Lantern: The Animated Series"
+
+Grizzlyshark
+	Version
+		'{"Grizzly ?sharks?"}'
+	Displayed Version Name
+		"Grizzlyshark"
+
+Gunbuster
+	Version
+		'{"(Gun|Die)buster"}'
+	Displayed Version Name
+		"Gunbuster"
+
+Gundam
+	Version
+		'{"Gundams?"}'
+	Displayed Version Name
+		"Gundam"
+
+Gurren Lagann
+	Version
+		'{"Gurren Lagann?"}', '{"S?TTGL"}'
+	Displayed Version Name
+		"Gurren Lagann"
+
+(H)
+
+Hack/Slash
+	Version
+		'{"Hack", "Slash"}'
+	Displayed Version Name
+		"Hack/Slash"
+
+Half-Life
+	Version
+		'{"Half(-| )?Life"}'
+	Displayed Version Name
+		"Half-Life"
+
+Halo
+	Version
+		'{"Halo(verse)?"}'
+	Displayed Version Name
+		"Halo"
+
+Harley Quinn (animated series)
+	Version
+		'{"Harley Quinn", "animated series"}', '{"Harley Quinn", "2019"}'
+	If character name == "Harley Quinn"
+		'{"animated series"}', '{"DC TV series"}'
+	Displayed Version Name
+		"Harley Quinn animated series, 2019"
+
+Harry Potter
+	Version
+		'{"Harry Potter"}'
+	Acronyms
+		'{"HP"}'
+	If name == "Harry"
+		'{"Dumbledore"}', '{"Hermione"}', '{"Ron"}', '{"Snape"}'
+	If name == "Ron"
+		'{"Dumbledore"}', '{"Hermione"}', '{"Harry"}', '{"Snape"}'
+	If name == "Luna"
+		'{"Dumbledore"}', '{"Hermione"}', '{"Harry"}', '{"Ron"}', '{"Ginny"}', '{"Snape"}'
+	Displayed Version Name
+		"Harry Potter"
+
+Hazbin Hotel
+	Version
+		'{"Hazbin Hotel"}'
+	Displayed Version Name
+		"Hazbin Hotel"
+
+Hellboy
+	Version
+		'{"Mignola(verse)?"}', '{"Hell ?boy"}', '{"Dark ?Horse"}'
+	Specific
+		'{"B\.?R\.?P\.?D"}'
+		'{"Hell on Earth"}'
+	If character_name = 'Hellboy':
+		'{"comics?"}'
+	Displayed Version Name
+		"Hellboy"
+		# If character_name =- 'Hellboy'
+			"Dark Horse Comics"
+
+Hellboy Films
+	Version
+		'{"Hellboy", "200(4|8)"}'
+	Displayed Version Name
+		"Hellboy films"
+
+Hellsing
+	Version
+		'{"Hell?sing"}'
+	Displayed Version Name
+		"Hellsing"
+
+Hellsing Ultimate Abridged
+	Version
+		'{"Abridged"}'
+	Displayed Version Name
+		"Hellsing Ultimate Abridged"
+
+Henry Stickmin
+	Version
+		'{"Henry Stickm(i|a|e)n"}'
+	Displayed Version Name
+		"Henry Stickmin"
+
+Heroes of Olympus
+	Version
+		'{"Heroe?s of Olympus"}', '{"Riordan(-| )?(verse)?"}', '{"Trials of Apollo"}'
+	Sometimes
+		'{"Percy Jackson"}'
+		'{"Percy"}'
+	Displayed Version Name
+		"Heroes of Olympus"
+
+Highschool DxD
+	Version
+		'{"High ?school Dx ?D"}'
+	Sometimes
+		'{"Dx ?D"}'
+	Displayed Version Name
+		"High School DxD"
+
+History's Strongest Disciple Kenichi
+	Version
+		'{"Kenichi"}', '{"HSDK?"}', '{"Strongest Disciple"}'
+	Displayed Version Name
+		"History''s Strongest Disciple Kenichi"
+
+The horribly slow murderer with the extremely inefficient weapon
+	Version
+		'{"(The )?horribly slow murderer with the extremely inefficient weapon"}', '{"T?HSMWEIW"}'
+	Displayed Version Name
+		""
+
+Hotel Transylvania
+	Version
+		'{"Hotel Transylvania"}'
+	Displayed Version Name
+		"Hotel Transylvania"
+		# If character name == "Hotel Transylvania"
+			""
+
+How Heavy Are the Dumbbells You Lift? / Dumbbell Nan Kilo Moteru?
+	Version
+		'{"How Heavy Are the Dumbbells You Lift"}', '{"Nan(-| )Kilo Moteru"}'
+	If full name isn't nessesary
+		'{"Dumbbells?"}'
+	Displayed Version Name
+		"How Heavy Are the Dumbbells You Lift?"
+
+How It Should Have Ended
+	Version
+		'{"How It Should Have Ended"}', '{"HISHE"}'
+	Displayed Version Name
+		"HISHE"
+
+Howl's Moving Castle
+	Version
+		'{"Howl\'\'s Moving Castle"}'
+	Displayed Version Name
+		"Howl''s Moving Castle"
+
+How to Train Your Dragon
+	Version
+		'{"How to Train Your Dragon"}', '{"HTTYD"}', '{"DreamWorks"}'
+	Displayed Version Name
+		"How to Train Your Dragon"
+
+Hulk Vs.
+	Version
+		r'{"\\(Hulk Vs\.?\\)"}'
+
+Hunter x Hunter
+	Version
+		'{"Hunter ?(x ?)?Hunter"}', '{"HxH"}'
+	Displayed Version Name
+		"Hunter x Hunter"
+
+(I)
+
+IDW
+	Version
+		'{"IDW"}'
+	Displayed Version Name
+		"IDW"
+
+The Incredibles
+	Version
+		'{"Incredibles"}'
+	Displayed Version Name
+		"The Incredibles"
+
+InFAMOUS
+	Version
+		'{"InFAMOUS"}'
+	Displayed Version Name
+		"InFAMOUS"
+
+Injustice
+	Version
+		'{"Injustice(verse)?"}'
+	Displayed Version Name
+		"Injustice"
+
+Inuyasha
+	Version
+		'{"Inu ?yasha"}'
+	Displayed Version Name
+		"Inuyasha"
+
+Invincible
+	Version
+		'{"Invincible"}', '{"Image"}', '{"Viltrum(ites?)?"}'
+	If character_name == "Invincible":
+		r'{"\\(Invincible\\)"}', '{"Image Comics?"}', r'{"\\(Image\\)"}', r'{"Invincible \\(Comics?\\)"}', '{"Invincible vs"}', '{"Grayson"}'
+	Displayed Version Name
+		"Invincible"
+		# If character_name == "Invincible"
+			"Image Comics"
+
+The Invisible Man
+	Version
+	If name == "The Invisible Man":
+		'{"Griffin"}', '{"Wells"}', '{"1897"}', '{"Original Novel"}'
+	Displayed Version Name
+		"H. G. Wells"
+
+The Iron Giant
+	Version
+		'{"Iron Giant"}'
+	Displayed Version Name
+		"The Iron Giant"
+		# If character name == "Iron Giant":
+			"1999"
+
+Iron Man: Armored Adventures
+	Version
+		'{"Armored Adventures"}'
+	Displayed Version Name
+		"Armored Adventures"
+
+The Irregular at Magic High School / Mahouka Koukou no Rettousei
+	Version
+		'{"Irregular"}', '{"Mahouka Koukou no Rettousei"}'
+	Displayed Version Name
+		"The Irregular at Magic High School"
+
+It's Always Sunny in Philadelphia
+	Version
+		'{"Always Sunny"}', '{"IASIP"}'
+	Displayed Version Name
+		"It''s Always Sunny in Philadelphia"
+
+(J)
+
+Jackie Chan Adventures	
+	Version
+		'{"Jackie Chan Adventures"}', '{"JCA"}'
+	Displayed Version Name
+		"Jackie Chan Adventures"
+
+Jerma985
+	Version
+		'{"Jerma(985)?"}'
+	Displayed Version Name
+		"Jerma985"
+
+JLA: Shogun of Steel
+	Version
+		'{"Shogun of Steel"}'
+	Displayed Version Name
+		"JLA: Shogun of Steel"
+
+Jojo's Bizarre Adventure
+	Version
+		'{"Jojos?(verse)?"}', '{"JJBA"}'
+	Sometimes Called
+		'{"Dio"}', '{"stands?"}', '{"Joestars?"}'
+	Specific
+		'{"Diamond is Unbreakable"}', '{"Part 4"}',
+		'{"Battle Tendency"}',
+		'{"Star ?dust Crusaders"}'
+		'{"Steel Ball Run"}'
+		'{"Part (7|8)"}', '{"JoJolion"}'
+	Displayed Version Name
+		"Jojo''s Bizarre Adventure"
+
+Jojo's Bizarre Adventure OVA
+	Version
+		'{"OVA"}'
+	Displayed Version Name
+		"JJBA OVA"
+
+Jujutsu Kaisen
+	Version
+		'{"Jujus?t?s?u Kaisen"}'
+	Acronyms
+		'{"JJK"}'
+	Displayed Version Name
+		"Jujutsu Kaisen"
+
+Jūni Taisen
+	Version
+		'{"J(ū|u)u?ni Taisen"}', '{"Zodiac War"}'
+	Displayed Version Name
+		"Jūni Taisen: Zodiac War"
+
+Justice League: Crisis on Two Earths
+	Version
+		'{"Crisis on (Two |2 )Earths"}', '{"CO(T|2)E"}'
+	Displayed Version Name
+		"Justice League: Crisis on Two Earths"
+
+Justice League: Gods and Monsters
+	Version
+		'{"Gods and Monsters"}'
+	Displayed Version Name
+		"Justice League: Gods and Monsters"
+
+Justice Society: World War II
+	Version
+		'{"Justice Society:? W(orld )?W(ar )?(II|2)"}'
+	Displayed Version Name
+		"Justice Society: World War II"
+
+(K)
+
+Kamen Rider
+	Version
+		'{"Kamen Rider"}'
+	Acronyms
+		'{"KR"}'
+	Specific
+		'{"Zi(-| )O"}', '{"Over Quartzer"}'
+	Displayed Version Name
+		"Kamen Rider"
+
+The Kane Chronicles
+	Version
+		'{"Kane Chronicles"}', '{"Riordan(-| )?(verse)?"}'
+	Displayed Version Name
+		"The Kane Chronicles"
+
+Kantai Collection
+	Version
+		'{"Kan(tai)? ?Colle(ction)?"}'
+	Displayed Version Name
+		"Kantai Collection"
+
+Katanagatari
+	Version
+		'{"Katanagatari"}', '{"Kyotou Yasuri"}'
+	Displayed Version Name
+		"Katanagatari"
+
+Katekyō Hitman Reborn
+	Version
+		'{"Kateky(ō|o) Hitman Reborn"}'
+	Sometimes Called
+		'{"Kateky(ō|o)"}', '{"Reborn"}'
+		'{"Kateky(ō|o)"}', '{"Hitman Reborn"}', r'{"\\(Reborn"}'
+	Acronyms
+		'{"KHR"}'
+	Displayed Version Name
+		"Katekyō Hitman Reborn!"
+
+Kattobi! Shrek
+	Version
+		'{"Kattobi!? Shrek"}'
+	Displayed Version Name
+		"Kattobi! Shrek"
+
+Keep Your Hands Off Eizouken! / Eizouken ni wa Te wo Dasu na!
+	Version
+		'{"Eizouken"}'
+	Displayed Version Name
+		"Keep Your Hands Off Eizouken!"
+
+Keijo!!!!!!!!
+	Version
+		'{"Keijo"}'
+	Displayed Version Name
+		"Keijo!!!!!!!!"
+
+Kengan Asura
+	Version
+		'{"Kengan(verse)?"}'
+	Displayed Version Name
+		"Kengan Asura"
+
+Kick-Ass
+	Version
+		'{"Kick(-| )?Ass"}', '{"Millar(-| )?(verse|world)"}'
+	Displayed Version Name
+		"Kick-Ass"
+
+Kill La Kill
+	Version
+		'{"Kill La Kill"}', '{"KLK"}'
+	Displayed Version Name
+		"Kill La Kill"
+
+Kim Possible
+	Version
+		'{"Kim Possible"}'
+	Acronyms
+		'{"KP"}'
+	Displayed Version Name
+		"Kim Possible"
+
+Kingdom Hearts
+	Version
+		'{"Kingdom ?Hearts"}'
+	Acronyms
+		'{"KH"}'
+	Displayed Version Name
+		"Kingdom Hearts"
+
+King of the Hill
+	Version
+		'{"King of the Hill"}', '{"KOTH"}'
+	Displayed Version Name
+		"King of the Hill"
+
+Kinnikuman
+	Version
+		'{"Kinnikuman"}', '{"Ultimate Muscle"}'
+	Displayed Version Name
+		"Kinnikuman"
+
+Kirby
+	Version
+		'{"Kirby"}'
+	Displayed Version Name
+		"Kirby"
+	if name == "Kirby"
+		""
+
+Kirby Anime
+	Version
+		'{"Anime"}', '{"Right Back at Ya"}'
+	Displayed Version Name
+		"Kirby Anime"
+
+Kongō Banchō / Kongou Banchou
+	Version
+		'{"Kong(o|ō)u? Banch(o|ō)u?"}'
+	Displayed Version Name
+		"Kongō Banchō"
+
+KonoSuba
+	Version
+		'{"KonoSuba"}'
+	Displayed Version Name
+		"KonoSuba"
+
+Kung Fu Panda
+	Version
+		'{"Kung(-| )?Fu Panda"}'
+	Displayed Version Name
+		"Kung Fu Panda"
+
+Kuroko no Basque / Kuroko's Basketball
+	Version
+		'{"Kuroko", "Bas(que|ket(ball)?)"}'
+	Displayed Version Name
+		"Kuroko no Basket"
+
+(L)
+
+League of Legends
+	Version
+		'{"League ?of ?Legends?"}', '{"LOL"}'
+	Sometimes
+		'{"League"}'
+	Other
+		'{"Noxus"}' (location in lore)
+	Displayed Version Name
+		"League of Legends"
+
+Left 4 Dead
+	Version
+		'{"Left ?4 ?Dead(1|2)?"}', '{"L4D(1|2)?"}'
+	Displayed Version Name
+		"Left 4 Dead"
+
+Legacy of Kain
+	Version
+		'{"Legacy of Kain"}', '{"Soul Reaver"}'
+	Displayed Version Name
+		"Legacy of Kain"
+
+The Legend of Zelda
+	Version
+		'{"Zelda"}', '{"T?LOZ"}'
+	Specific
+		'{"Wind Waker"}', '{"Phantom Hourglass"}'
+		'{"Spirit Tracks"}'
+		'{"Link to the Past"}', '{"LTTP"}'
+		'{"Oracle of Ages"}', '{"OOA"}'
+		'{"Link\'\'s Awakening"}'
+		'{"Orarina of Time"}', '{"OOT"}'
+		'{"Skyward Sword"}'
+		'{"Breath of the Wild"}', '{"BOTW"}'
+		'{"Hyrule Warriors"}'
+	Displayed Version Name
+		"The Legend of Zelda"
+			
+			# If version is "Breath of the Wild":
+				"Breath of the Wild"
+			# If version is "Hyrule Warriors"
+				"Hyrule Warriors"
+			# If version is "Skyward Sword":
+				"Skyward Sword"
+			etc.
+
+The Legend of Zelda: The Animated Series
+	Version
+		'{"Legend of Zelda Animated"}'
+	Displayed Version Name
+		"The Legend of Zelda: The Animated Series"
+
+LEGO Star Wars: The Freemaker Adventures
+	Version
+		'{"Freemaker"}'
+	Other
+		'{"LEGO"}'
+	Displayed Version Name
+		"LEGO Star Wars"
+
+Leprechaun
+	Version
+		'{"Leprechaun movies?"}', '{"Leprechaun series"}', '{"1993|2014|2018"}', '{"Leprechaun (2|3|4)"}', '{"In Space"}',
+		'{"in the Hood"}', '{"Back 2 tha Hood"}', '{"Leprechaun:? Origins"}', 	'{"Leprechaun Returns"}', r'{\\(Leprechaun\\)}'
+	Displayed Version Name
+		"Leprechaun film series"
+
+Lilo & Stitch
+	Version
+		'{"Lilo|Stitch"}'
+	Sometimes
+		'{"Lilo (and|&) Stitch"}'
+	Displayed Version Name
+		"Lilo & Stitch"
+
+Liquid Comics
+	Version
+		'{"Liquid"}'
+	Displayed Version Name
+		"Liquid Comics"
+
+LISA: The Painful RPG
+	Version
+		'{"LISA", "RPG"}', '{"LISA", "Painful"}'
+	Sometimes
+		'{"LISA"}'
+	Displayed Version Name
+		"LISA: The Painful"
+
+Little Witch Academia
+	Version
+		'{"Little Witch Academia"}'
+	Displayed Version Name
+		"Little Witch Academia"
+
+Looney Toons
+	Version
+		'{"Looney Tunes"}'
+	Displayed Version Name
+		"Looney Tunes"
+
+Lord of the Rings
+	Version
+		'{"L(ord )?o(f )?t(he )?R(ings)?"}'
+	Sometimes
+		'{"Middle(-| )?Earth"}'
+	Displayed Version Name
+		"Lord of the Rings"
+
+The Loud House
+	Version
+		'{"Loud House"}'
+	Displayed Version Name
+		"The Loud House"
+
+Lupin III
+	Version
+		'{"Lupin III"}', '{"Lupin the (3|III|Thi)rd"}'
+	Displayed Version Name
+		"Lupin III"
+
+Luther Strode
+	Version
+		'{"Luth(e|o)r Strode"}'
+	Displayed Version Name
+		"Luther Strode"
+
+(M)
+
+Madagascar
+	Version
+		'{"Madagascar"}'
+	Displayed Version Name
+		"Madagascar"
+
+Madoka Magica
+	Version
+		'{"Madoka"}', '{"PMMM"}'
+	Displayed Version Name
+		"Madoka Magica"
+
+Magical Girl Raising Project
+	Version
+		'{"Magical Girl Raising Project"}', '{"Mahou Shoujo Ikusei Keikaku"}'
+	Displayed Version Name
+		"Magical Girl Raising Project"
+
+Magic: The Gathering / Magic the Gathering
+	Version
+		'{"Magic:? The Gathering"}', '{"M:?TG"}'
+		'{"Planeswalk(er)?s?"}'
+	Sometimes
+		'{"Magic"}'
+	Displayed Version Name
+		"Magic: The Gathering"
+
+Mahou Sensei Negima / UQ Holder
+	Version
+		'{"Negima"}', '{"UQ Holder"}'
+	Displayed Version Name
+		"Negima"
+
+Maken Ki!
+	Version
+		'{"Maken(-| )Ki"}'
+	Displayed Version Name
+		"Maken-Ki!"
+
+Mao Mao: Heroes of Pure Heart
+	Version
+		'{"Mao Mao"}'
+	Displayed Version Name
+		"Mao Mao: Heroes of Pure Heart"
+
+MÄR
+	Version
+		'{"MÄR"}', '{"M(ä|a)rchen Awakens Romance"}'
+	Sometimes
+		'{"M(Ä|A)R"}'
+	Displayed Version Name
+		"MÄR"
+
+Mario & Luigi
+	Version
+		'{"Mario (&|and) Luigi"}', '{"M ?& ?L"}'
+	Specific
+		'{"Super ?star Saga"}'
+	Displayed Version Name
+		"Mario & Luigi"
+
+Marvel 2099
+	Version
+		'{"2099"}', '{"928"}'
+	Displayed Version Name
+		"2099"
+		# If name contains "2099":
+			""
+
+Marvel Cinematic Universe
+	Version
+		'{"Marvel Cinematic Universe"}', '{"MCU"}'
+		'{"199999"}'
+	
+	Other
+		'{"Netflix"}' (eg. Daredevil, Jessica Jones, Luke Cage, Punisher)
+		r'{"\\(Daredevil\\)"}' (eg. Nobu)
+		'{"Cinematic"}'
+	
+	Specific
+		'{"Infinity War"}', '{"IW"}'
+		'{"Endgame"}', '{"EG"}'
+		'{"Homecoming"}', '{"Far From Home"}'
+		'{"Civil War"}', '{"CW"}'
+		'{"Black Panther", "movie"}'
+		r'{"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D"}'
+		'{"Wanda ?Vision"}'
+		...
+	Actors
+		'{"Josh Brolin"}' (Thanos)
+		'{"Robert Downey"}' (Ironman)
+	Displayed Version Name
+		"MCU"
+
+Marvel Comics
+	Version
+		'{"616"}', r'{"\\(Marvel( comics?)?\\)"}'
+	Sometimes Called
+		'{"comics?"}'
+		'{"Marvel"}'
+	Displayed Version Name
+		"616"
+		# If Mojoverse:
+			"Marvel Mojoverse"
+
+Marvel Comics 2
+	Version
+		'{"982"}', '{"MC2"}', '{"Marvel Comics 2"}'
+	Displayed Version Name
+		"982"
+
+Marvel Mangaverse
+	Version
+		'{"Mangaverse"}', '{"2301"}'
+	Displayed Version Name
+		"2301"
+
+Marvel's Spider-Man
+	Version
+		'{"Marvel\'\'s Spider-Man", "2017", "Series|Cartoon"}'
+	Displayed Version Name
+		"Marvel''s Spider-Man"
+
+Marvel Ultimate
+	Version
+		'{"Ultimates"}', '{"Ultimate Marvel"}', '{"1610"}', r'{"\\(Ultimate\\)"}'
+	If character name is the same as 616
+		r'{"<character name> ?\\(Ultimates?"}'
+	Other
+		'{"default"}'
+	Displayed Version Name
+		"1610"
+	
+	# For character names
+		"Ultimates? <character name>"
+
+Marvel vs. Capcom
+	Version
+		r'{"Marvel vs\\.? Capcom"}', '{"MVC"}'
+	Displayed Version Name
+		"Marvel vs. Capcom"
+
+Mass Effect
+	Version
+		'{"M(ass)? ?Effect"}'
+	Specific
+		r'{"ME\\d"}'
+		'{"Andromeda"}'
+	Sometimes
+		'{"Shepard"}'
+	Acronyms
+		'{"ME"}'
+	Displayed Version Name
+		"Mass Effect"
+
+Medaka Box
+	Version
+		'{"Medaka Box"}'
+	Displayed Version Name
+		"Medaka Box"
+
+Mega Man
+	Version
+		'{"Mega ?Man"}'
+	Displayed Version Name
+		"Mega Man"
+
+Megamind
+	Version
+		'{"Megamind"}'
+	Displayed Version Name
+		"Megamind"
+	if character name == "Megamind":
+		default = ""
+
+Men in Black
+	Version
+		'{"Men in Black"}', '{"MIB"}'
+	Displayed Version Name
+		"Men in Black"
+
+Metal Gear
+	Version
+		'{"Metal ?Gear"}', r'{"MGS(\\d|\\w+)?"}', r'{"MGS?\\d"}'
+	Specific
+		'{"MGs?:? ?RR?"}'
+	Displayed Version Name
+		"Metal Gear"
+
+Metroid
+	Version
+		'{"Metroid"}'
+	Displayed Version Name
+		"Metroid"
+
+Middle-earth: Shadow of Mordor
+	Version
+		'{"Middle(-| )Earth"}', '{"Shadow of"}'
+	If character exists in books
+		'{"Shadow of (Mordor|War)"}'
+	Displayed Version Name
+		"Shadow of Mordor"
+
+Millarverse
+	Version
+		'{"Millar(-| )?(verse|world)"}'
+	Displayed Version Name
+		"Millarverse"
+
+Miraculous Ladybug
+	Version
+		'{"Miraculous"}', '{"Ladybug"}'
+	Main Character
+		'{"Miraculous"}', '{"Marinette"}'
+
+Mirai Nikki / Future Diary
+	Version
+		'{"Mirai Nikki"}', '{"Future Diary"}'
+	Displayed Version Name
+		"Mirai Nikki"
+
+Mirror's Edge
+	Version
+		'{"Mirror", "Edge"}'
+	Displayed Version Name
+		"Mirror''s Edge"
+
+The Misfit of the Demon King Academy
+	Version
+		'{"Demon King Academy"}'
+	Displayed Version Name
+		"The Misfit of the Demon King Academy"
+
+Miss Kobayashi's Dragon Maid
+	Version
+		'{"Dragon Maid"}', '{"Kobayashi"}'
+	Displayed Version Name
+		"Miss Kobayashi''s Dragon Maid"
+
+Mob Psycho 100
+	Version
+		'{"Mob (Psycho|100)"}', '{"MP ?100"}'
+	Sometimes
+		'{"Mob"}'
+	Displayed Version Name
+		"Mob Psycho 100"
+
+Mom, Please Don''t Come Adventuring With Me! / Bouken ni, Tsuitekonaide Okaa-san!
+	Version
+		'{"Tsuitekonaide"}', '{"Please Don\'\'t Come Adventuring With Me"}'
+	Displayed Version Name
+		"Mom, Please Don''t Come Adventuring With Me!"
+
+Monogatari
+	Version
+		'{"(Bake)?Monogatari"}'
+	Displayed Version Name
+		"Monogatari"
+
+Monster Musume
+	Version
+		'{"Monster Musume"}', '{"Monster Girl"}'
+	Displayed Version Name
+		"Monster Musume"
+
+Monsters, Inc.
+	Version
+		'{"Monsters,? Inc"}'
+	Displayed Version Name
+		"Monsters, Inc."
+
+MonsterVerse
+	Version
+		'{"Monster(-| )?verse"}'
+	Acronyms
+		'{"MV"}'
+	Specific
+		'{"Aftershock"}'
+		r'{"Godzilla vs\\.? Kong"}'
+	Displayed Version Name
+		"MonsterVerse"
+
+Mortal Kombat
+	Version
+		'{"Mortal Kombat"}', r'{"MK\\d*"}'
+	Sometimes
+		'{"Komposite"}'
+	Displayed Version Name
+		"Mortal Kombat"
+
+Mortal Kombat: Conquest
+	Version
+		'{"Mortal Kombat", "Conquest"}', '{"MK", "Conquest"}'
+	Displayed Version Name
+		"Mortal Kombat: Conquest"
+
+Mortal Kombat: Defenders of the Realm
+	Version
+		'{"Defenders of the Realm"}'
+	For characters exclusive to this spin-off
+		'{"Mortal Kombat"}', '{"MK"}'
+	Displayed Version Name
+		"Mortal Kombat: Defenders of the Realm"
+
+Mortal Kombat Movies
+	Version
+		'{"Mortal Kombat Movies?"}', '{"MK Movies?"}',
+		'{"1995"}',
+		'{"Mortal Kombat:? Annihilation"}',
+		'{"MK:? Annihilation"}',
+		'{"1997"}',
+		'{"(Mortal Kombat|MK) (Novels|Novelization)"}'
+	Displayed Version Name
+		"Mortal Kombat Movies"
+
+Mortal Kombat: Legacy
+	Version
+		'{"(Mortal Kombat|MK):? Legacy"}'
+	Displayed Version Name
+		"Mortal Kombat: Legacy"
+
+Mortal Kombat Legends
+	Version
+		'{"(Mortal Kombat|MK) Legends"}'
+	Displayed Version Name
+		"Mortal Kombat Legends"
+
+Mortal Kombat (Jeff Rovin)
+	Version
+		'{"Rovin"}'
+	Displayed Version Name
+		"Mortal Kombat, Rovin"
+
+Mortal Kombat (Malibu Comics)
+	Version
+		'{"Malibu"}'
+	Displayed Version Name
+		"Malibu Comics"
+
+Mortal Kombat: Shaolin Monks
+	Version
+		'{"Shaolin Monks"}'
+	if too many results:
+		'{"(Mortal Kombat|MK):? Shaolin Monks"}'
+	Displayed Version Name
+		"Mortal Kombat: Shaolin Monks"
+
+Mortal Kombat: The Journey Begins
+	Version
+		'{"The Journey Begins"}' or '{"Journey Begins"}'
+	Displayed Version Name
+		"Mortal Kombat: The Journey Begins"
+
+Mr Weebl
+	Version
+		'{"(Mr)?Weebl"}', '{"(Mr\.?|Mister) Weebl"}'
+	Displayed Version Name
+		"Mr Weebl"
+
+¡Mucha Lucha!
+	Version
+		'{"Mucha Lucha"}'
+	Displayed Version Name
+		"¡Mucha Lucha!"
+
+Mulan
+	Version
+		'{"Mulan"}'
+	Displayed Version Name
+		"Mulan"
+		# If name is the same:
+			"1998"
+
+My Hero Academia
+	Version
+		'{"My Hero Academia"}', r'{"\\(My Hero\\)"}', '{"(M|BN?)HA"}', '{"Boku no Hero"}', '{"Class ?1(-| )?a"}'
+	Displayed Version Name
+		"My Hero Academia"
+
+My Life As A Teenage Robot
+	Version
+		'{"My Life As A Teenage Robot"}'
+	Displayed Version Name
+		"My Life As A Teenage Robot"
+
+My Little Pony: Friendship is Magic
+	Version
+		'{"My Little Pony"}', '{"MLP"}'
+	Extra
+		'{"Ponyville"}'
+	Displayed Version Name
+		"My Little Pony"
+
+Mythology
+	Version
+		'{"myth?(ical|olog(y|ical))?"}'
+	If mythology is greek
+		'{"Greek myth?(olog(y|ical))?"}', r'{"charname ?\\(myth?(olog(y|ical))?"}', '{"Greek (Gods?|Pantheon)"}'
+	Displayed Version Name
+		# If mythology is greek
+			"Greek Mythology"
+
+(N)
+
+Naruto
+	Version
+		'{"Naruto"}', '{"Shippuden"}'
+	Sometimes
+	 '{"Boruto"}'
+	Displayed Version Name
+		"Naruto"
+
+Nasuverse
+	Version
+		'{"TYPE(-| )?MOON"}', '{"Nasu(-| )?verse"}'
+	Displayed Version Name
+		"Nasuverse"
+	
+	Fate
+		Version
+		'{"Fate"}'
+		Specific
+		'{"Stay/? ?k?Night"}', '{"F/?SN"}'
+		'{"Fate( ?/ ?| )Zero"}'
+		'{"Apoc(rypha)?"}'
+		'{"Grande? Order"}', '{"F/?GO"}'
+		Displayed Version Name
+		"Fate"
+		
+		#if it's Fate/Grand Order
+			"Fate/Grand Order"
+	
+	Kara no Kyoukai
+		Version
+			'{"Kara no Ky(o|ō)u?kai"}', '{"KnK"}', '{"Garden of Sinners"}'
+		Displayed Version Name
+			"Kara no Kyoukai"
+
+	Tsukihime
+		Version
+			'{"Tsukihime"}', '{"Kagetsu Tohya"}'
+		Displayed Version Name
+			"Tsukihime"
+
+Neon Genesis Evangelion
+	Version
+		'{"Eva(ngelion)?"}', '{"NGE"}'
+	Displayed Version Name
+		"Neon Genesis Evangelion"
+
+Nerf NOW!!
+	Version
+		'{"Nerf ?NOW"}'
+	Displayed Version Name
+		"Nerf NOW!!"
+
+Netflix's Castlevania
+	Version
+		'{"Netflix"}', '{"Castle(-| )?vania anime"}'
+	Displayed Version Name
+		"Netflix''s Castlevania"
+
+New 52
+	Version
+		'{"New(-| )?52"}', '{"Nu?-?52"}', '{"Post(-| )52"}', '{"Prime(-| )Earth"}', '{"Rebirth"}'
+	Displayed Version Name
+		"New 52" or "Rebirth"
+		# Sometimes
+			"New 52 / Rebirth"
+	# Note:
+		Says here N52 and Rebirth are the same canon
+		https://www.reddit.com/r/respectthreads/comments/85ebay/respect_batman_bruce_wayne_dc_new_52/dvx8x3m/
+
+Night Angel
+	Version
+		'{"Nights? Angel"}'
+	Displayed Version Name
+		"Night Angel"
+
+Ninja Sex Party
+	Version
+		'{"Ninja Sex Party"}', '{"NSP"}'
+	Displayed Version Name
+		"Ninja Sex Party"
+
+No Game No Life
+	Version
+		'{"No Game No Life"}', '{"NGNL"}'
+	Displayed Version Name
+		"No Game No Life"
+
+None Piece
+	Version
+		'{"None Piece"}', '{"Purple ?Eyes ?WTF"}'
+	Displayed Version Name
+		"None Piece"
+
+The Nutshack
+	Version
+		'{"Nutshack"}'
+	Displayed Version Name
+		"Nutshack"
+
+(O)
+
+Of Mice and Men
+	Version
+		'{"Mice (and|&) Men"}', '{"OMAM"}'
+	Displayed Version Name
+		"Of Mice and Men"
+
+OK KO! Let's Be Heroes
+	Version
+		'{"OK K\.?O\.?"}', '{"Let\'\'s be heroes"}'
+	Displayed Version Name
+		"OK K.O.! Let's Be Heroes"
+
+One Minute Melee
+	Version
+		'{"One Minute Melee"}', '{"OMM"}', '{"Death Battle"}'
+	Displayed Version Name
+		"One Minute Melee" or "DEATH BATTLE!"
+
+One Piece
+	Version
+		'{"One ?Piece?"}'
+	Acronyms
+		'{"OP"}'
+	Sometimes
+		'{"CP ?9"}', '{"Cipher Pol( Number)? 9"}'
+		'{"Donquixote"}', '{"Doflamingo"}', '{"Luffy"}', '{"Zoro"}', '{"Sanji"}'
+		'{"Devil(-| )Fruit"}'
+		'{"Straw ?Hats?"}'
+		'{"Skyp(ei|ie)a"}'
+		r'{"charname ?\\(One ?Piece"}'
+	Displayed Version Name
+		"One Piece"
+
+OneyPlays
+	Version
+		'{"Oney ?Plays"}'
+	Displayed Version Name
+		"OneyPlays"
+
+One Punch Man
+	Version
+		'{"One(-| )Punch Man"}', '{"OPM"}'
+	Sometimes
+		'{"Saitama"}', '{"Tatsumaki"}', '{"Genos"}'
+		'{"S(-| )Class"}'
+		'{"Puri Prisoner"}'
+		'{"Meteoric Burst"}'
+	Displayed Version Name
+		"One Punch Man"
+
+Origin (manga)
+	Version
+		r'{"\\(Origin\\)"}'
+	Displayed Version Name
+		"Origin"
+
+Overwatch
+	Version
+		'{"Overwatch"}'
+	Acronyms
+		'{"OW"}'
+	Displayed Version Name
+		"Overwatch"
+
+(P)
+
+Panty & Stocking with Garterbelt
+	Version
+		'{"Panty (&|and) Stocking"}'
+	Acronyms
+		'{"PSG"}'
+	Displayed Version Name
+		"Panty & Stocking"
+
+Paper Mario
+	Version
+		'{"Paper Mario"}'
+	Acronyms
+		'{"PM"}'
+	Displayed Version Name
+		"Paper Mario"
+
+Parasyte / Kiseijuu
+	Version
+		'{"Parasyte"}', '{"Kiseijuu"}'
+	Displayed Version Name
+		"Parasyte"
+
+Paul Blart: Mall Cop
+	Version
+		'{"Mall Cop"}'
+	Displayed Version Name
+		"Paul Blart: Mall Cop"
+
+Persona
+	Version
+		'{"Persona"}'
+	Specific
+		r'{"P\\d"}', '{"P4AU?"}', '{"PQ2?"}'
+		r'{"P\\d(G|R)?"}'
+		r'{"S\\.E\\.E\\.S"}'
+		'{"Investigation Team"}'
+		'{"Phantom Thie(f|ves)"}'
+	Displayed Version Name
+		"Persona"
+
+Peter Pan
+	Version
+		'{"Peter Pan"}'
+	If char name == "Peter Pan"
+		'{"1953"}'
+	Displayed Version Name
+		"Peter Pan"
+
+Phineas and Ferb
+	Version
+		'{"Phineas|Ferb"}'
+	Displayed Version Name
+		"Phineas and Ferb"
+
+Pirates of the Caribbean
+	Version
+		'{"Pirates? of the Caribbean"}', '{"POTC"}'
+	Displayed Version Name
+		"Pirates of the Caribbean"
+
+Planet Hulk
+	Version
+		'{"Planet Hulk"}'
+	Displayed Version Name
+		"Planet Hulk"
+
+Planet of the Apes Reboot
+	Version
+		'{"Planet of the Apes Reboot"}', '{"ROTPOTA"}', '{"DOTPOTA"}', '{"WFTPOTA"}',
+		'{"Rise of the Planet of the Apes"}', '{"Dawn of the Planet of the Apes"}', '{"War for the Planet of the Apes"}'
+	Displayed Version Name
+		"Planet of the Apes Reboot"
+
+Plants vs Zombies
+	Version
+		'{"Plants", "Zombies"}', '{"PvZ"}', '{"Garden Warfare"}'
+	Displayed Version Name
+		"Plants vs. Zombies"
+
+Pocket Monsters RéBURST
+	Version
+		'{"Pok(e|é)m(o|a)n"}', '{"R(é|e)BURST"}'
+	Displayed Version Name
+		"Pocket Monsters RéBURST"
+
+Pokémon (Pokemon)
+	Version
+		'{"Pok(e|é)m(o|a)n"}'
+	If they belong to a trainer
+		'{"<Insert name of trainer>"}'
+	Displayed Version Name
+		"Pokémon"
+	
+	#Note: split evolving pokemon into separate names in case they have separate RTs
+	#Note: combine games and anime canon when linking RTs
+
+Pokémon Adventures (Pokemon Adventures)
+	Version
+		'{"Pok(e|é)m(o|a)n Adventures"}'
+	Specific Trainer
+		'{"Name of trainer", "Pok(e|é)m(o|a)n Adventures"}'
+	Pokemon Nickname
+		'{"Pok(e|é)m(o|a)n"}'
+	Displayed Version Name
+		"Pokémon Adventures"
+
+Pokémon the Movie: I Choose You!
+	Version
+		'{"I Choose You"}', r'{"\\(ICY\\)"}', '{"ICY(-| )?verse"}'
+	Displayed Version Name
+		"Pokémon the Movie: I Choose You!"
+
+Pokémon: The Electric Tale of Pikachu
+	Version
+		'{"Electric Tale of Pikachu"}'
+	Displayed Version Name
+		"Pokémon: The Electric Tale of Pikachu"
+
+Post-Crisis
+	Version
+		'{"PC"}', '{"Earth(-| )(1|One)"}', '{"Posts?(-| )?C(risis)?"}', '{"New(-| )Earth"}'
+	Displayed Version Name
+		"Post-Crisis"
+
+Powerpuff Girls
+	Version
+		'{"Power ?puff Girls"}', '{"PPG"}'
+	Spin-offs
+		'{"Dance Pantsed"}'
+	"Powerpuff Girls: Dance Pantsed"
+	Displayed Version Name
+		"Powerpuff Girls"
+
+Power Rangers
+	Version
+		'{"Power Rangers?"}'
+	Specific
+		'{"BOOM!? Studios?"}'
+	Acronyms
+		'{"(MM)?PR"}'
+	Displayed Version Name
+		"Power Rangers"
+
+Pre-Crisis
+	Version
+		'{"Pre(-| )?Crisis"}', '{"Silver(-| )?Age"}', '{"Earth(-| )(1|One)"}'
+	Displayed Version Name
+		"Pre-Crisis"
+
+Pre-Flashpoint
+	Version
+		'{"Pre(-| )?Flashpoint"}'
+	Displayed Version Name
+		"Pre-Flashpoint"
+
+Pre New 52
+	Version
+		'{"pre(-| )N(ew ?)?52"}', '{"pre(-| )?52"}'
+	Displayed Version Name
+		"Pre New 52"
+
+The Princess and the Frog
+	Version
+		'{"Princess (and|&) the Frog"}'
+	Displayed Version Name
+		"The Princess and the Frog"
+
+Princess Mononoke
+	Version
+		'{"Princess Mononoke"}'
+	Displayed Version Name
+		"Princess Mononoke"
+		# If name == "Princess Mononoke"
+			""
+
+Problem Children Are Coming from Another World, Aren't They? / Mondaiji-tachi ga Isekai kara Kuru Sou Desu yo? / Mondaiji Tachi
+	Version
+		'{"Problem Children"}', '{"Mondaiji(-| )tachi"}'
+	Displayed Version Name
+		"Mondaiji-tachi"
+
+The Promised Neverland
+	Version
+		'{"Promised Neverland"}'
+	Displayed Version Name
+		"The Promised Neverland"
+
+Punch Line
+	Version
+		'{"Punch ?Line"}'
+	Displayed Version Name
+		"Punch Line"
+
+(Q)
+
+(R)
+
+Raimi Spider-Man
+	Version
+		'{"Raimi-?(verse)?"}'
+	Sometimes
+		'{"Spider(-| )Man"}' (Bone Saw)
+	Displayed Version Name
+		"Raimiverse Spider-Man"
+
+Ranma ½
+	Version
+		'{"Ranma"}'
+	Displayed Version Name
+		"Ranma ½"
+
+Rational Man with a Shotgun
+	Version
+		'{"Rational Man with a Shotgun"}', '{"RMWA?S"}'
+	Displayed Version Name
+		"Rational Man with a Shotgun"
+
+ReBoot
+	Version
+		'{"ReBoot"}'
+	Displayed Version Name
+		"ReBoot"
+
+Re:CREATORS
+	Version
+		'{"Re(:| )?CREATORS"}'
+	Displayed Version Name
+		"Re:CREATORS"
+
+Red Anvil Comics
+	Version
+		'{"Red Anvil"}'
+	Displayed Version Name
+		"Red Anvil Comics"
+
+RedLetterMedia
+	Version
+		'{"Red ?Letter ?Media"}'
+	Displayed Version Name
+		"RedLetterMedia"
+
+Red: Living On the Edge
+	Version
+		'{"Living On the Edge"}', '{"Livin\'\' on The Edge"}'
+	Displayed Version Name
+		"RED: Living On the Edge"
+
+Red Son
+	Version
+		'{"Red Son"}', '{"Earth(-| )30"}'
+	Displayed Version Name
+		"Red Son"
+
+Red vs. Blue
+	Version
+		r'{"Red vs\\.? Blue"}', '{"RvB"}'
+	Displayed Version Name
+		"Red vs. Blue"
+
+The Ren & Stimpy Show
+	Version
+		'{"Ren (&|and) Stimpy"}'
+	Displayed Version Name
+		"Ren & Stimpy"
+
+Resident Evil
+	Version
+		'{"Resident Evil"}', r'{"RE ?\\d"}'
+	Specific
+		'{"R(esident)? ?E(vil)?:? Village"}'
+	Displayed Version Name
+		"Resident Evil"
+
+Resident Evil (film series)
+	Version
+		'{"Resident Evil (film|movie)s?"}', '{"(Resident Evil|RE):? Apocalypse"}', '{"(Resident Evil|RE):? Extinction"}', '{"(Resident Evil|RE):? Afterlife"}', '{"(Resident Evil|RE):? Retribution"}', '{"(Resident Evil|RE):? The Final Chapter"}'
+	Displayed Version Name
+		"Resident Evil Films"
+
+Re:Zero
+	Version
+		'{"Re:? ?Zero"}'
+	Displayed Version Name
+		"Re:Zero"
+
+Rick and Morty
+	Version
+		'{"Rick (&|and) Morty"}'
+	Other
+		'{"C-?137"}'
+		'{"Morty"}' (This is sometimes sufficient)
+		'{"Rick"}' (This is sometimes sufficient)
+	Acronyms
+		'{"RAM"}'
+	Displayed Version Name
+		"Rick and Morty"
+
+Rise of the Teenage Mutant Ninja Turtles
+	Version
+		'{"Rise of the", "TMNT"}', '{"ROT ?TMNT"}'
+	Displayed Version Name
+		"Rise of the Teenage Mutant Ninja Turtles"
+
+Rock Hard Gladiators
+	Version
+		'{"RHG"}', '{"Rock Hard Gladiators"}', '{"Zetabrand"}'
+	Displayed Version Name
+		"RHG"
+
+Rosario + Vampire
+	Version
+		'{"Rosario"}', r'{"R\\+V"}'
+	Displayed Version Name
+		"Rosario + Vampire"
+
+RPC Authority
+	Version
+		'{"RPC"}'
+	Displayed Version Name
+		"RPC Authority"
+	
+	# For characters, the pattern is RPC(-| )?Number
+
+RWBY
+	Version
+		'{"RWBY"}'
+	Displayed Version Name
+		"RWBY"
+
+(S)
+
+Saint Seiya
+	Version
+		'{"Seiya"}'
+	Displayed Version Name
+		"Saint Seiya"
+
+Sakigake!! Otokojuku
+	Version
+		'{"Otokojuku"}'
+	Displayed Version Name
+		"Sakigake!! Otokojuku"
+
+Samurai Jack
+	Version
+		'{"Samurai Jack"}'
+	Displayed Version Name
+		"Samurai Jack"
+
+Scary Godmother: Halloween Spooktakular
+	Version
+		'{"Spooktacular"}', '{"Revenge of Jimmy"}'
+	Displayed Version Name
+		"Scary Godmother: Halloween Spooktacular"
+
+Scooby-Doo
+	Version
+		'{"Scooby(-| )?Doo"}'
+	Acronyms
+		'{"SD"}'
+	Displayed Version Name
+		"Scooby-Doo"
+
+Scooby-Doo 2002 Live Action
+	Version
+		'{"Scooby", "2002"}', '{"Scooby", "live action"}', '{"Scooby", "Monsters Unleashed"}'
+	If name is "Mystery Inc" or "Scooby-Gang"
+		'{"2002"}', '{"live action"}', '{"Monsters Unleashed"}'
+	Displayed Version Name
+		"Live Action Scooby-Doo"
+
+Scott Pilgrim
+	Version
+		'{"Scott Pilgrim"}'
+	Displayed Version Name
+		"Scott Pilgrim"
+
+SCP
+	Version
+		'{"SCP"}'
+	Displayed Version Name
+		# If the name has "SCP" in it
+			""
+		# If the name doesn't have "SCP" in it
+			"SCP"
+	
+	# For character names, put "SCP(-| )?<number>", or just <number>
+
+Secret Saturdays
+	Version
+		'{"Secret Saturdays"}'
+	Displayed Version Name
+		"Secret Saturdays"
+
+Sekiro: Shadows Die Twice
+	Version
+		'{"Sekiro"}'
+	Displayed Version Name
+		"Sekiro"
+
+Seven Deadly Sins
+	Version
+		'{"(Seven|7) Deadly Sins"}', '{"(S|7)DS"}', '{"Nanatsu no Taizai"}', '{"NNT"}'
+	Displayed Version Name
+		"Seven Deadly Sins"
+
+The Seven Sleepers
+	Version
+		'{"Seven Sleepers"}'
+	Displayed Version Name
+		"The Seven Sleepers"
+
+Shen Comix
+	Version
+		'{"Shen ?Comix"}', '{"Blue ?chair"}', '{"Owl ?turd"}'
+	Displayed Version Name
+		"Bluechair/Owlturd/Shencomix"
+
+She-Ra and the Princesses of Power
+	Version
+		'{"She(-| )Ra"}'
+	Displayed Version Name
+		"She-Ra"
+
+Shield Hero
+	Version
+		'{"Shield Hero"}', '{"Naofumi"}'
+	Displayed Version Name
+		"Shield Hero"
+
+Shin Megami Tensei
+	Version
+		'{"S(hin)? ?M(egami)? ?T(ensei)?"}'
+	Specific
+		'{"Nocturne"}'
+	Displayed Version Name
+		"Shin Megami Tensei"
+
+Shrek
+	Version
+		'{"Shrek"}'
+	Displayed Version Namet
+		"Shrek"
+		# If character name == "Shrek":
+			""
+
+Shuumatsu no Valkyrie
+	Version
+		'{"Shuumatsu no Valkyrie"}', '{"Record of Ragnarok"}'
+	Displayed Version Name
+		"Shuumatsu no Valkyrie"
+
+SiivaGunner
+	Version
+		'{"Si(i|l)vaGunner"}'
+	Displayed Version Name
+		"SiivaGunner"
+
+The Simpsons
+	Version
+		'{"Simpsons"}'
+	Displayed Version Name
+		"The Simpsons"
+
+Skulduggery Pleasant
+	Version
+		'{"Skull?duggery Pleasant"}'
+	If full name is not needed
+		'{"Skull?duggery"}'
+	Acronyms
+		'{"SP"}'
+	Displayed Version Name
+		"Skulduggery Pleasant"
+
+Smallville
+	Version
+		'{"Smallville"}'
+	If too many versions:
+		r'{"Supergirl \\(Smallville"}', '{"Smallville Super ?girl"}'
+	Displayed Version Name
+		"Smallville"
+
+So I'm a Spider, So What? / Kumo Desu ga, Nani ka?
+	Version
+		'{"a Spider"}', '{"Kumo Desu ga"}'
+	Displayed Version Name
+		"So I'm a Spider, So What?"
+
+Something Series
+	Version
+		'{"Something ?Series"}', '{"Terminal ?Montage"}'
+	Specific
+		'{"Something About Kirby"}'
+	Displayed Version Name
+		"Something Series"
+
+Sonic the Hedgehog
+	Version
+		'{"Sonic the Hedgehog"}'
+	If character name == "Sonic"
+		'{"Sonic vs"}', '{"vs\.? Sonic"}', '{"Sonic could beat"}'
+	If character name == "Chaos"
+		r'{"Chaos \\(Sonic"}', '{"vs\.? Chaos", "Sonic"}', '{"Chaos vs", "Sonic"}'
+	Displayed Version Name
+		"Sonic the Hedgehog"
+
+The Sorcerer's Apprentice
+	Version
+		'{"Sorcer(e|o)r\'\'s Apprentice"}'
+	Displayed Version Name
+		"The Sorcerer''s Apprentice"
+
+Soul Eater
+	Version
+		'{"Soul Eater"}'
+	Displayed Version Name
+		"Soul Eater"
+
+The Spectacular Spider-Man
+	Version
+		'{"Spectacular Spider(-| )?Man"}'
+	Displayed Version Name
+		"Spectacular Spider-Man"
+
+The SpongeBob SquarePants Anime
+	Version
+		'{"Spongebob (Squarepants )?Anime"}'
+	Displayed Version Name
+		"The SpongeBob SquarePants Anime"
+	
+The Stormlight Archive
+	Version
+		'{"Storm ?light"}'
+	Displayed Version Name
+		"The Stormlight Archive"
+
+The Subspace Emissary's Worlds Conquest
+	Version
+		'{"Subspace Emissary\'\'s Worlds? Conquest"}'
+	Displayed Version Name
+		"Subspace Emissary''s Worlds Conquest"
+
+Sword Art Online
+	Version
+		'{"Sword Art Online"}', '{"SAO"}'
+	Specific
+		'{"Alicization"}'
+	Displayed Version Name
+		"Sword Art Online"
+
+Sword Art Online Abridged
+	Version
+		'{"SAO: Abridged"}', '{"Sword Art Online:? Abridged"}'
+	Displayed Version Name
+		"SAO Abridged"
+
+South Park
+	Version
+		'{"South Park"}'
+	Displayed Version Name
+		"South Park"
+
+Spaceballs
+	Version
+		'{"Space ?balls"}'
+	Displayed Version Name
+		"Spaceballs"
+
+Spawn
+	Version
+		'{"Spawn"}'
+	Displayed Version Name
+		"Spawn"
+
+Spider-Man: Into the Spider-verse
+	Version
+		'{"Spider(-| )?Verse"}', '{"ITSV"}'
+	Displayed Version Name
+		"Into the Spider-Verse"
+
+Spider-Man PS4
+	Version
+		'{"Insomniac"}', '{"Spider(-| )?Man", "PS4"}', '{"1048"}'
+	If character name == Spider-Man
+		'{"PS4"}'
+	Displayed Version Name
+		"Insomniac''s Spider-Man"
+
+SpongeBob SquarePants
+	Version
+		'{"SpongeBob"}'
+	Displayed Version Name
+		"SpongeBob"
+
+SSSS. Gridman
+	Version
+		'{"Gridman"}'
+	Displayed Version Name
+		"SSSS. Gridman"
+
+Star Fox
+	Version
+		'{"Star ?Fox"}'
+	Displayed Version Name
+		"Star Fox"
+
+Starship Troopers
+	Version
+		'{"Starship Troopers"}'
+	Displayed Version Name
+		"Starship Troopers"
+
+Star Wars
+	Version
+		'{"S(tar )?Wars"}'
+	Extended Universe
+		'{"Extended Universe"}', '{"EU"}', '{"Legends"}'
+	Acronyms
+		'{"SW"}'
+	Specific
+		'{"Clone Wars"}'
+		'{"SWR"}'
+		'{"Fallen Order"}', '{"JFO"}'
+		'{"Mandalorian"}'
+		'{"Rise of (the )?Skywalker"}', '{"ROS"}', '{"Force Awakens"}', '{"TFA"}', '{"Last Jedi"}', '{"TLJ"}'
+	Displayed Version Name
+		"Star Wars"
+
+Star vs. The Forces of Evil
+	Version
+		'{"Star vs"}', '{"SVTFOE"}'
+	Displayed Version Name
+		"SVTFOE"
+
+Steven Universe
+	Version
+		'{"Steven"}','{"SU"}', '{"Crystal Gems?"}'
+	Displayed Version Name
+		"Steven Universe"
+
+Street Fighter
+	Version
+		'{"Street Fighter"}', r'{"SF\\d"}'
+	Displayed Version Name
+		"Street Fighter"
+
+Street Sharks
+	Version
+		'{"Street Sharks"}'
+	Displayed Version Name
+		"Street Sharks"
+	if character name == "Street Sharks"
+		default = "1994"
+
+Strike Witches / World Witches
+	Version
+		'{"Strike Witches"}', '{"World Witches"}'
+	Displayed Version Name
+		"Strike Witches"
+
+Strong Female Protagonist
+	Version
+		'{"Strong Female Protagonist"}', '{"SFP"}'
+	Displayed Version Name
+		"Strong Female Protagonist"
+
+SUDA51 / Suda 51
+	Version
+		'{"Suda ?51"}', '{"Goichi Suda"}'
+	Specific
+		'{"Shadows? of the DAMNED"}'
+		'{"Killer ?7"}'
+	Displayed Version Name
+		"SUDA51"
+
+Suggsverse
+	Version
+		'{"Suggs(verse)?"}'
+		'{"Heir to the Stars"}'
+	Displayed Version Name
+		"Suggsverse"
+
+The Suite Life of Zack & Cody
+	Version
+		'{"Suite Life"}', '{"Zac(k|h) (&|and) Cody"}'
+	Displayed Version Name
+		"The Suite Life of Zack & Cody"
+
+Super Best Friends Play
+	Version
+		'{"(Super|Two) Best Friends"}'
+	Displayed Version Name
+		"Super Best Friends Play"
+
+SuperJail!
+	Version
+		'{"SuperJail"}'
+	Displayed Version Name
+		"SuperJail!"
+
+Superman: Secret Identity
+	Version
+		'{"Superman:? Secret Identity"}', r'{"\\(Secret Identity\\)"}'
+	Displayed Version Name
+		"Superman: Secret Identity"
+
+Superman VS The Elite
+	Version
+		r'{"Superman vs\\.? The Elite"}'
+	Displayed Version Name
+		"Superman vs. The Elite"
+
+Super Mario
+	Version
+		'{"Mario"}'
+	Displayed Version Name
+		"Mario"
+
+Super Mario Bros. Z
+	Version
+		'{"SMBZ"}', r'{"Super Mario Bros\\.? Z"}', '{"Super Mario Brothers Z"}'
+	Displayed Version Name
+		"Super Mario Bros. Z"
+
+Super Mario Brothers Super Show!
+	Version
+		'{"Super Mario Brothers Super Show"}', '{"Super Mario Bros\.? Super Show"}'
+	Displayed Version Name
+		"Super Mario Brothers Super Show!"
+
+Super Mario World (TV series)
+	Version
+		'{"Super Mario World cartoon"}'
+	Displayed Version Name
+		"Super Mario World TV series"
+
+Super Robot Monkey Team Hyper Force Go!
+	Version
+		'{"Super Robot Monkey"}', '{"Super (Robot )?Monkeys?"}', '{"Hyper Force Go"}', '{"SRMTHFG"}'
+	Displayed Version Name
+		"Super Robot Monkey Team Hyper Force Go!"
+
+Super Smash Bros
+	Version
+		'{"Smash (Bro(ther)?s?|Ultimate)"}', '{"SSBB"}', r'{"\\(Smash"}'
+	Displayed Version Name
+		"Super Smash Bros"
+
+Supreme
+	Version
+		'{"Supreme"}', '{"Extreme"}'
+	Displayed Version Name
+		"Supreme"
+
+SWAT Kats: The Radical Squadron
+	Version
+		'{"SWAT Kats"}'
+	Displayed Version Name
+	if character name == "SWAT Kats"
+		default = ""
+	or sometimes "SWAT Kats: The Radical Squadron"
+
+Sword Interval
+	Version
+		'{"Sword Interval"}'
+	Displayed Version Name
+		"Sword Interval"
+
+Sym-Bionic Titan
+	Version
+		'{"Sym(-| )?Bionic Titan"}'
+	Displayed Version Name
+		"Sym-Bionic Titan"
+
+Symphogear
+	Version
+		'{"Symphogear"}'
+	Displayed Version Name
+		"Symphogear"
+
+(T)
+
+Tales of Symphonia
+	Version
+		'{"Symphonia"}'
+	Displayed Version Name
+		"Tales of Symphonia"
+
+Tales of Xillia
+	Version
+		'{"Xillia"}'
+	Displayed Version Name
+		"Tales of Xillia"
+
+Tangled
+	Version
+		'{"Tangled"}'
+	Specific
+		'{"Tangled", "The Series"}'
+	Displayed Version Name
+		"Tangled"
+
+Team Fortress 2
+	Version
+		'{"TF2"}', '{"Team Fortress"}'
+	Displayed Version Name
+		"TF2"
+
+TeamFourStar
+	Version
+		'{"Team ?Four ?Star"}', '{"TFSA?"}', '{"DBZ:? ?A"}', '{"Abridged"}'
+		'{"D(ragon)? ?B(all)? ?Z:? Abridged"}'
+	Displayed Version Name
+		"TeamFourStar"
+
+Teenage Mutant Ninja Turtles
+	Version
+		'{"Teenaged? Mutant Ninja Turtles?"}', '{"TMNT"}'
+
+Teenage Mutant Ninja Turtles (1987)
+	Version
+		'{"Teenaged? Mutant Ninja Turtles?", "1987"}', '{"TMNT", "1987"}', '{"TMNT", "87"}', '{"original TMNT cartoon"}'
+	Displayed Version Name
+		"TMNT 1987"
+	if name == "Teenage mutant ninja turtles":
+		"1987"
+
+Teenage Mutant Ninja Turtles (2003)
+	Version
+		'{"Teenaged? Mutant Ninja Turtles?", "2003"}', '{"TMNT", "2003"}'
+	Displayed Version Name
+		"TMNT 2003"
+
+Teen Titans
+	Version
+		r'{"\\(Teen Titans?\\)"}', r'{"\\[Teen Titans?\\]"}', '{"Teen Titans (the )?animated"}', '{"from Teen Titans"}',
+		'{"Teen Titans", "TV Show"}', '{"Teen Titans TV"}', '{"Teen Titans show"}',
+		'{"Teen Titans", "show versions?"}', '{"Teen Titans original"}', '{"Teen Titans Cartoon"}',
+		'{"Teen Titans", "2003|2006"}', '{"animated Teen Titans"}'
+	When it's unambiguous
+		'{"Teen Titans"}'
+		'{"Cartoon Network"}'
+	Whole Team
+		'{""}'
+	Other
+		r'{"Aqualad \\(Teen Titans\\)"}'
+		r'{"Kid Flash \\(Teen Titans\\)"}'
+	Displayed Version Name
+		"Teen Titans"
+
+Tenchi Muyo! / Shin Tenchi Muyo / Tenchi in Tokyo
+	Version
+		'{"Tenchi"}'
+	Displayed Version Name
+		"Tenchi Muyo!"
+
+Terminator
+	Version
+		'{"Terminator"}'
+	Displayed Version Name
+		"Terminator"
+
+Terra Formars
+	Version
+		'{"Terra ?Formars"}'
+	Displayed Version Name
+		"Terra Formars"
+
+The Texas Chain Saw Massacre
+	Version
+		'{"Texas Chain ?Saw"}'
+	Acronyms
+		'{"TCSM"}'
+	Displayed Version Name
+		"The Texas Chain Saw Massacre"
+
+The Tick
+	Version
+		'{"1994"}'
+	Displayed Version Name
+		"The Tick"
+	if character name == "The Tick":
+		default = ""
+
+The Tick (2016 TV series)
+	Version
+		'{"201(6|7|8|9)"}', '{"Amazon"}'
+	Displayed Version Name
+	if character name == "The Tick":
+		default = "2016"
+
+That Time I Got Reincarnated as a Slime / Tensei Shitara Slime Datta Ken
+	Version
+		'{"Slime", "(Reincarnated|Tensei|Web novel|Rimuru)"}', '{"Slime Isekai"}', '{"Rimuru"}'
+	Sometimes
+		'{"Slime"}'
+	Displayed Version Name
+		"That Time I Got Reincarnated as a Slime"
+
+ThunderCats
+	Version
+		'{"Thunder ?Cats"}'
+	Displayed Version Name
+		"ThunderCats"
+
+Titanfall
+	Version
+		'{"Titan ?fall"}'
+	Displayed Version Name
+		"Titanfall"
+
+Toaru Majutsu no Index
+	Version
+		'{"To ?aru"}', '{"Index(verse)?"}', '{"TAMNI"}', '{"Raildex"}'
+	Displayed Version Name
+		"Toaru Majutsu no Index"
+
+Tokyo Ghoul
+	Version
+		'{"Tokyo Ghoul"}'
+	Acronyms
+		'{"TG"}'
+	Displayed Version Name
+		"Tokyo Ghoul"
+
+Top Secret!
+	Version
+		'{"Top Secret"}'
+	Displayed Version Name
+		"Top Secret!"
+
+Toriko
+	Version
+		'{"Toriko(verse)?"}'
+	Displayed Version Name
+		"Toriko"
+
+To the Abandoned Sacred Beasts
+	Version
+		'{"Abandoned Sacred Beasts"}'
+	Displayed Version Name
+		"To the Abandoned Sacred Beasts"
+
+Touhou
+	Version
+		'{"Touhou"}'
+	Displayed Version Name
+		"Touhou"
+
+Trama Editorial
+	Version
+		'{"Trama"}'
+	Displayed Version Name
+		"Trama Editorial Comics"
+
+Transformers Films (Michael Bay)
+	Version
+		'{"Transformers (Film|Movie)s?"}', '{"Bay(verse|formers)"}', '{"Michael Bay"}', '{"Bay", "Transformers"}'
+	Specific
+		'{"Last Knight"}'
+		r'{"Bumblebee ?\\(Movie"}', '{"Bumblebee", "2018"}'
+	Displayed Version Name
+		"Transformers Films"
+
+Transformers: Prime
+	Version
+		'{"Transformers:? Prime"}'
+	Displayed Version Name
+		"Transformers: Prime"
+
+TRON
+	Version
+		'{"TRON"}'
+	Displayed Version Name
+		"TRON"
+
+Twin Star Exorcists
+	Version
+		'{"Twin Star Exorcists"}', '{"Sousei no Onmyouji"}'
+	Displayed Version Name
+		"Twin Star Exorcists"
+
+(U)
+
+Ultraman
+	Version
+		'{"Ultraman"}',
+		'{"Ultra(man)? (series|franchise)"}'
+	Displayed Version Name
+		"Ultraman"
+
+Underdog
+	Version
+		'{"Underdog vs"}', r'{"\\(Underdog\\)"}', '{"Comics? Underdog"}'
+	Opponents
+		'{"Mighty Mouse"}'
+	Displayed Version Name
+		""
+
+(V)
+
+The VelociPastor
+	Version
+		'{"VelociPastor"}'
+	Displayed Version Name
+		"The VelociPastor"
+
+Venture Bros.
+	Version
+		'{"Venture (Bros|Brothers)"}'
+	Displayed Version Name
+		"Venture Bros."
+
+Vertigo
+	Version
+		'{"DC"}', '{"Vertigo"}'
+	Displayed Version Name
+		"DC"
+
+Vinland Saga
+	Version
+		'{"Vinland"}'
+	Displayed Version Name
+		"Vinland Saga"
+
+Voltron: Legendary Defender
+	Version
+		'{"Legendary Defender"}'
+	If original
+		'{"Voltron"}'
+	Displayed Version Name
+		"Voltron: Legendary Defender"
+
+(W)
+
+Wakfu
+	Version
+		'{"Wakfu"}'
+	Displayed Version Name
+		"Wakfu"
+
+Wallace and Gromit
+	Version
+		'{"Wallace|Gromit"}'
+	Displayed Version Name
+		"Wallace and Gromit"
+
+Walt Disney's Mickey Mouse
+	Version
+		'{"Walt Disney\'\'s Mickey Mouse"}', '{"Gottfredson"}'
+	Displayed Version Name
+		"Walt Disney''s Mickey Mouse"
+
+Wander Over Yonder
+	Version
+		'{"Wander Over Yonder"}', '{"WOY"}'
+	Displayed Version Name
+		"Wander Over Yonder"
+
+Warbreaker
+	Version
+		'{"Warbreaker"}', '{"Rhythm of War"}', '{"Coppermind"}', '{"Brandon Sanderson"}'
+	Displayed Version Name
+		"Warbreaker"
+
+Warhammer 40,000
+	Version
+		'{"(WH)?40K"}', '{"Warhammer"}'
+	Acronyms
+		'{"WH"}'
+	Other
+	if character name = "Abaddon":
+		'{"Draigo"}', '{"Black Crusade"}'
+	Displayed Version Name
+		"Warhammer 40k"
+
+WarioWare
+	Version
+		'{"Wario ?Ware"}'
+	Displayed Version Name
+		"WarioWare"
+
+The War of the Worlds
+	Version
+		'{"War of the Worlds"}', '{"T?WOTW"}'
+	Displayed Version Name
+		"The War of the Worlds"
+
+Watchmen
+	Version
+		'{"Watchmen"}'
+	Displayed Version Name
+		"Watchmen"
+
+Welcome to Demon School! Iruma-kun
+	Version
+		'{"Demon School"}', '{"Mai?rimashita"}'
+	Displayed Version Name
+		"Welcome to Demon School! Iruma-kun"
+
+The Wheel of Time
+	Version
+		'{"Wheel of Time"}'
+	Acronyms
+		'{"WOT"}'
+	Displayed Version Name
+		"The Wheel of Time"
+
+Who Framed Roger Rabbit
+	Version
+		'{"Rod?ger Rabbit"}'
+	Displayed Version Name
+		"Who Framed Roger Rabbit"
+
+Wildstorm
+	Version
+		'{"Wild ?storm"}'
+	Displayed Version Name
+		"Wildstorm"
+
+W.I.T.C.H.
+	Version
+		'{"W\.I\.T\.C\.H"}'
+		'{"series"}'
+	Displayed Version Name
+		"W.I.T.C.H."
+
+The World Ends With You
+	Version
+		'{"World Ends With You"}', '{"TWEWY"}'
+	Displayed Version Name
+		"The World Ends With You"
+
+Worm
+	Version
+		'{"Worm(verse)?"}', '{"Para(-| )?humans?"}', '{"Brockton Bay"}'
+	Sometimes
+		'{"Slaughter ?house"}'
+		'{"End ?bringers?"}'
+		'{"Ward"}'
+	Displayed Version Name
+		"Worm"
+
+Wreck-It Ralph
+	Version
+		'{"Wreck(-| )It Ralph"}'
+	Displayed Version Name
+		"Wreck-It Ralph"
+
+(X)
+
+Xeelee Sequence
+	Version
+		'{"Xee?lee"}'
+	Displayed Version Name
+		"Xeelee Sequence"
+
+X-Men
+	Version
+		'{"X(-| )Men"}'
+	Displayed Version Name
+		?
+
+X-Ray and Vav
+	Version
+		'{"X(-| )Ray (and|&) Vav"}'
+	Displayed Version Name
+		"X-Ray and Vav"
+
+(Y)
+
+YIIK: A Post-Modern RPG
+	Version
+		'{"YIIK"}'
+	Displayed Version Name
+		"YIIK"
+
+Yogscast
+	Version
+		'{"Yogscast"}'
+	Specific
+		'{"YogsQuest"}'
+	Displayed Version Name
+		"Yogscast"
+
+Young Justice
+	Version
+		r'{"\\(Young Justice"}', '{"Young Justice", "season \d"}', r'{"\\[Young Justice"}',
+		'{"Young Justice", "TV (shows?|series|versions?)"}',
+		'{"Young Justice", "cartoon network"}',
+		'{"from Young Justice"}', '{"Young Justice (show|series)"}'
+	Displayed Version Name
+		"Young Justice"
+	
+You're Next
+	Version
+		'{"You\'\'re Next"}'
+	Displayed Version Name
+		"You''re Next"
+
+Yu-Gi-Oh!
+	Version
+		'{"Yu(-| )?Gi(-| )?Oh"}'
+	Displayed Version Name
+		"Yu-Gi-Oh!"
+
+Yu Yu Hakusho
+	Version
+		'{"Y(u|ū) ?Y(u|ū) Hakusho"}', '{"YYH"}'
+	Displayed Version Name
+		"Yu Yu Hakusho"
+
+Yuuki Yuuna Is a Hero / Washio Sumi Is a Hero
+	Version
+		'{"(Yuuki Yuuna|Washio Sumi) Is a Hero"}', '{"WaSuYu"}', '{"Y(ū|u)ki Y(ū|u)na wa Y(ū|u)sha de Aru"}'
+	Displayed Version Name
+		"Yuuki Yuuna Is a Hero"
+
+Yuuna and the Haunted Hot Springs
+	Version
+		'{"Yuuna and the Haunted Hot Springs"}', '{"Yuragi(-| )sou no Yuuna(-| )san"}'
+	Displayed Version Name
+		"Yuuna and the Haunted Hot Springs"
+
+(Z)
+
+Zatch Bell!
+	Version
+		'{"(Zatch|Gash) Bell"}', '{"Golden Gash"}', '{"Konjiki no Gash"}'
+	Displayed Version Name
+		"Zatch Bell!"
+
+ZONE-Archive
+	Version
+		'{"Zone ?Toons"}', '{"ZONE(-| )Archive"}'
+	Displayed Version Name
+		"ZONE-Archive"
+	
+Zorro (The Mask of Zorro - 1998 / The Legend of Zorro - 2005)
+	Version
+		'{"1998"}', '{"2005"}',
+		'{"Mask of Zorro"}', '{"Legend of Zorro"}'
+	Displayed Version Name
+		"The Mask of Zorro"

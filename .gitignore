@@ -1,0 +1,6 @@
+__pycache__/
+**/config.py
+**/test_results.txt
+**/diff_log.txt
+**/temp_output_file.txt
+*.pyc

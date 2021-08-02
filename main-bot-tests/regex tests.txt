@@ -1,0 +1,26 @@
+Arrowverse Slade Wilson vs Arrowverse Captain Cold
+ArrowverseSlade Wilson vs Arrowverse Captain Cold
+Arrowverse Slade Wilsonvs Arrowverse Captain Cold
+Arrowverse's Slade Wilson vs Arrowverse's Captain Cold
+Slade Wilson (Arrowverse) [Arrowverse's]
+**From Arrowverse**
+#Arrowverse version
+Arrowverse.
+Arrowverse?
+Arrowverse,Arrowverse!
+[mcu/dragon ball]
+This (Title Has) brackets around [it]
+This [Title Has] brackets around [it]
+This [Title Has] brackets around (it)
+This (Title Has) brackets around (it) [dit] ah
+CW Flash vs All Might
+
+word boundaries: \bslade wilson\b
+titles with brackets: .*\((.+)\).*|.*\[(.+)\].*
+    This causes conflict with itself
+titles with round brackets: .*\((.+)\).*
+titles with square brackets: .*\[(.+)\].*
+[^[]()]*\((.+)\)[^[]()]*
+[[(].+[])]
+\(.+\)|\[.+\]
+within brackets: \(([^)]+)\)|\[([^]]+)\]
