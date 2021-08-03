@@ -87,6 +87,34 @@ cur = con.cursor()
 
 update_respectthread(cur, 2014, "Respect Franklin Hall, Graviton (Marvel, Earth-616)", "https://redd.it/ou5af2")
 update_respectthread(cur, 1970, "Respect the Destroyer [Asgardian] (Marvel, Earth-616)", "https://redd.it/ou5ahm")
+update_respectthread(cur, 15420, "Respect Gwen Stacy, Ghost-Spider, Gwenom (Marvel, Earth-65)", "https://redd.it/ou5mts")
+update_respectthread(cur, 13154, "Respect Quetzalcoatl, the Winged Serpent! (Fate)", "https://redd.it/ou98ye")
+
+########################################
+
+add_data(["Gwenom"],
+"Gwenom",
+False,
+True,
+[
+'{"65"}'
+],
+"65",
+'{15420}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ou5mts/respect_gwen_stacy_ghostspider_gwenom_marvel/
+
+add_data(["Ghost(-| )?Spider"],
+"Ghost-Spider",
+False,
+True,
+[
+'{"65"}'
+],
+"65",
+'{15420}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ou5mts/respect_gwen_stacy_ghostspider_gwenom_marvel/
 
 ########################################
 
