@@ -89,6 +89,7 @@ update_respectthread(cur, 2014, "Respect Franklin Hall, Graviton (Marvel, Earth-
 update_respectthread(cur, 1970, "Respect the Destroyer [Asgardian] (Marvel, Earth-616)", "https://redd.it/ou5ahm")
 update_respectthread(cur, 15420, "Respect Gwen Stacy, Ghost-Spider, Gwenom (Marvel, Earth-65)", "https://redd.it/ou5mts")
 update_respectthread(cur, 13154, "Respect Quetzalcoatl, the Winged Serpent! (Fate)", "https://redd.it/ou98ye")
+update_respectthread(cur, 690, "Respect Prisoner 775/Chamalien (Ben 10)", "https://redd.it/ouk5bp")
 
 ########################################
 
@@ -115,6 +116,131 @@ True,
 '{15420}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ou5mts/respect_gwen_stacy_ghostspider_gwenom_marvel/
+
+########################################
+
+id = get_rt_id(cur, "Respect Combo Man (Marvel, 616)", "https://redd.it/ouminh")
+add_data(["Combo Man"],
+"Combo Man",
+False,
+True,
+[
+'{"Marvel"}', '{"616"}'
+],
+"616",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ouminh/respect_combo_man_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ishtar, Queen of the Heavens! (Fate)", "https://redd.it/oubxkr")
+add_data(["Ishtar"],
+"Ishtar",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/oubxkr/respect_ishtar_queen_of_the_heavens_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Hessian Lobo, the Avenger of Shinjuku! (Fate)", "https://redd.it/oucwpc")
+add_data(["Hessian Lobo"],
+"Hessian Lobo",
+False,
+True,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/oucwpc/respect_hessian_lobo_the_avenger_of_shinjuku_fate/
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Saint Martha, the Dragonslayer! (Fate)", "https://redd.it/ouenpd")
+add_data([r"S(ain)?t\\.? Martha"],
+"Saint Martha",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}',
+'{"Servents?"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ouenpd/respect_saint_martha_the_dragonslayer_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Titan (Invincible)", "https://redd.it/ouebxj")
+add_data(["Titan"],
+"Titan",
+False,
+False,
+[
+r'{"Titan ?\\(Invincible"}'
+],
+"Invincible",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ouebxj/respect_titan_invincible/
+
+########################################
+
+id = get_rt_id(cur, "Respect Eatle (Ben 10)", "https://redd.it/ouj74n")
+add_data(["Eatle"],
+"Eatle",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ouj74n/respect_eatle_ben_10/
+
+########################################
+
+id = get_rt_id(cur, "Respect Tetrax! (Ben 10 Classic)", "https://redd.it/oupbx1")
+add_data(["Tetrax"],
+"Tetrax",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/oupbx1/respect_tetrax_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Marrow (Dreamwalker)", "https://redd.it/oum2xl")
+add_data(["Marrow"],
+"Marrow",
+False,
+False,
+[
+'{"Dreamwalker"}'
+],
+"Dreamwalker",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/oum2xl/respect_marrow_dreamwalker/
 
 ########################################
 
