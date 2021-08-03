@@ -134,6 +134,55 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect James Moriarty, the Napoleon of Crime! (Fate)", "https://redd.it/owvu8x")
+add_data(["Moriarty"],
+"Moriarty",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/owvu8x/respect_james_moriarty_the_napoleon_of_crime_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Waver Velvet/Lord El-Melloi II! (Fate)", "https://redd.it/ovk3fd")
+add_data(["Waver Velvet"],
+"Waver Velvet",
+False,
+True,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovk3fd/respect_waver_velvetlord_elmelloi_ii_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Gray, the Gravekeeper! (Fate)", "https://redd.it/ouybqj")
+add_data(["Gr(a|e)y"],
+"Gray",
+False,
+False,
+[
+r'{"Gr(e|a)y ?\\(Fate"}',
+r'{"Gr(e|a)y ?\\(F/?GO"}',
+'{"gravekeeper"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ouybqj/respect_gray_the_gravekeeper_fate/
+
+########################################
+
 id = get_rt_id(cur, "Respect Ishtar, Queen of the Heavens! (Fate)", "https://redd.it/oubxkr")
 add_data(["Ishtar"],
 "Ishtar",
@@ -199,6 +248,96 @@ r'{"Titan ?\\(Invincible"}'
 
 ########################################
 
+id = get_rt_id(cur, "Respect Aggregor! (Ben 10)", "https://redd.it/owpl0t")
+add_data(["Aggregor"],
+"Aggregor",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/owpl0t/respect_aggregor_ben_10/
+
+########################################
+
+id = get_rt_id(cur, "Respect Terraspin (Ben 10)", "https://redd.it/owjw9j")
+add_data(["Terraspin"],
+"Terraspin",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/owjw9j/respect_terraspin_ben_10/
+
+########################################
+
+id = get_rt_id(cur, "Respect Crashhopper (Ben 10)", "https://redd.it/ovszhz")
+add_data(["Crashhopper"],
+"Crashhopper",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Armodrillo! (Ben 10)", "https://redd.it/ovh7go")
+add_data(["Armodrillo"],
+"Armodrillo",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovh7go/respect_armodrillo_ben_10/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ampfibian! (Ben 10)", "https://redd.it/ov9ci2")
+add_data(["Ampfibian"],
+"Ampfibian",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ov9ci2/respect_ampfibian_ben_10/
+
+########################################
+
+id = get_rt_id(cur, "Respect Gravattack (Ben 10)", "https://redd.it/ov67g0")
+add_data(["Gravattack"],
+"Gravattack",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ov67g0/respect_gravattack_ben_10/
+
+########################################
+
 id = get_rt_id(cur, "Respect Eatle (Ben 10)", "https://redd.it/ouj74n")
 add_data(["Eatle"],
 "Eatle",
@@ -241,6 +380,338 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/oum2xl/respect_marrow_dreamwalker/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ryusei Sakuta, Kamen Rider Meteor (Kamen Rider Fourze)", "https://redd.it/owev3h")
+add_data(["Kamen Rider Meteor"],
+"Kamen Rider Meteor",
+False,
+True,
+[
+'{"Kamen Rider Fourze"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/owev3h/respect_ryusei_sakuta_kamen_rider_meteor_kamen/
+
+########################################
+
+id = get_rt_id(cur, "Respect Gentaro Kisaragi, Kamen Rider Fourze (Kamen Rider Fourze)", "https://redd.it/ovq7ar")
+add_data(["Kamen Rider Fourze"],
+"Kamen Rider Fourze",
+False,
+True,
+[
+'{"Gentaro Kisaragi"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovq7ar/respect_gentaro_kisaragi_kamen_rider_fourze_kamen/
+
+########################################
+
+id = get_rt_id(cur, "Respect Mitsuaki Gamou, the Sagittarius Zodiarts (Kamen Rider Fourze)", "https://redd.it/oxbvq8")
+add_data(["Mitsuaki Gamou"],
+"Mitsuaki Gamou",
+False,
+True,
+[
+'{"Kamen Rider"}'
+],
+"Kamen Rider",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/oxbvq8/respect_mitsuaki_gamou_the_sagittarius_zodiarts/
+
+########################################
+
+id = get_rt_id(cur, "Respect Kou Tatsugami, the Leo Zodiarts (Kamen Rider Fourze)", "https://redd.it/ox2eff")
+add_data(["Kou Tatsugami"],
+"Kou Tatsugami",
+False,
+True,
+[
+'{"Kamen Rider"}'
+],
+"Kamen Rider",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ox2eff/respect_kou_tatsugami_the_leo_zodiarts_kamen/
+
+########################################
+
+id = get_rt_id(cur, "Respect Natsuji Kijima, the Pegasus / Cancer Zodiarts (Kamen Rider Fourze)", "https://redd.it/ov9v74")
+add_data(["Natsuji Kijima"],
+"Natsuji Kijima",
+False,
+True,
+[
+'{"Kamen Rider"}'
+],
+"Kamen Rider",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ov9v74/respect_natsuji_kijima_the_pegasus_cancer/
+
+add_data(["Cancer Zodiarts"],
+"Cancer Zodiarts",
+False,
+True,
+[
+'{"Kamen Rider"}'
+],
+"Kamen Rider",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ov9v74/respect_natsuji_kijima_the_pegasus_cancer/
+
+########################################
+
+id = get_rt_id(cur, "Respect Agito (Origin: Spirits of the Past)", "https://redd.it/ove3kp")
+add_data(["Agito"],
+"Agito",
+False,
+False,
+[
+'{"Origins?"}', '{"Spirits of the Past"}'
+],
+"Origin: Spirits of the Past",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ove3kp/respect_agito_origin_spirits_of_the_past/
+
+########################################
+
+id = get_rt_id(cur, "Respect Flamie Speeddraw! (Rokka no Yuusha) (anime)", "https://redd.it/ovmpol")
+add_data(["Flamie Speeddraw"],
+"Flamie Speeddraw",
+False,
+True,
+[
+'{"Rokka"}'
+],
+"Rokka: Braves of the Six Flowers",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovmpol/respect_flamie_speeddraw_rokka_no_yuusha_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect Nachetanya Loei Piena Augustra! (Rokka no Yuusha) (anime)", "https://redd.it/ovmsa4")
+add_data(["Nachetan(i|y)a Loei Piena Augustra"],
+"Nashetania Loei Piena Augustra",
+False,
+True,
+[
+'{"Rokka"}'
+],
+"Rokka: Braves of the Six Flowers",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovmsa4/respect_nachetanya_loei_piena_augustra_rokka_no/
+
+########################################
+
+id = get_rt_id(cur, "Respect Goldov Auora! (Rokka no Yuusha) (anime)", "https://redd.it/ovmslx")
+add_data(["Goldo(f|v) Auora"],
+"Goldof Auora",
+False,
+True,
+[
+'{"Rokka"}'
+],
+"Rokka: Braves of the Six Flowers",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovmslx/respect_goldov_auora_rokka_no_yuusha_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect Chamot Rosso! (Rokka no Yuusha) (anime)", "https://redd.it/ovmsxw")
+add_data(["Chamot? Rosso"],
+"Chamo Rosso",
+False,
+True,
+[
+'{"Rokka"}'
+],
+"Rokka: Braves of the Six Flowers",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovmsxw/respect_chamot_rosso_rokka_no_yuusha_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect Hans Humpty! (Rokka no Yuusha) (anime)", "https://redd.it/ovmtcb")
+add_data(["Hans Humpty"],
+"Hans Humpty",
+False,
+True,
+[
+'{"Rokka"}'
+],
+"Rokka: Braves of the Six Flowers",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovmtcb/respect_hans_humpty_rokka_no_yuusha_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect Maura Chester! (Rokka no Yuusha) (anime)", "https://redd.it/ovmtke")
+add_data(["M(o|au)ra Chester"],
+"Mora Chester",
+False,
+True,
+[
+'{"Rokka"}'
+],
+"Rokka: Braves of the Six Flowers",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovmtke/respect_maura_chester_rokka_no_yuusha_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect Brainiac (Superman: Brainiac Attacks)", "https://redd.it/ovpr9w")
+add_data(["Brai?niac"],
+"Brainiac",
+False,
+False,
+[
+'{"Superman:? Brainiac Attacks"}'
+],
+"Superman: Brainiac Attacks",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovpr9w/respect_brainiac_superman_brainiac_attacks/
+
+########################################
+
+id = get_rt_id(cur, "Respect Blinx (Blinx: The Time Sweeper)", "https://redd.it/ovrotg")
+add_data(["Blinx"],
+"Blinx",
+False,
+True,
+[
+'{"Time Sweeper"}'
+],
+"Blinx: The Time Sweeper",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovrotg/respect_blinx_blinx_the_time_sweeper/
+
+########################################
+
+id = get_rt_id(cur, "Respect Siegfried (The Nibelungenlied)", "https://redd.it/ovsh75")
+add_data(["Siegfried"],
+"Siegfried",
+False,
+False,
+[
+'{"Nibelungenlied"}',
+'{"myth?(ical|olog(y|ical))?"}'
+],
+"The Nibelungenlied",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovsh75/respect_siegfried_the_nibelungenlied/
+
+add_data(["Sigurd"],
+"Sigurd",
+False,
+False,
+[
+'{"Nibelungenlied"}',
+'{"myth?(ical|olog(y|ical))?"}'
+],
+"The Nibelungenlied",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovsh75/respect_siegfried_the_nibelungenlied/
+
+add_data(["Sigurd"],
+"Sigurd",
+False,
+False,
+[
+'{"Fate"}'
+],
+"Fate",
+'{}'
+)
+#
+
+add_data(["Siegfried"],
+"Siegfried",
+False,
+False,
+[
+'{"Fate"}'
+],
+"Fate",
+'{}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Tommy Oliver (Bat in the Sun)", "https://redd.it/ovtdbn")
+add_data(["Tommy Oliver"],
+"Tommy Oliver",
+False,
+False,
+[
+'{"Bat ?in ?the ?Sun"}'
+],
+"Bat in the Sun",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovtdbn/respect_tommy_oliver_bat_in_the_sun/
+
+add_data(["Green Ranger"],
+"Green Ranger",
+False,
+False,
+[
+'{"Bat ?in ?the ?Sun"}'
+],
+"Bat in the Sun",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovtdbn/respect_tommy_oliver_bat_in_the_sun/
+
+########################################
+
+id = get_rt_id(cur, "Respect Quinlan Vos (Star Wars) [Legends]", "https://redd.it/ovyuxg")
+add_data(["Quinlan Vos"],
+"Quinlan Vos",
+False,
+True,
+[
+'{"S(tar )?Wars"}', '{"Legends?"}'
+],
+"Star Wars",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ovyuxg/respect_quinlan_vos_star_wars_legends/
+
+########################################
+
+id = get_rt_id(cur, "Respect Mech Cadet Yu and Buddy (Mech Cadet Yu)", "https://redd.it/owfsal")
+add_data(["Mech Cadet Yu"],
+"Mech Cadet Yu",
+False,
+True,
+[
+'{"Buddy"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/owfsal/respect_mech_cadet_yu_and_buddy_mech_cadet_yu/
 
 ########################################
 
