@@ -1,8 +1,10 @@
 # This module contains functions to generate a reply and leave a comment on the Reddit post.
 
+# Modules
+from typing import List
+
 # Custom modules
 from character import Character
-from typing import List
 
 def generate_comment(cur, character_list: List[Character], with_footer: bool) -> str:
     # The text to return, containing what to write in the reply comment

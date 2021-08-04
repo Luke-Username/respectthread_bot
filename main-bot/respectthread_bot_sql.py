@@ -1,5 +1,5 @@
 # This script is the main bot. It can be run with the shell script, runBotScript.sh.
-# It is a Reddit bot taht looks through new posts from a list of subreddit,
+# It is a Reddit bot that looks through new posts from a list of subreddit,
 # and analyzes their contents for matches inside its database.
 # If it finds a match, it will generate a comment linking the correct respect threads.
 # More info on respect threads can be found here: https://www.reddit.com/r/respectthreads/
@@ -12,11 +12,8 @@ import time         # To make an interval for the bot to wait
 
 # Custom modules
 import config       # Login details
-import matchup_checker as mcr
-import replier
-import text_processing as tp
+import post_reader  # To read and reply to posts
 
-subreddit_list = ["respectthread_bot"]
 posts_list = []
 blacklist = []
 
@@ -30,7 +27,7 @@ def bot_login():
     print("Logged in")
     if posts_list[-1] != "":
         with open("saved_posts.txt", "a") as f:
-            f.write('\n')
+            f.write("\n")
     return r
 
 def get_saved_posts():
@@ -72,21 +69,8 @@ def run_bot(r):
     )
     print("Connected to database")
     cur = con.cursor()
-
-    for sub in subreddit_list:
-        print("Obtaining new posts from r/{}".format(sub))
-        submissions = r.subreddit(sub).new(limit=7)
-        for submission in submissions:
-            if submission.id not in posts_list and submission.author.name not in blacklist:
-                title = tp.strip_accents(submission.title)
-                post = title + " " + tp.strip_accents(submission.selftext)
-                character_list = mcr.search_characters(title, post, cur)
-                if character_list:
-                    replier.reply_to_submission(r, submission, cur, character_list, True)
-            if submission.id not in posts_list:
-                with open("saved_posts.txt", "a") as f:
-                    f.write(submission.id + '\n')
-                posts_list.append(submission.id)
+    
+    post_reader.read_posts(r, cur, posts_list, blacklist)
 
     # Close the cursor and connection
     cur.close()
