@@ -4,6 +4,7 @@
 from typing import List         # To allow for List type method arguments.
 
 # Custom modules
+import file_io_manager          # For file input and output
 import matchup_checker as mcr   # To analyze the post's body for character names.
 import replier                  # To generate replies to posts.
 import text_processing as tp    # To do the text processing needed for analyzing posts. 
@@ -22,6 +23,7 @@ def read_posts(r, cur, posts_list: List[str], blacklist: List[str]):
                 if character_list:
                     replier.reply_to_submission(r, submission, cur, character_list, True)
             if submission.id not in posts_list:
-                with open("saved_posts.txt", "a") as f:
-                    f.write(submission.id + "\n")
+                #with open("saved_posts.txt", "a") as f:
+                #    f.write(submission.id + "\n")
+                file_io_manager.write_to("saved_posts.txt", submission.id + "\n")
                 posts_list.append(submission.id)
