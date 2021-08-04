@@ -23,7 +23,5 @@ def read_posts(r, cur, posts_list: List[str], blacklist: List[str]):
                 if character_list:
                     replier.reply_to_submission(r, submission, cur, character_list, True)
             if submission.id not in posts_list:
-                #with open("saved_posts.txt", "a") as f:
-                #    f.write(submission.id + "\n")
                 file_io_manager.write_to("saved_posts.txt", submission.id + "\n")
                 posts_list.append(submission.id)

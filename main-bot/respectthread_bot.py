@@ -5,16 +5,17 @@
 # More info on respect threads can be found here: https://www.reddit.com/r/respectthreads/
 
 # Modules
-import os           # To check if a file exists
-import praw         # Interface with Reddit's API
-import psycopg2     # Interface with PostgreSQL
-import time         # To make an interval for the bot to wait
+import praw             # Interface with Reddit's API
+import psycopg2         # Interface with PostgreSQL
+import time             # To make an interval for the bot to wait
 
 # Custom modules
-import config       # Login details
-import post_reader  # To read and reply to posts
+import config           # Login details
+import file_io_manager  # For file input and output
+import post_reader      # To read and reply to posts
 
 posts_list = []
+comments_list = []
 blacklist = []
 
 def bot_login():
@@ -26,38 +27,18 @@ def bot_login():
                 user_agent = "respectthread responder v0.2")
     print("Logged in")
     if posts_list[-1] != "":
-        with open("saved_posts.txt", "a") as f:
-            f.write("\n")
+        file_io_manager.write_to("saved_posts.txt", "\n")
     return r
-
-def get_saved_posts():
-    # Make sure the file exists.
-    if not os.path.isfile("saved_posts.txt"):
-        posts_list = []
-    else:
-        # "r" is to read from saved_posts.txt as the variable f
-        with open("saved_posts.txt", "r") as f:
-            posts_list = f.read().split("\n")
-    return posts_list
 
 def check_inbox_for_optout_requests(r):
     unread_messages = []
     for reply in r.inbox.unread(limit=None):
         if reply.subject == "OPTOUTREQUEST":
             if reply.author.name not in blacklist:
-                with open("blacklist.txt", "a") as f:
-                    f.write(reply.author.name + "\n")
+                file_io_manager.write_to("blacklist.txt", reply.author.name + "\n")
                 blacklist.append(reply.author)
             unread_messages.append(reply)
     r.inbox.mark_read(unread_messages)
-
-def get_blacklist():
-    if not os.path.isfile("blacklist.txt"):
-        blacklist = []
-    else:
-        with open("blacklist.txt", "r") as f:
-            blacklist = f.read().split("\n")
-    return blacklist
 
 def run_bot(r):
     print("Connecting to database...")
@@ -81,8 +62,9 @@ def run_bot(r):
     time.sleep(sleep_time)
 
 terminate_time = 40
-posts_list = get_saved_posts()
-blacklist = get_blacklist()
+posts_list = file_io_manager.get_content_as_list("saved_posts.txt")
+comments_list = file_io_manager.get_content_as_list("saved_comments.txt")
+blacklist = file_io_manager.get_content_as_list("blacklist.txt")
 r = bot_login()
 while True:
     check_inbox_for_optout_requests(r)
