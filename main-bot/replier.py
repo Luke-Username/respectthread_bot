@@ -1,10 +1,11 @@
 # This module contains functions to generate a reply and leave a comment on the Reddit post.
 
 # Modules
-from typing import List
+import datetime                 # To help measure how old a submission is.
+from typing import List         # To allow for List type method arguments.
 
 # Custom modules
-from character import Character
+from character import Character # For using the Character class.
 
 def generate_comment(cur, character_list: List[Character], with_footer: bool) -> str:
     # The text to return, containing what to write in the reply comment
@@ -37,6 +38,15 @@ def generate_comment(cur, character_list: List[Character], with_footer: bool) ->
 
     return reply_text
 
+def generate_comment_no_results_apology(with_footer: bool) -> str:
+    # The text to return, containing what to write in the reply comment
+    reply_text = "Sorry, I couldn't find any respect threads in my database for the character(s) you are looking for."
+    reply_text += "Please visit r/respectthreads if you'd like to request one or [make one yourself.](https://www.reddit.com/r/respectthreads/wiki/introduction_guide)\n\n"
+    if with_footer:
+        reply_text += generate_footer()
+    
+    return reply_text
+
 # These links should be up to date
 about_url = "https://redd.it/owgxtl"
 code_url = "https://github.com/Luke-Username/respectthread_bot"
@@ -51,8 +61,11 @@ def generate_footer() -> str:
     footer_text += "^(Missing or wrong characters?) [^(Report here)]({})".format(report_url)
     return footer_text
 
-def reply_to_submission(r, submission, cur, character_list, with_footer: bool):
-    reply_text = generate_comment(cur, character_list, with_footer)
-    if reply_text != "":
+def reply_to_submission(submission, reply_text):
+    now = datetime.datetime.now(datetime.timezone.utc).timestamp()
+    age = now - submission.created_utc
+
+    # Reply if the submission is less than 4 days old, and the reply text is not empty
+    if age < 345600 and reply_text != "":
         submission.reply(reply_text)
         print(reply_text)

@@ -11,6 +11,7 @@ import time             # To make an interval for the bot to wait
 
 # Custom modules
 import config           # Login details
+import comment_reader   # To read and reply to comments
 import file_io_manager  # For file input and output
 import post_reader      # To read and reply to posts
 
@@ -50,7 +51,8 @@ def run_bot(r):
     )
     print("Connected to database")
     cur = con.cursor()
-    
+
+    comment_reader.read_comments(r, cur, comments_list)
     post_reader.read_posts(r, cur, posts_list, blacklist)
 
     # Close the cursor and connection
