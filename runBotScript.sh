@@ -5,6 +5,6 @@
 while :
 do
 git pull origin master
-python3 main-bot/respectthread_bot_sql.py
+python3 main-bot/respectthread_bot.py
 sleep 30
 done
