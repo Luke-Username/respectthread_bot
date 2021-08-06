@@ -56,6 +56,22 @@ def valid_patterns_end(strlist) -> bool:
     return True
 
 ##################################################
+# Evaluating comments for the keyword to summon the bot
+##################################################
+
+def get_keyworded_lines_from_comment(comment_body: str, keyword: str) -> str:
+    keyworded_comment = ""
+    keyword_regex = re.compile(r"(-|\*|\+|\d)? ?{}".format(keyword), re.IGNORECASE)
+    
+    bodylist = comment_body.split("\n")
+    for line in bodylist:
+        matches = re.search(keyword_regex, line)
+        if matches is not None:
+            keyworded_comment += line
+    
+    return keyworded_comment
+
+##################################################
 # Miscellaneous text processing functions
 ##################################################
 
