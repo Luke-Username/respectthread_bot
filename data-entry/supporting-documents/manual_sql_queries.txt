@@ -13,5 +13,6 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character_name SET name='Gr(a|e)y' WHERE name='Gray'; --Before run
+UPDATE character_name SET is_team=TRUE WHERE name='Fantastic Four'; --Before run
 
 ########################################

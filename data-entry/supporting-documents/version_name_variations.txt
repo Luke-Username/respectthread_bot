@@ -626,12 +626,13 @@ DC Animated Film Universe / DC Animated Movie Universe / DCAMU
 DC Cinematic Universe
 	Version
 		'{"DC Extended Universe"}', '{"DC ?(E|C)U"}', '{"DC Cinematic Universe"}'
+		'{"Snyder"}'
 	Displayed Version Name
 		"DCEU"
 
 DC Comics
 	Version
-		r'{"(\\(|\\[)DC( Comics)?(\\)|\\])"}' ( Though theoretically, it should be (\(|\[)DC( Comics)?(\)|\]) )
+		r'{"(\\(|\\[)DC( Comics)?(\\)|\\])"}'
 	Displayed Version Name
 		"DC"
 
