@@ -91,6 +91,7 @@ update_respectthread(cur, 15420, "Respect Gwen Stacy, Ghost-Spider, Gwenom (Marv
 update_respectthread(cur, 13154, "Respect Quetzalcoatl, the Winged Serpent! (Fate)", "https://redd.it/ou98ye")
 update_respectthread(cur, 690, "Respect Prisoner 775/Chamalien (Ben 10)", "https://redd.it/ouk5bp")
 update_respectthread(cur, 3371, "Respect Tian Kui (Feng Shen Ji)", "https://redd.it/oyimnk")
+update_respectthread(cur, 2537, "Respect Ultimate Reed Richards, The Maker (Marvel, 1610)", "https://redd.it/p0sybs")
 
 ########################################
 
@@ -1030,6 +1031,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p0j930/respect_rambo_blackthorne_publishing/
+
+########################################
+
+id = get_rt_id(cur, "Respect Peter Parker/The Masked Spider (Masked Spider)", "https://redd.it/p0otgd")
+add_data(["Masked Spider"],
+"Masked Spider",
+False,
+True,
+[
+'{"Cartoon ?Hooligans"}'
+],
+"CartoonHooligans",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p0otgd/respect_peter_parkerthe_masked_spider_masked/
 
 ########################################
 
