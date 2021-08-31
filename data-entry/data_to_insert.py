@@ -92,6 +92,7 @@ update_respectthread(cur, 13154, "Respect Quetzalcoatl, the Winged Serpent! (Fat
 update_respectthread(cur, 690, "Respect Prisoner 775/Chamalien (Ben 10)", "https://redd.it/ouk5bp")
 update_respectthread(cur, 3371, "Respect Tian Kui (Feng Shen Ji)", "https://redd.it/oyimnk")
 update_respectthread(cur, 2537, "Respect Ultimate Reed Richards, The Maker (Marvel, 1610)", "https://redd.it/p0sybs")
+update_respectthread(cur, 1374, "Respect Goffu (Cartoon Hooligans)", "https://redd.it/p17560")
 
 ########################################
 
@@ -1046,6 +1047,52 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p0otgd/respect_peter_parkerthe_masked_spider_masked/
+
+########################################
+
+id = get_rt_id(cur, "Respect Super Thor (Cartoon Hooligans)", "https://redd.it/p176ka")
+add_data(["Super ?Thor"],
+"Super Thor",
+False,
+False,
+[
+'{"Cartoon ?Hooligans"}',
+'{"Goffu"}'
+],
+"CartoonHooligans",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p176ka/respect_super_thor_cartoon_hooligans/
+
+########################################
+
+id = get_rt_id(cur, "Respect Desiree! (Danny Phantom)", "https://redd.it/p14g8z")
+add_data(["Desiree"],
+"Desiree",
+False,
+False,
+[
+'{"Danny Phantom"}'
+],
+"Danny Phantom",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p14g8z/respect_desiree_danny_phantom/
+
+########################################
+
+id = get_rt_id(cur, "Respect Gavan Type-G (Space Sheriff Gavan)", "https://redd.it/p150xm")
+add_data(["Gavan Type(-| )G"],
+"Gavan Type-G",
+False,
+True,
+[
+'{"Space Sheriff Gavan"}'
+],
+"Space Sheriff Gavan",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p150xm/respect_gavan_typeg_space_sheriff_gavan/
 
 ########################################
 
