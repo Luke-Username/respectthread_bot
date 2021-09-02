@@ -93,6 +93,8 @@ update_respectthread(cur, 690, "Respect Prisoner 775/Chamalien (Ben 10)", "https
 update_respectthread(cur, 3371, "Respect Tian Kui (Feng Shen Ji)", "https://redd.it/oyimnk")
 update_respectthread(cur, 2537, "Respect Ultimate Reed Richards, The Maker (Marvel, 1610)", "https://redd.it/p0sybs")
 update_respectthread(cur, 1374, "Respect Goffu (Cartoon Hooligans)", "https://redd.it/p17560")
+update_respectthread(cur, 14812, "Respect Altera, the Scourge of God! (Fate)", "https://redd.it/p1eyzr")
+update_respectthread(cur, 233, "Respect the Avengers (Marvel Cinematic Universe)", "https://redd.it/p3px68")
 
 ########################################
 
@@ -122,6 +124,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Captain Carter (Marvel Cinematic Universe: What If...?)", "https://redd.it/p3gume")
+add_data(["Captain Carter"],
+"Captain Carter",
+False,
+True,
+[
+'{"Marvel Cinematic Universe"}', '{"MCU"}', '{"What if"}'
+],
+"MCU",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p3gume/respect_captain_carter_marvel_cinematic_universe/
+
+########################################
+
+id = get_rt_id(cur, "Respect Steve Rogers, the Hydra Stomper (Marvel Cinematic Universe, What If?)", "https://redd.it/p31sm8")
+add_data(["Hydra Stomper"],
+"Hydra Stomper",
+False,
+True,
+[
+'{"Marvel Cinematic Universe"}', '{"MCU"}', '{"What if"}'
+],
+"MCU",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p31sm8/respect_steve_rogers_the_hydra_stomper_marvel/
+
+########################################
+
 id = get_rt_id(cur, "Respect Combo Man (Marvel, 616)", "https://redd.it/ouminh")
 add_data(["Combo Man"],
 "Combo Man",
@@ -134,6 +166,38 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ouminh/respect_combo_man_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, "Respect Fionn mac Cumhaill! (Fate)", "https://redd.it/p3ajx2")
+add_data(["Fionn mac Cumhaill"],
+"Fionn mac Cumhaill",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p3ajx2/respect_fionn_mac_cumhaill_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Nikola Tesla! (Fate)", "https://redd.it/p1s3ii")
+add_data(["Nikola Tesla"],
+"Nikola Tesla",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p1s3ii/respect_nikola_tesla_fate/
 
 ########################################
 
@@ -251,6 +315,21 @@ r'{"Titan ?\\(Invincible"}'
 
 ########################################
 
+id = get_rt_id(cur, "Respect Lodestar (Ben 10 Classic)", "https://redd.it/p3nk1j")
+add_data(["Lodestar"],
+"Lodestar",
+False,
+False,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p3nk1j/respect_lodestar_ben_10_classic/
+
+########################################
+
 id = get_rt_id(cur, "Respect George Washington (Ben 10)", "https://redd.it/oxshmq")
 add_data(["George Washington"],
 "George Washington",
@@ -263,6 +342,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/oxshmq/respect_george_washington_ben_10/
+
+########################################
+
+id = get_rt_id(cur, "Respect Feedback (Ben 10)", "https://redd.it/p1q3hu")
+add_data(["Feedback"],
+"Feedback",
+False,
+False,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p1q3hu/respect_feedback_ben_10/
 
 ########################################
 
@@ -748,6 +842,91 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Grant Morrison (Dc Post-Crisis)", "https://redd.it/p49mea")
+add_data(["Grant Morrison"],
+"Grant Morrison",
+False,
+True,
+[
+'{"Posts?(-| )?C(risis)?"}', '{"PC"}', '{"New(-| )Earth"}'
+],
+"Post-Crisis",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p49mea/respect_grant_morrison_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect Mongal (Dc Post-Crisis)", "https://redd.it/p3rkln")
+add_data(["Mongal"],
+"Mongal",
+False,
+False,
+[
+'{"Posts?(-| )?C(risis)?"}', '{"PC"}', '{"New(-| )Earth"}'
+],
+"Post-Crisis",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p3rkln/respect_mongal_dc_postcrisis/
+
+add_data(["Mongal"],
+"Mongal",
+False,
+True,
+[
+r'{"(\\(|\\[)DC( Comics)?(\\)|\\])"}'
+],
+"DC",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p3rkln/respect_mongal_dc_postcrisis/
+
+add_data(["Mongal"],
+"Mongal",
+False,
+False,
+[
+'{"Suicide Squad"}', '{"DC Extended Universe"}', '{"DC ?(E|C)U"}', '{"DC Cinematic Universe"}'
+],
+"DCEU",
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p3rkln/respect_mongal_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Hemo-Goblin (Dc Post-Crisis)", "https://redd.it/p30cst")
+add_data(["Hemo(-| )?Goblin"],
+"Hemo-Goblin",
+False,
+True,
+[
+'{"DC"}', '{"Posts?(-| )?C(risis)?"}', '{"PC"}', '{"New(-| )Earth"}'
+],
+"Post-Crisis",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p30cst/respect_the_hemogoblin_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect Hat (DC, Post Crisis)", "https://redd.it/p1qx8b")
+add_data(["Hat"],
+"Hat",
+False,
+False,
+[
+r'{"Hat ?\\(DC"}', r'{"Hat ?\\(Posts?(-| )?C(risis)?"}',
+'{"Manchester Black"}', '{"The Elite"}'
+],
+"Post-Crisis",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p1qx8b/respect_hat_dc_post_crisis/
+
+########################################
+
 id = get_rt_id(cur, "Respect Javelin! (DC Comics Post-Crisis)", "https://redd.it/oy9f35")
 add_data(["Javelin"],
 "Javelin",
@@ -838,6 +1017,36 @@ False,
 '{128}'
 )
 #https://www.reddit.com/r/respectthreads/comments/oxk0jv/respect_motherbox_dc_preflashpoint/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ratcatcher 2 (DCEU)", "https://redd.it/p2uoy6")
+add_data(["Ratcatcher 2"],
+"Ratcatcher 2",
+False,
+True,
+[
+'{"DC Extended Universe"}', '{"DC ?(E|C)U"}', '{"DC Cinematic Universe"}', '{"Suicide Squad"}'
+],
+"DCEU",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p2uoy6/respect_ratcatcher_2_dceu/
+
+########################################
+
+id = get_rt_id(cur, "Respect Polka-Dot Man (DCEU)", "https://redd.it/p2uldn")
+add_data(["Polka(-| )Dot Man"],
+"Polka Dot Man",
+False,
+False,
+[
+'{"DC Extended Universe"}', '{"DC ?(E|C)U"}', '{"DC Cinematic Universe"}', '{"Suicide Squad"}'
+],
+"DCEU",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p2uldn/respect_polkadot_man_dceu/
 
 ########################################
 
@@ -1093,6 +1302,217 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p150xm/respect_gavan_typeg_space_sheriff_gavan/
+
+########################################
+
+id = get_rt_id(cur, "Respect Sloth (The Goonies)", "https://redd.it/p1sq53")
+add_data(["Sloth"],
+"Sloth",
+False,
+False,
+[
+'{"Goonies"}'
+],
+"The Goonies",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p1sq53/respect_sloth_the_goonies/
+
+########################################
+
+id = get_rt_id(cur, "Respect Yellow (Character Scramble)", "https://redd.it/p2asq0")
+add_data(["Yellow"],
+"Yellow",
+False,
+False,
+[
+'{"Character Scramble"}'
+],
+"Character Scramble",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p2asq0/respect_yellow_character_scramble/
+
+########################################
+
+id = get_rt_id(cur, "Respect Hermes Conrad (Character Scramble)", "https://redd.it/p1u6aa")
+add_data(["Hermes Conrad"],
+"Hermes Conrad",
+False,
+False,
+[
+'{"Character Scramble"}'
+],
+"Character Scramble",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p1u6aa/respect_hermes_conrad_character_scramble/
+
+########################################
+
+id = get_rt_id(cur, "Respect Takayuki Yagami (Judgment)", "https://redd.it/p236za")
+add_data(["Takayuki Yagami"],
+"Takayuki Yagami",
+False,
+True,
+[
+'{"Judgment"}',
+'{"Yakuza"}'
+],
+"Yakuza",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p236za/respect_takayuki_yagami_judgment/
+
+########################################
+
+id = get_rt_id(cur, "Respect Pegasus Tenma (Saint Seiya: the Lost Canvas)", "https://redd.it/p3dirj")
+add_data(["Pegasus Tenma"],
+"Pegasus Tenma",
+False,
+True,
+[
+'{"Seiya"}'
+],
+"Saint Seiya",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p3dirj/respect_pegasus_tenma_saint_seiya_the_lost_canvas/
+
+########################################
+
+id = get_rt_id(cur, "Respect Super Brainz! (Plants vs Zombies)", "https://redd.it/p42sya")
+add_data(["Super Brainz"],
+"Super Brainz",
+False,
+True,
+[
+'{"Plants", "Zombies"}', '{"PvZ"}', '{"Garden Warfare"}'
+],
+"Plants vs. Zombies",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p42sya/respect_super_brainz_plants_vs_zombies/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Chosen Ones (Class of the Titans)", "https://redd.it/p4821g")
+add_data(["Chosen Ones"],
+"Chosen Ones",
+True,
+False,
+[
+'{"Class of the Titans"}'
+],
+"Class of the Titans",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p4821g/respect_the_chosen_ones_class_of_the_titans/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jay (Class of the Titans)", "https://redd.it/p482vt")
+add_data(["Jay"],
+"Jay",
+False,
+False,
+[
+'{"Class of the Titans"}'
+],
+"Class of the Titans",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p482vt/respect_jay_class_of_the_titans/
+
+########################################
+
+id = get_rt_id(cur, "Respect Atlanta (Class of the Titans)", "https://redd.it/p483k3")
+add_data(["Atlanta"],
+"Atlanta",
+False,
+False,
+[
+'{"Class of the Titans"}'
+],
+"Class of the Titans",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p483k3/respect_atlanta_class_of_the_titans/
+
+########################################
+
+id = get_rt_id(cur, "Respect Herry (Class of the Titans)", "https://redd.it/p484f9")
+add_data(["Herry"],
+"Herry",
+False,
+False,
+[
+'{"Class of the Titans"}'
+],
+"Class of the Titans",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p484f9/respect_herry_class_of_the_titans/
+
+########################################
+
+id = get_rt_id(cur, "Respect Archie (Class of the Titans)", "https://redd.it/p48550")
+add_data(["Archie"],
+"Archie",
+False,
+False,
+[
+'{"Class of the Titans"}'
+],
+"Class of the Titans",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p48550/respect_archie_class_of_the_titans/
+
+########################################
+
+id = get_rt_id(cur, "Respect Theresa (Class of the Titans)", "https://redd.it/p485jf")
+add_data(["Theresa"],
+"Theresa",
+False,
+False,
+[
+'{"Class of the Titans"}'
+],
+"Class of the Titans",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p485jf/respect_theresa_class_of_the_titans/
+
+########################################
+
+id = get_rt_id(cur, "Respect Odie (Class of the Titans)", "https://redd.it/p485y5")
+add_data(["Odie"],
+"Odie",
+False,
+False,
+[
+'{"Class of the Titans"}'
+],
+"Class of the Titans",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p485y5/respect_odie_class_of_the_titans/
+
+########################################
+
+id = get_rt_id(cur, "Respect Neil (Class of the Titans)", "https://redd.it/p486i0")
+add_data(["Neil"],
+"Neil",
+False,
+False,
+[
+'{"Class of the Titans"}'
+],
+"Class of the Titans",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p486i0/respect_neil_class_of_the_titans/
 
 ########################################
 
