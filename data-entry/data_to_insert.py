@@ -1284,6 +1284,22 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Starro the Conqueror (DCEU)", "https://redd.it/p8rb3e")
+add_data(["Starro"],
+"Starro",
+False,
+False,
+[
+'{"DC Extended Universe"}', '{"DC ?(E|C)U"}', '{"DC Cinematic Universe"}',
+'{"Suicide Squad"}'
+],
+"DCEU",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p8rb3e/respect_starro_the_conqueror_dceu/
+
+########################################
+
 id = get_rt_id(cur, "Respect Ratcatcher 2 (DCEU)", "https://redd.it/p2uoy6")
 add_data(["Ratcatcher (2|II)"],
 "Ratcatcher 2",
@@ -1796,6 +1812,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Mima (Touhou)", "https://redd.it/p7el9u")
+add_data(["Mima"],
+"Mima",
+False,
+False,
+[
+'{"Touhou"}'
+],
+"Touhou",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p7el9u/respect_mima_touhou/
+
+########################################
+
 id = get_rt_id(cur, "Respect Yumemi Okazaki (Touhou))", "https://redd.it/p5emwv")
 add_data(["Yumemi Okazaki"],
 "Yumemi Okazaki",
@@ -1823,6 +1854,423 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p6b0tr/respect_manfred_von_wreckerstein_the_thing_1979/
+
+########################################
+
+id = get_rt_id(cur, "Respect Wallace & Gromit (Wallace & Gromit)", "https://redd.it/p6owat")
+add_data(["Gromit"],
+"Wallace and Gromit",
+False,
+True,
+[
+'{"Wallace"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p6owat/respect_wallace_gromit_wallace_gromit/
+
+########################################
+
+id = get_rt_id(cur, "Respect Virgil (Xena: Warrior Princess)", "https://redd.it/p76u04")
+add_data(["Virgil"],
+"Virgil",
+False,
+False,
+[
+'{"Xena"}', '{"Warriro Princess"}'
+],
+"Xena: Warrior Princess",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p76u04/respect_virgil_xena_warrior_princess/
+
+########################################
+
+id = get_rt_id(cur, "Respect Donquixote Rosinante (One Piece)", "https://redd.it/p76yy7")
+add_data(["Rosinante"],
+"Rosinante",
+False,
+False,
+[
+'{"One ?Piece?"}', '{"Don ?quixote"}'
+],
+"One Piece",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p76yy7/respect_donquixote_rosinante_one_piece/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Cursed Camera (Goosebumps)", "https://redd.it/p7hyoi")
+add_data(["Camera"],
+"Camera",
+False,
+False,
+[
+'{"Goosebumps"}', '{"Say Cheese and Die"}'
+],
+"Goosebumps",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p7hyoi/respect_the_cursed_camera_goosebumps/
+
+########################################
+
+id = get_rt_id(cur, "Respect Shadow the Hedgehog! (Sonic X)", "https://redd.it/p8ygue")
+add_data(["Shadow"],
+"Shadow",
+False,
+False,
+[
+'{"Sonic X"}'
+],
+"Sonic X",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p8ygue/respect_shadow_the_hedgehog_sonic_x/
+
+########################################
+
+id = get_rt_id(cur, "Respect Sonic the Hedgehog! (Sonic X)", "https://redd.it/p9k7sn")
+add_data(["Sonic"],
+"Sonic",
+False,
+False,
+[
+r'{"Sonic ?\\(Sonic X"}'
+],
+"Sonic X",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p9k7sn/respect_sonic_the_hedgehog_sonic_x/
+
+add_data(["Sonic the Hedgehog"],
+"Sonic the Hedgehog",
+False,
+False,
+[
+'{"Sonic X"}'
+],
+"Sonic X",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p9k7sn/respect_sonic_the_hedgehog_sonic_x/
+
+########################################
+
+id = get_rt_id(cur, "Respect Emerl (Sonic X)", "https://redd.it/p9042i")
+add_data(["Emerl"],
+"Emerl",
+False,
+False,
+[
+'{"Sonic X"}'
+],
+"Sonic X",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p9042i/respect_emerl_sonic_x/
+
+########################################
+
+id = get_rt_id(cur, "Respect Sam Speed! (Sonic X)", "https://redd.it/p8cer0")
+add_data(["Sam Speed"],
+"Sam Speed",
+False,
+True,
+[
+'{"Sonic X"}'
+],
+"Sonic X",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p8cer0/respect_sam_speed_sonic_x/
+
+########################################
+
+id = get_rt_id(cur, "Respect Tails! (Sonic X)", "https://redd.it/p8by5i")
+add_data(["Tails"],
+"Tails",
+False,
+False,
+[
+'{"Sonic X"}'
+],
+"Sonic X",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p8by5i/respect_tails_sonic_x/
+
+########################################
+
+id = get_rt_id(cur, "Respect Knuckles the Echidna! (Sonic X)", "https://redd.it/p7mper")
+add_data(["Knuckles"],
+"Knuckles",
+False,
+False,
+[
+'{"Sonic X"}'
+],
+"Sonic X",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p7mper/respect_knuckles_the_echidna_sonic_x/
+
+########################################
+
+id = get_rt_id(cur, "Respect Amy Rose! (Sonic X)", "https://redd.it/p7n1mf")
+add_data(["Amy Rose"],
+"Amy Rose",
+False,
+False,
+[
+'{"Sonic X"}'
+],
+"Sonic X",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p7n1mf/respect_amy_rose_sonic_x/
+
+########################################
+
+id = get_rt_id(cur, "Respect Benjy Grimm a.k.a. The Thing (The Thing (1979 Cartoon))", "https://redd.it/p7olf0")
+add_data(["The Thing"],
+"The Thing",
+False,
+False,
+[
+r'{"The Thing ?\\(1979"}'
+],
+"1979",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p7olf0/respect_benjy_grimm_aka_the_thing_the_thing_1979/
+
+########################################
+
+id = get_rt_id(cur, "Respect Sonic the Hedgehog! (Tails Gets Trolled)", "https://redd.it/p7xmfa")
+add_data(["Sonic"],
+"Sonic",
+False,
+False,
+[
+'{"Tails Gets Trolled"}'
+],
+"Tails Gets Trolled",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p7xmfa/respect_sonic_the_hedgehog_tails_gets_trolled/
+
+########################################
+
+id = get_rt_id(cur, "Respect Psycho Goreman (Psycho Goreman)", "https://redd.it/p859rm")
+add_data(["Psycho Goreman"],
+"Psycho Goreman",
+False,
+True,
+[
+'{"PG"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p859rm/respect_psycho_goreman_psycho_goreman/
+
+########################################
+
+id = get_rt_id(cur, "Respect Chipp Zanuff! (Guilty Gear)", "https://redd.it/p9m1vb")
+add_data(["Chipp"],
+"Chipp",
+False,
+False,
+[
+'{"Guilty Gear"}', '{"Zanuff"}'
+],
+"Guilty Gear",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p9m1vb/respect_chipp_zanuff_guilty_gear/
+
+########################################
+
+id = get_rt_id(cur, "Respect Nagoriyuki! (Guilty Gear)", "https://redd.it/p9m3px")
+add_data(["Nagoriyuki"],
+"Nagoriyuki",
+False,
+True,
+[
+'{"Guilty Gear"}'
+],
+"Guilty Gear",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p9m3px/respect_nagoriyuki_guilty_gear/
+
+########################################
+
+id = get_rt_id(cur, "Respect Potemkin! (Guilty Gear)", "https://redd.it/p9m33y")
+add_data(["Potemkin"],
+"Potemkin",
+False,
+False,
+[
+'{"Guilty Gear"}'
+],
+"Guilty Gear",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p9m33y/respect_potemkin_guilty_gear/
+
+########################################
+
+id = get_rt_id(cur, "Respect I-No! (Guilty Gear)", "https://redd.it/p9m2qb")
+add_data(["I-No"],
+"I-No",
+False,
+True,
+[
+'{"Guilty Gear"}'
+],
+"Guilty Gear",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p9m2qb/respect_ino_guilty_gear/
+
+########################################
+
+id = get_rt_id(cur, "Respect Slayer! (Guilty Gear)", "https://redd.it/p8gxgo")
+add_data(["Slayer"],
+"Slayer",
+False,
+False,
+[
+'{"Guilty Gear"}'
+],
+"Guilty Gear",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p8gxgo/respect_slayer_guilty_gear/
+
+########################################
+
+id = get_rt_id(cur, "Respect Answer! (Guilty Gear)", "https://redd.it/p8gzi7")
+add_data(["Answer"],
+"Answer",
+False,
+False,
+[
+'{"Guilty Gear"}'
+],
+"Guilty Gear",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p8gzi7/respect_answer_guilty_gear/
+
+########################################
+
+id = get_rt_id(cur, "Respect Baiken! (Guilty Gear)", "https://redd.it/p8gy3r")
+add_data(["Baiken"],
+"Baiken",
+False,
+True,
+[
+'{"Guilty Gear"}'
+],
+"Guilty Gear",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p8gy3r/respect_baiken_guilty_gear/
+
+########################################
+
+id = get_rt_id(cur, "Respect Prettz (Final Fantasy: Legend of the Crystals)", "https://redd.it/p8icb9")
+add_data(["Prettz"],
+"Prettz",
+False,
+False,
+[
+'{"Final Fantasy"}'
+],
+"Final Fantasy",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p8icb9/respect_prettz_final_fantasy_legend_of_the/
+
+########################################
+
+id = get_rt_id(cur, "Respect Stetch Atelier (Dungeons & Artifacts)", "https://redd.it/p8q7yf")
+add_data(["Stetch Atelier"],
+"Stetch Atelier",
+False,
+True,
+[
+'{"Dungeons (&|and) Artifacts"}'
+],
+"Dungeons & Artifacts",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p8q7yf/respect_stetch_atelier_dungeons_artifacts/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Saint of Killers (Preacher)", "https://redd.it/p94fwy")
+add_data(["Saint of Killers"],
+"Saint of Killers",
+False,
+True,
+[
+'{"Preacher"}'
+],
+"Preacher",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p94fwy/respect_the_saint_of_killers_preacher/
+
+########################################
+
+id = get_rt_id(cur, "Respect Tock! (RWBY)", "https://redd.it/p9co85")
+add_data(["Tock"],
+"Tock",
+False,
+False,
+[
+'{"RWBY"}'
+],
+"RWBY",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p9co85/respect_tock_rwby/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Shredder (Teenage Mutant Ninja Turtles 90s live-action film)", "https://redd.it/pam63d")
+add_data(["Shredder"],
+"Shredder",
+False,
+False,
+[
+'{"1990"}'
+],
+"TMNT, 1990",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pam63d/respect_the_shredder_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, "Respect Juzo Fuwa (Samurai Sentai Shinkenger)", "https://redd.it/papm06")
+add_data(["Juzo Fuwa"],
+"Juzo Fuwa",
+False,
+True,
+[
+'{"Samurai Sentai Shinkenger"}'
+],
+"Samurai Sentai Shinkenger",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/papm06/respect_juzo_fuwa_samurai_sentai_shinkenger/
 
 ########################################
 
