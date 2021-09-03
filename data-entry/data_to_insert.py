@@ -95,6 +95,7 @@ update_respectthread(cur, 2537, "Respect Ultimate Reed Richards, The Maker (Marv
 update_respectthread(cur, 1374, "Respect Goffu (Cartoon Hooligans)", "https://redd.it/p17560")
 update_respectthread(cur, 14812, "Respect Altera, the Scourge of God! (Fate)", "https://redd.it/p1eyzr")
 update_respectthread(cur, 233, "Respect the Avengers (Marvel Cinematic Universe)", "https://redd.it/p3px68")
+update_respectthread(cur, 674, "Respect Blitzwolfer (Ben 10)", "https://redd.it/p4ulvi")
 
 ########################################
 
@@ -166,6 +167,38 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ouminh/respect_combo_man_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, "Respect Charlemagne, the Wandering Knight! (Fate/EXTELLA LINK)", "https://redd.it/p4mg1s")
+add_data(["Charlemagne"],
+"Charlemagne",
+False,
+False,
+[
+'{"Fate"}',
+'{"EXTELLA LINK"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p4mg1s/respect_charlemagne_the_wandering_knight/
+
+########################################
+
+id = get_rt_id(cur, "Respect Thomas Edison! (Fate)", "https://redd.it/p4c5bg")
+add_data(["Thomas Edison"],
+"Thomas Edison",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p4c5bg/respect_thomas_edison_fate/
 
 ########################################
 
@@ -492,6 +525,33 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/oum2xl/respect_marrow_dreamwalker/
+
+########################################
+
+id = get_rt_id(cur, "Respect Takumi Inui, aka (Kamen Rider Faiz)!", "https://redd.it/p4dgq9")
+add_data(["Kamen Rider Faiz"],
+"Kamen Rider Faiz",
+False,
+True,
+[
+'{"555"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p4dgq9/respect_takumi_inui_aka_kamen_rider_faiz/
+
+add_data(["Takumi Inui"],
+"Takumi Inui",
+False,
+True,
+[
+'{"555"}', '{"Kamen Rider"}'
+],
+"Kamen Rider",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p4dgq9/respect_takumi_inui_aka_kamen_rider_faiz/
 
 ########################################
 
@@ -909,6 +969,33 @@ True,
 )
 #https://www.reddit.com/r/respectthreads/comments/p30cst/respect_the_hemogoblin_dc_postcrisis/
 
+########################################
+
+id = get_rt_id(cur, "Respect Weasel (Dc-Post Crisis)", "https://redd.it/p4tyn2")
+add_data(["Weasel"],
+"Weasel",
+False,
+False,
+[
+r'{"Weasel ?\\(Posts?(-| )?C(risis)?"}'
+],
+"Post-Crisis",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p4tyn2/respect_weasel_dcpost_crisis/
+
+add_data(["Weasel"],
+"Weasel",
+False,
+False,
+[
+r'{"Weasel ?\\(DC"}'
+],
+"DC",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p4tyn2/respect_weasel_dcpost_crisis/
+ 
 ########################################
 
 id = get_rt_id(cur, "Respect Hat (DC, Post Crisis)", "https://redd.it/p1qx8b")
@@ -1513,6 +1600,37 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p486i0/respect_neil_class_of_the_titans/
+
+########################################
+
+id = get_rt_id(cur, "Respect Cooler (Dragon Ball Franchise)", "https://redd.it/p54983")
+add_data(["Cooler"],
+"Cooler",
+False,
+False,
+[
+'{"squadron"}', '{"Dragon ?Ball"}', '{"DB(Z|S)?"}'
+'{"Metal?( |-)?Cooler"}', '{"Fr(e|i)eza"}', '{"Gete Star"}', '{"Salza"}'
+],
+"Dragon Ball",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p54983/respect_cooler_dragon_ball_franchise/
+
+########################################
+
+id = get_rt_id(cur, "Respect Yumemi Okazaki (Touhou))", "https://redd.it/p5emwv")
+add_data(["Yumemi Okazaki"],
+"Yumemi Okazaki",
+False,
+False,
+[
+'{"Touhou"}'
+],
+"Touhou",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p5emwv/respect_yumemi_okazaki_touhou/
 
 ########################################
 

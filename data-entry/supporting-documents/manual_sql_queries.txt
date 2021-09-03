@@ -16,3 +16,8 @@ UPDATE character_name SET name='Gr(a|e)y' WHERE name='Gray'; --Before run
 UPDATE character_name SET is_team=TRUE WHERE name='Fantastic Four'; --Before run
 
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Yusuke Godai/Kamen Rider Kuuga (Kamen Rider Kuuga Manga)', 'https://redd.it/p52xxl'); SELECT * FROM respectthread WHERE link='https://redd.it/p52xxl';
+UPDATE character SET rt_id_array='{8202, ??}' WHERE rt_id_array='{8202}'; --Before run
+
+########################################
