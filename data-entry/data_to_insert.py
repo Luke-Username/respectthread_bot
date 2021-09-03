@@ -528,6 +528,78 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Leo/Kamen Rider Psyga (Kamen Rider Faiz)!", "https://redd.it/p6hlzb")
+add_data(["Kamen Rider Psyga"],
+"Kamen Rider Psyga",
+False,
+True,
+[
+'{"Faiz"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p6hlzb/respect_leokamen_rider_psyga_kamen_rider_faiz/
+
+########################################
+
+id = get_rt_id(cur, "Respect Yuji Kiba/The Horse Orphnoch (Kamen Rider Faiz)!", "https://redd.it/p6hkyy")
+add_data(["Kamen Rider Orga"],
+"Kamen Rider Orga",
+False,
+True,
+[
+'{"Faiz"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p6hkyy/respect_yuji_kibathe_horse_orphnoch_kamen_rider/
+
+add_data(["Horse Orphnoch"],
+"Horse Orphnoch",
+False,
+True,
+[
+'{"Faiz"}'
+],
+"Kamen Rider",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p6hkyy/respect_yuji_kibathe_horse_orphnoch_kamen_rider/
+
+########################################
+
+id = get_rt_id(cur, "Respect Kamen Rider Delta (Kamen Rider Faiz)!", "https://redd.it/p6hgwq")
+add_data(["Kamen Rider Delta"],
+"Kamen Rider Delta",
+False,
+True,
+[
+'{"Faiz"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p6hgwq/respect_kamen_rider_delta_kamen_rider_faiz/
+
+########################################
+
+id = get_rt_id(cur, "Respect Masato Kusaka/Kamen Rider Kaixa (Kamen Rider Faiz)!", "https://redd.it/p6hdp0")
+add_data(["Kamen Rider Kaixa"],
+"Kamen Rider Kaixa",
+False,
+True,
+[
+'{"Faiz"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p6hdp0/respect_masato_kusakakamen_rider_kaixa_kamen/
+
+########################################
+
 id = get_rt_id(cur, "Respect Takumi Inui, aka (Kamen Rider Faiz)!", "https://redd.it/p4dgq9")
 add_data(["Kamen Rider Faiz"],
 "Kamen Rider Faiz",
@@ -1107,8 +1179,113 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Blackguard (Dc Post-Crisis)", "https://redd.it/p5fxih")
+add_data(["Blackguard"],
+"Blackguard",
+False,
+False,
+[
+r'{"(\\(|\\[)DC( Comics)?(\\)|\\])"}'
+],
+"DC",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p5erbp/respect_ratcatcher_dc_comics_postcrisis/
+
+add_data(["Blackguard"],
+"Blackguard",
+False,
+False,
+[
+'{"PC"}', '{"Earth(-| )(1|One)"}', '{"Posts?(-| )?C(risis)?"}', '{"New(-| )Earth"}'
+],
+"Post-Crisis",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p5fxih/respect_blackguard_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect Savant (DC Comics, Post-Crisis)", "https://redd.it/p683tv")
+add_data(["Savant"],
+"Savant",
+False,
+False,
+[
+r'{"Savant ?\\(DC"}'
+],
+"DC",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p5erbp/respect_ratcatcher_dc_comics_postcrisis/
+
+add_data(["Savant"],
+"Savant",
+False,
+False,
+[
+'{"PC"}', '{"Earth(-| )(1|One)"}', '{"Posts?(-| )?C(risis)?"}', '{"New(-| )Earth"}'
+],
+"Post-Crisis",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p5erbp/respect_ratcatcher_dc_comics_postcrisis/
+
+add_data(["Savant"],
+"Savant",
+False,
+False,
+[
+'{"Pre(-| )?Crisis"}', '{"Silver(-| )?Age"}', '{"Earth(-| )(1|One)"}'
+],
+"Pre-Crisis",
+'{}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Ratcatcher (DC Comics, Post-Crisis)", "https://redd.it/p5erbp")
+add_data(["Ratcatcher"],
+"Ratcatcher",
+False,
+True,
+[
+r'{"(\\(|\\[)DC( Comics)?(\\)|\\])"}'
+],
+"DC",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p5erbp/respect_ratcatcher_dc_comics_postcrisis/
+
+add_data(["Ratcatcher"],
+"Ratcatcher",
+False,
+False,
+[
+'{"PC"}', '{"Earth(-| )(1|One)"}', '{"Posts?(-| )?C(risis)?"}', '{"New(-| )Earth"}'
+],
+"Post-Crisis",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p5erbp/respect_ratcatcher_dc_comics_postcrisis/
+
+add_data(["Ratcatcher"],
+"Ratcatcher",
+False,
+False,
+[
+'{"Pre(-| )?Crisis"}', '{"Silver(-| )?Age"}', '{"Earth(-| )(1|One)"}'
+],
+"Pre-Crisis",
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p5erbp/respect_ratcatcher_dc_comics_postcrisis/
+
+########################################
+
 id = get_rt_id(cur, "Respect Ratcatcher 2 (DCEU)", "https://redd.it/p2uoy6")
-add_data(["Ratcatcher 2"],
+add_data(["Ratcatcher (2|II)"],
 "Ratcatcher 2",
 False,
 True,
@@ -1631,6 +1808,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p5emwv/respect_yumemi_okazaki_touhou/
+
+########################################
+
+id = get_rt_id(cur, "Respect Manfred von Wreckerstein (The Thing (1979))", "https://redd.it/p6b0tr")
+add_data(["Manfred von Wreckerstein"],
+"Manfred von Wreckerstein",
+False,
+True,
+[
+'{"Thing"}'
+],
+"The Thing, 1979",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/p6b0tr/respect_manfred_von_wreckerstein_the_thing_1979/
 
 ########################################
 
