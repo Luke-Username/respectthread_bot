@@ -2274,6 +2274,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect the Wu-Tang Clan! (Wu-Tang: Shaolin Style)", "https://redd.it/pazq4c")
+add_data(["Wu(-| )?Tang Clan"],
+"Wu-Tang Clan",
+True,
+False,
+[
+'{"Shaolin Style"}'
+],
+"Wu-Tang: Shaolin Style",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pazq4c/respect_the_wutang_clan_wutang_shaolin_style/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
