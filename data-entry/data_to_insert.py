@@ -96,6 +96,7 @@ update_respectthread(cur, 1374, "Respect Goffu (Cartoon Hooligans)", "https://re
 update_respectthread(cur, 14812, "Respect Altera, the Scourge of God! (Fate)", "https://redd.it/p1eyzr")
 update_respectthread(cur, 233, "Respect the Avengers (Marvel Cinematic Universe)", "https://redd.it/p3px68")
 update_respectthread(cur, 674, "Respect Blitzwolfer (Ben 10)", "https://redd.it/p4ulvi")
+update_respectthread(cur, 13140, "Respect Harley Quinn (DC Extended Universe)", "https://redd.it/pbbmtk")
 
 ########################################
 
@@ -1300,6 +1301,21 @@ False,
 
 ########################################
 
+add_data(["Harley Quinn?"],
+"Harley Quinn",
+False,
+False,
+[
+'{"DC Extended Universe"}', '{"DC ?(E|C)U"}', '{"DC Cinematic Universe"}',
+'{"Suicide Squad"}'
+],
+"DCEU",
+'{13140}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pbbmtk/respect_harley_quinn_dc_extended_universe/
+
+########################################
+
 id = get_rt_id(cur, "Respect Ratcatcher 2 (DCEU)", "https://redd.it/p2uoy6")
 add_data(["Ratcatcher (2|II)"],
 "Ratcatcher 2",
@@ -1643,6 +1659,21 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p236za/respect_takayuki_yagami_judgment/
+
+########################################
+
+id = get_rt_id(cur, "Respect Pegasus Koga (Saint Seiya: Omega)", "https://redd.it/pbq6xl")
+add_data(["Pegasus K(ō|o)u?ga"],
+"Pegasus Kōga",
+False,
+True,
+[
+'{"Seiya"}'
+],
+"Saint Seiya",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pbq6xl/respect_pegasus_koga_saint_seiya_omega/
 
 ########################################
 
@@ -2259,6 +2290,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect the Teenage Mutant Ninja Turtles (Teenage Mutant Ninja Turtles 90s live action film)", "https://redd.it/pba88o")
+add_data(["Ninja Turtles?"],
+"Teenage Mutant Ninja Turtles",
+True,
+False,
+[
+'{"1990"}'
+],
+"1990",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pba88o/respect_the_teenage_mutant_ninja_turtles_teenage/
+
+########################################
+
 id = get_rt_id(cur, "Respect Juzo Fuwa (Samurai Sentai Shinkenger)", "https://redd.it/papm06")
 add_data(["Juzo Fuwa"],
 "Juzo Fuwa",
@@ -2286,6 +2332,51 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pazq4c/respect_the_wutang_clan_wutang_shaolin_style/
+
+########################################
+
+id = get_rt_id(cur, "Respect Sergei (Mother Russia Bleeds)", "https://redd.it/pb8ua0")
+add_data(["Sergei"],
+"Sergei",
+False,
+False,
+[
+'{"Mother Russia Bleeds"}'
+],
+"Mother Russia Bleeds",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pb8ua0/respect_sergei_mother_russia_bleeds/
+
+########################################
+
+id = get_rt_id(cur, "Respect Andrew Detmer (Chronicle)", "https://redd.it/pbat71")
+add_data(["Andrew"],
+"Andrew",
+False,
+False,
+[
+'{"Chronicles?"}', '{"Detmer"}'
+],
+"Chronicle",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pbat71/respect_andrew_detmer_chronicle/
+
+########################################
+
+id = get_rt_id(cur, "Respect Dosu Kinuta! (Naruto) [Manga]", "https://redd.it/pbc2ex")
+add_data(["Dosu"],
+"Dosu",
+False,
+False,
+[
+'{"Naruto"}', '{"Kinuta"}', '{"Team Dosu"}'
+],
+"Naruto",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pbc2ex/respect_dosu_kinuta_naruto_manga/
 
 ########################################
 

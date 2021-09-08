@@ -27,3 +27,7 @@ UPDATE character SET rt_id_array='{6146, ???}' WHERE rt_id_array='{6146}'; --Bef
 
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ratcatcher', 'Ratcatcher 2', 0); --Before run
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ratcatcher', 'Ratcatcher II', 0); --Before run
+
+########################################
+
+DELETE FROM character WHERE rt_id_array='{13140}'; --Before run
