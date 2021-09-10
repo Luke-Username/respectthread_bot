@@ -23,6 +23,15 @@ UPDATE character SET rt_id_array='{8202, ??}' WHERE rt_id_array='{8202}'; --Befo
 INSERT INTO respectthread (title, link) VALUES ('Respect Sairaorg Bael (High School DxD Anime)', 'https://redd.it/p95zk3'); SELECT * FROM respectthread WHERE link='https://redd.it/p95zk3';
 UPDATE character SET rt_id_array='{6146, ???}' WHERE rt_id_array='{6146}'; --Before run
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Sonic the Hedgehog! (Sonic the Hedgehog (Movie Novelization))', 'https://redd.it/pc2ket'); SELECT * FROM respectthread WHERE link='https://redd.it/pc2ket';
+UPDATE character SET rt_id_array='{8607, ????}' WHERE rt_id_array='{8607}'; --Before run
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Mark Grayson, Invincible! (Invincible)', 'https://redd.it/pdkigv'); SELECT * FROM respectthread WHERE link='https://redd.it/pdkigv';
+UPDATE character SET rt_id_array='{1961, ?????}' WHERE rt_id_array='{1961}'; --Before run
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Sam Wilson, The Falcon! (Marvel 616)', 'https://redd.it/pekq7w'); SELECT * FROM respectthread WHERE link='https://redd.it/pekq7w';
+UPDATE character SET rt_id_array='{??????, 2023}' WHERE rt_id_array='{2023}'; --Before run
+
 ########################################
 
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ratcatcher', 'Ratcatcher 2', 0); --Before run
@@ -31,3 +40,7 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ratcatcher', 'Ra
 ########################################
 
 DELETE FROM character WHERE rt_id_array='{13140}'; --Before run
+
+########################################
+
+UPDATE character_name SET name='Eraser ?head' WHERE name='Eraserhead'; --Before run

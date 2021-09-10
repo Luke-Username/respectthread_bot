@@ -97,6 +97,11 @@ update_respectthread(cur, 14812, "Respect Altera, the Scourge of God! (Fate)", "
 update_respectthread(cur, 233, "Respect the Avengers (Marvel Cinematic Universe)", "https://redd.it/p3px68")
 update_respectthread(cur, 674, "Respect Blitzwolfer (Ben 10)", "https://redd.it/p4ulvi")
 update_respectthread(cur, 13140, "Respect Harley Quinn (DC Extended Universe)", "https://redd.it/pbbmtk")
+update_respectthread(cur, 5487, "Respect Heihachi Mishima (Tekken)", "https://redd.it/pdeswd")
+update_respectthread(cur, 679, "Respect Ditto (Ben 10 Classic)", "https://redd.it/pdwjmz")
+update_respectthread(cur, 5683, 'Respect Razputin "Raz" Aquato! (Psychonauts)', "https://redd.it/pdzd3p")
+update_respectthread(cur, 5613, "Respect Jacket! (Hotline Miami)", "https://redd.it/pdzjg9")
+update_respectthread(cur, 3933, "Respect Shota Aizawa, Eraser Head! (My Hero Academia)", "https://redd.it/pecp0f")
 
 ########################################
 
@@ -153,6 +158,48 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p31sm8/respect_steve_rogers_the_hydra_stomper_marvel/
+
+########################################
+
+id = get_rt_id(cur, "Respect Redwing! (Marvel 616)", "https://redd.it/pe6qb4")
+add_data(["Redwing"],
+"Redwing",
+False,
+False,
+[
+r'{"Redwing ?\\(Marvel"}', '{"616"}', '{"Krypto"}'
+],
+"616",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pe6qb4/respect_redwing_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, "Respect Bill Foster [Goliath/Black Goliath/Giant-Man] (Marvel, Earth-616)", "https://redd.it/pcz4oe")
+add_data(["Bill Foster"],
+"Bill Foster",
+False,
+False,
+[
+'{"Marvel"}', '{"616"}', '{"Goliath"}', '{"Giant(-| )?Man"}'
+],
+"616",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pcz4oe/respect_bill_foster_goliathblack_goliathgiantman/
+
+add_data(["Black Goliath"],
+"Black Goliath",
+False,
+False,
+[
+'{"Marvel"}', '{"616"}', '{"Bill Foster"}'
+],
+"616",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pcz4oe/respect_bill_foster_goliathblack_goliathgiantman/
 
 ########################################
 
@@ -349,6 +396,138 @@ r'{"Titan ?\\(Invincible"}'
 
 ########################################
 
+id = get_rt_id(cur, "Respect Gwen Tennyson (Ben 10 Classic)", "https://redd.it/pf6tp6")
+add_data(["Gwen"],
+"Gwen",
+False,
+False,
+[
+'{"Ben|Kevin"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pf6tp6/respect_gwen_tennyson_ben_10_classic/
+
+add_data(["Gwen Tennyson"],
+"Gwen Tennyson",
+False,
+True,
+[
+'{"Ben|Kevin"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pf6tp6/respect_gwen_tennyson_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Upchuck! (Ben 10 Classic)", "https://redd.it/petm2l")
+add_data(["Upchuck"],
+"Upchuck",
+False,
+False,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/petm2l/respect_upchuck_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jetray! (Ben 10 Classic)", "https://redd.it/peliub")
+add_data(["Jetray"],
+"Jetray",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/peliub/respect_jetray_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Chromastone! (Ben 10 Classic)", "https://redd.it/pdapts")
+add_data(["Chromastone"],
+"Chromastone",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pdapts/respect_chromastone_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Spidermonkey! (Ben 10 Classic)", "https://redd.it/pdw706")
+add_data(["Spider(-| )?monkey"],
+"Spidermonkey",
+False,
+False,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pdw706/respect_spidermonkey_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Swampfire! (Ben 10 Classic)", "https://redd.it/pculwd")
+add_data(["Swamp ?fire"],
+"Swampfire",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pculwd/respect_swampfire_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Water Hazard (Ben 10 Classic)", "https://redd.it/pdbsx2")
+add_data(["Water Hazard"],
+"Water Hazard",
+False,
+False,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pdbsx2/respect_water_hazard_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Kevin Levin! (Ben 10 Classic)", "https://redd.it/pdejw6")
+add_data(["Kevin"],
+"Kevin",
+False,
+False,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}', '{"Levin"}', '{"Ultimate Kevin"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pdejw6/respect_kevin_levin_ben_10_classic/
+
+########################################
+
 id = get_rt_id(cur, "Respect Lodestar (Ben 10 Classic)", "https://redd.it/p3nk1j")
 add_data(["Lodestar"],
 "Lodestar",
@@ -361,6 +540,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p3nk1j/respect_lodestar_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Goop! (Ben 10 Classic)", "https://redd.it/pd15vt")
+add_data(["Goop"],
+"Goop",
+False,
+False,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pd15vt/respect_goop_ben_10_classic/
 
 ########################################
 
@@ -942,6 +1136,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ovtdbn/respect_tommy_oliver_bat_in_the_sun/
+
+########################################
+
+id = get_rt_id(cur, "Respect Zeb Orrelios (Star Wars Canon)", "https://redd.it/pey81q")
+add_data(["Orrelios"],
+"Zeb Orrelios",
+False,
+True,
+[
+'{"S(tar )?Wars"}'
+],
+"Star Wars",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pey81q/respect_zeb_orrelios_star_wars_canon/
 
 ########################################
 
@@ -2260,6 +2469,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Xanthe Rumpole! (RWBY)", "https://redd.it/pd7eyb")
+add_data(["Xanthe Rumpole"],
+"Xanthe Rumpole",
+False,
+True,
+[
+'{"RWBY"}'
+],
+"RWBY",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pd7eyb/respect_xanthe_rumpole_rwby/
+
+########################################
+
 id = get_rt_id(cur, "Respect Tock! (RWBY)", "https://redd.it/p9co85")
 add_data(["Tock"],
 "Tock",
@@ -2302,6 +2526,33 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pba88o/respect_the_teenage_mutant_ninja_turtles_teenage/
+
+########################################
+
+id = get_rt_id(cur, "Respect Kaoru Shiba/Princess ShinkenRed (Samurai Sentai Shinkenger)", "https://redd.it/penx8x")
+add_data(["Princess ShinkenRed"],
+"Princess ShinkenRed",
+False,
+True,
+[
+'{"Samurai Sentai Shinkenger"}'
+],
+"Samurai Sentai Shinkenger",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/penx8x/respect_kaoru_shibaprincess_shinkenred_samurai/
+
+add_data(["Kaoru Shiba"],
+"Kaoru Shiba",
+False,
+True,
+[
+'{"Samurai Sentai Shinkenger"}'
+],
+"Samurai Sentai Shinkenger",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/penx8x/respect_kaoru_shibaprincess_shinkenred_samurai/
 
 ########################################
 
@@ -2377,6 +2628,111 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pbc2ex/respect_dosu_kinuta_naruto_manga/
+
+########################################
+
+id = get_rt_id(cur, "Respect Professor Poopypants! (Captain Underpants)", "https://redd.it/pcq988")
+add_data(["Poopypants"],
+"Poopypants",
+False,
+False,
+[
+'{"Professor"}', '{"Underpants"}'
+],
+"Captain Underpants",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pcq988/respect_professor_poopypants_captain_underpants/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Egg Beater Mech (Archie Sonic, Pre-Genesis Wave)", "https://redd.it/pdgpfn")
+add_data(["Egg Beater"],
+"Egg Beater",
+False,
+False,
+[
+'{"Archie"}'
+],
+"Archie Comics",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pdgpfn/respect_the_egg_beater_mech_archie_sonic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Cornelius (Planet of the Apes/Green Lantern)", "https://redd.it/pdoofu")
+add_data(["Cornelius"],
+"Cornelius",
+False,
+False,
+[
+'{"Green Lantern"}'
+],
+"Green Lantern",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pdoofu/respect_cornelius_planet_of_the_apesgreen_lantern/
+
+########################################
+
+id = get_rt_id(cur, "Respect Tetsutetsu Tetsutetsu! (My Hero Academia)", "https://redd.it/pdpbqn")
+add_data(["Tetsutetsu"],
+"Tetsutetsu Tetsutetsu",
+False,
+True,
+[
+'{"My Hero Academia"}', r'{"\\(My Hero\\)"}', '{"(M|BN?)HA"}', '{"Boku no Hero"}'
+],
+"My Hero Academia",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pdpbqn/respect_tetsutetsu_tetsutetsu_my_hero_academia/
+
+########################################
+
+id = get_rt_id(cur, "Respect Marco! (Animorphs)", "https://redd.it/pdrarq")
+add_data(["Marco"],
+"Marco",
+False,
+False,
+[
+'{"Animorphs?"}'
+],
+"Animorphs",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pdrarq/respect_marco_animorphs/
+
+########################################
+
+id = get_rt_id(cur, "Respect Batman (Tom Mankiewicz''s The Batman, unused script)", "https://redd.it/pf6585")
+add_data(["Bat(-| )?man"],
+"Batman",
+False,
+False,
+[
+'{"Mankiewicz"}'
+],
+"Tom Mankiewicz",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pf6585/respect_batman_tom_mankiewiczs_the_batman_unused/
+
+########################################
+
+id = get_rt_id(cur, "Respect Batman (Fortnite)", "https://redd.it/pe31rn")
+add_data(["Bat(-| )?man"],
+"Batman",
+False,
+False,
+[
+'{"Fortnite"}'
+],
+"Fortnite",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pe31rn/respect_batman_fortnite/
 
 ########################################
 
