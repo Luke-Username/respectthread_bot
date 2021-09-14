@@ -102,6 +102,7 @@ update_respectthread(cur, 679, "Respect Ditto (Ben 10 Classic)", "https://redd.i
 update_respectthread(cur, 5683, 'Respect Razputin "Raz" Aquato! (Psychonauts)', "https://redd.it/pdzd3p")
 update_respectthread(cur, 5613, "Respect Jacket! (Hotline Miami)", "https://redd.it/pdzjg9")
 update_respectthread(cur, 3933, "Respect Shota Aizawa, Eraser Head! (My Hero Academia)", "https://redd.it/pecp0f")
+update_respectthread(cur, 669, "Respect Alien X! (Ben 10 Classic)", "https://redd.it/pfvdrd")
 
 ########################################
 
@@ -215,6 +216,23 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ouminh/respect_combo_man_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, "Respect BB! (Fate)", "https://redd.it/pf890d")
+add_data(["BB"],
+"BB",
+False,
+False,
+[
+'{"Fate"}',
+'{"CCC"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pf890d/respect_bb_fate/
 
 ########################################
 
@@ -1196,6 +1214,35 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p49mea/respect_grant_morrison_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect Harvey Dent, Two-Face (DC Comics, New 52)", "https://redd.it/pft8ca")
+add_data(["Two(-| )?Face"],
+"Two-Face",
+False,
+False,
+[
+'{"New(-| )?52"}', '{"Nu?-?52"}', '{"Post(-| )52"}', '{"Prime(-| )Earth"}', '{"Rebirth"}'
+],
+"New 52",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pft8ca/respect_harvey_dent_twoface_dc_comics_new_52/
+
+add_data(["Two(-| )?Face"],
+"Two-Face",
+False,
+True,
+[
+r'{"(\\(|\\[)DC( Comics)?(\\)|\\])"}', '{"Two(-| )?Face vs"}', r'{"vs\\. Two(-| )?Face"}',
+'{"Bat(-| )?man"}'
+],
+"DC",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pft8ca/respect_harvey_dent_twoface_dc_comics_new_52/
+
 
 ########################################
 
@@ -2733,6 +2780,48 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pe31rn/respect_batman_fortnite/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Janitor (Willy''s Wonderland)", "https://redd.it/pf8c8p")
+add_data(["Janitor"],
+"Janitor",
+False,
+False,
+[
+'{"Willy(''|’)s Wonderland"}'
+],
+"Willy''s Wonderland",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pf8c8p/respect_the_janitor_willys_wonderland/
+
+add_data(["Nicolas Cage"],
+"Nicolas Cage",
+False,
+False,
+[
+'{"Willy(''|’)s Wonderland"}'
+],
+"Willy''s Wonderland",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pf8c8p/respect_the_janitor_willys_wonderland/
+
+########################################
+
+id = get_rt_id(cur, "Respect Meggy Spletzer! (SMG4 Bloopers)", "https://redd.it/pfmp63")
+add_data(["Meggy Spletzer"],
+"Meggy Spletzer",
+False,
+True,
+[
+'{"SMG4 Bloopers"}'
+],
+"SMG4 Bloopers",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pfmp63/respect_meggy_spletzer_smg4_bloopers/
 
 ########################################
 

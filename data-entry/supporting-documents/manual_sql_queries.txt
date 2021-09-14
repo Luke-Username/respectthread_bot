@@ -44,3 +44,4 @@ DELETE FROM character WHERE rt_id_array='{13140}'; --Before run
 ########################################
 
 UPDATE character_name SET name='Eraser ?head' WHERE name='Eraserhead'; --Before run
+UPDATE character_name SET name='Nic(olas|k) Cage' WHERE name='Nicolas Cage'; --Before run
