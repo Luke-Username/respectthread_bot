@@ -103,6 +103,8 @@ update_respectthread(cur, 5683, 'Respect Razputin "Raz" Aquato! (Psychonauts)', 
 update_respectthread(cur, 5613, "Respect Jacket! (Hotline Miami)", "https://redd.it/pdzjg9")
 update_respectthread(cur, 3933, "Respect Shota Aizawa, Eraser Head! (My Hero Academia)", "https://redd.it/pecp0f")
 update_respectthread(cur, 669, "Respect Alien X! (Ben 10 Classic)", "https://redd.it/pfvdrd")
+update_respectthread(cur, 6446, "Respect Brendon Urie! (Panic! at the Disco)", "https://redd.it/phkfp2")
+update_respectthread(cur, 14407, "Respect Merlin, the Vagabond of Paradise! (Fate)", "https://redd.it/pi1f2t")
 
 ########################################
 
@@ -2945,6 +2947,22 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ph7lv1/respect_death_my_name_is_death/
+
+########################################
+
+id = get_rt_id(cur, "Respect Finn the Human (Boom! Studios Adventure Time)", "https://redd.it/phghv4")
+add_data(["Finn the Human"],
+"Finn the Human",
+False,
+False,
+[
+'{"BOOM!? Studios?"}'
+],
+"BOOM! Studios",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/phghv4/respect_finn_the_human_boom_studios_adventure_time/
+
 
 ########################################
 
