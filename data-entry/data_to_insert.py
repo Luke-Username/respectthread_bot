@@ -2159,18 +2159,49 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Xena (Xena: Warrior Princess)", "https://redd.it/pgium0")
+add_data(["Xena"],
+"Xena",
+False,
+True,
+[
+'{"Warrior Princess"}',
+'{"chakram"}'
+],
+"Xena: Warrior Princess",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pgium0/respect_xena_xena_warrior_princess/
+
+########################################
+
 id = get_rt_id(cur, "Respect Virgil (Xena: Warrior Princess)", "https://redd.it/p76u04")
 add_data(["Virgil"],
 "Virgil",
 False,
 False,
 [
-'{"Xena"}', '{"Warriro Princess"}'
+'{"Xena"}', '{"Warrior Princess"}'
 ],
 "Xena: Warrior Princess",
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p76u04/respect_virgil_xena_warrior_princess/
+
+########################################
+
+id = get_rt_id(cur, "Respect Gabrielle (Xena: Warrior Princess)", "https://redd.it/ph9lck")
+add_data(["Gabrielle"],
+"Gabrielle",
+False,
+False,
+[
+'{"Xena"}', '{"Warrior Princess"}'
+],
+"Xena: Warrior Princess",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ph9lck/respect_gabrielle_xena_warrior_princess/
 
 ########################################
 
@@ -2753,6 +2784,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Wonder Woman (Joss Whedon''s unused script)", "https://redd.it/pgxfcc")
+add_data(["Wonder ?Woman"],
+"Wonder Woman",
+False,
+False,
+[
+'{"Whedon"}'
+],
+"Joss Whedon",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pgxfcc/respect_wonder_woman_joss_whedons_unused_script/
+
+########################################
+
 id = get_rt_id(cur, "Respect Batman (Tom Mankiewicz''s The Batman, unused script)", "https://redd.it/pf6585")
 add_data(["Bat(-| )?man"],
 "Batman",
@@ -2822,6 +2868,83 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pfmp63/respect_meggy_spletzer_smg4_bloopers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Atsuko "Akko" Kagari! (Little Witch Academia [TV Series])', "https://redd.it/pg2cm1")
+add_data(["Atsuko"],
+"Atsuko",
+False,
+False,
+[
+'{"Little Witch Academia"}',
+'{"Kagari"}',
+'{"Luna Nova"}'
+],
+"Little Witch Academia",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pg2cm1/respect_atsuko_akko_kagari_little_witch_academia/
+
+add_data(["Akko"],
+"Akko",
+False,
+False,
+[
+'{"Little Witch Academia"}',
+'{"Kagari"}',
+'{"Izuku"}',
+'{"Luna Nova"}'
+],
+"Little Witch Academia",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pg2cm1/respect_atsuko_akko_kagari_little_witch_academia/
+
+########################################
+
+id = get_rt_id(cur, "Respect Honō (Pokemon Mystery Dungeon: Blazing Exploration Team)", "https://redd.it/ph2uwo")
+add_data(["Hon(ō|o)"],
+"Honō",
+False,
+False,
+[
+'{"Mystery Dungeon"}'
+],
+"Pokémon Mystery Dungeon",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ph2uwo/respect_hon%C5%8D_pokemon_mystery_dungeon_blazing/
+
+########################################
+
+id = get_rt_id(cur, "Respect Totodile (Pokemon Mystery Dungeon: Blazing Exploration Team)", "https://redd.it/ph2uya")
+add_data(["Totodile"],
+"Totodile",
+False,
+False,
+[
+'{"Mystery Dungeon"}'
+],
+"Pokémon Mystery Dungeon",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ph2uya/respect_totodile_pokemon_mystery_dungeon_blazing/
+
+########################################
+
+id = get_rt_id(cur, "Respect Death! (My Name is Death)", "https://redd.it/ph7lv1")
+add_data(["Death"],
+"Death",
+False,
+False,
+[
+'{"My Name is Death"}'
+],
+"My Name is Death",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ph7lv1/respect_death_my_name_is_death/
 
 ########################################
 

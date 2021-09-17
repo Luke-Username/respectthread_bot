@@ -32,6 +32,12 @@ UPDATE character SET rt_id_array='{1961, ?????}' WHERE rt_id_array='{1961}'; --B
 INSERT INTO respectthread (title, link) VALUES ('Respect Sam Wilson, The Falcon! (Marvel 616)', 'https://redd.it/pekq7w'); SELECT * FROM respectthread WHERE link='https://redd.it/pekq7w';
 UPDATE character SET rt_id_array='{??????, 2023}' WHERE rt_id_array='{2023}'; --Before run
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Katana (DC, Post-Flashpoint)', 'https://redd.it/pgk03i'); SELECT * FROM respectthread WHERE link='https://redd.it/pgk03i';
+UPDATE character SET rt_id_array='{?7, 1747}' WHERE rt_id_array='{1747}'; --Before run
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Darth Vader (Star Wars Legends)', 'https://redd.it/ph7pyp'); SELECT * FROM respectthread WHERE link='https://redd.it/ph7pyp';
+UPDATE character SET rt_id_array='{314, ?8}' WHERE rt_id_array='{314}'; --Before run
+
 ########################################
 
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ratcatcher', 'Ratcatcher 2', 0); --Before run
