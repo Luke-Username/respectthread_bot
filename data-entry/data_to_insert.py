@@ -105,6 +105,8 @@ update_respectthread(cur, 3933, "Respect Shota Aizawa, Eraser Head! (My Hero Aca
 update_respectthread(cur, 669, "Respect Alien X! (Ben 10 Classic)", "https://redd.it/pfvdrd")
 update_respectthread(cur, 6446, "Respect Brendon Urie! (Panic! at the Disco)", "https://redd.it/phkfp2")
 update_respectthread(cur, 14407, "Respect Merlin, the Vagabond of Paradise! (Fate)", "https://redd.it/pi1f2t")
+update_respectthread(cur, 4860, "[NSFW] Respect Tirol Cerberus! (Monster Wrestling: Interspecies Combat Girls)", "https://redd.it/pilvp9")
+update_respectthread(cur, 815, "Respect The Red Lotus (The Legend of Korra)", "https://redd.it/piqixk")
 
 ########################################
 
@@ -2963,6 +2965,81 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/phghv4/respect_finn_the_human_boom_studios_adventure_time/
 
+########################################
+
+id = get_rt_id(cur, "Respect The Movement! (DC Comics: New 52)", "https://redd.it/pikmmt")
+add_data(["The Movement"],
+"The Movement",
+True,
+False,
+[
+'{"DC"}', '{"New 52"}',
+'{"Virtue"}', '{"Vengeful Moth"}'
+],
+"New 52",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pikmmt/respect_the_movement_dc_comics_new_52/
+
+########################################
+
+id = get_rt_id(cur, "Respect Maxxor (Chaotic)", "https://redd.it/pirplc")
+add_data(["Maxxor"],
+"Maxxor",
+False,
+True,
+[
+'{"Chaotic"}'
+],
+"Chaotic",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pirplc/respect_maxxor_chaotic/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Bolted Behemoth (The Winglet)", "https://redd.it/pis3qj")
+add_data(["Bolted Behemoth"],
+"Bolted Behemoth",
+False,
+True,
+[
+'{"The Winglet"}'
+],
+"The Winglet",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pis3qj/respect_the_bolted_behemoth_the_winglet/
+
+########################################
+
+id = get_rt_id(cur, "Respect Villain Descendingsword (Suggsverse)", "https://redd.it/piz1ia")
+add_data(["Villain Descendingsword"],
+"Villain Descendingsword",
+False,
+True,
+[
+'{"Suggs(verse)?"}'
+],
+"Suggsverse",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/piz1ia/respect_villain_descendingsword_suggsverse/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jake Muller! (Resident Evil)", "https://redd.it/pjetp1")
+add_data(["Jake Muller"],
+"Jake Muller",
+False,
+True,
+[
+'{"Resident Evil"}', r'{"RE ?\\d"}'
+],
+"Resident Evil",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pjetp1/respect_jake_muller_resident_evil/
 
 ########################################
 
