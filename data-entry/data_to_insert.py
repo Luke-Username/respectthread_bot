@@ -107,6 +107,10 @@ update_respectthread(cur, 6446, "Respect Brendon Urie! (Panic! at the Disco)", "
 update_respectthread(cur, 14407, "Respect Merlin, the Vagabond of Paradise! (Fate)", "https://redd.it/pi1f2t")
 update_respectthread(cur, 4860, "[NSFW] Respect Tirol Cerberus! (Monster Wrestling: Interspecies Combat Girls)", "https://redd.it/pilvp9")
 update_respectthread(cur, 815, "Respect The Red Lotus (The Legend of Korra)", "https://redd.it/piqixk")
+update_respectthread(cur, 6670, "Respect The RED Trio (The Winglet)", "https://redd.it/pjf786")
+update_respectthread(cur, 55, "Respect Kouta Kazuraba, Kamen Rider Gaim (Kamen Rider Gaim)", "https://redd.it/pjm9ap")
+update_respectthread(cur, 6029, "Respect: Magnus the Red (Warhammer 40k)", "https://redd.it/pkiq7v")
+update_respectthread(cur, 270, "Respect Scarlet Witch (Marvel Cinematic Universe)", "https://redd.it/plmqw0")
 
 ########################################
 
@@ -418,6 +422,21 @@ r'{"Titan ?\\(Invincible"}'
 
 ########################################
 
+id = get_rt_id(cur, "Respect Albedo! (Ben 10 Classic)", "https://redd.it/pl05zb")
+add_data(["Albedo"],
+"Albedo",
+False,
+False,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pl05zb/respect_albedo_ben_10_classic/
+
+########################################
+
 id = get_rt_id(cur, "Respect Gwen Tennyson (Ben 10 Classic)", "https://redd.it/pf6tp6")
 add_data(["Gwen"],
 "Gwen",
@@ -442,6 +461,22 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pf6tp6/respect_gwen_tennyson_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Rook Blonko! (Ben 10 Classic)", "https://redd.it/pkdzjj")
+add_data(["Rook"],
+"Rook",
+False,
+False,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}', 
+'{"Bl(o|a)n(k|c)(o|a)"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pkdzjj/respect_rook_blonko_ben_10_classic/
 
 ########################################
 
@@ -730,6 +765,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Life (Dreamwalker)", "https://redd.it/pkbbpm")
+add_data(["Life"],
+"Life",
+False,
+False,
+[
+'{"Dreamwalker"}'
+],
+"Dreamwalker",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pkbbpm/respect_life_dreamwalker/
+
+########################################
+
 id = get_rt_id(cur, "Respect Marrow (Dreamwalker)", "https://redd.it/oum2xl")
 add_data(["Marrow"],
 "Marrow",
@@ -745,6 +795,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Mitsuzane Kureshima, Kamen Rider Ryugen (Kamen Rider Gaim)", "https://redd.it/plibqu")
+add_data(["Ryugen"],
+"Ryugen",
+False,
+False,
+[
+'{"Kamen Rider"}'
+],
+"Kamen Rider",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/plibqu/respect_mitsuzane_kureshima_kamen_rider_ryugen/
+
+########################################
+
 id = get_rt_id(cur, "Respect Leo/Kamen Rider Psyga (Kamen Rider Faiz)!", "https://redd.it/p6hlzb")
 add_data(["Kamen Rider Psyga"],
 "Kamen Rider Psyga",
@@ -757,6 +822,21 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p6hlzb/respect_leokamen_rider_psyga_kamen_rider_faiz/
+
+########################################
+
+id = get_rt_id(cur, "Respect Kaito Kumon, Kamen Rider Baron (Kamen Rider Gaim)", "https://redd.it/pk9110")
+add_data(["Kamen Rider Baron"],
+"Kamen Rider Baron",
+False,
+True,
+[
+'{"Kaito"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pk9110/respect_kaito_kumon_kamen_rider_baron_kamen_rider/
 
 ########################################
 
@@ -1692,6 +1772,21 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/oyl7oz/respect_kaido_one_piece/
+
+########################################
+
+id = get_rt_id(cur, "Respect Sasaki (One piece)", "https://redd.it/pjt96z")
+add_data(["Sasaki"],
+"Sasaki",
+False,
+False,
+[
+'{"One ?Piece?"}'
+],
+"One Piece",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pjt96z/respect_sasaki_one_piece/
 
 ########################################
 
@@ -2728,6 +2823,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect The Turbo Toilet 2000! (Captain Underpants)", "https://redd.it/pjqabi")
+add_data(["Turbo Toilet 2000"],
+"Turbo Toilet 2000",
+False,
+True,
+[
+'{"Underpants"}'
+],
+"Captain Underpants",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pjqabi/respect_the_turbo_toilet_2000_captain_underpants/
+
+########################################
+
 id = get_rt_id(cur, "Respect The Egg Beater Mech (Archie Sonic, Pre-Genesis Wave)", "https://redd.it/pdgpfn")
 add_data(["Egg Beater"],
 "Egg Beater",
@@ -3028,6 +3138,20 @@ True,
 
 ########################################
 
+add_data(["RED Trio"],
+"RED Trio",
+True,
+False,
+[
+'{"Winglet"}'
+],
+"Fedora Chronicles",
+'{6670}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pjf786/respect_the_red_trio_the_winglet/
+
+########################################
+
 id = get_rt_id(cur, "Respect Jake Muller! (Resident Evil)", "https://redd.it/pjetp1")
 add_data(["Jake Muller"],
 "Jake Muller",
@@ -3040,6 +3164,21 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pjetp1/respect_jake_muller_resident_evil/
+
+########################################
+
+id = get_rt_id(cur, "Respect Roman Torchwick and Neopolitan! (RWBY Chibi)", "https://redd.it/pjmj8z")
+add_data(["Torchwick"],
+"Roman Torchwick",
+False,
+False,
+[
+'{"Chibi"}'
+],
+"RWBY Chibi",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pjmj8z/respect_roman_torchwick_and_neopolitan_rwby_chibi/
 
 ########################################
 
