@@ -422,6 +422,21 @@ r'{"Titan ?\\(Invincible"}'
 
 ########################################
 
+id = get_rt_id(cur, "Respect Grandpa Max! (Ben 10 Classic)", "https://redd.it/plomja")
+add_data(["Grandpa Max|Max Tennyson"],
+"Grandpa Max",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/plomja/respect_grandpa_max_ben_10_classic/
+
+########################################
+
 id = get_rt_id(cur, "Respect Albedo! (Ben 10 Classic)", "https://redd.it/pl05zb")
 add_data(["Albedo"],
 "Albedo",
@@ -3179,6 +3194,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pjmj8z/respect_roman_torchwick_and_neopolitan_rwby_chibi/
+
+########################################
+
+id = get_rt_id(cur, "Respect Katana (DC, Future State)", "https://redd.it/plqteg")
+add_data(["Katana"],
+"Katana",
+False,
+False,
+[
+'{"Future State"}'
+],
+"DC Future State",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/plqteg/respect_katana_dc_future_state/
 
 ########################################
 
