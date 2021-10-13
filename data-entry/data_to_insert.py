@@ -111,6 +111,8 @@ update_respectthread(cur, 6670, "Respect The RED Trio (The Winglet)", "https://r
 update_respectthread(cur, 55, "Respect Kouta Kazuraba, Kamen Rider Gaim (Kamen Rider Gaim)", "https://redd.it/pjm9ap")
 update_respectthread(cur, 6029, "Respect: Magnus the Red (Warhammer 40k)", "https://redd.it/pkiq7v")
 update_respectthread(cur, 270, "Respect Scarlet Witch (Marvel Cinematic Universe)", "https://redd.it/plmqw0")
+update_respectthread(cur, 12490, "Respect Yuji Itadori (Jujutsu Kaisen)", "https://redd.it/pm298m")
+update_respectthread(cur, 3528, "Respect Katsuto Juumonji (The Irregular at Magic High School anime)", "https://redd.it/pmli37")
 
 ########################################
 
@@ -419,6 +421,21 @@ r'{"Titan ?\\(Invincible"}'
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ouebxj/respect_titan_invincible/
+
+########################################
+
+id = get_rt_id(cur, "Respect Charmcaster! (Ben 10 Classic)", "https://redd.it/pmckae")
+add_data(["Charmcaster"],
+"Charmcaster",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pmckae/respect_charmcaster_ben_10_classic/
 
 ########################################
 
@@ -3209,6 +3226,63 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/plqteg/respect_katana_dc_future_state/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jarrod/Dai Shi (Power Rangers Jungle Fury)", "https://redd.it/plvhj5")
+add_data(["Jarrod"],
+"Jarrod",
+False,
+False,
+[
+'{"Power Rangers"}', '{"Jungle Fury"}'
+],
+"Power Rangers",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/plvhj5/respect_jarroddai_shi_power_rangers_jungle_fury/
+
+add_data(["Dai Shi"],
+"Dai Shi",
+False,
+True,
+[
+'{"Power Rangers"}', '{"Jungle Fury"}'
+],
+"Power Rangers",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/plvhj5/respect_jarroddai_shi_power_rangers_jungle_fury/
+
+########################################
+
+id = get_rt_id(cur, "Respect Godzilla/Kentaro (Warning from G) [The Godzilla Comic]", "https://redd.it/pm1kgi")
+add_data(["Godzilla"],
+"Godzilla",
+False,
+False,
+[
+'{"Warning from G"}', '{"The Godzilla Comic"}'
+],
+"Warning from G",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pm1kgi/respect_godzillakentaro_warning_from_g_the/
+
+########################################
+
+id = get_rt_id(cur, "Respect Uncle Sam (DC Comics, Earth 10)", "https://redd.it/pmorqc")
+add_data(["Uncle Sam"],
+"Uncle Sam",
+False,
+False,
+[
+'{"Earth 10"}'
+],
+"Earth 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pmorqc/respect_uncle_sam_dc_comics_earth_10/
 
 ########################################
 
