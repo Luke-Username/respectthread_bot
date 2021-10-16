@@ -113,6 +113,7 @@ update_respectthread(cur, 6029, "Respect: Magnus the Red (Warhammer 40k)", "http
 update_respectthread(cur, 270, "Respect Scarlet Witch (Marvel Cinematic Universe)", "https://redd.it/plmqw0")
 update_respectthread(cur, 12490, "Respect Yuji Itadori (Jujutsu Kaisen)", "https://redd.it/pm298m")
 update_respectthread(cur, 3528, "Respect Katsuto Juumonji (The Irregular at Magic High School anime)", "https://redd.it/pmli37")
+update_respectthread(cur, 474, "Respect James Bond, 007 (Sean Connery)", "https://redd.it/pmsoct")
 
 ########################################
 
@@ -3283,6 +3284,51 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pmorqc/respect_uncle_sam_dc_comics_earth_10/
+
+########################################
+
+id = get_rt_id(cur, "Respect Cassiopeia! (League of Legends)", "https://redd.it/pmsrgn")
+add_data(["Cassiopeia"],
+"Cassiopeia",
+False,
+False,
+[
+'{"League ?of ?Legends?"}'
+],
+"League of Legends",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pmsrgn/respect_cassiopeia_league_of_legends/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Space Invaders (Space Invaders)", "https://redd.it/pmtx95")
+add_data(["Space Invaders"],
+"Space Invaders",
+False,
+True,
+[
+'{"game"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pmtx95/respect_the_space_invaders_space_invaders/
+
+########################################
+
+id = get_rt_id(cur, "Respect Super Diaper Baby! (Super Diaper Baby)", "https://redd.it/pmvrv9")
+add_data(["Super Diaper Baby"],
+"Super Diaper Baby",
+False,
+True,
+[
+'{"Captain Underpants"}'
+],
+"Captain Underpants",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pmvrv9/respect_super_diaper_baby_super_diaper_baby/
 
 ########################################
 
