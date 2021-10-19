@@ -114,6 +114,7 @@ update_respectthread(cur, 270, "Respect Scarlet Witch (Marvel Cinematic Universe
 update_respectthread(cur, 12490, "Respect Yuji Itadori (Jujutsu Kaisen)", "https://redd.it/pm298m")
 update_respectthread(cur, 3528, "Respect Katsuto Juumonji (The Irregular at Magic High School anime)", "https://redd.it/pmli37")
 update_respectthread(cur, 474, "Respect James Bond, 007 (Sean Connery)", "https://redd.it/pmsoct")
+update_respectthread(cur, 6019, "Respect: Angron (Warhammer 40k)", "https://redd.it/pn1yrd")
 
 ########################################
 
@@ -228,6 +229,21 @@ True,
 )
 #https://www.reddit.com/r/respectthreads/comments/ouminh/respect_combo_man_marvel_616/
 
+########################################
+
+id = get_rt_id(cur, "Respect Violet! (Fate)", "https://redd.it/pn7i75")
+add_data(["Violet"],
+"Violet",
+False,
+False,
+[
+'{"Fate", "EXTRA"}', '{"BB"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pn7i75/respect_violet_fate/
+ 
 ########################################
 
 id = get_rt_id(cur, "Respect BB! (Fate)", "https://redd.it/pf890d")
@@ -494,6 +510,51 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pf6tp6/respect_gwen_tennyson_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Gwen 10 (Ben 10)", "https://redd.it/pmw7vu")
+add_data(["Gwen 10"],
+"Gwen 10",
+False,
+True,
+[
+'{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pmw7vu/respect_gwen_10_ben_10/
+
+########################################
+
+id = get_rt_id(cur, "Respect Gwen Tennyson (Ben 10, Gweniverse)", "https://redd.it/pmw808")
+add_data(["Gwen"],
+"Gwen",
+False,
+False,
+[
+'{"Gweniverse"}'
+],
+"Gweniverse",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pmw808/respect_gwen_tennyson_ben_10_gweniverse/
+
+########################################
+
+id = get_rt_id(cur, "Respect Michael Morningstar (Ben 10 Classic)", "https://redd.it/pmwtyr")
+add_data(["Michael Morningstar"],
+"Michael Morningstar",
+False,
+True,
+[
+'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+],
+"Ben 10",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pmwtyr/respect_michael_morningstar_ben_10_classic/
 
 ########################################
 
@@ -3329,6 +3390,21 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pmvrv9/respect_super_diaper_baby_super_diaper_baby/
+
+########################################
+
+id = get_rt_id(cur, "Respect Cristo Canyon (Lastman)", "https://redd.it/pmxgff")
+add_data(["Cristo Canyon"],
+"Cristo Canyon",
+False,
+True,
+[
+'{"Lastman"}'
+],
+"Lastman",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pmxgff/respect_cristo_canyon_lastman/
 
 ########################################
 
