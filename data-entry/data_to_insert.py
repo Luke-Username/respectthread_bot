@@ -115,6 +115,7 @@ update_respectthread(cur, 12490, "Respect Yuji Itadori (Jujutsu Kaisen)", "https
 update_respectthread(cur, 3528, "Respect Katsuto Juumonji (The Irregular at Magic High School anime)", "https://redd.it/pmli37")
 update_respectthread(cur, 474, "Respect James Bond, 007 (Sean Connery)", "https://redd.it/pmsoct")
 update_respectthread(cur, 6019, "Respect: Angron (Warhammer 40k)", "https://redd.it/pn1yrd")
+update_respectthread(cur, 7443, "Respect: Fulgrim (Warhammer 40k)", "https://redd.it/pn7z5j")
 
 ########################################
 
@@ -243,7 +244,75 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pn7i75/respect_violet_fate/
- 
+
+########################################
+
+id = get_rt_id(cur, "Respect Kazuradrop! (Fate)", "https://redd.it/pn7ins")
+add_data(["Kazuradrop"],
+"Kazuradrop",
+False,
+True,
+[
+'{"Fate"}',
+'{"CCC"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pn7ins/respect_kazuradrop_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Kingprotea! (Fate)", "https://redd.it/pn7j69")
+add_data(["Kingprotea"],
+"Kingprotea",
+False,
+True,
+[
+'{"Fate"}',
+'{"CCC"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pn7j69/respect_kingprotea_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Passionlip! (Fate)", "https://redd.it/pn7jmj")
+add_data(["Passionlip"],
+"Passionlip",
+False,
+True,
+[
+'{"Fate"}',
+'{"CCC"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pn7jmj/respect_passionlip_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Meltryllis! (Fate)", "https://redd.it/pn7k6g")
+add_data(["Meltryllis"],
+"Meltryllis",
+False,
+True,
+[
+'{"Fate"}',
+'{"CCC"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pn7k6g/respect_meltryllis_fate/
+
 ########################################
 
 id = get_rt_id(cur, "Respect BB! (Fate)", "https://redd.it/pf890d")
