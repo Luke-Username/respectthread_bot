@@ -38,6 +38,9 @@ UPDATE character SET rt_id_array='{?7, 1747}' WHERE rt_id_array='{1747}'; --Befo
 INSERT INTO respectthread (title, link) VALUES ('Respect Darth Vader (Star Wars Legends)', 'https://redd.it/ph7pyp'); SELECT * FROM respectthread WHERE link='https://redd.it/ph7pyp';
 UPDATE character SET rt_id_array='{314, ?8}' WHERE rt_id_array='{314}'; --Before run
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Captain Underpants! (In-Universe Comics) (Captain Underpants)', 'https://redd.it/pq37u4'); SELECT * FROM respectthread WHERE link='https://redd.it/pq37u4';
+UPDATE character SET rt_id_array='{6128, ?9}' WHERE rt_id_array='{6128}'; --Before run
+
 ########################################
 
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ratcatcher', 'Ratcatcher 2', 0); --Before run

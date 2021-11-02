@@ -116,6 +116,11 @@ update_respectthread(cur, 3528, "Respect Katsuto Juumonji (The Irregular at Magi
 update_respectthread(cur, 474, "Respect James Bond, 007 (Sean Connery)", "https://redd.it/pmsoct")
 update_respectthread(cur, 6019, "Respect: Angron (Warhammer 40k)", "https://redd.it/pn1yrd")
 update_respectthread(cur, 7443, "Respect: Fulgrim (Warhammer 40k)", "https://redd.it/pn7z5j")
+update_respectthread(cur, 3529, "Respect Leonhard Saijou (The Irregular at Magic High School anime)", "https://redd.it/pnaybs")
+update_respectthread(cur, 6030, "Respect: Mortarion (Warhammer 40k)", "https://redd.it/pnuq85")
+update_respectthread(cur, 3527, "Respect Erika Chiba (The Irregular at Magic High School anime)", "https://redd.it/pnxjrt")
+update_respectthread(cur, 1884, "Respect Thor, The Villian from Valhalla (Dc Pre-Crisis)", "https://redd.it/pp56je")
+update_respectthread(cur, 14409, "Respect Jaguarman! (Fate)", "https://redd.it/pq1go9")
 
 ########################################
 
@@ -1461,6 +1466,22 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p49mea/respect_grant_morrison_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect Mister Nobody (DC Comics)", "https://redd.it/posia9")
+add_data([r"(Mr\\.?|Mister) Nobody"],
+"Mr. Nobody",
+False,
+False,
+[
+'{"PC"}', '{"Posts?(-| )?C(risis)?"}', '{"New(-| )Earth"}',
+'{"Pre(-| )?Crisis"}', '{"Silver(-| )?Age"}', '{"Earth(-| )(1|One)"}'
+],
+"DC",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/posia9/respect_mister_nobody_dc_comics/
 
 ########################################
 
@@ -3091,6 +3112,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Ariana Grande (Fortnite)", "https://redd.it/pqe8co")
+add_data(["Ariana Grande"],
+"Ariana Grande",
+False,
+False,
+[
+'{"Fortnite"}'
+],
+"Fortnite",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pqe8co/respect_ariana_grande_fortnite/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Foundation (Fortnite)", "https://redd.it/ppt64y")
+add_data(["The Foundation"],
+"The Foundation",
+False,
+False,
+[
+'{"Fortnite"}'
+],
+"Fortnite",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ppt64y/respect_the_foundation_fortnite/
+
+########################################
+
 id = get_rt_id(cur, "Respect Batman (Fortnite)", "https://redd.it/pe31rn")
 add_data(["Bat(-| )?man"],
 "Batman",
@@ -3474,6 +3525,81 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pmxgff/respect_cristo_canyon_lastman/
+
+########################################
+
+id = get_rt_id(cur, "Respect the FM Alien invaders! (Mega Man Star Force Anime)", "https://redd.it/pnyxsz")
+add_data(["FM(-| )?ians|Planet FM"],
+"FM-ians",
+True,
+True,
+[
+'{"Mega ?Man"}'
+],
+"Mega Man Star Force",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pnyxsz/respect_the_fm_alien_invaders_mega_man_star_force/
+
+########################################
+
+id = get_rt_id(cur, "Respect Tang Sanzang (Xi Xing Ji)", "https://redd.it/po32yv")
+add_data(["Tang Sanzang"],
+"Tang Sanzang",
+False,
+False,
+[
+'{"Xi Xing Ji"}'
+],
+"Xi Xing Ji",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/po32yv/respect_tang_sanzang_xi_xing_ji/
+
+########################################
+
+id = get_rt_id(cur, "Respect Zethrid (Voltron: Legendary Defender)", "https://redd.it/pqvva1")
+add_data(["Zethrid"],
+"Zethrid",
+False,
+True,
+[
+'{"Voltron"}'
+],
+"Voltron: Legendary Defender",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pqvva1/respect_zethrid_voltron_legendary_defender/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ezor (Voltron: Legendary Defender)", "https://redd.it/powycn")
+add_data(["Ezor"],
+"Ezor",
+False,
+True,
+[
+'{"Voltron"}'
+],
+"Voltron: Legendary Defender",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/powycn/respect_ezor_voltron_legendary_defender/
+
+########################################
+
+id = get_rt_id(cur, "Respect Doctor Doofenshmirtz (Phineas and Ferb)", "https://redd.it/pq34dk")
+add_data(["Doofenshmirtz"],
+"Dr. Doofenshmirtz",
+False,
+True,
+[
+'{"Phineas|Ferb"}'
+],
+"Phineas and Ferb",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pq34dk/respect_doctor_doofenshmirtz_phineas_and_ferb/
 
 ########################################
 
