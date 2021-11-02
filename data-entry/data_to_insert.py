@@ -3007,6 +3007,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect The Bionic Booger Boy! (Captain Underpants)", "https://redd.it/prxukp")
+add_data(["Bionic Booger Boy"],
+"Bionic Booger Boy",
+False,
+True,
+[
+'{"Underpants"}'
+],
+"Captain Underpants",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/prxukp/respect_the_bionic_booger_boy_captain_underpants/
+
+########################################
+
 id = get_rt_id(cur, "Respect The Turbo Toilet 2000! (Captain Underpants)", "https://redd.it/pjqabi")
 add_data(["Turbo Toilet 2000"],
 "Turbo Toilet 2000",
@@ -3112,6 +3127,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Mecha Team Leader (Fortnite)", "https://redd.it/prlpih")
+add_data(["Mecha Team Leader"],
+"Mecha Team Leader",
+False,
+True,
+[
+'{"Fortnite"}'
+],
+"Fortnite",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/prlpih/respect_mecha_team_leader_fortnite/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Devourer (Fortnite)", "https://redd.it/pqxb6j")
+add_data(["Devourer"],
+"Devourer",
+False,
+False,
+[
+'{"Fortnite"}'
+],
+"Fortnite",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pqxb6j/respect_the_devourer_fortnite/
+
+########################################
+
 id = get_rt_id(cur, "Respect Ariana Grande (Fortnite)", "https://redd.it/pqe8co")
 add_data(["Ariana Grande"],
 "Ariana Grande",
@@ -3124,6 +3169,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pqe8co/respect_ariana_grande_fortnite/
+
+########################################
+
+id = get_rt_id(cur, "Respect Agent Jones (Fortnite)", "https://redd.it/pr4y5t")
+add_data(["Agent Jones"],
+"Agent Jones",
+False,
+False,
+[
+'{"Fortnite"}'
+],
+"Fortnite",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pr4y5t/respect_agent_jones_fortnite/
 
 ########################################
 
@@ -3231,6 +3291,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Team Pokepals (Pokemon Anime: Mystery Dungeon Specials)", "https://redd.it/pr9mco")
+add_data(["Team Pok(é|e)pals"],
+"Team Poképals",
+True,
+True,
+[
+'{"Mystery Dungeon"}'
+],
+"Pokémon Mystery Dungeon",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pr9mco/respect_team_pokepals_pokemon_anime_mystery/
+
+########################################
+
 id = get_rt_id(cur, "Respect Honō (Pokemon Mystery Dungeon: Blazing Exploration Team)", "https://redd.it/ph2uwo")
 add_data(["Hon(ō|o)"],
 "Honō",
@@ -3304,6 +3379,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pikmmt/respect_the_movement_dc_comics_new_52/
+
+########################################
+
+id = get_rt_id(cur, "Respect Blazvatan, the Epic Warbeast (Chaotic)", "https://redd.it/ps0or7")
+add_data(["Blazvatan"],
+"Blazvatan",
+False,
+True,
+[
+'{"Chaotic"}'
+],
+"Chaotic",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ps0or7/respect_blazvatan_the_epic_warbeast_chaotic/
 
 ########################################
 
@@ -3600,6 +3690,123 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pq34dk/respect_doctor_doofenshmirtz_phineas_and_ferb/
+
+########################################
+
+id = get_rt_id(cur, "Respect Tow Mater (Cars)", "https://redd.it/pr5nzy")
+add_data(["Mater"],
+"Mater",
+False,
+False,
+[
+'{"Cars"}', '{"Tow Mater"}', '{"Tow ?truck"}'
+],
+"Cars",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pr5nzy/respect_tow_mater_cars/
+
+########################################
+
+id = get_rt_id(cur, "Respect Genie (Aladdin 2019 Film)", "https://redd.it/prlug5")
+add_data(["Genie"],
+"Genie",
+False,
+False,
+[
+'{"Will Smiths?"}', '{"Live(-| )Action", "Aladd?in"}', '{"2019"}'
+],
+"Aladdin, 2019",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/prlug5/respect_genie_aladdin_2019_film/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jimmy Olsen, Speed Demon (Dc Pre-Crisis)", "https://redd.it/psm1d3")
+add_data(["Jimmy Olsen"],
+"Jimmy Olsen",
+False,
+False,
+[
+'{"Speed Demon"}'
+],
+"Speed Demon",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/psm1d3/respect_jimmy_olsen_speed_demon_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Super Brain of Jimmy Olsen (Dc, Pre-Crisis)", "https://redd.it/prwfj3")
+add_data(["Jimmy Olsen"],
+"Jimmy Olsen",
+False,
+False,
+[
+'{"Super Brain"}'
+],
+"The Super Brain of Jimmy Olsen",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/prwfj3/respect_the_super_brain_of_jimmy_olsen_dc/
+
+########################################
+
+id = get_rt_id(cur, "Respect Takatora Kureshima, Kamen Rider Zangetsu (Kamen Rider Gaim)", "https://redd.it/psfm15")
+add_data(["Kamen Rider Zangetsu"],
+"Kamen Rider Zangetsu",
+False,
+True,
+[
+'{"Takatora Kureshima"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/psfm15/respect_takatora_kureshima_kamen_rider_zangetsu/
+
+add_data(["Zangetsu"],
+"Zangetsu",
+False,
+False,
+[
+'{"Kamen Rider"}'
+],
+"Kamen Rider",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/psfm15/respect_takatora_kureshima_kamen_rider_zangetsu/
+
+########################################
+
+id = get_rt_id(cur, "Respect James Bond, 007 (Film Composite)", "https://redd.it/psgrq1")
+add_data(["James Bond"],
+"James Bond",
+False,
+True,
+[
+'{"composite"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/psgrq1/respect_james_bond_007_film_composite/
+
+########################################
+
+id = get_rt_id(cur, "Respect Bruce U (Who Killed Captain Alex?)", "https://redd.it/psieiq")
+add_data(["Bruce U"],
+"Bruce U",
+False,
+True,
+[
+'{"Who Killed Captain Alex"}'
+],
+"Who Killed Captain Alex?",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/psieiq/respect_bruce_u_who_killed_captain_alex/
 
 ########################################
 
