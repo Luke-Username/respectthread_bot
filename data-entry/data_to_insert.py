@@ -121,6 +121,9 @@ update_respectthread(cur, 6030, "Respect: Mortarion (Warhammer 40k)", "https://r
 update_respectthread(cur, 3527, "Respect Erika Chiba (The Irregular at Magic High School anime)", "https://redd.it/pnxjrt")
 update_respectthread(cur, 1884, "Respect Thor, The Villian from Valhalla (Dc Pre-Crisis)", "https://redd.it/pp56je")
 update_respectthread(cur, 14409, "Respect Jaguarman! (Fate)", "https://redd.it/pq1go9")
+update_respectthread(cur, 1316, "Respect Adam Taurus (RWBY)", "https://redd.it/pum6g0")
+update_respectthread(cur, 5499, "Respect the Delta Warriors! (Deltarune)", "https://redd.it/pv0dmk")
+update_respectthread(cur, 1616, "Respect Lucifer Morningstar! (DC/Vertigo)", "https://redd.it/pwlugz")
 
 ########################################
 
@@ -2977,6 +2980,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Minato Namikaze! (Naruto)", "https://redd.it/pw6net")
+add_data(["Minato"],
+"Minato",
+False,
+False,
+[
+'{"Naruto"}', '{"Namikaze"}', '{"Yellow Flash"}'
+],
+"Naruto",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pw6net/respect_minato_namikaze_naruto/
+
+########################################
+
 id = get_rt_id(cur, "Respect Dosu Kinuta! (Naruto) [Manga]", "https://redd.it/pbc2ex")
 add_data(["Dosu"],
 "Dosu",
@@ -2989,6 +3007,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pbc2ex/respect_dosu_kinuta_naruto_manga/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Wicked Wedgie Woman! (Captain Underpants)", "https://redd.it/pvwwk1")
+add_data(["Wicked Wedgie Woman"],
+"Wicked Wedgie Woman",
+False,
+True,
+[
+'{"Captain Underpants"}'
+],
+"Captain Underpants",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pvwwk1/respect_the_wicked_wedgie_woman_captain_underpants/
 
 ########################################
 
@@ -3648,6 +3681,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Acxa (Voltron: Legendary Defender)", "https://redd.it/pu4tj8")
+add_data(["Acxa"],
+"Acxa",
+False,
+True,
+[
+'{"Voltron"}'
+],
+"Voltron: Legendary Defender",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pu4tj8/respect_acxa_voltron_legendary_defender/
+
+########################################
+
 id = get_rt_id(cur, "Respect Zethrid (Voltron: Legendary Defender)", "https://redd.it/pqvva1")
 add_data(["Zethrid"],
 "Zethrid",
@@ -3723,6 +3771,66 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Jimmy Olsen, King of the Giant Ants (Dc Pre-Crisis)", "https://redd.it/pvdhmm")
+add_data(["Jimmy Olsen"],
+"Jimmy Olsen",
+False,
+False,
+[
+'{"Giant Ants?"}'
+],
+"King of the Giant Ants",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pvdhmm/respect_jimmy_olsen_king_of_the_giant_ants_dc/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jimmy Olsen, Homo-Disastrous (Dc Pre-Crisis)", "https://redd.it/pukw1x")
+add_data(["Jimmy Olsen"],
+"Jimmy Olsen",
+False,
+False,
+[
+'{"Homo(-| )Disastrous"}'
+],
+"Homo-Disastrous",
+'{' + '{}'.format(id) +'}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Jimmy Olsen''s Private Monster (Dc, Pre-Crisis)", "https://redd.it/pvyaa5")
+add_data(["Jimmy Olsen''?s Private Monster"],
+"Jimmy Olsen''s Private Monster",
+False,
+True,
+[
+'{"Pre(-| )?Crisis"}'
+],
+"Pre-Crisis",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pvyaa5/respect_jimmy_olsens_private_monster_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jimmy Olsen, The Non-Super Superman (Dc Pre-Crisis)", "https://redd.it/ptxjdt")
+add_data(["Jimmy Olsen"],
+"Jimmy Olsen",
+False,
+False,
+[
+'{"Non(-| )Super Superman"}'
+],
+"Non-Super Superman",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ptxjdt/respect_jimmy_olsen_the_nonsuper_superman_dc/
+
+########################################
+
 id = get_rt_id(cur, "Respect Jimmy Olsen, Speed Demon (Dc Pre-Crisis)", "https://redd.it/psm1d3")
 add_data(["Jimmy Olsen"],
 "Jimmy Olsen",
@@ -3738,6 +3846,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Chameleon-Head Olsen (Dc Pre-Crisis)", "https://redd.it/pt988l")
+add_data(["Chameleon(-| )Head Olsen"],
+"Chameleon-Head Olsen",
+False,
+True,
+[
+'{"Pre(-| )?Crisis"}'
+],
+"Pre-Crisis",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pt988l/respect_chameleonhead_olsen_dc_precrisis/
+
+########################################
+
 id = get_rt_id(cur, "Respect The Super Brain of Jimmy Olsen (Dc, Pre-Crisis)", "https://redd.it/prwfj3")
 add_data(["Jimmy Olsen"],
 "Jimmy Olsen",
@@ -3750,6 +3873,63 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/prwfj3/respect_the_super_brain_of_jimmy_olsen_dc/
+
+########################################
+
+id = get_rt_id(cur, "Respect Soreo Hiden, Kamen Rider Ichi-Gata (Kamen Rider Zero-One)", "https://redd.it/pw9x5f")
+add_data(["Kamen Rider Ichi(-| )?Gata"],
+"Kamen Rider Ichi-Gata",
+False,
+True,
+[
+'{"default"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pw9x5f/respect_soreo_hiden_kamen_rider_ichigata_kamen/
+
+########################################
+
+id = get_rt_id(cur, "Respect Rosyuo (Kamen Rider Gaim)", "https://redd.it/pw1vhy")
+add_data(["Rosyuo"],
+"Rosyuo",
+False,
+True,
+[
+'{"Kamen Rider"}'
+],
+"Kamen Rider",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pw1vhy/respect_rosyuo_kamen_rider_gaim/
+
+########################################
+
+id = get_rt_id(cur, "Respect Oren Pierre Alfonzo, Kamen Rider Bravo (Kamen Rider Gaim)", "https://redd.it/pu0e7f")
+add_data(["Kamen Rider Bravo"],
+"Kamen Rider Bravo",
+False,
+True,
+[
+'{"default"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pu0e7f/respect_oren_pierre_alfonzo_kamen_rider_bravo/
+
+add_data(["Oren Pierre Alfonzo"],
+"Oren Pierre Alfonzo",
+False,
+True,
+[
+'{"Kamen Rider"}'
+],
+"Kamen Rider",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pu0e7f/respect_oren_pierre_alfonzo_kamen_rider_bravo/
 
 ########################################
 
@@ -3807,6 +3987,171 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/psieiq/respect_bruce_u_who_killed_captain_alex/
+
+########################################
+
+id = get_rt_id(cur, "Respect Yoshi the Weredino (Curse of the Weredino)", "https://redd.it/pswy8u")
+add_data(["Yoshi the Weredino"],
+"Yoshi the Weredino",
+False,
+True,
+[
+'{"Curse of the Weredino"}'
+],
+"Curse of the Weredino",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pswy8u/respect_yoshi_the_weredino_curse_of_the_weredino/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Charizardosaurus (The Creature From Lybon Forest)", "https://redd.it/pt18wp")
+add_data(["Charizardosaurus"],
+"Charizardosaurus",
+False,
+True,
+[
+'{"The Creature From Lybon Forest"}'
+],
+"The Creature From Lybon Forest",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pt18wp/respect_the_charizardosaurus_the_creature_from/
+
+########################################
+
+id = get_rt_id(cur, "Respect Shao Kahn (Mortal Kombat: Battle of the Realms)", "https://redd.it/ptgdyj")
+add_data(["Sh(ao|oa) K(ah|ha)n"],
+"Shao Kahn",
+False,
+False,
+[
+'{"Battle of the Realms"}'
+],
+"Mortal Kombat: Battle of the Realms",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ptgdyj/respect_shao_kahn_mortal_kombat_battle_of_the/
+
+########################################
+
+id = get_rt_id(cur, "Respect the mighty Sobek! (Sobek)", "https://redd.it/pu50wt")
+add_data(["Sobek"],
+"Sobek",
+False,
+False,
+[
+r'{"Sobek ?\\(Sobek"}'
+],
+"Sobek",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pu50wt/respect_the_mighty_sobek_sobek/
+
+########################################
+
+id = get_rt_id(cur, "Respect Emperor Vertus (Animal Kaiser)", "https://redd.it/pucrg5")
+add_data(["Emperor Vertus"],
+"Emperor Vertus",
+False,
+False,
+[
+'{"Animal Kaiser"}'
+],
+"Animal Kaiser",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pucrg5/respect_emperor_vertus_animal_kaiser/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ankylosaurus (Dinosaur King)", "https://redd.it/pwaklt")
+add_data(["Ankylosaurus"],
+"Ankylosaurus",
+False,
+False,
+[
+'{"Dinosaur King"}'
+],
+"Dinosaur King",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pwaklt/respect_ankylosaurus_dinosaur_king/
+
+########################################
+
+id = get_rt_id(cur, "Respect Pachycephalosaurus (Dinosaur King)", "https://redd.it/pvn7s3")
+add_data(["Pachycephalosaurus"],
+"Pachycephalosaurus",
+False,
+False,
+[
+'{"Dinosaur King"}'
+],
+"Dinosaur King",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pvn7s3/respect_pachycephalosaurus_dinosaur_king/
+
+########################################
+
+id = get_rt_id(cur, "Respect Utahraptor (Dinosaur King)", "https://redd.it/put7y5")
+add_data(["Utahraptor"],
+"Utahraptor",
+False,
+False,
+[
+'{"Dinosaur King"}'
+],
+"Dinosaur King",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/put7y5/respect_utahraptor_dinosaur_king/
+
+########################################
+
+id = get_rt_id(cur, "Respect Gaz Digzy (Ballmastrz: 9009)", "https://redd.it/pvk20q")
+add_data(["Gaz Digzy"],
+"Gaz Digzy",
+False,
+True,
+[
+'{"Ballmastrz"}'
+],
+"Ballmastrz: 9009",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pvk20q/respect_gaz_digzy_ballmastrz_9009/
+
+########################################
+
+id = get_rt_id(cur, "Respect Homer J. Simpson (The Simpsons)", "https://redd.it/pvw7dd")
+add_data([r"Homer (J(ay)?\\.?)?Simpsi?on"],
+"Homer Simpson",
+False,
+True,
+[
+'{"The Simpsons"}'
+],
+"The Simpsons",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pvw7dd/respect_homer_j_simpson_the_simpsons/
+
+########################################
+
+id = get_rt_id(cur, "Respect Lobo (Superman: Man of Tomorrow)", "https://redd.it/pwka96")
+add_data(["Lobo"],
+"Lobo",
+False,
+False,
+[
+'{"Man of Tomorrow"}'
+],
+"Superman: Man of Tomorrow",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pwka96/respect_lobo_superman_man_of_tomorrow/
 
 ########################################
 
