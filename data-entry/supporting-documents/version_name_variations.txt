@@ -1917,12 +1917,15 @@ Marvel Cinematic Universe
 		'{"Black Panther", "movie"}'
 		r'{"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D"}'
 		'{"Wanda ?Vision"}'
+		'{"What( |-)if"}'
 		...
 	Actors
 		'{"Josh Brolin"}' (Thanos)
 		'{"Robert Downey"}' (Ironman)
 	Displayed Version Name
 		"MCU"
+		# if it's a What If...?:
+			"MCU: What if...?"
 
 Marvel Comics
 	Version

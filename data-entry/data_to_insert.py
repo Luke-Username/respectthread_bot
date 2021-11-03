@@ -124,6 +124,8 @@ update_respectthread(cur, 14409, "Respect Jaguarman! (Fate)", "https://redd.it/p
 update_respectthread(cur, 1316, "Respect Adam Taurus (RWBY)", "https://redd.it/pum6g0")
 update_respectthread(cur, 5499, "Respect the Delta Warriors! (Deltarune)", "https://redd.it/pv0dmk")
 update_respectthread(cur, 1616, "Respect Lucifer Morningstar! (DC/Vertigo)", "https://redd.it/pwlugz")
+update_respectthread(cur, 1323, "Respect Cardin Winchester (RWBY)", "https://redd.it/pwxipw")
+update_respectthread(cur, 2414, "Respect Sabretooth (Marvel 616)!", "https://redd.it/pwuham")
 
 ########################################
 
@@ -153,15 +155,58 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Sylvie Laufeydottir (Marvel Cinematic Universe)", "https://redd.it/pwxpku")
+add_data(["Sylvie"],
+"Sylvie",
+False,
+False,
+[
+'{"Marvel Cinematic Universe"}', '{"MCU"}',
+'{"Laufeydottir"}'
+],
+"MCU",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/px6ftx/respect_sylvie_laufeydottir_marvel_cinematic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Doctor Strange Supreme (Marvel Cinematic Universe: What If...?)", "https://redd.it/pwprc4")
+add_data([r"(Doctor|Dr\\.?) Strange"],
+"Doctor Strange",
+False,
+False,
+[
+'{"What( |-)if"}'
+],
+"MCU: What if...?",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pwprc4/respect_doctor_strange_supreme_marvel_cinematic/
+
+add_data([r"(Evil|Dark)( Doctor|Dr\\.?)? ?Strange", "Strange Supreme"],
+"Doctor Strange Supreme",
+False,
+True,
+[
+'{"What( |-)if"}'
+],
+"MCU: What if...?",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pwprc4/respect_doctor_strange_supreme_marvel_cinematic/
+
+########################################
+
 id = get_rt_id(cur, "Respect Captain Carter (Marvel Cinematic Universe: What If...?)", "https://redd.it/p3gume")
 add_data(["Captain Carter"],
 "Captain Carter",
 False,
 True,
 [
-'{"Marvel Cinematic Universe"}', '{"MCU"}', '{"What if"}'
+'{"Marvel Cinematic Universe"}', '{"MCU"}', '{"What( |-)if"}'
 ],
-"MCU",
+"MCU: What if...?",
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p3gume/respect_captain_carter_marvel_cinematic_universe/
@@ -174,9 +219,9 @@ add_data(["Hydra Stomper"],
 False,
 True,
 [
-'{"Marvel Cinematic Universe"}', '{"MCU"}', '{"What if"}'
+'{"Marvel Cinematic Universe"}', '{"MCU"}', '{"What( |-)if"}'
 ],
-"MCU",
+"MCU: What if...?",
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p31sm8/respect_steve_rogers_the_hydra_stomper_marvel/
@@ -3324,6 +3369,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Lance''s Dragonite (Pokemon Generations)", "https://redd.it/pwzbb8")
+add_data(["Dragonite"],
+"Dragonite",
+False,
+False,
+[
+'{"Lance", "Pok(e|é)m(o|a)n Generations"}'
+],
+"Pokémon Generations",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pwzbb8/respect_lances_dragonite_pokemon_generations/
+
+########################################
+
 id = get_rt_id(cur, "Respect Team Pokepals (Pokemon Anime: Mystery Dungeon Specials)", "https://redd.it/pr9mco")
 add_data(["Team Pok(é|e)pals"],
 "Team Poképals",
@@ -4065,6 +4125,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Genie, The Isisaurus (Dinosaur King)", "https://redd.it/pwwyt9")
+add_data(["Genie"],
+"Genie",
+False,
+False,
+[
+'{"Dinosaur King"}'
+],
+"Dinosaur King",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pwwyt9/respect_genie_the_isisaurus_dinosaur_king/
+
+########################################
+
 id = get_rt_id(cur, "Respect Ankylosaurus (Dinosaur King)", "https://redd.it/pwaklt")
 add_data(["Ankylosaurus"],
 "Ankylosaurus",
@@ -4152,6 +4227,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pwka96/respect_lobo_superman_man_of_tomorrow/
+
+########################################
+
+id = get_rt_id(cur, "Respect Bulletproof (Image Comics)", "https://redd.it/pwxpku")
+add_data(["Bulletproof"],
+"Bulletproof",
+False,
+False,
+[
+r'{"Bulletproof ?\\(Image"}', '{"Zandale Randolph"}'
+],
+"Image Comics",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pwxpku/respect_bulletproof_image_comics/
 
 ########################################
 

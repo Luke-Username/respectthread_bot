@@ -49,6 +49,7 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ratcatcher', 'Ra
 ########################################
 
 DELETE FROM character WHERE rt_id_array='{13140}'; --Before run
+DELETE FROM character_name WHERE name='(Doctor|Dr\.?) Strange'; --Before run
 
 ########################################
 
