@@ -131,6 +131,7 @@ update_respectthread(cur, 1214, "Respect Killer Bean! (Killer Bean)", "https://r
 update_respectthread(cur, 672, "Respect Ben Tennyson (Ben 10 Classic)", "https://redd.it/q0lnbf")
 update_respectthread(cur, 14406, "Respect Tiamat, the Second Beast of Disaster! (Fate)", "https://redd.it/q1zb52")
 update_respectthread(cur, 1336, "Respect Mercury Black (RWBY)", "https://redd.it/q2vfjv")
+update_respectthread(cur, 2536, "Respect Ultimate Invisible Woman (Marvel, 1610)", "https://redd.it/q5byni")
 
 ########################################
 
@@ -276,6 +277,21 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p31sm8/respect_steve_rogers_the_hydra_stomper_marvel/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Serpent Society! (Marvel 616)", "https://redd.it/q4x4vo")
+add_data(["Serpent Society"],
+"Serpent Society",
+True,
+True,
+[
+'{"Marvel"}', '{"616"}'
+],
+"616",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q4x4vo/respect_the_serpent_society_marvel_616/
 
 ########################################
 
@@ -3592,6 +3608,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect James'' Magikarp (Pokemon Anime)", "https://redd.it/q48nbj")
+add_data(["Magikarp"],
+"Magikarp",
+False,
+False,
+[
+r'{"James\'\'? Magikarp"}'
+],
+"James",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q48nbj/respect_james_magikarp_pokemon_anime/
+
+########################################
+
 id = get_rt_id(cur, "Respect Blue (Pokemon Origins)", "https://redd.it/pxmbjy")
 add_data(["Blue"],
 "Blue",
@@ -3843,6 +3874,21 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pjetp1/respect_jake_muller_resident_evil/
+
+########################################
+
+id = get_rt_id(cur, "Respect James Ironwood (RWBY)", "https://redd.it/q4nd0c")
+add_data(["Ironwood"],
+"Ironwood",
+False,
+False,
+[
+'{"James Ironwood"}', '{"Adam Taurus"}', '{"RWBY"}'
+],
+"RWBY",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q4nd0c/respect_james_ironwood_rwby/
 
 ########################################
 
@@ -4931,6 +4977,36 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/q3x96d/respect_stubbs_stubbs_the_zombie_in_rebel_without/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Magic Knights! (Magic Knight Rayearth)", "https://redd.it/q48ef1")
+add_data(["Magic Knights"],
+"Magic Knights",
+True,
+False,
+[
+'{"Magic Knight Rayearth"}'
+],
+"Magic Knight Rayearth",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q48ef1/respect_the_magic_knights_magic_knight_rayearth/
+
+########################################
+
+id = get_rt_id(cur, "Respect She-Ra (She-Ra and the Princesses of Power)", "https://redd.it/q5dmoe")
+add_data(["She(-| )Ra"],
+"She-Ra",
+False,
+True,
+[
+'{"Princesses of Power"}', '{"2018"}', '{"Reboot"}', '{"Netflix"}'
+],
+"She-Ra and the Princesses of Power",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q5dmoe/respect_shera_shera_and_the_princesses_of_power/
 
 ########################################
 
