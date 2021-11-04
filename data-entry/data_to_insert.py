@@ -171,6 +171,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Hawkeye (Marvel Cinematic Universe: What If...?)", "https://redd.it/py6gvd")
+add_data(["Hawk(-| )?eye"],
+"Hawkeye",
+False,
+False,
+[
+'{"What( |-)if", "Episode 8"}'
+],
+"MCU: What if...?",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/py6gvd/respect_hawkeye_marvel_cinematic_universe_what_if/
+
+########################################
+
 id = get_rt_id(cur, "Respect Doctor Strange Supreme (Marvel Cinematic Universe: What If...?)", "https://redd.it/pwprc4")
 add_data([r"(Doctor|Dr\\.?) Strange"],
 "Doctor Strange",
@@ -282,6 +297,21 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ouminh/respect_combo_man_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ibaraki-Douji (Fate)", "https://redd.it/pz2y9c")
+add_data(["Ibaraki(-| )D(ō|o)u?ji"],
+"Ibaraki-Dōji",
+False,
+True,
+[
+'{"Fate""}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pz2y9c/respect_ibarakidouji_fate/
 
 ########################################
 
@@ -3369,6 +3399,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Blue (Pokemon Origins)", "https://redd.it/pxmbjy")
+add_data(["Blue"],
+"Blue",
+False,
+False,
+[
+r'{"Blue ?\\(Origins"}', '{"Pok(e|é)m(o|a)n Origins?"}'
+],
+"Pokémon Origins",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pxmbjy/respect_blue_pokemon_origins/
+
+########################################
+
 id = get_rt_id(cur, "Respect Lance''s Dragonite (Pokemon Generations)", "https://redd.it/pwzbb8")
 add_data(["Dragonite"],
 "Dragonite",
@@ -3459,6 +3504,35 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Kent Nelson, Doctor Fate (DC Comics, Post-Flashpoint)", "https://redd.it/pxs6bn")
+add_data([r"(Dr|Doctor)\\.? Fate"],
+"Doctor Fate",
+False,
+False,
+[
+'{"Post(-| )Flash(-| )?point"}'
+],
+"Post-Flashpoint",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pxs6bn/respect_kent_nelson_doctor_fate_dc_comics/
+
+########################################
+
+add_data([r"(Dr|Doctor)\\.? Fate"],
+"Doctor Fate",
+False,
+False,
+[
+'{"Khalid Nassour"}'
+],
+"Khalid Nassour",
+'{1722}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, "Respect The Movement! (DC Comics: New 52)", "https://redd.it/pikmmt")
 add_data(["The Movement"],
 "The Movement",
@@ -3472,6 +3546,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pikmmt/respect_the_movement_dc_comics_new_52/
+
+########################################
+
+id = get_rt_id(cur, "Respect Phelphor (Chaotic)", "https://redd.it/pywm4s")
+add_data(["Phelphor"],
+"Phelphor",
+False,
+True,
+[
+'{"Chaotic"}'
+],
+"Chaotic",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pywm4s/respect_phelphor_chaotic/
 
 ########################################
 
@@ -4242,6 +4331,111 @@ r'{"Bulletproof ?\\(Image"}', '{"Zandale Randolph"}'
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pwxpku/respect_bulletproof_image_comics/
+
+########################################
+
+id = get_rt_id(cur, "Respect Inazuma (Ultimate Rock-Paper-Scissors)", "https://redd.it/pxbo05")
+add_data(["Inazuma"],
+"Inazuma",
+False,
+False,
+[
+'{"Rock(-| )Paper(-| )Scissors"}'
+],
+"Ultimate Rock-Paper-Scissors",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pxbo05/respect_inazuma_ultimate_rockpaperscissors/
+
+########################################
+
+id = get_rt_id(cur, "Respect Kinto the Prankster (Avatar:-The Last Airbender''s Official Trading Card Game)", "https://redd.it/pyfbqs")
+add_data(["Kinto"],
+"Kinto",
+False,
+False,
+[
+'{"Avatar"}', '{"A?TLA"}'
+],
+"Avatar: TLA",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pyfbqs/respect_kinto_the_prankster_avatarthe_last/
+
+########################################
+
+id = get_rt_id(cur, "Respect Dogbot (What's New, Scooby-Doo?)", "https://redd.it/pyg6mt")
+add_data(["Dogbot"],
+"Dogbot",
+False,
+False,
+[
+'{"Scooby(-| )?Doo"}'
+],
+"Scooby-Doo",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pyg6mt/respect_dogbot_whats_new_scoobydoo/
+
+########################################
+
+id = get_rt_id(cur, "Respect Doctor Cortex (Crash Bandicoot)", "https://redd.it/pykynu")
+add_data([r"(Doctor|Dr\\.?|Neo) Cortex"],
+"Doctor Neo Cortex",
+False,
+True,
+[
+'{"Crash Bandicoot"}'
+],
+"Crash Bandicoot",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pykynu/respect_doctor_cortex_crash_bandicoot/
+
+########################################
+
+id = get_rt_id(cur, "Respect Reverse Flash (Death Battle)", "https://redd.it/pyz0ny")
+add_data(["Reverse(-| )Flash"],
+"Reverse-Flash",
+False,
+False,
+[
+'{"DEATH BATTLE"}'
+],
+"DEATH BATTLE!",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pyz0ny/respect_reverse_flash_death_battle/
+
+########################################
+
+id = get_rt_id(cur, "Respect: Davion and Slyrak, the Knight and the Dragon (DOTA 2: Dragon''s Blood)", "https://redd.it/px7t7j")
+add_data(["Davion"],
+"Davion",
+False,
+False,
+[
+'{"Dota2?"}'
+],
+"Dota 2",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/px7t7j/respect_davion_and_slyrak_the_knight_and_the/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Gunstringer (The Gunstringer)", "https://redd.it/pz420u")
+add_data(["Gunstringer"],
+"Gunstringer",
+False,
+True,
+[
+'{"Kinect"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pz420u/respect_the_gunstringer_the_gunstringer/
 
 ########################################
 

@@ -50,9 +50,17 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ratcatcher', 'Ra
 
 DELETE FROM character WHERE rt_id_array='{13140}'; --Before run
 DELETE FROM character_name WHERE name='(Doctor|Dr\.?) Strange'; --Before run
+DELETE FROM character_name WHERE name='(Dr|Doctor)\.? Fate Strange'; --Before run
 
 ########################################
 
 UPDATE character_name SET name='Eraser ?head' WHERE name='Eraserhead'; --Before run
 UPDATE character_name SET name='Nic(olas|k) Cage' WHERE name='Nicolas Cage'; --Before run
 UPDATE character_name SET name='Mas?ter Chief' WHERE name='Master Chief'; --Before run
+
+########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/pxs6bn';
+UPDATE character SET rt_id_array='{?, 7611, 1722}' WHERE rt_id_array='{1722,7611}'; --After run
+
+UPDATE character SET displayed_version_name='DEATH BATTLE!' WHERE displayed_version_name='Death Battle'; --Before run
