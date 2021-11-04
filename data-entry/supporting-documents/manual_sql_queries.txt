@@ -53,12 +53,15 @@ DELETE FROM character_name WHERE name='(Doctor|Dr\.?) Strange'; --Before run
 DELETE FROM character_name WHERE name='(Dr|Doctor)\.? Fate Strange'; --Before run
 DELETE FROM character_name WHERE name='Frankenstein'; --Before run
 DELETE FROM character_name WHERE name='Frankenstein''s Monster'; --Before run
+DELETE FROM character_name WHERE name='Star Lord'; --Before run
+DELETE FROM character_name WHERE name='Starlord'; --Before run
 
 ########################################
 
 UPDATE character_name SET name='Eraser ?head' WHERE name='Eraserhead'; --Before run
 UPDATE character_name SET name='Nic(olas|k) Cage' WHERE name='Nicolas Cage'; --Before run
 UPDATE character_name SET name='Mas?ter Chief' WHERE name='Master Chief'; --Before run
+UPDATE character_name SET name='Star(-| )?Lord' WHERE name='Star-Lord'; --Before run
 
 ########################################
 

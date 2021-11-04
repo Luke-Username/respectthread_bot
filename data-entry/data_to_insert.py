@@ -130,6 +130,7 @@ update_respectthread(cur, 14515, "Respect Hassan-i-Sabbah, the Old Man of the Mo
 update_respectthread(cur, 1214, "Respect Killer Bean! (Killer Bean)", "https://redd.it/pztv0f")
 update_respectthread(cur, 672, "Respect Ben Tennyson (Ben 10 Classic)", "https://redd.it/q0lnbf")
 update_respectthread(cur, 14406, "Respect Tiamat, the Second Beast of Disaster! (Fate)", "https://redd.it/q1zb52")
+update_respectthread(cur, 1336, "Respect Mercury Black (RWBY)", "https://redd.it/q2vfjv")
 
 ########################################
 
@@ -172,6 +173,37 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/px6ftx/respect_sylvie_laufeydottir_marvel_cinematic/
+
+########################################
+
+id = get_rt_id(cur, "Respect T’Challa, Star-Lord (Marvel Cinematic Universe: What If...?)", "https://redd.it/q3xeb5")
+add_data(["T'' ?Chall?a"],
+"T''Challa",
+False,
+False,
+[
+r'{"T\'\'Challa ?\\(?Star(-| )?Lord"}', '{"Star(-| )?Lord T\'\'Challa"}'
+],
+"MCU: What if...?",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q3xeb5/respect_tchalla_starlord_marvel_cinematic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Party Thor (Marvel Cinematic Universe: What If...?)", "https://redd.it/q3xeva")
+add_data(["Party Thor"],
+"Party Thor",
+False,
+True,
+[
+'{"What( |-)if"}',
+'{"Marvel Cinematic Universe"}', '{"MCU"}'
+],
+"MCU: What if...?",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q3xeva/respect_party_thor_marvel_cinematic_universe_what/
 
 ########################################
 
@@ -316,6 +348,21 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ouminh/respect_combo_man_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, "Respect Astolfo! (Fate)", "https://redd.it/q47wbc")
+add_data(["Astolfo"],
+"Astolfo",
+False,
+True,
+[
+'{"Fate"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q47wbc/respect_astolfo_fate/
 
 ########################################
 
@@ -1609,6 +1656,60 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p49mea/respect_grant_morrison_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect Lord Havok (DC, Earth 8, Rebirth)", "https://redd.it/q3rebx")
+add_data(["Lord Havok"],
+"Lord Havok",
+False,
+True,
+[
+r'{"Lord Havok ?\\(DC"}'
+],
+"DC",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q2iwwy/respect_the_turtle_dc_comics_new_52/
+
+add_data(["Lord Havok"],
+"Lord Havok",
+False,
+False,
+[
+r'{"Lord Havok ?\\(Rebirth"}'
+],
+"Rebirth",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q3rebx/respect_lord_havok_dc_earth_8_rebirth/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Turtle (DC Comics, New 52)", "https://redd.it/q2iwwy")
+add_data(["Turtle"],
+"Turtle",
+False,
+False,
+[
+r'{"Turtle ?\\(DC"}'
+],
+"DC",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q2iwwy/respect_the_turtle_dc_comics_new_52/
+
+add_data(["Turtle"],
+"Turtle",
+False,
+False,
+[
+r'{"Turtle ?\\(New(-| )?52"}'
+],
+"New 52",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q2iwwy/respect_the_turtle_dc_comics_new_52/
 
 ########################################
 
@@ -4501,6 +4602,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Chuck Norris (Death Battle)", "https://redd.it/q2us85")
+add_data(["Chuck Norris"],
+"Chuck Norris",
+False,
+False,
+[
+'{"DEATH BATTLE"}'
+],
+"DEATH BATTLE!",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q2us85/respect_chuck_norris_death_battle/
+
+########################################
+
 id = get_rt_id(cur, "Respect Reverse Flash (Death Battle)", "https://redd.it/pyz0ny")
 add_data(["Reverse(-| )Flash"],
 "Reverse-Flash",
@@ -4800,6 +4916,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/q1zi3a/respect_oneeye_orc_stain/
+
+########################################
+
+id = get_rt_id(cur, "Respect Stubbs (Stubbs the Zombie in Rebel Without a Pulse)", "https://redd.it/q3x96d")
+add_data(["Stubbs"],
+"Stubbs",
+False,
+False,
+[
+'{"Stubbs the Zombie"}', '{"Without a Pulse"}'
+],
+"Stubbs the Zombie",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q3x96d/respect_stubbs_stubbs_the_zombie_in_rebel_without/
 
 ########################################
 
