@@ -111,11 +111,19 @@ The Amazing Spider-Man
 	Displayed Version Name
 		"The Amazing Spider-Man"
 
+The Amazing World of Gumball
+	Version
+		'{"Amazing World of Gumball"}'
+	If the full title isn't nessesary
+		'{"Gumball"}'
+	Displayed Version Name
+		"Amazing World of Gumball"
+
 American Dad
 	Version
 		'{"American Dad"}'
 	Displayed Version Name
-		"American Dad"
+		"American Dad!"
 
 Amethyst, Princess Of Gemworld
 	Version
@@ -890,7 +898,7 @@ Earth-8107
 EarthBound
 	Version
 		'{"Earth(-| )?bound"}'
-	Sometimes
+	Sometimes Called
 		'{"Mother"}'
 	Displayed Version Name
 		"EarthBound"
@@ -1047,7 +1055,7 @@ Freakazoid!
 Friday the 13th
 	Version
 		'{"Friday the 13th"}'
-	Sometimes
+	Sometimes Called
 		'{"F13"}'
 	Displayed Version Name
 		"Friday the 13th"
@@ -1125,7 +1133,7 @@ Ghost in the Shell
 Ghosts 'n Goblins
 	Version
 		'{"Ghosts \'\'n Goblins"}', '{"Ghosts n Goblins"}', '{"Gargoyle\'\'s Quest"}', '{"Gargoyles Quest"}', '{"Capcom"}'
-	Sometimes
+	Sometimes Called
 		'{"Arthur"}'
 		'{"Ridley"}'
 	Displayed Version Name
@@ -1184,7 +1192,7 @@ Grand Theft Auto (GTA)
 Graveyard Comics
 	Version
 		'{"Graveyard"}'
-	Sometimes
+	Sometimes Called
 		'{"Graveyard", "Comics"}'
 	Displayed Version Name
 		"Graveyard Comics"
@@ -1339,7 +1347,7 @@ Henry Stickmin
 Heroes of Olympus
 	Version
 		'{"Heroe?s of Olympus"}', '{"Riordan(-| )?(verse)?"}', '{"Trials of Apollo"}'
-	Sometimes
+	Sometimes Called
 		'{"Percy Jackson"}'
 		'{"Percy"}'
 	Displayed Version Name
@@ -1348,7 +1356,7 @@ Heroes of Olympus
 Highschool DxD
 	Version
 		'{"High ?school Dx ?D"}'
-	Sometimes
+	Sometimes Called
 		'{"Dx ?D"}'
 	Displayed Version Name
 		"High School DxD"
@@ -1704,7 +1712,7 @@ Kuroko no Basque / Kuroko's Basketball
 League of Legends
 	Version
 		'{"League ?of ?Legends?"}', '{"LOL"}'
-	Sometimes
+	Sometimes Called
 		'{"League"}'
 	Other
 		'{"Noxus"}' (location in lore)
@@ -1771,7 +1779,7 @@ Leprechaun
 Lilo & Stitch
 	Version
 		'{"Lilo|Stitch"}'
-	Sometimes
+	Sometimes Called
 		'{"Lilo (and|&) Stitch"}'
 	Displayed Version Name
 		"Lilo & Stitch"
@@ -1785,7 +1793,7 @@ Liquid Comics
 LISA: The Painful RPG
 	Version
 		'{"LISA", "RPG"}', '{"LISA", "Painful"}'
-	Sometimes
+	Sometimes Called
 		'{"LISA"}'
 	Displayed Version Name
 		"LISA: The Painful"
@@ -1805,7 +1813,7 @@ Looney Toons
 Lord of the Rings
 	Version
 		'{"L(ord )?o(f )?t(he )?R(ings)?"}'
-	Sometimes
+	Sometimes Called
 		'{"Middle(-| )?Earth"}'
 	Displayed Version Name
 		"Lord of the Rings"
@@ -1852,7 +1860,7 @@ Magic: The Gathering / Magic the Gathering
 	Version
 		'{"Magic:? The Gathering"}', '{"M:?TG"}'
 		'{"Planeswalk(er)?s?"}'
-	Sometimes
+	Sometimes Called
 		'{"Magic"}'
 	Displayed Version Name
 		"Magic: The Gathering"
@@ -1878,7 +1886,7 @@ Mao Mao: Heroes of Pure Heart
 MÄR
 	Version
 		'{"MÄR"}', '{"M(ä|a)rchen Awakens Romance"}'
-	Sometimes
+	Sometimes Called
 		'{"M(Ä|A)R"}'
 	Displayed Version Name
 		"MÄR"
@@ -1981,7 +1989,7 @@ Mass Effect
 	Specific
 		r'{"ME\\d"}'
 		'{"Andromeda"}'
-	Sometimes
+	Sometimes Called
 		'{"Shepard"}'
 	Acronyms
 		'{"ME"}'
@@ -2075,7 +2083,7 @@ Miss Kobayashi's Dragon Maid
 Mob Psycho 100
 	Version
 		'{"Mob (Psycho|100)"}', '{"MP ?100"}'
-	Sometimes
+	Sometimes Called
 		'{"Mob"}'
 	Displayed Version Name
 		"Mob Psycho 100"
@@ -2118,7 +2126,7 @@ MonsterVerse
 Mortal Kombat
 	Version
 		'{"Mortal Kombat"}', r'{"MK\\d*"}'
-	Sometimes
+	Sometimes Called
 		'{"Komposite"}'
 	Displayed Version Name
 		"Mortal Kombat"
@@ -2240,7 +2248,7 @@ Mythology
 Naruto
 	Version
 		'{"Naruto"}', '{"Shippuden"}'
-	Sometimes
+	Sometimes Called
 	 '{"Boruto"}'
 	Displayed Version Name
 		"Naruto"
@@ -2300,7 +2308,7 @@ New 52
 		'{"New(-| )?52"}', '{"Nu?-?52"}', '{"Post(-| )52"}', '{"Prime(-| )Earth"}', '{"Rebirth"}'
 	Displayed Version Name
 		"New 52" or "Rebirth"
-		# Sometimes
+		# Sometimes Called
 			"New 52 / Rebirth"
 	# Note:
 		Says here N52 and Rebirth are the same canon
@@ -2361,7 +2369,7 @@ One Piece
 		'{"One ?Piece?"}'
 	Acronyms
 		'{"OP"}'
-	Sometimes
+	Sometimes Called
 		'{"CP ?9"}', '{"Cipher Pol( Number)? 9"}'
 		'{"Donquixote"}', '{"Doflamingo"}', '{"Luffy"}', '{"Zoro"}', '{"Sanji"}'
 		'{"Devil(-| )Fruit"}'
@@ -2380,7 +2388,7 @@ OneyPlays
 One Punch Man
 	Version
 		'{"One(-| )Punch Man"}', '{"OPM"}'
-	Sometimes
+	Sometimes Called
 		'{"Saitama"}', '{"Tatsumaki"}', '{"Genos"}'
 		'{"S(-| )Class"}'
 		'{"Puri Prisoner"}'
@@ -2604,7 +2612,7 @@ Punch Line
 Raimi Spider-Man
 	Version
 		'{"Raimi-?(verse)?"}'
-	Sometimes
+	Sometimes Called
 		'{"Spider(-| )Man"}' (Bone Saw)
 	Displayed Version Name
 		"Raimiverse Spider-Man"
@@ -3298,7 +3306,7 @@ The Tick (2016 TV series)
 That Time I Got Reincarnated as a Slime / Tensei Shitara Slime Datta Ken
 	Version
 		'{"Slime", "(Reincarnated|Tensei|Web novel|Rimuru)"}', '{"Slime Isekai"}', '{"Rimuru"}'
-	Sometimes
+	Sometimes Called
 		'{"Slime"}'
 	Displayed Version Name
 		"That Time I Got Reincarnated as a Slime"
@@ -3540,7 +3548,7 @@ The World Ends With You
 Worm
 	Version
 		'{"Worm(verse)?"}', '{"Para(-| )?humans?"}', '{"Brockton Bay"}'
-	Sometimes
+	Sometimes Called
 		'{"Slaughter ?house"}'
 		'{"End ?bringers?"}'
 		'{"Ward"}'
