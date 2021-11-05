@@ -132,6 +132,11 @@ update_respectthread(cur, 672, "Respect Ben Tennyson (Ben 10 Classic)", "https:/
 update_respectthread(cur, 14406, "Respect Tiamat, the Second Beast of Disaster! (Fate)", "https://redd.it/q1zb52")
 update_respectthread(cur, 1336, "Respect Mercury Black (RWBY)", "https://redd.it/q2vfjv")
 update_respectthread(cur, 2536, "Respect Ultimate Invisible Woman (Marvel, 1610)", "https://redd.it/q5byni")
+update_respectthread(cur, 1326, "Respect Emerald Sustrai (RWBY)", "https://redd.it/q69ksr")
+update_respectthread(cur, 268, "Respect Vision (Marvel Cinematic Universe)", "https://redd.it/q6lvhv")
+update_respectthread(cur, 1362, "Respect Perfuma (She-Ra and the Princesses of Power)", "https://redd.it/q7f7e5")
+update_respectthread(cur, 6598, "Respect Scorpia (She-Ra and the Princesses of Power)", "https://redd.it/q7f7fg")
+update_respectthread(cur, 2535, "Respect Ultimate Human Torch (Marvel, 1610)", "https://redd.it/q730bj")
 
 ########################################
 
@@ -365,6 +370,102 @@ True,
 )
 #https://www.reddit.com/r/respectthreads/comments/ouminh/respect_combo_man_marvel_616/
 
+########################################
+
+id = get_rt_id(cur, "Respect Aya Drevis! (Mad Father)", "https://redd.it/q6a4u8")
+add_data(["Aya"],
+"Aya",
+False,
+False,
+[
+'{"Aya Drevis"}',
+'{"Mad Father"}'
+],
+"Mad Father",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q6a4u8/respect_aya_drevis_mad_father/
+
+########################################
+
+id = get_rt_id(cur, "Respect Chiron! (Fate)", "https://redd.it/q7cw9c")
+add_data(["Chiron"],
+"Chiron",
+False,
+False,
+[
+'{"Fate"}',
+'{"Apoc(rypha)?"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q7cw9c/respect_chiron_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Frankenstein''s Monster! (Fate)", "https://redd.it/q6c7b0")
+add_data(["Frankenstein"],
+"Frankenstein",
+False,
+False,
+[
+r'{"Frankenstein ?\\(Fate"}',
+'{"Apoc(rypha)?"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q6c7b0/respect_frankensteins_monster_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Kama, the Third Beast of Humanity! (Fate)", "https://redd.it/q5nseo")
+add_data(["Kama"],
+"Kama",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q5nseo/respect_kama_the_third_beast_of_humanity_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Mata Hari (Fate)", "https://redd.it/q5luzw")
+add_data(["Mata Hari"],
+"Mata Hari",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q5luzw/respect_mata_hari_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Sakata Kintoki (Fate)", "https://redd.it/q5lj26")
+add_data(["Kintoki"],
+"Kintoki",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q5lj26/respect_sakata_kintoki_fate/
+ 
 ########################################
 
 id = get_rt_id(cur, "Respect Astolfo! (Fate)", "https://redd.it/q47wbc")
@@ -3713,6 +3814,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Jake the Dog (Boom! Studios Adventure Time)", "https://redd.it/q5j792")
+add_data(["Jake the Dog"],
+"Jake the Dog",
+False,
+False,
+[
+'{"BOOM!? Studios?"}'
+],
+"BOOM! Studios",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q5j792/respect_jake_the_dog_boom_studios_adventure_time/
+
+########################################
+
 id = get_rt_id(cur, "Respect Finn the Human (Boom! Studios Adventure Time)", "https://redd.it/phghv4")
 add_data(["Finn the Human"],
 "Finn the Human",
@@ -4995,6 +5111,54 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Bow (She-Ra and the Princesses of Power)", "https://redd.it/q6ox44")
+add_data(["Bow"],
+"Bow",
+False,
+False,
+[
+'{"She(-| )Ra"}',
+'{"Princesses of Power"}'
+],
+"She-Ra",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q6ox44/respect_bow_shera_and_the_princesses_of_power/
+
+########################################
+
+id = get_rt_id(cur, "Respect Glimmer (She-Ra and the Princesses of Power)", "https://redd.it/q6ox1w")
+add_data(["Glimmer"],
+"Glimmer",
+False,
+False,
+[
+'{"She(-| )Ra"}',
+'{"Princesses of Power"}'
+],
+"She-Ra",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q6ox1w/respect_glimmer_shera_and_the_princesses_of_power/
+
+########################################
+
+id = get_rt_id(cur, "Respect Catra (She-Ra and the Princesses of Power)", "https://redd.it/q5yz5f")
+add_data(["Catra"],
+"Catra",
+False,
+False,
+[
+'{"Princesses of Power"}', '{"2018"}', '{"Reboot"}', '{"Netflix"}',
+'{"She(-| )Ra"}'
+],
+"She-Ra",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q5yz5f/respect_catra_shera_and_the_princesses_of_power/
+
+########################################
+
 id = get_rt_id(cur, "Respect She-Ra (She-Ra and the Princesses of Power)", "https://redd.it/q5dmoe")
 add_data(["She(-| )Ra"],
 "She-Ra",
@@ -5007,6 +5171,66 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/q5dmoe/respect_shera_shera_and_the_princesses_of_power/
+
+########################################
+
+id = get_rt_id(cur, "Respect EL MACHO (Despicable Me)", "https://redd.it/q6ddn6")
+add_data(["El Macho"],
+"El Macho",
+False,
+True,
+[
+'{"Despicable Me"}'
+],
+"Despicable Me",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q6ddn6/respect_el_macho_despicable_me/
+
+########################################
+
+id = get_rt_id(cur, "Respect Seiya Ryuuguuin! (Cautious Hero)", "https://redd.it/q6rhma")
+add_data(["Seiya"],
+"Seiya",
+False,
+False,
+[
+'{"Ryuu?guu?in"}', '{"Cautious Hero"}'
+],
+"Cautious Hero",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q6rhma/respect_seiya_ryuuguuin_cautious_hero/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Black Zodiac (Thir13en Ghosts)", "https://redd.it/q7broz")
+add_data(["Black Zodiac"],
+"Black Zodiac",
+True,
+False,
+[
+'{"(Thir(13|te)en|13) Ghosts"}'
+],
+"Thir13en Ghosts",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q7broz/respect_the_black_zodiac_thir13en_ghosts/
+
+########################################
+
+id = get_rt_id(cur, "Respect Iron Man (Jeff Vintar Iron Man Script)", "https://redd.it/q70vjg")
+add_data(["Iron(-| )?Man"],
+"Iron Man",
+False,
+False,
+[
+'{"Jeff Vintar"}'
+],
+"Jeff Vintar",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/q70vjg/respect_iron_man_jeff_vintar_iron_man_script/
 
 ########################################
 
