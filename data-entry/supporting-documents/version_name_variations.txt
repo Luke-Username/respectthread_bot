@@ -1015,7 +1015,7 @@ Five Nights at Freddies
 
 Flashpoint
 	Version
-		'{"Flash(-| )?point"}'
+		'{"(Post(-| ))?Flash(-| )?point"}'
 	Displayed Version Name
 		"Flashpoint"
 
@@ -1410,6 +1410,12 @@ How to Train Your Dragon
 Hulk Vs.
 	Version
 		r'{"\\(Hulk Vs\.?\\)"}'
+
+The Hunters Guild: Red Hood
+	Version
+		'{"Hunters Guild"}', '{"Red Hood"}'
+	Displayed Version Name
+		"The Hunters Guild: Red Hood"
 
 Hunter x Hunter
 	Version
@@ -3142,6 +3148,12 @@ Super Mario Brothers Super Show!
 	Displayed Version Name
 		"Super Mario Brothers Super Show!"
 
+SuperMarioGlitchy4
+	Version
+		'{"SMG4 Bloopers"}', '{"SuperMarioGlitchy4"}'
+	Displayed Version Name
+		"SMG4 Bloopers"
+
 Super Mario World (TV series)
 	Version
 		'{"Super Mario World cartoon"}'
@@ -3452,6 +3464,14 @@ Wakfu
 		'{"Wakfu"}'
 	Displayed Version Name
 		"Wakfu"
+
+The Walking Dead
+	Version
+		'{"Walking Dead"}'
+	Acronyms
+		'{"TWD"}'
+	Displayed Version Name
+		"The Walking Dead"
 
 Wallace and Gromit
 	Version
