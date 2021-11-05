@@ -68,8 +68,17 @@ UPDATE character_name SET name='Star(-| )?Lord' WHERE name='Star-Lord'; --Before
 UPDATE character SET displayed_version_name='DEATH BATTLE!' WHERE displayed_version_name='Death Battle'; --Before run
 UPDATE character SET displayed_version_name='' WHERE displayed_version_name='Killer Bean Forever'; --Before run
 UPDATE character SET displayed_version_name='American Dad!' WHERE displayed_version_name='American Dad'; --Before run
+UPDATE character SET is_default=TRUE WHERE default_name='Violet Parr'; --Before run
 
 ########################################
 
 SELECT * FROM respectthread WHERE link='https://redd.it/pxs6bn';
 UPDATE character SET rt_id_array='{?, 7611, 1722}' WHERE rt_id_array='{1722,7611}'; --After run
+
+SELECT * FROM respectthread WHERE link='https://redd.it/q82emz';
+UPDATE character SET rt_id_array='{1128, ?}' WHERE default_name='Elastigirl' AND displayed_version_name='The Incredibles'; --After run
+UPDATE character SET rt_id_array='{1130, ?}' WHERE default_name='Jack-Jack' AND displayed_version_name='The Incredibles'; --After run
+UPDATE character SET rt_id_array='{1131, ?}' WHERE default_name='Mr. Incredible' AND displayed_version_name='The Incredibles'; --After run
+UPDATE character SET rt_id_array='{1133, ?}' WHERE default_name='Violet' AND displayed_version_name='The Incredibles'; --After run
+UPDATE character SET rt_id_array='{1133, ?}' WHERE default_name='Violet Parr' AND displayed_version_name='The Incredibles'; --After run
+
