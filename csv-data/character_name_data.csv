@@ -524,6 +524,7 @@ Ultimates? Iron(-| )?Man,Ultimate Iron Man,f
 Clint Barton,Hawkeye,f
 Thor,Thor,f
 Perseus,Perseus,f
+Star(-| )?Lord,Star-Lord,f
 Tony Stark,Iron Man,f
 Tony,Tony,f
 Nebula,Nebula,f
@@ -534,10 +535,7 @@ Rocket Racoon,Rocket Raccoon,f
 Rocket Raccoon,Rocket Raccoon,f
 Drax,Drax the Destroyer,f
 Gamora,Gamora,f
-Star-Lord,Star-Lord,f
 Peter Quill,Star-Lord,f
-Star Lord,Star-Lord,f
-Starlord,Star-Lord,f
 Guardians of the Galaxy,Guardians of the Galaxy,f
 Ebony Maw,Ebony Maw,f
 Ego,Ego,f
@@ -807,7 +805,6 @@ Newt Scamander,Newt Scamander,f
 Noob Saibot,Noob Saibot,f
 Victor Von Doom,Doctor Doom,f
 Doom,Doom,f
-Fantastic Four,Fantastic Four,f
 Reed Richards,Reed Richards,f
 (Mister|Mr)\.* Fantastic,Reed Richards,f
 (Susan|Sue) Storm,Susan Storm,f
@@ -2487,7 +2484,6 @@ Hacker ?man,Hackerman,f
 Kung Fury,Kung Fury,f
 Randall Octogonapus,Randall Octogonapus,f
 Carl,Carl,f
-Master Chief,Master Chief,f
 Bi(-| )Han,Bi-Han,f
 Latin Goddess,Latin Goddess,f
 Dementors?,Dementor,f
@@ -3001,7 +2997,6 @@ Genis(-| )Vell,Genis-Vell,f
 Mar(-| )Vell,Captain Mar-Vell,f
 Phyla(-| )Vell,Phyla-Vell,f
 Blackheart,Blackheart,f
-(Doctor|Dr\.?) Strange,Doctor Strange,f
 Eobard Thawne,Reverse-Flash,f
 Reverse Flash,Reverse-Flash,f
 Reverse-Flash,Reverse-Flash,f
@@ -3045,7 +3040,6 @@ Bakuzan,Bakuzan,f
 Drive Knight,Drive Knight,f
 Gouketsu,Gouketsu,f
 Paradisers,Paradisers,f
-Frankenstein's Monster,Frankenstein's Monster,f
 Mera Salamin,Mera Salamin,f
 Indus Tarbella,Indus Tarbella,f
 Sylvie,Sylvie,f
@@ -4101,7 +4095,6 @@ Mecha Sonic,Mecha Sonic,f
 Power(-| )?ups?,Power-ups,f
 Fahai,Fahai,f
 Norgal,Norgal,f
-Miyamoto Musashi,Miyamoto Musashi,f
 Musashi Miyamoto,Miyamoto Musashi,f
 Volgarr,Volgarr,f
 Charlie's Angels,Charlie's Angels,t
@@ -5482,7 +5475,6 @@ Ezra,Ezra,f
 Gajeel,Gajeel Redfox,f
 Gildarts,Gildarts Clive,f
 Gray Fullbuster,Gray Fullbuster,f
-Gray,Gray,f
 Jellal,Jellal Fernandes,f
 Juvia,Juvia Lockser,f
 Laki Olietta,Laki Olietta,f
@@ -6161,7 +6153,6 @@ Mina Ashido,Mina Ashido,f
 Mina,Mina,f
 (Mount|Mt\\.?) Lady,Mount Lady,f
 Overhaul,Overhaul,f
-Eraserhead,Eraserhead,f
 Aizawa,Shōta Aizawa,f
 Stain,Stain,f
 Suneater,Suneater,f
@@ -6170,6 +6161,7 @@ Tsuyu,Tsuyu Asui,f
 Froppy,Froppy,f
 Danzo,Danzo Shimura,f
 Deidara,Deidara,f
+Eraser ?head,Eraserhead,f
 Gengetsu H(ō|o)zuki,Gengetsu Hōzuki,f
 Gengetsu,Gengetsu,f
 Guruguru,Guruguru,f
@@ -7973,7 +7965,6 @@ Spock,Spock,f
 Dora the Murderer,Dora the Murderer,f
 Magia Baiser,Magia Baiser,f
 Castor Troy,Castor Troy,f
-Nicolas Cage,Nicolas Cage,f
 Sean Archer,Sean Archer,f
 Patrick Star,Patrick Star,f
 Tortured One,Tortured One,f
@@ -10580,7 +10571,6 @@ Atalanta,Atalanta,f
 Assassin of Red,Assassin of Red,f
 Semiramis,Semiramis,f
 Berserker of Black,Berserker of Black,f
-Frankenstein,Frankenstein,f
 Berserker of Red,Berserker of Red,f
 Spartacus,Spartacus,f
 Kairi Sisigou,Kairi Sisigou,f
@@ -11245,3 +11235,347 @@ Qu,Qu,f
 Sam O('|’)Nella,Sam O'Nella,f
 Lockheed,Lockheed,f
 Rake,Rake,f
+Gr(a|e)y,Gray,f
+Fantastic Four,Fantastic Four,t
+Nic(olas|k) Cage,Nicolas Cage,f
+Mas?ter Chief,Master Chief,f
+Caliborn,Caliborn,f
+Gwenom,Gwenom,f
+Ghost(-| )?Spider,Ghost-Spider,f
+Party Thor,Party Thor,f
+(Doctor|Dr\\.?) Strange,Doctor Strange,f
+(Evil|Dark)( Doctor|Dr\\.?)? ?Strange,Doctor Strange Supreme,f
+Strange Supreme,Doctor Strange Supreme,f
+Captain Carter,Captain Carter,f
+Hydra Stomper,Hydra Stomper,f
+KIA,KIA,f
+Spider(-| )Ma'am,Spider-Ma'am,f
+Cosmic Hulk,Cosmic Hulk,f
+The Thousand,The Thousand,f
+Kindred,Kindred,f
+Serpent Society,Serpent Society,t
+Psycho(-| )Woman,Psycho-Woman,f
+Redwing,Redwing,f
+Bill Foster,Bill Foster,f
+Black Goliath,Black Goliath,f
+Combo Man,Combo Man,f
+Wu Zetian,Wu Zetian,f
+Georgios,Georgios,f
+Leonidas,Leonidas,f
+Bradamante,Bradamante,f
+Benkei,Benkei,f
+Queen of Sheba,Queen of Sheba,f
+Yan Qing,Yan Qing,f
+Space Ishtar,Space Ishtar,f
+Fergus mac R(ó|o)ich,Fergus mac Róich,f
+Penthesilea,Penthesilea,f
+Medb,Medb,f
+Scheherazade,Scheherazade,f
+Ushiwakamaru,Ushiwakamaru,f
+Charles(-| )Henri Sanson,Charles-Henri Sanson,f
+Iskandar,Iskandar,f
+Reines,Reines,f
+Frankenstein,Frankenstein,f
+Kama,Kama,f
+Mata Hari,Mata Hari,f
+Kintoki,Kintoki,f
+Mysterious Heroine,Mysterious Heroine,f
+Florence Nightingale,Florence Nightingale,f
+Ibaraki(-| )D(ō|o)u?ji,Ibaraki-Dōji,f
+Kazuradrop,Kazuradrop,f
+Kingprotea,Kingprotea,f
+Passionlip,Passionlip,f
+Meltryllis,Meltryllis,f
+BB,BB,f
+Charlemagne,Charlemagne,f
+Thomas Edison,Thomas Edison,f
+Nikola Tesla,Nikola Tesla,f
+Moriarty,Moriarty,f
+Waver Velvet,Waver Velvet,f
+Ishtar,Ishtar,f
+Hessian Lobo,Hessian Lobo,f
+S(ain)?t\\.? Martha,Saint Martha,f
+Charmcaster,Charmcaster,f
+Grandpa Max|Max Tennyson,Grandpa Max,f
+Albedo,Albedo,f
+Gwen Tennyson,Gwen Tennyson,f
+Gwen 10,Gwen 10,f
+Michael Morningstar,Michael Morningstar,f
+Upchuck,Upchuck,f
+Jetray,Jetray,f
+Chromastone,Chromastone,f
+Spider(-| )?monkey,Spidermonkey,f
+Swamp ?fire,Swampfire,f
+Water Hazard,Water Hazard,f
+Lodestar,Lodestar,f
+Goop,Goop,f
+George Washington,George Washington,f
+Feedback,Feedback,f
+Aggregor,Aggregor,f
+Terraspin,Terraspin,f
+Crashhopper,Crashhopper,f
+Armodrillo,Armodrillo,f
+Ampfibian,Ampfibian,f
+Gravattack,Gravattack,f
+Eatle,Eatle,f
+Tetrax,Tetrax,f
+Anthony Fremont,Anthony Fremont,f
+Tori Rivers,Tori Rivers,f
+Kamen Rider Buster,Kamen Rider Buster,f
+Ryugen,Ryugen,f
+Kamen Rider Psyga,Kamen Rider Psyga,f
+Kamen Rider Baron,Kamen Rider Baron,f
+Kamen Rider Orga,Kamen Rider Orga,f
+Horse Orphnoch,Horse Orphnoch,f
+Kamen Rider Delta,Kamen Rider Delta,f
+Kamen Rider Kaixa,Kamen Rider Kaixa,f
+Kamen Rider Faiz,Kamen Rider Faiz,f
+Takumi Inui,Takumi Inui,f
+Kamen Rider Meteor,Kamen Rider Meteor,f
+Kamen Rider Fourze,Kamen Rider Fourze,f
+Mitsuaki Gamou,Mitsuaki Gamou,f
+Kou Tatsugami,Kou Tatsugami,f
+Natsuji Kijima,Natsuji Kijima,f
+Cancer Zodiarts,Cancer Zodiarts,f
+Flamie Speeddraw,Flamie Speeddraw,f
+Nachetan(i|y)a Loei Piena Augustra,Nashetania Loei Piena Augustra,f
+Goldo(f|v) Auora,Goldof Auora,f
+Chamot? Rosso,Chamo Rosso,f
+Hans Humpty,Hans Humpty,f
+M(o|au)ra Chester,Mora Chester,f
+Blinx,Blinx,f
+Sigurd,Sigurd,f
+Green Ranger,Green Ranger,f
+Sixth Brother,Sixth Brother,f
+Orrelios,Zeb Orrelios,f
+Quinlan Vos,Quinlan Vos,f
+Mech Cadet Yu,Mech Cadet Yu,f
+Zachary Zatara,Zachary Zatara,f
+Willoughby Kipling,Willoughby Kipling,f
+Lawman,Lawman,f
+Djinn,Djinn,f
+Psych,Psych,f
+Grant Morrison,Grant Morrison,f
+Lord Havok,Lord Havok,f
+Turtle,Turtle,f
+(Mr\\.?|Mister) Nobody,Mr. Nobody,f
+Mongal,Mongal,f
+Hemo(-| )?Goblin,Hemo-Goblin,f
+Weasel,Weasel,f
+Hat,Hat,f
+Javelin,Javelin,f
+Bloodsport,Bloodsport,f
+Mother ?Box(es)?,Mother Box,f
+Blackguard,Blackguard,f
+Savant,Savant,f
+Ratcatcher,Ratcatcher,f
+Starro,Starro,f
+Ratcatcher (2|II),Ratcatcher 2,f
+Peace ?maker,Peacemaker,f
+Shura,Shura,f
+Ohm,Ohm,f
+Killer,Killer,f
+Kaido,Kaido,f
+Sasaki,Sasaki,f
+Captain Hero,Captain Hero,f
+Sparkster,Sparkster,f
+Rambo,Rambo,f
+Masked Spider,Masked Spider,f
+Super ?Thor,Super Thor,f
+Nocturne,Nocturne,f
+Nocturn,Nocturn,f
+Desiree,Desiree,f
+Gavan Type(-| )G,Gavan Type-G,f
+Hermes Conrad,Hermes Conrad,f
+Takayuki Yagami,Takayuki Yagami,f
+Pegasus K(ō|o)u?ga,Pegasus Kōga,f
+Pegasus Tenma,Pegasus Tenma,f
+Chosen Ones,Chosen Ones,t
+Jay,Jay,f
+Atlanta,Atlanta,f
+Herry,Herry,f
+Archie,Archie,f
+Theresa,Theresa,f
+Neil,Neil,f
+Cooler,Cooler,f
+Kasen Ibaraki|Ibaraki Kasen,Kasen Ibaraki,f
+Mima,Mima,f
+Yumemi Okazaki,Yumemi Okazaki,f
+Manfred von Wreckerstein,Manfred von Wreckerstein,f
+Gromit,Wallace and Gromit,f
+Xena,Xena,f
+Gabrielle,Gabrielle,f
+Rosinante,Rosinante,f
+Camera,Camera,f
+Sam Speed,Sam Speed,f
+Psycho Goreman,Psycho Goreman,f
+Chipp,Chipp,f
+Nagoriyuki,Nagoriyuki,f
+Potemkin,Potemkin,f
+I-No,I-No,f
+Baiken,Baiken,f
+Prettz,Prettz,f
+Stetch Atelier,Stetch Atelier,f
+Saint of Killers,Saint of Killers,f
+Fox Alistair,Fox Alistair,f
+Xanthe Rumpole,Xanthe Rumpole,f
+Tock,Tock,f
+Princess ShinkenRed,Princess ShinkenRed,f
+Kaoru Shiba,Kaoru Shiba,f
+Juzo Fuwa,Juzo Fuwa,f
+Wu(-| )?Tang Clan,Wu-Tang Clan,t
+Sergei,Sergei,f
+Andrew,Andrew,f
+Minato,Minato,f
+Dosu,Dosu,f
+Wicked Wedgie Woman,Wicked Wedgie Woman,f
+Poopypants,Poopypants,f
+Bionic Booger Boy,Bionic Booger Boy,f
+Turbo Toilet 2000,Turbo Toilet 2000,f
+Egg Beater,Egg Beater,f
+Cornelius,Cornelius,f
+Tetsutetsu,Tetsutetsu Tetsutetsu,f
+Mecha Team Leader,Mecha Team Leader,f
+Devourer,Devourer,f
+Ariana Grande,Ariana Grande,f
+The Foundation,The Foundation,f
+Janitor,Janitor,f
+Nicolas Cage,Nicolas Cage,f
+Melony,Melony,f
+Meggy Spletzer,Meggy Spletzer,f
+Atsuko,Atsuko,f
+Akko,Akko,f
+Three Beasts,Three Beasts,t
+Worst Togepi,The Worst Togepi,f
+Volkner,Volkner,f
+Caserin,Caserin,f
+Team Pok(é|e)pals,Team Poképals,t
+Hon(ō|o),Honō,f
+(Dr|Doctor)\\.? Fate,Doctor Fate,f
+The Movement,The Movement,t
+Phelphor,Phelphor,f
+Blazvatan,Blazvatan,f
+Maxxor,Maxxor,f
+Bolted Behemoth,Bolted Behemoth,f
+Villain Descendingsword,Villain Descendingsword,f
+Jake Muller,Jake Muller,f
+Ironwood,Ironwood,f
+Jarrod,Jarrod,f
+Dai Shi,Dai Shi,f
+Cassiopeia,Cassiopeia,f
+Space Invaders,Space Invaders,f
+Super Diaper Baby,Super Diaper Baby,f
+Cristo Canyon,Cristo Canyon,f
+FM(-| )?ians|Planet FM,FM-ians,t
+Tang Sanzang,Tang Sanzang,f
+Acxa,Acxa,f
+Zethrid,Zethrid,f
+Ezor,Ezor,f
+Doofenshmirtz,Dr. Doofenshmirtz,f
+Mater,Mater,f
+Jimmy Olsen'?s Private Monster,Jimmy Olsen's Private Monster,f
+Chameleon(-| )Head Olsen,Chameleon-Head Olsen,f
+Kamen Rider Ichi(-| )?Gata,Kamen Rider Ichi-Gata,f
+Rosyuo,Rosyuo,f
+Kamen Rider Bravo,Kamen Rider Bravo,f
+Oren Pierre Alfonzo,Oren Pierre Alfonzo,f
+Kamen Rider Zangetsu,Kamen Rider Zangetsu,f
+Zangetsu,Zangetsu,f
+Bruce U,Bruce U,f
+Yoshi the Weredino,Yoshi the Weredino,f
+Charizardosaurus,Charizardosaurus,f
+Sobek,Sobek,f
+Emperor Vertus,Emperor Vertus,f
+Ankylosaurus,Ankylosaurus,f
+Pachycephalosaurus,Pachycephalosaurus,f
+Utahraptor,Utahraptor,f
+Gaz Digzy,Gaz Digzy,f
+Homer (J(ay)?\\.?)?Simpsi?on,Homer Simpson,f
+Bulletproof,Bulletproof,f
+Inazuma,Inazuma,f
+General Fong,General Fong,f
+Kelsang,Kelsang,f
+Xu Ping An,Xu Ping An,f
+Kinto,Kinto,f
+Scooby(-| )?Doo Detective Agency,Scooby-Doo Detective Agency,t
+Duck Guy,Duck Guy,f
+Dogbot,Dogbot,f
+(Doctor|Dr\\.?|Neo) Cortex,Doctor Neo Cortex,f
+Davion,Davion,f
+Gunstringer,Gunstringer,f
+Brett Hawthorne,Brett Hawthorne,f
+Scary Stories to Tell in the Dark,Scary Stories to Tell in the Dark,t
+Chthonic Cabinet of the United Circles of Hell,Chthonic Cabinet of the United Circles of Hell,t
+KM(-| )14|Kay(-| )Em,KM-14,f
+Hot Tub,Hot Tub,f
+Anti(-| )?Christ,Anti-Christ,f
+Penny Fitzgerald,Penny Fitzgerald,f
+Frankenstein'?s Monster,Frankenstein's Monster,f
+Johnny Bartlett,Johnny Bartlett,f
+JEWEL OF SPLISH,JEWEL OF SPLISH,f
+Baron Afanas,Baron Afanas,f
+One(-| )Eye,One-Eye,f
+Stubbs,Stubbs,f
+Magic Knights,Magic Knights,t
+Sea Hawk,Sea Hawk,f
+Netossa,Netossa,f
+Spinnerella,Spinnerella,f
+Swift Wind,Swift Wind,f
+Angella,Angella,f
+Shadow Weaver,Shadow Weaver,f
+Entrapta,Entrapta,f
+Bow,Bow,f
+Glimmer,Glimmer,f
+Catra,Catra,f
+She(-| )Ra,She-Ra,f
+El Macho,El Macho,f
+Seiya,Seiya,f
+Black Zodiac,Black Zodiac,t
+Morgan Yu,Morgan Yu,f
+Dunwich Horror,Dunwich Horror,f
+Parr Family,Parr Family,t
+Unstoppable Colossus,Unstoppable Colossus,f
+Manphibian,Manphibian,f
+Cloud 9,Cloud 9,f
+Thordis,Thordis,f
+Hurricane,Hurricane,f
+Captains Network,Captains Network,t
+John Wraith,John Wraith,f
+Goldbug,Goldbug,f
+Thunderbolt,Thunderbolt,f
+She(-| )Venom,She-Venom,f
+Usui,Usui,f
+Sarco Plank,Sarco Plank,f
+Annabeth,Annabeth,f
+Anime guy,Anime guy,f
+Weeping Angels?,Weeping Angel,f
+Derek Lee,Derek Lee,f
+A Quiet Place,A Quiet Place,f
+Bella,Bella,f
+John Pollard,John Pollard,f
+Makoto Muraki,Makoto Muraki,f
+Hamlet,Hamlet,f
+Debonair,Debonair,f
+Aratsugu Yorino,Aratsugu Yorino,f
+Negan,Negan,f
+Silver Streak,Silver Streak,f
+Sirius Black,Sirius Black,f
+Sirius,Sirius,f
+Draco Malfoy,Draco Malfoy,f
+SCP(-| )?4119,SCP-4119,f
+SCP(-| )?5000,SCP-5000,t
+SCP(-| )?106,SCP-106,f
+Honda Tadakatsu,Honda Tadakatsu,f
+Miyamoto Musashi|Musashi Miyamoto,Miyamoto Musashi,f
+Ito,Ito,f
+Emperor Belos,Emperor Belos,f
+Amity,Amity,f
+Eda,Eda,f
+Lilith,Lilith,f
+Stefan,Stefan,f
+Damon,Damon,f
+Katherine Pierce,Katherine Pierce,f
+Silver Shamrock Androids?,Silver Shamrock Androids,f
+Hell Joe,Hell Joe,f
+FDR,FDR,f
+Bunshichi Tanba,Bunshichi Tanba,f

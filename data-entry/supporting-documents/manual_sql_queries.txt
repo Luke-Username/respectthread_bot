@@ -12,81 +12,19 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Gr(a|e)y' WHERE name='Gray'; --Before run
-UPDATE character_name SET is_team=TRUE WHERE name='Fantastic Four'; --Before run
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Yusuke Godai/Kamen Rider Kuuga (Kamen Rider Kuuga Manga)', 'https://redd.it/p52xxl'); SELECT * FROM respectthread WHERE link='https://redd.it/p52xxl';
-UPDATE character SET rt_id_array='{8202, ??}' WHERE rt_id_array='{8202}'; --Before run
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Sairaorg Bael (High School DxD Anime)', 'https://redd.it/p95zk3'); SELECT * FROM respectthread WHERE link='https://redd.it/p95zk3';
-UPDATE character SET rt_id_array='{6146, ???}' WHERE rt_id_array='{6146}'; --Before run
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Sonic the Hedgehog! (Sonic the Hedgehog (Movie Novelization))', 'https://redd.it/pc2ket'); SELECT * FROM respectthread WHERE link='https://redd.it/pc2ket';
-UPDATE character SET rt_id_array='{8607, ????}' WHERE rt_id_array='{8607}'; --Before run
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Mark Grayson, Invincible! (Invincible)', 'https://redd.it/pdkigv'); SELECT * FROM respectthread WHERE link='https://redd.it/pdkigv';
-UPDATE character SET rt_id_array='{1961, ?????}' WHERE rt_id_array='{1961}'; --Before run
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Sam Wilson, The Falcon! (Marvel 616)', 'https://redd.it/pekq7w'); SELECT * FROM respectthread WHERE link='https://redd.it/pekq7w';
-UPDATE character SET rt_id_array='{??????, 2023}' WHERE rt_id_array='{2023}'; --Before run
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Katana (DC, Post-Flashpoint)', 'https://redd.it/pgk03i'); SELECT * FROM respectthread WHERE link='https://redd.it/pgk03i';
-UPDATE character SET rt_id_array='{?7, 1747}' WHERE rt_id_array='{1747}'; --Before run
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Darth Vader (Star Wars Legends)', 'https://redd.it/ph7pyp'); SELECT * FROM respectthread WHERE link='https://redd.it/ph7pyp';
-UPDATE character SET rt_id_array='{314, ?8}' WHERE rt_id_array='{314}'; --Before run
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Captain Underpants! (In-Universe Comics) (Captain Underpants)', 'https://redd.it/pq37u4'); SELECT * FROM respectthread WHERE link='https://redd.it/pq37u4';
-UPDATE character SET rt_id_array='{6128, ?9}' WHERE rt_id_array='{6128}'; --Before run
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Reimu Hakurei (Touhou: PC-98)', 'https://redd.it/qcrcab'); SELECT * FROM respectthread WHERE link='https://redd.it/qcrcab';
-UPDATE character SET rt_id_array='{5737, ?10}' WHERE rt_id_array='{5737}'; --Before run
+########################################
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ratcatcher', 'Ratcatcher 2', 0); --Before run
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ratcatcher', 'Ratcatcher II', 0); --Before run
+########################################
 
 ########################################
 
-DELETE FROM character WHERE rt_id_array='{13140}'; --Before run
-DELETE FROM character_name WHERE name='(Doctor|Dr\.?) Strange'; --Before run
-DELETE FROM character_name WHERE name='(Dr|Doctor)\.? Fate Strange'; --Before run
-DELETE FROM character_name WHERE name='Frankenstein'; --Before run
-DELETE FROM character_name WHERE name='Frankenstein''s Monster'; --Before run
-DELETE FROM character_name WHERE name='Star Lord'; --Before run
-DELETE FROM character_name WHERE name='Starlord'; --Before run
-DELETE FROM character_name WHERE name='Miyamoto Musashi'; --Before run
+########################################
 
 ########################################
 
-UPDATE character_name SET name='Eraser ?head' WHERE name='Eraserhead'; --Before run
-UPDATE character_name SET name='Nic(olas|k) Cage' WHERE name='Nicolas Cage'; --Before run
-UPDATE character_name SET name='Mas?ter Chief' WHERE name='Master Chief'; --Before run
-UPDATE character_name SET name='Star(-| )?Lord' WHERE name='Star-Lord'; --Before run
-
-########################################
-
-UPDATE character SET displayed_version_name='DEATH BATTLE!' WHERE displayed_version_name='Death Battle'; --Before run
-UPDATE character SET displayed_version_name='' WHERE displayed_version_name='Killer Bean Forever'; --Before run
-UPDATE character SET displayed_version_name='American Dad!' WHERE displayed_version_name='American Dad'; --Before run
-UPDATE character SET is_default=TRUE WHERE default_name='Violet Parr'; --Before run
-
-########################################
-
-UPDATE respectthread SET link='https://redd.it/28i2s8' WHERE link='https://redd.it/28i2s8s'; --Before run
-
-########################################
-
-SELECT * FROM respectthread WHERE link='https://redd.it/pxs6bn';
-UPDATE character SET rt_id_array='{?, 7611, 1722}' WHERE rt_id_array='{1722,7611}'; --After run
-
-SELECT * FROM respectthread WHERE link='https://redd.it/q82emz';
-UPDATE character SET rt_id_array='{1128, ?}' WHERE default_name='Elastigirl' AND displayed_version_name='The Incredibles'; --After run
-UPDATE character SET rt_id_array='{1130, ?}' WHERE default_name='Jack-Jack' AND displayed_version_name='The Incredibles'; --After run
-UPDATE character SET rt_id_array='{1131, ?}' WHERE default_name='Mr. Incredible' AND displayed_version_name='The Incredibles'; --After run
-UPDATE character SET rt_id_array='{1133, ?}' WHERE default_name='Violet' AND displayed_version_name='The Incredibles'; --After run
-UPDATE character SET rt_id_array='{1133, ?}' WHERE default_name='Violet Parr' AND displayed_version_name='The Incredibles'; --After run
 
