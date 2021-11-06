@@ -2359,6 +2359,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Zachary Zatara (DC Post-Flashpoint)", "https://redd.it/qnaxne")
+add_data(["Zachary Zatara"],
+"Zachary Zatara",
+False,
+True,
+[
+'{"DC"}'
+],
+"DC",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qnaxne/respect_zachary_zatara_dc_postflashpoint/
+
+########################################
+
 id = get_rt_id(cur, "Respect Willoughby Kipling (DC comics)", "https://redd.it/qlksmh")
 add_data(["Willoughby Kipling"],
 "Willoughby Kipling",
@@ -2893,6 +2908,21 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qk5x17/respect_hal_jordan_dc_comics_earth_one/
+
+########################################
+
+id = get_rt_id(cur, "Respect Cheetah (DC Extended Universe)", "https://redd.it/qnzqly")
+add_data(["Cheetah"],
+"Cheetah",
+False,
+False,
+[
+'{"DC Extended Universe"}', '{"DC ?(E|C)U"}', '{"DC Cinematic Universe"}'
+],
+"DCEU",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qnzqly/respect_cheetah_dc_extended_universe/
 
 ########################################
 
@@ -4537,6 +4567,36 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/pg2cm1/respect_atsuko_akko_kagari_little_witch_academia/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Three Beasts of Team Rocket (Pokemon Adventures)", "https://redd.it/qnb54w")
+add_data(["Three Beasts"],
+"Three Beasts",
+True,
+False,
+[
+'{"Pok(e|é)m(o|a)n Adventures"}'
+],
+"Pokémon Adventures",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qnb54w/respect_the_three_beasts_of_team_rocket_pokemon/
+
+########################################
+
+id = get_rt_id(cur, "Respect Giovanni (Pokemon Adventures)", "https://redd.it/qmr9qe")
+add_data(["Giovanni"],
+"Giovanni",
+False,
+False,
+[
+'{"Pok(e|é)m(o|a)n Adventures"}'
+],
+"Pokémon Adventures",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qmr9qe/respect_giovanni_pokemon_adventures/
 
 ########################################
 
@@ -6459,6 +6519,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Robert Maverick, The Red Hulk (Marvel, 616)", "https://redd.it/qncwjl")
+add_data(["Red Hulk"],
+"Red Hulk",
+False,
+False,
+[
+'{"Maverick"}'
+],
+"Robert Maverick",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qncwjl/respect_robert_maverick_the_red_hulk_marvel_616/
+
+########################################
+
 id = get_rt_id(cur, "Respect The Manphibian (Marvel 616)", "https://redd.it/qgpbnr")
 add_data(["Manphibian"],
 "Manphibian",
@@ -6953,6 +7028,33 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Sirius Black! (Harry Potter Books)", "https://redd.it/qnknlj")
+add_data(["Sirius Black"],
+"Sirius Black",
+False,
+True,
+[
+'{"Harry Potter"}'
+],
+"Harry Potter",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qge8f1/respect_draco_malfoy_harry_potter_books/
+
+add_data(["Sirius"],
+"Sirius",
+False,
+False,
+[
+'{"Harry"}', '{"Voldemort"}'
+],
+"Harry Potter",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qnknlj/respect_sirius_black_harry_potter_books/
+
+########################################
+
 id = get_rt_id(cur, "Respect Draco Malfoy! (Harry Potter Books)", "https://redd.it/qge8f1")
 add_data(["Draco Malfoy"],
 "Draco Malfoy",
@@ -7311,6 +7413,51 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qm70kq/respect_the_great_gazoo_the_flintstones/
+
+########################################
+
+id = get_rt_id(cur, "Respect FDR! (FDR: American Badass)", "https://redd.it/qmnubd")
+add_data(["FDR"],
+"FDR",
+False,
+False,
+[
+'{"FDR:? American Badass"}'
+],
+"FDR: American Badass",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qmnubd/respect_fdr_fdr_american_badass/
+
+########################################
+
+id = get_rt_id(cur, "Respect Bunshichi Tanba (Garouden)", "https://redd.it/qmrktn")
+add_data(["Bunshichi Tanba"],
+"Bunshichi Tanba",
+False,
+True,
+[
+'{"Garouden"}'
+],
+"Garouden",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qmrktn/respect_bunshichi_tanba_garouden/
+
+########################################
+
+id = get_rt_id(cur, "Respect Rainbow Dash (Rainbow Factory)", "https://redd.it/qngsxh")
+add_data(["Rainbow Dash"],
+"Rainbow Dash",
+False,
+False,
+[
+'{"Rainbow Factory"}'
+],
+"Rainbow Factory",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qngsxh/respect_rainbow_dash_rainbow_factory/
 
 ########################################
 
