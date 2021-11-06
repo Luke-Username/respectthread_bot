@@ -347,6 +347,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Cosmic Hulk (Marvel 616)", "https://redd.it/qmj7hx")
+add_data(["Cosmic Hulk"],
+"Cosmic Hulk",
+False,
+True,
+[
+'{"Marvel"}', '{"616"}'
+],
+"616",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qmj7hx/respect_cosmic_hulk_marvel_616/
+
+########################################
+
 id = get_rt_id(cur, "Respect the Thousand (Marvel, 616)", "https://redd.it/qjxjuj")
 add_data(["The Thousand"],
 "The Thousand",
@@ -477,6 +492,216 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/q6a4u8/respect_aya_drevis_mad_father/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jeanne d'Arc Alter! (Fate)", "https://redd.it/qnpqf6")
+add_data(["Jeanne d''Arc"],
+"Jeanne d''Arc",
+False,
+False,
+[
+'{"Alter"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate/Grand Order",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qnpqf6/respect_jeanne_darc_alter_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Wu Zetian! (Fate)", "https://redd.it/qnmi93")
+add_data(["Wu Zetian"],
+"Wu Zetian",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qnmi93/respect_wu_zetian_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Georgios! (Fate)", "https://redd.it/qnda76")
+add_data(["Georgios"],
+"Georgios",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qnda76/respect_georgios_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Darius III! (Fate)", "https://redd.it/qmwhr3")
+add_data(["Darius"],
+"Darius",
+False,
+False,
+[
+r'{"Darius( III) ?\\(Fate"}',
+'{"Berserker"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qmwhr3/respect_darius_iii_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Leonidas I, the King of Sparta! (Fate)", "https://redd.it/qmvvoq")
+add_data(["Leonidas"],
+"Leonidas",
+False,
+False,
+[
+r'{"Leonidas( I)? ?\\(Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qmvvoq/respect_leonidas_i_the_king_of_sparta_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Bradamante, the Knight of the White Wings! (Fate)", "https://redd.it/qmnhgb")
+add_data(["Bradamante"],
+"Bradamante",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qmnhgb/respect_bradamante_the_knight_of_the_white_wings/
+
+########################################
+
+id = get_rt_id(cur, "Respect Musashibō Benkei, the Warrior Monk! (Fate)", "https://redd.it/qmlluz")
+add_data(["Benkei"],
+"Benkei",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}',
+'{"Babylonia"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qmlluz/respect_musashib%C5%8D_benkei_the_warrior_monk_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect David! (Fate)", "https://redd.it/qmbbd3")
+add_data(["David"],
+"David",
+False,
+False,
+[
+r'{"David ?\\(Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qmbbd3/respect_david_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Artemis and Orion! (Fate)", "https://redd.it/qm0wew")
+add_data(["Artemis"],
+"Artemis",
+False,
+False,
+[
+'{"Fate", "Servant|Orion"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qm0wew/respect_artemis_and_orion_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Queen of Sheba! (Fate)", "https://redd.it/qly9oq")
+add_data(["Queen of Sheba"],
+"Queen of Sheba",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qly9oq/respect_the_queen_of_sheba_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Space Ishtar! (Fate)", "https://redd.it/qk5ya6")
+add_data(["Yan Qing"],
+"Yan Qing",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}',
+'{"Servants?"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Space Ishtar! (Fate)", "https://redd.it/qk5ya6")
+add_data(["Space Ishtar"],
+"Space Ishtar",
+False,
+True,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qk5ya6/respect_space_ishtar_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Achilles! (Fate)", "https://redd.it/qk5wqu")
+add_data(["Achilles"],
+"Achilles",
+False,
+False,
+[
+r'{"'{"Apoc(rypha)?"}' ?\\(Fate"}', r'{"'{"Apoc(rypha)?"}' ?\\[Fate"}',
+'{"Apoc(rypha)?"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qk5wqu/respect_achilles_fate/
 
 ########################################
 
@@ -1598,6 +1823,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Ryo Ogami/Kamen Rider Buster (Kamen Rider Saber)!", "https://redd.it/qksfq0")
+add_data(["Kamen Rider Buster"],
+"Kamen Rider Buster",
+False,
+True,
+[
+'{"Saber"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qksfq0/respect_ryo_ogamikamen_rider_buster_kamen_rider/
+
+########################################
+
 id = get_rt_id(cur, "Respect Mitsuzane Kureshima, Kamen Rider Ryugen (Kamen Rider Gaim)", "https://redd.it/plibqu")
 add_data(["Ryugen"],
 "Ryugen",
@@ -2119,6 +2359,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Willoughby Kipling (DC comics)", "https://redd.it/qlksmh")
+add_data(["Willoughby Kipling"],
+"Willoughby Kipling",
+False,
+True,
+[
+'{"DC"}'
+],
+"DC",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qlksmh/respect_willoughby_kipling_dc_comics/
+
+########################################
+
 id = get_rt_id(cur, "Respect Anton Arcane (DC Comics, New 52)", "https://redd.it/qjtu0h")
 add_data(["Anton Arcane"],
 "Anton Arcane",
@@ -2623,6 +2878,21 @@ False,
 '{}'
 )
 #https://www.reddit.com/r/respectthreads/comments/p5erbp/respect_ratcatcher_dc_comics_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect Hal Jordan (Dc Comics, Earth One)", "https://redd.it/qk5x17")
+add_data(["Hal Jordan"],
+"Hal Jordan",
+False,
+False,
+[
+'{"Earth One"}'
+],
+"Earth One",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qk5x17/respect_hal_jordan_dc_comics_earth_one/
 
 ########################################
 
@@ -5340,6 +5610,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect General Fong (Avatar The Last Airbender)", "https://redd.it/qlw5n6")
+add_data(["General Fong"],
+"General Fong",
+False,
+True,
+[
+'{"Avatar"}', '{"A?TLA"}'
+],
+"Avatar: TLA",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qlw5n6/respect_general_fong_avatar_the_last_airbender/
+
+########################################
+
 id = get_rt_id(cur, "Respect Kelsang the Living Typhoon (Avatar: The Kyoshi Novels)", "https://redd.it/qjn3pa")
 add_data(["Kelsang"],
 "Kelsang",
@@ -6695,6 +6980,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect SCP-4119, Miss Dynamite! (SCP Foundation)", "https://redd.it/qld38y")
+add_data(["SCP(-| )?4119"],
+"SCP-4119",
+False,
+True,
+[
+'{"SCP Foundation"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qld38y/respect_scp4119_miss_dynamite_scp_foundation/
+
+########################################
+
 id = get_rt_id(cur, "Respect the SCP Foundation! (SCP-5000) (SCP Foundation)", "https://redd.it/qh1y2n")
 add_data(["SCP(-| )?5000"],
 "SCP-5000",
@@ -6949,6 +7249,68 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qjwm91/respect_sonic_the_werehog_sonic_the_hedgehog/
+
+########################################
+
+id = get_rt_id(cur, "Respect Hell Joe(Tower of God)!", "https://redd.it/qki2gx")
+add_data(["Hell Joe"],
+"Hell Joe",
+False,
+False,
+[
+'{"Tower of God"}'
+],
+"Tower of God",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qki2gx/respect_hell_joetower_of_god/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Green Hornet and Kato (The Green Hornet 1966)", "https://redd.it/qkjnos")
+add_data(["Green Hornet"],
+"Green Hornet",
+False,
+False,
+[
+'{"1966"}'
+],
+"1966",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qkjnos/respect_the_green_hornet_and_kato_the_green/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jaws (Jaws) (Composite)", "https://redd.it/qlugc2")
+add_data(["Jaws"],
+"Jaws",
+False,
+False,
+[
+r'{"Jaws ?\\(Jaws"}', '{"Bruce"}', '{"1975"}',
+r'{"vs\\.? Jaws"}', '{"vs Jaws"}',
+'{"Great White"}', '{"Jaws 2"}'
+],
+"",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qlugc2/respect_jaws_jaws_composite/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Great Gazoo (The Flintstones)", "https://redd.it/qm70kq")
+add_data(["Great Gazoo"],
+"Great Gazoo",
+False,
+True,
+[
+'{"Flintstones"}'
+],
+"The Flintstones",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qm70kq/respect_the_great_gazoo_the_flintstones/
 
 ########################################
 
