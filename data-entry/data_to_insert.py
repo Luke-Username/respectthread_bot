@@ -85,6 +85,65 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect Billy the Kid! (Fate)", "https://redd.it/qoe1ad")
+add_data(["Billy the Kid"],
+"Billy the Kid",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qoe1ad/respect_billy_the_kid_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Beowulf, the King of Savagery! (Fate)", "https://redd.it/qoe1sr")
+add_data(["Beowulf"],
+"Beowulf",
+False,
+False,
+[
+r'{"Beowulf ?\\(Fate"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qoe1sr/respect_beowulf_the_king_of_savagery_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Juumei Kuga (Garouden)", "https://redd.it/qopq57")
+add_data(["Juu?mei Kuga"],
+"Juumei Kuga",
+False,
+True,
+[
+'{"Gar(ō|o)u?den"}'
+],
+"Garōden",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qopq57/respect_juumei_kuga_garouden/
+
+########################################
+
+id = get_rt_id(cur, "Respect Alpha (TOME)", "https://redd.it/qoqcp5")
+add_data(["Alpha"],
+"Alpha",
+False,
+False,
+[
+'{"TOME"}'
+],
+"TOME",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qoqcp5/respect_alpha_tome/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
