@@ -47,7 +47,7 @@ cur = con.cursor()
 character_list = mcr.search_characters(title, post, cur)
 if character_list:
     comment = replier.generate_comment(cur, character_list, False)
-    print(remove_links_from_comment(comment))
+    print(remove_links_from_comment(comment).strip())
 
 # Close the cursor and connection
 cur.close()
