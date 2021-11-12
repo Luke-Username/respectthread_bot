@@ -6,31 +6,41 @@ if [ "$#" -ne 1 ] || ! [ -d "$1" ]; then
     exit 1
 fi
 
-input=""
-expected_output=""
-for file in $1
+directory="$1*"
+input_file=""
+expected_output_file=""
+for file in $directory
     do
         # If the file extension matches the test input format
         if [ "${file: -7}" == ".in.txt" ]
         then
-            $input=$file
+            input_file="$file"
         elif [ "${file: -7}" == ".ou.txt" ]
         then
-            $expected_output=$file
+            expected_output_file=$file
         fi
     done
 
 # Make sure the test output file exists
-local output_file="temp_output_file.txt"
+output_file="temp_output_file.txt"
 touch "$output_file"
 
-# Run Python code and write its output into a temporary file 
-# so it can be compared to the expected output
-output=$(python3 test_output_given_text.py $input)
+# Run Python code and store what it prints
+output=$(python3 test_output_given_text.py $input_file)
 
-$output > "$output_file"
+# Write the output to the temporary file
+echo "$output" > "$output_file"
 
-output_diff=$(diff "$expected_output" "$output_file")
+# Get the difference between temp file and the expected output
+output_diff=$(diff "$expected_output_file" "$output_file")
 
-echo "$output"
-echo "$output_diff"
+# Print the results
+printf "### output:\n"
+printf "$output"
+printf "\n"
+printf "### expected output:\n"
+cat "$expected_output_file"
+printf "\n"
+printf "### diff:\n\n"
+printf "$output_diff"
+printf "\n"
