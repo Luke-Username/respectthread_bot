@@ -33,8 +33,7 @@ process_input_file() {
     # Run Python code and write its output into a temporary file 
     # so it can be compared to the expected output
     (python3 test_output_given_text.py $1) > "$output_file"
-    #python3 test_output_given_text.py $1
-
+    
     # Get the expected output file
     local expected_output=`echo "$1" | cut -d '.' -f1`
 	expected_output+=".ou.txt"
