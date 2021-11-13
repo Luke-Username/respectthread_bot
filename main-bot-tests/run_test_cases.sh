@@ -44,11 +44,11 @@ process_input_file() {
     if [ "$output_diff" == "" ]
     then
 	echo "($datetime) TEST $test_name: GOOD" >> "$test_results_file"
-        echo "TEST $test_name: GOOD"
+        echo "[GOOD]: $test_name"
     else
         test_failed=true
         echo "($datetime) TEST $test_name: BAD" >> "$test_results_file"
-        echo "TEST $test_name: BAD"
+        echo "[*BAD*] $test_name"
         echo "$test_name:" >> "$diff_log_file"
         echo "$output_diff" >> "$diff_log_file"
         echo "" >> "$diff_log_file"
