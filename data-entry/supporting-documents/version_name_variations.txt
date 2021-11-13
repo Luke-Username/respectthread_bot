@@ -614,6 +614,7 @@ DC Animated Universe (DCAU)
 		'{"Superman:? The Animated Series"}', '{"STAS"}'
 		r'{"\\(Static Shock\\)"}'
 		'{"Batman Beyond"}'
+		'{"Bat(-| )?man", "Adventure Continues"}'
 	Displayed Version Name
 		"DCAU"
 	
@@ -2316,9 +2317,6 @@ New 52
 		"New 52" or "Rebirth"
 		# Sometimes Called
 			"New 52 / Rebirth"
-	# Note:
-		Says here N52 and Rebirth are the same canon
-		https://www.reddit.com/r/respectthreads/comments/85ebay/respect_batman_bruce_wayne_dc_new_52/dvx8x3m/
 
 Night Angel
 	Version

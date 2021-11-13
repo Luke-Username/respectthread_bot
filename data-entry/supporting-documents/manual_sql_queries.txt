@@ -12,6 +12,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET displayed_version_name='DCAU' WHERE displayed_version_name='Batman: The Adventures Continue'; --Before run
 
 ########################################
 
