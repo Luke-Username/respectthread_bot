@@ -1,0 +1,3 @@
+Tests if the bot can find "Angel" from "Buffy" and "Winchester" from "Supernatural". Also checks that it doesn't find a character named "Sam".
+
+Note: Currently, only Dean Winchester has a respect thread, so the bot gets the wrong character.

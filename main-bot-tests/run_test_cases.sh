@@ -33,8 +33,7 @@ process_input_file() {
     # Run Python code and write its output into a temporary file 
     # so it can be compared to the expected output
     (python3 test_output_given_text.py $1) > "$output_file"
-    #python3 test_output_given_text.py $1
-
+    
     # Get the expected output file
     local expected_output=`echo "$1" | cut -d '.' -f1`
 	expected_output+=".ou.txt"
@@ -45,11 +44,11 @@ process_input_file() {
     if [ "$output_diff" == "" ]
     then
 	echo "($datetime) TEST $test_name: GOOD" >> "$test_results_file"
-        echo "TEST $test_name: GOOD"
+        echo "[GOOD]: $test_name"
     else
         test_failed=true
         echo "($datetime) TEST $test_name: BAD" >> "$test_results_file"
-        echo "TEST $test_name: BAD"
+        echo "[*BAD*] $test_name"
         echo "$test_name:" >> "$diff_log_file"
         echo "$output_diff" >> "$diff_log_file"
         echo "" >> "$diff_log_file"
