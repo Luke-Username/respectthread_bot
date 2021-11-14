@@ -85,6 +85,12 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5248, "Respect Raiden (Metal Gear)", "https://redd.it/qs9njr")
+update_respectthread(cur, 5245, "Respect Jetstream Sam (Metal Gear Rising: Revengeance)", "https://redd.it/qsz2jc")
+update_respectthread(cur, 1725, "Respect Ragman (DC Comics, New 52)", "https://redd.it/qtel6v")
+
+########################################
+
 id = get_rt_id(cur, "Respect Billy the Kid! (Fate)", "https://redd.it/qoe1ad")
 add_data(["Billy the Kid"],
 "Billy the Kid",
@@ -228,6 +234,21 @@ r'{"Beowulf ?\\(Fate"}'
 
 ########################################
 
+id = get_rt_id(cur, "Respect Tsutomu Himekawa (Garouden)", "https://redd.it/qrv41g")
+add_data(["Tsutomu Himekawa"],
+"Tsutomu Himekawa",
+False,
+True,
+[
+'{"Gar(ō|o)u?den"}'
+],
+"Garōden",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qrv41g/respect_tsutomu_himekawa_garouden/
+
+########################################
+
 id = get_rt_id(cur, "Respect Juumei Kuga (Garouden)", "https://redd.it/qopq57")
 add_data(["Juu?mei Kuga"],
 "Juumei Kuga",
@@ -237,7 +258,7 @@ True,
 '{"Gar(ō|o)u?den"}'
 ],
 "Garōden",
-'{' + '{}'.format(id) +'}'
+'{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qopq57/respect_juumei_kuga_garouden/
 
@@ -348,6 +369,34 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect the Reaper (Dc, Post Crisis)", "https://redd.it/qt63qm")
+add_data(["Reaper"],
+"Reaper",
+False,
+False,
+[
+r'{"Reaper ?\\(Posts?(-| )?C(risis)?"}'
+],
+"Post-Crisis",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qt63qm/respect_the_reaper_dc_post_crisis/
+
+add_data(["Reaper"],
+"Reaper",
+False,
+False,
+[
+r'{"Reaper ?\\(DC"}', '{"Judson Caspian"}'
+],
+"DC",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qt63qm/respect_the_reaper_dc_post_crisis/
+
+#Ragman
+########################################
+
 id = get_rt_id(cur, "Respect Denny Swan, Solar Superman (New 52/Rebirth)", "https://redd.it/qpco2f")
 add_data(["Denny Swan"],
 "Denny Swan",
@@ -375,6 +424,36 @@ True,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qpukjk/respect_yor_forger_the_thorn_princess_spy_x_family/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Muscle (Batman: The Adventures Continue Season Two)", "https://redd.it/qsecyh")
+add_data(["The Muscle"],
+"The Muscle",
+False,
+False,
+[
+'{"Bat(-| )?man", "Adventures? Continues"}'
+],
+"DCAU",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qsecyh/respect_the_muscle_batman_the_adventures_continue/
+
+########################################
+
+id = get_rt_id(cur, "Respect Talon (Batman: The Adventures Continue Season Two)", "https://redd.it/qrlt1n")
+add_data(["Talon"],
+"Talon",
+False,
+False,
+[
+'{"Bat(-| )?man", "Adventures? Continues"}'
+],
+"DCAU",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qrlt1n/respect_talon_batman_the_adventures_continue/
 
 ########################################
 
@@ -421,6 +500,111 @@ False,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qr5onc/respect_luz_noceda_the_owl_house/
+
+########################################
+
+id = get_rt_id(cur, "Respect Flumpty Bumpty (One Night at Flumpty''s)", "https://redd.it/qrjlwx")
+add_data(["Flumpty"],
+"Flumpty",
+False,
+True,
+[
+'{"One Night"}', '{"Flumpty Bumpty"}'
+],
+"One Night at Flumpty''s",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qrjlwx/respect_flumpty_bumpty_one_night_at_flumptys/
+
+########################################
+
+id = get_rt_id(cur, "Respect SCP-504, Critical Tomatoes! (SCP Foundation)", "https://redd.it/qrpreh")
+add_data(["SCP(-| )?504"],
+"SCP-504",
+False,
+True,
+[
+'{"Critical Tomatoes?"}'
+],
+"",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qrpreh/respect_scp504_critical_tomatoes_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, "Respect Erik, the Opera Ghost (The Phantom of the Opera)", "https://redd.it/qrwyr5")
+add_data(["Erik"],
+"Erik",
+False,
+False,
+[
+'{"The (Phantom|Opera)"}'
+],
+"The Phantom of the Opera",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qrwyr5/respect_erik_the_opera_ghost_the_phantom_of_the/
+
+########################################
+
+id = get_rt_id(cur, "Respect Eclipse (The Gifted)", "https://redd.it/qrznth")
+add_data(["Eclipse"],
+"Eclipse",
+False,
+False,
+[
+'{"The Gifted"}'
+],
+"The Gifted",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qrznth/respect_eclipse_the_gifted/
+
+########################################
+
+id = get_rt_id(cur, "Respect Princess Fiona! (Shrek)", "https://redd.it/qsfql2")
+add_data(["Fiona"],
+"Fiona",
+False,
+False,
+[
+'{"Shrek"}', '{"Princess"}', '{"Tai Lung"}'
+],
+"Shrek",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qsfql2/respect_princess_fiona_shrek/
+
+########################################
+
+id = get_rt_id(cur, "Respect Chaor (Chaotic)", "https://redd.it/qsize9")
+add_data(["Chaor"],
+"Chaor",
+False,
+True,
+[
+'{"Chaotic"}'
+],
+"Chaotic",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qsize9/respect_chaor_chaotic/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ginny Weasley! (Harry Potter Books)", "https://redd.it/qsneod")
+add_data(["Ginny"],
+"Ginny",
+False,
+True,
+[
+'{"Weasley"}', '{"Harry"}', '{"Ron"}', '{"Hermione"}'
+],
+"Harry Potter",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qsneod/respect_ginny_weasley_harry_potter_books/
 
 ########################################
 
