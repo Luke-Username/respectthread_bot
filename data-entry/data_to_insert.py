@@ -249,6 +249,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Shozan Matsuo (Garouden)", "https://redd.it/quj547")
+add_data(["Shozan Matsuo"],
+"Shozan Matsuo",
+False,
+True,
+[
+'{"Gar(ō|o)u?den"}'
+],
+"Garōden",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/quj547/respect_shozan_matsuo_garouden/
+
+########################################
+
 id = get_rt_id(cur, "Respect Juumei Kuga (Garouden)", "https://redd.it/qopq57")
 add_data(["Juu?mei Kuga"],
 "Juumei Kuga",
@@ -605,6 +620,52 @@ True,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qsneod/respect_ginny_weasley_harry_potter_books/
+
+########################################
+
+id = get_rt_id(cur, "Respect Unnamed Earthbending Champion (The Legend of Korra)", "https://redd.it/quk1lh")
+add_data(["Unnamed Champion"],
+"Unnamed Champion",
+False,
+False,
+[
+'{"Avatar"}', '{"A?TLA"}', '{"(Air|Earth)(-| )bender"}', '{"Aang"}', '{"Korra"}', '{"A?T?LOK"}'
+],
+"Avatar: TLA",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/quk1lh/respect_unnamed_earthbending_champion_the_legend/
+
+########################################
+
+id = get_rt_id(cur, "Respect Unnamed Earthbending Champion (The Legend of Korra)", "https://redd.it/quk1lh")
+add_data(["Unnamed Champion"],
+"Unnamed Champion",
+False,
+False,
+[
+'{"Avatar"}', '{"A?TLA"}', '{"(Air|Earth)(-| )bender"}', '{"Aang"}', '{"Korra"}', '{"A?T?LOK"}'
+],
+"Avatar: TLA",
+'{' + f'{id}' +'}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Lucy! (Lucy)", "https://redd.it/qukyku")
+add_data(["Lucy"],
+"Lucy",
+False,
+False,
+[
+r'{"Lucy ?\\(Lucy"}', '{"100"}', '{"2014"}', 
+'{"Scarlett Johansen"}'
+],
+"",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qukyku/respect_lucy_lucy/
 
 ########################################
 
