@@ -91,6 +91,23 @@ update_respectthread(cur, 1725, "Respect Ragman (DC Comics, New 52)", "https://r
 update_respectthread(cur, 2802, "Respect Marko! (Saga)", "https://redd.it/qw3s36")
 update_respectthread(cur, 2803, "Respect The Will! (Saga)", "https://redd.it/qw3s4i")
 update_respectthread(cur, 1872, "Respect Static (DC Comics, New 52)", "https://redd.it/qwd1rd")
+update_respectthread(cur, 14424, "Respect Asterios! (Fate)", "https://redd.it/qx09n6")
+update_respectthread(cur, 2606, "Respect Mega Man! (Archie Comics)", "https://redd.it/qwu3v3")
+
+########################################
+
+id = get_rt_id(cur, "Respect Mighty Mom & Dyno Dad! (The Fairly OddParents)", "https://redd.it/qwwkqa")
+add_data(["Mighty Mom|Dyno Dad"],
+"Mighty Mom and Dyno Dad",
+False,
+True,
+[
+'{"Fairly OddParents"}'
+],
+"Fairly OddParents",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qwwkqa/respect_mighty_mom_dyno_dad_the_fairly_oddparents/
 
 ########################################
 
@@ -107,6 +124,22 @@ False,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qoe1ad/respect_billy_the_kid_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Xiang Yu! (Fate)", "https://redd.it/qwssde")
+add_data(["Xiang Yu"],
+"Xiang Yu",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qwssde/respect_xiang_yu_fate/
 
 ########################################
 
@@ -789,6 +822,21 @@ True,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qw3svf/respect_armaggon_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, "Respect Basil of Baker Street (The Great Mouse Detective)", "https://redd.it/qwz2kj")
+add_data(["Basil of Baker Street"],
+"Basil of Baker Street",
+False,
+False,
+[
+'{"Great Mouse Detective"}'
+],
+"The Great Mouse Detective",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qwz2kj/respect_basil_of_baker_street_the_great_mouse/
 
 ########################################
 
