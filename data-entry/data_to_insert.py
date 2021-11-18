@@ -88,6 +88,9 @@ cur = con.cursor()
 update_respectthread(cur, 5248, "Respect Raiden (Metal Gear)", "https://redd.it/qs9njr")
 update_respectthread(cur, 5245, "Respect Jetstream Sam (Metal Gear Rising: Revengeance)", "https://redd.it/qsz2jc")
 update_respectthread(cur, 1725, "Respect Ragman (DC Comics, New 52)", "https://redd.it/qtel6v")
+update_respectthread(cur, 2802, "Respect Marko! (Saga)", "https://redd.it/qw3s36")
+update_respectthread(cur, 2803, "Respect The Will! (Saga)", "https://redd.it/qw3s4i")
+update_respectthread(cur, 1872, "Respect Static (DC Comics, New 52)", "https://redd.it/qwd1rd")
 
 ########################################
 
@@ -136,6 +139,22 @@ r'{"Napol(é|e)on ?\\(Fate"}',
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qqyh9q/respect_napol%C3%A9on_bonaparte_the_good_fellow_of/
+
+########################################
+
+id = get_rt_id(cur, "Respect Spartacus! (Fate)", "https://redd.it/qvcd2c")
+add_data(["Spartacus"],
+"Spartacus",
+False,
+False,
+[
+r'{"Spartacus ?\\(Fate"}', r'{"Spartacus ?\\[Fate"}',
+'{"Red"}', '{"Servants?"}', '{"Apoc(rypha)?"}', '{"Berserker"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qvcd2c/respect_spartacus_fate/
 
 ########################################
 
@@ -666,6 +685,110 @@ r'{"Lucy ?\\(Lucy"}', '{"100"}', '{"2014"}',
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qukyku/respect_lucy_lucy/
+
+########################################
+
+id = get_rt_id(cur, "Respect Field Marshal Tamas (Powder Mage)", "https://redd.it/qvlid9")
+add_data(["Tamas"],
+"Tamas",
+False,
+False,
+[
+'{"Powder Mage"}'
+],
+"Powder Mage",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qvlid9/respect_field_marshal_tamas_powder_mage/
+
+########################################
+
+id = get_rt_id(cur, "Respect Seven! (Scissor Seven)", "https://redd.it/qvf4hg")
+add_data(["Seven"],
+"Seven",
+False,
+False,
+[
+'{"Scissor Seven"}'
+],
+"Scissor Seven",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qvf4hg/respect_seven_scissor_seven/
+
+########################################
+
+id = get_rt_id(cur, "Respect Thirteen! (Scissor Seven)", "https://redd.it/qw3wzz")
+add_data(["Thirteen"],
+"Thirteen",
+False,
+False,
+[
+'{"Scissor Seven"}'
+],
+"Scissor Seven",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qw3wzz/respect_thirteen_scissor_seven/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Prince of Stan! (Scissor Seven)", "https://redd.it/qwb1g4")
+add_data(["Prince of Stan"],
+"Prince of Stan",
+False,
+True,
+[
+'{"Scissor Seven"}'
+],
+"Scissor Seven",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qwb1g4/respect_the_prince_of_stan_scissor_seven/
+
+########################################
+
+id = get_rt_id(cur, "Respect Prince Robot IV! (Saga)", "https://redd.it/qw3s1j")
+add_data(["Prince Robot IV"],
+"Prince Robot IV",
+False,
+True,
+[
+'{"Saga"}'
+],
+"Saga",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qw3s1j/respect_prince_robot_iv_saga/
+
+########################################
+
+add_data(["Static"],
+"Static",
+False,
+False,
+[
+r'{"\\(New 52\\)"}'
+],
+"New 52",
+'{1872}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qwd1rd/respect_static_dc_comics_new_52/
+
+########################################
+
+id = get_rt_id(cur, "Respect Armaggon! (Teenage Mutant Ninja Turtles) (Archie Comics)", "https://redd.it/qw3svf")
+add_data(["Armaggon"],
+"Armaggon",
+False,
+True,
+[
+'{"Teenaged? Mutant Ninja Turtles?"}', '{"TMNT"}'
+],
+"TMNT",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qw3svf/respect_armaggon_teenage_mutant_ninja_turtles/
 
 ########################################
 
