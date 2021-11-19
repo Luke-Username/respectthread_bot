@@ -333,6 +333,20 @@ r'{"Beowulf ?\\(Fate"}'
 
 ########################################
 
+add_data(["Minato"],
+"Minato",
+False,
+False,
+[
+'{"Edo"}'
+],
+"Naruto",
+'{20429}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, "Respect The Great Tatsumi (Garouden)", "https://redd.it/qxilm8")
 add_data(["Tatsumi"],
 "Tatsumi",
@@ -902,6 +916,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Bass! (Archie Comics)", "https://redd.it/qxlut2")
+add_data(["Bass"],
+"Bass",
+False,
+False,
+[
+r'{"Bass ?\\(Archie"}'
+],
+"Archie Comics",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qxlut2/respect_bass_archie_comics/
+
+########################################
+
 id = get_rt_id(cur, "Respect Basil of Baker Street (The Great Mouse Detective)", "https://redd.it/qwz2kj")
 add_data(["Basil of Baker Street"],
 "Basil of Baker Street",
@@ -914,6 +943,57 @@ False,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qwz2kj/respect_basil_of_baker_street_the_great_mouse/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Lake Guardians (Pokemon Anime)", "https://redd.it/qxl8dq")
+add_data(["Lake Guardians?"],
+"Lake Guardians",
+True,
+False,
+[
+'{"Pok(e|é)m(o|a)n"}'
+],
+"Pokémon",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qxl8dq/respect_the_lake_guardians_pokemon_anime/
+
+add_data(["Uxie"],
+"Uxie",
+False,
+True,
+[
+'{"Pok(e|é)m(o|a)n"}'
+],
+"Pokémon",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qxl8dq/respect_the_lake_guardians_pokemon_anime/
+
+add_data(["Mesprit"],
+"Mesprit",
+False,
+True,
+[
+'{"Pok(e|é)m(o|a)n"}'
+],
+"Pokémon",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qxl8dq/respect_the_lake_guardians_pokemon_anime/
+
+add_data(["Azelf"],
+"Azelf",
+False,
+True,
+[
+'{"Pok(e|é)m(o|a)n"}'
+],
+"Pokémon",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qxl8dq/respect_the_lake_guardians_pokemon_anime/
 
 ########################################
 
