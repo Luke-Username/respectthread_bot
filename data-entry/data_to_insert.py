@@ -127,6 +127,53 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Abigail Williams! (Fate)", "https://redd.it/qx33fc")
+add_data(["Abigail Williams"],
+"Abigail Williams",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qx33fc/respect_abigail_williams_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Arjuna, the Endowed Hero! (Fate)", "https://redd.it/qx4vlu")
+add_data(["Arjuna"],
+"Arjuna",
+False,
+False,
+[
+r'{"Arjuna ?\\(Fate"}', r'{"Arjuna ?\\[Fate"}', '{"Archer"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qx4vlu/respect_arjuna_the_endowed_hero_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Arash Kamangir! (Fate)", "https://redd.it/qx82g4")
+add_data(["Arash"],
+"Arash",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + '{}'.format(id) +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qx82g4/respect_arash_kamangir_fate/
+
+########################################
+
 id = get_rt_id(cur, "Respect Xiang Yu! (Fate)", "https://redd.it/qwssde")
 add_data(["Xiang Yu"],
 "Xiang Yu",
@@ -283,6 +330,21 @@ r'{"Beowulf ?\\(Fate"}'
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qoe1sr/respect_beowulf_the_king_of_savagery_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Great Tatsumi (Garouden)", "https://redd.it/qxilm8")
+add_data(["Tatsumi"],
+"Tatsumi",
+False,
+False,
+[
+'{"Gar(ō|o)u?den"}'
+],
+"Garōden",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qxilm8/respect_the_great_tatsumi_garouden/
 
 ########################################
 
@@ -748,6 +810,21 @@ False,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qvf4hg/respect_seven_scissor_seven/
+
+########################################
+
+id = get_rt_id(cur, "Respect Redtooth! (Scissor Seven)", "https://redd.it/qxi5bf")
+add_data(["Redtooth"],
+"Redtooth",
+False,
+False,
+[
+'{"Scissor Seven"}'
+],
+"Scissor Seven",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qxi5bf/respect_redtooth_scissor_seven/
 
 ########################################
 
