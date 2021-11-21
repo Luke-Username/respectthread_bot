@@ -347,6 +347,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Hiroshi Nagata (Garouden)", "https://redd.it/qy8dd8")
+add_data(["Hiroshi Nagata"],
+"Hiroshi Nagata",
+False,
+False,
+[
+'{"Gar(ō|o)u?den"}'
+],
+"Garōden",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qy8dd8/respect_hiroshi_nagata_garouden/
+
+########################################
+
 id = get_rt_id(cur, "Respect The Great Tatsumi (Garouden)", "https://redd.it/qxilm8")
 add_data(["Tatsumi"],
 "Tatsumi",
@@ -812,6 +827,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect He Dachun! (Scissor Seven)", "https://redd.it/qy8po0")
+add_data(["Dachun"],
+"Dachun",
+False,
+False,
+[
+'{"Scissor Seven"}', '{"(He|Body(-| )?guard) Dachun"}'
+],
+"Scissor Seven",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qy8po0/respect_he_dachun_scissor_seven/
+
+########################################
+
 id = get_rt_id(cur, "Respect Seven! (Scissor Seven)", "https://redd.it/qvf4hg")
 add_data(["Seven"],
 "Seven",
@@ -994,6 +1024,78 @@ True,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qxl8dq/respect_the_lake_guardians_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "The Other" Tokita Niko (Kengan Omega/Asura)', "https://redd.it/qyny1h")
+add_data(["Tokita Niko"],
+"Tokita Niko",
+False,
+True,
+[
+'{"Kengan(verse)?"}'
+],
+"Kengan Asura",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qyny1h/respect_the_other_tokita_niko_kengan_omegaasura/
+
+########################################
+
+id = get_rt_id(cur, "Respect Achilles (Ben Olding Games)", "https://redd.it/qyv07a")
+add_data(["Achilles"],
+"Achilles",
+False,
+False,
+[
+'{"Ben Olding"}'
+],
+"Ben Olding Games",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qyv07a/respect_achilles_ben_olding_games/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ultron (Marvel Cinematic Universe: What If...?)", "https://redd.it/qyy5yp")
+add_data(["Ultron"],
+"Ultron",
+False,
+False,
+[
+'{"What( |-)if"}'
+],
+"MCU: What If...?",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qyy5yp/respect_ultron_marvel_cinematic_universe_what_if/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Ultron Singularity (Marvel Earth-14831)", "https://redd.it/qyzve4")
+add_data(["Ultron"],
+"Ultron",
+False,
+False,
+[
+'{"14831"}'
+],
+"14831",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qyzve4/respect_the_ultron_singularity_marvel_earth14831/
+
+add_data(["Ultron Singularity"],
+"Ultron Singularity",
+False,
+True,
+[
+'{"14831"}'
+],
+"14831",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qyzve4/respect_the_ultron_singularity_marvel_earth14831/
 
 ########################################
 
