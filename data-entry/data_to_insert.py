@@ -143,6 +143,81 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Rama, the King of Kosala! (Fate)", "https://redd.it/qz4h9x")
+add_data(["Rama"],
+"Rama",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qz4h9x/respect_rama_the_king_of_kosala_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Scáthach, Queen of the Land of Shadows! (Fate)", "https://redd.it/qz8wrm")
+add_data(["Sc(á|a)thach"],
+"Scáthach",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}',
+'{"Lancer"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qz8wrm/respect_sc%C3%A1thach_queen_of_the_land_of_shadows_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Lostbelt Kings! (Fate)", "https://redd.it/qz8ym9")
+add_data(["Lostbelt Kings?"],
+"Lostbelt Kings",
+True,
+True,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qz8ym9/respect_the_lostbelt_kings_fate/
+
+add_data(["Sc(á|a)thach(-| )Ska(ð|o)i"],
+"Scáthach-Skaði",
+False,
+True,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qz8ym9/respect_the_lostbelt_kings_fate/
+
+add_data(["Arjuna Alter"],
+"Arjuna Alter",
+False,
+True,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qz8ym9/respect_the_lostbelt_kings_fate/
+
+########################################
+
 id = get_rt_id(cur, "Respect Arjuna, the Endowed Hero! (Fate)", "https://redd.it/qx4vlu")
 add_data(["Arjuna"],
 "Arjuna",
@@ -1096,6 +1171,80 @@ True,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qyzve4/respect_the_ultron_singularity_marvel_earth14831/
+
+########################################
+
+id = get_rt_id(cur, "Respect Linda-085 (Halo)", "https://redd.it/qz1im2")
+add_data(["Linda(-| )085"],
+"Linda-085",
+False,
+False,
+[
+'{"Halo"}'
+],
+"Halo",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qz1im2/respect_linda085_halo/
+
+########################################
+
+id = get_rt_id(cur, "Respect Azog (The Hobbit films)", "https://redd.it/qz1lc9")
+add_data(["Azog"],
+"Azog",
+False,
+False,
+[
+'{"BOTFA"}', '{"Battle of the Five Armies"}' '{"Hobbit (film|movie)s?"}'
+],
+"The Hobbit, 2014",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qz1lc9/respect_azog_the_hobbit_films/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Dimensional Horror (Stellaris)", "https://redd.it/qz1ncd")
+add_data(["Dimensional Horror"],
+"Dimensional Horror",
+False,
+True,
+[
+'{"Stellaris"}'
+],
+"Stellaris",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qz1ncd/respect_the_dimensional_horror_stellaris/
+
+########################################
+
+id = get_rt_id(cur, "Respect Star and Stripe (My Hero Academia)", "https://redd.it/qz31b6")
+add_data(["Star and Stripe"],
+"Star and Stripe",
+False,
+False,
+[
+'{"My Hero"}', r'{"\\(My Hero\\)"}', '{"(M|BN?)HA"}', '{"Boku no Hero"}',
+'{"New Order"}'
+],
+"My Hero Academia",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qz31b6/respect_star_and_stripe_my_hero_academia/
+
+add_data(["Stars and Stripes"],
+"Stars and Stripes",
+False,
+False,
+[
+'{"My Hero"}', r'{"\\(My Hero\\)"}', '{"(M|BN?)HA"}', '{"Boku no Hero"}',
+'{"New Order"}'
+],
+"My Hero Academia",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qz31b6/respect_star_and_stripe_my_hero_academia/
 
 ########################################
 
