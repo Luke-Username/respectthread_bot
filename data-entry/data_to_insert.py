@@ -111,6 +111,39 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Karna, the Hero of Charity! (Fate)", "https://redd.it/qzrhwq")
+add_data(["Karna"],
+"Karna",
+False,
+False,
+[
+'{"Fate"}',
+'{"Apoc(rypha)?"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qzrhwq/respect_karna_the_hero_of_charity_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Crypters! (Fate)", "https://redd.it/qzehn7")
+add_data(["Crypters"],
+"Crypters",
+True,
+True,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qzehn7/respect_the_crypters_fate/
+
+########################################
+
 id = get_rt_id(cur, "Respect Billy the Kid! (Fate)", "https://redd.it/qoe1ad")
 add_data(["Billy the Kid"],
 "Billy the Kid",
@@ -419,6 +452,21 @@ False,
 '{20429}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, "Respect Hikoichi Kurama (Garouden)", "https://redd.it/qzoyfh")
+add_data(["Hikoichi Kurama"],
+"Hikoichi Kurama",
+False,
+True,
+[
+'{"Gar(ō|o)u?den"}'
+],
+"Garōden",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qzoyfh/respect_hikoichi_kurama_garouden/
 
 ########################################
 
@@ -1245,6 +1293,21 @@ False,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qz31b6/respect_star_and_stripe_my_hero_academia/
+
+########################################
+
+id = get_rt_id(cur, "Respect Infinity Man (DC Comics, New 52)", "https://redd.it/qzoonx")
+add_data(["Infinity Man"],
+"Infinity Man",
+False,
+False,
+[
+'{"New(-| )?52"}', '{"Nu?-?52"}', '{"Prime(-| )Earth"}'
+],
+"New 52",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qzoonx/respect_infinity_man_dc_comics_new_52/
 
 ########################################
 
