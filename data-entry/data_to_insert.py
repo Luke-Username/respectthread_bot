@@ -93,6 +93,7 @@ update_respectthread(cur, 2803, "Respect The Will! (Saga)", "https://redd.it/qw3
 update_respectthread(cur, 1872, "Respect Static (DC Comics, New 52)", "https://redd.it/qwd1rd")
 update_respectthread(cur, 14424, "Respect Asterios! (Fate)", "https://redd.it/qx09n6")
 update_respectthread(cur, 2606, "Respect Mega Man! (Archie Comics)", "https://redd.it/qwu3v3")
+update_respectthread(cur, 5737, "Respect Reimu Hakurei (Touhou)", "https://redd.it/r0ei4c")
 
 ########################################
 
@@ -125,6 +126,22 @@ False,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qzrhwq/respect_karna_the_hero_of_charity_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Lakshmibai! (Fate)", "https://redd.it/r0nnvp")
+add_data(["Lakshmibai"],
+"Lakshmibai",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F/?GO"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r0nnvp/respect_lakshmibai_fate/
 
 ########################################
 
@@ -455,6 +472,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Jyuzo Fujimaki (Garouden)", "https://redd.it/r0gwep")
+add_data(["Jyuzo Fujimaki"],
+"Jyuzo Fujimaki",
+False,
+True,
+[
+'{"Gar(ō|o)u?den"}'
+],
+"Garōden",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r0gwep/respect_jyuzo_fujimaki_garouden/
+
+########################################
+
 id = get_rt_id(cur, "Respect Hikoichi Kurama (Garouden)", "https://redd.it/qzoyfh")
 add_data(["Hikoichi Kurama"],
 "Hikoichi Kurama",
@@ -647,6 +679,21 @@ False,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qrqler/respect_zetto_tome/
+
+########################################
+
+id = get_rt_id(cur, "Respect Harvest! (DC Comics)", "https://redd.it/qzvkxr")
+add_data(["Harvest"],
+"Harvest",
+False,
+False,
+[
+r'{"Harvest ?\\(DC"}'
+],
+"DC",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qzvkxr/respect_harvest_dc_comics/
 
 ########################################
 
@@ -1308,6 +1355,50 @@ False,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qzoonx/respect_infinity_man_dc_comics_new_52/
+
+########################################
+
+id = get_rt_id(cur, "Respect Therizinosaurus (Dinosaur King)", "https://redd.it/qzvqqk")
+add_data(["Therizinosaurus"],
+"Therizinosaurus",
+False,
+False,
+[
+'{"Dinosaur King"}'
+],
+"Dinosaur King",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/qzvqqk/respect_therizinosaurus_dinosaur_king/
+
+########################################
+
+add_data(["Reimu"],
+"Reimu",
+False,
+True,
+[
+'{"Touhou"}', '{"Gensokyo"}'
+],
+"Touhou",
+'{5737}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r0ei4c/respect_reimu_hakurei_touhou/
+
+########################################
+
+id = get_rt_id(cur, "Ogi Zenin (Jujutsu Kaisen)", "https://redd.it/r0jmyg")
+add_data(["Ogi Zenin"],
+"Ogi Zenin",
+False,
+True,
+[
+'{"Jujus?t?s?u Kaisen"}'
+],
+"Jujutsu Kaisen",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r0jmyg/ogi_zenin_jujutsu_kaisen/
 
 ########################################
 

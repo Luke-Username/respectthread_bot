@@ -27,6 +27,8 @@ UPDATE character SET rt_id_array='{?}' WHERE default_name='Alita' AND displayed_
 
 ########################################
 
+UPDATE character_name SET name='Reimu Hakurei' WHERE name='Reimu';
+
 ########################################
 
 ########################################
