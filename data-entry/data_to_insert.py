@@ -697,6 +697,22 @@ r'{"Harvest ?\\(DC"}'
 
 ########################################
 
+id = get_rt_id(cur, "Respect 3g4 (Dc Comics, Post Crisis)", "https://redd.it/r1eok9")
+add_data(["3g4"],
+"3g4",
+False,
+False,
+[
+'{"DC"}',
+'{"PC"}', '{"Earth(-| )(1|One)"}', '{"Posts?(-| )?C(risis)?"}', '{"New(-| )Earth"}'
+],
+"Post-Crisis",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r1eok9/respect_3g4_dc_comics_post_crisis/
+
+########################################
+
 id = get_rt_id(cur, "Respect the Reaper (Dc, Post Crisis)", "https://redd.it/qt63qm")
 add_data(["Reaper"],
 "Reaper",
@@ -1399,6 +1415,66 @@ True,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r0jmyg/ogi_zenin_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Unnamed Wolf Kretch (Wardstone Chronicles)", "https://redd.it/r0ubrk")
+add_data(["Wolf Kretch"],
+"Wolf Kretch",
+False,
+True,
+[
+'{"Wardstone Chronicles"}'
+],
+"Wardstone Chronicles",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r0ubrk/respect_the_unnamed_wolf_kretch_wardstone/
+
+########################################
+
+id = get_rt_id(cur, "Respect Natsuo Ishido (Teppu)", "https://redd.it/r10ex8")
+add_data(["Natsuo Ishid(ō|o)"],
+"Natsuo Ishidō",
+False,
+True,
+[
+'{"Teppu"}'
+],
+"Teppu",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r10ex8/respect_natsuo_ishido_teppu/
+
+########################################
+
+id = get_rt_id(cur, "Respect Cronus (Class of the Titans)", "https://redd.it/r14nzo")
+add_data(["Cronus"],
+"Cronus",
+False,
+False,
+[
+'{"Class of the Titans?"}'
+],
+"Class of the Titans",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r14nzo/respect_cronus_class_of_the_titans/
+
+########################################
+
+id = get_rt_id(cur, "Respect Mega Man! (Mega Man Megamix/Gigamix)", "https://redd.it/r18kg0")
+add_data(["Mega ?Man"],
+"Mega Man",
+False,
+False,
+[
+'{"Mega Man (Megamix|Gigamix)"}'
+],
+"Mega Man Megamix",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r18kg0/respect_mega_man_mega_man_megamixgigamix/
 
 ########################################
 
