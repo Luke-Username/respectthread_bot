@@ -2273,7 +2273,7 @@ Nasuverse
 		'{"Stay/? ?k?Night"}', '{"F/?SN"}'
 		'{"Fate( ?/ ?| )Zero"}'
 		'{"Apoc(rypha)?"}'
-		'{"Grande? Order"}', '{"F/?GO"}'
+		'{"Grande? Order"}', '{"F(ate )?/?GO"}'
 		Displayed Version Name
 		"Fate"
 		

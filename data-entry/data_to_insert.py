@@ -94,6 +94,7 @@ update_respectthread(cur, 1872, "Respect Static (DC Comics, New 52)", "https://r
 update_respectthread(cur, 14424, "Respect Asterios! (Fate)", "https://redd.it/qx09n6")
 update_respectthread(cur, 2606, "Respect Mega Man! (Archie Comics)", "https://redd.it/qwu3v3")
 update_respectthread(cur, 5737, "Respect Reimu Hakurei (Touhou)", "https://redd.it/r0ei4c")
+update_respectthread(cur, 12473, 'Respect Carlos Medel, "El Dorado" (Kengan Omega)', "https://redd.it/r1f0p1")
 
 ########################################
 
@@ -109,6 +110,35 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qwwkqa/respect_mighty_mom_dyno_dad_the_fairly_oddparents/
+
+########################################
+
+id = get_rt_id(cur, "Respect Mash Kyrielight! (Fate)", "https://redd.it/r1nntw")
+add_data(["Mashu? Kyrielight"],
+"Mash Kyrielight",
+False,
+True,
+[
+'{"Fate"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r1nntw/respect_mash_kyrielight_fate/
+
+add_data(["Mash"],
+"Mash",
+False,
+False,
+[
+'{"\\(Fate"}', 
+'{"Grande? Order"}', '{"F(ate )?/?GO"}',
+'{"Galahad"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r1nntw/respect_mash_kyrielight_fate/
 
 ########################################
 
@@ -862,6 +892,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect SCP-002, The "Living" Room. (SCP Foundation)', "https://redd.it/r1nlnl")
+add_data(["SCP(-| )?002"],
+"SCP-002",
+False,
+True,
+[
+'{"Living"}'
+],
+"",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r1nlnl/respect_scp002_the_living_room_scp_foundation/
+
+########################################
+
 id = get_rt_id(cur, "Respect SCP-504, Critical Tomatoes! (SCP Foundation)", "https://redd.it/qrpreh")
 add_data(["SCP(-| )?504"],
 "SCP-504",
@@ -1433,7 +1478,7 @@ True,
 
 ########################################
 
-id = get_rt_id(cur, "Respect Natsuo Ishido (Teppu)", "https://redd.it/r10ex8")
+id = get_rt_id(cur, "Respect Natsuo Ishido (Teppu)", "https://redd.it/r1frew")
 add_data(["Natsuo Ishid(ō|o)"],
 "Natsuo Ishidō",
 False,
