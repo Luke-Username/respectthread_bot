@@ -2256,7 +2256,7 @@ Naruto
 	Version
 		'{"Naruto"}', '{"Shippuden"}'
 	Sometimes Called
-	 '{"Boruto"}'
+		'{"Boruto"}'
 	Displayed Version Name
 		"Naruto"
 
@@ -2268,14 +2268,16 @@ Nasuverse
 	
 	Fate
 		Version
-		'{"Fate"}'
+			'{"Fate"}'
 		Specific
-		'{"Stay/? ?k?Night"}', '{"F/?SN"}'
-		'{"Fate( ?/ ?| )Zero"}'
-		'{"Apoc(rypha)?"}'
-		'{"Grande? Order"}', '{"F(ate )?/?GO"}'
+			'{"Stay/? ?k?Night"}', '{"F/?SN"}'
+			'{"Fate( ?/ ?| )Zero"}'
+			'{"Apoc(rypha)?"}'
+			'{"Grande? Order"}', '{"F(ate )?/?GO"}'
+		Other
+			'{"Serv(a|e)nts?"}'
 		Displayed Version Name
-		"Fate"
+			"Fate"
 		
 		#if it's Fate/Grand Order
 			"Fate/Grand Order"

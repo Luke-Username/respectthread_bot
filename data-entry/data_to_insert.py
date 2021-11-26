@@ -12,7 +12,7 @@ False,
 '{"Monsters,? Inc"}'
 ],
 "Monsters, Inc.",
-'{' + r'{id}' +'}'
+'{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/d2kwip/respect_sully_monsters_inc/
 
@@ -110,6 +110,53 @@ True,
 '{' + '{}'.format(id) +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qwwkqa/respect_mighty_mom_dyno_dad_the_fairly_oddparents/
+
+########################################
+
+id = get_rt_id(cur, "Respect Edmond Dantès, the Count of Monte Cristo! (Fate)", "https://redd.it/r2sgc2")
+add_data(["Edmond Dant(è|e)s"],
+"Edmond Dantès",
+False,
+False,
+[
+'{"Fate"}',
+'{"Avenger"}', 
+'{"Grande? Order"}', '{"F(ate )?/?GO"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r2sgc2/respect_edmond_dant%C3%A8s_the_count_of_monte_cristo/
+
+########################################
+
+id = get_rt_id(cur, "Respect Mordred Pendragon, the Knight of Treachery! (Fate)", "https://redd.it/r1y2aq")
+add_data(["Mordred"],
+"Mordred",
+False,
+False,
+[
+r'{"?\\(Fate"}', r'{"\\[Fate"}', '{"Apoc(rypha)?"}', '{"Serv(a|e)nts?"}', '{"Mordred Pendragon"}', '{"Grande? Order"}', '{"F(ate )?/?GO"}', '{"Saber"}', '{"Mordred Pendragon"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r1y2aq/respect_mordred_pendragon_the_knight_of_treachery/
+
+########################################
+
+id = get_rt_id(cur, "Respect Asclepius! (Fate)", "https://redd.it/r2ejf8")
+add_data(["Asclepius"],
+"Asclepius",
+False,
+False,
+[
+'{"Fate"}', '{"Caster"}', '{"Grande? Order"}', '{"F(ate )?/?GO"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r2ejf8/respect_asclepius_fate/
 
 ########################################
 
@@ -499,6 +546,21 @@ False,
 '{20429}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, "Respect Crybaby Sakura (Garouden)", "https://redd.it/r2tf1q")
+add_data(["Sakura"],
+"Sakura",
+False,
+False,
+[
+'{"Gar(ō|o)u?den"}', '{"Crybaby Sakura"}'
+],
+"Garōden",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r2tf1q/respect_crybaby_sakura_garouden/
 
 ########################################
 
@@ -1258,6 +1320,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Hayami Masaki, The Killing Throw! (Kengan Omega)", "https://redd.it/r23j4a")
+add_data(["Hayami Masaki"],
+"Hayami Masaki",
+False,
+True,
+[
+'{"Kengan(verse)?"}'
+],
+"Kengan Asura",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r23j4a/respect_hayami_masaki_the_killing_throw_kengan/
+
+########################################
+
 id = get_rt_id(cur, 'Respect "The Other" Tokita Niko (Kengan Omega/Asura)', "https://redd.it/qyny1h")
 add_data(["Tokita Niko"],
 "Tokita Niko",
@@ -1520,6 +1597,66 @@ False,
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r18kg0/respect_mega_man_mega_man_megamixgigamix/
+
+########################################
+
+id = get_rt_id(cur, "Respect Bruce Without Pity (Arthurian Myth)", "https://redd.it/r2b4hh")
+add_data(["Bruce Without Pity"],
+"Bruce Without Pity",
+False,
+True,
+[
+'{"Arthurian"}'
+],
+"Arthurian Myth",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r2b4hh/respect_bruce_without_pity_arthurian_myth/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Meg (The Meg)", "https://redd.it/r2c31h")
+add_data(["The Meg"],
+"The Meg",
+False,
+True,
+[
+'{"2018"}'
+],
+"",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r2c31h/respect_the_meg_the_meg/
+
+########################################
+
+id = get_rt_id(cur, "Respect Doombot (Avenger) (Marvel, 616)", "https://redd.it/r2nrs8")
+add_data(["Doom ?bots?"],
+"Doombot",
+False,
+False,
+[
+r'{"Doombot ?\\(Avenger"}'
+],
+"Avenger",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r2nrs8/respect_doombot_avenger_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, "Respect Batman (Superman/Batman Movies)", "https://redd.it/r2w90j")
+add_data(["Bat(-| )?man"],
+"Batman",
+False,
+False,
+[
+r'{"Bat(-| )?man ?\\((Superman/Batman|Batman/Superman)"}'
+],
+"Superman/Batman",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r2w90j/respect_batman_supermanbatman_movies/
 
 ########################################
 
