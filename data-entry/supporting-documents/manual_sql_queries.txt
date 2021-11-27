@@ -31,6 +31,8 @@ UPDATE character_name SET name='Reimu Hakurei' WHERE name='Reimu';
 
 ########################################
 
+DELETE FROM character_name WHERE name='Miyamoto Musashi';
+
 ########################################
 
 ########################################

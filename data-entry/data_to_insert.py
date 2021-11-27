@@ -113,6 +113,39 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Miyamoto Musashi! (Fate)", "https://redd.it/r35dv6")
+add_data(["Miyamoto Musashi|Musashi Miyamoto"],
+"Miyamoto Musashi",
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F(ate )?/?GO"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r35dv6/respect_miyamoto_musashi_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Robin Hood, the Faceless King! (Fate)", "https://redd.it/r35943")
+add_data(["Robin Hood"],
+"Robin Hood",
+False,
+False,
+[
+r'{"Robin Hood ?\\(Fate"}',
+'{"Fate", "EXTRA"}', 
+'{"Grande? Order"}', '{"F(ate )?/?GO"}'
+],
+"Fate",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r35943/respect_robin_hood_the_faceless_king_fate/
+
+########################################
+
 id = get_rt_id(cur, "Respect Edmond Dantès, the Count of Monte Cristo! (Fate)", "https://redd.it/r2sgc2")
 add_data(["Edmond Dant(è|e)s"],
 "Edmond Dantès",
@@ -786,6 +819,22 @@ r'{"Harvest ?\\(DC"}'
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qzvkxr/respect_harvest_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, "Respect Vengeance (Dc, Rebirth)", "https://redd.it/r3f99k")
+add_data(["Vengeance"],
+"Vengeance",
+False,
+False,
+[
+r'{"Vengeance ?\\(DC"}',
+r'{"Vengeance ?\\(Rebirth"}'
+],
+"Rebirth",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r3f99k/respect_vengeance_dc_rebirth/
 
 ########################################
 
@@ -1657,6 +1706,36 @@ r'{"Bat(-| )?man ?\\((Superman/Batman|Batman/Superman)"}'
 '{' + f'{id}' +'}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r2w90j/respect_batman_supermanbatman_movies/
+
+########################################
+
+id = get_rt_id(cur, "Respect Superman (Superman/Batman Movies)", "https://redd.it/r2zuny")
+add_data(["Super(-| )?man"],
+"Superman",
+False,
+False,
+[
+r'{"Super(-| )?man ?\\((Superman/Batman|Batman/Superman)"}'
+],
+"Superman/Batman",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r2zuny/respect_superman_supermanbatman_movies/
+
+########################################
+
+id = get_rt_id(cur, "Respect Shobun Ron (Baki)", "https://redd.it/r3ikq7")
+add_data(["Shobun Ron"],
+"Shobun Ron",
+False,
+True,
+[
+'{"Baki"}'
+],
+"Baki",
+'{' + f'{id}' +'}'
+)
+#https://www.reddit.com/r/respectthreads/comments/r3ikq7/respect_shobun_ron_baki/
 
 ########################################
 
