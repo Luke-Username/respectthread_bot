@@ -25,7 +25,6 @@ Zoom,{Arrowverse},f,{28},CW Arrowverse
 Kuasa,{Arrowverse},f,{29},CW Arrowverse
 Vixen,{Arrowverse},f,{30},CW Arrowverse
 John Constantine,{Arrowverse},f,{31},CW Arrowverse
-Beebo,{Arrowverse},t,{33},CW Arrowverse
 Superman,{Arrowverse},f,{34},CW Arrowverse
 Halliwell,{Prudence},f,{82},Charmed
 Angel,{Buffy},f,{35},Buffy the Vampire Slayer
@@ -48,7 +47,6 @@ Daisy Johnson,"{`"Agents of S.H.I.E.L.D.`"}",f,{69},Agents of SHIELD
 Deathstroke,{CW},f,{15},CW Arrowverse
 The Ray,{CW},f,{32},CW Arrowverse
 Green Arrow,{CW},f,{16},CW Arrowverse
-Beebo,{CW},t,{33},CW Arrowverse
 Captain Cold,{CW},f,{18},CW Arrowverse
 Hobbes,{Calvin},t,"{1479,1480}",Calvin and Hobbes
 Girder,{CW},f,{20},CW Arrowverse
@@ -94,7 +92,6 @@ Daisy Johnson,"{`"Agents of SHIELD`"}",f,{69},Agents of SHIELD
 Korath The Pursuer,{MCU},f,{249},MCU
 The Ray,{DCCW},f,{32},CW Arrowverse
 Weather Wizard,{DCCW},f,{27},CW Arrowverse
-Beebo,{DCCW},t,{33},CW Arrowverse
 Captain Cold,{DCCW},f,{18},CW Arrowverse
 Zoom,{DCCW},f,{28},CW Arrowverse
 Green Arrow,{DCCW},f,{16},CW Arrowverse
@@ -114,7 +111,6 @@ Anissa Pierce,{DCCW},f,{80},Black Lightning TV Series
 The Broken Hardys,"{`"Broken Universe`"}",t,{81},Broken Universe
 Matt,"{`"Broken Universe`"}",f,{81},Broken Universe
 Nero,"{`"Broken Universe`"}",f,{81},Broken Universe
-Beebo,"{`"DC TV`"}",t,{33},CW Arrowverse
 Captain Cold,"{`"DC TV`"}",f,{18},CW Arrowverse
 Deathstroke,"{`"DC TV`"}",f,{15},CW Arrowverse
 Girder,"{`"DC TV`"}",f,{20},CW Arrowverse
@@ -130,14 +126,12 @@ Cybermen,{Supreme},f,{45},"Supremacy of the Cybermen, Doctor Who"
 The Broken Hardys,{Wrestling},t,{81},Broken Universe
 Matt,{Wrestling},f,{81},Broken Universe
 Nero,{Wrestling},f,{81},Broken Universe
-Beebo,{Legends},t,{33},CW Arrowverse
 Black Lady,"{`"Sailor Moon`"}",f,{4404},Sailor Moon
 The Tenth Doctor,{Whoverse},t,{40},Doctor Who
 "Grant Gordon, the Ghost",{Whoverse},f,{41},Doctor Who
 Heather,{Whoverse},f,{42},Doctor Who
 Space Oil,{Whoverse},f,{42},Doctor Who
 Halliwell,{Charmed},f,{82},Charmed
-Beebo,{DCTV},t,{33},CW Arrowverse
 Captain Cold,{DCTV},f,{18},CW Arrowverse
 Deathstroke,{DCTV},f,{15},CW Arrowverse
 Girder,{DCTV},f,{20},CW Arrowverse
@@ -399,8 +393,6 @@ John,{POI},f,{98},Person of Interest
 Reese,"{`"Person of Interest`"}",f,{98},Person of Interest
 Reese,{POI},f,{98},Person of Interest
 Elektra,{MCU},f,{1291},MCU
-Sam,"{`"Person of Interest`"}",f,{98},Person of Interest
-Sam,{POI},f,{98},Person of Interest
 Sameen,"{`"Person of Interest`"}",f,{98},Person of Interest
 Sameen,{POI},f,{98},Person of Interest
 Shaw,"{`"Person of Interest`"}",f,{98},Person of Interest
@@ -2339,6 +2331,7 @@ Achilles,{Troy},f,{581},Troy
 Underdog,{2007},f,{582},2007
 Sailor Mercury,"{`"Sailor Moon`"}",t,{4417},Sailor Moon
 Sailor Moon,"{`"Pretty Guardian Sailor Moon`"}",t,{4418},""
+3g4,{DC},f,{20967},Post-Crisis
 Yuri Boyka,{Undisputed},t,{585},Undisputed
 Gill-man,"{`"the Creature`"}",t,{586},Creature from the Black Lagoon
 Gill-man,"{`"Black Lagoon`"}",t,{586},Creature from the Black Lagoon
@@ -3158,6 +3151,7 @@ Team Avatar,{A?T?LOK},t,"{816,808,812,809,813}",Avatar: TLOK
 Snow Kaguya,"{`"Sailor Moon`"}",t,{4419},Sailor Moon
 Tuxedo Mask,"{`"Sailor Moon`"}",t,{4420},Sailor Moon
 Elisa Celjska,"{`"Madoka Magica`"}",t,{4421},Madoka Magica
+3g4,{PC},f,{20967},Post-Crisis
 Pabu,{Avatar},t,{816},Avatar: TLOK
 Pabu,{A?TLA},t,{816},Avatar: TLOK
 Pabu,{Korra},t,{816},Avatar: TLOK
@@ -10418,7 +10412,6 @@ Proto Man,{Archie},f,{2608},Archie Comics
 Quake Woman,{Archie},t,{2609},Archie Comics
 Mega Man,"{`"Novas Aventuras De Megaman`"}",f,{2610},Novas Aventuras De Megaman
 Roll,"{`"Novas Aventuras De Megaman`"}",f,{2611},Novas Aventuras De Megaman
-X,"{`"Novas Aventuras De Megaman`"}",f,{2612},Novas Aventuras De Megaman
 Envy Adams,"{`"Scott Pilgrim`"}",t,{2613},Scott Pilgrim
 Knives,"{`"Scott Pilgrim`"}",f,{2614},Scott Pilgrim
 Knives Chau,"{`"Scott Pilgrim`"}",t,{2614},Scott Pilgrim
@@ -12602,9 +12595,6 @@ Satan,"{`"Satan ?\\(Bastard`"}",f,{3062},Bastard!!
 Satan,{Bastard!},f,{3062},Bastard!!
 Uriel,{Bastard},f,{3063},Bastard!!
 Alita,"{`"Battle Angel Alita`"}",t,{3064},Battle Angel Alita
-Alita,"{`"Alita: Battle Angel`"}",f,{},Alita: Battle Angel
-Alita,{2019},f,{},Alita: Battle Angel
-Alita,{movie|film},f,{},Alita: Battle Angel
 Caerula Sanguis,"{`"Battle Angel Alita`"}",t,{3065},Battle Angel Alita
 Sechs,{Alita},f,{3066},Battle Angel Alita
 Hajime Kanzaki,{Beelzebub},t,{3067},Beelzebub
@@ -19257,7 +19247,6 @@ Pidove,{Pok(e|é)mon},t,{4186},Pokémon
 Dawn,{Pok(e|é)mon},f,{4187},Pokémon
 Buneary,{Pok(e|é)mon},t,{4187},Pokémon
 Pachirisu,{Pok(e|é)mon},t,{4187},Pokémon
-Mamoswine,{Pok(e|é)mon},t,{4187},Pokémon
 Quilava,{Dawn},f,{13524},Dawn
 Cyndaquil,{Dawn},f,{13524},Dawn
 Togekiss,{Pok(e|é)mon},t,{13525},Pokémon
@@ -19288,6 +19277,7 @@ Midnight Lycanroc,{Pok(e|é)mon},t,{4195},Pokémon
 Silvally,{Pok(e|é)mon},t,{4196},Pokémon
 Type: Null,{Pok(e|é)mon},t,{4196},Pokémon
 Kiawe,{Pok(e|é)mon},t,{4197},Pokémon
+Mamoswine,{Dawn},f,{20633},Pokémon
 Alolan Marowak,{Pok(e|é)mon},t,{4198},Pokémon
 Charizard,{Kiawe},f,{4199},Kiawe
 Turtonator,{Pok(e|é)mon},f,{4200},Pokémon
@@ -19815,8 +19805,6 @@ Dracula,{Hammer},f,{13574},Hammer
 Dracula,"{`"Christopher Lee`"}",f,{13574},Hammer
 Shitass,{L(ü|u)minism},t,{13575},Lüminism
 Shitass,{YouTube},t,{13575},Lüminism
-Sam,"{`"Trick 'r Treat`"}",f,{13576},Trick 'r Treat
-Sam,"{`"Trick r Treat`"}",f,{13576},Trick 'r Treat
 Zatoichi,"{`"Blind Swordsman`"}",t,{13577},""
 May Chang,"{`"Full ?metal`"}",t,{13578},Fullmetal Alchemist
 May Chang,{FMA:?B?},t,{13578},Fullmetal Alchemist
@@ -20740,7 +20728,6 @@ Lammy,{Parappa},f,{5745},Parappa The Rapper
 Lammy,"{`"[Um ?Jammer`"}",f,{5745},Parappa The Rapper
 Selvaria Bles,"{`"Valkyria Chronicles`"}",t,{5746},Valkyria Chronicles
 Sam Gideon,{Vanquish},t,{5747},Vanquish
-Sam,{Vanquish},f,{5747},Vanquish
 Vectorman,{default},t,{5748},""
 Nightmare Gabe,"{`"Video Game Championship Wrestling`"}",f,{5749},Video Game Championship Wrestling
 Nightmare Gabe,{VGCW},f,{5749},Video Game Championship Wrestling
@@ -21485,8 +21472,6 @@ Morgoth,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{5861},Lord of the Rings
 Nazgûl,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{5862},Lord of the Rings
 The One Ring,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{5863},Lord of the Rings
 Samwise,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{5864},Lord of the Rings
-Sam,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{5864},Lord of the Rings
-Sam,{Frodo},t,{5864},Lord of the Rings
 Sauron,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{5865},Lord of the Rings
 Smaug,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,"{5866,465}",Lord of the Rings
 Smaug,{Hobbit},t,"{5866,465}",Lord of the Rings
@@ -21986,10 +21971,6 @@ Dust,{Bunnykill},f,{16061},Bunnykill
 Smart House,{default},t,{16062},""
 Mac and Me,{default},t,{16063},""
 Walrider,{Outlast},t,{16064},Outlast
-Straightman,"{`"Batman:? The Adventures Continue`"}",f,{16065},Batman: The Adventures Continue
-Deathstroke,"{`"Batman:? The Adventures Continue`"}",f,{16066},Batman: The Adventures Continue
-Azrael,"{`"Batman:? The Adventures Continue`"}",f,{16067},Batman: The Adventures Continue
-Red Hood,"{`"Batman:? The Adventures Continue`"}",f,{16068},Batman: The Adventures Continue
 Mulan,{2020},f,{16069},2020
 Deathstroke,"{`"New Adventures of Superman`"}",f,{16070},Lois & Clark: The New Adventures of Superman
 Deathstroke,"{`"Death(-| )?stroke ?\\(Lois (&|and) Clark`"}",f,{16070},Lois & Clark: The New Adventures of Superman
@@ -23677,7 +23658,6 @@ Green Lantern,"{`"Earth(-| )30`"}",f,{16842},Red Son
 Profion,"{`"Dungeons (&|and) Dragons`"}",t,{16843},"Dungeons & Dragons, 2000"
 Profion,"{`"Earth(-| )30`"}",t,{16843},"Dungeons & Dragons, 2000"
 Last Great American Whale,{default},t,{16844},""
-X,"{`"Dark(-| )?Horse`"}",t,{16845},Dark Horse Comics
 Human,"{bil(lion)?,fus(e(s|d)|ion)}",f,"{6372,6390,6388}",Combined
 Connor Cornwall,{Containment},t,{1373},Confinement
 Erik Josten,{Marvel},t,"{16846,16751}",616
@@ -23690,6 +23670,7 @@ Atomic Samurai,{OPM},t,{16849},One Punch Man
 Immortal,"{`"Image Comics?`"}",f,"{16851,16852}",Invincible
 Immortal,{Viltrum(ites?)?},f,"{16851,16852}",Invincible
 Immortal,"{`"Immortal ?\\(Invincible`"}",f,"{16851,16852}",Invincible
+X,"{`"Dark(-| )?Horse`"}",f,{16845},Dark Horse Comics
 Bog,"{`"Rock Hard Gladiators`"}",f,{17254},RHG
 Bog,{Zetabrand},f,{17254},RHG
 Azami,"{`"Mekakucity Actors`"}",f,{17255},Mekakucity Actors
@@ -25172,3 +25153,240 @@ Bunshichi Tanba,{Garouden},t,{20630},Garouden
 Rainbow Dash,"{`"Rainbow Factory`"}",f,{20631},Rainbow Factory
 Doctor Fate,"{`"(DC( Comics)?)`"}",t,"{20465,7611,1722}",DC
 Violet Parr,{Incredibles},t,"{1133,20570}",The Incredibles
+Beebo,{Arrowverse},f,{33},CW Arrowverse
+Beebo,{CW},f,{33},CW Arrowverse
+Beebo,{DCCW},f,{33},CW Arrowverse
+Beebo,"{`"DC TV`"}",f,{33},CW Arrowverse
+Beebo,{Legends},f,{33},CW Arrowverse
+Beebo,{DCTV},f,{33},CW Arrowverse
+Sam,"{`"Person of Interest`"}",f,{98},Person of Interest
+Sam,{POI},f,{98},Person of Interest
+Sam,"{`"Trick 'r Treat`"}",f,{13576},Trick 'r Treat
+Sam,"{`"Trick r Treat`"}",f,{13576},Trick 'r Treat
+Sam,{Vanquish},f,{5747},Vanquish
+Sam,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",f,{5864},Lord of the Rings
+Sam,{Frodo},f,{5864},Lord of the Rings
+X,"{`"Novas Aventuras De Megaman`"}",f,{2612},Novas Aventuras De Megaman
+Straightman,"{`"Batman:? The Adventures Continue`"}",f,{16065},DCAU
+Deathstroke,"{`"Batman:? The Adventures Continue`"}",f,{16066},DCAU
+Azrael,"{`"Batman:? The Adventures Continue`"}",f,{16067},DCAU
+Red Hood,"{`"Batman:? The Adventures Continue`"}",f,{16068},DCAU
+Alita,"{`"Alita: Battle Angel`"}",f,{20634},Alita: Battle Angel
+Alita,{2019},f,{20634},Alita: Battle Angel
+Alita,{movie|film},f,{20634},Alita: Battle Angel
+Mighty Mom and Dyno Dad,"{`"Fairly OddParents`"}",t,{20923},Fairly OddParents
+Miyamoto Musashi,{Fate},f,{20924},Fate
+Miyamoto Musashi,"{`"Grande? Order`"}",f,{20924},Fate
+Miyamoto Musashi,"{`"F(ate )?/?GO`"}",f,{20924},Fate
+Robin Hood,"{`"Robin Hood ?\\(Fate`"}",f,{20925},Fate
+Robin Hood,"{Fate,EXTRA}",f,{20925},Fate
+Robin Hood,"{`"Grande? Order`"}",f,{20925},Fate
+Robin Hood,"{`"F(ate )?/?GO`"}",f,{20925},Fate
+Edmond Dantès,{Fate},f,{20926},Fate
+Edmond Dantès,{Avenger},f,{20926},Fate
+Edmond Dantès,"{`"Grande? Order`"}",f,{20926},Fate
+Edmond Dantès,"{`"F(ate )?/?GO`"}",f,{20926},Fate
+Mordred,"{`"?\\(Fate`"}",f,{20927},Fate
+Mordred,"{`"\\[Fate`"}",f,{20927},Fate
+Mordred,{Apoc(rypha)?},f,{20927},Fate
+Mordred,{Serv(a|e)nts?},f,{20927},Fate
+Mordred,"{`"Mordred Pendragon`"}",f,{20927},Fate
+Mordred,"{`"Grande? Order`"}",f,{20927},Fate
+Mordred,"{`"F(ate )?/?GO`"}",f,{20927},Fate
+Mordred,{Saber},f,{20927},Fate
+Asclepius,{Fate},f,{20928},Fate
+Asclepius,{Caster},f,{20928},Fate
+Asclepius,"{`"Grande? Order`"}",f,{20928},Fate
+Asclepius,"{`"F(ate )?/?GO`"}",f,{20928},Fate
+Mash Kyrielight,{Fate},t,{20929},Fate
+Mash,{(Fate},f,{20929},Fate
+Mash,"{`"Grande? Order`"}",f,{20929},Fate
+Mash,"{`"F(ate )?/?GO`"}",f,{20929},Fate
+Mash,{Galahad},f,{20929},Fate
+Karna,{Fate},f,{20930},Fate
+Karna,{Apoc(rypha)?},f,{20930},Fate
+Karna,"{`"Grande? Order`"}",f,{20930},Fate
+Karna,{F/?GO},f,{20930},Fate
+Lakshmibai,{Fate},f,{20931},Fate
+Lakshmibai,"{`"Grande? Order`"}",f,{20931},Fate
+Lakshmibai,{F/?GO},f,{20931},Fate
+Crypters,{Fate},t,{20932},Fate
+Crypters,"{`"Grande? Order`"}",t,{20932},Fate
+Crypters,{F/?GO},t,{20932},Fate
+Billy the Kid,{Fate},f,{20933},Fate
+Billy the Kid,"{`"Grande? Order`"}",f,{20933},Fate
+Billy the Kid,{F/?GO},f,{20933},Fate
+Abigail Williams,{Fate},f,{20934},Fate
+Abigail Williams,"{`"Grande? Order`"}",f,{20934},Fate
+Abigail Williams,{F/?GO},f,{20934},Fate
+Rama,{Fate},f,{20935},Fate
+Rama,"{`"Grande? Order`"}",f,{20935},Fate
+Rama,{F/?GO},f,{20935},Fate
+Scáthach,{Fate},f,{20936},Fate
+Scáthach,"{`"Grande? Order`"}",f,{20936},Fate
+Scáthach,{F/?GO},f,{20936},Fate
+Scáthach,{Lancer},f,{20936},Fate
+Lostbelt Kings,{Fate},t,{20937},Fate
+Lostbelt Kings,"{`"Grande? Order`"}",t,{20937},Fate
+Lostbelt Kings,{F/?GO},t,{20937},Fate
+Scáthach-Skaði,{Fate},t,{20937},Fate
+Scáthach-Skaði,"{`"Grande? Order`"}",t,{20937},Fate
+Scáthach-Skaði,{F/?GO},t,{20937},Fate
+Arjuna Alter,{Fate},t,{20937},Fate
+Arjuna Alter,"{`"Grande? Order`"}",t,{20937},Fate
+Arjuna Alter,{F/?GO},t,{20937},Fate
+Arjuna,"{`"Arjuna ?\\(Fate`"}",f,{20938},Fate
+Arjuna,"{`"Arjuna ?\\[Fate`"}",f,{20938},Fate
+Arjuna,{Archer},f,{20938},Fate
+Arash,{Fate},f,{20939},Fate
+Arash,"{`"Grande? Order`"}",f,{20939},Fate
+Arash,{F/?GO},f,{20939},Fate
+Xiang Yu,{Fate},f,{20940},Fate
+Xiang Yu,"{`"Grande? Order`"}",f,{20940},Fate
+Xiang Yu,{F/?GO},f,{20940},Fate
+Amakusa Shirō,{Fate},f,{20941},Fate
+Amakusa Shirō,{Apoc(rypha)?},f,{20941},Fate
+Napoléon,"{`"Napol(é|e)on ?\\(Fate`"}",f,{20942},Fate
+Napoléon,"{`"Grande? Order`"}",f,{20942},Fate
+Napoléon,{F/?GO},f,{20942},Fate
+Spartacus,"{`"Spartacus ?\\(Fate`"}",f,{20943},Fate
+Spartacus,"{`"Spartacus ?\\[Fate`"}",f,{20943},Fate
+Spartacus,{Red},f,{20943},Fate
+Spartacus,{Servants?},f,{20943},Fate
+Spartacus,{Apoc(rypha)?},f,{20943},Fate
+Phantom of the Opera,{Fate},f,{20944},Fate
+Phantom of the Opera,"{`"Grande? Order`"}",f,{20944},Fate
+Phantom of the Opera,{F/?GO},f,{20944},Fate
+Brynhildr,{Fate},f,{20945},Fate
+Brynhildr,{Lancer},f,{20945},Fate
+Brynhildr,"{`"Grande? Order`"}",f,{20945},Fate
+Brynhildr,{F/?GO},f,{20945},Fate
+Marie Antoinette,{Fate},f,{20946},Fate
+Marie Antoinette,"{`"Grande? Order`"}",f,{20946},Fate
+Marie Antoinette,{F/?GO},f,{20946},Fate
+Francis Drake,"{Fate,Extra}",f,{20947},Fate
+Francis Drake,"{`"Grande? Order`"}",f,{20947},Fate
+Francis Drake,{F/?GO},f,{20947},Fate
+Geronimo,"{`"Geronimo ?\\(Fate`"}",f,{20948},Fate
+Geronimo,"{`"Grande? Order`"}",f,{20948},Fate
+Geronimo,{F/?GO},f,{20948},Fate
+Beowulf,"{`"Beowulf ?\\(Fate`"}",f,{20949},Fate
+Minato,{Edo},f,{20429},Naruto
+Sakura,{Gar(ō|o)u?den},f,{20950},Garōden
+Sakura,"{`"Crybaby Sakura`"}",f,{20950},Garōden
+Jyuzo Fujimaki,{Gar(ō|o)u?den},t,{20951},Garōden
+Hikoichi Kurama,{Gar(ō|o)u?den},t,{20952},Garōden
+Hiroshi Nagata,{Gar(ō|o)u?den},f,{20953},Garōden
+Tatsumi,{Gar(ō|o)u?den},f,{20954},Garōden
+Tsutomu Himekawa,{Gar(ō|o)u?den},t,{20955},Garōden
+Shozan Matsuo,{Gar(ō|o)u?den},t,{20956},Garōden
+Juumei Kuga,{Gar(ō|o)u?den},t,{20957},Garōden
+Jyohei Tsutsumi,{Gar(ō|o)u?den},t,{20958},Garōden
+Alpha,{TOME},f,{20959},TOME
+Kirbopher,{TOME},t,{20960},TOME
+Nylocke,{TOME},t,{20961},TOME
+Flamegirl,{TOME},f,{20962},TOME
+Gamecrazed,{TOME},t,{20963},TOME
+Zetto,{TOME},f,{20964},TOME
+Harvest,"{`"Harvest ?\\(DC`"}",f,{20965},DC
+Vengeance,"{`"Vengeance ?\\(DC`"}",f,{20966},Rebirth
+Vengeance,"{`"Vengeance ?\\(Rebirth`"}",f,{20966},Rebirth
+3g4,"{`"Earth(-| )(1|One)`"}",f,{20967},Post-Crisis
+3g4,"{`"Posts?(-| )?C(risis)?`"}",f,{20967},Post-Crisis
+3g4,"{`"New(-| )Earth`"}",f,{20967},Post-Crisis
+Reaper,"{`"Reaper ?\\(Posts?(-| )?C(risis)?`"}",f,{20968},Post-Crisis
+Reaper,"{`"Reaper ?\\(DC`"}",f,{20968},DC
+Reaper,"{`"Judson Caspian`"}",f,{20968},DC
+Denny Swan,"{`"New(-| )?52`"}",t,{20969},New 52 / Rebirth
+Denny Swan,{Nu?-?52},t,{20969},New 52 / Rebirth
+Denny Swan,"{`"Prime(-| )Earth`"}",t,{20969},New 52 / Rebirth
+Denny Swan,{Rebirth},t,{20969},New 52 / Rebirth
+Yor Forger,"{`"Spy x Family`"}",t,{20970},Spy x Family
+The Muscle,"{`"Bat(-| )?man`",`"Adventures? Continues`"}",f,{20971},DCAU
+Talon,"{`"Bat(-| )?man`",`"Adventures? Continues`"}",f,{20972},DCAU
+Mister Wing,"{`"DC Animated Universe`"}",f,{20973},DCAU
+Mister Wing,"{`"Animated DC`"}",f,{20973},DCAU
+Mister Wing,{DCAU},f,{20973},DCAU
+Mister Wing,"{`"Bat(-| )?man`",`"Adventures? Continues`"}",f,{20973},DCAU
+Overman,"{`"Justice League Infinity`"}",f,{20974},DCAU
+Overman,"{`"Overman ?\\(DCAU`"}",f,{20974},DCAU
+Luz,"{`"Luz Noceda`"}",f,{20975},The Owl House
+Luz,"{`"Owl House`"}",f,{20975},The Owl House
+Flumpty,"{`"One Night`"}",t,{20976},One Night at Flumpty's
+Flumpty,"{`"Flumpty Bumpty`"}",t,{20976},One Night at Flumpty's
+SCP-002,{Living},t,{20977},""
+SCP-504,"{`"Critical Tomatoes?`"}",t,{20978},""
+Erik,"{`"The (Phantom|Opera)`"}",f,{20979},The Phantom of the Opera
+Eclipse,"{`"The Gifted`"}",f,{20980},The Gifted
+Fiona,{Shrek},f,{20981},Shrek
+Fiona,{Princess},f,{20981},Shrek
+Fiona,"{`"Tai Lung`"}",f,{20981},Shrek
+Chaor,{Chaotic},t,{20982},Chaotic
+Ginny,{Weasley},t,{20983},Harry Potter
+Ginny,{Harry},t,{20983},Harry Potter
+Ginny,{Ron},t,{20983},Harry Potter
+Ginny,{Hermione},t,{20983},Harry Potter
+Unnamed Champion,{Avatar},f,{20984},Avatar: TLA
+Unnamed Champion,{A?TLA},f,{20984},Avatar: TLA
+Unnamed Champion,"{`"(Air|Earth)(-| )bender`"}",f,{20984},Avatar: TLA
+Unnamed Champion,{Aang},f,{20984},Avatar: TLA
+Unnamed Champion,{Korra},f,{20984},Avatar: TLA
+Unnamed Champion,{A?T?LOK},f,{20984},Avatar: TLA
+Lucy,"{`"Lucy ?\\(Lucy`"}",f,{20985},""
+Lucy,{100},f,{20985},""
+Lucy,{2014},f,{20985},""
+Lucy,"{`"Scarlett Johansen`"}",f,{20985},""
+Tamas,"{`"Powder Mage`"}",f,{20986},Powder Mage
+Dachun,"{`"Scissor Seven`"}",f,{20987},Scissor Seven
+Dachun,"{`"(He|Body(-| )?guard) Dachun`"}",f,{20987},Scissor Seven
+Seven,"{`"Scissor Seven`"}",f,{20988},Scissor Seven
+Redtooth,"{`"Scissor Seven`"}",f,{20989},Scissor Seven
+Thirteen,"{`"Scissor Seven`"}",f,{20990},Scissor Seven
+Prince of Stan,"{`"Scissor Seven`"}",t,{20991},Scissor Seven
+Prince Robot IV,{Saga},t,{20992},Saga
+Static,"{`"\\(New 52\\)`"}",f,{1872},New 52
+Armaggon,"{`"Teenaged? Mutant Ninja Turtles?`"}",t,{20993},TMNT
+Armaggon,{TMNT},t,{20993},TMNT
+Bass,"{`"Bass ?\\(Archie`"}",f,{20994},Archie Comics
+Basil of Baker Street,"{`"Great Mouse Detective`"}",f,{20995},The Great Mouse Detective
+Lake Guardians,{Pok(e|é)m(o|a)n},f,{20996},Pokémon
+Uxie,{Pok(e|é)m(o|a)n},t,{20996},Pokémon
+Mesprit,{Pok(e|é)m(o|a)n},t,{20996},Pokémon
+Azelf,{Pok(e|é)m(o|a)n},t,{20996},Pokémon
+Hayami Masaki,{Kengan(verse)?},t,{20997},Kengan Asura
+Achilles,"{`"Ben Olding`"}",f,{20999},Ben Olding Games
+Ultron,"{`"What( |-)if`"}",f,{21000},MCU: What If...?
+Ultron,{14831},f,{21001},14831
+Ultron Singularity,{14831},t,{21001},14831
+Linda-085,{Halo},f,{21002},Halo
+Azog,{BOTFA},f,{21003},"The Hobbit, 2014"
+Azog,"{`"Battle of the Five Armies`"}",f,{21003},"The Hobbit, 2014"
+Azog,"{`"Hobbit (film|movie)s?`"}",f,{21003},"The Hobbit, 2014"
+Dimensional Horror,{Stellaris},t,{21004},Stellaris
+Star and Stripe,"{`"My Hero`"}",f,{21005},My Hero Academia
+Star and Stripe,"{`"\\(My Hero\\)`"}",f,{21005},My Hero Academia
+Star and Stripe,{(M|BN?)HA},f,{21005},My Hero Academia
+Star and Stripe,"{`"Boku no Hero`"}",f,{21005},My Hero Academia
+Star and Stripe,"{`"New Order`"}",f,{21005},My Hero Academia
+Stars and Stripes,"{`"My Hero`"}",f,{21005},My Hero Academia
+Stars and Stripes,"{`"\\(My Hero\\)`"}",f,{21005},My Hero Academia
+Stars and Stripes,{(M|BN?)HA},f,{21005},My Hero Academia
+Stars and Stripes,"{`"Boku no Hero`"}",f,{21005},My Hero Academia
+Stars and Stripes,"{`"New Order`"}",f,{21005},My Hero Academia
+Infinity Man,"{`"New(-| )?52`"}",f,{21006},New 52
+Infinity Man,{Nu?-?52},f,{21006},New 52
+Infinity Man,"{`"Prime(-| )Earth`"}",f,{21006},New 52
+Therizinosaurus,"{`"Dinosaur King`"}",f,{21007},Dinosaur King
+Reimu,{Touhou},t,{5737},Touhou
+Reimu,{Gensokyo},t,{5737},Touhou
+Ogi Zenin,"{`"Jujus?t?s?u Kaisen`"}",t,{21008},Jujutsu Kaisen
+Wolf Kretch,"{`"Wardstone Chronicles`"}",t,{21009},Wardstone Chronicles
+Natsuo Ishidō,{Teppu},t,{21010},Teppu
+Cronus,"{`"Class of the Titans?`"}",f,{21011},Class of the Titans
+Mega Man,"{`"Mega Man (Megamix|Gigamix)`"}",f,{21012},Mega Man Megamix
+Bruce Without Pity,{Arthurian},t,{21013},Arthurian Myth
+The Meg,{2018},t,{21014},""
+Doombot,"{`"Doombot ?\\(Avenger`"}",f,{21015},Avenger
+Batman,"{`"Bat(-| )?man ?\\((Superman/Batman|Batman/Superman)`"}",f,{21016},Superman/Batman
+Superman,"{`"Super(-| )?man ?\\((Superman/Batman|Batman/Superman)`"}",f,{21017},Superman/Batman
+Shobun Ron,{Baki},t,{21018},Baki
