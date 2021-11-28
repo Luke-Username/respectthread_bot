@@ -12,7 +12,7 @@ False,
 '{"Monsters,? Inc"}'
 ],
 "Monsters, Inc.",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/d2kwip/respect_sully_monsters_inc/
 
@@ -123,7 +123,7 @@ False,
 '{"Grande? Order"}', '{"F(ate )?/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r35dv6/respect_miyamoto_musashi_fate/
 
@@ -140,7 +140,7 @@ r'{"Robin Hood ?\\(Fate"}',
 '{"Grande? Order"}', '{"F(ate )?/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r35943/respect_robin_hood_the_faceless_king_fate/
 
@@ -157,7 +157,7 @@ False,
 '{"Grande? Order"}', '{"F(ate )?/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r2sgc2/respect_edmond_dant%C3%A8s_the_count_of_monte_cristo/
 
@@ -172,7 +172,7 @@ False,
 r'{"?\\(Fate"}', r'{"\\[Fate"}', '{"Apoc(rypha)?"}', '{"Serv(a|e)nts?"}', '{"Mordred Pendragon"}', '{"Grande? Order"}', '{"F(ate )?/?GO"}', '{"Saber"}', '{"Mordred Pendragon"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r1y2aq/respect_mordred_pendragon_the_knight_of_treachery/
 
@@ -187,7 +187,7 @@ False,
 '{"Fate"}', '{"Caster"}', '{"Grande? Order"}', '{"F(ate )?/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r2ejf8/respect_asclepius_fate/
 
@@ -202,7 +202,7 @@ True,
 '{"Fate"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r1nntw/respect_mash_kyrielight_fate/
 
@@ -216,7 +216,7 @@ False,
 '{"Galahad"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r1nntw/respect_mash_kyrielight_fate/
 
@@ -233,7 +233,7 @@ False,
 '{"Grande? Order"}', '{"F/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qzrhwq/respect_karna_the_hero_of_charity_fate/
 
@@ -249,7 +249,7 @@ False,
 '{"Grande? Order"}', '{"F/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r0nnvp/respect_lakshmibai_fate/
 
@@ -265,7 +265,7 @@ True,
 '{"Grande? Order"}', '{"F/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qzehn7/respect_the_crypters_fate/
 
@@ -313,7 +313,7 @@ False,
 '{"Grande? Order"}', '{"F/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qz4h9x/respect_rama_the_king_of_kosala_fate/
 
@@ -330,7 +330,7 @@ False,
 '{"Lancer"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qz8wrm/respect_sc%C3%A1thach_queen_of_the_land_of_shadows_fate/
 
@@ -346,7 +346,7 @@ True,
 '{"Grande? Order"}', '{"F/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qz8ym9/respect_the_lostbelt_kings_fate/
 
@@ -359,7 +359,7 @@ True,
 '{"Grande? Order"}', '{"F/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qz8ym9/respect_the_lostbelt_kings_fate/
 
@@ -372,7 +372,7 @@ True,
 '{"Grande? Order"}', '{"F/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qz8ym9/respect_the_lostbelt_kings_fate/
 
@@ -515,7 +515,7 @@ False,
 '{"Grande? Order"}', '{"F/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qrysjw/respect_marie_antoinette_the_white_lily_queen_fate/
 
@@ -531,7 +531,7 @@ False,
 '{"Grande? Order"}', '{"F/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qs4ko1/respect_francis_drake_the_king_of_storms_fate/
 
@@ -547,7 +547,7 @@ r'{"Geronimo ?\\(Fate"}',
 '{"Grande? Order"}', '{"F/?GO"}'
 ],
 "Fate",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qsv2ms/respect_geronimo_fate/
 
@@ -591,7 +591,7 @@ False,
 '{"Gar(ō|o)u?den"}', '{"Crybaby Sakura"}'
 ],
 "Garōden",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r2tf1q/respect_crybaby_sakura_garouden/
 
@@ -606,7 +606,7 @@ True,
 '{"Gar(ō|o)u?den"}'
 ],
 "Garōden",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r0gwep/respect_jyuzo_fujimaki_garouden/
 
@@ -621,7 +621,7 @@ True,
 '{"Gar(ō|o)u?den"}'
 ],
 "Garōden",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qzoyfh/respect_hikoichi_kurama_garouden/
 
@@ -636,7 +636,7 @@ False,
 '{"Gar(ō|o)u?den"}'
 ],
 "Garōden",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qy8dd8/respect_hiroshi_nagata_garouden/
 
@@ -651,7 +651,7 @@ False,
 '{"Gar(ō|o)u?den"}'
 ],
 "Garōden",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qxilm8/respect_the_great_tatsumi_garouden/
 
@@ -666,7 +666,7 @@ True,
 '{"Gar(ō|o)u?den"}'
 ],
 "Garōden",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qrv41g/respect_tsutomu_himekawa_garouden/
 
@@ -681,7 +681,7 @@ True,
 '{"Gar(ō|o)u?den"}'
 ],
 "Garōden",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/quj547/respect_shozan_matsuo_garouden/
 
@@ -696,7 +696,7 @@ True,
 '{"Gar(ō|o)u?den"}'
 ],
 "Garōden",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qopq57/respect_juumei_kuga_garouden/
 
@@ -711,7 +711,7 @@ True,
 '{"Gar(ō|o)u?den"}'
 ],
 "Garōden",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qpkwy9/respect_jyohei_tsutsumi_garouden/
 
@@ -786,7 +786,7 @@ True,
 '{"TOME"}'
 ],
 "TOME",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qqxfiq/respect_gamecrazed_tome/
 
@@ -801,7 +801,7 @@ False,
 '{"TOME"}'
 ],
 "TOME",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qrqler/respect_zetto_tome/
 
@@ -816,7 +816,7 @@ False,
 r'{"Harvest ?\\(DC"}'
 ],
 "DC",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qzvkxr/respect_harvest_dc_comics/
 
@@ -832,7 +832,7 @@ r'{"Vengeance ?\\(DC"}',
 r'{"Vengeance ?\\(Rebirth"}'
 ],
 "Rebirth",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r3f99k/respect_vengeance_dc_rebirth/
 
@@ -848,7 +848,7 @@ False,
 '{"PC"}', '{"Earth(-| )(1|One)"}', '{"Posts?(-| )?C(risis)?"}', '{"New(-| )Earth"}'
 ],
 "Post-Crisis",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r1eok9/respect_3g4_dc_comics_post_crisis/
 
@@ -863,7 +863,7 @@ False,
 r'{"Reaper ?\\(Posts?(-| )?C(risis)?"}'
 ],
 "Post-Crisis",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qt63qm/respect_the_reaper_dc_post_crisis/
 
@@ -875,7 +875,7 @@ False,
 r'{"Reaper ?\\(DC"}', '{"Judson Caspian"}'
 ],
 "DC",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qt63qm/respect_the_reaper_dc_post_crisis/
 
@@ -891,7 +891,7 @@ True,
 '{"New(-| )?52"}', '{"Nu?-?52"}', '{"Prime(-| )Earth"}', '{"Rebirth"}'
 ],
 "New 52 / Rebirth",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qpco2f/respect_denny_swan_solar_superman_new_52rebirth/
 
@@ -906,7 +906,7 @@ True,
 '{"Spy x Family"}'
 ],
 "Spy x Family",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qpukjk/respect_yor_forger_the_thorn_princess_spy_x_family/
 
@@ -921,7 +921,7 @@ False,
 '{"Bat(-| )?man", "Adventures? Continues"}'
 ],
 "DCAU",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qsecyh/respect_the_muscle_batman_the_adventures_continue/
 
@@ -936,7 +936,7 @@ False,
 '{"Bat(-| )?man", "Adventures? Continues"}'
 ],
 "DCAU",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qrlt1n/respect_talon_batman_the_adventures_continue/
 
@@ -952,7 +952,7 @@ False,
 '{"Bat(-| )?man", "Adventures? Continues"}'
 ],
 "DCAU",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qq30as/respect_mr_wing_batman_the_adventures_continue/
 
@@ -967,7 +967,7 @@ False,
 '{"Justice League Infinity"}', r'{"Overman ?\\(DCAU"}'
 ],
 "DCAU",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qqcp0f/respect_overman_justice_league_infinity/
 
@@ -982,7 +982,7 @@ False,
 '{"Luz Noceda"}', '{"Owl House"}'
 ],
 "The Owl House",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qr5onc/respect_luz_noceda_the_owl_house/
 
@@ -997,7 +997,7 @@ True,
 '{"One Night"}', '{"Flumpty Bumpty"}'
 ],
 "One Night at Flumpty''s",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qrjlwx/respect_flumpty_bumpty_one_night_at_flumptys/
 
@@ -1012,7 +1012,7 @@ True,
 '{"Living"}'
 ],
 "",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r1nlnl/respect_scp002_the_living_room_scp_foundation/
 
@@ -1027,7 +1027,7 @@ True,
 '{"Critical Tomatoes?"}'
 ],
 "",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qrpreh/respect_scp504_critical_tomatoes_scp_foundation/
 
@@ -1042,7 +1042,7 @@ False,
 '{"The (Phantom|Opera)"}'
 ],
 "The Phantom of the Opera",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qrwyr5/respect_erik_the_opera_ghost_the_phantom_of_the/
 
@@ -1057,7 +1057,7 @@ False,
 '{"The Gifted"}'
 ],
 "The Gifted",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qrznth/respect_eclipse_the_gifted/
 
@@ -1072,7 +1072,7 @@ False,
 '{"Shrek"}', '{"Princess"}', '{"Tai Lung"}'
 ],
 "Shrek",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qsfql2/respect_princess_fiona_shrek/
 
@@ -1087,7 +1087,7 @@ True,
 '{"Chaotic"}'
 ],
 "Chaotic",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qsize9/respect_chaor_chaotic/
 
@@ -1102,7 +1102,7 @@ True,
 '{"Weasley"}', '{"Harry"}', '{"Ron"}', '{"Hermione"}'
 ],
 "Harry Potter",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qsneod/respect_ginny_weasley_harry_potter_books/
 
@@ -1117,7 +1117,7 @@ False,
 '{"Avatar"}', '{"A?TLA"}', '{"(Air|Earth)(-| )bender"}', '{"Aang"}', '{"Korra"}', '{"A?T?LOK"}'
 ],
 "Avatar: TLA",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/quk1lh/respect_unnamed_earthbending_champion_the_legend/
 
@@ -1132,7 +1132,7 @@ False,
 '{"Avatar"}', '{"A?TLA"}', '{"(Air|Earth)(-| )bender"}', '{"Aang"}', '{"Korra"}', '{"A?T?LOK"}'
 ],
 "Avatar: TLA",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #
 
@@ -1148,7 +1148,7 @@ r'{"Lucy ?\\(Lucy"}', '{"100"}', '{"2014"}',
 '{"Scarlett Johansen"}'
 ],
 "",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qukyku/respect_lucy_lucy/
 
@@ -1163,7 +1163,7 @@ False,
 '{"Powder Mage"}'
 ],
 "Powder Mage",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qvlid9/respect_field_marshal_tamas_powder_mage/
 
@@ -1178,7 +1178,7 @@ False,
 '{"Scissor Seven"}', '{"(He|Body(-| )?guard) Dachun"}'
 ],
 "Scissor Seven",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qy8po0/respect_he_dachun_scissor_seven/
 
@@ -1193,7 +1193,7 @@ False,
 '{"Scissor Seven"}'
 ],
 "Scissor Seven",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qvf4hg/respect_seven_scissor_seven/
 
@@ -1208,7 +1208,7 @@ False,
 '{"Scissor Seven"}'
 ],
 "Scissor Seven",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qxi5bf/respect_redtooth_scissor_seven/
 
@@ -1223,7 +1223,7 @@ False,
 '{"Scissor Seven"}'
 ],
 "Scissor Seven",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qw3wzz/respect_thirteen_scissor_seven/
 
@@ -1238,7 +1238,7 @@ True,
 '{"Scissor Seven"}'
 ],
 "Scissor Seven",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qwb1g4/respect_the_prince_of_stan_scissor_seven/
 
@@ -1253,7 +1253,7 @@ True,
 '{"Saga"}'
 ],
 "Saga",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qw3s1j/respect_prince_robot_iv_saga/
 
@@ -1282,7 +1282,7 @@ True,
 '{"Teenaged? Mutant Ninja Turtles?"}', '{"TMNT"}'
 ],
 "TMNT",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qw3svf/respect_armaggon_teenage_mutant_ninja_turtles/
 
@@ -1297,7 +1297,7 @@ False,
 r'{"Bass ?\\(Archie"}'
 ],
 "Archie Comics",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qxlut2/respect_bass_archie_comics/
 
@@ -1312,7 +1312,7 @@ False,
 '{"Great Mouse Detective"}'
 ],
 "The Great Mouse Detective",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qwz2kj/respect_basil_of_baker_street_the_great_mouse/
 
@@ -1327,7 +1327,7 @@ False,
 '{"Pok(e|é)m(o|a)n"}'
 ],
 "Pokémon",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qxl8dq/respect_the_lake_guardians_pokemon_anime/
 
@@ -1339,7 +1339,7 @@ True,
 '{"Pok(e|é)m(o|a)n"}'
 ],
 "Pokémon",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qxl8dq/respect_the_lake_guardians_pokemon_anime/
 
@@ -1351,7 +1351,7 @@ True,
 '{"Pok(e|é)m(o|a)n"}'
 ],
 "Pokémon",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qxl8dq/respect_the_lake_guardians_pokemon_anime/
 
@@ -1363,7 +1363,7 @@ True,
 '{"Pok(e|é)m(o|a)n"}'
 ],
 "Pokémon",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qxl8dq/respect_the_lake_guardians_pokemon_anime/
 
@@ -1378,7 +1378,7 @@ True,
 '{"Kengan(verse)?"}'
 ],
 "Kengan Asura",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r23j4a/respect_hayami_masaki_the_killing_throw_kengan/
 
@@ -1393,7 +1393,7 @@ True,
 '{"Kengan(verse)?"}'
 ],
 "Kengan Asura",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qyny1h/respect_the_other_tokita_niko_kengan_omegaasura/
 
@@ -1408,7 +1408,7 @@ False,
 '{"Ben Olding"}'
 ],
 "Ben Olding Games",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qyv07a/respect_achilles_ben_olding_games/
 
@@ -1423,7 +1423,7 @@ False,
 '{"What( |-)if"}'
 ],
 "MCU: What If...?",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qyy5yp/respect_ultron_marvel_cinematic_universe_what_if/
 
@@ -1438,7 +1438,7 @@ False,
 '{"14831"}'
 ],
 "14831",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qyzve4/respect_the_ultron_singularity_marvel_earth14831/
 
@@ -1450,7 +1450,7 @@ True,
 '{"14831"}'
 ],
 "14831",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qyzve4/respect_the_ultron_singularity_marvel_earth14831/
 
@@ -1465,7 +1465,7 @@ False,
 '{"Halo"}'
 ],
 "Halo",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qz1im2/respect_linda085_halo/
 
@@ -1480,7 +1480,7 @@ False,
 '{"BOTFA"}', '{"Battle of the Five Armies"}' '{"Hobbit (film|movie)s?"}'
 ],
 "The Hobbit, 2014",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qz1lc9/respect_azog_the_hobbit_films/
 
@@ -1495,7 +1495,7 @@ True,
 '{"Stellaris"}'
 ],
 "Stellaris",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qz1ncd/respect_the_dimensional_horror_stellaris/
 
@@ -1511,7 +1511,7 @@ False,
 '{"New Order"}'
 ],
 "My Hero Academia",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qz31b6/respect_star_and_stripe_my_hero_academia/
 
@@ -1524,7 +1524,7 @@ False,
 '{"New Order"}'
 ],
 "My Hero Academia",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qz31b6/respect_star_and_stripe_my_hero_academia/
 
@@ -1539,7 +1539,7 @@ False,
 '{"New(-| )?52"}', '{"Nu?-?52"}', '{"Prime(-| )Earth"}'
 ],
 "New 52",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qzoonx/respect_infinity_man_dc_comics_new_52/
 
@@ -1554,7 +1554,7 @@ False,
 '{"Dinosaur King"}'
 ],
 "Dinosaur King",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/qzvqqk/respect_therizinosaurus_dinosaur_king/
 
@@ -1583,7 +1583,7 @@ True,
 '{"Jujus?t?s?u Kaisen"}'
 ],
 "Jujutsu Kaisen",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r0jmyg/ogi_zenin_jujutsu_kaisen/
 
@@ -1598,7 +1598,7 @@ True,
 '{"Wardstone Chronicles"}'
 ],
 "Wardstone Chronicles",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r0ubrk/respect_the_unnamed_wolf_kretch_wardstone/
 
@@ -1613,7 +1613,7 @@ True,
 '{"Teppu"}'
 ],
 "Teppu",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r10ex8/respect_natsuo_ishido_teppu/
 
@@ -1628,7 +1628,7 @@ False,
 '{"Class of the Titans?"}'
 ],
 "Class of the Titans",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r14nzo/respect_cronus_class_of_the_titans/
 
@@ -1643,7 +1643,7 @@ False,
 '{"Mega Man (Megamix|Gigamix)"}'
 ],
 "Mega Man Megamix",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r18kg0/respect_mega_man_mega_man_megamixgigamix/
 
@@ -1658,7 +1658,7 @@ True,
 '{"Arthurian"}'
 ],
 "Arthurian Myth",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r2b4hh/respect_bruce_without_pity_arthurian_myth/
 
@@ -1673,7 +1673,7 @@ True,
 '{"2018"}'
 ],
 "",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r2c31h/respect_the_meg_the_meg/
 
@@ -1688,7 +1688,7 @@ False,
 r'{"Doombot ?\\(Avenger"}'
 ],
 "Avenger",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r2nrs8/respect_doombot_avenger_marvel_616/
 
@@ -1703,7 +1703,7 @@ False,
 r'{"Bat(-| )?man ?\\((Superman/Batman|Batman/Superman)"}'
 ],
 "Superman/Batman",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r2w90j/respect_batman_supermanbatman_movies/
 
@@ -1718,7 +1718,7 @@ False,
 r'{"Super(-| )?man ?\\((Superman/Batman|Batman/Superman)"}'
 ],
 "Superman/Batman",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r2zuny/respect_superman_supermanbatman_movies/
 
@@ -1733,7 +1733,7 @@ True,
 '{"Baki"}'
 ],
 "Baki",
-'{' + f'{id}' +'}'
+'{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/r3ikq7/respect_shobun_ron_baki/
 
