@@ -12,26 +12,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET displayed_version_name='DCAU' WHERE displayed_version_name='Batman: The Adventures Continue'; --Before run
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Dawn''s Mamoswine (Pokemon Anime)', 'https://redd.it/qumsqc'); SELECT * FROM respectthread WHERE link='https://redd.it/qumsqc';
-UPDATE character SET rt_id_array='{?}', is_default=FALSE, version='{"Dawn"}' WHERE default_name='Mamoswine'; --Before run
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Dawn''s Togekiss (Pokemon Anime)', 'https://redd.it/qumyi9'); SELECT * FROM respectthread WHERE link='https://redd.it/qumyi9';
-UPDATE character SET rt_id_array='{?}', is_default=FALSE, version='{"Dawn"}' WHERE default_name='Mamoswine'; --Before run
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Alita! (Alita: Battle Angel)', 'https://redd.it/qywyeb'); SELECT * FROM respectthread WHERE link='https://redd.it/qywyeb';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Alita' AND displayed_version_name='Alita: Battle Angel'; --Before run
-
 ########################################
 
-UPDATE character_name SET name='Reimu Hakurei' WHERE name='Reimu';
-
 ########################################
-
-DELETE FROM character_name WHERE name='Miyamoto Musashi';
 
 ########################################
 
