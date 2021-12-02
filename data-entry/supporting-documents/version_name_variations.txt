@@ -429,6 +429,8 @@ Bruce Almighty
 Buffy the Vampire Slayer
 	Version
 		'{"Buffy the Vampire Slayer"}', r'{"\\(Buffy\\)"}', '{"Buffyverse"}', '{"BTVS"}'
+	If full name is not needed
+		'{"Buffy(verse)?"}'
 	Displayed Version Name
 		"Buffy the Vampire Slayer"
 
