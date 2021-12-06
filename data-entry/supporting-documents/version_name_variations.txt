@@ -1531,6 +1531,7 @@ Jojo's Bizarre Adventure
 		'{"Battle Tendency"}',
 		'{"Star ?dust Crusaders"}'
 		'{"Steel Ball Run"}'
+		'{"Stone Ocean"}'
 		'{"Part (7|8)"}', '{"JoJolion"}'
 	Displayed Version Name
 		"Jojo''s Bizarre Adventure"

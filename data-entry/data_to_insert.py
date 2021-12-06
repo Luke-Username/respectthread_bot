@@ -960,6 +960,78 @@ False,
 
 ########################################
 
+add_data(['Nine'],
+'Nine',
+False,
+False,
+[
+'{"MHA"}'
+],
+'My Hero Academia',
+'{13337}'
+)
+#https://www.reddit.com/r/respectthreads/comments/j2zbks/respect_nine_my_hero_academia/
+
+########################################
+
+add_data(['Weather Report'],
+'Weather Report',
+False,
+False,
+[
+'{"Stone Ocean"}'
+],
+'My Hero Academia',
+'{3616}'
+)
+#https://www.reddit.com/r/respectthreads/comments/5mmez7/respect_weather_report_jojos_bizarre_adventure/
+
+########################################
+
+add_data(['Hero of Twilight'],
+'Hero of Twilight',
+False,
+True,
+[
+'{"Zelda"}'
+],
+'The Legend of Zelda',
+'{5226,17529}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Woz (Kamen Rider Zi-O)', 'https://redd.it/ra0513')
+add_data(['Woz'],
+'Woz',
+False,
+False,
+[
+'{"Kamen Rider|Zi(-| )?O"}'
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ra0513/respect_woz_kamen_rider_zio/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Launch (Dragon Ball)', 'https://redd.it/rabgkv')
+add_data(['Launch'],
+'Launch',
+False,
+False,
+[
+'{"Dragon ?Ball"}'
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rabgkv/respect_launch_dragon_ball/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
