@@ -12,17 +12,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect the Eggman Empire (Sonic the Hedgehog)', 'https://redd.it/r637o3'); SELECT * FROM respectthread WHERE link='https://redd.it/r637o3';
-UPDATE character SET rt_id_array='{5384, ?}' WHERE rt_id_array='{5384}' --Before run
-
 ########################################
 
-UPDATE character_name SET name='T\\.?(-| )Rex' WHERE name='T\\.(-| )Rex'; --Before run
-
 ########################################
-
-SELECT * FROM respectthread WHERE link='https://redd.it/r5qi72';
-UPDATE character SET rt_id_array='{?, 20388}' WHERE rt_id_array='{20388}' --After run
 
 ########################################
 

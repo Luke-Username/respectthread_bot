@@ -3292,6 +3292,7 @@ Twilight Sparkle,"{`"My Little Pony`"}",t,{857},My Little Pony
 Twilight Sparkle,{MLP},t,{857},My Little Pony
 Ursa Minor,"{`"My Little Pony`"}",f,{858},My Little Pony
 Ursa Minor,{MLP},f,{858},My Little Pony
+Swamp Thing,{2019},f,{21036},2019
 Boxmore Corporation,"{`"OK K.?O.?`"}",t,{859},OK K.O.! Let's Be Heroes
 Boxmore Corporation,"{`"Let's be heroes`"}",t,{859},OK K.O.! Let's Be Heroes
 Boxman,"{`"OK K.?O.?`"}",f,{859},OK K.O.! Let's Be Heroes
@@ -19938,8 +19939,6 @@ Sly Cooper,{default},t,{5382},""
 Sly,{Cooper},f,{5382},Sly Cooper
 Sly,{cane},f,{5382},Sly Cooper
 Biolizard,{Sonic},t,{5383},Sonic the Hedgehog
-Eggman,{Sonic},t,{5384},Sonic the Hedgehog
-Robotnik,{Sonic},t,{5384},Sonic the Hedgehog
 E-123 Omega,{Sonic},t,{5385},Sonic the Hedgehog
 Emerl,{Sonic},t,{5716},Sonic the Hedgehog
 Infinite,{Sonic},f,{5386},Sonic the Hedgehog
@@ -24789,7 +24788,6 @@ Cooler,"{`"Metal?( |-)?Cooler`"}",f,{20387},Dragon Ball
 Cooler,{Fr(e|i)eza},f,{20387},Dragon Ball
 Cooler,"{`"Gete Star`"}",f,{20387},Dragon Ball
 Cooler,{Salza},f,{20387},Dragon Ball
-Marisa Kirisame,{Touhou},t,{20388},Touhou
 Kasen Ibaraki,{Touhou},t,{20389},Touhou
 Mima,{Touhou},f,{20390},Touhou
 Yumemi Okazaki,{Touhou},f,{20391},Touhou
@@ -25390,3 +25388,106 @@ Doombot,"{`"Doombot ?\\(Avenger`"}",f,{21015},Avenger
 Batman,"{`"Bat(-| )?man ?\\((Superman/Batman|Batman/Superman)`"}",f,{21016},Superman/Batman
 Superman,"{`"Super(-| )?man ?\\((Superman/Batman|Batman/Superman)`"}",f,{21017},Superman/Batman
 Shobun Ron,{Baki},t,{21018},Baki
+Eggman,{Sonic},t,"{5384,21019}",Sonic the Hedgehog
+Robotnik,{Sonic},t,"{5384,21019}",Sonic the Hedgehog
+Big the Cat,{Sonic},t,{21020},Sonic the Hedgehog
+G-merl,{Sonic},t,{21022},Sonic the Hedgehog
+Bedivere,{Fate},f,{21023},Fate
+Bedivere,"{`"Grande? Order`"}",f,{21023},Fate
+Bedivere,"{`"F(ate )?/?GO`"}",f,{21023},Fate
+Bedivere,{Serv(a|e)nts?},f,{21023},Fate
+Shuten-Dōji,{Fate},f,{21024},Fate
+Shuten-Dōji,"{`"Grande? Order`"}",f,{21024},Fate
+Shuten-Dōji,"{`"F(ate )?/?GO`"}",f,{21024},Fate
+Shuten-Dōji,{Serv(a|e)nts?},f,{21024},Fate
+Minamoto-no-Raikou,{Fate},f,{21025},Fate
+Minamoto-no-Raikou,"{`"Grande? Order`"}",f,{21025},Fate
+Minamoto-no-Raikou,"{`"F(ate )?/?GO`"}",f,{21025},Fate
+Kiyohime,{Fate},f,{21026},Fate
+Kiyohime,"{`"Grande? Order`"}",f,{21026},Fate
+Kiyohime,"{`"F(ate )?/?GO`"}",f,{21026},Fate
+Lu Bu,"{`"Lu Bu ?\\(Fate`"}",f,{21027},Fate
+Lu Bu,{Fate/EXTRA},f,{21027},Fate
+Tamamo-no-Mae,{Fate},f,{21028},Fate
+Tamamo-no-Mae,{Extra},f,{21028},Fate
+Vlad,"{`"?\\(Fate`"}",f,{21029},Fate
+Vlad,{Lancer|Berserker},f,{21029},Fate
+Vlad,{Apoc(rypha)?},f,{21029},Fate
+Sherlock Holmes,"{`"Sherlock( Holmes)? ?\\(Fate`"}",f,{21030},Fate
+Sherlock Holmes,"{`"Grande? Order`"}",f,{21030},Fate
+Sherlock Holmes,"{`"F(ate )?/?GO`"}",f,{21030},Fate
+Gawain,{Fate},f,{21031},Fate
+Gawain,{Saber},f,{21031},Fate
+Gawain,"{`"Grande? Order`"}",f,{21031},Fate
+Gawain,"{`"F(ate )?/?GO`"}",f,{21031},Fate
+Nero,"{`"Nero( Claudius)? ?\\(Fate`"}",f,{21032},Fate
+Nero,"{Fate,Extra}",f,{21032},Fate
+Nero,{Saber},f,{21032},Fate
+Leonardo da Vinci,{Fate},f,{21033},Fate
+Leonardo da Vinci,"{`"Grande? Order`"}",f,{21033},Fate
+Leonardo da Vinci,"{`"F(ate )?/?GO`"}",f,{21033},Fate
+Fei Wangfang,{Kengan(verse)?},f,{21034},Kengan Asura
+Yumigahama Hikaru,{Kengan(verse)?},f,{21035},Kengan Asura
+Al Bundy,{2099},f,{21037},Married... with Children: 2099
+Lady Deadpool,{3010},t,{21038},3010
+Whiz Kid,{Marvel},f,{21039},616
+Whiz Kid,{616},f,{21039},616
+Monet,{M},f,{21040},616
+Monet,{Marvel},f,{21040},616
+Monet,{616},f,{21040},616
+General Ross,{523000},f,{21041},523000
+Ashtaroth,"{`"Nemesis Saga`"}",f,{21042},Nemesis Saga
+Ashtaroth,"{`"Project Legion`"}",f,{21042},Nemesis Saga
+Tom Ward,"{`"Wardstone Chronicles`"}",t,{21043},Wardstone Chronicles
+Tom Ward,"{`"Last Apprentice`"}",t,{21043},Wardstone Chronicles
+Alice Deane,"{`"Wardstone Chronicles`"}",t,{21044},Wardstone Chronicles
+Slither,"{`"Wardstone Chronicles`"}",f,{21045},Wardstone Chronicles
+Grimalkin,"{`"Wardstone Chronicles`"}",f,{21046},Wardstone Chronicles
+Grimalkin,"{`"Dark Assassin`"}",f,{21046},Wardstone Chronicles
+Marisa,{Touhou},f,"{21047,20388}",Touhou
+Lord Van Bloot,{Chaotic},f,{21048},Chaotic
+Black,"{`"And I Show You How Deep The Rabbit Hole Goes`"}",f,{21049},...And I Show You How Deep The Rabbit Hole Goes
+Izumu Niounomiya,{Zaregoto},t,{21050},Zaregoto
+SCP-1915,"{`"SCP Foundation`"}",t,{21051},""
+SCP-004,"{`"SCP Foundation`"}",t,{21052},""
+Green Death,"{`"Green Death series`"}",f,{21053},""
+Among Us,"{`"Among Us Ruined my Life`"}",f,{21054},Among Us Ruined my Life
+Kang the Conqueror,"{`"Earth's Mightiest Heroes`"}",f,{21055},Earth's Mightiest Heroes
+Kang the Conqueror,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{21055},Earth's Mightiest Heroes
+Kang the Conqueror,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{21055},Earth's Mightiest Heroes
+Kang the Conqueror,{EMH},f,{21055},Earth's Mightiest Heroes
+Drusilla,{Buffy(verse)?},t,{21056},Buffy the Vampire Slayer
+ShadowHawk,{Image},t,{21057},Image Comics
+Black Tyrannosaurus,"{`"Dinosaur King`"}",t,{21058},Dinosaur King
+Alexander Gallen,{Baki},t,{21059},Baki the Grappler
+Jun Guevaru,{Baki},t,{21060},Baki the Grappler
+Amarendra,{Baahubali},f,{21061},Baahubali
+Mahendra,{Baahubali},f,{21062},Baahubali
+Shiva,{Baahubali},f,{21062},Baahubali
+Fumi,{Jojo(lion)?},f,{21063},Jojo's Bizarre Adventure
+Praetorian,"{`"Super Crooks`"}",f,{21064},Super Crooks
+Android 21,"{`"Dragon ?Ball`"}",t,{21065},Dragon Ball FighterZ
+Android 21,{DB(FZ)?},t,{21065},Dragon Ball FighterZ
+Android 21,"{`"Fighters? ?Z`"}",t,{21065},Dragon Ball FighterZ
+Hell Fighter 17,"{`"Dragon ?Ball`"}",t,{21066},Dragon Ball
+Hell Fighter 17,{DB(GT)?},t,{21066},Dragon Ball
+Super 17,"{`"Dragon ?Ball`"}",t,{21067},Dragon Ball
+Super 17,{DB(GT)?},t,{21067},Dragon Ball
+Kakarot Kent,"{`"Dragon Ball DC`"}",t,{21068},Dragon Ball DC
+Vegeta,"{`"Dragon Ball DC`"}",f,{21069},Dragon Ball DC
+Avacyn,"{`"Magic:? The Gathering`"}",t,{21070},Magic: The Gathering
+Avacyn,{M:?TG},t,{21070},Magic: The Gathering
+Tartarus,"{`"Earth(-| )8`"}",f,{21071},Earth-8
+Superman,"{`"Superman:? Flyby`"}",f,{21072},Superman: Flyby
+Superman,"{`"J\\.?J\\.? Abrams`"}",f,{21072},Superman: Flyby
+Zolt,{Avatar},f,{21073},Avatar: TLA
+Zolt,{Korra},f,{21073},Avatar: TLA
+Zolt,"{`"Lightning Bolt`"}",f,{21073},Avatar: TLA
+Exdeath,"{`"Final Fantasy`"}",t,{21074},Final Fantasy
+Koopa,"{`"DEATH BATTLE`"}",f,{21075},DEATH BATTLE
+Nine,{MHA},f,{13337},My Hero Academia
+Weather Report,"{`"Stone Ocean`"}",f,{3616},My Hero Academia
+Hero of Twilight,{Zelda},t,"{5226,17529}",The Legend of Zelda
+Woz,"{`"Kamen Rider|Zi(-| )?O`"}",f,{21076},Kamen Rider
+Launch,"{`"Dragon ?Ball`"}",f,{21077},Dragon Ball
+Marisa Kirisame,{Touhou},t,"{21047,20388}",Touhou

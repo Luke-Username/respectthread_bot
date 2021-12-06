@@ -160,7 +160,6 @@ id,title,link
 180,Respect Godzilla (1954),https://redd.it/8vf0lx
 181,"Respect! `"The King Of Monsters`" Godzilla(Composite)",https://redd.it/2e80st
 182,Respect Godzilla (Heisei Era),https://redd.it/c4gyuv
-183,Respect Godzilla (Millennium Era),https://redd.it/8v6lo5
 184,Respect Godzilla (Shin Godzilla),https://redd.it/72rgws
 185,Respect Godzilla (Showa Era),https://redd.it/6p2inz
 186,Respect Gorosaurus (Godzilla),https://redd.it/8h9d4e
@@ -212,6 +211,7 @@ id,title,link
 224,Respect the Deadly Viper Assassination Squad (Kill Bill),https://redd.it/lchf05
 233,Respect the Avengers (Marvel Cinematic Universe),https://redd.it/p3px68
 241,Respect Ego (Marvel Cinematic Universe),https://redd.it/bpx3v8
+183,Respect Godzilla (Millennium Era),https://redd.it/r9f8e5
 248,"Respect Obadiah Stane, The Iron Monger (Marvel Cinematic Universe)",https://redd.it/64drko
 251,Respect Loki (Marvel Cinematic Universe),https://redd.it/m3c4in
 240,Respect Ebony Maw (Marvel Cinematic Universe),https://redd.it/m62njo
@@ -5192,7 +5192,6 @@ id,title,link
 5381,Respect Murray! (Sly Cooper),https://redd.it/ayj2j4
 5382,Respect Sly Cooper! (Sly Cooper),https://redd.it/6aort8
 5383,Respect the Biolizard (Sonic the Hedgehog),https://redd.it/bns09b
-5384,Respect Doctor Eggman (Sonic The Hedgehog),https://redd.it/59r1hj
 5385,Respect E-123 Omega (Sonic the Hedgehog games),https://redd.it/a8lo5r
 5386,Respect Infinite (Sonic Forces),https://redd.it/7kw9yu
 5387,Respect Metal Sonic (Sonic the Hedgehog),https://redd.it/aql6jo
@@ -5262,6 +5261,7 @@ id,title,link
 5455,Respect Peach (Super Smash Bros.),https://redd.it/8qvz8l
 5456,Respect Rayquaza (Super Smash Bros.),https://redd.it/avi6ja
 5452,Respect Mario (Super Smash Bros.),https://redd.it/qe6oie
+5384,"Respect Doctor Ivo `"Eggman`" Robotnik (Sonic the Hedgehog)",https://redd.it/r66ur6
 5389,Respect Shadow the Hedgehog (Sonic the Hedgehog),https://redd.it/fkwhta
 5457,Respect R.O.B the Robot (Nintendo).,https://redd.it/35i8xh
 5458,Respect Ridley (Super Smash Bros),https://redd.it/9plypf
@@ -6246,7 +6246,6 @@ id,title,link
 6467,Respect Ajani Goldmane! (Magic: The Gathering),https://redd.it/492tod
 6468,"Respect Anafenza, the Foremost, and the Kin-Tree Spirit. [MTG]",https://redd.it/4skt77
 6469,"Respect Arlinn Kord, protector of the Ulvenwald! [Magic: the Gathering]",https://redd.it/4n6vr8
-6470,"Respect Chandra Nalaar, lest you get too close to the fire! (Magic: The Gathering)",https://redd.it/47n1iw
 6472,Respect Gideon Jura (Magic: The Gathering),https://redd.it/46sqva
 6446,Respect Brendon Urie! (Panic! at the Disco),https://redd.it/phkfp2
 6474,"Respect Kaya, the Ghost Assassin! [MTG]",https://redd.it/4weh1d
@@ -6258,9 +6257,9 @@ id,title,link
 6480,"Planeswalkers and mere humans alike, respect Ob Nixilis! (Magic: The Gathering)",https://redd.it/47ep2m
 6481,Respect Ral Zarek (Magic: The Gathering),https://redd.it/46thxa
 6482,"Respect Sarkhan Vol, the overly obsessed with dragons! (Magic the Gathering)",https://redd.it/48iiz8
-6483,"Respect Sorin Markov, the Lord of Innistrad! [Magic: the Gathering]",https://redd.it/4flgy5
 6484,"Respect Tamiyo, the Moon Sage! [Magic: The Gathering]",https://redd.it/4jblcu
 6485,"Respect Ugin, the Spirit Dragon!",https://redd.it/48uav1
+6470,Respect Chandra Nalaar! (Magic: The Gathering),https://redd.it/r6k9eo
 6487,Respect Venser! [Magic: the Gathering],https://redd.it/4e7nz4
 6488,Respect Dai Grepher (Yu-Gi-Oh! Card Game),https://redd.it/btbxoh
 6489,Respect the Marauding Captain (Yu-Gi-Oh! Card Game),https://redd.it/9ws9hf
@@ -7122,7 +7121,6 @@ id,title,link
 15935,Respect the Gourmet Guild (Princess Connect! Re:Dive)!,https://redd.it/ljekx4
 15936,Respect Barry (Archer),https://redd.it/ljjma5
 15937,Respect 'Dutch' Dylan (Archer Dreamland),https://redd.it/ljk148
-15938,Respect Candyman (Candyman),https://redd.it/ljubpj
 15939,Respect Captain Gutt (Ice Age),https://redd.it/ljypht
 15940,Respect Cretaceous and Maelstrom (Ice Age: The Meltdown),https://redd.it/m6bvlb
 15941,Respect Buck (Ice Age),https://redd.it/m68488
@@ -8965,6 +8963,7 @@ id,title,link
 16850,Respect Lord Beerus (Dragon Ball Super Manga),https://redd.it/oal0mj
 16851,Respect The Immortal (Image Comics),https://redd.it/ngatuo
 16852,The Immortal (Invincible: TV Series),https://redd.it/o30m3j
+21019,Respect the Eggman Empire (Sonic the Hedgehog),https://redd.it/r637o3
 434,Respect Jason Voorhees (Friday the 13th),https://redd.it/htm9ah
 300,Respect The Green Goblin (Spider-Man),https://redd.it/huz1l6
 314,Respect Darth Vader (Star Wars Canon),https://redd.it/iaalhi
@@ -9079,6 +9078,7 @@ id,title,link
 13114,"Respect Alexander Luthor (DC Comics, Superman: Red Son)",https://redd.it/ijbda8
 13115,Respect Badgerclops (Mao Mao: Heroes of Pure Heart),https://redd.it/i9can2
 13116,Respect Dark Knight (All-Star Batman),https://redd.it/i9f4g8
+6483,Respect Sorin Markov! (Magic: The Gathering),https://redd.it/r78tr8
 13118,Respect Deathstroke (Titans),https://redd.it/i836uz
 13119,Respect Deathlok (Agents of SHIELD),https://redd.it/i8i25b
 13120,Respect Another Zero-One (Kamen Rider: Reiwa The First Generation),https://redd.it/i8ticb
@@ -9119,7 +9119,66 @@ id,title,link
 13158,Respect Hibiki Tachibana (Senki Zesshō Symphogear | Superb Song of the Valkyries: Symphogear),https://redd.it/ii0a8x
 13154,"Respect Quetzalcoatl, the Winged Serpent! (Fate)",https://redd.it/ou98ye
 13140,Respect Harley Quinn (DC Extended Universe),https://redd.it/pbbmtk
+15938,Respect Candyman (Candyman),https://redd.it/r82hhf
+21020,Respect Big the Cat! (Sonic the Hedgehog),https://redd.it/r8xl3u
+21021,Respect Emerl! (Sonic the Hedgehog),https://redd.it/r6tgpd
+21022,Respect G-merl! (Sonic the Hedgehog),https://redd.it/r60k6y
+21023,Respect Sir Bedivere! (Fate),https://redd.it/r7qzu3
+21024,Respect Shuten-Douji! (Fate),https://redd.it/r7b0j1
+21025,Respect Minamoto-no-Raikou! (Fate),https://redd.it/r6xake
+21026,Respect Kiyohime! (Fate),https://redd.it/r62v0k
+21027,Respect Lu Bu! (Fate),https://redd.it/r62krj
 13138,"Respect John Kramer, the Jigsaw Killer (Saw)",https://redd.it/ok4icq
+21028,"Respect Tamamo-no-Mae, the Fox Priestess of Peerless Beauty! (Fate)",https://redd.it/r5wo7m
+21029,Respect Vlad the Impaler! (Fate),https://redd.it/r5ojg5
+21030,Respect Sherlock Holmes! (Fate),https://redd.it/r61sob
+21031,"Respect Sir Gawain, the Knight of the Sun! (Fate)",https://redd.it/r53m49
+21032,"Respect Nero Claudius, the Emperor of Roses! (Fate)",https://redd.it/r4xpvs
+21033,Respect Leonardo da Vinci! (Fate),https://redd.it/r3rgxj
+21034,"Respect Fei Wangfang, The Tiger's Vessel! (Kengan Omega)",https://redd.it/r69xnd
+21035,"Respect Yumigahama Hikaru, `"The Traitor Fang`" (Kengan Omega)",https://redd.it/r3u5eg
+21036,"Respect the Swamp Thing (Swamp Thing, 2019 series)",https://redd.it/r466mi
+21037,Respect Al Bundy (Married... with Children: 2099),https://redd.it/r4aj5g
+21038,Respect Lady Deadpool (Earth-3010),https://redd.it/r8qila
+21039,Respect The Whiz Kid (Marvel-616),https://redd.it/r6a8oz
+21040,"Respect Monet (Marvel, 616)",https://redd.it/r4fxhb
+21041,"Respect General Ross, The Hulk (Earth-523000)",https://redd.it/r5tok5
+21042,Respect Ashtaroth (Nemesis Saga book 5: Project Legion),https://redd.it/r4l8qe
+21043,Respect Tom Ward (Wardstone Chronicles),https://redd.it/r8sj2c
+21044,Respect Alice Deane (Wardstone Chronicles),https://redd.it/r6hvvi
+21045,Respect Slither (Wardstone Chronicles),https://redd.it/r4ylp0
+21046,Respect Grimalkin (Wardstone Chronicles),https://redd.it/r5ly9d
+21047,Respect Marisa Kirisame (Touhou),https://redd.it/r5qi72
+21048,Respect Lord Van Bloot (Chaotic),https://redd.it/r5d8ni
+21049,Respect Black [...And I Show You How Deep The Rabbit Hole Goes],https://redd.it/r5eyu0
+21050,Respect Izumu Niounomiya (Zaregoto Series),https://redd.it/r5gvb3
+21051,"Respect SCP-1915, Status Quo (SCP Foundation)",https://redd.it/r9ruf5
+21052,"Respect SCP-004, `"The 12 Rusty Keys and the Door`" (SCP Foundation)",https://redd.it/r5jtjx
+21053,RESPECT THE GREEN DEATH! (Green Death series),https://redd.it/r5uz9f
+21054,Respect the Amogus Kid (Among Us Ruined my Life Copypastas),https://redd.it/r5z1wd
+21055,Respect Kang the Conqueror (Avengers: Earth's Mightiest Heroes),https://redd.it/r61exp
+21056,Respect Drusilla (Buffyverse),https://redd.it/r6e7wa
+21057,"Respect Eddie Collins, aka ShadowHawk! (Image Comics)",https://redd.it/r6gtme
+21058,Respect Black Tyrannosaurus (Dinosaur King),https://redd.it/r6ho5s
+21059,Respect Alexander Gallen (Baki),https://redd.it/r9jmrw
+21060,Respect Jun Guevaru (Baki),https://redd.it/r6icwv
+21061,Respect Amarendra Baahubali (Baahubali),https://redd.it/r6kzo9
+21062,Respect Shiva / Mahendra Baahubali (Baahubali),https://redd.it/r6l3j5
+21063,"Respect Joseph `"Fumi`" Joestar (Jojos Bizarre Adventure: Jojolion)",https://redd.it/r6pbge
+21064,Respect The Praetorian (Super Crooks),https://redd.it/r6vy7p
+21065,Respect Android 21 (Dragon Ball FighterZ),https://redd.it/r78alf
+21066,Respect Hell Fighter 17 (Dragon Ball GT),https://redd.it/r7ddb8
+21067,Respect Super 17 (Dragon Ball GT),https://redd.it/r7dfpm
+21068,Respect Kakarot Kent (Dragon Ball DC),https://redd.it/r7zmxa
+21069,Respect Vegeta (Dragon Ball DC),https://redd.it/r8wmkh
+21070,Respect Archangel Avacyn! (Magic: The Gathering),https://redd.it/r821ur
+21071,Respect Tartarus! (DC Earth-8),https://redd.it/r8j87t
+21072,Respect Superman (Superman: Flyby Unused Script),https://redd.it/r8prch
+21073,Respect 'Lightning Bolt' Zolt! (Legend of Korra),https://redd.it/r8zwro
+21074,Respect Exdeath! (Final Fantasy),https://redd.it/r97v3n
+21075,Respect Koopa (DEATH BATTLE!),https://redd.it/r9syxr
+21076,Respect Woz (Kamen Rider Zi-O),https://redd.it/ra0513
+21077,Respect Launch (Dragon Ball),https://redd.it/rabgkv
 245,Respect Hela The Goddess of Death (Marvel Cinematic Universe),https://redd.it/j0th0f
 812,Respect Mako (The Legend of Korra),https://redd.it/j39krw
 234,"Respect T'Challa, the Black Panther (Marvel Cinematic Universe)",https://redd.it/j4m7t8
