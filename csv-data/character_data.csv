@@ -13769,8 +13769,6 @@ Viviano Westwood,{Jojos?(verse)?},t,{3615},Jojo's Bizarre Adventure
 Viviano Westwood,{JJ?BA},t,{3615},Jojo's Bizarre Adventure
 Guccio,{Jojos?(verse)?},t,{3615},Jojo's Bizarre Adventure
 Guccio,{JJ?BA},t,{3615},Jojo's Bizarre Adventure
-Weather Report,{Jojos?(verse)?},f,{3616},Jojo's Bizarre Adventure
-Weather Report,{JJ?BA},f,{3616},Jojo's Bizarre Adventure
 Blackmore,{Jojos?(verse)?},f,{3617},Jojo's Bizarre Adventure
 Blackmore,"{`"Steel Ball Run`"}",f,{3617},Jojo's Bizarre Adventure
 Diego Brando,{Jojos?(verse)?},t,{3618},Jojo's Bizarre Adventure
@@ -25486,8 +25484,10 @@ Zolt,"{`"Lightning Bolt`"}",f,{21073},Avatar: TLA
 Exdeath,"{`"Final Fantasy`"}",t,{21074},Final Fantasy
 Koopa,"{`"DEATH BATTLE`"}",f,{21075},DEATH BATTLE
 Nine,{MHA},f,{13337},My Hero Academia
-Weather Report,"{`"Stone Ocean`"}",f,{3616},My Hero Academia
 Hero of Twilight,{Zelda},t,"{5226,17529}",The Legend of Zelda
 Woz,"{`"Kamen Rider|Zi(-| )?O`"}",f,{21076},Kamen Rider
 Launch,"{`"Dragon ?Ball`"}",f,{21077},Dragon Ball
 Marisa Kirisame,{Touhou},t,"{21047,20388}",Touhou
+Weather Report,{Jojos?(verse)?},f,{3616},Jojo's Bizarre Adventure
+Weather Report,{JJ?BA},f,{3616},Jojo's Bizarre Adventure
+Weather Report,"{`"Stone Ocean`"}",f,{3616},Jojo's Bizarre Adventure
