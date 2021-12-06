@@ -3499,6 +3499,15 @@ Warbreaker
 	Displayed Version Name
 		"Warbreaker"
 
+The Wardstone Chronicles
+	Version
+		'{"Wardstone Chronicles"}'
+		'{"Last Apprentice"}'
+	Sometimes called
+		'{"Spooks?"}'
+	Displayed Version Name
+		"Wardstone Chronicles"
+
 Warhammer 40,000
 	Version
 		'{"(WH)?40K"}', '{"Warhammer"}'
