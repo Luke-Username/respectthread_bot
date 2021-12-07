@@ -12,6 +12,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Severus Snape (Harry Potter Films)', 'https://redd.it/rayp5h'); SELECT * FROM respectthread WHERE link='https://redd.it/rayp5h';
+UPDATE character SET rt_id_array='{5826, ?}' WHERE rt_id_array='{5826}'; --Before run
+
 ########################################
 
 ########################################

@@ -85,6 +85,57 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3274, 'Respect Broly, the Legendary Super Saiyan (Dragon Ball Z Movies)', 'https://redd.it/rb179j')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mephiles the Dark! (Sonic the Hedgehog)', 'https://redd.it/raih21')
+add_data(['Mephiles'],
+'Mephiles',
+False,
+True,
+[
+'{"Sonic"}',
+'{"Mephiles the Dark"}'
+],
+'Sonic the Hedgehog',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/raih21/respect_mephiles_the_dark_sonic_the_hedgehog/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Siegward of Catarina (Dark Souls III)', 'https://redd.it/ral88m')
+add_data(['Siegward'],
+'Siegward',
+False,
+True,
+[
+'{"Dark Souls"}',
+'{"DS(3|III)?"}'
+],
+'Dark Souls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ral88m/respect_siegward_of_catarina_dark_souls_iii/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rick Jones, A-Bomb (Marvel, 616)', 'https://redd.it/rb0ssk')
+add_data(['A-Bomb'],
+'A-Bomb',
+False,
+False,
+[
+'{"Rick Jones"}',
+'{"Hulk"}',
+'{"616"}', '{"Marvel"}'
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rb0ssk/respect_rick_jones_abomb_marvel_616/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
