@@ -85,6 +85,20 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Suzuka Gozen, the JK Saber! (Fate)', 'https://redd.it/rcjfjd')
+add_data(['Suzuka Gozen'],
+'Suzuka Gozen',
+False,
+False,
+[
+'{"Fate"}',
+'{"Grande? Order"}', '{"F(ate )?/?GO"}'
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rcjfjd/respect_suzuka_gozen_the_jk_saber_fate/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
