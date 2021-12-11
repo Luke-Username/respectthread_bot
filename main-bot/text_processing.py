@@ -12,6 +12,11 @@ import unicodedata  # To strip accents
 # If boundaries are placed where they should not be, 
 # the bot might not be able to detect the word it is searching for.
 def boundary(word: str) -> str:
+    # Exit if the given word is empty
+    if word == "":
+        print("Given word is empty. Boundary not checked.")
+        return word
+    
     start_char = re.compile(r"^\w", re.IGNORECASE)
     end_char = re.compile(r"\w$", re.IGNORECASE)
 
@@ -27,7 +32,7 @@ def boundary(word: str) -> str:
     # This part is to check if the word ends with ")"
     i = -2
     in_brackets = "" 
-    if word[-1] == ")":
+    if len(word) >= 2 and word[-1] == ")":
         while word[i] != "(" or word[i-1:i+i] == "\(":
             i -= 1
         in_brackets = word[i+1:-1]
