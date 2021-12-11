@@ -85,6 +85,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6170, 'Respect Sun Wukong, The Great Sage Equal to Heaven! (Chinese Mythology)', 'https://redd.it/rdpmv4')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Suzuka Gozen, the JK Saber! (Fate)', 'https://redd.it/rcjfjd')
 add_data(['Suzuka Gozen'],
 'Suzuka Gozen',
@@ -98,6 +102,144 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/rcjfjd/respect_suzuka_gozen_the_jk_saber_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rockslide! (Marvel 616)', 'https://redd.it/rcryw4')
+add_data(['Rockslide'],
+'Rockslide',
+False,
+False,
+[
+'{"616"}',
+'{"X(-| )?Men"}',
+'{"Santo"}'
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rcryw4/respect_rockslide_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anole! (Marvel 616)', 'https://redd.it/rcrywo')
+add_data(['Anole'],
+'Anole',
+False,
+False,
+[
+'{"616"}', '{"Marvel"}',
+'{"X(-| )?Men"}',
+'{"Victor"}'
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rcrywo/respect_anole_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tarene, Thor Girl (Marvel, 616)', 'https://redd.it/rd918l')
+add_data(['Thor Girl'],
+'Thor Girl',
+False,
+True,
+[
+'{"616"}', '{"Marvel"}'
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rd918l/respect_tarene_thor_girl_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gorr, the God Butcher (Marvel Comics)', 'https://redd.it/rdfbg9')
+add_data(['Gorr'],
+'Gorr',
+False,
+True,
+[
+'{"616"}', '{"Marvel"}'
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rdfbg9/respect_gorr_the_god_butcher_marvel_comics/
+
+add_data(['Gorr the God Butcher'],
+'Gorr the God Butcher',
+False,
+True,
+[
+'{"616"}', '{"Marvel"}'
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rdfbg9/respect_gorr_the_god_butcher_marvel_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-517-ARC, A Demon Born From War (SCP Foundation)', 'https://redd.it/rdkvpf')
+add_data(['SCP(-| )?517(-| )?ARC'],
+'SCP-517-ARC',
+False,
+True,
+[
+'{"Foundation"}'
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rdkvpf/respect_scp517arc_a_demon_born_from_war_scp/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kosho Shinogi (Baki)', 'https://redd.it/rdduqz')
+add_data(['K(ō|o)u?sh(ō|o)u? Shinogi'],
+'Kōushō Shinogi',
+False,
+True,
+[
+'{"Baki"}'
+],
+'Baki',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rdduqz/respect_kosho_shinogi_baki/
+
+########################################
+
+id = get_rt_id(cur, "Respect Aa'une, the Oligarch (Chaotic)", 'https://redd.it/rdll7n')
+add_data(["Aa''une"],
+"Aa''une",
+False,
+True,
+[
+'{"Chaotic"}'
+],
+'Chaotic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rdll7n/respect_aaune_the_oligarch_chaotic/
+
+########################################
+
+add_data(["Sun Wu ?Kong"],
+"Sun Wukong",
+False,
+True,
+[
+'{"Journey to the West"}', '{"JTTW"}',
+'{"Chinese"}',
+'{"myth?(ical|olog(y|ical))?"}',
+'{"buddha(hood)?"}'
+],
+'',
+'{6170}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rdpmv4/respect_sun_wukong_the_great_sage_equal_to_heaven/
 
 ########################################
 

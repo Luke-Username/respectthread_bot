@@ -2801,6 +2801,7 @@ Scott Pilgrim
 SCP
 	Version
 		'{"SCP"}'
+		'{"Foundation"}'
 	Displayed Version Name
 		# If the name has "SCP" in it
 			""
@@ -3603,7 +3604,7 @@ Xeelee Sequence
 
 X-Men
 	Version
-		'{"X(-| )Men"}'
+		'{"X(-| )?Men"}'
 	Displayed Version Name
 		?
 
