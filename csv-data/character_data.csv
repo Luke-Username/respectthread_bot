@@ -6318,7 +6318,6 @@ Hiro-Kala,{616},t,{2115},616
 Hiro-Kala,{Marvel},t,{2115},616
 Hulk,{616},t,"{2116,2117}",616
 Hulk,{Marvel},t,"{2116,2117}",616
-Hulk,{comics?},t,"{2116,2117}",616
 Hulk,{2081},f,{2118},2081
 Green Scar Hulk,{616},t,{2119},616
 Hulk,"{`"Green Scar`"}",f,{2119},Green Scar
@@ -6381,6 +6380,7 @@ Mindless Hulk,{Marvel},t,{2129},616
 Red Hulk,{616},t,{2130},616
 Red Hulk,{Marvel},t,{2130},616
 Black Adam,{(DC)},t,"{1622,14881,7393}",DC
+Hulk,"{`"\\(Comics?`"}",t,"{2116,2117}",616
 Sun Wukong,{Marvel},f,{7406},616
 Sun Wukong,{616},f,{7406},616
 Takizawa,"{`"Tokyo Ghoul`"}",t,{7407},Tokyo Ghoul
