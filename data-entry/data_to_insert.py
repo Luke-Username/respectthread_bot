@@ -243,6 +243,51 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Frisk Dreemurr {Inseparable}', 'https://redd.it/rdymjg')
+add_data(["Frisk"],
+"Frisk",
+False,
+False,
+[
+'{"Inseparable"}'
+],
+'Inseparable',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rdymjg/respect_frisk_dreemurr_inseparable/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Asriel Dreemurr (Inseparable)', 'https://redd.it/rdymwx')
+add_data(["Asriel"],
+"Asriel",
+False,
+False,
+[
+'{"Inseparable"}'
+],
+'Inseparable',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rdymwx/respect_asriel_dreemurr_inseparable/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Toneri Ōtsutsuki! (Naruto)', 'https://redd.it/re0goh')
+add_data(['Toneri'],
+'Toneri',
+False,
+True,
+[
+'{"Naruto"}'
+],
+'Naruto',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/re0goh/respect_toneri_%C5%8Dtsutsuki_naruto/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
