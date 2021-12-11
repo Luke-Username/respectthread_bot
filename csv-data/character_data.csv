@@ -21350,8 +21350,6 @@ Remus Lupin,"{`"Harry Potter`"}",t,{5824},Harry Potter
 Remus Lupin,{HP},t,{5824},Harry Potter
 Lupin,"{`"Harry Potter`"}",f,{5824},Harry Potter
 Lupin,{HP},f,{5824},Harry Potter
-Snape,"{`"Harry Potter`"}",t,{5826},Harry Potter
-Snape,{HP},t,{5826},Harry Potter
 Amare Akachi,"{`"He Who Leads`"}",t,{6160},He Who Leads
 Angel,{Biblical},f,{5828},Bible
 Angel,{Bible},f,{5828},Bible
@@ -25491,3 +25489,40 @@ Marisa Kirisame,{Touhou},t,"{21047,20388}",Touhou
 Weather Report,{Jojos?(verse)?},f,{3616},Jojo's Bizarre Adventure
 Weather Report,{JJ?BA},f,{3616},Jojo's Bizarre Adventure
 Weather Report,"{`"Stone Ocean`"}",f,{3616},Jojo's Bizarre Adventure
+Snape,"{`"Harry Potter`"}",t,"{5826,21078}",Harry Potter
+Snape,{HP},t,"{5826,21078}",Harry Potter
+Mephiles,{Sonic},t,{21079},Sonic the Hedgehog
+Mephiles,"{`"Mephiles the Dark`"}",t,{21079},Sonic the Hedgehog
+Siegward,"{`"Dark Souls`"}",t,{21080},Dark Souls
+Siegward,{DS(3|III)?},t,{21080},Dark Souls
+A-Bomb,"{`"Rick Jones`"}",f,{21081},616
+A-Bomb,{Hulk},f,{21081},616
+A-Bomb,{616},f,{21081},616
+A-Bomb,{Marvel},f,{21081},616
+Suzuka Gozen,{Fate},f,{21089},Fate
+Suzuka Gozen,"{`"Grande? Order`"}",f,{21089},Fate
+Suzuka Gozen,"{`"F(ate )?/?GO`"}",f,{21089},Fate
+Rockslide,{616},f,{21090},616
+Rockslide,"{`"X(-| )?Men`"}",f,{21090},616
+Rockslide,{Santo},f,{21090},616
+Anole,{616},f,{21091},616
+Anole,{Marvel},f,{21091},616
+Anole,"{`"X(-| )?Men`"}",f,{21091},616
+Anole,{Victor},f,{21091},616
+Thor Girl,{616},t,{21092},616
+Thor Girl,{Marvel},t,{21092},616
+Gorr,{616},t,{21093},616
+Gorr,{Marvel},t,{21093},616
+Gorr the God Butcher,{616},t,{21093},616
+Gorr the God Butcher,{Marvel},t,{21093},616
+SCP-517-ARC,{Foundation},t,{21094},""
+Kōushō Shinogi,{Baki},t,{21095},Baki
+Aa'une,{Chaotic},t,{21096},Chaotic
+Sun Wukong,"{`"Journey to the West`"}",t,{6170},""
+Sun Wukong,{JTTW},t,{6170},""
+Sun Wukong,{Chinese},t,{6170},""
+Sun Wukong,{myth?(ical|olog(y|ical))?},t,{6170},""
+Sun Wukong,{buddha(hood)?},t,{6170},""
+Frisk,{Inseparable},f,{21097},Inseparable
+Asriel,{Inseparable},f,{21098},Inseparable
+Toneri,{Naruto},t,{21099},Naruto
