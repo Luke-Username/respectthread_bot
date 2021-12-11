@@ -104,6 +104,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Waluigi (Mashable - WALUIGI VS SMASH BROS BATTLE RAP TRILOGY)', 'https://redd.it/re77zr')
+add_data(['Waluigi'],
+'Waluigi',
+False,
+False,
+[
+'{"Mashable"}'
+],
+'Mashable',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/re77zr/respect_waluigi_mashable_waluigi_vs_smash_bros/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
