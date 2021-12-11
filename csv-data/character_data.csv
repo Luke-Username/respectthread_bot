@@ -10968,8 +10968,6 @@ Cloak and Dagger,"{`"Iron Fist`"}",f,{2435},616
 Cloak and Dagger,"{`"Wonder Twins`"}",f,{2435},616
 Darkhawk,{616},t,{2436},616
 Darkhawk,{Marvel},t,{2436},616
-Deadpool,{616},t,{2437},616
-Deadpool,{Marvel},t,{2437},616
 Deadpool,"{`"movie versions?`"}",f,{143},FOX
 Deadpool,{FOX(verse)?},f,{143},FOX
 Deadpool,"{`"X(-| )?Men:? Origins`"}",f,{143},FOX
@@ -11001,6 +10999,8 @@ Jeannine Sauvage,{616},t,{2444},616
 Jeannine Sauvage,{Marvel},t,{2444},616
 Guillotine,"{`"Guillotine ?\\(616`"}",f,{2444},616
 Guillotine,"{`"Guillotine ?\\(Marvel`"}",f,{2444},616
+Deadpool,{616},t,{13516},616
+Deadpool,{Marvel},t,{13516},616
 Hellcow,{616},t,{2446},616
 Hellcow,{Marvel},t,{2446},616
 High Evolutionary,{616},t,{2448},616
