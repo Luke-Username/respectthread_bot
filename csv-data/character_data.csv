@@ -5042,6 +5042,7 @@ Black Adam,{N-?52},f,{1622},New 52 / Rebirth
 Black Adam,"{`"Post(-| )52`"}",f,{1622},New 52 / Rebirth
 Black Adam,"{`"Prime(-| )Earth`"}",f,{1622},New 52 / Rebirth
 Black Adam,{Rebirth},f,{1622},New 52 / Rebirth
+Pain,{Naruto},f,{3964},Naruto
 Chunky Chicken,"{`"Power Rangers?`"}",t,{6556},Power Rangers
 Despero,"{`"New(-| )?52`"}",f,{},New 52
 Despero,{N-?52},f,{},New 52
@@ -6685,6 +6686,7 @@ Saren Arterius,"{`"Mass Effect`"}",t,{7551},Mass Effect
 Melissa de Vignolles,{Madoka},t,{4429},Madoka Magica
 Saren Arterius,{Andromeda},t,{7551},Mass Effect
 M-44 Hammerhead,"{`"Mass Effect`"}",t,{7552},Mass Effect
+Pain,{Paths},f,{3964},Naruto
 Gremlins,{Gremlins},t,{7553},""
 Vandal Savage,{PC},t,"{1636,7554}",DC
 Vandal Savage,"{`"Post(-| )?C(risis)?`"}",t,"{1636,7554}",DC
@@ -7291,6 +7293,7 @@ Doctor Strange,{comics?},t,"{2194,2195}",616
 Nagisa,{Madoka},f,{4430},Madoka Magica
 Nagisa Momoe,{Madoka},t,{4430},Madoka Magica
 Oriko Mikuni,{Madoka},t,{4431},Madoka Magica
+Pain,{Deva},f,{3964},Naruto
 Superman,{Miller-?verse},f,{1790},Millerverse
 Superman,"{`"Frank Miller`"}",f,{1790},Millerverse
 Superman One Million,{PC},t,{1791},""
@@ -7432,6 +7435,8 @@ Blade,"{`"Blade vs`"}",f,{2204},616
 Blade,"{`"T(-| )?1000`"}",f,{2204},616
 Dracula,"{`"Dracula ?\\(616`"}",f,{2205},616
 Dracula,"{`"Dracula \\[616`"}",f,{2205},616
+Pain,{Konoha},f,{3964},Naruto
+Pain,"{`"tailed beast`"}",f,{3964},Naruto
 Killer Croc,"{`"\\(Arkham\\)`"}",f,"{5533,6381}",Batman: Arkham
 Willow Rosenberg,"{`"\\(Buffy\\)`"}",t,{7490},Buffy the Vampire Slayer
 Dan,"{`"\\(Dan vs\\)`"}",f,{1037},(Dan Vs.)
@@ -25526,3 +25531,6 @@ Sun Wukong,{buddha(hood)?},t,{6170},""
 Frisk,{Inseparable},f,{21097},Inseparable
 Asriel,{Inseparable},f,{21098},Inseparable
 Toneri,{Naruto},t,{21099},Naruto
+Pain,{Shippuden},f,{3964},Naruto
+Pain,{Akatsuki},f,{3964},Naruto
+Waluigi,{Mashable},f,{21100},Mashable

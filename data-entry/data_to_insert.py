@@ -85,38 +85,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 4974, 'Respect Mamoru Hijikata (Until Death Do Us Part)', 'https://redd.it/re6t05')
-
-########################################
-
-add_data(['Pain'],
-'Pain',
-False,
-False,
-[
-'{"Naruto"}',
-'{"Paths"}', '{"Deva"}',
-'{"Konoha"}', '{"tailed beast"}', '{"Shippuden"}', '{"Akatsuki"}'
-],
-'Naruto',
-'{3964}'
-)
-
-########################################
-
-id = get_rt_id(cur, 'Respect Waluigi (Mashable - WALUIGI VS SMASH BROS BATTLE RAP TRILOGY)', 'https://redd.it/re77zr')
-add_data(['Waluigi'],
-'Waluigi',
-False,
-False,
-[
-'{"Mashable"}'
-],
-'Mashable',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/re77zr/respect_waluigi_mashable_waluigi_vs_smash_bros/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
