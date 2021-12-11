@@ -2524,13 +2524,12 @@ Gabriel Van Helsing,{films?},t,{590},Van Helsing
 Venom,{2018},f,{591},"Sony, 2018"
 Venom,{Sony},f,{591},"Sony, 2018"
 Venom,"{`"Venom movies?`"}",f,{591},"Sony, 2018"
-Venom,{movies?)},f,{591},"Sony, 2018"
-Venom,{films?)},f,{591},"Sony, 2018"
 V,"{`"V for Vendetta`"}",f,{592},V for Vendetta
 V.I. Warshawski,{Warshawski},t,{593},""
 Mount Wilshire,{1997},t,{594},Volcano
 Mount Wilshire,{Volcano},t,{594},Volcano
 Wesley Gibson,{2008},f,{595},Wanted
+Venom,"{`"films?\\)`"}",f,{591},"Sony, 2018"
 Wesley Gibson,"{Wanted,movies?}",f,{595},Wanted
 Wesley Gibson,{Wanted},t,{2821},Wanted
 Wesley Gibson,{comics?},t,{2821},Wanted
@@ -15153,8 +15152,6 @@ Izumi,"{`"Full ?metal`"}",f,{14380},Fullmetal Alchemist
 Izumi,{FMA:?B?},f,{14380},Fullmetal Alchemist
 Zak Gibbs,{Clockstoppers},t,{14381},Clockstoppers
 Zak,{Clockstoppers},f,{14381},Clockstoppers
-Green Goblin,"{`"Spider(-| )?Verse`"}",t,{14382},Into the Spider-Verse
-Green Goblin,{ITSV},t,{14382},Into the Spider-Verse
 Miles Morales,{ITSV},f,"{1174,1176}",Into the Spider-Verse
 Reimu Hakurei,{minusT},f,{14383},minusT
 Marisa,{minusT},f,{14384},minusT
@@ -25534,3 +25531,6 @@ Toneri,{Naruto},t,{21099},Naruto
 Pain,{Shippuden},f,{3964},Naruto
 Pain,{Akatsuki},f,{3964},Naruto
 Waluigi,{Mashable},f,{21100},Mashable
+Venom,"{`"movies?\\)`"}",f,{591},"Sony, 2018"
+Green Goblin,"{`"Spider(-| )?Verse`"}",f,{14382},Into the Spider-Verse
+Green Goblin,{ITSV},f,{14382},Into the Spider-Verse

@@ -11,7 +11,11 @@ import unicodedata  # To strip accents
 # This function checks of a word should have word boundaries \b around it.
 # If boundaries are placed where they should not be, 
 # the bot might not be able to detect the word it is searching for.
-def boundary(word: str) -> str:
+def boundary(word: str, is_testing = False) -> str:
+    # When testing, print the word being checked
+    if is_testing:
+        print(word)
+    
     # Exit if the given word is empty
     if word == "":
         print("Given word is empty. Boundary not checked.")
@@ -24,7 +28,7 @@ def boundary(word: str) -> str:
     i = 1
     in_brackets = "" 
     if len(word) >= 2 and word[0] == "(":
-        while word[i] != ")" or word[i-1:i+i] == "\)":
+        while i < len(word) and word[i] != ")" or word[i-1:i+i] == "\)":
             i += 1
         in_brackets = word[1:i]
     pattern_list = in_brackets.split("|")
@@ -33,7 +37,7 @@ def boundary(word: str) -> str:
     i = -2
     in_brackets = "" 
     if len(word) >= 2 and word[-1] == ")":
-        while word[i] != "(" or word[i-1:i+i] == "\(":
+        while i > -len(word) and (word[i] != "(" or word[i-1:i+i] == "\("):
             i -= 1
         in_brackets = word[i+1:-1]
     pattern_list2 = in_brackets.split("|")
