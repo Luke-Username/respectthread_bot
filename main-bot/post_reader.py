@@ -17,6 +17,7 @@ def read_posts(r, cur, posts_list: List[str], blacklist: List[str]):
         print("Obtaining new posts from r/{}".format(sub))
         submissions = r.subreddit(sub).new(limit=7)
         for submission in submissions:
+            print("\tChecking post {}".format(sub))
             now = datetime.datetime.now(datetime.timezone.utc).timestamp()
             age = now - submission.created_utc
 
