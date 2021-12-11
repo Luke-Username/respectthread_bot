@@ -85,6 +85,8 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4974, 'Respect Mamoru Hijikata (Until Death Do Us Part)', 'https://redd.it/re6t05')
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
