@@ -89,6 +89,21 @@ update_respectthread(cur, 4974, 'Respect Mamoru Hijikata (Until Death Do Us Part
 
 ########################################
 
+add_data(['Pain'],
+'Pain',
+False,
+False,
+[
+'{"Naruto"}',
+'{"Paths"}', '{"Deva"}',
+'{"Konoha"}', '{"tailed beast"}', '{"Shippuden"}', '{"Akatsuki"}'
+],
+'Naruto',
+'{3964}'
+)
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
