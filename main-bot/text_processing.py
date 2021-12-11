@@ -23,7 +23,7 @@ def boundary(word: str) -> str:
     # This part is to check if the word starts with "("
     i = 1
     in_brackets = "" 
-    if word[0] == "(":
+    if len(word) >= 2 and word[0] == "(":
         while word[i] != ")" or word[i-1:i+i] == "\)":
             i += 1
         in_brackets = word[1:i]

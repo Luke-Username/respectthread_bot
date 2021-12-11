@@ -12,7 +12,7 @@ from typing import List
 
 respectthread_list = []
 
-def search_characters(title: str, post: str, cur):
+def search_characters(title: str, post: str, cur, is_testing = False):
     character_list = []
     characters_checked = []
     respectthread_list.clear()
@@ -25,7 +25,11 @@ def search_characters(title: str, post: str, cur):
         if default_name not in characters_checked and post_contains(name, post, cur):
             found_char = True
             char_added = False
-            cur.execute("SELECT * FROM character WHERE default_name = '{}' ORDER BY is_default;".format(default_name.replace("'", "''")))
+            character_query = "SELECT * FROM character WHERE default_name = '{}' ORDER BY is_default;".format(default_name.replace("'", "''"))
+            cur.execute(character_query)
+            if is_testing:
+                print(character_query)
+            
             characters = cur.fetchall()
             for c in characters:
                 version = c[1]

@@ -4321,6 +4321,7 @@ Gotham and Gotham Girl,"{`"New 52`"}",t,{1512},New 52
 Gotham and Gotham Girl,{N-?52},t,{1512},New 52
 Gotham and Gotham Girl,"{`"Post(-| )52`"}",t,{1512},New 52
 Gotham and Gotham Girl,"{`"Prime(-| )Earth`"}",t,{1512},New 52
+Ant-Man,{616},t,{1986},616
 Sully,"{`"Monsters,? Inc`"}",f,{6653},"Monsters, Inc."
 Sulley,"{`"Monsters,? Inc`"}",f,{6653},"Monsters, Inc."
 James P. Sullivan,"{`"Monsters,? Inc`"}",t,{6653},"Monsters, Inc."
@@ -4674,6 +4675,7 @@ Deathstroke,{N-?52},t,"{1576,1577}",New 52 / Rebirth
 Deathstroke,"{`"Post(-| )52`"}",t,"{1576,1577}",New 52 / Rebirth
 Deathstroke,"{`"Prime(-| )Earth`"}",t,"{1576,1577}",New 52 / Rebirth
 Deathstroke,{Rebirth},t,"{1576,1577}",New 52 / Rebirth
+Ant-Man,{comics?},t,{1986},616
 Deathstroke,{PC},f,{1578},Post-Crisis
 Deathstroke,"{`"Post(-| )?C(risis)?`"}",f,{1578},Post-Crisis
 Freddy Freeman,"{Shazam,2019}",f,{6555},DCEU
@@ -10139,8 +10141,6 @@ Brunnhilde,{199999},f,{267},MCU
 Woden,{691},f,{1985},691
 Woden,{Thorson},f,{1985},691
 Woden,{Marvel},f,{1985},691
-Ant-Man,{616},t,{1986},691
-Ant-Man,{comics?},t,{1986},691
 Scott Lang,{616},t,{1986},691
 Scott Lang,{comics?},t,{1986},691
 Ray,"{`"Promised Neverland`"}",f,{4441},The Promised Neverland
@@ -18982,7 +18982,6 @@ Pig God,{OPM},t,{4113},One Punch Man
 Pig God,"{`"Puri Prisoner`"}",t,{4113},One Punch Man
 King,"{`"King ?\\(One(-| )Punch Man`"}",f,{4113},One Punch Man
 King,"{`"King ?\\(OPM`"}",f,{4113},One Punch Man
-King,"{`"S(-| )Class`"}",f,{4113},One Punch Man
 Metal Knight,"{`"One(-| )Punch Man`"}",t,{4113},One Punch Man
 Metal Knight,{OPM},t,{4113},One Punch Man
 Bofoi,"{`"One(-| )Punch Man`"}",t,{4113},One Punch Man
@@ -18997,6 +18996,7 @@ Suiryu,{OPM},t,{4116},One Punch Man
 Tank Top Master,"{`"One(-| )Punch Man`"}",t,{7572},One Punch Man
 Tank Top Master,{OPM},t,{7572},One Punch Man
 TTM,"{`"One(-| )Punch Man`"}",f,{7572},One Punch Man
+King,"{`"S(-| )Class`",heroe?s?}",f,{4113},One Punch Man
 TTM,{OPM},f,{7572},One Punch Man
 Tatsumaki,"{`"One(-| )Punch Man`"}",t,{4117},One Punch Man
 Tatsumaki,{OPM},t,{4117},One Punch Man

@@ -44,7 +44,7 @@ con = psycopg2.connect(
 #print("Connected to database")
 cur = con.cursor()
 
-character_list = mcr.search_characters(title, post, cur)
+character_list = mcr.search_characters(title, post, cur, True)
 if character_list:
     comment = replier.generate_comment(cur, character_list, False)
     print(remove_links_from_comment(comment).strip())
