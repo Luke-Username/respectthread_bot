@@ -8220,7 +8220,6 @@ Scorcher,{Marvel},f,{2300},616
 Scorpion,{Carmilla},f,{2301},Carmilla Black
 Scorpion,"{`"616 Scorpion`"}",f,{2302},616
 Scorpion,"{`"Scorpion ?\\(Marvel`"}",f,{2302},616
-Scorpion,"{`"Scorpion ?(616`"}",f,{2302},616
 Scorpion,{gargan},f,{2302},616
 Scorpion,"{`"Spider(-| )?Man villains?`"}",f,{2302},616
 Screwball,{616},f,{2303},616
@@ -25560,3 +25559,4 @@ Shigaraki,{(M|BN?)HA},t,{13258},My Hero Academia
 Shigaraki,"{`"Boku no Hero`"}",t,{13258},My Hero Academia
 Golden Sperm,"{`"One(-| )Punch Man`"}",t,{4094},One Punch Man
 Golden Sperm,{OPM},t,{4094},One Punch Man
+Scorpion,"{`"Scorpion ?\\(616`"}",f,{2302},616
