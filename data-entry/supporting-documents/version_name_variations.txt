@@ -2110,6 +2110,14 @@ Monogatari
 	Displayed Version Name
 		"Monogatari"
 
+Monster Hunter
+	Version
+		'{"Monster Hunter"}'
+	Acronyms
+		'{"MHW"}'
+	Displayed Version Name
+		"Monster Hunter"
+
 Monster Musume
 	Version
 		'{"Monster Musume"}', '{"Monster Girl"}'
