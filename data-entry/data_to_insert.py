@@ -85,6 +85,32 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Minato'],
+'Minato',
+False,
+False,
+[
+'{"Obito"}', '{"Kurama"}'
+],
+'Naruto',
+'{20429}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/retlab/could_minato_save_konoha_from_darth_vader/
+
+########################################
+
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+'{"Pre", "Genesis Wave"}'
+],
+'Archie Comics',
+'{2629}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
