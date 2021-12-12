@@ -1632,7 +1632,6 @@ Fancy Dan,Fancy Dan,f
 Ricochet,Ricochet,f
 Ox,Ox,f
 Kraven,Kraven,f
-Spider(-| )?Man,Spider-Man,f
 Tombstone,Tombstone,f
 Hammerhead,Hammerhead,f
 Adamai,Adamai,f
@@ -1699,6 +1698,7 @@ Miss Martian,Miss Martian,f
 Nightwing,Nightwing,f
 Sphere,Sphere,f
 Static,Static,f
+Spider(-| )?Mans?,Spider-Man,f
 Young Justice,Young Justice,t
 The Team,The Team,t
 Tempest,Tempest,f

@@ -24,7 +24,7 @@ def read_posts(r, cur, posts_list: List[str], blacklist: List[str]):
             if age < 1200 and submission.id not in posts_list and submission.author.name not in blacklist:
                 print("\tChecking post {}".format(submission.id))
                 title = tp.strip_accents(submission.title)
-                post = title + " " + tp.strip_accents(submission.selftext)
+                post = (title + " " + tp.strip_accents(submission.selftext)).replace("’", "'")
                 character_list = mcr.search_characters(title, post, cur)
                 if character_list:
                     reply_text = replier.generate_comment(cur, character_list, True)

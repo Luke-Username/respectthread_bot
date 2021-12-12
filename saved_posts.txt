@@ -229,6 +229,14 @@ resk6s
 resq3y
 resqob
 resr7r
-rest1d
 resurr
 resvgl
+rest1d
+ret9ib
+retd0s
+retdch
+retgph
+retjql
+retlab
+reubcs
+reu774
