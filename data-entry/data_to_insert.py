@@ -85,57 +85,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Bullseye'],
-'Bullseye',
-False,
-False,
-[
-r'{"\\(MCU"}', '{"Bullseye-MCU"}', '{"MCU Bullseye"}',
-'{"MCU", "Punisher"}', '{"MCU", "Hawkeye"}', '{"MCU", "Dark Avengers"}'
-],
-'MCU',
-'{12455}'
-)
-
-add_data(['Daredevil'],
-'Daredevil',
-False,
-False,
-[
-r'{"\\(MCU"}', '{"Daredevil-MCU"}', '{"MCU Daredevil"}', '{"Daredevil MCU"}',
-'{"MCU", "Punisher"}', '{"MCU", "Hawkeye"}', '{"MCU", "Dark Avengers"}'
-],
-'MCU',
-'{1289}'
-)
-
-########################################
-
-add_data(['Django'],
-'Django',
-False,
-False,
-[
-r'{"Django ?\\( ?Django Unchained"}', '{"King Schult(z|s)"}', '{"MCU Bullseye"}',
-'{"Foxx"}', '{"2012"}', '{"Django from Django Unchained"}'
-],
-'Django Unchained',
-'{10886}'
-)
-
-########################################
-
-add_data(['First Hassan'],
-'First Hassan',
-False,
-True,
-[
-'{"Fate"}'
-],
-'Fate',
-'{14515}'
-)
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

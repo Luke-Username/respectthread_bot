@@ -5718,7 +5718,6 @@ Colleen Wing,"{`"Marvel Cinematic Universe`"}",f,{1288},MCU
 Colleen Wing,{MCU},f,{1288},MCU
 Colleen Wing,{199999},f,{1288},MCU
 Daredevil,"{`"Marvel Cinematic Universe`"}",f,{1289},MCU
-Daredevil,{MCU},f,{1289},MCU
 Daredevil,{199999},f,{1289},MCU
 Daredevil,{Netflix},f,{1289},MCU
 Davos,"{`"Marvel Cinematic Universe`"}",f,{1290},MCU
@@ -6158,7 +6157,6 @@ God Emperor Doom,{Marvel},t,{2058},""
 God Emperor Doom,{comics?},t,{2058},""
 God Emperor Doom,"{`"Secret Wars`"}",t,{2058},""
 Infamous Iron Man,{616},t,{2059},""
-Bullseye,{MCU},f,{12455},MCU
 Infamous Iron Man,{Marvel},t,{2059},""
 Infamous Iron Man,{comics?},t,{2059},""
 Infamous Iron Man,"{`"Secret Wars`"}",t,{2059},""
@@ -9442,6 +9440,7 @@ Silver,{Sonic},f,{5390},Sonic the Hedgehog
 Silver the Hedgehog,{Sonic},t,{5390},Sonic the Hedgehog
 Talos,{Eizouken},f,{8413},Keep Your Hands Off Eizouken!
 Princess Mononoke,"{`"Princess Mononoke`"}",t,{8414},""
+Bullseye,"{`"\\(MCU`"}",f,{12455},MCU
 Chuck Norris,"{`"Dane ?Boe`"}",f,{8415},Daneboe
 Hawk,"{`"Lupin III`"}",f,{8416},Lupin III
 Hawk,"{`"Lupin the (3|III|Thi)rd`"}",f,{8416},Lupin III
@@ -25535,3 +25534,22 @@ Venom,"{`"movies?\\)`"}",f,{591},"Sony, 2018"
 Green Goblin,"{`"Spider(-| )?Verse`"}",f,{14382},Into the Spider-Verse
 Green Goblin,{ITSV},f,{14382},Into the Spider-Verse
 Hulk,"{`"Comics? Hulk`"}",t,"{2116,2117}",616
+Bullseye,{Bullseye-MCU},f,{12455},MCU
+Bullseye,"{`"MCU Bullseye`"}",f,{12455},MCU
+Bullseye,"{MCU,Punisher}",f,{12455},MCU
+Bullseye,"{MCU,Hawkeye}",f,{12455},MCU
+Bullseye,"{MCU,`"Dark Avengers`"}",f,{12455},MCU
+Daredevil,"{`"\\(MCU`"}",f,{1289},MCU
+Daredevil,{Daredevil-MCU},f,{1289},MCU
+Daredevil,"{`"MCU Daredevil`"}",f,{1289},MCU
+Daredevil,"{`"Daredevil MCU`"}",f,{1289},MCU
+Daredevil,"{MCU,Punisher}",f,{1289},MCU
+Daredevil,"{MCU,Hawkeye}",f,{1289},MCU
+Daredevil,"{MCU,`"Dark Avengers`"}",f,{1289},MCU
+Django,"{`"Django ?\\( ?Django Unchained`"}",f,{10886},Django Unchained
+Django,"{`"King Schult(z|s)`"}",f,{10886},Django Unchained
+Django,"{`"MCU Bullseye`"}",f,{10886},Django Unchained
+Django,{Foxx},f,{10886},Django Unchained
+Django,{2012},f,{10886},Django Unchained
+Django,"{`"Django from Django Unchained`"}",f,{10886},Django Unchained
+First Hassan,{Fate},t,{14515},Fate

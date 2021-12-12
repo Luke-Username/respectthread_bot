@@ -12,13 +12,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Bullseye' AND version='{"MCU"}'; --Before run
-DELETE FROM character WHERE default_name='Daredevil' AND version='{"MCU"}'; --Before run
-
-########################################
-
-UPDATE character_name SET name='Django Freeman' WHERE name='Django'; --Before run
-
 ########################################
 
 ########################################
