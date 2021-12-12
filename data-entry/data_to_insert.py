@@ -85,6 +85,17 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Hulk'],
+'Hulk',
+False,
+True,
+[
+'{"Comics? Hulk"}'
+],
+'616',
+'{2116,2117}'
+)
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
