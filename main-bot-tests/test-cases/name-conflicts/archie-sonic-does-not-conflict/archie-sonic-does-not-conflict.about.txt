@@ -1,0 +1,3 @@
+When the name_conflict table has an entry (name, conflict, first_char) = (Sonic, Archie Sonic, -7),
+"Archie Sonic" will be ignored by the bot so it fails to link the respect thread it's supposed to.
+The fix is to remove this entry from the name_conflict table, and this test is to help ensure it works.
