@@ -6117,10 +6117,6 @@ Elektra,{616},t,{2052},616
 Elektra,{comics?},t,{2052},616
 Kingpin,{616},t,{2053},616
 Kingpin,{comics?},t,{2053},616
-Kingpin,{Netflix},t,{},MCU
-Kingpin,"{`"Marvel Cinematic Universe`"}",t,{},MCU
-Kingpin,{MCU},t,{},MCU
-Kingpin,{199999},t,{},MCU
 Wilson Fisk,{616},t,{2053},616
 Wilson Fisk,{comics?},t,{2053},616
 Wilson Fisk,{Netflix},t,{},MCU
@@ -6157,6 +6153,7 @@ God Emperor Doom,{Marvel},t,{2058},""
 God Emperor Doom,{comics?},t,{2058},""
 God Emperor Doom,"{`"Secret Wars`"}",t,{2058},""
 Infamous Iron Man,{616},t,{2059},""
+Kingpin,{Netflix},f,{},MCU
 Infamous Iron Man,{Marvel},t,{2059},""
 Infamous Iron Man,{comics?},t,{2059},""
 Infamous Iron Man,"{`"Secret Wars`"}",t,{2059},""
@@ -25560,3 +25557,6 @@ Shigaraki,"{`"Boku no Hero`"}",t,{13258},My Hero Academia
 Golden Sperm,"{`"One(-| )Punch Man`"}",t,{4094},One Punch Man
 Golden Sperm,{OPM},t,{4094},One Punch Man
 Scorpion,"{`"Scorpion ?\\(616`"}",f,{2302},616
+Kingpin,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Kingpin,{MCU},f,{},MCU
+Kingpin,{199999},f,{},MCU
