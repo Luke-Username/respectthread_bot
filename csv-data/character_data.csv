@@ -2020,7 +2020,6 @@ The Golem,"{`"(The Golem)`"}",f,{450},The Golem
 The Greasy Strangler,"{`"The Greasy Strangler`"}",t,{451},""
 William Garin,"{`"The Great Wall`"}",t,{452},The Great Wall
 Moro,"{`"Tournament of Power`"}",f,{10792},Dragon Ball
-The Guardians,{(Guardians)},f,{454},Guardians
 The Guardians,"{`"soviet union superheroes`"}",f,{454},Guardians
 Ler,{Guardians},f,{454},Guardians
 Ursus,{Guardians},f,{454},Guardians
@@ -2071,6 +2070,7 @@ Jaws,"{`"The Spy Who Loved Me`"}",f,{475},James Bond
 Jaws,{Moonraker},f,{475},James Bond
 Jaws,"{`"James Bond`"}",f,{475},James Bond
 Jaws,{007},f,{475},James Bond
+The Guardians,"{`"\\(Guardians\\)`"}",f,{454},Guardians
 Skeletons,"{`"Jason and the Argonauts`"}",f,{476},Jason and the Argonauts
 Jeepers Creepers,"{`"Jeepers Creepers`"}",t,{477},""
 Creeper,"{`"Jeepers Creepers`"}",f,{477},""
