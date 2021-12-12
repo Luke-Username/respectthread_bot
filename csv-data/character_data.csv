@@ -10377,6 +10377,7 @@ Psycho Green,"{`"BOOM!? Studios?`"}",t,{2600},Power Rangers
 Trek,"{`"Power Rangers?`"}",f,{2600},Power Rangers
 Trek,"{`"BOOM!? Studios?`"}",f,{2600},Power Rangers
 Ranger Slayer,"{`"Power Rangers?`"}",t,{12051},Power Rangers
+CAS,{Lucifer},f,{1777},DC
 Ranger Slayer,"{`"BOOM!? Studios?`"}",t,{12051},Power Rangers
 Abacus,"{`"Mortal Kombat`"}",f,{12052},Mortal Kombat
 Abacus,{Malibu},f,{12052},Mortal Kombat
@@ -10514,6 +10515,7 @@ Sharad Hett,"{`"Star ?Wars`"}",t,{2655},Star Wars
 Sharad Hett,{SWars},t,{2655},Star Wars
 Sharad Hett,"{`"Extended Universe`"}",t,{2655},Star Wars
 Sharad Hett,{EU},t,{2655},Star Wars
+Lucifer,{CAS},f,{1777},DC
 Sharad Hett,{Legends},t,{2655},Star Wars
 Xesh,"{`"Star ?Wars`"}",t,{2656},Star Wars
 Xesh,{SWars},t,{2656},Star Wars
@@ -25553,3 +25555,8 @@ Django,{Foxx},f,{10886},Django Unchained
 Django,{2012},f,{10886},Django Unchained
 Django,"{`"Django from Django Unchained`"}",f,{10886},Django Unchained
 First Hassan,{Fate},t,{14515},Fate
+Shigaraki,"{`"My Hero`"}",t,{13258},My Hero Academia
+Shigaraki,{(M|BN?)HA},t,{13258},My Hero Academia
+Shigaraki,"{`"Boku no Hero`"}",t,{13258},My Hero Academia
+Golden Sperm,"{`"One(-| )Punch Man`"}",t,{4094},One Punch Man
+Golden Sperm,{OPM},t,{4094},One Punch Man

@@ -85,58 +85,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['CAS'],
-'CAS',
-False,
-False,
-[
-'{"Lucifer"}'
-],
-'DC',
-'{1777}'
-)
-#
-
-add_data(['Lucifer'],
-'Lucifer',
-False,
-False,
-[
-'{"CAS"}'
-],
-'DC',
-'{1777}'
-)
-#
-
-########################################
-
-add_data(['Shigaraki'],
-'Shigaraki',
-False,
-True,
-[
-'{"My Hero"}', '{"(M|BN?)HA"}', '{"Boku no Hero"}'
-],
-'My Hero Academia',
-'{13258}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/rep773/golden_sperm_one_punch_man_vs_current_shigaraki/
-
-########################################
-
-add_data(['Golden Sperm'],
-'Golden Sperm',
-False,
-True,
-[
-'{"One(-| )Punch Man"}', '{"OPM"}'
-],
-'One Punch Man',
-'{4094}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/rep773/golden_sperm_one_punch_man_vs_current_shigaraki/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
