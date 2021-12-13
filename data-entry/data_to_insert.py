@@ -85,6 +85,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect SCP-008 "The Zombie Plague" (The SCP Foundation)', 'https://redd.it/rf911b')
+add_data(['SCP(-| )?008'],
+'SCP-008',
+False,
+True,
+[
+'{"Foundation"}'
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://old.reddit.com/r/respectthreads/comments/rf911b/respect_scp008_the_zombie_plague_the_scp/
+
+########################################
+
+id = get_rt_id(cur, "Respect Mr. Bean (Mr. Bean/Bean/Mr. Bean''s Holiday/Comic Relief)", 'https://redd.it/rfdxh5')
+add_data([r'(Mr\\.?|Mister) Bean'],
+'Mr. Bean',
+False,
+True,
+[
+'{"default"}'
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://old.reddit.com/r/respectthreads/comments/rfdxh5/respect_mr_bean_mr_beanbeanmr_beans_holidaycomic/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Horrorterrors, the Dark Gods!(Homestuck)", 'https://redd.it/rff3tq')
+add_data(['Horrorterrors?'],
+'Horrorterror',
+False,
+True,
+[
+'{"Homestuck"}'
+],
+'Homestuck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rff3tq/respect_the_horrorterrors_the_dark_godshomestuck/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
