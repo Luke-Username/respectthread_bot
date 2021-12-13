@@ -2628,8 +2628,11 @@ Punch Line
 
 Raimi Spider-Man
 	Version
-		'{"Raimi-?(verse)?"}'
+		'{"Rai?mi-?(verse)?"}', '{"Maguire"}'
+	Specific
+		'{"Spider(-| )?Man 3"}'
 	Sometimes Called
+		'{"96283"}'
 		'{"Spider(-| )Man"}' (Bone Saw)
 	Displayed Version Name
 		"Raimiverse Spider-Man"

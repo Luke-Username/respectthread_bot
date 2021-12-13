@@ -135,10 +135,66 @@ add_data(['Venom'],
 False,
 False,
 [
-'{"Rai?mi"}', '{"Spider(-| )?Man 3"}', '{"96283"}', '{"Maguire"}'
+'{"Rai?mi-?(verse)?"}', '{"Spider(-| )?Man 3"}', '{"96283"}', '{"Maguire"}'
 ],
 'Raimiverse Spider-Man',
 '{303}'
+)
+#
+
+########################################
+
+add_data(['Sand(-| )?man'],
+'Sandman',
+False,
+False,
+[
+'{"Rai?mi-?(verse)?"}', '{"Spider(-| )?Man 3"}', '{"96283"}', '{"Maguire"}'
+],
+'Raimiverse Spider-Man',
+'{6508}'
+)
+#
+
+########################################
+
+add_data(['Green Goblin'],
+'Green Goblin',
+False,
+False,
+[
+'{"Rai?mi-?(verse)?"}', '{"96283"}', '{"Maguire"}', '{"2002"}', '{"Dafoe"}'
+],
+'Raimiverse Spider-Man',
+'{300}'
+)
+#
+
+########################################
+
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+'{"Rai?mi-?(verse)?"}', '{"96283"}', '{"Maguire"}'
+],
+'Raimiverse Spider-Man',
+'{302}'
+)
+#
+
+########################################
+
+add_data(['New Goblin', 'Goblin J(unio)?r'],
+'New Goblin',
+False,
+False,
+[
+'{"Rai?mi-?(verse)?"}', '{"Spider(-| )?Man 3"}', '{"96283"}', '{"Maguire"}'
+],
+'Raimiverse Spider-Man',
+'{301}'
 )
 #
 
