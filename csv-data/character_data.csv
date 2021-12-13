@@ -9453,7 +9453,6 @@ Wolf Predator,{Requiem},t,{8421},Aliens vs. Predator
 Wolf,"{`"Aliens? vs.? Predator`"}",f,{8421},Aliens vs. Predator
 Wolf,{AVP},f,{8421},Aliens vs. Predator
 Wolf,{Requiem},f,{8421},Aliens vs. Predator
-Wolf,"{`"Wolf \\(Predator)`"}",f,{8421},Aliens vs. Predator
 Guzma,{Pok(e|é)mon},t,{8422},Pokémon
 Tierno,{Pok(e|é)mon},t,{8423},Pokémon
 Alexi Shostakov,{Marvel},t,{8424},616
@@ -25563,3 +25562,10 @@ Kingpin,{199999},f,{},MCU
 Minato,{Obito},f,{20429},Naruto
 Minato,{Kurama},f,{20429},Naruto
 Sonic,"{Pre,`"Genesis Wave`"}",f,{2629},Archie Comics
+Wolf,"{`"Wolf \\(Predator\\)`"}",f,{8421},Aliens vs. Predator
+Predator,"{`"Predator Franchise`"}",f,"{2799,13507}",""
+Predator,"{`"The Predators?`"}",f,"{2799,13507}",""
+Predator,"{`"vs\\.? Predator`"}",f,"{2799,13507}",""
+Predator,"{`"How many Predators?`"}",f,"{2799,13507}",""
+Predator,"{`"Young Predator`"}",f,"{2799,13507}",""
+Predator,{Planet},f,"{2799,13507}",""

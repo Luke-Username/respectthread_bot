@@ -85,23 +85,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Predator'],
-'Predator',
-False,
-False,
-[
-'{"Predator Franchise"}',
-'{"The Predators?"}',
-r'{"vs\\.? Predator"}',
-'{"How many Predators?"}',
-'{"Young Predator"}',
-'{"Planet"}'
-],
-'',
-'{2799, 13507}'
-)
-#
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
