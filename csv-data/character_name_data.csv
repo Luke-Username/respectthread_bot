@@ -631,7 +631,6 @@ Team Shaolin,Team Shaolin,f
 Iron Head,Team Shaolin,f
 Hooking Leg,Team Shaolin,f
 Iron Shirt,Team Shaolin,f
-Empty Hand,Team Shaolin,f
 Lightweight Vest,Team Shaolin,f
 Mui,Team Shaolin,f
 Team Evil,Team Evil,f
@@ -650,7 +649,6 @@ Talzin,Talzin,f
 Pre Vizsla,Pre Vizsla,f
 Wiz vs\.? Boomstick,Wiz & Boomstick,t
 Harry Osborn,Harry Osborn,f
-Goblin Jr,New Goblin,f
 New Goblin,New Goblin,f
 Wiz,Wiz,f
 Venom,Venom,f
@@ -10449,7 +10447,6 @@ Aran Ryan,Aran Ryan,f
 Soda Popinski,Soda Popinski,f
 Bald Bull,Bald Bull,f
 Super Macho Man,Super Macho Man,f
-Sandman,Sandman,f
 George,George,f
 Ratchet,Ratchet,f
 Mr\\.? Dark,Mr. Dark,f
@@ -11722,3 +11719,11 @@ Django,Django,f
 First Hassan,First Hassan,f
 CAS,CAS,f
 Golden Sperm,Golden Sperm,f
+Empty Hand,Empty Hand,f
+SCP(-| )?008,SCP-008,f
+(Mr\\.?|Mister) Bean,Mr. Bean,f
+Horrorterrors?,Horrorterror,f
+Goblin J(unio)?r,New Goblin,f
+The Incredibles,The Incredibles,t
+The Parrs,Parr Family,t
+Count Vega,Count Vega,f

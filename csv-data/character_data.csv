@@ -840,7 +840,6 @@ Larry the Lobster,{Spongebob},t,{916},Spongebob
 Mermaid Man,{Spongebob},t,{917},Spongebob
 Barnacle Boy,{Spongebob},t,{917},Spongebob
 Squidward,{Spongebob},t,{919},Spongebob
-Spongebob,{Spongebob},t,{918},Spongebob
 Barugon,{Gamera},t,{163},Gamera
 Heisei Gamera,{Trilogy},t,{164},The Gamera Trilogy
 Gamera,{Heisei},f,{164},Heisei Era
@@ -1161,14 +1160,6 @@ Huntsman and Huntsgirl,"{`"American Dragon`"}",f,{629},Amarican Dragon: Jake Lon
 Huntsman and Huntsgirl,"{`"Jake Long`"}",f,{629},Amarican Dragon: Jake Long
 Huntsman,"{`"American Dragon`"}",f,{629},Amarican Dragon: Jake Long
 Huntsman,"{`"Jake Long`"}",f,{629},Amarican Dragon: Jake Long
-Sandman,{Raimi},f,{6508},Raimiverse Spider-Man
-Sandman,{Raimiverse},f,{6508},Raimiverse Spider-Man
-Sandman,{Raimi-verse},f,{6508},Raimiverse Spider-Man
-Sandman,{96283},f,{6508},Raimiverse Spider-Man
-Sandman,"{`"Spider-Man 3`"}",f,{6508},Raimiverse Spider-Man
-Sandman,"{`"Spider Man 3`"}",f,{6508},Raimiverse Spider-Man
-Sandman,"{`"Spiderman 3`"}",f,{6508},Raimiverse Spider-Man
-Sandman,{Maguire},f,{6508},Raimiverse Spider-Man
 T-800,{Terminator},t,{329},Terminator
 Animals,"{`"Marvel Cinematic`"}",f,{253},MCU
 Animals,{MCU},f,{253},MCU
@@ -1197,16 +1188,6 @@ Mewtwo,"{`"Detective Pikachu`"}",f,{287},Detective Pikachu
 Sing,"{`"Shaolin Soccer`"}",f,{295},Shaolin Soccer
 Team Evil,"{`"Shaolin Soccer`"}",f,{293},Shaolin Soccer
 Warren Peace,"{`"Sky High`"}",t,{297},Sky High
-Green Goblin,{Raimi},f,{300},Raimiverse Spider-Man
-Green Goblin,{Raimiverse},f,{300},Raimiverse Spider-Man
-Green Goblin,{Raimi-verse},f,{300},Raimiverse Spider-Man
-Green Goblin,{96283},f,{300},Raimiverse Spider-Man
-Green Goblin,{Maguire},f,{300},Raimiverse Spider-Man
-Spider-Man,{Raimi},f,{302},Raimiverse Spider-Man
-Spider-Man,{Raimiverse},f,{302},Raimiverse Spider-Man
-Spider-Man,{Raimi-verse},f,{302},Raimiverse Spider-Man
-Spider-Man,{96283},f,{302},Raimiverse Spider-Man
-Spider-Man,{Maguire},f,{302},Raimiverse Spider-Man
 T-850,{Terminator},t,{330},Terminator
 T-3000,{Terminator},t,{332},Terminator
 T-3000,{Genisys},t,{332},Terminator
@@ -1248,22 +1229,6 @@ The Rabbit of Caerbannog,{Spamalot},t,{6507},Monty Python and the Holy Grail
 Ms. Norman,"{`"Detective Pikachu`"}",f,{288},Detective Pikachu
 Keeper,"{`"Shaolin Soccer`"}",f,{293},Shaolin Soccer
 Will Stronghold,"{`"Sky High`"}",t,{298},Sky High
-Goblin Jr,{Raimi},f,{301},Raimiverse Spider-Man
-Goblin Jr,{Raimiverse},f,{301},Raimiverse Spider-Man
-Goblin Jr,{Raimi-verse},f,{301},Raimiverse Spider-Man
-Goblin Jr,{96283},f,{301},Raimiverse Spider-Man
-Goblin Jr,"{`"Spider-Man 3`"}",f,{301},Raimiverse Spider-Man
-Goblin Jr,"{`"Spider Man 3`"}",f,{301},Raimiverse Spider-Man
-Goblin Jr,"{`"Spiderman 3`"}",f,{301},Raimiverse Spider-Man
-Goblin Jr,{Maguire},f,{301},Raimiverse Spider-Man
-Venom,{Raimi},f,{303},Raimiverse Spider-Man
-Venom,{Raimiverse},f,{303},Raimiverse Spider-Man
-Venom,{Raimi-verse},f,{303},Raimiverse Spider-Man
-Venom,{96283},f,{303},Raimiverse Spider-Man
-Venom,"{`"Spider-Man 3`"}",f,{303},Raimiverse Spider-Man
-Venom,"{`"Spider Man 3`"}",f,{303},Raimiverse Spider-Man
-Venom,"{`"Spiderman 3`"}",f,{303},Raimiverse Spider-Man
-Venom,{Maguire},f,{303},Raimiverse Spider-Man
 Iron Man,"{`"Marvel Cinematic Universe`"}",f,{247},MCU
 Iron Man,{MCU},f,{247},MCU
 Iron Man,{199999},f,{247},MCU
@@ -1371,14 +1336,6 @@ King Kong,{RPO},f,{290},Ready Player One
 Team Shaolin,"{`"Shaolin Soccer`"}",t,"{294,295}",Shaolin Soccer
 The Commander,"{`"Sky High`"}",f,{296},Sky High
 Sky High,"{`"Sky High`"}",t,"{298,297,296}",Sky High
-New Goblin,{Raimi},f,{301},Raimiverse Spider-Man
-New Goblin,{Raimiverse},f,{301},Raimiverse Spider-Man
-New Goblin,{Raimi-verse},f,{301},Raimiverse Spider-Man
-New Goblin,{96283},f,{301},Raimiverse Spider-Man
-New Goblin,"{`"Spider-Man 3`"}",f,{301},Raimiverse Spider-Man
-New Goblin,"{`"Spider Man 3`"}",f,{301},Raimiverse Spider-Man
-New Goblin,"{`"Spiderman 3`"}",f,{301},Raimiverse Spider-Man
-New Goblin,{Maguire},f,{301},Raimiverse Spider-Man
 Terminatrix,{Terminator},t,{328},Terminator
 Terminatrix,{T-3},t,{328},Terminator
 Terminatrix,{T3},t,{328},Terminator
@@ -2128,7 +2085,6 @@ Randall Boggs,"{`"Monsters,? Inc`"}",t,{1222},"Monsters, Inc."
 Indiana Jones,"{`"Indiana Jones`"}",t,{6509},""
 The Mask,"{`"Dark Horse`"}",f,{2788},Dark Horse Comics
 The Mask,{comics?},f,{2788},Dark Horse Comics
-Doctor Octopus,{Raimi},f,{299},Raimiverse Spider-Man
 The Mask,"{`"v(erse)?s\\.? The Mask`"}",f,{2788},Dark Horse Comics
 The Mask,"{`"The Mask v(erse)?s`"}",f,{2788},Dark Horse Comics
 Stanley Ipkiss,"{`"Dark Horse`"}",t,{2788},Dark Horse Comics
@@ -2137,13 +2093,6 @@ Stanley Ipkiss,{comics?},t,{2788},Dark Horse Comics
 Stanley Ipkiss,{movies?},f,{508},1994
 Stanley Ipkiss,{films?},f,{508},1994
 Stanley Ipkiss,{1994},f,{508},1994
-Doctor Octopus,{Raimiverse},f,{299},Raimiverse Spider-Man
-Doctor Octopus,{Raimi-verse},f,{299},Raimiverse Spider-Man
-Doctor Octopus,{96283},f,{299},Raimiverse Spider-Man
-Doctor Octopus,"{`"Spider-Man 2`"}",f,{299},Raimiverse Spider-Man
-Doctor Octopus,"{`"Spider Man 2`"}",f,{299},Raimiverse Spider-Man
-Doctor Octopus,"{`"Spiderman 2`"}",f,{299},Raimiverse Spider-Man
-Doctor Octopus,{Maguire},f,{299},Raimiverse Spider-Man
 Inmate 93X666,"{`"Jungle Jail`"}",t,{6510},Jungle Jail
 Batman,"{`"Batman Ninja`"}",f,{6511},Batman Ninja
 Super Bike,"{`"Fairly Oddparents`"}",t,{6512},Fairly Oddparents
@@ -6980,7 +6929,6 @@ Orion,"{`"pre(-| )?52`"}",f,{1742},DC
 Orion,{PC},f,{1742},DC
 Orion,"{`"Post(-| )?C(risis)?`"}",f,{1742},DC
 Orion,"{`"New(-| )Earth`"}",f,{1742},DC
-Thor,"{`"Thor (DC( Comics)?)`"}",f,{1743},DC
 Raimon Tarou,"{`"Eyeshield 21`"}",t,{7612},Eyeshield 21
 Rikiya Gaou,"{`"Eyeshield 21`"}",t,{7613},Eyeshield 21
 Seijuro Shin,"{`"Eyeshield 21`"}",t,{7614},Eyeshield 21
@@ -6996,6 +6944,7 @@ Prime-Orks,{Warhammer},t,{7621},Warhammer 40k
 Beast,{(WH)?40K},f,{7621},Warhammer 40k
 Beast,{Warhammer},f,{7621},Warhammer 40k
 Overclocked Bender,{Futurama},t,{7622},Futurama
+Thor,"{`"Thor \\(DC( Comics)?\\)`"}",f,{1743},DC
 Nathaniel Angel,"{`"Huynh Phu Dat`"}",t,{7623},Huynh Phu Dat
 Yoda,{LEGO},f,{7624},LEGO Star Wars
 IG-11,"{`"Star Wars`"}",t,{7625},Star Wars
@@ -8093,8 +8042,6 @@ Demogoblin,{616},t,{2263},616
 Green Goblin,{616},t,{2264},616
 Green Goblin,{comics?},t,{2264},616
 Green Goblin,{Marvel},t,{2264},616
-Green Goblin,{2002},t,{300},Raimiverse Spider-Man
-Green Goblin,{Dafoe},t,{300},Raimiverse Spider-Man
 Green Goblin,{57780},f,{2265},57780
 Hobgoblin,{616},f,{2266},616
 Hobgoblin,{Kingsley},f,{2266},616
@@ -10680,7 +10627,6 @@ Sven,{Northlanders},f,{2797},Northlanders
 Sven the Returned,{Northlanders},t,{2797},Northlanders
 Horatio Hellpop,{Nexus},t,{2738},Nexus
 Officer Downe,{Image},t,{2798},Image Comics
-Yautja,{Predator},t,{2799},Predator
 Luke Ryan,{Provider},f,{2800},The Provider
 Rat Queens,{Image},t,{2801},Image Comics
 Marko,{Saga},f,{2802},Saga
@@ -10925,6 +10871,8 @@ Kid Loki,{Marvel},t,{2424},616
 Loki,"{`"God of Stories`"}",f,{2424},God of Stories
 Miss America,{616},t,{2426},616
 Kate Bishop,{616},t,{14921},616
+SCP-008,{Foundation},t,{21101},""
+Mr. Bean,{default},t,{21102},""
 Miss America,{Marvel},t,{2426},616
 Noh-Varr,{616},t,{2424},616
 Noh-Varr,{Marvel},t,{2424},616
@@ -25569,3 +25517,34 @@ Predator,"{`"vs\\.? Predator`"}",f,"{2799,13507}",""
 Predator,"{`"How many Predators?`"}",f,"{2799,13507}",""
 Predator,"{`"Young Predator`"}",f,"{2799,13507}",""
 Predator,{Planet},f,"{2799,13507}",""
+Yautja,{Predator},t,"{2799,13507}",Predator
+Spongebob,{Spongebob},t,{},Spongebob
+Horrorterror,{Homestuck},t,{21103},Homestuck
+Venom,{Rai?mi-?(verse)?},f,{303},Raimiverse Spider-Man
+Venom,"{`"Spider(-| )?Man 3`"}",f,{303},Raimiverse Spider-Man
+Venom,{96283},f,{303},Raimiverse Spider-Man
+Venom,{Maguire},f,{303},Raimiverse Spider-Man
+Sandman,{Rai?mi-?(verse)?},f,{6508},Raimiverse Spider-Man
+Sandman,"{`"Spider(-| )?Man 3`"}",f,{6508},Raimiverse Spider-Man
+Sandman,{96283},f,{6508},Raimiverse Spider-Man
+Sandman,{Maguire},f,{6508},Raimiverse Spider-Man
+Green Goblin,{Rai?mi-?(verse)?},f,{300},Raimiverse Spider-Man
+Green Goblin,{96283},f,{300},Raimiverse Spider-Man
+Green Goblin,{Maguire},f,{300},Raimiverse Spider-Man
+Green Goblin,{2002},f,{300},Raimiverse Spider-Man
+Green Goblin,{Dafoe},f,{300},Raimiverse Spider-Man
+Spider-Man,{Rai?mi-?(verse)?},f,{302},Raimiverse Spider-Man
+Spider-Man,{96283},f,{302},Raimiverse Spider-Man
+Spider-Man,{Maguire},f,{302},Raimiverse Spider-Man
+New Goblin,{Rai?mi-?(verse)?},f,{301},Raimiverse Spider-Man
+New Goblin,"{`"Spider(-| )?Man 3`"}",f,{301},Raimiverse Spider-Man
+New Goblin,{96283},f,{301},Raimiverse Spider-Man
+New Goblin,{Maguire},f,{301},Raimiverse Spider-Man
+Doctor Octopus,{Rai?mi-?(verse)?},f,{299},Raimiverse Spider-Man
+Doctor Octopus,"{`"Spider(-| )?Man 2`"}",f,{299},Raimiverse Spider-Man
+Doctor Octopus,{96283},f,{299},Raimiverse Spider-Man
+Doctor Octopus,{Maguire},f,{299},Raimiverse Spider-Man
+The Incredibles,"{`"The Incredibles vs`"}",t,"{1131,1128,1133,6576,1130}",""
+The Incredibles,"{`"vs\\.? The Incredibles`"}",t,"{1131,1128,1133,6576,1130}",""
+Parr Family,"{`"The Incredibles vs`"}",t,"{1131,1128,1133,6576,1130}",""
+Count Vega,{Wereworld},t,{21104},Wereworld
