@@ -58,7 +58,7 @@ def generate_footer() -> str:
     footer_text += "[^(About)]({}) ^| ".format(about_url)
     footer_text += "[^(Code)]({}) ^| ".format(code_url)
     footer_text += "[^(Opt-out)]({}) ^| ".format(opt_out_url)
-    footer_text += "^(Missing or wrong characters?) [^(Report here)]({})".format(report_url)
+    footer_text += "^(Missing or wrong characters? Reply explaining the issue)"
     return footer_text
 
 def reply_to_submission(submission, reply_text):
