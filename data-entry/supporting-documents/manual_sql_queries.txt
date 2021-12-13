@@ -27,10 +27,13 @@ DELETE FROM character WHERE default_name='Spider-Man' AND displayed_version_name
 DELETE FROM character WHERE default_name='Sandman' AND displayed_version_name='Raimiverse Spider-Man'; --Before run
 DELETE FROM character WHERE default_name='Goblin Jr' AND displayed_version_name='Raimiverse Spider-Man'; --Before run
 DELETE FROM character WHERE default_name='New Goblin' AND displayed_version_name='Raimiverse Spider-Man'; --Before run
+DELETE FROM character WHERE default_name='Doctor Octopus' AND displayed_version_name='Raimiverse Spider-Man'; --Before run
 DELETE FROM character_name WHERE name='Sandman'; --Before run
 DELETE FROM character_name WHERE name='Goblin Jr'; --Before run
 
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('The Incredibles', '(The Incredibles)', -1);
 
 ########################################
 

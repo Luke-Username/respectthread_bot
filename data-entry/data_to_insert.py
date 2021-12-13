@@ -200,6 +200,46 @@ False,
 
 ########################################
 
+add_data(['Doc Ock'],
+'Doctor Octopus',
+False,
+False,
+[
+'{"Rai?mi-?(verse)?"}', '{"Spider(-| )?Man 2"}', '{"96283"}', '{"Maguire"}'
+],
+'Raimiverse Spider-Man',
+'{299}'
+)
+#
+
+########################################
+
+add_data(['The Incredibles'],
+'The Incredibles',
+True,
+True,
+[
+'{"The Incredibles vs"}', r'{"vs\\.? The Incredibles"}'
+],
+'',
+'{1131, 1128, 1133, 6576, 1130}'
+)
+#
+
+add_data(['Parr Family', 'The Parrs'],
+'Parr Family',
+True,
+True,
+[
+'{"The Incredibles vs"}'
+],
+'',
+'{1131, 1128, 1133, 6576, 1130}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
