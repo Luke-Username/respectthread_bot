@@ -12,7 +12,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET version='{"Thor \\(DC( Comics)?\\)"}' WHERE name='Thor' AND version='{"Thor (DC( Comics)?)"}';
+
 ########################################
+
+UPDATE character SET rt_id_array='{2799, 13507}' WHERE rt_id_array='{2799}';
 
 ########################################
 
