@@ -85,8 +85,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 6170, 'Respect Sun Wukong, The Great Sage Equal to Heaven! (Chinese Mythology)', 'https://redd.it/rezybo')
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
