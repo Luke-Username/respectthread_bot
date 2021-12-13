@@ -130,6 +130,20 @@ True,
 
 ########################################
 
+add_data(['Venom'],
+'Venom',
+False,
+False,
+[
+'{"Rai?mi"}', '{"Spider(-| )?Man 3"}', '{"96283"}', '{"Maguire"}'
+],
+'Raimiverse Spider-Man',
+'{303}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

@@ -21,6 +21,8 @@ UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{918}'; --Before run
 
 ########################################
 
+DELETE FROM character WHERE default_name='Venom' AND displayed_version_name='Raimiverse Spider-Man'; --Before run
+
 ########################################
 
 ########################################
