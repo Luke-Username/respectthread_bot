@@ -17,6 +17,7 @@ UPDATE character SET version='{"Thor \\(DC( Comics)?\\)"}' WHERE name='Thor' AND
 ########################################
 
 UPDATE character SET rt_id_array='{2799, 13507}' WHERE rt_id_array='{2799}';
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{918}'; --Before run
 
 ########################################
 
