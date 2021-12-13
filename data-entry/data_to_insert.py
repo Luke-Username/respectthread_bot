@@ -240,6 +240,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Count Vega (Wereworld)', 'https://redd.it/rfm92j')
+add_data(['Count Vega'],
+'Count Vega',
+False,
+True,
+[
+'{"Wereworld"}'
+],
+'Wereworld',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rfm92j/respect_count_vega_wereworld/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
