@@ -21733,8 +21733,6 @@ Dark Shinji,"{`"Kamen Rider`"}",t,{15972},Kamen Rider
 Kamen Rider Ryuga,"{`"Kamen Rider Ryuki`"}",t,{15972},""
 Kamen Rider Thouser,"{`"Zero(-| )One`"}",t,{15973},""
 Thouser,"{`"Kamen Rider`"}",f,{15973},Kamen Rider Zero-One
-Dracula,"{`"Dracula ?(DC`"}",t,{15974},Post-Crisis
-Dracula,"{`"Dracula ?(Post(-| )?C(risis)?`"}",t,{15974},Post-Crisis
 Photon-Charged Holographic Draculas,{DC},t,{15975},Post-Crisis
 Photon-Charged Holographic Draculas,"{`"Post(-| )?C(risis)?`"}",t,{15975},Post-Crisis
 Griffin,{Jumper},f,{15976},Jumper
@@ -21753,6 +21751,7 @@ Spider-Man,"{`"Spider(-| )?Man:? Life Story`"}",f,{15985},Spider-Man: Life Story
 Wook Pyeon,"{`"Sweet Home`"}",t,{15986},Sweet Home
 Ihyun Jo,"{`"Sweet Home`"}",t,{15987},Sweet Home
 El Muerto,{616},f,{15988},616
+Dracula,"{`"Dracula ?\\(Post(-| )?C(risis)?`"}",f,{15974},Post-Crisis
 El Muerto,{Marvel},f,{15988},616
 Scarlet Beetle,{616},t,{15989},616
 Scarlet Beetle,{Marvel},t,{15989},616
@@ -25546,3 +25545,4 @@ The Incredibles,"{`"The Incredibles vs`"}",t,"{1131,1128,1133,6576,1130}",""
 The Incredibles,"{`"vs\\.? The Incredibles`"}",t,"{1131,1128,1133,6576,1130}",""
 Parr Family,"{`"The Incredibles vs`"}",t,"{1131,1128,1133,6576,1130}",""
 Count Vega,{Wereworld},t,{21104},Wereworld
+Dracula,"{`"Dracula ?\\(DC`"}",f,{15974},Post-Crisis
