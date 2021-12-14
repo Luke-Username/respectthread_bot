@@ -85,6 +85,33 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Saitama'],
+'Saitama',
+False,
+True,
+[
+'{"Saitama vs"}', r'{"vs\\. Saitama"}'
+],
+'One Punch Man',
+'{4112}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Imposter, Ashfur (Warrior Cats)', 'https://redd.it/rfuz1y')
+add_data(['Ashfur'],
+'Ashfur',
+False,
+False,
+[
+'{"Warriors?"}'
+],
+'Warrior Cats',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rfuz1y/respect_the_imposter_ashfur_warrior_cats/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
