@@ -5801,7 +5801,6 @@ Ruby,{RWBY},f,{1347},RWBY
 Ruby Rose,{RWBY},t,{1347},RWBY
 Salem,{RWBY},f,{1348},RWBY
 Sienna Khan,{RWBY},t,{1349},RWBY
-Sun Wukong,{RWBY},t,{1350},RWBY
 Team RWBY,{RWBY},t,{1351},RWBY
 Tyrian,{RWBY},f,{1352},RWBY
 Velvet,{RWBY},f,{1353},RWBY
@@ -11776,6 +11775,7 @@ Tatsuya Shiba,{Irregular},t,{12129},The Irregular at Magic High School
 Tatsuya Shiba,"{`"Mahouka Koukou no Rettousei`"}",t,{12129},The Irregular at Magic High School
 Sherlock Holmes,"{`"Sherlock( Holmes)? ?\\(DC`"}",f,{12130},DC
 Sherlock Holmes,"{`"Sherlock( Holmes)? ?\\(Earth(-| )(1|One)`"}",f,{12130},DC
+Sun Wukong,{RWBY},f,{1350},RWBY
 Sherlock Holmes,"{`"Sherlock( Holmes)? ?\\(Pre(-| )?Crisis`"}",f,{12130},DC
 Sherlock Holmes,"{`"Sherlock( Holmes)? ?\\(Silver(-| )?Age`"}",f,{12130},DC
 Sherlock Holmes,"{`"Sherlock( Holmes)? ?\\(Post(-| )?Crisis`"}",f,{12130},DC
@@ -14836,7 +14836,6 @@ Yuno Gasai,"{`"Mirai Nikki`"}",t,{4856},Mirai Nikki
 Yuno Gasai,"{`"Future Diary`"}",t,{4856},Mirai Nikki
 Yuno,"{`"Mirai Nikki`"}",f,{4856},Mirai Nikki
 Yuno,"{`"Future Diary`"}",f,{4856},Mirai Nikki
-Sun Wukong,"{`"Hero is Back`"}",t,{4857},Monkey King: Hero is Back
 Harem,"{`"Monster Musume`"}",f,{4858},Monster Musume
 Harem,"{`"Monster Girl`"}",f,{4858},Monster Musume
 Kimihito,"{`"Monster Musume`"}",t,{4858},Monster Musume
@@ -25548,3 +25547,4 @@ Dracula,"{`"Dracula ?\\(DC`"}",f,{15974},Post-Crisis
 Saitama,"{`"Saitama vs`"}",t,{4112},One Punch Man
 Saitama,"{`"vs\\. Saitama`"}",t,{4112},One Punch Man
 Ashfur,{Warriors?},f,{21105},Warrior Cats
+Sun Wukong,"{`"Hero is Back`"}",f,{4857},Monkey King: Hero is Back
