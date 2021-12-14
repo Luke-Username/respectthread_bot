@@ -5627,9 +5627,6 @@ Kenpachi Zaraki,"{`"Death Battle`"}",f,{1266},One Minute Melee
 Peacock,"{`"One Minute Melee`"}",f,{1267},One Minute Melee
 Peacock,{OMM},f,{1267},One Minute Melee
 Peacock,"{`"Death Battle`"}",f,{1267},One Minute Melee
-Saitama,"{`"One Minute Melee`"}",f,{1268},One Minute Melee
-Saitama,{OMM},f,{1268},One Minute Melee
-Saitama,"{`"Death Battle`"}",f,{1268},One Minute Melee
 Sakuya Izayoi,"{`"One Minute Melee`"}",f,{1269},One Minute Melee
 Sakuya Izayoi,{OMM},f,{1269},One Minute Melee
 Sakuya Izayoi,"{`"Death Battle`"}",f,{1269},One Minute Melee
@@ -5673,6 +5670,9 @@ Davos,"{`"Marvel Cinematic Universe`"}",f,{1290},MCU
 Davos,{MCU},f,{1290},MCU
 Davos,{199999},f,{1290},MCU
 Elektra,"{`"Marvel Cinematic Universe`"}",f,{1291},MCU
+Saitama,"{`"One Minute Melee`"}",f,"{1268,4112}",One Minute Melee
+Saitama,{OMM},f,"{1268,4112}",One Minute Melee
+Saitama,"{`"Death Battle`"}",f,"{1268,4112}",One Minute Melee
 Iron Fist,"{`"Marvel Cinematic Universe`"}",f,{1292},MCU
 Iron Fist,{MCU},f,{1292},MCU
 Iron Fist,{199999},f,{1292},MCU
@@ -6151,7 +6151,6 @@ Thing,"{`"Thing ?\\(616`"}",f,{2072},616
 Thing,"{`"Thing ?\\[616`"}",f,{2072},616
 Thing,"{`"Thing \\(Marvel`"}",f,{2072},616
 Thing,"{`"Thing \\[Marvel`"}",f,{2072},616
-Thing,{comics?},f,{2072},616
 Thing,"{`"616 Thing`"}",f,{2072},616
 Brute,"{`"Counter(-| )Earth`"}",f,{2073},616
 Brute,"{`"Brute \\(Marvel`"}",f,{2073},616
@@ -25546,3 +25545,6 @@ The Incredibles,"{`"vs\\.? The Incredibles`"}",t,"{1131,1128,1133,6576,1130}",""
 Parr Family,"{`"The Incredibles vs`"}",t,"{1131,1128,1133,6576,1130}",""
 Count Vega,{Wereworld},t,{21104},Wereworld
 Dracula,"{`"Dracula ?\\(DC`"}",f,{15974},Post-Crisis
+Saitama,"{`"Saitama vs`"}",t,{4112},One Punch Man
+Saitama,"{`"vs\\. Saitama`"}",t,{4112},One Punch Man
+Ashfur,{Warriors?},f,{21105},Warrior Cats
