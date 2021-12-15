@@ -9,7 +9,7 @@ add_data(['Sully'],
 False,
 False,
 [
-    ["Monsters,? Inc"]
+    ['Monsters,? Inc']
 ],
 'Monsters, Inc.',
 '{' + '{}'.format(id) + '}'
@@ -107,6 +107,105 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4990, "Respect Asura! (Asura''s Wrath)", 'https://redd.it/7j5vhn')
+
+########################################
+
+add_data(['Dracula'],
+'Dracula',
+False,
+False,
+[
+    ['Castlevania']
+],
+'Castlevania',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rgjp5i/dracula_castlevania_vs_merged_zamasu_dbs/
+
+########################################
+
+add_data(['Bart Allen'],
+'Bart Allen',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse']
+],
+'CW Arrowverse',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rghh8m/all_ten_main_speedsters_from_the_flash_arrowverse/hok7kg0/?context=3
+
+########################################
+
+add_data(['Barry Allen'],
+'Barry Allen',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+],
+'CW Arrowverse',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rghh8m/all_ten_main_speedsters_from_the_flash_arrowverse/hok7kg0/?context=3
+
+########################################
+
+add_data(['Hunter Zolomon'],
+'Hunter Zolomon',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+],
+'CW Arrowverse',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rghh8m/all_ten_main_speedsters_from_the_flash_arrowverse/hok7kg0/?context=3
+
+########################################
+
+add_data(['Godspeed'],
+'Godspeed',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse']
+],
+'CW Arrowverse',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rghh8m/all_ten_main_speedsters_from_the_flash_arrowverse/hok7kg0/?context=3
+
+########################################
+
+add_data(['Wally West'],
+'Wally West',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+],
+'CW Arrowverse',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rghh8m/all_ten_main_speedsters_from_the_flash_arrowverse/hok7kg0/?context=3
+
+########################################
+
+add_data(['Kid Flash'],
+'Kid Flash',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+],
+'CW Arrowverse',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rghh8m/all_ten_main_speedsters_from_the_flash_arrowverse/hok7kg0/?context=3
 
 ########################################
 

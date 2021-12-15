@@ -12,6 +12,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character WHERE default_name='Dracula' AND version='{"Dracula \\(Composite"}'; --Before Run
+
 ########################################
 
 ########################################

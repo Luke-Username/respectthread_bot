@@ -161,7 +161,7 @@ Archie Comics
 
 Arrowverse
 	Version
-		'{"(Fl)?arrow(-| )?verse"}', '{"(DC)?CW"}', '{"DC ?TV"}'
+		['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
 	Displayed Version Name
 		"CW Arrowverse"
 
