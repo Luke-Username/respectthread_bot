@@ -7844,7 +7844,6 @@ Muscle Kim,"{`"Fight Club Kindergarten`"}",f,{8269},Fight Club Kindergarten
 Ryu,"{`"Asura's Wraith`"}",f,{8270},Asura's Wraith
 Dracula,"{`"Dracula ?\\(Marvel`"}",f,{2205},616
 Dracula,"{`"Dracula ?\\[Marvel`"}",f,{2205},616
-Dracula,"{`"Dracula \\(Composite`"}",f,{2205},616
 Miss Martian,"{`"Justice League vs. the Fatal Five`"}",f,{8272},Justice League vs. the Fatal Five
 Jessica Cruz,"{`"Justice League vs. the Fatal Five`"}",f,{8273},Justice League vs. the Fatal Five
 Superman,"{`"Superman For All Seasons`"}",f,{8274},Superman For All Seasons
@@ -8049,9 +8048,6 @@ Hobgoblin,"{`"Spider(-| )?Man`"}",f,{2266},616
 Doctor Octopus,{616},t,{2267},616
 Doctor Octopus,{Marvel},t,{2267},616
 Doctor Octopus,{comics?},t,{2267},616
-Electro,{616},t,{2268},616
-Electro,{Marvel},t,{2268},616
-Electro,{comics?},t,{2268},616
 Kraven,{616},t,{2269},616
 Kraven,{Marvel},t,{2269},616
 Kraven,{comics?},t,{2269},616
@@ -8077,6 +8073,9 @@ Vulture,{Marvel},f,{2272},616
 Vulture,"{`"Sinister Six`"}",f,{2272},616
 Vulture,"{`"Spider(-| )?Man villains?`"}",f,{2272},616
 Beetle,"{`"Janice Lincoln`"}",f,{2273},Janice Lincoln
+Electro,{616},f,{2268},616
+Electro,{Marvel},f,{2268},616
+Electro,{comics?},f,{2268},616
 Boomerang,{616},f,{2274},616
 Boomerang,{Marvel},f,{2274},616
 Boomerang,"{`"Sinister Six`"}",f,{2274},616
@@ -23481,7 +23480,6 @@ Dreamy Luigi,"{`"M ?& ?L`"}",t,{16790},Mario & Luigi
 Bowser,"{`"Mario (&|and) Luigi`"}",f,{16791},Mario & Luigi
 Bowser,"{`"M ?& ?L`"}",f,{16791},Mario & Luigi
 Mario & Luigi,"{`"M ?& ?L`"}",t,{16792},""
-Demogorgon,"{`"Stranger Things`"}",t,{16793},Stranger Things
 Captain America,{3931},f,{16794},3931
 Captain America,"{`"Vampire Captain America`"}",f,{16794},3931
 Captain America,"{`"Vampire King`"}",f,{16794},3931
@@ -25567,3 +25565,8 @@ Wally West,"{`"DC ?TV`"}",f,{},CW Arrowverse
 Kid Flash,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
 Kid Flash,{(DC)?CW},f,{},CW Arrowverse
 Kid Flash,"{`"DC ?TV`"}",f,{},CW Arrowverse
+Demogorgon,"{`"Stranger Things`"}",f,{16793},Stranger Things
+Buffy,"{`"Buffy vs`"}",f,{36},Buffy the Vampire Slayer
+Buffy,"{`"vs\\.? Buffy`"}",f,{36},Buffy the Vampire Slayer
+Kira,"{`"Death Note`"}",f,{},Death Note
+Kira,{Light},f,{},Death Note

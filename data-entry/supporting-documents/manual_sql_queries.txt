@@ -12,11 +12,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Dracula' AND version='{"Dracula \\(Composite"}'; --Before Run
-UPDATE character SET is_default=FALSE WHERE default_name='Demogorgon'; --Before run
-UPDATE character SET is_default=FALSE WHERE default_name='Electro' AND displayed_version_name='616'; --Before run
-UPDATE charcter_name SET name='Koichi Hirose' WHERE name='Koichi';
-
 ########################################
 
 ########################################
