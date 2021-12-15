@@ -9,7 +9,7 @@ add_data(['Sully'],
 False,
 False,
 [
-'{"Monsters,? Inc"}'
+    ["Monsters,? Inc"]
 ],
 'Monsters, Inc.',
 '{' + '{}'.format(id) + '}'
@@ -37,6 +37,7 @@ version_lists = []
 displayed_version_names = []
 rt_id_arrays = []
 num_chars = []
+default_chars = []
 
 def get_rt_id(cur, title, link):
     query = "SELECT COUNT(*) FROM respectthread WHERE link = '{}';".format(link)
@@ -52,20 +53,41 @@ def get_rt_id(cur, title, link):
         cur.execute("SELECT id FROM respectthread WHERE link = '{}'".format(link))
         return cur.fetchone()[0];
 
+def is_valid_regex(string: str) -> bool:
+    try:
+        re.compile(string)
+        return True
+    except re.error:
+        print("WARNING: {} is not a valid regular expression!".format(string))
+        return False
+
 def add_data(name_list, default_name, is_team, is_default, version_list, displayed_version_name, rt_id_array):
     # Check if the names are valid regular expressions
-    for name in name_list:    
-        try:
-            re.compile(name)
-        except re.error:
-            print("WARNING: {} is not a valid regular expression!".format(name))
+    formatted_name_list = []
+    for name in name_list:
+        if not is_valid_regex(name):
             return
+        else:
+            # Turn the name into a string acceptable for PostgreSQL
+            formatted_name_list.append(name.replace('\\', '\\\\'))
 
-    name_lists.append(name_list)
+    formatted_version_list = []
+    for version in version_list:
+        version_array_string = '{'
+        for regex in version:
+            if not is_valid_regex(regex):
+                return
+            else:
+                version_array_string += '"{}",'.format(regex.replace('\\', '\\\\'))
+        
+        version_array_string = version_array_string.strip(',') + '}'
+        formatted_version_list.append(version_array_string)
+
+    name_lists.append(formatted_name_list)
     default_names.append(default_name)
     is_team_list.append(is_team)
     is_default_list.append(is_default)
-    version_lists.append(version_list)
+    version_lists.append(formatted_version_list)
     displayed_version_names.append(displayed_version_name)
     rt_id_arrays.append(rt_id_array)
     num_chars.append(True)
@@ -84,6 +106,7 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
 
 ########################################
 
@@ -121,9 +144,18 @@ for i in range(len(num_chars)):
     insert_character_name(cur, name_lists[i], default_names[i], is_team_list[i])
     insert_character(cur, default_names[i], version_lists[i], is_default_list[i], rt_id_arrays[i], displayed_version_names[i])
 
+    if is_default_list[i]:
+        default_chars.append(default_names[i])
+
 con.commit()
 print("Committed")
 
 # Close the cursor and connection
 cur.close()
 con.close()
+
+if len(default_chars) > 0:
+    print()
+    print('These characters are set to default. Please double check this is correct:')
+    for character in default_chars:
+        print(character)
