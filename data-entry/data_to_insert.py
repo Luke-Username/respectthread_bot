@@ -107,6 +107,36 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 617, 'Respect Marceline Abadeer (Adventure Time)', 'https://redd.it/d1uiad')
+
+########################################
+
+add_data(['Buffy'],
+'Buffy',
+False,
+False,
+[
+    ['Buffy vs'], ['vs\.? Buffy']
+],
+'Buffy the Vampire Slayer',
+'{36}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rh9q2j/buffy_vs_black_widow_natasha_and_hawkeye_mcu_at/
+
+########################################
+
+add_data(['Kira'],
+'Kira',
+False,
+False,
+[
+    ['Death Note'], ['Light']
+],
+'Death Note',
+'{}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
