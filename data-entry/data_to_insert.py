@@ -107,18 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Tighten'],
-'Tighten',
-False,
-False,
-[
-    ['Tighten vs'], ['vs\.? Tighten'],
-    ['Metrocity'], ['Roxanne']
-],
-'Megamind',
-'{1220}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/rg8si3/tighten_vs_tricky_the_clown/hoinfzq/?context=3
 
 ########################################
 
