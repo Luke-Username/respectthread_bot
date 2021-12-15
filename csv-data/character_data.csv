@@ -12340,6 +12340,7 @@ Wario,{SMBZ},f,{9358},Super Mario Bros. Z
 Wario,"{`"Super Mario Bros.? Z`"}",f,{9358},Super Mario Bros. Z
 Wario,"{`"Super Mario Brothers Z`"}",f,{9358},Super Mario Bros. Z
 Waluigi,{SMBZ},f,{9358},Super Mario Bros. Z
+Dracula,{Castlevania},f,{},Castlevania
 Waluigi,"{`"Super Mario Bros.? Z`"}",f,{9358},Super Mario Bros. Z
 Waluigi,"{`"Super Mario Brothers Z`"}",f,{9358},Super Mario Bros. Z
 Wario and Waluigi,{SMBZ},f,{9358},Super Mario Bros. Z
@@ -25552,3 +25553,17 @@ Tighten,"{`"Tighten vs`"}",f,{1220},Megamind
 Tighten,"{`"vs\\.? Tighten`"}",f,{1220},Megamind
 Tighten,{Metrocity},f,{1220},Megamind
 Tighten,{Roxanne},f,{1220},Megamind
+Bart Allen,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
+Barry Allen,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
+Barry Allen,{(DC)?CW},f,{},CW Arrowverse
+Barry Allen,"{`"DC ?TV`"}",f,{},CW Arrowverse
+Hunter Zolomon,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
+Hunter Zolomon,{(DC)?CW},f,{},CW Arrowverse
+Hunter Zolomon,"{`"DC ?TV`"}",f,{},CW Arrowverse
+Godspeed,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
+Wally West,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
+Wally West,{(DC)?CW},f,{},CW Arrowverse
+Wally West,"{`"DC ?TV`"}",f,{},CW Arrowverse
+Kid Flash,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
+Kid Flash,{(DC)?CW},f,{},CW Arrowverse
+Kid Flash,"{`"DC ?TV`"}",f,{},CW Arrowverse
