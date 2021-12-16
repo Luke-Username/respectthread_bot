@@ -5179,7 +5179,6 @@ Alex Victory,"{`"Heir to the Stars`"}",t,{5980},Suggsverse
 Cire Lostsanctum,{Suggs(verse)?},t,{5985},Suggsverse
 Cire Lostsanctum,"{`"Heir to the Stars`"}",t,{5985},Suggsverse
 Composite Link,"{Zelda,composite}",t,{5208},""
-Ganondorf,{composite},t,{5210},Composite
 Ganondorf,"{`"Twilight Princess`"}",f,{5225},Twilight Princess
 Ganondorf,"{`"Ocarina of Time`"}",f,{5218},Ocarina of Time
 Ganondorf,{OOT},f,{5218},Ocarina of Time
@@ -14932,7 +14931,6 @@ Harima,{Phoenix},f,{14334},Phoenix
 Genoboyle,"{`"Monster of Earth`"}",t,{14335},Monster of Earth
 Midnight,{Tezuka},f,{14336},Osamu Tezuka
 Kamen Rider ZO,{manga},t,{14337},""
-Remina,"{`"Hellstar Remina`"}",t,{14338},Hellstar Remina
 Prototype Suit,{Halo},f,{14339},Halo
 HRUNTING/YGGDRASIL Mark I,{Halo},t,{14339},Halo
 Saber Alter,{Fate},t,"{6257,14340}",Fate
@@ -25591,3 +25589,4 @@ Buddha,"{`"Composite Buddha`"}",t,{21114},Mahāyāna
 Buddha,"{`"Journey To The West`"}",t,{21114},Mahāyāna
 Buddha,"{`"Record of Ragnarok`"}",f,{},Record of Ragnarok
 Buddha,"{`"Saint Oniisan`"}",f,{},Saint Oniisan
+Remina,"{`"Hellstar Remina`"}",f,{14338},Hellstar Remina
