@@ -1,0 +1,1 @@
+There are multiple characters named Sakura so none of them should be linked by default

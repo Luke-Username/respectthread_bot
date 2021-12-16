@@ -15,8 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Sakura' AND displayed_version_name='Danganronpa';
-
 ########################################
 
 ########################################

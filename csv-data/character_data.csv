@@ -15578,7 +15578,6 @@ Nagito Komaeda,"{`"Dangan ?ronpa`"}",t,{5019},Danganronpa
 Nekomaru Nidai,"{`"Dangan ?ronpa`"}",t,{5020},Danganronpa
 Peko Pekoyama,"{`"Dangan ?ronpa`"}",t,{5021},Danganronpa
 Sakura Ogami,"{`"Dangan ?ronpa`"}",t,{5022},Danganronpa
-Sakura,"{`"Dangan ?ronpa`"}",t,{5022},Danganronpa
 Fury,{Darksiders},f,{5565},Darksiders
 Artorias,{Souls},t,{5023},Dark Souls
 Artorias,{Soulsborne},t,{5023},Dark Souls
@@ -25584,3 +25583,11 @@ Blaze the Cat,{Sonic},t,{21111},Sonic the Hedgehog
 Yamato,"{`"Yamato ?\\(One ?Piece?`"}",f,{21112},One Piece
 Yamato,"{`"One Piece`",Nami}",f,{21112},One Piece
 Leonard Burns,"{`"Fire ?Force`"}",t,{21113},Fire Force
+Sakura,"{`"Dangan ?ronpa`"}",f,{5022},Danganronpa
+Buddha,{Mah(ā|a)y(ā|a)na},t,{21114},Mahāyāna
+Buddha,{Buddhism},t,{21114},Mahāyāna
+Buddha,{Enlighten(ment|ed)},t,{21114},Mahāyāna
+Buddha,"{`"Composite Buddha`"}",t,{21114},Mahāyāna
+Buddha,"{`"Journey To The West`"}",t,{21114},Mahāyāna
+Buddha,"{`"Record of Ragnarok`"}",f,{},Record of Ragnarok
+Buddha,"{`"Saint Oniisan`"}",f,{},Saint Oniisan
