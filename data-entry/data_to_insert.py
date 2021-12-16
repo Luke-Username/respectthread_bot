@@ -144,7 +144,7 @@ for i in range(len(num_chars)):
     insert_character(cur, default_names[i], version_lists[i], is_default_list[i], rt_id_arrays[i], displayed_version_names[i])
 
     if is_default_list[i]:
-        default_chars.append(default_names[i])
+        default_chars.append({ "name": default_names[i], "version": version_lists[i] })
 
 con.commit()
 print("Committed")
@@ -157,4 +157,5 @@ if len(default_chars) > 0:
     print()
     print('These characters are set to default. Please double check this is correct:')
     for character in default_chars:
-        print(character)
+        print(character["name"])
+        print("\t" + character["version"])
