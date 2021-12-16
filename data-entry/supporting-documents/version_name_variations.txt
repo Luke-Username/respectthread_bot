@@ -1000,7 +1000,7 @@ Fire Emblem
 
 Fire Force
 	Version
-		'{"Fire ?Force"}'
+		['Fire ?Force']
 	Displayed Version Name
 		"Fire Force"
 
@@ -2279,14 +2279,14 @@ Nasuverse
 	
 	Fate
 		Version
-			'{"Fate"}'
+			['Fate']
 		Specific
-			'{"Stay/? ?k?Night"}', '{"F/?SN"}'
-			'{"Fate( ?/ ?| )Zero"}'
-			'{"Apoc(rypha)?"}'
-			'{"Grande? Order"}', '{"F(ate )?/?GO"}'
+			['Stay/? ?k?Night'], ['F/?SN']
+			['Fate( ?/ ?| )Zero']
+			['Apoc(rypha)?']
+			['Grande? Order'], ['F(ate )?/?GO']
 		Other
-			'{"Serv(a|e)nts?"}'
+			['Serv(a|e)nts?']
 		Displayed Version Name
 			"Fate"
 		
@@ -2383,16 +2383,16 @@ One Minute Melee
 
 One Piece
 	Version
-		'{"One ?Piece?"}'
+		['One ?Piece?']
 	Acronyms
-		'{"OP"}'
+		['OP']
 	Sometimes Called
-		'{"CP ?9"}', '{"Cipher Pol( Number)? 9"}'
-		'{"Donquixote"}', '{"Doflamingo"}', '{"Luffy"}', '{"Zoro"}', '{"Sanji"}'
-		'{"Devil(-| )Fruit"}'
-		'{"Straw ?Hats?"}'
-		'{"Skyp(ei|ie)a"}'
-		r'{"charname ?\\(One ?Piece"}'
+		['CP ?9'], ['Cipher Pol( Number)? 9']
+		['Donquixote'], ['Doflamingo'], ['Luffy'], ['Zoro'], ['Sanji']
+		['Devil(-| )Fruit']
+		['Straw ?Hats?']
+		['Skyp(ei|ie)a']
+		['charname ?\(One ?Piece']
 	Displayed Version Name
 		"One Piece"
 
@@ -2757,7 +2757,7 @@ RPC Authority
 
 RWBY
 	Version
-		'{"RWBY"}'
+		['RWBY']
 	Displayed Version Name
 		"RWBY"
 
@@ -2931,11 +2931,11 @@ Something Series
 
 Sonic the Hedgehog
 	Version
-		'{"Sonic the Hedgehog"}'
+		['Sonic the Hedgehog']
 	If character name == "Sonic"
-		'{"Sonic vs"}', '{"vs\.? Sonic"}', '{"Sonic could beat"}'
+		['Sonic vs'], ['vs\.? Sonic'], ['Sonic could beat']
 	If character name == "Chaos"
-		r'{"Chaos \\(Sonic"}', '{"vs\.? Chaos", "Sonic"}', '{"Chaos vs", "Sonic"}'
+		['Chaos \(Sonic'], ['vs\.? Chaos', 'Sonic'], ['Chaos vs', 'Sonic']
 	Displayed Version Name
 		"Sonic the Hedgehog"
 
