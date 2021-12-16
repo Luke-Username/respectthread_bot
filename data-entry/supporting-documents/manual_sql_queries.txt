@@ -12,12 +12,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=TRUE WHERE default_name='Goku Black'; --Before run
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Sigurd, the King of Warriors! (Fate)', 'https://redd.it/rggv7q'); SELECT * FROM respectthread WHERE link='https://redd.it/rggv7q';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Sigurd' AND displayed_version_name='Fate'; --Before run
 
 ########################################
 

@@ -6695,7 +6695,6 @@ Robot Santa,{Futurama},f,{7582},Futurama
 Megatron,"{`"Transformers:? Prime`"}",f,{7583},Transformers: Prime
 Santron,{616},t,{7584},616
 Larry,"{`"Doubutsu Sentai Zyuohger`"}",f,{7585},Doubutsu Sentai Zyuohger
-Goku Black,"{`"Dragon Ball`"}",f,"{7586,3265}",Dragon Ball
 Spider-Man,{Mangaverse},f,{7587},2301
 Spider-Man,{2301},f,{7587},2301
 Carol Danvers,{Mangaverse},f,{7588},2301
@@ -12475,6 +12474,7 @@ Roy Mustang,"{`"Full ?metal`"}",t,"{12167,3412,9295}",Fullmetal Alchemist
 Roy Mustang,{FMA},t,"{12167,3412,9295}",Fullmetal Alchemist
 Hanayama Kaoru,{Baki},t,{7413},Baki the Grappler
 Kaku Kaioh,{Baki},t,{7703},Baki the Grappler
+Anastasia,{Fate},f,{21107},Fate
 Miyamoto Musashi,{Baki},f,{11126},Baki the Grappler
 Erin,{SnK},f,{3055},Attack on Titan
 Female Titan,"{`"Attack on Titan`"}",t,{3056},Attack on Titan
@@ -24553,7 +24553,6 @@ Siegfried,{Nibelungenlied},f,{20319},The Nibelungenlied
 Siegfried,{myth?(ical|olog(y|ical))?},f,{20319},The Nibelungenlied
 Sigurd,{Nibelungenlied},f,{20319},The Nibelungenlied
 Sigurd,{myth?(ical|olog(y|ical))?},f,{20319},The Nibelungenlied
-Sigurd,{Fate},f,{},Fate
 Siegfried,{Fate},f,{},Fate
 Tommy Oliver,"{`"Bat ?in ?the ?Sun`"}",f,{20320},Bat in the Sun
 Green Ranger,"{`"Bat ?in ?the ?Sun`"}",f,{20320},Bat in the Sun
@@ -25570,3 +25569,18 @@ Buffy,"{`"Buffy vs`"}",f,{36},Buffy the Vampire Slayer
 Buffy,"{`"vs\\.? Buffy`"}",f,{36},Buffy the Vampire Slayer
 Kira,"{`"Death Note`"}",f,{},Death Note
 Kira,{Light},f,{},Death Note
+Goku Black,"{`"Dragon Ball`"}",t,"{7586,3265}",Dragon Ball
+Sigurd,{Fate},f,{21106},Fate
+Anastasia,"{`"Grande? Order`"}",f,{21107},Fate
+Anastasia,"{`"F(ate )?/?GO`"}",f,{21107},Fate
+Aśvatthāman,{Fate},f,{21108},Fate
+Aśvatthāman,"{`"Grande? Order`"}",f,{21108},Fate
+Aśvatthāman,"{`"F(ate )?/?GO`"}",f,{21108},Fate
+Ashwatthama,"{`"Grande? Order`"}",f,{21108},Fate
+Ashwatthama,"{`"F(ate )?/?GO`"}",f,{21108},Fate
+Carmine Esclados,{RWBY},t,{21109},RWBY
+Chaos Emeralds,{Sonic},t,{21110},Sonic the Hedgehog
+Blaze the Cat,{Sonic},t,{21111},Sonic the Hedgehog
+Yamato,"{`"Yamato ?\\(One ?Piece?`"}",f,{21112},One Piece
+Yamato,"{`"One Piece`",Nami}",f,{21112},One Piece
+Leonard Burns,"{`"Fire ?Force`"}",t,{21113},Fire Force
