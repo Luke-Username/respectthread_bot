@@ -107,6 +107,48 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 808, 'Respect Avatar Korra (The Legend of Korra)', 'https://redd.it/rhjdpy')
+update_respectthread(cur, 20206, 'Respect The Thousand! (Marvel, 616)', 'https://redd.it/rhoj4v')
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Buddha, The Perfectly Enlightened One! (Mahāyāna)', 'https://redd.it/rhdt6k')
+add_data(['Buddha'],
+'Buddha',
+False,
+True,
+[
+    ['Mah(ā|a)y(ā|a)na'], ['Buddhism'], ['Enlighten(ment|ed)'], ['Composite Buddha'], ['Journey To The West']
+],
+'Mahāyāna',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rhdt6k/respect_the_buddha_the_perfectly_enlightened_one/
+
+add_data(['Buddha'],
+'Buddha',
+False,
+False,
+[
+    ['Record of Ragnarok']
+],
+'Record of Ragnarok',
+'{}'
+)
+#
+
+add_data(['Buddha'],
+'Buddha',
+False,
+False,
+[
+    ['Saint Oniisan']
+],
+'Saint Oniisan',
+'{}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

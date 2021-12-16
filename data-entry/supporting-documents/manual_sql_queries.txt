@@ -6,11 +6,16 @@ INSERT INTO respectthread (title, link) VALUES ('', ''); SELECT * FROM respectth
 
 INSERT INTO character_name (name, default_name) VALUES ('', '', FALSE);
 
+UPDATE character SET is_default=FALSE WHERE...
+
 UPDATE character SET rt_id_array='' WHERE...
 
 UPDATE character_name SET name='' WHERE...
 
+
 ########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='Sakura' AND displayed_version_name='Danganronpa';
 
 ########################################
 
