@@ -107,110 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 20206, 'Respect the Thousand (Marvel, 616)', 'https://redd.it/qjxjuj')
-
-########################################
-
-add_data(['Sherlock'],
-'Sherlock Holmes',
-False,
-False,
-[
-    ['\( ?Elementary'], ["Elementary''s Sherlock"], ['from Elementary'], ['Elementary Sherlock'], ['spoilers for.*Elementary']
-],
-'Elementary',
-'{}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/ri02yy/whos_the_dumbest_criminal_who_could_beat_a_team/
-
-########################################
-
-add_data(['Accelerator'],
-'Accelerator',
-False,
-False,
-[
-    ['Accelerator vs'], ['vs\.? Accelerator'], ['vectors?'], ['wings'], ['Raildex'], ['max wank'], ['Accel']
-],
-'Toaru Majutsu no Index',
-'{4449}'
-)
-#
-
-########################################
-
-add_data(['Gwen'],
-'Gwen',
-False,
-False,
-[
-    ['Peter', 'Miles']
-],
-'65',
-'{2249}'
-)
-#
-
-########################################
-
-id = get_rt_id(cur, 'Respect Spiders-Man! (Marvel, Earth 11580)', 'https://redd.it/rhpw7f')
-add_data(['Spiders(-| )Man'],
-'Spiders-Man',
-False,
-True,
-[
-    ['11580']
-],
-'11580',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/rhpw7f/respect_spidersman_marvel_earth_11580/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Amao (Croczilla)', 'https://redd.it/rhqexs')
-add_data(['Amao'],
-'Amao',
-False,
-False,
-[
-    ['Croczilla']
-],
-'Croczilla',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/rhqexs/respect_amao_croczilla/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Yuu Amanai (Baki)', 'https://redd.it/rhulej')
-add_data(['Yuu Amanai'],
-'Yuu Amanai',
-False,
-True,
-[
-    ['Baki']
-],
-'Baki',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/rhulej/respect_yuu_amanai_baki/
-
-########################################
-
-id = get_rt_id(cur, 'Respect SCP-749, Rain Drops (SCP Foundation)', 'https://redd.it/ri5ich')
-add_data(['SCP(-| )?749'],
-'SCP-749',
-False,
-True,
-[
-    ['Foundation']
-],
-'',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/ri5ich/respect_scp749_rain_drops_scp_foundation/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
@@ -262,4 +158,4 @@ if len(default_chars) > 0:
     print('These characters are set to default. Please double check this is correct:')
     for character in default_chars:
         print(character["name"])
-        print("\t" + character["version"])
+        print("\t" + str(character["version"]))

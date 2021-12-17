@@ -12400,9 +12400,6 @@ Touma,{TAMNI},t,{4450},Toaru Majutsu no Index
 Touma Kamijou,"{`"To ?aru`"}",t,{4450},Toaru Majutsu no Index
 Touma Kamijou,{Index(verse)?},t,{4450},Toaru Majutsu no Index
 Touma Kamijou,{TAMNI},t,{4450},Toaru Majutsu no Index
-Accelerator,"{`"To ?aru`"}",t,{4449},Toaru Majutsu no Index
-Accelerator,{Index(verse)?},t,{4449},Toaru Majutsu no Index
-Accelerator,{TAMNI},t,{4449},Toaru Majutsu no Index
 Yondu,"{`"End ?game`"}",f,{13485},MCU
 Avengers,"{`"End ?game`"}",f,"{233,247,237,264,236,244,235,270,268,242,271,256}",MCU
 Matt Cordell,"{`"Maniac Cop`"}",t,{12134},Maniac Cop
@@ -12471,10 +12468,7 @@ Hardrock,{616},f,{12165},616
 Vita Slatter,{Crowded},t,{12166},Crowded
 Roy Mustang,"{`"Full ?metal`"}",t,"{12167,3412,9295}",Fullmetal Alchemist
 Roy Mustang,{FMA},t,"{12167,3412,9295}",Fullmetal Alchemist
-Hanayama Kaoru,{Baki},t,{7413},Baki the Grappler
-Kaku Kaioh,{Baki},t,{7703},Baki the Grappler
 Anastasia,{Fate},f,{21107},Fate
-Miyamoto Musashi,{Baki},f,{11126},Baki the Grappler
 Erin,{SnK},f,{3055},Attack on Titan
 Female Titan,"{`"Attack on Titan`"}",t,{3056},Attack on Titan
 Female Titan,"{`"Shingeki no Kyojin`"}",t,{3056},Attack on Titan
@@ -12525,19 +12519,6 @@ Zeke Yeager,"{`"Attack on Titan`"}",t,{3060},Attack on Titan
 Zeke Yeager,"{`"Shingeki no Kyojin`"}",t,{3060},Attack on Titan
 Zeke Yeager,{AOT},t,{3060},Attack on Titan
 Zeke Yeager,{SnK},t,{3060},Attack on Titan
-Baki,"{`"Baki vs.?`"}",f,{3446},Baki the Grappler
-Baki,"{`"vs.? Baki`"}",f,{3446},Baki the Grappler
-Baki Hanma,"{`"Baki the Grappler`"}",t,{3446},Baki the Grappler
-Biscuit Oliva,{Baki},t,{3447},Baki the Grappler
-Oliva,{Baki},t,{3447},Baki the Grappler
-Oliva,{Hanayama},t,{3447},Baki the Grappler
-Oliva,"{`"(5|five) (Prisoners|Convicts)`"}",t,{3447},Baki the Grappler
-Oliva,{grapplers?},t,{3447},Baki the Grappler
-Doppo Orochi,{Baki},t,{3448},Baki the Grappler
-Dorian,{Baki},t,{3449},Baki the Grappler
-Pickle,{Baki},f,{3451},Baki the Grappler
-Yujiro,{Baki},f,{3452},Baki the Grappler
-Yujiro Hanma,{Baki},t,{3452},Baki the Grappler
 Dark Schneider,{Bastard},t,{3061},Bastard!!
 Satan,"{`"Satan ?\\(Bastard`"}",f,{3062},Bastard!!
 Satan,{Bastard!},f,{3062},Bastard!!
@@ -15276,10 +15257,6 @@ Nyx,"{`"Lupin the (3|III|Thi)rd`"}",f,{14454},Lupin III
 Fatalis,"{`"Monster Hunter`"}",t,{14455},Monster Hunter
 Nergigante,"{`"Monster Hunter`"}",t,{14456},Monster Hunter
 Venom,"{`"Spider(-| )?Man Training Studio`"}",f,{14457},The Amazing Spider-Man Training Studio
-Retsu Kaioh,{Baki},t,{14458},Baki the Grappler
-Retsu,{Baki},f,{14458},Baki the Grappler
-Goki Shibukawa,{Baki},t,{14459},Baki the Grappler
-Goki,{Baki},f,{14459},Baki the Grappler
 Shy,"{`"Shy ?\\(SHY`"}",f,{14460},SHY
 Shy,{Bukimi},f,{14460},SHY
 Mayhem,{982},f,{14461},982
@@ -21843,7 +21820,6 @@ No,"{`"No ?\\(Spread`"}",f,{16029},Image Comics
 No,"{`"No ?\\(Image`"}",f,{16029},Image Comics
 Genjo Sanzo,"{`"Read or Die`"}",f,{16030},Read or Die
 Hiraga Gennai,"{`"Read or Die`"}",f,{16031},Read or Die
-Mouth,{Baki},f,{16032},Baki the Grappler
 Joker,{Sataneal},f,{5355},Persona
 Foil,{Worm},f,{6076},Worm
 Foil,{Flechette},f,{6076},Worm
@@ -25391,8 +25367,6 @@ Kang the Conqueror,{EMH},f,{21055},Earth's Mightiest Heroes
 Drusilla,{Buffy(verse)?},t,{21056},Buffy the Vampire Slayer
 ShadowHawk,{Image},t,{21057},Image Comics
 Black Tyrannosaurus,"{`"Dinosaur King`"}",t,{21058},Dinosaur King
-Alexander Gallen,{Baki},t,{21059},Baki the Grappler
-Jun Guevaru,{Baki},t,{21060},Baki the Grappler
 Amarendra,{Baahubali},f,{21061},Baahubali
 Mahendra,{Baahubali},f,{21062},Baahubali
 Shiva,{Baahubali},f,{21062},Baahubali
@@ -25590,3 +25564,46 @@ Buddha,"{`"Journey To The West`"}",t,{21114},Mahāyāna
 Buddha,"{`"Record of Ragnarok`"}",f,{},Record of Ragnarok
 Buddha,"{`"Saint Oniisan`"}",f,{},Saint Oniisan
 Remina,"{`"Hellstar Remina`"}",f,{14338},Hellstar Remina
+Accelerator,"{`"To ?aru`"}",f,{4449},Toaru Majutsu no Index
+Accelerator,{Index(verse)?},f,{4449},Toaru Majutsu no Index
+Accelerator,{TAMNI},f,{4449},Toaru Majutsu no Index
+Hanayama Kaoru,{Baki},t,{7413},Baki
+Kaku Kaioh,{Baki},t,{7703},Baki
+Miyamoto Musashi,{Baki},f,{11126},Baki
+Baki,"{`"Baki vs.?`"}",f,{3446},Baki
+Baki,"{`"vs.? Baki`"}",f,{3446},Baki
+Baki Hanma,"{`"Baki the Grappler`"}",t,{3446},Baki
+Biscuit Oliva,{Baki},t,{3447},Baki
+Oliva,{Baki},t,{3447},Baki
+Oliva,{Hanayama},t,{3447},Baki
+Oliva,"{`"(5|five) (Prisoners|Convicts)`"}",t,{3447},Baki
+Oliva,{grapplers?},t,{3447},Baki
+Doppo Orochi,{Baki},t,{3448},Baki
+Dorian,{Baki},t,{3449},Baki
+Pickle,{Baki},f,{3451},Baki
+Yujiro,{Baki},f,{3452},Baki
+Yujiro Hanma,{Baki},t,{3452},Baki
+Retsu Kaioh,{Baki},t,{14458},Baki
+Retsu,{Baki},f,{14458},Baki
+Goki Shibukawa,{Baki},t,{14459},Baki
+Goki,{Baki},f,{14459},Baki
+Mouth,{Baki},f,{16032},Baki
+Alexander Gallen,{Baki},t,{21059},Baki
+Jun Guevaru,{Baki},t,{21060},Baki
+Sherlock Holmes,"{`"\\( ?Elementary`"}",f,{},Elementary
+Sherlock Holmes,"{`"Elementary's Sherlock`"}",f,{},Elementary
+Sherlock Holmes,"{`"from Elementary`"}",f,{},Elementary
+Sherlock Holmes,"{`"Elementary Sherlock`"}",f,{},Elementary
+Sherlock Holmes,"{`"spoilers for.*Elementary`"}",f,{},Elementary
+Accelerator,"{`"Accelerator vs`"}",f,{4449},Toaru Majutsu no Index
+Accelerator,"{`"vs\\.? Accelerator`"}",f,{4449},Toaru Majutsu no Index
+Accelerator,{vectors?},f,{4449},Toaru Majutsu no Index
+Accelerator,{wings},f,{4449},Toaru Majutsu no Index
+Accelerator,{Raildex},f,{4449},Toaru Majutsu no Index
+Accelerator,"{`"max wank`"}",f,{4449},Toaru Majutsu no Index
+Accelerator,{Accel},f,{4449},Toaru Majutsu no Index
+Gwen,"{Peter,Miles}",f,{2249},65
+Spiders-Man,{11580},t,{21115},11580
+Amao,{Croczilla},f,{21116},Croczilla
+Yuu Amanai,{Baki},t,{21117},Baki
+SCP-749,{Foundation},t,{21118},""

@@ -15,16 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Accelerator';
-UPDATE character_name SET name='Yu(j|g)iro Hanma' WHERE name='Yujiro Hanma';
-
 ########################################
 
-UPDATE character SET displayed_version_name='Baki' WHERE displayed_version_name='Baki the Grappler';
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Accelerator', 'Particle Accelerator', -9);
 
 ########################################
 
