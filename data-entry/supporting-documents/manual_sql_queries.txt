@@ -24,6 +24,8 @@ UPDATE character SET displayed_version_name='Baki' WHERE displayed_version_name=
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Accelerator', 'Particle Accelerator', -9);
+
 ########################################
 
 ########################################
