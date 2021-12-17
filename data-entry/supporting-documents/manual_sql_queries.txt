@@ -15,6 +15,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Lion';
+UPDATE character SET is_default=FALSE, version='Gate Guardian' WHERE default_name='SCP-001';
+UPDATE character_name SET default_name='Odin-Force Thor' WHERE default_name='Odin(-| )?force Thor';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Goku', 'Xeno Goku', -5);
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{5723}';
+
 ########################################
 
 ########################################

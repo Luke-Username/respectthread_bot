@@ -3523,12 +3523,12 @@ The Wardstone Chronicles
 
 Warhammer 40,000
 	Version
-		'{"(WH)?40K"}', '{"Warhammer"}'
+		['(WH)?40K'], ['Warhammer']
 	Acronyms
-		'{"WH"}'
+		['WH']
 	Other
 	if character name = "Abaddon":
-		'{"Draigo"}', '{"Black Crusade"}'
+		['Draigo'], ['Black Crusade']
 	Displayed Version Name
 		"Warhammer 40k"
 
