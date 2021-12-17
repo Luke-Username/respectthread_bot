@@ -107,20 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-id = get_rt_id(cur, "Respect: Lion El''Jonson", 'https://redd.it/fhjiad')
-add_data(['Lion El''?Jonson'],
-'Lion El''Jonson',
-False,
-True,
-[
-    ['(WH)?40K'], ['Warhammer']
-],
-'Warhammer 40k',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/rij4tc/warhammer_40k_how_long_do_you_think_it_would_take/
-#https://www.reddit.com/r/BTCRTs/comments/fhjiad/respect_lion_eljonson/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

@@ -13214,6 +13214,7 @@ Gintoki,{Gintama},t,{3439},Gintama
 Gin,{Gintama},f,{3439},Gintama
 Satan,"{`"God of High ?School`"}",f,{3440},The God of High School
 Han Dae-Wi,"{`"God of High ?School`"}",t,{3441},The God of High School
+Lion,{pride},f,{6354},""
 Jin Mo-Ri,"{`"God of High ?School`"}",t,{3442},The God of High School
 Taejin Jin,"{`"God of High ?School`"}",t,{3443},The God of High School
 Taek Jae-Kal,"{`"God of High ?School`"}",t,{3444},The God of High School
@@ -20604,9 +20605,6 @@ Robo-Squidward,{BFBB},t,{5721},Battle for Bikini Bottom
 Robo-Spongebob,"{`"Battle for Bikini Bottom`"}",t,{5721},Battle for Bikini Bottom
 Robo-Spongebob,{BFBB},t,{5721},Battle for Bikini Bottom
 Grox,{Spore},f,{5722},Spore
-Terran,"{`"Star ?Craft`"}",f,{5723},StarCraft
-Terran,"{`"SC\\d?`"}",f,{5723},StarCraft
-StarCraft Marine,"{`"SC\\d?`"}",t,{5723},""
 Emmett Graves,{Starhawk},t,{5724},Starhawk
 Arwing,"{`"Star ?Fox`"}",t,{5725},Star Fox
 Strider,{Hiryu},f,{5729},""
@@ -20646,6 +20644,8 @@ Selvaria Bles,"{`"Valkyria Chronicles`"}",t,{5746},Valkyria Chronicles
 Sam Gideon,{Vanquish},t,{5747},Vanquish
 Vectorman,{default},t,{5748},""
 Nightmare Gabe,"{`"Video Game Championship Wrestling`"}",f,{5749},Video Game Championship Wrestling
+Terran,"{`"Star ?Craft`"}",f,{},StarCraft
+Terran,"{`"SC\\d?`"}",f,{},StarCraft
 Nightmare Gabe,{VGCW},f,{5749},Video Game Championship Wrestling
 The Visitor,"{`"flash ?game`"}",f,{5750},""
 The Visitor,"{alien,eat(en)?}",f,{5750},""
@@ -21015,7 +21015,6 @@ Gigantomachia,"{`"\\(My Hero\\)`"}",t,{15330},My Hero Academia
 Gigantomachia,{(M|BN?)HA},t,{15330},My Hero Academia
 Gigantomachia,"{`"Boku no Hero`"}",t,{15330},My Hero Academia
 SCP-4028,"{`"SCP Foundation`"}",t,{15331},""
-SCP-001,"{`"SCP Foundation`"}",t,{15332},""
 SCP-723-D,"{`"SCP Foundation`"}",t,{15333},""
 SCP-151-D,"{`"SCP Foundation`"}",t,{15334},""
 SCP-316-D,{SCP},t,{15335},""
@@ -23079,8 +23078,6 @@ Great White,{sharks?},t,{6351},""
 Honey Badger,"{`"real life`"}",t,{6352},""
 Killer Whales,"{`"real life`"}",t,{6353},""
 Orca,"{`"real life`"}",t,{6353},""
-Lion,"{`"real life`"}",t,{6354},""
-Lion,{pride},t,{6354},""
 Crocodile,"{`"real life`"}",t,{6355},""
 Tyrannosaurus Rex,"{`"real life`"}",t,{6357},""
 Chromavoid,{Skullkip},t,{6458},""
@@ -23128,6 +23125,7 @@ Kiora,{Planeswalkers?},t,{6475},Magic: The Gathering
 Liliana Vess,"{`"Magic:? The Gathering`"}",t,{6476},Magic: The Gathering
 Liliana Vess,{M:?TG},t,{6476},Magic: The Gathering
 Liliana Vess,{Planeswalkers?},t,{6476},Magic: The Gathering
+Lion,"{`"real life`"}",f,{6354},""
 Liliana,"{`"Magic:? The Gathering`"}",f,{6476},Magic: The Gathering
 Liliana,{M:?TG},f,{6476},Magic: The Gathering
 Liliana,{Planeswalkers?},f,{6476},Magic: The Gathering
@@ -23481,7 +23479,6 @@ Kakashi,"{`"Balloon Trip of Love`"}",f,{16804},The Legend of Zelda
 Buriki,{Tingles?},f,{16804},The Legend of Zelda
 Buriki,"{`"Balloon Trip of Love`"}",f,{16804},The Legend of Zelda
 Lion,"{`"Ripened Tingles?`"}",f,{16804},The Legend of Zelda
-Lion,"{`"Balloon Trip of Love`"}",f,{16804},The Legend of Zelda
 Slattern,{Pacific},f,{16805},Pacific Rim
 Hayan Park,"{`"Unholy Blood`"}",t,{16806},Unholy Blood
 Hayan Park,"{`"White Blood`"}",t,{16806},Unholy Blood
@@ -25607,3 +25604,8 @@ Spiders-Man,{11580},t,{21115},11580
 Amao,{Croczilla},f,{21116},Croczilla
 Yuu Amanai,{Baki},t,{21117},Baki
 SCP-749,{Foundation},t,{21118},""
+Lion,"{`"Balloon Trip of Love`"}",f,{16804},The Legend of Zelda
+SCP-001,"{`"Gate Guardian`"}",f,{15332},""
+StarCraft Marine,"{`"SC\\d?`"}",t,{},""
+Lion ElJonson,{(WH)?40K},t,{21119},Warhammer 40k
+Lion ElJonson,{Warhammer},t,{21119},Warhammer 40k
