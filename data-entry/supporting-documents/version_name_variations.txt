@@ -227,7 +227,7 @@ Baki the Grappler / Grappler Baki
 	Sometimes
 		'{"grapplers?"}'
 	Displayed Version Name
-		"Baki the Grappler"
+		"Baki"
 
 Bastard!!
 	Version
@@ -2811,8 +2811,8 @@ Scott Pilgrim
 
 SCP
 	Version
-		'{"SCP"}'
-		'{"Foundation"}'
+		['SCP']
+		['Foundation']
 	Displayed Version Name
 		# If the name has "SCP" in it
 			""
@@ -3352,7 +3352,7 @@ Titanfall
 
 Toaru Majutsu no Index
 	Version
-		'{"To ?aru"}', '{"Index(verse)?"}', '{"TAMNI"}', '{"Raildex"}'
+		['To ?aru'], ['Index(verse)?'], ['TAMNI'], ['Raildex']
 	Displayed Version Name
 		"Toaru Majutsu no Index"
 
