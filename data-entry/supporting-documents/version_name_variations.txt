@@ -215,7 +215,9 @@ Avatar: The Last Airbender / The Legend of Korra
 
 The Avengers: Earth's Mightiest Heroes
 	Version
-		"{\"Earth''s Mightiest Heroes\"}", '{"Avengers:? Earths? Mightiest Heroes"}', '{"Avengers:? Earth\'\'s Mightiest Heroes"}', '{"EMH"}'
+		['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH']
+	Acronyms
+		['EMH']
 	Displayed Version Name
 		"Earth''s Mightiest Heroes"
 

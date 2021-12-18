@@ -107,6 +107,81 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Spider(-| )?Men'],
+'Spider-Men',
+False,
+False,
+[
+    ['Live action Spider(-| )?Men']
+],
+'Live-Action',
+'{302, 113, 261}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/riya3m/all_three_live_action_spidermen_vs_carnage_venom/
+
+########################################
+
+id = get_rt_id(cur, "Respect the New Avengers (Avengers: Earth''s Mightiest Heroes)", 'https://redd.it/riu5on')
+add_data(['New Avengers'],
+'New Avengers',
+True,
+False,
+[
+    ['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH']
+],
+'Earth''s Mightiest Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/riu5on/respect_the_new_avengers_avengers_earths/
+
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH']
+],
+'Earth''s Mightiest Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/riu5on/respect_the_new_avengers_avengers_earths/
+
+add_data(['Luke Cage'],
+'Luke Cage',
+False,
+False,
+[
+    ['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH']
+],
+'Earth''s Mightiest Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/riu5on/respect_the_new_avengers_avengers_earths/
+
+add_data(['Iron Fist'],
+'Iron Fist',
+False,
+False,
+[
+    ['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH']
+],
+'Earth''s Mightiest Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/riu5on/respect_the_new_avengers_avengers_earths/
+
+add_data(['War Machine'],
+'War Machine',
+False,
+False,
+[
+    ['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH']
+],
+'Earth''s Mightiest Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/riu5on/respect_the_new_avengers_avengers_earths/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
