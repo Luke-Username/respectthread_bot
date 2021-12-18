@@ -10072,7 +10072,6 @@ Jane Thor,{616},t,{1980},616
 Thor,{616},t,"{1981,1982}",616
 Thor,{comics?},t,"{1981,1982}",616
 Odin(-| )?force Thor,{616},t,{1983},616
-Thor,"{`"\\(Odin(-| )?force\\)`"}",t,{1983},Odin-Force
 Valkyrie,{616},f,{1984},616
 Brunnhilde,{616},t,{1984},616
 Brunnhilde,"{`"Marvel Cinematic Universe`"}",f,{267},MCU
@@ -10089,6 +10088,7 @@ Song-Joo,"{`"Promised Neverland`"}",f,{4443},The Promised Neverland
 That Guy,"{`"Promised Neverland`"}",f,{4444},The Promised Neverland
 Wild Demons,"{`"Promised Neverland`"}",f,{4445},The Promised Neverland
 Baymax,{movies?},f,{10863},Disney's Big Hero 6
+Thor,"{`"\\(Odin(-| )?force\\)`"}",f,{1983},Odin-Force
 Scott Lang,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Scott Lang,{MCU},f,{},MCU
 Scott Lang,{199999},f,{},MCU
@@ -25609,3 +25609,5 @@ SCP-001,"{`"Gate Guardian`"}",f,{15332},""
 StarCraft Marine,"{`"SC\\d?`"}",t,{},""
 Lion ElJonson,{(WH)?40K},t,{21119},Warhammer 40k
 Lion ElJonson,{Warhammer},t,{21119},Warhammer 40k
+Emiya Shirou,{UBW},f,{6251},Fate
+Emiya Shirou,"{`"Unlimited Blade Works`"}",f,{6251},Fate

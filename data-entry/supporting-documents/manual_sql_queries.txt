@@ -15,8 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Thor' AND displaye_version_name='Odin-Force';
-
 ########################################
 
 ########################################
