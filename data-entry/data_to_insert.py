@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Shirou'],
+'Emiya Shirou',
+False,
+False,
+[
+    ['UBW'], ['Unlimited Blade Works']
+],
+'Fate',
+'{6251}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/riv3t4/shirou_emiya_replaces_subaru_how_do_the_events_of/hozp600/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

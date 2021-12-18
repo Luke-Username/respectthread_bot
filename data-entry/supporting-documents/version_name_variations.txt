@@ -2281,7 +2281,7 @@ Nasuverse
 		Version
 			['Fate']
 		Specific
-			['Stay/? ?k?Night'], ['F/?SN']
+			['Stay/? ?k?Night'], ['F/?SN'], ['UBW'], ['Unlimited Blade Works']
 			['Fate( ?/ ?| )Zero']
 			['Apoc(rypha)?']
 			['Grande? Order'], ['F(ate )?/?GO']
