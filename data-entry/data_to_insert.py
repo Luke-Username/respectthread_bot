@@ -107,59 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Shang(-| )Chi'],
-'Shang-Chi',
-False,
-False,
-[
-    ['Marvel Cinematic Universe'], ['MCU']
-],
-'MCU',
-'{}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/rjai5x/mcu_shangchi_vs_fox_wolverine/
-
-########################################
-
-add_data(['Warrior Entity'],
-'Warrior Entity',
-False,
-True,
-[
-    ['Worm']
-],
-'Worm',
-'{6075}'
-)
-#
-
-add_data(['Entities'],
-'Entities',
-False,
-False,
-[
-    ['\(Worm'], ['\[Worm'], ['Wild ?bow']
-],
-'Worm',
-'{6075}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/riy7j8/rank_these_scp_entities_in_terms_of_power_from/hp2twrj/?context=3
-
-########################################
-
-id = get_rt_id(cur, 'You will Respect The Lady of Pain', 'https://redd.it/29yjpi')
-add_data(['Lady of Pain'],
-'Lady of Pain',
-False,
-True,
-[
-    ['Dungeons (&|and) Dragons'], ['D ?& ?D']
-],
-'Dungeons & Dragons',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/29yjpi/you_will_respect_the_lady_of_pain/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

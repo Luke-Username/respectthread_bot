@@ -22455,7 +22455,6 @@ Noelle,{Meinhardt},f,{6073},Worm
 Eidolon,{Worm(verse)?},f,{6074},Worm
 Eidolon,"{`"Para(-| )?humans?`"}",f,{6074},Worm
 Eidolon,"{`"Brockton Bay`"}",f,{6074},Worm
-Entities,{Worm(verse)?},f,{6075},Worm
 Entities,"{`"Para(-| )?humans?`"}",f,{6075},Worm
 Entities,"{`"Brockton Bay`"}",f,{6075},Worm
 Glaistig Uaine,{Worm(verse)?},t,{6077},Worm
@@ -25627,3 +25626,12 @@ Iron Fist,"{`"A(vengers)?: ?EMH`"}",f,{21120},Earths Mightiest Heroes
 War Machine,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{21120},Earths Mightiest Heroes
 War Machine,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{21120},Earths Mightiest Heroes
 War Machine,"{`"A(vengers)?: ?EMH`"}",f,{21120},Earths Mightiest Heroes
+Entities,"{`"Worm(-| )verse`"}",f,{6075},Worm
+Shang-Chi,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Shang-Chi,{MCU},f,{},MCU
+Warrior Entity,{Worm},t,{6075},Worm
+Entities,"{`"\\(Worm`"}",f,{6075},Worm
+Entities,"{`"\\[Worm`"}",f,{6075},Worm
+Entities,"{`"Wild ?bow`"}",f,{6075},Worm
+Lady of Pain,"{`"Dungeons (&|and) Dragons`"}",t,{21121},Dungeons & Dragons
+Lady of Pain,"{`"D ?& ?D`"}",t,{21121},Dungeons & Dragons

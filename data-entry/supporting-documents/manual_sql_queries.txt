@@ -15,8 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"Worm(-| )verse"}' WHERE default_name='Entities' AND version='{"Worm(verse)?"}';
-
 ########################################
 
 ########################################
