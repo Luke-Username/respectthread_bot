@@ -848,7 +848,7 @@ Dr. Horrible's Sing-Along Blog
 
 Dungeons & Dragons / Dungeons and Dragons
 	Version
-		'{"Dungeons (&|and) Dragons"}', '{"D ?& ?D"}'
+		['Dungeons (&|and) Dragons'], ['D ?& ?D']
 	Displayed Version Name
 		"Dungeons & Dragons"
 
@@ -1921,27 +1921,27 @@ Marvel 2099
 
 Marvel Cinematic Universe
 	Version
-		'{"Marvel Cinematic Universe"}', '{"MCU"}'
-		'{"199999"}'
+		['Marvel Cinematic Universe'], ['MCU']
+		['199999']
 	
 	Other
-		'{"Netflix"}' (eg. Daredevil, Jessica Jones, Luke Cage, Punisher)
-		r'{"\\(Daredevil\\)"}' (eg. Nobu)
-		'{"Cinematic"}'
+		['Netflix'] (eg. Daredevil, Jessica Jones, Luke Cage, Punisher)
+		['\(Daredevil\)'] (eg. Nobu)
+		['Cinematic']
 	
 	Specific
-		'{"Infinity War"}', '{"IW"}'
-		'{"Endgame"}', '{"EG"}'
-		'{"Homecoming"}', '{"Far From Home"}'
-		'{"Civil War"}', '{"CW"}'
-		'{"Black Panther", "movie"}'
-		r'{"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D"}'
-		'{"Wanda ?Vision"}'
-		'{"What( |-)if"}'
+		['Infinity War'], ['IW']
+		['Endgame'], ['EG']
+		['Homecoming'], ['Far From Home']
+		['Civil War'], ['CW']
+		['Black Panther', 'movie']
+		['Agents of S\.?H\.?I\.?E\.?L\.?D']
+		['Wanda ?Vision']
+		['What( |-)if']
 		...
 	Actors
-		'{"Josh Brolin"}' (Thanos)
-		'{"Robert Downey"}' (Ironman)
+		['Josh Brolin'] (Thanos)
+		['Robert Downey'] (Iron Man)
 	Displayed Version Name
 		"MCU"
 		# if it's a What If...?:
@@ -3593,11 +3593,13 @@ The World Ends With You
 
 Worm
 	Version
-		'{"Worm(verse)?"}', '{"Para(-| )?humans?"}', '{"Brockton Bay"}'
+		['Worm(-| )verse'], ['Para(-| )?humans?'], ['Brockton Bay']
+		['Wild ?bow']
 	Sometimes Called
-		'{"Slaughter ?house"}'
-		'{"End ?bringers?"}'
-		'{"Ward"}'
+		['Worm']
+		['Slaughter ?house']
+		['End ?bringers?']
+		['Ward']
 	Displayed Version Name
 		"Worm"
 
