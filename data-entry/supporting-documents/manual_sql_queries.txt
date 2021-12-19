@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Speed(-| )of?''?(-| )Sound' WHERE name='Speed(-| )o''?(-| )Sound';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sonic', 'Speed of Sound Sonic', -15);
+
 ########################################
 
 ########################################
