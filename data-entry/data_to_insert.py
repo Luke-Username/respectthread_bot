@@ -106,20 +106,6 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
-
-id = get_rt_id(cur, 'Respect Charles Dreemurr 「Inseparable」', 'https://redd.it/rjv7z7')
-add_data(['Charles Dreemurr'],
-'Charles Dreemurr',
-False,
-True,
-[
-    ['Inseparable']
-],
-'Inseparable',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/rjv7z7/respect_charles_dreemurr_inseparable/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
