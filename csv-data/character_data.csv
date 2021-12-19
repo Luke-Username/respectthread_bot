@@ -14196,6 +14196,7 @@ Drole,"{`"Nanatsu no Taizai`"}",f,{4528},Seven Deadly Sins
 Drole,{NNT},f,{4528},Seven Deadly Sins
 Gloxinia,"{`"(Seven|7) Deadly Sins`"}",f,{4528},Seven Deadly Sins
 Gloxinia,{(S|7)DS},f,{4528},Seven Deadly Sins
+Monster #8,{default},t,{21122},""
 Gloxinia,"{`"Nanatsu no Taizai`"}",f,{4528},Seven Deadly Sins
 Gloxinia,{NNT},f,{4528},Seven Deadly Sins
 Monspeet,"{`"(Seven|7) Deadly Sins`"}",t,{4528},Seven Deadly Sins
@@ -21784,19 +21785,7 @@ Otogi Bank,"{`"Oo?kami(-| )san`"}",t,{16017},Okami-san and Her Seven Companions
 Ryoko Ōkami,"{`"(Ō|O)o?kami(-| )san`"}",t,{16017},Ōkami-san and Her Seven Companions
 Ryoshi Morino,"{`"(Ō|O)o?kami(-| )san`"}",t,{16017},Ōkami-san and Her Seven Companions
 Tarō Urashima,"{`"(Ō|O)o?kami(-| )san`"}",f,{16017},Ōkami-san and Her Seven Companions
-Monster #8,{default},t,{16017},""
-Kafka Hibino,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{16017},Monster #8
-Leno Ichikawa,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{16017},Monster #8
-Kikoru Shinomiya,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{16017},Monster #8
-Iharu Furuhashi,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{16017},Monster #8
-Haruichi Izumo,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{16017},Monster #8
-Aoi Kaguragi,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{16017},Monster #8
 Burger King,{default},t,{6329},""
-Mina Ashiro,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{16017},Monster #8
-Soshiro Hoshina,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{16017},Monster #8
-Monster #9,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",f,{16017},Monster #8
-Monster #10,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",f,{16017},Monster #8
-Pterosaur-type,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",f,{16017},Monster #8
 Ace Ventura,"{`"Pet Detective`"}",t,{16018},Ace Ventura: Pet Detective
 James Bond,{Moore},f,{16019},Roger Moore
 Mr. Hinx,"{`"James Bond`"}",f,{16020},James Bond
@@ -21860,6 +21849,7 @@ Lucius Funk,"{`"Earth(-| )(1|One)`"}",f,{16049},Post-Crisis
 Lucius Funk,"{`"Post(-| )?C(risis)?`"}",f,{16049},Post-Crisis
 Lucius Funk,"{`"New(-| )Earth`"}",f,{16049},Post-Crisis
 Scarlet,"{`"I'm the Grim Reaper`"}",f,{16050},I'm the Grim Reaper
+Mina Ashiro,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
 Brook,"{`"I'm the Grim Reaper`"}",f,{16051},I'm the Grim Reaper
 Leon,"{`"The Professional`"}",f,{16052},The Professional
 Speed Racer,{2008},f,{16053},2008
@@ -25635,3 +25625,13 @@ Entities,"{`"\\[Worm`"}",f,{6075},Worm
 Entities,"{`"Wild ?bow`"}",f,{6075},Worm
 Lady of Pain,"{`"Dungeons (&|and) Dragons`"}",t,{21121},Dungeons & Dragons
 Lady of Pain,"{`"D ?& ?D`"}",t,{21121},Dungeons & Dragons
+Kafka Hibino,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
+Leno Ichikawa,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
+Kikoru Shinomiya,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
+Iharu Furuhashi,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
+Haruichi Izumo,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
+Aoi Kaguragi,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
+Soshiro Hoshina,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
+Monster #9,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",f,{21122},Monster #8
+Monster #10,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",f,{21122},Monster #8
+Pterosaur-type,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",f,{21122},Monster #8

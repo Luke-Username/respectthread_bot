@@ -15,9 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect the characters of Monster #8 (Monster #8 / Kaiju No. 8)', 'https://redd.it/ly4okk'); SELECT * FROM respectthread WHERE link='https://redd.it/ly4okk';
-UPDATE character SET rt_id_array='{?}' WHERE displayed_version_name='Monster #8' OR default_name='Monster #8';
-
 ########################################
 
 ########################################
