@@ -156,6 +156,47 @@ False,
 
 ########################################
 
+########################################
+
+id = get_rt_id(cur, 'Respect Razorfist (Marvel 616)', 'https://redd.it/rjxyzt')
+add_data(['Razor ?Fist'],
+'Razor Fist',
+False,
+True,
+[
+    ['616'], ['Marvel']
+],
+"616",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rjxyzt/respect_razorfist_marvel_616/
+
+add_data(['Razor ?Fist'],
+'Razor Fist',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+"MCU",
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rjxyzt/respect_razorfist_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Toza! (Avatar: Legend of Korra)', 'https://redd.it/rk0j2u')
+add_data(['Toza'],
+'Toza',
+False,
+False,
+[
+    ['Avatar']
+],
+"Avatar: TLA",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rk0j2u/respect_toza_avatar_legend_of_korra/
 
 ########################################
 
