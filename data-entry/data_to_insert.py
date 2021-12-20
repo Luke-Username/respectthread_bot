@@ -106,6 +106,57 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+update_respectthread(cur, 601, "Respect Zohan Dvir (You Don''t Mess With The Zohan)", 'https://redd.it/9qitgt')
+
+########################################
+
+add_data(['Penny(-| )?wise'],
+'Pennywise',
+False,
+False,
+[
+    ['Movie Penny(-| )?wise']
+],
+'Movies',
+'{17638}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rkcr0o/godzilla_vs_pennywise_and_batman/hp8yj9b/?context=3
+
+########################################
+
+add_data(['Sand(-| )?man'],
+'Sandman',
+False,
+False,
+[
+    ['Sand(-| )?man ?\(Spider(-| )?Man\)'], ['Sand(-| )?man ?\(Flint Marko\)'],
+    ['Vader'], ['Plastic Man']
+],
+'616',
+'{2271}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Ilulu (Miss Kobayashi''s Dragon Maid)!", 'https://redd.it/bcrq2y')
+add_data(['Ill?ulu'],
+'Ilulu',
+False,
+False,
+[
+    ['Dragon Maid']
+],
+"Miss Kobayashi''s Dragon Maid",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/bcrq2y/respect_ilulu_miss_kobayashis_dragon_maid/
+#https://www.reddit.com/r/whowouldwin/comments/rk8qbs/who_would_win_godzilla_or_the_dragon_lolis/hp896fr/?context=3
+
+########################################
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

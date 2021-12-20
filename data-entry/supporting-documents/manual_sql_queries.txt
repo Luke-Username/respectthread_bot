@@ -15,6 +15,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET version='{"Mac?guire"}' WHERE version='{"Maguire"}';
+UPDATE character SET is_default=FALSE WHERE default_name='Starbreaker';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hulk', 'Hulk Hogan', 0);
+UPDATE character_name SET name='Kaku Kaioh|Kaioh Kaku' WHERE name='Kaku Kaioh';
+
 ########################################
 
 ########################################

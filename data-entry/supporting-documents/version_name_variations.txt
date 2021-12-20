@@ -2630,7 +2630,7 @@ Punch Line
 
 Raimi Spider-Man
 	Version
-		'{"Rai?mi-?(verse)?"}', '{"Maguire"}'
+		'{"Rai?mi-?(verse)?"}', '{"Mac?guire"}'
 	Specific
 		'{"Spider(-| )?Man 3"}'
 	Sometimes Called
