@@ -207,9 +207,9 @@ Arthurian Myth
 
 Avatar: The Last Airbender / The Legend of Korra
 	Version
-		'{"Avatar"}', '{"A?TLA"}', '{"Air(-| )bender"}', '{"Aang"}', '{"Korra"}', '{"A?T?LOK"}'
+		['Avatar'], ['A?TLA'], ['Air(-| )bender'], ['Aang'], ['Korra'], ['A?T?LOK']
 	Sometimes
-		'{"Red Lotus"}'
+		['Red Lotus']
 	Displayed Version Name
 		"Avatar: TLA"
 
@@ -645,7 +645,7 @@ DC Cinematic Universe
 
 DC Comics
 	Version
-		r'{"(\\(|\\[)DC( Comics)?(\\)|\\])"}'
+		['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
 	Displayed Version Name
 		"DC"
 
@@ -983,7 +983,7 @@ Feng Shen Ji
 
 Final Fantasy
 	Version
-		'{"Final Fantasy"}', r'{"FF\\d?\\d?"}', r'{"FF\\w\\w?\\w?"}'
+		['Final Fantasy'], ['FF\d?\d?'], ['FF\w\w?\w?']
 	Displayed Version Name
 		"Final Fantasy"
 
@@ -2327,7 +2327,7 @@ Netflix's Castlevania
 
 New 52
 	Version
-		'{"New(-| )?52"}', '{"Nu?-?52"}', '{"Post(-| )52"}', '{"Prime(-| )Earth"}', '{"Rebirth"}'
+		['New(-| )?52'], ['Nu?-?52'], ['Post(-| )52'], ['Prime(-| )Earth'], ['Rebirth']
 	Displayed Version Name
 		"New 52" or "Rebirth"
 		# Sometimes Called
@@ -2518,7 +2518,7 @@ Pocket Monsters RéBURST
 
 Pokémon (Pokemon)
 	Version
-		'{"Pok(e|é)m(o|a)n"}'
+		['Pok(e|é)m(o|a)n']
 	If they belong to a trainer
 		'{"<Insert name of trainer>"}'
 	Displayed Version Name
@@ -2551,7 +2551,7 @@ Pokémon: The Electric Tale of Pikachu
 
 Post-Crisis
 	Version
-		'{"PC"}', '{"Earth(-| )(1|One)"}', '{"Posts?(-| )?C(risis)?"}', '{"New(-| )Earth"}'
+		['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth'], ['Earth(-| )(1|One)']
 	Displayed Version Name
 		"Post-Crisis"
 
