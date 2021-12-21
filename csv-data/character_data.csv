@@ -14925,6 +14925,8 @@ Bah Mou,{Blust},f,{14342},Blust!
 Kogarashi Fuyuzora,"{`"Yuuna and the Haunted Hot Springs`"}",t,{14343},Yuuna and the Haunted Hot Springs
 Kogarashi Fuyuzora,"{`"Yuragi(-| )sou no Yuuna(-| )san`"}",t,{14343},Yuuna and the Haunted Hot Springs
 Exodia,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{14344},Yu-Gi-Oh!
+Goku,{SSJ?4},f,{},Dragon Ball GT
+Goku,"{`"Super Saiyan 4`"}",f,{},Dragon Ball GT
 Arima Tsuchimikado,"{`"Twin Star Exorcists`"}",t,{14345},Twin Star Exorcists
 Arima Tsuchimikado,"{`"Sousei no Onmyouji`"}",t,{14345},Twin Star Exorcists
 Twin Star Exorcists,"{`"Sousei no Onmyouji`"}",t,{14346},""
@@ -15622,6 +15624,7 @@ Richard Hawk,"{`"Metal Wolf`"}",t,{14499},Metal Wolf Chaos
 Second Sister,"{`"Star ?Wars`"}",t,{14500},Star Wars
 Second Sister,{SWars},t,{14500},Star Wars
 Captain Gundam,"{`"Superior Defender Gundam Force`"}",t,{14501},Superior Defender Gundam Force
+Goku,{(DB)?GT},f,{},Dragon Ball GT
 Arcobaleno,"{`"Kateky(ō|o) Hitman Reborn`"}",t,{3635},Katekyō Hitman Reborn!
 Bianchi,"{`"Kateky(ō|o) Hitman Reborn`"}",t,{3636},Katekyō Hitman Reborn!
 Byakuran,"{`"Kateky(ō|o) Hitman Reborn`"}",t,{3637},Katekyō Hitman Reborn!
@@ -16406,6 +16409,7 @@ Ultimate Mysterio,{1610},t,{14514},1610
 Hassan-i Sabbah,{Fate},f,{14515},Fate/Grand Order
 White Album,{Jojos?(verse)?},t,{14516},Jojo's Bizarre Adventure
 White Album,{JJBA},t,{14516},Jojo's Bizarre Adventure
+Vegeta,{SSJ?4},f,{},Dragon Ball GT
 Ghiaccio,{Jojos?(verse)?},t,{14516},Jojo's Bizarre Adventure
 Super Fly,{Jojos?(verse)?},f,{14517},Jojo's Bizarre Adventure
 Super Fly,{JJBA},f,{14517},Jojo's Bizarre Adventure
@@ -25647,3 +25651,27 @@ Razor Fist,{Marvel},t,{21125},616
 Razor Fist,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Razor Fist,{MCU},f,{},MCU
 Toza,{Avatar},f,{21126},Avatar: TLA
+Vegeta,"{`"Super Saiyan 4`"}",f,{},Dragon Ball GT
+Vegeta,{(DB)?GT},f,{},Dragon Ball GT
+Gogeta,{SSJ?4},f,{},Dragon Ball GT
+Gogeta,"{`"Super Saiyan 4`"}",f,{},Dragon Ball GT
+Gogeta,{(DB)?GT},f,{},Dragon Ball GT
+Cheong,"{`"What Happens Inside The Dungeon`"}",f,{21127},What Happens Inside The Dungeon
+Chun-ja,"{`"What Happens Inside The Dungeon`"}",f,{21128},What Happens Inside The Dungeon
+Man-Bat,"{`"New(-| )?52`"}",f,{21129},New 52
+Man-Bat,{Nu?-?52},f,{21129},New 52
+Man-Bat,"{`"Post(-| )52`"}",f,{21129},New 52
+Man-Bat,"{`"Prime(-| )Earth`"}",f,{21129},New 52
+Man-Bat,"{`"\\(DC( Comics)?\\)`"}",t,{21129},DC
+Man-Bat,"{`"\\[DC( Comics)?\\]`"}",t,{21129},DC
+Man-Bat,{PC},f,{},Post-Crisis
+Man-Bat,"{`"Posts?(-| )?C(risis)?`"}",f,{},Post-Crisis
+Man-Bat,"{`"New(-| )Earth`"}",f,{},Post-Crisis
+Layle,"{`"Final Fantasy`"}",f,{21130},Final Fantasy
+Layle,"{`"Crystal Chronicles`"}",f,{21130},Final Fantasy
+Layle,"{`"Crystal Bearers?`"}",f,{21130},Final Fantasy
+Volcarona,{Pok(e|é)m(o|a)n},t,{21131},Pokémon
+Larvesta,{Pok(e|é)m(o|a)n},t,{21131},Pokémon
+Amak,{Avatar},f,{21132},Avatar: TLA
+Amak,{Kyoshi},f,{21132},Avatar: TLA
+Godzilla Earth,"{`"Planet of the Monsters`"}",t,{21133},Planet of the Monsters

@@ -15,8 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Agent (Six|6)' WHERE name='Agent Six';
-
 ########################################
 
 ########################################
