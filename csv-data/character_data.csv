@@ -21833,7 +21833,6 @@ Cinderace,{Pok(e|é)m(o|a)n},f,{16041},Pokémon
 Scorbunny,{Pok(e|é)m(o|a)n},f,{16041},Pokémon
 Raboot,{Pok(e|é)m(o|a)n},f,{16041},Pokémon
 Beat,"{`"Jet (Set|Grind) Radio`"}",f,{16042},Jet Set Radio
-Eragon,"{`"Eragon ?\\(Movie|2016)`"}",f,{16043},Movie
 Eragon,"{`"(Eragon Movie|Movie Eragon)`"}",f,{16043},Movie
 Eragon,"{`"Movie Versions?`"}",f,{16043},Movie
 Battra,{Godzilla},f,{16044},Godzilla vs. Mothra
@@ -21850,6 +21849,7 @@ Lucius Funk,"{`"Post(-| )?C(risis)?`"}",f,{16049},Post-Crisis
 Lucius Funk,"{`"New(-| )Earth`"}",f,{16049},Post-Crisis
 Scarlet,"{`"I'm the Grim Reaper`"}",f,{16050},I'm the Grim Reaper
 Mina Ashiro,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
+Eragon,"{`"Eragon ?\\((Movie|2016)`"}",f,{16043},Movie
 Brook,"{`"I'm the Grim Reaper`"}",f,{16051},I'm the Grim Reaper
 Leon,"{`"The Professional`"}",f,{16052},The Professional
 Speed Racer,{2008},f,{16053},2008
@@ -25684,3 +25684,10 @@ Tagaka,{Avatar},f,{21136},Avatar: TLA
 Tagaka,{A?TLA},f,{21136},Avatar: TLA
 Tagaka,{Bend(er|ing)},f,{21136},Avatar: TLA
 Jade Emperor,"{`"Jade Sutra`"}",f,{21137},The Jade Sutra
+Iron Man,"{Cave,Suit}",f,{247},MCU
+Iron Man,"{`"IM ?2`"}",f,{247},MCU
+Iron Man,"{Tony,`"Iron(-| )?Man 2`"}",f,{247},MCU
+Iron Man,"{`"Iron(-| )?Man \\(Iron(-| )?Man 2`"}",f,{247},MCU
+Iron Man,"{`"Avengers 1`"}",f,{247},MCU
+Batman,"{`"Batman Begins`"}",f,{6531},Nolanverse
+Michelle Dreemurr,"{`"The Princess`",Songstress,Plushie}",f,{21138},"The Princess, the Songstress, and the Plushie"
