@@ -107,6 +107,59 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Iron(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Cave', 'Suit'], ['IM ?2'], ['Tony', 'Iron(-| )?Man 2'], ['Iron(-| )?Man \(Iron(-| )?Man 2'], ['Avengers 1']
+],
+'MCU',
+'{247}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rm3xix/batman_vs_iron_man/hpjt5f0/?context=3
+
+add_data(['Iron(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Cave', 'Suit'], ['IM ?2'], ['Tony', 'Iron(-| )?Man 2'], ['Iron(-| )?Man \(Iron(-| )?Man 2'], ['Avengers 1']
+],
+'MCU',
+'{247}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rm3xix/batman_vs_iron_man/hpjt5f0/?context=3
+
+########################################
+
+add_data(['Bat(-| )?man'],
+'Batman',
+False,
+False,
+[
+    ['Batman Begins']
+],
+'Nolanverse',
+'{6531}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rm3xix/batman_vs_iron_man/hpjt5f0/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Michelle Dreemurr [The Princess, the Songstress, and the Plushie]', 'https://redd.it/rlvyhk')
+add_data(['Michelle Dreemurr'],
+'Michelle Dreemurr',
+False,
+False,
+[
+    ['The Princess', 'Songstress', 'Plushie']
+],
+'The Princess, the Songstress, and the Plushie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rlvyhk/respect_michelle_dreemurr_the_princess_the/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
