@@ -107,69 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 1852, 'Respect Wonder Woman (New 52/Rebirth)', 'https://redd.it/dlosf0')
-update_respectthread(cur, 6472, 'Respect Gideon Jura! (Magic: The Gathering)', 'https://redd.it/rlo384')
-
-########################################
-
-id = get_rt_id(cur, 'Respect Bertilak Celadon (RWBY)', 'https://redd.it/rlcv65')
-add_data(['Bertilak Celadon'],
-'Bertilak Celadon',
-False,
-True,
-[
-    ['RWBY']
-],
-'RWBY',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/rlcv65/respect_bertilak_celadon_rwby/
-
-########################################
-
-id = get_rt_id(cur, 'RESPECT Colonel Mongke (Avatar The Last Airbender)', 'https://redd.it/rleta1')
-add_data(['Mongke'],
-'Mongke',
-False,
-False,
-[
-    ['Colonel Mongke'], ['Avatar'], ['A?TLA']
-],
-'Avatar: TLA',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/rleta1/respect_colonel_mongke_avatar_the_last_airbender/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Tagaka The Pirate Queen! (Avatar: Rise of Kyoshi)', 'https://redd.it/rlggjd')
-add_data(['Tagaka'],
-'Tagaka',
-False,
-False,
-[
-    ['Kyoshi'], ['Avatar'], ['A?TLA'], ['Bend(er|ing)']
-],
-'Avatar: TLA',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/rlggjd/respect_tagaka_the_pirate_queen_avatar_rise_of/
-
-########################################
-
-id = get_rt_id(cur, 'Respect The Jade Emperor, Ruler Of Heaven And Earth! (The Jade Sutra)', 'https://redd.it/rlny13')
-add_data(['Jade Emperor'],
-'Jade Emperor',
-False,
-False,
-[
-    ['Jade Sutra']
-],
-'The Jade Sutra',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/rlny13/respect_the_jade_emperor_ruler_of_heaven_and/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

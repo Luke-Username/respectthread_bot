@@ -15,12 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Penguin';
-UPDATE character SET is_default=FALSE WHERE rt_id_array='{4854}';
-UPDATE character_name SET name='Mega ?Man X1?' WHERE name='Mega ?Man X';
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Mega ?Man', 'Mega Man X', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Mega ?Man', 'Mega Man X1', 0);
-
 ########################################
 
 ########################################

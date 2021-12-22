@@ -4495,10 +4495,6 @@ Oswald Cobblepot,{PC},t,{1552},Post-Crisis
 Oswald Cobblepot,"{`"Post(-| )C(risis)?`"}",t,{1552},Post-Crisis
 Oswald Cobblepot,"{`"New(-| )Earth`"}",t,{1552},Post-Crisis
 Oswald Cobblepot,"{`"(DC Comics)`"}",t,{1552},Post-Crisis
-Penguin,{PC},f,{1552},Post-Crisis
-Penguin,"{`"Post(-| )C(risis)?`"}",f,{1552},Post-Crisis
-Penguin,"{`"New(-| )Earth`"}",f,{1552},Post-Crisis
-Penguin,"{`"(DC Comics)`"}",f,{1552},Post-Crisis
 Poison Ivy,{PC},f,{1553},Post-Crisis
 Poison Ivy,"{`"Post(-| )C(risis)?`"}",f,{1553},Post-Crisis
 Poison Ivy,"{`"New(-| )Earth`"}",f,{1553},Post-Crisis
@@ -14812,7 +14808,6 @@ Neuro Nōgami,"{`"Supernatural Detective`"}",t,{4849},Majin Tantei Nougami Neuro
 Rune Balot,"{`"Mardock Scramble`"}",t,{4850},Mardock Scramble
 Mazinkaiser,{default},t,"{4851,4852}",""
 M.D. Geist,{default},t,{4853},""
-Megaman,"{`"NT Warrior`"}",t,{4854},MegaMan NT Warrior
 Eruna Ichinomiya,"{`"Mikagura School Suite`"}",t,{4855},Mikagura School Suite
 Yuno Gasai,"{`"Mirai Nikki`"}",t,{4856},Mirai Nikki
 Yuno Gasai,"{`"Future Diary`"}",t,{4856},Mirai Nikki
@@ -14858,6 +14853,7 @@ Alita Forland,"{`"Murder Princess`"}",t,{4864},Murder Princess
 Falis,"{`"Murder Princess`"}",f,{4864},Murder Princess
 Lila,"{`"Najica Blitz Tactics`"}",f,{4865},Najica Blitz Tactics
 Amon,{Narakarana},f,{4866},Narakarana
+Megaman,"{`"NT Warrior`"}",f,{4854},MegaMan NT Warrior
 Nausicaä,"{`"Nausica(ä|a) of the Valley of the Wind`"}",t,{4867},Nausicaä of the Valley of the Wind
 Adam Blade,{Needless},t,{4868},Needless
 Eve Neuschwanstein,{Needless},t,{4869},Needless
@@ -21721,13 +21717,13 @@ Ikoma,{Kabaneri},t,{15979},Kabaneri of the Iron Fortress
 Mumei,{Kabaneri},f,{15980},Kabaneri of the Iron Fortress
 Kurusu,{Kabaneri},f,{15981},Kabaneri of the Iron Fortress
 Biba Amatori,{Kabaneri},t,{15982},Kabaneri of the Iron Fortress
-Penguin,"{`"Bat(-| )?man Returns`"}",t,{15983},Batman Returns
 Spider-Man,{51838},f,{15984},51838
 Spider-Man,"{`"Spider(-| )?Man:? Life Story`"}",f,{15985},Spider-Man: Life Story
 Wook Pyeon,"{`"Sweet Home`"}",t,{15986},Sweet Home
 Ihyun Jo,"{`"Sweet Home`"}",t,{15987},Sweet Home
 El Muerto,{616},f,{15988},616
 Dracula,"{`"Dracula ?\\(Post(-| )?C(risis)?`"}",f,{15974},Post-Crisis
+Penguin,"{`"Bat(-| )?man Returns`"}",f,{15983},Batman Returns
 El Muerto,{Marvel},f,{15988},616
 Scarlet Beetle,{616},t,{15989},616
 Scarlet Beetle,{Marvel},t,{15989},616
@@ -25675,3 +25671,16 @@ Larvesta,{Pok(e|é)m(o|a)n},t,{21131},Pokémon
 Amak,{Avatar},f,{21132},Avatar: TLA
 Amak,{Kyoshi},f,{21132},Avatar: TLA
 Godzilla Earth,"{`"Planet of the Monsters`"}",t,{21133},Planet of the Monsters
+Penguin,{PC},f,{1552},Post-Crisis
+Penguin,"{`"Post(-| )C(risis)?`"}",f,{1552},Post-Crisis
+Penguin,"{`"New(-| )Earth`"}",f,{1552},Post-Crisis
+Penguin,"{`"(DC Comics)`"}",f,{1552},Post-Crisis
+Bertilak Celadon,{RWBY},t,{21134},RWBY
+Mongke,"{`"Colonel Mongke`"}",f,{21135},Avatar: TLA
+Mongke,{Avatar},f,{21135},Avatar: TLA
+Mongke,{A?TLA},f,{21135},Avatar: TLA
+Tagaka,{Kyoshi},f,{21136},Avatar: TLA
+Tagaka,{Avatar},f,{21136},Avatar: TLA
+Tagaka,{A?TLA},f,{21136},Avatar: TLA
+Tagaka,{Bend(er|ing)},f,{21136},Avatar: TLA
+Jade Emperor,"{`"Jade Sutra`"}",f,{21137},The Jade Sutra
