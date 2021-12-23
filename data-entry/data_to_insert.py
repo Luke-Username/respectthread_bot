@@ -107,6 +107,64 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Morbio?us'],
+'Sully',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Crash Nebula! (The Fairly OddParents)', 'https://redd.it/rm9qd6')
+add_data(['Crash Nebula'],
+'Crash Nebula',
+False,
+False,
+[
+    ['Fairly Odd ?parents']
+],
+'Fairly OddParents',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rm9qd6/respect_crash_nebula_the_fairly_oddparents/
+
+########################################
+
+id = get_rt_id(cur, "Respect Donovan (Jojo''s Bizarre Adventure)", 'https://redd.it/rmkzfr')
+add_data(['Donovan'],
+'Donovan',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+'Jojo''s Bizarre Adventure',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rmkzfr/respect_donovan_jojos_bizarre_adventure/
+
+########################################
+
+id = get_rt_id(cur, "Respect Dakkon Blackblade (Magic: The Gathering)", 'https://redd.it/rm9kym')
+add_data(['Dakkon'],
+'Dakkon',
+False,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG'],
+    ['Dakkon Blackblade']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rm9kym/respect_dakkon_blackblade_magic_the_gathering/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

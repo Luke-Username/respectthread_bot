@@ -927,7 +927,9 @@ Elder Scrolls
 
 Fairly Oddparents
 	Version
-		'{"Fairly Odd ?parents"}', '{"FOP"}'
+		['Fairly Odd ?parents']
+	Acronyms
+		['FOP']
 	Displayed Version Name
 		"Fairly OddParents"
 
@@ -1526,16 +1528,16 @@ JLA: Shogun of Steel
 
 Jojo's Bizarre Adventure
 	Version
-		'{"Jojos?(verse)?"}', '{"JJBA"}'
+		['Jojos?(verse)?'], ['JJBA']
 	Sometimes Called
-		'{"Dio"}', '{"stands?"}', '{"Joestars?"}'
+		['Dio'], ['stands?'], ['Joestars?']
 	Specific
-		'{"Diamond is Unbreakable"}', '{"Part 4"}',
-		'{"Battle Tendency"}',
-		'{"Star ?dust Crusaders"}'
-		'{"Steel Ball Run"}'
-		'{"Stone Ocean"}'
-		'{"Part (7|8)"}', '{"JoJolion"}'
+		['Diamond is Unbreakable'], ['Part 4'],
+		['Battle Tendency'],
+		['Star ?dust Crusaders']
+		['Steel Ball Run']
+		['Stone Ocean']
+		['Part (7|8)'], ['JoJolion']
 	Displayed Version Name
 		"Jojo''s Bizarre Adventure"
 
@@ -1871,10 +1873,10 @@ Magical Girl Raising Project
 
 Magic: The Gathering / Magic the Gathering
 	Version
-		'{"Magic:? The Gathering"}', '{"M:?TG"}'
-		'{"Planeswalk(er)?s?"}'
+		['Magic:? The Gathering'], ['M:?TG']
+		['Planeswalk(er)?s?']
 	Sometimes Called
-		'{"Magic"}'
+		['Magic']
 	Displayed Version Name
 		"Magic: The Gathering"
 

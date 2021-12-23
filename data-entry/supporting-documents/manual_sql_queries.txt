@@ -15,9 +15,19 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+UPDATE character_name SET name='Morbio?us' WHERE name='Morbius';
+UPDATE character_name SET name='Speed(-| )of?(''|’)?,?(-| )Sound Sonic' WHERE name='Speed(-| )of?''?(-| )Sound';
+UPDATE character_name SET default_name='Speed-o''-Sound Sonic' WHERE default_name='Speed-o'-Sound';
+UPDATE character SET default_name='Speed-o''-Sound Sonic' WHERE default_name='Speed-o'-Sound';
 
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Space Marines (Warhammer 40k)', 'https://redd.it/jbsqpz'); SELECT * FROM respectthread WHERE link='https://redd.it/jbsqpz';
+UPDATE character SET rt_id_array='{?, 6466}' WHERE rt_id_array='{6466}';
+
+########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Donovan', 'John Donovan', -5);
 
 ########################################
 
