@@ -16324,8 +16324,6 @@ Toad,"{`"Brotherhood of Evil Mutants`"}",f,{13136},616
 Terror Twins,{Wolfenstein},f,{13129},Wolfenstein
 Jessie,{Wolfenstein},f,{13129},Wolfenstein
 Zophia,{Wolfenstein},f,{13129},Wolfenstein
-Speed-o'-Sound,"{`"One(-| )Punch Man`"}",t,{4114},One Punch Man
-Speed-o'-Sound,{OPM},t,{4114},One Punch Man
 Carnage Kabuto,"{`"One(-| )Punch Man`"}",t,{4097},One Punch Man
 Carnage Kabuto,{OPM},t,{4097},One Punch Man
 Magmatron,{3Below},f,{13137},3Below: Tales of Arcadia
@@ -16339,6 +16337,7 @@ Equuleus Shōko,{Seiya},t,{13141},Saint Seiya
 Equuleus Shōko,"{`"Saintia Sh(o|ō)u?`"}",t,{13141},Saint Seiya
 Pegasus Seiya,{Seiya},t,"{4493,13142}",Saint Seiya
 Saint Seiya,"{`"Saint Seiya vs`"}",f,"{4493,13142}",Saint Seiya
+Speed-o'-Sound Sonic,"{`"One(-| )Punch Man`"}",t,{4114},One Punch Man
 Saint Seiya,"{`"vs\\.? Saint Seiya`"}",f,"{4493,13142}",Saint Seiya
 Leopold Vermillion,"{`"Black ?Clover`"}",t,{13143},Black Clover
 Great Gazoo,{Charlton},f,{13144},Charlton Comics
@@ -23236,8 +23235,6 @@ Jack the Ripper,{Jojos?(verse)?},f,{16588},Jojo's Bizarre Adventure
 Jack the Ripper,{JJBA},f,{16588},Jojo's Bizarre Adventure
 Orks,{(WH)?40K},t,{16589},Warhammer 40k
 Orks,{Warhammer},t,{16589},Warhammer 40k
-Space Marine,{(WH)?40K},t,{6466},Warhammer 40k
-Space Marine,{Warhammer},t,{6466},Warhammer 40k
 Ultimate Ben,"{`"Ben (10|Ten(nyson)?)`"}",f,{16590},Ben 10
 Ultimate Ben,{Omnitrix},f,{16590},Ben 10
 Monk Maz Koshia,{Zelda},t,{16591},Breath of the Wild
@@ -23245,6 +23242,8 @@ Monk Maz Koshia,{T?LOZ},t,{16591},Breath of the Wild
 Monk Maz Koshia,"{`"Breath of the Wild`"}",t,{16591},Breath of the Wild
 Monk Maz Koshia,{BOTW},t,{16591},Breath of the Wild
 Ninjabread Man,{default},t,{16592},""
+Space Marine,{(WH)?40K},t,"{21139,6466}",Warhammer 40k
+Space Marine,{Warhammer},t,"{21139,6466}",Warhammer 40k
 Balan,{Wonderworld},f,{16593},Balan Wonderworld
 Gandrayda,{Metroid},t,{16594},Metroid
 Rundas,{Metroid},f,{16595},Metroid
@@ -25691,3 +25690,12 @@ Iron Man,"{`"Iron(-| )?Man \\(Iron(-| )?Man 2`"}",f,{247},MCU
 Iron Man,"{`"Avengers 1`"}",f,{247},MCU
 Batman,"{`"Batman Begins`"}",f,{6531},Nolanverse
 Michelle Dreemurr,"{`"The Princess`",Songstress,Plushie}",f,{21138},"The Princess, the Songstress, and the Plushie"
+Speed-o'-Sound Sonic,{OPM},t,{4114},One Punch Man
+Morbius,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Morbius,{MCU},f,{},MCU
+Crash Nebula,"{`"Fairly Odd ?parents`"}",f,{21143},Fairly OddParents
+Donovan,{Jojos?(verse)?},f,{21144},Jojos Bizarre Adventure
+Donovan,{JJBA},f,{21144},Jojos Bizarre Adventure
+Dakkon,"{`"Magic:? The Gathering`"}",t,{21145},Magic: The Gathering
+Dakkon,{M:?TG},t,{21145},Magic: The Gathering
+Dakkon,"{`"Dakkon Blackblade`"}",t,{21145},Magic: The Gathering

@@ -3013,7 +3013,6 @@ Droom,Droom,f
 Fin Fang Foom,Fin Fang Foom,f
 Hit(-| )Monkey,Hit-Monkey,f
 Man(-| )Thing,Man-Thing,f
-Morbius,Morbius,f
 Orrgo,Orrgo,f
 Hellsgaard,Robert Hellsgaard,f
 Simon Garth,Simon Garth,f
@@ -3061,6 +3060,7 @@ Ice Cream Man,Ice Cream Man,f
 Cara Dune,Cara Dune,f
 Carasynthia,Cara Dune,f
 Ax Tagrin,Ax Tagrin,f
+Morbio?us,Morbius,f
 Venamis,Darth Venamis,f
 Coleman Trebor,Coleman Trebor,f
 Mandalorian,Mandalorian,f
@@ -11742,7 +11742,6 @@ Spider(-| )?Men,Spider-Men,f
 New Avengers,New Avengers,t
 Warrior Entity,Warrior Entity,f
 Lady of Pain,Lady of Pain,f
-Speed(-| )of?'?(-| )Sound,Speed-o'-Sound,f
 Charles Dreemurr,Charles Dreemurr,f
 Ill?ulu,Ilulu,f
 Razor ?Fist,Razor Fist,f
@@ -11760,3 +11759,7 @@ Mongke,Mongke,f
 Tagaka,Tagaka,f
 Jade Emperor,Jade Emperor,f
 Michelle Dreemurr,Michelle Dreemurr,f
+"Speed(-| )of?('|’)?,?(-| )Sound Sonic",Speed-o'-Sound Sonic,f
+Crash Nebula,Crash Nebula,f
+Donovan,Donovan,f
+Dakkon,Dakkon,f
