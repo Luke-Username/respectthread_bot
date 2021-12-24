@@ -15,12 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Saiki K', 'Disastrous Life of Saiki K', -19);
-
 ########################################
-
-DELETE FROM character WHERE name='Kusuo Saiki';
-UPDATE character_name SET name='Saiki( |-)K(usuo)?|K(usuo)?( |-)Saiki' WHERE name='Saiki K(usuo)?';
 
 ########################################
 
