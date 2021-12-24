@@ -107,6 +107,118 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['Tobey']
+],
+'Raimiverse Spider-Man',
+'{302}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rmo2g5/can_all_three_spidermen_andrew_tom_and_tobey_hold/hpoenpj/?context=3
+
+########################################
+
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['Live action Spider(-| )?Man']
+],
+'Live-Action',
+'{302,113,261}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rmun46/which_live_action_spiderman_has_the_best_spider/hpoc5gs/?context=3
+
+########################################
+
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Movie Sonic'], ['Sonic ?\(Film\)']
+],
+'2020 film',
+'{8607,17670}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rmmkid/movie_sonic_vs_a_vengeful_true_sun_god_temple/hpn65jc/?context=3
+
+########################################
+
+add_data(['Saiki'],
+'Saiki',
+False,
+False,
+[
+    ['Saiki \((The )?Disastrous Life of Saiki'], ['Saiki (vs|or)'], ['limiters?'], ['(vs\.?|or) Saiki']
+],
+'The Disastrous Life of Saiki K.',
+'{4732}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Christmas Wizard Duncan (Community)', 'https://redd.it/rmpa5r')
+add_data(['Christmas Wizard'],
+'Christmas Wizard',
+False,
+False,
+[
+    ['Community']
+],
+'Community',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rmpa5r/respect_christmas_wizard_duncan_community/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maya Lopez! (Marvel Cinematic Universe)', 'https://redd.it/rn5ai2')
+add_data(['Maya Lopez'],
+'Maya Lopez',
+False,
+False,
+[
+    ['Maya Lopez ?\(Marvel Cinematic Universe'], ['Maya Lopez ?\(MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rn5ai2/respect_maya_lopez_marvel_cinematic_universe/
+
+add_data(['Echo'],
+'Echo',
+False,
+False,
+[
+    ['Echo ?\(Marvel Cinematic Universe'], ['Echo ?\(MCU'], ['MCU', 'martial arti?st?']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rn5ai2/respect_maya_lopez_marvel_cinematic_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jacques "Jack" Duquesne (Marvel Cinematic Universe)', 'https://redd.it/rn5aiv')
+add_data(['Swordsman'],
+'Swordsman',
+False,
+False,
+[
+    ['Swordsman ?\(Marvel Cinematic Universe'], ['Swordsman ?\(MCU'],
+    ['Duquesne', 'Marvel Cinematic Universe'], ['Duquesne', 'MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rn5aiv/respect_jacques_jack_duquesne_marvel_cinematic/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
