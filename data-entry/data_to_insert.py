@@ -107,6 +107,60 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Terminator'],
+'Terminator',
+False,
+False,
+[
+    ['Terminator ?\(Terminator\)'], ['or The Terminator'], ['Terminator vs']
+],
+'',
+'{329, 330, 331, 332}'
+)
+#
+
+########################################
+
+add_data(['Grinch'],
+'Grinch',
+False,
+False,
+[
+    ['Jim Carrey']
+],
+'',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rnf5ip/the_grinch_jim_carrey_version_vs_batman_live/hps0rqa/?context=3
+
+########################################
+
+add_data(['Bat(-| )?man'],
+'Batman',
+False,
+False,
+[
+    ['Live(-| )Action']
+],
+'Live Action',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rnf5ip/the_grinch_jim_carrey_version_vs_batman_live/hps0rqa/?context=3
+
+########################################
+
+add_data(['Alucard'],
+'Alucard',
+False,
+False,
+[
+    ['Castle(-| )?vania', 'Show']
+],
+"Netflix''s Castlevania",
+'{1252}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rncwit/vampire_lords/hprlt7b/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
