@@ -24,6 +24,8 @@ UPDATE character SET is_default=FALSE WHERE default_name='Pandora';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bat(-| )?man', '(Batman and Robin)', -1);
+
 ########################################
 
 ########################################
