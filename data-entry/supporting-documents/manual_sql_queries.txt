@@ -14,17 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 
 ########################################
-
-UPDATE character_name SET name='Jin Mo(-| )?Ri|Mo(-| )?Ri Jin' WHERE name='Jin Mo(-| )Ri';
-UPDATE character_name SET name='Brun?ce Wayne' WHERE name='Bruce Wayne';
-
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Pandora';
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bat(-| )?man', '(Batman and Robin)', -1);
 
 ########################################
 

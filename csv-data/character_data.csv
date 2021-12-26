@@ -188,7 +188,6 @@ Kamen Rider Ex-Aid,{KR},t,{52},Kamen Rider Ex-Aid
 Gold Drive,{KR},t,{53},Kamen Rider Drive
 Kamen Rider Drive,{KR},t,{54},Kamen Rider Drive
 Kamen Rider Gaim,{KR},t,{55},Kamen Rider Gaim
-Pandora,"{`"Sailor Moon`"}",f,{4405},Sailor Moon
 Hokuto Trio,{KR},t,{56},Kamen Rider Build
 Black Lightning,{DCTV},f,{79},TV Series
 Kouga,{Garo},f,{88},Garo
@@ -199,6 +198,7 @@ Black Manta,"{Aquaman,film}",f,{120},DCEU
 Black Manta,{2018},f,{120},DCEU
 Undertaker,{WWF},f,{76},WWE
 Undertaker,"{`"World Wrestling Federation`"}",f,{76},WWE
+Pandora,"{`"Sailor Moon`"}",f,{4405},Sailor Moon
 Kamen Rider Ichigo,{KR},t,{57},Kamen Rider Build The First/The Next
 Kamen Rider Kabuto,{KR},t,{59},Kamen Rider Kabuto
 Kamen Rider Mach,{KR},t,{60},Kamen Rider Mach
@@ -5336,13 +5336,6 @@ Nightmare Nurse,"{`"Prime(-| )Earth`"}",f,{1706},New 52
 Nightmare Nurse,{Rebirth},f,{1706},New 52
 Nightmare Nurse,"{`"Justice League Dark`"}",f,{1706},New 52
 Nightmare Nurse,"{`"(DC( Comics)?)`"}",t,{1706},DC
-Pandora,"{`"New(-| )?52`"}",f,{1707},New 52
-Pandora,{Nu?-?52},f,{1707},New 52
-Pandora,"{`"Post(-| )52`"}",f,{1707},New 52
-Pandora,"{`"Prime(-| )Earth`"}",f,{1707},New 52
-Pandora,{Rebirth},f,{1707},New 52
-Pandora,"{`"Justice League Dark`"}",f,{1707},New 52
-Pandora,"{`"(DC( Comics)?)`"}",t,{1707},DC
 Phantom Stranger,"{`"New(-| )?52`"}",f,{1708},New 52
 Phantom Stranger,{Nu?-?52},f,{1708},New 52
 Phantom Stranger,"{`"Post(-| )52`"}",f,{1708},New 52
@@ -6151,8 +6144,6 @@ Hyperstorm,{616},t,{2074},616
 Hyperstorm,{Marvel},t,{2074},616
 Impossible Man,{616},t,{10824},616
 Impossible Man,{Marvel},t,{10824},616
-Marquis of Death,{616},t,{2075},Marvel
-Marquis of Death,{Marvel},t,{2075},Marvel
 Red Ghost,{616},t,{10825},616
 Red Ghost,{Marvel},t,{10825},616
 Super Skrull,{616},t,{2076},616
@@ -6171,6 +6162,7 @@ Fallen One,{Marvel},t,{2081},616
 Red Shift,{Herald},t,{2081},616
 Red Shift,{Galactus},t,{2081},616
 Red Shift,{616},t,{2081},616
+Marquis of Death,{616},t,{2584},Marvel
 Red Shift,{Marvel},t,{2081},616
 Firelord,{Herald},f,{2082},616
 Firelord,{Galactus},f,{2082},616
@@ -25717,3 +25709,25 @@ Swordsman,"{`"Swordsman ?\\(Marvel Cinematic Universe`"}",f,{21148},MCU
 Swordsman,"{`"Swordsman ?\\(MCU`"}",f,{21148},MCU
 Swordsman,"{Duquesne,`"Marvel Cinematic Universe`"}",f,{21148},MCU
 Swordsman,"{Duquesne,MCU}",f,{21148},MCU
+Pandora,"{`"New(-| )?52`"}",f,{1707},New 52
+Pandora,{Nu?-?52},f,{1707},New 52
+Pandora,"{`"Post(-| )52`"}",f,{1707},New 52
+Pandora,"{`"Prime(-| )Earth`"}",f,{1707},New 52
+Pandora,{Rebirth},f,{1707},New 52
+Pandora,"{`"Justice League Dark`"}",f,{1707},New 52
+Pandora,"{`"(DC( Comics)?)`"}",f,{1707},DC
+Marquis of Death,{Marvel},t,{2584},Marvel
+Terminator,"{`"Terminator ?\\(Terminator\\)`"}",f,"{329,330,331,332}",""
+Terminator,"{`"or The Terminator`"}",f,"{329,330,331,332}",""
+Terminator,"{`"Terminator vs`"}",f,"{329,330,331,332}",""
+Grinch,"{`"Jim Carrey`"}",f,{},""
+Batman,"{`"Live(-| )Action`"}",f,{},Live Action
+Alucard,"{`"Castle(-| )?vania`",Show}",f,{1252},Netflix's Castlevania
+Mr. Freeze,"{`"(Mister|Mr)\\.? Freeze ?\\(Batman and Robin`"}",f,{},Batman and Robin
+Jo Mullein,{Rebirth},t,{21149},Rebirth
+Mother Vodol,"{`"A Boy Called Christmas`"}",t,{21150},A Boy Called Christmas
+Pitch Black,"{`"Rise of the Guardians`"}",f,{21151},Rise of the Guardians
+Boogeyman,"{`"Rise of the Guardians`"}",f,{21151},Rise of the Guardians
+Billy Chapman,"{`"Deadly Night`"}",t,{21152},"Silent Night, Deadly Night"
+Santa,"{`"Christmas Chronicles`"}",f,{21153},The Christmas Chronicles
+Snowman,"{`"The Christmas Light`"}",f,{21154},The Christmas Light

@@ -152,7 +152,6 @@ Raiden,Raiden,f
 Strowman,Strowman,f
 Mick Foley,Mick Foley,f
 Hohenheim,Hohenheim,f
-Bruce Wayne,Batman,f
 Bibleman,Bibleman,f
 Miles Peterson,Bibleman,f
 Black Lightning,Black Lightning,f
@@ -290,6 +289,7 @@ Ocean Master,Ocean Master,f
 Orm Marius,Ocean Master,f
 Panda Man,Panda Man,f
 Peter Parker,Peter Parker,f
+Brun?ce Wayne,Batman,f
 Steppenwolf,Steppenwolf,f
 Zod,General Zod,f
 Scott Summers,Scott Summers,f
@@ -5563,7 +5563,6 @@ Night King,Night King,f
 Gintoki,Gintoki,f
 Gin,Gin,f
 Han Dae(-| )Wi,Han Dae-Wi,f
-Jin Mo(-| )Ri,Jin Mo-Ri,f
 Tae(-| )?jin Jin,Taejin Jin,f
 Jin Tae(-| )?jin,Taejin Jin,f
 Taek Jae(-| )?Kal,Taek Jae-Kal,f
@@ -11764,3 +11763,11 @@ Dakkon,Dakkon,f
 Saiki( |-)K(usuo)?|K(usuo)?( |-)Saiki,Saiki Kusuo,f
 Saiki,Saiki,f
 Christmas Wizard,Christmas Wizard,f
+Jin Mo(-| )?Ri|Mo(-| )?Ri Jin,Jin Mo-Ri,f
+Terminator,Terminator,f
+(Mister|Mr)\\.? Freeze,Mr. Freeze,f
+(So)?jo(urner)? Mullein,Jo Mullein,f
+Mother Vodol,Mother Vodol,f
+Pitch Black,Pitch Black,f
+Boogeyman,Boogeyman,f
+Billy Chapman,Billy Chapman,f
