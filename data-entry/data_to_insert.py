@@ -107,7 +107,17 @@ cur = con.cursor()
 
 ########################################
 
-########################################
+add_data(['Garfield'],
+'Garfield',
+False,
+False,
+[
+    ['Spider(-| )?Mans?']
+],
+'Spider-Man',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rnz30g/spiderman_no_way_home_villains_vs_the_mcu/hpyhrk3/?context=3
 
 ########################################
 
