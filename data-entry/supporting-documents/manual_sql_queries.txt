@@ -15,18 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"\\(DC\\)"}' WHERE version='{"(DC)"}';
-
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Yamamoto', 'Takeshi Yamamoto', -8);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('King Thor', 'Old King Thor', -4);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('King Thor', 'Rune King Thor', -5);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Batman', 'Batman Beyond', 0);
-
 ########################################
-
-UPDATE character SET default_name='Odin-Force Thor' WHERE default_name='Odin(-| )?force Thor';
 
 ########################################
 
