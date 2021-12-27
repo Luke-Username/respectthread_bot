@@ -106,6 +106,66 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+update_respectthread(cur, 3055, 'Respect Eren Yeager (Attack On Titan)', 'https://redd.it/cmnegi')
+update_respectthread(cur, 457, 'Respect John Hancock (Hancock)', 'https://redd.it/rpejx0')
+
+########################################
+
+add_data(['Spartans'],
+'Spartans',
+False,
+False,
+[
+    ['Halo']
+],
+'Halo',
+'{13325}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rpigsu/how_many_spartanshalo_series_would_it_take_to/hq4iuhk/?context=3
+
+########################################
+
+add_data(['Gojo'],
+'Gojo',
+False,
+True,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK'],
+    ['vs\.? Gojo'], ['Gojo vs']
+],
+'Jujutsu Kaisen',
+'{14809}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rpfg94/dms_kakashi_vs_gojo/hq4393d/?context=3
+
+########################################
+
+add_data(['Riku'],
+'Riku',
+False,
+False,
+[
+    ['Sora']
+],
+'Kingdom Hearts',
+'{5158}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rpi0g9/core_gundamrerise_vs_erenfinal_season_can_hiroto/hq4govm/?context=3
+
+########################################
+
+add_data(['Hancock'],
+'Hancock',
+False,
+False,
+[
+    ['John Hancock']
+],
+'Hancock',
+'{457}'
+)
+#
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
