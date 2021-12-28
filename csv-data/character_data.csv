@@ -1985,7 +1985,6 @@ Khan,{Guardians},f,{454},Guardians
 David Collins,"{`"The Guest`"}",t,{455},The Guest
 Michael Myers,{Halloween},t,{456},Halloween
 Hancock,{2008},f,{457},Hancock
-Hancock,{(Hancock)},f,{457},Hancock
 Hancock,{movie},f,{457},Hancock
 Hansel & Gretel,"{`"Witch Hunters`"}",f,{458},Hansel and Gretel: Witch Hunters
 Gretel,"{`"Witch Hunters`"}",f,{458},Hansel and Gretel: Witch Hunters
@@ -2028,6 +2027,7 @@ Jaws,{Moonraker},f,{475},James Bond
 Jaws,"{`"James Bond`"}",f,{475},James Bond
 Jaws,{007},f,{475},James Bond
 The Guardians,"{`"\\(Guardians\\)`"}",f,{454},Guardians
+Hancock,"{`"\\(Hancock\\)`"}",f,{457},Hancock
 Skeletons,"{`"Jason and the Argonauts`"}",f,{476},Jason and the Argonauts
 Jeepers Creepers,"{`"Jeepers Creepers`"}",t,{477},""
 Creeper,"{`"Jeepers Creepers`"}",f,{477},""
@@ -3772,7 +3772,6 @@ Impulse,"{`"from Young Justice`"}",f,{1010},Young Justice
 Impulse,"{`"Young Justice show`"}",f,{1010},Young Justice
 Lagoon Boy,"{`"(Young Justice)`"}",f,{1011},Young Justice
 Lagoon Boy,"{`"Young Justice`",`"season d`"}",f,{1011},Young Justice
-Deathstroke,"{`"Arkham games?`"}",f,{10795},Batman: Arkham
 Lagoon Boy,"{`"Young Justice`",`"TV (shows?|series|versions?)`"}",f,{1011},Young Justice
 Lagoon Boy,"{`"Young Justice`",`"cartoon network`"}",f,{1011},Young Justice
 Lagoon Boy,"{`"from Young Justice`"}",f,{1011},Young Justice
@@ -5029,7 +5028,6 @@ Vera Lynn Black,"{`"New(-| )Earth`"}",t,{1670},DC
 Vera Lynn Black,{Elite},t,{1670},DC
 Killer Croc,{Arkhamverse},f,"{5533,6381}",Batman: Arkham
 Shirai Kuroko,{Index(verse)?},t,{10797},Toaru Majutsu no Index
-Killer Croc,"{`"Arkham games?`"}",f,"{5533,6381}",Batman: Arkham
 Killer Croc,{PC},f,"{1671,6381}",PC
 Killer Croc,"{`"Pre(-| )?Crisis`"}",f,"{1671,6381}",PC
 Killer Croc,"{`"Post(-| )?C(risis)?`"}",f,"{1671,6381}",PC
@@ -5047,6 +5045,7 @@ Black Lantern Superman,{Earth-(2|Two)},t,{1676},""
 Despotellis,{DC},t,{1677},""
 Despotellis,{PC},t,{1677},""
 Despotellis,"{`"Post(-| )?C(risis)?`"}",t,{1677},""
+Killer Croc,"{`"Arkham ga(m|n)es?`"}",f,"{5533,6381}",Batman: Arkham
 Riptide,"{`"First Class`"}",f,{6557},FOX
 Riptide,{FOX},f,{6557},FOX
 Riptide,{Foxverse},f,{6557},FOX
@@ -7665,37 +7664,30 @@ Mickey Mouse,"{`"Walt Disney's Mickey Mouse`"}",f,{8197},Walt Disney's Mickey Mo
 Beta Ray Bill,"{`"Planet Hulk`"}",f,{8198},Planet Hulk
 Suicide Squad,{Arkhamverse},f,{8199},Batman: Arkham
 Suicide Squad,"{`"\\(Arkham\\)`"}",f,{8199},Batman: Arkham
-Suicide Squad,"{`"Arkham games?`"}",f,{8199},Batman: Arkham
 Suicide Squad,"{`"Arkham series`"}",f,{8199},Batman: Arkham
 Suicide Squad,"{`"Batman: Arkham`"}",f,{8199},Batman: Arkham
 Harley Quinn,{Arkhamverse},f,{8199},Batman: Arkham
 Harley Quinn,"{`"\\(Arkham\\)`"}",f,{8199},Batman: Arkham
-Harley Quinn,"{`"Arkham games?`"}",f,{8199},Batman: Arkham
 Harley Quinn,"{`"Arkham series`"}",f,{8199},Batman: Arkham
 Harley Quinn,"{`"Batman: Arkham`"}",f,{8199},Batman: Arkham
 Deadshot,{Arkhamverse},f,{8199},Batman: Arkham
 Deadshot,"{`"\\(Arkham\\)`"}",f,{8199},Batman: Arkham
-Deadshot,"{`"Arkham games?`"}",f,{8199},Batman: Arkham
 Deadshot,"{`"Arkham series`"}",f,{8199},Batman: Arkham
 Deadshot,"{`"Batman: Arkham`"}",f,{8199},Batman: Arkham
 Captain Boomerang,{Arkhamverse},f,{8199},Batman: Arkham
 Captain Boomerang,"{`"\\(Arkham\\)`"}",f,{8199},Batman: Arkham
-Captain Boomerang,"{`"Arkham games?`"}",f,{8199},Batman: Arkham
 Captain Boomerang,"{`"Arkham series`"}",f,{8199},Batman: Arkham
 Captain Boomerang,"{`"Batman: Arkham`"}",f,{8199},Batman: Arkham
 Killer Frost,{Arkhamverse},f,{8199},Batman: Arkham
 Killer Frost,"{`"\\(Arkham\\)`"}",f,{8199},Batman: Arkham
-Killer Frost,"{`"Arkham games?`"}",f,{8199},Batman: Arkham
 Killer Frost,"{`"Arkham series`"}",f,{8199},Batman: Arkham
 Killer Frost,"{`"Batman: Arkham`"}",f,{8199},Batman: Arkham
 King Shark,{Arkhamverse},f,{8199},Batman: Arkham
 King Shark,"{`"\\(Arkham\\)`"}",f,{8199},Batman: Arkham
-King Shark,"{`"Arkham games?`"}",f,{8199},Batman: Arkham
 King Shark,"{`"Arkham series`"}",f,{8199},Batman: Arkham
 King Shark,"{`"Batman: Arkham`"}",f,{8199},Batman: Arkham
 Black Spider,{Arkhamverse},f,{8199},Batman: Arkham
 Black Spider,"{`"\\(Arkham\\)`"}",f,{8199},Batman: Arkham
-Black Spider,"{`"Arkham games?`"}",f,{8199},Batman: Arkham
 Black Spider,"{`"Arkham series`"}",f,{8199},Batman: Arkham
 Black Spider,"{`"Batman: Arkham`"}",f,{8199},Batman: Arkham
 Genz Bresslau,"{`"Full ?metal`"}",t,{8200},Fullmetal Alchemist
@@ -7756,6 +7748,7 @@ Shinra Kusakabe,"{`"Fire Force`"}",t,{8239},Fire Force
 Shinra,"{`"Fire Force`"}",f,{8239},Fire Force
 Joker,"{`"Fire Force`"}",f,{8240},Fire Force
 Kamen Rider Kuuga,"{`"Kamen Rider`"}",t,"{8202,17668}",""
+King Shark,"{`"Arkham ga(m|n)es?`"}",f,{8199},Batman: Arkham
 Takeru Noto,"{`"Fire Force`"}",t,{8241},Fire Force
 Ogun Montgomery,"{`"Fire Force`"}",t,{8242},Fire Force
 Maki Oze,"{`"Fire Force`"}",t,{8243},Fire Force
@@ -8558,7 +8551,6 @@ Pureblood,"{`"One(-| )Punch Man`"}",f,{4119},One Punch Man
 Pureblood,{OPM},f,{4119},One Punch Man
 Bane,{Arkhamverse},f,{5532},Batman: Arkham
 Bane,"{`"\\(Arkham\\)`"}",f,{5532},Batman: Arkham
-Bane,"{`"Arkham games?`"}",f,{5532},Batman: Arkham
 Bane,"{`"Arkham series`"}",f,{5532},Batman: Arkham
 Bane,"{`"Batman: Arkham`"}",f,{5532},Batman: Arkham
 Bane,"{`"Arkham Origins`"}",f,{5532},Batman: Arkham
@@ -8701,7 +8693,6 @@ Wonder Woman,{PC},f,{1853},Post-Crisis
 Wonder Woman,"{`"Earth(-| )(1|One)`"}",f,{1853},Post-Crisis
 Wonder Woman,"{`"Post(-| )?C(risis)?`"}",f,{1853},Post-Crisis
 Wonder Woman,"{`"New(-| )Earth`"}",f,{1853},Post-Crisis
-Wonder Woman,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1852,1853}",New 52 / Rebirth
 Wonder Woman,"{`"DC Super ?Hero Girls`"}",f,{},DC Super Hero Girls
 Wonder-Woman of China,"{`"New(-| )?52`"}",t,{1854},Rebirth
 Wonder-Woman of China,{Nu?-?52},t,{1854},Rebirth
@@ -8735,6 +8726,7 @@ Green Lantern,"{`"Earth(-| )(6|Six)`"}",f,{1687},Earth 6
 Green Lantern,"{`"Len Lewis`"}",f,{1687},Earth 6
 Superman,"{`"Earth(-| )(6|Six)`"}",f,{1787},Earth 6
 Shooting Star,"{`"Shooting Star ?\\(616`"}",f,{2324},616
+Wonder Woman,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1852,1853}",DC
 Cyborg,{Genos},f,"{1646,1828}",DC
 Cyborg,{Batman},f,"{1646,1828}",DC
 Mario Bros,"{`"Great Mission to Rescue Princess Peach`"}",f,{8271},The Great Mission to Rescue Princess Peach!
@@ -14372,7 +14364,6 @@ Yuto,{Duel},f,{4635},Yu-Gi-Oh!
 Yugo,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4635},Yu-Gi-Oh!
 Yuri,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4635},Yu-Gi-Oh!
 Zarc,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4635},Yu-Gi-Oh!
-Bakura,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4636},Yu-Gi-Oh!
 Zorc,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4636},Yu-Gi-Oh!
 Bui,"{`"Y(u|ū) ?Y(u|ū) Hakusho`"}",f,{4637},Yu Yu Hakusho
 Bui,{YYH},f,{4637},Yu Yu Hakusho
@@ -15270,7 +15261,6 @@ The Anchor,"{`"BOOM!? Studios?`"}",f,{14473},BOOM! Studios
 Bowsette,"{`"Bowsette Saga`"}",t,{14474},Bowsette Saga
 Chompy,{Bowsette},f,{14475},Bowsette Saga
 Mr. Freeze,"{`"Arkham(-| )?verse`"}",f,{14476},Batman: Arkham
-Mr. Freeze,"{`"Arkham games?`"}",f,{14476},Batman: Arkham
 Mr. Freeze,"{`"Arkham series`"}",f,{14476},Batman: Arkham
 Mr. Freeze,"{`"Batman: Arkham`"}",f,{14476},Batman: Arkham
 Mr. Freeze,"{`"Arkham City`"}",f,{14476},Batman: Arkham
@@ -16441,6 +16431,24 @@ Scorpion,"{`"Mortal Kombat`"}",f,{7440},Mortal Kombat
 Scorpion,{MK},f,{7440},Mortal Kombat
 Liu Kang,"{`"Mortal Kombat`"}",t,{9258},Mortal Kombat
 Liu Kang,{MK},t,{9258},Mortal Kombat
+Spartans,{Halo},f,{13325},Halo
+Gojo,"{`"Jujus?t?s?u Kaisen`"}",t,{14809},Jujutsu Kaisen
+Gojo,{JJK},t,{14809},Jujutsu Kaisen
+Gojo,"{`"vs\\.? Gojo`"}",t,{14809},Jujutsu Kaisen
+Gojo,"{`"Gojo vs`"}",t,{14809},Jujutsu Kaisen
+Riku,{Sora},f,{5158},Kingdom Hearts
+Hancock,"{`"John Hancock`"}",f,{457},Hancock
+Ikaris,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Ikaris,{MCU},f,{},MCU
+Bakura,"{`"Millennium Items?`"}",f,{4636},Yu-Gi-Oh!
+Bakura,{Yugi},f,{4636},Yu-Gi-Oh!
+Bakura,{Yami},f,{4636},Yu-Gi-Oh!
+Ultra Brothers,{Ultraman},t,{364},Ultraman
+Ultra Brother,{Ultraman},t,{364},Ultraman
+John Doe,{unOrdinary},f,{21156},unOrdinary
+John,{unOrdinary},f,{21156},unOrdinary
+Sister Friede,"{`"(Dark|Demon) ?Souls`"}",t,{21157},Dark Souls
+Darth Vader,"{Shakespeare,`"Star Wars`"}",f,{21158},William Shakespeares Star Wars
 Saint-14,{Destiny},t,{5041},Destiny
 Sjur Eido,{Destiny},t,{5042},Destiny
 Warpriest,{Destiny},f,{5043},Destiny
@@ -16720,7 +16728,6 @@ Mickey,"{`"Kingdom Hearts`"}",f,{5155},Kingdom Hearts
 Mickey,{KH},f,{5155},Kingdom Hearts
 Larxene,"{`"Kingdom Hearts`"}",t,{5156},Kingdom Hearts
 Master Xehanort,"{`"Kingdom Hearts`"}",t,{5157},Kingdom Hearts
-Riku,"{`"Kingdom Hearts`"}",t,{5158},Kingdom Hearts
 Roxas,"{`"Kingdom Hearts`"}",t,{5159},Kingdom Hearts
 Saïx,"{`"Kingdom Hearts`"}",t,{5160},Kingdom Hearts
 Sora,"{`"Kingdom Hearts`"}",f,{5161},Kingdom Hearts
@@ -25741,3 +25748,14 @@ Spider-Man,"{`"Spider(-| )?Mans? (film|movie) villains?`"}",f,{},Movie Villains
 King Ghidorah,"{`"MV (King )?Ghidorah`"}",f,{8614},Monsterverse
 King Ghidorah,{Titanus},f,{8614},Monsterverse
 Batman Beyond,{bx4c43},f,{749},DCAU
+Deathstroke,"{`"Arkham ga(m|n)es?`"}",f,{10795},Batman: Arkham
+Suicide Squad,"{`"Arkham ga(m|n)es?`"}",f,{8199},Batman: Arkham
+Harley Quinn,"{`"Arkham ga(m|n)es?`"}",f,{8199},Batman: Arkham
+Deadshot,"{`"Arkham ga(m|n)es?`"}",f,{8199},Batman: Arkham
+Captain Boomerang,"{`"Arkham ga(m|n)es?`"}",f,{8199},Batman: Arkham
+Killer Frost,"{`"Arkham ga(m|n)es?`"}",f,{8199},Batman: Arkham
+Black Spider,"{`"Arkham ga(m|n)es?`"}",f,{8199},Batman: Arkham
+Bane,"{`"Arkham ga(m|n)es?`"}",f,{5532},Batman: Arkham
+Mr. Freeze,"{`"Arkham ga(m|n)es?`"}",f,{14476},Batman: Arkham
+Riku,"{`"Kingdom Hearts`"}",f,{5158},Kingdom Hearts
+Bakura,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4636},Yu-Gi-Oh!

@@ -15,19 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"Arkham ga(m|n)es?"}' WHERE version='{"Arkham games"}';
-UPDATE character_name SET name='Satoru Gojo|Goji Satoru' WHERE name='Satoru Gojo';
-UPDATE character SET displayed_version_name='DC' WHERE rt_id_array='{1852,1853}';
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Cth?ulhu', 'Cthulhu Mythos', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('SCP Foundation', '(SCP Foundation', -1);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Flash', 'Flash Grenade', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Flash', 'Flash Grenades', 0);
-UPDATE character SET version='{"\\(Hancock\\)"}' WHERE version='{"(Hancock)"}';
-
 ########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Riku';
-UPDATE character SET is_default=FALSE WHERE default_name='Bakura';
 
 ########################################
 
