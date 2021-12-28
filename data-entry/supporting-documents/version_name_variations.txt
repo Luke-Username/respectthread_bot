@@ -590,9 +590,9 @@ Dark Horse Comics
 
 Dark Souls
 	Version
-		'{"(Dark|Demon) ?Souls"}', '{"Soulsborne"}'
+		['(Dark|Demon) ?Souls'], ['Soulsborne']
 	If full title isn't needed
-		'{"Souls"}'
+		['Souls']
 	Displayed Version Name
 		"Dark Souls"
 

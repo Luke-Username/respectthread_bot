@@ -27,6 +27,7 @@ UPDATE character SET version='{"\\(Hancock\\)"}' WHERE version='{"(Hancock)"}';
 ########################################
 
 UPDATE character SET is_default=FALSE WHERE default_name='Riku';
+UPDATE character SET is_default=FALSE WHERE default_name='Bakura';
 
 ########################################
 

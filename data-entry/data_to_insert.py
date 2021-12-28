@@ -166,6 +166,118 @@ False,
 '{457}'
 )
 #
+
+########################################
+
+add_data(['Ikaris'],
+'Ikaris',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rpymy8/shang_chi_ikaris_and_spiderman_vs_thanos/hq77flb/?context=3
+
+########################################
+
+add_data(['Bakura'],
+'Bakura',
+False,
+False,
+[
+    ['Millennium Items?'], ['Yugi'], ['Yami']
+],
+'Yu-Gi-Oh!',
+'{4636}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rpvpun/alkesh_mediumrange_bomber_stargate_sg1_vs/hq7ejo5/?context=3
+
+########################################
+
+add_data(['Ultra Brothers'],
+'Ultra Brothers',
+True,
+True,
+[
+    ['Ultraman']
+],
+'Ultraman',
+'{364}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rq17ni/what_if_showa_godzilla_were_in_the_showa_ultra/hq7np19/?context=3
+
+add_data(['Ultra Brother'],
+'Ultra Brother',
+True,
+True,
+[
+    ['Ultraman']
+],
+'Ultraman',
+'{364}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rq17ni/what_if_showa_godzilla_were_in_the_showa_ultra/hq7np19/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect John Doe (unOrdinary)', 'https://redd.it/rpt7so')
+add_data(['John Doe'],
+'John Doe',
+False,
+False,
+[
+    ['unOrdinary']
+],
+'unOrdinary',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rpt7so/respect_john_doe_unordinary/
+
+add_data(['John'],
+'John',
+False,
+False,
+[
+    ['unOrdinary']
+],
+'unOrdinary',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rpt7so/respect_john_doe_unordinary/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sister Friede and Father Ariandel (Dark Souls III: Ashes of Ariandel)', 'https://redd.it/rpyd90')
+add_data(['Sister Friede'],
+'Sister Friede',
+False,
+True,
+[
+    ['(Dark|Demon) ?Souls']
+],
+'Dark Souls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rpyd90/respect_sister_friede_and_father_ariandel_dark/
+
+########################################
+
+id = get_rt_id(cur, "Respect Anakin Skywalker/Darth Vader! (William Shakespeare''s Star Wars)", 'https://redd.it/rq0k1n')
+add_data(['Vader'],
+'Darth Vader',
+False,
+False,
+[
+    ['Shakespeare', 'Star Wars']
+],
+'William Shakespeare''s Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rq0k1n/respect_anakin_skywalkerdarth_vader_william/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
