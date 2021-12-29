@@ -113,6 +113,7 @@ update_respectthread(cur, 3672, 'Respect Gaolang Wongsawat, "The Thai God of War
 update_respectthread(cur, 3674, 'Respect Hatsumi Sen, "The Floating Cloud" (Kengan Asura)', 'https://redd.it/rq6gvy')
 update_respectthread(cur, 14918, 'Respect Lu Tian, Three Demon Fists: Centipede (Kengan Omega)', 'https://redd.it/rq6hat')
 update_respectthread(cur, 3691, 'Respect Okubo Naoya, "The King of Combat" (Kengan Asura)', 'https://redd.it/rq80fm')
+update_respectthread(cur, 1352, 'Respect Tyrian Callows (RWBY)', 'https://redd.it/rrfex7')
 
 ########################################
 
@@ -254,6 +255,21 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/rr9axg/respect_stargirl_dc_comics_new_52/
 
+########################################
+
+id = get_rt_id(cur, 'Respect The Dai Li (Avatar: The Last Airbender)', 'https://redd.it/rri6ql')
+add_data(['Dai Li'],
+'Dai Li',
+False,
+True,
+[
+    ['Avatar'], ['A?TLA'],
+    ['Bend(er|ing)']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rri6ql/respect_the_dai_li_avatar_the_last_airbender/
 
 ########################################
 
