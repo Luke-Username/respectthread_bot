@@ -107,6 +107,154 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3679, 'Respect Kanoh Agito, "The Fang of Metsudo" (Kengan Asura)', 'https://redd.it/rq6eu1')
+update_respectthread(cur, 3685, 'Respect Kuroki Gensai, "The Devil Lance" (Kengan Asura)', 'https://redd.it/rq6fk4')
+update_respectthread(cur, 3672, 'Respect Gaolang Wongsawat, "The Thai God of War" (Kengan Asura)', 'https://redd.it/rq6g2z')
+update_respectthread(cur, 3674, 'Respect Hatsumi Sen, "The Floating Cloud" (Kengan Asura)', 'https://redd.it/rq6gvy')
+update_respectthread(cur, 14918, 'Respect Lu Tian, Three Demon Fists: Centipede (Kengan Omega)', 'https://redd.it/rq6hat')
+update_respectthread(cur, 3691, 'Respect Okubo Naoya, "The King of Combat" (Kengan Asura)', 'https://redd.it/rq80fm')
+
+########################################
+
+add_data(['Syndrome'],
+'Syndrome',
+False,
+False,
+[
+    ['villains?'], ['Gru'], ['Megamind']
+],
+'The Incredibles',
+'{14914}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rqgjo3/omni_man_vs_megamind_syndrome_and_gru/hqasfbf/?context=3
+
+########################################
+
+add_data(['Daredevil'],
+'Daredevil',
+False,
+False,
+[
+    ['Daredevil.+TV(-| )Show'], ['TV(-| )Show.+Daredevil']
+],
+'MCU',
+'{1289}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rqbh2l/daredevil_tv_show_vs_peter_parker_no_way_home/hq9hug9/?context=3
+
+########################################
+
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['No way home']
+],
+'MCU',
+'{261}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rqbh2l/daredevil_tv_show_vs_peter_parker_no_way_home/hq9hug9/?context=3
+
+add_data(['Peter Parker'],
+'Peter Parker',
+False,
+False,
+[
+    ['No way home']
+],
+'MCU',
+'{261}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rqbh2l/daredevil_tv_show_vs_peter_parker_no_way_home/hq9hug9/?context=3
+
+########################################
+
+add_data(['Captain America'],
+'Captain America',
+False,
+False,
+[
+    ['MCU', 'Sam']
+],
+'Sam Wilson, MCU',
+'{242}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rq6966/dr_strange_mcu_accidentally_leaks_geralt_of_rivia/hq8kfpn/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vincent Valentine (Final Fantasy)', 'https://redd.it/rqk9ja')
+add_data(['Vincent Valentine'],
+'Vincent Valentine',
+False,
+True,
+[
+    ['Final Fantasy']
+],
+'Final Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rqk9ja/respect_vincent_valentine_final_fantasy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thor Bor-Kin (Marvel)', 'https://redd.it/rqul98')
+add_data(['Thor Bor(-| )?Kin'],
+'Thor Bor-Kin',
+False,
+True,
+[
+    ['Marvel']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rqul98/respect_thor_borkin_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ledgic (Dragon Ball GT)', 'https://redd.it/rqxou6')
+add_data(['Ledgic'],
+'Ledgic',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB ?GT']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rqxou6/respect_ledgic_dragon_ball_gt/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Stargirl (DC Comics, New 52)', 'https://redd.it/rr9axg')
+add_data(['Stargirl'],
+'Stargirl',
+False,
+True,
+[
+    ['New(-| )?52'], ['Nu?-?52'], ['Post(-| )52'], ['Prime(-| )Earth']
+],
+'New 52',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rr9axg/respect_stargirl_dc_comics_new_52/
+
+add_data(['Stargirl'],
+'Stargirl',
+False,
+False,
+[
+    ['CW'], ['Stargirl (show|series)']
+],
+'CW',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rr9axg/respect_stargirl_dc_comics_new_52/
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

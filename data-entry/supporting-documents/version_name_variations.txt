@@ -835,9 +835,10 @@ Dota 2 (Defense of the Ancients)
 
 Dragon Ball
 	Version
-		'{"Dragon ?Ball"}', '{"DB(Z|S)?"}'
+		['Dragon ?Ball'], ['DB(Z|S)?']
 	Specific
-		'{"Fusion Reborn"}'
+		['Fusion Reborn']
+		['DB ?GT']
 	Displayed Version Name
 		"Dragon Ball"
 
