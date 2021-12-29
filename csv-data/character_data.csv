@@ -20695,7 +20695,6 @@ Terra of the Left,{Index(verse)?},t,{6013},Toaru Majutsu no Index
 Terra of the Left,{TAMNI},t,{6013},Toaru Majutsu no Index
 Terra of the Left,{Raildex},t,{6013},Toaru Majutsu no Index
 Terra,"{`"To ?aru`"}",f,{6013},Toaru Majutsu no Index
-Terra,{Index(verse)?},f,{6013},Toaru Majutsu no Index
 Terra,{TAMNI},f,{6013},Toaru Majutsu no Index
 Terra,{Raildex},f,{6013},Toaru Majutsu no Index
 Vento of the Front,"{`"To ?aru`"}",t,{6014},Toaru Majutsu no Index
@@ -25759,3 +25758,25 @@ Bane,"{`"Arkham ga(m|n)es?`"}",f,{5532},Batman: Arkham
 Mr. Freeze,"{`"Arkham ga(m|n)es?`"}",f,{14476},Batman: Arkham
 Riku,"{`"Kingdom Hearts`"}",f,{5158},Kingdom Hearts
 Bakura,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4636},Yu-Gi-Oh!
+Terra,{Indexverse},f,{6013},Toaru Majutsu no Index
+Syndrome,{villains?},f,{14914},The Incredibles
+Syndrome,{Gru},f,{14914},The Incredibles
+Syndrome,{Megamind},f,{14914},The Incredibles
+Daredevil,"{`"Daredevil.+TV(-| )Show`"}",f,{1289},MCU
+Daredevil,"{`"TV(-| )Show.+Daredevil`"}",f,{1289},MCU
+Spider-Man,"{`"No way home`"}",f,{261},MCU
+Peter Parker,"{`"No way home`"}",f,{261},MCU
+Captain America,"{MCU,Sam}",f,{242},"Sam Wilson, MCU"
+Vincent Valentine,"{`"Final Fantasy`"}",t,{21159},Final Fantasy
+Thor Bor-Kin,{Marvel},t,{21160},Marvel
+Ledgic,"{`"Dragon ?Ball`"}",t,{21161},Dragon Ball
+Ledgic,"{`"DB ?GT`"}",t,{21161},Dragon Ball
+Stargirl,"{`"New(-| )?52`"}",t,{21162},New 52
+Stargirl,{Nu?-?52},t,{21162},New 52
+Stargirl,"{`"Post(-| )52`"}",t,{21162},New 52
+Stargirl,"{`"Prime(-| )Earth`"}",t,{21162},New 52
+Stargirl,{CW},f,{},CW
+Stargirl,"{`"Stargirl (show|series)`"}",f,{},CW
+Dai Li,{Avatar},t,{21163},Avatar: TLA
+Dai Li,{A?TLA},t,{21163},Avatar: TLA
+Dai Li,{Bend(er|ing)},t,{21163},Avatar: TLA

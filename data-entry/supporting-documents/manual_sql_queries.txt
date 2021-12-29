@@ -15,16 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Jiraiya', 'post Jiraiya', -5);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Stargirl', '(Stargirl', -1);
-
 ########################################
 
-UPDATE character SET version='{"Indexverse"}' WHERE default_name='Terra' AND version='{"Index(verse)?"}';
-
 ########################################
-
-UPDATE character_name SET name='Hawk(-| )?(eye|guy)s?' WHERE name='Hawk(-| )?(eye|guy)';
 
 ########################################
 
