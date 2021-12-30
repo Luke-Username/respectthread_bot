@@ -16449,6 +16449,19 @@ John Doe,{unOrdinary},f,{21156},unOrdinary
 John,{unOrdinary},f,{21156},unOrdinary
 Sister Friede,"{`"(Dark|Demon) ?Souls`"}",t,{21157},Dark Souls
 Darth Vader,"{Shakespeare,`"Star Wars`"}",f,{21158},William Shakespeares Star Wars
+Hulk,"{`"Marvel Zombies`"}",f,{},2149
+Hulk,{2149},f,{},2149
+Iron Man,"{`"Marvel Zombies`"}",f,{},2149
+Iron Man,{2149},f,{},2149
+Luke Cage,"{`"Marvel Zombies`"}",f,{},2149
+Luke Cage,{2149},f,{},2149
+Wolverine,"{`"Marvel Zombies`"}",f,{},2149
+Wolverine,{2149},f,{},2149
+Buddha,"{Fate,Serv(a|e)nts?}",f,{21164},Fate
+Star,"{`"Star ?\\(Marvel`"}",f,{21165},616
+Star,"{`"Star ?\\(616`"}",f,{21165},616
+Ripley Ryan,{Marvel},t,{21165},616
+Ripley Ryan,{616},t,{21165},616
 Saint-14,{Destiny},t,{5041},Destiny
 Sjur Eido,{Destiny},t,{5042},Destiny
 Warpriest,{Destiny},f,{5043},Destiny
