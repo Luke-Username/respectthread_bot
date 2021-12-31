@@ -25793,3 +25793,9 @@ Stargirl,"{`"Stargirl (show|series)`"}",f,{},CW
 Dai Li,{Avatar},t,{21163},Avatar: TLA
 Dai Li,{A?TLA},t,{21163},Avatar: TLA
 Dai Li,{Bend(er|ing)},t,{21163},Avatar: TLA
+Dr. Drakken,"{`"Kim Possible`"}",t,{21166},Kim Possible
+Rainbow Raider,"{`"\\(DC( Comics)?\\)`"}",t,{21167},DC
+Rainbow Raider,"{`"\\[DC( Comics)?\\]`"}",t,{21167},DC
+Rainbow Raider,{PC},f,{21167},Post-Crisis
+Rainbow Raider,"{`"Posts?(-| )?C(risis)?`"}",f,{21167},Post-Crisis
+Rainbow Raider,"{`"New(-| )Earth`"}",f,{21167},Post-Crisis
