@@ -1659,9 +1659,9 @@ Kill La Kill
 
 Kim Possible
 	Version
-		'{"Kim Possible"}'
+		['Kim Possible']
 	Acronyms
-		'{"KP"}'
+		['KP']
 	Displayed Version Name
 		"Kim Possible"
 

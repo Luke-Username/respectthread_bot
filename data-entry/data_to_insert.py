@@ -107,6 +107,46 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Dr. Drakken (Kim Possible)', 'https://redd.it/rs18ts')
+add_data(['(Dr\.?|Doctor) Drakken'],
+'Dr. Drakken',
+False,
+True,
+[
+    ['Kim Possible']
+],
+'Kim Possible',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rs18ts/respect_dr_drakken_kim_possible/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roy G. Bivolo, The Rainbow Raider (DC Post-Crisis)', 'https://redd.it/rs9j3v')
+add_data(['Rainbow Raider'],
+'Rainbow Raider',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Rainbow Raider'],
+'Rainbow Raider',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rs9j3v/respect_roy_g_bivolo_the_rainbow_raider_dc/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
