@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Makoto Naegi (Danganronpa: Trigger Happy Havoc)', 'https://redd.it/amoe2j')
+add_data(['Makoto Naegi'],
+'Makoto Naegi',
+False,
+True,
+[
+    ['Dangan ?ronpa']
+],
+'Danganronpa',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/amoe2j/respect_makoto_naegi_danganronpa_trigger_happy/
+#https://www.reddit.com/r/whowouldwin/comments/rsql6j/nagito_komaeda_and_makoto_naegi_from_danganronpa/hqnz7le/?context=3
+
+add_data(['Naegi'],
+'Naegi',
+False,
+False,
+[
+    ['Dangan ?ronpa'], ['Komaeda'], ['SDR2']
+],
+'Danganronpa',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/amoe2j/respect_makoto_naegi_danganronpa_trigger_happy/
+#https://www.reddit.com/r/whowouldwin/comments/rsql6j/nagito_komaeda_and_makoto_naegi_from_danganronpa/hqnz7le/?context=3
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

@@ -566,7 +566,7 @@ Daneboe
 
 Danganronpa
 	Version
-		'{"Dangan ?ronpa"}'
+		['Dangan ?ronpa']
 	Displayed Version Name
 		"Danganronpa"
 
