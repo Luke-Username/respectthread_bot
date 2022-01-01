@@ -1584,11 +1584,11 @@ Justice Society: World War II
 
 Kamen Rider
 	Version
-		'{"Kamen Rider"}'
+		['Kamen Rider']
 	Acronyms
-		'{"KR"}'
+		['KR']
 	Specific
-		'{"Zi(-| )O"}', '{"Over Quartzer"}'
+		['Zi(-| )O'], ['Over Quartzer']
 	Displayed Version Name
 		"Kamen Rider"
 
