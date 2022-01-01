@@ -15,11 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"Agent Smith"}' WHERE default_name='Smith' AND version='{"Agent"}';
-
 ########################################
-
-
 
 ########################################
 

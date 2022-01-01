@@ -1221,7 +1221,6 @@ Whiplash,{movie},f,{273},MCU
 Whiplash,{movies},f,{273},MCU
 Whiplash,"{`"Iron Man 2`"}",f,{273},MCU
 Smith,{Matrix},f,"{276,275}",The Matrix
-Smith,{Agent},f,"{276,275}",The Matrix
 Agent Jackson,{Matrix},t,{275},The Matrix
 Morpheus,{Matrix},t,{277},The Matrix
 The Rabbit of Caerbannog,"{`"Monty Python`"}",t,{6507},Monty Python and the Holy Grail
@@ -1265,6 +1264,7 @@ Batman,{Comics},t,"{1493,1494}",""
 Batman,"{`"New 52`"}",f,{1493},New 52
 Batman,{N-?52},f,{1493},New 52
 Yondu,{691},f,{2049},691
+Smith,"{`"Agent Smith`"}",f,"{276,275}",The Matrix
 Thanos,"{`"Marvel Cinematic`"}",f,{263},MCU
 Thanos,{MCU},f,{263},MCU
 Thanos,{199999},f,{263},MCU
@@ -25799,3 +25799,14 @@ Rainbow Raider,"{`"\\[DC( Comics)?\\]`"}",t,{21167},DC
 Rainbow Raider,{PC},f,{21167},Post-Crisis
 Rainbow Raider,"{`"Posts?(-| )?C(risis)?`"}",f,{21167},Post-Crisis
 Rainbow Raider,"{`"New(-| )Earth`"}",f,{21167},Post-Crisis
+Makoto Naegi,"{`"Dangan ?ronpa`"}",t,{21168},Danganronpa
+Naegi,"{`"Dangan ?ronpa`"}",f,{21168},Danganronpa
+Naegi,{Komaeda},f,{21168},Danganronpa
+Naegi,{SDR2},f,{21168},Danganronpa
+Cucumber,"{`"Cucumber Quest`"}",f,{21169},Cucumber Quest
+Kamen Rider Kenzan,"{`"Ren Akamichi`"}",t,{21170},Kamen Rider Saber
+Kamen Rider Slash,"{`"Tetsuo Daishinji`"}",t,{21171},Kamen Rider Saber
+Harry Callahan,"{`"Dirty Harry`"}",t,{21172},Dirty Harry
+Dirty Harry,"{`"Harry Callahan`"}",t,{21172},Harry Callahan
+Ox Demon King,"{`"Xi Xing Ji`"}",f,{21173},Xi Xing Ji
+Thor,{22260},f,{21174},22260
