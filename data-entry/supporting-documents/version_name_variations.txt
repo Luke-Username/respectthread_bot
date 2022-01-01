@@ -1024,7 +1024,7 @@ Five Nights at Freddies
 
 Flashpoint
 	Version
-		'{"(Post(-| ))?Flash(-| )?point"}'
+		['(Post(-| ))?Flash(-| )?point']
 	Displayed Version Name
 		"Flashpoint"
 
@@ -1927,7 +1927,8 @@ Marvel Cinematic Universe
 	Version
 		['Marvel Cinematic Universe'], ['MCU']
 		['199999']
-	
+		['Battle Of New York']
+
 	Other
 		['Netflix'] (eg. Daredevil, Jessica Jones, Luke Cage, Punisher)
 		['\(Daredevil\)'] (eg. Nobu)
