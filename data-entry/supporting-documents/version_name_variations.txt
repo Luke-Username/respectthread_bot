@@ -2261,9 +2261,9 @@ My Little Pony: Friendship is Magic
 
 Mythology
 	Version
-		'{"myth?(ical|olog(y|ical))?"}'
+		['myth?(ical|olog(y|ical))?']
 	If mythology is greek
-		'{"Greek myth?(olog(y|ical))?"}', r'{"charname ?\\(myth?(olog(y|ical))?"}', '{"Greek (Gods?|Pantheon)"}'
+		['Greek myth?(olog(y|ical))?'], ['charname ?\(myth?(olog(y|ical))?'], ['Greek (Gods?|Pantheon)']
 	Displayed Version Name
 		# If mythology is greek
 			"Greek Mythology"
