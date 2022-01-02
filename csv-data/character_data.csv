@@ -25825,3 +25825,14 @@ Breakdown,"{`"Blew Up the Kid`"}",f,{21178},Flashpoint
 The Avengers,{14325},f,{21179},14325
 Spider-Man,"{`"Battle Of New York`"}",f,{261},MCU
 Doctor Strange,"{`"Battle Of New York`"}",f,{13351},MCU
+Gilgamesh,{myth?(ical|olog(y|ical))},f,{6148},The Epic of Gilgamesh
+Gilgamesh,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Gilgamesh,{MCU},f,{},MCU
+Thena,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Thena,{MCU},f,{},MCU
+Sersi,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Sersi,{MCU},f,{},MCU
+Regime Superman,{Injustice(verse)?},t,{7685},Injustice
+Phantom Thieves,{Persona},t,"{5355,5358,5357,5353,5359,5356,14895,5354}",Persona
+Phantom Thieves,{P5R?},t,"{5355,5358,5357,5353,5359,5356,14895,5354}",Persona
+Sun,"{`"Sun \\(Avatar`"}",f,{21180},Avatar: TLA
