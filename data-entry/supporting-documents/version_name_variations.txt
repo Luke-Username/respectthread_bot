@@ -2826,7 +2826,7 @@ SCP
 		# If the name doesn't have "SCP" in it
 			"SCP"
 	
-	# For character names, put "SCP(-| )?<number>", or just <number>
+	# For character names, put "SCP ?(-| )? ?<number>", or just <number>
 
 Secret Saturdays
 	Version

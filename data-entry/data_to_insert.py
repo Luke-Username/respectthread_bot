@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Enkidu'],
+'Enkidu',
+False,
+False,
+[
+    ['Fate'], ['Lancer']
+],
+'Fate',
+'{14814}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-015 "Pipe Nightmare" (The SCP Foundation)', 'https://redd.it/ru1urw')
+add_data(['SCP ?(-| )? ?015'],
+'SCP-015',
+False,
+False,
+[
+    ['Pipes?']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ru1urw/respect_scp015_pipe_nightmare_the_scp_foundation/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
