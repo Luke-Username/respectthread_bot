@@ -6918,7 +6918,6 @@ Frieza,{TFS},f,{7626},TeamFourStar
 Frieza,{DBZA},f,{7626},TeamFourStar
 Frieza,{Abridged},f,{7626},TeamFourStar
 Taskmaster,{1610},f,{7627},1610
-Taskmaster,{(Ultimates?},f,{7627},1610
 Ultimate Taskmaster,{1610},t,{7627},1610
 Paulo Batista,{Brazil(ian)?},t,{7628},""
 Mr. Pickles,"{`"Mr.? Pickles`"}",t,{7629},""
@@ -6979,6 +6978,7 @@ Multiplex,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
 Multiplex,{(DC)?CW},f,{},CW Arrowverse
 Multiplex,"{`"DC ?TV`"}",f,{},CW Arrowverse
 Randau,{616},t,{2151},616
+Taskmaster,"{`"\\(Ultimates?`"}",f,{7627},1610
 Reverse Hulk,{Marvel},t,{2152},616
 Superman,"{`"Pre(-| )?Crisis`"}",f,{1755},Pre-Crisis
 Superman,"{`"Silver(-| )?age`"}",f,{1755},Pre-Crisis
