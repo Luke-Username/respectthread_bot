@@ -18395,9 +18395,6 @@ Citron,"{`"Garden Warfare`"}",f,{5671},Plants vs. Zombies
 Rose,"{Plants,Zombies}",f,{5671},Plants vs. Zombies
 Rose,{PvZ},f,{5671},Plants vs. Zombies
 Rose,"{`"Garden Warfare`"}",f,{5671},Plants vs. Zombies
-Super Brainz,"{Plants,Zombies}",t,{5672},Plants vs. Zombies
-Super Brainz,{PvZ},t,{5672},Plants vs. Zombies
-Super Brainz,"{`"Garden Warfare`"}",t,{5672},Plants vs. Zombies
 Z-Mech,"{Plants,Zombies}",t,{5672},Plants vs. Zombies
 Z-Mech,{PvZ},t,{5672},Plants vs. Zombies
 Z-Mech,"{`"Garden Warfare`"}",t,{5672},Plants vs. Zombies
@@ -25859,3 +25856,6 @@ Six Stones,{MCU},f,{},MCU
 Six Stones,{comics},t,{7484},616
 Six Stones,{616},t,{7484},616
 Invincible,"{`"Invincible ?\\(Invincible`"}",f,"{1961,17671}",""
+Super Brainz,"{Plants,Zombies}",t,{20378},Plants vs. Zombies
+Super Brainz,{PvZ},t,{20378},Plants vs. Zombies
+Super Brainz,"{`"Garden Warfare`"}",t,{20378},Plants vs. Zombies
