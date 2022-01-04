@@ -1954,10 +1954,10 @@ Marvel Cinematic Universe
 
 Marvel Comics
 	Version
-		'{"616"}', r'{"\\(Marvel( comics?)?\\)"}'
+		['616'], ['\(Marvel( comics?)?\)']
 	Sometimes Called
-		'{"comics?"}'
-		'{"Marvel"}'
+		['comics?']
+		['Marvel']
 	Displayed Version Name
 		"616"
 		# If Mojoverse:
