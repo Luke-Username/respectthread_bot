@@ -7693,8 +7693,6 @@ Black Spider,"{`"Batman: Arkham`"}",f,{8199},Batman: Arkham
 Genz Bresslau,"{`"Full ?metal`"}",t,{8200},Fullmetal Alchemist
 Bone Saw Mcgraw,{Raimi-?(verse)?},t,{8201},Raimiverse Spider-Man
 Bone Saw Mcgraw,"{`"Spider(-| )Man`"}",t,{8201},Raimiverse Spider-Man
-Bone Saw,{Raimi-?(verse)?},t,{8201},Raimiverse Spider-Man
-Bone Saw,"{`"Spider(-| )Man`"}",t,{8201},Raimiverse Spider-Man
 Kamen Rider Barlckxs,"{`"Zi(-| )O`"}",t,{8203},""
 Kamen Rider Barlckxs,"{`"Over Quartzer`"}",t,{8203},""
 Kamen Rider Zonjis,"{`"Zi(-| )O`"}",t,{8204},""
@@ -7749,6 +7747,8 @@ Shinra,"{`"Fire Force`"}",f,{8239},Fire Force
 Joker,"{`"Fire Force`"}",f,{8240},Fire Force
 Kamen Rider Kuuga,"{`"Kamen Rider`"}",t,"{8202,17668}",""
 King Shark,"{`"Arkham ga(m|n)es?`"}",f,{8199},Batman: Arkham
+Bone Saw,{Raimi-?(verse)?},f,{8201},Raimiverse Spider-Man
+Bone Saw,"{`"Spider(-| )Man`"}",f,{8201},Raimiverse Spider-Man
 Takeru Noto,"{`"Fire Force`"}",t,{8241},Fire Force
 Ogun Montgomery,"{`"Fire Force`"}",t,{8242},Fire Force
 Maki Oze,"{`"Fire Force`"}",t,{8243},Fire Force
@@ -8034,7 +8034,6 @@ Vulture,"{`"Spider(-| )?Man villains?`"}",f,{2272},616
 Beetle,"{`"Janice Lincoln`"}",f,{2273},Janice Lincoln
 Electro,{616},f,{2268},616
 Electro,{Marvel},f,{2268},616
-Electro,{comics?},f,{2268},616
 Boomerang,{616},f,{2274},616
 Boomerang,{Marvel},f,{2274},616
 Boomerang,"{`"Sinister Six`"}",f,{2274},616
@@ -25859,3 +25858,27 @@ Invincible,"{`"Invincible ?\\(Invincible`"}",f,"{1961,17671}",""
 Super Brainz,"{Plants,Zombies}",t,{20378},Plants vs. Zombies
 Super Brainz,{PvZ},t,{20378},Plants vs. Zombies
 Super Brainz,"{`"Garden Warfare`"}",t,{20378},Plants vs. Zombies
+Servants,"{`"Fate(/| )Zero`"}",f,"{20234,20236,20235,21175,5787}",Fate/Zero
+Akatsuki,{Naruto},f,"{3964,3967,3960,3950,3959,3972,3942,3948,3956}",Naruto
+Bonesaw,"{`"Slaughterhouse 9`"}",f,{6060},Worm
+New Goblin,"{`"Amazing Spider((-| )Man)? 2`"}",f,{},The Amazing Spider-Man
+Green Goblin,"{`"No Way Home`"}",f,{},MCU
+Green Goblin,{NWH},f,{},MCU
+Prince of Lan Ling,{Fate},f,{21188},Fate
+William Tell,"{Fate,Archer,Class}",f,{21189},Fate
+William Tell,"{`"Grande? Order`"}",f,{21189},Fate
+William Tell,"{`"F(ate )?/?GO`"}",f,{21189},Fate
+Nitocris,{Fate},f,{21190},Fate
+Nitocris,"{`"Grande? Order`"}",f,{21190},Fate
+Nitocris,"{`"F(ate )?/?GO`"}",f,{21190},Fate
+Three Eyed Deva General,"{`"Xi Xing Ji`"}",t,{21191},Xi Xing Ji
+Rahu,"{`"Xi Xing Ji`"}",f,{21192},Xi Xing Ji
+Mister Pain,"{`"(Mister|Mr\\.?) Pain ?\\(616`"}",f,{21193},616
+Mister Pain,"{Vince,Dio}",f,{21193},616
+Underworld,"{`"Underworld Pain ?\\(616`"}",f,{21194},616
+Underworld,"{`"Jack Dio`"}",f,{21194},616
+Atuat,{Avatar},f,{21195},Avatar: TLA
+Atuat,{Kyoshi},f,{21195},Avatar: TLA
+Atuat,{Bend(er|ing)},f,{21195},Avatar: TLA
+Luthor,{Apex},f,{21196},Apex Predator
+Harvey Dent,{Earth-9},f,{21197},Earth-9

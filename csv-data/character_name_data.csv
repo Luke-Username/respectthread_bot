@@ -1106,7 +1106,6 @@ Ra's al Ghul,Ra's al Ghul,f
 Madame? Rouge,Madame Rouge,f
 Jonathan Crane,Scarecrow,f
 Joker,Joker,f
-Harvey Dent,Two-Face,f
 Two(-| )?Face,Two-Face,f
 Red X,Red X,f
 Talia al Ghul,Talia al Ghul,f
@@ -1169,6 +1168,7 @@ Wendy Wu,Wendy Wu,f
 Arliss Loveless,Dr. Arliss Loveless,f
 Eborsisk,The Eborsisk,f
 Wicked Witch of the West,Wicked Witch of the West,f
+Harvey Dent,Harvey Dent,f
 Guilala,Guilala,f
 Zohan,Zohan Dvir,f
 Zombeavers,Zombeavers,f
@@ -11809,3 +11809,13 @@ Wanda,Wanda,f
 SCP ?(-| )? ?016,SCP-016,f
 Data of Khun Maschenny Zahard,Data of Khun Maschenny Zahard,f
 (Six|6) Stones,Six Stones,f
+Serv(a|e)nts,Servants,t
+Akatsuki,Akatsuki,t
+Prince of Lan Ling,Prince of Lan Ling,f
+William Tell,William Tell,f
+Nitocris,Nitocris,f
+Three(-| )Eyed Deva General,Three Eyed Deva General,f
+Rahu,Rahu,f
+(Mister|Mr\\.?) Pain,Mister Pain,f
+Underworld,Underworld,f
+Atuat,Atuat,f

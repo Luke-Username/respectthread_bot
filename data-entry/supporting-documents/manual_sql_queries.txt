@@ -15,10 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Electro' AND version='{"comics?"}';
-UPDATE character SET is_default=FALSE WHERE default_name='Bone Saw';
-UPDATE character_name SET default_name='Harvey Dent' WHERE name='Harvey Dent';
-
 ########################################
 
 ########################################
