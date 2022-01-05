@@ -610,22 +610,22 @@ Darling in the Franxx
 
 DC Animated Universe (DCAU)
 	Version
-		'{"DC Animated Universe"}',	'{"Animated DC"}', '{"DCAU"}', '{"Timmverse"}'
+		['DC Animated Universe'], ['DCAU'], ['Timmverse'], ['Animated DC']
 	Specific
-		'{"Justice League:? Unlimited"}', '{"JL Unlimited"}', '{"JLU"}'
-		'{"Batman", "Animated Series"}', '{"B:?TAS"}'
-		'{"New Batman Adventures"}', '{"TNBA"}'
-		'{"1999"}'
-		'{"Superman:? The Animated Series"}', '{"STAS"}'
-		r'{"\\(Static Shock\\)"}'
-		'{"Batman Beyond"}'
-		'{"Bat(-| )?man", "Adventure Continues"}'
+		['Justice League:? Unlimited'], ['JL Unlimited'], ['JLU']
+		['Batman', 'Animated Series'], ['B:?TAS']
+		['New Batman Adventures'], ['TNBA']
+		['1999']
+		['Superman:? The Animated Series'], ['STAS']
+		['\(Static Shock\)']
+		['Batman Beyond']
+		['Bat(-| )?man', 'Adventure Continues']
 	Displayed Version Name
 		"DCAU"
 	
 	Justice League vs. the Fatal Five
 		Version
-			r'{"Justice League vs\\.? the Fatal Five"}'
+			['Justice League vs\.? the Fatal Five']
 		Displayed Version Name
 			"Justice League vs. the Fatal Five"
 
@@ -1937,7 +1937,7 @@ Marvel Cinematic Universe
 	Specific
 		['Infinity War'], ['IW']
 		['Endgame'], ['EG']
-		['Homecoming'], ['Far From Home']
+		['Homecoming'], ['Far From Home'], ['No Way Home'], ['NWH']
 		['Civil War'], ['CW']
 		['Black Panther', 'movie']
 		['Agents of S\.?H\.?I\.?E\.?L\.?D']
