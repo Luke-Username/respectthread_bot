@@ -12450,10 +12450,6 @@ Porco,"{`"Shingeki no Kyojin`"}",f,{3057},Attack on Titan
 Porco,{AOT},f,{3057},Attack on Titan
 Porco,{SnK},f,{3057},Attack on Titan
 Porco,{Eren},f,{3057},Attack on Titan
-Levi,"{`"Attack on Titan`"}",t,{3058},Attack on Titan
-Levi,"{`"Shingeki no Kyojin`"}",t,{3058},Attack on Titan
-Levi,{AOT},t,{3058},Attack on Titan
-Levi,{SnK},t,{3058},Attack on Titan
 Levi Ackerman,"{`"Attack on Titan`"}",t,{3058},Attack on Titan
 Levi Ackerman,"{`"Shingeki no Kyojin`"}",t,{3058},Attack on Titan
 Levi Ackerman,{AOT},t,{3058},Attack on Titan
@@ -12483,6 +12479,10 @@ Satan,"{`"Satan ?\\(Bastard`"}",f,{3062},Bastard!!
 Satan,{Bastard!},f,{3062},Bastard!!
 Uriel,{Bastard},f,{3063},Bastard!!
 Alita,"{`"Battle Angel Alita`"}",t,{3064},Battle Angel Alita
+Levi,"{`"Attack on Titan`"}",f,{3058},Attack on Titan
+Levi,"{`"Shingeki no Kyojin`"}",f,{3058},Attack on Titan
+Levi,{AOT},f,{3058},Attack on Titan
+Levi,{SnK},f,{3058},Attack on Titan
 Caerula Sanguis,"{`"Battle Angel Alita`"}",t,{3065},Battle Angel Alita
 Sechs,{Alita},f,{3066},Battle Angel Alita
 Hajime Kanzaki,{Beelzebub},t,{3067},Beelzebub
@@ -16615,6 +16615,7 @@ Sin,"{`"Final Fantasy`",Boss(es)?}",f,{5081},Final Fantasy
 Cody,"{`"Final Fight`"}",f,{5082},Final Fight
 Cody Travers,"{`"Final Fight`"}",t,{5082},Final Fight
 Kyle,"{`"Final Fight`"}",f,{5083},Final Fight
+Wanda,{MCU},f,{130},MCU
 Kyle Travers,"{`"Final Fight`"}",t,{5083},Final Fight
 Haggar,"{`"Final Fight`"}",f,{5084},Final Fight
 Haggar,{Capcom},f,{5084},Final Fight
@@ -25882,3 +25883,32 @@ Atuat,{Kyoshi},f,{21195},Avatar: TLA
 Atuat,{Bend(er|ing)},f,{21195},Avatar: TLA
 Luthor,{Apex},f,{21196},Apex Predator
 Harvey Dent,{Earth-9},f,{21197},Earth-9
+Levi,{Mikasa},f,{3058},Attack on Titan
+Levi,"{`"Captain Levi`"}",f,{3058},Attack on Titan
+Levi,{Eren},f,{3058},Attack on Titan
+Green Lantern,{Reynolds?},f,{20535},2011
+Eradicator,"{`"DC Comics`"}",f,{21198},DC
+Eradicator,"{`"New(-| )?52`"}",f,{21198},New 52 / Rebirth
+Eradicator,{Nu?-?52},f,{21198},New 52 / Rebirth
+Eradicator,"{`"Post(-| )52`"}",f,{21198},New 52 / Rebirth
+Eradicator,"{`"Prime(-| )Earth`"}",f,{21198},New 52 / Rebirth
+Eradicator,{Rebirth},f,{21198},New 52 / Rebirth
+Guan Yin,"{`"Xi Xing Ji`"}",f,{21199},Xi Xing Ji
+Gautama,"{`"Xi Xing Ji`"}",f,{21200},Xi Xing Ji
+Family Madrigal,{Encanto},t,{21201},Encanto
+Mirabel,{Encanto},f,{21201},Encanto
+Mirabel,{Madrigal},f,{21201},Encanto
+Isabela,{Encanto},f,{21201},Encanto
+Isabela,{Madrigal},f,{21201},Encanto
+Bruno,{Encanto},f,{21201},Encanto
+Bruno,{Madrigal},f,{21201},Encanto
+Luisa,{Encanto},f,{21201},Encanto
+Luisa,{Madrigal},f,{21201},Encanto
+Fat Bastard,"{`"Austin Powers`"}",f,{21202},Austin Powers
+Fat Bastard,"{`"Mike Myers`"}",f,{21202},Austin Powers
+Fat Bastard,{Goldmember},f,{21202},Austin Powers
+Pyro,{Dreamwalker},f,{21203},Dreamwalker
+Gun Robot,{Trollhunters},f,{21204},Trollhunters: Rise of the Titans
+Gun Robot,"{`"Rise of the Titans`"}",f,{21204},Trollhunters: Rise of the Titans
+Byron Williams,"{`"Mars Attacks`"}",f,{21205},Mars Attacks!
+Yagyu Munenori,{Fate},f,{21206},Fate
