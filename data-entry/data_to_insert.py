@@ -107,6 +107,45 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Wanda'],
+'Wanda',
+False,
+False,
+[
+    ['MCU']
+],
+'MCU',
+'{130}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rwg8vx/mcu_wanda_and_agatha_vs_mandalorian_lukecanon/hrbnuvi/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Eradicator! (DC Comics, New 52/Rebirth)', 'https://redd.it/rwin0a')
+add_data(['Eradicator'],
+'Eradicator',
+False,
+False,
+[
+    ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rwin0a/respect_the_eradicator_dc_comics_new_52rebirth/
+
+add_data(['Eradicator'],
+'Eradicator',
+False,
+False,
+[
+    ['New(-| )?52'], ['Nu?-?52'], ['Post(-| )52'], ['Prime(-| )Earth'], ['Rebirth']
+],
+'New 52 / Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rwin0a/respect_the_eradicator_dc_comics_new_52rebirth/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
