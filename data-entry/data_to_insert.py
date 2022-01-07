@@ -107,6 +107,77 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Lizard'],
+'Lizard',
+False,
+False,
+[
+    ['No Way Home'], ['NWH']
+],
+'The Amazing Spider-Man',
+'{112}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rxr36c/green_goblin_and_lizard_no_way_home_vs_cull/hrmwu1v/?context=3
+
+########################################
+
+add_data(['Spider(-| )?Men'],
+'Spider-Men',
+True,
+False,
+[
+    ['No Way Home'], ['NWH']
+],
+'Live-Action',
+'{302,113,261}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ry2f2y/spoilers_alert_for_no_way_home/hrmf3ib/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sir Agravain! (Fate)', 'https://redd.it/ry0hl8')
+add_data(['Agravain'],
+'Agravain',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ry0hl8/respect_sir_agravain_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sir Agravain! (Fate)', 'https://redd.it/ry0hl8')
+add_data(['Burg'],
+'Burg',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ryazh9/respect_burg_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ozymandias, the King of Kings! (Fate)', 'https://redd.it/ryda84')
+add_data(['Ozymandias'],
+'Ozymandias',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ryda84/respect_ozymandias_the_king_of_kings_fate/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

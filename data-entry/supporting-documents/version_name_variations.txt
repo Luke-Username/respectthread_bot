@@ -3054,17 +3054,17 @@ Starship Troopers
 
 Star Wars
 	Version
-		'{"S(tar )?Wars"}'
+		['S(tar )?Wars']
 	Extended Universe
-		'{"Extended Universe"}', '{"EU"}', '{"Legends"}'
+		['Extended Universe'], ['EU'], ['Legends']
 	Acronyms
-		'{"SW"}'
+		['SW']
 	Specific
-		'{"Clone Wars"}'
-		'{"SWR"}'
-		'{"Fallen Order"}', '{"JFO"}'
-		'{"Mandalorian"}'
-		'{"Rise of (the )?Skywalker"}', '{"ROS"}', '{"Force Awakens"}', '{"TFA"}', '{"Last Jedi"}', '{"TLJ"}'
+		['Clone Wars']
+		['SWR']
+		['Fallen Order'], ['JFO']
+		['Mandalorian']
+		['Rise of (the )?Skywalker'], ['ROS'], ['Force Awakens'], ['TFA'], ['Last Jedi'], ['TLJ']
 	Displayed Version Name
 		"Star Wars"
 
