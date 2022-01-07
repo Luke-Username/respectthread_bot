@@ -107,6 +107,91 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Tori'],
+'Tori',
+False,
+False,
+[
+    ['Dreamwalker']
+],
+'Dreamwalker',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rxg12g/whos_the_weakest_character_who_could_solo_the/hrhviab/?context=3
+
+########################################
+
+add_data(['Kong'],
+'Kong',
+False,
+False,
+[
+    ['Kong ?\(Skull Island'], ['Kong:? Skull Island']
+],
+'Monsterverse',
+'{281}'
+)
+#
+
+########################################
+
+add_data(['Sh?essh(ō|o)maru'],
+'Sesshōmaru',
+False,
+True,
+[
+    ['Inuyasha']
+],
+'Inuyasha',
+'{3526}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rxkg3f/the_witcher_v_shesshomaru/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mohammad Alai Jr (Baki)', 'https://redd.it/rxj68p')
+add_data(['Mohammad Alai Jr'],
+'Mohammad Alai Jr.',
+False,
+True,
+[
+    ['Baki']
+],
+'Baki',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rxj68p/respect_mohammad_alai_jr_baki/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Snow (Dreamwalker)', 'https://redd.it/rxov8a')
+add_data(['Snow'],
+'Snow',
+False,
+False,
+[
+    ['Dreamwalker']
+],
+'Dreamwalker',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rxov8a/respect_snow_dreamwalker/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fire Lord Azulon (Avatar: The Last Airbender)', 'https://redd.it/rxpzwu')
+add_data(['Azulon'],
+'Azulon',
+False,
+False,
+[
+    ['Avatar'],  ['A?TLA'], ['Bend(er|ing)']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/rxpzwu/respect_fire_lord_azulon_avatar_the_last_airbender/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

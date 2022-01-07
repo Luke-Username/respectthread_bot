@@ -15,6 +15,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET version='{\\(Lucifer\\)}' WHERE version='{"(Lucifer)"}';
+DELETE FROM character WHERE default_name='Kong' AND version='{"Skull Island"}';
+UPDATE character SET rt_id_array='{300}' WHERE. default_name='Green Goblin' AND version='{"No Way Home"}';
+UPDATE character SET rt_id_array='{300}' WHERE. default_name='Green Goblin' AND version='{"NWH"}';
+
 ########################################
 
 ########################################
