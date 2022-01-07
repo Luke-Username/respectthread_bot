@@ -994,7 +994,6 @@ Skullcrawlers,"{`"Skull Island`"}",t,{283},Monsterverse
 Skullcrawlers,{Kong},t,{283},Monsterverse
 Skullcrawlers,{Monsterverse},t,{283},Monsterverse
 Skullcrawlers,{Legendary},t,{283},Monsterverse
-Kong,"{`"Skull Island`"}",f,{281},Monsterverse
 Kong,{2017},f,{281},Monsterverse
 Kong,{Monsterverse},f,{281},Monsterverse
 Kong,{Legendary},f,{281},Monsterverse
@@ -4787,10 +4786,8 @@ First of the Fallen,{Hellraiser},t,{1615},DC
 Lucifer Morningstar,{DC},t,{1616},DC
 Lucifer Morningstar,{Vertigo},t,{1616},DC
 Lucifer Morningstar,{Netflix},f,{},Lucifer 2018
-Lucifer Morningstar,{(Lucifer)},f,{},Lucifer 2018
 Lucifer Morningstar,{2018},f,{},Lucifer 2018
 Mazikeen,{Netflix},f,{},Lucifer 2018
-Mazikeen,{(Lucifer)},f,{},Lucifer 2018
 Mazikeen,{2018},f,{},Lucifer 2018
 Mazikeen,{DC},f,{1617},DC
 Mazikeen,{Vertigo},f,{1617},DC
@@ -4828,6 +4825,7 @@ Judomaster,"{`"Justice Society Of America`"}",t,{1628},DC
 Judomaster,{JSA},t,{1628},DC
 Mister Terrific,"{`"(Pre|Post)(-| )?Flashpoint`"}",t,"{1629,1630}",DC
 Mister Terrific,"{`"Justice Society Of America`"}",t,"{1629,1630}",DC
+Lucifer Morningstar,"{`"\\(Lucifer\\)`"}",f,{},Lucifer 2018
 Eugene Choi,"{Shazam,2019}",f,{6555},DCEU
 Eugene Choi,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Eugene Choi,{DCEU},f,{6555},DCEU
@@ -25863,8 +25861,6 @@ Servants,"{`"Fate(/| )Zero`"}",f,"{20234,20236,20235,21175,5787}",Fate/Zero
 Akatsuki,{Naruto},f,"{3964,3967,3960,3950,3959,3972,3942,3948,3956}",Naruto
 Bonesaw,"{`"Slaughterhouse 9`"}",f,{6060},Worm
 New Goblin,"{`"Amazing Spider((-| )Man)? 2`"}",f,{},The Amazing Spider-Man
-Green Goblin,"{`"No Way Home`"}",f,{},MCU
-Green Goblin,{NWH},f,{},MCU
 Prince of Lan Ling,{Fate},f,{21188},Fate
 William Tell,"{Fate,Archer,Class}",f,{21189},Fate
 William Tell,"{`"Grande? Order`"}",f,{21189},Fate
@@ -25883,6 +25879,8 @@ Atuat,{Kyoshi},f,{21195},Avatar: TLA
 Atuat,{Bend(er|ing)},f,{21195},Avatar: TLA
 Luthor,{Apex},f,{21196},Apex Predator
 Harvey Dent,{Earth-9},f,{21197},Earth-9
+Green Goblin,"{`"No Way Home`"}",f,{300},MCU
+Green Goblin,{NWH},f,{300},MCU
 Levi,{Mikasa},f,{3058},Attack on Titan
 Levi,"{`"Captain Levi`"}",f,{3058},Attack on Titan
 Levi,{Eren},f,{3058},Attack on Titan
@@ -25912,3 +25910,13 @@ Gun Robot,{Trollhunters},f,{21204},Trollhunters: Rise of the Titans
 Gun Robot,"{`"Rise of the Titans`"}",f,{21204},Trollhunters: Rise of the Titans
 Byron Williams,"{`"Mars Attacks`"}",f,{21205},Mars Attacks!
 Yagyu Munenori,{Fate},f,{21206},Fate
+Mazikeen,"{`"\\(Lucifer\\)`"}",f,{},Lucifer 2018
+Tori,{Dreamwalker},f,{20293},Dreamwalker
+Kong,"{`"Kong ?\\(Skull Island`"}",f,{281},Monsterverse
+Kong,"{`"Kong:? Skull Island`"}",f,{281},Monsterverse
+Sesshōmaru,{Inuyasha},t,{3526},Inuyasha
+Mohammad Alai Jr.,{Baki},t,{21210},Baki
+Snow,{Dreamwalker},f,{21211},Dreamwalker
+Azulon,{Avatar},f,{21212},Avatar: TLA
+Azulon,{A?TLA},f,{21212},Avatar: TLA
+Azulon,{Bend(er|ing)},f,{21212},Avatar: TLA
