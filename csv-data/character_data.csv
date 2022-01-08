@@ -25477,10 +25477,6 @@ Venom,{96283},f,{303},Raimiverse Spider-Man
 Sandman,{Rai?mi-?(verse)?},f,{6508},Raimiverse Spider-Man
 Sandman,"{`"Spider(-| )?Man 3`"}",f,{6508},Raimiverse Spider-Man
 Sandman,{96283},f,{6508},Raimiverse Spider-Man
-Green Goblin,{Rai?mi-?(verse)?},f,{300},Raimiverse Spider-Man
-Green Goblin,{96283},f,{300},Raimiverse Spider-Man
-Green Goblin,{2002},f,{300},Raimiverse Spider-Man
-Green Goblin,{Dafoe},f,{300},Raimiverse Spider-Man
 Spider-Man,{Rai?mi-?(verse)?},f,{302},Raimiverse Spider-Man
 Spider-Man,{96283},f,{302},Raimiverse Spider-Man
 New Goblin,{Rai?mi-?(verse)?},f,{301},Raimiverse Spider-Man
@@ -25499,10 +25495,14 @@ Saitama,"{`"vs\\. Saitama`"}",t,{4112},One Punch Man
 Ashfur,{Warriors?},f,{21105},Warrior Cats
 Venom,{Mac?guire},f,{303},Raimiverse Spider-Man
 Sandman,{Mac?guire},f,{6508},Raimiverse Spider-Man
-Green Goblin,{Mac?guire},f,{300},Raimiverse Spider-Man
 Spider-Man,{Mac?guire},f,{302},Raimiverse Spider-Man
 New Goblin,{Mac?guire},f,{301},Raimiverse Spider-Man
 Doctor Octopus,{Mac?guire},f,{299},Raimiverse Spider-Man
+Green Goblin,{Rai?mi-?(verse)?},f,{300},Raimiverse Spider-Man
+Green Goblin,{96283},f,{300},Raimiverse Spider-Man
+Green Goblin,{2002},f,{300},Raimiverse Spider-Man
+Green Goblin,{Dafoe},f,{300},Raimiverse Spider-Man
+Green Goblin,{Mac?guire},f,{300},Raimiverse Spider-Man
 Sun Wukong,"{`"Hero is Back`"}",f,{4857},Monkey King: Hero is Back
 Tighten,"{`"Tighten vs`"}",f,{1220},Megamind
 Tighten,"{`"vs\\.? Tighten`"}",f,{1220},Megamind
@@ -25879,8 +25879,8 @@ Atuat,{Kyoshi},f,{21195},Avatar: TLA
 Atuat,{Bend(er|ing)},f,{21195},Avatar: TLA
 Luthor,{Apex},f,{21196},Apex Predator
 Harvey Dent,{Earth-9},f,{21197},Earth-9
-Green Goblin,"{`"No Way Home`"}",f,{300},MCU
-Green Goblin,{NWH},f,{300},MCU
+Green Goblin,"{`"No Way Home`"}",f,{300},Raimiverse Spider-Man
+Green Goblin,{NWH},f,{300},Raimiverse Spider-Man
 Levi,{Mikasa},f,{3058},Attack on Titan
 Levi,"{`"Captain Levi`"}",f,{3058},Attack on Titan
 Levi,{Eren},f,{3058},Attack on Titan
@@ -25920,3 +25920,12 @@ Snow,{Dreamwalker},f,{21211},Dreamwalker
 Azulon,{Avatar},f,{21212},Avatar: TLA
 Azulon,{A?TLA},f,{21212},Avatar: TLA
 Azulon,{Bend(er|ing)},f,{21212},Avatar: TLA
+Lizard,"{`"No Way Home`"}",f,{112},The Amazing Spider-Man
+Lizard,{NWH},f,{112},The Amazing Spider-Man
+Spider-Men,"{`"No Way Home`"}",f,"{302,113,261}",Live-Action
+Spider-Men,{NWH},f,"{302,113,261}",Live-Action
+Agravain,{Fate},f,{21213},Fate
+Burg,"{`"S(tar )?Wars`"}",f,{21213},Star Wars
+Ozymandias,{Fate},f,{21214},Fate
+Peter Parker,{PS4},f,{15258},Insomniacs Spider-Man
+Peter Parker,{Insomniac},f,{15258},Insomniacs Spider-Man

@@ -15,9 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET displayed_version_name='Raimiverse Spider-Man' WHERE rt_id_array='{300}';
-UPDATE character_name SET is_team=TRUE WHERE name='Spider(-| )?Men';
-
 ########################################
 
 ########################################
