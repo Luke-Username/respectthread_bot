@@ -107,18 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Colossus'],
-'Colossus',
-False,
-False,
-[
-    ['Colossus.*Phoenix Force|Phoenix Force.*Colossus']
-],
-'Phoenix Force',
-'{20571}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/ryl5hb/phoenix_force_colossus_vs_world_breaker/hrpoak6/?context=3
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
