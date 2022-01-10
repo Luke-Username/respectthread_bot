@@ -15,11 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET displayed_version_name='' WHERE rt_id_array='{868}';
-UPDATE character_name SET name='Hum(u|o)ng(o|u)u?saur' WHERE name='Humungosaur';
-UPDATE character SET default_name='Humungosaur' WHERE default_name='Humungousaur';
-UPDATE character_name SET name='Power ?puff Girls' WHERE name='Powerpuff Girls';
-
 ########################################
 
 ########################################

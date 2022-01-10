@@ -1565,7 +1565,6 @@ Rad,Rad,f
 HIM,HIM,f
 Mojo Jojo,Mojo Jojo,f
 Mojo Jojo's (Giant )Robot,Mojo Jojo's Giant Robot,f
-Powerpuff Girls,Powerpuff Girls,t
 "Blossom, Buttercup,? (& |and )?Bubbles",Powerpuff Girls,t
 Blossom vs\.? Buttercup vs\.? Bubbles,Powerpuff Girls,t
 Blossom vs\.? Bubbles vs\.? Buttercup,Powerpuff Girls,t
@@ -1615,6 +1614,7 @@ Damien,Damien,f
 Super Best Friends,Super Best Friends,t
 Jesus,Jesus,f
 Moses,Moses,f
+Power ?puff Girls,Powerpuff Girls,t
 Muhammad,Muhammad,f
 Lao Tse,Lao Tse,f
 Joseph Smith,Joseph Smith,f
@@ -8219,7 +8219,6 @@ Shroobs?,Shroobs,f
 Dark Star,Dark Star,f
 Antasma,Antasma,f
 Ghost ?freak,Ghostfreak,f
-Humungousaur,Humungousaur,f
 Bloxx,Bloxx,f
 Cann?onbolt,Cannonbolt,f
 Echo Echo,Echo Echo,f
@@ -8358,6 +8357,7 @@ Nandor,Nandor,f
 Laszlo Cravensworth,Laszlo Cravensworth,f
 Laszlo,Laszlo,f
 Nadja,Nadja,f
+Hum(u|o)ng(o|u)u?saur,Humungousaur,f
 Black Lady,Black Lady,f
 Wicked Lady,Wicked Lady,f
 Dark Agency,Dark Agency,t
@@ -11836,3 +11836,11 @@ Azulon,Azulon,f
 Spider(-| )?Men,Spider-Men,t
 Agravain,Agravain,f
 Burg,Burg,f
+Xuanzang Sanzang,Xuanzang Sanzang,f
+Hassan of (the )?Serenity,Hassan of the Serenity,f
+Stelio Kontos,Stelio Kontos,f
+Tiffany Oiler,Tiffany Oiler,f
+Kakugo Hagakure,Kakugo Hagakure,f
+Scolipede,Scolipede,f
+Do Bong(-| )soon,Do Bong-soon,f
+Jinpa,Jinpa,f

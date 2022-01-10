@@ -3277,14 +3277,6 @@ Mojo Jojo,{PPG},t,{866},Powerpuff Girls
 Mojo Jojo's Giant Robot,"{`"Power ?puff Girls`"}",t,{867},Powerpuff Girls: Dance Pantsed
 Mojo Jojo's Giant Robot,{PPG},t,{867},Powerpuff Girls: Dance Pantsed
 Mojo Jojo's Giant Robot,"{`"Dance Pantsed`"}",t,{867},Powerpuff Girls: Dance Pantsed
-Powerpuff Girls,"{`"Power ?puff Girls`"}",t,{868},Powerpuff Girls: Dance Pantsed
-Powerpuff Girls,{PPG},t,{868},Powerpuff Girls: Dance Pantsed
-Blossom,"{`"Power ?puff Girls`"}",f,{868},Powerpuff Girls: Dance Pantsed
-Blossom,{PPG},f,{868},Powerpuff Girls: Dance Pantsed
-Bubbles,"{`"Power ?puff Girls`"}",f,{868},Powerpuff Girls: Dance Pantsed
-Bubbles,{PPG},f,{868},Powerpuff Girls: Dance Pantsed
-Buttercup,"{`"Power ?puff Girls`"}",f,{868},Powerpuff Girls: Dance Pantsed
-Buttercup,{PPG},f,{868},Powerpuff Girls: Dance Pantsed
 AndrAIa,{ReBoot},t,{869},ReBoot
 Bob,{ReBoot},f,{870},ReBoot
 Enzo Matrix,{ReBoot},t,{871},ReBoot
@@ -22229,8 +22221,6 @@ Antasma,{Mario},t,{16401},Mario & Luigi
 Adaptoid,"{`"Bucky Barnes vs the Adaptoid`"}",f,{16402},Bucky Barnes vs the Adaptoid
 Ghostfreak,"{`"Ben (10|Ten(nyson)?)`"}",t,{16403},Ben 10
 Ghostfreak,{Omnitrix},t,{16403},Ben 10
-Humungousaur,"{`"Ben (10|Ten(nyson)?)`"}",t,{16404},Ben 10
-Humungousaur,{Omnitrix},t,{16404},Ben 10
 Bloxx,"{`"Ben (10|Ten(nyson)?)`"}",f,{16405},Ben 10
 Bloxx,{Omnitrix},f,{16405},Ben 10
 Cannonbolt,"{`"Ben (10|Ten(nyson)?)`"}",t,{16406},Ben 10
@@ -22286,6 +22276,7 @@ Harry,{Kingsm(a|e)n},f,{16429},Kingsman
 Agent Whiskey,{Kingsm(a|e)n},t,{16430},Kingsman
 Whiskey,{Kingsm(a|e)n},f,{16430},Kingsman
 Horse,"{`"Winter'?s Tale`",2014}",f,{16431},"Winter's Tale, 2014"
+Humungosaur,"{`"Ben (10|Ten(nyson)?)`"}",t,{16404},Ben 10
 Jason Voorhees,"{`"Never Hike`"}",f,{16432},Never Hike Alone
 Jason,"{`"Never Hike`"}",f,{16432},Never Hike Alone
 Dog,"{`"Black Mirror`"}",f,{16433},Black Mirror
@@ -25930,3 +25921,21 @@ Ozymandias,{Fate},f,{21214},Fate
 Peter Parker,{PS4},f,{15258},Insomniacs Spider-Man
 Peter Parker,{Insomniac},f,{15258},Insomniacs Spider-Man
 Colossus,"{`"Colossus.*Phoenix Force|Phoenix Force.*Colossus`"}",f,{20571},Phoenix Force
+Powerpuff Girls,"{`"Power ?puff Girls`"}",t,{868},""
+Powerpuff Girls,{PPG},t,{868},""
+Blossom,"{`"Power ?puff Girls`"}",f,{868},""
+Blossom,{PPG},f,{868},""
+Bubbles,"{`"Power ?puff Girls`"}",f,{868},""
+Bubbles,{PPG},f,{868},""
+Buttercup,"{`"Power ?puff Girls`"}",f,{868},""
+Buttercup,{PPG},f,{868},""
+Humungosaur,{Omnitrix},t,{16404},Ben 10
+Xuanzang Sanzang,{Fate},t,{21215},Fate
+Hassan of the Serenity,{Fate},t,{21216},Fate
+Stelio Kontos,"{`"American Dad`"}",t,{21217},American Dad!
+Tiffany Oiler,"{`"Adventure Time`"}",t,{21218},Adventure Time
+Kakugo Hagakure,"{`"Apocalypse Zero`"}",t,{21219},Apocalypse Zero
+Scolipede,{Pok(e|é)m(o|a)n},t,{21220},Pokémon
+Do Bong-soon,"{`"Strong Girl Bong(-| )soon`"}",t,{21221},Strong Girl Bong-soon
+Jinpa,{Avatar},f,{21222},Avatar: TLA
+Jinpa,{Kyoshi},f,{21222},Avatar: TLA
