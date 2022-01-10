@@ -71,7 +71,9 @@ The Adventures of Sonic the Hedgehog
 
 Adventure Time
 	Version
-		'{"Adventure Time"}', '{"AT"}'
+		['Adventure Time']
+	Acronyms
+		['AT']
 	Displayed Version Name
 		"Adventure Time"
 
@@ -121,7 +123,7 @@ The Amazing World of Gumball
 
 American Dad
 	Version
-		'{"American Dad"}'
+		['American Dad']
 	Displayed Version Name
 		"American Dad!"
 
