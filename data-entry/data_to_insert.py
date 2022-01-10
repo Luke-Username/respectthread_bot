@@ -107,6 +107,56 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Spider(-| )?Men'],
+'Spider-Men',
+False,
+False,
+[
+    ['Holland']
+],
+'MCU',
+'{261}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s0lr88/the_three_spidermen_vs_endgame_thanos/
+
+add_data(['Spider(-| )?Men'],
+'Spider-Men',
+False,
+False,
+[
+    ['Tobey|Maguire']
+],
+'Raimiverse Spider-Man',
+'{302}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s0lr88/the_three_spidermen_vs_endgame_thanos/
+
+add_data(['Spider(-| )?Men'],
+'Spider-Men',
+False,
+False,
+[
+    ['Andrew|Garfield']
+],
+'The Amazing Spider-Man',
+'{113}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s0lr88/the_three_spidermen_vs_endgame_thanos/
+
+########################################
+
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Index', 'magician']
+],
+'Toaru Majutsu no Index',
+'{15253}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s0umne/rudeus_greyrat_jobless_reincarnation_runs_an/hs46kyl/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
