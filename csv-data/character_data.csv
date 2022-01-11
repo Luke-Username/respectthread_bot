@@ -16460,12 +16460,12 @@ Wishmaster,{1997},t,{21183},""
 White Man,"{`"White Man ?\\(616`"}",f,{21184},616
 Ultron,"{`"Final Form`"}",t,{2018},616
 Superman,"{`"Super(-| )?man ?\\(Justice League`"}",f,{130},DCEU
-Scarlet Witch,{WandaVision},f,{130},MCU
-Wanda,{WandaVision},f,{130},MCU
 Hit,"{Buu,`"vs\\.? Hit`"}",f,{3295},Dragon Ball
 Hit,"{Buu,`"Hit vs`"}",f,{3295},Dragon Ball
 Goku,"{`"Base Goku`"}",t,{3288},Dragon Ball
 Goku,"{`"SSJ\\d?`"}",t,{3288},Dragon Ball
+Scarlet Witch,{WandaVision},f,{270},MCU
+Wanda,{WandaVision},f,{270},MCU
 Saint-14,{Destiny},t,{5041},Destiny
 Sjur Eido,{Destiny},t,{5042},Destiny
 Warpriest,{Destiny},f,{5043},Destiny
@@ -16605,7 +16605,6 @@ Sin,"{`"Final Fantasy`",Boss(es)?}",f,{5081},Final Fantasy
 Cody,"{`"Final Fight`"}",f,{5082},Final Fight
 Cody Travers,"{`"Final Fight`"}",t,{5082},Final Fight
 Kyle,"{`"Final Fight`"}",f,{5083},Final Fight
-Wanda,{MCU},f,{130},MCU
 Kyle Travers,"{`"Final Fight`"}",t,{5083},Final Fight
 Haggar,"{`"Final Fight`"}",f,{5084},Final Fight
 Haggar,{Capcom},f,{5084},Final Fight
@@ -17025,6 +17024,7 @@ Kaede,"{`"UQ Holder`"}",f,{3842},Negima
 Kaede,"{`"Ala Alba`"}",f,{3842},Negima
 Kotaro Inugami,{Negima},t,{3843},Negima
 Kotaro Inugami,"{`"UQ Holder`"}",t,{3843},Negima
+Wanda,{MCU},f,{270},MCU
 Kotaro,{Negima},f,{3843},Negima
 Kotaro,"{`"UQ Holder`"}",f,{3843},Negima
 Kotaro,"{`"Ala Alba`"}",f,{3843},Negima
