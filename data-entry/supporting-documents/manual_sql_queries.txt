@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{270}' WHERE version='{"WandaVision"}' AND displayed_version_name='MCU';
+UPDATE character SET rt_id_array='{270}' WHERE default_name='Wanda' AND displayed_version_name='MCU';
+
 ########################################
 
 ########################################
