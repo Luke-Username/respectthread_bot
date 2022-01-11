@@ -107,6 +107,97 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2125, 'Respect Bruce Banner, The Intelligent Hulk (Bronze Age - Marvel, 616)', 'https://redd.it/s1674q')
+
+########################################
+
+add_data(['Gilgamesh'],
+'Gilgamesh',
+False,
+False,
+[
+    ['Enkidu']
+],
+'The Epic of Gilgamesh',
+'{6148}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s1ineh/preshamat_enkidu_vs_gilgamesh/hs8s9q8/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tomoe Gozen! (Fate)', 'https://redd.it/s11lij')
+add_data(['Tomoe Gozen'],
+'Tomoe Gozen',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Fantastic Four (Fantastic Four [1994 Cartoon])', 'https://redd.it/s1fb34')
+add_data(['Fantastic Four'],
+'Fantastic Four',
+True,
+False,
+[
+    ['1994', 'Cartoon']
+],
+'1994 Cartoon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s1fb34/respect_the_fantastic_four_fantastic_four_1994/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Reed Richards, Mr. Fantastic (LEGO Marvel Super Heroes)', 'https://redd.it/s1fn7m')
+add_data(['Reed Richards'],
+'Reed Richards',
+False,
+False,
+[
+    ['LEGO Marvel']
+],
+'LEGO Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s1fn7m/respect_reed_richards_mr_fantastic_lego_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zatanna (DCAU)', 'https://redd.it/s1kfou')
+add_data(['Zatanna'],
+'Zatanna',
+False,
+False,
+[
+    ['Zatanna.+DCAU|DCAU.+Zatanna']
+],
+'DCAU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s1kfou/respect_zatanna_dcau/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Justice! (Marvel, 616)', 'https://redd.it/s1pjnl')
+add_data(['Vance Astro(vik)?'],
+'Vance Astro',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
