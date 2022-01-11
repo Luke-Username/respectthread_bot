@@ -22619,8 +22619,6 @@ Paul Atreides,{Dune},t,{6144},Dune
 Cao Cao,{DxD},f,{6145},High School DxD
 Wan Shailu,{Cosmere},t,{6147},The Cosmere
 Wan Shailu,"{`"Emperor'?s Soul`"}",t,{6147},The Cosmere
-Gilgamesh,"{`"Epic of Gilgamesh`"}",f,{6148},The Epic of Gilgamesh
-Gilgamesh,{poems?},f,{6148},The Epic of Gilgamesh
 Grignr,"{`"Eye of Argon`"}",t,{6149},The Eye of Argon
 Hugo,{Fablehaven},t,{6150},Fablehaven
 Grinch,{Seuss},t,{6161},Dr. Seuss
@@ -25826,7 +25824,6 @@ Breakdown,"{`"Blew Up the Kid`"}",f,{21178},Flashpoint
 The Avengers,{14325},f,{21179},14325
 Spider-Man,"{`"Battle Of New York`"}",f,{261},MCU
 Doctor Strange,"{`"Battle Of New York`"}",f,{13351},MCU
-Gilgamesh,{myth?(ical|olog(y|ical))},f,{6148},The Epic of Gilgamesh
 Gilgamesh,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Gilgamesh,{MCU},f,{},MCU
 Thena,"{`"Marvel Cinematic Universe`"}",f,{},MCU
@@ -25944,3 +25941,12 @@ Spider-Men,{Tobey|Maguire},f,{302},Raimiverse Spider-Man
 Spider-Men,{Andrew|Garfield},f,{113},The Amazing Spider-Man
 Thor,"{Index,magician}",f,{15253},Toaru Majutsu no Index
 Yaza,"{`"Pok(e|é)m(o|a)n ReBurst`"}",f,{21223},Pokémon
+Gilgamesh,"{`"Epic of Gilgamesh`"}",t,{6148},The Epic of Gilgamesh
+Gilgamesh,{poems?},t,{6148},The Epic of Gilgamesh
+Gilgamesh,{myth?(ical|olog(y|ical))},t,{6148},The Epic of Gilgamesh
+Gilgamesh,{Enkidu},f,{6148},The Epic of Gilgamesh
+Tomoe Gozen,{Fate},f,{21224},Fate
+Fantastic Four,"{1994,Cartoon}",f,{21225},1994 Cartoon
+Reed Richards,"{`"LEGO Marvel`"}",f,{21226},LEGO Marvel
+Zatanna,{Zatanna.+DCAU|DCAU.+Zatanna},f,{21227},DCAU
+Vance Astro,{616},t,{21228},616
