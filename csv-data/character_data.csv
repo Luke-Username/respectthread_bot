@@ -20241,7 +20241,6 @@ Captain Falcon,"{`"F(-| )?Zero`"}",t,{5593},F-Zero
 Jason,"{`"Far ?Cry`"}",f,{5594},Far Cry
 Jason Brody,"{`"Far ?Cry`"}",t,{5594},Far Cry
 Dark Lord,"{`"Find Mii`"}",f,{5595},Find Mii
-Dark Emperor,"{`"Find Mii`"}",t,{5595},Find Mii
 Apollyon,"{`"For Honor`"}",f,{5596},For Honor
 Fortnite,{default},t,{5597},""
 Jet Brody,{Fracture},t,{5598},Fracture
@@ -20282,6 +20281,7 @@ Harman Smith,"{`"Suda ?51`"}",t,{5620},Killer7
 Garican Smith,"{`"Killer ?7`"}",f,{5620},Killer7
 Garican Smith,"{`"Suda ?51`"}",f,{5620},Killer7
 Emir Parkreiner,"{`"Killer ?7`"}",t,{5620},Killer7
+Dark Emperor,"{`"Find Mii`"}",f,{5595},Find Mii
 Emir Parkreiner,"{`"Suda ?51`"}",t,{5620},Killer7
 Dan Smith,"{`"Killer ?7`"}",f,{5620},Killer7
 Dan Smith,"{`"Suda ?51`"}",f,{5620},Killer7
@@ -25943,3 +25943,4 @@ Spider-Men,{Holland},f,{261},MCU
 Spider-Men,{Tobey|Maguire},f,{302},Raimiverse Spider-Man
 Spider-Men,{Andrew|Garfield},f,{113},The Amazing Spider-Man
 Thor,"{Index,magician}",f,{15253},Toaru Majutsu no Index
+Yaza,"{`"Pok(e|é)m(o|a)n ReBurst`"}",f,{21223},Pokémon

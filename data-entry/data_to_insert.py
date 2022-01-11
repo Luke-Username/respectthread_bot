@@ -107,19 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Captain Yaza (Pokemon ReBurst)', 'https://redd.it/s0zna6')
-add_data(['Yaza'],
-'Yaza',
-False,
-False,
-[
-    ['Pok(e|é)m(o|a)n ReBurst']
-],
-'Pokémon',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/s0zna6/respect_captain_yaza_pokemon_reburst/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

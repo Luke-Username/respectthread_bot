@@ -15,9 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Is(a|s)ac Clarke?' WHERE name='Isaac Clarke?';
-UPDATE character SET is_default=FALSE WHERE default_name='Dark Emperor';
-
 ########################################
 
 ########################################
