@@ -6897,7 +6897,7 @@ Prime-Orks,{Warhammer},t,{7621},Warhammer 40k
 Beast,{(WH)?40K},f,{7621},Warhammer 40k
 Beast,{Warhammer},f,{7621},Warhammer 40k
 Overclocked Bender,{Futurama},t,{7622},Futurama
-Thor,"{`"Thor \\(DC( Comics)?\\)`"}",f,{1743},DC
+Thor,"{`"Thor ?\\(DC( Comics)?\\)`"}",f,{1743},DC
 Nathaniel Angel,"{`"Huynh Phu Dat`"}",t,{7623},Huynh Phu Dat
 Yoda,{LEGO},f,{7624},LEGO Star Wars
 IG-11,"{`"Star Wars`"}",t,{7625},Star Wars
@@ -17166,6 +17166,7 @@ Tohru,{Kobayashi},f,{3901},Miss Kobayashi's Dragon Maid
 Koyama,{Mob},f,{3902},Mob Psycho 100
 Koyama,{MP100},f,{3902},Mob Psycho 100
 Reigen,{Mob},t,{3903},Mob Psycho 100
+Po,{KFP},f,{1150},Kung Fu Panda
 Reigen,{MP100},t,{3903},Mob Psycho 100
 Reigen Arataka,{Mob},t,{3903},Mob Psycho 100
 Reigen Arataka,{MP100},t,{3903},Mob Psycho 100
@@ -25952,3 +25953,14 @@ Zatanna,{Zatanna.+DCAU|DCAU.+Zatanna},f,{21227},DCAU
 Vance Astro,{616},t,{21228},616
 Geno,"{`"One(-| )Punch Man`"}",f,{4104},One Punch Man
 Darkshine,"{`"One(-| )Punch Man`"}",t,{12453},One Punch Man
+Venom,"{`"Topher Grace`"}",f,{303},Raimiverse Spider-Man
+Venom,"{`"Tom Hardy`"}",f,{591},"Sony, 2018"
+Starro,{comics},t,{21229},DC
+Starro,{PC},f,{21229},Post-Crisis
+Starro,"{`"Posts?(-| )?C(risis)?`"}",f,{21229},Post-Crisis
+Starro,"{`"New(-| )Earth`"}",f,{21229},Post-Crisis
+Starro,"{`"New(-| )?52`"}",f,{},New 52
+Starro,{Nu?-?52},f,{},New 52
+Wonder Man,"{`"Wonder Comics`"}",f,{21230},Wonder Comics
+Speedball,{616},f,{21231},616
+Speedball,{Marvel},f,{21231},616
