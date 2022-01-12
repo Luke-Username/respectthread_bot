@@ -106,33 +106,6 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
-
-add_data(['Geno'],
-'Geno',
-False,
-False,
-[
-    ['One(-| )Punch Man']
-],
-'One Punch Man',
-'{4104}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/s1pwai/genosone_punch_man_vs_colossusmarvel/
-
-########################################
-
-add_data(['Darkshine'],
-'Darkshine',
-False,
-True,
-[
-    ['One(-| )Punch Man']
-],
-'One Punch Man',
-'{12453}'
-)
-#
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

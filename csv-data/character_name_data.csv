@@ -3379,7 +3379,6 @@ Seven Deadly Brothers,Seven Deadly Brothers,f
 Yang Kei(-| )Ying,Yang Kei-Ying,f
 Shaolin Robot,Shaolin Robot,f
 Socialist Red Guardsman,Socialist Red Guardsman,f
-Bat(-| )?man,Batman,f
 Aqua(-| )?man,Aquaman,f
 Sand(-| )?man,Sandman,f
 Cat(-| )?woman,Catwoman,f
@@ -3443,6 +3442,7 @@ Emerald Empress,Emerald Empress,f
 Persuader,Persuader,f
 Tharok,Tharok,f
 Mano,Mano,f
+Bat(-| )?mans?,Batman,f
 Pureblood,Pureblood,f
 Artemis,Artemis,f
 Artemis of (the )?Bana-Mighdall,Artemis of the Bana-Mighdall,f
@@ -11847,3 +11847,5 @@ Jinpa,Jinpa,f
 Yaza,Yaza,f
 Tomoe Gozen,Tomoe Gozen,f
 Vance Astro(vik)?,Vance Astro,f
+Geno,Geno,f
+Darkshine,Darkshine,f
