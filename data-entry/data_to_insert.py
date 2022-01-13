@@ -107,6 +107,48 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5367, 'Respect Albert Wesker (Resident Evil)', 'https://redd.it/cjw7yl')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Light Yagami (Death Note)', 'https://redd.it/9wce7n')
+add_data(['Light Yagami'],
+'Light Yagami',
+False,
+True,
+[
+    ['Death Note']
+],
+'Death Note',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/9wce7n/respect_light_yagami_death_note/
+
+add_data(['Light'],
+'Light',
+False,
+False,
+[
+    ['Death Note']
+],
+'Death Note',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/9wce7n/respect_light_yagami_death_note/
+
+########################################
+
+add_data(['Doc Ock'],
+'Doctor Octopus',
+False,
+False,
+[
+    ['Sony']
+],
+'Raimiverse Spider-Man',
+'{299}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s2te4q/doc_ock_sonymcu_vs_hot_tub_american_dad/hsgkqj9/?context=3
 
 ########################################
 
