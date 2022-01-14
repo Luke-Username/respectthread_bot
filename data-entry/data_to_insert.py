@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Spartan 1337 (Halo)', 'https://redd.it/3bcm7w')
+add_data(['Spartan(-| )1337'],
+'Spartan-1337',
+False,
+True,
+[
+    ['Halo']
+],
+'Halo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/3bcm7w/respect_spartan_1337_halo/
+#https://www.reddit.com/r/whowouldwin/comments/s3kwvf/spartan_1337_halo_legends_vs_caboose_red_vs_blue/hslftzd/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

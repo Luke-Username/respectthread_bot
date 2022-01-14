@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Mikazuchi Rei' WHERE name='Mikazuchi';
+UPDATE character SET version='{"Akame ?\\(Akam(e|a) ga Kill"}' WHERE version='{"Akame ?\\(Akame ga Kill"}';
+
 ########################################
 
 ########################################
