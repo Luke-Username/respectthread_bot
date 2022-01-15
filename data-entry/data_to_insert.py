@@ -123,6 +123,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Elma (Miss Kobayashi''s Dragon Maid)!", 'https://redd.it/bcqasy')
+add_data(['Elma'],
+'Elma',
+False,
+False,
+[
+    ['Dragon Maid'], ['Kobayashi']
+],
+'Miss Kobayashi''s Dragon Maid',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/bcqasy/respect_elma_miss_kobayashis_dragon_maid/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

@@ -2095,7 +2095,7 @@ The Misfit of the Demon King Academy
 
 Miss Kobayashi's Dragon Maid
 	Version
-		'{"Dragon Maid"}', '{"Kobayashi"}'
+		['Dragon Maid'], ['Kobayashi']
 	Displayed Version Name
 		"Miss Kobayashi''s Dragon Maid"
 
