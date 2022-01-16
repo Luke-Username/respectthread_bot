@@ -107,6 +107,13 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4686, 'Respect Orthrus! (Ben-To) (anime)', 'https://redd.it/s2k8z9')
+update_respectthread(cur, 5048, 'Respect The Alpha and the Omega, Vergil (Devil May Cry)', 'https://redd.it/s2mqcc')
+update_respectthread(cur, 1722, 'Respect Khalid Nassour, Doctor Fate (DC Comics, Rebirth)', 'https://redd.it/s31kq8')
+update_respectthread(cur, 4403, 'Respect Ryouga (Pokemon ReBurst)', 'https://redd.it/s3yqjy')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Spartan 1337 (Halo)', 'https://redd.it/3bcm7w')
 add_data(['Spartan(-| )1337'],
 'Spartan-1337',
@@ -135,6 +142,182 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/bcqasy/respect_elma_miss_kobayashis_dragon_maid/
+
+########################################
+
+id = get_rt_id(cur, "Respect King Rion (Arthurian Myth)", 'https://redd.it/s2p42w')
+add_data(['King Rion'],
+'King Rion',
+False,
+True,
+[
+    ['Arthurian']
+],
+'Arthurian Myth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s2p42w/respect_king_rion_arthurian_myth/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jarro! (DC Post Rebirth)", 'https://redd.it/s2zmk9')
+add_data(['Jarro'],
+'Jarro',
+False,
+False,
+[
+    ['DC'], ['Rebirth']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s2zmk9/respect_jarro_dc_post_rebirth/
+
+########################################
+
+id = get_rt_id(cur, "Respect: Superman! (Raj Comics)", 'https://redd.it/s34nag')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Raj Comics']
+],
+'Raj Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s34nag/respect_superman_raj_comics/
+
+########################################
+
+id = get_rt_id(cur, "Respect the G.I. Jeff team (Community)", 'https://redd.it/s39vp7')
+add_data(['G\.?I\.? Jeff'],
+'G.I. Jeff',
+True,
+True,
+[
+    ['Community']
+],
+'Community',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s39vp7/respect_the_gi_jeff_team_community/
+
+########################################
+
+id = get_rt_id(cur, "Respect Hariru (Pokemon ReBurst)", 'https://redd.it/s4md6c')
+add_data(['Hariru'],
+'Hariru',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pocket Monsters RéBURST',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s4md6c/respect_hariru_pokemon_reburst/
+
+########################################
+
+id = get_rt_id(cur, "Respect Chiharu Shiba (Baki)", 'https://redd.it/s3ywe9')
+add_data(['Chiharu Shiba'],
+'Chiharu Shiba',
+False,
+True,
+[
+    ['Baki']
+],
+'Baki',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s3ywe9/respect_chiharu_shiba_baki/
+
+########################################
+
+id = get_rt_id(cur, "Respect Gamera, the Friend to All Children! (Gamera, Showa Era)", 'https://redd.it/s4kmad')
+add_data(['Gamera'],
+'Gamera',
+False,
+True,
+[
+    ['Gamera.*Showa|Showa Gamera']
+],
+'Showa Era',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s4kmad/respect_gamera_the_friend_to_all_children_gamera/
+
+########################################
+
+add_data(['Green Goblin'],
+'Green Goblin',
+False,
+False,
+[
+    ['MCU']
+],
+'Miss Kobayashi''s Dragon Maid',
+'{300}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s49vvb/daredevil_punisher_and_elektra_mcu_vs_green/hspsp90/?context=3
+
+########################################
+
+add_data(['Peace ?maker'],
+'Peacemaker',
+False,
+False,
+[
+    ['TSS']
+],
+'DCEU',
+'{20353}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s4dlz6/peacemaker_tss_and_show_vs_the_punisher_netflix/hsqg9r4/?context=3
+
+########################################
+
+add_data(['Wanda'],
+'Wanda',
+False,
+False,
+[
+    ['House of M']
+],
+'616',
+'{1997}'
+)
+#https://www.reddit.com/r/respectthreads/comments/kpmkhq/respect_wanda_maximoff_the_scarlet_witch_marvel/
+#https://www.reddit.com/r/whowouldwin/comments/s4ggp6/rune_king_thor_vs_house_of_m_wanda/hss0443/?context=3
+
+########################################
+
+add_data(['Cable'],
+'Cable',
+False,
+False,
+[
+    ['Deadpool 2']
+],
+'FOX',
+'{140}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s4pvf2/cable_deadpool_2_vs_bloodsport_and_peacemaker/hssmh7u/?context=3
+
+########################################
+
+add_data(['Game Sonic'],
+'Game Sonic',
+False,
+True,
+[
+    ['Sonic the Hedgehog']
+],
+'',
+'{8276,8277}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s4umxc/z_goku_vs_game_sonic/
 
 ########################################
 

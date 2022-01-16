@@ -2637,7 +2637,7 @@ Punch Line
 
 Raimi Spider-Man
 	Version
-		'{"Rai?mi-?(verse)?"}', '{"Mac?guire"}'
+		'{"Rai?mi(ni)?-?(verse)?"}', '{"Mac?guire"}'
 	Specific
 		'{"Spider(-| )?Man 3"}'
 	Sometimes Called

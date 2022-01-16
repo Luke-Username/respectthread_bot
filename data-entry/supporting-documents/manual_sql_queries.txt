@@ -17,8 +17,12 @@ UPDATE character_name SET name='' WHERE...
 
 UPDATE character_name SET name='Mikazuchi Rei' WHERE name='Mikazuchi';
 UPDATE character SET version='{"Akame ?\\(Akam(e|a) ga Kill"}' WHERE version='{"Akame ?\\(Akame ga Kill"}';
+UPDATE character SET version='{"Rai?mi(ni)?-?(verse)?"}' WHERE version='{"Rai?mi-?(verse)?"}';
+UPDATE character SET is_default=FALSE WHERE default_name='Dio Brando' AND displayed_version_name='Jorge Joestar';
 
 ########################################
+
+DELETE FROM respectthread WHERE id=5391;
 
 ########################################
 
