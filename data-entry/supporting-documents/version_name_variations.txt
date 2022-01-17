@@ -1020,7 +1020,7 @@ Fist of the North Star
 
 Five Nights at Freddies
 	Version
-		'{"Five Nights at Freddies"}', '{"FNAF"}'
+		['Five Nights at Fredd(ys?|ies)'], ['FNAF']
 	Displayed Version Name
 		"FNAF"
 

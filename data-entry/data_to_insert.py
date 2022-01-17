@@ -111,6 +111,8 @@ update_respectthread(cur, 4686, 'Respect Orthrus! (Ben-To) (anime)', 'https://re
 update_respectthread(cur, 5048, 'Respect The Alpha and the Omega, Vergil (Devil May Cry)', 'https://redd.it/s2mqcc')
 update_respectthread(cur, 1722, 'Respect Khalid Nassour, Doctor Fate (DC Comics, Rebirth)', 'https://redd.it/s31kq8')
 update_respectthread(cur, 4403, 'Respect Ryouga (Pokemon ReBurst)', 'https://redd.it/s3yqjy')
+update_respectthread(cur, 1513, 'Respect Kate Kane, AKA Batwoman (DC Comics, Prime Earth)', 'https://redd.it/s4rg3t')
+update_respectthread(cur, 8226, 'Respect Deadpool (Death Battle!)', 'https://redd.it/s50i8l')
 
 ########################################
 
@@ -247,6 +249,154 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/s4kmad/respect_gamera_the_friend_to_all_children_gamera/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Classic Animatronics! (Five Nights at Freddy''s)", 'https://redd.it/s4mh0a')
+id2 = get_rt_id(cur, "Respect the Glamrock Animatronics! (Five Nights at Freddy''s: Security Breach)", 'https://redd.it/s5iwna')
+add_data(['Animatronics'],
+'Animatronics',
+True,
+False,
+[
+    ['Five Nights at Fredd(y|ies)'], ['FNAF']
+],
+'FNAF',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s4mh0a/respect_the_classic_animatronics_five_nights_at/
+
+add_data(['Animatronic'],
+'Animatronic',
+False,
+False,
+[
+    ['Five Nights at Fredd(y|ies)'], ['FNAF']
+],
+'FNAF',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s4mh0a/respect_the_classic_animatronics_five_nights_at/
+
+add_data(['Freddy Fazbear'],
+'Freddy Fazbear',
+False,
+True,
+[
+    ['Five Nights at Fredd(y|ies)'], ['FNAF']
+],
+'FNAF',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#
+
+add_data(['Freddy'],
+'Freddy',
+False,
+False,
+[
+    ['Five Nights at Fredd(y|ies)'], ['FNAF']
+],
+'FNAF',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#
+
+add_data(['Chica'],
+'Chica',
+False,
+False,
+[
+    ['Five Nights at Fredd(y|ies)'], ['FNAF']
+],
+'FNAF',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#
+
+add_data(['Bonnie'],
+'Bonnie',
+False,
+False,
+[
+    ['Five Nights at Fredd(y|ies)'], ['FNAF']
+],
+'FNAF',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Foxy'],
+'Foxy',
+False,
+False,
+[
+    ['Five Nights at Fredd(y|ies)'], ['FNAF']
+],
+'FNAF',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Black Krrsantan (Star Wars, Canon)', 'https://redd.it/s4mh0a')
+add_data(['Black Krrsantan'],
+'Black Krrsantan',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s4omlr/respect_black_krrsantan_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Unnamed Tusken Warrior (Star Wars Canon, The Book of Boba Fett)', 'https://redd.it/s5f7c1')
+add_data(['Tusken (Raider|Warrior)'],
+'Tusken Raider',
+False,
+False,
+[
+    ['Book of Boba']
+],
+'The Book of Boba Fett',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s5f7c1/respect_unnamed_tusken_warrior_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cinos, the Anti-Sonic (Sonic the Hedgehog in the Fourth Dimension)', 'https://redd.it/s4sgm3')
+add_data(['Cinos'],
+'Cinos',
+False,
+False,
+[
+    ['Sonic']
+],
+'Sonic the Hedgehog',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s4sgm3/respect_cinos_the_antisonic_sonic_the_hedgehog_in/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sanjuro! (Yojimbo)', 'https://redd.it/s4x7ly')
+add_data(['Sanj(ū|u)r(ō|o)'],
+'Sanjūrō',
+False,
+False,
+[
+    ['Yojimbo'], ['Toshiro Mifune']
+],
+'Yojimbo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s4x7ly/respect_sanjuro_yojimbo/
 
 ########################################
 
