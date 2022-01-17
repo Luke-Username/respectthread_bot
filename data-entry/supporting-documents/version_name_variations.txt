@@ -1337,6 +1337,12 @@ Hellboy Films
 	Displayed Version Name
 		"Hellboy films"
 
+Hell's Paradise: Jigokuraku
+	Version
+		['Jigokuraku'], ["Hell''?s Paradise"]
+	Displayed Version Name
+		"Hell''s Paradise: Jigokuraku"
+
 Hellsing
 	Version
 		'{"Hell?sing"}'
@@ -1643,7 +1649,7 @@ Keijo!!!!!!!!
 
 Kengan Asura
 	Version
-		'{"Kengan(verse)?"}'
+		['Kengan(verse)?']
 	Displayed Version Name
 		"Kengan Asura"
 

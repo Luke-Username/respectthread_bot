@@ -113,6 +113,7 @@ update_respectthread(cur, 1722, 'Respect Khalid Nassour, Doctor Fate (DC Comics,
 update_respectthread(cur, 4403, 'Respect Ryouga (Pokemon ReBurst)', 'https://redd.it/s3yqjy')
 update_respectthread(cur, 1513, 'Respect Kate Kane, AKA Batwoman (DC Comics, Prime Earth)', 'https://redd.it/s4rg3t')
 update_respectthread(cur, 8226, 'Respect Deadpool (Death Battle!)', 'https://redd.it/s50i8l')
+update_respectthread(cur, 8141, 'Respect Kure Erioh, "The Mighty Demon" (Kengan Asura/Omega)', 'https://redd.it/s5r2w4')
 
 ########################################
 
@@ -397,6 +398,225 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/s4x7ly/respect_sanjuro_yojimbo/
+
+########################################
+
+id = get_rt_id(cur, "Respect Asaemon Shugen! (Jigokuraku - Hell''s Paradise)", 'https://redd.it/s555ls')
+add_data(['Shugen'],
+'Shugen',
+False,
+False,
+[
+    ['Jigokuraku'], ["Hell''?s Paradise"],
+    ['Asaemon']
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s555ls/respect_asaemon_shugen_jigokuraku_hells_paradise/
+
+########################################
+
+id = get_rt_id(cur, "Respect Asaemon Jikka! (Jigokuraku - Hell''s Paradise!)", 'https://redd.it/s555mw')
+add_data(['Jikka'],
+'Jikka',
+False,
+False,
+[
+    ['Jigokuraku'], ["Hell''?s Paradise"],
+    ['Asaemon']
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s555mw/respect_asaemon_jikka_jigokuraku_hells_paradise/
+
+########################################
+
+id = get_rt_id(cur, "Respect Gabimaru the Hollow! (Jigokuraku - Hell''s Paradise)", 'https://redd.it/s555np')
+add_data(['Gabimaru'],
+'Gabimaru',
+False,
+False,
+[
+    ['Jigokuraku'], ["Hell''?s Paradise"],
+    ['Gabimaru the Hollow']
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s555np/respect_gabimaru_the_hollow_jigokuraku_hells/
+
+########################################
+
+id = get_rt_id(cur, "Respect Tamiya Gantetsusai! (Jigokuraku - Hell''s Paradise)", 'https://redd.it/s555ow')
+add_data(['Gantetsusai'],
+'Gantetsusai',
+False,
+False,
+[
+    ['Jigokuraku'], ["Hell''?s Paradise"],
+    ['Tamiya']
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s555ow/respect_tamiya_gantetsusai_jigokuraku_hells/
+
+########################################
+
+id = get_rt_id(cur, "Respect Aza Chobe! (Jigokuraku - Hell''s Paradise)", 'https://redd.it/s555ow')
+add_data(['Chobe'],
+'Chobe',
+False,
+False,
+[
+    ['Jigokuraku'], ["Hell''?s Paradise"],
+    ['Aza Chobe']
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s5q5vt/respect_aza_chobe_hells_paradise_jigokuraku/
+
+########################################
+
+id = get_rt_id(cur, "Respect Asaemon Shion! (Jigokuraku - Hell''s Paradise!)", 'https://redd.it/s5q5y3')
+add_data(['Shion'],
+'Shion',
+False,
+False,
+[
+    ['Jigokuraku'], ["Hell''?s Paradise"],
+    ['Asaemon']
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s5q5y3/respect_asaemon_shion_hells_paradise_jigokuraku/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Lord Tensen! (Hell''s Paradise - Jigokuraku)", 'https://redd.it/s5q622')
+add_data(['Lord Tensen'],
+'Lord Tensen',
+True,
+True,
+[
+    ['Jigokuraku'], ["Hell''?s Paradise"]
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s5q622/respect_the_lord_tensen_hells_paradise_jigokuraku/
+
+add_data(['Mu Dan'],
+'Mu Dan',
+False,
+False,
+[
+    ['Jigokuraku'], ["Hell''?s Paradise"]
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s5q622/respect_the_lord_tensen_hells_paradise_jigokuraku/
+
+add_data(['Zhu Jin'],
+'Zhu Jin',
+False,
+False,
+[
+    ['Jigokuraku'], ["Hell''?s Paradise"]
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s5q622/respect_the_lord_tensen_hells_paradise_jigokuraku/
+
+add_data(['Rien'],
+'Rien',
+False,
+False,
+[
+    ['Jigokuraku'], ["Hell''?s Paradise"]
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s5q622/respect_the_lord_tensen_hells_paradise_jigokuraku/
+
+########################################
+
+id = get_rt_id(cur, "Respect Bidoof! (Pokemon Bidoof''s Big Stand)", 'https://redd.it/s59tnj')
+add_data(['Bidoof'],
+'Bidoof',
+False,
+False,
+[
+    ['Bidoof''?s Big Stand']
+],
+"Bidoof''s Big Stand",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s59tnj/respect_bidoof_pokemon_bidoofs_big_stand/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Monsters (Goosebumps, 2015 Film)", 'https://redd.it/s5csi2')
+add_data(['Goosebumps'],
+'Goosebumps',
+False,
+False,
+[
+    ['Goosebumps.+2015']
+],
+"2015",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s5csi2/respect_the_monsters_goosebumps_2015_film/
+
+########################################
+
+id = get_rt_id(cur, "Respect Godzilla-kun! (Godzilla-kun: Great Monster March)", 'https://redd.it/s5eqo5')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Great Monster March']
+],
+"Great Monster March",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s5eqo5/respect_godzillakun_godzillakun_great_monster/
+
+########################################
+
+id = get_rt_id(cur, "Respect Alan, Solomon, and Fabio Wu (Kengan Omega)", 'https://redd.it/s5onde')
+add_data(['Alan Wu'],
+'Alan Wu',
+False,
+False,
+[
+    ['Kengan(verse)?']
+],
+"Kengan Asura",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s5onde/respect_alan_solomon_and_fabio_wu_kengan_omega/
+
+add_data(['Fabio Wu'],
+'Fabio Wu',
+False,
+False,
+[
+    ['Kengan(verse)?']
+],
+"Kengan Asura",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s5onde/respect_alan_solomon_and_fabio_wu_kengan_omega/
 
 ########################################
 
