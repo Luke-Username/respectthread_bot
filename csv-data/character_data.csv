@@ -842,8 +842,6 @@ Barnacle Boy,{Spongebob},t,{917},Spongebob
 Squidward,{Spongebob},t,{919},Spongebob
 Barugon,{Gamera},t,{163},Gamera
 Heisei Gamera,{Trilogy},t,{164},The Gamera Trilogy
-Gamera,{Heisei},f,{164},Heisei Era
-Gamera,"{`"Guardian of the`"}",f,{164},Heisei Era
 Guiron,{Gamera},t,{165},Gamera vs Guiron
 Gyaos,{Gamera},t,{166},Heisei Gamera Trilogy
 Iris,{Gamera},f,{167},Gamera
@@ -882,6 +880,7 @@ Anguirus,"{`"Final Wars`"}",f,{172},Godzilla: Final Wars
 Anguirus,{Godzilla},t,{171},Godzilla
 King Kong,{1933},f,{192},Godzilla
 King Kong,"{`"King Kong vs Godzilla`"}",f,{192},Godzilla
+Gamera,{Heisei},f,{164},Heisei Era
 King Kong,"{`"King Kong vs. Godzilla`"}",f,{192},Godzilla
 King Kong,{KKvG},f,{192},Godzilla
 King Kong,"{`"King Kong Escapes`"}",f,{192},Godzilla
@@ -9514,7 +9513,6 @@ Ultra,{Earth-33},f,{1913},Earth-33
 Zorgul,{DC},t,{1914},Earth 6
 Zorgul,"{`"Earth 6`"}",t,{1914},Earth 6
 Zorgul,"{`"Just Imagine`"}",t,{1914},Earth 6
-Gamera,"{`"Dark ?Horse`"}",f,{1915},Dark Horse Comics
 Gyaos,"{`"Dark ?Horse`"}",f,{1916},Dark Horse Comics
 Señor Gusano,"{`"Dark ?Horse`"}",t,{1917},Dark Horse Comics
 Viras,"{`"Dark ?Horse`"}",f,{1918},Dark Horse Comics
@@ -11484,7 +11482,6 @@ Simca,"{`"Air Gear`"}",f,{3000},Air Gear
 Sora Takeuchi,"{`"Air Gear`"}",t,{3001},Air Gear
 Akame,"{`"Akame vs`"}",f,{3002},Akame Ga Kill!
 Akame,"{`"vs.? Akame`"}",f,{3002},Akame Ga Kill!
-Akame,"{`"Akame ?\\(Akame ga Kill`"}",f,{3002},Akame Ga Kill!
 Akame,"{`"Akame ga Kill`",gauntlet}",f,{3002},Akame Ga Kill!
 Esdeath,"{`"Akame ga Kill`"}",t,{3003},Akame Ga Kill!
 Leone,"{`"Akame ga Kill`"}",f,{3004},Akame Ga Kill!
@@ -22640,7 +22637,6 @@ Caitlin St. Brendan,"{`"Indiana Jones`"}",t,{6163},Indiana Jones
 Alicia DeVries,"{`"In Fury Born`"}",t,{6164},In Fury Born
 Leather,"{`"Interviewing Leather`"}",f,{6165},Interviewing Leather
 Invisible Dragon,{default},t,{6166},""
-Dio Brando,"{`"Jorge Joestar`"}",t,{6167},Jorge Joestar
 Dio,"{`"Jorge Joestar`"}",f,{6167},Jorge Joestar
 Kars,"{`"Jorge Joestar`"}",f,{6168},Jorge Joestar
 Kars,"{`"Novel Kars`"}",f,{6168},Jorge Joestar
@@ -25461,18 +25457,13 @@ Predator,{Planet},f,"{2799,13507}",""
 Yautja,{Predator},t,"{2799,13507}",Predator
 Spongebob,{Spongebob},t,{},Spongebob
 Horrorterror,{Homestuck},t,{21103},Homestuck
-Venom,{Rai?mi-?(verse)?},f,{303},Raimiverse Spider-Man
 Venom,"{`"Spider(-| )?Man 3`"}",f,{303},Raimiverse Spider-Man
 Venom,{96283},f,{303},Raimiverse Spider-Man
-Sandman,{Rai?mi-?(verse)?},f,{6508},Raimiverse Spider-Man
 Sandman,"{`"Spider(-| )?Man 3`"}",f,{6508},Raimiverse Spider-Man
 Sandman,{96283},f,{6508},Raimiverse Spider-Man
-Spider-Man,{Rai?mi-?(verse)?},f,{302},Raimiverse Spider-Man
 Spider-Man,{96283},f,{302},Raimiverse Spider-Man
-New Goblin,{Rai?mi-?(verse)?},f,{301},Raimiverse Spider-Man
 New Goblin,"{`"Spider(-| )?Man 3`"}",f,{301},Raimiverse Spider-Man
 New Goblin,{96283},f,{301},Raimiverse Spider-Man
-Doctor Octopus,{Rai?mi-?(verse)?},f,{299},Raimiverse Spider-Man
 Doctor Octopus,"{`"Spider(-| )?Man 2`"}",f,{299},Raimiverse Spider-Man
 Doctor Octopus,{96283},f,{299},Raimiverse Spider-Man
 The Incredibles,"{`"The Incredibles vs`"}",t,"{1131,1128,1133,6576,1130}",""
@@ -25488,11 +25479,16 @@ Sandman,{Mac?guire},f,{6508},Raimiverse Spider-Man
 Spider-Man,{Mac?guire},f,{302},Raimiverse Spider-Man
 New Goblin,{Mac?guire},f,{301},Raimiverse Spider-Man
 Doctor Octopus,{Mac?guire},f,{299},Raimiverse Spider-Man
-Green Goblin,{Rai?mi-?(verse)?},f,{300},Raimiverse Spider-Man
 Green Goblin,{96283},f,{300},Raimiverse Spider-Man
 Green Goblin,{2002},f,{300},Raimiverse Spider-Man
 Green Goblin,{Dafoe},f,{300},Raimiverse Spider-Man
 Green Goblin,{Mac?guire},f,{300},Raimiverse Spider-Man
+Venom,{Rai?mi(ni)?-?(verse)?},f,{303},Raimiverse Spider-Man
+Sandman,{Rai?mi(ni)?-?(verse)?},f,{6508},Raimiverse Spider-Man
+Spider-Man,{Rai?mi(ni)?-?(verse)?},f,{302},Raimiverse Spider-Man
+New Goblin,{Rai?mi(ni)?-?(verse)?},f,{301},Raimiverse Spider-Man
+Doctor Octopus,{Rai?mi(ni)?-?(verse)?},f,{299},Raimiverse Spider-Man
+Green Goblin,{Rai?mi(ni)?-?(verse)?},f,{300},Raimiverse Spider-Man
 Sun Wukong,"{`"Hero is Back`"}",f,{4857},Monkey King: Hero is Back
 Tighten,"{`"Tighten vs`"}",f,{1220},Megamind
 Tighten,"{`"vs\\.? Tighten`"}",f,{1220},Megamind
@@ -25967,3 +25963,72 @@ Speedball,{Marvel},f,{21231},616
 Light Yagami,"{`"Death Note`"}",t,{21232},Death Note
 Light,"{`"Death Note`"}",f,{21232},Death Note
 Doctor Octopus,{Sony},f,{299},Raimiverse Spider-Man
+Akame,"{`"Akame ?\\(Akam(e|a) ga Kill`"}",f,{3002},Akame Ga Kill!
+Dio Brando,"{`"Jorge Joestar`"}",f,{6167},Jorge Joestar
+Spartan-1337,{Halo},t,{21233},Halo
+Elma,"{`"Dragon Maid`"}",f,{21234},Miss Kobayashis Dragon Maid
+Elma,{Kobayashi},f,{21234},Miss Kobayashis Dragon Maid
+King Rion,{Arthurian},t,{21235},Arthurian Myth
+Jarro,{DC},f,{21236},DC
+Jarro,{Rebirth},f,{21236},DC
+Superman,"{`"Raj Comics`"}",f,{21237},Raj Comics
+G.I. Jeff,{Community},t,{21238},Community
+Hariru,{Pok(e|é)m(o|a)n},f,{21239},Pocket Monsters RéBURST
+Chiharu Shiba,{Baki},t,{21240},Baki
+Animatronics,"{`"Five Nights at Fredd(y|ies)`"}",f,"{21242,21243}",FNAF
+Animatronics,{FNAF},f,"{21242,21243}",FNAF
+Animatronic,"{`"Five Nights at Fredd(y|ies)`"}",f,"{21242,21243}",FNAF
+Animatronic,{FNAF},f,"{21242,21243}",FNAF
+Freddy Fazbear,"{`"Five Nights at Fredd(y|ies)`"}",t,"{21242,21243}",FNAF
+Freddy Fazbear,{FNAF},t,"{21242,21243}",FNAF
+Freddy,"{`"Five Nights at Fredd(y|ies)`"}",f,"{21242,21243}",FNAF
+Freddy,{FNAF},f,"{21242,21243}",FNAF
+Chica,"{`"Five Nights at Fredd(y|ies)`"}",f,"{21242,21243}",FNAF
+Chica,{FNAF},f,"{21242,21243}",FNAF
+Bonnie,"{`"Five Nights at Fredd(y|ies)`"}",f,{21242},FNAF
+Bonnie,{FNAF},f,{21242},FNAF
+Foxy,"{`"Five Nights at Fredd(y|ies)`"}",f,{21242},FNAF
+Foxy,{FNAF},f,{21242},FNAF
+Black Krrsantan,"{`"S(tar )?Wars`"}",t,{21242},Star Wars
+Tusken Raider,"{`"Book of Boba`"}",f,{21244},The Book of Boba Fett
+Cinos,{Sonic},f,{21245},Sonic the Hedgehog
+Sanjūrō,{Yojimbo},f,{21246},Yojimbo
+Sanjūrō,"{`"Toshiro Mifune`"}",f,{21246},Yojimbo
+Shugen,{Jigokuraku},f,{21247},Hell's Paradise: Jigokuraku
+Shugen,"{`"Hell'?s Paradise`"}",f,{21247},Hell's Paradise: Jigokuraku
+Shugen,{Asaemon},f,{21247},Hell's Paradise: Jigokuraku
+Jikka,{Jigokuraku},f,{21248},Hell's Paradise: Jigokuraku
+Jikka,"{`"Hell'?s Paradise`"}",f,{21248},Hell's Paradise: Jigokuraku
+Jikka,{Asaemon},f,{21248},Hell's Paradise: Jigokuraku
+Gabimaru,{Jigokuraku},f,{21249},Hell's Paradise: Jigokuraku
+Gabimaru,"{`"Hell'?s Paradise`"}",f,{21249},Hell's Paradise: Jigokuraku
+Gabimaru,"{`"Gabimaru the Hollow`"}",f,{21249},Hell's Paradise: Jigokuraku
+Gantetsusai,{Jigokuraku},f,{21250},Hell's Paradise: Jigokuraku
+Gantetsusai,"{`"Hell'?s Paradise`"}",f,{21250},Hell's Paradise: Jigokuraku
+Gantetsusai,{Tamiya},f,{21250},Hell's Paradise: Jigokuraku
+Chobe,{Jigokuraku},f,{21250},Hell's Paradise: Jigokuraku
+Chobe,"{`"Hell'?s Paradise`"}",f,{21250},Hell's Paradise: Jigokuraku
+Chobe,"{`"Aza Chobe`"}",f,{21250},Hell's Paradise: Jigokuraku
+Shion,{Jigokuraku},f,{21251},Hell's Paradise: Jigokuraku
+Shion,"{`"Hell'?s Paradise`"}",f,{21251},Hell's Paradise: Jigokuraku
+Shion,{Asaemon},f,{21251},Hell's Paradise: Jigokuraku
+Lord Tensen,{Jigokuraku},t,{21252},Hell's Paradise: Jigokuraku
+Lord Tensen,"{`"Hell'?s Paradise`"}",t,{21252},Hell's Paradise: Jigokuraku
+Mu Dan,{Jigokuraku},f,{21252},Hell's Paradise: Jigokuraku
+Mu Dan,"{`"Hell'?s Paradise`"}",f,{21252},Hell's Paradise: Jigokuraku
+Zhu Jin,{Jigokuraku},f,{21252},Hell's Paradise: Jigokuraku
+Zhu Jin,"{`"Hell'?s Paradise`"}",f,{21252},Hell's Paradise: Jigokuraku
+Rien,{Jigokuraku},f,{21252},Hell's Paradise: Jigokuraku
+Rien,"{`"Hell'?s Paradise`"}",f,{21252},Hell's Paradise: Jigokuraku
+Bidoof,"{`"Bidoof?s Big Stand`"}",f,{21253},Bidoof's Big Stand
+Goosebumps,{Goosebumps.+2015},f,{21254},2015
+Godzilla,"{`"Great Monster March`"}",f,{21255},Great Monster March
+Fabio Wu,{Kengan(verse)?},f,{21256},Kengan Asura
+Green Goblin,{MCU},f,{300},Miss Kobayashis Dragon Maid
+Peacemaker,{TSS},f,{20353},DCEU
+Wanda,"{`"House of M`"}",f,{1997},616
+Cable,"{`"Deadpool 2`"}",f,{140},FOX
+Game Sonic,"{`"Sonic the Hedgehog`"}",t,"{8276,8277}",""
+Gamera,"{`"Guardian of the`"}",f,{164},Heisei Era
+Gamera,"{`"Dark ?Horse`"}",f,{1915},Dark Horse Comics
+Gamera,"{`"Gamera.*Showa|Showa Gamera`"}",f,{21241},Showa Era
