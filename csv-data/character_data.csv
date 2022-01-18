@@ -1838,10 +1838,6 @@ The Rhedosaurus,"{`"Beast from 20,000 Fathoms`"}",t,{390},"The Beast from 20,000
 Black Dynamite,"{`"Black Dynamite`"}",t,{391},""
 Officer K,"{`"Blade Runner`"}",t,{392},Blade Runner
 K,"{`"Blade Runner`"}",f,{392},Blade Runner
-Blade,{film},f,{393},Blade Trilogy
-Blade,{films},f,{393},Blade Trilogy
-Blade,{movie},f,{393},Blade Trilogy
-Blade,{movies},f,{393},Blade Trilogy
 Blade,{Trilogy},f,{393},Blade Trilogy
 Blade,{Trinity},f,{393},Blade Trilogy
 Blair Witch,"{`"Blair Witch Project`"}",t,{394},""
@@ -17232,6 +17228,7 @@ All Might,{BN?HA},t,{3917},My Hero Academia
 All Might,{MHA},t,{3917},My Hero Academia
 All Might,"{`"Boku no Hero`"}",t,{3917},My Hero Academia
 Endeavor,"{`"My Hero Academia`"}",f,{3920},My Hero Academia
+Wolverine,"{`"Gulo Gulo`"}",f,{},""
 Endeavor,"{`"\\(My Hero\\)`"}",f,{3920},My Hero Academia
 Endeavor,{BN?HA},f,{3920},My Hero Academia
 Endeavor,{MHA},f,{3920},My Hero Academia
@@ -17441,6 +17438,7 @@ Killer Bee,{Jiraiya},f,{3957},Naruto
 Killer Bee,{Hokage},f,{3957},Naruto
 Killer Bee,{Raikage},f,{3957},Naruto
 Killer B,{Naruto},t,{3957},Naruto
+Jotaro Kujo,{EOH},f,{},Eyes of Heaven
 Killer B,{Shippuden},t,{3957},Naruto
 Killer B,{Hachibi},t,{3957},Naruto
 Killer B,{Gy(u|ū)ki},t,{3957},Naruto
@@ -25481,7 +25479,6 @@ New Goblin,{Mac?guire},f,{301},Raimiverse Spider-Man
 Doctor Octopus,{Mac?guire},f,{299},Raimiverse Spider-Man
 Green Goblin,{96283},f,{300},Raimiverse Spider-Man
 Green Goblin,{2002},f,{300},Raimiverse Spider-Man
-Green Goblin,{Dafoe},f,{300},Raimiverse Spider-Man
 Green Goblin,{Mac?guire},f,{300},Raimiverse Spider-Man
 Venom,{Rai?mi(ni)?-?(verse)?},f,{303},Raimiverse Spider-Man
 Sandman,{Rai?mi(ni)?-?(verse)?},f,{6508},Raimiverse Spider-Man
@@ -25489,6 +25486,7 @@ Spider-Man,{Rai?mi(ni)?-?(verse)?},f,{302},Raimiverse Spider-Man
 New Goblin,{Rai?mi(ni)?-?(verse)?},f,{301},Raimiverse Spider-Man
 Doctor Octopus,{Rai?mi(ni)?-?(verse)?},f,{299},Raimiverse Spider-Man
 Green Goblin,{Rai?mi(ni)?-?(verse)?},f,{300},Raimiverse Spider-Man
+Green Goblin,{Dafoes?},f,{300},Raimiverse Spider-Man
 Sun Wukong,"{`"Hero is Back`"}",f,{4857},Monkey King: Hero is Back
 Tighten,"{`"Tighten vs`"}",f,{1220},Megamind
 Tighten,"{`"vs\\.? Tighten`"}",f,{1220},Megamind
@@ -26032,3 +26030,9 @@ Game Sonic,"{`"Sonic the Hedgehog`"}",t,"{8276,8277}",""
 Gamera,"{`"Guardian of the`"}",f,{164},Heisei Era
 Gamera,"{`"Dark ?Horse`"}",f,{1915},Dark Horse Comics
 Gamera,"{`"Gamera.*Showa|Showa Gamera`"}",f,{21241},Showa Era
+Jotaro Kujo,"{`"Eyes of Heaven`"}",f,{},Eyes of Heaven
+Batman,{EOH},f,{},Eyes of Heaven
+Batman,"{`"Eyes of Heaven`"}",f,{},Eyes of Heaven
+Batman,{TDK},f,{6531},The Dark Knight
+Amaura,{Pok(e|é)m(o|a)n},t,{21257},Pokémon
+Aurorus,{Pok(e|é)m(o|a)n},t,{21257},Pokémon
