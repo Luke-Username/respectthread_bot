@@ -15,6 +15,10 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character WHERE default_name='Blade' AND (version='{"film"}' OR version='{"films"}' or version='{"movie"}' or version='{"movies"}');
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Blade', 'Blade Runner', 0);
+UPDATE character SET version='{"Dafoes?"}' WHERE version='{"Dafoe"}';
+
 ########################################
 
 ########################################
