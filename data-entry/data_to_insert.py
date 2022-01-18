@@ -107,19 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Raimundo Pedrosa (Xiaolin Showdown)', 'https://redd.it/s6us3e')
-add_data(['Raimundo'],
-'Raimundo',
-False,
-False,
-[
-    ['Pedrosa'], ['Xiaolin Showdown']
-],
-'Xiaolin Showdown',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/s6us3e/respect_raimundo_pedrosa_xiaolin_showdown/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

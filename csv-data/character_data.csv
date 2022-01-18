@@ -9397,8 +9397,6 @@ Zeke Stane,{Marvel},t,{8449},616
 Zeke Stane,{616},t,{8449},616
 Togata,"{`"Fire Punch`"}",f,{8450},Fire Punch
 Sakura,"{`"Sakura \\(Pok(e|é)mon`"}",f,{8451},Pokémon
-Crimson King,"{`"Stephan King`"}",t,{8447},The Dark Tower
-Crimson King,"{`"Dark Tower`"}",t,{8447},The Dark Tower
 Gan,"{`"Stephan King`"}",f,{8452},The Dark Tower
 Gan,"{`"Dark Tower`"}",f,{8452},The Dark Tower
 Erin,"{`"You're Next`"}",f,{8453},You're Next
@@ -9428,6 +9426,8 @@ Hanzo,{Overwatch},f,{5323},Overwatch
 Hanzo,{OW},f,{5323},Overwatch
 Hanzo Shimada,{Overwatch},t,{5323},Overwatch
 Hanzo Shimada,{OW},t,{5323},Overwatch
+Crimson King,"{`"Stephan King`"}",t,{},The Dark Tower
+Crimson King,"{`"Dark Tower`"}",t,{},The Dark Tower
 Kratos Aurion,{Symphonia},t,{4953},Tales of Symphonia
 Kratos,{Symphonia},f,{4953},Tales of Symphonia
 Master Chief,{Halo},t,{5098},Halo
@@ -26036,3 +26036,5 @@ Batman,"{`"Eyes of Heaven`"}",f,{},Eyes of Heaven
 Batman,{TDK},f,{6531},The Dark Knight
 Amaura,{Pok(e|é)m(o|a)n},t,{21257},Pokémon
 Aurorus,{Pok(e|é)m(o|a)n},t,{21257},Pokémon
+Raimundo,{Pedrosa},f,{21258},Xiaolin Showdown
+Raimundo,"{`"Xiaolin Showdown`"}",f,{21258},Xiaolin Showdown
