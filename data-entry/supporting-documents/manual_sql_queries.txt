@@ -15,6 +15,10 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character_name WHERE default_name='Thanks';
+DELETE FROM character WHERE default_name='Thanks';
+UPDATE character SET rt_id_array='{}' WHERE default_name='John Walker' AND displayed_version_name='MCU';
+
 ########################################
 
 ########################################
