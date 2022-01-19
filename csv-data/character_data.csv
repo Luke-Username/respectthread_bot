@@ -1660,9 +1660,6 @@ Queen Nehelenia,"{`"Sailor Moon`"}",t,{4412},Sailor Moon
 Moro,{DB(Z|S)?},f,{10792},Dragon Ball
 Queen Serenity,"{`"Sailor Moon`"}",t,{4413},Sailor Moon
 Sailor Galaxia,"{`"Sailor Moon`"}",t,{4414},Sailor Moon
-Thanks,"{`"Marvel Cinematic`"}",f,{263},MCU
-Thanks,{MCU},f,{263},MCU
-Thanks,{199999},f,{263},MCU
 Aayla Secura,"{`"Star Wars`"}",t,{304},Star Wars
 Adi Gallia,"{`"Star Wars`"}",t,{305},Star Wars
 Barriss Offee,"{`"Star Wars`"}",t,{307},Star Wars
@@ -17725,6 +17722,7 @@ Justice Lord Superman,{Timmverse},t,{13329},DCAU
 Asthma Monster,{616},t,{13330},616
 Asthma Monster,{Marvel},t,{13330},616
 Alexsandr Kallus,"{`"Star ?Wars`"}",t,{13331},Star Wars
+Tatsumaki,{Tatsumaki.*Destroyer},f,{},""
 Alexsandr Kallus,{SWars},t,{13331},Star Wars
 Ki-Adi-Mundi,"{`"Star ?Wars`"}",t,{13331},Star Wars
 Ki-Adi-Mundi,{SWars},t,{13331},Star Wars
@@ -22293,9 +22291,6 @@ Sammael,{Hellboy},f,{16444},Hellboy films
 Sammael,"{`"Desolate One`"}",f,{16444},Hellboy films
 Doodlebob,{SpongeBob},t,{16445},SpongeBob
 Landmaster,"{`"Star ?Fox`"}",f,{16446},Star Fox
-John Walker,"{`"Marvel Cinematic Universe`"}",f,{16446},MCU
-John Walker,{MCU},f,{16446},MCU
-John Walker,{199999},f,{16446},MCU
 U.S. Agent,"{`"Marvel Cinematic Universe`"}",f,{16446},MCU
 U.S. Agent,{MCU},f,{16446},MCU
 U.S. Agent,{199999},f,{16446},MCU
@@ -22334,6 +22329,7 @@ Koneko Toujou,"{`"High ?school DxD`"}",t,{3483},High School DxD
 Rias Gremory,"{`"High ?school DxD`"}",t,{3484},High School DxD
 Xenovia Quarta,"{`"High ?school DxD`"}",t,{3485},High School DxD
 Yuuto Kiba,"{`"High ?school DxD`"}",t,{3486},High School DxD
+John Walker,{MCU},f,{},MCU
 Bog,{RHG},f,{17254},RHG
 Elyas,"{`"Wheel of Time`"}",f,{6036},The Wheel of Time
 Elyas,{WOT},f,{6036},The Wheel of Time
@@ -26038,3 +26034,7 @@ Amaura,{Pok(e|é)m(o|a)n},t,{21257},Pokémon
 Aurorus,{Pok(e|é)m(o|a)n},t,{21257},Pokémon
 Raimundo,{Pedrosa},f,{21258},Xiaolin Showdown
 Raimundo,"{`"Xiaolin Showdown`"}",f,{21258},Xiaolin Showdown
+John Walker,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+John Walker,{199999},f,{},MCU
+Sticks the Badger,"{`"Sonic Boom`"}",t,{21259},Sonic the Hedgehog
+Gilbert Lawsons Avatar,{Community},t,{21260},Community

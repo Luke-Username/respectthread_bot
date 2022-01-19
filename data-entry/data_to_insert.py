@@ -107,48 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Tatsumaki'],
-'Tatsumaki',
-False,
-False,
-[
-    ['Tatsumaki.*Destroyer']
-],
-'',
-'{}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/s77jno/battle_tech_tatsumaki_class_destroyer_vs_star/ht89e3s/?context=3
-
-########################################
-
-id = get_rt_id(cur, 'Respect Sticks the Badger! (Sonic Boom)', 'https://redd.it/s7425g')
-add_data(['Sticks the Badger'],
-'Sticks the Badger',
-False,
-True,
-[
-    ['Sonic Boom']
-],
-'Sonic the Hedgehog',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/s7425g/respect_sticks_the_badger_sonic_boom/
-
-########################################
-
-id = get_rt_id(cur, "Respect Gilbert Lawson''s Avatar (Community)", 'https://redd.it/s76gkx')
-add_data(["Gilbert Lawson''?s Avatar"],
-'Gilbert Lawson''s Avatar',
-False,
-True,
-[
-    ['Community']
-],
-'Community',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/s76gkx/respect_gilbert_lawsons_avatar_community/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
