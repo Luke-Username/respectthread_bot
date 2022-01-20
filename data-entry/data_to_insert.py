@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Godzilla.*GTS|GTS.*Godzilla'], ['Godzilla:? The Series']
+],
+'Godzilla: The Series',
+'{1051}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s7jsfo/ashs_charizard_runs_a_gauntlet/htafnq5/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
