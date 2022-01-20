@@ -107,6 +107,12 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 460, 'Respect Henry (Hardcore Henry)', 'https://redd.it/s7wgeg')
+update_respectthread(cur, 20997, 'Respect Hayami Masaki, "The Killing Throw" and Meguro Masaki, "The Crying Man" (Kengan Ashura/Omega)', 'https://redd.it/s7xvvw')
+update_respectthread(cur, 2807, 'Respect Shirtless Bear Fighter (Image Comics)!', 'https://redd.it/s8ial0')
+
+########################################
+
 add_data(['Godzilla'],
 'Godzilla',
 False,
@@ -118,6 +124,114 @@ False,
 '{1051}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/s7jsfo/ashs_charizard_runs_a_gauntlet/htafnq5/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Nincada Line (Pokemon Anime)', 'https://redd.it/s7g8am')
+add_data(['Ninjask'],
+'Ninjask',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s7g8am/respect_the_nincada_line_pokemon_anime/
+
+add_data(['Shedinja'],
+'Shedinja',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s7g8am/respect_the_nincada_line_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Man Behind the Slaughter, William Afton! (Five Nights at Freddy''s)", 'https://redd.it/s7lg6z')
+add_data(['William Afton'],
+'William Afton',
+False,
+True,
+[
+    ['Five Nights at Fredd(ys?|ies)'], ['FNAF\d?']
+],
+'FNAF',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s7lg6z/respect_the_man_behind_the_slaughter_william/
+
+add_data(['Purple Guy'],
+'Purple Guy',
+False,
+False,
+[
+    ['Five Nights at Fredd(ys?|ies)'], ['FNAF\d?']
+],
+'FNAF',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s7lg6z/respect_the_man_behind_the_slaughter_william/
+
+add_data(['Springtrap'],
+'Springtrap',
+False,
+True,
+[
+    ['Five Nights at Fredd(ys?|ies)'], ['FNAF\d?']
+],
+'FNAF',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s7lg6z/respect_the_man_behind_the_slaughter_william/
+
+add_data(['Glitchtrap'],
+'Glitchtrap',
+False,
+True,
+[
+    ['Five Nights at Fredd(ys?|ies)'], ['FNAF\d?']
+],
+'FNAF',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s7lg6z/respect_the_man_behind_the_slaughter_william/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bigfoot! (Bigfoot)', 'https://redd.it/s7wiww')
+add_data(['Bigfoot'],
+'Bigfoot',
+False,
+False,
+[
+    ['Rob Zombie|Steve Niles|Richard Corben']
+],
+'Steve Niles, Richard Corben, Rob Zombie',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kickpuncher! (Community)', 'https://redd.it/s8290h')
+add_data(['Kickpuncher'],
+'Kickpuncher',
+False,
+False,
+[
+    ['Community']
+],
+'Community',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s8290h/respect_kickpuncher_community/
 
 ########################################
 
