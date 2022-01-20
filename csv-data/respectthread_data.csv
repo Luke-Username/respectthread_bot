@@ -421,13 +421,13 @@ id,title,link
 455,Respect David Collins (The Guest),https://redd.it/5v1o6x
 458,Respect Gretel (Hansel and Gretel: Witch Hunters),https://redd.it/br1ii7
 459,Respect Hansel (Hansel and Gretel: Witch Hunters),https://redd.it/br1i26
-460,Respect Henry! [Hardcore Henry],https://redd.it/60lpnr
 461,Respect Veronica and JD (Heathers 1988),https://redd.it/a0k8i3
 462,Respect Pinhead (Hellraiser),https://redd.it/5lgxyr
 463,Respect Jack (He Never Died),https://redd.it/7k3ocl
 464,Respect Hercules (2014),https://redd.it/5pkqpn
 465,Respect Smaug (The Hobbit Films),https://redd.it/5zey9h
 466,Respect Kevin McCallister (Home Alone),https://redd.it/9srirj
+460,Respect Henry (Hardcore Henry),https://redd.it/s7wgeg
 468,Respect Sgt. Nicholas Angel (Hot Fuzz),https://redd.it/3f17bk
 469,Respect The Hulk (Ang Lee Film),https://redd.it/anv5ac
 470,Respect The Gods (Immortals),https://redd.it/68jfeh
@@ -2685,7 +2685,6 @@ id,title,link
 2804,[Respect] Mako (Image Comics),https://redd.it/5xi03d
 2805,Respect Scud (Scud: The Disposable Assassin),https://redd.it/52bitv
 2806,Respect the Shaolin Cowboy! (The Shaolin Cowboy),https://redd.it/70pyze
-2807,[NSFW] Respect Shirtless Bear-Fighter! (Shirtless Bear-Fighter!),https://redd.it/82bnt5
 2808,Respect The Silver Soldiers (Truthmonger Comics),https://redd.it/771y7y
 2809,Respect: Marv (Sin City),https://redd.it/4url91
 2810,Respect Coach Euless Boss (Southern Bastards),https://redd.it/8zllli
@@ -2712,6 +2711,7 @@ id,title,link
 2832,Respect Hendrick Bastardsword (Blackwidow Apocalypse),https://redd.it/8h7ceh
 2802,Respect Marko! (Saga),https://redd.it/qw3s36
 2803,Respect The Will! (Saga),https://redd.it/qw3s4i
+2807,Respect Shirtless Bear Fighter (Image Comics)!,https://redd.it/s8ial0
 2782,"Respect Le Chevalier Noir, Arpin Lusene! (Donald Duck Comics Universe)",https://redd.it/d7jym3
 2819,Respect the Umbrella Academy (Dark Horse Comics),https://redd.it/ivat8v
 2833,Respect Ingrid Gottoli (Blackwidow Apocalypse),https://redd.it/8h7c8o
@@ -8809,7 +8809,6 @@ id,title,link
 20994,Respect Bass! (Archie Comics),https://redd.it/qxlut2
 20995,Respect Basil of Baker Street (The Great Mouse Detective),https://redd.it/qwz2kj
 20996,Respect The Lake Guardians (Pokemon Anime),https://redd.it/qxl8dq
-20997,"Respect Hayami Masaki, The Killing Throw! (Kengan Omega)",https://redd.it/r23j4a
 20998,"Respect `"The Other`" Tokita Niko (Kengan Omega/Asura)",https://redd.it/qyny1h
 20999,Respect Achilles (Ben Olding Games),https://redd.it/qyv07a
 21000,Respect Ultron (Marvel Cinematic Universe: What If...?),https://redd.it/qyy5yp
@@ -9513,6 +9512,7 @@ id,title,link
 21223,Respect Captain Yaza (Pokemon ReBurst),https://redd.it/s0zna6
 20295,Respect Marrow (Dreamwalker),https://redd.it/s656wb
 21257,Respect Amaura & Aurorus (Pokemon Anime),https://redd.it/s6cedq
+21261,Respect the Bears (Shirtless Bear Fighter) (Image Comics)!,https://redd.it/s8ib71
 21105,"Respect the Imposter, Ashfur (Warrior Cats)",https://redd.it/rfuz1y
 21138,"Respect Michelle Dreemurr [The Princess, the Songstress, and the Plushie]",https://redd.it/rlvyhk
 3055,Respect Eren Yeager (Attack On Titan),https://redd.it/cmnegi
@@ -9540,6 +9540,11 @@ id,title,link
 21227,Respect Zatanna (DCAU),https://redd.it/s1kfou
 21228,"Respect Justice! (Marvel, 616)",https://redd.it/s1pjnl
 21258,Respect Raimundo Pedrosa (Xiaolin Showdown),https://redd.it/s6us3e
+20997,"Respect Hayami Masaki, `"The Killing Throw`" and Meguro Masaki, `"The Crying Man`" (Kengan Ashura/Omega)",https://redd.it/s7xvvw
+21262,Respect the Nincada Line (Pokemon Anime),https://redd.it/s7g8am
+21263,"Respect the Man Behind the Slaughter, William Afton! (Five Nights at Freddy's)",https://redd.it/s7lg6z
+21264,Respect Bigfoot! (Bigfoot),https://redd.it/s7wiww
+21265,Respect Kickpuncher! (Community),https://redd.it/s8290h
 21106,"Respect Sigurd, the King of Warriors! (Fate)",https://redd.it/rggv7q
 21139,Respect Space Marines (Warhammer 40k),https://redd.it/jbsqpz
 1077,"Respect Marinette Dupain-Cheng, the Miraculous Ladybug! (Miraculous: Tales of Ladybug & Cat Noir)",https://redd.it/rt49u2

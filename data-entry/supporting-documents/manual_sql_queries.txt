@@ -15,13 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{20997}' WHERE default_name='Meguro Masaki';
-UPDATE character SET rt_id_array='{3288, 13282}' WHERE default_name='Goku' AND (version='{"Dragon ?Ball"}' OR version='{"DB(Z|S)?"}');
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect the Bears (Shirtless Bear Fighter) (Image Comics)!', 'https://redd.it/s8ib71'); SELECT * FROM respectthread WHERE link='https://redd.it/s8ib71';
-UPDATE character SET rt_id_array='{2807, ?}' WHERE default_name='Shirtless Bear-Fighter';
 
 ########################################
 

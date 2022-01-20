@@ -10570,7 +10570,6 @@ Mako,"{`"Savage Dragon`"}",f,{2804},Savage Dragon
 Mako,"{`"Image Comics?`"}",f,{2804},Savage Dragon
 Scud,"{`"Disposable Assassin`"}",f,{2805},Scud: The Disposable Assassin
 Shaolin Cowboy,"{`"Shaolin Cowboy`"}",t,{2806},""
-Shirtless Bear-Fighter,{Image},t,{2807},""
 Silver Soldiers,{Truthmonger},f,{2808},Truthmonger Comics
 Marv,"{`"Sin City`"}",f,{2809},Sin City
 Coach Euless Boss,"{`"Southern Bastards`"}",t,{2810},Southern Bastards
@@ -10601,6 +10600,7 @@ Kaon,{Transformers?},f,{2770},IDW
 Tesarus,{IDW},f,{2770},IDW
 Tesarus,{Transformers?},f,{2770},IDW
 Vos,{IDW},f,{2770},IDW
+Shirtless Bear-Fighter,{Image},t,"{2807,21261}",""
 Vos,{Transformers?},f,{2770},IDW
 Galvatron,{IDW},f,{2771},IDW
 Battleships,"{`"\\((Ü|U)ber`"}",f,{2818},Über
@@ -12746,8 +12746,6 @@ Bugs,"{`"Dolly Kill Kill`"}",f,{3258},Dolly Kill Kill
 Ikaruga Iruma,"{`"Dolly Kill Kill`"}",t,{3259},Dolly Kill Kill
 Marie,"{`"Dolly Kill Kill`"}",f,{3260},Dolly Kill Kill
 Kohaku,"{`"(Doctor|Dr.?) ?Stone`"}",f,{4737},Dr. Stone
-Goku,"{`"Dragon ?Ball`"}",t,{3288},Dragon Ball
-Goku,{DB(Z|S)?},t,{3288},Dragon Ball
 Ultra Instinct Goku,"{`"Dragon ?Ball`"}",t,{3290},Dragon Ball
 Ultra Instinct Goku,{DB(Z|S)?},t,{3290},Dragon Ball
 Goku,{M?UI},f,{3290},Ultra Instinct
@@ -15693,7 +15691,6 @@ Kiryu Setsuna,{Kengan(verse)?},t,{3682},Kengan Asura
 Kono Haruo,{Kengan(verse)?},t,{3683},Kengan Asura
 Kure Raian,{Kengan(verse)?},t,{3684},Kengan Asura
 Kuroki Gensai,{Kengan(verse)?},t,{3685},Kengan Asura
-Meguro Masaki,{Kengan(verse)?},t,{3686},Kengan Asura
 Mikazuchi Rei,{Kengan(verse)?},t,{3687},Kengan Asura
 Mokichi Robinson,{Kengan(verse)?},t,{3688},Kengan Asura
 Murobuchi Gozo,{Kengan(verse)?},t,{3689},Kengan Asura
@@ -26038,3 +26035,19 @@ John Walker,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 John Walker,{199999},f,{},MCU
 Sticks the Badger,"{`"Sonic Boom`"}",t,{21259},Sonic the Hedgehog
 Gilbert Lawsons Avatar,{Community},t,{21260},Community
+Meguro Masaki,{Kengan(verse)?},t,{20997},Kengan Asura
+Goku,"{`"Dragon ?Ball`"}",t,"{3288,13282}",Dragon Ball
+Goku,{DB(Z|S)?},t,"{3288,13282}",Dragon Ball
+Godzilla,{Godzilla.*GTS|GTS.*Godzilla},f,{1051},Godzilla: The Series
+Godzilla,"{`"Godzilla:? The Series`"}",f,{1051},Godzilla: The Series
+Shedinja,{Pok(e|é)m(o|a)n},t,{21262},Pokémon
+William Afton,"{`"Five Nights at Fredd(ys?|ies)`"}",t,{21263},FNAF
+William Afton,"{`"FNAF\\d?`"}",t,{21263},FNAF
+Purple Guy,"{`"Five Nights at Fredd(ys?|ies)`"}",f,{21263},FNAF
+Purple Guy,"{`"FNAF\\d?`"}",f,{21263},FNAF
+Springtrap,"{`"Five Nights at Fredd(ys?|ies)`"}",t,{21263},FNAF
+Springtrap,"{`"FNAF\\d?`"}",t,{21263},FNAF
+Glitchtrap,"{`"Five Nights at Fredd(ys?|ies)`"}",t,{21263},FNAF
+Glitchtrap,"{`"FNAF\\d?`"}",t,{21263},FNAF
+Bigfoot,"{`"Rob Zombie|Steve Niles|Richard Corben`"}",f,{21264},"Steve Niles, Richard Corben, Rob Zombie"
+Kickpuncher,{Community},f,{21265},Community
