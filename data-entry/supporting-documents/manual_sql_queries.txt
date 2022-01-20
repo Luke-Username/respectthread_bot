@@ -16,6 +16,7 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character SET rt_id_array='{20997}' WHERE default_name='Meguro Masaki';
+UPDATE character SET rt_id_array='{3288, 13282}' WHERE default_name='Goku' AND (version='{"Dragon ?Ball"}' OR version='{"DB(Z|S)?"}');
 
 ########################################
 
