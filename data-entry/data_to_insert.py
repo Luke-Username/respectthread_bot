@@ -107,6 +107,79 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 462, 'Respect Pinhead (Hellraiser)', 'https://redd.it/s8ksj1')
+
+########################################
+
+add_data(['Jake'],
+'Jake',
+False,
+False,
+[
+    ['Finn'], ['Princess Bubblegum']
+],
+'Adventure Time',
+'{613}'
+)
+#
+
+add_data(['Finn'],
+'Finn',
+False,
+False,
+[
+    ['Jake'], ['Princess Bubblegum']
+],
+'Adventure Time',
+'{606}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s8jnql/watterson_family_vs_finn_jake_princess_bubblegum/htgziqs/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Steve Austin, the Bionic Man (Dynamite Comics)!', 'https://redd.it/s8iugq')
+add_data(['Steve Austin'],
+'Steve Austin',
+False,
+False,
+[
+    ['Steve Austin.*Dynamite Comics|Dynamite Comics.*Steve Austin']
+],
+'Dynamite Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s8iugq/respect_steve_austin_the_bionic_man_dynamite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Bionic Woman (Dynamite Comics)!', 'https://redd.it/s8klmn')
+add_data(['Bionic Woman'],
+'Bionic Woman',
+False,
+False,
+[
+    ['Bionic Woman.*Dynamite Comics|Dynamite Comics.*Bionic Woman']
+],
+'Dynamite Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s8klmn/respect_the_bionic_woman_dynamite_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Foreskin Man! (Foreskin Man)', 'https://redd.it/s8kes6')
+add_data(['Foreskin Man'],
+'Foreskin Man',
+False,
+True,
+[
+    ['comics?']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s8kes6/respect_foreskin_man_foreskin_man/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
