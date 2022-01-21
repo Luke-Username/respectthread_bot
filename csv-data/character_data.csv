@@ -4479,7 +4479,6 @@ Oswald Cobblepot,"{`"(DC Comics)`"}",t,{1552},Post-Crisis
 Poison Ivy,{PC},f,{1553},Post-Crisis
 Poison Ivy,"{`"Post(-| )C(risis)?`"}",f,{1553},Post-Crisis
 Poison Ivy,"{`"New(-| )Earth`"}",f,{1553},Post-Crisis
-Poison Ivy,{(DC},t,{1553},(DC)
 Poison Ivy,"{`"New ?52`"}",f,{},New 52
 Poison Ivy,{N-?52},f,{},New 52
 Poison Ivy,"{`"Post(-| )52`"}",f,{},New 52
@@ -4531,6 +4530,7 @@ Wrath,{PC},f,{1561},Pre-Flashpoint
 Wrath,"{`"Pre(-| )?Crisis`"}",f,{1561},Pre-Flashpoint
 Scarecrow,"{`"\\(DC\\)`"}",t,"{1557,1558}",DC
 Talons,"{`"\\(DC\\)`"}",f,{1560},DC
+Poison Ivy,"{`"\\(DC`"}",t,{1553},(DC)
 Shazam Family,"{Shazam,2019}",f,{6555},DCEU
 Shazam Family,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Shazam Family,{DCEU},f,{6555},DCEU
@@ -4561,7 +4561,6 @@ Dawnbreaker,{Batman},f,{1569},New 52
 Dawnbreaker,"{`"Green Lantern`"}",f,{1569},New 52
 Dawnbreaker,{DC},f,{1569},New 52
 Dawnbreaker,"{`"Dark K?nights`"}",f,{1569},New 52
-Devastator,{(DC},f,{1570},New 52
 Devastator,{Batman},f,{1570},New 52
 Devastator,"{`"Dark K?nights`"}",f,{1570},New 52
 The Drowned,"{`"New ?52`"}",f,{1571},New 52
@@ -4599,6 +4598,7 @@ Deathstroke,{Rebirth},t,"{1576,1577}",New 52 / Rebirth
 Ant-Man,{comics?},t,{1986},616
 Deathstroke,{PC},f,{1578},Post-Crisis
 Deathstroke,"{`"Post(-| )?C(risis)?`"}",f,{1578},Post-Crisis
+Devastator,"{`"\\(DC`"}",f,{1570},New 52
 Freddy Freeman,"{Shazam,2019}",f,{6555},DCEU
 Freddy Freeman,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Freddy Freeman,{DCEU},f,{6555},DCEU
@@ -7622,7 +7622,6 @@ Kain,"{`"Legacy of Kain`"}",f,{5625},Legacy of Kain
 Kain,"{`"Soul Reaver`"}",f,{5625},Legacy of Kain
 Ana Amari,{Overwatch},t,{5320},Overwatch
 Ana,{Overwatch},f,{5320},Overwatch
-Doomfist,{Overwatch},t,{5320},Overwatch
 Genji,{Overwatch},f,{5322},Overwatch
 Genji,{OW},f,{5322},Overwatch
 Genji Shimada,{Overwatch},t,{5322},Overwatch
@@ -7666,6 +7665,7 @@ Killer Frost,"{`"Arkham series`"}",f,{8199},Batman: Arkham
 Killer Frost,"{`"Batman: Arkham`"}",f,{8199},Batman: Arkham
 King Shark,{Arkhamverse},f,{8199},Batman: Arkham
 King Shark,"{`"\\(Arkham\\)`"}",f,{8199},Batman: Arkham
+Doomfist,{Overwatch},t,{5321},Overwatch
 King Shark,"{`"Arkham series`"}",f,{8199},Batman: Arkham
 King Shark,"{`"Batman: Arkham`"}",f,{8199},Batman: Arkham
 Black Spider,{Arkhamverse},f,{8199},Batman: Arkham
@@ -26051,3 +26051,12 @@ Glitchtrap,"{`"Five Nights at Fredd(ys?|ies)`"}",t,{21263},FNAF
 Glitchtrap,"{`"FNAF\\d?`"}",t,{21263},FNAF
 Bigfoot,"{`"Rob Zombie|Steve Niles|Richard Corben`"}",f,{21264},"Steve Niles, Richard Corben, Rob Zombie"
 Kickpuncher,{Community},f,{21265},Community
+Silverback gorilla,"{`"Real Life`"}",t,{6348},""
+Jake,{Finn},f,{613},Adventure Time
+Jake,"{`"Princess Bubblegum`"}",f,{613},Adventure Time
+Finn,{Jake},f,{606},Adventure Time
+Finn,"{`"Princess Bubblegum`"}",f,{606},Adventure Time
+Steve Austin,"{`"Steve Austin.*Dynamite Comics|Dynamite Comics.*Steve Austin`"}",f,{21266},Dynamite Comics
+Bionic Woman,"{`"Bionic Woman.*Dynamite Comics|Dynamite Comics.*Bionic Woman`"}",f,{21267},Dynamite Comics
+Foreskin Man,{comics?},t,{21268},""
+Superman X,"{`"Legion of Super Heroe?s`"}",f,{21269},Legion of Super Heroes
