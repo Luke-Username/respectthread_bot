@@ -111,6 +111,20 @@ update_respectthread(cur, 462, 'Respect Pinhead (Hellraiser)', 'https://redd.it/
 
 ########################################
 
+add_data(['Silverback gorilla'],
+'Silverback gorilla',
+False,
+True,
+[
+    ['Real Life']
+],
+'',
+'{6348}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s900u8/grizzly_bear_silverback_gorilla_real_life_vs_the/htjpf19/?context=3
+
+########################################
+
 add_data(['Jake'],
 'Jake',
 False,
@@ -179,6 +193,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/s8kes6/respect_foreskin_man_foreskin_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman-X (Legion of Superheroes: Animated Series)', 'https://redd.it/s8sy37')
+add_data(['Superman(-| )X'],
+'Superman X',
+False,
+False,
+[
+    ['Legion of Super Heroe?s']
+],
+'Legion of Super Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s8sy37/respect_supermanx_legion_of_superheroes_animated/
 
 ########################################
 
