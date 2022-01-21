@@ -107,6 +107,196 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2343, 'Respect Archangel (Marvel, 616)', 'https://redd.it/dmom6e')
+update_respectthread(cur, 2489, 'Respect Maxwell Markham, The Grizzly (Marvel-616)', 'https://redd.it/s95n7e')
+update_respectthread(cur, 16395, 'Respect Arashiyama Jurota, "The Gentle King" (Kengan Omega)', 'https://redd.it/s9hnvx')
+
+########################################
+
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['51914'], ['Golden Spongecake']
+],
+'51914',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s9ed27/golden_spongecake_spiderman_vs_superman/htm9rgc/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect John F. Walker! (Marvel Cinematic Universe)', 'https://redd.it/mwz5vm')
+add_data(['John Walker'],
+'John Walker',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/mwz5vm/respect_john_f_walker_marvel_cinematic_universe/
+#https://www.reddit.com/r/whowouldwin/comments/s9h2pn/super_soldier_grandpa/htmo3ls/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Crimson (Dreamwalker)', 'https://redd.it/s9em60')
+add_data(['Crimson'],
+'Crimson',
+False,
+False,
+[
+    ['Dreamwalker']
+],
+'Dreamwalker',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s9em60/respect_crimson_dreamwalker/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Katsumi Orochi (Baki)', 'https://redd.it/s9fcw8')
+add_data(['Katsumi Orochi'],
+'Katsumi Orochi',
+False,
+True,
+[
+    ['Baki']
+],
+'Baki',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s9fcw8/respect_katsumi_orochi_baki/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Colonel Avery Hull (The Bionic Man) (Dynamite Comics)!', 'https://redd.it/s9fji0')
+add_data(['Colonel Avery Hull'],
+'Colonel Avery Hull',
+False,
+False,
+[
+    ['Bionic Man'], ['Dynamite']
+],
+'Bionic Man, Dynamite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bigfoot (Bionic Man) (Dynamite Comics)!', 'https://redd.it/s9frxl')
+add_data(['Bigfoot'],
+'Bigfoot',
+False,
+False,
+[
+    ['Bionic Man']
+],
+'Bionic Man, Dynamite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s9frxl/respect_bigfoot_bionic_man_dynamite_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Trench (The Bionic Man vs The Bionic Woman) (Dynamite Comics)!', 'https://redd.it/s9g0vh')
+add_data(['Trench'],
+'Trench',
+False,
+False,
+[
+    ['Bionic Man']
+],
+'Bionic Man, Dynamite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s9g0vh/respect_trench_the_bionic_man_vs_the_bionic_woman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bebop & Rocksteady (Teenage Mutant Ninja Turtles) [IDW Comics]', 'https://redd.it/s9ie4d')
+add_data(['Bebop'],
+'Bebop',
+False,
+False,
+[
+    ['Rocksteady', 'IDW']
+],
+'IDW',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s9ie4d/respect_bebop_rocksteady_teenage_mutant_ninja/
+
+add_data(['Rocksteady'],
+'Rocksteady',
+False,
+False,
+[
+    ['Bebop', 'IDW']
+],
+'IDW',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s9ie4d/respect_bebop_rocksteady_teenage_mutant_ninja/
+
+########################################
+
+id = get_rt_id(cur, 'Respect King Mordred (Fate/Paradox Reincarnator)', 'https://redd.it/s9jly4')
+add_data(['Mordred'],
+'Mordred',
+False,
+False,
+[
+    ['Paradox Reincarnator']
+],
+'Fate/Paradox Reincarnator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s9jly4/respect_king_mordred_fateparadox_reincarnator/
+
+########################################
+
+id = get_rt_id(cur, "Respect Shinji''s Servants (Fate/Paradox Reincarnator)", 'https://redd.it/s9jmbc')
+add_data(['Medea'],
+'Medea',
+False,
+False,
+[
+    ['Paradox Reincarnator']
+],
+'Fate/Paradox Reincarnator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s9jmbc/respect_shinjis_servants_fateparadox_reincarnator/
+
+add_data(['Shuten(-| )D(ō|o)u?ji'],
+'Shuten-Dōji',
+False,
+False,
+[
+    ['Paradox Reincarnator']
+],
+'Fate/Paradox Reincarnator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s9jmbc/respect_shinjis_servants_fateparadox_reincarnator/
+
+add_data(['Shinji Makiri'],
+'Shinji Makiri',
+False,
+False,
+[
+    ['Paradox Reincarnator']
+],
+'Fate/Paradox Reincarnator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s9jmbc/respect_shinjis_servants_fateparadox_reincarnator/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
