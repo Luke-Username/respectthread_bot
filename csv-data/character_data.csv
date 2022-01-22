@@ -1984,7 +1984,6 @@ Hardcore Henry,"{`"Hardcore Henry`"}",t,{460},""
 Veronica Sawyer,{Heathers},t,{461},Heathers
 JD,{Heathers},f,{461},Heathers
 Jason Dean,{Heathers},t,{461},Heathers
-Pinhead,{Hellraiser},t,{462},Hellraiser
 Jack,"{`"He Never Died`"}",f,{463},He Never Died
 Cain,"{`"He Never Died`"}",f,{463},He Never Died
 Hercules,{2014},f,{464},2014
@@ -2019,6 +2018,7 @@ Jaws,"{`"James Bond`"}",f,{475},James Bond
 Jaws,{007},f,{475},James Bond
 The Guardians,"{`"\\(Guardians\\)`"}",f,{454},Guardians
 Hancock,"{`"\\(Hancock\\)`"}",f,{457},Hancock
+Pinhead,{Hellraiser},t,"{462,21270}",Hellraiser
 Skeletons,"{`"Jason and the Argonauts`"}",f,{476},Jason and the Argonauts
 Jeepers Creepers,"{`"Jeepers Creepers`"}",t,{477},""
 Creeper,"{`"Jeepers Creepers`"}",f,{477},""
@@ -18693,6 +18693,7 @@ Luffy,{Sanji},t,{4049},One Piece
 Nami,"{`"One ?Piece?`"}",t,{4050},One Piece
 Nami,"{`"Straw ?Hats?`"}",t,{4050},One Piece
 Nami,{Zoro},t,{4050},One Piece
+Spider-Man,{51914},f,{},51914
 Nami,{Sanji},t,{4050},One Piece
 Nami,{Luffy},t,{4050},One Piece
 Nico Robin,"{`"One ?Piece?`"}",t,{4051},One Piece
@@ -26060,3 +26061,16 @@ Steve Austin,"{`"Steve Austin.*Dynamite Comics|Dynamite Comics.*Steve Austin`"}"
 Bionic Woman,"{`"Bionic Woman.*Dynamite Comics|Dynamite Comics.*Bionic Woman`"}",f,{21267},Dynamite Comics
 Foreskin Man,{comics?},t,{21268},""
 Superman X,"{`"Legion of Super Heroe?s`"}",f,{21269},Legion of Super Heroes
+Spider-Man,"{`"Golden Spongecake`"}",f,{},51914
+Crimson,{Dreamwalker},f,{21272},Dreamwalker
+Katsumi Orochi,{Baki},t,{21273},Baki
+Colonel Avery Hull,"{`"Bionic Man`"}",f,{21274},"Bionic Man, Dynamite"
+Colonel Avery Hull,{Dynamite},f,{21274},"Bionic Man, Dynamite"
+Bigfoot,"{`"Bionic Man`"}",f,{21275},"Bionic Man, Dynamite"
+Trench,"{`"Bionic Man`"}",f,{21276},"Bionic Man, Dynamite"
+Bebop,"{Rocksteady,IDW}",f,{21277},IDW
+Rocksteady,"{Bebop,IDW}",f,{21277},IDW
+Mordred,"{`"Paradox Reincarnator`"}",f,{21278},Fate/Paradox Reincarnator
+Medea,"{`"Paradox Reincarnator`"}",f,{21279},Fate/Paradox Reincarnator
+Shuten-Dōji,"{`"Paradox Reincarnator`"}",f,{21279},Fate/Paradox Reincarnator
+Shinji Makiri,"{`"Paradox Reincarnator`"}",f,{21279},Fate/Paradox Reincarnator

@@ -15,15 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Winter Soldiers?' WHERE name='Winter Soldier';
-UPDATE character_name SET name='Star (and|&) Stripe' WHERE name='Star and Stripe';
-UPDATE character_name SET name='Biscuit Olivi?a' WHERE name='Biscuit Oliva';
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Archangel', 'Archangel Uriel', 0);
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Pinhead (Hellraiser) (Comics)', 'https://redd.it/s9b3ot'); SELECT * FROM respectthread WHERE link='https://redd.it/s9b3ot';
-UPDATE character SET rt_id_array='{462, ?}' WHERE default_name='Pinhead';
 
 ########################################
 
