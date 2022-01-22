@@ -107,23 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 5201, 'Respect Vi! (League of Legends / Arcane)', 'https://redd.it/s9rft0')
-
-########################################
-
-id = get_rt_id(cur, "Respect Mr. Neutron (Monty Python''s Flying Circus)", 'https://redd.it/s9t8uy')
-add_data(['Mr\.? Neutron'],
-'Mr. Neutron',
-False,
-False,
-[
-    ['Monty Python']
-],
-'Monty Python',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/s9t8uy/respect_mr_neutron_monty_pythons_flying_circus/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
