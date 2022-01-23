@@ -2018,7 +2018,7 @@ Jaws,"{`"James Bond`"}",f,{475},James Bond
 Jaws,{007},f,{475},James Bond
 The Guardians,"{`"\\(Guardians\\)`"}",f,{454},Guardians
 Hancock,"{`"\\(Hancock\\)`"}",f,{457},Hancock
-Pinhead,{Hellraiser},t,"{462,21270}",Hellraiser
+Pinhead,{Hellraiser},t,"{462,21270,21281}",Hellraiser
 Skeletons,"{`"Jason and the Argonauts`"}",f,{476},Jason and the Argonauts
 Jeepers Creepers,"{`"Jeepers Creepers`"}",t,{477},""
 Creeper,"{`"Jeepers Creepers`"}",f,{477},""
@@ -18809,7 +18809,6 @@ Shiki,"{`"Golden Lion`"}",f,{4087},One Piece
 Silvers,"{`"One ?Piece?`"}",t,{4088},One Piece
 Rayleigh,"{`"One ?Piece?`"}",t,{4088},One Piece
 Edward Newgate,"{`"One ?Piece?`"}",t,{4089},One Piece
-Whitebeard,"{`"One ?Piece?`"}",t,{4089},One Piece
 X Drake,"{`"One ?Piece?`"}",t,{4090},One Piece
 Drake,"{`"One ?Piece?`",Luffy}",f,{4090},One Piece
 "170,000-Year Magicicada Nymph","{`"One(-| )Punch Man`"}",t,{4091},One Punch Man
@@ -26075,3 +26074,12 @@ Medea,"{`"Paradox Reincarnator`"}",f,{21279},Fate/Paradox Reincarnator
 Shuten-Dōji,"{`"Paradox Reincarnator`"}",f,{21279},Fate/Paradox Reincarnator
 Shinji Makiri,"{`"Paradox Reincarnator`"}",f,{21279},Fate/Paradox Reincarnator
 Mr. Neutron,"{`"Monty Python`"}",f,{21280},Monty Python
+Whitebeard,"{`"One ?Piece?`"}",f,{4089},One Piece
+Kotomine Kirei,{Fate},t,{21282},Fate
+Death Knights,{Overlord},f,{21283},Overlord
+Death Knight,{Overlord},f,{21283},Overlord
+The Avengers,"{`"Rogers:? The Musical`"}",f,{21284},Rogers: The Musical
+Spider-Man,"{`"Spider(-| )?Mans?.*1969`"}",f,{21285},1969
+Spider-Man,"{Don(ald)?,Glut}",f,{21285},1969
+Lapras,"{`"Terminal ?Montage`"}",f,{21286},Terminalmontage
+Formed One,{Dreamwalker},f,{21287},Dreamwalker
