@@ -844,6 +844,12 @@ Dragon Ball
 	Displayed Version Name
 		"Dragon Ball"
 
+Dreamwalker
+	Version
+		['Dreamwalker']
+	Displayed Version Name
+		"Dreamwalker"
+
 Dr. Horrible's Sing-Along Blog
 	Version
 		r'{"(Dr\\.?|Doctor) Horrible"}'
@@ -2938,9 +2944,9 @@ So I'm a Spider, So What? / Kumo Desu ga, Nani ka?
 
 Something Series
 	Version
-		'{"Something ?Series"}', '{"Terminal ?Montage"}'
+		['Something ?Series'], ['Terminal ?Montage']
 	Specific
-		'{"Something About Kirby"}'
+		['Something About Kirby']
 	Displayed Version Name
 		"Something Series"
 

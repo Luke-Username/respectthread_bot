@@ -16,9 +16,14 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character_name SET name='Hanma Yuu?jiro' WHERE name='Hanma Yujiro';
+UPDATE character_name SET name='Ultimate Cap(tain America)?' WHERE name='Ultimate Captain America';
+UPDATE character_name SET name='Shinra ?(Kusakabe|BanshoMan)' WHERE name='Shinra Kusakabe';
 UPDATE character SET is_default=FALSE WHERE default_name='Whitebeard';
 
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Pinhead (Hellraiser) (Literature)', 'https://redd.it/sa9519'); SELECT * FROM respectthread WHERE link='https://redd.it/sa9519';
+UPDATE character SET rt_id_array='{462,21270, ?}' WHERE rt_id_array='{462,21270}';
 
 ########################################
 
