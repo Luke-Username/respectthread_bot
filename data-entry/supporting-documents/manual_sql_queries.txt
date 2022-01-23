@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Hanma Yuu?jiro' WHERE name='Hanma Yujiro';
+UPDATE character SET is_default=FALSE WHERE default_name='Whitebeard';
+
 ########################################
 
 ########################################
