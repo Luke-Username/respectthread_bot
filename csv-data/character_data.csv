@@ -60,12 +60,12 @@ Kuasa,{CW},f,{29},CW Arrowverse
 Vixen,{CW},f,{30},CW Arrowverse
 John Constantine,{CW},f,{31},CW Arrowverse
 Superman,{CW},f,{34},CW Arrowverse
-The Mountain,{Bjornsson},f,{},""
-The Mountain,{Bjornson},f,{},""
 Saejima,{Garo},f,{88},Garo
 Bowman,{Ninja},f,{94},Ninja
 Undertaker,{WWE},f,{76},WWE
 Undertaker,"{`"World Wrestling Entertainment`"}",f,{76},WWE
+The Mountain,{Bjornsson},f,{},""
+The Mountain,{Bjornson},f,{},""
 Korath The Pursuer,{Cinematic},f,{249},MCU
 Thunder,{CW},f,{80},Black Lightning TV Series
 Anissa Pierce,{CW},f,{80},Black Lightning TV Series
@@ -22312,10 +22312,6 @@ Gregor Clegane,"{`"Game of Thrones`"}",t,"{6119,87}",Game of Thrones
 Gregor Clegane,{GoT},t,"{6119,87}",Game of Thrones
 Gregor Clegane,"{`"Song of Ice`"}",t,"{6119,87}",Game of Thrones
 Gregor Clegane,{ASOIAF},t,"{6119,87}",Game of Thrones
-The Mountain,"{`"Game of Thrones`"}",t,"{6119,87}",Game of Thrones
-The Mountain,{GoT},t,"{6119,87}",Game of Thrones
-The Mountain,"{`"Song of Ice`"}",t,"{6119,87}",Game of Thrones
-The Mountain,{ASOIAF},t,"{6119,87}",Game of Thrones
 Shrek,{Shrek},t,"{6208,1173}",""
 Wicked Witch of the West,"{`"Wizard of Oz`"}",t,"{6232,599}",Wizard of Oz
 Akeno Himejima,"{`"High ?school DxD`"}",t,{3481},High School DxD
@@ -22327,6 +22323,10 @@ Rias Gremory,"{`"High ?school DxD`"}",t,{3484},High School DxD
 Xenovia Quarta,"{`"High ?school DxD`"}",t,{3485},High School DxD
 Yuuto Kiba,"{`"High ?school DxD`"}",t,{3486},High School DxD
 John Walker,{MCU},f,{},MCU
+The Mountain,"{`"Game of Thrones`"}",f,"{6119,87}",Game of Thrones
+The Mountain,{GoT},f,"{6119,87}",Game of Thrones
+The Mountain,"{`"Song of Ice`"}",f,"{6119,87}",Game of Thrones
+The Mountain,{ASOIAF},f,"{6119,87}",Game of Thrones
 Bog,{RHG},f,{17254},RHG
 Elyas,"{`"Wheel of Time`"}",f,{6036},The Wheel of Time
 Elyas,{WOT},f,{6036},The Wheel of Time
@@ -26083,3 +26083,12 @@ Spider-Man,"{`"Spider(-| )?Mans?.*1969`"}",f,{21285},1969
 Spider-Man,"{Don(ald)?,Glut}",f,{21285},1969
 Lapras,"{`"Terminal ?Montage`"}",f,{21286},Terminalmontage
 Formed One,{Dreamwalker},f,{21287},Dreamwalker
+Fliqpy,"{`"Happy Tree Friends`"}",t,{1277},Happy Tree Friends
+Scarecrow,"{Batman,`"Animated Series`"}",f,{},DCAU
+Scarecrow,{B:?TAS},f,{},DCAU
+Pinhead,"{`"Dead by Daylight`"}",f,{21288},Dead by Daylight
+Li Shuwen,"{`"Li Shuwen.+Fate`"}",f,{21289},Fate
+SCP-019,"{`"SCP Foundation`"}",t,{21290},""
+Kiara Sessyoin,{Fate},t,{21291},Fate
+Yasuda Koinosuke,"{`"Tokyo Duel`"}",t,{21292},Tokyo Duel
+Lop,"{`"Star Wars:? Visions`"}",f,{21293},Star Wars: Visions

@@ -15,9 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='The Mountain';
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ultimates? Apocalyps?e', 'ultimate apocalypse mod', 0);
-
 ########################################
 
 ########################################
