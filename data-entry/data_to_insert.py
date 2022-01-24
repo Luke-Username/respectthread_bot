@@ -121,6 +121,20 @@ True,
 
 ########################################
 
+add_data(['Scare ?crow'],
+'Scarecrow',
+False,
+False,
+[
+    ['Batman', 'Animated Series'], ['B:?TAS']
+],
+'DCAU',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/rh7h5j/could_scarecrow_btas_survive_zardys_maze/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Pinhead (Dead by Daylight)', 'https://redd.it/sax28f')
 add_data(['Pinhead'],
 'Pinhead',
@@ -178,6 +192,36 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/sbh0tz/respect_kiara_sessyoin_the_third_beast_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yasuda Koinosuke (Tokyo Duel)', 'https://redd.it/sbr3zk')
+add_data(['Yasuda Koinosuke'],
+'Yasuda Koinosuke',
+False,
+True,
+[
+    ['Tokyo Duel']
+],
+'Tokyo Duel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sbr3zk/respect_yasuda_koinosuke_tokyo_duel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lop (Star Wars: Visions - Lop and Ochō)', 'https://redd.it/sbxxgk')
+add_data(['Lop'],
+'Lop',
+False,
+False,
+[
+    ['Star Wars:? Visions']
+],
+'Star Wars: Visions',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sbxxgk/respect_lop_star_wars_visions_lop_and_och%C5%8D/
 
 ########################################
 
