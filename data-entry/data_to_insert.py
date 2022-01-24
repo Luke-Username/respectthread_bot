@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Pinhead (Dead by Daylight)', 'https://redd.it/sax28f')
+add_data(['Pinhead'],
+'Pinhead',
+False,
+False,
+[
+    ['Dead by Daylight']
+],
+'Dead by Daylight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sax28f/respect_pinhead_dead_by_daylight/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Li Shuwen, the Divine Spear! (Fate)', 'https://redd.it/sb3yoh')
+add_data(['Li Shuwen'],
+'Li Shuwen',
+False,
+False,
+[
+    ['Li Shuwen.+Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sb3yoh/respect_li_shuwen_the_divine_spear_fate/
 
 ########################################
 
