@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Fliqpy'],
+'Fliqpy',
+False,
+True,
+[
+    ['Happy Tree Friends']
+],
+'Happy Tree Friends',
+'{1277}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sb8md4/sebastiano_di_ravello_just_cause_3_and_fliqpy/htytk55/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Pinhead (Dead by Daylight)', 'https://redd.it/sax28f')
 add_data(['Pinhead'],
 'Pinhead',
@@ -134,6 +148,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/sb3yoh/respect_li_shuwen_the_divine_spear_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-019, "Monster Jar" (The SCP Foundation).', 'https://redd.it/sbgdw4')
+add_data(['SCP ?(-| )? ?019'],
+'SCP-019',
+False,
+True,
+[
+    ['SCP Foundation']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sbgdw4/respect_scp019_monster_jar_the_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kiara Sessyoin, the Third Beast of Humanity! (Fate)', 'https://redd.it/sbh0tz')
+add_data(['Kiara Sessyoin|Sessyoin Kiara'],
+'Kiara Sessyoin',
+False,
+True,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sbh0tz/respect_kiara_sessyoin_the_third_beast_of/
 
 ########################################
 
