@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Kaneki'],
+'Kaneki',
+False,
+False,
+[
+    ['Tokyo Ghoul'], ['Dragon'], ['Naruto']
+],
+'Tokyo Ghoul',
+'{4964}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sbt0x8/spiderman_earth_2149_vs_kaneki_tokyo_ghoul_who/hu32p7a/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
