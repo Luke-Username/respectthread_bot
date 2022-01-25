@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4126, 'Respect Ash Ketchum (Pokemon Anime)', 'https://redd.it/cn97u8')
+
+########################################
+
 add_data(['Kaneki'],
 'Kaneki',
 False,
@@ -118,6 +122,51 @@ False,
 '{4964}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/sbt0x8/spiderman_earth_2149_vs_kaneki_tokyo_ghoul_who/hu32p7a/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect King Kong, The Eighth Wonder of the World (King Kong 1933)', 'https://redd.it/lg3ud5')
+add_data(['King Kong'],
+'King Kong',
+False,
+False,
+[
+    ['King Kong.*1933|1933.*King Kong']
+],
+'1933',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sbwqij/other_king_kong_incarnations_enter_in_the/hu3ib50/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Storm Eagle (Something Series)', 'https://redd.it/sbzsci')
+add_data(['Storm Eagle'],
+'Storm Eagle',
+False,
+False,
+[
+    ['Something ?Series'], ['Terminal ?Montage']
+],
+'Something Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sbzsci/respect_storm_eagle_something_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mothman (Fallout)', 'https://redd.it/sc2h7u')
+add_data(['Mothman'],
+'Mothman',
+False,
+False,
+[
+    ['Fallout']
+],
+'Fallout',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sc2h7u/respect_the_mothman_fallout/
 
 ########################################
 
