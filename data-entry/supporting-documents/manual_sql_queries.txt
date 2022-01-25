@@ -18,8 +18,13 @@ UPDATE character_name SET name='' WHERE...
 UPDATE character SET rt_id_array='{1981}' WHERE rt_id_array='{1981,1982}';
 UPDATE character SET rt_id_array='{5648}' WHERE rt_id_array='{5647,5648}';
 UPDATE character_name SET name='Jason Voo?rhees' WHERE name='Jason Voorhees';
+UPDATE character SET version='{"Planet of the Apes"}' WHERE version='{"Planet of the Apes Reboot"}';
 
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Jak and Daxter have zero advantage over Ratchet & Clank', 'https://redd.it/67pea5'); SELECT * FROM respectthread WHERE link='https://redd.it/67pea5';
+INSERT INTO respectthread (title, link) VALUES ('A big list of 40 weapons that can kill Jak and Daxter in one hit (with evidence) (no math)', 'https://redd.it/7h4qki'); SELECT * FROM respectthread WHERE link='https://redd.it/7h4qki';
+UPDATE character SET rt_id_array='{5689, ?1, ?2}' WHERE default_name='Ratchet' AND version='{"Jak"}';
 
 ########################################
 
