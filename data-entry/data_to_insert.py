@@ -107,6 +107,45 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Invincible'],
+'Invincible',
+False,
+False,
+[
+    ['Invincible ?\(Amazon']
+],
+'Amazon',
+'{17671}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/scdm29/invincible_amazon_vs_deku_current_manga/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ainz Ooal Gown (Overlord, Light Novel)', 'https://redd.it/scgwlr')
+add_data(['Ainz Oo?al Gown'],
+'Ainz Ooal Gown',
+False,
+True,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/scgwlr/respect_ainz_ooal_gown_overlord_light_novel/
+
+add_data(['Ainz'],
+'Ainz',
+False,
+True,
+[
+    ['Overlord'], ['vs\.? Ainz'], ['Ainz vs']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/scgwlr/respect_ainz_ooal_gown_overlord_light_novel/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
