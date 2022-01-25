@@ -10009,8 +10009,6 @@ Ragnarok,{Clor},f,{1978},616
 Surtur,{616},t,{1979},616
 Thor,"{`"Jane Foster`"}",f,{1980},Jane Foster
 Jane Thor,{616},t,{1980},616
-Thor,{616},t,"{1981,1982}",616
-Thor,{comics?},t,"{1981,1982}",616
 Valkyrie,{616},f,{1984},616
 Brunnhilde,{616},t,{1984},616
 Brunnhilde,"{`"Marvel Cinematic Universe`"}",f,{267},MCU
@@ -10045,6 +10043,8 @@ Pikachu,{Pok(e|é)mon},t,"{4156,4157,4158,4159,4160,4161,4162,4163,4164,4165,108
 Wasabi,"{`"Big Hero`"}",f,{10869},Big Hero 6
 Fred,"{`"Big Hero`"}",f,{10870},Big Hero 6
 Odin-Force Thor,{616},t,{1983},616
+Thor,{616},t,{1981},616
+Thor,{comics?},t,{1981},616
 Scott Lang,"{`"End ?game`"}",f,{},MCU
 Krombopulos Michael,"{`"Rick (&|and) Morty`"}",t,{10871},Rick and Morty
 Honey Lemon,"{`"Big Hero`"}",t,{10872},Big Hero 6
@@ -11671,7 +11671,6 @@ Spear,{Tartakovsky},f,{12113},Primal
 Fang,{Primal},f,{12113},Primal
 Fang,{Tartakovsky},f,{12113},Primal
 Bruce Lee,"{`"Dragon Rises`"}",f,{12114},Bruce Lee: the Dragon Rises
-Caesar,"{`"Planet of the Apes Reboot`"}",f,{12115},Planet of the Apes Reboot
 Caesar,"{`"Rise of the Planet of the Apes`"}",f,{12115},Planet of the Apes Reboot
 Caesar,{ROTPOTA},f,{12115},Planet of the Apes Reboot
 Caesar,"{`"Dawn of the Planet of the Apes`"}",f,{12115},Planet of the Apes Reboot
@@ -20458,8 +20457,6 @@ Paragon,"{`"Marvel Nemesis`"}",f,{5642},Marvel Nemesis
 Niles Van Roekel,"{`"Marvel Nemesis`"}",t,{5642},Marvel Nemesis
 Sir Daniel Fortesque,{MediEvil},t,{5645},MediEvil
 Beck,"{`"Mighty No\\.? 9`"}",f,{5646},Mighty No. 9
-Steve,{Minecraft},f,"{5647,5648}",Minecraft
-Steve,"{`"creative (mode|Steve)`"}",f,"{5647,5648}",Minecraft
 J.J. Macfield,"{`"The Missing`"}",t,"{5649,5650}",The Missing: J.J. Macfield and the Island of Memories
 J.J. Macfield,"{`"Island of Memories`"}",t,"{5649,5650}",The Missing: J.J. Macfield and the Island of Memories
 Kaho Reinol,{Momodora},t,{5651},Momodora
@@ -20532,7 +20529,6 @@ Super Macho Man,"{`"Punch(-| )?Out`"}",f,{5686},Punch-Out!!
 Sandman,"{`"Punch(-| )?Out`"}",f,{5686},Punch-Out!!
 George,"{Rampage,games?}",f,{5688},Rampage games
 Ratchet,{Clank},f,{5689},Ratchet & Clank
-Ratchet,{Jak},f,{5689},Ratchet & Clank
 Ratchet,{Sly},f,{5689},Ratchet & Clank
 Ratchet,{wr?ench},f,{5689},Ratchet & Clank
 Mr. Dark,{Rayman},f,{5690},Rayman
@@ -26092,3 +26088,16 @@ SCP-019,"{`"SCP Foundation`"}",t,{21290},""
 Kiara Sessyoin,{Fate},t,{21291},Fate
 Yasuda Koinosuke,"{`"Tokyo Duel`"}",t,{21292},Tokyo Duel
 Lop,"{`"Star Wars:? Visions`"}",f,{21293},Star Wars: Visions
+Steve,{Minecraft},f,{5648},Minecraft
+Steve,"{`"creative (mode|Steve)`"}",f,{5648},Minecraft
+Caesar,"{`"Planet of the Apes`"}",f,{12115},Planet of the Apes Reboot
+Ratchet,{Jak},f,"{5689,21294,21295}",Ratchet & Clank
+Kaneki,"{`"Tokyo Ghoul`"}",f,{4964},Tokyo Ghoul
+Kaneki,{Dragon},f,{4964},Tokyo Ghoul
+Kaneki,{Naruto},f,{4964},Tokyo Ghoul
+The Flash,"{Goku,`"Bat(-| )?mans?`",`"Super(-| )?man`"}",f,"{1582,1583,1590,1589}",DC
+King Kong,"{`"King Kong.*1933|1933.*King Kong`"}",f,{15404},1933
+Storm Eagle,"{`"Something ?Series`"}",f,{21296},Something Series
+Storm Eagle,"{`"Terminal ?Montage`"}",f,{21296},Something Series
+Mothman,{Fallout},f,{21297},Fallout
+SCP-023,"{`"Black Shuck`"}",t,{21298},""

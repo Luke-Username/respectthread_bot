@@ -813,7 +813,6 @@ Ron Strickland,Ron Strickland,f
 Flash Gordon,Flash Gordon,f
 Jatt,Jatt,f
 Forrest Gump,Forrest Gump,f
-Jason Voorhees,Jason Voorhees,f
 Blue ?(and ?)?/? ?(or )?(Yellow )?Diamond,Blue Diamond,f
 Roy Burns,Roy Burns,f
 Alphonse,Alphonse Elric,f
@@ -831,6 +830,7 @@ Coffee (Maker|Machine),Coffee Maker,f
 The Major,The Major,f
 Corrupted Jaspers?,Corrupted Jaspers,f
 Diamond Ships?,Diamond Ships,f
+Jason Voo?rhees,Jason Voorhees,f
 Snake Eyes,Snake Eyes,f
 Storm Shadow,Storm Shadow,f
 The Giant Claw,The Giant Claw,f
@@ -11917,3 +11917,6 @@ SCP ?(-| )? ?019,SCP-019,f
 Kiara Sessyoin|Sessyoin Kiara,Kiara Sessyoin,f
 Yasuda Koinosuke,Yasuda Koinosuke,f
 Lop,Lop,f
+Kaneki,Kaneki,f
+Storm Eagle,Storm Eagle,f
+SCP ?(-| )? ?023,SCP-023,f
