@@ -125,6 +125,20 @@ False,
 
 ########################################
 
+add_data(['The Flash'],
+'The Flash',
+False,
+False,
+[
+    ['Goku', 'Bat(-| )?mans?', 'Super(-| )?man']
+],
+'DC',
+'{1582, 1583, 1590, 1589}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/scaxnr/these_characters_vs_when_day_breaksscp/hu4zuk8/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect King Kong, The Eighth Wonder of the World (King Kong 1933)', 'https://redd.it/lg3ud5')
 add_data(['King Kong'],
 'King Kong',
@@ -167,6 +181,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/sc2h7u/respect_the_mothman_fallout/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-023, "Black Shuck" (The SCP Foundation).', 'https://redd.it/sc4858')
+add_data(['SCP ?(-| )? ?023'],
+'SCP-023',
+False,
+True,
+[
+    ['Black Shuck']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 

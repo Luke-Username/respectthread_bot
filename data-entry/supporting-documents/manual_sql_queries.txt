@@ -17,6 +17,7 @@ UPDATE character_name SET name='' WHERE...
 
 UPDATE character SET rt_id_array='{1981}' WHERE rt_id_array='{1981,1982}';
 UPDATE character SET rt_id_array='{5648}' WHERE rt_id_array='{5647,5648}';
+UPDATE character_name SET name='Jason Voo?rhees' WHERE name='Jason Voorhees';
 
 ########################################
 
