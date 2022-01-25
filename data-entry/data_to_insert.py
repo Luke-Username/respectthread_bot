@@ -121,6 +121,62 @@ False,
 
 ########################################
 
+add_data(['Battleship Siegfried'],
+'Battleship Siegfried',
+False,
+False,
+[
+    ['(Ü|U)ber']
+],
+'Über',
+'{2818}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/s29bva/homelanderthe_boys_vs_battleship_siegfrieduber/hu745wr/?context=3
+
+########################################
+
+add_data(['Battleship Siegmund'],
+'Battleship Siegmund',
+False,
+False,
+[
+    ['(Ü|U)ber']
+],
+'Über',
+'{2818}'
+)
+#https://www.reddit.com/r/respectthreads/comments/5nb708/%C3%BCberthe_battleships_mega_thread/
+
+########################################
+
+add_data(['Sieglinde'],
+'Sieglinde',
+False,
+False,
+[
+    ['(Ü|U)ber']
+],
+'Über',
+'{2818}'
+)
+#https://www.reddit.com/r/respectthreads/comments/5nb708/%C3%BCberthe_battleships_mega_thread/
+
+########################################
+
+add_data(['Katyusha'],
+'Katyusha',
+False,
+False,
+[
+    ['(Ü|U)ber']
+],
+'Über',
+'{2818}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Ainz Ooal Gown (Overlord, Light Novel)', 'https://redd.it/scgwlr')
 add_data(['Ainz Oo?al Gown'],
 'Ainz Ooal Gown',
