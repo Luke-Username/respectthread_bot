@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Ainz Ooal Gown (Overlord, Manga)', 'https://redd.it/sdaag2'); SELECT * FROM respectthread WHERE link='https://redd.it/sdaag2';
+UPDATE character SET rt_id_array='{21299, ?}' WHERE rt_id_array='{21299}';
+
 ########################################
 
 ########################################
