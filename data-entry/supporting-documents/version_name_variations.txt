@@ -210,6 +210,7 @@ Arthurian Myth
 Avatar: The Last Airbender / The Legend of Korra
 	Version
 		['Avatar'], ['A?TLA'], ['Air(-| )bender'], ['Aang'], ['Korra'], ['A?T?LOK']
+		['Kyoshi']
 	Sometimes
 		['Bend(er|ing)']
 		['Red Lotus']
@@ -831,7 +832,8 @@ Dorkly
 
 Dota 2 (Defense of the Ancients)
 	Version
-		'{"Dota2?"}', '{"Defense of the Ancients"}'
+		['Dota2?']
+		['Defense of the Ancients']
 	Displayed Version Name
 		"Dota 2"
 
@@ -2570,7 +2572,8 @@ Pokémon: The Electric Tale of Pikachu
 
 Post-Crisis
 	Version
-		['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth'], ['Earth(-| )(1|One)']
+		['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+		['Earth(-| )(1|One)']
 	Displayed Version Name
 		"Post-Crisis"
 
