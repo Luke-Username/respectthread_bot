@@ -135,6 +135,20 @@ False,
 
 ########################################
 
+add_data(['Rogue'],
+'Rogue',
+False,
+False,
+[
+    ['Absorbs?'], ['Rogue.*616'], ['Rogue.*Marvel'], ['Rogue.*X(-| )?Men'], ['Wonder Man']
+],
+'DC',
+'{2382}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Mega Man X (Something Series)', 'https://redd.it/schwjv')
 add_data(['Mega ?Man X1?'],
 'Mega Man X',
@@ -188,10 +202,72 @@ True,
 [
     ["A Hero''?s Shadow"]
 ],
-'A Hero''s Shadow',
+"A Hero''s Shadow",
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/scvxfb/respect_nase_maser_the_reaper_a_heros_shadow/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Minnal Murali (Minnal Murali )', 'https://redd.it/scye1i')
+add_data(['Minnal Murali'],
+'Minnal Murali',
+False,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/scye1i/respect_minnal_murali_minnal_murali/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Artoria Pendragon, the Lion King! (Fate)', 'https://redd.it/scz6cs')
+add_data(['Artoria Pendragon'],
+'Artoria Pendragon',
+False,
+False,
+[
+    ['Lion King'], ['Grande? Order'], ['F(ate )?/?GO'], ['Artoria Pendragon.*Lancer']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/scz6cs/respect_artoria_pendragon_the_lion_king_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maria Dacascos! (Fight Class 3)', 'https://redd.it/sd01ko')
+add_data(['Maria'],
+'Maria',
+False,
+False,
+[
+    ['Maria Dacascos'], ['Fight Class 3']
+],
+'Fight Class 3',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sd01ko/respect_maria_dacascos_fight_class_3/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jiu Ji-Tae! (Fight Class 3)', 'https://redd.it/sd0280')
+add_data(['Jiu Ji(-| )Tae'],
+'Jiu Ji-Tae',
+False,
+True,
+[
+    ['Fight Class 3']
+],
+'Fight Class 3',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sd0280/respect_jiu_jitae_fight_class_3/
+
+########################################
 
 ########################################
 
