@@ -8994,10 +8994,6 @@ Peter Maximoff,"{`"X(-| )?Men Movies?`"}",f,{},FOX
 Peter Maximoff,"{`"X-?Men:? Apocalypse`"}",f,{},FOX
 Peter Maximoff,"{`"Days of Future Past`"}",f,{},FOX
 Peter Maximoff,{DOFP},f,{},FOX
-Rogue,"{`"Rogue ?\\(X(-| )?Men\\)`"}",f,{2382},616
-Rogue,"{`"Rogue ?\\(616`"}",f,{2382},616
-Rogue,"{`"Rogue Versions: 616`"}",f,{2382},616
-Rogue,"{`"Rogue ?\\(Marvel`"}",f,{2382},616
 Siryn,{616},t,{2383},616
 Siryn,{Marvel},t,{2383},616
 Stacy X,{616},t,{2384},616
@@ -25516,11 +25512,6 @@ Yamato,"{`"Yamato ?\\(One ?Piece?`"}",f,{21112},One Piece
 Yamato,"{`"One Piece`",Nami}",f,{21112},One Piece
 Leonard Burns,"{`"Fire ?Force`"}",t,{21113},Fire Force
 Sakura,"{`"Dangan ?ronpa`"}",f,{5022},Danganronpa
-Buddha,{Mah(ā|a)y(ā|a)na},t,{21114},Mahāyāna
-Buddha,{Buddhism},t,{21114},Mahāyāna
-Buddha,{Enlighten(ment|ed)},t,{21114},Mahāyāna
-Buddha,"{`"Composite Buddha`"}",t,{21114},Mahāyāna
-Buddha,"{`"Journey To The West`"}",t,{21114},Mahāyāna
 Buddha,"{`"Record of Ragnarok`"}",f,{},Record of Ragnarok
 Buddha,"{`"Saint Oniisan`"}",f,{},Saint Oniisan
 Remina,"{`"Hellstar Remina`"}",f,{14338},Hellstar Remina
@@ -25567,6 +25558,11 @@ Spiders-Man,{11580},t,{21115},11580
 Amao,{Croczilla},f,{21116},Croczilla
 Yuu Amanai,{Baki},t,{21117},Baki
 SCP-749,{Foundation},t,{21118},""
+Buddha,{Mah(ā|a)y(ā|a)na},t,"{21114,21300}",Mahāyāna
+Buddha,{Buddhism},t,"{21114,21300}",Mahāyāna
+Buddha,{Enlighten(ment|ed)},t,"{21114,21300}",Mahāyāna
+Buddha,"{`"Composite Buddha`"}",t,"{21114,21300}",Mahāyāna
+Buddha,"{`"Journey To The West`"}",t,"{21114,21300}",Mahāyāna
 Lion,"{`"Balloon Trip of Love`"}",f,{16804},The Legend of Zelda
 SCP-001,"{`"Gate Guardian`"}",f,{15332},""
 StarCraft Marine,"{`"SC\\d?`"}",t,{},""
@@ -25591,14 +25587,14 @@ War Machine,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{21120},Earths Mightie
 War Machine,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{21120},Earths Mightiest Heroes
 War Machine,"{`"A(vengers)?: ?EMH`"}",f,{21120},Earths Mightiest Heroes
 Entities,"{`"Worm(-| )verse`"}",f,{6075},Worm
-Shang-Chi,"{`"Marvel Cinematic Universe`"}",f,{},MCU
-Shang-Chi,{MCU},f,{},MCU
 Warrior Entity,{Worm},t,{6075},Worm
 Entities,"{`"\\(Worm`"}",f,{6075},Worm
 Entities,"{`"\\[Worm`"}",f,{6075},Worm
 Entities,"{`"Wild ?bow`"}",f,{6075},Worm
 Lady of Pain,"{`"Dungeons (&|and) Dragons`"}",t,{21121},Dungeons & Dragons
 Lady of Pain,"{`"D ?& ?D`"}",t,{21121},Dungeons & Dragons
+Shang-Chi,"{`"Marvel Cinematic Universe`"}",f,{21301},MCU
+Shang-Chi,{MCU},f,{21301},MCU
 Kafka Hibino,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
 Leno Ichikawa,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
 Kikoru Shinomiya,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
@@ -26110,3 +26106,25 @@ Ainz Ooal Gown,{Overlord},t,{21299},Overlord
 Ainz,{Overlord},t,{21299},Overlord
 Ainz,"{`"vs\\.? Ainz`"}",t,{21299},Overlord
 Ainz,"{`"Ainz vs`"}",t,{21299},Overlord
+Aquaman,"{`"DC Comics`"}",t,"{1485,1486,1487}",DC
+Mera,"{`"DC Comics`"}",f,{1491},DC
+Mera,{moisure.*body},f,{1491},DC
+Rogue,{Absorbs?},f,{2382},DC
+Rogue,{Rogue.*616},f,{2382},DC
+Rogue,{Rogue.*Marvel},f,{2382},DC
+Rogue,"{`"Rogue.*X(-| )?Men`"}",f,{2382},DC
+Rogue,"{`"Wonder Man`"}",f,{2382},DC
+Mega Man X,"{`"Something ?Series`"}",f,{21302},Something Series
+Mega Man X,"{`"Terminal ?Montage`"}",f,{21302},Something Series
+Translucent,"{`"The Boys`"}",f,{21303},"The Boys, 2019"
+Translucent,{Amazon},f,{21303},"The Boys, 2019"
+Kamen Rider Shin,"{`"Shin Kamen Rider`"}",t,{21304},""
+Nase Maser,"{`"A Hero'?s Shadow`"}",t,{21305},A Hero's Shadow
+Minnal Murali,{default},t,{21306},""
+Artoria Pendragon,"{`"Lion King`"}",f,{21307},Fate
+Artoria Pendragon,"{`"Grande? Order`"}",f,{21307},Fate
+Artoria Pendragon,"{`"F(ate )?/?GO`"}",f,{21307},Fate
+Artoria Pendragon,"{`"Artoria Pendragon.*Lancer`"}",f,{21307},Fate
+Maria,"{`"Maria Dacascos`"}",f,{21308},Fight Class 3
+Maria,"{`"Fight Class 3`"}",f,{21308},Fight Class 3
+Jiu Ji-Tae,"{`"Fight Class 3`"}",t,{21309},Fight Class 3

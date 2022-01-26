@@ -15,14 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('The Buddha, Heavenly Honoured One! (Journey to the West)', 'https://redd.it/scj1b1'); SELECT * FROM respectthread WHERE link='https://redd.it/scj1b1';
-UPDATE character SET rt_id_array='{21114, ?}' WHERE rt_id_array='{21114}';
-DELETE FROM character WHERE default_name='Rogue' AND displayed_version_name='616';
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Shang-Chi (Marvel Cinematic Universe)', 'https://redd.it/sd3ewj'); SELECT * FROM respectthread WHERE link='https://redd.it/sd3ewj';
-UPDATE character SET rt_id_array='' WHERE default_name='Shang-Chi' AND displayed_version_name='MCU';
 
 ########################################
 
