@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('The Buddha, Heavenly Honoured One! (Journey to the West)', 'https://redd.it/scj1b1'); SELECT * FROM respectthread WHERE link='https://redd.it/scj1b1';
+UPDATE character SET rt_id_array='{21114, ?}' WHERE rt_id_array='{21114}';
+
 ########################################
 
 ########################################

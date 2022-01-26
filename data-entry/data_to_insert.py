@@ -107,6 +107,92 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Aqua(-| )?man'],
+'Aquaman',
+False,
+True,
+[
+    ['DC Comics']
+],
+'DC',
+'{1485,1486,1487}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/scq2h9/black_panther_and_storm_marvel_vs_aquaman_and/hu8916b/?context=3
+
+########################################
+
+add_data(['Mera'],
+'Mera',
+False,
+False,
+[
+    ['DC Comics'], ['moisure.*body']
+],
+'DC',
+'{1491}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mega Man X (Something Series)', 'https://redd.it/schwjv')
+add_data(['Mega ?Man X1?'],
+'Mega Man X',
+False,
+False,
+[
+    ['Something ?Series'], ['Terminal ?Montage']
+],
+'Something Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/schwjv/respect_mega_man_x_something_series/
+
+########################################
+
+id = get_rt_id(cur, "Respect Translucent (Amazon''s The Boys)", 'https://redd.it/scmsyr')
+add_data(['Translucent'],
+'Translucent',
+False,
+False,
+[
+    ['The Boys'], ['Amazon']
+],
+'The Boys, 2019',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/scmsyr/respect_translucent_amazons_the_boys/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kamen Rider Shin (Shin Kamen Rider: Prologue)', 'https://redd.it/scsunc')
+add_data(['Kamen Rider Shin'],
+'Kamen Rider Shin',
+False,
+True,
+[
+    ['Shin Kamen Rider']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/scsunc/respect_kamen_rider_shin_shin_kamen_rider_prologue/
+
+########################################
+
+id = get_rt_id(cur, "Respect Nase Maser, The Reaper (A Hero''s Shadow)", 'https://redd.it/scvxfb')
+add_data(['Nase Maser'],
+'Nase Maser',
+False,
+True,
+[
+    ["A Hero''?s Shadow"]
+],
+'A Hero''s Shadow',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/scvxfb/respect_nase_maser_the_reaper_a_heros_shadow/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
