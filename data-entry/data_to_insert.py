@@ -107,6 +107,44 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Galactus'],
+'Galactus',
+False,
+False,
+[
+    ['Galactus.*Movie Version']
+],
+'121698',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sdr24n/the_us_military_vs_galactus_movie_version/
+
+########################################
+
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Batman:? Year One'], ['Darren']
+],
+'Aronofsky',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sdshxp/dc_darren_aronofskys_batman_vs_earth_one_batman/hueysc7/?context=3
+
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Earth One']
+],
+'Earth One',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sdshxp/dc_darren_aronofskys_batman_vs_earth_one_batman/hueysc7/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
