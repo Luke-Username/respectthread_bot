@@ -26102,10 +26102,6 @@ Battleship Siegfried,{(Ü|U)ber},f,{2818},Über
 Battleship Siegmund,{(Ü|U)ber},f,{2818},Über
 Sieglinde,{(Ü|U)ber},f,{2818},Über
 Katyusha,{(Ü|U)ber},f,{2818},Über
-Ainz Ooal Gown,{Overlord},t,{21299},Overlord
-Ainz,{Overlord},t,{21299},Overlord
-Ainz,"{`"vs\\.? Ainz`"}",t,{21299},Overlord
-Ainz,"{`"Ainz vs`"}",t,{21299},Overlord
 Aquaman,"{`"DC Comics`"}",t,"{1485,1486,1487}",DC
 Mera,"{`"DC Comics`"}",f,{1491},DC
 Mera,{moisure.*body},f,{1491},DC
@@ -26128,3 +26124,23 @@ Artoria Pendragon,"{`"Artoria Pendragon.*Lancer`"}",f,{21307},Fate
 Maria,"{`"Maria Dacascos`"}",f,{21308},Fight Class 3
 Maria,"{`"Fight Class 3`"}",f,{21308},Fight Class 3
 Jiu Ji-Tae,"{`"Fight Class 3`"}",t,{21309},Fight Class 3
+Ainz Ooal Gown,{Overlord},t,"{21299,21310}",Overlord
+Ainz,{Overlord},t,"{21299,21310}",Overlord
+Ainz,"{`"vs\\.? Ainz`"}",t,"{21299,21310}",Overlord
+Ainz,"{`"Ainz vs`"}",t,"{21299,21310}",Overlord
+Saint Walker,"{`"\\(DC( Comics)?\\)`"}",t,{6653},DC
+Saint Walker,"{`"\\[DC( Comics)?\\]`"}",t,{6653},DC
+Saint Walker,{PC},f,{6653},Post-Crisis
+Saint Walker,"{`"Posts?(-| )?C(risis)?`"}",f,{6653},Post-Crisis
+Saint Walker,"{`"New(-| )Earth`"}",f,{6653},Post-Crisis
+Saint Walker,"{`"New(-| )?52`"}",f,{},New 52 / Rebirth
+Saint Walker,{Nu?-?52},f,{},New 52 / Rebirth
+Saint Walker,"{`"Post(-| )52`"}",f,{},New 52 / Rebirth
+Saint Walker,"{`"Prime(-| )Earth`"}",f,{},New 52 / Rebirth
+Saint Walker,{Rebirth},f,{},New 52 / Rebirth
+Nico Hieronimo,{Dota2?},t,{21311},Dota
+Hei-Ran,{Avatar},t,{21312},Avatar: TLA
+Hei-Ran,{A?TLA},t,{21312},Avatar: TLA
+Hei-Ran,{Bend(er|ing)},t,{21312},Avatar: TLA
+Hei-Ran,{Kyoshi},t,{21312},Avatar: TLA
+Spider-Bite,{Nathan},f,{21313},616
