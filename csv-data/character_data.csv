@@ -20524,9 +20524,6 @@ Bald Bull,"{`"Punch(-| )?Out`"}",f,{5686},Punch-Out!!
 Super Macho Man,"{`"Punch(-| )?Out`"}",f,{5686},Punch-Out!!
 Sandman,"{`"Punch(-| )?Out`"}",f,{5686},Punch-Out!!
 George,"{Rampage,games?}",f,{5688},Rampage games
-Ratchet,{Clank},f,{5689},Ratchet & Clank
-Ratchet,{Sly},f,{5689},Ratchet & Clank
-Ratchet,{wr?ench},f,{5689},Ratchet & Clank
 Mr. Dark,{Rayman},f,{5690},Rayman
 Rayman,{default},t,{5691},""
 Last Kusagari,"{`"Red Steel`"}",t,{5693},Red Steel 2
@@ -20558,6 +20555,7 @@ Ms. Fortune,"{`"Skull ?girls`"}",f,{5712},Skullgirls
 Ms. Fortune,{Nadia},f,{5712},Skullgirls
 Parasoul,"{`"Skull ?girls`"}",t,{5712},Skullgirls
 Painwheel,"{`"Skull ?girls`"}",t,{5712},Skullgirls
+Ratchet,{Clank},f,"{5689,21294,21295}",Ratchet & Clank
 Valentine,"{`"Skull ?girls`"}",f,{5712},Skullgirls
 Double,"{`"Skull ?girls`"}",f,{5712},Skullgirls
 Squigly,"{`"Skull ?girls`"}",f,{5712},Skullgirls
@@ -26171,3 +26169,5 @@ Gary King,{Cornetto},f,{21322},The Worlds End
 Andy Knightley,"{`"World'?s End`"}",t,{21322},The Worlds End
 Andy Knightley,{Cornetto},t,{21322},The Worlds End
 Sasaki Kojirō,{Fate},f,{21322},Fate
+Ratchet,{Sly},f,"{5689,21294,21295}",Ratchet & Clank
+Ratchet,{wr?ench},f,"{5689,21294,21295}",Ratchet & Clank
