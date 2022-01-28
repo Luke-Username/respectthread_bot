@@ -26124,10 +26124,6 @@ Artoria Pendragon,"{`"Artoria Pendragon.*Lancer`"}",f,{21307},Fate
 Maria,"{`"Maria Dacascos`"}",f,{21308},Fight Class 3
 Maria,"{`"Fight Class 3`"}",f,{21308},Fight Class 3
 Jiu Ji-Tae,"{`"Fight Class 3`"}",t,{21309},Fight Class 3
-Ainz Ooal Gown,{Overlord},t,"{21299,21310}",Overlord
-Ainz,{Overlord},t,"{21299,21310}",Overlord
-Ainz,"{`"vs\\.? Ainz`"}",t,"{21299,21310}",Overlord
-Ainz,"{`"Ainz vs`"}",t,"{21299,21310}",Overlord
 Saint Walker,"{`"\\(DC( Comics)?\\)`"}",t,{6653},DC
 Saint Walker,"{`"\\[DC( Comics)?\\]`"}",t,{6653},DC
 Saint Walker,{PC},f,{6653},Post-Crisis
@@ -26155,4 +26151,23 @@ The Deep,"{`"The Boys`"}",f,{21316},"The Boys, 2019"
 Monako,{Marvel},f,{21317},Marvel
 Monako,"{`"Timely Comics`"}",f,{21317},Marvel
 Monako,"{`"Prince of Magic`"}",f,{21317},Marvel
+Ainz Ooal Gown,{Overlord},t,"{21299,21310,21318}",Overlord
+Ainz,{Overlord},t,"{21299,21310,21318}",Overlord
+Ainz,"{`"vs\\.? Ainz`"}",t,"{21299,21310,21318}",Overlord
+Ainz,"{`"Ainz vs`"}",t,"{21299,21310,21318}",Overlord
 Flash,"{`"Flash \\(Barry( Allen)?\\)`"}",f,{1582},New 52 / Rebirth
+Stormfront,"{`"The Boys`"}",f,{21319},"The Boys, 2019"
+Stormfront,{Homelander},f,{21319},"The Boys, 2019"
+Stormfront,{Amazon},f,{21319},"The Boys, 2019"
+Storm front,"{`"The Boys`"}",f,{21319},"The Boys, 2019"
+Storm front,{Homelander},f,{21319},"The Boys, 2019"
+Storm front,{Amazon},f,{21319},"The Boys, 2019"
+Susan Storm,{616},t,{21320},616
+Onku,{Avatar},f,{21321},Avatar: TLA
+Onku,{A?TLA},f,{21321},Avatar: TLA
+Onku,{Bend(er|ing)},f,{21321},Avatar: TLA
+Gary King,"{`"World'?s End`"}",f,{21322},The Worlds End
+Gary King,{Cornetto},f,{21322},The Worlds End
+Andy Knightley,"{`"World'?s End`"}",t,{21322},The Worlds End
+Andy Knightley,{Cornetto},t,{21322},The Worlds End
+Sasaki Kojirō,{Fate},f,{21322},Fate
