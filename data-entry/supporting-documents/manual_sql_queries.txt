@@ -15,9 +15,16 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Chaos', 'Chaos Warrior', 0);
 
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Ainz Ooal Gown (Overlord, Anime)', 'https://redd.it/seuost'); SELECT * FROM respectthread WHERE link='https://redd.it/seuost';
+UPDATE character SET rt_id_array='{21299,21310, ?}' WHERE rt_id_array='{21299,21310}';
+
+########################################
+
+UPDATE character_name SET name='Mas?ter Chiefs?' WHERE name='Mas?ter Chief';
 
 ########################################
 
