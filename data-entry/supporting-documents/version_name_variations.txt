@@ -2933,9 +2933,9 @@ Skulduggery Pleasant
 
 Smallville
 	Version
-		'{"Smallville"}'
+		['Smallville']
 	If too many versions:
-		r'{"Supergirl \\(Smallville"}', '{"Smallville Super ?girl"}'
+		['Supergirl \(Smallville'], ['Smallville Super ?girl']
 	Displayed Version Name
 		"Smallville"
 
