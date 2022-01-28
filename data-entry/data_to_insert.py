@@ -107,22 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 17527, 'Respect Zevs (Dreamwalker)', 'https://redd.it/seeip1')
-
-########################################
-
-add_data(['Flash'],
-'Flash',
-False,
-False,
-[
-    ['Smallville']
-],
-'Smallville',
-'{}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/sefshw/smallville_end_of_series_clark_vs_barry_in_a_race/hujalvj/?context=3
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

@@ -4628,7 +4628,6 @@ Flash,{Rebirth},f,{1582},New 52 / Rebirth
 Flash,"{`"Flash vs`"}",f,{1582},New 52 / Rebirth
 Flash,"{`"vs.? Flash`"}",f,{1582},New 52 / Rebirth
 Flash,"{`"(Could|is) Flash`"}",f,{1582},New 52 / Rebirth
-Flash,{Barry},f,{1582},New 52 / Rebirth
 The Flash,"{`"New ?52`"}",f,{1582},New 52 / Rebirth
 The Flash,{N-?52},f,{1582},New 52 / Rebirth
 The Flash,"{`"Post(-| )52`"}",f,{1582},New 52 / Rebirth
@@ -19178,6 +19177,7 @@ Silvally,{Pok(e|é)mon},t,{4196},Pokémon
 Type: Null,{Pok(e|é)mon},t,{4196},Pokémon
 Kiawe,{Pok(e|é)mon},t,{4197},Pokémon
 Mamoswine,{Dawn},f,{20633},Pokémon
+Flash,{Smallville},f,{},Smallville
 Alolan Marowak,{Pok(e|é)mon},t,{4198},Pokémon
 Charizard,{Kiawe},f,{4199},Kiawe
 Turtonator,{Pok(e|é)mon},f,{4200},Pokémon
@@ -26155,3 +26155,4 @@ The Deep,"{`"The Boys`"}",f,{21316},"The Boys, 2019"
 Monako,{Marvel},f,{21317},Marvel
 Monako,"{`"Timely Comics`"}",f,{21317},Marvel
 Monako,"{`"Prince of Magic`"}",f,{21317},Marvel
+Flash,"{`"Flash \\(Barry( Allen)?\\)`"}",f,{1582},New 52 / Rebirth
