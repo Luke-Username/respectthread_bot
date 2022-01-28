@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13509, 'Respect Misasa, "The Eighth Fang of Metsudo" (Kengan Asura/Omega)', 'https://redd.it/se6hed')
+
+########################################
+
 add_data(['Galactus'],
 'Galactus',
 False,
@@ -144,6 +148,66 @@ False,
 '{}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/sdshxp/dc_darren_aronofskys_batman_vs_earth_one_batman/hueysc7/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Machamp (Terminalmontage)', 'https://redd.it/sdl9il')
+add_data(['Machamp'],
+'Machamp',
+False,
+False,
+[
+    ['Terminal ?Montage']
+],
+'Terminalmontage',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sdl9il/respect_machamp_terminalmontage/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Cryptids (Call of Duty: Ghosts)', 'https://redd.it/sdjv6x')
+add_data(['Cryptid'],
+'Cryptid',
+False,
+False,
+[
+    ['Call of Duty'], ['COD:? Ghosts?']
+],
+'Call of Duty',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sdjv6x/respect_the_cryptids_call_of_duty_ghosts/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Deep (Amazon''s The Boys)", 'https://redd.it/sdysw8')
+add_data(['The Deep'],
+'The Deep',
+False,
+False,
+[
+    ['The Boys']
+],
+'The Boys, 2019',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sdysw8/respect_the_deep_amazons_the_boys/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Monako, Prince of Magic (Marvel/Timely Comics)', 'https://redd.it/se8xgc')
+add_data(['Monako'],
+'Monako',
+False,
+False,
+[
+    ['Marvel'], ['Timely Comics'], ['Prince of Magic']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/se8xgc/respect_monako_prince_of_magic_marveltimely_comics/
 
 ########################################
 

@@ -14,6 +14,10 @@ UPDATE character_name SET name='' WHERE...
 
 
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('The Deep', 'The Deep Sea King', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('The Deep', 'The Deep Web', 0);
+
 ########################################
 
 ########################################
