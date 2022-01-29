@@ -26005,7 +26005,6 @@ Bidoof,"{`"Bidoof?s Big Stand`"}",f,{21253},Bidoof's Big Stand
 Goosebumps,{Goosebumps.+2015},f,{21254},2015
 Godzilla,"{`"Great Monster March`"}",f,{21255},Great Monster March
 Fabio Wu,{Kengan(verse)?},f,{21256},Kengan Asura
-Green Goblin,{MCU},f,{300},Miss Kobayashis Dragon Maid
 Peacemaker,{TSS},f,{20353},DCEU
 Wanda,"{`"House of M`"}",f,{1997},616
 Cable,"{`"Deadpool 2`"}",f,{140},FOX
@@ -26013,6 +26012,7 @@ Game Sonic,"{`"Sonic the Hedgehog`"}",t,"{8276,8277}",""
 Gamera,"{`"Guardian of the`"}",f,{164},Heisei Era
 Gamera,"{`"Dark ?Horse`"}",f,{1915},Dark Horse Comics
 Gamera,"{`"Gamera.*Showa|Showa Gamera`"}",f,{21241},Showa Era
+Green Goblin,{MCU},f,{300},Raimiverse Spider-Man
 Jotaro Kujo,"{`"Eyes of Heaven`"}",f,{},Eyes of Heaven
 Batman,{EOH},f,{},Eyes of Heaven
 Batman,"{`"Eyes of Heaven`"}",f,{},Eyes of Heaven
@@ -26171,3 +26171,9 @@ Andy Knightley,{Cornetto},t,{21322},The Worlds End
 Sasaki Kojirō,{Fate},f,{21322},Fate
 Ratchet,{Sly},f,"{5689,21294,21295}",Ratchet & Clank
 Ratchet,{wr?ench},f,"{5689,21294,21295}",Ratchet & Clank
+Peacemaker,"{`"Peace ?maker ?\\(DC( Comics)?\\)`"}",f,{21323},DC
+Peacemaker,"{`"Peace ?maker ?\\(New 52`"}",f,{21323},New 52
+Peacemaker,"{`"Peace ?maker ?\\(Prime Earth`"}",f,{21323},New 52
+Peacemaker,"{`"Peace ?maker ?\\(Rebirth`"}",f,{21323},New 52
+Peacemaker,"{`"Peace ?maker ?\\(New Earth`"}",f,{21323},Post-Crisis
+Peacemaker,"{`"Peace ?maker ?\\(Posts?(-| )?C(risis)?`"}",f,{21323},Post-Crisis

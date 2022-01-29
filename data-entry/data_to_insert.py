@@ -106,44 +106,6 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
-
-id = get_rt_id(cur, 'Respect Peacemaker (DC Comics)', 'https://redd.it/sf5sg2')
-add_data(['Peace ?maker'],
-'Peacemaker',
-False,
-False,
-[
-    ['Peace ?maker ?\(DC( Comics)?\)']
-],
-'DC',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-add_data(['Peace ?maker'],
-'Peacemaker',
-False,
-False,
-[
-    ['Peace ?maker ?\(New 52'], ['Peace ?maker ?\(Prime Earth'], ['Peace ?maker ?\(Rebirth']
-],
-'New 52',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-add_data(['Peace ?maker'],
-'Peacemaker',
-False,
-False,
-[
-    ['Peace ?maker ?\(New Earth'], ['Peace ?maker ?\(Posts?(-| )?C(risis)?']
-],
-'Post-Crisis',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/sf5sg2/respect_peacemaker_dc_comics/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

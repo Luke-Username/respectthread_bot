@@ -15,9 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{5689,21294,21295}' WHERE rt_id_array='{5689}';
-UPDATE character SET displayed_version_name='Raimiverse Spider-Man' WHERE default_name='Green Goblin' AND displayed_version_name='Miss Kobayashis Dragon Maid';
-
 ########################################
 
 ########################################
