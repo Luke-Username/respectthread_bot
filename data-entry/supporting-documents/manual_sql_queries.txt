@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Zeus Respect Thread', 'https://comicvine.gamespot.com/profile/shootingnova/blog/zeus-respect-thread/99856/'); SELECT * FROM respectthread WHERE link='https://comicvine.gamespot.com/profile/shootingnova/blog/zeus-respect-thread/99856/';
+UPDATE character SET rt_id_array='{5812, ?}' WHERE rt_id_array='{5812}';
+
 ########################################
 
 ########################################
