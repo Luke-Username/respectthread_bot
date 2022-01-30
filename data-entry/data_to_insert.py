@@ -154,6 +154,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Jatkosota High School Sensha-dō Team (Girls und Panzer)', 'https://redd.it/sglzyc')
+add_data(['Jatkosota High School'],
+'Jatkosota High School',
+False,
+True,
+[
+    ['Girls und Panzer']
+],
+'Girls und Panzer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sglzyc/respect_the_jatkosota_high_school_senshad%C5%8D_team/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
