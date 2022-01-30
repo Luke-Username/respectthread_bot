@@ -106,6 +106,47 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+id = get_rt_id(cur, "Respect A-Train (Amazon''s The Boys)", 'https://redd.it/sfhlau')
+add_data(['A-Train'],
+'A-Train',
+False,
+False,
+[
+    ['The Boys']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sfhlau/respect_atrain_amazons_the_boys/
+
+add_data(['A Train'],
+'A Train',
+False,
+False,
+[
+    ['The Boys']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sfhlau/respect_atrain_amazons_the_boys/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman (Legion of Superheroes: Animated Series)', 'https://redd.it/sfy48b')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Legion of Super Heroes', 'Animated']
+],
+'Legion of Super Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sfy48b/respect_superman_legion_of_superheroes_animated/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
