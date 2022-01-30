@@ -15,6 +15,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET is_default=TRUE WHERE default_name='Spider-Bite';
+UPDATE character_name SET name='Spider-Bite' WHERE name='Spider(-| )?Bite';
+UPDATE character_name SET name='Black Panther' WHERE name='T''Challa';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('T' ?Chall?a', 'Star Lord T''Chall?a', -10);
+UPDATE character_name SET name='A(hs|sh)oka' WHERE name='Ahsoka';
+
 ########################################
 
 ########################################
