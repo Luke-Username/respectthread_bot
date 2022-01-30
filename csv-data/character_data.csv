@@ -10568,7 +10568,6 @@ Shaolin Cowboy,"{`"Shaolin Cowboy`"}",t,{2806},""
 Silver Soldiers,{Truthmonger},f,{2808},Truthmonger Comics
 Marv,"{`"Sin City`"}",f,{2809},Sin City
 Coach Euless Boss,"{`"Southern Bastards`"}",t,{2810},Southern Bastards
-The Spider,{Dynamite},f,{2811},Dynamite Entertainment
 Super Angry Birds,{IDW},t,{2812},IDW
 Leo Winters,"{`"Suicide Risk`"}",t,{2813},Suicide Risk
 Super Gods,"{`"Warren Ellis`"}",f,{2814},SuperGod
@@ -10596,6 +10595,7 @@ Tesarus,{IDW},f,{2770},IDW
 Tesarus,{Transformers?},f,{2770},IDW
 Vos,{IDW},f,{2770},IDW
 Shirtless Bear-Fighter,{Image},t,"{2807,21261}",""
+The Spider,"{`"The Spider.*Dynamite`"}",f,{2811},Dynamite Entertainment
 Vos,{Transformers?},f,{2770},IDW
 Galvatron,{IDW},f,{2771},IDW
 Battleships,"{`"\\((Ü|U)ber`"}",f,{2818},Über
@@ -15271,11 +15271,11 @@ Perseus,{Odysseus},f,{5810},Greek Mythology
 Perseus,{Orpheus},f,{5810},Greek Mythology
 Poseidon,{myth?(ical|olog(y|ical))?},f,{5811},Greek Mythology
 Poseidon,"{Zeus,Hades}",f,{5811},Greek Mythology
-Zeus,{myth?(ical|olog(y|ical))?s?},f,{5812},Greek Mythology
-Zeus,"{Poseidon,Hades}",f,{5812},Greek Mythology
-Zeus,"{`"Zeus vs`"}",f,{5812},Greek Mythology
-Zeus,{Jesus},f,{5812},Greek Mythology
-Zeus,"{`"Greek (Gods?|Pantheon)`"}",f,{5812},Greek Mythology
+Zeus,{myth?(ical|olog(y|ical))?s?},f,"{5812,21324}",Greek Mythology
+Zeus,"{Poseidon,Hades}",f,"{5812,21324}",Greek Mythology
+Zeus,"{`"Zeus vs`"}",f,"{5812,21324}",Greek Mythology
+Zeus,{Jesus},f,"{5812,21324}",Greek Mythology
+Zeus,"{`"Greek (Gods?|Pantheon)`"}",f,"{5812,21324}",Greek Mythology
 Connor Kent,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{1762},DC
 Connor Kent,{PC},f,{1762},Post-Crisis
 Connor Kent,"{`"Earth(-| )(1|One)`"}",f,{1762},Post-Crisis
@@ -26177,3 +26177,6 @@ Peacemaker,"{`"Peace ?maker ?\\(Prime Earth`"}",f,{21323},New 52
 Peacemaker,"{`"Peace ?maker ?\\(Rebirth`"}",f,{21323},New 52
 Peacemaker,"{`"Peace ?maker ?\\(New Earth`"}",f,{21323},Post-Crisis
 Peacemaker,"{`"Peace ?maker ?\\(Posts?(-| )?C(risis)?`"}",f,{21323},Post-Crisis
+A-Train,"{`"The Boys`"}",f,{21325},The Boys
+A Train,"{`"The Boys`"}",f,{21325},The Boys
+Superman,"{`"Legion of Super Heroes`",Animated}",f,{21326},Legion of Super Heroes
