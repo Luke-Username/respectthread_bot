@@ -26137,7 +26137,6 @@ Hei-Ran,{Avatar},t,{21312},Avatar: TLA
 Hei-Ran,{A?TLA},t,{21312},Avatar: TLA
 Hei-Ran,{Bend(er|ing)},t,{21312},Avatar: TLA
 Hei-Ran,{Kyoshi},t,{21312},Avatar: TLA
-Spider-Bite,{Nathan},f,{21313},616
 Galactus,"{`"Galactus.*Movie Version`"}",f,{},121698
 Batman,"{`"Batman:? Year One`"}",f,{},Aronofsky
 Batman,{Darren},f,{},Aronofsky
@@ -26153,6 +26152,7 @@ Ainz Ooal Gown,{Overlord},t,"{21299,21310,21318}",Overlord
 Ainz,{Overlord},t,"{21299,21310,21318}",Overlord
 Ainz,"{`"vs\\.? Ainz`"}",t,"{21299,21310,21318}",Overlord
 Ainz,"{`"Ainz vs`"}",t,"{21299,21310,21318}",Overlord
+Spider-Bite,{Nathan},t,{21313},616
 Flash,"{`"Flash \\(Barry( Allen)?\\)`"}",f,{1582},New 52 / Rebirth
 Stormfront,"{`"The Boys`"}",f,{21319},"The Boys, 2019"
 Stormfront,{Homelander},f,{21319},"The Boys, 2019"
@@ -26180,3 +26180,10 @@ Peacemaker,"{`"Peace ?maker ?\\(Posts?(-| )?C(risis)?`"}",f,{21323},Post-Crisis
 A-Train,"{`"The Boys`"}",f,{21325},The Boys
 A Train,"{`"The Boys`"}",f,{21325},The Boys
 Superman,"{`"Legion of Super Heroes`",Animated}",f,{21326},Legion of Super Heroes
+Godzilla,"{`"King of the Monsters`",`"Metaphor for Hiroshima`"}",f,{},""
+Guardians of the Multiverse,"{`"What( |-)if`"}",t,"{20200,20198,20201,20197}",MCU: What if...?
+Corinthian,{Sandman},f,{21327},Post-Crisis
+Corinthian,"{`"Posts?(-| )?C(risis)?`"}",f,{21327},Post-Crisis
+Corinthian,"{`"New(-| )Earth`"}",f,{21327},Post-Crisis
+Corinthian,{DC},f,{21327},Post-Crisis
+Jatkosota High School,"{`"Girls und Panzer`"}",t,{21328},Girls und Panzer

@@ -107,66 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 14811, "Respect Cu Chulainn, Ireland''s Child of Light! (Fate)", 'https://redd.it/sg8bca')
-
-########################################
-
-add_data(['Godzilla'],
-'Godzilla',
-False,
-False,
-[
-    ['King of the Monsters', 'Metaphor for Hiroshima']
-],
-'',
-'{}'
-)
-#
-
-########################################
-
-add_data(['Guardians of the Multiverse'],
-'Guardians of the Multiverse',
-True,
-True,
-[
-    ['What( |-)if']
-],
-'MCU: What if...?',
-'{20200, 20198, 20201, 20197}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/sg5aru/could_the_guardians_of_the_multiversewhat/huu2jp8/?context=3
-
-########################################
-
-id = get_rt_id(cur, 'Respect the Corinthian (DC Comics, Post Crisis)', 'https://redd.it/sgc51y')
-add_data(['Corinthian'],
-'Corinthian',
-False,
-False,
-[
-    ['Sandman'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth'], ['DC']
-],
-'Post-Crisis',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/sgc51y/respect_the_corinthian_dc_comics_post_crisis/
-
-########################################
-
-id = get_rt_id(cur, 'Respect the Jatkosota High School Sensha-dō Team (Girls und Panzer)', 'https://redd.it/sglzyc')
-add_data(['Jatkosota High School'],
-'Jatkosota High School',
-False,
-True,
-[
-    ['Girls und Panzer']
-],
-'Girls und Panzer',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/sglzyc/respect_the_jatkosota_high_school_senshad%C5%8D_team/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
