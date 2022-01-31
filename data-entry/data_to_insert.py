@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Isekai Quartet (Isekai Quartet)', 'https://redd.it/sgp4uv')
+add_data(['Isekai Quartet'],
+'Isekai Quartet',
+True,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sgp4uv/respect_the_isekai_quartet_isekai_quartet/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

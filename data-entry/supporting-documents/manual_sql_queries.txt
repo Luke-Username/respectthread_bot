@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Bakugou?' WHERE name='Bakugou';
+UPDATE character SET version='{"Young Justice ?\\(Young Justice"}' WHERE default_name='Young Justice' AND version='{"\\(Young Justice"}';
+
 ########################################
 
 ########################################
