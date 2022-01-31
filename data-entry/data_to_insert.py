@@ -107,6 +107,30 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['The Deep'],
+'The Deep',
+False,
+False,
+[
+    ['The Seven']
+],
+'The Boys, 2019',
+'{21316}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sgp7zb/homelander_ambushes_the_seven_a_la_omniman/hv0t5l7/?context=3
+
+id = get_rt_id(cur, 'Respect Shalltear Bloodfallen (Overlord)', 'https://redd.it/sh6d5e')
+add_data(['Shalltear'],
+'Shalltear',
+False,
+True,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sh6d5e/respect_shalltear_bloodfallen_overlord/
 
 ########################################
 
