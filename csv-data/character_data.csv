@@ -19575,6 +19575,7 @@ Ratty,"{Yellow,`"Pok(e|é)m(o|a)n Adventures`"}",f,{4390},Pokémon Adventures
 Ratatta,"{Yellow,`"Pok(e|é)m(o|a)n Adventures`"}",f,{4390},Pokémon Adventures
 Raticate,"{Yellow,`"Pok(e|é)m(o|a)n Adventures`"}",f,{4390},Pokémon Adventures
 Dody,"{Yellow,`"Pok(e|é)m(o|a)n Adventures`"}",f,{4390},Pokémon Adventures
+Sentry Bot,{Fallout},f,{},Fallout
 Doduo,"{Yellow,`"Pok(e|é)m(o|a)n Adventures`"}",f,{4390},Pokémon Adventures
 Gravvy,"{Yellow,`"Pok(e|é)m(o|a)n Adventures`"}",f,{4390},Pokémon Adventures
 Graveler,"{Yellow,`"Pok(e|é)m(o|a)n Adventures`"}",f,{4390},Pokémon Adventures
@@ -26188,3 +26189,7 @@ Corinthian,{DC},f,{21327},Post-Crisis
 Jatkosota High School,"{`"Girls und Panzer`"}",t,{21328},Girls und Panzer
 Young Justice,"{`"Young Justice ?\\(Young Justice`"}",f,{1020},Young Justice
 Isekai Quartet,{default},t,{21329},""
+John Henry Irons,"{`"Superman (&|and) Lois`"}",f,{},CW Arrowverse
+John Henry Irons,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
+John Henry Irons,{(DC)?CW},f,{},CW Arrowverse
+John Henry Irons,"{`"DC ?TV`"}",f,{},CW Arrowverse

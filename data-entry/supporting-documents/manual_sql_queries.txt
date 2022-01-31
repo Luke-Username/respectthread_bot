@@ -15,12 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sentry', 'Sentry Bot', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Super(-| )?man', '(Superman and Lois)', -1);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Super(-| )?man', '(Superman & Lois)', -1);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Super(-| )?man', 'Superman and Lois show', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Super(-| )?man', 'Superman & Lois show', 0);
-
 ########################################
 
 ########################################
