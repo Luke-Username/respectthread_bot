@@ -106,6 +106,33 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+add_data(['Sentry Bot'],
+'Sentry Bot',
+False,
+False,
+[
+    ['Fallout']
+],
+'Fallout',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sgvb8t/sentry_bot_fallout_4_specifically_vs_scorpitron/huyvk1n/?context=3
+
+########################################
+
+add_data(['John Henry Irons'],
+'John Henry Irons',
+False,
+False,
+[
+    ['Superman (&|and) Lois'], ['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+],
+'CW Arrowverse',
+'{}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

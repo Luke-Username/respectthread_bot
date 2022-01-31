@@ -164,6 +164,8 @@ Archie Comics
 Arrowverse
 	Version
 		['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+	Specific
+		['Super(-| )?man (&|and) Lois']
 	Displayed Version Name
 		"CW Arrowverse"
 
