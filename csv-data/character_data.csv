@@ -7343,7 +7343,6 @@ Terra,"{`"\\(Teen Titans?\\)`"}",f,{978},Teen Titans
 Aqualad,"{`"Aqualad \\(Teen Titans\\)`"}",f,{962},Teen Titans
 Zatanna,"{`"\\(Young Justice`"}",f,{1024},Young Justice
 Superboy,"{`"\\(Young Justice`"}",f,{1019},Young Justice
-Young Justice,"{`"\\(Young Justice`"}",f,{1020},Young Justice
 The Team,"{`"\\(Young Justice`"}",f,{1020},Young Justice
 Wonder Girl,"{`"\\(Young Justice`"}",f,{1023},Young Justice
 Zatanna,"{`"\\[Young Justice`"}",f,{1024},Young Justice
@@ -26187,3 +26186,5 @@ Corinthian,"{`"Posts?(-| )?C(risis)?`"}",f,{21327},Post-Crisis
 Corinthian,"{`"New(-| )Earth`"}",f,{21327},Post-Crisis
 Corinthian,{DC},f,{21327},Post-Crisis
 Jatkosota High School,"{`"Girls und Panzer`"}",t,{21328},Girls und Panzer
+Young Justice,"{`"Young Justice ?\\(Young Justice`"}",f,{1020},Young Justice
+Isekai Quartet,{default},t,{21329},""
