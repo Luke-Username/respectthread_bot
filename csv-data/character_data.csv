@@ -1819,7 +1819,6 @@ Robin Hood,{1938},f,{379},The Adventures of Robin Hood
 Vasquez,{Aliens},f,{380},Aliens
 Xenomorphs,{Alien},t,{381},Alien
 Drone,{Alien},f,{381},Alien
-Drone,{Aliens},f,{381},Alien
 Drone,{Xeno},f,{381},Alien
 Facehugger,{Alien},t,{381},Alien
 Predalien,{Requiem},t,{382},Alien vs Predator: Requiem
@@ -15281,7 +15280,6 @@ Connor Kent,"{`"Earth(-| )(1|One)`"}",f,{1762},Post-Crisis
 Connor Kent,"{`"Post(-| )?C(risis)?`"}",f,{1762},Post-Crisis
 Connor Kent,"{`"New(-| )Earth`"}",f,{1762},Post-Crisis
 Chairman,"{`"Prison School`"}",f,{4890},Prison School
-A-ko,"{`"Project A(-| )ko`"}",t,{4891},Project A-ko
 Rance,"{`"Rance 01`"}",f,{4892},Rance 01
 Ratman,"{`"Rat ?man ?\\(Rat ?man`"}",f,{4893},""
 Ratman,{heroe?s?},f,{4893},""
@@ -26193,3 +26191,14 @@ John Henry Irons,"{`"Superman (&|and) Lois`"}",f,{},CW Arrowverse
 John Henry Irons,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
 John Henry Irons,{(DC)?CW},f,{},CW Arrowverse
 John Henry Irons,"{`"DC ?TV`"}",f,{},CW Arrowverse
+A-ko,"{`"Project A(-| )ko`"}",f,{4891},Project A-ko
+The Deep,"{`"The Seven`"}",f,{21316},"The Boys, 2019"
+Shalltear,{Overlord},t,{21330},Overlord
+Vicious,"{`"Cowboy Bebop`"}",f,{21331},Cowboy Bebop
+Jim Pickens,"{`"Call ?Me ?Kevin`"}",f,{21332},CallMeKevin
+SCP-027,"{`"Vermin God`"}",t,{21333},""
+Beach,"{`"Beach \\(Old\\)`"}",f,{21334},Old
+Beach,"{`"Beach That Makes You Old`"}",f,{21334},Old
+Toda Seigen,{Tenkaichi},f,{21335},Tenkaichi
+Fūma Kotarō,{Tenkaichi},f,{21336},Tenkaichi
+Regulus Corneas,"{`"Re:? ?Zero`"}",t,{21337},Re:Zero

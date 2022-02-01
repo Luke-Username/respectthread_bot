@@ -15,11 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM respectthread WHERE id=6193;
-UPDATE character SET is_default=FALSE WHERE default_name='A-ko';
-UPDATE character_name SET default_name='Drones' WHERE name='Drones';
-DELETE FROM character WHERE default_name='Drones' AND version='{Aliens}';
-
 ########################################
 
 ########################################
