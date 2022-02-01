@@ -2739,7 +2739,7 @@ Resident Evil (film series)
 
 Re:Zero
 	Version
-		'{"Re:? ?Zero"}'
+		['Re:? ?Zero']
 	Displayed Version Name
 		"Re:Zero"
 
