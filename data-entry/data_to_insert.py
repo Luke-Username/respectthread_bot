@@ -107,6 +107,76 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Kazuma'],
+'Kazuma',
+False,
+False,
+[
+    ['Kazuma.*Luck|Luck.*Kazuma']
+],
+'KonoSuba',
+'{3785}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sia5fx/black_cat_vs_kazuma_from_konozuma/hv7kkgr/?context=3
+
+########################################
+
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Bat(-| )?mans?.*Movies|Movies.*Bat(-| )?mans?']
+],
+'Movies',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/siv8yl/mcu_iron_man_vs_batman_movies/hvb1iiw/?context=3
+
+########################################
+
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Dark K?night Trilogy']
+],
+'The Dark Knight',
+'{6531}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Artoria Pendragon, the Once and Future King! (Fate)', 'https://redd.it/sig1fc')
+add_data(['Artoria Pendragon'],
+'Artoria Pendragon',
+False,
+True,
+[
+    ['Fate'], ['Zero']
+],
+'Fate',
+'{6256}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sig1fc/respect_artoria_pendragon_the_once_and_future/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-744-ARC, Rust Monster (SCP Foundation)', 'https://redd.it/sivu5g')
+add_data(['SCP(-| )?744(-| )?ARC'],
+'SCP-744-ARC',
+False,
+True,
+[
+    ['Rust Monster']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sivu5g/respect_scp744arc_rust_monster_scp_foundation/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

@@ -19,7 +19,19 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Vision', 'Heat V
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Black Krrsantan (Star Wars, Canon)', 'https://redd.it/s4omlr'); SELECT * FROM respectthread WHERE link='https://redd.it/s4omlr';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Black Krrsantan';
+UPDATE character SET rt_id_array='{14376}' WHERE default_name='Nick Fury' AND displayed_version_name='MCU';
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Crusch Karsten (Re:Zero, Anime)', 'https://redd.it/sipe3i'); SELECT * FROM respectthread WHERE link='https://redd.it/sipe3i';
+UPDATE character SET rt_id_array='{?2}' WHERE default_name='Crusch Karsten';
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Quinlan Vos (Star Wars Canon)', 'https://redd.it/siraul'); SELECT * FROM respectthread WHERE link='https://redd.it/siraul';
+UPDATE character SET rt_id_array='{?3, 20323}' WHERE default_name='Quinlan Vos';
+
 ########################################
+
+UPDATE character SET version='{"Dark K?night", "2008"}' WHERE default_name='Batman' AND version='{"Dark Night"}';
 
 ########################################
 
