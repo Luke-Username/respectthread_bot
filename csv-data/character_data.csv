@@ -2318,7 +2318,6 @@ Rodan,"{`"King of the Monsters`"}",f,{6530},Monsterverse
 Rodan,{KOTM},f,{6530},Monsterverse
 Rodan,{2019},f,{6530},Monsterverse
 Rodan,{Legendary},f,{6530},Monsterverse
-Batman,"{`"Dark Night`"}",f,{6531},The Dark Knight
 Batman,{Nolan},f,{6531},Nolanverse
 Batman,{Nolanverse},f,{6531},Nolanverse
 Goatan,"{`"Power Rangers`"}",t,{6532},Power Rangers
@@ -10928,11 +10927,6 @@ NFL Superpro,{Marvel},t,{2459},616
 Nick Fury,{616},t,{2460},616
 Nick Fury,{Marvel},t,{2460},616
 Nick Fury,{comics?},t,{2460},616
-Nick Fury,"{`"Marvel Cinematic Universe`"}",f,{},MCU
-Nick Fury,{MCU},f,{},MCU
-Nick Fury,{199999},f,{},MCU
-Nick Fury,"{`"Infinity War`"}",f,{},MCU
-Nick Fury,"{`"End ?game`"}",f,{},MCU
 Night Thrasher,{616},t,{2461},616
 Night Thrasher,{Marvel},t,{2461},616
 Night Thrasher,{comics?},t,{2461},616
@@ -16116,7 +16110,6 @@ Felt,{Re:?Zero},f,{13077},Re:Zero
 Petelgeuse Romanee-Conti,{Re:?Zero},t,{13078},Re:Zero
 White Whale,{Re:?Zero},f,{13079},Re:Zero
 Julius Juukulius,{Re:?Zero},t,{13080},Re:Zero
-Crusch Karsten,{Re:?Zero},t,{13081},Re:Zero
 Beatrice,{Re:?Zero},f,{13082},Re:Zero
 Reinhard van Astrea,{Re:?Zero},t,{13083},Re:Zero
 Jack Frost,"{`"Mutant Killer Snowman`"}",f,{13084},The Mutant Killer Snowman
@@ -24483,8 +24476,6 @@ Tommy Oliver,"{`"Bat ?in ?the ?Sun`"}",f,{20320},Bat in the Sun
 Green Ranger,"{`"Bat ?in ?the ?Sun`"}",f,{20320},Bat in the Sun
 Sixth Brother,"{`"S(tar )?Wars`"}",f,{20321},Star Wars
 Zeb Orrelios,"{`"S(tar )?Wars`"}",t,{20322},Star Wars
-Quinlan Vos,"{`"S(tar )?Wars`"}",t,{20323},Star Wars
-Quinlan Vos,{Legends?},t,{20323},Star Wars
 Mech Cadet Yu,{Buddy},t,{20324},""
 Batman,"{Broken,`"Dark Multiverse`"}",f,{20325},Dark Multiverse
 Zachary Zatara,{DC},t,{20326},DC
@@ -25968,7 +25959,6 @@ Bonnie,"{`"Five Nights at Fredd(y|ies)`"}",f,{21242},FNAF
 Bonnie,{FNAF},f,{21242},FNAF
 Foxy,"{`"Five Nights at Fredd(y|ies)`"}",f,{21242},FNAF
 Foxy,{FNAF},f,{21242},FNAF
-Black Krrsantan,"{`"S(tar )?Wars`"}",t,{21242},Star Wars
 Tusken Raider,"{`"Book of Boba`"}",f,{21244},The Book of Boba Fett
 Cinos,{Sonic},f,{21245},Sonic the Hedgehog
 Sanjūrō,{Yojimbo},f,{21246},Yojimbo
@@ -25994,6 +25984,7 @@ Shion,{Asaemon},f,{21251},Hell's Paradise: Jigokuraku
 Lord Tensen,{Jigokuraku},t,{21252},Hell's Paradise: Jigokuraku
 Lord Tensen,"{`"Hell'?s Paradise`"}",t,{21252},Hell's Paradise: Jigokuraku
 Mu Dan,{Jigokuraku},f,{21252},Hell's Paradise: Jigokuraku
+Black Krrsantan,"{`"S(tar )?Wars`"}",t,{21338},Star Wars
 Mu Dan,"{`"Hell'?s Paradise`"}",f,{21252},Hell's Paradise: Jigokuraku
 Zhu Jin,{Jigokuraku},f,{21252},Hell's Paradise: Jigokuraku
 Zhu Jin,"{`"Hell'?s Paradise`"}",f,{21252},Hell's Paradise: Jigokuraku
@@ -26202,3 +26193,18 @@ Beach,"{`"Beach That Makes You Old`"}",f,{21334},Old
 Toda Seigen,{Tenkaichi},f,{21335},Tenkaichi
 Fūma Kotarō,{Tenkaichi},f,{21336},Tenkaichi
 Regulus Corneas,"{`"Re:? ?Zero`"}",t,{21337},Re:Zero
+Nick Fury,"{`"Marvel Cinematic Universe`"}",f,{14376},MCU
+Nick Fury,{MCU},f,{14376},MCU
+Nick Fury,{199999},f,{14376},MCU
+Nick Fury,"{`"Infinity War`"}",f,{14376},MCU
+Nick Fury,"{`"End ?game`"}",f,{14376},MCU
+Crusch Karsten,{Re:?Zero},t,{21339},Re:Zero
+Quinlan Vos,"{`"S(tar )?Wars`"}",t,"{21340,20323}",Star Wars
+Quinlan Vos,{Legends?},t,"{21340,20323}",Star Wars
+Batman,"{`"Dark K?night`",2008}",f,{6531},The Dark Knight
+Kazuma,{Kazuma.*Luck|Luck.*Kazuma},f,{3785},KonoSuba
+Batman,"{`"Bat(-| )?mans?.*Movies|Movies.*Bat(-| )?mans?`"}",f,{},Movies
+Batman,"{`"Dark K?night Trilogy`"}",f,{6531},The Dark Knight
+Artoria Pendragon,{Fate},t,{6256},Fate
+Artoria Pendragon,{Zero},t,{6256},Fate
+SCP-744-ARC,"{`"Rust Monster`"}",t,{21342},""
