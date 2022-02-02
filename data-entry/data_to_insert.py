@@ -107,22 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 6256, 'Respect Artoria Pendragon, the Once and Future King! (Fate)', 'https://redd.it/sig1fc')
-
-########################################
-
-add_data(['Godzilla'],
-'Godzilla',
-False,
-False,
-[
-    ['Godzilla vs\.? Kong']
-],
-'Monsterverse',
-'{280}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/sizymb/godzilla_vs_hulk/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
