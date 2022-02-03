@@ -107,6 +107,53 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13080, 'Respect Julius Juukulius (Re:Zero, Anime)', 'https://redd.it/sjk5qq')
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Robot Girls Team Z, G, and T! (Robot Girls Z)', 'https://redd.it/sj4ltd')
+add_data(['Robot Girls Z'],
+'Robot Girls Z',
+False,
+True,
+[
+    ['Robot Girls Team Z']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sj4ltd/respect_the_robot_girls_team_z_g_and_t_robot/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lady Hellbender, The Monster Queen of Seknarf Nine (Marvel, Earth-616)', 'https://redd.it/sjkmcw')
+add_data(['Lady Hellbender'],
+'Lady Hellbender',
+False,
+True,
+[
+    ['616'], ['Marvel']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sjkmcw/respect_lady_hellbender_the_monster_queen_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Demiurge (Overlord)', 'https://redd.it/sjkwdc')
+add_data(['Demiurge'],
+'Demiurge',
+False,
+True,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sjkwdc/respect_demiurge_overlord/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
