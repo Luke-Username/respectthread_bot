@@ -368,7 +368,6 @@ Simon,{MisFits},f,{93},MisFits
 Bellamy,{MisFits},f,{93},MisFits
 Casey Bowman,{Ninja},t,{94},Ninja
 Michael Scarn,"{`"The Office`"}",t,{95},The Office
-Michael,"{`"The Office`"}",f,{95},The Office
 Mose Schrute,"{`"The Office`"}",t,{96},The Office
 Mose,"{`"The Office`"}",f,{96},The Office
 Alara Kitan,{Orville},t,{97},The Orville
@@ -12765,8 +12764,6 @@ Perfect Cell,"{`"Dragon ?Ball`"}",t,{3277},Dragon Ball
 Perfect Cell,{DB(Z|S)?},t,{3277},Dragon Ball
 Broly,"{`"Dragon ?Ball`"}",t,"{3275,3274}",Dragon Ball
 Broly,{DB(Z|S)?},t,"{3275,3274}",Dragon Ball
-Trunks,"{`"Dragon ?Ball`"}",t,{3284},Dragon Ball
-Trunks,{DB(Z|S)?},t,{3284},Dragon Ball
 Gogeta,"{`"Dragon ?Ball`"}",t,{3285},Dragon Ball
 Gogeta,{DB(Z|S)?},t,{3285},Dragon Ball
 Gohan,"{`"Dragon ?Ball`"}",t,{3286},Dragon Ball
@@ -12791,6 +12788,8 @@ Vegeta,"{`"Dragon ?Ball`"}",t,{3313},Dragon Ball
 Vegeta,{DB(Z|S)?},t,{3313},Dragon Ball
 Master Roshi,"{`"Dragon ?Ball`"}",t,{3301},Dragon Ball
 Master Roshi,{DB(Z|S)?},t,{3301},Dragon Ball
+Trunks,"{`"Dragon ?Ball`"}",f,{3284},Dragon Ball
+Trunks,{DB(Z|S)?},f,{3284},Dragon Ball
 Mercenary Tao,"{`"Dragon ?Ball`"}",t,{3302},Dragon Ball
 Mercenary Tao,{DB(Z|S)?},t,{3302},Dragon Ball
 Yamcha,{Reincarnated},f,{3317},Dragon Ball: That Time I Got Reincarnated as Yamcha!
@@ -17772,11 +17771,6 @@ Calamity Mary,"{`"Magical Girl Raising Project`"}",t,"{3834,13348}",Magical Girl
 Musician of the Forest,"{`"Magical Girl Raising Project`"}",t,"{3835,13349}",Magical Girl Raising Project
 Swim Swim,"{`"Magical Girl Raising Project`"}",t,"{3836,13350}",Magical Girl Raising Project
 Swim Swim,"{`"Mahou Shoujo Ikusei Keikaku`"}",t,"{3836,13350}",Magical Girl Raising Project
-Doctor Strange,"{`"Marvel Cinematic Universe`"}",t,{13351},MCU
-Doctor Strange,{MCU},t,{13351},MCU
-Doctor Strange,{199999},t,{13351},MCU
-Doctor Strange,"{`"Infinity War`"}",t,{13351},MCU
-Doctor Strange,{IW},t,{13351},MCU
 Mistral,"{`"MGs?:? ?RR?`"}",f,{5255},Metal Gear
 Samus Aran,{Metroid},t,{5256},Metroid
 Dark Samus,{Metroid},t,{5257},Metroid
@@ -22182,11 +22176,7 @@ Sans,{Underpants},f,{16394},Underpants
 Jurota,{Kengan(verse)?},f,{16395},Kengan Asura
 Jurota,{Arashiyama},f,{16395},Kengan Asura
 Freddy Krueger,"{`"Power Rangers?`"}",f,"{16396,16397}",Power Rangers: A Nightmare On Elm Street
-Trunks,"{`"Team ?Four ?Star`"}",f,{16398},TeamFourStar
 Heracross,{Goh},f,{16745},Goh
-Trunks,{TFSA?},f,{16398},TeamFourStar
-Trunks,"{`"DBZ:? ?A`"}",f,{16398},TeamFourStar
-Trunks,"{`"D(ragon)? ?B(all)? ?Z:? Abridged`"}",f,{16398},TeamFourStar
 Shroobs,"{`"Mario (&|and) Luigi`"}",t,{16399},Mario & Luigi
 Dark Star,{Mario},f,{16400},Mario & Luigi
 Antasma,{Mario},t,{16401},Mario & Luigi
@@ -22249,6 +22239,8 @@ Agent Whiskey,{Kingsm(a|e)n},t,{16430},Kingsman
 Whiskey,{Kingsm(a|e)n},f,{16430},Kingsman
 Horse,"{`"Winter'?s Tale`",2014}",f,{16431},"Winter's Tale, 2014"
 Humungosaur,"{`"Ben (10|Ten(nyson)?)`"}",t,{16404},Ben 10
+Trunks,{TFSA?},f,{16398},TeamFourStar
+Trunks,"{`"DBZ:? ?A`"}",f,{16398},TeamFourStar
 Jason Voorhees,"{`"Never Hike`"}",f,{16432},Never Hike Alone
 Jason,"{`"Never Hike`"}",f,{16432},Never Hike Alone
 Dog,"{`"Black Mirror`"}",f,{16433},Black Mirror
@@ -22938,7 +22930,6 @@ Satoru Iwata,{Nintendo},t,{6392},Nintendo
 Legacy,"{`"Sentinels of the Multiverse`"}",f,{6393},Sentinels of the Multiverse
 Tachyon,"{`"Sentinels of the Multiverse`"}",f,{6394},Sentinels of the Multiverse
 Seymour,{Sandsverse},f,{6395},Sandsverse
-Demiurge,{Sandsverse},f,{6395},Sandsverse
 Babyboy,{Sandsverse},f,{6395},Sandsverse
 Simo Häyhä,"{`"White Death`"}",t,{6396},""
 Horace,{Sandsverse},f,{6397},Sandsverse
@@ -24957,7 +24948,6 @@ Dracula,"{`"Dracula ?\\(2020`"}",f,{20598},2020
 Dracula,"{`"Dracula ?\\(Netflix`"}",f,{20598},2020
 Aratsugu Yorino,{Semelparous},t,{20599},Semelparous
 Negan,"{`"Walking Dead|TWD`"}",t,{20600},The Walking Dead
-Paul,"{`"Walking Dead`",Jesus|Monroe}",f,{20601},The Walking Dead
 Rick,"{`"The Walking Dead`"}",f,{20602},The Walking Dead
 Rick,"{`"\\(Walking Dead`"}",f,{20602},The Walking Dead
 Rick,"{`"Rick Grimes`"}",f,{20602},The Walking Dead
@@ -25790,7 +25780,6 @@ Breakdown,{Norcutt},f,{21178},Flashpoint
 Breakdown,"{`"Blew Up the Kid`"}",f,{21178},Flashpoint
 The Avengers,{14325},f,{21179},14325
 Spider-Man,"{`"Battle Of New York`"}",f,{261},MCU
-Doctor Strange,"{`"Battle Of New York`"}",f,{13351},MCU
 Gilgamesh,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Gilgamesh,{MCU},f,{},MCU
 Thena,"{`"Marvel Cinematic Universe`"}",f,{},MCU
@@ -25810,6 +25799,7 @@ Six Stones,{comics},t,{7484},616
 Six Stones,{616},t,{7484},616
 Invincible,"{`"Invincible ?\\(Invincible`"}",f,"{1961,17671}",""
 Super Brainz,"{Plants,Zombies}",t,{20378},Plants vs. Zombies
+Doctor Strange,"{`"Battle Of New York`"}",f,{13351},MCU
 Super Brainz,{PvZ},t,{20378},Plants vs. Zombies
 Super Brainz,"{`"Garden Warfare`"}",t,{20378},Plants vs. Zombies
 Servants,"{`"Fate(/| )Zero`"}",f,"{20234,20236,20235,21175,5787}",Fate/Zero
@@ -26209,3 +26199,17 @@ Artoria Pendragon,{Fate},t,{6256},Fate
 Artoria Pendragon,{Zero},t,{6256},Fate
 SCP-744-ARC,"{`"Rust Monster`"}",t,{21342},""
 Godzilla,"{`"Godzilla vs\\.? Kong`"}",f,{280},Monsterverse
+Doctor Strange,"{`"Marvel Cinematic Universe`"}",f,{13351},MCU
+Doctor Strange,{MCU},f,{13351},MCU
+Doctor Strange,{199999},f,{13351},MCU
+Doctor Strange,"{`"Infinity War`"}",f,{13351},MCU
+Doctor Strange,{IW},f,{13351},MCU
+Trunks,"{`"Team ?Four ?Star`"}",f,{16398},TeamFourStar
+Trunks,"{`"D(ragon)? ?B(all)? ?Z:? Abridged`"}",f,{16398},TeamFourStar
+Paul,"{Jesus,Monroe}",f,{20601},The Walking Dead
+Robot Girls Z,"{`"Robot Girls Team Z`"}",t,{21343},""
+Lady Hellbender,{616},t,{21344},616
+Lady Hellbender,{Marvel},t,{21344},616
+Data of Zahard,"{`"Tower of God`"}",f,{21346},Tower of God
+Demiurge,{Sandsverse},f,{6395},Sandsverse
+Demiurge,{Overlord},f,{21345},Overlord
