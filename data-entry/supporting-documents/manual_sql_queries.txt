@@ -16,6 +16,7 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 DELETE FROM character WHERE default_name='Michael' AND verson='{"The Office"}';
+UPDATE character SET is_default=FALSE WHERE default_name='Doctor Strange' AND displayed_version_name='MCU';
 
 ########################################
 
