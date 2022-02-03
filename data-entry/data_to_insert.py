@@ -156,6 +156,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Data of Zahard, the Young King!(Tower of God)', 'https://redd.it/sjlxj9')
+add_data(['Data( of)? Zahard'],
+'Data of Zahard',
+False,
+False,
+[
+    ['Tower of God']
+],
+'Tower of God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sjlxj9/respect_the_data_of_zahard_the_young_kingtower_of/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

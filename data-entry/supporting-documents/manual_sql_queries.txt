@@ -17,6 +17,9 @@ UPDATE character_name SET name='' WHERE...
 
 DELETE FROM character WHERE default_name='Michael' AND verson='{"The Office"}';
 UPDATE character SET is_default=FALSE WHERE default_name='Doctor Strange' AND displayed_version_name='MCU';
+UPDATE character SET is_default=FALSE WHERE default_name='Trunks';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Jesus', 'Jesus Built My Hotrod', 0);
+UPDATE character SET version='{"Jesus", "Monroe"}' WHERE version='{"Walking Dead", "Jesus|Monroe"}';
 
 ########################################
 
