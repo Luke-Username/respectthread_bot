@@ -11216,7 +11216,6 @@ Caliborn,Caliborn,f
 Gwenom,Gwenom,f
 Ghost(-| )?Spider,Ghost-Spider,f
 Party Thor,Party Thor,f
-(Doctor|Dr\\.?) Strange,Doctor Strange,f
 (Evil|Dark)( Doctor|Dr\\.?)? ?Strange,Doctor Strange Supreme,f
 Strange Supreme,Doctor Strange Supreme,f
 Captain Carter,Captain Carter,f
@@ -11961,3 +11960,4 @@ SCP(-| )?744(-| )?ARC,SCP-744-ARC,f
 Robot Girls Z,Robot Girls Z,f
 Lady Hellbender,Lady Hellbender,f
 Data( of)? Zahard,Data of Zahard,f
+(Doctor|Dr\.?) ?Strange,Doctor Strange,f
