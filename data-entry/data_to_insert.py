@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect T''Challa, the Black Panther (Fantastic Four [1994 Cartoon])", 'https://redd.it/sjwt9u')
+add_data(['Black ?Panther'],
+'Black Panther',
+False,
+False,
+[
+    ['Fantastic Four', '1994']
+],
+'Fantastic Four, 1994',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sjwt9u/respect_tchalla_the_black_panther_fantastic_four/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

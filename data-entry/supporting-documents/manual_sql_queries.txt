@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{8452}';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Cloud', 'Cloud of Darkness', 0);
+
 ########################################
 
 ########################################
