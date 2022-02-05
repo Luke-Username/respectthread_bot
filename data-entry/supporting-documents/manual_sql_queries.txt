@@ -20,7 +20,12 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Cloud', 'Cloud o
 
 ########################################
 
+UPDATE character_name SET name='(Mr\.?|Mister) Incred(ib|bi)le' WHERE name='(Mr\.?|Mister) Incredible';
+
 ########################################
+
+UPDATE character SET rt_id_array='{14811}' WHERE rt_id_array='{6253}';
+UPDATE character SET version='{"Top \(DC\)"}' WHERE default_name='Top' AND version='{"\\(DC\\)"}';
 
 ########################################
 

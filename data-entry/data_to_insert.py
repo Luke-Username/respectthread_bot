@@ -107,6 +107,24 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3694, 'Respect Wakatsuki Takeshi, "The Wild Tiger" (Kengan Asura/Omega)', 'https://redd.it/sk6elo')
+
+########################################
+
+add_data(['Popeye'],
+'Popeye',
+False,
+False,
+[
+    ['Popeyes?.*chicken|chicken.*Popeyes?']
+],
+'',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ski79v/how_many_nikocado_avocados_would_it_take_to/hvl7iiy/?context=3
+
+########################################
+
 id = get_rt_id(cur, "Respect T''Challa, the Black Panther (Fantastic Four [1994 Cartoon])", 'https://redd.it/sjwt9u')
 add_data(['Black ?Panther'],
 'Black Panther',
@@ -119,6 +137,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/sjwt9u/respect_tchalla_the_black_panther_fantastic_four/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lolong Donaire, "The Monster of Manila" (Kengan Omega)', 'https://redd.it/sk4kbu')
+add_data(['(L|R)ol(ó|o)ng? Donaire'],
+'Lolong Donaire',
+False,
+True,
+[
+    ['Kengan(verse)?']
+],
+'Kengan Asura',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sk4kbu/respect_lolong_donaire_the_monster_of_manila/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Steve! (Minecraft Anime)', 'https://redd.it/sk5kbn')
+add_data(['Steve'],
+'Steve',
+False,
+False,
+[
+    ['Minecraft Anime']
+],
+'Minecraft Anime',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sk5kbn/respect_steve_minecraft_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cocytus (Overlord)', 'https://redd.it/skiwzm')
+add_data(['Cocytus'],
+'Cocytus',
+False,
+False,
+[
+    ['Overlord'], ['Ainz Ooal Gown'], ['Akainu']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/skiwzm/respect_cocytus_overlord/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sun Wukong, the Monkey King (Journey to the West, Overly Sarcastic Productions)', 'https://redd.it/skkm7p')
+add_data(['Sun Wu ?Kong'],
+'Sun Wukong',
+False,
+False,
+[
+    ['Overly Sarcastic Productions']
+],
+'Overly Sarcastic Productions',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/skkm7p/respect_sun_wukong_the_monkey_king_journey_to_the/
 
 ########################################
 
