@@ -221,7 +221,8 @@ Avatar: The Last Airbender / The Legend of Korra
 
 The Avengers: Earth's Mightiest Heroes
 	Version
-		['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH']
+		['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH'],
+		["Earth''?s? Mightiest Heroes", 'Disney']
 	Acronyms
 		['EMH']
 	Displayed Version Name

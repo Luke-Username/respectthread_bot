@@ -185,6 +185,57 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Pleiades Seven Sisters! (Overlord)', 'https://redd.it/sljq7w')
+add_data(['Pleiades'],
+'Pleiades',
+True,
+False,
+[
+    ['Overlord'], ['Ainz Ooal Gown']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sljq7w/respect_the_pleiades_seven_sisters_overlord/
+
+add_data(['Yuri Alpha'],
+'Yuri Alpha',
+False,
+True,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sljq7w/respect_the_pleiades_seven_sisters_overlord/
+
+add_data(['Lupusregina Beta'],
+'Lupusregina Beta',
+False,
+True,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sljq7w/respect_the_pleiades_seven_sisters_overlord/
+
+add_data(['Narberal Gamma'],
+'Narberal Gamma',
+False,
+True,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sljq7w/respect_the_pleiades_seven_sisters_overlord/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Sun Wukong, the Monkey King (Journey to the West, Overly Sarcastic Productions)', 'https://redd.it/skkm7p')
 add_data(['Sun Wu ?Kong'],
 'Sun Wukong',
@@ -197,6 +248,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/skkm7p/respect_sun_wukong_the_monkey_king_journey_to_the/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ultron (Avengers: Earth''s Mightiest Heroes)", 'https://redd.it/slc9xl')
+add_data(['Ultron'],
+'Ultron',
+False,
+False,
+[
+    ['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH'], ["Earth''?s? Mightiest Heroes", 'Disney']
+],
+'Earth''s Mightiest Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/slc9xl/respect_ultron_avengers_earths_mightiest_heroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alabaster Torrington! (Percy Jackson and the Olympians)', 'https://redd.it/slm0xx')
+add_data(['Alabaster'],
+'Alabaster',
+False,
+False,
+[
+    ['Torrington'], ['Percy Jackson']
+],
+'Percy Jackson',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/slm0xx/respect_alabaster_torrington_percy_jackson_and/
 
 ########################################
 
