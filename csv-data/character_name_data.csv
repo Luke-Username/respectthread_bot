@@ -1813,7 +1813,6 @@ Elastigirl,Elastigirl,f
 Helen Parr,Elastigirl,f
 Frozone,Frozone,f
 Jack(-| )Jack,Jack-Jack,f
-(Mr\.?|Mister) Incredible,Mr. Incredible,f
 Bob Parr,Mr. Incredible,f
 Omnidroid,Omnidroid,f
 Violet,Violet,f
@@ -1876,6 +1875,7 @@ Kagami Tsurugi,Kagami Tsurugi,f
 Sheen,Sheen,f
 Sheen the God,Sheen the God,f
 Silencio,Silencio,f
+(Mr\.?|Mister) Incred(ib|bi)le,Mr. Incredible,f
 Angela,Angela,f
 Broadway,Broadway,f
 Bronx,Bronx,f
@@ -11961,3 +11961,10 @@ Robot Girls Z,Robot Girls Z,f
 Lady Hellbender,Lady Hellbender,f
 Data( of)? Zahard,Data of Zahard,f
 (Doctor|Dr\.?) ?Strange,Doctor Strange,f
+(L|R)ol(ó|o)ng? Donaire,Lolong Donaire,f
+Cocytus,Cocytus,f
+Pleiades,Pleiades,t
+Yuri Alpha,Yuri Alpha,f
+Lupusregina Beta,Lupusregina Beta,f
+Narberal Gamma,Narberal Gamma,f
+Alabaster,Alabaster,f

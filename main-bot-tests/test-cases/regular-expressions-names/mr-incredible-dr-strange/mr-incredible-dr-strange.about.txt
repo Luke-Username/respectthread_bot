@@ -1,0 +1,1 @@
+For some reason, we need double backslashes when storing regExs in arrays, while we only need a single backslash when storing them as strings.

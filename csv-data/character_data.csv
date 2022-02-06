@@ -9385,8 +9385,6 @@ Zeke Stane,{Marvel},t,{8449},616
 Zeke Stane,{616},t,{8449},616
 Togata,"{`"Fire Punch`"}",f,{8450},Fire Punch
 Sakura,"{`"Sakura \\(Pok(e|é)mon`"}",f,{8451},Pokémon
-Gan,"{`"Stephan King`"}",f,{8452},The Dark Tower
-Gan,"{`"Dark Tower`"}",f,{8452},The Dark Tower
 Erin,"{`"You're Next`"}",f,{8453},You're Next
 Erin Harson,"{`"You're Next`"}",t,{8453},You're Next
 Kitana,"{`"Shaolin Monks`"}",f,{8454},Mortal Kombat: Shaolin Monks
@@ -9416,6 +9414,8 @@ Hanzo Shimada,{Overwatch},t,{5323},Overwatch
 Hanzo Shimada,{OW},t,{5323},Overwatch
 Crimson King,"{`"Stephan King`"}",t,{},The Dark Tower
 Crimson King,"{`"Dark Tower`"}",t,{},The Dark Tower
+Gan,"{`"Stephan King`"}",f,{},The Dark Tower
+Gan,"{`"Dark Tower`"}",f,{},The Dark Tower
 Kratos Aurion,{Symphonia},t,{4953},Tales of Symphonia
 Kratos,{Symphonia},f,{4953},Tales of Symphonia
 Master Chief,{Halo},t,{5098},Halo
@@ -22752,13 +22752,6 @@ Gilgamesh,"{`"TYPE(-| )?MOON`"}",t,{6252},Fate
 Gilgamesh,"{`"Nasu(-| )?verse`"}",t,{6252},Fate
 Gilgamesh,"{`"Stay ?k?Night`"}",t,{6252},Fate
 Gilgamesh,{F/?SN},t,{6252},Fate
-Lancer,"{`"Stay/? ?k?Night`"}",f,{6253},Fate
-Lancer,{F/?SN},f,{6253},Fate
-Cú Chulainn,"{`"TYPE(-| )?MOON`"}",f,{6253},Fate
-Cú Chulainn,"{`"Nasu(-| )?verse`"}",f,{6253},Fate
-Cú Chulainn,{Fate},f,{6253},Fate
-Cú Chulainn,"{`"Stay/? ?k?Night`"}",f,{6253},Fate
-Cú Chulainn,{F/?SN},f,{6253},Fate
 Rider,"{`"Stay/? ?k?Night`"}",f,{6254},Fate
 Rider,{F/?SN},f,{6254},Fate
 Rider,"{`"Rider ?\\(Fate\\)`"}",f,{6254},Fate
@@ -25695,7 +25688,6 @@ Kate Spencer,"{`"\\(DC\\)`"}",t,{1566},DC
 Heat Wave,"{`"\\(DC\\)`"}",f,{1599},Post-Crisis
 Mirror Master,"{`"\\(DC\\)`"}",t,{1601},""
 Pied Piper,"{`"\\(DC\\)`"}",f,{1602},""
-Top,"{`"\\(DC\\)`"}",f,{1603},DC
 Green Arrow,"{`"\\(DC\\)`"}",t,"{1610,1611}",DC
 Plastic Man,"{`"\\(DC\\)`"}",t,"{1650,1651}",DC
 Yellow Lantern Corps,"{`"\\(DC\\)`"}",t,{1674},DC
@@ -26213,3 +26205,30 @@ Lady Hellbender,{Marvel},t,{21344},616
 Data of Zahard,"{`"Tower of God`"}",f,{21346},Tower of God
 Demiurge,{Sandsverse},f,{6395},Sandsverse
 Demiurge,{Overlord},f,{21345},Overlord
+Lancer,"{`"Stay/? ?k?Night`"}",f,{14811},Fate
+Lancer,{F/?SN},f,{14811},Fate
+Cú Chulainn,"{`"TYPE(-| )?MOON`"}",f,{14811},Fate
+Cú Chulainn,"{`"Nasu(-| )?verse`"}",f,{14811},Fate
+Cú Chulainn,{Fate},f,{14811},Fate
+Cú Chulainn,"{`"Stay/? ?k?Night`"}",f,{14811},Fate
+Cú Chulainn,{F/?SN},f,{14811},Fate
+Top,"{`"Top \\(DC\\)`"}",f,{1603},DC
+Popeye,{Popeyes?.*chicken|chicken.*Popeyes?},f,{},""
+Black Panther,"{`"Fantastic Four`",1994}",f,{21347},"Fantastic Four, 1994"
+Lolong Donaire,{Kengan(verse)?},t,{21348},Kengan Asura
+Steve,"{`"Minecraft Anime`"}",f,{21349},Minecraft Anime
+Cocytus,{Overlord},f,{21350},Overlord
+Cocytus,"{`"Ainz Ooal Gown`"}",f,{21350},Overlord
+Cocytus,{Akainu},f,{21350},Overlord
+Pleiades,{Overlord},f,{21351},Overlord
+Pleiades,"{`"Ainz Ooal Gown`"}",f,{21351},Overlord
+Yuri Alpha,{Overlord},t,{21351},Overlord
+Lupusregina Beta,{Overlord},t,{21351},Overlord
+Narberal Gamma,{Overlord},t,{21351},Overlord
+Sun Wukong,"{`"Overly Sarcastic Productions`"}",f,{21352},Overly Sarcastic Productions
+Ultron,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{21353},Earths Mightiest Heroes
+Ultron,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{21353},Earths Mightiest Heroes
+Ultron,"{`"A(vengers)?: ?EMH`"}",f,{21353},Earths Mightiest Heroes
+Ultron,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{21353},Earths Mightiest Heroes
+Alabaster,{Torrington},f,{21354},Percy Jackson
+Alabaster,"{`"Percy Jackson`"}",f,{21354},Percy Jackson
