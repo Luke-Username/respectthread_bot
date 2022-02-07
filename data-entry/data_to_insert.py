@@ -107,6 +107,30 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Raiden'],
+'Raiden',
+False,
+False,
+[
+    ['Cyborg']
+],
+'Metal Gear',
+'{5248}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/slxgi2/raiden_vs_ben_10/
+
+add_data(['Armstrong'],
+'Armstrong',
+False,
+False,
+[
+    ['Raiden']
+],
+'Metal Gear',
+'{5250}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/slxgi2/raiden_vs_ben_10/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
