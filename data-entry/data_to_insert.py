@@ -107,6 +107,39 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 10823, 'Respect Amadeus Cho, The Totally Awesome Hulk (Marvel, 616)', 'https://redd.it/smpqc5')
+update_respectthread(cur, 13083, 'Respect Reinhard van Astrea (Re:Zero, Anime)', 'https://redd.it/smrco6')
+
+########################################
+
+add_data(['He(-| )?Man'],
+'He-Man',
+False,
+False,
+[
+    ['Super(-| )?man'], ['Wonder ?Woman']
+],
+'DC',
+'{1909}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/smsggm/heman_vs_wonder_woman/
+
+########################################
+
+add_data(['Todo'],
+'Todo',
+False,
+False,
+[
+    ['Jujutsu Kaisen']
+],
+'Jujutsu Kaisen',
+'{14431}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sn0oz1/akaza_demon_slayer_vs_todo_jujutsu_kaisen/
+
+########################################
+
 add_data(['Raiden'],
 'Raiden',
 False,
@@ -205,6 +238,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/smo23l/respect_harry_potter_harry_potter_tiein_games/
+
+########################################
+
+id = get_rt_id(cur, 'RESPECT Gow (Avatar The Last Airbender)', 'https://redd.it/smsk09')
+add_data(['Gow'],
+'Gow',
+False,
+False,
+[
+    ['Gow ?\(Avatar']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/smsk09/respect_gow_avatar_the_last_airbender/
 
 ########################################
 

@@ -16,6 +16,7 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 DELETE FROM  character WHERE default_name='Doctor Strange' AND version='{"Marvel"}';
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{1837}';
 
 ########################################
 
