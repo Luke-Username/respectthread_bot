@@ -7163,7 +7163,6 @@ Blackheart,{Marvel},t,{2193},616
 Blackheart,{comics?},t,{2193},616
 Blackheart,{2007},t,{},2007
 Doctor Strange,{616},t,"{2194,2195}",616
-Doctor Strange,{Marvel},t,"{2194,2195}",616
 Squid Girl,"{`"Ika Musume`"}",t,{4807},Shinryaku! Ika Musume
 Blue,"{`"Cyber Blue`"}",f,{4722},Cyber Blue
 Bender,{Futurama},f,{7684},Futurama
@@ -8448,8 +8447,6 @@ Trigon,"{`"Prime(-| )Earth`"}",t,{1836},DC
 Trigon,{Rebirth},t,{1836},DC
 Trigon,{Injustice},t,{1836},DC
 Trigon,"{`"Teen Titans\\)`"}",f,{},Teen Titans
-Doctor Manhattan,{DC},t,{1837},DC
-Doctor Manhattan,{Watchmen},t,{1837},DC
 Ozymandias,{Watchmen},f,{1838},Watchmen
 Ozymandias,{Rorschach},f,{1838},Watchmen
 Ozymandias,{Batman},f,{1838},Watchmen
@@ -8503,6 +8500,8 @@ Garviel Loken,{(WH)?40K},t,{8332},Warhammer 40k
 Garviel Loken,{Warhammer},t,{8332},Warhammer 40k
 Captain Marvel,"{`"Earth(-| )S`"}",f,{8333},Earth-S
 Shooter,"{`"Luther Strode`"}",f,{8334},Luther Strode
+Doctor Manhattan,{DC},t,{},DC
+Doctor Manhattan,{Watchmen},t,{},DC
 Fatal Five,"{`"Justice League vs. the Fatal Five`"}",f,{8335},Justice League vs. the Fatal Five
 Fatal Five,{DCAU},f,{8335},Justice League vs. the Fatal Five
 Fatal Five,{Timmverse},f,{8335},Justice League vs. the Fatal Five
@@ -26232,3 +26231,14 @@ Ultron,"{`"A(vengers)?: ?EMH`"}",f,{21353},Earths Mightiest Heroes
 Ultron,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{21353},Earths Mightiest Heroes
 Alabaster,{Torrington},f,{21354},Percy Jackson
 Alabaster,"{`"Percy Jackson`"}",f,{21354},Percy Jackson
+He-Man,"{`"Super(-| )?man`"}",f,{1909},DC
+He-Man,"{`"Wonder ?Woman`"}",f,{1909},DC
+Todo,"{`"Jujutsu Kaisen`"}",f,{14431},Jujutsu Kaisen
+Raiden,{Cyborg},f,{5248},Metal Gear
+Armstrong,{Raiden},f,{5250},Metal Gear
+Sebas Tian,{Overlord},t,{21355},Overlord
+Odysseus,{Fate},f,{21356},Fate
+Shang-Chi,{13116},f,{21357},13116
+Bear-O,"{`"Inside Job`"}",f,{21358},Inside Job
+Harry Potter,"{`"Harry Potter.*Games`"}",f,{21359},Games
+Gow,"{`"Gow ?\\(Avatar`"}",f,{21360},Avatar: TLA
