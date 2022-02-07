@@ -133,6 +133,81 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Sebas Tian, the Butler of Steel! (Overlord)', 'https://redd.it/sm5c3f')
+add_data(['Sebas Tian'],
+'Sebas Tian',
+False,
+True,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sm5c3f/respect_sebas_tian_the_butler_of_steel_overlord/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Odysseus! (Fate)', 'https://redd.it/smawsm')
+add_data(['Odysseus'],
+'Odysseus',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/smawsm/respect_odysseus_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shang-Chi (Marvel, Earth-13116)', 'https://redd.it/smgd10')
+add_data(['Shang(-| )Chi'],
+'Shang-Chi',
+False,
+False,
+[
+    ['13116']
+],
+'13116',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/smgd10/respect_shangchi_marvel_earth13116/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bear-O (Inside Job)', 'https://redd.it/smh84f')
+add_data(['Bear(-| )O'],
+'Bear-O',
+False,
+False,
+[
+    ['Inside Job']
+],
+'Inside Job',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/smh84f/respect_bearo_inside_job/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Harry Potter (Harry Potter Tie-In Games)', 'https://redd.it/smo23l')
+add_data(['Harry Potter'],
+'Harry Potter',
+False,
+False,
+[
+    ['Harry Potter.*Games']
+],
+'Games',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/smo23l/respect_harry_potter_harry_potter_tiein_games/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
