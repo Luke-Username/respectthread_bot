@@ -232,9 +232,9 @@ The Avengers: Earth's Mightiest Heroes
 
 Baki the Grappler / Grappler Baki
 	Version
-		'{"Baki"}'
+		['Baki(verse)?']
 	Sometimes
-		'{"grapplers?"}'
+		['grapplers?']
 	Displayed Version Name
 		"Baki"
 

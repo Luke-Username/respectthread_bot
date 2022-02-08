@@ -107,6 +107,82 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13098, 'Respect Elsa Granhiert (Re:Zero, Anime)', 'https://redd.it/snl1pf')
+
+########################################
+
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Strange Visitor']
+],
+'Strange Visitor',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/snj5gd/base_scp_682_vs_superman_strange_visitor/
+
+########################################
+
+add_data(['Dagger'],
+'Dagger',
+False,
+False,
+[
+    ['MCU heroes']
+],
+'MCU',
+'{6600}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sns5ac/hawkeye_vs_loki_mcu_hawkeye_has_one_year_prep_time/hw4xaxg/?context=3
+#https://www.reddit.com/r/whowouldwin/comments/rnjfzk/most_of_the_nonmcu_marvel_villains_vs_mcu_heroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Heatmor (Pokemon Anime)', 'https://redd.it/sne0g3')
+add_data(['Heatmor'],
+'Heatmor',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sne0g3/respect_heatmor_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aura and Mare! (Overlord)', 'https://redd.it/snmumf')
+add_data(['Aura'],
+'Aura',
+False,
+False,
+[
+    ['Aura and Mare|Mare and Aura'], ['Bello Fiora'], ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/snmumf/respect_aura_and_mare_overlord/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sikorsky (Baki)', 'https://redd.it/snpqv7')
+add_data(['Sikorsky'],
+'Sikorsky',
+False,
+False,
+[
+    ['Baki(verse)?']
+],
+'Baki',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/snpqv7/respect_sikorsky_baki/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
