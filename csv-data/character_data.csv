@@ -4125,8 +4125,6 @@ Norm,{FOP},f,{6597},Fairly OddParents
 Norm the Genie,"{`"Fairly Odd ?parents`"}",t,{6597},Fairly OddParents
 Norm the Genie,{FOP},t,{6597},Fairly OddParents
 Scorpia,"{`"She(-| )Ra`"}",f,{6598},She-Ra
-Dagger,"{`"Marvel Cinematic Universe`"}",f,{6600},MCU
-Dagger,{MCU},f,{6600},MCU
 Eddie Valiant,"{`"Rod?ger Rabbit`"}",t,{6601},Who Framed Roger Rabbit
 Pepé Le Pew,"{`"Looney Tunes`"}",t,{6602},Looney Tunes
 Kamen Rider Wizard,"{`"Kamen Rider`"}",t,{6603},Kamen Rider
@@ -4179,6 +4177,7 @@ Damian Wayne,"{`"Post(-| )52`"}",t,{1495},Post-Crisis / New 52
 Damian Wayne,"{`"Prime(-| )Earth`"}",t,{1495},Post-Crisis / New 52
 Damian Wayne,{Rebirth},t,{1495},Post-Crisis / New 52
 Damian Wayne,"{`"DC Animated Film Universe`"}",f,{1126},DC Animated Movie Universe
+Dagger,"{`"Dagger.*Marvel Cinematic Universe`"}",f,{6600},MCU
 Damian Wayne,{DCAFU},f,{1126},DC Animated Movie Universe
 Damian Wayne,"{`"DC Animated Movies?`"}",f,{1126},DC Animated Movie Universe
 Damian Wayne,{DCAMU},f,{1126},DC Animated Movie Universe
@@ -5558,7 +5557,6 @@ Interstellar Legion,"{`"College Humor`"}",f,{1258},College Humor
 Kim Jong Un,"{`"College Humor`"}",f,{1259},College Humor
 Mothman,"{`"Cyanide (and|&) Happiness`"}",f,{1260},Cyanide & Happiness
 Señor Cleanfist,"{`"Cyanide (and|&) Happiness`"}",t,{1261},Cyanide & Happiness
-Amadeus Cho,{616},t,{10823},616
 Shark Rad,"{`"Cyanide (and|&) Happiness`"}",t,{1262},Cyanide & Happiness
 Ted Bear,"{`"Cyanide (and|&) Happiness`"}",t,{2931},Cyanide & Happiness
 Akuma,"{`"One Minute Melee`"}",f,{1264},One Minute Melee
@@ -5637,7 +5635,6 @@ Nobu,"{`"Marvel Cinematic Universe`"}",f,{1296},MCU
 Nobu,{MCU},f,{1296},MCU
 Nobu,{199999},f,{1296},MCU
 Nobu,{Netflix},f,{1296},MCU
-Amadeus Cho,{comics?},t,{10823},616
 Punisher,"{`"Marvel Cinematic Universe`"}",f,{1297},MCU
 Punisher,{MCU},f,{1297},MCU
 Punisher,{199999},f,{1297},MCU
@@ -5936,7 +5933,6 @@ Super-Soldier,{Amalgam},f,{1472},Amalgam Comics
 Super-Soldier,"{Superman,`"Captain America`"}",f,{1472},Amalgam Comics
 Thorion,{Amalgam},t,{1473},Amalgam Comics
 Astro City,"{`"Astro City`"}",t,"{1474,1477,1475,1476,1478}",""
-Amadeus Cho,{Marvel},t,{10823},616
 Ms. Marvel,{616},t,{2031},616
 Ms. Marvel,{comics?},t,{2031},616
 Ms. Marvel,{Champions},t,{2031},616
@@ -6863,7 +6859,6 @@ Metron,{DC},t,{1741},DC
 Metron,"{`"New Gods?`"}",t,{1741},DC
 Metron,"{`"pre(-| )N(ew ?)?52`"}",t,{1741},DC
 Metron,"{`"pre(-| )?52`"}",t,{1741},DC
-Orion,{DC},f,{1742},DC
 Orion,"{`"New Gods?`"}",f,{1742},DC
 Orion,"{`"pre(-| )N(ew ?)?52`"}",f,{1742},DC
 Orion,"{`"pre(-| )?52`"}",f,{1742},DC
@@ -6886,6 +6881,7 @@ Beast,{(WH)?40K},f,{7621},Warhammer 40k
 Beast,{Warhammer},f,{7621},Warhammer 40k
 Overclocked Bender,{Futurama},t,{7622},Futurama
 Thor,"{`"Thor ?\\(DC( Comics)?\\)`"}",f,{1743},DC
+Orion,{Orion.*DC},f,{1742},DC
 Nathaniel Angel,"{`"Huynh Phu Dat`"}",t,{7623},Huynh Phu Dat
 Yoda,{LEGO},f,{7624},LEGO Star Wars
 IG-11,"{`"Star Wars`"}",t,{7625},Star Wars
@@ -26242,3 +26238,14 @@ Shang-Chi,{13116},f,{21357},13116
 Bear-O,"{`"Inside Job`"}",f,{21358},Inside Job
 Harry Potter,"{`"Harry Potter.*Games`"}",f,{21359},Games
 Gow,"{`"Gow ?\\(Avatar`"}",f,{21360},Avatar: TLA
+Dagger,{Dagger.*MCU},f,{6600},MCU
+Amadeus Cho,{616},t,"{21361,10823}",616
+Amadeus Cho,{comics?},t,"{21361,10823}",616
+Amadeus Cho,{Marvel},t,"{21361,10823}",616
+Superman,"{`"Strange Visitor`"}",f,{},Strange Visitor
+Dagger,"{`"MCU heroes`"}",f,{6600},MCU
+Heatmor,{Pok(e|é)m(o|a)n},t,{21362},Pokémon
+Aura,"{`"Aura and Mare|Mare and Aura`"}",f,{21363},Overlord
+Aura,"{`"Bello Fiora`"}",f,{21363},Overlord
+Aura,{Overlord},f,{21363},Overlord
+Sikorsky,{Baki(verse)?},f,{21364},Baki

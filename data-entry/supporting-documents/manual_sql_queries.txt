@@ -15,20 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ben (10|Ten(nyson)?)', '(Ben 10)', -1);
-DELETE FROM character WHERE name='M.U.T.O';
-
 ########################################
 
-UPDATE character SET rt_id_array='{"Orion.*DC"}' WHERE default_name='Orion' AND version='{"DC"}';
-UPDATE character SET rt_id_array='{"Dagger.*MCU"}' WHERE default_name='Dagger' AND version='{"MCU"}';
-UPDATE character SET rt_id_array='{"Dagger.*Marvel Cinematic Universe"}' WHERE default_name='Dagger' AND version='{"Marvel Cinematic Universe"}';
-UPDATE respectthread SET title='Respect Haruto Soma, Kamen Rider Wizard [Kamen Rider Wizard]' WHERE title='Respect Haruto Soma, Kamen Rider Wizard [Kamen Rider Wizard],';
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Amadeus Cho, Brawn (Marvel, 616)', 'https://redd.it/snlrhy'); SELECT * FROM respectthread WHERE link='https://redd.it/snlrhy';
-UPDATE character SET rt_id_array='{?, 10823}' WHERE rt_id_array='{10823}';
 
 ########################################
 
