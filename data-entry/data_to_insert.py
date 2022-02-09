@@ -106,6 +106,36 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+update_respectthread(cur, 2240, 'Respect Cosmic Spider-Man (Marvel Comics, Composite.)', 'https://redd.it/dn8jhi')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Xialing (Marvel Cinematic Universe)', 'https://redd.it/so025g')
+add_data(['Xialing'],
+'Xialing',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/so025g/respect_xialing_marvel_cinematic_universe/
+
+add_data(['Xu Xialing'],
+'Xu Xialing',
+False,
+True,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/so025g/respect_xialing_marvel_cinematic_universe/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
