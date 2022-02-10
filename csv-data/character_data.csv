@@ -26239,9 +26239,6 @@ Bear-O,"{`"Inside Job`"}",f,{21358},Inside Job
 Harry Potter,"{`"Harry Potter.*Games`"}",f,{21359},Games
 Gow,"{`"Gow ?\\(Avatar`"}",f,{21360},Avatar: TLA
 Dagger,{Dagger.*MCU},f,{6600},MCU
-Amadeus Cho,{616},t,"{21361,10823}",616
-Amadeus Cho,{comics?},t,"{21361,10823}",616
-Amadeus Cho,{Marvel},t,"{21361,10823}",616
 Superman,"{`"Strange Visitor`"}",f,{},Strange Visitor
 Dagger,"{`"MCU heroes`"}",f,{6600},MCU
 Heatmor,{Pok(e|é)m(o|a)n},t,{21362},Pokémon
@@ -26249,3 +26246,19 @@ Aura,"{`"Aura and Mare|Mare and Aura`"}",f,{21363},Overlord
 Aura,"{`"Bello Fiora`"}",f,{21363},Overlord
 Aura,{Overlord},f,{21363},Overlord
 Sikorsky,{Baki(verse)?},f,{21364},Baki
+Amadeus Cho,{616},t,"{21361,10823,21365}",616
+Amadeus Cho,{comics?},t,"{21361,10823,21365}",616
+Amadeus Cho,{Marvel},t,"{21361,10823,21365}",616
+Abracadabra,{Flash},f,{1592},DC
+Venom,"{`"Venom.*No Way Home`"}",f,{591},"Sony, 2018"
+Xialing,"{`"Marvel Cinematic Universe`"}",f,{21366},MCU
+Xialing,{MCU},f,{21366},MCU
+Xu Xialing,"{`"Marvel Cinematic Universe`"}",t,{21366},MCU
+Xu Xialing,{MCU},t,{21366},MCU
+Kyoko,"{`"River City Girls`"}",f,{21367},River City Girls
+Misako,"{`"River City Girls`"}",f,{21367},River City Girls
+Muchi,"{`"S(tar )?Wars`"}",f,{21368},Star Wars
+Muchi,"{`"The Bad Batch`"}",f,{21368},Star Wars
+Luviagelita,{Fate},t,{21369},Fate
+Yanagi,{Baki},f,{21370},Baki
+Lek,{Kyoshi},f,{21371},Avatar: TLA

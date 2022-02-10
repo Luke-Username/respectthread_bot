@@ -15,12 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Arrow', 'Green Arrow', -6);
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Amadeus Cho, The Eighth Smartest Person on the Planet (Marvel, 616)', 'https://redd.it/soe5me'); SELECT * FROM respectthread WHERE link='https://redd.it/soe5me';
-UPDATE character SET rt_id_array='{21361,10823, ?}' WHERE rt_id_array='{21361,10823}';
 
 ########################################
 
