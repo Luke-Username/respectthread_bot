@@ -3085,6 +3085,7 @@ Star Wars
 		['Fallen Order'], ['JFO']
 		['Mandalorian']
 		['Rise of (the )?Skywalker'], ['ROS'], ['Force Awakens'], ['TFA'], ['Last Jedi'], ['TLJ']
+		['The Bad Batch']
 	Displayed Version Name
 		"Star Wars"
 
