@@ -107,6 +107,67 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4988, 'Respect ZET (Zetman)', 'https://redd.it/sq0ly4')
+
+########################################
+
+id = get_rt_id(cur, "Respect Boba Fett''s Rancor (Star Wars: The Book Of Boba Fett)", 'https://redd.it/spz89c')
+add_data(['Rancor'],
+'Rancor',
+False,
+False,
+[
+    ['Boba|Fett']
+],
+'Boba Fett',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/spz89c/respect_boba_fetts_rancor_star_wars_the_book_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alphas (Zetman)', 'https://redd.it/sq0m3j')
+add_data(['Alphas'],
+'Alphas',
+False,
+False,
+[
+    ['Zetman']
+],
+'Zetman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sq0m3j/respect_alphas_zetman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spec (Baki)', 'https://redd.it/sq40bc')
+add_data(['Spec'],
+'Spec',
+False,
+False,
+[
+    ['Baki']
+],
+'Baki',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sq40bc/respect_spec_baki/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Albedo (Overlord)', 'https://redd.it/sq49pv')
+add_data(['Albedo'],
+'Albedo',
+False,
+False,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sq49pv/respect_albedo_overlord/
 
 ########################################
 
