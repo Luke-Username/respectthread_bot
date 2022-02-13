@@ -7780,13 +7780,13 @@ Superman,"{`"Superman For All Seasons`"}",f,{8274},Superman For All Seasons
 Tangle the Lemur,{IDW},t,{8275},IDW
 Classic Sonic,"{`"Sonic the Hedgehog`"}",t,{8276},""
 Modern Sonic,"{`"Sonic the Hedgehog`"}",t,{8277},""
-Sonic the Hedgehog,"{`"Sonic the Hedgehog`"}",t,"{8276,8277}",""
 Super Sonic,"{`"Sonic the Hedgehog`"}",t,"{8276,8277}",Sonic the Hedgehog
 Skipper,{Madagascar},f,"{8462,8262}",Madagascar
 Kowalski,{Madagascar},f,"{8463,8262}",Madagascar
 Rico,{Madagascar},f,"{8464,8262}",Madagascar
 Private,{Madagascar},f,"{8465,8262}",Madagascar
 Dracula,"{`"Dracula \\(Earth`",616}",f,{2205},616
+Sonic the Hedgehog,{default},t,"{8276,8277}",""
 Sonic,"{`"Sonic vs`"}",f,"{8276,8277}",Sonic the Hedgehog
 Sonic,"{`"vs.? Sonic`"}",f,"{8276,8277}",Sonic the Hedgehog
 Sonic,"{`"Sonic could beat`"}",f,"{8276,8277}",Sonic the Hedgehog
@@ -25634,7 +25634,6 @@ Donovan,{JJBA},f,{21144},Jojos Bizarre Adventure
 Dakkon,"{`"Magic:? The Gathering`"}",t,{21145},Magic: The Gathering
 Dakkon,{M:?TG},t,{21145},Magic: The Gathering
 Dakkon,"{`"Dakkon Blackblade`"}",t,{21145},Magic: The Gathering
-Spider-Man,{Tobey},f,{302},Raimiverse Spider-Man
 Spider-Man,"{`"Live action Spider(-| )?Man`"}",f,"{302,113,261}",Live-Action
 Sonic,"{`"Movie Sonic`"}",f,"{8607,17670}",2020 film
 Sonic,"{`"Sonic ?\\(Film\\)`"}",f,"{8607,17670}",2020 film
@@ -25880,7 +25879,6 @@ Do Bong-soon,"{`"Strong Girl Bong(-| )soon`"}",t,{21221},Strong Girl Bong-soon
 Jinpa,{Avatar},f,{21222},Avatar: TLA
 Jinpa,{Kyoshi},f,{21222},Avatar: TLA
 Spider-Men,{Holland},f,{261},MCU
-Spider-Men,{Tobey|Maguire},f,{302},Raimiverse Spider-Man
 Spider-Men,{Andrew|Garfield},f,{113},The Amazing Spider-Man
 Thor,"{Index,magician}",f,{15253},Toaru Majutsu no Index
 Yaza,"{`"Pok(e|é)m(o|a)n ReBurst`"}",f,{21223},Pokémon
@@ -26284,3 +26282,18 @@ Albert Wesker,"{`"Character Scramble`"}",f,{21390},Character Scramble
 Xu Wenwu,"{`"Marvel Cinematic Universe`"}",f,{21391},MCU
 Xu Wenwu,{MCU},f,{21391},MCU
 Xu Wenwu,"{`"Shang ?(-| )? ?Chi`"}",f,{21391},MCU
+Spider-Men,{Tobe?y|M(a|c)guire},f,{302},Raimiverse Spider-Man
+Spider-Man,{Tobe?y|M(a|c)guire},f,{302},Raimiverse Spider-Man
+Hit,"{`"Hit vs|vs\\.? Hit`",Naruto}",f,{3295},Dragon Ball
+Sonic,{Paramount},f,{8607},2020 film
+Thor,"{`"Thor ?\\(Avengers Assemble`"}",f,{},Avengers Assemble
+Thor,"{`"Avengers Assemble Thor`"}",f,{},Avengers Assemble
+Shinji Matou,{Fate},t,{21392},Fate
+Sue,"{`"Harry Dresden|Dresden Files`"}",f,{21393},Dresden Files
+Smiling Friends,"{`"Adult Swim`"}",t,{21394},""
+Dinosaur King,{card},t,{21395},""
+D'Bari,"{FOX,`"X(-| )?Men`"}",f,{21396},FOX
+D'Bari,"{`"Dark Phoenix`"}",f,{21396},FOX
+Vuk,"{FOX,`"X(-| )?Men`"}",f,{21396},FOX
+Vuk,"{`"Dark Phoenix`"}",f,{21396},FOX
+Hector Doyle,{Baki},f,{21397},Baki
