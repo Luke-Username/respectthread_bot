@@ -133,6 +133,18 @@ True,
 )
 #https://www.reddit.com/r/whowouldwin/comments/srv1an/the_flash_vs_the_juggernaut/hwu3qxd/?context=3
 
+add_data(['Cain Marko'],
+'Cain Marko',
+False,
+True,
+[
+    ['616'], ['Marvel']
+],
+'616',
+'{2395}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/srv1an/the_flash_vs_the_juggernaut/hwu7xth/?context=3
+
 ########################################
 
 id = get_rt_id(cur, "Respect Marci (Dota: Dragon''s Blood)", 'https://redd.it/srnjsp')
