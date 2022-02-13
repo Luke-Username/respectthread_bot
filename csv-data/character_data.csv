@@ -1322,7 +1322,6 @@ Warriors Three,{199999},f,{272},MCU
 Warriors Three,{movie},f,{272},MCU
 Warriors Three,{movies},f,{272},MCU
 Warriors Three,{Ragnarok},f,{272},MCU
-Jones,{Matrix},f,{275},The Matrix
 Jones,{Agent},f,{275},The Matrix
 Agent Johnson,{Matrix},t,{275},The Matrix
 Trinity,{Matrix},f,{279},The Matrix
@@ -26262,3 +26261,26 @@ Muchi,"{`"The Bad Batch`"}",f,{21368},Star Wars
 Luviagelita,{Fate},t,{21369},Fate
 Yanagi,{Baki},f,{21370},Baki
 Lek,{Kyoshi},f,{21371},Avatar: TLA
+Hercules,"{Thor,(un)?worthy}",f,{2447},616
+Lucifer,{Beyonders?},f,{1616},DC
+Rancor,{Boba|Fett},f,{21381},Boba Fett
+Alphas,{Zetman},f,{21382},Zetman
+Spec,{Baki},f,{21383},Baki
+Albedo,{Overlord},f,{21384},Overlord
+Mods,"{`"Mods ?\\(Star Wars`"}",f,{21385},Star Wars
+George Washington,{l7iVsdRbhnc},f,{21386},TheRealBradNeely
+George Washington,"{`"(The ?Real ?)?B(ra|ar)d ?Neely`"}",f,{21386},TheRealBradNeely
+George Washington,"{`"knife into heaven`"}",f,{21386},TheRealBradNeely
+George Washington,"{`"crystal horse`"}",f,{21386},TheRealBradNeely
+George Washington,"{`"made of radiation`"}",f,{21386},TheRealBradNeely
+Optimus Prime,"{`"Transformers:? Animated`"}",f,{21387},Transformers: Animated
+Captain Strong,{DC},f,"{21388,21389}",DC
+Captain Strong,"{`"Pre(-| )?Crisis`"}",f,{21388},Pre-Crisis
+Captain Strong,{PC},f,{21389},Post-Crisis
+Captain Strong,"{`"Posts?(-| )?C(risis)?`"}",f,{21389},Post-Crisis
+Captain Strong,"{`"New(-| )Earth`"}",f,{21389},Post-Crisis
+Captain Strong,"{`"Earth(-| )?bound`"}",f,{},EarthBound
+Albert Wesker,"{`"Character Scramble`"}",f,{21390},Character Scramble
+Xu Wenwu,"{`"Marvel Cinematic Universe`"}",f,{21391},MCU
+Xu Wenwu,{MCU},f,{21391},MCU
+Xu Wenwu,"{`"Shang ?(-| )? ?Chi`"}",f,{21391},MCU
