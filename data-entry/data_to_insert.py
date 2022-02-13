@@ -119,6 +119,49 @@ False,
 )
 #https://www.reddit.com/r/whowouldwin/comments/srawjy/whowhat_is_the_most_powerful_lovevraftian_being/
 
+########################################
+
+add_data(['The Juggernaut'],
+'The Juggernaut',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{2395}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/srv1an/the_flash_vs_the_juggernaut/hwu3qxd/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Marci (Dota: Dragon''s Blood)", 'https://redd.it/srnjsp')
+add_data(['Marci'],
+'Marci',
+False,
+False,
+[
+    ['Dota']
+],
+'Dota',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/srnjsp/respect_marci_dota_dragons_blood/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-6004, The Rainbow Serpent! (SCP Foundation)', 'https://redd.it/sro5su')
+add_data(['SCP ?(-| )? ?6004'],
+'SCP-6004',
+False,
+True,
+[
+    ['SCP Foundation']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sro5su/respect_scp6004_the_rainbow_serpent_scp_foundation/
 
 ########################################
 
