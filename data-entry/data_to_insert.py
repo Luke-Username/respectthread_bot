@@ -108,6 +108,35 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 4988, 'Respect ZET (Zetman)', 'https://redd.it/sq0ly4')
+update_respectthread(cur, 5521, "Respect Alice Liddell! (American McGee''s Alice)", 'https://redd.it/sr1ins')
+
+########################################
+
+add_data(['Hercules'],
+'Hercules',
+False,
+False,
+[
+    ['Thor', '(un)?worthy']
+],
+'616',
+'{2447}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sqgr2u/hercules_vs_unworthy_thor/hwlds17/?context=3
+
+########################################
+
+add_data(['Lucifer'],
+'Lucifer',
+False,
+False,
+[
+    ['Beyonders?']
+],
+'DC',
+'{1616}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sqlrl5/is_there_anyone_who_can_beat_lucifer/hwm94rw/?context=3
 
 ########################################
 
@@ -168,6 +197,134 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/sq49pv/respect_albedo_overlord/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Mods! (Star Wars Canon)', 'https://redd.it/sqbwdj')
+add_data(['Mods'],
+'Mods',
+False,
+False,
+[
+    ['Mods ?\(Star Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sqbwdj/respect_the_mods_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect George Washington (George Washington, Music Video)', 'https://redd.it/sqc4i6')
+add_data(['George Washington'],
+'George Washington',
+False,
+False,
+[
+    ['l7iVsdRbhnc'], ['(The ?Real ?)?B(ra|ar)d ?Neely'], ['knife into heaven'], ['crystal horse'], ['made of radiation']
+],
+'TheRealBradNeely',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sqc4i6/respect_george_washington_george_washington_music/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Optimus Prime (Transformers Animated)', 'https://redd.it/sqio7d')
+add_data(['Optimus Prime'],
+'Optimus Prime',
+False,
+False,
+[
+    ['Transformers:? Animated']
+],
+'Transformers: Animated',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sqio7d/respect_optimus_prime_transformers_animated/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Strong (DC, Pre-Crisis)', 'https://redd.it/squvdw')
+id2 = get_rt_id(cur, 'Respect Captain Strong (DC Comics, New 52/Rebirth)', 'https://redd.it/squvs5')
+add_data(['Captain Strong'],
+'Captain Strong',
+False,
+False,
+[
+    ['DC']
+],
+'DC',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/squvdw/respect_captain_strong_dc_precrisis/
+
+add_data(['Captain Strong'],
+'Captain Strong',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}, {}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/squvdw/respect_captain_strong_dc_precrisis/
+
+add_data(['Captain Strong'],
+'Captain Strong',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}, {}'.format(id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/squvdw/respect_captain_strong_dc_precrisis/
+
+add_data(['Captain Strong'],
+'Captain Strong',
+False,
+False,
+[
+    ['Earth(-| )?bound']
+],
+'EarthBound',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/squvdw/respect_captain_strong_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Albert Wesker (Character Scramble)', 'https://redd.it/sqw3k3')
+add_data(['Albert Wesker'],
+'Albert Wesker',
+False,
+False,
+[
+    ['Character Scramble']
+],
+'Character Scramble',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sqw3k3/respect_albert_wesker_character_scramble/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Xu Wenwu! (Marvel Cinematic Universe)', 'https://redd.it/sqy6no')
+add_data(['Xu Wenwu'],
+'Xu Wenwu',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU'],
+    ['Shang ?(-| )? ?Chi']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sqy6no/respect_xu_wenwu_marvel_cinematic_universe/
 
 ########################################
 

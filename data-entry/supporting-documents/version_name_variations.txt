@@ -917,9 +917,9 @@ Earth-8107
 
 EarthBound
 	Version
-		'{"Earth(-| )?bound"}'
+		['Earth(-| )?bound']
 	Sometimes Called
-		'{"Mother"}'
+		['Mother']
 	Displayed Version Name
 		"EarthBound"
 
@@ -2601,7 +2601,8 @@ Power Rangers
 
 Pre-Crisis
 	Version
-		'{"Pre(-| )?Crisis"}', '{"Silver(-| )?Age"}', '{"Earth(-| )(1|One)"}'
+		['Pre(-| )?Crisis']
+		['Silver(-| )?Age'], ['Earth(-| )(1|One)']
 	Displayed Version Name
 		"Pre-Crisis"
 
