@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET version='{"default"}' WHERE name='Sonic the Hedgehog' AND version='{"Sonic the Hedgehog"}';
+UPDATE character SET version='{"Tobe?y|M(a|c)guire"}' WHERE AND version='{"Tobey|Maguire"}';
+
 ########################################
 
 ########################################

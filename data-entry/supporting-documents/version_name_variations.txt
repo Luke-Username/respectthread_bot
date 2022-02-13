@@ -3646,7 +3646,7 @@ Xeelee Sequence
 
 X-Men
 	Version
-		'{"X(-| )?Men"}'
+		['X(-| )?Men']
 	Displayed Version Name
 		?
 
