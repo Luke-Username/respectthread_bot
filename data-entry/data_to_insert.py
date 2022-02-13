@@ -135,6 +135,18 @@ False,
 
 ########################################
 
+add_data(['Jean'],
+'Jean',
+False,
+False,
+[
+    ['Dark Phoenix']
+],
+'616',
+'{2368}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/srawjy/whowhat_is_the_most_powerful_lovevraftian_being/
+
 ########################################
 
 add_data(['Thor'],
