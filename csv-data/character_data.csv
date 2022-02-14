@@ -19963,6 +19963,7 @@ R.O.B,"{`"\\(Smash`"}",f,{5457},Super Smash Bros
 Ridley,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",f,{5458},Super Smash Bros
 Ridley,{SSBB},f,{5458},Super Smash Bros
 Ridley,"{`"\\(Smash`"}",f,{5458},Super Smash Bros
+Jean,"{`"Dark Phoenix`"}",f,{2368},616
 Tabuu,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",t,{5460},Super Smash Bros
 Tabuu,{SSBB},t,{5460},Super Smash Bros
 Tabuu,"{`"\\(Smash`"}",t,{5460},Super Smash Bros
@@ -26297,3 +26298,8 @@ D'Bari,"{`"Dark Phoenix`"}",f,{21396},FOX
 Vuk,"{FOX,`"X(-| )?Men`"}",f,{21396},FOX
 Vuk,"{`"Dark Phoenix`"}",f,{21396},FOX
 Hector Doyle,{Baki},f,{21397},Baki
+The Juggernaut,{616},t,{2395},616
+Cain Marko,{616},t,{2395},616
+Cain Marko,{Marvel},t,{2395},616
+Marci,{Dota},f,{21398},Dota
+SCP-6004,"{`"SCP Foundation`"}",t,{21399},""
