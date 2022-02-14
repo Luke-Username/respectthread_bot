@@ -107,6 +107,52 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6257, 'Respect Saber Alter! (Fate)', 'https://redd.it/ss42iy')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mountain Trolls (Harry Potter and the Methods of Rationality)', 'https://redd.it/ss80bv')
+add_data(['Mountain Trolls'],
+'Mountain Trolls',
+False,
+False,
+[
+    ['H(arry)? ?P(otter)?','Methods of Rationality']
+],
+'Harry Potter and the Methods of Rationality',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ss80bv/respect_mountain_trolls_harry_potter_and_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dio Brando (Death Battle!)', 'https://redd.it/ssetvv')
+add_data(['Dio Brando'],
+'Dio Brando',
+False,
+False,
+[
+    ['Death Battle']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ssetvv/respect_dio_brando_death_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Andy Von De Oniyate (Cowboy Bebop anime)', 'https://redd.it/ssk554')
+add_data(['Andy'],
+'Andy',
+False,
+False,
+[
+    ['Andy Von De Oniyate'], ['Cowboy Bebop']
+],
+'Cowboy Bebop',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ssk554/respect_andy_von_de_oniyate_cowboy_bebop_anime/
 
 ########################################
 
