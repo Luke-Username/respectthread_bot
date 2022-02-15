@@ -106,6 +106,35 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+id = get_rt_id(cur, 'Respect Mysterio, The King of Illusions (Complete Respect Thread)', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-mysterio-the-king-of-illusions-complete-re-2023048/')
+add_data(['Mysterio'],
+'Mysterio',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/st304m/omniman_image_comics_vs_sinister_six_marvel/hx17qxq/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Zorro! (Don Vega)', 'https://redd.it/st9ne9')
+add_data(['Zorro'],
+'Zorro',
+False,
+False,
+[
+    ['Don Vega']
+],
+'Don Vega',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/st9ne9/respect_zorro_don_vega/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
