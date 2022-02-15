@@ -18,6 +18,8 @@ UPDATE character_name SET name='' WHERE...
 UPDATE character SET rt_id_array='{1255}' WHERE default_name='Sypha' AND version='{"Netflix"}';
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Doom', 'Doom Patrol', 0);
 
+UPDATE character_name SET name='Bill Ciphers?' WHERE name='Bill Cipher';
+
 ########################################
 
 ########################################

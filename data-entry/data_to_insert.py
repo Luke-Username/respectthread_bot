@@ -111,6 +111,20 @@ update_respectthread(cur, 6257, 'Respect Saber Alter! (Fate)', 'https://redd.it/
 
 ########################################
 
+add_data(['Leon'],
+'Leon',
+False,
+False,
+[
+    ['Akame Ga Kill']
+],
+'Akame Ga Kill!',
+'{3004}'
+)
+#https://www.reddit.com/r/respectthreads/comments/4wz0ze/respect_leone_akame_ga_kill/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Mountain Trolls (Harry Potter and the Methods of Rationality)', 'https://redd.it/ss80bv')
 add_data(['Mountain Trolls'],
 'Mountain Trolls',
@@ -153,6 +167,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ssk554/respect_andy_von_de_oniyate_cowboy_bebop_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Team Rocket (Pokemon Adventures)', 'https://redd.it/ssqogy')
+add_data(['Team Rocket'],
+'Team Rocket',
+True,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ssqogy/respect_team_rocket_pokemon_adventures/
 
 ########################################
 

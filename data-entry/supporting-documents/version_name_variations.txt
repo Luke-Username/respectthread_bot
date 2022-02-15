@@ -79,7 +79,11 @@ Adventure Time
 
 Akame Ga Kill!
 	Version
-		'{"Akame"}'
+		['Akame Ga Kill']
+	Sometimes
+		['Akame']
+	Acronyms
+		['AGK']
 	Displayed Version Name
 		"Akame Ga Kill!"
 
@@ -2553,11 +2557,11 @@ Pokémon (Pokemon)
 
 Pokémon Adventures (Pokemon Adventures)
 	Version
-		'{"Pok(e|é)m(o|a)n Adventures"}'
+		['Pok(e|é)m(o|a)n Adventures']
 	Specific Trainer
-		'{"Name of trainer", "Pok(e|é)m(o|a)n Adventures"}'
+		['Name of trainer', 'Pok(e|é)m(o|a)n Adventures']
 	Pokemon Nickname
-		'{"Pok(e|é)m(o|a)n"}'
+		['Pok(e|é)m(o|a)n']
 	Displayed Version Name
 		"Pokémon Adventures"
 
