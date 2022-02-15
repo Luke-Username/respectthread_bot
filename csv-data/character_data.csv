@@ -5550,7 +5550,6 @@ Lord Vyce,"{`"Atop the (Fourth|4th) Wall`"}",t,{1250},Atop the Fourth Wall
 Lord Vyce,{AT(F|4)W},t,{1250},Atop the Fourth Wall
 Mechakara,"{`"Atop the (Fourth|4th) Wall`"}",t,{1251},Atop the Fourth Wall
 Mechakara,{AT(F|4)W},t,{1251},Atop the Fourth Wall
-Sypha,{Netflix},f,{1251},Netflix's Castlevania
 Batman,"{`"College Humor`"}",f,{1257},College Humor
 Interstellar Legion,"{`"College Humor`"}",f,{1258},College Humor
 Kim Jong Un,"{`"College Humor`"}",f,{1259},College Humor
@@ -26303,3 +26302,10 @@ Cain Marko,{616},t,{2395},616
 Cain Marko,{Marvel},t,{2395},616
 Marci,{Dota},f,{21398},Dota
 SCP-6004,"{`"SCP Foundation`"}",t,{21399},""
+Sypha,{Netflix},f,{1255},Netflix's Castlevania
+Leon,"{`"Akame Ga Kill`"}",f,{3004},Akame Ga Kill!
+Mountain Trolls,"{`"H(arry)? ?P(otter)?`",`"Methods of Rationality`"}",f,{21400},Harry Potter and the Methods of Rationality
+Dio Brando,"{`"Death Battle`"}",f,{21401},DEATH BATTLE!
+Andy,"{`"Andy Von De Oniyate`"}",f,{21402},Cowboy Bebop
+Andy,"{`"Cowboy Bebop`"}",f,{21402},Cowboy Bebop
+Team Rocket,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{21403},Pokémon Adventures
