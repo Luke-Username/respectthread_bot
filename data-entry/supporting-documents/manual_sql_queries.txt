@@ -21,6 +21,8 @@ UPDATE character SET version='{"Nic(h?olas|k) Cage"}' WHERE version='{"Nicolas C
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Megamind', '(Megamind)', -1);
+
 ########################################
 
 ########################################
