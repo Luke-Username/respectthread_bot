@@ -17,6 +17,7 @@ UPDATE character_name SET name='' WHERE...
 
 UPDATE character_name SET name='Alex(ander)? Victory' WHERE name='Alex Victory';
 UPDATE character_name SET name='Jean Gr(e|a)y' WHERE name='Jean Grey';
+UPDATE character SET version='{"Nic(h?olas|k) Cage"}' WHERE version='{"Nicolas Cage"}';
 
 ########################################
 

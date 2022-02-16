@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1581, 'Respect Barry Allen, the Flash (New 52/Rebirth)', 'https://redd.it/dq5det')
+
+########################################
+
 add_data(['Turtle'],
 'Turtle',
 False,
@@ -118,6 +122,20 @@ False,
 '{20333}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/sts8v7/metro_man_runs_the_flash_villain_gauntlet/hx5li07/?context=3
+
+########################################
+
+add_data(['The Flash'],
+'The Flash',
+False,
+False,
+[
+    ['Barry']
+],
+'Barry Allen',
+'{1581, 1583}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/stujiz/can_the_flash_eat_a_punch_by_spiderman/
 
 ########################################
 
@@ -164,6 +182,35 @@ True,
 )
 #https://www.reddit.com/r/respectthreads/comments/stmbhc/respect_demiurge_jagganoth_the_god_eater_kill_six/
 
+########################################
+
+id = get_rt_id(cur, 'Respect Otto Suwen (Re:Zero, Anime)', 'https://redd.it/stw8ya')
+add_data(['Otto Suwen'],
+'Otto Suwen',
+False,
+True,
+[
+    ['Re:? ?Zero']
+],
+'Re:Zero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/stw8ya/respect_otto_suwen_rezero_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Charles Xavier, Professor X (FOX X-Men)', 'https://redd.it/stwz7j')
+add_data(['Charles Xavier'],
+'Charles Xavier',
+False,
+False,
+[
+    ['FOX'], ['Patrick Stewart']
+],
+'FOX',
+'{' + '{}'.format(id) + '}'
+)
+#
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
