@@ -1378,10 +1378,10 @@ Henry Stickmin
 
 Heroes of Olympus
 	Version
-		'{"Heroe?s of Olympus"}', '{"Riordan(-| )?(verse)?"}', '{"Trials of Apollo"}'
+		['Heroe?s of Olympus'], ['Riordan(-| )?(verse)?'], ['Trials of Apollo']
 	Sometimes Called
-		'{"Percy Jackson"}'
-		'{"Percy"}'
+		['Percy Jackson']
+		['Percy']
 	Displayed Version Name
 		"Heroes of Olympus"
 

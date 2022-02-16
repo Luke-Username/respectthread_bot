@@ -139,6 +139,34 @@ False,
 
 ########################################
 
+add_data(['Freddy'],
+'Freddy',
+False,
+False,
+[
+    ['Elm St(reet)?']
+],
+'A Nightmare on Elm Street',
+'{16415,16416}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/stzs0e/jason_voorhees_friday_the_13th_vs_horror_gauntlet/hx6tal7/?context=3
+
+########################################
+
+add_data(['Demon Freddy'],
+'Demon Freddy',
+False,
+False,
+[
+    ['Elm St(reet)?']
+],
+'A Nightmare on Elm Street',
+'{2762}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/stzs0e/jason_voorhees_friday_the_13th_vs_horror_gauntlet/hx6tal7/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Mysterio, The King of Illusions (Complete Respect Thread)', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-mysterio-the-king-of-illusions-complete-re-2023048/')
 add_data(['Mysterio'],
 'Mysterio',
@@ -211,6 +239,37 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-035, "The Possessive Mask" (The SCP Foundation).', 'https://redd.it/su3b9f')
+add_data(['SCP ?(-| )? ?035'],
+'SCP-035',
+False,
+False,
+[
+    ['SCP Foundation']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/su3b9f/respect_scp035_the_possessive_mask_the_scp/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zeus (Percy Jackson and the Olympians / Heroes of Olympus)', 'https://redd.it/su46d8')
+add_data(['Zeus'],
+'Zeus',
+False,
+False,
+[
+    ['Percy Jackson'], ['Heroe?s of Olympus'], ['Riordan(-| )?(verse)?']
+],
+'Heroes of Olympus',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/su46d8/respect_zeus_percy_jackson_and_the_olympians/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
