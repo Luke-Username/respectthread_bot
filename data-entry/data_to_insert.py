@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Turtle'],
+'Turtle',
+False,
+False,
+[
+    ['Turtle ?\[DC']
+],
+'DC',
+'{20333}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sts8v7/metro_man_runs_the_flash_villain_gauntlet/hx5li07/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Mysterio, The King of Illusions (Complete Respect Thread)', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-mysterio-the-king-of-illusions-complete-re-2023048/')
 add_data(['Mysterio'],
 'Mysterio',
@@ -134,6 +148,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/st9ne9/respect_zorro_don_vega/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Demiurge Jagganoth, The God Eater (Kill Six Billion Demons KSBD)', 'https://redd.it/stmbhc')
+add_data(['Jagganoth'],
+'Jagganoth',
+False,
+True,
+[
+    ['Kill Six Billion Demons'], ['KSBD']
+],
+'Kill Six Billion Demons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/stmbhc/respect_demiurge_jagganoth_the_god_eater_kill_six/
 
 ########################################
 
