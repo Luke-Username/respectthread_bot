@@ -1947,7 +1947,6 @@ Motoko Kusanagi,{GITS},t,{4765},Ghost in the Shell
 Motoko Kusanagi,"{`"Stand Alone Complex`"}",f,{4766},GITS: Stand Alone Complex
 Motoko Kusanagi,{SAC},f,{4766},GITS: Stand Alone Complex
 Ghost Rider,{2007},f,{441},2007 movie
-Ghost Rider,"{`"Nicolas Cage`"}",f,{441},2007 movie
 Ghost Rider,"{`"Movie Ghost Rider`"}",f,{441},2007 movie
 Ghost Rider,"{`"Ghost Rider Movie`"}",f,{441},2007 movie
 Snake Eyes,"{`"G.*I.* *Joe`",movies*}",f,{442},G.I. Joe Movies
@@ -16457,15 +16456,6 @@ Giygas,"{`"Earth(-| )?bound`"}",t,{5053},EarthBound
 Giygas,{Mother},t,{5053},EarthBound
 Kumatora,"{`"Earth(-| )?bound`"}",t,{5054},EarthBound
 Kumatora,{Mother},t,{5054},EarthBound
-Ness,"{`"Earth(-| )?bound`"}",f,{5055},EarthBound
-Ness,{Mother},f,{5055},EarthBound
-Ness,{Lucas},f,{5055},EarthBound
-Ness,{Mob},f,{5055},EarthBound
-Ness,{Giygas},f,{5055},EarthBound
-Ness,{Sans},f,{5055},EarthBound
-Ness,{Nintendo},f,{5055},EarthBound
-Ness,{Smash},f,{5055},EarthBound
-Ness,{Magicant},f,{5055},EarthBound
 Chosen Four,"{`"Earth(-| )?bound`"}",t,{5056},EarthBound
 Chosen Four,{Mother},t,{5056},EarthBound
 Paula,"{`"Earth(-| )?bound`"}",f,{5056},EarthBound
@@ -18010,8 +18000,6 @@ Ereshkigal,{F/?GO},f,{14813},Fate/Grand Order
 Ereshkigal,{Fate},f,{14813},Fate/Grand Order
 Enkidu,"{`"Grand Order`"}",f,{14814},Fate/Grand Order
 Enkidu,{F/?GO},f,{14814},Fate/Grand Order
-Berserker,"{`"Grande? Order`"}",f,{14815},Fate/Grand Order
-Berserker,{F/?GO},f,{14815},Fate/Grand Order
 Paul Bunyan,"{`"Grande? Order`"}",f,{14815},Fate/Grand Order
 Paul Bunyan,{F/?GO},f,{14815},Fate/Grand Order
 Paul Bunyan,{Fate},f,{14815},Fate/Grand Order
@@ -26309,3 +26297,32 @@ Dio Brando,"{`"Death Battle`"}",f,{21401},DEATH BATTLE!
 Andy,"{`"Andy Von De Oniyate`"}",f,{21402},Cowboy Bebop
 Andy,"{`"Cowboy Bebop`"}",f,{21402},Cowboy Bebop
 Team Rocket,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{21403},Pokémon Adventures
+Ghost Rider,"{`"Nic(h?olas|k) Cage`"}",f,{441},2007 movie
+Berserker,"{`"Grande? Order`"}",f,{},Fate/Grand Order
+Berserker,{F/?GO},f,{},Fate/Grand Order
+Ness,"{`"Earth(-| )?bound`"}",f,{5056},EarthBound
+Ness,{Mother},f,{5056},EarthBound
+Ness,{Lucas},f,{5056},EarthBound
+Ness,{Mob},f,{5056},EarthBound
+Ness,{Giygas},f,{5056},EarthBound
+Ness,{Sans},f,{5056},EarthBound
+Ness,{Nintendo},f,{5056},EarthBound
+Ness,{Smash},f,{5056},EarthBound
+Ness,{Magicant},f,{5056},EarthBound
+Turtle,"{`"Turtle ?\\[DC`"}",f,{20333},DC
+The Flash,{Barry},f,"{1581,1583}",Barry Allen
+Freddy,"{`"Elm St(reet)?`"}",f,"{16415,16416}",A Nightmare on Elm Street
+Demon Freddy,"{`"Elm St(reet)?`"}",f,{2762},A Nightmare on Elm Street
+Mysterio,{616},t,{21404},616
+Zorro,"{`"Don Vega`"}",f,{21405},Don Vega
+Jagganoth,"{`"Kill Six Billion Demons`"}",t,{21406},Kill Six Billion Demons
+Jagganoth,{KSBD},t,{21406},Kill Six Billion Demons
+Otto Suwen,"{`"Re:? ?Zero`"}",t,{21407},Re:Zero
+Charles Xavier,{FOX},f,{21408},FOX
+SCP-035,"{`"SCP Foundation`"}",f,{21409},""
+Zeus,"{`"Percy Jackson`"}",f,{21410},Heroes of Olympus
+Zeus,"{`"Heroe?s of Olympus`"}",f,{21410},Heroes of Olympus
+Zeus,"{`"Riordan(-| )?(verse)?`"}",f,{21410},Heroes of Olympus
+Ainsworth,"{`"Angelica Ainsworth`"}",f,{21411},Fate
+Ainsworth,{Fate},f,{21411},Fate
+Ainsworth,{Kaleid},f,{21411},Fate

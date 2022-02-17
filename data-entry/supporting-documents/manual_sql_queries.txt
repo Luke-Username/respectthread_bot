@@ -15,19 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Alex(ander)? Victory' WHERE name='Alex Victory';
-UPDATE character_name SET name='Jean Gr(e|a)y' WHERE name='Jean Grey';
-UPDATE character SET version='{"Nic(h?olas|k) Cage"}' WHERE version='{"Nicolas Cage"}';
-
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Megamind', '(Megamind)', -1);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Elsa', 'Elsa Granhiert', 0);
-
 ########################################
-
-UPDATE character SET rt_id_array='{}' WHERE default_name='Berserker' AND rt_id_array='{14815}';
-UPDATE character SET rt_id_array='{5056}' WHERE rt_id_array='{5055}';
 
 ########################################
 
