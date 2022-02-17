@@ -106,6 +106,20 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+id = get_rt_id(cur, "A look at Noctis Lucis Caelum''s combat profile", 'https://redd.it/8lxf6o')
+add_data(['Noctis'],
+'Noctis',
+False,
+False,
+[
+    ['Noctis Lucis Caelum'], ['Final Fantasy'], ['FF\d?\d?'], ['FF\w\w?\w?']
+],
+'Final Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/suvekh/noctis_lucis_caelum_vs_akame_akame_ga_kill/hxc7qh6/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
