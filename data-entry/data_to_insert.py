@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 1581, 'Respect Barry Allen, the Flash (New 52/Rebirth)', 'https://redd.it/dq5det')
+update_respectthread(cur, 5056, 'Respect Ness, Paula, Jeff, and Poo (Earthbound)', 'https://redd.it/sulfu1')
 
 ########################################
 
@@ -269,6 +270,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/su46d8/respect_zeus_percy_jackson_and_the_olympians/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Angelica Ainsworth! (Fate)', 'https://redd.it/sui6mo')
+add_data(['Ainsworth'],
+'Ainsworth',
+False,
+False,
+[
+    ['Angelica Ainsworth'], ['Fate'], ['Kaleid']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sui6mo/respect_angelica_ainsworth_fate/
 
 ########################################
 
