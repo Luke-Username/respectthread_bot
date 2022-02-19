@@ -117,7 +117,7 @@ add_data(['Peace ?maker'],
 False,
 False,
 [
-    ['TV Show']
+    ['TV S(how|eries)']
 ],
 'DCEU',
 '{20353}'
