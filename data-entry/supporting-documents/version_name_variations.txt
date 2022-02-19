@@ -1059,16 +1059,16 @@ Folklore
 
 FOX
 	Version
-		'{"Fox(verse)?"}', '{"X(-| )?Men (Movie|Film)s?"}', '{"X-?Men Cinematic Universe"}'
+		['Fox(verse)?'], ['X(-| )?Men (Movie|Film)s?'], ['X-?Men Cinematic Universe']
 	Sometimes Called
-		'{"XCU"}'
+		['XCU']
 	Specific
-		'{"Origins"}'
-		'{"X-?Men:? Apocalypse"}'
-		'{"Days of Future Past"}', '{"DOFP"}'
-		'{"Last Stand"}'
-		'{"First Class"}'
-		'{"The Wolverine"}'
+		['Origins']
+		['X-?Men:? Apocalypse']
+		['Days of Future Past'], ['DOFP']
+		['Last Stand']
+		['First Class']
+		['The Wolverine']
 	Displayed Version Name
 		"FOX"
 
@@ -2303,7 +2303,7 @@ Naruto
 
 Nasuverse
 	Version
-		'{"TYPE(-| )?MOON"}', '{"Nasu(-| )?verse"}'
+		['TYPE(-| )?MOON'], ['Nasu(-| )?verse']
 	Displayed Version Name
 		"Nasuverse"
 	
