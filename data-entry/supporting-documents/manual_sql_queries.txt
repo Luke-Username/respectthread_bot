@@ -15,12 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Super(-| )Skrull' WHERE name='Super Skrull';
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Artoria Pendragon, the King of Knights! (Fate) [Composite]', 'https://redd.it/sw947q'); SELECT * FROM respectthread WHERE link='https://redd.it/sw947q';
-UPDATE character SET rt_id_array='{6256, ?}' WHERE rt_id_array='{6256}';
 
 ########################################
 

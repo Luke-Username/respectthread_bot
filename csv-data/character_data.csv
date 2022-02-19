@@ -22748,13 +22748,6 @@ Rin,{F/?SN},f,{6255},Fate
 Rin Tohsaka,{Fate},t,{6255},Fate
 Rin Tohsaka,"{`"Stay/? ?k?Night`"}",t,{6255},Fate
 Rin Tohsaka,{F/?SN},t,{6255},Fate
-Saber,"{`"TYPE(-| )?MOON`"}",f,{6256},Fate
-Saber,"{`"Nasu(-| )?verse`"}",f,{6256},Fate
-Saber,{Fate},f,{6256},Fate
-Saber,"{`"Stay/? ?k?Night`"}",f,{6256},Fate
-Saber,{F/?SN},f,{6256},Fate
-Saber,{Artoria},f,{6256},Fate
-Saber,{Pendragon},f,{6256},Fate
 Kiri Nanaya,"{`"TYPE(-| )?MOON`"}",f,{6260},Tsukihime
 Kiri Nanaya,"{`"Nasu(-| )?verse`"}",f,{6260},Tsukihime
 Kiri Nanaya,{Tsukihime},f,{6260},Tsukihime
@@ -22774,6 +22767,13 @@ Serenity,"{`"Blond Ray of Sunshine`"}",f,{6275},A Blond Ray of Sunshine
 Apollo,"{`"Character Scramble`"}",f,{6276},Character Scramble
 John Freeman,"{`"Character Scramble`"}",f,{6277},Character Scramble
 Jules Winnfield,"{`"Character Scramble`"}",f,{6278},Character Scramble
+Saber,"{`"TYPE(-| )?MOON`"}",f,"{6256,21412}",Fate
+Saber,"{`"Nasu(-| )?verse`"}",f,"{6256,21412}",Fate
+Saber,{Fate},f,"{6256,21412}",Fate
+Saber,"{`"Stay/? ?k?Night`"}",f,"{6256,21412}",Fate
+Saber,{F/?SN},f,"{6256,21412}",Fate
+Saber,{Artoria},f,"{6256,21412}",Fate
+Saber,{Pendragon},f,"{6256,21412}",Fate
 Mina Ashido,"{`"Character Scramble`"}",f,{6279},Character Scramble
 Supermooks,"{`"Character Scramble`"}",f,{6280},Character Scramble
 Cicero,{Fargo},f,{6281},Fargo
@@ -26167,8 +26167,6 @@ Batman,"{`"Dark K?night`",2008}",f,{6531},The Dark Knight
 Kazuma,{Kazuma.*Luck|Luck.*Kazuma},f,{3785},KonoSuba
 Batman,"{`"Bat(-| )?mans?.*Movies|Movies.*Bat(-| )?mans?`"}",f,{},Movies
 Batman,"{`"Dark K?night Trilogy`"}",f,{6531},The Dark Knight
-Artoria Pendragon,{Fate},t,{6256},Fate
-Artoria Pendragon,{Zero},t,{6256},Fate
 SCP-744-ARC,"{`"Rust Monster`"}",t,{21342},""
 Godzilla,"{`"Godzilla vs\\.? Kong`"}",f,{280},Monsterverse
 Doctor Strange,"{`"Marvel Cinematic Universe`"}",f,{13351},MCU
@@ -26208,6 +26206,8 @@ Narberal Gamma,{Overlord},t,{21351},Overlord
 Sun Wukong,"{`"Overly Sarcastic Productions`"}",f,{21352},Overly Sarcastic Productions
 Ultron,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{21353},Earths Mightiest Heroes
 Ultron,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{21353},Earths Mightiest Heroes
+Artoria Pendragon,{Fate},t,"{6256,21412}",Fate
+Artoria Pendragon,{Zero},t,"{6256,21412}",Fate
 Ultron,"{`"A(vengers)?: ?EMH`"}",f,{21353},Earths Mightiest Heroes
 Ultron,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{21353},Earths Mightiest Heroes
 Alabaster,{Torrington},f,{21354},Percy Jackson
@@ -26326,3 +26326,27 @@ Zeus,"{`"Riordan(-| )?(verse)?`"}",f,{21410},Heroes of Olympus
 Ainsworth,"{`"Angelica Ainsworth`"}",f,{21411},Fate
 Ainsworth,{Fate},f,{21411},Fate
 Ainsworth,{Kaleid},f,{21411},Fate
+Peacemaker,"{`"TV S(how|eries)`"}",f,{20353},DCEU
+Infinity Stones,{616},t,{7484},616
+Noctis,"{`"Noctis Lucis Caelum`"}",f,{21413},Final Fantasy
+Noctis,"{`"Final Fantasy`"}",f,{21413},Final Fantasy
+Noctis,"{`"FF\\d?\\d?`"}",f,{21413},Final Fantasy
+Noctis,"{`"FF\\w\\w?\\w?`"}",f,{21413},Final Fantasy
+Shilo Norman,"{`"\\(DC( Comics?)?\\)`"}",t,{21414},DC
+Shilo Norman,"{`"(Post(-| ))?Flash(-| )?point`"}",f,{21414},Flashpoint
+Tiny Superman,{clone|rainbow},f,{21415},Pre-Crisis
+Tiny Superman,"{`"Pre(-| )?Crisis`"}",f,{21415},Pre-Crisis
+Tiny Superman,"{`"Silver(-| )?Age`"}",f,{21415},Pre-Crisis
+Tiny Superman,"{`"Earth(-| )(1|One)`"}",f,{21415},Pre-Crisis
+Patrasche,"{`"Re:? ?Zero`"}",t,{21416},Re:Zero
+Sakura Matou,{Fate},t,{21417},Fate
+Sakura Matou,"{`"TYPE(-| )?MOON`"}",t,{21417},Fate
+Sakura Matou,"{`"Nasu(-| )?verse`"}",t,{21417},Fate
+Kirima,{Avatar},f,{21418},Avatar: TLA
+Kirima,{A?TLA},f,{21418},Avatar: TLA
+Kirima,{Kyoshi},f,{21418},Avatar: TLA
+Kirima,{Bend(er|ing)},f,{21418},Avatar: TLA
+Kuruk,{Avatar},f,{21419},Avatar: TLA
+Kuruk,{A?TLA},f,{21419},Avatar: TLA
+Kuruk,{Bend(er|ing)},f,{21419},Avatar: TLA
+Mystique,"{`"X(-| )?Men (Movie|Film)s?`"}",f,{21420},FOX
