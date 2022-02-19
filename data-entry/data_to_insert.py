@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Peace ?maker'],
+'Peacemaker',
+False,
+False,
+[
+    ['TV Show']
+],
+'DCEU',
+'{20353}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sw4ctf/peacemaker_vs_daredevil/hxjyjfp/?context=3
+
+########################################
+
 id = get_rt_id(cur, "A look at Noctis Lucis Caelum''s combat profile", 'https://redd.it/8lxf6o')
 add_data(['Noctis'],
 'Noctis',
