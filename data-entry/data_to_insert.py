@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Dracula'],
+'Dracula',
+False,
+False,
+[
+    ['Van Helsing', '2004']
+],
+'Van Helsing, 2004',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/swtcui/mcu_spiderman_vs_dracula_van_helsing_2004/hxoreg0/?context=3
+
+########################################
+
 add_data(['Shrike'],
 'Shrike',
 False,
@@ -148,6 +162,48 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/swp5v3/respect_pleiades_ple_ple_pleiades/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Zombie Hunting Cheerleader, Juliet Starling', 'https://redd.it/7mkms2')
+add_data(['Juliet Starling'],
+'Juliet Starling',
+False,
+True,
+[
+    ['Lollipop Chainsaw']
+],
+'Lollipop Chainsaw',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/7mkms2/respect_the_zombie_hunting_cheerleader_juliet/
+
+add_data(['Juliet'],
+'Juliet',
+False,
+False,
+[
+    ['Lollipop Chainsaw']
+],
+'Lollipop Chainsaw',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/7mkms2/respect_the_zombie_hunting_cheerleader_juliet/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Swoledier (Ceno0)', 'https://redd.it/swvnkc')
+add_data(['Swoledier'],
+'Swoledier',
+False,
+False,
+[
+    ['Ceno0']
+],
+'Ceno0',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/swvnkc/respect_the_swoledier_ceno0/
 
 ########################################
 
