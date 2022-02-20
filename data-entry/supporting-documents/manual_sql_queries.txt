@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Mich(ae|ea)l Myers' WHERE name='Michael Myers';
+UPDATE character_name SET name='Krrsantan' WHERE name='Black Krrsantan';
+
 ########################################
 
 ########################################

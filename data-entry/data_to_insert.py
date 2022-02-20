@@ -107,6 +107,48 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Shrike'],
+'Shrike',
+False,
+False,
+[
+    ['Hyperion']
+],
+'Hyperion Cantos',
+'{5840}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/swczq3/shrike_hyperion_vs_flash_villains/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Red King (Marvel, Earth-616)', 'https://redd.it/swo6pb')
+add_data(['Red King'],
+'Red King',
+False,
+False,
+[
+    ['616'], ['Angmo(-| )Asan']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/swo6pb/respect_the_red_king_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pleiades (Ple Ple Pleiades)', 'https://redd.it/swp5v3')
+add_data(['Pleiades'],
+'Pleiades',
+False,
+False,
+[
+    ['Ple Ple Pleiades']
+],
+'Ple Ple Pleiades',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/swp5v3/respect_pleiades_ple_ple_pleiades/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
