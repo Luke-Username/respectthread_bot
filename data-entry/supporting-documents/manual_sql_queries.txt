@@ -15,23 +15,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Mich(ae|ea)l Myers' WHERE name='Michael Myers';
-UPDATE character_name SET name='Krrsantan' WHERE name='Black Krrsantan';
+########################################
 
 ########################################
 
-DELETE FROM character WHERE default_name='Prue Halliwell';
-UPDATE character_name SET default_name='Prue Halliwell' WHERE name='Halliwell';
-UPDATE character_name SET name='Prue Halliwell' WHERE name='Halliwell';
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hulk', 'She Hulk', -4);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hulk', 'She-Hulk', -4);
-
-########################################
-
-UPDATE character SET version='{"Jane Foster"}' WHERE default_name='Valkyrie' AND version='{"Valkyrie"}';
 
 ########################################
 

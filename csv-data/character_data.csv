@@ -26,7 +26,6 @@ Kuasa,{Arrowverse},f,{29},CW Arrowverse
 Vixen,{Arrowverse},f,{30},CW Arrowverse
 John Constantine,{Arrowverse},f,{31},CW Arrowverse
 Superman,{Arrowverse},f,{34},CW Arrowverse
-Halliwell,{Prudence},f,{82},Charmed
 Angel,{Buffy},f,{35},Buffy the Vampire Slayer
 Angelus,{Buffy},f,{35},Buffy the Vampire Slayer
 Buffy Summers,{Buffy},f,{36},Buffy the Vampire Slayer
@@ -131,7 +130,6 @@ The Tenth Doctor,{Whoverse},t,{40},Doctor Who
 "Grant Gordon, the Ghost",{Whoverse},f,{41},Doctor Who
 Heather,{Whoverse},f,{42},Doctor Who
 Space Oil,{Whoverse},f,{42},Doctor Who
-Halliwell,{Charmed},f,{82},Charmed
 Captain Cold,{DCTV},f,{18},CW Arrowverse
 Deathstroke,{DCTV},f,{15},CW Arrowverse
 Girder,{DCTV},f,{20},CW Arrowverse
@@ -306,7 +304,6 @@ Fu Washio,"{`"Kamen Rider`"}",t,{63},Kamen Rider Build
 Rai Washio,"{`"Kamen Rider`"}",t,{63},Kamen Rider Build
 Hell Bros,"{`"Kamen Rider`"}",f,{63},Kamen Rider Build
 Riderman,"{`"Kamen Rider`"}",t,{64},Kamen Rider V3
-Halliwell,{Prue},f,{82},Charmed
 Black Bolt,{MCU},f,{65},Inhumans/MCU
 Eli Morrow,{MCU},f,{66},Agents of SHIELD/MCU
 Hive,{MCU},f,{67},Agents of SHIELD/MCU
@@ -12106,7 +12103,6 @@ Kimblee,"{`"Full ?metal`"}",t,"{3413,9303}",Fullmetal Alchemist
 Kimblee,{FMA:?B?},t,"{3413,9303}",Fullmetal Alchemist
 Chimeras,"{Greed,`"Full ?metal`"}",f,{9304},Greed - Fullmetal Alchemist
 Chimeras,"{Greed,FMA:?B?}",f,{9304},Greed - Fullmetal Alchemist
-Valkyrie,{Valkyrie},f,{9305},Jane Foster
 FemThor,{616},t,{1980},616
 Blue Djinn,"{`"I Dream Of Jeannie`"}",f,{9306},I Dream Of Jeannie
 Mousse,{Ranma},f,{4455},Ranma ½
@@ -26350,3 +26346,25 @@ Kuruk,{Avatar},f,{21419},Avatar: TLA
 Kuruk,{A?TLA},f,{21419},Avatar: TLA
 Kuruk,{Bend(er|ing)},f,{21419},Avatar: TLA
 Mystique,"{`"X(-| )?Men (Movie|Film)s?`"}",f,{21420},FOX
+Valkyrie,"{`"Jane Foster`"}",f,{9305},Jane Foster
+Star Fox,"{`"Star Fox vs|vs\\.? Star Fox`"}",t,{16780},""
+Prue Halliwell,{Charmed},t,{82},Charmed
+Shredder,"{`"Teenaged? Mutant Ninja Turtles?`"}",f,"{9373,20422,981,2673,2677,16443}",TMNT
+Shredder,{TMNT},f,"{9373,20422,981,2673,2677,16443}",TMNT
+Dracula,"{`"Van Helsing`",2004}",f,{},"Van Helsing, 2004"
+Shrike,{Hyperion},f,{5840},Hyperion Cantos
+Red King,{616},f,{21421},616
+Red King,"{`"Angmo(-| )Asan`"}",f,{21421},616
+Pleiades,"{`"Ple Ple Pleiades`"}",f,{21422},Ple Ple Pleiades
+Juliet Starling,"{`"Lollipop Chainsaw`"}",t,{21423},Lollipop Chainsaw
+Juliet,"{`"Lollipop Chainsaw`"}",f,{21423},Lollipop Chainsaw
+Swoledier,{Ceno0},f,{21424},Ceno0
+Grovyle,"{`"Mystery Dungeon`"}",f,{21425},Pokémon Mystery Dungeon
+Dusknoir,"{`"Mystery Dungeon`"}",f,{21426},Pokémon Mystery Dungeon
+Wong,"{`"Kyoshi Novels?`"}",f,{21427},Avatar: TLA
+Skateman,"{`"Pacific Comics`"}",f,{21428},Pacific Comics
+Insectosaurus,"{`"Monsters vs?\\.? Aliens`"}",t,{21429},Monsters vs. Aliens
+Frederica Baumann,"{`"Re:? ?Zero`"}",t,{21430},Re:Zero
+Zha-Vam,{DC},t,{21431},DC
+Zha-Vam,"{`"Pre(-| )?Crisis`"}",t,{21431},Pre-Crisis
+Zha-Vam,"{`"Silver(-| )?Age`"}",t,{21431},Pre-Crisis

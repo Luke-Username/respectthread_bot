@@ -165,7 +165,6 @@ Brother Nero,The Broken Hardys,f
 Matt,Matt,f
 Nero,Nero,f
 Jeff Hardy,The Broken Hardys,f
-Halliwell,Halliwell,f
 Cyborg,Cyborg,f
 Silas Stone,Cyborg,f
 Jeremiah E. Connery,Jeremiah E. Connery,f
@@ -290,6 +289,7 @@ Orm Marius,Ocean Master,f
 Panda Man,Panda Man,f
 Peter Parker,Peter Parker,f
 Brun?ce Wayne,Batman,f
+Prue Halliwell,Prue Halliwell,f
 Steppenwolf,Steppenwolf,f
 Zod,General Zod,f
 Scott Summers,Scott Summers,f
@@ -850,7 +850,6 @@ Ursus,Ursus,f
 Xenia,Xenia,f
 Khan,Khan,f
 David Collins,David Collins,f
-Michael Myers,Michael Myers,f
 Hancock,Hancock,f
 Hansel (&|and) Gretel,Hansel & Gretel,f
 Gretel,Gretel,f
@@ -873,6 +872,7 @@ The Gods,The Gods,f
 Hades,Hades,f
 Ghost ?Rider,Ghost Rider,f
 Drones,Drones,f
+Mich(ae|ea)l Myers,Michael Myers,f
 Jasper,Jasper,f
 Ares,Ares,f
 Poseidon,Poseidon,f
@@ -11854,7 +11854,6 @@ Freddy Fazbear,Freddy Fazbear,f
 Freddy,Freddy,f
 Chica,Chica,f
 Bonnie,Bonnie,f
-Black Krrsantan,Black Krrsantan,f
 Tusken (Raider|Warrior),Tusken Raider,f
 Cinos,Cinos,f
 Sanj(ū|u)r(ō|o),Sanjūrō,f
@@ -12015,3 +12014,13 @@ Patrasche,Patrasche,f
 Sakura Matou,Sakura Matou,f
 Kirima,Kirima,f
 Kuruk,Kuruk,f
+Krrsantan,Black Krrsantan,f
+Star Fox,Star Fox,f
+Juliet Starling,Juliet Starling,f
+Juliet,Juliet,f
+Swoledier,Swoledier,f
+Dusknoir,Dusknoir,f
+Skateman,Skateman,f
+Insectosaurus,Insectosaurus,f
+Frederica Baumann,Frederica Baumann,f
+Zha(-| )?Vam,Zha-Vam,f
