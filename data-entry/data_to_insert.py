@@ -111,6 +111,20 @@ update_respectthread(cur, 4057, 'Respect Arlong the Saw (One Piece)', 'https://r
 
 ########################################
 
+add_data(['Star Fox'],
+'Star Fox',
+False,
+True,
+[
+    ['Star Fox vs|vs\.? Star Fox']
+],
+'',
+'{16780}'
+)
+#https://www.reddit.com/r/respectthreads/comments/nbqdru/respect_team_star_fox_star_fox/
+
+########################################
+
 add_data(['Prue Halliwell'],
 'Prue Halliwell',
 False,
