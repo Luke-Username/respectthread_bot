@@ -26,7 +26,12 @@ UPDATE character_name SET name='Prue Halliwell' WHERE name='Halliwell';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hulk', 'She Hulk', -4);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hulk', 'She-Hulk', -4);
+
 ########################################
+
+UPDATE character SET version='{"Jane Foster"}' WHERE default_name='Valkyrie' AND version='{"Valkyrie"}';
 
 ########################################
 

@@ -2171,6 +2171,12 @@ MonsterVerse
 	Displayed Version Name
 		"MonsterVerse"
 
+Monsters vs. Aliens
+	Version
+		['Monsters vs?\.? Aliens']
+	Displayed Version Name
+		"Monsters vs. Aliens"
+
 Mortal Kombat
 	Version
 		'{"Mortal Kombat"}', r'{"MK\\d*"}'

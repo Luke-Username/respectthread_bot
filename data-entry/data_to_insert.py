@@ -313,6 +313,63 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Insectosaurus! (Monsters vs. Aliens)', 'https://redd.it/sxnay7')
+add_data(['Insectosaurus'],
+'Insectosaurus',
+False,
+True,
+[
+    ['Monsters vs?\.? Aliens']
+],
+'Monsters vs. Aliens',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxnay7/respect_insectosaurus_monsters_vs_aliens/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Frederica Baumann (Re:Zero, Anime)', 'https://redd.it/sxtvw5')
+add_data(['Frederica Baumann'],
+'Frederica Baumann',
+False,
+True,
+[
+    ['Re:? ?Zero']
+],
+'Re:Zero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxtvw5/respect_frederica_baumann_rezero_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zha-Vam the Invincible (DC Pre-Crisis)', 'https://redd.it/sxu5uz')
+add_data(['Zha(-| )?Vam'],
+'Zha-Vam',
+False,
+True,
+[
+    ['DC']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxu5uz/respect_zhavam_the_invincible_dc_precrisis/
+
+add_data(['Zha(-| )?Vam'],
+'Zha-Vam',
+False,
+True,
+[
+    ['Pre(-| )?Crisis'], ['Silver(-| )?Age']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxu5uz/respect_zhavam_the_invincible_dc_precrisis/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
