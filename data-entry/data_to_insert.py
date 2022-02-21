@@ -290,9 +290,9 @@ add_data(['Skateman'],
 False,
 False,
 [
-    ['Kyoshi Novels?']
+    ['Pacific Comics']
 ],
-'Avatar: TLA',
+'Pacific Comics',
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/sxd6mh/respect_skateman_pacific_comics/
