@@ -2565,17 +2565,23 @@ Pokémon Adventures (Pokemon Adventures)
 	Displayed Version Name
 		"Pokémon Adventures"
 
+Pokémon: The Electric Tale of Pikachu
+	Version
+		'{"Electric Tale of Pikachu"}'
+	Displayed Version Name
+		"Pokémon: The Electric Tale of Pikachu"
+
 Pokémon the Movie: I Choose You!
 	Version
 		'{"I Choose You"}', r'{"\\(ICY\\)"}', '{"ICY(-| )?verse"}'
 	Displayed Version Name
 		"Pokémon the Movie: I Choose You!"
 
-Pokémon: The Electric Tale of Pikachu
+Pokémon Mystery Dungeon
 	Version
-		'{"Electric Tale of Pikachu"}'
+		['Mystery Dungeon']
 	Displayed Version Name
-		"Pokémon: The Electric Tale of Pikachu"
+		"Pokémon Mystery Dungeon"
 
 Post-Crisis
 	Version
@@ -3289,7 +3295,7 @@ TeamFourStar
 
 Teenage Mutant Ninja Turtles
 	Version
-		'{"Teenaged? Mutant Ninja Turtles?"}', '{"TMNT"}'
+		['Teenaged? Mutant Ninja Turtles?'], ['TMNT']
 
 Teenage Mutant Ninja Turtles (1987)
 	Version

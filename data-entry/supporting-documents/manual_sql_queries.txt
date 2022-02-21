@@ -20,6 +20,10 @@ UPDATE character_name SET name='Krrsantan' WHERE name='Black Krrsantan';
 
 ########################################
 
+DELETE FROM character WHERE default_name='Prue Halliwell';
+UPDATE character_name SET default_name='Prue Halliwell' WHERE name='Halliwell';
+UPDATE character_name SET name='Prue Halliwell' WHERE name='Halliwell';
+
 ########################################
 
 ########################################

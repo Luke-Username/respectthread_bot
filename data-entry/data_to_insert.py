@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4057, 'Respect Arlong the Saw (One Piece)', 'https://redd.it/sx4y6h')
+
+########################################
+
+add_data(['Prue Halliwell'],
+'Prue Halliwell',
+False,
+True,
+[
+    ['Charmed']
+],
+'Charmed',
+'{82}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sx7swb/magical_tv_show_battle_piper_halliwell_charmed_vs/hxqe2gw/?context=3
+
+########################################
+
+add_data(['Shredder'],
+'Shredder',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?'], ['TMNT']
+],
+'TMNT',
+'{9373, 20422, 981, 2673, 2677, 16443}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/sxbshw/shredder_tmnt_vs_liu_kang_mk_in_2_different/hxr6v7d/?context=3
+
+########################################
+
 add_data(['Dracula'],
 'Dracula',
 False,
@@ -204,6 +236,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/swvnkc/respect_the_swoledier_ceno0/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Grovyle (Pokemon Mystery Dungeon)', 'https://redd.it/sx44w9')
+add_data(['Grovyle'],
+'Grovyle',
+False,
+False,
+[
+    ['Mystery Dungeon']
+],
+'Pokémon Mystery Dungeon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sx44w9/respect_grovyle_pokemon_mystery_dungeon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dusknoir (Pokemon Mystery Dungeon)', 'https://redd.it/sx44yp')
+add_data(['Dusknoir'],
+'Dusknoir',
+False,
+False,
+[
+    ['Mystery Dungeon']
+],
+'Pokémon Mystery Dungeon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sx44yp/respect_dusknoir_pokemon_mystery_dungeon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "Flitting Sparrowkeet" Wong (Avatar: The Kyoshi Novels)', 'https://redd.it/sxbd1u')
+add_data(['Wong'],
+'Wong',
+False,
+False,
+[
+    ['Kyoshi Novels?']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxbd1u/respect_flitting_sparrowkeet_wong_avatar_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Skateman (Pacific Comics)', 'https://redd.it/sxd6mh')
+add_data(['Skateman'],
+'Skateman',
+False,
+False,
+[
+    ['Kyoshi Novels?']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxd6mh/respect_skateman_pacific_comics/
 
 ########################################
 
