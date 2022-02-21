@@ -107,32 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Storm'],
-'Storm',
-False,
-False,
-[
-    ['vs\.? Storm', 'Johnny Storm'], ['vs\.? Storm', 'Hulk']
-],
-'616',
-'{2386}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/sxo8hd/she_hulk_vs_wonder_woman_vs_terminator_x_vs_storm/hxtdglm/?context=3
-
-########################################
-
-add_data(['Terminator X'],
-'Terminator X',
-False,
-True,
-[
-    ['Terminatrix']
-],
-'',
-'{328}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/sxo8hd/she_hulk_vs_wonder_woman_vs_terminator_x_vs_storm/hxtdglm/?context=3
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
