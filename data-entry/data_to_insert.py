@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 8209, 'Respect Neil Clarke! (Absolutely Anything)', 'https://redd.it/sysjhf')
+
+########################################
+
 add_data(['Storm'],
 'Storm',
 False,
@@ -132,6 +136,303 @@ True,
 '{328}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/sxo8hd/she_hulk_vs_wonder_woman_vs_terminator_x_vs_storm/hxtdglm/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Drake! (Beyonders)', 'https://redd.it/sxw86a')
+add_data(['Drake'],
+'Drake',
+False,
+False,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxw86a/respect_drake_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Torivors! (Beyonders)', 'https://redd.it/sxw87m')
+add_data(['Torivors?'],
+'Torivors',
+False,
+True,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxw87m/respect_torivors_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jason Walker! (Beyonders)', 'https://redd.it/sxw89h')
+add_data(['Jason Walker'],
+'Jason Walker',
+False,
+False,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxw89h/respect_jason_walker_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ferrin! (Beyonders)', 'https://redd.it/sxw8bc')
+add_data(['Ferrin'],
+'Ferrin',
+False,
+False,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxw8bc/respect_ferrin_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Wanderer! (Beyonders)', 'https://redd.it/sxw8cx')
+add_data(['Wanderer'],
+'Wanderer',
+False,
+False,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxw8cx/respect_the_wanderer_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Corinne! (Beyonders)', 'https://redd.it/sxw8fr')
+add_data(['Corinne'],
+'Corinne',
+False,
+False,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxw8fr/respect_corinne_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jasher! (Beyonders)', 'https://redd.it/sxw8h0')
+add_data(['Jasher'],
+'Jasher',
+False,
+False,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxw8h0/respect_jasher_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Galloran! (Beyonders)', 'https://redd.it/sxw8ik')
+add_data(['Galloran'],
+'Galloran',
+False,
+True,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sxw8ik/respect_galloran_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tark! (Beyonders)', 'https://redd.it/sy3wc2')
+add_data(['Tark'],
+'Tark',
+False,
+False,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sy3wc2/respect_tark_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maldor! (Beyonders)', 'https://redd.it/sy3xia')
+add_data(['Maldor'],
+'Maldor',
+False,
+False,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sy3xia/respect_maldor_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nedwin! (Beyonders)', 'https://redd.it/sy4ovf')
+add_data(['Nedwin'],
+'Nedwin',
+False,
+False,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sy4ovf/respect_nedwin_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aram! (Beyonders)', 'https://redd.it/sy8qpr')
+add_data(['Aram'],
+'Aram',
+False,
+False,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sy8qpr/respect_aram_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Drinlings! (Beyonders)', 'https://redd.it/sy8ri8')
+add_data(['Drinlings?'],
+'Drinlings',
+False,
+True,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sy8ri8/respect_drinlings_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Maumet! (Beyonders)', 'https://redd.it/sy8sia')
+add_data(['Maumet'],
+'Maumet',
+False,
+False,
+[
+    ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sy8sia/respect_the_maumet_beyonders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rintrah (Marvel 616)', 'https://redd.it/sy5fdi')
+add_data(['Rintrah'],
+'Rintrah',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sy5fdi/respect_rintrah_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Garfiel Tinsel (Re:Zero, Anime)', 'https://redd.it/syp9qk')
+add_data(['Garfiel Tinsel'],
+'Garfiel Tinsel',
+False,
+True,
+[
+    ['Re:? ?Zero']
+],
+'Re:Zero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/syp9qk/respect_garfiel_tinsel_rezero_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mochizuki Chiyome! (Fate)', 'https://redd.it/sypadx')
+add_data(['Mochizuki Chiyome'],
+'Mochizuki Chiyome',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/sypadx/respect_mochizuki_chiyome_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Frank Castle, the Punisher (2004 film)', 'https://redd.it/syqz67')
+add_data(['Punisher'],
+'Punisher',
+False,
+False,
+[
+    ['Punisher.*2004|2004.*Punisher'], ['Thomas Jane']
+],
+'2004',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/syqz67/respect_frank_castle_the_punisher_2004_film/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Thunder (DC Pre-Crisis Earth-276)', 'https://redd.it/syvnra')
+add_data(['Willie Fawcett'],
+'Willie Fawcett',
+False,
+True,
+[
+    ['276']
+],
+'Earth-276',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/syvnra/respect_captain_thunder_dc_precrisis_earth276/
+
+add_data(['Captain Thunder'],
+'Captain Thunder',
+False,
+False,
+[
+    ['276']
+],
+'Earth-276',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/syvnra/respect_captain_thunder_dc_precrisis_earth276/
 
 ########################################
 
