@@ -107,6 +107,64 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Revenant (Apex Legends)', 'https://redd.it/szafpw')
+add_data(['Revenant'],
+'Revenant',
+False,
+False,
+[
+    ['Apex']
+],
+'Apex Legends',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/szafpw/respect_revenant_apex_legends/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cuphead and Mugman! (Cuphead)', 'https://redd.it/szg07v')
+add_data(['Cup ?head'],
+'Cuphead',
+False,
+True,
+[
+    ['Mug ?man']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/szg07v/respect_cuphead_and_mugman_cuphead/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roswaal Mathers (Re:Zero, Anime)', 'https://redd.it/szimjg')
+add_data(['Roswaal'],
+'Roswaal',
+False,
+True,
+[
+    ['Re:? ?Zero'], ['Mathers']
+],
+'Re:Zero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/szimjg/respect_roswaal_mathers_rezero_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ultraman! (DC Pre-Crisis)', 'https://redd.it/szqf4g')
+add_data(['Ultraman'],
+'Ultraman',
+False,
+False,
+[
+    ['Ultraman.*Pre(-| )?Crisis|Pre(-| )?Crisis.*Ultraman']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/szqf4g/respect_ultraman_dc_precrisis/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

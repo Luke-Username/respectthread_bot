@@ -15,7 +15,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='(Hercule|M(iste)?r\.?) Satan' WHERE name='(Hercule|Mr\.?) Satan';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Red Tornado! (DC Post-Flashpoint)', 'https://redd.it/szfmw4'); SELECT * FROM respectthread WHERE link='https://redd.it/szfmw4';
+UPDATE character SET rt_id_array='{?, 1652}' WHERE rt_id_array='{1652}';
 
 ########################################
 
