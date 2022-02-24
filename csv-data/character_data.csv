@@ -4913,10 +4913,6 @@ Plastic Man,"{`"Prime(-| )Earth`"}",f,{1651},Rebirth
 Plastic Man,{Rebirth},f,{1651},Rebirth
 Red Tornado,"{`"Young Justice`"}",f,{1008},Young Justice
 Red Tornado,{CW},f,{},CW Arrowverse
-Red Tornado,"{`"(DC( Comics)?)`"}",t,{1652},DC
-Red Tornado,{PC},t,{1652},DC
-Red Tornado,"{`"Post(-| )?C(risis)?`"}",t,{1652},DC
-Red Tornado,"{`"New(-| )Earth`"}",t,{1652},DC
 Shazam,"{`"movies? versions?`"}",f,{6554},DCEU
 Shazam,{(movie)},f,{6554},DCEU
 Shazam,"{`"New(-| )?52`"}",t,{1653},New 52
@@ -4947,6 +4943,7 @@ Black Adam,"{`"Post(-| )52`"}",f,{1622},New 52 / Rebirth
 Black Adam,"{`"Prime(-| )Earth`"}",f,{1622},New 52 / Rebirth
 Black Adam,{Rebirth},f,{1622},New 52 / Rebirth
 Pain,{Naruto},f,{3964},Naruto
+Red Tornado,"{`"(DC( Comics)?)`"}",t,"{21451,1652}",DC
 Chunky Chicken,"{`"Power Rangers?`"}",t,{6556},Power Rangers
 Despero,"{`"New(-| )?52`"}",f,{},New 52
 Despero,{N-?52},f,{},New 52
@@ -26392,3 +26389,17 @@ Punisher,{Punisher.*2004|2004.*Punisher},f,{21449},2004
 Punisher,"{`"Thomas Jane`"}",f,{21449},2004
 Willie Fawcett,{276},t,{21450},Earth-276
 Captain Thunder,{276},f,{21450},Earth-276
+Red Tornado,{PC},t,"{21451,1652}",DC
+Red Tornado,"{`"Post(-| )?C(risis)?`"}",t,"{21451,1652}",DC
+Red Tornado,"{`"New(-| )Earth`"}",t,"{21451,1652}",DC
+Monkey King,"{`"Journey to the West`"}",f,{6170},Journey to the West
+Revenant,{Apex},f,{21452},Apex Legends
+Cuphead,"{`"Mug ?man`"}",t,{21453},""
+Roswaal,"{`"Re:? ?Zero`"}",t,{21454},Re:Zero
+Roswaal,{Mathers},t,{21454},Re:Zero
+Ultraman,"{`"Ultraman.*Pre(-| )?Crisis|Pre(-| )?Crisis.*Ultraman`"}",f,{21455},Pre-Crisis
+Rhino,"{`"Spectacular Spider(-| )Man`"}",f,{21456},Spectacular Spider-Man
+Yorihime,"{`"Watatsuki no Yorihime`"}",t,{21457},Touhou
+Yorihime,{Touhou},t,{21457},Touhou
+Extremis Soldiers,"{`"Marvel Cinematic Universe`"}",t,{21458},MCU
+Extremis Soldiers,{MCU},t,{21458},MCU
