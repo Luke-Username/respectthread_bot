@@ -16,6 +16,7 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character_name SET name='(Hercule|M(iste)?r\.?) Satan' WHERE name='(Hercule|Mr\.?) Satan';
+UPDATE character_name SET name='Volder?mort' WHERE name='Voldemort';
 
 ########################################
 
@@ -23,6 +24,8 @@ INSERT INTO respectthread (title, link) VALUES ('Respect Red Tornado! (DC Post-F
 UPDATE character SET rt_id_array='{?, 1652}' WHERE rt_id_array='{1652}';
 
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Xeelee', '(Xeelee', -1);
 
 ########################################
 

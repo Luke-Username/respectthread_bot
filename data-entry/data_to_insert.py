@@ -107,6 +107,24 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1240, 'Respect Princess Diana (Wonder Woman 2009)', 'https://redd.it/t0ie85')
+
+########################################
+
+add_data(['Monkey King'],
+'Monkey King',
+False,
+False,
+[
+    ['Journey to the West']
+],
+'Journey to the West',
+'{6170}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t034o4/monkey_kingjourney_to_the_west_vs_voldermortharry/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Revenant (Apex Legends)', 'https://redd.it/szafpw')
 add_data(['Revenant'],
 'Revenant',
@@ -164,6 +182,52 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/szqf4g/respect_ultraman_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rhino (Spectacular Spider-Man)', 'https://redd.it/szx70d')
+add_data(['Rhino'],
+'Rhino',
+False,
+False,
+[
+    ['Spectacular Spider(-| )Man']
+],
+'Spectacular Spider-Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/szx70d/respect_rhino_spectacular_spiderman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Watatsuki no Yorihime (Touhou)', 'https://redd.it/t0d2th')
+add_data(['Yorihime'],
+'Yorihime',
+False,
+True,
+[
+    ['Watatsuki no Yorihime'], ['Touhou']
+],
+'Touhou',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ho6alo/respect_watatsuki_no_toyohime_touhou/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Extremis Henchmen (Marvel Cinematic Universe)', 'https://redd.it/t0fl78')
+add_data(['Extremis (Soldiers?|Henchmen)'],
+'Extremis Soldiers',
+False,
+True,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t0fl78/respect_the_extremis_henchmen_marvel_cinematic/
+#https://www.reddit.com/r/whowouldwin/comments/nqmcvd/someone_with_every_biological_enhancement_in_the/
 
 ########################################
 

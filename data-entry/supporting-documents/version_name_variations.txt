@@ -3429,7 +3429,7 @@ To the Abandoned Sacred Beasts
 
 Touhou
 	Version
-		'{"Touhou"}'
+		['Touhou']
 	Displayed Version Name
 		"Touhou"
 
