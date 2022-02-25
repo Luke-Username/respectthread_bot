@@ -138,6 +138,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Long Min (Kengan)', 'https://redd.it/t1bg0r')
+add_data(['Long Min'],
+'Long Min',
+False,
+False,
+[
+    ['Kengan(verse)?']
+],
+'Kengan Asura',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t1bg0r/respect_long_min_kengan/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Chevalier d''Eon! (Fate)", 'https://redd.it/t1bso7')
+add_data(["Chevalier d''Eon"],
+"Chevalier d''Eon",
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t1bso7/respect_the_chevalier_deon_fate/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

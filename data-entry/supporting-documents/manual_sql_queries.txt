@@ -19,6 +19,7 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Orcas?', 'A15 Or
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Orcas?', 'A15 Orca', -4);
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Orcas?', 'A-15 Orcas', -5);
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Orcas?', 'A-15 Orca', -5);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Doomsday', 'Doomsday Clock', 0);
 
 ########################################
 
