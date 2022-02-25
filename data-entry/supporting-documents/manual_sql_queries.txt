@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{5787}' WHERE default_name='Lancelot' AND displayed_version_name='Fate';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('King', 'Deep Sea King', -9);
+
 ########################################
 
 ########################################
