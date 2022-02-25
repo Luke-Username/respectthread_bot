@@ -25329,14 +25329,14 @@ Gorr the God Butcher,{Marvel},t,{21093},616
 SCP-517-ARC,{Foundation},t,{21094},""
 Kōushō Shinogi,{Baki},t,{21095},Baki
 Aa'une,{Chaotic},t,{21096},Chaotic
-Sun Wukong,"{`"Journey to the West`"}",t,{6170},""
-Sun Wukong,{JTTW},t,{6170},""
-Sun Wukong,{Chinese},t,{6170},""
-Sun Wukong,{myth?(ical|olog(y|ical))?},t,{6170},""
-Sun Wukong,{buddha(hood)?},t,{6170},""
 Frisk,{Inseparable},f,{21097},Inseparable
 Asriel,{Inseparable},f,{21098},Inseparable
 Toneri,{Naruto},t,{21099},Naruto
+Sun Wukong,"{`"Journey to the West`"}",t,{},""
+Sun Wukong,{JTTW},t,{},""
+Sun Wukong,{Chinese},t,{},""
+Sun Wukong,{myth?(ical|olog(y|ical))?},t,{},""
+Sun Wukong,{buddha(hood)?},t,{},""
 Pain,{Shippuden},f,{3964},Naruto
 Pain,{Akatsuki},f,{3964},Naruto
 Waluigi,{Mashable},f,{21100},Mashable
@@ -25733,10 +25733,6 @@ Dirty Harry,"{`"Harry Callahan`"}",t,{21172},Harry Callahan
 Ox Demon King,"{`"Xi Xing Ji`"}",f,{21173},Xi Xing Ji
 Thor,{22260},f,{21174},22260
 Hassan,"{Hundred,Faces?}",f,{21175},Fate
-Lancelot,"{`"\\(Fate`"}",f,{21175},Fate
-Lancelot,{Berserker},f,{21175},Fate
-Lancelot,{Serv(a|e)nts?},f,{21175},Fate
-Lancelot,"{Fate,Zero}",f,{21175},Fate
 Valkyries,"{`"Valkyries \\(Fate`"}",f,{21176},Fate
 Adam,"{`"Adam Szalinski`"}",f,{21177},"Honey, I Blew Up the Kid"
 Adam,"{`"Blew Up the Kid`"}",f,{21177},"Honey, I Blew Up the Kid"
@@ -25766,6 +25762,7 @@ Six Stones,{616},t,{7484},616
 Invincible,"{`"Invincible ?\\(Invincible`"}",f,"{1961,17671}",""
 Super Brainz,"{Plants,Zombies}",t,{20378},Plants vs. Zombies
 Doctor Strange,"{`"Battle Of New York`"}",f,{13351},MCU
+Lancelot,"{`"\\(Fate`"}",f,{5787},Fate
 Super Brainz,{PvZ},t,{20378},Plants vs. Zombies
 Super Brainz,"{`"Garden Warfare`"}",t,{20378},Plants vs. Zombies
 Servants,"{`"Fate(/| )Zero`"}",f,"{20234,20236,20235,21175,5787}",Fate/Zero
@@ -26392,7 +26389,6 @@ Captain Thunder,{276},f,{21450},Earth-276
 Red Tornado,{PC},t,"{21451,1652}",DC
 Red Tornado,"{`"Post(-| )?C(risis)?`"}",t,"{21451,1652}",DC
 Red Tornado,"{`"New(-| )Earth`"}",t,"{21451,1652}",DC
-Monkey King,"{`"Journey to the West`"}",f,{6170},Journey to the West
 Revenant,{Apex},f,{21452},Apex Legends
 Cuphead,"{`"Mug ?man`"}",t,{21453},""
 Roswaal,"{`"Re:? ?Zero`"}",t,{21454},Re:Zero
@@ -26403,3 +26399,22 @@ Yorihime,"{`"Watatsuki no Yorihime`"}",t,{21457},Touhou
 Yorihime,{Touhou},t,{21457},Touhou
 Extremis Soldiers,"{`"Marvel Cinematic Universe`"}",t,{21458},MCU
 Extremis Soldiers,{MCU},t,{21458},MCU
+Lancelot,{Berserker},f,{5787},Fate
+Lancelot,{Serv(a|e)nts?},f,{5787},Fate
+Lancelot,"{Fate,Zero}",f,{5787},Fate
+Monkey King,"{`"Journey to the West`"}",f,{},Journey to the West
+Izuku,"{`"My Hero`"}",t,{3925},My Hero Academia
+Izuku,{Quirks?},t,{3925},My Hero Academia
+Izuku,{(M|BN?)HA},t,{3925},My Hero Academia
+Izuku,"{`"Boku no Hero`"}",t,{3925},My Hero Academia
+Medea,{Fate},f,{21466},Fate
+Medea,"{`"Stay/? ?k?Night`"}",f,{21466},Fate
+Medea,{F/?SN},f,{21466},Fate
+Medea,{Serv(a|e)nts?},f,{21466},Fate
+Jason,"{`"Jason ?\\(Fate`"}",f,{21467},Fate
+Radiant Black,{default},t,{21468},""
+Janey Belle,"{`"Zombie Tramp`"}",t,{21469},Zombie Tramp
+Albatross,"{`"Wings of Fire`"}",f,{21470},Wings of Fire
+Rapid Rabbit,"{`"Honey Trap`"}",f,{21471},Superwomen in Love!
+Rapid Rabbit,"{`"Superwomen in Love`"}",f,{21471},Superwomen in Love!
+Intress,{Chaotic},t,{21472},Chaotic
