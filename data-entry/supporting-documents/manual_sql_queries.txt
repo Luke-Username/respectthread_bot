@@ -20,6 +20,9 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('King', 'Deep Sea
 
 ########################################
 
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{6170}';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Harry Potter', '(Harry Potter)', -1);
+
 ########################################
 
 ########################################

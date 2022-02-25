@@ -2270,7 +2270,9 @@ Mulan
 
 My Hero Academia
 	Version
-		'{"My Hero Academia"}', r'{"\\(My Hero\\)"}', '{"(M|BN?)HA"}', '{"Boku no Hero"}', '{"Class ?1(-| )?a"}'
+		['My Hero Academia'], ['\(My Hero\)'], ['(M|BN?)HA'], ['Boku no Hero'], ['Class ?1(-| )?a']
+	Sometimes
+		['Quirks?']
 	Displayed Version Name
 		"My Hero Academia"
 
