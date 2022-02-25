@@ -107,6 +107,35 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 14408, 'Respect Hector! (Fate)', 'https://redd.it/t18xug')
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Master (John Simm) (Doctor Who)', 'https://redd.it/t17jba')
+add_data(['Master'],
+'Master',
+False,
+False,
+[
+    ['Master.*Doctor Who'], ['John Simm']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t17jba/respect_the_master_john_simm_doctor_who/
+
+add_data(['The Master'],
+'The Master',
+False,
+False,
+[
+    ['Doctor Who'], ['John Simm']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t17jba/respect_the_master_john_simm_doctor_who/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
