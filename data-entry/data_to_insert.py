@@ -181,6 +181,7 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/t1bso7/respect_the_chevalier_deon_fate/
 
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
