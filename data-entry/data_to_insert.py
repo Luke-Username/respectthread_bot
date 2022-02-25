@@ -153,6 +153,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ranjo (Kengan)', 'https://redd.it/t1cm4s')
+add_data(['Ranjo'],
+'Ranjo',
+False,
+False,
+[
+    ['Kengan(verse)?']
+],
+'Kengan Asura',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t1cm4s/respect_ranjo_kengan/
+
+########################################
+
 id = get_rt_id(cur, "Respect the Chevalier d''Eon! (Fate)", 'https://redd.it/t1bso7')
 add_data(["Chevalier d''Eon"],
 "Chevalier d''Eon",
