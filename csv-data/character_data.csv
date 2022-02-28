@@ -20757,10 +20757,6 @@ Diomedes,{myth?olog(y|ical)},f,{5806},Greek Mythology
 Diomedes,"{`"Greek Myth`"}",f,{5806},Greek Mythology
 Diomedes,"{`"Diomedes ?\\(Myth`"}",f,{5806},Greek Mythology
 Diomedes,{Ill?iad},f,{5806},Greek Mythology
-Thor,"{`"Thor ?\\(To ?aru`"}",f,{15253},Toaru Majutsu no Index
-Thor,"{`"Thor ?\\(Index(verse)?`"}",f,{15253},Toaru Majutsu no Index
-Thor,"{`"Thor ?\\(TAMNI`"}",f,{15253},Toaru Majutsu no Index
-Thor,"{`"Thor ?\\(Raildex`"}",f,{15253},Toaru Majutsu no Index
 Knight Leader,"{`"To ?aru`"}",f,{15254},Toaru Majutsu no Index
 Knight Leader,{Index(verse)?},f,{15254},Toaru Majutsu no Index
 Knight Leader,{TAMNI},f,{15254},Toaru Majutsu no Index
@@ -20780,6 +20776,9 @@ Vortex,"{`"Fall of Cybertron`"}",f,{15256},Transformers: Fall of Cybertron
 Brawl,"{`"Fall of Cybertron`"}",f,{15256},Transformers: Fall of Cybertron
 Swindle,"{`"Fall of Cybertron`"}",f,{15256},Transformers: Fall of Cybertron
 Onslaught,"{`"Fall of Cybertron`"}",f,{15256},Transformers: Fall of Cybertron
+Thor,"{`"Thor\\?? ?\\(Index(verse)?`"}",f,{15253},Toaru Majutsu no Index
+Thor,"{`"Thor\\?? ?\\(TAMNI`"}",f,{15253},Toaru Majutsu no Index
+Thor,"{`"Thor\\?? ?\\(Raildex`"}",f,{15253},Toaru Majutsu no Index
 Bruticus,"{`"Fall of Cybertron`"}",f,{15256},Transformers: Fall of Cybertron
 Spider-Man,{Insomniac},f,{15258},Insomniac's Spider-Man
 Spider-Man,{PS4},f,{15258},Insomniac's Spider-Man
@@ -26425,3 +26424,23 @@ The Master,"{`"John Simm`"}",f,{21473},Doctor Who
 Long Min,{Kengan(verse)?},f,{21474},Kengan Asura
 Ranjo,{Kengan(verse)?},f,{21475},Kengan Asura
 Chevalier d'Eon,{Fate},f,{21476},Fate
+Thor,"{`"Thor\\?? ?\\(To ?aru`"}",f,{15253},Toaru Majutsu no Index
+Ed,"{Edd,Eddy}",f,{21477},"Ed, Edd n Eddy"
+Kotaro,{Fate(staynight|grandorder)?},f,{21478},Fate
+Christopher Columbus,"{`"Christopher Columbus ?\\(Fate`"}",f,{21479},Fate
+Katō Danzō,{Fate},f,{21480},Fate
+Mandricardo,{Fate},f,{21481},Fate
+Osakabehime,{Fate},f,{21482},Fate
+Sei Shōnagon,{Fate},f,{21483},Fate
+Circe,"{`"Circe ?\\(Fate`"}",f,{21484},Fate
+Mozart,"{`"Mozart ?\\(Fate`"}",f,{21485},Fate
+Hōzōin Inshun,{Fate},f,{21486},Fate
+Emiya Shirou,"{`"Miyu(-| )?verse`"}",f,{21487},Miyuverse
+One Below All,{Marvel},t,{21488},Marvel
+One Below All,{Hulk},t,{21488},Marvel
+TOBA,{Hulk},f,{21488},Marvel
+Marnie,{Pok(e|é)m(o|a)n},f,{21489},Pokémon
+Black Adam,"{`"Earth(-| )S`"}",f,{21490},Earth-S
+Rasputin,"{`"The King'?s Man`"}",f,{21491},The King's Man
+Flying Dutchman,{SpongeBob},f,{21492},SpongeBob
+Tangath Toborn,{Chaotic},t,{21493},Chaotic
