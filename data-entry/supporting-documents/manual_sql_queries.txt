@@ -15,6 +15,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Phantom Th(ie|ei)ves' WHERE name='Phantom Thieves';
+UPDATE character_name SET name='Kotar(ō|o)u?' WHERE name='Kotaro';
+UPDATE character SET version='{"Thor\\?? ?\\(To ?aru"}' WHERE version='{"Thor ?\\(To ?aru"}';
+UPDATE character SET version='{"Thor\\?? ?\\(Index(verse)?"}' WHERE version='{"Thor ?\\(Index(verse)?"}';
+UPDATE character SET version='{"Thor\\?? ?\\(TAMNI"}' WHERE version='{"Thor ?\\(TAMNI"}';
+UPDATE character SET version='{"Thor\\?? ?\\(Raildex"}' WHERE version='{"Thor ?\\(Raildex"}';
+
 ########################################
 
 ########################################
