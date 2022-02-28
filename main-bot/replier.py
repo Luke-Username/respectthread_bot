@@ -30,7 +30,9 @@ def generate_comment(cur, character_list: List[Character], with_footer: bool) ->
             cur.execute(rt_query)
             respectthreads = cur.fetchall()
             for row in respectthreads:
-                reply_text += "- [{}]({})\n\n".format(row[1], row[2])
+                title = row[1].replace('[', '\[').replace(']', '\]')
+                link = row[2]
+                reply_text += "- [{}]({})\n\n".format(title, link)
 
     # If the reply text is not empty, add a footer to the comment to tell readers about the bot
     if reply_text != "" and with_footer:

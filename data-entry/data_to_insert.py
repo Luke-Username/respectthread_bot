@@ -106,6 +106,95 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+id = get_rt_id(cur, 'Respect Medusa, the Black Serpent! (Fate)', 'https://redd.it/t38bys')
+add_data(['Medusa'],
+'Medusa',
+False,
+False,
+[
+    ['Medusa ?\(Fate'], ['Rider']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t38bys/respect_medusa_the_black_serpent_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Silent Hill (Silent Hill)', 'https://redd.it/t3bbro')
+add_data(['Silent Hill'],
+'Silent Hill',
+True,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t3bbro/respect_silent_hill_silent_hill/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Redcloak (Order of the Stick)', 'https://redd.it/t3cbps')
+add_data(['Redcloak'],
+'Redcloak',
+False,
+False,
+[
+    ['Order of the Stick']
+],
+'Order of the Stick',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t3cbps/respect_redcloak_order_of_the_stick/
+
+########################################
+
+id = get_rt_id(cur, 'RESPECT Hakoda (Avatar: The Last Airbender)', 'https://redd.it/t3h3gc')
+add_data(['Hakoda'],
+'Hakoda',
+False,
+True,
+[
+    ['Avatar'], ['Bend(er|ing)']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t3h3gc/respect_hakoda_avatar_the_last_airbender/
+
+########################################
+
+id = get_rt_id(cur, 'RESPECT Master Yu (Avatar: The Last Airbender)', 'https://redd.it/t3h89d')
+add_data(['Master Yu'],
+'Master Yu',
+False,
+False,
+[
+    ['Avatar'], ['A?TLA'], ['Bend(er|ing)']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t3h89d/respect_master_yu_avatar_the_last_airbender/
+
+########################################
+
+id = get_rt_id(cur, 'RESPECT Huu (Avatar: The Last Airbender)', 'https://redd.it/t3hau8')
+add_data(['Huu'],
+'Huu',
+False,
+False,
+[
+    ['Avatar'], ['A?TLA'], ['Bend(er|ing)']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t3hau8/respect_huu_avatar_the_last_airbender/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
