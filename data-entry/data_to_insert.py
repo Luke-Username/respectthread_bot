@@ -107,6 +107,26 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5497, 'Respect The Terrarian! (Terraria)', 'https://redd.it/t3t8sp')
+update_respectthread(cur, 251, 'Respect Loki (Marvel Cinematic Universe)', 'https://redd.it/t3waun')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ulik, King of the Trolls (Complete Respect Thread)', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-ulik-king-of-the-trolls-complete-respect-t-2073168/')
+add_data(['Ulik'],
+'Ulik',
+False,
+True,
+[
+    ['616'], ['Marvel Comics?']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t49fjq/iron_man_vs_ulik/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Medusa, the Black Serpent! (Fate)', 'https://redd.it/t38bys')
 add_data(['Medusa'],
 'Medusa',
@@ -119,6 +139,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/t38bys/respect_medusa_the_black_serpent_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hassan of the Cursed Arm! (Fate)', 'https://redd.it/t3zihw')
+add_data(['Medusa'],
+'Medusa',
+False,
+False,
+[
+    ['Cursed Arms?']
+],
+'Cursed Arm',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t3zihw/respect_hassan_of_the_cursed_arm_fate/
 
 ########################################
 
@@ -182,18 +217,186 @@ False,
 
 ########################################
 
-id = get_rt_id(cur, 'RESPECT Huu (Avatar: The Last Airbender)', 'https://redd.it/t3hau8')
-add_data(['Huu'],
-'Huu',
+id = get_rt_id(cur, 'Respect Emperor Mateus! (Final Fantasy II)', 'https://redd.it/t3zp5b')
+add_data(['Emperor Mateus'],
+'Emperor Mateus',
 False,
-False,
+True,
 [
-    ['Avatar'], ['A?TLA'], ['Bend(er|ing)']
+    ['Final Fantasy'], ['FF(II|2)']
 ],
-'Avatar: TLA',
+'Final Fantasy',
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/t3hau8/respect_huu_avatar_the_last_airbender/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Susan Murphy, Ginormica! (Monsters vs. Aliens)', 'https://redd.it/t3ztyh')
+add_data(['Ginormica'],
+'Ginormica',
+False,
+True,
+[
+    ['Monsters vs?\.? Aliens']
+],
+'Monsters vs. Aliens',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t3ztyh/respect_susan_murphy_ginormica_monsters_vs_aliens/
+
+add_data(['Susan'],
+'Susan',
+False,
+False,
+[
+    ['Monsters vs?\.? Aliens']
+],
+'Monsters vs. Aliens',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t3ztyh/respect_susan_murphy_ginormica_monsters_vs_aliens/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Imhotep (The Mummy, 1932)', 'https://redd.it/t458ge')
+add_data(['Imhotep'],
+'Imhotep',
+False,
+False,
+[
+    ['1932']
+],
+'The Mummy, 1932',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t458ge/respect_imhotep_the_mummy_1932/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Princess Ahmanet (The Mummy, 2017)', 'https://redd.it/t458hh')
+add_data(['Ahmanet'],
+'Ahmanet',
+False,
+False,
+[
+    ['2017'], ['The Mummy']
+],
+'The Mummy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t458hh/respect_princess_ahmanet_the_mummy_2017/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rachel Woodruff! (Beynders)', 'https://redd.it/t472r1')
+add_data(['Rachel'],
+'Rachel',
+False,
+False,
+[
+    ['Rachel Woodruff'], ['Beyonders']
+],
+'Beyonders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t472r1/respect_rachel_woodruff_beynders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tanya Spears, Power Girl (Dc, New 52/Rebirth)', 'https://redd.it/t48gsf')
+add_data(['Tanya Spears'],
+'Tanya Spears',
+False,
+True,
+[
+    ['New(-| )?52'], ['Nu?-?52'], ['Rebirth']
+],
+'New 52 / Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t48gsf/respect_tanya_spears_power_girl_dc_new_52rebirth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gligarman and Gligirl (Pokemon Anime)', 'https://redd.it/t4fewr')
+add_data(['Gligarman'],
+'Gligarman',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t4fewr/respect_gligarman_and_gligirl_pokemon_anime/
+
+add_data(['Gligirl'],
+'Gligirl',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t4fewr/respect_gligarman_and_gligirl_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Leonardo (Teenage Mutant Ninja Turtles 2012)', 'https://redd.it/t4hsdw')
+add_data(['Leonardo'],
+'Leonardo',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '2012'], ['TMNT', '2012']
+],
+'TMNT 2012',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t4hsdw/respect_leonardo_teenage_mutant_ninja_turtles_2012/
+
+id = get_rt_id(cur, 'Respect Raphael (Teenage Mutant Ninja Turtles 2012)', 'https://redd.it/t4hsfh')
+add_data(['Raphael'],
+'Raphael',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '2012'], ['TMNT', '2012']
+],
+'TMNT 2012',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t4hsdw/respect_leonardo_teenage_mutant_ninja_turtles_2012/
+
+id = get_rt_id(cur, 'Respect Donatello (Teenage Mutant Ninja Turtles 2012)', 'https://redd.it/t4hsgf')
+add_data(['Donatello'],
+'Donatello',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '2012'], ['TMNT', '2012']
+],
+'TMNT 2012',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t4hsdw/respect_leonardo_teenage_mutant_ninja_turtles_2012/
+
+id = get_rt_id(cur, 'Respect Michelangelo (Teenage Mutant Ninja Turtles 2012)', 'https://redd.it/t4hshj')
+add_data(['Michelangelo'],
+'Michelangelo',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '2012'], ['TMNT', '2012']
+],
+'TMNT 2012',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t4hsdw/respect_leonardo_teenage_mutant_ninja_turtles_2012/
 
 ########################################
 
