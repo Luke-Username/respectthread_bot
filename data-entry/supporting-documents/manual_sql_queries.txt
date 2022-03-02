@@ -22,6 +22,7 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Megas XLR', '(Me
 ########################################
 
 UPDATE character SET is_default=True WHERE default_name='Emiya Shirou' AND displayed_version_name='Fate';
+UPDATE character SET version='{"Guardian.*(\\(|\\[)DC( Comics)?(\\)|\\])"}' WHERE default_name='Guardian' AND version='{"(\\(|\\[)DC( Comics)?(\\)|\\])"}';
 
 ########################################
 
