@@ -127,6 +127,33 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Agamotto, The All Seeing (Marvel, 616)', 'https://redd.it/t4zn9h')
+add_data(['Agamotto'],
+'Agamotto',
+False,
+True,
+[
+    ['616'], ['Comics?']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t4zn9h/respect_agamotto_the_all_seeing_marvel_616/
+
+add_data(['Agamotto'],
+'Agamotto',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t4zn9h/respect_agamotto_the_all_seeing_marvel_616/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Medusa, the Black Serpent! (Fate)', 'https://redd.it/t38bys')
 add_data(['Medusa'],
 'Medusa',
@@ -359,6 +386,8 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/t4hsdw/respect_leonardo_teenage_mutant_ninja_turtles_2012/
 
+########################################
+
 id = get_rt_id(cur, 'Respect Raphael (Teenage Mutant Ninja Turtles 2012)', 'https://redd.it/t4hsfh')
 add_data(['Raphael'],
 'Raphael',
@@ -371,6 +400,8 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/t4hsdw/respect_leonardo_teenage_mutant_ninja_turtles_2012/
+
+########################################
 
 id = get_rt_id(cur, 'Respect Donatello (Teenage Mutant Ninja Turtles 2012)', 'https://redd.it/t4hsgf')
 add_data(['Donatello'],
@@ -385,6 +416,8 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/t4hsdw/respect_leonardo_teenage_mutant_ninja_turtles_2012/
 
+########################################
+
 id = get_rt_id(cur, 'Respect Michelangelo (Teenage Mutant Ninja Turtles 2012)', 'https://redd.it/t4hshj')
 add_data(['Michelangelo'],
 'Michelangelo',
@@ -397,6 +430,81 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/t4hsdw/respect_leonardo_teenage_mutant_ninja_turtles_2012/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Teenage Mutant Ninja Turtles (Teenage Mutant Ninja Turtles 2012)', 'https://redd.it/t54lra')
+add_data(['Ninja Turtles?'],
+'Teenage Mutant Ninja Turtles',
+False,
+False,
+[
+    ['2012']
+],
+'2012',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t54lra/respect_the_teenage_mutant_ninja_turtles_teenage/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Splinter (Teenage Mutant Ninja Turtles 2012)', 'https://redd.it/t54ls7')
+add_data(['Splinter'],
+'Splinter',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '2012'], ['TMNT', '2012']
+],
+'TMNT 2012',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t54ls7/respect_splinter_teenage_mutant_ninja_turtles_2012/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shredder (Teenage Mutant Ninja Turtles 2012)', 'https://redd.it/t54lti')
+add_data(['Shredder'],
+'Shredder',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '2012'], ['TMNT', '2012']
+],
+'TMNT 2012',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t54lti/respect_shredder_teenage_mutant_ninja_turtles_2012/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Red Dart Machine (Red Dart)', 'https://redd.it/t4ql3n')
+add_data(['Red Dart Machine'],
+'Red Dart Machine',
+False,
+True,
+[
+    ['vending']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t4ql3n/respect_the_red_dart_machine_red_dart/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alternate Calliope, The Muse of Space! (Homestuck)', 'https://redd.it/t545vm')
+add_data(['Alternate Calliope'],
+'Alternate Calliope',
+False,
+True,
+[
+    ['Homestuck']
+],
+'Homestuck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t545vm/respect_alternate_calliope_the_muse_of_space/
 
 ########################################
 
