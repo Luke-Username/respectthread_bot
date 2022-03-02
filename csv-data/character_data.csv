@@ -9378,7 +9378,6 @@ Kitana,{Malibu},f,{8455},Malibu Comics
 Kitana,"{`"Mortal Kombat`",Conquest}",f,{8456},Mortal Kombat: Conquest
 Kitana,"{MK,Conquest}",f,{8456},Mortal Kombat: Conquest
 Kitana,"{`"(Mortal Kombat|MK):? Legacy`"}",f,{8457},Mortal Kombat: Legacy
-Guardian,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{8458},DC
 Guardian,"{`"Jim Harper`"}",f,{8458},DC
 Guardian,{PC},f,{8458},Post-Crisis
 Guardian,"{`"Earth(-| )(1|One)`"}",f,{8458},Post-Crisis
@@ -9402,6 +9401,7 @@ Crimson King,"{`"Stephan King`"}",t,{},The Dark Tower
 Crimson King,"{`"Dark Tower`"}",t,{},The Dark Tower
 Gan,"{`"Stephan King`"}",f,{},The Dark Tower
 Gan,"{`"Dark Tower`"}",f,{},The Dark Tower
+Guardian,"{`"Guardian.*(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{8458},DC
 Kratos Aurion,{Symphonia},t,{4953},Tales of Symphonia
 Kratos,{Symphonia},f,{4953},Tales of Symphonia
 Master Chief,{Halo},t,{5098},Halo
@@ -20382,6 +20382,51 @@ Betty Ross,{616},t,"{2143,14920}",616
 Betty Ross,{Marvel},t,"{2143,14920}",616
 Kate Bishop,{Marvel},t,{14921},616
 Kyle Rayner,"{`"Green Lantern \\(Kyle Rayner`"}",f,"{1685,15411}",DC
+Ulik,{616},t,{21494},616
+Ulik,"{`"Marvel Comics?`"}",t,{21494},616
+Agamotto,{616},t,{21495},616
+Agamotto,{Comics?},t,{21495},616
+Agamotto,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Agamotto,{MCU},f,{},MCU
+Medusa,"{`"Medusa ?\\(Fate`"}",f,{21496},Fate
+Medusa,{Rider},f,{21496},Fate
+Medusa,"{`"Cursed Arms?`"}",f,{21497},Cursed Arm
+Silent Hill,{default},t,{21498},""
+Redcloak,"{`"Order of the Stick`"}",f,{21499},Order of the Stick
+Hakoda,{Avatar},t,{21500},Avatar: TLA
+Hakoda,{Bend(er|ing)},t,{21500},Avatar: TLA
+Master Yu,{Avatar},f,{21501},Avatar: TLA
+Master Yu,{A?TLA},f,{21501},Avatar: TLA
+Master Yu,{Bend(er|ing)},f,{21501},Avatar: TLA
+Emperor Mateus,"{`"Final Fantasy`"}",t,{21502},Final Fantasy
+Emperor Mateus,{FF(II|2)},t,{21502},Final Fantasy
+Ginormica,"{`"Monsters vs?\\.? Aliens`"}",t,{21503},Monsters vs. Aliens
+Susan,"{`"Monsters vs?\\.? Aliens`"}",f,{21503},Monsters vs. Aliens
+Imhotep,{1932},f,{21504},"The Mummy, 1932"
+Ahmanet,{2017},f,{21505},The Mummy
+Ahmanet,"{`"The Mummy`"}",f,{21505},The Mummy
+Rachel,"{`"Rachel Woodruff`"}",f,{21506},Beyonders
+Rachel,{Beyonders},f,{21506},Beyonders
+Tanya Spears,"{`"New(-| )?52`"}",t,{21507},New 52 / Rebirth
+Tanya Spears,{Nu?-?52},t,{21507},New 52 / Rebirth
+Tanya Spears,{Rebirth},t,{21507},New 52 / Rebirth
+Gligarman,{Pok(e|é)m(o|a)n},t,{21508},Pokémon
+Gligirl,{Pok(e|é)m(o|a)n},t,{21508},Pokémon
+Leonardo,"{`"Teenaged? Mutant Ninja Turtles?`",2012}",f,{21509},TMNT 2012
+Leonardo,"{TMNT,2012}",f,{21509},TMNT 2012
+Raphael,"{`"Teenaged? Mutant Ninja Turtles?`",2012}",f,{21510},TMNT 2012
+Raphael,"{TMNT,2012}",f,{21510},TMNT 2012
+Donatello,"{`"Teenaged? Mutant Ninja Turtles?`",2012}",f,{21511},TMNT 2012
+Donatello,"{TMNT,2012}",f,{21511},TMNT 2012
+Michelangelo,"{`"Teenaged? Mutant Ninja Turtles?`",2012}",f,{21512},TMNT 2012
+Michelangelo,"{TMNT,2012}",f,{21512},TMNT 2012
+Teenage Mutant Ninja Turtles,{2012},f,{21513},2012
+Splinter,"{`"Teenaged? Mutant Ninja Turtles?`",2012}",f,{21514},TMNT 2012
+Splinter,"{TMNT,2012}",f,{21514},TMNT 2012
+Shredder,"{`"Teenaged? Mutant Ninja Turtles?`",2012}",f,{21515},TMNT 2012
+Shredder,"{TMNT,2012}",f,{21515},TMNT 2012
+Red Dart Machine,{vending},t,{21516},""
+Alternate Calliope,{Homestuck},t,{21517},Homestuck
 Six,"{`"Little Nightmares`"}",f,{5634},Little Nightmares
 Buddy,{Lisa},f,{5635},Lisa: The Painful
 Elodie,"{`"Long Live The Queen`"}",f,{5636},Long Live The Queen
@@ -22719,8 +22764,6 @@ Heracles,{Fate},f,{6249},Fate
 Caster,"{`"Stay ?k?Night`"}",f,{6250},Fate
 Caster,{F/?SN},f,{6250},Fate
 Caster,{Medea},f,{6250},Fate
-Emiya Shirou,"{`"Stay ?k?Night`"}",f,{6251},Fate
-Emiya Shirou,{F/?SN},f,{6251},Fate
 Gilgamesh,{Fate},t,{6252},Fate
 Gilgamesh,"{`"TYPE(-| )?MOON`"}",t,{6252},Fate
 Gilgamesh,"{`"Nasu(-| )?verse`"}",t,{6252},Fate
@@ -22766,6 +22809,8 @@ Saber,"{`"Stay/? ?k?Night`"}",f,"{6256,21412}",Fate
 Saber,{F/?SN},f,"{6256,21412}",Fate
 Saber,{Artoria},f,"{6256,21412}",Fate
 Saber,{Pendragon},f,"{6256,21412}",Fate
+Emiya Shirou,"{`"Stay ?k?Night`"}",t,{6251},Fate
+Emiya Shirou,{F/?SN},t,{6251},Fate
 Mina Ashido,"{`"Character Scramble`"}",f,{6279},Character Scramble
 Supermooks,"{`"Character Scramble`"}",f,{6280},Character Scramble
 Cicero,{Fargo},f,{6281},Fargo
@@ -25512,8 +25557,6 @@ SCP-001,"{`"Gate Guardian`"}",f,{15332},""
 StarCraft Marine,"{`"SC\\d?`"}",t,{},""
 Lion ElJonson,{(WH)?40K},t,{21119},Warhammer 40k
 Lion ElJonson,{Warhammer},t,{21119},Warhammer 40k
-Emiya Shirou,{UBW},f,{6251},Fate
-Emiya Shirou,"{`"Unlimited Blade Works`"}",f,{6251},Fate
 Spider-Men,"{`"Live action Spider(-| )?Men`"}",f,"{302,113,261}",Live-Action
 New Avengers,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{21120},Earths Mightiest Heroes
 New Avengers,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{21120},Earths Mightiest Heroes
@@ -25539,6 +25582,8 @@ Lady of Pain,"{`"Dungeons (&|and) Dragons`"}",t,{21121},Dungeons & Dragons
 Lady of Pain,"{`"D ?& ?D`"}",t,{21121},Dungeons & Dragons
 Shang-Chi,"{`"Marvel Cinematic Universe`"}",f,{21301},MCU
 Shang-Chi,{MCU},f,{21301},MCU
+Emiya Shirou,{UBW},t,{6251},Fate
+Emiya Shirou,"{`"Unlimited Blade Works`"}",t,{6251},Fate
 Kafka Hibino,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
 Leno Ichikawa,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
 Kikoru Shinomiya,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8

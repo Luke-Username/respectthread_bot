@@ -15,14 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Shi Ka' WHERE name='Shi ?Ka';
-UPDATE character_name SET name='Madoka Kaname' WHERE name='Madoka';
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Megas XLR', '(Megas XLR)', -1);
-
 ########################################
-
-UPDATE character SET is_default=True WHERE default_name='Emiya Shirou' AND displayed_version_name='Fate';
-UPDATE character SET version='{"Guardian.*(\\(|\\[)DC( Comics)?(\\)|\\])"}' WHERE default_name='Guardian' AND version='{"(\\(|\\[)DC( Comics)?(\\)|\\])"}';
 
 ########################################
 
