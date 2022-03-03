@@ -107,6 +107,63 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['A-Train'],
+'A-Train',
+False,
+False,
+[
+    ['Homelander']
+],
+'The Boys',
+'{21325}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t5s3fv/if_atrain_and_homelander_raced_who_will_win/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Meowthinator Impersonator (Pokemon Anime)', 'https://redd.it/t5vvln')
+add_data(['Meowthinator Impersonator'],
+'Meowthinator Impersonator',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t5vvln/respect_the_meowthinator_impersonator_pokemon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Karen! (Spongebob Squarepants)', 'https://redd.it/t5w6di')
+add_data(['Karen'],
+'Karen',
+False,
+False,
+[
+    ['SpongeBob'], ['Plankton']
+],
+'SpongeBob',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t5w6di/respect_karen_spongebob_squarepants/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gigawatt! (Transformers/Back to the Future)', 'https://redd.it/t62dlb')
+add_data(['Gigawatt'],
+'Gigawatt',
+False,
+False,
+[
+    ['Transformers', 'Back to the Future']
+],
+'Transformers/Back to the Future',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t62dlb/respect_gigawatt_transformersback_to_the_future/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
