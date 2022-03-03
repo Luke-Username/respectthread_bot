@@ -10369,7 +10369,6 @@ Sharad Hett,"{`"Star ?Wars`"}",t,{2655},Star Wars
 Sharad Hett,{SWars},t,{2655},Star Wars
 Sharad Hett,"{`"Extended Universe`"}",t,{2655},Star Wars
 Sharad Hett,{EU},t,{2655},Star Wars
-Lucifer,{CAS},f,{1777},DC
 Sharad Hett,{Legends},t,{2655},Star Wars
 Xesh,"{`"Star ?Wars`"}",t,{2656},Star Wars
 Xesh,{SWars},t,{2656},Star Wars
@@ -20427,6 +20426,7 @@ Shredder,"{`"Teenaged? Mutant Ninja Turtles?`",2012}",f,{21515},TMNT 2012
 Shredder,"{TMNT,2012}",f,{21515},TMNT 2012
 Red Dart Machine,{vending},t,{21516},""
 Alternate Calliope,{Homestuck},t,{21517},Homestuck
+Lucifer,{CAS},f,{1616},DC
 Six,"{`"Little Nightmares`"}",f,{5634},Little Nightmares
 Buddy,{Lisa},f,{5635},Lisa: The Painful
 Elodie,"{`"Long Live The Queen`"}",f,{5636},Long Live The Queen
@@ -26489,3 +26489,8 @@ Black Adam,"{`"Earth(-| )S`"}",f,{21490},Earth-S
 Rasputin,"{`"The King'?s Man`"}",f,{21491},The King's Man
 Flying Dutchman,{SpongeBob},f,{21492},SpongeBob
 Tangath Toborn,{Chaotic},t,{21493},Chaotic
+A-Train,{Homelander},f,{21325},The Boys
+Meowthinator Impersonator,{Pok(e|é)m(o|a)n},f,{21518},Pokémon
+Karen,{SpongeBob},f,{21519},SpongeBob
+Karen,{Plankton},f,{21519},SpongeBob
+Gigawatt,"{Transformers,`"Back to the Future`"}",f,{21520},Transformers/Back to the Future

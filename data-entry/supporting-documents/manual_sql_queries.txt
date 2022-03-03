@@ -15,8 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{1616}' WHERE default_name='Lucifer' AND version='{"CAS"}';
-
 ########################################
 
 ########################################
