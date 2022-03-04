@@ -107,6 +107,174 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Optimus Prime'],
+'Optimus Prime',
+False,
+False,
+[
+    ['Optimus Prime ?\(Live(-| )Action'], ['Optimus Prime ?\(Movies?'],
+    ['Revenge of the Fallen']
+],
+'Transformers Films',
+'{339}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t6dlr1/optimus_prime_live_action_films_vs_the_hulk_mcu/
+
+########################################
+
+add_data(['Optimus Prime'],
+'Optimus Prime',
+False,
+False,
+[
+    ['Optimus Prime ?\(Live(-| )Action'], ['Optimus Prime ?\(Movies?'],
+    ['Revenge of the Fallen']
+],
+'Transformers Films',
+'{339}'
+)
+#
+
+########################################
+
+add_data(['Maya Lopez'],
+'Maya Lopez',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{21147}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t6jax6/us_agent_vs_kate_bishop_maya_lopez_and_jack/hzbdsro/?context=3
+
+########################################
+
+add_data(['Jack Duquesne'],
+'Jack Duquesne',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{21148}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t6jax6/us_agent_vs_kate_bishop_maya_lopez_and_jack/hzbdsro/?context=3
+
+########################################
+
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Bat(-| )?mans?.*2022'], ['The Batman', '2022'],
+    ['Pattin?son']
+],
+'The Batman, 2022',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t6gups/batman_and_catwoman_2022_vs_bane_tdk/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-056, A Beautiful Person (SCP Foundation)', 'https://redd.it/t680j7')
+add_data(['SCP ?(-| )? ?056'],
+'SCP-056',
+False,
+False,
+[
+    ['Beautiful Person']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t680j7/respect_scp056_a_beautiful_person_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kate Bishop, Hawkeye! {MCU}', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-kate-bishop-hawkeye-mcu-2249411/')
+add_data(['Kate Bishop'],
+'Kate Bishop',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t6jax6/us_agent_vs_kate_bishop_maya_lopez_and_jack/hzbdsro/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Vehicles BatmanMegaRT', 'https://redd.it/859k0m')
+add_data(['Bat(-| )?mobile'],
+'Batmobile',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t6sze3/batman_vs_mr_incrediblewith_a_twist/hzd8g82/?context=3
+#https://www.reddit.com/r/BatmanMegaRT/comments/859k0m/vehicles/
+
+add_data(['Bat(-| )?mobile'],
+'Batmobile',
+False,
+True,
+[
+    ['\(DC\)'], ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t6sze3/batman_vs_mr_incrediblewith_a_twist/hzd8g82/?context=3
+
+add_data(['Bat(-| )?mobile'],
+'Batmobile',
+False,
+False,
+[
+    ['Bale']
+],
+'Nolanverse',
+'{}'
+)
+#
+
+add_data(['Bat(-| )?mobile'],
+'Batmobile',
+False,
+False,
+[
+    ['Arkham city']
+],
+'Batman: Arkham',
+'{}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Angela Baker (Sleepaway Camp)', 'https://redd.it/t6joe8')
+add_data(['Angela Baker'],
+'Angela Baker',
+False,
+True,
+[
+    ['Sleepaway Camp']
+],
+'Sleepaway Camp',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t6joe8/respect_angela_baker_sleepaway_camp/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
