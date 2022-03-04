@@ -2572,7 +2572,6 @@ Bane,"{`"(The Batman)`"}",f,{653},"The Batman, 2004-2008"
 Bane,"{Batman,2004}",f,{653},"The Batman, 2004-2008"
 Batgirl,"{`"(The Batman)`"}",f,{654},"The Batman, 2004-2008"
 Batgirl,"{Batman,2004}",f,{654},"The Batman, 2004-2008"
-Batman,"{`"(The Batman)`"}",f,{655},"The Batman, 2004-2008"
 Batman,"{Batman,2004}",f,{655},"The Batman, 2004-2008"
 Catwoman,"{`"(The Batman)`"}",f,{656},"The Batman, 2004-2008"
 Catwoman,"{Batman,2004}",f,{656},"The Batman, 2004-2008"
@@ -25667,8 +25666,6 @@ Saiki,"{`"Saiki (vs|or)`"}",f,{4732},The Disastrous Life of Saiki K.
 Saiki,{limiters?},f,{4732},The Disastrous Life of Saiki K.
 Saiki,"{`"(vs\\.?|or) Saiki`"}",f,{4732},The Disastrous Life of Saiki K.
 Christmas Wizard,{Community},f,{21146},Community
-Maya Lopez,"{`"Maya Lopez ?\\(Marvel Cinematic Universe`"}",f,{21147},MCU
-Maya Lopez,"{`"Maya Lopez ?\\(MCU`"}",f,{21147},MCU
 Echo,"{`"Echo ?\\(Marvel Cinematic Universe`"}",f,{21147},MCU
 Echo,"{`"Echo ?\\(MCU`"}",f,{21147},MCU
 Echo,"{MCU,`"martial arti?st?`"}",f,{21147},MCU
@@ -26494,3 +26491,24 @@ Meowthinator Impersonator,{Pok(e|é)m(o|a)n},f,{21518},Pokémon
 Karen,{SpongeBob},f,{21519},SpongeBob
 Karen,{Plankton},f,{21519},SpongeBob
 Gigawatt,"{Transformers,`"Back to the Future`"}",f,{21520},Transformers/Back to the Future
+Optimus Prime,"{`"Optimus Prime ?\\(Live(-| )Action`"}",f,{339},Transformers Films
+Optimus Prime,"{`"Optimus Prime ?\\(Movies?`"}",f,{339},Transformers Films
+Optimus Prime,"{`"Revenge of the Fallen`"}",f,{339},Transformers Films
+Maya Lopez,"{`"Marvel Cinematic Universe`"}",f,{21147},MCU
+Maya Lopez,{MCU},f,{21147},MCU
+Jack Duquesne,"{`"Marvel Cinematic Universe`"}",f,{21148},MCU
+Jack Duquesne,{MCU},f,{21148},MCU
+Batman,"{`"Bat(-| )?mans?.*2022`"}",f,{},"The Batman, 2022"
+Batman,"{`"The Batman`",2022}",f,{},"The Batman, 2022"
+Batman,{Pattin?son},f,{},"The Batman, 2022"
+SCP-056,"{`"Beautiful Person`"}",f,{21521},""
+Kate Bishop,"{`"Marvel Cinematic Universe`"}",f,{21522},MCU
+Kate Bishop,{MCU},f,{21522},MCU
+Batmobile,{PC},f,{21523},Post-Crisis
+Batmobile,"{`"Posts?(-| )?C(risis)?`"}",f,{21523},Post-Crisis
+Batmobile,"{`"New(-| )Earth`"}",f,{21523},Post-Crisis
+Batmobile,"{`"\\(DC\\)`"}",t,{21523},DC
+Batmobile,"{`"DC Comics`"}",t,{21523},DC
+Batmobile,{Bale},f,{},Nolanverse
+Batmobile,"{`"Arkham city`"}",f,{},Batman: Arkham
+Angela Baker,"{`"Sleepaway Camp`"}",t,{21524},Sleepaway Camp

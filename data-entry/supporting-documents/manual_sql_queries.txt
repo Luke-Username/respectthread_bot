@@ -15,9 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Batman' AND version='{"(The Batman)"}';
-DELETE FROM character WHERE default_name='Maya Lopez' AND displayed_version_name='MCU';
-
 ########################################
 
 ########################################
