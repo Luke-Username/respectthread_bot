@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Classic Loki (Marvel Cinematic Universe)', 'https://redd.it/t71luy')
+add_data(['Classic Loki'],
+'Classic Loki',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t71luy/respect_classic_loki_marvel_cinematic_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nightcrawler (FOX X-Men)', 'https://redd.it/t7ak2i')
+add_data(['Night ?crawler'],
+'Nightcrawler',
+False,
+False,
+[
+    ['Fox(verse)?'], ['X(-| )?Men (Movie|Film)s?'], ['X-?Men Cinematic Universe'], ['XCU']
+],
+'FOX',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t7ak2i/respect_nightcrawler_fox_xmen/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
