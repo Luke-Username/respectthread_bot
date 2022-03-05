@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Ultimate Predator'],
+'Ultimate Predator',
+False,
+False,
+[
+    ['Alien']
+],
+'The Predator',
+'{9309}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t743ag/the_krakenpirates_of_the_caribbean_vs/hzhgxnk/?context=3
+
+########################################
+
+add_data(['Engineer'],
+'Engineer',
+False,
+False,
+[
+    ['Prometheus']
+],
+'Prometheus',
+'{531}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t7gf1z/engineer_from_prometheus_vs_jungle_hunter_predator/hzhfvj7/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Classic Loki (Marvel Cinematic Universe)', 'https://redd.it/t71luy')
 add_data(['Classic Loki'],
 'Classic Loki',
@@ -134,6 +162,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/t7ak2i/respect_nightcrawler_fox_xmen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-457, "Burning Man"! (SCP Foundation)', 'https://redd.it/t7i5e6')
+add_data(['SCP ?(-| )? ?457'],
+'SCP-457',
+False,
+True,
+[
+    ['Burning Man']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t7i5e6/respect_scp457_burning_man_scp_foundation/
 
 ########################################
 

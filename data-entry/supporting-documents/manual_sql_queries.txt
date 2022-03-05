@@ -19,6 +19,9 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sozin', 'Sozin''
 
 ########################################
 
+UPDATE character_name SET name='Freddy Krue?ger' WHERE name='Freddy Krueger';
+UPDATE character SET is_default=FALSE WHERE default_name='Ultimate Predator';
+
 ########################################
 
 ########################################
