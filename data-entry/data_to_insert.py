@@ -180,6 +180,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect SCP-6630, "Fire On the Horizon"! (SCP Foundation)', 'https://redd.it/t7jykk')
+add_data(['SCP ?(-| )? ?6630'],
+'SCP-6630',
+False,
+True,
+[
+    ['Fire On the Horizon']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t7jykk/respect_scp6630_fire_on_the_horizon_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the E.M.M.I.s! (Metroid)', 'https://redd.it/t7jczf')
+add_data(['E\.M\.M\.I\.s'],
+'E.M.M.I.s',
+False,
+True,
+[
+    ['Metroid']
+],
+'Metroid',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t7jczf/respect_the_emmis_metroid/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
