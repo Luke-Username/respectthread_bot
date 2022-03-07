@@ -24,7 +24,11 @@ UPDATE character SET is_default=FALSE WHERE default_name='Ultimate Predator';
 
 ########################################
 
+UPDATE character SET version='{"Part 8"}' WHERE rt_id_array='{3628}';
+
 ########################################
+
+UPDATE character_name SET name='(Doctor|Dr\.?|Stephen) ?Strange' WHERE name='(Doctor|Dr\.?) ?Strange';
 
 ########################################
 

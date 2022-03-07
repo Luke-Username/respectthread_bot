@@ -135,6 +135,20 @@ False,
 
 ########################################
 
+add_data(['Infinity Ultron'],
+'Infinity Ultron',
+False,
+True,
+[
+    ['What( |-)if'], ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU: What If...?',
+'{21000}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t7op71/ultron_mcu_vs_mcu/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Classic Loki (Marvel Cinematic Universe)', 'https://redd.it/t71luy')
 add_data(['Classic Loki'],
 'Classic Loki',
