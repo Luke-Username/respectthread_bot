@@ -111,6 +111,20 @@ update_respectthread(cur, 3975, 'Respect A, the Third Raikage (Naruto)', 'https:
 
 ########################################
 
+add_data(['Thanos'],
+'Thanos',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/t8yggf/curious_george_with_the_infinity_stones_versus/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Sonic.EXE/X (Creepypasta)', 'https://redd.it/t7opfo')
 add_data(['Sonic(\.| )EXE'],
 'Sonic.EXE',
@@ -273,6 +287,36 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/t8s0ey/respect_the_unicorn_the_last_unicorn/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sans the Skeleton! (Glitchtale)', 'https://redd.it/t8xgrm')
+add_data(['Sans'],
+'Sans',
+False,
+False,
+[
+    ['Glitchtale']
+],
+'Glitchtale',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t8xgrm/respect_sans_the_skeleton_glitchtale/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Undyne! (Glitchtale)', 'https://redd.it/t8xlu3')
+add_data(['Undyne'],
+'Undyne',
+False,
+False,
+[
+    ['Glitchtale']
+],
+'Glitchtale',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t8xlu3/respect_undyne_glitchtale/
 
 ########################################
 
