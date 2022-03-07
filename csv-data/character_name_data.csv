@@ -3556,7 +3556,6 @@ Captain Adam,Captain Adam,f
 Captain Deathstroke,Captain Deathstroke,f
 Flying Ford Anglia,Flying Ford Anglia,f
 Viza'Aviv,Viza'Aviv,f
-Freddy Krueger,Freddy Krueger,f
 Boyzarro,Boyzarro,f
 Leir,Leir,f
 June,June,f
@@ -3624,6 +3623,7 @@ Timor,Timor,f
 X-?23,X-23,f
 Laura Kinney,Laura Kinney,f
 Volder?mort,Voldemort,f
+Freddy Krue?ger,Freddy Krueger,f
 Cheetu,Cheetu,f
 Hanzo,Hanzo,f
 Hanzo Shimada,Hanzo Shimada,f
@@ -11951,7 +11951,6 @@ SCP(-| )?744(-| )?ARC,SCP-744-ARC,f
 Robot Girls Z,Robot Girls Z,f
 Lady Hellbender,Lady Hellbender,f
 Data( of)? Zahard,Data of Zahard,f
-(Doctor|Dr\.?) ?Strange,Doctor Strange,f
 (L|R)ol(ó|o)ng? Donaire,Lolong Donaire,f
 Cocytus,Cocytus,f
 Pleiades,Pleiades,t
@@ -12090,3 +12089,9 @@ Gigawatt,Gigawatt,f
 Jack Duquesne,Jack Duquesne,f
 SCP ?(-| )? ?056,SCP-056,f
 Angela Baker,Angela Baker,f
+(Doctor|Dr\.?|Stephen) ?Strange,Doctor Strange,f
+Infinity Ultron,Infinity Ultron,f
+Classic Loki,Classic Loki,f
+SCP ?(-| )? ?457,SCP-457,f
+SCP ?(-| )? ?6630,SCP-6630,f
+E\\.M\\.M\\.I\\.s,E.M.M.I.s,f

@@ -12104,12 +12104,12 @@ Mousse,{Ranma},f,{4455},Ranma ½
 Vegeta,"{`"Dragon ?Ball Sai`"}",f,{9307},Dragon Ball Sai
 He-Man,"{`"Masters of the Universe`",`"film|movie|live(-| )action`"}",f,{9308},"Masters of the Universe, 1987"
 He-Man,{1987},f,{9308},"Masters of the Universe, 1987"
-Ultimate Predator,"{`"The Predator`"}",t,{9309},The Predator
 Sips,"{`"Dingo Doodles`"}",f,{9310},Fools Gold/Dingo Doodles
 Sips,"{`"Fools Gold`"}",f,{9310},Fools Gold/Dingo Doodles
 Cranberry,"{`"Magical Girl Raising Project`"}",f,"{3835,13349}",Magical Girl Raising Project
 Envy,"{`"Full ?metal`"}",f,"{13608,9292}",Fullmetal Alchemist
 Envy,{FMA},f,"{13608,9292}",Fullmetal Alchemist
+Ultimate Predator,"{`"The Predator`"}",f,{9309},The Predator
 Wizard of Speed and Time,"{`"Wizard of Speed and Time`"}",t,{9311},""
 Elizabeth,{Persona},f,{9312},Persona
 Shepard,"{`"Mass Effect`"}",f,{9313},Mass Effect
@@ -13638,7 +13638,6 @@ Soundman,{JJBA},t,{3626},Jojo's Bizarre Adventure
 Soundman,"{`"Steel Ball Run`"}",t,{3626},Jojo's Bizarre Adventure
 Joshu Higashikata,{Jojos?(verse)?},t,{3627},Jojo's Bizarre Adventure
 Joshu Higashikata,{JJBA},t,{3627},Jojo's Bizarre Adventure
-Josuke Higashikata,{Jojos?(verse)?},t,{3628},Jojo's Bizarre Adventure
 Kyo Nijimura,{Jojos?(verse)?},t,{3629},Jojo's Bizarre Adventure
 Kyo Nijimura,{JJBA},t,{3629},Jojo's Bizarre Adventure
 Tamaki Damo,{Jojos?(verse)?},t,{3630},Jojo's Bizarre Adventure
@@ -13698,6 +13697,7 @@ Bulma Brief,"{`"Dragon ?Ball`"}",t,{12405},Dragon Ball
 Houou Maniwa,{Katanagatari},t,"{3632,16086}",Katanagatari
 Shichika Yasuri,{Katanagatari},t,"{3634,16087}",Katanagatari
 Nanami Yasuri,{Katanagatari},t,"{16452,3633}",Katanagatari
+Josuke Higashikata,"{`"Part 8`"}",t,{3628},Jojo's Bizarre Adventure
 Bulma Brief,{DB(Z|S)?},t,{12405},Dragon Ball
 Senku,"{`"(Doctor|Dr.?) ?Stone`"}",t,{12406},Dr. Stone
 Tsukasa,"{`"(Doctor|Dr.?) ?Stone`"}",f,{12407},Dr. Stone
@@ -26512,3 +26512,17 @@ Batmobile,"{`"DC Comics`"}",t,{21523},DC
 Batmobile,{Bale},f,{},Nolanverse
 Batmobile,"{`"Arkham city`"}",f,{},Batman: Arkham
 Angela Baker,"{`"Sleepaway Camp`"}",t,{21524},Sleepaway Camp
+Ultimate Predator,{Alien},f,{9309},The Predator
+Engineer,{Prometheus},f,{531},Prometheus
+Infinity Ultron,"{`"What( |-)if`"}",t,{21000},MCU: What If...?
+Infinity Ultron,"{`"Marvel Cinematic Universe`"}",t,{21000},MCU: What If...?
+Infinity Ultron,{MCU},t,{21000},MCU: What If...?
+Classic Loki,"{`"Marvel Cinematic Universe`"}",f,{21525},MCU
+Classic Loki,{MCU},f,{21525},MCU
+Nightcrawler,{Fox(verse)?},f,{21526},FOX
+Nightcrawler,"{`"X(-| )?Men (Movie|Film)s?`"}",f,{21526},FOX
+Nightcrawler,"{`"X-?Men Cinematic Universe`"}",f,{21526},FOX
+Nightcrawler,{XCU},f,{21526},FOX
+SCP-457,"{`"Burning Man`"}",t,{21527},""
+SCP-6630,"{`"Fire On the Horizon`"}",t,{21528},""
+E.M.M.I.s,{Metroid},t,{21529},Metroid
