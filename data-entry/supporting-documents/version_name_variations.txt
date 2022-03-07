@@ -1477,7 +1477,7 @@ InFAMOUS
 
 Injustice
 	Version
-		'{"Injustice(verse)?"}'
+		['Injustice(verse)?']
 	Displayed Version Name
 		"Injustice"
 
@@ -3315,9 +3315,15 @@ Teenage Mutant Ninja Turtles (1987)
 
 Teenage Mutant Ninja Turtles (2003)
 	Version
-		'{"Teenaged? Mutant Ninja Turtles?", "2003"}', '{"TMNT", "2003"}'
+		['Teenaged? Mutant Ninja Turtles?', 2003'], ['TMNT', '2003']
 	Displayed Version Name
 		"TMNT 2003"
+
+Teenage Mutant Ninja Turtles (2012)
+	Version
+		['Teenaged? Mutant Ninja Turtles?', '2012'], ['TMNT', '2012']
+	Displayed Version Name
+		"TMNT 2012"
 
 Teen Titans
 	Version
