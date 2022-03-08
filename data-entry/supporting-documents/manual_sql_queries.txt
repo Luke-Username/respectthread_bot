@@ -15,8 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE respectthread SET title='Respect Kumoko (So I'm a Spider, So What? Manga)' WHERE id=12106;
-
 ########################################
 
 ########################################
