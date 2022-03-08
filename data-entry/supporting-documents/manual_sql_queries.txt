@@ -15,7 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Thor', 'Party Thor', 0);
+UPDATE respectthread SET title='Respect Kumoko (So I'm a Spider, So What? Manga)' WHERE id=12106;
 
 ########################################
 
