@@ -107,6 +107,50 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6671, 'Respect Bête Noire, AKA Betty! (Glitchtale)', 'https://redd.it/t9ox9n')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bête Noire, AKA Betty! (Glitchtale)', 'https://redd.it/t9ox9n')
+add_data(['Gaster'],
+'Gaster',
+False,
+False,
+[
+    ['Glitchtale']
+],
+'Glitchtale',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t9ox9n/respect_b%C3%AAte_noire_aka_betty_glitchtale/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tieguai The Immortal Assassin (Avatar: The Kyoshi Novels)', 'https://redd.it/t9oros')
+add_data(['Lao Ge'],
+'Lao Ge',
+False,
+False,
+[
+    ['Avatar'], ['A?TLA'], ['Kyoshi']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t9oros/respect_tieguai_the_immortal_assassin_avatar_the/
+
+add_data(['Tieguai'],
+'Tieguai',
+False,
+False,
+[
+    ['Avatar'], ['A?TLA'], ['Kyoshi'], ['Lao Ge']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/t9oros/respect_tieguai_the_immortal_assassin_avatar_the/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
