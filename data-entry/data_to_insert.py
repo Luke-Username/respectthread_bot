@@ -107,67 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Kleavor, Lord of the Woods! (Pokemon Legends: Arceus)', 'https://redd.it/t9wcsd')
-add_data(['Kleavor'],
-'Kleavor',
-False,
-True,
-[
-    ['Pok(e|é)m(o|a)n']
-],
-'Pokémon',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/t9wcsd/respect_kleavor_lord_of_the_woods_pokemon_legends/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Avalugg, Lord of the Tundra! (Pokemon Legends: Arceus)', 'https://redd.it/t9x8ie')
-add_data(['Avalugg'],
-'Avalugg',
-False,
-True,
-[
-    ['Pok(e|é)m(o|a)n']
-],
-'Pokémon',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/t9x8ie/respect_avalugg_lord_of_the_tundra_pokemon/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Darkseid (DCEU)', 'https://redd.it/ta9jit')
-add_data(['Darkseids?'],
-'Darkseid',
-False,
-False,
-[
-    ['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe'],
-	['Snyder']
-],
-'DCEU',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/ta9jit/respect_darkseid_dceu/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Huck (Huck)', 'https://redd.it/taaa47')
-add_data(['Huck'],
-'Huck',
-False,
-False,
-[
-    ['Mark Millar'],
-	['Image Comics'],
-    ['Huck ?\(Huck']
-],
-'Image Comics',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/taaa47/respect_huck_huck/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

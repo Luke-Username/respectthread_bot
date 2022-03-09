@@ -3300,7 +3300,6 @@ Superior Spider(-| )?Man,Superior Spider-Man,f
 Demogoblin,Demogoblin,f
 Hob ?goblin,Hobgoblin,f
 (Doctor|Dr\.?) Octopus,Doctor Octopus,f
-Doc Ock,Doctor Octopus,f
 Otto Octavius,Doctor Octopus,f
 Kraven the Hunter,Kraven the Hunter,f
 Rhino,Rhino,f
@@ -3343,6 +3342,7 @@ Will(-| )O'(-| )The(-| )Wisp,Will O' The Wisp,f
 Necro(-| )?sword,Necrosword,f
 All(-| )Black,All-Black,f
 Anti(-| )?Venom,Anti-Venom,f
+Dock? Ock,Doctor Octopus,f
 Giant Kryptonite Covered Clone of Jimmy Olsen,Giant Kryptonite Covered Clone of Jimmy Olsen,f
 H'El,H'El,f
 Imperiex,Imperiex,f
@@ -9886,7 +9886,6 @@ Mike,Mike,f
 Jimmy T,Jimmy T,f
 Super Smash,Super Smash Bros Universe,t
 Smash Bro(ther)?s?,Super Smash Bros Universe,t
-(Entire|Every) Smash ?(Bro(ther)?s|Ultimate|Cast|Roster)?,Super Smash Bros Universe,t
 Ca?pt(ain)?\\.? Falcon,Captain Falcon,f
 Crazy Hand,Crazy Hand,f
 Duck Hunt,Duck Hunt,f
@@ -12106,3 +12105,7 @@ The Last Unicorn,The Last Unicorn,f
 Gaster,Gaster,f
 Lao Ge,Lao Ge,f
 Tieguai,Tieguai,f
+(Entire|Every) Smash( Bro(ther)?s| Ultimate| Cast| Roster),Super Smash Bros Universe,t
+Kleavor,Kleavor,f
+Avalugg,Avalugg,f
+Huck,Huck,f

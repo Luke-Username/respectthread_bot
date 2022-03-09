@@ -15,12 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='(Entire|Every) Smash( Bro(ther)?s| Ultimate| Cast| Roster)' WHERE name='(Entire|Every) Smash ?(Bro(ther)?s|Ultimate|Cast|Roster)?';
-
-########################################
-
-UPDATE character_name SET name='Dock? Ock' WHERE name='Doc Ock';
-
 ########################################
 
 ########################################
