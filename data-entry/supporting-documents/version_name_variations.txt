@@ -649,8 +649,8 @@ DC Animated Film Universe / DC Animated Movie Universe / DCAMU
 
 DC Cinematic Universe
 	Version
-		'{"DC Extended Universe"}', '{"DC ?(E|C)U"}', '{"DC Cinematic Universe"}'
-		'{"Snyder"}'
+		['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe']
+		['Snyder']
 	Displayed Version Name
 		"DCEU"
 

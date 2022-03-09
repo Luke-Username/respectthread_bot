@@ -19,6 +19,8 @@ UPDATE character_name SET name='(Entire|Every) Smash( Bro(ther)?s| Ultimate| Cas
 
 ########################################
 
+UPDATE character_name SET name='Dock? Ock' WHERE name='Doc Ock';
+
 ########################################
 
 ########################################
