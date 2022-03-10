@@ -15,13 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='(Entire|Every) Smash( Bro(ther)?s| Ultimate| Cast| Roster)' WHERE name='(Entire|Every) Smash ?(Bro(ther)?s|Ultimate|Cast|Roster)?';
-
-########################################
-
-UPDATE character_name SET name='Dock? Ock' WHERE name='Doc Ock';
-UPDATE character_name SET name='Juggernaun?t' WHERE name='Juggernaut';
-
 ########################################
 
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Super(-| )?man', 'Superman clones', 0);
