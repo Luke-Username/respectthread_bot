@@ -105,6 +105,21 @@ con = psycopg2.connect(
 )
 cur = con.cursor()
 
+
+########################################
+
+add_data(['Doc Ock'],
+'Doctor Octopus',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{299}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tb2mug/mcu_hulk_vs_doctor_octopus_goblin_lizard/
+
 ########################################
 
 id = get_rt_id(cur, 'Respect Kleavor, Lord of the Woods! (Pokemon Legends: Arceus)', 'https://redd.it/t9wcsd')
@@ -167,6 +182,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/taaa47/respect_huck_huck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-4606, "Deimos" (SCP Foundation)', 'https://redd.it/tajliy')
+add_data(['SCP ?(-| )? ?4606'],
+'SCP-4606',
+False,
+False,
+[
+    ['Deimos']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tajliy/respect_scp4606_deimos_scp_foundation/
 
 ########################################
 

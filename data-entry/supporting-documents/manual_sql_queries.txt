@@ -20,10 +20,16 @@ UPDATE character_name SET name='(Entire|Every) Smash( Bro(ther)?s| Ultimate| Cas
 ########################################
 
 UPDATE character_name SET name='Dock? Ock' WHERE name='Doc Ock';
+UPDATE character_name SET name='Juggernaun?t' WHERE name='Juggernaut';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Super(-| )?man', 'Superman clones', 0);
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect the Flash (DCEU)', 'https://redd.it/taz1sa'); SELECT * FROM respectthread WHERE link='https://redd.it/taz1sa';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Flash' AND displayed_version_name='DCEU';
 
 ########################################
 
