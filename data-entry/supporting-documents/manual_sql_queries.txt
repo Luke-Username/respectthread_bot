@@ -26,6 +26,8 @@ UPDATE character SET rt_id_array='{?}' WHERE default_name='Flash' AND displayed_
 
 ########################################
 
+UPDATE character_name SET name='Ry(ū|u)u?ko' WHERE name='Ry(ū|u)ko';
+
 ########################################
 
 ########################################

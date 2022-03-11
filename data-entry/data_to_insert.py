@@ -113,7 +113,7 @@ add_data(['Doc Ock'],
 False,
 False,
 [
-    ['Marvel Cinematic Universe'], ['MCU']
+    ['Marvel Cinematic Universe'], ['MCU'], ['No Way Home'], ['NWH']
 ],
 'MCU',
 '{299}'
@@ -136,6 +136,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tajliy/respect_scp4606_deimos_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'RESPECT The Prison Rig Warden (Avatar: The Last Airbender)', 'https://redd.it/tbshtj')
+add_data(['Warden'],
+'Warden',
+False,
+False,
+[
+    ['Warden ?\(Avatar'], ['Prison Rig']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tbshtj/respect_the_prison_rig_warden_avatar_the_last/
+
+########################################
+
+id = get_rt_id(cur, 'RESPECT Haru (Avatar: The Last Airbender)', 'https://redd.it/tbsl8l')
+add_data(['Haru'],
+'Haru',
+False,
+False,
+[
+    ['Team Avatar|Avatar ?verse'], ['A?TLA']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tbsl8l/respect_haru_avatar_the_last_airbender/
 
 ########################################
 

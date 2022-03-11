@@ -218,6 +218,7 @@ Avatar: The Last Airbender / The Legend of Korra
 		['Avatar'], ['A?TLA'], ['Air(-| )bender'], ['Aang'], ['Korra'], ['A?T?LOK']
 		['Kyoshi']
 	Sometimes
+		['Avatar ?verse']
 		['Bend(er|ing)']
 		['Red Lotus']
 	Displayed Version Name
