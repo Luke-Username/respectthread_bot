@@ -105,8 +105,51 @@ con = psycopg2.connect(
 )
 cur = con.cursor()
 
+########################################
+
+add_data(['Black Noir'],
+'Black Noir',
+False,
+True,
+[
+    ['The Boys']
+],
+'The Boys',
+'{8444, 13486}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tbvhyy/black_noirthe_boys_composite_vs_robotinvincible/i0a8mou/?context=3
 
 ########################################
+
+id = get_rt_id(cur, 'Respect Batman (DC Animated Universe)', 'https://redd.it/fvksky')
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['DC Animated Universe'], ['DCAU'], ['Timmverse']
+],
+'DCAU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/DCAUrts/comments/fvksky/respect_batman_dc_animated_universe/
+#https://www.reddit.com/r/whowouldwin/comments/tbvhyy/black_noirthe_boys_composite_vs_robotinvincible/i0a8mou/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Robot Respect Thread', 'https://comicvine.gamespot.com/forums/gen-discussion-1/robot-respect-thread-1935289/')
+add_data(['Robot'],
+'Robot',
+False,
+False,
+[
+    ['Robot.*Invincible'], ['Invincible', 'Guardians'], ['Robot vs', 'Omni(-| )?Man', 'Invincible'], ['Invincible ?verse'], ['Invincible', 'Friends']
+],
+'Invincible',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tbvhyy/black_noirthe_boys_composite_vs_robotinvincible/i0a8mou/?context=3
+#https://comicvine.gamespot.com/forums/gen-discussion-1/robot-respect-thread-1935289/
 
 ########################################
 
