@@ -4402,6 +4402,7 @@ Star-Lord,{616},t,{2048},616
 Shokuhou Misaki,{Index(verse)?},t,{10796},Toaru Majutsu no Index
 Shokuhou Misaki,{TAMNI},t,{10796},Toaru Majutsu no Index
 Mikoto Misaka,"{`"To ?aru`"}",t,{4451},Toaru Majutsu no Index
+Flash,"{`"DC Extended Universe`"}",f,{21548},DCEU
 Star-Lord,{comic},t,{2048},616
 Star-Lord,{comics},t,{2048},616
 Star-Lord,{Marvel},t,{2048},616
@@ -4413,10 +4414,6 @@ Flash,{TV},f,{19},CW Arrowverse
 Flash,{Flarrowverse},f,{19},CW Arrowverse
 Flash,{1990},f,{86},1990 TV series
 Flash,{1990s},f,{86},1990 TV series
-Flash,"{`"DC Extended Universe`"}",f,{123},DCEU
-Flash,{DCEU},f,{123},DCEU
-Flash,"{`"DC Cinematic Universe`"}",f,{123},DCEU
-Flash,{DCCU},f,{123},DCEU
 Heretic,{N-?52},f,{1540},Post-Crisis / New 52
 Heretic,"{`"Post(-| )52`"}",f,{1540},Post-Crisis / New 52
 Heretic,"{`"Prime(-| )Earth`"}",f,{1540},Post-Crisis / New 52
@@ -20427,6 +20424,7 @@ Red Dart Machine,{vending},t,{21516},""
 Alternate Calliope,{Homestuck},t,{21517},Homestuck
 Lucifer,{CAS},f,{1616},DC
 Thanos,{Fortnite},f,{},Fortnite
+Flash,{DCEU},f,{21548},DCEU
 Six,"{`"Little Nightmares`"}",f,{5634},Little Nightmares
 Buddy,{Lisa},f,{5635},Lisa: The Painful
 Elodie,"{`"Long Live The Queen`"}",f,{5636},Long Live The Queen
@@ -26565,3 +26563,14 @@ Darkseid,{Snyder},f,{21546},DCEU
 Huck,"{`"Mark Millar`"}",f,{21547},Image Comics
 Huck,"{`"Image Comics`"}",f,{21547},Image Comics
 Huck,"{`"Huck ?\\(Huck`"}",f,{21547},Image Comics
+Flash,"{`"DC Cinematic Universe`"}",f,{21548},DCEU
+Flash,{DCCU},f,{21548},DCEU
+Doctor Octopus,"{`"Marvel Cinematic Universe`"}",f,{299},MCU
+Doctor Octopus,{MCU},f,{299},MCU
+Doctor Octopus,"{`"No Way Home`"}",f,{299},MCU
+Doctor Octopus,{NWH},f,{299},MCU
+SCP-4606,{Deimos},f,{21549},""
+Warden,"{`"Warden ?\\(Avatar`"}",f,{21550},Avatar: TLA
+Warden,"{`"Prison Rig`"}",f,{21550},Avatar: TLA
+Haru,"{`"Team Avatar|Avatar ?verse`"}",f,{21551},Avatar: TLA
+Haru,{A?TLA},f,{21551},Avatar: TLA
