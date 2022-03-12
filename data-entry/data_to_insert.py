@@ -121,6 +121,20 @@ True,
 
 ########################################
 
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['2002']
+],
+'Raimiverse Spider-Man',
+'{302}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tcfb6p/spiderman_2002_vs_ultron_mcu/i0d1foy/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Batman (DC Animated Universe)', 'https://redd.it/fvksky')
 add_data(['Bat(-| )?mans?'],
 'Batman',
