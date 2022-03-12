@@ -12731,8 +12731,6 @@ Dr. Gero,"{`"Dragon ?Ball`"}",t,{3278},Dragon Ball
 Dr. Gero,{DB(Z|S)?},t,{3278},Dragon Ball
 Android 20,"{`"Dragon ?Ball`"}",t,{3278},Dragon Ball
 Android 20,{DB(Z|S)?},t,{3278},Dragon Ball
-20,"{`"Dragon ?Ball`"}",f,{3278},Dragon Ball
-20,{DB(Z|S)?},f,{3278},Dragon Ball
 Cell,"{`"Dragon ?Ball`"}",f,{3277},Dragon Ball
 Cell,{DB(Z|S)?},f,{3277},Dragon Ball
 Cell,"{`"vs.? Cell`"}",f,{3277},Dragon Ball
@@ -26574,3 +26572,13 @@ Warden,"{`"Warden ?\\(Avatar`"}",f,{21550},Avatar: TLA
 Warden,"{`"Prison Rig`"}",f,{21550},Avatar: TLA
 Haru,"{`"Team Avatar|Avatar ?verse`"}",f,{21551},Avatar: TLA
 Haru,{A?TLA},f,{21551},Avatar: TLA
+Black Noir,"{`"The Boys`"}",t,"{8444,13486}",The Boys
+Spider-Man,{2002},f,{302},Raimiverse Spider-Man
+Batman,"{`"DC Animated Universe`"}",f,{21552},DCAU
+Batman,{DCAU},f,{21552},DCAU
+Batman,{Timmverse},f,{21552},DCAU
+Robot,{Robot.*Invincible},f,{21553},Invincible
+Robot,"{Invincible,Guardians}",f,{21553},Invincible
+Robot,"{`"Robot vs`",`"Omni(-| )?Man`",Invincible}",f,{21553},Invincible
+Robot,"{`"Invincible ?verse`"}",f,{21553},Invincible
+Robot,"{Invincible,Friends}",f,{21553},Invincible
