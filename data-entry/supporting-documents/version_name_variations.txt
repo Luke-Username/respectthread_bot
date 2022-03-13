@@ -1089,7 +1089,7 @@ Friday the 13th
 
 Fullmetal Alchemist
 	Version
-		'{"Full ?metal"}', '{"FMA:?B?"}'
+		['Full ?metal'], ['FMA:?B?']
 	Displayed Version Name
 		"Fullmetal Alchemist"
 

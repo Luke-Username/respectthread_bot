@@ -135,6 +135,20 @@ False,
 
 ########################################
 
+add_data(['(Seven|7) Homuncul(i|us)'],
+'Seven Homunculi',
+True,
+True,
+[
+    ['Full ?metal'], ['FMA:?B?']
+],
+'Fullmetal Alchemist',
+'{3411, 3410, 9297, 3407, 9301, 3406, 12495, 3422, 3414, 9300, 13608, 9292}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tcgnl1/the_seven_homunculi_fmab_vs_voldemorts_horcruxes/i0dkp5f/?context=3
+ 
+########################################
+
 id = get_rt_id(cur, 'Respect Batman (DC Animated Universe)', 'https://redd.it/fvksky')
 add_data(['Bat(-| )?mans?'],
 'Batman',
