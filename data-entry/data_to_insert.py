@@ -120,7 +120,62 @@ True,
 '{3411, 3410, 9297, 3407, 9301, 3406, 12495, 3422, 3414, 9300, 13608, 9292}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/tcgnl1/the_seven_homunculi_fmab_vs_voldemorts_horcruxes/i0dkp5f/?context=3
- 
+
+########################################
+
+add_data(['The Thing'],
+'The Thing',
+False,
+False,
+[
+    ['The Thing.*vs\.? The Thing']
+],
+'John Carpenter',
+'{14803}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/td269w/impostor_vs_the_thing_among_us_vs_the_thing/i0h331n/?context=3
+
+########################################
+
+add_data(['Battinson'],
+'Battinson',
+False,
+True,
+[
+    ['The Batman'], ['2022']
+],
+'The Batman, 2022',
+'{}'
+)
+#
+
+
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Bat(-| )?mans? ?\(2022']
+],
+'The Batman, 2022',
+'{}'
+)
+#
+
+########################################
+
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Burton']
+],
+'1989 film',
+'{387}'
+)
+#https://www.reddit.com/r/respectthreads/comments/54hrjc/respect_batman_michael_keaton/
+
 ########################################
 
 id = get_rt_id(cur, 'Respect Batman (DC Animated Universe)', 'https://redd.it/fvksky')

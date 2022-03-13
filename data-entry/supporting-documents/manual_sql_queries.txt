@@ -15,7 +15,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Mister Mxyzptlk' AND displayed_version_name='Injustice';
+
 ########################################
+
+UPDATE character_name SET name='Bright ?burn' WHERE name='Brightburn';
 
 ########################################
 
