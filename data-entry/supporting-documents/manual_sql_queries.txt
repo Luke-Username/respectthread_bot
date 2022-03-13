@@ -15,8 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='20';
-
 ########################################
 
 ########################################

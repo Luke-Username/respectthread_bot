@@ -107,32 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Black Noir'],
-'Black Noir',
-False,
-True,
-[
-    ['The Boys']
-],
-'The Boys',
-'{8444, 13486}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/tbvhyy/black_noirthe_boys_composite_vs_robotinvincible/i0a8mou/?context=3
-
-########################################
-
-add_data(['Spider(-| )?Mans?'],
-'Spider-Man',
-False,
-False,
-[
-    ['2002']
-],
-'Raimiverse Spider-Man',
-'{302}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/tcfb6p/spiderman_2002_vs_ultron_mcu/i0d1foy/?context=3
-
 ########################################
 
 add_data(['(Seven|7) Homuncul(i|us)'],
