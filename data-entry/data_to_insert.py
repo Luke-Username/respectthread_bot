@@ -107,6 +107,45 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Apocalypse'],
+'Apocalypse',
+False,
+False,
+[
+    ['Oscar Isaac']
+],
+'FOX',
+'{8554}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tdotmp/josh_brolin_thanos_vs_oscar_isaac_apocalypse/
+
+########################################
+
+add_data(['Mei'],
+'Mei',
+False,
+False,
+[
+    ['Turning Red']
+],
+'Turning Red',
+'{21561}'
+)
+#https://www.reddit.com/r/respectthreads/comments/td9jcv/respect_the_red_panda_spirit_turning_red/
+
+id = get_rt_id(cur, 'Respect Dementors (Harry Potter and the Methods of Rationality)', 'https://redd.it/tdq9p7')
+add_data(['Dementors?'],
+'Dementor',
+False,
+False,
+[
+    ['Methods of Rationality']
+],
+'Harry Potter and the Methods of Rationality',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tdq9p7/respect_dementors_harry_potter_and_the_methods_of/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

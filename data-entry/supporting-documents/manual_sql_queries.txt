@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Black Widow', 'Black Widow spiders', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Horus', 'Horus Heresy', 0);
+
 ########################################
 
 ########################################

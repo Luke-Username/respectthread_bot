@@ -1328,6 +1328,12 @@ Harry Potter
 	Displayed Version Name
 		"Harry Potter"
 
+Harry Potter and the Methods of Rationality
+	Version
+		['Methods of Rationality']
+	Displayed Version Name
+		"Harry Potter and the Methods of Rationality"
+
 Hazbin Hotel
 	Version
 		'{"Hazbin Hotel"}'
