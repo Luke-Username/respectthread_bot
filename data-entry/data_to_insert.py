@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Cyborg (DCEU)', 'https://redd.it/tchl8f')
+add_data(['Cyborg'],
+'Cyborg',
+False,
+False,
+[
+    ['Cyborg vs|vs\.? Cyborg', '(film|movie) versions?']
+],
+'DCEU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tdjmp1/cyborg_vs_predator/
+#https://www.reddit.com/r/respectthreads/comments/tchl8f/respect_cyborg_dceu/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Cyborg (DCEU)', 'https://redd.it/tchl8f'); SELECT * FROM respectthread WHERE link='https://redd.it/tchl8f';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Cyborg' AND displayed_version_name='DCEU';
+
 ########################################
 
 ########################################
