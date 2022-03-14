@@ -590,10 +590,6 @@ Aquaman,{Composite},f,"{1485,1486,1487}",Composite
 Aquaman,"{`"New 52`"}",f,{1486},New 52 / Rebirth
 Aquaman,{N-?52},f,{1486},New 52 / Rebirth
 Aquaman,"{`"Post(-| )52`"}",f,{1486},New 52 / Rebirth
-Cyborg,"{`"DC Extended Universe`"}",f,{123},DCEU
-Cyborg,{DCEU},f,{123},DCEU
-Cyborg,"{`"DC Cinematic Universe`"}",f,{123},DCEU
-Cyborg,{DCCU},f,{123},DCEU
 Korg,"{`"Marvel Cinematic`"}",f,{250},MCU
 Korg,{MCU},f,{250},MCU
 Korg,{199999},f,{250},MCU
@@ -26590,7 +26586,6 @@ Battinson,{2022},t,{},"The Batman, 2022"
 Batman,"{`"Bat(-| )?mans? ?\\(2022`"}",f,{},"The Batman, 2022"
 Batman,{Burton},f,{387},1989 film
 Reptar,"{Rugrats,Games}",f,{21555},Rugrats Games
-Cyborg,"{`"DC ?(E|C)U`"}",f,{21556},DCEU
 Dude,"{`"Free Guy`"}",f,{21557},Free Guy
 Blue Shirt Guy,"{`"Free Guy`"}",f,{21558},Free Guy
 Gladiator,{Supercrooks?},f,{21559},Supercrooks
@@ -26606,3 +26601,9 @@ Makkari,{MCUs?},f,{21563},MCU
 Kro,"{`"Marvel Cinematic Universe`"}",f,{21564},MCU
 Kro,{MCU},f,{21564},MCU
 Daredevil,"{`"Trial of the Incredible Hulk`"}",f,{21565},The Trial of the Incredible Hulk
+Cyborg,"{`"DC Extended Universe`"}",f,{21556},DCEU
+Cyborg,{DCEU},f,{21556},DCEU
+Cyborg,"{`"DC Cinematic Universe`"}",f,{21556},DCEU
+Cyborg,{DCCU},f,{21556},DCEU
+Cyborg,"{`"DC ?(E|C)U`"}",f,{21556},DCEU
+Cyborg,"{`"Cyborg vs|vs\\.? Cyborg`",`"(film|movie) versions?`"}",f,{21556},DCEU
