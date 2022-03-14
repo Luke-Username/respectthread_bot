@@ -15,33 +15,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Mister Mxyzptlk' AND displayed_version_name='Injustice';
-UPDATE character SET is_default=FALSE WHERE default_name='Elsa';
+########################################
 
 ########################################
 
-UPDATE character_name SET name='Bright ?burn' WHERE name='Brightburn';
-
 ########################################
 
-UPDATE character SET version='{"The Boys?"}' WHERE default_name='The Deep' AND version='{"The Boys"}';
-UPDATE character SET version='{"Dark K?night"}' WHERE default_name='Bane' AND version='{"Dark Night"}';
-
 ########################################
-
-DELETE FROM character WHERE default_name='Doomsday' AND version='{"Doomsday", ""}';
-DELETE FROM character WHERE default_name='Doomsday' AND version='{"Doomsday ?\\("}';
-DELETE FROM character WHERE default_name='Doomsday' AND version='{"Super(-| )?man"}';
-
-########################################
-
-UPDATE character SET rt_id_array='{20243}' WHERE default_name='Astolfo';
-
-########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Kalibak (DC Comics, New 52)', 'https://redd.it/td9zmz'); SELECT * FROM respectthread WHERE link='https://redd.it/td9zmz';
-UPDATE character SET rt_id_array='{?, 1738}' WHERE default_name='Kalibak' AND version='(DC( Comics)?)';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Kalibak' AND displayed_version_name='New 52';
 
 ########################################
 

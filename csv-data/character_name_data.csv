@@ -7307,7 +7307,6 @@ Ellie,Ellie,f
 Strigoi,Strigoi,f
 Quinlan,Quinlan,f
 Master,Master,f
-Brightburn,Brightburn,f
 Brandon Breyer,Brandon Breyer,f
 Tatsuya Suou,Tatsuya Suou,f
 (Doctor|Dr\\.?) Aphra,Doctor Aphra,f
@@ -7427,6 +7426,7 @@ Jigsaw,Jigsaw,f
 Harley Quinn?,Harley Quinn,f
 Equuleus Sh(o|ō)ko,Equuleus Shōko,f
 Pegasus Seiya,Pegasus Seiya,f
+Bright ?burn,Brightburn,f
 Gold Cloth Saiya,Pegasus Seiya,f
 Saint Seiya,Saint Seiya,f
 Leopold Vermillion,Leopold Vermillion,f
@@ -12111,3 +12111,13 @@ Avalugg,Avalugg,f
 Huck,Huck,f
 Doc Ock,Doctor Octopus,f
 SCP ?(-| )? ?4606,SCP-4606,f
+(Seven|7) Homuncul(i|us),Seven Homunculi,t
+Battinson,Battinson,f
+Reptar,Reptar,f
+Dude,Dude,f
+Blue Shirt Guy,Blue Shirt Guy,f
+Xing Tian,Xing Tian,f
+Ming,Ming,f
+Red Panda Spirit,Red Panda Spirit,f
+SCP ?(-| )? ?<4051,SCP-4051,f
+Kro,Kro,f

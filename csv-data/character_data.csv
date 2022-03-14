@@ -2122,7 +2122,6 @@ Meteor Man,"{`"The Meteor Man`"}",t,{510},The Meteor Man
 Meteor Man,{movie},t,{510},The Meteor Man
 Bane,{Nolan},f,{519},Nolanverse
 Bane,{Nolanverse},f,{519},Nolanverse
-Bane,"{`"Dark Night`"}",f,{519},The Dark Night
 Rita Repulsa,{Saban},f,{528},"Power Rangers, 2017"
 Rita Repulsa,{2017},f,{528},"Power Rangers, 2017"
 Ivan Ooze,"{`"Power Rangers`"}",t,{511},Power Rangers
@@ -2137,6 +2136,7 @@ Mystery Men,"{`"Mr.? Furious`"}",t,{517},1999
 Mystery Men,{Shoveler},t,{517},1999
 Kyoshi,{Avatar},t,{639},Avatar: TLA
 Kyoshi,{A?TLA},t,{639},Avatar: TLA
+Bane,"{`"Dark K?night`"}",f,{519},The Dark Night
 Mystery Men,"{`"Blue Raja`"}",t,{517},1999
 Mystery Men,"{`"Invisible Boy`"}",t,{517},1999
 Mystery Men,{Spleen},t,{517},1999
@@ -5455,7 +5455,6 @@ Hercules,{Disney},f,{1200},Disney
 Darkwolf,"{`"Fire and Ice`"}",t,{1202},Fire and Ice
 Duncan Rosenblatt,{Firebreather},t,{1203},Firebreather
 Dex Dogtective,"{`"Food ?fight`"}",t,{1204},Foodfight
-Elsa,{Frozen},t,{1205},Frozen
 Lumpjaw,{Disney},t,{1206},Fun and Fancy Free
 Lumpjaw,"{`"Fun and Fancy Free`"}",t,{1206},Fun and Fancy Free
 Garzooka,{Garfield},t,{1207},Garfield's Pet Force
@@ -5470,6 +5469,7 @@ Dracula,"{`"Hotel Transylvania`"}",f,{1209},Hotel Transylvania
 Mavis,"{`"Hotel Transylvania`"}",f,{1209},Hotel Transylvania
 Dennis,"{`"Hotel Transylvania`"}",f,{1209},Hotel Transylvania
 Vlad,"{`"Hotel Transylvania`"}",f,{1209},Hotel Transylvania
+Elsa,{Frozen},f,{1205},Frozen
 Scrat,"{`"Ice Age`"}",t,{1211},Ice Age
 The Iron Giant,"{`"Iron Giant`"}",t,{1212},1999
 Owlman,"{`"Crisis on (Two |2 )Earths`"}",f,{1213},Justice League: Crisis on Two Earths
@@ -6827,14 +6827,8 @@ Highfather,{PC},f,{1736},Pre-Flashpoint
 Highfather,"{`"Post(-| )?C(risis)?`"}",f,{1736},Pre-Flashpoint
 Highfather,"{`"New(-| )Earth`"}",f,{1736},Pre-Flashpoint
 Highfather,"{`"Pre(-| )?Crisis`"}",f,{1736},Pre-Flashpoint
-Kalibak,"{`"(DC( Comics)?)`"}",t,{1738},DC
 Kalibak,{PC},f,{1738},Pre-Crisis
 Kalibak,"{`"Pre(-| )?Crisis`"}",f,{1738},Pre-Crisis
-Kalibak,"{`"New(-| )?52`"}",f,{},New 52
-Kalibak,{Nu?-?52},f,{},New 52
-Kalibak,"{`"Post(-| )52`"}",f,{},New 52
-Kalibak,"{`"Prime(-| )Earth`"}",f,{},New 52
-Kalibak,{Rebirth},f,{},New 52
 Knockout,"{`"Knockout (DC( Comics)?)`"}",f,{1739},DC
 Knockout,"{`"Secret Six`"}",f,{1739},DC
 Knockout,"{`"Knockout vs.?`"}",f,{1739},DC
@@ -6869,6 +6863,12 @@ Beast,{Warhammer},f,{7621},Warhammer 40k
 Overclocked Bender,{Futurama},t,{7622},Futurama
 Thor,"{`"Thor ?\\(DC( Comics)?\\)`"}",f,{1743},DC
 Orion,{Orion.*DC},f,{1742},DC
+Kalibak,"{`"(DC( Comics)?)`"}",t,"{21554,1738}",DC
+Kalibak,"{`"New(-| )?52`"}",f,{21554},New 52
+Kalibak,{Nu?-?52},f,{21554},New 52
+Kalibak,"{`"Post(-| )52`"}",f,{21554},New 52
+Kalibak,"{`"Prime(-| )Earth`"}",f,{21554},New 52
+Kalibak,{Rebirth},f,{21554},New 52
 Nathaniel Angel,"{`"Huynh Phu Dat`"}",t,{7623},Huynh Phu Dat
 Yoda,{LEGO},f,{7624},LEGO Star Wars
 IG-11,"{`"Star Wars`"}",t,{7625},Star Wars
@@ -7522,11 +7522,8 @@ Doomsday,{DC},t,{1801},DC
 Doomsday,{Flashpoint},t,{1801},DC
 Doomsday,"{`"Doomsday vs`"}",t,{1801},DC
 Doomsday,"{`"vs.? Doomsday`"}",t,{1801},DC
-Doomsday,"{`"Doomsday,`"}",t,{1801},DC
 Doomsday,"{`", ?Doomsday`"}",t,{1801},DC
-Doomsday,"{`"Doomsday ?\\(`"}",t,{1801},DC
 Doomsday,"{`"Composite Doomsday`"}",t,{1801},DC
-Doomsday,"{`"Super(-| )?man`"}",t,{1801},DC
 Doomsday,{comics?},t,{1801},DC
 Doomsday,"{`"Hunter(/| )Prey`"}",t,{1801},DC
 Doomsday,{PC},f,{1801},Post-Crisis
@@ -11188,7 +11185,6 @@ Rico,"{`"Gunslinger Girl`"}",f,{11111},Gunslinger Girl
 Claes,"{`"Gunslinger Girl`"}",f,{11111},Gunslinger Girl
 Beatrice,"{`"Gunslinger Girl`"}",f,{11111},Gunslinger Girl
 Angelica,"{`"Gunslinger Girl`"}",f,{11111},Gunslinger Girl
-Elsa,"{`"Gunslinger Girl`"}",f,{11111},Gunslinger Girl
 Petrushka,"{`"Gunslinger Girl`"}",f,{11111},Gunslinger Girl
 Lickitung,{Pok(e|é)mon},t,{11112},Pokémon
 Erika,{Pok(e|é)mon},f,{11113},Pokémon
@@ -11285,7 +11281,6 @@ Vi,"{`"League of Legends`"}",f,{5201},League of Legends
 Vi,"{`"\\(LOL`"}",f,{5201},League of Legends
 Vi,"{`"\\[LOL`"}",f,{5201},League of Legends
 Monster Hunter,"{`"Monster Hunter`"}",t,{11140},""
-Mister Mxyzptlk,{Injustice(verse)?},t,{11141},Injustice
 Lacile,"{`"Soukyuu No Ariadne`"}",f,{11142},Soukyuu No Ariadne
 Black Dwarf,{MCU},f,{6514},MCU
 Lacile,"{`"Blue Sky`"}",f,{11142},Soukyuu No Ariadne
@@ -21027,8 +21022,6 @@ Kairi Shishigou,{Fate},t,{15348},Fate
 Kairi Shishigou,{Apocrypha},t,{15348},Fate
 Rider of Black,{Fate},t,{15349},Fate
 Rider of Black,{Apocrypha},t,{15349},Fate
-Astolfo,{Fate},t,{15349},Fate
-Astolfo,{Apocrypha},t,{15349},Fate
 Amakusa Shirou Tokisada,{Fate},t,{15350},Fate
 Amakusa Shirou Tokisada,{Apocrypha},t,{15350},Fate
 Caster of Red,{Fate},t,{15351},Fate
@@ -26123,7 +26116,6 @@ Batman,"{`"Earth One`"}",f,{},Earth One
 Machamp,"{`"Terminal ?Montage`"}",f,{21314},Terminalmontage
 Cryptid,"{`"Call of Duty`"}",f,{21315},Call of Duty
 Cryptid,"{`"COD:? Ghosts?`"}",f,{21315},Call of Duty
-The Deep,"{`"The Boys`"}",f,{21316},"The Boys, 2019"
 Monako,{Marvel},f,{21317},Marvel
 Monako,"{`"Timely Comics`"}",f,{21317},Marvel
 Monako,"{`"Prince of Magic`"}",f,{21317},Marvel
@@ -26132,6 +26124,7 @@ Ainz,{Overlord},t,"{21299,21310,21318}",Overlord
 Ainz,"{`"vs\\.? Ainz`"}",t,"{21299,21310,21318}",Overlord
 Ainz,"{`"Ainz vs`"}",t,"{21299,21310,21318}",Overlord
 Spider-Bite,{Nathan},t,{21313},616
+The Deep,"{`"The Boys?`"}",f,{21316},"The Boys, 2019"
 Flash,"{`"Flash \\(Barry( Allen)?\\)`"}",f,{1582},New 52 / Rebirth
 Stormfront,"{`"The Boys`"}",f,{21319},"The Boys, 2019"
 Stormfront,{Homelander},f,{21319},"The Boys, 2019"
@@ -26582,3 +26575,34 @@ Robot,"{Invincible,Guardians}",f,{21553},Invincible
 Robot,"{`"Robot vs`",`"Omni(-| )?Man`",Invincible}",f,{21553},Invincible
 Robot,"{`"Invincible ?verse`"}",f,{21553},Invincible
 Robot,"{Invincible,Friends}",f,{21553},Invincible
+Mister Mxyzptlk,{Injustice(verse)?},f,{11141},Injustice
+Elsa,"{`"Gunslinger Girl`"}",f,{11111},Gunslinger Girl
+Astolfo,{Fate},t,{20243},Fate
+Astolfo,{Apocrypha},t,{20243},Fate
+Seven Homunculi,"{`"Full ?metal`"}",t,"{3411,3410,9297,3407,9301,3406,12495,3422,3414,9300,13608,9292}",Fullmetal Alchemist
+Seven Homunculi,{FMA:?B?},t,"{3411,3410,9297,3407,9301,3406,12495,3422,3414,9300,13608,9292}",Fullmetal Alchemist
+The Thing,"{`"The Thing.*vs\\.? The Thing`"}",f,{14803},John Carpenter
+Batman,"{`"Christian Bale`"}",f,{6531},Nolanverse
+Elsa,"{`"Re:? ?Zero`"}",f,{13098},Re:Zero
+Guts,"{Guts.*Punisher|Punisher.*Guts,or}",f,{3076},Berserk
+Battinson,"{`"The Batman`"}",t,{},"The Batman, 2022"
+Battinson,{2022},t,{},"The Batman, 2022"
+Batman,"{`"Bat(-| )?mans? ?\\(2022`"}",f,{},"The Batman, 2022"
+Batman,{Burton},f,{387},1989 film
+Reptar,"{Rugrats,Games}",f,{21555},Rugrats Games
+Cyborg,"{`"DC ?(E|C)U`"}",f,{21556},DCEU
+Dude,"{`"Free Guy`"}",f,{21557},Free Guy
+Blue Shirt Guy,"{`"Free Guy`"}",f,{21558},Free Guy
+Gladiator,{Supercrooks?},f,{21559},Supercrooks
+Xing Tian,{SMITE},f,{21560},SMITE
+Ming,"{`"Turning Red`"}",f,{21561},Turning Red
+Red Panda Spirit,"{`"Turning Red`"}",f,{21561},Turning Red
+SCP-4051,"{`"Rainer Miller`"}",f,{21562},""
+Eternals,"{`"Marvel Cinematic Universe`"}",f,{21563},MCU
+Eternals,{MCU},f,{21563},MCU
+Ikaris,{MCUs?},f,{21563},MCU
+Makkari,"{`"Marvel Cinematic Universe`"}",f,{21563},MCU
+Makkari,{MCUs?},f,{21563},MCU
+Kro,"{`"Marvel Cinematic Universe`"}",f,{21564},MCU
+Kro,{MCU},f,{21564},MCU
+Daredevil,"{`"Trial of the Incredible Hulk`"}",f,{21565},The Trial of the Incredible Hulk
