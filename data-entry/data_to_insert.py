@@ -133,6 +133,8 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/td9jcv/respect_the_red_panda_spirit_turning_red/
 
+########################################
+
 id = get_rt_id(cur, 'Respect Dementors (Harry Potter and the Methods of Rationality)', 'https://redd.it/tdq9p7')
 add_data(['Dementors?'],
 'Dementor',
@@ -145,6 +147,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tdq9p7/respect_dementors_harry_potter_and_the_methods_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Opa-Opa (Fantasy Zone)', 'https://redd.it/tdxhey')
+add_data(['Opa-Opa'],
+'Opa-Opa',
+False,
+False,
+[
+    ['Fantasy Zone']
+],
+'Fantasy Zone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tdxhey/respect_opaopa_fantasy_zone/
 
 ########################################
 
