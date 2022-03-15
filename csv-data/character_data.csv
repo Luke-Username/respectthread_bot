@@ -7292,8 +7292,6 @@ Blade,"{`"Blade ?\\(616`"}",f,{2204},616
 Blade,"{`"Blade ?\\(Marvel`"}",f,{2204},616
 Blade,"{`"Blade \\[616`"}",f,{2204},616
 Blade,"{`"Eric Brooks`"}",f,{2204},616
-Blade,"{`"vs.? Blade`"}",f,{2204},616
-Blade,"{`"Blade vs`"}",f,{2204},616
 Blade,"{`"T(-| )?1000`"}",f,{2204},616
 Dracula,"{`"Dracula ?\\(616`"}",f,{2205},616
 Dracula,"{`"Dracula \\[616`"}",f,{2205},616
@@ -26607,3 +26605,17 @@ Cyborg,"{`"DC Cinematic Universe`"}",f,{21556},DCEU
 Cyborg,{DCCU},f,{21556},DCEU
 Cyborg,"{`"DC ?(E|C)U`"}",f,{21556},DCEU
 Cyborg,"{`"Cyborg vs|vs\\.? Cyborg`",`"(film|movie) versions?`"}",f,{21556},DCEU
+Apocalypse,"{`"Oscar Isaac`"}",f,{8554},FOX
+Mei,"{`"Turning Red`"}",f,{21561},Turning Red
+Hal,"{`"Green Lantern`",`"\\(DC( Comics)?\\)`"}",f,"{7394,1680}",DC
+Hal,"{`"Green Lantern`",`"\\[DC( Comics)?\\]`"}",f,"{7394,1680}",DC
+Hal,"{`"Green Lantern`",PC}",f,{1680},Post-Crisis
+Hal,"{`"Green Lantern`",`"Posts?(-| )?C(risis)?`"}",f,{1680},Post-Crisis
+Hal,"{`"Green Lantern`",`"New(-| )?52`"}",f,{7394},New 52 / Rebirth
+Hal,"{`"Green Lantern`",Nu?-?52}",f,{7394},New 52 / Rebirth
+Hal,"{`"Green Lantern`",Rebirth}",f,{7394},New 52 / Rebirth
+Dementor,"{`"Methods of Rationality`"}",f,{21567},Harry Potter and the Methods of Rationality
+Opa-Opa,"{`"Fantasy Zone`"}",f,{21568},Fantasy Zone
+Hector Hammond,"{`"Live(-| )Action Green Lantern|Green Lantern Live(-| )Action`"}",f,{21569},"Green Lantern, 2011"
+Hector Hammond,"{`"Green Lantern (Movie|Film)`"}",f,{21569},"Green Lantern, 2011"
+Saber,"{`"Strange Fake`"}",f,{21570},Fate/Strange Fake
