@@ -1256,6 +1256,13 @@ Green Hornet Radio series
 	Displayed Version Name
 		"Green Hornet Radio series"
 
+Green Lantern 2011
+	Version
+		['Green Lantern ?\(?2011'],
+		['Live(-| )Action Green Lantern|Green Lantern Live(-| )Action'], ['Green Lantern (Movie|Film)']
+	Displayed Version Name
+		"Green Lantern, 2011"
+
 Green Lantern: The Animated Series
 	Version
 		'{"Green Lantern:?( The)? Animated Series"}', r'{"Green Lantern ?\\((The )?Animated Series"}'

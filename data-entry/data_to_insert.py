@@ -135,6 +135,48 @@ False,
 
 ########################################
 
+add_data(['Hal'],
+'Hal',
+False,
+False,
+[
+    ['Green Lantern', '\(DC( Comics)?\)'],
+    ['Green Lantern', '\[DC( Comics)?\]']
+],
+'DC',
+'{7394, 1680}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tee76s/silver_surfer_vs_green_lantern/i0pflkj/?context=3
+
+add_data(['Hal'],
+'Hal',
+False,
+False,
+[
+    ['Green Lantern', 'PC'],
+    ['Green Lantern', 'Posts?(-| )?C(risis)?']
+],
+'Post-Crisis',
+'{1680}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tee76s/silver_surfer_vs_green_lantern/i0pflkj/?context=3
+
+add_data(['Hal'],
+'Hal',
+False,
+False,
+[
+    ['Green Lantern', 'New(-| )?52'],
+    ['Green Lantern', 'Nu?-?52'],
+    ['Green Lantern', 'Rebirth']
+],
+'New 52 / Rebirth',
+'{7394}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tee76s/silver_surfer_vs_green_lantern/i0pflkj/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Dementors (Harry Potter and the Methods of Rationality)', 'https://redd.it/tdq9p7')
 add_data(['Dementors?'],
 'Dementor',
@@ -162,6 +204,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tdxhey/respect_opaopa_fantasy_zone/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hector Hammond (Green Lantern movie)', 'https://redd.it/te80xp')
+add_data(['Hector Hammond'],
+'Hector Hammond',
+False,
+False,
+[
+    ['Live(-| )Action Green Lantern|Green Lantern Live(-| )Action'], ['Green Lantern (Movie|Film)']
+],
+'Green Lantern, 2011',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/te80xp/respect_hector_hammond_green_lantern_movie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Saber, the Wandering King! (Fate/Strange Fake)', 'https://redd.it/teu9gm')
+add_data(['Saber'],
+'Saber',
+False,
+False,
+[
+    ['Strange Fake']
+],
+'Fate/Strange Fake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/teu9gm/respect_saber_the_wandering_king_fatestrange_fake/
 
 ########################################
 

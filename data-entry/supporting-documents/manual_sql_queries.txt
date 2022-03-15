@@ -20,7 +20,12 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Horus', 'Horus H
 
 ########################################
 
+UPDATE respectthread SET title='Respect Green Lantern (Kyle Rayner) (DC, Post Crisis)' WHERE id=7395;
+
 ########################################
+
+DELETE FROM character WHERE default_name='Blade' AND version='{"Blade vs"}';
+DELETE FROM character WHERE default_name='Blade' AND version='{"vs.? Blade"}';
 
 ########################################
 
