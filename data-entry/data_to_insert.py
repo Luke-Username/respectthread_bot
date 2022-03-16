@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Kazuma'],
+'Kazuma',
+False,
+False,
+[
+    ['Subaru', 'Natsuki']
+],
+'KonoSuba',
+'{3785}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tf376t/kazuma_vs_subaru_natsuki/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
