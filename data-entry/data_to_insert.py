@@ -107,6 +107,50 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5382, 'Respect Sly Cooper (Sly Cooper)', 'https://redd.it/thtq1p')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Victor Von Doom (Marvel, Earth-14412)', 'https://redd.it/thvuyb')
+add_data(['Doom Supreme'],
+'Doom Supreme',
+False,
+True,
+[
+    ['14412']
+],
+'14412',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/thvuyb/respect_victor_von_doom_marvel_earth14412/
+
+add_data(['Victor Von Doom'],
+'Doctor Doom',
+False,
+False,
+[
+    ['14412']
+],
+'14412',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/thvuyb/respect_victor_von_doom_marvel_earth14412/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Victor Von Doom (Marvel, Earth-14412)', 'https://redd.it/thvuyb')
+add_data(['Old Woman Laura'],
+'Old Woman Laura',
+False,
+True,
+[
+    ['18366']
+],
+'18366',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/thw1zb/respect_old_woman_laura_marvel_earth18366/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

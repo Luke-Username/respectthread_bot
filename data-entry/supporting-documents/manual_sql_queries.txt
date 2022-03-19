@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect: The Praetorian! (Supercrooks comic)', 'https://redd.it/thtvz7'); SELECT * FROM respectthread WHERE link='https://redd.it/thtvz7';
+UPDATE character SET rt_id_array='{21064, ?}' WHERE rt_id_array='{21064}';
+
 ########################################
 
 ########################################
