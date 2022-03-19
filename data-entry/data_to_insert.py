@@ -107,33 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Crash'],
-'Crash',
-False,
-False,
-[
-    ['Twin Sanity'], ['Spyro', 'Sonic', 'Ty']
-],
-'Twin Sanity',
-'{5004}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/thltk7/spyro_crash_and_sonic_vs_ty_the_tasmanian_tiger/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Old Man Phoenix (Marvel, Earth-14412)', 'https://redd.it/thrdzd')
-add_data(['Old Man Phoenix'],
-'Old Man Phoenix',
-False,
-True,
-[
-    ['14412']
-],
-'14412',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/thrdzd/respect_old_man_phoenix_marvel_earth14412/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
