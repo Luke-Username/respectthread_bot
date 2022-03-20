@@ -111,6 +111,34 @@ update_respectthread(cur, 5382, 'Respect Sly Cooper (Sly Cooper)', 'https://redd
 
 ########################################
 
+add_data(['Madoka Magica'],
+'Madoka Magica',
+False,
+False,
+[
+    ['Goddess']
+],
+'',
+'{4428}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/thnmjn/would_madoka_magica_goddess_form_win_to_giorno/i1cffyv/?context=3
+
+########################################
+
+add_data(['Wolverine'],
+'Wolverine',
+False,
+False,
+[
+    ['MCU'], ['Marvel Cinematic Universe']
+],
+'FOX',
+'{158}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/thzvyx/wolverine_deadpool_and_black_noir_vs_the_black/i1bbwqd/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Victor Von Doom (Marvel, Earth-14412)', 'https://redd.it/thvuyb')
 add_data(['Doom Supreme'],
 'Doom Supreme',
@@ -150,6 +178,66 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/thw1zb/respect_old_woman_laura_marvel_earth18366/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miyamoto Usagi II (Space Usagi)', 'https://redd.it/thywec')
+add_data(['Miyamoto Usagi'],
+'Miyamoto Usagi',
+False,
+False,
+[
+    ['Space Usagi']
+],
+'Space Usagi',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/thywec/respect_miyamoto_usagi_ii_space_usagi/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Fallen One (Marvel, Thanos Wins)', 'https://redd.it/ti10ci')
+add_data(['Fallen One'],
+'Fallen One',
+False,
+False,
+[
+    ['Thanos Wins'], ['Norrin'], ['Silver Surfer']
+],
+'Thanos Wins',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Ozai''s Governor of Omashu (ATLA: The Burning Earth)", 'https://redd.it/ti11kz')
+add_data(['Governor'],
+'Governor',
+False,
+False,
+[
+    ['Avatar|A?TLA', 'Burning Earth']
+],
+'A:TLA - The Burning Earth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ti11kz/respect_ozais_governor_of_omashu_atla_the_burning/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nite Owl II (Watchmen, 2009 film)', 'https://redd.it/ti15tb')
+add_data(['Nite Owl'],
+'Nite Owl',
+False,
+False,
+[
+    ['Watchmen', '2009'], ['Watchmen (movie|film)s?'], ['movie|film', 'Rorsc?hach'], ['(movie|film) Nite Owl']
+],
+'Watchmen, 2009',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ti15tb/respect_nite_owl_ii_watchmen_2009_film/
 
 ########################################
 

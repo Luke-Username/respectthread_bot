@@ -20,6 +20,8 @@ UPDATE character SET rt_id_array='{21064, ?}' WHERE rt_id_array='{21064}';
 
 ########################################
 
+UPDATE character_name SET name='Rorsc?hach' WHERE name='Rorschach';
+
 ########################################
 
 ########################################
