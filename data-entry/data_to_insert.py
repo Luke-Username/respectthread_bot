@@ -107,6 +107,53 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5380, 'Respect Inspector Carmelita Fox (Sly Cooper)', 'https://redd.it/tj9sz8')
+update_respectthread(cur, 5378, 'Respect Clockwerk (Sly Cooper)', 'https://redd.it/tj9teu')
+
+########################################
+
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['Tom', 'Tobey', 'Andrew']
+],
+'Live-Action',
+'{302,113,261}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tjafk0/quiet_place_monster_vs_xenomorph/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sakura! (Udon Comics Street Fighter)', 'https://redd.it/tja9n3')
+add_data(['Sakura Kasugano'],
+'Sakura Kasugano',
+False,
+False,
+[
+    ['UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tja9n3/respect_sakura_udon_comics_street_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lee (Enter the Dragon)', 'https://redd.it/tjadaw')
+add_data(['Lee'],
+'Lee',
+False,
+False,
+[
+    ['Enter the Dragon']
+],
+'Enter the Dragon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjadaw/respect_lee_enter_the_dragon/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

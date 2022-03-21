@@ -14,7 +14,16 @@ UPDATE character_name SET name='' WHERE...
 
 
 ########################################
+
+UPDATE character SET displayed_version_name='Insomniac''s Spider-Man' WHERE displayed_version_name='Insomniacs Spider-Man';
+UPDATE character SET version='{"Insomniacs?"}' WHERE version='{"Insomniac"}';
+UPDATE character SET version='{"Arkham Knights?"}' WHERE version='{"Arkham Knight"}';
+
 ########################################
+
+DELETE FROM character WHERE default_name='King Ghidorah' AND version='{"Godzilla"}';
+UPDATE character SET version='{"Monster(-| )?verse"}' WHERE version='{"Monsterverse"}';
+UPDATE character SET displayed_version_name='MonsterVerse' WHERE displayed_version_name='Monsterverse';
 
 ########################################
 
