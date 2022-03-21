@@ -24,7 +24,11 @@ UPDATE character_name SET name='Rorsc?hach' WHERE name='Rorschach';
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Crona';
+
 ########################################
+
+UPDATE character SET rt_id_array='{21232}' WHERE default_name='Kira' AND displayed_version_name='Death Note';
 
 ########################################
 

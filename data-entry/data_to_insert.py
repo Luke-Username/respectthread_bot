@@ -108,6 +108,10 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 5382, 'Respect Sly Cooper (Sly Cooper)', 'https://redd.it/thtq1p')
+update_respectthread(cur, 5377, 'Respect Bentley (Sly Cooper)', 'https://redd.it/tio46a')
+update_respectthread(cur, 5381, 'Respect Murray (Sly Cooper)', 'https://redd.it/tio5l9')
+update_respectthread(cur, 17514, "Respect Afiko The Betrayer (Avatar: The Last Airbender''s Official TCG)", 'https://redd.it/tikeo1')
+update_respectthread(cur, 3543, "Respect Rudol von Stroheim (Jojo''s Bizarre Adventure)", 'https://redd.it/tiuj5c')
 
 ########################################
 
@@ -122,6 +126,20 @@ False,
 '{4428}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/thnmjn/would_madoka_magica_goddess_form_win_to_giorno/i1cffyv/?context=3
+
+########################################
+
+add_data(['Iron(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['RDJ'], ['Downey']
+],
+'MCU',
+'{247}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tihl6n/andrew_garfield_spiderman_vs_rdj_ironman/
 
 ########################################
 
@@ -238,6 +256,202 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ti15tb/respect_nite_owl_ii_watchmen_2009_film/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Little Mac and the WVBA Boxers! (Nintendo Comics System)', 'https://redd.it/ti881d')
+add_data(['Little Mac'],
+'Little Mac',
+False,
+False,
+[
+    ['Nintendo Comics System']
+],
+'Nintendo Comics System',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ti881d/respect_little_mac_and_the_wvba_boxers_nintendo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cammy! (Udon Comics Street Fighter)', 'https://redd.it/tiba9l')
+add_data(['Cammy'],
+'Cammy',
+False,
+False,
+[
+    ['UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tiba9l/respect_cammy_udon_comics_street_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kaela Mensha Khaine (Warhammer 40k)', 'https://redd.it/tiiu86')
+add_data(['Khaine'],
+'Khaine',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tiiu86/respect_kaela_mensha_khaine_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dr. Manhattan (Watchmen, 2009)', 'https://redd.it/tiktva')
+add_data(['(Doctor|Dr\.?) Manhattan'],
+'Doctor Manhattan',
+False,
+False,
+[
+    ['2009'], ['Manhattan ?\(Movie']
+],
+'Watchmen, 2009',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tiktva/respect_dr_manhattan_watchmen_2009/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dabura, The King of the Demon Realm (Dragon Ball Manga)', 'https://redd.it/timkfi')
+add_data(['Dabura'],
+'Dabura',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)?']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/timkfi/respect_dabura_the_king_of_the_demon_realm_dragon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mario (Mario Warfare)', 'https://redd.it/tioohz')
+add_data(['Mario'],
+'Mario',
+False,
+False,
+[
+    ['Mario Warfare']
+],
+'Mario Warfare',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tioohz/respect_mario_mario_warfare/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Waluigi (Mario Warfare)', 'https://redd.it/tiop69')
+add_data(['Waluigi'],
+'Waluigi',
+False,
+False,
+[
+    ['Mario Warfare']
+],
+'Mario Warfare',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tiop69/respect_waluigi_mario_warfare/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ash Ketchum and Pikachu (Mario Warfare)', 'https://redd.it/tioq6o')
+add_data(['Pikachu'],
+'Pikachu',
+False,
+False,
+[
+    ['Mario Warfare']
+],
+'Mario Warfare',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tioq6o/respect_ash_ketchum_and_pikachu_mario_warfare/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Leonardo (Teenage Mutant Ninja Turtles) [Image Comics]', 'https://redd.it/tip0mx')
+add_data(['Leonardo'],
+'Leonardo',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Image Comics'], ['TMNT', 'Image Comics']
+],
+'TMNT, Image Comics',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Raphael (Teenage Mutant Ninja Turtles) [Image Comics]', 'https://redd.it/tip0nx')
+add_data(['Raphael'],
+'Raphael',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Image Comics'], ['TMNT', 'Image Comics']
+],
+'TMNT, Image Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tip0nx/respect_raphael_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Donatello (Teenage Mutant Ninja Turtles) [Image Comics]', 'https://redd.it/tip0p9')
+add_data(['Donatello'],
+'Donatello',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Image Comics'], ['TMNT', 'Image Comics']
+],
+'TMNT, Image Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tip0p9/respect_donatello_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Michelangelo (Teenage Mutant Ninja Turtles) [Image Comics]', 'https://redd.it/tip0qj')
+add_data(['Michelangelo'],
+'Michelangelo',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Image Comics'], ['TMNT', 'Image Comics']
+],
+'TMNT, Image Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tip0qj/respect_michelangelo_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The C.I.A Avatar Program (American Dad!)', 'https://redd.it/tiq1nq')
+add_data(['C\.I\.A\.? Avatar'],
+'C.I.A Avatar',
+False,
+False,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tiq1nq/respect_the_cia_avatar_program_american_dad/
 
 ########################################
 
