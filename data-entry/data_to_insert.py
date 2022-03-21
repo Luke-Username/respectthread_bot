@@ -244,6 +244,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Yu Dao''s Underground Waterbender (Avatar: The Last Airbender)", 'https://redd.it/tj74cl')
+add_data(["Yu Dao''?s?( Underground)? Water(-| )bender"],
+'Yu Dao''s Underground Waterbender',
+False,
+True,
+[
+    ['Avatar'], ['A?TLA']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tj74cl/respect_yu_daos_underground_waterbender_avatar/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Nite Owl II (Watchmen, 2009 film)', 'https://redd.it/ti15tb')
 add_data(['Nite Owl'],
 'Nite Owl',
