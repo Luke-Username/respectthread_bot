@@ -14127,7 +14127,6 @@ Thor,"{`"Record of Ragnarok`"}",f,{4543},Shuumatsu no Valkyrie
 Zeus,"{`"Shuumatsu no Valkyrie`"}",f,{4544},Shuumatsu no Valkyrie
 Zeus,"{`"Record of Ragnarok`"}",f,{4544},Shuumatsu no Valkyrie
 Black☆Star,"{`"Soul Eater`"}",t,{4545},Soul Eater
-Crona,"{`"Soul Eater`"}",t,{4546},Soul Eater
 Death the Kid,"{`"Soul Eater`"}",t,{4547},Soul Eater
 Death Scythes,"{`"Soul Eater`"}",f,{4548},Soul Eater
 Excalibur,"{`"Soul Eater`"}",f,{4549},Soul Eater
@@ -25299,7 +25298,6 @@ Amarendra,{Baahubali},f,{21061},Baahubali
 Mahendra,{Baahubali},f,{21062},Baahubali
 Shiva,{Baahubali},f,{21062},Baahubali
 Fumi,{Jojo(lion)?},f,{21063},Jojo's Bizarre Adventure
-Praetorian,"{`"Super Crooks`"}",f,{21064},Super Crooks
 Android 21,"{`"Dragon ?Ball`"}",t,{21065},Dragon Ball FighterZ
 Android 21,{DB(FZ)?},t,{21065},Dragon Ball FighterZ
 Android 21,"{`"Fighters? ?Z`"}",t,{21065},Dragon Ball FighterZ
@@ -25329,6 +25327,7 @@ Weather Report,{JJ?BA},f,{3616},Jojo's Bizarre Adventure
 Weather Report,"{`"Stone Ocean`"}",f,{3616},Jojo's Bizarre Adventure
 Snape,"{`"Harry Potter`"}",t,"{5826,21078}",Harry Potter
 Snape,{HP},t,"{5826,21078}",Harry Potter
+Praetorian,"{`"Super Crooks`"}",f,"{21064,21580}",Super Crooks
 Mephiles,{Sonic},t,{21079},Sonic the Hedgehog
 Mephiles,"{`"Mephiles the Dark`"}",t,{21079},Sonic the Hedgehog
 Siegward,"{`"Dark Souls`"}",t,{21080},Dark Souls
@@ -25466,10 +25465,10 @@ Kid Flash,"{`"DC ?TV`"}",f,{},CW Arrowverse
 Demogorgon,"{`"Stranger Things`"}",f,{16793},Stranger Things
 Buffy,"{`"Buffy vs`"}",f,{36},Buffy the Vampire Slayer
 Buffy,"{`"vs\\.? Buffy`"}",f,{36},Buffy the Vampire Slayer
-Kira,"{`"Death Note`"}",f,{},Death Note
-Kira,{Light},f,{},Death Note
 Goku Black,"{`"Dragon Ball`"}",t,"{7586,3265}",Dragon Ball
 Sigurd,{Fate},f,{21106},Fate
+Kira,"{`"Death Note`"}",f,{21232},Death Note
+Kira,{Light},f,{21232},Death Note
 Anastasia,"{`"Grande? Order`"}",f,{21107},Fate
 Anastasia,"{`"F(ate )?/?GO`"}",f,{21107},Fate
 Aśvatthāman,{Fate},f,{21108},Fate
@@ -26634,3 +26633,43 @@ Dan Hibiki,{UDON},f,{21578},UDON
 Crash,"{`"Twin Sanity`"}",f,{5004},Twin Sanity
 Crash,"{Spyro,Sonic,Ty}",f,{5004},Twin Sanity
 Old Man Phoenix,{14412},t,{21579},14412
+Crona,"{`"Soul Eater`"}",f,{4546},Soul Eater
+Madoka Magica,{Goddess},f,{4428},""
+Iron Man,{RDJ},f,{247},MCU
+Iron Man,{Downey},f,{247},MCU
+Wolverine,{MCU},f,{158},FOX
+Wolverine,"{`"Marvel Cinematic Universe`"}",f,{158},FOX
+Doom Supreme,{14412},t,{21581},14412
+Doctor Doom,{14412},f,{21581},14412
+Old Woman Laura,{18366},t,{21581},18366
+Miyamoto Usagi,"{`"Space Usagi`"}",f,{21582},Space Usagi
+Fallen One,"{`"Thanos Wins`"}",f,{21583},Thanos Wins
+Fallen One,{Norrin},f,{21583},Thanos Wins
+Fallen One,"{`"Silver Surfer`"}",f,{21583},Thanos Wins
+Governor,"{Avatar|A?TLA,`"Burning Earth`"}",f,{21584},A:TLA - The Burning Earth
+Yu Daos Underground Waterbender,{Avatar},t,{21585},Avatar: TLA
+Yu Daos Underground Waterbender,{A?TLA},t,{21585},Avatar: TLA
+Nite Owl,"{Watchmen,2009}",f,{21586},"Watchmen, 2009"
+Nite Owl,"{`"Watchmen (movie|film)s?`"}",f,{21586},"Watchmen, 2009"
+Nite Owl,"{movie|film,Rorsc?hach}",f,{21586},"Watchmen, 2009"
+Nite Owl,"{`"(movie|film) Nite Owl`"}",f,{21586},"Watchmen, 2009"
+Little Mac,"{`"Nintendo Comics System`"}",f,{21587},Nintendo Comics System
+Cammy,{UDON},f,{21588},UDON
+Khaine,{(WH)?40K},t,{21589},Warhammer 40k
+Khaine,{Warhammer},t,{21589},Warhammer 40k
+Doctor Manhattan,{2009},f,{21590},"Watchmen, 2009"
+Doctor Manhattan,"{`"Manhattan ?\\(Movie`"}",f,{21590},"Watchmen, 2009"
+Dabura,"{`"Dragon ?Ball`"}",t,{21591},Dragon Ball
+Dabura,{DB(Z|S)?},t,{21591},Dragon Ball
+Mario,"{`"Mario Warfare`"}",f,{21592},Mario Warfare
+Waluigi,"{`"Mario Warfare`"}",f,{21593},Mario Warfare
+Pikachu,"{`"Mario Warfare`"}",f,{21594},Mario Warfare
+Leonardo,"{`"Teenaged? Mutant Ninja Turtles?`",`"Image Comics`"}",f,{21595},"TMNT, Image Comics"
+Leonardo,"{TMNT,`"Image Comics`"}",f,{21595},"TMNT, Image Comics"
+Raphael,"{`"Teenaged? Mutant Ninja Turtles?`",`"Image Comics`"}",f,{21596},"TMNT, Image Comics"
+Raphael,"{TMNT,`"Image Comics`"}",f,{21596},"TMNT, Image Comics"
+Donatello,"{`"Teenaged? Mutant Ninja Turtles?`",`"Image Comics`"}",f,{21597},"TMNT, Image Comics"
+Donatello,"{TMNT,`"Image Comics`"}",f,{21597},"TMNT, Image Comics"
+Michelangelo,"{`"Teenaged? Mutant Ninja Turtles?`",`"Image Comics`"}",f,{21598},"TMNT, Image Comics"
+Michelangelo,"{TMNT,`"Image Comics`"}",f,{21598},"TMNT, Image Comics"
+C.I.A Avatar,"{`"American Dad`"}",f,{21599},American Dad!

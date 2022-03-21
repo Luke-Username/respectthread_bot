@@ -3407,7 +3407,6 @@ Blackfire,Blackfire,f
 Trigon,Trigon,f
 (Doctor|Dr\.?) Manhattan,Doctor Manhattan,f
 Ozymandias,Ozymandias,f
-Rorschach,Rorschach,f
 Achilles Warkiller,Achilles Warkiller,f
 Harry Potter,Harry Potter,f
 Harry,Harry,f
@@ -3479,6 +3478,7 @@ Ted Kord,Ted Kord,f
 Carnage,Carnage,f
 Life Foundation Symbiotes,Life Foundation Symbiotes,t
 Vampires?,Vampire,f
+Rorsc?hach,Rorschach,f
 Scream Symbiote,Scream Symbiote,f
 Riot,Riot,f
 Phage,Phage,f
@@ -12133,3 +12133,13 @@ Judge Doom,Judge Doom,f
 Dan Hibiki,Dan Hibiki,f
 Crash,Crash,f
 Old Man Phoenix,Old Man Phoenix,f
+Madoka Magica,Madoka Magica,f
+Doom Supreme,Doom Supreme,f
+Old Woman Laura,Old Woman Laura,f
+Governor,Governor,f
+Yu Dao'?s?( Underground)? Water(-| )bender,Yu Daos Underground Waterbender,f
+Nite Owl,Nite Owl,f
+Khaine,Khaine,f
+(Doctor|Dr\\.?) Manhattan,Doctor Manhattan,f
+Dabura,Dabura,f
+C\\.I\\.A\\.? Avatar,C.I.A Avatar,f

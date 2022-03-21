@@ -3396,7 +3396,6 @@ id,title,link
 3540,Respect Joseph Joestar! (Jojo's Bizarre Adventure),https://redd.it/bwgpu4
 3541,Respect Kars (Jojo's Bizarre Adventure Part 2: Battle Tendency),https://redd.it/6exvnr
 3542,Respect Lisa Lisa! [Jojo's Bizarre Adventure],https://redd.it/45spaa
-3543,Respect Rudolph Von Stroheim! [Jojo's Bizarre Adventure],https://redd.it/45srrn
 3545,Respect Wham! [Jojo's Bizarre Adventure],https://redd.it/45tia4
 3546,Respect Alessi! [Jojo's Bizarre Adventure],https://redd.it/4aecz2
 3547,Respect Anubis! [Jojo's Bizarre Adventure],https://redd.it/4aax6o
@@ -3418,6 +3417,7 @@ id,title,link
 3514,Respect Gon Freecss (Hunter x Hunter),https://redd.it/cyj8yz
 3529,Respect Leonhard Saijou (The Irregular at Magic High School anime),https://redd.it/pnaybs
 3544,Respect Santana (Jojo's Bizarre Adventure),https://redd.it/rt9y5v
+3543,Respect Rudol von Stroheim (Jojo's Bizarre Adventure),https://redd.it/tiuj5c
 3561,Respect Mannish Boy! [Jojo's Bizarre Adventure],https://redd.it/4a6pdv
 3562,Respect Mariah! [Jojo's Bizarre Adventure],https://redd.it/4ae29v
 3563,Respect Midler! [Jojo's Bizarre Adventure],https://redd.it/4a8mfa
@@ -5164,12 +5164,9 @@ id,title,link
 5374,Respect Risky Boots! (Shantae),https://redd.it/afunw8
 5375,Respect Rottytops! (Shantae),https://redd.it/atsvoj
 5376,"Respect Shantae, the Half-Genie Hero! (Shantae)",https://redd.it/69lkgc
-5377,Respect Bentley! (Sly Cooper),https://redd.it/ayiwyl
 5378,Respect Clockwerk,https://redd.it/2yiwbi
 5379,Respect Sly Cooper and the Cooper Gang! [Sly Cooper series],https://redd.it/3fszrx
 5380,Respect Inspector Carmelita Fox! (Sly Cooper),https://redd.it/78wy1v
-5381,Respect Murray! (Sly Cooper),https://redd.it/ayj2j4
-5382,Respect Sly Cooper! (Sly Cooper),https://redd.it/6aort8
 5383,Respect the Biolizard (Sonic the Hedgehog),https://redd.it/bns09b
 5385,Respect E-123 Omega (Sonic the Hedgehog games),https://redd.it/a8lo5r
 5386,Respect Infinite (Sonic Forces),https://redd.it/7kw9yu
@@ -5240,6 +5237,9 @@ id,title,link
 5456,Respect Rayquaza (Super Smash Bros.),https://redd.it/avi6ja
 5452,Respect Mario (Super Smash Bros.),https://redd.it/qe6oie
 5384,"Respect Doctor Ivo `"Eggman`" Robotnik (Sonic the Hedgehog)",https://redd.it/r66ur6
+5382,Respect Sly Cooper (Sly Cooper),https://redd.it/thtq1p
+5377,Respect Bentley (Sly Cooper),https://redd.it/tio46a
+5381,Respect Murray (Sly Cooper),https://redd.it/tio5l9
 5389,Respect Shadow the Hedgehog (Sonic the Hedgehog),https://redd.it/fkwhta
 5457,Respect R.O.B the Robot (Nintendo).,https://redd.it/35i8xh
 5458,Respect Ridley (Super Smash Bros),https://redd.it/9plypf
@@ -8546,6 +8546,7 @@ id,title,link
 21568,Respect Opa-Opa (Fantasy Zone),https://redd.it/tdxhey
 21569,Respect Hector Hammond (Green Lantern movie),https://redd.it/te80xp
 21570,"Respect Saber, the Wandering King! (Fate/Strange Fake)",https://redd.it/teu9gm
+21580,Respect: The Praetorian! (Supercrooks comic),https://redd.it/thtvz7
 3203,Respect Hei (Darker than Black),https://redd.it/dhvzgu
 1292,Respect the Iron Fist (Marvel Cinematic Universe),https://redd.it/hiq86e
 5905,Respect Percy Jackson (Percy Jackson and the Olympians/Heroes of Olympus) [New Update],https://redd.it/hql25o
@@ -8753,7 +8754,27 @@ id,title,link
 16641,Respect the Huntress! (Dead by Daylight),https://redd.it/n81hqx
 16642,Respect the Plague! (Dead by Daylight),https://redd.it/n89ybl
 16631,Respect Angus McFife XIII (Gloryhammer),https://redd.it/o9ujcd
+17514,Respect Afiko The Betrayer (Avatar: The Last Airbender's Official TCG),https://redd.it/tikeo1
+21581,"Respect Victor Von Doom (Marvel, Earth-14412)",https://redd.it/thvuyb
+21582,Respect Miyamoto Usagi II (Space Usagi),https://redd.it/thywec
+21583,"Respect the Fallen One (Marvel, Thanos Wins)",https://redd.it/ti10ci
+21584,Respect Ozai's Governor of Omashu (ATLA: The Burning Earth),https://redd.it/ti11kz
+21585,Respect Yu Dao's Underground Waterbender (Avatar: The Last Airbender),https://redd.it/tj74cl
+21586,"Respect Nite Owl II (Watchmen, 2009 film)",https://redd.it/ti15tb
+21587,Respect Little Mac and the WVBA Boxers! (Nintendo Comics System),https://redd.it/ti881d
+21588,Respect Cammy! (Udon Comics Street Fighter),https://redd.it/tiba9l
+21589,Respect Kaela Mensha Khaine (Warhammer 40k),https://redd.it/tiiu86
+21590,"Respect Dr. Manhattan (Watchmen, 2009)",https://redd.it/tiktva
 16643,Respect the Six-Gun Gorilla! [D.C. Thompson & Co.],https://redd.it/ncssw3
+21591,"Respect Dabura, The King of the Demon Realm (Dragon Ball Manga)",https://redd.it/timkfi
+21592,Respect Mario (Mario Warfare),https://redd.it/tioohz
+21593,Respect Waluigi (Mario Warfare),https://redd.it/tiop69
+21594,Respect Ash Ketchum and Pikachu (Mario Warfare),https://redd.it/tioq6o
+21595,Respect Leonardo (Teenage Mutant Ninja Turtles) [Image Comics],https://redd.it/tip0mx
+21596,Respect Raphael (Teenage Mutant Ninja Turtles) [Image Comics],https://redd.it/tip0nx
+21597,Respect Donatello (Teenage Mutant Ninja Turtles) [Image Comics],https://redd.it/tip0p9
+21598,Respect Michelangelo (Teenage Mutant Ninja Turtles) [Image Comics],https://redd.it/tip0qj
+21599,Respect The C.I.A Avatar Program (American Dad!),https://redd.it/tiq1nq
 12473,"Respect Carlos Medel, `"El Dorado`" (Kengan Omega)",https://redd.it/r1f0p1
 20923,Respect Mighty Mom & Dyno Dad! (The Fairly OddParents),https://redd.it/qwwkqa
 20924,Respect Miyamoto Musashi! (Fate),https://redd.it/r35dv6
@@ -10237,7 +10258,6 @@ id,title,link
 17511,"Respect Jimmy Olsen, The Human Octopus (Dc, Pre-Crisis)",https://redd.it/ojhjyq
 17512,"Respect Jimmy Olsen, The Giant Turtle Man (Dc, Pre-Crisis)",https://redd.it/oieg55
 17513,"Respect Jimmy Olsen, The Human Flame Thrower (Dc, Pre-Crisis)",https://redd.it/oiu02q
-17514,Respect Afiko The Betrayer (Avatar:-The Last Airbender's Official Trading Card Game),https://redd.it/oify4o
 17515,Respect Malu The Guardian (Avatar:-The Last Airbender's Official Trading Card Game),https://redd.it/oit35g
 17516,Respect Mordecai and Rigby (Regular Show),https://redd.it/oigwx0
 17517,Respect Drew Ferran (Wereworld),https://redd.it/oisg6r

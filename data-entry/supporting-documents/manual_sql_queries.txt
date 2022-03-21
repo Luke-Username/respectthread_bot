@@ -14,21 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect: The Praetorian! (Supercrooks comic)', 'https://redd.it/thtvz7'); SELECT * FROM respectthread WHERE link='https://redd.it/thtvz7';
-UPDATE character SET rt_id_array='{21064, ?}' WHERE rt_id_array='{21064}';
+########################################
 
 ########################################
 
-UPDATE character_name SET name='Rorsc?hach' WHERE name='Rorschach';
-
 ########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Crona';
-
-########################################
-
-UPDATE character SET rt_id_array='{21232}' WHERE default_name='Kira' AND displayed_version_name='Death Note';
 
 ########################################
 
