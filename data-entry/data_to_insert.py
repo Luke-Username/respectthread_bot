@@ -126,6 +126,20 @@ False,
 
 ########################################
 
+add_data(['Mr\.? ?Fahrenheit'],
+'Mr. Fahrenheit',
+False,
+False,
+[
+    ['Freddie Mercury'], ['stop me Now']
+],
+'',
+'{6428}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/nvevek/who_is_the_strongest_character_dont_stop_me_now/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Sakura! (Udon Comics Street Fighter)', 'https://redd.it/tja9n3')
 add_data(['Sakura Kasugano'],
 'Sakura Kasugano',

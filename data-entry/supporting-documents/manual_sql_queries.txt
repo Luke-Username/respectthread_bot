@@ -27,6 +27,9 @@ UPDATE character SET displayed_version_name='MonsterVerse' WHERE displayed_versi
 
 ########################################
 
+DELETE FROM character WHERE default_name='Stones' AND version='{"movie"}';
+DELETE FROM character WHERE default_name='Stones' AND version='{"movies"}';
+
 ########################################
 
 ########################################
