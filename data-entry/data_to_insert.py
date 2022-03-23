@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect Goh''s Dewgong (Pokemon Anime)", 'https://redd.it/tl8x58')
+add_data(['Dewgong'],
+'Dewgong',
+False,
+False,
+[
+    ['Goh']
+],
+'Goh',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tl8x58/respect_gohs_dewgong_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-6772, Head Hunter! (SCP Foundation)', 'https://redd.it/tl9im8')
+add_data(['SCP ?(-| )? ?6772'],
+'SCP-6772',
+False,
+True,
+[
+    ['Head Hunter']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tl9im8/respect_scp6772_head_hunter_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jessica Drew, Spider-Woman of Earth-700459! (Spider-Woman 1979 Cartoon Series)', 'https://redd.it/tlbaj1')
+add_data(['Spider(-| )?Woman'],
+'Spider-Woman',
+False,
+False,
+[
+    ['1979']
+],
+'1979',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tlbaj1/respect_jessica_drew_spiderwoman_of_earth700459/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
