@@ -24,6 +24,7 @@ UPDATE character SET version='{"Arkham Knights?"}' WHERE version='{"Arkham Knigh
 DELETE FROM character WHERE default_name='King Ghidorah' AND version='{"Godzilla"}';
 UPDATE character SET version='{"Monster(-| )?verse"}' WHERE version='{"Monsterverse"}';
 UPDATE character SET displayed_version_name='MonsterVerse' WHERE displayed_version_name='Monsterverse';
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{5782}';
 
 ########################################
 

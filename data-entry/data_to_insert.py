@@ -608,6 +608,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Etrigan The Superdemon (DC, Earth 13)', 'https://redd.it/tks7ws')
+add_data(['Etrigan'],
+'Etrigan',
+False,
+False,
+[
+    ['Earth 13']
+],
+'Earth 13',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tks7ws/respect_etrigan_the_superdemon_dc_earth_13/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Etrigan The Bat-Demon (DC, Batman/Demon: A Tragedy)', 'https://redd.it/tks846')
+add_data(['Etrigan'],
+'Etrigan',
+False,
+False,
+[
+    ['Batman', 'Demon:? A Tragedy']
+],
+'Batman/Demon: A Tragedy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tks846/respect_etrigan_the_batdemon_dc_batmandemon_a/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
