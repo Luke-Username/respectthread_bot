@@ -32,7 +32,12 @@ DELETE FROM character WHERE default_name='Stones' AND version='{"movies"}';
 
 ########################################
 
+UPDATE character_name SET name='T\.?J\.? Combo' WHERE name='T\\.?J\\.? Combo';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Illya', 'Prisma Illya', -7);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Illya', 'Illya Kuryakin', 0);
 
 ########################################
 

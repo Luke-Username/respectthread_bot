@@ -109,6 +109,8 @@ cur = con.cursor()
 
 update_respectthread(cur, 5380, 'Respect Inspector Carmelita Fox (Sly Cooper)', 'https://redd.it/tj9sz8')
 update_respectthread(cur, 5378, 'Respect Clockwerk (Sly Cooper)', 'https://redd.it/tj9teu')
+update_respectthread(cur, 14814, 'Respect Enkidu, the Chain of the Heavens! (Fate)', 'https://redd.it/tjohjx')
+update_respectthread(cur, 5379, 'Respect the Cooper Gang (Sly Cooper)', 'https://redd.it/tk19mc')
 
 ########################################
 
@@ -123,6 +125,20 @@ False,
 '{302,113,261}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/tjafk0/quiet_place_monster_vs_xenomorph/
+
+########################################
+
+add_data(['Electro'],
+'Electro',
+False,
+False,
+[
+    ['No Way Home'], ['NWH']
+],
+'The Amazing Spider-Man',
+'{110}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tkeec3/electro_spiderman_no_way_home_vs_ozai_avatar_the/
 
 ########################################
 
@@ -155,6 +171,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Dhalsim! (Udon Comics Street Fighter)', 'https://redd.it/tjzquv')
+add_data(['Dhalsim'],
+'Dhalsim',
+False,
+False,
+[
+    ['UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjzquv/respect_dhalsim_udon_comics_street_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Blanka! (Udon Comics Street Fighter)', 'https://redd.it/tk0ac6')
+add_data(['Blanka'],
+'Blanka',
+False,
+False,
+[
+    ['UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tk0ac6/respect_blanka_udon_comics_street_fighter/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Lee (Enter the Dragon)', 'https://redd.it/tjadaw')
 add_data(['Lee'],
 'Lee',
@@ -167,6 +213,315 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tjadaw/respect_lee_enter_the_dragon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Master Wei (Avatar: The Legend of Aang Videogame)', 'https://redd.it/tjnlw5')
+add_data(['Master Wei'],
+'Master Wei',
+False,
+False,
+[
+    ['Avatar']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjnlw5/respect_master_wei_avatar_the_legend_of_aang/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Overconfident Fire Nation Soldier (Avatar: The Last Airbender)', 'https://redd.it/tk3co2')
+add_data(['Overconfident Fire Nation Soldier'],
+'Overconfident Fire Nation Soldier',
+False,
+True,
+[
+    ['Avatar'], ['A?TLA']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tk3co2/respect_the_overconfident_fire_nation_soldier/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jester Karture! (Fate/Strange Fake)', 'https://redd.it/tjokhf')
+add_data(['Jester Karture'],
+'Jester Karture',
+False,
+True,
+[
+    ['Strange Fake']
+],
+'Fate/Strange Fake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjokhf/respect_jester_karture_fatestrange_fake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect True Assassin! (Fate/Strange Fake)', 'https://redd.it/tjolma')
+add_data(['True Assassin'],
+'True Assassin',
+False,
+False,
+[
+    ['Strange Fake']
+],
+'Fate/Strange Fake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjolma/respect_true_assassin_fatestrange_fake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect True Berserker! (Fate/Strange Fake)', 'https://redd.it/tjome5')
+add_data(['True Berserker'],
+'True Berserker',
+False,
+False,
+[
+    ['Strange Fake']
+],
+'Fate/Strange Fake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjome5/respect_true_berserker_fatestrange_fake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect True Rider! (Fate/Strange Fake)', 'https://redd.it/tjon3h')
+add_data(['True Rider'],
+'True Rider',
+False,
+False,
+[
+    ['Strange Fake']
+],
+'Fate/Strange Fake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjon3h/respect_true_rider_fatestrange_fake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect True Caster! (Fate/Strange Fake)', 'https://redd.it/tjonuo')
+add_data(['True Caster'],
+'True Caster',
+False,
+False,
+[
+    ['Strange Fake']
+],
+'Fate/Strange Fake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjonuo/respect_true_caster_fatestrange_fake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fake Rider! (Fate/Strange Fake)', 'https://redd.it/tjookf')
+add_data(['Fake Rider'],
+'Fake Rider',
+False,
+False,
+[
+    ['Strange Fake']
+],
+'Fate/Strange Fake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjookf/respect_fake_rider_fatestrange_fake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fake Assassin! (Fate/Strange Fake)', 'https://redd.it/tjoqd3')
+add_data(['Fake Assassin'],
+'Fake Assassin',
+False,
+False,
+[
+    ['Strange Fake']
+],
+'Fate/Strange Fake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjoqd3/respect_fake_assassin_fatestrange_fake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fake Caster! (Fate/Strange Fake)', 'https://redd.it/tjpdnm')
+add_data(['Fake Caster'],
+'Fake Caster',
+False,
+False,
+[
+    ['Strange Fake']
+],
+'Fate/Strange Fake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjpdnm/respect_fake_caster_fatestrange_fake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect True Archer! (Fate/Strange Fake)', 'https://redd.it/tk5y0h')
+add_data(['True Archer'],
+'True Archer',
+False,
+False,
+[
+    ['Strange Fake']
+],
+'Fate/Strange Fake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tk5y0h/respect_true_archer_fatestrange_fake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hansa Cervantes! (Fate/Strange Fake)', 'https://redd.it/tk7q7v')
+add_data(['Hansa Cervantes'],
+'Hansa Cervantes',
+False,
+True,
+[
+    ['Strange Fake']
+],
+'Fate/Strange Fake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tk7q7v/respect_hansa_cervantes_fatestrange_fake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Illyasviel von Einzbern! (Fate)', 'https://redd.it/tjpkje')
+add_data(['Illya'],
+'Illya',
+False,
+False,
+[
+    ['Fate'], ['F/?SN'], ['F/?KL']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjpkje/respect_illyasviel_von_einzbern_fate/
+
+add_data(['Illya(sviel)( von)? Einzbern'],
+'Illyasviel von Einzbern',
+False,
+True,
+[
+    ['Fate'], ['F/?SN'], ['F/?KL']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tjpkje/respect_illyasviel_von_einzbern_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chloe von Einzbern! (Fate)', 'https://redd.it/tk678m')
+add_data(['Chloe'],
+'Chloe',
+False,
+False,
+[
+    ['Illya(sviel)']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tk678m/respect_chloe_von_einzbern_fate/
+
+add_data(['Chloe von Einzbern'],
+'Chloe von Einzbern',
+False,
+False,
+[
+    ['Illya(sviel)']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tk678m/respect_chloe_von_einzbern_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bazett Fraga McRemitz! (Fate)', 'https://redd.it/tk7rt0')
+add_data(['Bazett'],
+'Bazett',
+False,
+False,
+[
+    ['Fate'], ['Bazett Fraga McRemitz'], ['Holy Grail'], ['Serv(a|e)nts?']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tk7rt0/respect_bazett_fraga_mcremitz_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Penelope (Sly Cooper)', 'https://redd.it/tk198u')
+add_data(['Penelope'],
+'Penelope',
+False,
+False,
+[
+    ['Sly']
+],
+'Sly Cooper',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tk198u/respect_penelope_sly_cooper/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vegeta (Dragon Ball AF, Young Jijii)', 'https://redd.it/tk41uw')
+add_data(['Vegeta'],
+'Vegeta',
+False,
+False,
+[
+    ['Dragon Ball AF']
+],
+'Dragon Ball AF',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tk41uw/respect_vegeta_dragon_ball_af_young_jijii/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anderson Robotics! (SCP Foundation)', 'https://redd.it/tk675l')
+add_data(['Anderson Robotics'],
+'Anderson Robotics',
+False,
+False,
+[
+    ['SCP']
+],
+'SCP',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tk675l/respect_anderson_robotics_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-3008 (SCP Foundation)', 'https://redd.it/tkjoam')
+add_data(['SCP ?(-| )? ?3008'],
+'SCP-3008',
+False,
+False,
+[
+    ['SCP']
+],
+'SCP',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tkjoam/respect_scp3008_scp_foundation/
 
 ########################################
 
