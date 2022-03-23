@@ -15,6 +15,10 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character_name WHERE name='Bazett';
+DELETE FROM character WHERE default_name='Bazett Fraga McRemitz';
+DELETE FROM respectthread WHERE id=3346;
+
 ########################################
 
 ########################################

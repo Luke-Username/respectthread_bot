@@ -185,6 +185,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Q! (Udon Comics Street Fighter)', 'https://redd.it/tksrjt')
+add_data(['Q'],
+'Q',
+False,
+False,
+[
+    ['UDON', 'Street Fighter']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tksrjt/respect_q_udon_comics_street_fighter/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Dhalsim! (Udon Comics Street Fighter)', 'https://redd.it/tjzquv')
 add_data(['Dhalsim'],
 'Dhalsim',
