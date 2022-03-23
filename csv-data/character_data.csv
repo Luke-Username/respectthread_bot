@@ -850,11 +850,6 @@ Godzilla,"{`"Final Wars`"}",f,{183},Millennium Era
 Godzilla,{2016},f,{184},Shin Godzilla
 Godzilla,{Shin},f,{184},Shin Godzilla
 Shin Godzilla,{2016},t,{184},2016
-Godzilla,{Monsterverse},f,{280},Monsterverse
-Godzilla,{2019},f,{280},Monsterverse
-Godzilla,{KOTM},f,{280},Monsterverse
-Godzilla,"{`"King of the Monsters`"}",f,{280},Monsterverse
-Godzilla,"{`"Godzilla: King of Monsters`"}",f,{280},Monsterverse
 Lockjaw,{MCU},f,{253},MCU
 Monster Warrior Godzilla,{Comic},t,{4772},""
 Godzilla,{Pipeworks},f,{6495},Pipeworks games
@@ -866,13 +861,14 @@ Godzilla,"{`"Rulers of Earth`"}",f,{1926},IDW Trilogy
 Godzilla,"{`"in Hell`"}",f,{1927},Godzilla in Hell
 Godzilla,{Cataclysm},f,{1928},Godzilla: Cataclysm
 Godzilla,"{`"Rage Across Time`"}",f,{1929},Godzilla: Rage Across Time
-Godzilla,{Legendary},f,{280},Monsterverse
 Godzilla,{Composite},f,"{181,170}",Composite
 Anguirus,"{`"Final Wars`"}",f,{172},Godzilla: Final Wars
 Anguirus,{Godzilla},t,{171},Godzilla
 King Kong,{1933},f,{192},Godzilla
 King Kong,"{`"King Kong vs Godzilla`"}",f,{192},Godzilla
 Gamera,{Heisei},f,{164},Heisei Era
+Godzilla,{2019},f,{280},MonsterVerse
+Godzilla,{KOTM},f,{280},MonsterVerse
 King Kong,"{`"King Kong vs. Godzilla`"}",f,{192},Godzilla
 King Kong,{KKvG},f,{192},Godzilla
 King Kong,"{`"King Kong Escapes`"}",f,{192},Godzilla
@@ -912,7 +908,6 @@ Maes Hughes,{FMA:?B?},t,{10789},Fullmetal Alchemist
 Frank Archer,"{`"Full ?metal`"}",t,{3418},Fullmetal Alchemist
 Frank Archer,{FMA:?B?},t,{3418},Fullmetal Alchemist
 Hohenheim,"{`"Full ?metal`"}",t,{3419},Fullmetal Alchemist
-King Ghidorah,{Godzilla},t,{191},Godzilla
 King Ghidorah,{Showa},t,{191},Godzilla
 King Ghidorah,{Heisei},t,{191},Godzilla
 King Ghidorah,{Millennium},t,{191},Godzilla
@@ -971,23 +966,6 @@ Rodan,{Millennium},f,{209},Godzilla: Final Wars
 Zilla,"{`"Final Wars`"}",f,{213},Godzilla: Final Wars
 Zilla,"{`"Final War`"}",f,{213},Godzilla: Final Wars
 Zilla,{Millennium},f,{213},Godzilla: Final Wars
-MUTO,{Monsterverse},t,{282},Monsterverse
-MUTO,{Legendary},t,{282},Monsterverse
-MUTO,"{`"King of the Monsters`"}",t,{282},Monsterverse
-MUTO,"{`"Godzilla: King of Monsters`"}",t,{282},Monsterverse
-MUTO,{KOTM},t,{282},Monsterverse
-MUTO,"{Godzilla,2019}",t,{282},Monsterverse
-Shinomura,{Godzilla},t,{1934},Monsterverse
-Shinomura,{Awakening},t,{1934},Monsterverse
-Shinomura,{Monsterverse},t,{1934},Monsterverse
-Shinomura,{Legendary},t,{1934},Monsterverse
-Skullcrawlers,"{`"Skull Island`"}",t,{283},Monsterverse
-Skullcrawlers,{Kong},t,{283},Monsterverse
-Skullcrawlers,{Monsterverse},t,{283},Monsterverse
-Skullcrawlers,{Legendary},t,{283},Monsterverse
-Kong,{2017},f,{281},Monsterverse
-Kong,{Monsterverse},f,{281},Monsterverse
-Kong,{Legendary},f,{281},Monsterverse
 Destoroyah,{Godzilla},t,{6496},Godzilla
 Destoroyah,{Cataclysm},f,{1925},Godzilla: Cataclysm
 Cybersaur,"{`"Dark Horse`"}",t,{1923},Dark Horse Comics
@@ -1012,6 +990,10 @@ Dagahra,"{`"Rebirth of Mothra`"}",t,{174},Rebirth of Mothra
 M11,{Godzilla},f,{195},Godzilla
 M11,{GVKG},f,{195},Godzilla
 Ozaki,{Godzilla},f,{210},Godzilla: Final Wars
+MUTO,{Legendary},t,{282},MonsterVerse
+MUTO,"{`"King of the Monsters`"}",t,{282},MonsterVerse
+MUTO,"{`"Godzilla: King of Monsters`"}",t,{282},MonsterVerse
+MUTO,{KOTM},t,{282},MonsterVerse
 Ozaki,"{`"Final Wars`"}",f,{210},Godzilla: Final Wars
 Shinichi,{Godzilla},f,{210},Godzilla: Final Wars
 Shinichi,"{`"Final Wars`"}",f,{210},Godzilla: Final Wars
@@ -1618,8 +1600,6 @@ Gems,"{`"Infinity War`"}",f,{246},MCU
 Stones,"{`"Marvel Cinematic Universe`"}",f,{246},MCU
 Stones,{MCU},f,{246},MCU
 Stones,{199999},f,{246},MCU
-Stones,{movie},f,{246},MCU
-Stones,{movies},f,{246},MCU
 Stones,"{`"Infinity War`"}",f,{246},MCU
 Abilisk,"{`"Marvel Cinematic`"}",f,{253},MCU
 Abilisk,{MCU},f,{253},MCU
@@ -2110,7 +2090,6 @@ Captain Jack Sparrow,"{`"Pirates of the Caribbean`"}",t,{525},Pirates of the Car
 Captain Jack Sparrow,{POTC},t,{525},Pirates of the Caribbean
 Will Turner,"{`"Pirates of the Caribbean`"}",t,{526},Pirates of the Caribbean
 Will Turner,{POTC},t,{526},Pirates of the Caribbean
-Godzilla,{2014},f,{280},Monsterverse
 Max Steel,{2016},f,{509},2016
 Max Steel,{movies?},f,{509},2016
 Max Steel,{films?},f,{509},2016
@@ -2133,6 +2112,7 @@ Mystery Men,{Shoveler},t,{517},1999
 Kyoshi,{Avatar},t,{639},Avatar: TLA
 Kyoshi,{A?TLA},t,{639},Avatar: TLA
 Bane,"{`"Dark K?night`"}",f,{519},The Dark Night
+Godzilla,{2014},f,{280},MonsterVerse
 Mystery Men,"{`"Blue Raja`"}",t,{517},1999
 Mystery Men,"{`"Invisible Boy`"}",t,{517},1999
 Mystery Men,{Spleen},t,{517},1999
@@ -2303,11 +2283,6 @@ Storm,{XCU},f,{6529},FOX
 Storm,"{`"movies? version`"}",f,{6529},FOX
 Storm,"{`"X(-| )Men movies?`"}",f,{6529},FOX
 Storm,"{`"X(-| )Men films?`"}",f,{6529},FOX
-Rodan,{Monsterverse},f,{6530},Monsterverse
-Rodan,"{`"King of the Monsters`"}",f,{6530},Monsterverse
-Rodan,{KOTM},f,{6530},Monsterverse
-Rodan,{2019},f,{6530},Monsterverse
-Rodan,{Legendary},f,{6530},Monsterverse
 Batman,{Nolan},f,{6531},Nolanverse
 Batman,{Nolanverse},f,{6531},Nolanverse
 Goatan,"{`"Power Rangers`"}",t,{6532},Power Rangers
@@ -2331,6 +2306,7 @@ Donatello,"{`"Rise of the`",TMNT}",f,{6540},Rise of the Teenage Mutant Ninja Tur
 Donatello,"{`"ROT ?TMNT`"}",f,{6540},Rise of the Teenage Mutant Ninja Turtles
 Michelangelo,"{`"Rise of the`",Turtles}",f,{6541},Rise of the Teenage Mutant Ninja Turtles
 Wesley Gibson,"{Wanted,films?}",f,{595},Wanted
+Rodan,"{`"King of the Monsters`"}",f,{6530},MonsterVerse
 Michelangelo,"{`"Rise of the`",TMNT}",f,{6541},Rise of the Teenage Mutant Ninja Turtles
 Michelangelo,"{`"ROT ?TMNT`"}",f,{6541},Rise of the Teenage Mutant Ninja Turtles
 Baron Draxum,"{`"Rise of the`",Turtles}",t,{6542},Rise of the Teenage Mutant Ninja Turtles
@@ -9960,12 +9936,6 @@ Magni Thorson,{comics?},t,{1976},3515
 Baymax,{Disney},f,{10863},Disney's Big Hero 6
 Godzilla,{IDW},f,{1926},IDW
 Kato,"{`"((The )*Green Hornet)`"}",f,{453},"The Green Hornet, 2011"
-King Ghidorah,{Monsterverse},f,{8614},Monsterverse
-King Ghidorah,{Legendary},f,{8614},Monsterverse
-King Ghidorah,"{`"King of the Monsters`"}",f,{8614},Monsterverse
-King Ghidorah,"{`"Godzilla: King of Monsters`"}",f,{8614},Monsterverse
-King Ghidorah,{KOTM},f,{8614},Monsterverse
-King Ghidorah,{2019},f,{8614},Monsterverse
 Puddlegulp,{616},t,{1977},616
 Ragnarok,"{`"Ragnarok \\(Marvel`"}",f,{1978},616
 Ragnarok,"{`"Ragnarok \\(616`"}",f,{1978},616
@@ -10010,6 +9980,7 @@ Odin-Force Thor,{616},t,{1983},616
 Thor,{616},t,{1981},616
 Thor,{comics?},t,{1981},616
 Scott Lang,"{`"End ?game`"}",f,{},MCU
+King Ghidorah,{Legendary},f,{8614},MonsterVerse
 Krombopulos Michael,"{`"Rick (&|and) Morty`"}",t,{10871},Rick and Morty
 Honey Lemon,"{`"Big Hero`"}",t,{10872},Big Hero 6
 Honey Lemon,{Disney},f,{10872},Disney's Big Hero 6
@@ -12937,7 +12908,6 @@ Wendy,"{`"Fairy Tail`"}",f,{3344},Fairy Tail
 Wendy,"{`"Fairy Tale`"}",f,{3344},Fairy Tail
 Zeref,"{`"Fairy Tail`"}",t,{3345},Fairy Tail
 Zeref,"{`"Fairy Tale`"}",t,{3345},Fairy Tail
-Bazett Fraga McRemitz,{kaleid},f,{3346},Fate/kaleid liner Prisma Illya
 Emiya Shirou,{kaleid},f,{3347},Fate/kaleid liner Prisma Illya
 Gilgamesh,{kaleid},f,{3348},Fate/kaleid liner Prisma Illya
 Illyasviel von Einzbern,{kaleid},f,{3349},Fate/kaleid liner Prisma Illya
@@ -20723,9 +20693,6 @@ Lancer of Red,{Fate},t,{5781},Fate
 Karna,{Apocrypha},f,{5781},Fate/Apocrypha
 Karna,"{`"\\(Fate\\)`"}",f,{5781},Fate
 Karna,"{`"\\[Fate\\]`"}",f,{5781},Fate
-Rider of Red,{Fate},t,{5782},Fate
-Achilles,{Apocrypha},f,{5782},Fate
-Achilles,{Fate},f,{5782},Fate
 Jeanne d'Arc,"{`"\\(Fate\\)`"}",f,{5783},Fate
 Jeanne d'Arc,"{`"\\[Fate\\]`"}",f,{5783},Fate
 Jeanne d'Arc,{Apocrypha},f,{5783},Fate/Apocrypha
@@ -20745,6 +20712,8 @@ Gilles de Rais,{Caster},f,{5788},Fate/Zero
 Caster,"{`"Fate( ?/ ?| )Zero`"}",f,{5788},Fate/Zero
 Kiritsugu Emiya,"{`"Fate( ?/ ?| )Zero`"}",t,{5789},Fate/Zero
 Diarmuid Ua Duibhne,"{`"Fate( ?/ ?| )Zero`"}",f,{5790},Fate/Zero
+Rider of Red,{Fate},t,{},Fate
+Achilles,{Apocrypha},f,{},Fate
 Diarmuid Ua Duibhne,{Lancer},f,{5790},Fate/Zero
 Lancer,"{`"Fate( ?/ ?| )Zero`"}",f,{5790},Fate/Zero
 Alexander the Great,"{`"Fate( ?/ ?| )Zero`"}",f,{5791},Fate/Zero
@@ -20809,7 +20778,6 @@ Thor,"{`"Thor\\?? ?\\(Index(verse)?`"}",f,{15253},Toaru Majutsu no Index
 Thor,"{`"Thor\\?? ?\\(TAMNI`"}",f,{15253},Toaru Majutsu no Index
 Thor,"{`"Thor\\?? ?\\(Raildex`"}",f,{15253},Toaru Majutsu no Index
 Bruticus,"{`"Fall of Cybertron`"}",f,{15256},Transformers: Fall of Cybertron
-Spider-Man,{Insomniac},f,{15258},Insomniac's Spider-Man
 Spider-Man,{PS4},f,{15258},Insomniac's Spider-Man
 Spider-Man,{1048},f,{15258},Insomniac's Spider-Man
 Jack Joyce,"{`"Quantum Break`"}",t,{15259},Quantum Break
@@ -20876,6 +20844,7 @@ Futuro,"{`"Pre(-| )?Crisis`"}",f,{15280},DC
 Futuro,"{`"Silver(-| )?Age`"}",f,{15280},DC
 Bizarro-Titano,{DC},t,{15281},Pre-Crisis
 Bizarro-Titano,"{`"Earth(-| )(1|One)`"}",t,{15281},Pre-Crisis
+Spider-Man,{Insomniacs?},f,{15258},Insomniac's Spider-Man
 Bizarro-Titano,"{`"Pre(-| )?Crisis`"}",t,{15281},Pre-Crisis
 Bizarro-Titano,"{`"Silver(-| )?Age`"}",t,{15281},Pre-Crisis
 Eterno,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{15282},DC
@@ -21127,22 +21096,20 @@ Donatello,"{`"Next Mutation`"}",f,{15397},Ninja Turtles: The Next Mutation
 Venus de Milo,"{`"Next Mutation`"}",f,{15397},Ninja Turtles: The Next Mutation
 Venus de Milo,{1997},f,{15397},Ninja Turtles: The Next Mutation
 Splinter,"{`"Next Mutation`"}",f,{15397},Ninja Turtles: The Next Mutation
-Sinister Six,{Insomniac},f,{15398},Insomniac's Spider-Man
 Sinister Six,"{`"Spider(-| )?Man`",PS4}",f,{15398},Insomniac's Spider-Man
 Sinister Six,{1048},f,{15398},Insomniac's Spider-Man
-Doctor Octopus,{Insomniac},f,{15398},Insomniac's Spider-Man
 Doctor Octopus,"{`"Spider(-| )?Man`",PS4}",f,{15398},Insomniac's Spider-Man
 Doctor Octopus,{1048},f,{15398},Insomniac's Spider-Man
-Scorpion,{Insomniac},f,{15398},Insomniac's Spider-Man
 Scorpion,"{`"Spider(-| )?Man`",PS4}",f,{15398},Insomniac's Spider-Man
 Scorpion,{1048},f,{15398},Insomniac's Spider-Man
-Vulture,{Insomniac},f,{15398},Insomniac's Spider-Man
 Vulture,"{`"Spider(-| )?Man`",PS4}",f,{15398},Insomniac's Spider-Man
+Sinister Six,{Insomniacs?},f,{15398},Insomniac's Spider-Man
+Doctor Octopus,{Insomniacs?},f,{15398},Insomniac's Spider-Man
+Scorpion,{Insomniacs?},f,{15398},Insomniac's Spider-Man
+Vulture,{Insomniacs?},f,{15398},Insomniac's Spider-Man
 Vulture,{1048},f,{15398},Insomniac's Spider-Man
-Electro,{Insomniac},f,{15398},Insomniac's Spider-Man
 Electro,"{`"Spider(-| )?Man`",PS4}",f,{15398},Insomniac's Spider-Man
 Electro,{1048},f,{15398},Insomniac's Spider-Man
-Rhino,{Insomniac},f,{15398},Insomniac's Spider-Man
 Rhino,"{`"Spider(-| )?Man`",PS4}",f,{15398},Insomniac's Spider-Man
 Rhino,{1048},f,{15398},Insomniac's Spider-Man
 Howlett,{12025},f,{15399},12025
@@ -21190,7 +21157,6 @@ Kyle Rayner,"{`"Kyle Rayner ?\\(DC( Comics)?\\)`"}",t,"{1685,15411}",DC
 Kyle Rayner,"{`"Green Lantern ?\\(Kyle Rayner`"}",t,"{1685,15411}",DC
 Kyle Rayner,"{`"White Lantern`"}",t,"{1685,15411}",DC
 Flex Mentallo,{DC},t,"{1860,15275}",DC
-Mister Negative,{Insomniac},f,{15398},Insomniac's Spider-Man
 Mister Negative,{PS4},f,{15398},Insomniac's Spider-Man
 Mister Negative,{1048},f,{15398},Insomniac's Spider-Man
 Kyle Rayner,{Ion},f,"{1685,15411}",DC
@@ -21206,11 +21172,24 @@ Sam & Max,"{`"Freelance Police`"}",t,"{5701,10875,15421}",""
 Darkseid,"{`"Pre(-| )?Flashpoint`"}",f,{1734},Pre-Crisis
 Darkseid,"{`"New(-| )Earth`"}",f,{1734},Pre-Crisis
 Darkseid,"{`"Pre(-| )?Crisis`"}",f,{1734},Pre-Crisis
+SCP-3008,{SCP},f,{21651},SCP
+Jogo,"{`"Jujus?t?s?u Kaisen`"}",f,{21652},Jujutsu Kaisen
 Darkseid,{PC},f,{15422},Post-Crisis
 Darkseid,"{`"Post(-| )?C(risis)?`"}",f,{15422},Post-Crisis
+Jogo,{JJK},f,{21652},Jujutsu Kaisen
 Fezzik,"{`"Princess Bride`"}",t,"{5911,530}",The Princess Bride
 Atomic Skull,"{`"Super(-| )?man vs\\.? The Elite`"}",f,{1234},Superman vs. The Elite
 Manchester Black,"{`"Super(-| )?man vs\\.? The Elite`"}",f,{1235},Superman vs. The Elite
+Toge Inumaki,"{`"Jujus?t?s?u Kaisen`"}",t,{21653},Jujutsu Kaisen
+Toge Inumaki,{JJK},t,{21653},Jujutsu Kaisen
+Toge,"{`"Jujus?t?s?u Kaisen`"}",f,{21653},Jujutsu Kaisen
+Toge,{JJK},f,{21653},Jujutsu Kaisen
+Toji Fushiguro,"{`"Jujus?t?s?u Kaisen`"}",t,{21654},Jujutsu Kaisen
+Toji Fushiguro,{JJK},t,{21654},Jujutsu Kaisen
+Toji,"{`"Jujus?t?s?u Kaisen`"}",f,{21654},Jujutsu Kaisen
+Toji,{JJK},f,{21654},Jujutsu Kaisen
+Etrigan,"{`"Earth 13`"}",f,{21655},Earth 13
+Etrigan,"{Batman,`"Demon:? A Tragedy`"}",f,{21656},Batman/Demon: A Tragedy
 Preston J. Cole,{Halo},t,{5813},Halo
 Rtas 'Vadum,{Halo},t,{5814},Halo
 Tem'Bhetek,{Halo},t,{5815},Halo
@@ -23436,7 +23415,6 @@ Batmobile,"{`"Arkham(-| )?verse`"}",f,{16814},Batman: Arkham
 Batmobile,"{`"\\(Arkham\\)`"}",f,{16814},Batman: Arkham
 Batmobile,"{`"Arkham (games?|series)`"}",f,{16814},Batman: Arkham
 Batmobile,"{`"Batman: Arkham`"}",f,{16814},Batman: Arkham
-Batmobile,"{`"Arkham Knight`"}",f,{16814},Batman: Arkham
 Nicolas Le Banner,{Kengan(verse)?},t,{16815},Kengan Asura
 SCP-058,"{`"SCP Foundation`"}",t,{16816},""
 Quote,"{`"Cave Story`"}",f,{16817},Cave Story
@@ -23480,6 +23458,7 @@ Kiburi,"{`"Lion King`"}",t,{16835},The Lion King
 Mzingo,"{`"Lion King`"}",t,{16836},The Lion King
 Vulture,"{`"Lion King`"}",f,{16836},The Lion King
 Vultures,"{`"Lion King`"}",f,{16836},The Lion King
+Batmobile,"{`"Arkham Knights?`"}",f,{16814},Batman: Arkham
 Skinks,"{`"Lion (King|Guard)`"}",f,{16837},The Lion King
 Outsiders,"{`"Lion (King|Guard)`"}",f,{16838},The Lion King
 Zira,"{`"Lion (King|Guard)`"}",f,{16838},The Lion King
@@ -23800,7 +23779,6 @@ Batman,"{`"Arkham (games?|series)`"}",f,{17381},Batman: Arkham
 Batman,"{`"Batman: Arkham`"}",f,{17381},Batman: Arkham
 Batman,"{`"Arkham City`"}",f,{17381},Batman: Arkham
 Batman,"{`"Arkham Origins`"}",f,{17381},Batman: Arkham
-Batman,"{`"Arkham Knight`"}",f,{17381},Batman: Arkham
 Sozin,{Avatar},t,{17382},Avatar: TLA
 Sozin,{A?TLA},t,{17382},Avatar: TLA
 Sozin,"{`"Air(-| )bender`"}",t,{17382},Avatar: TLA
@@ -25703,8 +25681,6 @@ King Thor,{Marvel},t,"{7512,21155}",Marvel
 King Thor,{14412},f,{7512},14412
 Spider-Man,"{`"Spider(-| )?Mans? (film|movie)s?`"}",f,"{302,113,261}",Live-Action
 Spider-Man,"{`"Spider(-| )?Mans? (film|movie) villains?`"}",f,{},Movie Villains
-King Ghidorah,"{`"MV (King )?Ghidorah`"}",f,{8614},Monsterverse
-King Ghidorah,{Titanus},f,{8614},Monsterverse
 Batman Beyond,{bx4c43},f,{749},DCAU
 Deathstroke,"{`"Arkham ga(m|n)es?`"}",f,{10795},Batman: Arkham
 Suicide Squad,"{`"Arkham ga(m|n)es?`"}",f,{8199},Batman: Arkham
@@ -25844,8 +25820,6 @@ Byron Williams,"{`"Mars Attacks`"}",f,{21205},Mars Attacks!
 Yagyu Munenori,{Fate},f,{21206},Fate
 Mazikeen,"{`"\\(Lucifer\\)`"}",f,{},Lucifer 2018
 Tori,{Dreamwalker},f,{20293},Dreamwalker
-Kong,"{`"Kong ?\\(Skull Island`"}",f,{281},Monsterverse
-Kong,"{`"Kong:? Skull Island`"}",f,{281},Monsterverse
 Sesshōmaru,{Inuyasha},t,{3526},Inuyasha
 Mohammad Alai Jr.,{Baki},t,{21210},Baki
 Snow,{Dreamwalker},f,{21211},Dreamwalker
@@ -25859,8 +25833,6 @@ Spider-Men,{NWH},f,"{302,113,261}",Live-Action
 Agravain,{Fate},f,{21213},Fate
 Burg,"{`"S(tar )?Wars`"}",f,{21213},Star Wars
 Ozymandias,{Fate},f,{21214},Fate
-Peter Parker,{PS4},f,{15258},Insomniacs Spider-Man
-Peter Parker,{Insomniac},f,{15258},Insomniacs Spider-Man
 Colossus,"{`"Colossus.*Phoenix Force|Phoenix Force.*Colossus`"}",f,{20571},Phoenix Force
 Powerpuff Girls,"{`"Power ?puff Girls`"}",t,{868},""
 Powerpuff Girls,{PPG},t,{868},""
@@ -25882,6 +25854,9 @@ Jinpa,{Avatar},f,{21222},Avatar: TLA
 Jinpa,{Kyoshi},f,{21222},Avatar: TLA
 Spider-Men,{Holland},f,{261},MCU
 Spider-Men,{Andrew|Garfield},f,{113},The Amazing Spider-Man
+Peter Parker,{PS4},f,{15258},Insomniac's Spider-Man
+Kong,"{`"Kong ?\\(Skull Island`"}",f,{281},MonsterVerse
+Kong,"{`"Kong:? Skull Island`"}",f,{281},MonsterVerse
 Thor,"{Index,magician}",f,{15253},Toaru Majutsu no Index
 Yaza,"{`"Pok(e|é)m(o|a)n ReBurst`"}",f,{21223},Pokémon
 Gilgamesh,"{`"Epic of Gilgamesh`"}",t,{6148},The Epic of Gilgamesh
@@ -26182,7 +26157,6 @@ Kazuma,{Kazuma.*Luck|Luck.*Kazuma},f,{3785},KonoSuba
 Batman,"{`"Bat(-| )?mans?.*Movies|Movies.*Bat(-| )?mans?`"}",f,{},Movies
 Batman,"{`"Dark K?night Trilogy`"}",f,{6531},The Dark Knight
 SCP-744-ARC,"{`"Rust Monster`"}",t,{21342},""
-Godzilla,"{`"Godzilla vs\\.? Kong`"}",f,{280},Monsterverse
 Doctor Strange,"{`"Marvel Cinematic Universe`"}",f,{13351},MCU
 Doctor Strange,{MCU},f,{13351},MCU
 Doctor Strange,{199999},f,{13351},MCU
@@ -26222,6 +26196,7 @@ Ultron,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{21353},Earths Mightiest He
 Ultron,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{21353},Earths Mightiest Heroes
 Artoria Pendragon,{Fate},t,"{6256,21412}",Fate
 Artoria Pendragon,{Zero},t,"{6256,21412}",Fate
+Godzilla,"{`"Godzilla vs\\.? Kong`"}",f,{280},MonsterVerse
 Ultron,"{`"A(vengers)?: ?EMH`"}",f,{21353},Earths Mightiest Heroes
 Ultron,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{21353},Earths Mightiest Heroes
 Alabaster,{Torrington},f,{21354},Percy Jackson
@@ -26673,3 +26648,76 @@ Donatello,"{TMNT,`"Image Comics`"}",f,{21597},"TMNT, Image Comics"
 Michelangelo,"{`"Teenaged? Mutant Ninja Turtles?`",`"Image Comics`"}",f,{21598},"TMNT, Image Comics"
 Michelangelo,"{TMNT,`"Image Comics`"}",f,{21598},"TMNT, Image Comics"
 C.I.A Avatar,"{`"American Dad`"}",f,{21599},American Dad!
+Electro,{Insomniacs?},f,{15398},Insomniac's Spider-Man
+Rhino,{Insomniacs?},f,{15398},Insomniac's Spider-Man
+Mister Negative,{Insomniacs?},f,{15398},Insomniac's Spider-Man
+Peter Parker,{Insomniacs?},f,{15258},Insomniac's Spider-Man
+Batman,"{`"Arkham Knights?`"}",f,{17381},Batman: Arkham
+Godzilla,"{`"King of the Monsters`"}",f,{280},MonsterVerse
+Godzilla,"{`"Godzilla: King of Monsters`"}",f,{280},MonsterVerse
+Godzilla,{Legendary},f,{280},MonsterVerse
+Godzilla,"{`"Monster(-| )?verse`"}",f,{280},MonsterVerse
+MUTO,"{Godzilla,2019}",t,{282},MonsterVerse
+Shinomura,{Godzilla},t,{1934},MonsterVerse
+Shinomura,{Awakening},t,{1934},MonsterVerse
+Shinomura,{Legendary},t,{1934},MonsterVerse
+Skullcrawlers,"{`"Skull Island`"}",t,{283},MonsterVerse
+Skullcrawlers,{Kong},t,{283},MonsterVerse
+Skullcrawlers,{Legendary},t,{283},MonsterVerse
+Kong,{2017},f,{281},MonsterVerse
+Kong,{Legendary},f,{281},MonsterVerse
+MUTO,"{`"Monster(-| )?verse`"}",t,{282},MonsterVerse
+Rodan,{KOTM},f,{6530},MonsterVerse
+Rodan,{2019},f,{6530},MonsterVerse
+Rodan,{Legendary},f,{6530},MonsterVerse
+Rodan,"{`"Monster(-| )?verse`"}",f,{6530},MonsterVerse
+King Ghidorah,"{`"King of the Monsters`"}",f,{8614},MonsterVerse
+King Ghidorah,"{`"Godzilla: King of Monsters`"}",f,{8614},MonsterVerse
+King Ghidorah,{KOTM},f,{8614},MonsterVerse
+King Ghidorah,{2019},f,{8614},MonsterVerse
+King Ghidorah,"{`"Monster(-| )?verse`"}",f,{8614},MonsterVerse
+King Ghidorah,"{`"MV (King )?Ghidorah`"}",f,{8614},MonsterVerse
+King Ghidorah,{Titanus},f,{8614},MonsterVerse
+Shinomura,"{`"Monster(-| )?verse`"}",t,{1934},MonsterVerse
+Skullcrawlers,"{`"Monster(-| )?verse`"}",t,{283},MonsterVerse
+Kong,"{`"Monster(-| )?verse`"}",f,{281},MonsterVerse
+Achilles,{Fate},f,{},Fate
+Spider-Man,"{Tom,Tobey,Andrew}",f,"{302,113,261}",Live-Action
+She-Go,"{`"Kim Possible`"}",f,{21166},Kim Possible
+Electro,"{`"No Way Home`"}",f,{110},The Amazing Spider-Man
+Electro,{NWH},f,{110},The Amazing Spider-Man
+Mr. Fahrenheit,"{`"Freddie Mercury`"}",f,{6428},""
+Mr. Fahrenheit,"{`"stop me Now`"}",f,{6428},""
+Sakura Kasugano,{UDON},f,{21628},UDON
+Q,"{UDON,`"Street Fighter`"}",f,{21629},UDON
+Dhalsim,{UDON},f,{21630},UDON
+Blanka,{UDON},f,{21631},UDON
+Lee,"{`"Enter the Dragon`"}",f,{21632},Enter the Dragon
+Master Wei,{Avatar},f,{21633},Avatar: TLA
+Overconfident Fire Nation Soldier,{Avatar},t,{21634},Avatar: TLA
+Overconfident Fire Nation Soldier,{A?TLA},t,{21634},Avatar: TLA
+Jester Karture,"{`"Strange Fake`"}",t,{21635},Fate/Strange Fake
+True Assassin,"{`"Strange Fake`"}",f,{21636},Fate/Strange Fake
+True Berserker,"{`"Strange Fake`"}",f,{21637},Fate/Strange Fake
+True Rider,"{`"Strange Fake`"}",f,{21638},Fate/Strange Fake
+True Caster,"{`"Strange Fake`"}",f,{21639},Fate/Strange Fake
+Fake Rider,"{`"Strange Fake`"}",f,{21640},Fate/Strange Fake
+Fake Assassin,"{`"Strange Fake`"}",f,{21641},Fate/Strange Fake
+Fake Caster,"{`"Strange Fake`"}",f,{21642},Fate/Strange Fake
+True Archer,"{`"Strange Fake`"}",f,{21643},Fate/Strange Fake
+Hansa Cervantes,"{`"Strange Fake`"}",t,{21644},Fate/Strange Fake
+Illya,{Fate},f,{21645},Fate
+Illya,{F/?SN},f,{21645},Fate
+Illya,{F/?KL},f,{21645},Fate
+Illyasviel von Einzbern,{Fate},t,{21645},Fate
+Illyasviel von Einzbern,{F/?SN},t,{21645},Fate
+Illyasviel von Einzbern,{F/?KL},t,{21645},Fate
+Chloe,{Illya(sviel)},f,{21646},Fate
+Chloe von Einzbern,{Illya(sviel)},f,{21646},Fate
+Bazett,{Fate},f,{21647},Fate
+Bazett,"{`"Bazett Fraga McRemitz`"}",f,{21647},Fate
+Bazett,"{`"Holy Grail`"}",f,{21647},Fate
+Bazett,{Serv(a|e)nts?},f,{21647},Fate
+Penelope,{Sly},f,{21648},Sly Cooper
+Vegeta,"{`"Dragon Ball AF`"}",f,{21649},Dragon Ball AF
+Anderson Robotics,{SCP},f,{21650},SCP

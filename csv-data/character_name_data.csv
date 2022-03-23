@@ -5469,7 +5469,6 @@ Sting,Sting,f
 Wendy Marvell?,Wendy Marvell,f
 Wendy,Wendy,f
 Zeref,Zeref,f
-Bazett,Bazett Fraga McRemitz,f
 Shirou,Emiya Shirou,f
 Illyasviel,Illyasviel von Einzbern,f
 Feng Shen Ji (Uni)?verse,Feng Shen Ji Universe,t
@@ -9484,7 +9483,6 @@ Sabrewulf,Sabrewulf,f
 Sadira,Sadira,f
 Spinal,Spinal,f
 Chief Thunder,Chief Thunder,f
-T\\.?J\\.? Combo,TJ Combo,f
 Tusk,Tusk,f
 Ultratech,Ultratech,f
 Ansem,Ansem,f
@@ -11766,7 +11764,6 @@ Stargirl,Stargirl,f
 Dai Li,Dai Li,f
 Star,Star,f
 Ripley Ryan,Ripley Ryan,f
-(Dr\\.?|Doctor) Drakken,Dr. Drakken,f
 Rainbow Raider,Rainbow Raider,f
 Makoto Naegi,Makoto Naegi,f
 Naegi,Naegi,f
@@ -11830,6 +11827,7 @@ Yaza,Yaza,f
 Tomoe Gozen,Tomoe Gozen,f
 Vance Astro(vik)?,Vance Astro,f
 Geno,Geno,f
+(Dr\.?|Doctor) Drakken,Dr. Drakken,f
 Darkshine,Darkshine,f
 Speedball,Speedball,f
 Light Yagami,Light Yagami,f
@@ -12143,3 +12141,30 @@ Khaine,Khaine,f
 (Doctor|Dr\\.?) Manhattan,Doctor Manhattan,f
 Dabura,Dabura,f
 C\\.I\\.A\\.? Avatar,C.I.A Avatar,f
+T\.?J\.? Combo,TJ Combo,f
+She(-| )Go,She-Go,f
+Mr\\.? ?Fahrenheit,Mr. Fahrenheit,f
+Dhalsim,Dhalsim,f
+Lee,Lee,f
+Master Wei,Master Wei,f
+Overconfident Fire Nation Soldier,Overconfident Fire Nation Soldier,f
+Jester Karture,Jester Karture,f
+True Assassin,True Assassin,f
+True Berserker,True Berserker,f
+True Rider,True Rider,f
+True Caster,True Caster,f
+Fake Rider,Fake Rider,f
+Fake Assassin,Fake Assassin,f
+Fake Caster,Fake Caster,f
+True Archer,True Archer,f
+Illya,Illya,f
+Illya(sviel)( von)? Einzbern,Illyasviel von Einzbern,f
+Chloe von Einzbern,Chloe von Einzbern,f
+Bazett,Bazett,f
+Anderson Robotics,Anderson Robotics,f
+SCP ?(-| )? ?3008,SCP-3008,f
+Jogo,Jogo,f
+Toge Inumaki,Toge Inumaki,f
+Toge,Toge,f
+Toji Fushiguro,Toji Fushiguro,f
+Toji,Toji,f
