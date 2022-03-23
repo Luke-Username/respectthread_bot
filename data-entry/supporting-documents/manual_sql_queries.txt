@@ -15,31 +15,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET displayed_version_name='Insomniac''s Spider-Man' WHERE displayed_version_name='Insomniacs Spider-Man';
-UPDATE character SET version='{"Insomniacs?"}' WHERE version='{"Insomniac"}';
-UPDATE character SET version='{"Arkham Knights?"}' WHERE version='{"Arkham Knight"}';
+########################################
 
 ########################################
 
-DELETE FROM character WHERE default_name='King Ghidorah' AND version='{"Godzilla"}';
-UPDATE character SET version='{"Monster(-| )?verse"}' WHERE version='{"Monsterverse"}';
-UPDATE character SET displayed_version_name='MonsterVerse' WHERE displayed_version_name='Monsterverse';
-UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{5782}';
-
 ########################################
 
-DELETE FROM character WHERE default_name='Stones' AND version='{"movie"}';
-DELETE FROM character WHERE default_name='Stones' AND version='{"movies"}';
-
 ########################################
-
-UPDATE character_name SET name='T\.?J\.? Combo' WHERE name='T\\.?J\\.? Combo';
-UPDATE character_name SET name='(Dr\.?|Doctor) Drakken' WHERE name='(Dr\\.?|Doctor) Drakken';
-
-########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Illya', 'Prisma Illya', -7);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Illya', 'Illya Kuryakin', 0);
 
 ########################################
 
