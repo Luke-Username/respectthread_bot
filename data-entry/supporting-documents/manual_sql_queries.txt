@@ -33,6 +33,7 @@ DELETE FROM character WHERE default_name='Stones' AND version='{"movies"}';
 ########################################
 
 UPDATE character_name SET name='T\.?J\.? Combo' WHERE name='T\\.?J\\.? Combo';
+UPDATE character_name SET name='(Dr\.?|Doctor) Drakken' WHERE name='(Dr\\.?|Doctor) Drakken';
 
 ########################################
 

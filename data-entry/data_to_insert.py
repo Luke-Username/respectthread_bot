@@ -128,6 +128,20 @@ False,
 
 ########################################
 
+add_data(['She(-| )Go'],
+'She-Go',
+False,
+False,
+[
+    ['Kim Possible']
+],
+'Kim Possible',
+'{21166}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tkkeu2/dr_drakken_vs_plankton/i1r6vdz/?context=3
+
+########################################
+
 add_data(['Electro'],
 'Electro',
 False,
@@ -522,6 +536,75 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tkjoam/respect_scp3008_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jogo (Jujutsu Kaisen)', 'https://redd.it/tkog0v')
+add_data(['Jogo'],
+'Jogo',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tkog0v/respect_jogo_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Toge Inumaki (Jujutsu Kaisen)', 'https://redd.it/tkojc5')
+add_data(['Toge Inumaki'],
+'Toge Inumaki',
+False,
+True,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tkojc5/respect_toge_inumaki_jujutsu_kaisen/
+
+add_data(['Toge'],
+'Toge',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tkojc5/respect_toge_inumaki_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Toji Fushiguro (Jujutsu Kaisen)', 'https://redd.it/tkon10')
+add_data(['Toji Fushiguro'],
+'Toji Fushiguro',
+False,
+True,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tkojc5/respect_toge_inumaki_jujutsu_kaisen/
+
+add_data(['Toji'],
+'Toji',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tkon10/respect_toji_fushiguro_jujutsu_kaisen/
 
 ########################################
 
