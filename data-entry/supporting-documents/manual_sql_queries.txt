@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{6424}';
+UPDATE character SET version='{"Among (U|i)s"}' WHERE version='{"Among Us"}';
+
 ########################################
 
 ########################################
