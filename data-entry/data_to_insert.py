@@ -107,6 +107,30 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Daredevil'],
+'Daredevil',
+False,
+False,
+[
+    ['MCU']
+],
+'MCU',
+'{1289}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tmoxc4/a_series_of_unusual_mcu_matchups/
+
+add_data(['Daredevil'],
+'Daredevil',
+False,
+False,
+[
+    ['MCU']
+],
+'The Amazing Spider-Man',
+'{110}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tmoxc4/a_series_of_unusual_mcu_matchups/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
