@@ -119,8 +119,8 @@ False,
 )
 #https://www.reddit.com/r/whowouldwin/comments/tmoxc4/a_series_of_unusual_mcu_matchups/
 
-add_data(['Daredevil'],
-'Daredevil',
+add_data(['Electro'],
+'Electro',
 False,
 False,
 [
@@ -130,6 +130,20 @@ False,
 '{110}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/tmoxc4/a_series_of_unusual_mcu_matchups/
+
+########################################
+
+add_data(['Lucifer'],
+'Lucifer',
+False,
+False,
+[
+    ['DC']
+],
+'DC',
+'{1616}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tnwiyy/lucifer_dc_and_michael_demiurgos_dc_vs/
 
 ########################################
 

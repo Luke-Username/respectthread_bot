@@ -21,6 +21,8 @@ UPDATE character SET version='{"Among (U|i)s"}' WHERE version='{"Among Us"}';
 
 ########################################
 
+UPDATE character_name SET name='Elsa Granhie?rte?' WHERE name='Elsa Granhiert';
+
 ########################################
 
 ########################################
