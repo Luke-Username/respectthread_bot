@@ -25,6 +25,8 @@ UPDATE character_name SET name='Elsa Granhie?rte?' WHERE name='Elsa Granhiert';
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Vaati';
+
 ########################################
 
 ########################################
