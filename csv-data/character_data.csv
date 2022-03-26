@@ -2072,8 +2072,6 @@ Olivia Octavius,{TRN700},t,{6519},Into the Spider-Verse
 Doctor Octopus,"{`"Spider(-| )?Verse`"}",f,{6519},Into the Spider-Verse
 Doctor Octopus,{ISTV},f,{6519},Into the Spider-Verse
 Doctor Octopus,{TRN700},f,{6519},Into the Spider-Verse
-Hank,"{`"Madness Combat`"}",f,{1282},Madness Combat
-Hank J. Wimbleton,"{`"Madness Combat`"}",t,{1282},Madness Combat
 Admiral Zhao,{Avatar},t,{637},Avatar: TLA
 Admiral Zhao,{A?TLA},t,{637},Avatar: TLA
 Admiral Zhao,{Korra},t,{637},Avatar: TLA
@@ -2113,6 +2111,8 @@ Kyoshi,{Avatar},t,{639},Avatar: TLA
 Kyoshi,{A?TLA},t,{639},Avatar: TLA
 Bane,"{`"Dark K?night`"}",f,{519},The Dark Night
 Godzilla,{2014},f,{280},MonsterVerse
+Hank,"{`"Madness Combat`"}",f,{},Madness Combat
+Hank J. Wimbleton,"{`"Madness Combat`"}",t,{},Madness Combat
 Mystery Men,"{`"Blue Raja`"}",t,{517},1999
 Mystery Men,"{`"Invisible Boy`"}",t,{517},1999
 Mystery Men,{Spleen},t,{517},1999
@@ -7756,7 +7756,6 @@ Droom,{comics?},f,{10830},616
 Fin Fang Foom,{616},t,{2206},616
 Fin Fang Foom,{Marvel},t,{2206},616
 Fin Fang Foom,{comics?},t,{2206},616
-Frankenstein,"{`"Frankenstein \\(616`"}",f,{2207},616
 Frankenstein,"{`"Frankenstein \\(Marvel`"}",f,{2207},616
 Frankenstein,"{`"Marvel Frankenstein`"}",f,{2207},616
 Frankenstein's Monster,"{`"Frankenstein's Monster \\(616`"}",f,{2207},616
@@ -12706,8 +12705,6 @@ Gogeta,"{`"Dragon ?Ball`"}",t,{3285},Dragon Ball
 Gogeta,{DB(Z|S)?},t,{3285},Dragon Ball
 Gohan,"{`"Dragon ?Ball`"}",t,{3286},Dragon Ball
 Gohan,{DB(Z|S)?},t,{3286},Dragon Ball
-Goten,"{`"Dragon ?Ball`"}",t,{3291},Dragon Ball
-Goten,{DB(Z|S)?},t,{3291},Dragon Ball
 Gotenks,"{`"Dragon ?Ball`"}",t,{3292},Dragon Ball
 Gotenks,{DB(Z|S)?},t,{3292},Dragon Ball
 Great Saiyaman,"{`"Dragon ?Ball`"}",t,{3294},Dragon Ball
@@ -12728,6 +12725,8 @@ Master Roshi,"{`"Dragon ?Ball`"}",t,{3301},Dragon Ball
 Master Roshi,{DB(Z|S)?},t,{3301},Dragon Ball
 Trunks,"{`"Dragon ?Ball`"}",f,{3284},Dragon Ball
 Trunks,{DB(Z|S)?},f,{3284},Dragon Ball
+Goten,"{`"Dragon ?Ball`"}",f,{3291},Dragon Ball
+Goten,{DB(Z|S)?},f,{3291},Dragon Ball
 Mercenary Tao,"{`"Dragon ?Ball`"}",t,{3302},Dragon Ball
 Mercenary Tao,{DB(Z|S)?},t,{3302},Dragon Ball
 Yamcha,{Reincarnated},f,{3317},Dragon Ball: That Time I Got Reincarnated as Yamcha!
@@ -17880,7 +17879,6 @@ Lana,"{`"Hyrule Warriors`"}",f,{14777},Hyrule Warriors
 Cia,{Zelda},f,{14778},Hyrule Warriors
 Cia,{T?LOZ},f,{14778},Hyrule Warriors
 Cia,"{`"Hyrule Warriors`"}",f,{14778},Hyrule Warriors
-Vaati,{Zelda},t,{14779},The Legend of Zelda
 Epona,{Zelda},t,{14780},The Legend of Zelda
 Bongo Bongo,{Zelda},f,{14781},The Legend of Zelda
 Zelda,"{`"Zelda ?\\(Breath of the Wild`"}",f,{14782},Breath of the Wild
@@ -18954,7 +18952,6 @@ Giganta,{DCAU},f,{13511},DCAU
 Giganta,{Timmverse},f,{13511},DCAU
 Lord Slug,"{`"Dragon ?Ball`"}",t,{13512},Dragon Ball
 Lord Slug,{DB(Z|S)?},t,{13512},Dragon Ball
-Impostor,"{`"Among Us`"}",f,{13514},Among Us
 Victor Alvarez,{616},t,{13515},616
 Ebenezer Laughton,{616},t,{13517},616
 Scarecrow,{616},f,{13517},616
@@ -19013,6 +19010,7 @@ Noibat,{Pok(e|é)mon},t,{4151},Pokémon
 Oshawott,{Pok(e|é)mon},t,{4152},Pokémon
 Palpitoad,{Pok(e|é)mon},t,{4153},Pokémon
 Pidgeotto,{Pok(e|é)mon},t,{4154},Pokémon
+Impostor,"{`"Among (U|i)s`"}",f,{13514},Among Us
 Pignite,{Pok(e|é)mon},t,{4155},Pokémon
 Tepig,{Pok(e|é)mon},t,{4155},Pokémon
 Primeape,{Pok(e|é)mon},t,{4167},Pokémon
@@ -21190,6 +21188,21 @@ Toji,"{`"Jujus?t?s?u Kaisen`"}",f,{21654},Jujutsu Kaisen
 Toji,{JJK},f,{21654},Jujutsu Kaisen
 Etrigan,"{`"Earth 13`"}",f,{21655},Earth 13
 Etrigan,"{Batman,`"Demon:? A Tragedy`"}",f,{21656},Batman/Demon: A Tragedy
+Daredevil,{MCU},f,{1289},MCU
+Electro,{MCU},f,{110},The Amazing Spider-Man
+Lucifer,{DC},f,{1616},DC
+Class Cards,{Fate},f,{21660},Fate
+Class Card,{Fate},f,{21660},Fate
+Fei Long,{UDON},f,{21661},UDON
+Karin Kanzuki,{UDON},f,{21662},UDON
+Ken Masters,{UDON},f,{21663},UDON
+Ken,"{`"Street Fighter`",UDON}",f,{21663},UDON
+Hulk,"{`"Rick Jones`"}",f,{21664},Rick Jones
+Etherow,{APOSIMZ},f,{21665},APOSIMZ
+Superman,"{`"JLA:? The Nail`"}",f,{21666},JLA: The Nail
+Lucretia Popescu,{SCP},t,{21667},SCP
+Ouken,"{`"Ranking of Kings`"}",f,{21668},Ranking of Kings
+Jake Sully,{Avatar},t,{21669},Avatar
 Preston J. Cole,{Halo},t,{5813},Halo
 Rtas 'Vadum,{Halo},t,{5814},Halo
 Tem'Bhetek,{Halo},t,{5815},Halo
@@ -22952,7 +22965,6 @@ Froggy Fresh,"{`"Krispy Kreme`"}",t,{6423},""
 Krispy Kreme,{rap(per)?},f,{6423},""
 Krispy Kreme,{song},f,{6423},""
 Krispy Kreme,"{`"Supa hot fire`"}",f,{6423},""
-Eminem,"{`"Slim Shady`"}",t,{6424},""
 Venom,{Eminem},f,{6425},Eminem
 Symbiote,{Eminem},f,{6425},Eminem
 Prince,"{`"Fallen Kingdom`"}",f,{6426},Fallen Kingdom
@@ -22975,6 +22987,7 @@ Muerte en Hawaii,"{`"Calle 13`"}",t,{6443},""
 Lewis,"{`"Mystery Skulls`"}",f,{6444},Mystery Skulls
 Shiromori,"{`"Mystery Skulls`"}",f,{6445},Mystery Skulls
 Brendon Urie,"{`"Panic!? at the Disco`"}",t,{6446},Panic! at the Disco
+Eminem,"{`"Slim Shady`"}",t,{},""
 Butcher Pete,"{`"Roy Brown`"}",t,{6447},Roy Brown
 Wolf,{SIAM(É|E)S},f,{6448},SIAMÉS
 Camouflage,"{`"Stan Ridgeway`"}",f,{6449},Stan Ridgeway
@@ -26724,3 +26737,5 @@ Bazett,{Serv(a|e)nts?},f,{21647},Fate
 Penelope,{Sly},f,{21648},Sly Cooper
 Vegeta,"{`"Dragon Ball AF`"}",f,{21649},Dragon Ball AF
 Anderson Robotics,{SCP},f,{21650},SCP
+Frankenstein,{Frankenstein.*616},f,{2207},616
+Vaati,{Zelda},f,{14779},The Legend of Zelda
