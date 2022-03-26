@@ -18,6 +18,7 @@ UPDATE character_name SET name='' WHERE...
 UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{6424}';
 UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{1282}';
 UPDATE character SET version='{"Among (U|i)s"}' WHERE version='{"Among Us"}';
+UPDATE character SET version='{"Frankenstein.*616"}' WHERE version='{"Frankenstein \\(616"}';
 
 ########################################
 
@@ -26,6 +27,7 @@ UPDATE character_name SET name='Elsa Granhie?rte?' WHERE name='Elsa Granhiert';
 ########################################
 
 UPDATE character SET is_default=FALSE WHERE default_name='Vaati';
+UPDATE character SET is_default=FALSE WHERE default_name='Goten';
 
 ########################################
 

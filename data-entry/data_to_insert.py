@@ -147,6 +147,180 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Class Cards! (Fate)', 'https://redd.it/tlmx87')
+add_data(['Class Cards'],
+'Class Cards',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tlmx87/respect_the_class_cards_fate/
+
+add_data(['Class Card'],
+'Class Card',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tlmx87/respect_the_class_cards_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fei Long! (Udon Comics Street Fighter)', 'https://redd.it/tm32i4')
+add_data(['Fei Long'],
+'Fei Long',
+False,
+False,
+[
+    ['UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tm32i4/respect_fei_long_udon_comics_street_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Karin Kanzuki! (Udon Comics Street Fighter)', 'https://redd.it/tnj4hc')
+add_data(['Karin Kanzuki'],
+'Karin Kanzuki',
+False,
+False,
+[
+    ['UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tnj4hc/respect_karin_kanzuki_udon_comics_street_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ken Masters! (Udon Comics Street Fighter)', 'https://redd.it/tomnch')
+add_data(['Ken Masters'],
+'Ken Masters',
+False,
+False,
+[
+    ['UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tomnch/respect_ken_masters_udon_comics_street_fighter/
+
+add_data(['Ken'],
+'Ken',
+False,
+False,
+[
+    ['Street Fighter', 'UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tomnch/respect_ken_masters_udon_comics_street_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rick Jones, The Hulk (Marvel, 616)', 'https://redd.it/tmi2jf')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['Rick Jones']
+],
+'Rick Jones',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tmi2jf/respect_rick_jones_the_hulk_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Etherow (APOSIMZ)', 'https://redd.it/tmmlw7')
+add_data(['Etherow'],
+'Etherow',
+False,
+False,
+[
+    ['APOSIMZ']
+],
+'APOSIMZ',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tmmlw7/respect_etherow_aposimz/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Superman! (JLA: The Nail)', 'https://redd.it/tmz10h')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['JLA:? The Nail']
+],
+'JLA: The Nail',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tmz10h/respect_superman_jla_the_nail/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lucretia Popescu! (SCP Foundation)', 'https://redd.it/tn7pg0')
+add_data(['Lucretia Popescu'],
+'Lucretia Popescu',
+False,
+True,
+[
+    ['SCP']
+],
+'SCP',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tn7pg0/respect_lucretia_popescu_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ouken! (Ranking of Kings)', 'https://redd.it/tnp4x7')
+add_data(['Ouken'],
+'Ouken',
+False,
+False,
+[
+    ['Ranking of Kings']
+],
+'Ranking of Kings',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tnp4x7/respect_ouken_ranking_of_kings/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jake Sully! (Avatar)', 'https://redd.it/tna5rk')
+add_data(['Jake Sully'],
+'Jake Sully',
+False,
+True,
+[
+    ['Avatar']
+],
+'Avatar',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tna5rk/respect_jake_sully_avatar/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

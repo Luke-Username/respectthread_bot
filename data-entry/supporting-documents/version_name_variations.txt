@@ -3136,7 +3136,9 @@ Steven Universe
 
 Street Fighter
 	Version
-		'{"Street Fighter"}', r'{"SF\\d"}'
+		['Street Fighter']
+	Acronyms
+		['SF\\d']
 	Displayed Version Name
 		"Street Fighter"
 
