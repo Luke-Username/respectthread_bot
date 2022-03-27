@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Zangief! (Udon Comics Street Fighter)', 'https://redd.it/tpj0xq')
+add_data(['Zangief'],
+'Zangief',
+False,
+False,
+[
+    ['UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tpj0xq/respect_zangief_udon_comics_street_fighter/
 
 ########################################
 

@@ -20,6 +20,8 @@ UPDATE character_name SET name='Sh(ao|oa) K(ah|ha)ns?' WHERE name='Sh(ao|oa) K(a
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Kaguya';
+
 ########################################
 
 ########################################
