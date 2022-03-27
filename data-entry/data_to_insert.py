@@ -107,6 +107,32 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Ninja Turtles?'],
+'Teenage Mutant Ninja Turtles',
+False,
+False,
+[
+    ['IDW']
+],
+'IDW',
+'{2668, 2669, 2664, 2672}'
+)
+#
+
+add_data(['Ninja Turtles?'],
+'Teenage Mutant Ninja Turtles',
+False,
+False,
+[
+    ['Image Comics']
+],
+'Image Comics',
+'{21595, 21598, 21597, 21596}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tpowrk/tmntcomposite_vs_team_rwby/i2cixzb/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Zangief! (Udon Comics Street Fighter)', 'https://redd.it/tpj0xq')
 add_data(['Zangief'],
 'Zangief',
@@ -119,6 +145,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tpj0xq/respect_zangief_udon_comics_street_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect King Bosse! (Ranking of Kings)', 'https://redd.it/tppz34')
+add_data(['King Bosse'],
+'King Bosse',
+False,
+False,
+[
+    ['Ranking of Kings']
+],
+'Ranking of Kings',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tppz34/respect_king_bosse_ranking_of_kings/
 
 ########################################
 

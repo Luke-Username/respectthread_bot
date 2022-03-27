@@ -42,7 +42,7 @@ def generate_comment(cur, character_list: List[Character], with_footer: bool) ->
 
 def generate_comment_no_results_apology(with_footer: bool) -> str:
     # The text to return, containing what to write in the reply comment
-    reply_text = "Sorry, I couldn't find any respect threads in my database for the character(s) you are looking for. Note: You may have to specify the version"
+    reply_text = "Sorry, I couldn't find any respect threads in my database for the character(s) you are looking for. Note: You may have to specify the version. "
     reply_text += "Please visit r/respectthreads if you'd like to request one or [make one yourself.](https://www.reddit.com/r/respectthreads/wiki/introduction_guide)\n\n"
     if with_footer:
         reply_text += generate_footer()
