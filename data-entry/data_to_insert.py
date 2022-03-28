@@ -162,6 +162,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Gill [Street fighter Udon Comics] Vs Garou [OPM]', 'https://redd.it/jhehf2')
+add_data(['Gill'],
+'Gill',
+False,
+False,
+[
+    ['UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/jhehf2/gill_street_fighter_udon_comics_vs_garou_opm/
+
+########################################
+
 id = get_rt_id(cur, 'Respect King Bosse! (Ranking of Kings)', 'https://redd.it/tppz34')
 add_data(['King Bosse'],
 'King Bosse',
@@ -204,6 +219,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tpxpcx/respect_rakan_the_karate_pervert_battle_angel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zazie (Battle Angel Alita: Last Order)', 'https://redd.it/tq9km6')
+add_data(['Zazie'],
+'Zazie',
+False,
+False,
+[
+    ['All?ita'], ['Last Order'], ['Gunnm']
+],
+'Battle Angel Alita',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tq9km6/respect_zazie_battle_angel_alita_last_order/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Choso (Jujutsu Kaisen)', 'https://redd.it/tq3mu1')
+add_data(['Choso'],
+'Choso',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tq3mu1/respect_choso_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect 𝐒𝐂𝐏-𝟒𝟒𝟗𝟒, 𝐓𝐇𝐄 𝐒𝐏𝐄𝐂𝐓𝐄𝐑 ! (SCP Foundation)', 'https://redd.it/tqav5h')
+add_data(['SCP ?(-| )? ?4494'],
+'SCP-4494',
+False,
+False,
+[
+    ['Specter']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tqav5h/respect_%F0%9D%90%92%F0%9D%90%82%F0%9D%90%8F%F0%9D%9F%92%F0%9D%9F%92%F0%9D%9F%97%F0%9D%9F%92_%F0%9D%90%93%F0%9D%90%87%F0%9D%90%84_%F0%9D%90%92%F0%9D%90%8F%F0%9D%90%84%F0%9D%90%82%F0%9D%90%93%F0%9D%90%84%F0%9D%90%91_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sandy Cheeks! (Spongebob Squarepants)', 'https://redd.it/tqctcy')
+add_data(['Sandy'],
+'Sandy',
+False,
+False,
+[
+    ['Sandy Cheeks'], ['SpongeBob']
+],
+'SpongeBob',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tqctcy/respect_sandy_cheeks_spongebob_squarepants/
 
 ########################################
 
