@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['C(ae|ea)sar'],
+'Caesar',
+False,
+False,
+[
+    ['Plane?t of the Apes.*trilogy']
+],
+'Planet of the Apes Reboot',
+'{12115}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tputol/ceasar_vs_the_batman/
+
+########################################
+
 add_data(['Ninja Turtles?'],
 'Teenage Mutant Ninja Turtles',
 False,
@@ -160,6 +174,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tppz34/respect_king_bosse_ranking_of_kings/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Caenis! (Fate)', 'https://redd.it/tpx2rf')
+add_data(['Caenis'],
+'Caenis',
+False,
+False,
+[
+    ['Fate'], ['Grande? Order']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tpx2rf/respect_caenis_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rakan, The Karate Pervert (Battle Angel Allita: Last Order)', 'https://redd.it/tpxpcx')
+add_data(['Rakan'],
+'Rakan',
+False,
+False,
+[
+    ['All?ita'], ['Last Order'], ['Gunnm']
+],
+'Battle Angel Alita',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tpxpcx/respect_rakan_the_karate_pervert_battle_angel/
 
 ########################################
 
