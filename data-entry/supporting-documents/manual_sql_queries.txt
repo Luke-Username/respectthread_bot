@@ -15,7 +15,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='(O|Ō)noh?ki' WHERE name='(O|Ō)noki';
+
 ########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='Coolie';
+UPDATE character SET is_default=FALSE WHERE default_name='Genie';
 
 ########################################
 

@@ -3083,7 +3083,7 @@ Spider-Man PS4
 
 SpongeBob SquarePants
 	Version
-		'{"SpongeBob"}'
+		['SpongeBob']
 	Displayed Version Name
 		"SpongeBob"
 
