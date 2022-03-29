@@ -1083,8 +1083,6 @@ Landlord,"{`"Kung Fu Hustle`"}",f,{228},Kung Fu Hustle
 Landlord,"{`"Pig Sty Alley`"}",f,{228},Kung Fu Hustle
 Landlady,"{`"Pig Sty Alley`"}",t,{228},Kung Fu Hustle
 Landlady,"{`"Kung Fu Hustle`"}",t,{228},Kung Fu Hustle
-Coolie,"{`"Pig Sty Alley`"}",t,{228},Kung Fu Hustle
-Coolie,"{`"Kung Fu Hustle`"}",t,{228},Kung Fu Hustle
 Tailor,"{`"Pig Sty Alley`"}",f,{228},Kung Fu Hustle
 Tailor,"{`"Kung Fu Hustle`"}",f,{228},Kung Fu Hustle
 Donut,"{`"Pig Sty Alley`"}",f,{228},Kung Fu Hustle
@@ -7697,8 +7695,6 @@ Drick Kaangoo,{Yogscast},t,{8253},Yogscast
 Drick Kaangoo,{YogsQuest},t,{8253},Yogscast
 God,"{`"Family Guy`"}",f,{8254},Family Guy
 Clifford the Big Red Dog,"{`"Clifford the Big Red Dog`"}",t,{8255},""
-Genie,{Aladdin},f,{8256},Aladdin
-Genie,"{`"\\(Aladdin\\)`"}",t,{8256},Aladdin
 Tatsu,{Gokushufudo},f,{4774},Gokushufudo: Way Of The House Husband
 Tatsu,"{`"Way Of The House Husband`"}",f,{4774},Gokushufudo: Way Of The House Husband
 Doug Jones,{VelociPastor},f,{8257},The VelociPastor
@@ -7740,6 +7736,7 @@ Rico,{Madagascar},f,"{8464,8262}",Madagascar
 Private,{Madagascar},f,"{8465,8262}",Madagascar
 Dracula,"{`"Dracula \\(Earth`",616}",f,{2205},616
 Sonic the Hedgehog,{default},t,"{8276,8277}",""
+Genie,{Aladdin},f,{8256},Aladdin
 Sonic,"{`"Sonic vs`"}",f,"{8276,8277}",Sonic the Hedgehog
 Sonic,"{`"vs.? Sonic`"}",f,"{8276,8277}",Sonic the Hedgehog
 Sonic,"{`"Sonic could beat`"}",f,"{8276,8277}",Sonic the Hedgehog
@@ -24752,9 +24749,6 @@ Dr. Doofenshmirtz,{Phineas|Ferb},t,{20488},Phineas and Ferb
 Mater,{Cars},f,{20489},Cars
 Mater,"{`"Tow Mater`"}",f,{20489},Cars
 Mater,"{`"Tow ?truck`"}",f,{20489},Cars
-Genie,"{`"Will Smiths?`"}",f,{20490},"Aladdin, 2019"
-Genie,"{`"Live(-| )Action`",Aladd?in}",f,{20490},"Aladdin, 2019"
-Genie,{2019},f,{20490},"Aladdin, 2019"
 Jimmy Olsen,"{`"Giant Ants?`"}",f,{20491},King of the Giant Ants
 Jimmy Olsen,"{`"Homo(-| )Disastrous`"}",f,{20492},Homo-Disastrous
 Jimmy Olsen's Private Monster,"{`"Pre(-| )?Crisis`"}",t,{20493},Pre-Crisis
@@ -24777,7 +24771,6 @@ Shao Kahn,{Rovin},f,{20507},"Mortal Kombat, Rovin"
 Shao Kahn,"{`"Battle of the Realms`"}",f,{20508},Mortal Kombat: Battle of the Realms
 Sobek,"{`"Sobek ?\\(Sobek`"}",f,{20509},Sobek
 Emperor Vertus,"{`"Animal Kaiser`"}",f,{20510},Animal Kaiser
-Genie,"{`"Dinosaur King`"}",f,{20511},Dinosaur King
 Ankylosaurus,"{`"Dinosaur King`"}",f,{20512},Dinosaur King
 Pachycephalosaurus,"{`"Dinosaur King`"}",f,{20513},Dinosaur King
 Utahraptor,"{`"Dinosaur King`"}",f,{20514},Dinosaur King
@@ -26758,3 +26751,17 @@ Choso,{JJK},f,{21676},Jujutsu Kaisen
 SCP-4494,{Specter},f,{21677},""
 Sandy,"{`"Sandy Cheeks`"}",f,{21678},SpongeBob
 Sandy,{SpongeBob},f,{21678},SpongeBob
+Coolie,"{`"Pig Sty Alley`"}",f,{228},Kung Fu Hustle
+Coolie,"{`"Kung Fu Hustle`"}",f,{228},Kung Fu Hustle
+Genie,"{`"\\(Aladdin\\)`"}",f,{8256},Aladdin
+Genie,"{`"Will Smiths?`"}",f,{20490},"Aladdin, 2019"
+Genie,"{`"Live(-| )Action`",Aladd?in}",f,{20490},"Aladdin, 2019"
+Genie,{2019},f,{20490},"Aladdin, 2019"
+Genie,"{`"Dinosaur King`"}",f,{20511},Dinosaur King
+Edward Collins,{Pattin?sons?},f,{14844},Twilight
+Edward Collins,{Twilight},f,{14844},Twilight
+Hancock,"{`"Will Smith`"}",f,{457},Hancock
+Snake,{MGS},f,{5252},Metal Gear
+Naked Snake,{MGS},f,{5242},Metal Gear
+Eclipso,{DC},t,{21679},DC
+Rufus,{UDON},f,{21680},UDON
