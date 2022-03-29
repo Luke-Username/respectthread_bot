@@ -5031,7 +5031,6 @@ Machio,Machio,f
 Chi(-| )?Chi,Chi-Chi,f
 Muse,Muse,f
 Spear,Spear,f
-Caesar,Caesar,f
 Yuuka,Yuuka,f
 Robot Detective K,Robot Detective K,f
 Deus X Machina,Deus X Machina,f
@@ -5075,6 +5074,7 @@ Hanno of Arwad,Hanno of Arwad,f
 Hanno,Hanno,f
 Connor,Connor,f
 Tarrlok,Tarrlok,f
+C(ae|ea)sar,Caesar,f
 Ariki,Ariki,f
 Muzan,Muzan,f
 Kibutsuji,Kibutsuji,f
@@ -9610,7 +9610,6 @@ Kollector,Kollector,f
 Meat,Meat,f
 Reptile,Reptile,f
 Shang Tsung,Shang Tsung,f
-Sh(ao|oa) K(ah|ha)n,Shao Kahn,f
 Sheeva,Sheeva,f
 Skarlet,Skarlet,f
 Cetrion,Cetrion,f
@@ -9665,6 +9664,7 @@ Altera,Altera,f
 Ereshkigal,Ereshkigal,f
 Enkidu,Enkidu,f
 Satoru Gojo|Goji Satoru,Satoru Gojo,f
+Sh(ao|oa) K(ah|ha)ns?,Shao Kahn,f
 Berserker,Berserker,f
 Pisces Aphrodite,Pisces Aphrodite,f
 Witchblade,Witchblade,f
@@ -12178,3 +12178,9 @@ Etherow,Etherow,f
 Lucretia Popescu,Lucretia Popescu,f
 Ouken,Ouken,f
 Jake Sully,Jake Sully,f
+King Bosse,King Bosse,f
+Caenis,Caenis,f
+Rakan,Rakan,f
+Zazie,Zazie,f
+Choso,Choso,f
+SCP ?(-| )? ?4494,SCP-4494,f

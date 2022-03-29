@@ -3154,8 +3154,6 @@ Rainbow Dash,"{`"My Little Pony`"}",t,{847},My Little Pony
 Rainbow Dash,{MLP},t,{847},My Little Pony
 Pinkie Pie,"{`"My Little Pony`"}",t,{847},My Little Pony
 Pinkie Pie,{MLP},t,{847},My Little Pony
-Rarity,"{`"My Little Pony`"}",t,{847},My Little Pony
-Rarity,{MLP},t,{847},My Little Pony
 Applejack,"{`"My Little Pony`"}",t,{847},My Little Pony
 Applejack,{MLP},t,{847},My Little Pony
 Fluttershy,"{`"My Little Pony`"}",t,{847},My Little Pony
@@ -13810,7 +13808,6 @@ Mash Vandead,"{`"Magic and Muscles`"}",t,{12469},Mashle: Magic and Muscles
 Reisen Udongein Inaba,{Touhou},t,{4968},Touhou
 Watatsuki no Toyohime,{Touhou},t,{12470},Touhou
 Kaguya Houraisan,{Touhou},t,{12471},Touhou
-Kaguya,"{Touhou,Mokou|Cirno}",f,{12471},Touhou
 Death,"{`"Final Destination`"}",f,{12472},Final Destination
 Goblin Slayer,"{`"Goblin Slayer`"}",t,{4769},""
 Carlos Medel,{Kengan(verse)?},t,{12473},Kengan Asura
@@ -17318,12 +17315,6 @@ Kabuto,{Itachi},f,{3953},Naruto
 Kabuto,{Zabuza},f,{3953},Naruto
 Kabuto,{Yakushi},f,{3953},Naruto
 Kabuto,{shinobi},f,{3953},Naruto
-Kaguya,"{`"Kaguya(-| )sama`"}",f,{},Kaguya-sama: Love Is War
-Kaguya,"{`"Love Is War`"}",f,{},Kaguya-sama: Love Is War
-Kaguya,{Naruto},t,{3954},Naruto
-Kaguya,{Shippuden},t,{3954},Naruto
-Kaguya,{Byakugan},t,{3954},Naruto
-Kaguya,{Sharingan},t,{3954},Naruto
 Kaguya Ōtsutsuki,{Naruto},t,{3954},Naruto
 Kaguya Ōtsutsuki,{Shippuden},t,{3954},Naruto
 Kakashi Hatake,{Naruto},t,{3955},Naruto
@@ -26474,7 +26465,6 @@ Jack Duquesne,"{`"Marvel Cinematic Universe`"}",f,{21148},MCU
 Jack Duquesne,{MCU},f,{21148},MCU
 Batman,"{`"Bat(-| )?mans?.*2022`"}",f,{},"The Batman, 2022"
 Batman,"{`"The Batman`",2022}",f,{},"The Batman, 2022"
-Batman,{Pattin?son},f,{},"The Batman, 2022"
 SCP-056,"{`"Beautiful Person`"}",f,{21521},""
 Kate Bishop,"{`"Marvel Cinematic Universe`"}",f,{21522},MCU
 Kate Bishop,{MCU},f,{21522},MCU
@@ -26739,3 +26729,32 @@ Vegeta,"{`"Dragon Ball AF`"}",f,{21649},Dragon Ball AF
 Anderson Robotics,{SCP},f,{21650},SCP
 Frankenstein,{Frankenstein.*616},f,{2207},616
 Vaati,{Zelda},f,{14779},The Legend of Zelda
+Rarity,"{`"My Little Pony`"}",f,{847},My Little Pony
+Rarity,{MLP},f,{847},My Little Pony
+Kaguya,"{Touhou,Mokou|Cirno}",f,{12471},Touhou
+Kaguya,"{`"Kaguya(-| )sama`"}",f,{},Kaguya-sama: Love Is War
+Kaguya,"{`"Love Is War`"}",f,{},Kaguya-sama: Love Is War
+Kaguya,{Naruto},f,{3954},Naruto
+Kaguya,{Shippuden},f,{3954},Naruto
+Kaguya,{Byakugan},f,{3954},Naruto
+Kaguya,{Sharingan},f,{3954},Naruto
+Batman,{Pattin?sons?},f,{},"The Batman, 2022"
+Caesar,"{`"Plane?t of the Apes.*trilogy`"}",f,{12115},Planet of the Apes Reboot
+Teenage Mutant Ninja Turtles,{IDW},f,"{2668,2669,2664,2672}",IDW
+Teenage Mutant Ninja Turtles,"{`"Image Comics`"}",f,"{21595,21598,21597,21596}",Image Comics
+Zangief,{UDON},f,{21670},UDON
+Gill,{UDON},f,{21671},UDON
+King Bosse,"{`"Ranking of Kings`"}",f,{21672},Ranking of Kings
+Caenis,{Fate},f,{21673},Fate
+Caenis,"{`"Grande? Order`"}",f,{21673},Fate
+Rakan,{All?ita},f,{21674},Battle Angel Alita
+Rakan,"{`"Last Order`"}",f,{21674},Battle Angel Alita
+Rakan,{Gunnm},f,{21674},Battle Angel Alita
+Zazie,{All?ita},f,{21675},Battle Angel Alita
+Zazie,"{`"Last Order`"}",f,{21675},Battle Angel Alita
+Zazie,{Gunnm},f,{21675},Battle Angel Alita
+Choso,"{`"Jujus?t?s?u Kaisen`"}",f,{21676},Jujutsu Kaisen
+Choso,{JJK},f,{21676},Jujutsu Kaisen
+SCP-4494,{Specter},f,{21677},""
+Sandy,"{`"Sandy Cheeks`"}",f,{21678},SpongeBob
+Sandy,{SpongeBob},f,{21678},SpongeBob

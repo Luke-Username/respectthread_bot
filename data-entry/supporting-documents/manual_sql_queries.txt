@@ -15,17 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Rarity';
-UPDATE character_name SET name='Sh(ao|oa) K(ah|ha)ns?' WHERE name='Sh(ao|oa) K(ah|ha)n';
-UPDATE character_name SET name='C(ae|ea)sar' WHERE name='Caesar';
-
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Kaguya';
-
 ########################################
-
-UPDATE character SET version='{"Pattin?sons?"}' WHERE version='{"Pattin?son"}';
 
 ########################################
 
