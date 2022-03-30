@@ -107,6 +107,17 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Rex'],
+'Rex',
+False,
+False,
+[
+    ['Dog N....']
+],
+'Dog Nigga',
+'{7531}'
+)
+#https://www.reddit.com/r/respectthreads/comments/lem62k/respect_dog_nigga_dog_nigga/
 
 ########################################
 

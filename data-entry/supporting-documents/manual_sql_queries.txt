@@ -15,6 +15,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Crocodile', 'Crocodile Dundee', 0);
+UPDATE character_name SET default_name='Crocodiles' WHERE name='Crocodiles?';
+UPDATE character_name SET name='Crocodiles' WHERE name='Crocodiles?';
+UPDATE character SET is_default=FALSE WHERE default_name='Crocodile';
+
 ########################################
 
 ########################################
