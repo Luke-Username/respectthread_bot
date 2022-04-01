@@ -121,6 +121,63 @@ False,
 
 ########################################
 
+add_data(['Ghost'],
+'Ghost',
+False,
+False,
+[
+    ['Ghost ?\\(MCU']
+],
+'MCU',
+'{6502}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tryjpt/tai_lung_kung_fu_panda_vs_captain_america_mcu/i2p2cx1/?context=3
+
+########################################
+
+add_data(['Teen Titans'],
+'Teen Titans',
+False,
+False,
+[
+    ['Teen Titans.*CN'], ['CN.*Teen Titans']
+],
+'Teen Titans',
+'{977}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ts1a7e/knd_kids_next_door_vs_teen_titans_cn/i2oubh5/?context=3
+
+########################################
+
+add_data(['Bloodshot'],
+'Bloodshot',
+False,
+False,
+[
+    ['Bloodshot ?\\(Bloodshot']
+],
+'2020',
+'{10806}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ts1a7e/knd_kids_next_door_vs_teen_titans_cn/i2oubh5/?context=3
+#https://www.reddit.com/r/whowouldwin/comments/ts5138/bloodshot_bloodshot_vs_wolverine_fox_xmen/i2perdc/?context=3
+
+########################################
+
+add_data(['Simon the Digger'],
+'Simon the Digger',
+False,
+True,
+[
+    ['Gurren Lagann']
+],
+'Gurren Lagann',
+'{4573}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tsgv44/simon_the_digger_vs_white_lantern_kyle_rayner/i2r92cs/?context=3
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

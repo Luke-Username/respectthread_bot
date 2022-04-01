@@ -22,6 +22,8 @@ UPDATE character SET is_default=FALSE WHERE default_name='Crocodile';
 
 ########################################
 
+DELETE FROM character WHERE default_name='Ghost' AND version='{"MCU"}';
+
 ########################################
 
 ########################################
