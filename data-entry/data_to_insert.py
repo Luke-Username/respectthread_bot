@@ -403,7 +403,7 @@ False,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Ryu! (Street Fighter Comics)', 'https://redd.it/ttk9na')
+id = get_rt_id(cur, 'Respect Ryu! (Malibu Comics Street Fighter)', 'https://redd.it/tudsen')
 add_data(['Ryu'],
 'Ryu',
 False,
@@ -565,6 +565,275 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tthy2f/respect_shirou_emiya_illyaverse/
+
+########################################
+
+id = get_rt_id(cur, "Respect Big Chungus''s Team (HELLO THERE: Meme Cinematic Universe)", 'https://redd.it/ttl5dr')
+add_data(["Big Chungus''s Team"],
+"Big Chungus''s Team",
+True,
+False,
+[
+    ['Meme Cinematic Universe']
+],
+'HELLO THERE: Meme Cinematic Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ttl5dr/respect_big_chunguss_team_hello_there_meme/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shaggy (HELLO THERE: Meme Cinematic Universe)', 'https://redd.it/ttl67j')
+add_data(['Shaggy'],
+'Shaggy',
+False,
+False,
+[
+    ['Meme Cinematic Universe']
+],
+'HELLO THERE: Meme Cinematic Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ttl67j/respect_shaggy_hello_there_meme_cinematic_universe/
+
+########################################
+
+id = get_rt_id(cur, 'RESPECT THE WORLDWIDE MAD DEADLY COMMUNIST GANGSTER COMPUTER GOD (The Writings of Francis E. Dec, Esquire)', 'https://redd.it/ttn23u')
+add_data(['Communist Gangster Computer God'],
+'Communist Gangster Computer God',
+False,
+True,
+[
+    ['Francis.*Dec']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ttn23u/respect_the_worldwide_mad_deadly_communist/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Goblins (Troll 2)', 'https://redd.it/ttoz1i')
+add_data(['Goblins'],
+'Goblins',
+False,
+False,
+[
+    ['Troll 2']
+],
+'Troll 2',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ttoz1i/respect_the_goblins_troll_2/
+
+########################################
+
+id = get_rt_id(cur, 'RESPECT SCP-682-J, SUPER BESTEST LIZERD EVER (SCP FOUNDATION)', 'https://redd.it/ttpzjz')
+add_data(['SCP ?(-| )? ?682 ?(-| )? ?J'],
+'SCP-682-J',
+False,
+True,
+[
+    ['Foundation']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ttpzjz/respect_scp682j_super_bestest_lizerd_ever_scp/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Segata Sanshiro! (Death Battle)', 'https://redd.it/ttuawr')
+add_data(['Segata Sanshiro'],
+'Segata Sanshiro',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ttuawr/respect_segata_sanshiro_death_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ugandan Knuckles! (DevilArtemis Universe)', 'https://redd.it/ttxgcv')
+add_data(['Ugandan Knuckles'],
+'Ugandan Knuckles',
+False,
+False,
+[
+    ['Devil ?Artemis']
+],
+'DevilArtemis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ttxgcv/respect_ugandan_knuckles_devilartemis_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "Two Toed" Ping! (Avatar: The Legend of Korra)', 'https://redd.it/ttzmtq')
+add_data(['Two Toed Ping'],
+'Two Toed Ping',
+False,
+True,
+[
+    ['Avatar'], ['A?TLA'], ['Korra'], ['A?T?LOK']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ttzmtq/respect_two_toed_ping_avatar_the_legend_of_korra/
+
+########################################
+
+id = get_rt_id(cur, 'Respect “Golden Spongecake” Spider-Man (Marvel-51914)', 'https://redd.it/tu2exg')
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['Golden Spongecake'], ['51914']
+],
+'Golden Spongecake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tu2exg/respect_golden_spongecake_spiderman_marvel51914/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mars Lowell (Fire Emblem)', 'https://redd.it/tu3u9v')
+add_data(['Mars Lowell'],
+'Mars Lowell',
+False,
+False,
+[
+    ['Fire Emblem']
+],
+'Fire Emblem',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tu3u9v/respect_mars_lowell_fire_emblem/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Olragon (The Discontent Summer)', 'https://redd.it/tu6u2d')
+add_data(['Olragon'],
+'Olragon',
+False,
+False,
+[
+    ['Discontent Summer']
+],
+'The Discontent Summer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tu6u2d/respect_olragon_the_discontent_summer/
+
+add_data(['Olrasaurus'],
+'Olrasaurus',
+False,
+False,
+[
+    ['Discontent Summer']
+],
+'The Discontent Summer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tu6u2d/respect_olragon_the_discontent_summer/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ralph Hinkley (The Greatest American Hero)', 'https://redd.it/tumz9n')
+add_data(['Ralph Hinkley'],
+'Ralph Hinkley',
+False,
+True,
+[
+    ['Greatest American Hero']
+],
+'The Greatest American Hero',
+'{' + '{}'.format(id) + '}'
+)
+#hhttps://www.reddit.com/r/respectthreads/comments/tumz9n/respect_ralph_hinkley_the_greatest_american_hero/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Regular Humans (Marvel and DC Comics)', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-regular-humans-marvel-and-dc-comics-2178276/')
+add_data(['Average( Baseline)? Human'],
+'Average Human',
+False,
+False,
+[
+    ['Marvel'], ['DC']
+],
+'Marvel / DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://comicvine.gamespot.com/forums/gen-discussion-1/respect-regular-humans-marvel-and-dc-comics-2178276/
+#https://www.reddit.com/r/whowouldwin/comments/ttyj9b/average_human_from_marvel_616_vs_average_human/
+
+add_data(['Average( (DC|Marvel)) Human'],
+'Average Marvel/DC Human',
+False,
+True,
+[
+    ['vs']
+],
+'Marvel / DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Regular Human'],
+'Regular Human',
+False,
+False,
+[
+    ['Marvel'], ['DC']
+],
+'Marvel / DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Comic Book Human'],
+'Comic Book Human',
+False,
+True,
+[
+    ['Marvel'], ['DC']
+],
+'Marvel / DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['DC Human'],
+'DC Human',
+False,
+False,
+[
+    ['Marvel Human', 'Real Human']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/2h1wo3/dc_human_vs_marvel_human_vs_real_human/
+
+add_data(['Peak Human'],
+'Peak Human',
+False,
+False,
+[
+    ['Marvel.*Peak Human'], ['DC.*Peak Human']
+],
+'Marvel / DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/2h1wo3/dc_human_vs_marvel_human_vs_real_human/
+#https://www.reddit.com/r/whowouldwin/comments/m5j7c5/a_marvel_peak_human_vs_a_dc_peak_human_vs_a_my/
 
 ########################################
 

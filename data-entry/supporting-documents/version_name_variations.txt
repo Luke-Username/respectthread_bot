@@ -693,7 +693,7 @@ Deadpool Movies
 
 DEATH BATTLE!
 	Version
-		'{"DEATH BATTLE"}'
+		['DEATH BATTLE']
 	Displayed Version Name
 		"DEATH BATTLE!"
 
@@ -734,7 +734,7 @@ Dexter's Laboratory
 
 DevilArtemis
 	Version
-		'{"Devil ?Artemis"}'
+		['Devil ?Artemis']
 	Displayed Version Name
 		"DevilArtemis"
 
