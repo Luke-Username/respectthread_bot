@@ -26,6 +26,12 @@ DELETE FROM character WHERE default_name='Ghost' AND version='{"MCU"}';
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Arjuna Alter, the Final Dark God! (Fate)', 'https://redd.it/trfstq'); SELECT * FROM respectthread WHERE link='https://redd.it/trfstq';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Arjuna Alter';
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Arale Norimaki (Dragon Ball)', 'https://redd.it/ttkuju'); SELECT * FROM respectthread WHERE link='https://redd.it/ttkuju';
+UPDATE character SET rt_id_array='{4740, ?2}' WHERE default_name='Arale Norimaki';
+
 ########################################
 
 ########################################

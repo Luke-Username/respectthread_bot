@@ -2697,6 +2697,12 @@ Raimi Spider-Man
 	Displayed Version Name
 		"Raimiverse Spider-Man"
 
+Ranking of Kings / Ousama Ranking
+	Version
+		['Ranking of Kings'], ['Ousama Ranking']
+	Displayed Version Name
+		"Ranking of Kings"
+
 Ranma ½
 	Version
 		'{"Ranma"}'

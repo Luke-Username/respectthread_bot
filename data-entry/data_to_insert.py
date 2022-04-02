@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6252, 'Respect Gilgamesh, the King of Heroes! (Fate)', 'https://redd.it/trgl81')
+update_respectthread(cur, 3950, 'Respect Itachi Uchiha! (Naruto)', 'https://redd.it/tt3h7t')
+
+########################################
+
 add_data(['Rex'],
 'Rex',
 False,
@@ -175,6 +180,391 @@ True,
 '{4573}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/tsgv44/simon_the_digger_vs_white_lantern_kyle_rayner/i2r92cs/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Dorshe, the Queen''s Shield! (Ranking of Kings)", 'https://redd.it/tra18s')
+add_data(['Dorshe'],
+'Dorshe',
+False,
+False,
+[
+    ['Ranking of Kings'], ['Ousama Ranking']
+],
+'Ranking of Kings',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tra18s/respect_dorshe_the_queens_shield_ranking_of_kings/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bojji! (Ousama Ranking)', 'https://redd.it/tt2hb1')
+add_data(['Bojji'],
+'Bojji',
+False,
+False,
+[
+    ['Ranking of Kings'], ['Ousama Ranking']
+],
+'Ranking of Kings',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tt2hb1/respect_bojji_ousama_ranking/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miyu Edelfelt! (Fate)', 'https://redd.it/trflwc')
+add_data(['Miyu Edelfelt'],
+'Miyu Edelfelt',
+False,
+True,
+[
+    ['Fate'], ['Kaleid']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/trflwc/respect_miyu_edelfelt_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect U-Olga Marie Animusphere, the Foreign God and Seventh Beast of Humanity! (Fate)', 'https://redd.it/trfn9y')
+add_data(['U-Olga'],
+'U-Olga',
+False,
+True,
+[
+    ['Fate'], ['Grande? Order'], ['F(ate )?/?GO']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/trfn9y/respect_uolga_marie_animusphere_the_foreign_god/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Nemo! (Fate)', 'https://redd.it/trfo25')
+add_data(['Captain Nemo'],
+'Captain Nemo',
+False,
+False,
+[
+    ['Fate'], ['Grande? Order'], ['F(ate )?/?GO']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/trfo25/respect_captain_nemo_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ashiya Douman! (Fate)', 'https://redd.it/trfp8r')
+add_data(['Ashiya D(ō|o)u?man'],
+'Ashiya Dōman',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/trfp8r/respect_ashiya_douman_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Dioscuri! (Fate)', 'https://redd.it/trfpzu')
+add_data(['Dioscuri'],
+'Dioscuri',
+False,
+False,
+[
+    ['Fate'], ['Grande? Order']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/trfpzu/respect_the_dioscuri_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ivan the Terrible, the Thunderous Emperor! (Fate)', 'https://redd.it/trfqxt')
+add_data(['Ivan the Terrible'],
+'Ivan the Terrible',
+False,
+False,
+[
+    ['Fate'], ['Grande? Order']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/trfqxt/respect_ivan_the_terrible_the_thunderous_emperor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scathach-Skadi! (Fate)', 'https://redd.it/trfrlm')
+add_data(['Scathach(-| )Skadi'],
+'Scathach-Skadi',
+False,
+True,
+[
+    ['Fate'], ['Grande? Order']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/trfrlm/respect_scathachskadi_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Qin Shi Huang Di, the Son of Heaven! (Fate)', 'https://redd.it/trfs6o')
+add_data(['Qin Shi Huang'],
+'Qin Shi Huang',
+False,
+False,
+[
+    ['Fate'], ['Grande? Order']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/trfs6o/respect_qin_shi_huang_di_the_son_of_heaven_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zeus, the King of the Gods! (Fate)', 'https://redd.it/trftkr')
+add_data(['Zeus'],
+'Zeus',
+False,
+False,
+[
+    ['Zeus.*Grande? Order']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/trftkr/respect_zeus_the_king_of_the_gods_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zeus, the King of the Gods! (Fate)', 'https://redd.it/trftkr')
+add_data(['Princess Bean'],
+'Princess Bean',
+False,
+False,
+[
+    ['Disenchantment']
+],
+'Disenchantment',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ts3uf4/respect_princess_bean_disenchantment/
+
+add_data(['Bean'],
+'Bean',
+False,
+False,
+[
+    ['Disenchantment']
+],
+'Disenchantment',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ts3uf4/respect_princess_bean_disenchantment/
+
+add_data(['Tiabeanie'],
+'Tiabeanie',
+False,
+True,
+[
+    ['Disenchantment']
+],
+'Disenchantment',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ts3uf4/respect_princess_bean_disenchantment/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Makoto! (Udon Comics Street Fighter)', 'https://redd.it/ts6eda')
+add_data(['Makoto'],
+'Makoto',
+False,
+False,
+[
+    ['Street Fighter', 'UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ts6eda/respect_makoto_udon_comics_street_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ryu! (Street Fighter Comics)', 'https://redd.it/ttk9na')
+add_data(['Ryu'],
+'Ryu',
+False,
+False,
+[
+    ['Street Fighter Comics']
+],
+'Street Fighter Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ttk9na/respect_ryu_street_fighter_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rainbow Mika! (Udon Comics Street Fighter)', 'https://redd.it/tt08su')
+add_data(['Rainbow Mika'],
+'Rainbow Mika',
+False,
+False,
+[
+    ['UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tt08su/respect_rainbow_mika_udon_comics_street_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alternate World Ash, Dawn, Goh, and Chloe (Pokemon Anime)', 'https://redd.it/tsaeae')
+add_data(['Alternate World Ash'],
+'Alternate World Ash',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tsaeae/respect_alternate_world_ash_dawn_goh_and_chloe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alternate World Team Rocket (Pokemon Anime)', 'https://redd.it/tsaebb')
+add_data(['Alternate World Team Rocket'],
+'Alternate World Team Rocket',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tsaebb/respect_alternate_world_team_rocket_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lara Croft! (Lara Croft: Tomb Raider)', 'https://redd.it/tse2cz')
+add_data(['Lara Croft'],
+'Lara Croft',
+False,
+False,
+[
+    ['2001'], ['Lara Croft: Tomb Raider']
+],
+'Lara Croft: Tomb Raider',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tse2cz/respect_lara_croft_lara_croft_tomb_raider/
+
+########################################
+
+id = get_rt_id(cur, "Respect Thunder McQueen and his stand, Highway to Hell (JoJo''s Bizarre Adventure)", 'https://redd.it/tsfz85')
+add_data(['Thunder McQueen'],
+'Thunder McQueen',
+False,
+True,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+'Jojo''s Bizarre Adventure',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thundarr the Barbarian! (Thundarr the Barbarian)', 'https://redd.it/tsx3jv')
+add_data(['Thundarr the Barbarian'],
+'Thundarr the Barbarian',
+False,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tsx3jv/respect_thundarr_the_barbarian_thundarr_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Man Ray! (Spongebob Squarepants)', 'https://redd.it/tt37jd')
+add_data(['Man(-| )?Ray'],
+'Man Ray',
+False,
+False,
+[
+    ['SpongeBob'], ['Patrick'], ['Mermaid Man'], ['Barnacle Boy']
+],
+'SpongeBob',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tt37jd/respect_man_ray_spongebob_squarepants/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Devil Ray (DC New 52/Rebirth)', 'https://redd.it/tt39rz')
+add_data(['Devil Ray'],
+'Devil Ray',
+False,
+False,
+[
+    ['New(-| )?52'], ['Nu?-?52'], ['Post(-| )52'], ['Prime(-| )Earth'], ['Rebirth']
+],
+'New 52 / Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tt39rz/respect_devil_ray_dc_new_52rebirth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Molly Hernandez (Runaways/Marvel Cinematic Universe)', 'https://redd.it/tt886e')
+add_data(['Molly Hernandez'],
+'Molly Hernandez',
+False,
+False,
+[
+    ['Runaways'], ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tt886e/respect_molly_hernandez_runawaysmarvel_cinematic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shirou Emiya! (Illyaverse)', 'https://redd.it/tthy2f')
+add_data(['Shirou'],
+'Emiya Shirou',
+False,
+False,
+[
+    ['Illyaverse']
+],
+'Illyaverse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tthy2f/respect_shirou_emiya_illyaverse/
 
 ########################################
 
