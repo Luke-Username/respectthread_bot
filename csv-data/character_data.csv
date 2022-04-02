@@ -1536,7 +1536,6 @@ Ego,{GOTG},f,{241},MCU
 Ego,"{`"Guardians of the Galaxy`"}",f,{241},MCU
 Ego,{GOTG2},f,{241},MCU
 Ghost,"{`"Marvel Cinematic Universe`"}",f,{6502},MCU
-Ghost,{MCU},f,{6502},MCU
 Ghost,{199999},f,{6502},MCU
 Ghost,"{Ant-Man,movie}",f,{6502},MCU
 Ghost,"{`"Ant man`",movie}",f,{6502},MCU
@@ -5061,8 +5060,6 @@ Link,"{`"Wind Waker`"}",f,{5227},Wind Waker / Phantom Hourglass
 Link,"{`"Phantom Hourglass`"}",f,{5227},Wind Waker / Phantom Hourglass
 Thanos,{616},t,{2067},616
 Thanos,{comics?},t,{2067},616
-Crocodile,"{`"One Piece`"}",f,{4042},One Piece
-Crocodile,{OP},f,{4042},One Piece
 Booker,{BioShock},f,{4998},BioShock Infinite
 Booker DeWitt,{BioShock},t,{4998},BioShock Infinite
 Jeanne d'Arc,"{`"Puella Magi Tart Magica`"}",f,{4423},Madoka Magica
@@ -5118,6 +5115,8 @@ Atrocitus,"{`"Post(-| )52`"}",f,{},New 52
 Atrocitus,"{`"Prime(-| )Earth`"}",f,{},New 52
 Atrocitus,{Rebirth},f,{},New 52
 Bleez,{DC},t,{1674},DC
+Crocodile,"{`"One Piece`"}",f,{4042},One Piece
+Crocodile,{OP},f,{4042},One Piece
 Bleez,{PC},f,{1674},Post-Crisis
 Bleez,"{`"Post(-| )?C(risis)?`"}",f,{1674},Post-Crisis
 Bleez,"{`"New(-| )Earth`"}",f,{1674},Post-Crisis
@@ -14457,7 +14456,6 @@ Sister Elraine,"{`"Double Arts`"}",t,{4736},Double Arts
 Kohaku,{Stone},f,{4737},Dr. Stone
 Tachibana Rintarō,"{`"Dragons Rioting`"}",t,{4738},Dragons Rioting
 Shimazu Toyohisa,{Drifters},t,{4739},Drifters
-Arale Norimaki,{Slump},t,{4740},Dr. Slump
 Crow,"{`"D\\.?Y\\.?N\\.? Freaks`"}",f,{4741},DYN Freaks
 Mugen Yoguruma,"{`"D\\.?Y\\.?N\\.? Freaks`"}",t,{4742},DYN Freaks
 Bolt Crank,"{`"Eat(-| )?Man`"}",f,{4743},Eat-Man
@@ -22994,7 +22992,6 @@ Great White,{sharks?},t,{6351},""
 Honey Badger,"{`"real life`"}",t,{6352},""
 Killer Whales,"{`"real life`"}",t,{6353},""
 Orca,"{`"real life`"}",t,{6353},""
-Crocodile,"{`"real life`"}",t,{6355},""
 Tyrannosaurus Rex,"{`"real life`"}",t,{6357},""
 Chromavoid,{Skullkip},t,{6458},""
 O-Utsu Inazuma,{CynicalWeeaboo},t,{6459},""
@@ -23042,6 +23039,7 @@ Liliana Vess,"{`"Magic:? The Gathering`"}",t,{6476},Magic: The Gathering
 Liliana Vess,{M:?TG},t,{6476},Magic: The Gathering
 Liliana Vess,{Planeswalkers?},t,{6476},Magic: The Gathering
 Lion,"{`"real life`"}",f,{6354},""
+Crocodile,"{`"real life`"}",f,{6355},""
 Liliana,"{`"Magic:? The Gathering`"}",f,{6476},Magic: The Gathering
 Liliana,{M:?TG},f,{6476},Magic: The Gathering
 Liliana,{Planeswalkers?},f,{6476},Magic: The Gathering
@@ -25044,9 +25042,6 @@ Lostbelt Kings,{F/?GO},t,{20937},Fate
 Scáthach-Skaði,{Fate},t,{20937},Fate
 Scáthach-Skaði,"{`"Grande? Order`"}",t,{20937},Fate
 Scáthach-Skaði,{F/?GO},t,{20937},Fate
-Arjuna Alter,{Fate},t,{20937},Fate
-Arjuna Alter,"{`"Grande? Order`"}",t,{20937},Fate
-Arjuna Alter,{F/?GO},t,{20937},Fate
 Arjuna,"{`"Arjuna ?\\(Fate`"}",f,{20938},Fate
 Arjuna,"{`"Arjuna ?\\[Fate`"}",f,{20938},Fate
 Arjuna,{Archer},f,{20938},Fate
@@ -26765,3 +26760,86 @@ Snake,{MGS},f,{5252},Metal Gear
 Naked Snake,{MGS},f,{5242},Metal Gear
 Eclipso,{DC},t,{21679},DC
 Rufus,{UDON},f,{21680},UDON
+Arjuna Alter,{Fate},t,{21681},Fate
+Arjuna Alter,"{`"Grande? Order`"}",t,{21681},Fate
+Arjuna Alter,{F/?GO},t,{21681},Fate
+Arale Norimaki,{Slump},t,"{4740,21682}",Dr. Slump
+Rex,"{`"Dog N....`"}",f,{7531},Dog Nigga
+Ghost,"{`"Ghost ?\\(MCU`"}",f,{6502},MCU
+Teen Titans,"{`"Teen Titans.*CN`"}",f,{977},Teen Titans
+Teen Titans,"{`"CN.*Teen Titans`"}",f,{977},Teen Titans
+Bloodshot,"{`"Bloodshot ?\\(Bloodshot`"}",f,{10806},2020
+Simon the Digger,"{`"Gurren Lagann`"}",t,{4573},Gurren Lagann
+Dorshe,"{`"Ranking of Kings`"}",f,{21683},Ranking of Kings
+Dorshe,"{`"Ousama Ranking`"}",f,{21683},Ranking of Kings
+Bojji,"{`"Ranking of Kings`"}",f,{21684},Ranking of Kings
+Bojji,"{`"Ousama Ranking`"}",f,{21684},Ranking of Kings
+Miyu Edelfelt,{Fate},t,{21685},Fate
+Miyu Edelfelt,{Kaleid},t,{21685},Fate
+U-Olga,{Fate},t,{21686},Fate
+U-Olga,"{`"Grande? Order`"}",t,{21686},Fate
+U-Olga,"{`"F(ate )?/?GO`"}",t,{21686},Fate
+Captain Nemo,{Fate},f,{21687},Fate
+Captain Nemo,"{`"Grande? Order`"}",f,{21687},Fate
+Captain Nemo,"{`"F(ate )?/?GO`"}",f,{21687},Fate
+Ashiya Dōman,{Fate},f,{21688},Fate
+Dioscuri,{Fate},f,{21689},Fate
+Dioscuri,"{`"Grande? Order`"}",f,{21689},Fate
+Ivan the Terrible,{Fate},f,{21690},Fate
+Ivan the Terrible,"{`"Grande? Order`"}",f,{21690},Fate
+Scathach-Skadi,{Fate},t,{21691},Fate
+Scathach-Skadi,"{`"Grande? Order`"}",t,{21691},Fate
+Qin Shi Huang,{Fate},f,{21692},Fate
+Qin Shi Huang,"{`"Grande? Order`"}",f,{21692},Fate
+Zeus,"{`"Zeus.*Grande? Order`"}",f,{21693},Fate
+Princess Bean,{Disenchantment},f,{21693},Disenchantment
+Bean,{Disenchantment},f,{21693},Disenchantment
+Tiabeanie,{Disenchantment},t,{21693},Disenchantment
+Makoto,"{`"Street Fighter`",UDON}",f,{21694},UDON
+Ryu,"{`"Street Fighter Comics`"}",f,{21695},Street Fighter Comics
+Rainbow Mika,{UDON},f,{21696},UDON
+Alternate World Ash,{Pok(e|é)m(o|a)n},t,{21697},Pokémon
+Alternate World Team Rocket,{Pok(e|é)m(o|a)n},t,{21698},Pokémon
+Lara Croft,{2001},f,{21699},Lara Croft: Tomb Raider
+Lara Croft,"{`"Lara Croft: Tomb Raider`"}",f,{21699},Lara Croft: Tomb Raider
+Thunder McQueen,{Jojos?(verse)?},t,{21700},Jojos Bizarre Adventure
+Thunder McQueen,{JJBA},t,{21700},Jojos Bizarre Adventure
+Thundarr the Barbarian,{default},t,{21701},""
+Man Ray,{SpongeBob},f,{21702},SpongeBob
+Man Ray,{Patrick},f,{21702},SpongeBob
+Man Ray,"{`"Mermaid Man`"}",f,{21702},SpongeBob
+Man Ray,"{`"Barnacle Boy`"}",f,{21702},SpongeBob
+Devil Ray,"{`"New(-| )?52`"}",f,{21703},New 52 / Rebirth
+Devil Ray,{Nu?-?52},f,{21703},New 52 / Rebirth
+Devil Ray,"{`"Post(-| )52`"}",f,{21703},New 52 / Rebirth
+Devil Ray,"{`"Prime(-| )Earth`"}",f,{21703},New 52 / Rebirth
+Devil Ray,{Rebirth},f,{21703},New 52 / Rebirth
+Molly Hernandez,{Runaways},f,{21704},MCU
+Molly Hernandez,"{`"Marvel Cinematic Universe`"}",f,{21704},MCU
+Molly Hernandez,{MCU},f,{21704},MCU
+Emiya Shirou,{Illyaverse},f,{21705},Illyaverse
+Big Chungus's Team,"{`"Meme Cinematic Universe`"}",f,{21706},HELLO THERE: Meme Cinematic Universe
+Shaggy,"{`"Meme Cinematic Universe`"}",f,{21707},HELLO THERE: Meme Cinematic Universe
+Communist Gangster Computer God,{Francis.*Dec},t,{21708},""
+Goblins,"{`"Troll 2`"}",f,{21709},Troll 2
+SCP-682-J,{Foundation},t,{21710},""
+Segata Sanshiro,"{`"DEATH BATTLE`"}",f,{21711},DEATH BATTLE!
+Ugandan Knuckles,"{`"Devil ?Artemis`"}",f,{21712},DevilArtemis
+Two Toed Ping,{Avatar},t,{21713},Avatar: TLA
+Two Toed Ping,{A?TLA},t,{21713},Avatar: TLA
+Two Toed Ping,{Korra},t,{21713},Avatar: TLA
+Two Toed Ping,{A?T?LOK},t,{21713},Avatar: TLA
+Mars Lowell,"{`"Fire Emblem`"}",f,{21715},Fire Emblem
+Olragon,"{`"Discontent Summer`"}",f,{21716},The Discontent Summer
+Olrasaurus,"{`"Discontent Summer`"}",f,{21716},The Discontent Summer
+Ralph Hinkley,"{`"Greatest American Hero`"}",t,{21717},The Greatest American Hero
+Average Human,{Marvel},f,{21718},Marvel / DC
+Average Human,{DC},f,{21718},Marvel / DC
+Average Marvel/DC Human,{vs},t,{21718},Marvel / DC
+Regular Human,{Marvel},f,{21718},Marvel / DC
+Regular Human,{DC},f,{21718},Marvel / DC
+Comic Book Human,{Marvel},t,{21718},Marvel / DC
+Comic Book Human,{DC},t,{21718},Marvel / DC
+DC Human,"{`"Marvel Human`",`"Real Human`"}",f,{21718},""
+Peak Human,"{`"Marvel.*Peak Human`"}",f,{21718},Marvel / DC
+Peak Human,"{`"DC.*Peak Human`"}",f,{21718},Marvel / DC
