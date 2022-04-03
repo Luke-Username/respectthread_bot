@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5686, 'Respect the Boxers (Punch-Out!!)', 'https://redd.it/tv6icm')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kirei Kotomine! (Fate)', 'https://redd.it/tv0178')
+add_data(['Kirei Kotomine|Kotomine Kirei'],
+'Kirei Kotomine',
+False,
+True,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tv0178/respect_kirei_kotomine_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Atom (Real Steel)', 'https://redd.it/tv6ib9')
+add_data(['Atom'],
+'Atom',
+False,
+False,
+[
+    ['Real Steel']
+],
+'Real Steel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tv6ib9/respect_atom_real_steel/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
