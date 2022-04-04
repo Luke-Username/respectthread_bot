@@ -15,10 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Meelo (The Legend of Korra)', 'https://redd.it/tvi1bv'); SELECT * FROM respectthread WHERE link='https://redd.it/tvi1bv';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Meelo';
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Pain', 'Pain Arc', 0);
-
 ########################################
 
 ########################################

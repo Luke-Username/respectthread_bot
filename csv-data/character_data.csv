@@ -2974,10 +2974,6 @@ Ikki,{Avatar},f,{806},Avatar: TLOK
 Ikki,{A?TLA},f,{806},Avatar: TLOK
 Ikki,{Korra},f,{806},Avatar: TLOK
 Ikki,{A?T?LOK},f,{806},Avatar: TLOK
-Meelo,{Avatar},t,{806},Avatar: TLOK
-Meelo,{A?TLA},t,{806},Avatar: TLOK
-Meelo,{Korra},t,{806},Avatar: TLOK
-Meelo,{A?T?LOK},t,{806},Avatar: TLOK
 Kai,{Avatar},f,{806},Avatar: TLOK
 Kai,{A?TLA},f,{806},Avatar: TLOK
 Kai,{Korra},f,{806},Avatar: TLOK
@@ -26843,3 +26839,20 @@ Comic Book Human,{DC},t,{21718},Marvel / DC
 DC Human,"{`"Marvel Human`",`"Real Human`"}",f,{21718},""
 Peak Human,"{`"Marvel.*Peak Human`"}",f,{21718},Marvel / DC
 Peak Human,"{`"DC.*Peak Human`"}",f,{21718},Marvel / DC
+Meelo,{Avatar},t,{21719},Avatar: TLOK
+Meelo,{A?TLA},t,{21719},Avatar: TLOK
+Meelo,{Korra},t,{21719},Avatar: TLOK
+Meelo,{A?T?LOK},t,{21719},Avatar: TLOK
+Norman Osborn,{616},f,{2264},616
+Morbius,"{`"Morbio?us ?\\(Morbio?us`"}",f,{},MCU
+Elsa,{Arr?endelle},f,{1205},Frozen
+Kirei Kotomine,{Fate},t,{21720},Fate
+Atom,"{`"Real Steel`"}",f,{21721},Real Steel
+Brogy,"{`"One ?Piece?`"}",f,{21722},One Piece
+Dorry,"{`"One ?Piece?`"}",f,{21722},One Piece
+Dorry,{Brogy},f,{21722},One Piece
+Mr. 5,"{`"One ?Piece?`"}",f,{21723},One Piece
+Miss Valentine,"{`"One ?Piece?`"}",f,{21723},One Piece
+Miss Valentine,{Mikita},f,{21723},One Piece
+Galacta Knight,{Kirby},t,{21724},Kirby
+Pelipper,"{`"Team Rockets?`"}",f,{21725},Team Rocket
