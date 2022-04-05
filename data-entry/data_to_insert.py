@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Luther Strode'],
+'Luther Strode',
+False,
+False,
+[
+    ['Image']
+],
+'Image Comics',
+'{2784}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/twibzz/can_luther_strode_image_comics_kill_captain/i3fhd4b/?context=3
+#https://www.reddit.com/r/respectthreads/comments/8p6kim/respect_luther_strode_luther_strode_trilogy_image/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
