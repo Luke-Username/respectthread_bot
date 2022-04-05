@@ -137,6 +137,66 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Gary''s Arcanine (Pokemon Anime)", 'https://redd.it/twvnip')
+add_data(['Arcanine'],
+'Arcanine',
+False,
+False,
+[
+    ['Gary']
+],
+'Gary',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/twvnip/respect_garys_arcanine_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fang (Blaze Core)', 'https://redd.it/twvnip')
+add_data(['Fang'],
+'Fang',
+False,
+False,
+[
+    ['Blaze Core']
+],
+'Blaze Core',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/twxfwb/respect_fang_blaze_core/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Luck (Dreamwalker)', 'https://redd.it/tx11bz')
+add_data(['Luck'],
+'Luck',
+False,
+False,
+[
+    ['Dreamwalker']
+],
+'Dreamwalker',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tx11bz/respect_luck_dreamwalker/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Heracles, the Strongest Hero! (Fate)', 'https://redd.it/tx3ugl')
+add_data(['Heracles'],
+'Heracles',
+False,
+False,
+[
+    ['Fate'], ['Stay/? ?k?Night']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tx3ugl/respect_heracles_the_strongest_hero_fate/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
