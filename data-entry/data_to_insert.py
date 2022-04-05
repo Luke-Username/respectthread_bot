@@ -122,6 +122,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Elder (Star Wars: Visions - The Elder)', 'https://redd.it/twhx6s')
+add_data(['The Elder'],
+'The Elder',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/twhx6s/respect_the_elder_star_wars_visions_the_elder/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
