@@ -4478,9 +4478,9 @@ Sensei,"{`"Sensei (DC)}`"}",f,{1559},DC
 Wrath,"{`"Pre(-| )?Flashpoint`"}",f,{1561},Pre-Flashpoint
 Wrath,{PC},f,{1561},Pre-Flashpoint
 Wrath,"{`"Pre(-| )?Crisis`"}",f,{1561},Pre-Flashpoint
-Scarecrow,"{`"\\(DC\\)`"}",t,"{1557,1558}",DC
-Talons,"{`"\\(DC\\)`"}",f,{1560},DC
 Poison Ivy,"{`"\\(DC`"}",t,{1553},(DC)
+Scarecrow,"{`"\\(DC( Comics)?\\)`"}",t,"{1557,1558}",DC
+Talons,"{`"\\(DC( Comics)?\\)`"}",f,{1560},DC
 Shazam Family,"{Shazam,2019}",f,{6555},DCEU
 Shazam Family,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Shazam Family,{DCEU},f,{6555},DCEU
@@ -5043,8 +5043,8 @@ Kyle Rayner,{PC},f,{1685},Post-Crisis
 Kyle Rayner,"{`"Post(-| )?C(risis)?`"}",f,{1685},Post-Crisis
 Kyle Rayner,"{`"New(-| )Earth`"}",f,{1685},Post-Crisis
 Kyle Rayner,"{`"Green Lantern Kyle Rayner`"}",f,"{1685,15411}",DC
-Sinestro,"{`"\\(DC\\)`"}",t,"{1691,1690}",DC
-Sodam Yat,"{`"\\(DC\\)`"}",t,{1692},DC
+Sinestro,"{`"\\(DC( Comics)?\\)`"}",t,"{1691,1690}",DC
+Sodam Yat,"{`"\\(DC( Comics)?\\)`"}",t,{1692},DC
 Kotal Kahn,{MK},t,{5291},Mortal Kombat
 Link,"{`"Hyrule Warriors`"}",f,{5214},Hyrule Warriors
 Taven,"{`"Mortal Kombat`"}",t,{5317},Mortal Kombat
@@ -5243,8 +5243,8 @@ Nightmare Nurse,"{`"Prime(-| )Earth`"}",f,{1706},New 52
 Nightmare Nurse,{Rebirth},f,{1706},New 52
 Nightmare Nurse,"{`"Justice League Dark`"}",f,{1706},New 52
 Nightmare Nurse,"{`"(DC( Comics)?)`"}",t,{1706},DC
-Lobo,"{`"\\(DC\\)`"}",t,"{1698,1699,1700}",DC
-Frankenstein,"{`"\\(DC\\)`"}",f,"{1703,1724}",DC
+Lobo,"{`"\\(DC( Comics)?\\)`"}",t,"{1698,1699,1700}",DC
+Frankenstein,"{`"\\(DC( Comics)?\\)`"}",f,"{1703,1724}",DC
 Phantom Stranger,"{`"New(-| )?52`"}",f,{1708},New 52
 Phantom Stranger,{Nu?-?52},f,{1708},New 52
 Phantom Stranger,"{`"Post(-| )52`"}",f,{1708},New 52
@@ -6212,8 +6212,8 @@ Mindless Hulk,{616},t,{2129},616
 Mindless Hulk,{Marvel},t,{2129},616
 Red Hulk,{616},t,{2130},616
 Red Hulk,{Marvel},t,{2130},616
+Black Adam,"{`"\\(DC( Comics)?\\)`"}",t,"{1622,14881,7393}",DC
 Hulk,"{`"\\(Comics?`"}",t,"{2116,2117}",616
-Black Adam,"{`"\\(DC\\)`"}",t,"{1622,14881,7393}",DC
 Sun Wukong,{Marvel},f,{7406},616
 Sun Wukong,{616},f,{7406},616
 Takizawa,"{`"Tokyo Ghoul`"}",t,{7407},Tokyo Ghoul
@@ -12740,7 +12740,6 @@ Frost,{Saiyan},f,"{3283,3312}",Dragon Ball
 Frost,{Goku},f,"{3283,3312}",Dragon Ball
 Frost,{Fr(i|e)eza},f,"{3283,3312}",Dragon Ball
 Hit,"{`"Dragon ?Ball`"}",f,{3295},Dragon Ball
-Hit,{DB(Z|S)?},f,{3295},Dragon Ball
 Hit,{Saiyan},f,{3295},Dragon Ball
 Hit,{Goku},f,{3295},Dragon Ball
 Hit,{Fr(i|e)eza},f,{3295},Dragon Ball
@@ -12787,6 +12786,7 @@ Korin,{Goku},f,{3261},Dragon Ball
 Korin,{Roshi},f,{3261},Dragon Ball
 Beerus,"{`"Dragon ?Ball`"}",t,"{3272,16850}",Dragon Ball
 Beerus,{DB(Z|S)?},t,"{3272,16850}",Dragon Ball
+Hit,{Hit.*DB(Z|S)?},f,{3295},Dragon Ball
 Korin,"{`"Korin Tower`"}",f,{3261},Dragon Ball
 Korin,"{`"Korin's Tower`"}",f,{3261},Dragon Ball
 Ginyu Force,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
@@ -25647,24 +25647,6 @@ Boogeyman,"{`"Rise of the Guardians`"}",f,{21151},Rise of the Guardians
 Billy Chapman,"{`"Deadly Night`"}",t,{21152},"Silent Night, Deadly Night"
 Santa,"{`"Christmas Chronicles`"}",f,{21153},The Christmas Chronicles
 Snowman,"{`"The Christmas Light`"}",f,{21154},The Christmas Light
-Bane,"{`"\\(DC\\)`"}",f,{1529},New 52 / Rebirth
-Black Canary,"{`"\\(DC\\)`"}",t,{1563},DC
-Huntress,"{`"\\(DC\\)`"}",f,{1564},DC
-Lady Blackhawk,"{`"\\(DC\\)`"}",t,{1565},DC
-Kate Spencer,"{`"\\(DC\\)`"}",t,{1566},DC
-Heat Wave,"{`"\\(DC\\)`"}",f,{1599},Post-Crisis
-Mirror Master,"{`"\\(DC\\)`"}",t,{1601},""
-Pied Piper,"{`"\\(DC\\)`"}",f,{1602},""
-Green Arrow,"{`"\\(DC\\)`"}",t,"{1610,1611}",DC
-Plastic Man,"{`"\\(DC\\)`"}",t,"{1650,1651}",DC
-Yellow Lantern Corps,"{`"\\(DC\\)`"}",t,{1674},DC
-Sinestro Corps,"{`"\\(DC\\)`"}",t,{1674},DC
-Green Lantern Corps,"{`"\\(DC\\)`"}",t,{1674},DC
-Blue Lantern Corps,"{`"\\(DC\\)`"}",t,{1674},DC
-Indigo Tribe,"{`"\\(DC\\)`"}",t,{1674},DC
-Star Sapphire,"{`"\\(DC\\)`"}",t,{1674},DC
-Black Lantern Corps,"{`"\\(DC\\)`"}",t,{1674},DC
-Metal Men,"{`"\\(DC\\)`"}",f,{7559},DC
 Garfield,"{`"Spider(-| )?Mans?`"}",f,{},Spider-Man
 Yamamoto,{Bleach},t,{3148},Bleach
 Rune King Thor,{616},t,{21155},616
@@ -25688,6 +25670,9 @@ Terra,{Indexverse},f,{6013},Toaru Majutsu no Index
 Syndrome,{villains?},f,{14914},The Incredibles
 Syndrome,{Gru},f,{14914},The Incredibles
 Syndrome,{Megamind},f,{14914},The Incredibles
+Black Canary,"{`"\\(DC( Comics)?\\)`"}",t,{1563},DC
+Huntress,"{`"\\(DC( Comics)?\\)`"}",f,{1564},DC
+Pied Piper,"{`"\\(DC( Comics)?\\)`"}",f,{1602},""
 Daredevil,"{`"Daredevil.+TV(-| )Show`"}",f,{1289},MCU
 Daredevil,"{`"TV(-| )Show.+Daredevil`"}",f,{1289},MCU
 Spider-Man,"{`"No way home`"}",f,{261},MCU
@@ -26455,7 +26440,6 @@ Kate Bishop,{MCU},f,{21522},MCU
 Batmobile,{PC},f,{21523},Post-Crisis
 Batmobile,"{`"Posts?(-| )?C(risis)?`"}",f,{21523},Post-Crisis
 Batmobile,"{`"New(-| )Earth`"}",f,{21523},Post-Crisis
-Batmobile,"{`"\\(DC\\)`"}",t,{21523},DC
 Batmobile,"{`"DC Comics`"}",t,{21523},DC
 Batmobile,{Bale},f,{},Nolanverse
 Batmobile,"{`"Arkham city`"}",f,{},Batman: Arkham
@@ -26472,6 +26456,7 @@ Nightcrawler,"{`"X(-| )?Men (Movie|Film)s?`"}",f,{21526},FOX
 Nightcrawler,"{`"X-?Men Cinematic Universe`"}",f,{21526},FOX
 Nightcrawler,{XCU},f,{21526},FOX
 SCP-457,"{`"Burning Man`"}",t,{21527},""
+Batmobile,"{`"\\(DC( Comics)?\\)`"}",t,{21523},DC
 SCP-6630,"{`"Fire On the Horizon`"}",t,{21528},""
 E.M.M.I.s,{Metroid},t,{21529},Metroid
 Sonic.EXE,{Creepypasta},t,{21530},Creepypasta
@@ -26856,3 +26841,24 @@ Miss Valentine,"{`"One ?Piece?`"}",f,{21723},One Piece
 Miss Valentine,{Mikita},f,{21723},One Piece
 Galacta Knight,{Kirby},t,{21724},Kirby
 Pelipper,"{`"Team Rockets?`"}",f,{21725},Team Rocket
+Lady Blackhawk,"{`"\\(DC( Comics)?\\)`"}",t,{1565},DC
+Kate Spencer,"{`"\\(DC( Comics)?\\)`"}",t,{1566},DC
+Heat Wave,"{`"\\(DC( Comics)?\\)`"}",f,{1599},Post-Crisis
+Mirror Master,"{`"\\(DC( Comics)?\\)`"}",t,{1601},""
+Green Arrow,"{`"\\(DC( Comics)?\\)`"}",t,"{1610,1611}",DC
+Plastic Man,"{`"\\(DC( Comics)?\\)`"}",t,"{1650,1651}",DC
+Yellow Lantern Corps,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
+Sinestro Corps,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
+Green Lantern Corps,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
+Blue Lantern Corps,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
+Indigo Tribe,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
+Star Sapphire,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
+Black Lantern Corps,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
+Metal Men,"{`"\\(DC( Comics)?\\)`"}",f,{7559},DC
+Bane,"{`"\\(DC( Comics)?\\)`"}",f,"{1529,1530}",New 52 / Rebirth
+Luther Strode,{Image},f,{2784},Image Comics
+The Elder,"{`"S(tar )?Wars`"}",f,{21726},Star Wars
+Arcanine,{Gary},f,{21727},Gary
+Fang,"{`"Blaze Core`"}",f,{21727},Blaze Core
+Luck,{Dreamwalker},f,{21728},Dreamwalker
+Heracles,"{`"Stay/? ?k?Night`"}",f,{21729},Fate

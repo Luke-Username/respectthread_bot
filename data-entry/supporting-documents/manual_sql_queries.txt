@@ -15,10 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"Hit.*DB(Z|S)?"}' WHERE default_name='Hit' AND version='{"DB(Z|S)?"}';
-UPDATE character set rt_id_array='{1529, 1530}' WHERE default_name='Bane' AND version='{"\\(DC\\)"}';
-UPDATE character SET version='{"\\(DC( Comics)?\\)"}' WHERE version='{"\\(DC\\)"}';
-
 ########################################
 
 ########################################
