@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Spider(-| )?Man']
+],
+'',
+'{2799,13507}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/txs88j/a_newbie_predator_vs_spiderman_on_his_1st_day/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Hank Rutherford Hill! (King of the Hill)', 'https://redd.it/tx8xiw')
 add_data(['Hank Hill'],
 'Hank Hill',
@@ -245,6 +259,48 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tx8yiy/respect_kahn_and_minh_souphanousinphone_king_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lewis Padgett, Microwave Man (DC Pre-Crisis)', 'https://redd.it/txo3ml')
+add_data(['Microwave(-| )Man'],
+'Microwave Man',
+False,
+True,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/txo3ml/respect_lewis_padgett_microwave_man_dc_precrisis/
+
+add_data(['Microwave(-| )Man'],
+'Microwave Man',
+False,
+True,
+[
+    ['DC'], ['Padgett']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/txo3ml/respect_lewis_padgett_microwave_man_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rudo! (Gachiakuta)', 'https://redd.it/ty5bbj')
+add_data(['Rudo'],
+'Rudo',
+False,
+False,
+[
+    ['Gachiakuta']
+],
+'Gachiakuta',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ty5bbj/respect_rudo_gachiakuta/
 
 ########################################
 
