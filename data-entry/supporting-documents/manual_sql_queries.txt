@@ -15,12 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Kim Possible', '(Kim Possible)', -1);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Mega ?Man X1?', '(Mega Man X)', -1);
-
 ########################################
-
-UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{2204}';
 
 ########################################
 
