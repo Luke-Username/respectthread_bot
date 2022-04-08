@@ -262,6 +262,34 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Nora Fries, Mrs. Freeze (DC, Rebirth)', 'https://redd.it/tyeu1x')
+add_data(['Nora Fries'],
+'Nora Fries',
+False,
+False,
+[
+    ['Rebirth']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tyeu1x/respect_nora_fries_mrs_freeze_dc_rebirth/
+
+add_data(['Nora Fries'],
+'Nora Fries',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tyeu1x/respect_nora_fries_mrs_freeze_dc_rebirth/
+
+
+########################################
+
 id = get_rt_id(cur, 'Respect Lewis Padgett, Microwave Man (DC Pre-Crisis)', 'https://redd.it/txo3ml')
 add_data(['Microwave(-| )Man'],
 'Microwave Man',
@@ -301,6 +329,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ty5bbj/respect_rudo_gachiakuta/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Souichirou Kuzuki! (Fate)', 'https://redd.it/tyhzlg')
+add_data(['Sou?ichirou? Kuzuki|Kuzuki Sou?ichirou?'],
+'Souichirou Kuzuki',
+False,
+True,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tyhzlg/respect_souichirou_kuzuki_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Amazon Warriors (DCEU)', 'https://redd.it/tymjqi')
+add_data(['Amazons'],
+'Amazons',
+False,
+False,
+[
+    ['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe']
+],
+'DCEU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tymjqi/respect_the_amazon_warriors_dceu/
 
 ########################################
 
