@@ -288,7 +288,7 @@ Beauty and the Beast
 
 Ben 10
 	Version
-		'{"Ben (10|Ten(nyson)?)"}', '{"(Omn|Ulti)itrix"}'
+		['Ben (10|Ten(nyson)?)'], ['(Omn|Ulti)itrix']
 	Displayed Version Name
 		"Ben 10"
 

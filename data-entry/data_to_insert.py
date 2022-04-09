@@ -107,6 +107,140 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1809, 'Respect Livewire (DC, Post Crisis)', 'https://redd.it/tz2gfd')
+update_respectthread(cur, 6247, 'Respect Archer! (Fate)', 'https://redd.it/tz3j7e')
+
+########################################
+
+add_data(['Electro'],
+'Electro',
+False,
+False,
+[
+    ['Electro ?\(Spider(-| )?Mans?\)']
+],
+'616',
+'{2268}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tzncyv/eneru_one_piece_vs_electro_spiderman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Francine Frye, Electro (Marvel, 616)', 'https://redd.it/tz2gvy')
+add_data(['Francine Frye'],
+'Francine Frye',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tz2gfd/respect_livewire_dc_post_crisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gax (Ben 10 [2016])', 'https://redd.it/tz6196')
+add_data(['Gax'],
+'Gax',
+False,
+False,
+[
+    ['Ben (10|Ten(nyson)?)'], ['(Omn|Ulti)itrix']
+],
+'Ben 10',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tz6196/respect_gax_ben_10_2016/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman (Zimaut Animation)', 'https://redd.it/tzjf1m')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Zimaut']
+],
+'Zimaut Animation',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tzjf1m/respect_superman_zimaut_animation/
+
+########################################
+
+id = get_rt_id(cur, "Respect Sirfetch''d (Pokemon Anime)", 'https://redd.it/tzt8yx')
+add_data(["Farfetch''d"],
+"Farfetch''d",
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tzt8yx/respect_sirfetchd_pokemon_anime/
+
+add_data(["Sirfetch''d"],
+"Sirfetch''d",
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tzt8yx/respect_sirfetchd_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Omni Man (Omni Man vs Class S/AniMatt)', 'https://redd.it/tzu96s')
+add_data(['Omni(-| )?Man'],
+'Omni-Man',
+False,
+False,
+[
+    ['AniMatt']
+],
+'AniMatt',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tzu96s/respect_omni_man_omni_man_vs_class_sanimatt/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman (DC Versus Marvel/Marvel Versus DC)', 'https://redd.it/tzufmq')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['DC Versus Marvel']
+],
+'DC Versus Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tzufmq/respect_superman_dc_versus_marvelmarvel_versus_dc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Smart Pants (The Adventures of Jimmy Neutron, Boy Genius)', 'https://redd.it/tzuufr')
+add_data(['Pants'],
+'Pants',
+False,
+False,
+[
+    ['DC Versus Marvel']
+],
+'DC Versus Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tzuufr/respect_the_smart_pants_the_adventures_of_jimmy/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
