@@ -3557,9 +3557,9 @@ Wakfu
 
 The Walking Dead
 	Version
-		'{"Walking Dead"}'
+		['Wa(lk|kl)ing Dead']
 	Acronyms
-		'{"TWD"}'
+		['TWD']
 	Displayed Version Name
 		"The Walking Dead"
 

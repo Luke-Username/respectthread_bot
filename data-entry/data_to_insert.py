@@ -234,12 +234,27 @@ add_data(['Pants'],
 False,
 False,
 [
-    ['DC Versus Marvel']
+    ['Jimmy Neutron']
 ],
-'DC Versus Marvel',
+'Jimmy Neutron',
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tzuufr/respect_the_smart_pants_the_adventures_of_jimmy/
+
+########################################
+
+id = get_rt_id(cur, "Respect Lee Everett (Telltale''s The Walking Dead Game)", 'https://redd.it/tzwf5d')
+add_data(['Lee'],
+'Lee',
+False,
+False,
+[
+    ['Wa(lk|kl)ing Dead'], ['TWD'], ['Everett']
+],
+'The Walking Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/tzwf5d/respect_lee_everett_telltales_the_walking_dead/
 
 ########################################
 
