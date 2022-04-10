@@ -126,6 +126,20 @@ False,
 
 ########################################
 
+add_data(['Daredevil'],
+'Daredevil',
+False,
+False,
+[
+    ['Charlie Cox']
+],
+'MCU',
+'{1289}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/tzx8gd/the_batman_robert_pattinson_vs_daredevil_charlie/i445zkv/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Francine Frye, Electro (Marvel, 616)', 'https://redd.it/tz2gvy')
 add_data(['Francine Frye'],
 'Francine Frye',
@@ -168,6 +182,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tzjf1m/respect_superman_zimaut_animation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Saitama (Zimaut Animation)', 'https://redd.it/u097vc')
+add_data(['Saitama'],
+'Saitama',
+False,
+False,
+[
+    ['Zimaut']
+],
+'Zimaut Animation',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u097vc/respect_saitama_zimaut_animation/
 
 ########################################
 
@@ -255,6 +284,81 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/tzwf5d/respect_lee_everett_telltales_the_walking_dead/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Leonardo (Teenage Mutant Ninja Turtles) [Archie Comics]', 'https://redd.it/u03xv3')
+add_data(['Leonardo'],
+'Leonardo',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Archie'], ['TMNT', 'Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u03xv3/respect_leonardo_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Raphael (Teenage Mutant Ninja Turtles) [Archie Comics]', 'https://redd.it/u03xw3')
+add_data(['Raphael'],
+'Raphael',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Archie'], ['TMNT', 'Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u03xw3/respect_raphael_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Donatello (Teenage Mutant Ninja Turtles) [Archie Comics]', 'https://redd.it/u03xxe')
+add_data(['Donatello'],
+'Donatello',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Archie'], ['TMNT', 'Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u03xxe/respect_donatello_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Michelangelo (Teenage Mutant Ninja Turtles) [Archie Comics]', 'https://redd.it/u03xye')
+add_data(['Michelangelo'],
+'Michelangelo',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Archie'], ['TMNT', 'Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u03xye/respect_michelangelo_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Leman Russ (Warhammer 40k)', 'https://redd.it/u0bp1x')
+add_data(['Leman Russ'],
+'Leman Russ',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u0bp1x/respect_leman_russ_warhammer_40k/
 
 ########################################
 
