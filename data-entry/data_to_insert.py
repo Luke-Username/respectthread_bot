@@ -109,6 +109,49 @@ cur = con.cursor()
 
 update_respectthread(cur, 1809, 'Respect Livewire (DC, Post Crisis)', 'https://redd.it/tz2gfd')
 update_respectthread(cur, 6247, 'Respect Archer! (Fate)', 'https://redd.it/tz3j7e')
+update_respectthread(cur, 6251, 'Respect Shirou Emiya! (Fate)', 'https://redd.it/u0wsg8')
+
+########################################
+
+add_data(['Hawk(-| )?(eye|guy)s?'],
+'Hawkeye',
+False,
+False,
+[
+    ['AWACS'], ['E(-| )?2D']
+],
+'',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u0rqay/how_many_tie_fighters_star_wars_would_it_take_to/
+
+########################################
+
+add_data(['Beyonder'],
+'Beyonder',
+False,
+False,
+[
+    ['Ret ?con']
+],
+'Marvel',
+'{2108,2107}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u0lw8r/question_whats_a_postretcon_beyonder/
+
+########################################
+
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Sonic the Hedgehog 2']
+],
+'2020 film',
+'{8607,17670}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u0sfsy/sonic_sonic_the_hedgehog_2_vs_iron_man_mcu/
 
 ########################################
 
@@ -347,6 +390,66 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Splinter (Teenage Mutant Ninja Turtles) [Archie Comics]', 'https://redd.it/u0mcoi')
+add_data(['Splinter'],
+'Splinter',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Archie'], ['TMNT', 'Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u0mcoi/respect_splinter_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shredder (Teenage Mutant Ninja Turtles) [Archie Comics]', 'https://redd.it/u0mcps')
+add_data(['Shredder'],
+'Shredder',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Archie'], ['TMNT', 'Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u0mcps/respect_shredder_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, "Respect April O''Neil (Teenage Mutant Ninja Turtles) [Archie Comics]", 'https://redd.it/u0mcqp')
+add_data(['April O Neil'],
+"April O''Neil",
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Archie'], ['TMNT', 'Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u0mcqp/respect_april_oneil_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ninjara (Teenage Mutant Ninja Turtles) [Archie Comics]', 'https://redd.it/u0mcry')
+add_data(['Ninjara'],
+'Ninjara',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'Archie'], ['TMNT', 'Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u0mcry/respect_ninjara_teenage_mutant_ninja_turtles/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Leman Russ (Warhammer 40k)', 'https://redd.it/u0bp1x')
 add_data(['Leman Russ'],
 'Leman Russ',
@@ -359,6 +462,75 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/u0bp1x/respect_leman_russ_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Charlotte Smoothie (One Piece)', 'https://redd.it/u0p0mb')
+add_data(['Charlotte Smoothie'],
+'Charlotte Smoothie',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u0p0mb/respect_charlotte_smoothie_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sixsix! (Ben 10)', 'https://redd.it/u0w17l')
+add_data(['Sixsix'],
+'Sixsix',
+False,
+True,
+[
+    ['Ben (10|Ten(nyson)?)'], ['(Omn|Ulti)itrix']
+],
+'Ben 10',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u0w17l/respect_sixsix_ben_10/
+
+########################################
+
+id = get_rt_id(cur, 'Fate Franchise Hub Post', 'https://redd.it/u0wuee')
+add_data(['Fate ?verse'],
+'Nasuverse',
+False,
+True,
+[
+    ['TYPE(-| )?MOON']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u0wuee/fate_franchise_hub_post/
+
+add_data(['TYPE(-| )?MOON ?verse'],
+'Nasuverse',
+False,
+True,
+[
+    ['Fate']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u0wuee/fate_franchise_hub_post/
+
+add_data(['Nasu(-| )?verse'],
+'Nasuverse',
+False,
+True,
+[
+    ['Fate']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u0wuee/fate_franchise_hub_post/
 
 ########################################
 

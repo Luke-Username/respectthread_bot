@@ -2331,6 +2331,7 @@ Nasuverse
 	
 	Fate
 		Version
+			['Fate ?verse']
 			['Fate']
 		Specific
 			['Stay/? ?k?Night'], ['F/?SN'], ['UBW'], ['Unlimited Blade Works']
