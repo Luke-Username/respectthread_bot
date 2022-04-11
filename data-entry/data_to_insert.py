@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Sully (Monsters, Inc.)', 'https://redd.it/d2kwip')
+add_data(['Batroc'],
+'Batroc',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{13483}'
+)
+#https://www.reddit.com/r/respectthreads/comments/mxdiz7/respect_georges_batroc_marvel_cinematic_universe/
+#https://www.reddit.com/r/whowouldwin/comments/u16eyj/batman_nolan_vs_batroc_mcu/i4aa8oy/?context=3
+
+########################################
+
+add_data(['Patrick Star'],
+'Patrick Star',
+False,
+False,
+[
+    ['Tortured One']
+],
+'The Bikini Bottom Horror',
+'{16630}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u15k2n/patrick_star_the_tortured_one_vs_henry_stickmin/i4b0bk9/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Heatran (Pokemon Anime: Arceus, The One Called God)', 'https://redd.it/u19be3')
+add_data(['Heatran'],
+'Heatran',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u19be3/respect_heatran_pokemon_anime_arceus_the_one/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
