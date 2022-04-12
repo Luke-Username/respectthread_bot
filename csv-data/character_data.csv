@@ -5959,10 +5959,6 @@ Kingpin,{616},t,{2053},616
 Kingpin,{comics?},t,{2053},616
 Wilson Fisk,{616},t,{2053},616
 Wilson Fisk,{comics?},t,{2053},616
-Wilson Fisk,{Netflix},t,{},MCU
-Wilson Fisk,"{`"Marvel Cinematic Universe`"}",t,{},MCU
-Wilson Fisk,{MCU},t,{},MCU
-Wilson Fisk,{199999},t,{},MCU
 Lady Bullseye,{616},t,{2054},616
 Lady Bullseye,{comics?},t,{2054},616
 Lady Bullseye,{Marvel},t,{2054},616
@@ -5994,6 +5990,10 @@ God Emperor Doom,{comics?},t,{2058},""
 God Emperor Doom,"{`"Secret Wars`"}",t,{2058},""
 Infamous Iron Man,{616},t,{2059},""
 Kingpin,{Netflix},f,{},MCU
+Wilson Fisk,{Netflix},f,{},MCU
+Wilson Fisk,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Wilson Fisk,{MCU},f,{},MCU
+Wilson Fisk,{199999},f,{},MCU
 Infamous Iron Man,{Marvel},t,{2059},""
 Infamous Iron Man,{comics?},t,{2059},""
 Infamous Iron Man,"{`"Secret Wars`"}",t,{2059},""
@@ -26936,3 +26936,11 @@ Nasuverse,"{`"TYPE(-| )?MOON`"}",t,{21762},""
 Nasuverse,{Fate},t,{21762},""
 Patrick Star,"{`"Tortured One`"}",f,{16630},The Bikini Bottom Horror
 Heatran,{Pok(e|é)m(o|a)n},t,{21763},Pokémon
+Spider-Man,{Tobey},f,{261},MCU
+Link,"{`"Link vs|vs\\.? Link`",composite}",f,{5208},The Legend of Zelda
+Emperor Joker,{PC},t,{21764},Post-Crisis
+Emperor Joker,"{`"Posts?(-| )?C(risis)?`"}",t,{21764},Post-Crisis
+Emperor Joker,"{`"New(-| )Earth`"}",t,{21764},Post-Crisis
+Thor's Battle Armor,{616},t,{21765},616
+Future Vilgax,"{`"Ben (10|Ten(nyson)?)`"}",t,{21766},Ben 10
+Future Vilgax,{(Omn|Ulti)itrix},t,{21766},Ben 10
