@@ -107,6 +107,61 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Spawn'],
+'Spawn',
+False,
+False,
+[
+    ['Ghost Rider']
+],
+'Image Comics',
+'{2638,2639}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u1yhp7/team_sorcerers_vs_team_hell/
+
+########################################
+
+add_data(['Punisher'],
+'Punisher',
+False,
+False,
+[
+    ['Punisher.*TV (show|version)']
+],
+'MCU',
+'{1297}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u20epx/the_punisher_marvel_tv_show_20172019_vs_the/i4fm49z/?context=3
+
+########################################
+
+add_data(['Charles Xavier'],
+'Charles Xavier',
+False,
+False,
+[
+    ['Charles Xavier.*movies?']
+],
+'FOX',
+'{21408}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u246ou/charles_xavier_1st_movie_vs_quicksilver_mcu/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Grookey (Pokemon Anime)', 'https://redd.it/u1xwwu')
+add_data(['Grookey'],
+'Grookey',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u1xwwu/respect_grookey_pokemon_anime/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
