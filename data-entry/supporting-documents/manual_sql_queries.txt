@@ -18,6 +18,7 @@ UPDATE character_name SET name='' WHERE...
 UPDATE character SET is_default=FALSE WHERE default_name='Wilson Fisk' AND displayed_version_name='MCU';
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Kirby', '(Kirby)', -1);
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Luigi', '(Mario and Luigi)', -11);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Digimon', 'Digimon Savers', 0);
 
 ########################################
 
