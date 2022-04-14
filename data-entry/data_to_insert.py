@@ -170,6 +170,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Drasna (Pokemon Anime)', 'https://redd.it/u3hwf5')
+add_data(['Drasna'],
+'Drasna',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u3hwf5/respect_drasna_pokemon_anime/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Wiz (Konosuba Light Novel)', 'https://redd.it/u2aokw')
 add_data(['Wiz'],
 'Wiz',
