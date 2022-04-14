@@ -3516,6 +3516,16 @@ Underdog
 
 (V)
 
+The Vampire Diaries
+	Version
+		['Vampire Diaries']
+		['The Originals']
+		['Mikaelsons?']
+	Sometimes called
+		['Originals']
+	Displayed Version Name
+		"The Vampire Diaries"
+
 The VelociPastor
 	Version
 		'{"VelociPastor"}'
