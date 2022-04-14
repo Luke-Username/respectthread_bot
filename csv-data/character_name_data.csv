@@ -2193,7 +2193,6 @@ Adam Warlock,Adam Warlock,f
 Annihilus,Annihilus,f
 Annihilation Wave,Annihilation Wave,t
 Champion of the Universe,Champion of the Universe,f
-Miles Morales,Miles Morales,f
 Peter B\.? Parker,Peter B. Parker,f
 Spider(-| )?Gang,Spider-Gang,f
 Corsair,Corsair,f
@@ -2331,6 +2330,7 @@ Adult Cool,Adult Cool,f
 Arby McDonald,Arby McDonald,f
 Cosmo,Cosmo,f
 Astro ?Boy,Astro Boy,f
+Miles? Morales,Miles Morales,f
 "Arby `"The Meathead`" McDonald","Arby `"The Meathead`" McDonald",f
 Jefferson Tallpipe,Jefferson Tallpipe,f
 Benny,Benny,f
@@ -5596,7 +5596,7 @@ Boma,Boma,f
 Clair Leonelli,Clair Leonelli,f
 Daisuke Aurora,Daisuke Aurora,f
 J,J,f
-Alexander Anderson,Alexander Anderson,f
+Alexander An(d|e)erson,Alexander Anderson,f
 Seras Victoria,Seras Victoria,f
 Alhambra,Alhambra,f
 Tubalcain Alhambra,Tubalcain Alhambra,f
@@ -12262,3 +12262,11 @@ Heatran,Heatran,f
 Emperor Joker,Emperor Joker,f
 Thor('|’)?s Battle Armor,Thor's Battle Armor,f
 Future Vilgax,Future Vilgax,f
+Grookey,Grookey,f
+Drasna,Drasna,f
+Niklaus,Niklaus,f
+Elijah,Elijah,f
+Rebekah,Rebekah,f
+Mikael,Mikael,f
+Marcel,Marcel,f
+Inteleon,Inteleon,f

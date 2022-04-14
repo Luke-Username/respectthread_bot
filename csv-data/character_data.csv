@@ -26008,7 +26008,6 @@ Shuten-Dōji,"{`"Paradox Reincarnator`"}",f,{21279},Fate/Paradox Reincarnator
 Shinji Makiri,"{`"Paradox Reincarnator`"}",f,{21279},Fate/Paradox Reincarnator
 Mr. Neutron,"{`"Monty Python`"}",f,{21280},Monty Python
 Whitebeard,"{`"One ?Piece?`"}",f,{4089},One Piece
-Kotomine Kirei,{Fate},t,{21282},Fate
 Death Knights,{Overlord},f,{21283},Overlord
 Death Knight,{Overlord},f,{21283},Overlord
 The Avengers,"{`"Rogers:? The Musical`"}",f,{21284},Rogers: The Musical
@@ -26944,3 +26943,29 @@ Emperor Joker,"{`"New(-| )Earth`"}",t,{21764},Post-Crisis
 Thor's Battle Armor,{616},t,{21765},616
 Future Vilgax,"{`"Ben (10|Ten(nyson)?)`"}",t,{21766},Ben 10
 Future Vilgax,{(Omn|Ulti)itrix},t,{21766},Ben 10
+Spawn,"{`"Ghost Rider`"}",f,"{2638,2639}",Image Comics
+Punisher,"{`"Punisher.*TV (show|version)`"}",f,{1297},MCU
+Charles Xavier,"{`"Charles Xavier.*movies?`"}",f,{21408},FOX
+Grookey,{Pok(e|é)m(o|a)n},t,{21767},Pokémon
+Drasna,{Pok(e|é)m(o|a)n},t,{21768},Pokémon
+Wiz,{Konosuba},f,{21769},Konosuba
+Klaus,"{`"Vampire Diaries`"}",f,{21770},The Vampire Diaries
+Klaus,{Mikaelson},f,{21770},The Vampire Diaries
+Klaus,{Originals},f,{21770},The Vampire Diaries
+Niklaus,"{`"Vampire Diaries`"}",t,{21770},The Vampire Diaries
+Niklaus,{Mikaelson},t,{21770},The Vampire Diaries
+Niklaus,{Originals},t,{21770},The Vampire Diaries
+Elijah,"{`"Vampire Diaries`"}",f,{21771},The Vampire Diaries
+Elijah,{Mikaelson},f,{21771},The Vampire Diaries
+Rebekah,"{`"Vampire Diaries`"}",t,{21772},The Vampire Diaries
+Rebekah,{Mikaelson},t,{21772},The Vampire Diaries
+Rebekah,{Originals},t,{21772},The Vampire Diaries
+Mikael,"{`"Vampire Diaries`"}",f,{21773},The Vampire Diaries
+Mikael,{Mikaelson},f,{21773},The Vampire Diaries
+Mikael,"{`"The Originals`"}",f,{21773},The Vampire Diaries
+Marcel,"{`"Vampire Diaries`"}",f,{21774},The Vampire Diaries
+Marcel,{Mikaelsons?},f,{21774},The Vampire Diaries
+Marcel,"{`"The Originals`"}",f,{21774},The Vampire Diaries
+Marcel,"{`"Marcel Gerard`"}",f,{21774},The Vampire Diaries
+Inteleon,{Go(h|u)},f,{21775},Goh
+Jojo,"{Avatar,`"TCG|Card Game`"}",f,{21776},Avatar: TLA
