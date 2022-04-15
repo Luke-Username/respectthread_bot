@@ -106,6 +106,9 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+update_respectthread(cur, 5783, "Respect Jeanne d''Arc, the Saint of Orleans (Fate)", 'https://redd.it/u3zayl')
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
