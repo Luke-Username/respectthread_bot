@@ -111,6 +111,36 @@ update_respectthread(cur, 5783, "Respect Jeanne d''Arc, the Saint of Orleans (Fa
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Karl Kyle, The King of the Cats (DC Earth 2, Pre-Crisis)', 'https://redd.it/u46nem')
+add_data(['Karl Kyle'],
+'Karl Kyle',
+False,
+False,
+[
+    ['DC'], ['Earth(-| )(Two|2)'], ['Pre(-| )?Crisis']
+],
+'Earth-Two',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lorraine Broughton (Atomic Blonde)', 'https://redd.it/u4ho8l')
+add_data(['Lorraine'],
+'Lorraine',
+False,
+False,
+[
+    ['Broughton'], ['Atomic Blonde?']
+],
+'Atomic Blonde',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u4ho8l/respect_lorraine_broughton_atomic_blonde/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
