@@ -15,10 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM name_conflict WHERE name='Wrath';
-UPDATE character SET rt_id_array='{6348}' WHERE rt_id_array='{6348}';
-UPDATE character_name SET name='Endeavou?r' WHERE name='Endeavor';
-
 ########################################
 
 ########################################

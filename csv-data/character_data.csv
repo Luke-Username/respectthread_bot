@@ -25984,7 +25984,6 @@ Glitchtrap,"{`"Five Nights at Fredd(ys?|ies)`"}",t,{21263},FNAF
 Glitchtrap,"{`"FNAF\\d?`"}",t,{21263},FNAF
 Bigfoot,"{`"Rob Zombie|Steve Niles|Richard Corben`"}",f,{21264},"Steve Niles, Richard Corben, Rob Zombie"
 Kickpuncher,{Community},f,{21265},Community
-Silverback gorilla,"{`"Real Life`"}",t,{6348},""
 Jake,{Finn},f,{613},Adventure Time
 Jake,"{`"Princess Bubblegum`"}",f,{613},Adventure Time
 Finn,{Jake},f,{606},Adventure Time
@@ -25993,6 +25992,7 @@ Steve Austin,"{`"Steve Austin.*Dynamite Comics|Dynamite Comics.*Steve Austin`"}"
 Bionic Woman,"{`"Bionic Woman.*Dynamite Comics|Dynamite Comics.*Bionic Woman`"}",f,{21267},Dynamite Comics
 Foreskin Man,{comics?},t,{21268},""
 Superman X,"{`"Legion of Super Heroe?s`"}",f,{21269},Legion of Super Heroes
+Silverback gorilla,"{`"Real Life`"}",t,{6348},""
 Spider-Man,"{`"Golden Spongecake`"}",f,{},51914
 Crimson,{Dreamwalker},f,{21272},Dreamwalker
 Katsumi Orochi,{Baki},t,{21273},Baki
@@ -26969,3 +26969,8 @@ Marcel,"{`"The Originals`"}",f,{21774},The Vampire Diaries
 Marcel,"{`"Marcel Gerard`"}",f,{21774},The Vampire Diaries
 Inteleon,{Go(h|u)},f,{21775},Goh
 Jojo,"{Avatar,`"TCG|Card Game`"}",f,{21776},Avatar: TLA
+Karl Kyle,{DC},f,{21778},Earth-Two
+Karl Kyle,"{`"Earth(-| )(Two|2)`"}",f,{21778},Earth-Two
+Karl Kyle,"{`"Pre(-| )?Crisis`"}",f,{21778},Earth-Two
+Lorraine,{Broughton},f,{21779},Atomic Blonde
+Lorraine,"{`"Atomic Blonde?`"}",f,{21779},Atomic Blonde
