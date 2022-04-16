@@ -107,6 +107,9 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5724, 'Respect Emmett Graves (Starhawk)', 'https://redd.it/u4wlq0')
+update_respectthread(cur, 3056, 'Respect The Female Titan (Attack on Titan)', 'https://redd.it/u4wofq')
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

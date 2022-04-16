@@ -15,6 +15,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Flash', 'Final Flash', -6);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Spider(-| )?Mans?', '(Spider-Man)', -1);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Spider(-| )?Mans?', '(Spider-Man)', -1);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bat(-| )?mans?', '(Batman)', -1);
+
 ########################################
 
 ########################################
