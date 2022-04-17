@@ -112,6 +112,34 @@ update_respectthread(cur, 3056, 'Respect The Female Titan (Attack on Titan)', 'h
 
 ########################################
 
+add_data(['Invincible'],
+'Invincible',
+False,
+False,
+[
+    ['Mark'], ['(and|&) Omni(-| )?Man']
+],
+'Image Comics',
+'{1961,17671}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u533nl/goku_raditz_saga_vs_invincible_eos/
+
+########################################
+
+add_data(['Kirby'],
+'Kirby',
+False,
+False,
+[
+    ['Captain.Kirby']
+],
+'SCP',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u57mg4/the_foundation_scp_attacks_earth_mcu_but_they_can/i50g420/?context=3
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
