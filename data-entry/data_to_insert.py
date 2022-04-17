@@ -140,6 +140,20 @@ False,
 
 ########################################
 
+add_data(['Nightwing'],
+'Nightwing',
+False,
+False,
+[
+    ['DC']
+],
+'DC',
+'{1499,1498}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u5mw9p/nightwing_vs_captain_america_butt_theres_a_twist/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
