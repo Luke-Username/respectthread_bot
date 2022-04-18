@@ -25,6 +25,7 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bat(-| )?mans?',
 UPDATE character_name SET name='Impost(o|e)rs?' WHERE name='Impostors?';
 UPDATE character_name SET name='Commander Sheph?ard' WHERE name='Commander Shepard';
 UPDATE character SET version='{"Mirage"}' WHERE version='{"Mirage Comics"}';
+UPDATE character_name SET name='Demi(-| )?Fiend' WHERE name='Demi(-| )Fiend';
 
 ########################################
 
