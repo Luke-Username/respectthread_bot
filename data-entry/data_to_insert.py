@@ -107,51 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 5724, 'Respect Emmett Graves (Starhawk)', 'https://redd.it/u4wlq0')
-update_respectthread(cur, 3056, 'Respect The Female Titan (Attack on Titan)', 'https://redd.it/u4wofq')
-
-########################################
-
-add_data(['Invincible'],
-'Invincible',
-False,
-False,
-[
-    ['Mark'], ['(and|&) Omni(-| )?Man']
-],
-'Image Comics',
-'{1961,17671}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/u533nl/goku_raditz_saga_vs_invincible_eos/
-
-########################################
-
-add_data(['Kirby'],
-'Kirby',
-False,
-False,
-[
-    ['Captain.Kirby']
-],
-'SCP',
-'{}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/u57mg4/the_foundation_scp_attacks_earth_mcu_but_they_can/i50g420/?context=3
-
-########################################
-
-add_data(['Nightwing'],
-'Nightwing',
-False,
-False,
-[
-    ['DC']
-],
-'DC',
-'{1499,1498}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/u5mw9p/nightwing_vs_captain_america_butt_theres_a_twist/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

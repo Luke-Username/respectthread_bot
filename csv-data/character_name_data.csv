@@ -4522,7 +4522,6 @@ Sips,Sips,f
 Wizard of Speed and Time,Wizard of Speed and Time,f
 Elizabeth,Elizabeth,f
 Shepard,Shepard,f
-Commander Shepard,Commander Shepard,f
 Garou,Garou,f
 Kan,Kan,f
 Ball Kirby,Ball Kirby,f
@@ -7554,7 +7553,6 @@ Toa Mud(o|ō),Toa Mudō,f
 Giganta,Giganta,f
 Lord Slug,Lord Slug,f
 Concussion,Concussion,f
-Impostors?,Impostor,f
 Victor Alvarez,Victor Alvarez,f
 Ebenezer Laughton,Ebenezer Laughton,f
 Dario Agger,Dario Agger,f
@@ -7572,6 +7570,7 @@ Roggnerola,Roggnerola,f
 Boldore,Boldore,f
 Buizel,Buizel,f
 Bulbasaur,Bulbasaur,f
+Impost(o|e)rs?,Impostor,f
 Butterfree,Butterfree,f
 Charmander,Charmander,f
 Charmeleon,Charmeleon,f
@@ -10439,7 +10438,6 @@ Sam (&|and) Max,Sam & Max,f
 Note ?book,Notebook,f
 Genesis Valentine,Genesis Valentine,f
 Shaq(uille)?,Shaq,f
-Demi(-| )Fiend,Demi-Fiend,f
 Pyramid Head,Pyramid Head,f
 Skull ?girls (Uni)?verse,Skullgirls Universe,t
 Filia,Filia,f
@@ -10570,6 +10568,7 @@ Logen,Logen,f
 Artemis Entreri,Artemis Entreri,f
 Athrogate,Athrogate,f
 Elyas,Elyas,f
+Demi(-| )?Fiend,Demi-Fiend,f
 Crystal Shard,Crystal Shard,f
 Cryshal(-| )Tirith,Cryshal-Tirith,f
 Crenshinibon,Crenshinibon,f
@@ -12272,3 +12271,4 @@ Marcel,Marcel,f
 Inteleon,Inteleon,f
 Karl Kyle,Karl Kyle,f
 Lorraine,Lorraine,f
+Commander Sheph?ard,Commander Shepard,f

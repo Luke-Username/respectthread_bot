@@ -10346,7 +10346,6 @@ Shredder,{IDW},f,{2673},IDW
 Slash,{IDW},f,{2674},IDW
 Splinter,{IDW},f,{2675},IDW
 Leatherhead,{composite},t,{2676},Composite
-Shredder,"{`"Mirage Comics`"}",f,{2677},Mirage Comics
 X-O Manowar,"{`"Valiant Comics`"}",t,"{2716,2705,2706}",Valiant
 X-O Manowar,{Ninjak},f,{},Ninjak vs the Valiant Universe
 Bloodshot,{Valiant},f,{2707},Valiant
@@ -26974,3 +26973,8 @@ Karl Kyle,"{`"Earth(-| )(Two|2)`"}",f,{21778},Earth-Two
 Karl Kyle,"{`"Pre(-| )?Crisis`"}",f,{21778},Earth-Two
 Lorraine,{Broughton},f,{21779},Atomic Blonde
 Lorraine,"{`"Atomic Blonde?`"}",f,{21779},Atomic Blonde
+Shredder,{Mirage},f,{2677},Mirage Comics
+Invincible,{Mark},f,"{1961,17671}",Image Comics
+Invincible,"{`"(and|&) Omni(-| )?Man`"}",f,"{1961,17671}",Image Comics
+Kirby,{Captain.Kirby},f,{},SCP
+Nightwing,{DC},f,"{1499,1498}",DC

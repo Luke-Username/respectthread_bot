@@ -15,17 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Flash', 'Final Flash', -6);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Spider(-| )?Mans?', '(Spider-Man)', -1);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Spider(-| )?Mans?', '(Spider-Man)', -1);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bat(-| )?mans?', '(Batman)', -1);
-
 ########################################
-
-UPDATE character_name SET name='Impost(o|e)rs?' WHERE name='Impostors?';
-UPDATE character_name SET name='Commander Sheph?ard' WHERE name='Commander Shepard';
-UPDATE character SET version='{"Mirage"}' WHERE version='{"Mirage Comics"}';
-UPDATE character_name SET name='Demi(-| )?Fiend' WHERE name='Demi(-| )Fiend';
 
 ########################################
 
