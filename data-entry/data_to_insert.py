@@ -107,6 +107,114 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Cenobites?'],
+'Cenobite',
+False,
+True,
+[
+    ['Hellraiser']
+],
+'Hellraiser',
+'{462,21270,21281}'
+)
+#https://www.reddit.com/r/respectthreads/comments/s8ksj1/respect_pinhead_hellraiser/
+
+########################################
+
+add_data(['Sawyer Family', 'The Sawyers'],
+'Sawyer Family',
+False,
+True,
+[
+    ['Texas Chain ?Saw']
+],
+'The Texas Chain Saw Massacre',
+'{9278}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u6c1ql/chewbacca_star_wars_runs_a_horror_movie_gauntlet/i5791p4/?context=3
+
+########################################
+
+add_data(['Stardust'],
+'Stardust',
+False,
+False,
+[
+    ['Stardust ?\(616']
+],
+'616',
+'{2091}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u6d8wk/the_justice_league_or_the_heralds_of_galactus_and/i5911o9/?context=3
+
+########################################
+
+add_data(['Nova'],
+'Nova',
+False,
+False,
+[
+    ['Invisible Boy']
+],
+'Frankie Raye',
+'{2088}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u6d8wk/the_justice_league_or_the_heralds_of_galactus_and/i5911o9/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mr. 4, Miss Merry Christmas and Lassoo (One Piece)', 'https://redd.it/u6b687')
+add_data(['Mr\. 4'],
+'Mr. 4',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u6b687/respect_mr_4_miss_merry_christmas_and_lassoo_one/
+
+add_data(['Miss Merry Christmas'],
+'Miss Merry Christmas',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u6b687/respect_mr_4_miss_merry_christmas_and_lassoo_one/
+
+add_data(['Lassoo'],
+'Lassoo',
+False,
+False,
+[
+    ['One ?Piece?'], ['devil fruits?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u6b687/respect_mr_4_miss_merry_christmas_and_lassoo_one/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ozma (RWBY)', 'https://redd.it/u6io4a')
+add_data(['Ozma'],
+'Ozma',
+False,
+False,
+[
+    ['RWBY'], ['Ozpin']
+],
+'RWBY',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u6io4a/respect_ozma_rwby/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

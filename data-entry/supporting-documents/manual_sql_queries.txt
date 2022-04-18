@@ -15,7 +15,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET version='{"Jeepers?.*Creepers?"}' WHERE version='{"Jeepers Creepers"}';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Stardust', 'Stardust Crusaders', 0);
 
 ########################################
 
