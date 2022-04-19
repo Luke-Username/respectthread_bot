@@ -136,6 +136,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Exosuit (District 9)', 'https://redd.it/u77bsg')
+add_data(['Exosuit'],
+'Exosuit',
+False,
+False,
+[
+    ['District 9']
+],
+'District 9',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u77bsg/respect_the_exosuit_district_9/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Xantcha, Sleeper Agent! (Magic: The Gathering)', 'https://redd.it/u78t5e')
+add_data(['Xantcha'],
+'Xantcha',
+False,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG'], ['Sleeper Agent']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u78t5e/respect_xantcha_sleeper_agent_magic_the_gathering/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
