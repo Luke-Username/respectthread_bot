@@ -1986,8 +1986,6 @@ The Guardians,"{`"\\(Guardians\\)`"}",f,{454},Guardians
 Hancock,"{`"\\(Hancock\\)`"}",f,{457},Hancock
 Pinhead,{Hellraiser},t,"{462,21270,21281}",Hellraiser
 Skeletons,"{`"Jason and the Argonauts`"}",f,{476},Jason and the Argonauts
-Jeepers Creepers,"{`"Jeepers Creepers`"}",t,{477},""
-Creeper,"{`"Jeepers Creepers`"}",f,{477},""
 Valek,{Vampires},t,{478},Vampires
 Valek,{1998},t,{478},Vampires
 John Wick,"{`"John Wick`"}",t,{479},""
@@ -2047,6 +2045,8 @@ The Mask,"{`"The Mask v(erse)?s`"}",f,{2788},Dark Horse Comics
 Stanley Ipkiss,"{`"Dark Horse`"}",t,{2788},Dark Horse Comics
 The Mask,"{`"\\(The Mask\\)`"}",f,{2788},Dark Horse Comics
 Stanley Ipkiss,{comics?},t,{2788},Dark Horse Comics
+Jeepers Creepers,{Jeepers?.*Creepers?},t,{477},""
+Creeper,{Jeepers?.*Creepers?},f,{477},""
 Stanley Ipkiss,{movies?},f,{508},1994
 Stanley Ipkiss,{films?},f,{508},1994
 Stanley Ipkiss,{1994},f,{508},1994
@@ -26978,3 +26978,13 @@ Invincible,{Mark},f,"{1961,17671}",Image Comics
 Invincible,"{`"(and|&) Omni(-| )?Man`"}",f,"{1961,17671}",Image Comics
 Kirby,{Captain.Kirby},f,{},SCP
 Nightwing,{DC},f,"{1499,1498}",DC
+Cenobite,{Hellraiser},t,"{462,21270,21281}",Hellraiser
+Sawyer Family,"{`"Texas Chain ?Saw`"}",t,{9278},The Texas Chain Saw Massacre
+Stardust,"{`"Stardust ?\\(616`"}",f,{2091},616
+Nova,"{`"Invisible Boy`"}",f,{2088},Frankie Raye
+Mr. 4,"{`"One ?Piece?`"}",f,{21780},One Piece
+Miss Merry Christmas,"{`"One ?Piece?`"}",f,{21780},One Piece
+Lassoo,"{`"One ?Piece?`"}",f,{21780},One Piece
+Lassoo,"{`"devil fruits?`"}",f,{21780},One Piece
+Ozma,{RWBY},f,{21781},RWBY
+Ozma,{Ozpin},f,{21781},RWBY
