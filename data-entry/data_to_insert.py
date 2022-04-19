@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['12101']
+],
+'12101',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u72jfe/zoro_is_teleported_to_marvel_12101_he_hears_of_a/i5bttf8/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain N! (Captain N: The Game Master)', 'https://redd.it/u6yspv')
+add_data(['Captain N'],
+'Captain N',
+False,
+True,
+[
+    ['Game Master']
+],
+'Captain N: The Game Master',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u6yspv/respect_captain_n_captain_n_the_game_master/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
