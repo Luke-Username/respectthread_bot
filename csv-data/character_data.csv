@@ -10796,7 +10796,6 @@ Jeannine Sauvage,{Marvel},t,{2444},616
 Guillotine,"{`"Guillotine ?\\(616`"}",f,{2444},616
 Guillotine,"{`"Guillotine ?\\(Marvel`"}",f,{2444},616
 Deadpool,{616},t,{13516},616
-Deadpool,{Marvel},t,{13516},616
 Hellcow,{616},t,{2446},616
 Hellcow,{Marvel},t,{2446},616
 High Evolutionary,{616},t,{2448},616
@@ -11789,9 +11788,6 @@ T'Challa,{Marvel},t,{2019},616
 Black Panther,{616},t,{2019},616
 Black Panther,{comics?},t,{2019},616
 Black Panther,{Marvel},t,{2019},616
-She-Hulk,{616},t,{2131},616
-She-Hulk,{Marvel},t,{2131},616
-She-Hulk,{comics?},t,{2131},616
 Mayday Parker,{982},t,{2530},982
 Mayday Parker,{Marvel},t,{2530},982
 Mayday Parker,{comics?},t,{2530},982
@@ -20121,10 +20117,6 @@ Glover,{N64},f,{5601},""
 Glover,{gloves?},f,{5601},""
 Gene,"{`"God Hand`"}",f,{5602},God Hand
 Isaac,"{`"Golden Sun`"}",f,{5603},Golden Sun
-Niko Bellic,"{`"GTA(\\d|\\w+)?`"}",t,{5604},GTA
-Niko Bellic,"{`"Grand Theft Auto`"}",t,{5604},GTA
-Niko,"{`"GTA(\\d|\\w+)?`"}",f,{5604},GTA
-Niko,"{`"Grand Theft Auto`"}",f,{5604},GTA
 Trevor Phillips,"{`"GTA(\\d|\\w+)?`"}",t,{5605},GTA
 Trevor Phillips,"{`"Grand Theft Auto`"}",t,{5605},GTA
 Trevor,"{`"GTA(\\d|\\w+)?`"}",f,{5605},GTA
@@ -20153,6 +20145,7 @@ Garican Smith,"{`"Killer ?7`"}",f,{5620},Killer7
 Garican Smith,"{`"Suda ?51`"}",f,{5620},Killer7
 Emir Parkreiner,"{`"Killer ?7`"}",t,{5620},Killer7
 Dark Emperor,"{`"Find Mii`"}",f,{5595},Find Mii
+Niko Bellic,"{`"GTA(\\d|\\w+)?`"}",t,{},GTA
 Emir Parkreiner,"{`"Suda ?51`"}",t,{5620},Killer7
 Dan Smith,"{`"Killer ?7`"}",f,{5620},Killer7
 Dan Smith,"{`"Suda ?51`"}",f,{5620},Killer7
@@ -25938,6 +25931,8 @@ Lord Tensen,{Jigokuraku},t,{21252},Hell's Paradise: Jigokuraku
 Lord Tensen,"{`"Hell'?s Paradise`"}",t,{21252},Hell's Paradise: Jigokuraku
 Mu Dan,{Jigokuraku},f,{21252},Hell's Paradise: Jigokuraku
 Black Krrsantan,"{`"S(tar )?Wars`"}",t,{21338},Star Wars
+She-Hulk,{616},t,"{2131,21782}",616
+She-Hulk,{Marvel},t,"{2131,21782}",616
 Mu Dan,"{`"Hell'?s Paradise`"}",f,{21252},Hell's Paradise: Jigokuraku
 Zhu Jin,{Jigokuraku},f,{21252},Hell's Paradise: Jigokuraku
 Zhu Jin,"{`"Hell'?s Paradise`"}",f,{21252},Hell's Paradise: Jigokuraku
@@ -26988,3 +26983,25 @@ Lassoo,"{`"One ?Piece?`"}",f,{21780},One Piece
 Lassoo,"{`"devil fruits?`"}",f,{21780},One Piece
 Ozma,{RWBY},f,{21781},RWBY
 Ozma,{Ozpin},f,{21781},RWBY
+She-Hulk,{comics?},t,"{2131,21782}",616
+Niko Bellic,"{`"Grand Theft Auto`"}",t,{},GTA
+Niko,"{`"GTA(\\d|\\w+)?`"}",f,{},GTA
+Niko,"{`"Grand Theft Auto`"}",f,{},GTA
+The Flash,"{`"\\(DC( Comics)?\\)`"}",t,"{1582,1583,1590,1589}",DC
+The Flash,"{`"\\[DC( Comics)?\\]`"}",t,"{1582,1583,1590,1589}",DC
+Spider-Man,{12101},f,{},12101
+Storm,"{`"Storm vs\\.`",Goku,comics?}",f,{2386},616
+Captain N,"{`"Game Master`"}",t,{21783},Captain N: The Game Master
+Exosuit,"{`"District 9`"}",f,{21784},District 9
+Xantcha,"{`"Magic:? The Gathering`"}",t,{21785},Magic: The Gathering
+Xantcha,{M:?TG},t,{21785},Magic: The Gathering
+Xantcha,"{`"Sleeper Agent`"}",t,{21785},Magic: The Gathering
+Germa 66,"{`"One ?Piece?`"}",t,{21786},One Piece
+Judge,{Vinsmoke},f,{21786},One Piece
+Niji,{Vinsmoke},f,{21786},One Piece
+Ookla The Mok,{Thundarr},t,{21787},Thundarr the Barbarian
+Doc Green,{616},t,{21788},616
+Professor Hulk,{616},t,{21789},616
+Professor Hulk,"{`"Marvel Cinematic Universe`"}",t,{21789},MCU
+Professor Hulk,{MCU},t,{21789},MCU
+Professor Hulk,"{`"End ?game`"}",t,{21789},MCU
