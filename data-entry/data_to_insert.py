@@ -121,6 +121,32 @@ False,
 
 ########################################
 
+add_data(['Hobbs'],
+'Hobbs',
+False,
+False,
+[
+    ['Fast (&|and) Furious'], ['Shaw'], ['F&F']
+],
+'The Fast and the Furious',
+'{136}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u9dar7/hobbs_shaw_fast_and_the_furious_vs_john_walker_mcu/i5qoaio/?context=3
+
+add_data(['Shaw'],
+'Shaw',
+False,
+False,
+[
+    ['Fast (&|and) Furious'], ['F&F'], ['Hobbs']
+],
+'The Fast and the Furious',
+'{134}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u9dar7/hobbs_shaw_fast_and_the_furious_vs_john_walker_mcu/i5qoaio/?context=3
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
