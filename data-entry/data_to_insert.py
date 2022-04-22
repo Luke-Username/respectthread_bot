@@ -147,6 +147,20 @@ False,
 
 ########################################
 
+add_data(['Emiya'],
+'Emiya',
+False,
+False,
+[
+    ['Counter Guardian']
+],
+'Fate',
+'{6247}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u9kdjf/dante_vergil_devil_may_cry_vs_counter_guardian/i5ryzvi/?context=3
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
