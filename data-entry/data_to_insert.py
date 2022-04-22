@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Kuroko'],
+'Kuroko',
+False,
+False,
+[
+    ['To ?aru'], ['Index(verse)?'], ['TAMNI'], ['Raildex']
+],
+'Toaru Majutsu no Index',
+'{10797}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u9bjlg/toaru_can_kuroko_kill_fiamma_of_the_right/i5qf4zx/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
