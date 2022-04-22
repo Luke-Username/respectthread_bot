@@ -18,8 +18,11 @@ UPDATE character_name SET name='' WHERE...
 DELETE FROM character WHERE default_name='Deadpool' AND version='{"Marvel"}';
 INSERT INTO respectthread (title, link) VALUES ('Respect Jennifer Walters, The Hulk (Marvel, 616)', 'https://redd.it/u76k7f'); SELECT * FROM respectthread WHERE link='https://redd.it/u76k7f';
 UPDATE character SET rt_id_array='{2131, ?}' WHERE rt_id_array='{2131}';
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{5604}';
 
 ########################################
+
+UPDATE character_name SET name='Capt(ai|ia)n America' WHERE name='Captain America';
 
 ########################################
 

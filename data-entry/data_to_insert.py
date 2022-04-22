@@ -107,6 +107,25 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2534, 'Respect Tyrone Cash, The First Hulk (Marvel, 1610)', 'https://redd.it/u7xsoc')
+
+########################################
+
+add_data(['The Flash'],
+'The Flash',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{1582, 1583, 1590, 1589}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u7uzen/how_many_attacks_would_each_character_need_to/i5gyw6g/?context=3
+
+
+########################################
+
 add_data(['Spider(-| )?Mans?'],
 'Spider-Man',
 False,
@@ -118,6 +137,20 @@ False,
 '{}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/u72jfe/zoro_is_teleported_to_marvel_12101_he_hears_of_a/i5bttf8/?context=3
+
+########################################
+
+add_data(['Storm'],
+'Storm',
+False,
+False,
+[
+    ['Storm vs\.', 'Goku', 'comics?']
+],
+'616',
+'{2386}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u81lma/storm_vs_goku/i5iiq38/?context=3
 
 ########################################
 
@@ -163,6 +196,114 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/u78t5e/respect_xantcha_sleeper_agent_magic_the_gathering/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Vinsmoke Family/Germa 66 [Vinsmoke Judge, Reiju, Ichiji, Niji, and Yonji] (One Piece)', 'https://redd.it/u7li1r')
+add_data(['Germa 66'],
+'Germa 66',
+True,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u7li1r/respect_the_vinsmoke_familygerma_66_vinsmoke/
+
+add_data(['Germa 66'],
+'Germa 66',
+True,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u7li1r/respect_the_vinsmoke_familygerma_66_vinsmoke/
+
+add_data(['Judge'],
+'Judge',
+False,
+False,
+[
+    ['Vinsmoke']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Niji'],
+'Niji',
+False,
+False,
+[
+    ['Vinsmoke']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ookla the Mok! (Thundarr the Barbarian)', 'https://redd.it/u8hs6l')
+add_data(['Ookla The Mok'],
+'Ookla The Mok',
+False,
+True,
+[
+    ['Thundarr']
+],
+'Thundarr the Barbarian',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u8hs6l/respect_ookla_the_mok_thundarr_the_barbarian/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doc Green (Marvel, 616)', 'https://redd.it/u8ndto')
+add_data(['Doc Green'],
+'Doc Green',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u8ndto/respect_doc_green_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Professor Hulk (Marvel, 616)', 'https://redd.it/u8umjr')
+add_data(['Professor Hulk'],
+'Professor Hulk',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u8umjr/respect_professor_hulk_marvel_616/
+
+add_data(['Professor Hulk'],
+'Professor Hulk',
+False,
+True,
+[
+    ['Marvel Cinematic Universe'], ['MCU'], ['End ?game']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u8umjr/respect_professor_hulk_marvel_616/
 
 ########################################
 
