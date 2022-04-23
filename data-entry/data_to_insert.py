@@ -179,6 +179,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Heptadd (Chaotic)', 'https://redd.it/u9w1rm')
+add_data(['Heptadd'],
+'Heptadd',
+False,
+True,
+[
+    ['Chaotic']
+],
+'Chaotic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/u9w1rm/respect_heptadd_chaotic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Akuma (Tekken 7)', 'https://redd.it/ua4vqu')
+add_data(['Akuma'],
+'Akuma',
+False,
+False,
+[
+    ['Tekken']
+],
+'Tekken',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ua4vqu/respect_akuma_tekken_7/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Necromorph (Alien: Prototype)', 'https://redd.it/ua5lh3')
+add_data(['Necromorph'],
+'Necromorph',
+False,
+False,
+[
+    ['Alien:? Prototype']
+],
+'Alien: Prototype',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ua5lh3/respect_the_necromorph_alien_prototype/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
