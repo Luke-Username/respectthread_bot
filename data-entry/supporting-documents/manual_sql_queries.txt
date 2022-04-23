@@ -16,6 +16,7 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character SET version='{"\\(GoT\\)"}' WHERE default_name='The Mountain' AND version='{"GoT"}';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Thor', 'Thor Bjornnson', 0);
 
 ########################################
 

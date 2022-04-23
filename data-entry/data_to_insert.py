@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 8173, 'Respect Metallo, the Man with the Kryptonite Heart! (DC, Post-Crisis)', 'https://redd.it/u9u5al')
+
+########################################
+
 add_data(['Kuroko'],
 'Kuroko',
 False,
@@ -158,6 +162,20 @@ False,
 '{6247}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/u9kdjf/dante_vergil_devil_may_cry_vs_counter_guardian/i5ryzvi/?context=3
+
+########################################
+
+add_data(['Scary Monsters'],
+'Scary Monsters',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+'Jojo''s Bizarre Adventure',
+'{3618}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/u9tddg/jojo_scary_monsters_vs_stray_cat/i5tlxez/?context=3
 
 ########################################
 
