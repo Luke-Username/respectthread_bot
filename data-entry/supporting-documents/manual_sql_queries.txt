@@ -20,6 +20,7 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Thor', 'Thor Bjo
 UPDATE character SET is_default=FALSE WHERE default_name='Hal Jordan' AND displayed_version_name='Green Lantern: The Animated Series';
 UPDATE character_name SET name='(Senator|Steven) Arm ?strong' WHERE name='(Senator|Steven) Armstrong';
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ego', 'Alter Ego', -6);
+UPDATE character SET version='{"Movie Sonic|Sonic Movie"}' WHERE version='{"Movie Sonic"}';
 
 ########################################
 
