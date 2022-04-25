@@ -125,6 +125,20 @@ False,
 
 ########################################
 
+add_data(['Wonder Of U'],
+'Wonder Of U',
+False,
+True,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+'Jojo''s Bizarre Adventure',
+'{16353}'
+)
+#
+
+########################################
+
 add_data(['Hobbs'],
 'Hobbs',
 False,
@@ -221,6 +235,117 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ua5lh3/respect_the_necromorph_alien_prototype/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Barbra Streisand (South Park)', 'https://redd.it/uat8da')
+add_data(['Barbra Streisand'],
+'Barbra Streisand',
+False,
+False,
+[
+    ['South Park']
+],
+'South Park',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uat8da/respect_barbra_streisand_south_park/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ryu, Crimson Hawk Ranger (Power Rangers Legacy Wars)', 'https://redd.it/uavea0')
+add_data(['Crimson Hawk Ranger'],
+'Crimson Hawk Ranger',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uavea0/respect_ryu_crimson_hawk_ranger_power_rangers/
+
+add_data(['Ryu'],
+'Ryu',
+False,
+False,
+[
+    ['Power Rangers?', 'Legacy Wars']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uavea0/respect_ryu_crimson_hawk_ranger_power_rangers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Playable Characters! (Mario & Sonic at the Olympic Games)', 'https://redd.it/uaznlq')
+add_data(['Mario (&|and) Sonic at the Olympic Games'],
+'Mario & Sonic at the Olympic Games',
+False,
+True,
+[
+    ['characters?']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uaznlq/respect_the_playable_characters_mario_sonic_at/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Julie & Ship! (Ben 10)', 'https://redd.it/ub7xz3')
+add_data(['Julie Yamamoto'],
+'Julie Yamamoto',
+False,
+True,
+[
+    ['Ben (10|Ten(nyson)?)'], ['(Omn|Ulti)itrix']
+],
+'Ben 10',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ub7xz3/respect_julie_ship_ben_10/
+
+add_data(['Julie (&|and|with) Ship'],
+'Julie Yamamoto',
+False,
+True,
+[
+    ['Ben (10|Ten(nyson)?)'], ['(Omn|Ulti)itrix']
+],
+'Ben 10',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ub7xz3/respect_julie_ship_ben_10/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jason Blood (DC Post Crisis)', 'https://redd.it/ubj4bx')
+add_data(['Jason Blood'],
+'Jason Blood',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ubj4bx/respect_jason_blood_dc_post_crisis/
+
+add_data(['Jason Blood'],
+'Jason Blood',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ubj4bx/respect_jason_blood_dc_post_crisis/
 
 ########################################
 
