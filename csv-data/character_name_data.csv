@@ -1805,7 +1805,6 @@ Batwing,Batwing,f
 Cheetah,Cheetah,f
 Barbara Minerva,Cheetah,f
 Etrigan,Etrigan,f
-Jason Blood,Etrigan,f
 Jedah Dohma,Jedah Dohma,f
 Talon,Talon,f
 Elastigirl,Elastigirl,f
@@ -1906,6 +1905,7 @@ Stoick,Stoick the Vast,f
 Thornado,Thornado the Thunderdrum,f
 Skullcrusher,Skullcrusher,f
 (Ruffnut|Tuffnut),"Ruffnut, Tuffnut, Barf and Belch",f
+Jason Blood,Jason Blood,f
 Snotlout,Snotlout,f
 Hookfang,Hookfang,f
 Fishlegs,Fishlegs,f
@@ -9570,7 +9570,6 @@ Jet ?stream Sam,Jetstream Sam,f
 Psycho Mantis,Psycho Mantis,f
 Quiet,Quiet,f
 Sahelanthropus,Sahelanthropus,f
-(Senator|Steven) Armstrong,Senator Armstrong,f
 Sniper Wolf,Sniper Wolf,f
 Solid Snake,Solid Snake,f
 Winds of Destruction,Winds of Destruction,t
@@ -9664,6 +9663,7 @@ Ereshkigal,Ereshkigal,f
 Enkidu,Enkidu,f
 Satoru Gojo|Goji Satoru,Satoru Gojo,f
 Sh(ao|oa) K(ah|ha)ns?,Shao Kahn,f
+(Senator|Steven) Arm ?strong,Senator Armstrong,f
 Berserker,Berserker,f
 Pisces Aphrodite,Pisces Aphrodite,f
 Witchblade,Witchblade,f
@@ -12288,3 +12288,16 @@ Niji,Niji,f
 Ookla The Mok,Ookla The Mok,f
 Doc Green,Doc Green,f
 Professor Hulk,Professor Hulk,f
+Kuroko,Kuroko,f
+Wonder Of U,Wonder Of U,f
+Hobbs,Hobbs,f
+Scary Monsters,Scary Monsters,f
+Heptadd,Heptadd,f
+Necromorph,Necromorph,f
+Barbra Streisand,Barbra Streisand,f
+Crimson Hawk Ranger,Crimson Hawk Ranger,f
+Mario (&|and) Sonic at the Olympic Games,Mario & Sonic at the Olympic Games,f
+Julie Yamamoto,Julie Yamamoto,f
+Julie (&|and|with) Ship,Julie Yamamoto,f
+Poltergasm,Poltergasm,f
+Mahito,Mahito,f

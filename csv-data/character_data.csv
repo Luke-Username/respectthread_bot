@@ -18894,8 +18894,6 @@ Wing and Wei,"{`"Air(-| )bender`"}",t,{13494},Avatar: TLA
 Wing and Wei,{Korra},t,{13494},Avatar: TLA
 Wing and Wei,{A?T?LOK},t,{13494},Avatar: TLA
 Wing and Wei,{Beifong},t,{13494},Avatar: TLA
-Hal Jordan,"{`"Green Lantern:?( The)? Animated Series`"}",t,{13495},Green Lantern: The Animated Series
-Hal Jordan,"{`"Green Lantern ?\\((The )?Animated Series`"}",t,{13495},Green Lantern: The Animated Series
 Sally,{BOFURI},f,{13496},BOFURI
 Sally,"{`"Max Out My Defense`"}",f,{13496},BOFURI
 Kami,"{`"Dragon ?Ball`"}",f,{13497},Dragon Ball
@@ -22262,9 +22260,9 @@ Xenovia Quarta,"{`"High ?school DxD`"}",t,{3485},High School DxD
 Yuuto Kiba,"{`"High ?school DxD`"}",t,{3486},High School DxD
 John Walker,{MCU},f,{},MCU
 The Mountain,"{`"Game of Thrones`"}",f,"{6119,87}",Game of Thrones
-The Mountain,{GoT},f,"{6119,87}",Game of Thrones
 The Mountain,"{`"Song of Ice`"}",f,"{6119,87}",Game of Thrones
 The Mountain,{ASOIAF},f,"{6119,87}",Game of Thrones
+The Mountain,"{`"\\(GoT\\)`"}",f,"{6119,87}",Game of Thrones
 Bog,{RHG},f,{17254},RHG
 Elyas,"{`"Wheel of Time`"}",f,{6036},The Wheel of Time
 Elyas,{WOT},f,{6036},The Wheel of Time
@@ -25630,7 +25628,6 @@ Dakkon,"{`"Magic:? The Gathering`"}",t,{21145},Magic: The Gathering
 Dakkon,{M:?TG},t,{21145},Magic: The Gathering
 Dakkon,"{`"Dakkon Blackblade`"}",t,{21145},Magic: The Gathering
 Spider-Man,"{`"Live action Spider(-| )?Man`"}",f,"{302,113,261}",Live-Action
-Sonic,"{`"Movie Sonic`"}",f,"{8607,17670}",2020 film
 Sonic,"{`"Sonic ?\\(Film\\)`"}",f,"{8607,17670}",2020 film
 Saiki,"{`"Saiki \\((The )?Disastrous Life of Saiki`"}",f,{4732},The Disastrous Life of Saiki K.
 Saiki,"{`"Saiki (vs|or)`"}",f,{4732},The Disastrous Life of Saiki K.
@@ -25641,6 +25638,7 @@ Echo,"{`"Echo ?\\(Marvel Cinematic Universe`"}",f,{21147},MCU
 Echo,"{`"Echo ?\\(MCU`"}",f,{21147},MCU
 Echo,"{MCU,`"martial arti?st?`"}",f,{21147},MCU
 Swordsman,"{`"Swordsman ?\\(Marvel Cinematic Universe`"}",f,{21148},MCU
+Sonic,"{`"Movie Sonic|Sonic Movie`"}",f,"{8607,17670}",2020 film
 Swordsman,"{`"Swordsman ?\\(MCU`"}",f,{21148},MCU
 Swordsman,"{Duquesne,`"Marvel Cinematic Universe`"}",f,{21148},MCU
 Swordsman,"{Duquesne,MCU}",f,{21148},MCU
@@ -27005,3 +27003,39 @@ Professor Hulk,{616},t,{21789},616
 Professor Hulk,"{`"Marvel Cinematic Universe`"}",t,{21789},MCU
 Professor Hulk,{MCU},t,{21789},MCU
 Professor Hulk,"{`"End ?game`"}",t,{21789},MCU
+Hal Jordan,"{`"Green Lantern:?( The)? Animated Series`"}",f,{13495},Green Lantern: The Animated Series
+Hal Jordan,"{`"Green Lantern ?\\((The )?Animated Series`"}",f,{13495},Green Lantern: The Animated Series
+Kuroko,"{`"To ?aru`"}",f,{10797},Toaru Majutsu no Index
+Kuroko,{Index(verse)?},f,{10797},Toaru Majutsu no Index
+Kuroko,{TAMNI},f,{10797},Toaru Majutsu no Index
+Kuroko,{Raildex},f,{10797},Toaru Majutsu no Index
+Wonder Of U,{Jojos?(verse)?},t,{16353},Jojos Bizarre Adventure
+Wonder Of U,{JJBA},t,{16353},Jojos Bizarre Adventure
+Hobbs,"{`"Fast (&|and) Furious`"}",f,{136},The Fast and the Furious
+Hobbs,{Shaw},f,{136},The Fast and the Furious
+Hobbs,{F&F},f,{136},The Fast and the Furious
+Shaw,"{`"Fast (&|and) Furious`"}",f,{134},The Fast and the Furious
+Shaw,{F&F},f,{134},The Fast and the Furious
+Shaw,{Hobbs},f,{134},The Fast and the Furious
+Emiya,"{`"Counter Guardian`"}",f,{6247},Fate
+Scary Monsters,{Jojos?(verse)?},f,{3618},Jojos Bizarre Adventure
+Scary Monsters,{JJBA},f,{3618},Jojos Bizarre Adventure
+Heptadd,{Chaotic},t,{21801},Chaotic
+Akuma,{Tekken},f,{21802},Tekken
+Necromorph,"{`"Alien:? Prototype`"}",f,{21803},Alien: Prototype
+Barbra Streisand,"{`"South Park`"}",f,{21804},South Park
+Crimson Hawk Ranger,"{`"Power Rangers?`"}",t,{21805},Power Rangers
+Ryu,"{`"Power Rangers?`",`"Legacy Wars`"}",f,{21805},Power Rangers
+Mario & Sonic at the Olympic Games,{characters?},t,{21806},""
+Julie Yamamoto,"{`"Ben (10|Ten(nyson)?)`"}",t,{21807},Ben 10
+Julie Yamamoto,{(Omn|Ulti)itrix},t,{21807},Ben 10
+Jason Blood,"{`"\\(DC( Comics)?\\)`"}",t,{21808},DC
+Jason Blood,"{`"\\[DC( Comics)?\\]`"}",t,{21808},DC
+Jason Blood,{PC},f,{21808},Post-Crisis
+Jason Blood,"{`"Posts?(-| )?C(risis)?`"}",f,{21808},Post-Crisis
+Jason Blood,"{`"New(-| )Earth`"}",f,{21808},Post-Crisis
+Ecco,{Gotham},f,{21809},Gotham
+Poltergasm,"{`"American Dad`"}",f,{21810},American Dad!
+Poltergasm,{Francines?},f,{21810},American Dad!
+Mahito,"{`"Jujus?t?s?u Kaisen`"}",t,{21811},Jujutsu Kaisen
+Mahito,{JJK},t,{21811},Jujutsu Kaisen
