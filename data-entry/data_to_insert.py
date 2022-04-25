@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 8173, 'Respect Metallo, the Man with the Kryptonite Heart! (DC, Post-Crisis)', 'https://redd.it/u9u5al')
+update_respectthread(cur, 1723, 'Respect Etrigan the Demon (DC Post Crisis)', 'https://redd.it/ubmaxq')
 
 ########################################
 
@@ -346,6 +347,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ubj4bx/respect_jason_blood_dc_post_crisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ecco (Gotham)', 'https://redd.it/ublt09')
+add_data(['Ecco'],
+'Ecco',
+False,
+False,
+[
+    ['Gotham']
+],
+'Gotham',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ublt09/respect_ecco_gotham/
+
+########################################
+
+id = get_rt_id(cur, "Respect Francine''s Polteragasm (American Dad!)", 'https://redd.it/ubnvcy')
+add_data(['Poltergasm'],
+'Poltergasm',
+False,
+False,
+[
+    ['American Dad'], ['Francines?']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ubnvcy/respect_francines_polteragasm_american_dad/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mahito (Jujutsu Kaisen)', 'https://redd.it/ubqu00')
+add_data(['Mahito'],
+'Mahito',
+False,
+True,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ubqu00/respect_mahito_jujutsu_kaisen/
 
 ########################################
 
