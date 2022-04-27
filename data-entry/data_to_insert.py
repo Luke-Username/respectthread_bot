@@ -107,6 +107,79 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Super Dinosaur (Super Dinosaur)', 'https://redd.it/ubxw9a')
+add_data(['Super Dinosaur'],
+'Super Dinosaur',
+False,
+False,
+[
+    ['Super Dinosaur.*Super Dinosaur']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ubxw9a/respect_super_dinosaur_super_dinosaur/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hex! (Ben 10 Classic)', 'https://redd.it/uce280')
+add_data(['Hex'],
+'Hex',
+False,
+False,
+[
+    ['Ben (10|Ten(nyson)?)']
+],
+'Ben 10',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uce280/respect_hex_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, "Respect: Superior! (from Mark Millar''s comic Superior)", 'https://redd.it/ucfq03')
+add_data(['Superior'],
+'Superior',
+False,
+False,
+[
+    ['Mark Millar']
+],
+'Mark Millar',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ucfq03/respect_superior_from_mark_millars_comic_superior/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ethan Avery, Damage (DC, Rebirth)', 'https://redd.it/ucg82q')
+add_data(['Damage'],
+'Damage',
+False,
+False,
+[
+    ['Ethan Avery']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ucg82q/respect_ethan_avery_damage_dc_rebirth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Atalanta, The Greek Huntress (Fate)', 'https://redd.it/ucn64o')
+add_data(['Atalanta'],
+'Atalanta',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ucn64o/respect_atalanta_the_greek_huntress_fate/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
