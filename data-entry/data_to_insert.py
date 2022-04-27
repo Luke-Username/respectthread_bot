@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 7544, 'Respect Kokushibo, Upper Moon One (Kimetsu no Yaiba)', 'https://redd.it/ude3zn')
+
+########################################
+
+add_data(['Josuke'],
+'Josuke Higashikata',
+False,
+False,
+[
+    ['Soft (&|and) Wet']
+],
+'Part 8',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ud2sfm/could_josukes_soft_and_wet_bypass_gojos_limitless/
+
+########################################
+
+add_data(['Dracula'],
+'Dracula',
+False,
+False,
+[
+    ['(Novel|Book) Dracula']
+],
+'Bram Stoker',
+'{6142}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ud2fko/blade_runs_a_vampire_killing_gauntlet_who_does_he/i6e5kl7/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Super Dinosaur (Super Dinosaur)', 'https://redd.it/ubxw9a')
 add_data(['Super Dinosaur'],
 'Super Dinosaur',
@@ -167,6 +199,33 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Mr. Worth (DC, Rebirth)', 'https://redd.it/ud4gdn')
+add_data(['Mr\.? Worth'],
+'Mr. Worth',
+False,
+False,
+[
+    ['Prime(-| )Earth'], ['Rebirth']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ud4gdn/respect_mr_worth_dc_rebirth/
+
+add_data(['Mr\.? Worth'],
+'Mr. Worth',
+False,
+False,
+[
+    ['DC']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ud4gdn/respect_mr_worth_dc_rebirth/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Atalanta, The Greek Huntress (Fate)', 'https://redd.it/ucn64o')
 add_data(['Atalanta'],
 'Atalanta',
@@ -179,6 +238,99 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ucn64o/respect_atalanta_the_greek_huntress_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Chosen (XCOM 2: War of the Chosen)', 'https://redd.it/ud8m00')
+add_data(['The Chosen'],
+'The Chosen',
+True,
+False,
+[
+    ['XCOM2?']
+],
+'XCOM',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ud8m00/respect_the_chosen_xcom_2_war_of_the_chosen/
+
+add_data(['Chosen'],
+'Chosen',
+True,
+False,
+[
+    ['XCOM ?2']
+],
+'XCOM',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ud8m00/respect_the_chosen_xcom_2_war_of_the_chosen/
+
+add_data(['The Assassin'],
+'The Assassin',
+False,
+False,
+[
+    ['XCOM2?']
+],
+'XCOM',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ud8m00/respect_the_chosen_xcom_2_war_of_the_chosen/
+
+add_data(['The Hunter'],
+'The Hunter',
+False,
+False,
+[
+    ['XCOM2?']
+],
+'XCOM',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ud8m00/respect_the_chosen_xcom_2_war_of_the_chosen/
+
+add_data(['The Warlock'],
+'The Warlock',
+False,
+False,
+[
+    ['XCOM2?']
+],
+'XCOM',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ud8m00/respect_the_chosen_xcom_2_war_of_the_chosen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yuta Okkotsu and Rika (Jujutsu Kaisen)', 'https://redd.it/uddrdy')
+add_data(['Yuta'],
+'Yuta',
+False,
+False,
+[
+    ['Okkotsu'], ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uddrdy/respect_yuta_okkotsu_and_rika_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ryu Ishigori (Jujutsu Kaisen)', 'https://redd.it/udds27')
+add_data(['Ryu Ishigori|Ishigori Ryu'],
+'Ryu Ishigori',
+False,
+True,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/udds27/respect_ryu_ishigori_jujutsu_kaisen/
 
 ########################################
 
