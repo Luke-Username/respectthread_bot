@@ -107,6 +107,44 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Megatron'],
+'Megatron',
+False,
+False,
+[
+    ['Revenge of the Fallen']
+],
+'Transformers Films',
+'{338}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/uf93mm/megatron_vs_bumblebee/i6s1ha4/?context=3
+
+add_data(['Bumblebee'],
+'Bumblebee',
+False,
+False,
+[
+    ['Revenge of the Fallen']
+],
+'Transformers Films',
+'{16016}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/uf93mm/megatron_vs_bumblebee/i6s1ha4/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Princess Daisy! (Mario & Sonic at the Olympic Games)', 'https://redd.it/uf921n')
+add_data(['Princess Daisy'],
+'Princess Daisy',
+False,
+False,
+[
+    ['Olympic Games']
+],
+'Mario & Sonic at the Olympic Games',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uf921n/respect_princess_daisy_mario_sonic_at_the_olympic/
 
 ########################################
 
