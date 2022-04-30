@@ -6033,8 +6033,6 @@ Human Torch,{comics?},t,{2071},616
 Johnny Storm,{616},t,{2071},616
 Johnny Storm,{Marvel},t,{2071},616
 Johnny Storm,{comics?},t,{2071},616
-Human Torch,"{`"Tim Story`"}",f,{8573},121698
-Johnny Storm,"{`"Tim Story`"}",f,{8573},121698
 Ben Grimm,{616},t,{2072},616
 Ben Grimm,{Marvel},t,{2072},616
 Ben Grimm,{comics?},t,{2072},616
@@ -6068,6 +6066,7 @@ Red Shift,{Herald},t,{2081},616
 Red Shift,{Galactus},t,{2081},616
 Red Shift,{616},t,{2081},616
 Marquis of Death,{616},t,{2584},Marvel
+Human Torch,"{`"Tim Story`"}",f,{8573},Fantastic Four Movies
 Red Shift,{Marvel},t,{2081},616
 Firelord,{Herald},f,{2082},616
 Firelord,{Galactus},f,{2082},616
@@ -9268,12 +9267,6 @@ Red Guardian,{Marvel},t,{8424},616
 Red Guardian,{616},t,{8424},616
 Presea Combatir,{Symphonia},t,{8425},Tales of Symphonia
 Yggdrasill,{Symphonia},f,{8426},Tales of Symphonia
-Silver Surfer,{ROTSS},f,{8427},121698
-Silver Surfer,{121698},f,{8427},121698
-Silver Surfer,"{`"Movie Silver Surfer`"}",f,{8427},121698
-Silver Surfer,"{`"Fantastic 4 \\(movie\\)`"}",f,{8427},121698
-Silver Surfer,{FOX(verse)?},f,{8427},121698
-Silver Surfer,"{2007,film}",f,{8427},121698
 Ichigo,"{`"Hell ?Verse`"}",f,{8428},Bleach: Hell Verse
 Bob Richards,{Tekken},f,{8429},Tekken
 Gon,"{`"Gon \\(Origin\\)`"}",f,{8430},Origin
@@ -9282,7 +9275,7 @@ Reginald,"{`"Sword Interval`"}",f,{8432},Sword Interval
 Reggie,"{`"Sword Interval`"}",f,{8432},Sword Interval
 Alexandra Ivanova,"{`"Sword Interval`"}",t,{8433},Sword Interval
 Kurse,{616},t,{1973},616
-Silver Surfer,"{`"Rise of (the )?Silver Surfer`"}",f,{8427},121698
+Silver Surfer,{ROTSS},f,{8427},Fantastic Four Movies
 Marco Tousi,"{`"Sword Interval`"}",t,{8434},Sword Interval
 Red Rover,"{`"Sword Interval`"}",f,{8434},Sword Interval
 Mah Yun,"{`"Sword Interval`"}",f,{8435},Sword Interval
@@ -9701,9 +9694,6 @@ Tyson,{Percy},f,{8570},Heroes of Olympus
 Jake Rivers,"{`"Trigger Warning`"}",f,{8571},Trigger Warning
 Thing,"{`"Fred and Barney Meet the Thing`"}",f,{8572},700974
 Thing,{700974},f,{8572},700974
-Fantastic Four,{2005},f,{8573},121698
-Fantastic Four,{2007},f,{8573},121698
-Fantastic Four,{FOX(verse)?},f,{8573},121698
 Paul Blart,"{`"Mall Cop`"}",t,{8574},Paul Blart: Mall Cop
 Angel,{Fox(verse)?},f,{8575},FOX
 Angel,"{`"X-?Men Cinematic Universe`"}",f,{8575},FOX
@@ -24136,7 +24126,6 @@ Superman,"{`"Death Battle`"}",f,{1272},DEATH BATTLE!
 Wally West,"{`"Death Battle`"}",f,{13280},DEATH BATTLE!
 Killer Bean,"{`"Killer Bean Forever`"}",t,{1214},""
 Kintoki,{Fate},f,{20242},Fate
-Mongal,"{`"DC ?(E|C)U`"}",f,{},DCEU
 Caliborn,{Homestuck},t,{2877},Homestuck
 Gwenom,{65},t,{15420},65
 Ghost-Spider,{65},t,{15420},65
@@ -24469,11 +24458,6 @@ Two-Face,"{`"vs\\. Two(-| )?Face`"}",t,{20335},DC
 Two-Face,"{`"Bat(-| )?man`"}",t,{20335},DC
 Mongal,"{`"Posts?(-| )?C(risis)?`"}",f,{20336},Post-Crisis
 Mongal,{PC},f,{20336},Post-Crisis
-Mongal,"{`"New(-| )Earth`"}",f,{20336},Post-Crisis
-Mongal,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{20336},DC
-Mongal,"{`"Suicide Squad`"}",f,{},DCEU
-Mongal,"{`"DC Extended Universe`"}",f,{},DCEU
-Mongal,"{`"DC Cinematic Universe`"}",f,{},DCEU
 Hemo-Goblin,{DC},t,{20337},Post-Crisis
 Hemo-Goblin,"{`"Posts?(-| )?C(risis)?`"}",t,{20337},Post-Crisis
 Hemo-Goblin,{PC},t,{20337},Post-Crisis
@@ -26071,7 +26055,6 @@ Hei-Ran,{Avatar},t,{21312},Avatar: TLA
 Hei-Ran,{A?TLA},t,{21312},Avatar: TLA
 Hei-Ran,{Bend(er|ing)},t,{21312},Avatar: TLA
 Hei-Ran,{Kyoshi},t,{21312},Avatar: TLA
-Galactus,"{`"Galactus.*Movie Version`"}",f,{},121698
 Batman,"{`"Batman:? Year One`"}",f,{},Aronofsky
 Batman,{Darren},f,{},Aronofsky
 Batman,"{`"Earth One`"}",f,{},Earth One
@@ -26087,6 +26070,7 @@ Ainz,"{`"vs\\.? Ainz`"}",t,"{21299,21310,21318}",Overlord
 Ainz,"{`"Ainz vs`"}",t,"{21299,21310,21318}",Overlord
 Spider-Bite,{Nathan},t,{21313},616
 The Deep,"{`"The Boys?`"}",f,{21316},"The Boys, 2019"
+Galactus,"{`"Galactus.*Movie Version`"}",f,{},Fantastic Four Movies
 Flash,"{`"Flash \\(Barry( Allen)?\\)`"}",f,{1582},New 52 / Rebirth
 Stormfront,"{`"The Boys`"}",f,{21319},"The Boys, 2019"
 Stormfront,{Homelander},f,{21319},"The Boys, 2019"
@@ -26475,6 +26459,7 @@ Nightcrawler,"{`"X-?Men Cinematic Universe`"}",f,{21526},FOX
 Nightcrawler,{XCU},f,{21526},FOX
 SCP-457,"{`"Burning Man`"}",t,{21527},""
 Batmobile,"{`"\\(DC( Comics)?\\)`"}",t,{21523},DC
+Mongal,"{`"DC ?(E|C)U`"}",f,{},DCEU
 SCP-6630,"{`"Fire On the Horizon`"}",t,{21528},""
 E.M.M.I.s,{Metroid},t,{21529},Metroid
 Sonic.EXE,{Creepypasta},t,{21530},Creepypasta
@@ -27039,3 +27024,56 @@ Poltergasm,"{`"American Dad`"}",f,{21810},American Dad!
 Poltergasm,{Francines?},f,{21810},American Dad!
 Mahito,"{`"Jujus?t?s?u Kaisen`"}",t,{21811},Jujutsu Kaisen
 Mahito,{JJK},t,{21811},Jujutsu Kaisen
+Mongal,"{`"New(-| )Earth`"}",f,{20336},Post-Crisis
+Mongal,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{20336},DC
+Mongal,"{`"Suicide Squad`"}",f,{},DCEU
+Mongal,"{`"DC Extended Universe`"}",f,{},DCEU
+Mongal,"{`"DC Cinematic Universe`"}",f,{},DCEU
+Johnny Storm,"{`"Tim Story`"}",f,{8573},Fantastic Four Movies
+Silver Surfer,{121698},f,{8427},Fantastic Four Movies
+Silver Surfer,"{`"Movie Silver Surfer`"}",f,{8427},Fantastic Four Movies
+Silver Surfer,"{`"Fantastic 4 \\(movie\\)`"}",f,{8427},Fantastic Four Movies
+Silver Surfer,{FOX(verse)?},f,{8427},Fantastic Four Movies
+Silver Surfer,"{2007,film}",f,{8427},Fantastic Four Movies
+Silver Surfer,"{`"Rise of (the )?Silver Surfer`"}",f,{8427},Fantastic Four Movies
+Fantastic Four,{2005},f,{8573},Fantastic Four Movies
+Fantastic Four,{2007},f,{8573},Fantastic Four Movies
+Fantastic Four,{FOX(verse)?},f,{8573},Fantastic Four Movies
+Josuke Higashikata,"{`"Soft (&|and) Wet`"}",f,{3628},Part 8
+Dracula,"{`"(Novel|Book) Dracula`"}",f,{6142},Bram Stoker
+Deathstroke,"{`"Teen Titans`",2003}",f,{974},Teen Titans
+Super Dinosaur,"{`"Super Dinosaur.*Super Dinosaur`"}",f,{21836},""
+Hex,"{`"Ben (10|Ten(nyson)?)`"}",f,{21837},Ben 10
+Superior,"{`"Mark Millar`"}",f,{21838},Mark Millar
+Damage,"{`"Ethan Avery`"}",f,{21839},Rebirth
+Mr. Worth,"{`"Prime(-| )Earth`"}",f,{21840},Rebirth
+Mr. Worth,{Rebirth},f,{21840},Rebirth
+Mr. Worth,{DC},f,{21840},DC
+Atalanta,{Fate},f,{21841},Fate
+The Chosen,{XCOM2?},f,{21842},XCOM
+Chosen,"{`"XCOM ?2`"}",f,{21842},XCOM
+The Assassin,{XCOM2?},f,{21842},XCOM
+The Hunter,{XCOM2?},f,{21842},XCOM
+The Warlock,{XCOM2?},f,{21842},XCOM
+Yuta,{Okkotsu},f,{21843},Jujutsu Kaisen
+Yuta,"{`"Jujus?t?s?u Kaisen`"}",f,{21843},Jujutsu Kaisen
+Yuta,{JJK},f,{21843},Jujutsu Kaisen
+Ryu Ishigori,"{`"Jujus?t?s?u Kaisen`"}",t,{21844},Jujutsu Kaisen
+Ryu Ishigori,{JJK},t,{21844},Jujutsu Kaisen
+Finn,"{`"S(tar )?Wars`"}",f,"{21845,21846}",Star Wars
+Finn,"{Rey,Kylo|ROS|Poe|Force}",f,"{21845,21846}",Star Wars
+Finn,"{`"Rise of Skywalker`"}",f,"{21845,21846}",Star Wars
+Princess Daisy,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",f,{21847},Super Smash Bros
+Princess Daisy,{SSBB},f,{21847},Super Smash Bros
+Nerd Hulk,{1610},t,{21848},1610
+Dynasty,"{`"Lone Star Press`"}",f,{21849},Lone Star Press
+Dynasty,{Dynasty.*Pantheon},f,{21849},Lone Star Press
+Tangtong,"{`"Dragon Boy`"}",f,{21850},Dragon Boy
+Bumblebee,"{`"DC Super Hero Girls`"}",f,{21851},DC Super Hero Girls
+Zatanna,"{`"DC Super Hero Girls`"}",f,{21852},DC Super Hero Girls
+Batgirl,"{`"DC Super Hero Girls`"}",f,{21853},DC Super Hero Girls
+Supergirl,"{`"DC Super Hero Girls`"}",f,{21854},DC Super Hero Girls
+Wonder Woman,"{`"DC Super Hero Girls`"}",f,{21855},DC Super Hero Girls
+Green Lantern,"{`"DC Super Hero Girls`"}",f,{21856},DC Super Hero Girls
+Michelangelo,{Ronin},f,{21857},The Last Ronin
+Rojo,"{`"Ben (10|Ten(nyson)?)`"}",f,{21859},Ben 10

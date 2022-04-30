@@ -15,9 +15,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Mongal';
-UPDATE character SET displayed_version_name='Fantastic Four Movies' WHERE displayed_version_name='121698';
-
 ########################################
 
 ########################################
