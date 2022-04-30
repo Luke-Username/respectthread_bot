@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 7544, 'Respect Kokushibo, Upper Moon One (Kimetsu no Yaiba)', 'https://redd.it/ude3zn')
+update_respectthread(cur, 3475, 'Respect Alexander Anderson (Hellsing)', 'https://redd.it/uf2cxo')
 
 ########################################
 
@@ -136,6 +137,20 @@ False,
 '{6142}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/ud2fko/blade_runs_a_vampire_killing_gauntlet_who_does_he/i6e5kl7/?context=3
+
+########################################
+
+add_data(['Death(-| )?stroke'],
+'Deathstroke',
+False,
+False,
+[
+    ['Teen Titans', '2003']
+],
+'Teen Titans',
+'{974}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/uea9xw/the_batman_2004_vs_deathstroke_teen_titans_2003/i6n0d1d/?context=3
 
 ########################################
 
@@ -331,6 +346,229 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/udds27/respect_ryu_ishigori_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Finn (Star Wars) feat repository', 'https://redd.it/657ysg')
+id2 = get_rt_id(cur, 'Star Wars: Finn Respect Thread', 'https://comicvine.gamespot.com/forums/star-wars-universe-1943200/star-wars-finn-respect-thread-1756815/')
+add_data(['Finn'],
+'Finn',
+False,
+False,
+[
+    ['S(tar )?Wars'], ['Rey', 'Kylo|ROS|Poe|Force'], ['Rise of Skywalker']
+],
+'Star Wars',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/udunn5/finn_star_wars_vs_okoye_mcu/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Princess Daisy! (Super Smash Bros.)', 'https://redd.it/udr16s')
+add_data(['Princess Daisy'],
+'Princess Daisy',
+False,
+False,
+[
+    ['Smash (Bro(ther)?s?|Ultimate)'], ['SSBB']
+],
+'Super Smash Bros',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/udr16s/respect_princess_daisy_super_smash_bros/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nerd Hulk (Marvel, 1610)', 'https://redd.it/udvusz')
+add_data(['Nerd Hulk'],
+'Nerd Hulk',
+False,
+True,
+[
+    ['1610']
+],
+'1610',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/udvusz/respect_nerd_hulk_marvel_1610/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Dynasty! (Lone Star Press)', 'https://redd.it/ue0hzh')
+add_data(['Dynasty'],
+'Dynasty',
+False,
+False,
+[
+    ['Lone Star Press'], ['Dynasty.*Pantheon']
+],
+'Lone Star Press',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ue0hzh/respect_dynasty_lone_star_press/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tangtong (Dragon Boy)', 'https://redd.it/ue123w')
+add_data(['Tangtong'],
+'Tangtong',
+False,
+False,
+[
+    ['Dragon Boy']
+],
+'Dragon Boy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ue123w/respect_tangtong_dragon_boy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bumblebee (DC Super Hero Girls)', 'https://redd.it/ue88ry')
+add_data(['Bumblebee'],
+'Bumblebee',
+False,
+False,
+[
+    ['DC Super Hero Girls']
+],
+'DC Super Hero Girls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ue88ry/respect_bumblebee_dc_super_hero_girls/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zatanna (DC Super Hero Girls)', 'https://redd.it/ue8xf0')
+add_data(['Zatanna'],
+'Zatanna',
+False,
+False,
+[
+    ['DC Super Hero Girls']
+],
+'DC Super Hero Girls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ue8xf0/respect_zatanna_dc_super_hero_girls/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Batgirl (DC Super Hero Girls)', 'https://redd.it/ue94cs')
+add_data(['Batgirl'],
+'Batgirl',
+False,
+False,
+[
+    ['DC Super Hero Girls']
+],
+'DC Super Hero Girls',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Supergirl (DC Super Hero Girls)', 'https://redd.it/ue9nwf')
+add_data(['Supergirl'],
+'Supergirl',
+False,
+False,
+[
+    ['DC Super Hero Girls']
+],
+'DC Super Hero Girls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ue9nwf/respect_supergirl_dc_super_hero_girls/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wonder Woman (DC Super Hero Girls)', 'https://redd.it/ue9wyz')
+add_data(['Wonder ?Woman'],
+'Wonder Woman',
+False,
+False,
+[
+    ['DC Super Hero Girls']
+],
+'DC Super Hero Girls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ue9wyz/respect_wonder_woman_dc_super_hero_girls/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Green Lantern (DC Super Hero Girls)', 'https://redd.it/ue8l5d')
+add_data(['Green Lantern'],
+'Green Lantern',
+False,
+False,
+[
+    ['DC Super Hero Girls']
+],
+'DC Super Hero Girls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ue8l5d/respect_green_lantern_dc_super_hero_girls/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Ronin (Teenage Mutant Ninja Turtles: The Last Ronin)', 'https://redd.it/ue8iuk')
+add_data(['Michelangelo'],
+'Michelangelo',
+False,
+False,
+[
+    ['Ronin']
+],
+'The Last Ronin',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ue8iuk/respect_the_ronin_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wilson Fisk, the Kingpin (Marvel Cinematic Universe)', 'https://redd.it/uemrsc')
+add_data(['Wilson Fisk'],
+'Wilson Fisk',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uemrsc/respect_wilson_fisk_the_kingpin_marvel_cinematic/
+
+add_data(['King ?pin'],
+'Kingpin',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uemrsc/respect_wilson_fisk_the_kingpin_marvel_cinematic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rojo (Ben 10 Classic)', 'https://redd.it/uf058p')
+add_data(['Rojo'],
+'Rojo',
+False,
+False,
+[
+    ['Ben (10|Ten(nyson)?)']
+],
+'Ben 10',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uf058p/respect_rojo_ben_10_classic/
 
 ########################################
 

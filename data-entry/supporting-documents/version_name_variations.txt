@@ -3253,7 +3253,8 @@ Super Robot Monkey Team Hyper Force Go!
 
 Super Smash Bros
 	Version
-		'{"Smash (Bro(ther)?s?|Ultimate)"}', '{"SSBB"}', r'{"\\(Smash"}'
+		['Smash (Bro(ther)?s?|Ultimate)'], ['SSBB']
+		['\(Smash']
 	Displayed Version Name
 		"Super Smash Bros"
 
