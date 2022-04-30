@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Old Woman Laura (Marvel Earth-18366)', 'https://redd.it/thw1zb'); SELECT * FROM respectthread WHERE link='https://redd.it/thw1zb';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Old Woman Laura';
+
 ########################################
 
 ########################################
