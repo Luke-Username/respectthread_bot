@@ -291,6 +291,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Numan Athletes (Numan Athlethics)', 'https://redd.it/ug1k5f')
+add_data(['Numan Athletes'],
+'Numan Athletes',
+False,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ug1k5f/respect_the_numan_athletes_numan_athlethics/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
