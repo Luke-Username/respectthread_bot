@@ -509,7 +509,7 @@ Chainsaw Man
 
 Character Scramble
 	Version
-		'{"Character Scramble"}'
+		['Character Scramble']
 	Displayed Version Name
 		"Character Scramble"
 

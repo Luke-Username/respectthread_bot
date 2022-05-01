@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Loki'],
+'Loki',
+False,
+False,
+[
+    ['The Mask']
+],
+'The Mask',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ufttnj/kars_vs_loki_jojos_bizarre_adventure_vs_the_mask/i6vomcb/?context=3
+
+########################################
+
 add_data(['Megatron'],
 'Megatron',
 False,
@@ -145,6 +159,97 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/uf921n/respect_princess_daisy_mario_sonic_at_the_olympic/
+
+########################################
+
+id = get_rt_id(cur, 'RESPECT Deathstroke (DCYou)', 'https://redd.it/agpiz2')
+add_data(['Death(-| )?stroke'],
+'Deathstroke',
+False,
+False,
+[
+    ['Post(-| )?Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '1577, {}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ufv8dp/deathstroke_dc_vs_akame_akame_ga_kill/i6vw7pk/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Avicebron, the Golem Master (Fate)', 'https://redd.it/ufib3p')
+add_data(['Avicebron'],
+'Avicebron',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ufib3p/respect_avicebron_the_golem_master_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Karolina Dean (Runaways/Marvel Cinematic Universe)', 'https://redd.it/ufmuuo')
+add_data(['Karolina Dean'],
+'Karolina Dean',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU'],
+    ['Runaways']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ufmuuo/respect_karolina_dean_runawaysmarvel_cinematic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Myaxx (Ben 10 Classic)', 'https://redd.it/ufr0ql')
+add_data(['Myaxx'],
+'Myaxx',
+False,
+True,
+[
+    ['Ben (10|Ten(nyson)?)'], ['(Omn|Ulti)itrix']
+],
+'Ben 10',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ufr0ql/respect_myaxx_ben_10_classic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Saxton Hale (Character Scramble) (Season 15)', 'https://redd.it/ufvt2q')
+add_data(['Saxton Hale'],
+'Saxton Hale',
+False,
+False,
+[
+    ['Character Scramble']
+],
+'Character Scramble',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ufvt2q/respect_saxton_hale_character_scramble_season_15/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bugsnax (Bugsnax)', 'https://redd.it/ufwhrn')
+add_data(['Bugsnax'],
+'Bugsnax',
+False,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ufwhrn/respect_bugsnax_bugsnax/
 
 ########################################
 
