@@ -107,6 +107,44 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Eggman'],
+'Eggman',
+False,
+False,
+[
+    ['Jim Carreys?']
+],
+'Sonic the Hedgehog (2020 Film)',
+'{8608}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ufj1td/jim_carreys_eggman_vs_jim_carreys_riddler_in_chess/
+
+add_data(['Robotnik'],
+'Robotnik',
+False,
+False,
+[
+    ['Jim Carreys?']
+],
+'Sonic the Hedgehog (2020 Film)',
+'{8608}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ufj1td/jim_carreys_eggman_vs_jim_carreys_riddler_in_chess/
+
+add_data(['Riddler'],
+'Riddler',
+False,
+False,
+[
+    ['Jim Carreys?']
+],
+'Batman Forever',
+'{16039}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ufj1td/jim_carreys_eggman_vs_jim_carreys_riddler_in_chess/
+
+########################################
+
 add_data(['Loki'],
 'Loki',
 False,
