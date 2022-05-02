@@ -306,6 +306,46 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Major Force (DC Comics, New 52)', 'https://redd.it/ugav6b')
+add_data(['Major Force'],
+'Major Force',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'], ['Zmeck'],
+    ['Green Lantern']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ugav6b/respect_major_force_dc_comics_new_52/
+
+add_data(['Major Force'],
+'Major Force',
+False,
+False,
+[
+    ['New(-| )?52'], ['Nu?-?52'], ['Prime(-| )Earth']
+],
+'New 52',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ugav6b/respect_major_force_dc_comics_new_52/
+
+add_data(['Major Force'],
+'Major Force',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ugav6b/respect_major_force_dc_comics_new_52/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
