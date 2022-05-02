@@ -4546,15 +4546,14 @@ Deathstroke,"{`"Post(-| )52`"}",t,"{1576,1577}",New 52 / Rebirth
 Deathstroke,"{`"Prime(-| )Earth`"}",t,"{1576,1577}",New 52 / Rebirth
 Deathstroke,{Rebirth},t,"{1576,1577}",New 52 / Rebirth
 Ant-Man,{comics?},t,{1986},616
-Deathstroke,{PC},f,{1578},Post-Crisis
-Deathstroke,"{`"Post(-| )?C(risis)?`"}",f,{1578},Post-Crisis
 Devastator,"{`"\\(DC`"}",f,{1570},New 52
+Deathstroke,{PC},f,"{1578,21861}",Post-Crisis
+Deathstroke,"{`"Post(-| )?C(risis)?`"}",f,"{1578,21861}",Post-Crisis
 Freddy Freeman,"{Shazam,2019}",f,{6555},DCEU
 Freddy Freeman,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Freddy Freeman,{DCEU},f,{6555},DCEU
 Freddy Freeman,"{`"DC Cinematic Universe`"}",f,{6555},DCEU
 Freddy Freeman,{DCCU},f,{6555},DCEU
-Deathstroke,"{`"New(-| )Earth`"}",f,{1578},Post-Crisis
 Deathstroke Blue,"{`"Pre(-| )?Flashpoint`"}",t,{1579},""
 Deathstroke Blue,"{`"New(-| )Earth`"}",t,{1579},""
 Flash of China,"{`"New ?52`"}",t,{1580},Rebirth
@@ -4618,6 +4617,7 @@ Wally West,{DC},t,"{1590,1589}",""
 Wallace West,"{`"New(-| )?52`"}",f,{1591},New 52
 Wallace West,{N-?52},f,{1591},New 52
 Wallace West,"{`"Post(-| )52`"}",f,{1591},New 52
+Deathstroke,"{`"New(-| )Earth`"}",f,"{1578,21861}",Post-Crisis
 Mary Bromfield,"{Shazam,2019}",f,{6555},DCEU
 Mary Bromfield,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Mary Bromfield,{DCEU},f,{6555},DCEU
@@ -17098,7 +17098,6 @@ All Might,"{`"\\(My Hero\\)`"}",t,{3917},My Hero Academia
 All Might,{BN?HA},t,{3917},My Hero Academia
 All Might,{MHA},t,{3917},My Hero Academia
 All Might,"{`"Boku no Hero`"}",t,{3917},My Hero Academia
-Endeavor,"{`"My Hero Academia`"}",f,{3920},My Hero Academia
 Wolverine,"{`"Gulo Gulo`"}",f,{},""
 Endeavor,"{`"\\(My Hero\\)`"}",f,{3920},My Hero Academia
 Endeavor,{BN?HA},f,{3920},My Hero Academia
@@ -26594,7 +26593,6 @@ Wolverine,{MCU},f,{158},FOX
 Wolverine,"{`"Marvel Cinematic Universe`"}",f,{158},FOX
 Doom Supreme,{14412},t,{21581},14412
 Doctor Doom,{14412},f,{21581},14412
-Old Woman Laura,{18366},t,{21581},18366
 Miyamoto Usagi,"{`"Space Usagi`"}",f,{21582},Space Usagi
 Fallen One,"{`"Thanos Wins`"}",f,{21583},Thanos Wins
 Fallen One,{Norrin},f,{21583},Thanos Wins
@@ -26631,6 +26629,7 @@ Rhino,{Insomniacs?},f,{15398},Insomniac's Spider-Man
 Mister Negative,{Insomniacs?},f,{15398},Insomniac's Spider-Man
 Peter Parker,{Insomniacs?},f,{15258},Insomniac's Spider-Man
 Batman,"{`"Arkham Knights?`"}",f,{17381},Batman: Arkham
+Old Woman Laura,{18366},t,{21860},18366
 Godzilla,"{`"King of the Monsters`"}",f,{280},MonsterVerse
 Godzilla,"{`"Godzilla: King of Monsters`"}",f,{280},MonsterVerse
 Godzilla,{Legendary},f,{280},MonsterVerse
@@ -27077,3 +27076,28 @@ Wonder Woman,"{`"DC Super Hero Girls`"}",f,{21855},DC Super Hero Girls
 Green Lantern,"{`"DC Super Hero Girls`"}",f,{21856},DC Super Hero Girls
 Michelangelo,{Ronin},f,{21857},The Last Ronin
 Rojo,"{`"Ben (10|Ten(nyson)?)`"}",f,{21859},Ben 10
+Endeavor,{Ac(a|e)demia},f,{3920},My Hero Academia
+Eggman,"{`"Jim Carreys?`"}",f,{8608},Sonic the Hedgehog (2020 Film)
+Robotnik,"{`"Jim Carreys?`"}",f,{8608},Sonic the Hedgehog (2020 Film)
+Riddler,"{`"Jim Carreys?`"}",f,{16039},Batman Forever
+Loki,"{`"The Mask`"}",f,{},The Mask
+Megatron,"{`"Revenge of the Fallen`"}",f,{338},Transformers Films
+Bumblebee,"{`"Revenge of the Fallen`"}",f,{16016},Transformers Films
+Princess Daisy,"{`"Olympic Games`"}",f,{21862},Mario & Sonic at the Olympic Games
+Deathstroke,"{`"Post(-| )?Flash(-| )?point`"}",f,"{1577,21863}",Post-Flashpoint
+Avicebron,{Fate},f,{21864},Fate
+Myaxx,"{`"Ben (10|Ten(nyson)?)`"}",t,{21866},Ben 10
+Myaxx,{(Omn|Ulti)itrix},t,{21866},Ben 10
+Saxton Hale,"{`"Character Scramble`"}",f,{21867},Character Scramble
+Bugsnax,{default},t,{21868},""
+Numan Athletes,{default},t,{21869},""
+Major Force,"{`"\\(DC( Comics)?\\)`"}",f,{21870},DC
+Major Force,"{`"\\[DC( Comics)?\\]`"}",f,{21870},DC
+Major Force,{Zmeck},f,{21870},DC
+Major Force,"{`"Green Lantern`"}",f,{21870},DC
+Major Force,"{`"New(-| )?52`"}",f,{21870},New 52
+Major Force,{Nu?-?52},f,{21870},New 52
+Major Force,"{`"Prime(-| )Earth`"}",f,{21870},New 52
+Major Force,{PC},f,{},Post-Crisis
+Major Force,"{`"Posts?(-| )?C(risis)?`"}",f,{},Post-Crisis
+Major Force,"{`"New(-| )Earth`"}",f,{},Post-Crisis
