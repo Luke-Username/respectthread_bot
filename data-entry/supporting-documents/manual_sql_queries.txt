@@ -28,6 +28,9 @@ UPDATE character SET rt_id_array='{7543, ?}' WHERE rt_id_array='{7543}';
 SELECT * FROM respectthread WHERE link='https://redd.it/ugwrf3';
 UPDATE character SET rt_id_array='{1909, ??}' WHERE rt_id_array='{1909}';
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Yuchiro Kurono (Fire Force Anime)', 'https://redd.it/uhxges'); SELECT * FROM respectthread WHERE link='https://redd.it/uhxges';
+UPDATE character SET rt_id_array='{8237, ?}' WHERE rt_id_array='{8237}';
+
 ########################################
 
 ########################################

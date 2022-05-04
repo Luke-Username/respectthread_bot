@@ -107,6 +107,8 @@ cur = con.cursor()
 
 ########################################
 
+########################################
+
 add_data(['Constantine'],
 'John Constantine',
 False,
@@ -268,6 +270,35 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/uhpujz/respect_glory_buffy_the_vampire_slayer/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vaisravana (Xi Xing Ji)', 'https://redd.it/uhwu3y')
+add_data(['Vaisravana'],
+'Vaisravana',
+False,
+False,
+[
+    ['Xi Xing Ji']
+],
+'Xi Xing Ji',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uhwu3y/respect_vaisravana_xi_xing_ji/
+
+########################################
+
+add_data(['Kurono'],
+'Kurono',
+False,
+False,
+[
+    ['Fire ?Force']
+],
+'Fire Force',
+'{8237}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uhxges/respect_yuchiro_kurono_fire_force_anime/
 
 ########################################
 
