@@ -123,8 +123,6 @@ Weather Wizard,"{`"DC TV`"}",f,{27},CW Arrowverse
 Superman,"{`"DC TV`"}",f,{34},CW Arrowverse
 Cybermen,{Supreme},f,{45},"Supremacy of the Cybermen, Doctor Who"
 The Broken Hardys,{Wrestling},t,{81},Broken Universe
-Matt,{Wrestling},f,{81},Broken Universe
-Nero,{Wrestling},f,{81},Broken Universe
 Black Lady,"{`"Sailor Moon`"}",f,{4404},Sailor Moon
 The Tenth Doctor,{Whoverse},t,{40},Doctor Who
 "Grant Gordon, the Ghost",{Whoverse},f,{41},Doctor Who
@@ -6497,8 +6495,6 @@ Ephrael Stern,{WH},t,{7539},Warhammer 40k
 Agen Kolar,{Legends},t,{7540},Star Wars
 Swiper,"{`"Dora (and|&) the Lost City of Gold`"}",f,{7541},Dora and the Lost City of Gold
 Dora,"{`"Dora (and|&) the Lost City of Gold`"}",f,{7542},Dora and the Lost City of Gold
-Toichiro Suzuki,"{`"Mob Psycho`"}",t,{7543},Mob Psycho 100
-Toichiro Suzuki,{MP100},t,{7543},Mob Psycho 100
 Kokushibo,"{`"Kimetsu no Yaiba`"}",t,{7544},Kimetsu no Yaiba
 Proxima Midnight,{616},t,{7545},616
 Dark Flash,{DC},t,{7546},DC
@@ -7652,7 +7648,6 @@ Bisley Bakur,{Xillia},t,{8234},Tales of Xillia
 Gilandor Yul Svent,{Xillia},t,{8235},Tales of Xillia
 Celsius,{Xillia},f,{8235},Tales of Xillia
 Pulgasari,{Pulgasari},t,{8236},""
-Kurono Yuichiro,"{`"Fire Force`"}",t,{8237},Fire Force
 Tamaki Kotatsu,"{`"Fire Force`"}",t,{8238},Fire Force
 Tamaki,"{`"Fire Force`"}",f,{8238},Fire Force
 Shinra Kusakabe,"{`"Fire Force`"}",t,{8239},Fire Force
@@ -7662,6 +7657,7 @@ Kamen Rider Kuuga,"{`"Kamen Rider`"}",t,"{8202,17668}",""
 King Shark,"{`"Arkham ga(m|n)es?`"}",f,{8199},Batman: Arkham
 Bone Saw,{Raimi-?(verse)?},f,{8201},Raimiverse Spider-Man
 Bone Saw,"{`"Spider(-| )Man`"}",f,{8201},Raimiverse Spider-Man
+Kurono Yuichiro,"{`"Fire Force`"}",t,"{8237,21872}",Fire Force
 Takeru Noto,"{`"Fire Force`"}",t,{8241},Fire Force
 Ogun Montgomery,"{`"Fire Force`"}",t,{8242},Fire Force
 Maki Oze,"{`"Fire Force`"}",t,{8243},Fire Force
@@ -8603,7 +8599,6 @@ Wonder Woman,{PC},f,{1853},Post-Crisis
 Wonder Woman,"{`"Earth(-| )(1|One)`"}",f,{1853},Post-Crisis
 Wonder Woman,"{`"Post(-| )?C(risis)?`"}",f,{1853},Post-Crisis
 Wonder Woman,"{`"New(-| )Earth`"}",f,{1853},Post-Crisis
-Wonder Woman,"{`"DC Super ?Hero Girls`"}",f,{},DC Super Hero Girls
 Wonder-Woman of China,"{`"New(-| )?52`"}",t,{1854},Rebirth
 Wonder-Woman of China,{Nu?-?52},t,{1854},Rebirth
 Wonder-Woman of China,"{`"Post(-| )52`"}",t,{1854},Rebirth
@@ -9212,7 +9207,6 @@ The Weird,{Zarolattian},f,{1903},DC
 Ash Williams,"{`"Ash Williams \\(DC\\)`"}",f,{1904},DC
 Ash Williams,"{`"DC Ash Williams`"}",f,{1904},DC
 Captain Adam,"{`"Earth(-| )4`"}",t,{1905},Earth 4
-He-Man,{DC},f,{1909},DC
 Captain Deathstroke,"{`"Flash(-| )?point`"}",t,{1906},Flashpoint
 Forerunner,"{`"Forerunner \\(DC`"}",f,{1907},Post-Crisis
 Forerunner,"{`"Forerunner \\(PC`"}",f,{1907},Post-Crisis
@@ -9413,7 +9407,6 @@ Supersonic Sue,"{`"Big Hero`"}",t,{10848},Disney's Big Hero 6
 High Voltage,"{`"Big Hero (6|Six)`"}",f,{10849},Disney's Big Hero 6
 Chris,"{`"Big Hero (6|Six)`"}",f,{10850},Disney's Big Hero 6
 Hiro Hamada,"{`"Big Hero`"}",t,{10851},Disney's Big Hero 6
-Composite He-Man,{DC},t,{1909},""
 Jackie Estacado,"{`"The Darkness`"}",t,{1910},The Darkness
 Old Lady Harley,{DC},t,{1912},DC
 Ultra Comics,{DC},t,{1913},Earth-33
@@ -9481,6 +9474,7 @@ Iosif Nichayko,"{`"Dark ?Horse`"}",t,{1954},Hellboy
 Johann Kraus,"{`"Hell ?boy`"}",t,{1955},Hellboy
 Johann Kraus,{B.?R.?P.?D},t,{1955},Hellboy
 Johann Kraus,{Mignola(verse)?},t,{1955},Hellboy
+Composite He-Man,{DC},t,"{1909,21878}",""
 Johann Kraus,{comics?},t,{1955},Hellboy
 Johann Kraus,"{`"Dark ?Horse`"}",t,{1955},Hellboy
 Landis Pope,"{`"Hell ?boy`"}",t,{1956},Hellboy
@@ -21600,7 +21594,6 @@ Lady Shiva,"{`"Soul of the Dragon`"}",f,{15963},Batman: Soul of the Dragon
 Mr. A,"{`"Underground Comi(cs|x)`"}",t,{15964},""
 Mr. A,{Ditko},t,{15964},""
 Alan Wu,{Kengan(verse)?},t,{15965},Kengan Asura
-Power,"{`"Chainsaw(-| )?Man`"}",f,{15966},Chainsaw Man
 Quanxi,"{`"Chainsaw(-| )?Man`"}",f,{15967},Chainsaw Man
 Moby Dick,{2010},f,{15968},2010
 Superman,"{`"Kevin Smith`",`"Super(-| )?man Lives`"}",f,{15969},Kevin Smith's Superman Lives
@@ -21635,6 +21628,7 @@ Ihyun Jo,"{`"Sweet Home`"}",t,{15987},Sweet Home
 El Muerto,{616},f,{15988},616
 Dracula,"{`"Dracula ?\\(Post(-| )?C(risis)?`"}",f,{15974},Post-Crisis
 Penguin,"{`"Bat(-| )?man Returns`"}",f,{15983},Batman Returns
+Power,"{`"Power.*Chainsaw(-| )?Man`"}",f,{15966},Chainsaw Man
 El Muerto,{Marvel},f,{15988},616
 Scarlet Beetle,{616},t,{15989},616
 Scarlet Beetle,{Marvel},t,{15989},616
@@ -26178,8 +26172,6 @@ Ultron,"{`"A(vengers)?: ?EMH`"}",f,{21353},Earths Mightiest Heroes
 Ultron,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{21353},Earths Mightiest Heroes
 Alabaster,{Torrington},f,{21354},Percy Jackson
 Alabaster,"{`"Percy Jackson`"}",f,{21354},Percy Jackson
-He-Man,"{`"Super(-| )?man`"}",f,{1909},DC
-He-Man,"{`"Wonder ?Woman`"}",f,{1909},DC
 Todo,"{`"Jujutsu Kaisen`"}",f,{14431},Jujutsu Kaisen
 Raiden,{Cyborg},f,{5248},Metal Gear
 Armstrong,{Raiden},f,{5250},Metal Gear
@@ -27068,12 +27060,6 @@ Nerd Hulk,{1610},t,{21848},1610
 Dynasty,"{`"Lone Star Press`"}",f,{21849},Lone Star Press
 Dynasty,{Dynasty.*Pantheon},f,{21849},Lone Star Press
 Tangtong,"{`"Dragon Boy`"}",f,{21850},Dragon Boy
-Bumblebee,"{`"DC Super Hero Girls`"}",f,{21851},DC Super Hero Girls
-Zatanna,"{`"DC Super Hero Girls`"}",f,{21852},DC Super Hero Girls
-Batgirl,"{`"DC Super Hero Girls`"}",f,{21853},DC Super Hero Girls
-Supergirl,"{`"DC Super Hero Girls`"}",f,{21854},DC Super Hero Girls
-Wonder Woman,"{`"DC Super Hero Girls`"}",f,{21855},DC Super Hero Girls
-Green Lantern,"{`"DC Super Hero Girls`"}",f,{21856},DC Super Hero Girls
 Michelangelo,{Ronin},f,{21857},The Last Ronin
 Rojo,"{`"Ben (10|Ten(nyson)?)`"}",f,{21859},Ben 10
 Endeavor,{Ac(a|e)demia},f,{3920},My Hero Academia
@@ -27101,3 +27087,31 @@ Major Force,"{`"Prime(-| )Earth`"}",f,{21870},New 52
 Major Force,{PC},f,{},Post-Crisis
 Major Force,"{`"Posts?(-| )?C(risis)?`"}",f,{},Post-Crisis
 Major Force,"{`"New(-| )Earth`"}",f,{},Post-Crisis
+Bumblebee,"{`"DC Super ?Hero Girls`"}",f,{21851},DC Super Hero Girls
+Zatanna,"{`"DC Super ?Hero Girls`"}",f,{21852},DC Super Hero Girls
+Batgirl,"{`"DC Super ?Hero Girls`"}",f,{21853},DC Super Hero Girls
+Supergirl,"{`"DC Super ?Hero Girls`"}",f,{21854},DC Super Hero Girls
+Wonder Woman,"{`"DC Super ?Hero Girls`"}",f,{21855},DC Super Hero Girls
+Green Lantern,"{`"DC Super ?Hero Girls`"}",f,{21856},DC Super Hero Girls
+Toichiro Suzuki,"{`"Mob Psycho`"}",t,"{7543,21871}",Mob Psycho 100
+Toichiro Suzuki,{MP100},t,"{7543,21871}",Mob Psycho 100
+John Constantine,"{`"\\(DC( Comics)?\\)`"}",t,{1704},DC
+John Constantine,"{`"\\[DC( Comics)?\\]`"}",t,{1704},DC
+Red Skull,{616},t,{21873},616
+Tintin,"{`"Adventures of Tintin`",`"Secret of.*Unicorn`"}",f,{21874},The Adventures of Tintin: The Secret of the Unicorn
+Captain Haddock,"{`"Adventures of Tintin`",`"Secret of.*Unicorn`"}",f,{21875},The Adventures of Tintin: The Secret of the Unicorn
+Psycho-Man,{1610},f,{21876},1610
+Hanami,"{`"Jujus?t?s?u Kaisen`"}",f,{21877},Jujutsu Kaisen
+Hanami,{JJK},f,{21877},Jujutsu Kaisen
+He-Man,"{`"Pre(-| )?Crisis`"}",f,{21878},Pre-Crisis
+Elizabello II,"{`"One ?Piece?`"}",t,{21879},One Piece
+Secret Society of Second-Born Royals,{Prince(ss)?},t,{21880},""
+Optimus Prime,"{`"Shattered Glass`"}",f,{21881},Transformers: Shattered Glass
+Glory,"{`"Buffy the Vampire Slayer`"}",f,{21882},Buffy the Vampire Slayer
+Glory,{Buffyverse},f,{21882},Buffy the Vampire Slayer
+Glory,"{Buffy,Angel}",f,{21882},Buffy the Vampire Slayer
+Vaisravana,"{`"Xi Xing Ji`"}",f,{21883},Xi Xing Ji
+Kurono,"{`"Fire ?Force`"}",f,{8237},Fire Force
+He-Man,{DC},f,"{1909,21878}",DC
+He-Man,"{`"Super(-| )?man`"}",f,"{1909,21878}",DC
+He-Man,"{`"Wonder ?Woman`"}",f,"{1909,21878}",DC

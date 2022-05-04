@@ -15,21 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"DC Super ?Hero Girls"}' WHERE version='{"DC Super Hero Girls"}';
-UPDATE character SET version='{"Power.*Chainsaw(-| )?Man"}' WHERE default_name='Power' AND version='{"Chainsaw(-| )?Man"}';
-DELETE FROM character WHERE default_name='{"Matt"}' AND version='{"Wrestling"}';
-DELETE FROM character WHERE default_name='{"Nero"}' AND version='{"Wrestling"}';
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Toichiro Suzuki (Mob Psycho 100, Anime)', 'https://redd.it/ugvkj5'); SELECT * FROM respectthread WHERE link='https://redd.it/ugvkj5';
-UPDATE character SET rt_id_array='{7543, ?}' WHERE rt_id_array='{7543}';
-
-SELECT * FROM respectthread WHERE link='https://redd.it/ugwrf3';
-UPDATE character SET rt_id_array='{1909, ??}' WHERE rt_id_array='{1909}';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Yuchiro Kurono (Fire Force Anime)', 'https://redd.it/uhxges'); SELECT * FROM respectthread WHERE link='https://redd.it/uhxges';
-UPDATE character SET rt_id_array='{8237, ?}' WHERE rt_id_array='{8237}';
 
 ########################################
 
