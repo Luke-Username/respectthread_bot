@@ -1479,7 +1479,7 @@ IDW
 
 The Incredibles
 	Version
-		'{"Incredibles"}'
+		['Incredibles']
 	Displayed Version Name
 		"The Incredibles"
 

@@ -107,6 +107,78 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Omnidrone'],
+'Omnidrone',
+False,
+False,
+[
+    ['Incredibles']
+],
+'The Incredibles',
+'{1132}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ui1a9k/eve_walle_vs_syndromes_omnidrone_incredibles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Green Lantern (DC Comics, Earth-9)', 'https://redd.it/ui5ne5')
+add_data(['Green Lantern'],
+'Green Lantern',
+False,
+False,
+[
+    ['Earth-9']
+],
+'Earth-9',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ui5dw6/respect_buck_bumble_buck_bumble/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thor Odinson, the Herald of Galactus (Marvel, Earth-717)', 'https://redd.it/ui8d5j')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['717']
+],
+'717',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ui8d5j/respect_thor_odinson_the_herald_of_galactus/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Semiramis, the Empress of Assyria (Fate)', 'https://redd.it/ui8vpp')
+add_data(['Semiramis'],
+'Semiramis',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ui8vpp/respect_semiramis_the_empress_of_assyria_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Questing Beast (Arthurian Myth)', 'https://redd.it/uibq81')
+add_data(['Questing Beast'],
+'Questing Beast',
+False,
+False,
+[
+    ['Arthurian']
+],
+'Arthurian Myth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uibq81/respect_the_questing_beast_arthurian_myth/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
