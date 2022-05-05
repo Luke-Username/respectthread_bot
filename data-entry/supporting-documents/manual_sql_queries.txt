@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET version='{"\\(The Batman\\)"}' WHERE version='{"(The Batman)"}';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Beast', 'Bi-Beast', -3);
+
 ########################################
 
 ########################################

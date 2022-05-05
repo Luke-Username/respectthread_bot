@@ -181,6 +181,111 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Cheetah (Catwoman: Hunted)', 'https://redd.it/uii2ak')
+add_data(['Cheetah'],
+'Cheetah',
+False,
+False,
+[
+    ['Catwoman:? Hunted']
+],
+'Catwoman: Hunted',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uii2ak/respect_the_cheetah_catwoman_hunted/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sai (One Piece)', 'https://redd.it/uimvjc')
+add_data(['Sai'],
+'Sai',
+False,
+False,
+[
+    ['Sai ?(One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uimvjc/respect_sai_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Nanotyrannus (Jurassic Fight Club)', 'https://redd.it/uitx1n')
+add_data(['Nanotyrannus'],
+'Nanotyrannus',
+False,
+False,
+[
+    ['Jurassic Fight Club']
+],
+'Jurassic Fight Club',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uitx1n/respect_the_nanotyrannus_jurassic_fight_club/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gar Saxon! (Star Wars Canon)', 'https://redd.it/uiwioz')
+add_data(['Gar Saxon'],
+'Gar Saxon',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uiwioz/respect_gar_saxon_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Martians (Mars Attacks!)', 'https://redd.it/uiwvsi')
+add_data(['Martians'],
+'Martians',
+False,
+False,
+[
+    ['Mars Attacks']
+],
+'Mars Attacks!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uiwvsi/respect_the_martians_mars_attacks/
+
+########################################
+
+id = get_rt_id(cur, 'Respect KISS (Marvel, 616)', 'https://redd.it/uiwz17')
+add_data(['KISS'],
+'KISS',
+False,
+False,
+[
+    ['KISS ?\(616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uiwz17/respect_kiss_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thor Odinson, the Lord of Midgard (Marvel, Earth-3515)', 'https://redd.it/uj2ijd')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['3515']
+],
+'3515',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uj2ijd/respect_thor_odinson_the_lord_of_midgard_marvel/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
