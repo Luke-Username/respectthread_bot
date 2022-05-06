@@ -2535,24 +2535,15 @@ Iron Man,{EMH},f,{651},Earth's Mightiest Heroes
 Thor,"{`"Earth's Mightiest Heroes`"}",f,{652},Earth's Mightiest Heroes
 Thor,"{`"Earths? Mightiest Heroes`"}",f,{652},Earth's Mightiest Heroes
 Thor,{EMH},f,{652},Earth's Mightiest Heroes
-Bane,"{`"(The Batman)`"}",f,{653},"The Batman, 2004-2008"
 Bane,"{Batman,2004}",f,{653},"The Batman, 2004-2008"
-Batgirl,"{`"(The Batman)`"}",f,{654},"The Batman, 2004-2008"
 Batgirl,"{Batman,2004}",f,{654},"The Batman, 2004-2008"
 Batman,"{Batman,2004}",f,{655},"The Batman, 2004-2008"
-Catwoman,"{`"(The Batman)`"}",f,{656},"The Batman, 2004-2008"
 Catwoman,"{Batman,2004}",f,{656},"The Batman, 2004-2008"
-Clayface,"{`"(The Batman)`"}",f,{657},"The Batman, 2004-2008"
 Clayface,"{Batman,2004}",f,{657},"The Batman, 2004-2008"
-Francis Grey,"{`"(The Batman)`"}",t,{658},"The Batman, 2004-2008"
 Francis Grey,"{Batman,2004}",t,{658},"The Batman, 2004-2008"
-Joker,"{`"(The Batman)`"}",f,{659},"The Batman, 2004-2008"
 Joker,"{Batman,2004}",f,{659},"The Batman, 2004-2008"
-Killer Croc,"{`"(The Batman)`"}",f,{660},"The Batman, 2004-2008"
 Killer Croc,"{Batman,2004}",f,{660},"The Batman, 2004-2008"
-Man-Bat,"{`"(The Batman)`"}",f,{661},"The Batman, 2004-2008"
 Man-Bat,"{Batman,2004}",f,{661},"The Batman, 2004-2008"
-Robin,"{`"(The Batman)`"}",f,{662},"The Batman, 2004-2008"
 Robin,"{Batman,2004}",f,{662},"The Batman, 2004-2008"
 Aquaman,"{`"Brave (and|&) the Bold`"}",f,{663},The Brave and the Bold
 Batman,"{`"Brave (and|&) the Bold`"}",f,{664},The Brave and the Bold
@@ -2560,6 +2551,7 @@ Gentleman Ghost,"{`"Brave (and|&) the Bold`"}",f,{665},The Brave and the Bold
 John Wilkes Booth,"{`"Brave (and|&) the Bold`"}",f,{666},The Brave and the Bold
 Music Meister,{Batman},f,{667},The Brave and the Bold
 Doomsday,{DCAU},f,{757},DCAU
+Bane,"{`"\\(The Batman\\)`"}",f,{653},"The Batman, 2004-2008"
 Terrible Trio,"{`"Brave (and|&) the Bold`"}",f,{668},The Brave and the Bold
 Alien X,"{`"Ben 10`"}",t,{669},Ben 10
 Atomic-X,"{`"Ben 10`"}",t,{670},Ben 10
@@ -9927,7 +9919,6 @@ Song-Joo,"{`"Promised Neverland`"}",f,{4443},The Promised Neverland
 That Guy,"{`"Promised Neverland`"}",f,{4444},The Promised Neverland
 Wild Demons,"{`"Promised Neverland`"}",f,{4445},The Promised Neverland
 Baymax,{movies?},f,{10863},Disney's Big Hero 6
-Thor,"{`"\\(Odin(-| )?force\\)`"}",f,{1983},Odin-Force
 Scott Lang,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Scott Lang,{MCU},f,{},MCU
 Scott Lang,{199999},f,{},MCU
@@ -9944,11 +9935,12 @@ Faith,{BTVS},f,{10867},Buffy the Vampire Slayer
 Pikachu,{Pok(e|é)mon},t,"{4156,4157,4158,4159,4160,4161,4162,4163,4164,4165,10868}",Pokémon
 Wasabi,"{`"Big Hero`"}",f,{10869},Big Hero 6
 Fred,"{`"Big Hero`"}",f,{10870},Big Hero 6
-Odin-Force Thor,{616},t,{1983},616
 Thor,{616},t,{1981},616
 Thor,{comics?},t,{1981},616
 Scott Lang,"{`"End ?game`"}",f,{},MCU
 King Ghidorah,{Legendary},f,{8614},MonsterVerse
+Thor,"{`"\\(Odin(-| )?force\\)`"}",f,{21155},Odin-Force
+Odin-Force Thor,{616},t,{21155},616
 Krombopulos Michael,"{`"Rick (&|and) Morty`"}",t,{10871},Rick and Morty
 Honey Lemon,"{`"Big Hero`"}",t,{10872},Big Hero 6
 Honey Lemon,{Disney},f,{10872},Disney's Big Hero 6
@@ -26558,6 +26550,7 @@ Hal,"{`"Green Lantern`",`"New(-| )?52`"}",f,{7394},New 52 / Rebirth
 Hal,"{`"Green Lantern`",Nu?-?52}",f,{7394},New 52 / Rebirth
 Hal,"{`"Green Lantern`",Rebirth}",f,{7394},New 52 / Rebirth
 Dementor,"{`"Methods of Rationality`"}",f,{21567},Harry Potter and the Methods of Rationality
+Thor,{3515},f,{21894},3515
 Opa-Opa,"{`"Fantasy Zone`"}",f,{21568},Fantasy Zone
 Hector Hammond,"{`"Live(-| )Action Green Lantern|Green Lantern Live(-| )Action`"}",f,{21569},"Green Lantern, 2011"
 Hector Hammond,"{`"Green Lantern (Movie|Film)`"}",f,{21569},"Green Lantern, 2011"
@@ -27115,3 +27108,32 @@ Kurono,"{`"Fire ?Force`"}",f,{8237},Fire Force
 He-Man,{DC},f,"{1909,21878}",DC
 He-Man,"{`"Super(-| )?man`"}",f,"{1909,21878}",DC
 He-Man,"{`"Wonder ?Woman`"}",f,"{1909,21878}",DC
+Batgirl,"{`"\\(The Batman\\)`"}",f,{654},"The Batman, 2004-2008"
+Catwoman,"{`"\\(The Batman\\)`"}",f,{656},"The Batman, 2004-2008"
+Clayface,"{`"\\(The Batman\\)`"}",f,{657},"The Batman, 2004-2008"
+Francis Grey,"{`"\\(The Batman\\)`"}",t,{658},"The Batman, 2004-2008"
+Joker,"{`"\\(The Batman\\)`"}",f,{659},"The Batman, 2004-2008"
+Killer Croc,"{`"\\(The Batman\\)`"}",f,{660},"The Batman, 2004-2008"
+Man-Bat,"{`"\\(The Batman\\)`"}",f,{661},"The Batman, 2004-2008"
+Robin,"{`"\\(The Batman\\)`"}",f,{662},"The Batman, 2004-2008"
+Yor,"{`"Spy x Family`"}",f,{20970},Spy x Family
+Jessica Cruz,"{`"\\(DC( Comics)?\\)`"}",t,{1681},DC
+Jessica Cruz,"{`"\\[DC( Comics)?\\]`"}",t,{1681},DC
+Omnidrone,{Incredibles},f,{1132},The Incredibles
+Salazar,"{`"Pirates? of the Caribbean`"}",f,{17629},Pirates of the Caribbean
+Green Lantern,{Earth-9},f,{21884},Earth-9
+Thor,{717},f,{21885},717
+Semiramis,{Fate},f,{21886},Fate
+Questing Beast,{Arthurian},f,{21887},Arthurian Myth
+Cheetah,"{`"Catwoman:? Hunted`"}",f,{21888},Catwoman: Hunted
+Nanotyrannus,"{`"Jurassic Fight Club`"}",f,{21890},Jurassic Fight Club
+Gar Saxon,"{`"S(tar )?Wars`"}",t,{21891},Star Wars
+Martians,"{`"Mars Attacks`"}",f,{21892},Mars Attacks!
+KISS,"{`"KISS ?\\(616`"}",f,{21893},616
+Gameboy,"{`"Captain N`"}",f,{21895},Captain N: The Game Master
+Gameboy,"{`"Rock Hard Gladiators`"}",f,{21896},RHG
+Gameboy,{Zetabrand},f,{21896},RHG
+Mayday,"{`"No Straight Roads`"}",f,{21897},No Straight Roads
+Mayday,{Zuke},f,{21897},No Straight Roads
+Zuke,"{`"No Straight Roads`"}",f,{21897},No Straight Roads
+Epithet Erased,"{`"Epithet Erased`"}",f,{21898},Epithet Erased
