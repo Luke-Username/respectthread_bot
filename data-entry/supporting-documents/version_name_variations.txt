@@ -2538,7 +2538,7 @@ Phineas and Ferb
 
 Pirates of the Caribbean
 	Version
-		'{"Pirates? of the Caribbean"}', '{"POTC"}'
+		['Pirates? of the Caribbean'], ['POTC']
 	Displayed Version Name
 		"Pirates of the Caribbean"
 
@@ -2804,7 +2804,9 @@ Rise of the Teenage Mutant Ninja Turtles
 
 Rock Hard Gladiators
 	Version
-		'{"RHG"}', '{"Rock Hard Gladiators"}', '{"Zetabrand"}'
+		['Rock Hard Gladiators'], ['Zetabrand']
+	Acronyms
+		['RHG']
 	Displayed Version Name
 		"RHG"
 

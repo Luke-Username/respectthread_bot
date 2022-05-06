@@ -20,6 +20,8 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Beast', 'Bi-Beas
 
 ########################################
 
+UPDATE character SET rt_id_array='{21155}' WHERE rt_id_array='{1983}';
+
 ########################################
 
 ########################################

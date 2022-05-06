@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 21155, 'Respect King Thor Odinson, the All-Father of Asgard (Marvel, Earth-616)', 'https://redd.it/ujpj4f')
+
+########################################
+
+add_data(['Yor'],
+'Yor',
+False,
+False,
+[
+    ['Spy x Family']
+],
+'Spy x Family',
+'{20970}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ujtwa5/yor_spy_x_family_vs_thorkell_vinland_saga/
+
+########################################
+
+add_data(['Jessica Cruz'],
+'Jessica Cruz',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{1681}'
+)
+#https://www.reddit.com/r/respectthreads/comments/bb4jj7/respect_jessica_cruz_dc_new_52rebirth/
+
+########################################
+
 add_data(['Omnidrone'],
 'Omnidrone',
 False,
@@ -118,6 +150,20 @@ False,
 '{1132}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/ui1a9k/eve_walle_vs_syndromes_omnidrone_incredibles/
+
+########################################
+
+add_data(['Salazar'],
+'Salazar',
+False,
+False,
+[
+    ['Pirates? of the Caribbean']
+],
+'Pirates of the Caribbean',
+'{17629}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ujdah0/pirates_of_the_caribbean_queen_anns_revenge_vs/i7i8wgm/?context=3
 
 ########################################
 
@@ -283,6 +329,78 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/uj2ijd/respect_thor_odinson_the_lord_of_midgard_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gameboy (Captain N: The Game Master)', 'https://redd.it/ujcjev')
+add_data(['Gameboy'],
+'Gameboy',
+False,
+False,
+[
+    ['Captain N']
+],
+'Captain N: The Game Master',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ujcjev/respect_gameboy_captain_n_the_game_master/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jade! (Rock Hard Gladiators)', 'https://redd.it/uje7pe')
+add_data(['Gameboy'],
+'Gameboy',
+False,
+False,
+[
+    ['Rock Hard Gladiators'], ['Zetabrand']
+],
+'RHG',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uje7pe/respect_jade_rock_hard_gladiators/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mayday and Zuke (No Straight Roads)', 'https://redd.it/ujjtbj')
+add_data(['Mayday'],
+'Mayday',
+False,
+False,
+[
+    ['No Straight Roads'], ['Zuke']
+],
+'No Straight Roads',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ujjtbj/respect_mayday_and_zuke_no_straight_roads/
+
+add_data(['Zuke'],
+'Zuke',
+False,
+False,
+[
+    ['No Straight Roads']
+],
+'No Straight Roads',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ujjtbj/respect_mayday_and_zuke_no_straight_roads/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Percival King! (Epithet Erased)', 'https://redd.it/ujptmp')
+add_data(['Epithet Erased'],
+'Epithet Erased',
+False,
+False,
+[
+    ['Epithet Erased']
+],
+'Epithet Erased',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ujptmp/respect_percival_king_epithet_erased/
 
 ########################################
 
