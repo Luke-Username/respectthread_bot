@@ -107,6 +107,125 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2382, 'Respect Rogue (Marvel, 616)', 'https://redd.it/ukfh1s')
+
+########################################
+
+add_data(['Tanjiro'],
+'Tanjiro',
+False,
+False,
+[
+    ['Demon ?Slayer'], ['Kimetsu no Yaiba'], ['KnY']
+],
+'Demon Slayer',
+'{4828}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/uk2xr1/spiderman_616_vs_demon_slayer_heroes/i7mogm3/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Raihan! (Pokemon Anime)', 'https://redd.it/uk9ncz')
+add_data(['Raihan'],
+'Raihan',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uk9ncz/respect_raihan_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Elrik Vonreg! (Star Wars Canon)', 'https://redd.it/ukapkq')
+add_data(['Elrik Vonreg'],
+'Elrik Vonreg',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ukapkq/respect_elrik_vonreg_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Marked Ninja (Mark of the Ninja)', 'https://redd.it/ukax6v')
+add_data(['Ninja'],
+'Ninja',
+False,
+False,
+[
+    ['Mark of the Ninja']
+],
+'Mark of the Ninja',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ukax6v/respect_the_marked_ninja_mark_of_the_ninja/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Volstagg, The War Thor (Marvel, Earth-616)', 'https://redd.it/ukh5zz')
+add_data(['Volstagg'],
+'Volstagg',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ukh5zz/respect_volstagg_the_war_thor_marvel_earth616/
+
+add_data(['Volstagg'],
+'Volstagg',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ukh5zz/respect_volstagg_the_war_thor_marvel_earth616/
+
+
+########################################
+
+id = get_rt_id(cur, "Respect \"Noland''s\" Articuno (Pokemon Anime)", 'https://redd.it/ukj3hh')
+add_data(['Articuno'],
+'Articuno',
+False,
+False,
+[
+    ['Nolands?']
+],
+'Noland',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ukj3hh/respect_nolands_articuno_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lara Croft, the Tomb Raider! (Top Cow Comics, Composite)', 'https://redd.it/ukk5lo')
+add_data(['Lara Croft'],
+'Lara Croft',
+False,
+False,
+[
+    ['Top Cow']
+],
+'Top Cow',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ukk5lo/respect_lara_croft_the_tomb_raider_top_cow_comics/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

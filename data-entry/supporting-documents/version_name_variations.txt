@@ -699,9 +699,9 @@ DEATH BATTLE!
 
 Demon Slayer: Kimetsu no Yaiba
 	Version
-		'{"Demon ?Slayer"}', '{"Kimetsu no Yaiba"}', '{"KnY"}'
+		['Demon ?Slayer'], ['Kimetsu no Yaiba'], ['KnY']
 	Sometimes Called
-		'{"DS"}'
+		['DS']
 	Displayed Version Name
 		"Demon Slayer"
 
