@@ -20,6 +20,8 @@ UPDATE character SET is_default=FALSE WHERE default_name='Space Marine';
 
 ########################################
 
+UPDATE character SET version='{"Shepard.*\\(ME\\)"}' WHERE default_name='Shepard' AND version='{"ME"}';
+
 ########################################
 
 ########################################
