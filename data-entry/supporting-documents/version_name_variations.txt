@@ -3008,6 +3008,16 @@ Sonic the Hedgehog
 	Displayed Version Name
 		"Sonic the Hedgehog"
 
+Sonic the Hedgehog, 2020 (Paramount)
+	Version
+		['Sonic', '202(0|2)'], ['Sonic Movies?']
+		['Sonic', 'Paramount']
+	Displayed Version Name
+		"Sonic the Hedgehog, Paramount"
+
+		If name is 'Sonic':
+			"2020 film"
+
 The Sorcerer's Apprentice
 	Version
 		'{"Sorcer(e|o)r\'\'s Apprentice"}'

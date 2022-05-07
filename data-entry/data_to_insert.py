@@ -228,6 +228,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Miles "Tails" Prower (Sonic the Hedgehog (Paramount Movies))', 'https://redd.it/uklxbw')
+add_data(['Tails'],
+'Tails',
+False,
+False,
+[
+    ['Sonic', '202(0|2)'], ['Sonic Movies?'], ['Sonic', 'Paramount']
+],
+'Sonic the Hedgehog, Paramount',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uklxbw/respect_miles_tails_prower_sonic_the_hedgehog/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Knuckles the Echidna! (Sonic the Hedgehog (Paramount Movies))', 'https://redd.it/ukm2bi')
+add_data(['Knuckles'],
+'Knuckles',
+False,
+False,
+[
+    ['Sonic', '202(0|2)'], ['Sonic Movies?'], ['Sonic', 'Paramount']
+],
+'Sonic the Hedgehog, Paramount',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ukm2bi/respect_knuckles_the_echidna_sonic_the_hedgehog/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
