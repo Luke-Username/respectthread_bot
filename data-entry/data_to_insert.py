@@ -111,6 +111,20 @@ update_respectthread(cur, 2382, 'Respect Rogue (Marvel, 616)', 'https://redd.it/
 
 ########################################
 
+add_data(['Homelander'],
+'Homelander',
+False,
+False,
+[
+    ['show']
+],
+'The Boys, 2019',
+'{13117}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ukp77u/to_prove_a_point_mcu_hulk_vs_homelander/i7qi1pn/?context=3
+
+########################################
+
 add_data(['Tanjiro'],
 'Tanjiro',
 False,
@@ -255,6 +269,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ukm2bi/respect_knuckles_the_echidna_sonic_the_hedgehog/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Machete Cortez (Machete)', 'https://redd.it/ukop8w')
+add_data(['Machete Cortez'],
+'Machete Cortez',
+False,
+False,
+[
+    ['\(Machete\)']
+],
+'Machete',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ukop8w/respect_machete_cortez_machete/
 
 ########################################
 
