@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 2382, 'Respect Rogue (Marvel, 616)', 'https://redd.it/ukfh1s')
+update_respectthread(cur, 8237, 'Respect Yuichiro Kurono (Fire Force Manga)', 'https://redd.it/uksbpy')
 
 ########################################
 
