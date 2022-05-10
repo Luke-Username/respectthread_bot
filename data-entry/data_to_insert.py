@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 2382, 'Respect Rogue (Marvel, 616)', 'https://redd.it/ukfh1s')
 update_respectthread(cur, 8237, 'Respect Yuichiro Kurono (Fire Force Manga)', 'https://redd.it/uksbpy')
+update_respectthread(cur, 8608, 'Respect Doctor "Eggman" Robotnik! (Sonic the Hedgehog (Paramount Movies))', 'https://redd.it/ulwz79')
 
 ########################################
 
@@ -123,6 +124,34 @@ False,
 '{13117}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/ukp77u/to_prove_a_point_mcu_hulk_vs_homelander/i7qi1pn/?context=3
+
+########################################
+
+add_data(['Wanda Maximoff'],
+'Wanda Maximoff',
+False,
+False,
+[
+    ['Wanda Maximoff.*MoM']
+],
+'MCU',
+'{270}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ulcowu/wanda_maximoff_mom_vs_strange_supreme_what_if/i7vids8/?context=3
+
+########################################
+
+add_data(['Jean Gr(e|a)y'],
+'Jean Grey',
+False,
+False,
+[
+    ['X(-| )?Men (Movie|Film)s?']
+],
+'FOX',
+'{14882}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ul5ddw/jean_grey_xmen_movies_vs_scarlet_witch_mcu/i7u38te/?context=3
 
 ########################################
 
@@ -285,6 +314,228 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ukop8w/respect_machete_cortez_machete/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Seiko Kimura (Danganronpa)', 'https://redd.it/ul1d6l')
+add_data(['Seiko Kimura'],
+'Seiko Kimura',
+False,
+True,
+[
+    ['Dangan ?ronpa']
+],
+'Danganronpa',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ul1d6l/respect_seiko_kimura_danganronpa/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Henry Meke, Thor (DC, Pre-Crisis)', 'https://redd.it/ul2as8')
+add_data(['Henry Meke'],
+'Henry Meke',
+False,
+True,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ul2as8/respect_henry_meke_thor_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Uvogin! (Hunter X Hunter) [Composite]', 'https://redd.it/ulb2lz')
+add_data(['Uvogin'],
+'Uvogin',
+False,
+True,
+[
+    ['Hunter ?(x ?)?Hunter'], ['HxH']
+],
+'Hunter x Hunter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ulb2lz/respect_uvogin_hunter_x_hunter_composite/
+
+########################################
+
+id = get_rt_id(cur, "Respect St. George''s Dragon (The Faerie Queene)", 'https://redd.it/ulc02z')
+add_data(['Dragon'],
+'Dragon',
+False,
+False,
+[
+    ['The Faerie Queene']
+],
+'The Faerie Queene',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ulc02z/respect_st_georges_dragon_the_faerie_queene/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Reflux (Rayman 3: Hoodlum Havoc)', 'https://redd.it/ulqbob')
+add_data(['Reflux'],
+'Reflux',
+False,
+False,
+[
+    ['Rayman'], ['Knaaren']
+],
+'Rayman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ulqbob/respect_reflux_rayman_3_hoodlum_havoc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Goldeneye (Goldeneye: Rogue Agent)', 'https://redd.it/ulr8fo')
+add_data(['GoldenEye'],
+'GoldenEye',
+False,
+False,
+[
+    ['Goldeneye:? Rogue Agent']
+],
+'GoldenEye: Rogue Agent',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ulr8fo/respect_goldeneye_goldeneye_rogue_agent/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anne Bonny and Mary Read! (Fate)', 'https://redd.it/ulshv4')
+add_data(['Anne Bonne?y'],
+'Anne Bonny',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ulshv4/respect_anne_bonny_and_mary_read_fate/
+
+add_data(['Mary Read'],
+'Mary Read',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ulshv4/respect_anne_bonny_and_mary_read_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Caligula, the Emperor of Death! (Fate)', 'https://redd.it/ulsicf')
+add_data(['Caligula'],
+'Caligula',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ulsicf/respect_caligula_the_emperor_of_death_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Euryale! (Fate)', 'https://redd.it/ulsiqh')
+add_data(['Euryale'],
+'Euryale',
+False,
+False,
+[
+    ['Grande? Order'], ['F(ate )?/?GO'], ['Stay/? ?k?Night']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ulsiqh/respect_euryale_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Stheno! (Fate)', 'https://redd.it/ulsjg5')
+add_data(['Stheno'],
+'Stheno',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ulsjg5/respect_stheno_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Charlotte Corday, the Angel of Assassination! (Fate)', 'https://redd.it/um27s2')
+add_data(['Charlotte Corday'],
+'Charlotte Corday',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/um27s2/respect_charlotte_corday_the_angel_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Simon Belmont (Captain N: The Game Master)', 'https://redd.it/um99hy')
+add_data(['Simon Belmont'],
+'Simon Belmont',
+False,
+False,
+[
+    ['Captain N']
+],
+'Captain N: The Game Master',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/um99hy/respect_simon_belmont_captain_n_the_game_master/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Killer Frost (Justice League Action)', 'https://redd.it/umggbs')
+add_data(['Killer Frost'],
+'Killer Frost',
+False,
+False,
+[
+    ['Justice League Action']
+],
+'Justice League Action',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/umggbs/respect_killer_frost_justice_league_action/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: He-Man! (Marvel Comics)', 'https://redd.it/umhp06')
+add_data(['He(-| )?Man'],
+'He-Man',
+False,
+False,
+[
+    ['He(-| )?Man ?\(Marvel']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/umhp06/respect_heman_marvel_comics/
 
 ########################################
 

@@ -1465,7 +1465,7 @@ The Hunters Guild: Red Hood
 
 Hunter x Hunter
 	Version
-		'{"Hunter ?(x ?)?Hunter"}', '{"HxH"}'
+		['Hunter ?(x ?)?Hunter'], ['HxH']
 	Displayed Version Name
 		"Hunter x Hunter"
 
@@ -2342,9 +2342,6 @@ Nasuverse
 			['Serv(a|e)nts?']
 		Displayed Version Name
 			"Fate"
-		
-		#if it's Fate/Grand Order
-			"Fate/Grand Order"
 	
 	Kara no Kyoukai
 		Version

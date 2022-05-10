@@ -24,6 +24,8 @@ UPDATE character SET version='{"Shepard.*\\(ME\\)"}' WHERE default_name='Shepard
 
 ########################################
 
+UPDATE character SET rt_id_array='{1253}' WHERE default_name='Dracula' AND version='{"Castlevania"}';
+
 ########################################
 
 ########################################
