@@ -15,20 +15,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Metroids?', '(Metroid)', -1);
-UPDATE character SET is_default=FALSE WHERE default_name='Space Marine';
+########################################
 
 ########################################
 
-UPDATE character SET version='{"Shepard.*\\(ME\\)"}' WHERE default_name='Shepard' AND version='{"ME"}';
-
 ########################################
-
-UPDATE character SET rt_id_array='{1253}' WHERE default_name='Dracula' AND version='{"Castlevania"}';
-
-########################################
-
-UPDATE character_name SET name='Scarlett? Witch' WHERE name='Scarlet Witch';
 
 ########################################
 

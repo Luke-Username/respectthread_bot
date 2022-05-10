@@ -12026,7 +12026,6 @@ Wizard of Speed and Time,"{`"Wizard of Speed and Time`"}",t,{9311},""
 Elizabeth,{Persona},f,{9312},Persona
 Shepard,"{`"Mass Effect`"}",f,{9313},Mass Effect
 Shepard,{MEffect},f,{9313},Mass Effect
-Shepard,{ME},f,{9313},Mass Effect
 Principal Kuno,{Ranma},t,{4456},Ranma ½
 Shepard,{Garrus},f,{9313},Mass Effect
 Shepard,{Normandy},f,{9313},Mass Effect
@@ -12156,7 +12155,6 @@ Wario,{SMBZ},f,{9358},Super Mario Bros. Z
 Wario,"{`"Super Mario Bros.? Z`"}",f,{9358},Super Mario Bros. Z
 Wario,"{`"Super Mario Brothers Z`"}",f,{9358},Super Mario Bros. Z
 Waluigi,{SMBZ},f,{9358},Super Mario Bros. Z
-Dracula,{Castlevania},f,{},Castlevania
 Waluigi,"{`"Super Mario Bros.? Z`"}",f,{9358},Super Mario Bros. Z
 Waluigi,"{`"Super Mario Brothers Z`"}",f,{9358},Super Mario Bros. Z
 Wario and Waluigi,{SMBZ},f,{9358},Super Mario Bros. Z
@@ -23128,8 +23126,8 @@ Monk Maz Koshia,{T?LOZ},t,{16591},Breath of the Wild
 Monk Maz Koshia,"{`"Breath of the Wild`"}",t,{16591},Breath of the Wild
 Monk Maz Koshia,{BOTW},t,{16591},Breath of the Wild
 Ninjabread Man,{default},t,{16592},""
-Space Marine,{(WH)?40K},t,"{21139,6466}",Warhammer 40k
-Space Marine,{Warhammer},t,"{21139,6466}",Warhammer 40k
+Space Marine,{(WH)?40K},f,"{21139,6466}",Warhammer 40k
+Space Marine,{Warhammer},f,"{21139,6466}",Warhammer 40k
 Balan,{Wonderworld},f,{16593},Balan Wonderworld
 Gandrayda,{Metroid},t,{16594},Metroid
 Rundas,{Metroid},f,{16595},Metroid
@@ -27137,3 +27135,44 @@ Mayday,"{`"No Straight Roads`"}",f,{21897},No Straight Roads
 Mayday,{Zuke},f,{21897},No Straight Roads
 Zuke,"{`"No Straight Roads`"}",f,{21897},No Straight Roads
 Epithet Erased,"{`"Epithet Erased`"}",f,{21898},Epithet Erased
+Shepard,"{`"Shepard.*\\(ME\\)`"}",f,{9313},Mass Effect
+Dracula,{Castlevania},f,{1253},Castlevania
+Homelander,{show},f,{13117},"The Boys, 2019"
+Wanda Maximoff,"{`"Wanda Maximoff.*MoM`"}",f,{270},MCU
+Wanda Maximoff,"{`"Multiverse of Madness`"}",f,{270},MCU
+Scarlet Witch,"{`"Multiverse of Madness`"}",f,{270},MCU
+Jean Grey,"{`"X(-| )?Men (Movie|Film)s?`"}",f,{14882},FOX
+Tanjiro,"{`"Demon ?Slayer`"}",f,{4828},Demon Slayer
+Tanjiro,"{`"Kimetsu no Yaiba`"}",f,{4828},Demon Slayer
+Tanjiro,{KnY},f,{4828},Demon Slayer
+Raihan,{Pok(e|é)m(o|a)n},f,{21922},Pokémon
+Elrik Vonreg,"{`"S(tar )?Wars`"}",t,{21923},Star Wars
+Ninja,"{`"Mark of the Ninja`"}",f,{21924},Mark of the Ninja
+Volstagg,{616},t,{21925},616
+Volstagg,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Volstagg,{MCU},f,{},MCU
+Articuno,{Nolands?},f,{21926},Noland
+Lara Croft,"{`"Top Cow`"}",f,{21927},Top Cow
+Tails,"{Sonic,202(0|2)}",f,{21928},"Sonic the Hedgehog, Paramount"
+Tails,"{`"Sonic Movies?`"}",f,{21928},"Sonic the Hedgehog, Paramount"
+Tails,"{Sonic,Paramount}",f,{21928},"Sonic the Hedgehog, Paramount"
+Knuckles,"{Sonic,202(0|2)}",f,{21929},"Sonic the Hedgehog, Paramount"
+Knuckles,"{`"Sonic Movies?`"}",f,{21929},"Sonic the Hedgehog, Paramount"
+Knuckles,"{Sonic,Paramount}",f,{21929},"Sonic the Hedgehog, Paramount"
+Machete Cortez,"{`"\\(Machete\\)`"}",f,{21930},Machete
+Henry Meke,"{`"Pre(-| )?Crisis`"}",t,{21932},Pre-Crisis
+Dragon,"{`"The Faerie Queene`"}",f,{21934},The Faerie Queene
+Reflux,{Rayman},f,{21935},Rayman
+Reflux,{Knaaren},f,{21935},Rayman
+GoldenEye,"{`"Goldeneye:? Rogue Agent`"}",f,{21936},GoldenEye: Rogue Agent
+Anne Bonny,{Fate},f,{21937},Fate
+Mary Read,{Fate},f,{21937},Fate
+Caligula,{Fate},f,{21938},Fate
+Euryale,"{`"Grande? Order`"}",f,{21939},Fate
+Euryale,"{`"F(ate )?/?GO`"}",f,{21939},Fate
+Euryale,"{`"Stay/? ?k?Night`"}",f,{21939},Fate
+Stheno,{Fate},f,{21940},Fate
+Charlotte Corday,{Fate},f,{21941},Fate
+Simon Belmont,"{`"Captain N`"}",f,{21942},Captain N: The Game Master
+Killer Frost,"{`"Justice League Action`"}",f,{21943},Justice League Action
+He-Man,"{`"He(-| )?Man ?\\(Marvel`"}",f,{21944},Marvel
