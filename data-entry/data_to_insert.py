@@ -140,6 +140,30 @@ False,
 )
 #https://www.reddit.com/r/whowouldwin/comments/ulcowu/wanda_maximoff_mom_vs_strange_supreme_what_if/i7vids8/?context=3
 
+add_data(['Wanda Maximoff'],
+'Wanda Maximoff',
+False,
+False,
+[
+    ['Multiverse of Madness']
+],
+'MCU',
+'{270}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ulcowu/wanda_maximoff_mom_vs_strange_supreme_what_if/i7vids8/?context=3
+
+add_data(['Scarlett? Witch'],
+'Scarlet Witch',
+False,
+False,
+[
+    ['Multiverse of Madness']
+],
+'MCU',
+'{270}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ulcowu/wanda_maximoff_mom_vs_strange_supreme_what_if/i7vids8/?context=3
+
 ########################################
 
 add_data(['Jean Gr(e|a)y'],
