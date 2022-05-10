@@ -110,6 +110,7 @@ cur = con.cursor()
 update_respectthread(cur, 2382, 'Respect Rogue (Marvel, 616)', 'https://redd.it/ukfh1s')
 update_respectthread(cur, 8237, 'Respect Yuichiro Kurono (Fire Force Manga)', 'https://redd.it/uksbpy')
 update_respectthread(cur, 8608, 'Respect Doctor "Eggman" Robotnik! (Sonic the Hedgehog (Paramount Movies))', 'https://redd.it/ulwz79')
+update_respectthread(cur, 8607, 'Respect Sonic the Hedgehog (Sonic the Hedgehog (Paramount Movies))', 'https://redd.it/umozgg')
 
 ########################################
 

@@ -28,6 +28,8 @@ UPDATE character SET rt_id_array='{1253}' WHERE default_name='Dracula' AND versi
 
 ########################################
 
+UPDATE character_name SET name='Scarlett? Witch' WHERE name='Scarlet Witch';
+
 ########################################
 
 ########################################
