@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Oscar (Toon Sandwich)', 'https://redd.it/umu0dw')
+add_data(['Oscar'],
+'Oscar',
+False,
+False,
+[
+    ['Toon Sandwich']
+],
+'Toon Sandwich',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/umu0dw/respect_oscar_toon_sandwich/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
