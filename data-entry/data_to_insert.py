@@ -122,6 +122,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Baby 5 and Buffalo (One Piece)', 'https://redd.it/umxlgl')
+add_data(['Baby 5'],
+'Baby 5',
+False,
+False,
+[
+    ['One ?Piece?'], ['Buffalo'], ['Donquixote|Doflamingo']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/umxlgl/respect_baby_5_and_buffalo_one_piece/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
