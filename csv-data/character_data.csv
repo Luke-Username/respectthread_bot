@@ -27159,7 +27159,6 @@ Tails,"{Sonic,Paramount}",f,{21928},"Sonic the Hedgehog, Paramount"
 Knuckles,"{Sonic,202(0|2)}",f,{21929},"Sonic the Hedgehog, Paramount"
 Knuckles,"{`"Sonic Movies?`"}",f,{21929},"Sonic the Hedgehog, Paramount"
 Knuckles,"{Sonic,Paramount}",f,{21929},"Sonic the Hedgehog, Paramount"
-Machete Cortez,"{`"\\(Machete\\)`"}",f,{21930},Machete
 Henry Meke,"{`"Pre(-| )?Crisis`"}",t,{21932},Pre-Crisis
 Dragon,"{`"The Faerie Queene`"}",f,{21934},The Faerie Queene
 Reflux,{Rayman},f,{21935},Rayman
@@ -27176,3 +27175,24 @@ Charlotte Corday,{Fate},f,{21941},Fate
 Simon Belmont,"{`"Captain N`"}",f,{21942},Captain N: The Game Master
 Killer Frost,"{`"Justice League Action`"}",f,{21943},Justice League Action
 He-Man,"{`"He(-| )?Man ?\\(Marvel`"}",f,{21944},Marvel
+Machete Cortez,"{`"\\(Machete\\)`"}",t,{21930},Machete
+Aang,{Shyamalan},f,{489},The Last Airbender movie
+Machete,"{`"\\(Machete\\)`"}",f,{21930},Machete
+Machete,"{`"Spy Kids`"}",f,{21930},Machete
+Oscar,"{`"Toon Sandwich`"}",f,{21945},Toon Sandwich
+Baby 5,"{`"One ?Piece?`"}",f,{21946},One Piece
+Baby 5,{Buffalo},f,{21946},One Piece
+Baby 5,{Donquixote|Doflamingo},f,{21946},One Piece
+Destiny,"{`"Takt Op`"}",f,{21947},Takt Op
+Cuddles,"{`"American Dad`"}",f,{21948},American Dad!
+Roland Istaz,{Baki(verse)?},t,{21949},Baki
+Alexia,"{`"Blood of Zeus`"}",f,{21950},Blood of Zeus
+Fiona,"{`"Haunting Ground`"}",f,{21951},Haunting Ground
+SCP-4450,"{`"Sometimes Things Break`"}",t,{21952},""
+Captain Dynamo,{Image|comics?},t,{21953},Invincible
+Koushaku Chouno,"{`"Busou? Renkin`"}",t,{21954},Buso Renkin
+Papillon,"{`"Busou? Renkin`"}",f,{21954},Buso Renkin
+Captain Bravo,"{`"Busou? Renkin`"}",f,{21955},Buso Renkin
+Kazuki Muto,"{`"Busou? Renkin`"}",t,{21956},Buso Renkin
+Kazuki,"{`"Busou? Renkin`"}",f,{21956},Buso Renkin
+Edward Wu,{Kengan(verse)?},f,{21957},Kengan Asura
