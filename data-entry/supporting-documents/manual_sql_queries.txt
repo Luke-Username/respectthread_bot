@@ -17,6 +17,8 @@ UPDATE character_name SET name='' WHERE...
 
 UPDATE character_name SET name='M(iste)?r\.? Mxy' WHERE name='Mr\.? Mxy';
 
+UPDATE character SET is_default=TRUE WHERE default_name='Machete Cortez';
+
 ########################################
 
 ########################################
