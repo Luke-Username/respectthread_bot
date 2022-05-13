@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Terraria'],
+'Terraria',
+False,
+False,
+[
+    ['Playable character']
+],
+'',
+'{5497}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/uoexvj/terraria_playable_character_vs_minecraft_steve/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kai (Ninjago)', 'https://redd.it/uoepgg')
+add_data(['Kai'],
+'Kai',
+False,
+False,
+[
+    ['Ninjago']
+],
+'Ninjago',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uoepgg/respect_kai_ninjago/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
