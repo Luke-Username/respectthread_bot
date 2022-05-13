@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 16555, 'Respect MechaMew2 (Pokemon Live!)', 'https://redd.it/uor69h')
+
+########################################
+
 add_data(['Terraria'],
 'Terraria',
 False,
@@ -133,6 +137,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/uoepgg/respect_kai_ninjago/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Izou Motobe (Grappler Baki)', 'https://redd.it/uogiu3')
+add_data(['Izou Motobe'],
+'Izou Motobe',
+False,
+False,
+[
+    ['Baki(verse)?']
+],
+'Baki',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uogiu3/respect_izou_motobe_grappler_baki/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Voyager! (Fate)', 'https://redd.it/uoj2b5')
+add_data(['Voyager'],
+'Voyager',
+False,
+False,
+[
+    ['Voyager.*Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uoj2b5/respect_voyager_fate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Beowulf''s Dragon (Beowulf)", 'https://redd.it/uov9tz')
+add_data(["Beowulf''s Dragon"],
+"Beowulf''s Dragon",
+False,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uov9tz/respect_beowulfs_dragon_beowulf/
 
 ########################################
 
