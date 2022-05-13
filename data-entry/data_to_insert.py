@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 16555, 'Respect MechaMew2 (Pokemon Live!)', 'https://redd.it/uor69h')
+update_respectthread(cur, 1213, 'Respect Owlman (Justice League: Crisis on Two Earths)', 'https://redd.it/uovq7k')
 
 ########################################
 
