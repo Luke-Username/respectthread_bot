@@ -19,6 +19,8 @@ UPDATE character SET version='{"Kids Next ?Door"}' WHERE version='{"Kids Next Do
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Shazam';
+
 ########################################
 
 ########################################
