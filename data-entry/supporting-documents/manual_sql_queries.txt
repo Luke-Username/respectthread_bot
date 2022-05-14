@@ -23,6 +23,8 @@ UPDATE character SET is_default=FALSE WHERE default_name='Shazam';
 
 ########################################
 
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{1026}';
+
 ########################################
 
 ########################################
