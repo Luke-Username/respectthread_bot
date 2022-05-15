@@ -27,6 +27,8 @@ UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{1026}';
 
 ########################################
 
+UPDATE character_name SET name='Ant(-| )?Mans?' WHERE name='Ant(-| )?Man';
+
 ########################################
 
 ########################################
