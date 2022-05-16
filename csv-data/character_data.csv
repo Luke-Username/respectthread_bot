@@ -2638,45 +2638,25 @@ Hammerdoom Chantcaller,{Chaotic},t,{725},Chaotic
 Milla'iin,{Chaotic},t,{726},Chaotic
 Smildon,{Chaotic},t,{727},Chaotic
 Ursis,{Chaotic},t,{728},Chaotic
-Count Spankulot,"{`"Kids Next Door`"}",t,{729},Kids Next Door
-Elfa Strike Squad,"{`"Kids Next Door`"}",t,{730},Kids Next Door
 Elfa Strike Squad,{KND},t,{730},Kids Next Door
-Wintergreen,"{`"Kids Next Door`"}",f,{730},Kids Next Door
 Wintergreen,{KND},f,{730},Kids Next Door
-Coniferous,"{`"Kids Next Door`"}",f,{730},Kids Next Door
 Coniferous,{KND},f,{730},Kids Next Door
-Nutcracker,"{`"Kids Next Door`"}",f,{730},Kids Next Door
 Nutcracker,{KND},f,{730},Kids Next Door
-Snow Angel,"{`"Kids Next Door`"}",f,{730},Kids Next Door
 Snow Angel,{KND},f,{730},Kids Next Door
-Father,"{`"Kids Next Door`"}",f,{731},Kids Next Door
 Father,{KND},f,{731},Kids Next Door
 Father,"{`"Benedict Uno`"}",f,{731},Kids Next Door
-Knightbrace,"{`"Kids Next Door`"}",t,{732},Kids Next Door
 Knightbrace,{KND},t,{732},Kids Next Door
-Numbuh 86,"{`"Kids Next Door`"}",t,{733},Kids Next Door
 Numbuh 86,{KND},t,{733},Kids Next Door
-Sector V,"{`"Kids Next Door`"}",t,{734},Kids Next Door
 Sector V,{KND},t,{734},Kids Next Door
-Numbuh 1,"{`"Kids Next Door`"}",t,{734},Kids Next Door
 Numbuh 1,{KND},t,{734},Kids Next Door
-Numbuh 2,"{`"Kids Next Door`"}",t,{734},Kids Next Door
 Numbuh 2,{KND},t,{734},Kids Next Door
-Hoagie,"{`"Kids Next Door`"}",f,{734},Kids Next Door
 Hoagie,{KND},f,{734},Kids Next Door
-Numbuh 3,"{`"Kids Next Door`"}",t,{734},Kids Next Door
 Numbuh 3,{KND},t,{734},Kids Next Door
-Kuki,"{`"Kids Next Door`"}",f,{734},Kids Next Door
 Kuki,{KND},f,{734},Kids Next Door
-Numbuh 4,"{`"Kids Next Door`"}",t,{734},Kids Next Door
 Numbuh 4,{KND},t,{734},Kids Next Door
-Numbuh 5,"{`"Kids Next Door`"}",t,{734},Kids Next Door
 Numbuh 5,{KND},t,{734},Kids Next Door
-Stickybeard,"{`"Kids Next Door`"}",t,{735},Kids Next Door
 Stickybeard,{KND},t,{735},Kids Next Door
-Toiletnator,"{`"Kids Next Door`"}",t,{736},Kids Next Door
 Toiletnator,{KND},t,{736},Kids Next Door
-Vin Moosk,"{`"Kids Next Door`"}",t,{737},Kids Next Door
 Vin Moosk,{KND},t,{737},Kids Next Door
 Courage,"{`"Cowardly Dog`"}",f,{738},Courage the Cowardly Dog
 Goose God,"{`"Cowardly Dog`"}",t,{739},Courage the Cowardly Dog
@@ -2746,10 +2726,6 @@ Captain Marvel,"{`"DC Animated Universe`"}",f,{754},DCAU
 Captain Marvel,"{`"Animated DC`"}",f,{754},DCAU
 Captain Marvel,{DCAU},f,{754},DCAU
 Captain Marvel,{Timmverse},f,{754},DCAU
-Shazam,"{`"DC Animated Universe`"}",f,{754},DCAU
-Shazam,"{`"Animated DC`"}",f,{754},DCAU
-Shazam,{DCAU},f,{754},DCAU
-Shazam,{Timmverse},f,{754},DCAU
 Curaré,"{`"DC Animated Universe`"}",t,{755},DCAU
 Curaré,"{`"Animated DC`"}",t,{755},DCAU
 Curaré,{DCAU},t,{755},DCAU
@@ -3759,7 +3735,6 @@ XANA,{Lyoko},t,{1034},Code Lyoko
 Evillak,"{`"Conan the Adventurer`"}",t,{1035},Conan the Adventurer
 Cubix,{Cubix},t,{4720},""
 Cubix,"{`"Robots For Everyone`"}",t,{4720},""
-Roger,"{`"American Dad`"}",f,{1026},American Dad!
 Dave the Barbarian,"{`"Dave the Barbarian`"}",t,{1040},""
 Fang,"{`"Dave the Barbarian`"}",f,{1041},Dave the Barbarian
 Ajax the Gorilla,{Disney},t,{1042},""
@@ -3806,6 +3781,7 @@ Mega Man,"{`"Cartoon Promo`"}",f,{1071},Cartoon Promo
 Megas XLR,"{`"Megas XLR`"}",t,{1072},""
 Nathan Explosion,{Metalocalypse},t,{1073},Metalocalypse
 Wonder Girl,"{`"\\[Young Justice`"}",f,{1023},Young Justice
+Roger,"{`"American Dad`"}",f,{},American Dad!
 Mickey Mouse,"{`"Mickey Mouse Works`"}",f,{1075},Mickey Mouse Works
 Rikochet,"{`"Mucha Lucha`"}",f,{1078},¡Mucha Lucha!
 Jenny Wakeman,"{`"My Life As A Teenage Robot`"}",t,{1079},My Life As A Teenage Robot
@@ -4402,11 +4378,6 @@ Mr. Freeze,"{`"Post(-| )52`"}",t,{1549},New 52
 Mr. Freeze,"{`"Prime(-| )Earth`"}",t,{1549},New 52
 Mr. Freeze,{Rebirth},t,{1549},New 52
 Mr. Freeze,{PC},t,{1550},Post-Crisis
-Shazam,{2019},f,{6554},DCEU
-Shazam,"{`"DC Extended Universe`"}",f,{6554},DCEU
-Shazam,{DCEU},f,{6554},DCEU
-Shazam,"{`"DC Cinematic Universe`"}",f,{6554},DCEU
-Shazam,{DCCU},f,{6554},DCEU
 Mr. Freeze,"{`"Post(-| )C(risis)?`"}",t,{1550},Post-Crisis
 Mr. Freeze,"{`"New(-| )Earth`"}",t,{1550},Post-Crisis
 Nightwing Rogues,{PC},t,{1551},Post-Crisis
@@ -4471,6 +4442,10 @@ Wrath,"{`"Pre(-| )?Crisis`"}",f,{1561},Pre-Flashpoint
 Poison Ivy,"{`"\\(DC`"}",t,{1553},(DC)
 Scarecrow,"{`"\\(DC( Comics)?\\)`"}",t,"{1557,1558}",DC
 Talons,"{`"\\(DC( Comics)?\\)`"}",f,{1560},DC
+Shazam,{2019},f,{6554},DCEU
+Shazam,"{`"DC Extended Universe`"}",f,{6554},DCEU
+Shazam,{DCEU},f,{6554},DCEU
+Shazam,"{`"DC Cinematic Universe`"}",f,{6554},DCEU
 Shazam Family,"{Shazam,2019}",f,{6555},DCEU
 Shazam Family,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Shazam Family,{DCEU},f,{6555},DCEU
@@ -4862,13 +4837,6 @@ Plastic Man,"{`"Prime(-| )Earth`"}",f,{1651},Rebirth
 Plastic Man,{Rebirth},f,{1651},Rebirth
 Red Tornado,"{`"Young Justice`"}",f,{1008},Young Justice
 Red Tornado,{CW},f,{},CW Arrowverse
-Shazam,"{`"movies? versions?`"}",f,{6554},DCEU
-Shazam,{(movie)},f,{6554},DCEU
-Shazam,"{`"New(-| )?52`"}",t,{1653},New 52
-Shazam,{N-?52},t,{1653},New 52
-Shazam,"{`"Post(-| )52`"}",t,{1653},New 52
-Shazam,"{`"Prime(-| )Earth`"}",t,{1653},New 52
-Shazam,{Rebirth},t,{1653},New 52
 Triumph,"{`"Triumph (DC)`"}",f,{1654},DC
 Triumph,{PC},f,{1654},DC
 Triumph,"{`"Post(-| )?C(risis)?`"}",f,{1654},DC
@@ -4893,6 +4861,10 @@ Black Adam,"{`"Prime(-| )Earth`"}",f,{1622},New 52 / Rebirth
 Black Adam,{Rebirth},f,{1622},New 52 / Rebirth
 Pain,{Naruto},f,{3964},Naruto
 Red Tornado,"{`"(DC( Comics)?)`"}",t,"{21451,1652}",DC
+Shazam,"{`"movies? versions?`"}",f,{6554},DCEU
+Shazam,{(movie)},f,{6554},DCEU
+Shazam,"{`"New(-| )?52`"}",f,{1653},New 52
+Shazam,{N-?52},f,{1653},New 52
 Chunky Chicken,"{`"Power Rangers?`"}",t,{6556},Power Rangers
 Despero,"{`"New(-| )?52`"}",f,{},New 52
 Despero,{N-?52},f,{},New 52
@@ -5309,7 +5281,6 @@ Young Justice,"{`"Young Justice Sd`"}",f,{10802},TV Series
 The Team,"{`"The Team ?\\(Young Justice`"}",f,{10802},Young Justice
 Black Lightning,"{`"Young Justice`"}",f,{10803},Young Justice
 Captain Marvel,"{`"Young Justice`"}",f,{10804},Young Justice
-Shazam,"{`"Young Justice`"}",f,{10804},Young Justice
 Martian Manhunter,"{`"Martian Manhunter \\(Young Justice`"}",f,{10805},Young Justice
 Bloodshot,{2020},f,{10806},2020
 Bloodshot,"{`"Bloodshot movie`"}",f,{10806},2020
@@ -5367,6 +5338,7 @@ Constrictor,{comics?},f,{2027},616
 Constrictor,{Marvel},f,{2027},616
 Sam Wilson,{616},t,"{17672,2023}",616
 Sam Wilson,{comics?},t,"{17672,2023}",616
+Shazam,"{`"Young Justice`"}",f,{10804},Young Justice
 Miles Morales,"{`"Spider(-| )?Verse`"}",f,"{1174,1176}",Into the Spider-Verse
 Peter B. Parker,"{`"Spider(-| )?Verse`"}",t,{1175},Into the Spider-Verse
 Spider-Gang,"{`"Spider(-| )?Verse`"}",f,{1176},Into the Spider-Verse
@@ -6553,7 +6525,6 @@ Melzargard,{OPM},t,{7571},One Punch Man
 Tanktop Master,"{`"One(-| )Punch Man`"}",t,{7572},One Punch Man
 Tanktop Master,{OPM},t,{7572},One Punch Man
 Freakazoid,{Freakazoid},t,{7573},Freakazoid!
-Shazam,{Injustice},f,{7574},Injustice
 Black Adam,{Injustice},f,{7575},Injustice
 Aries Mū,{Seiya},t,{7576},Saint Seiya
 Aquagirl,"{`"DC Animated Universe`"}",f,{7577},DCAU
@@ -6609,6 +6580,7 @@ The Ray,"{`"Post(-| )52`"}",f,{},New 52
 The Ray,"{`"Prime(-| )Earth`"}",f,{},New 52
 The Ray,{Rebirth},f,{},New 52
 Multiplex,"{`"New(-| )?52`"}",f,{},New 52
+Shazam,{Injustice},f,{7574},Injustice
 Ray Terrill,{PC},f,{7597},Post-Crisis
 Ray Terrill,"{`"Post(-| )?C(risis)?`"}",f,{7597},Post-Crisis
 Ray Terrill,"{`"New(-| )Earth`"}",f,{7597},Post-Crisis
@@ -8224,7 +8196,6 @@ Justice League,"{`"Earth 6`"}",f,{1820},Earth 6
 Batman,"{`"Earth 6`"}",f,{1820},Earth 6
 Wonder Woman,"{`"Earth 6`"}",f,{1820},Earth 6
 Aquaman,"{`"Earth 6`"}",f,{1820},Earth 6
-Shazam,"{`"Earth 6`"}",f,{1820},Earth 6
 Sandman,"{`"Earth 6`"}",f,{1820},Earth 6
 Catwoman,"{`"Earth 6`"}",f,{1820},Earth 6
 League of Ancients,{PC},f,{1821},Post-Crisis
@@ -27196,3 +27167,57 @@ Captain Bravo,"{`"Busou? Renkin`"}",f,{21955},Buso Renkin
 Kazuki Muto,"{`"Busou? Renkin`"}",t,{21956},Buso Renkin
 Kazuki,"{`"Busou? Renkin`"}",f,{21956},Buso Renkin
 Edward Wu,{Kengan(verse)?},f,{21957},Kengan Asura
+Count Spankulot,"{`"Kids Next ?Door`"}",t,{729},Kids Next Door
+Elfa Strike Squad,"{`"Kids Next ?Door`"}",t,{730},Kids Next Door
+Wintergreen,"{`"Kids Next ?Door`"}",f,{730},Kids Next Door
+Coniferous,"{`"Kids Next ?Door`"}",f,{730},Kids Next Door
+Nutcracker,"{`"Kids Next ?Door`"}",f,{730},Kids Next Door
+Snow Angel,"{`"Kids Next ?Door`"}",f,{730},Kids Next Door
+Father,"{`"Kids Next ?Door`"}",f,{731},Kids Next Door
+Knightbrace,"{`"Kids Next ?Door`"}",t,{732},Kids Next Door
+Numbuh 86,"{`"Kids Next ?Door`"}",t,{733},Kids Next Door
+Sector V,"{`"Kids Next ?Door`"}",t,{734},Kids Next Door
+Numbuh 1,"{`"Kids Next ?Door`"}",t,{734},Kids Next Door
+Numbuh 2,"{`"Kids Next ?Door`"}",t,{734},Kids Next Door
+Hoagie,"{`"Kids Next ?Door`"}",f,{734},Kids Next Door
+Numbuh 3,"{`"Kids Next ?Door`"}",t,{734},Kids Next Door
+Kuki,"{`"Kids Next ?Door`"}",f,{734},Kids Next Door
+Numbuh 4,"{`"Kids Next ?Door`"}",t,{734},Kids Next Door
+Numbuh 5,"{`"Kids Next ?Door`"}",t,{734},Kids Next Door
+Stickybeard,"{`"Kids Next ?Door`"}",t,{735},Kids Next Door
+Toiletnator,"{`"Kids Next ?Door`"}",t,{736},Kids Next Door
+Vin Moosk,"{`"Kids Next ?Door`"}",t,{737},Kids Next Door
+Shazam,"{`"DC Animated Universe`"}",f,{754},DCAU
+Shazam,"{`"Animated DC`"}",f,{754},DCAU
+Shazam,{DCAU},f,{754},DCAU
+Shazam,{Timmverse},f,{754},DCAU
+Shazam,{DCCU},f,{6554},DCEU
+Shazam,"{`"Post(-| )52`"}",f,{1653},New 52
+Shazam,"{`"Prime(-| )Earth`"}",f,{1653},New 52
+Shazam,{Rebirth},f,{1653},New 52
+Shazam,"{`"Earth 6`"}",f,{1820},Earth 6
+Ultron,"{`"Ultron ?\\(EMH`"}",f,{21353},Earth's Mightiest Heroes
+Scarlet Witch,"{`"Scarlet Witch.*MoM`"}",f,{270},MCU
+Sonic,"{`"Sonic ?\\((Movie|Film)s?`"}",f,{8607},2020 film
+Shang-Chi,{comics},t,{2104},616
+Terraria,"{`"Playable character`"}",f,{5497},""
+Kai,{Ninjago},f,{21958},Ninjago
+Izou Motobe,{Baki(verse)?},f,{21959},Baki
+Voyager,{Voyager.*Fate},f,{21960},Fate
+Beowulf's Dragon,{default},t,{21961},""
+Mega Man,"{`"Captain N`"}",f,{21962},Captain N: The Game Master
+Imperiex,"{`"Legion of Super(-| )Heroes`"}",f,{21963},Legion of Super Heroes
+Swarms,"{`"Swarms ?\\(Prey`"}",f,{21964},Prey
+Silver,"{`"Archie Silver`"}",f,{21965},Archie Comics
+Silver,"{Sonic,`"\\(Archie`"}",f,{21965},Archie Comics
+Silver the Hedgehog,{Archie},f,{21965},Archie Comics
+Shadow,"{`"Archie Shadow`"}",f,{21966},Archie Comics
+Shadow,"{Sonic,`"\\(Archie`"}",f,{21966},Archie Comics
+Shadow the Hedgehog,{Archie},f,{21966},Archie Comics
+Sandman,"{`"Spectacular Spider-?Man`"}",f,{21967},Spectacular Spider-Man
+Evo,"{`"Space Station Silicon Valley`"}",f,{21969},Space Station Silicon Valley
+Hawk-Owl,{1610},f,{21970},1610
+Hawk-Owl,"{`"Jack Danner`"}",f,{21970},1610
+Clayface,"{`"DC Animated Universe`"}",f,{21971},DCAU
+Clayface,{DCAU},f,{21971},DCAU
+Fantastic Four,{7712},f,{21968},7712

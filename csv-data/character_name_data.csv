@@ -3798,7 +3798,6 @@ Ragnarok,Ragnarok,f
 Jane Thor,Jane Thor,f
 Brunnhild(e|a),Brunnhilde,f
 Woden,Woden,f
-Ant(-| )?Man,Ant-Man,f
 Scott Lang,Scott Lang,f
 Wanda Maximoff,Wanda Maximoff,f
 Spider(-| )?Woman,Spider-Woman,f
@@ -3920,6 +3919,7 @@ Iron Hammer,Iron Hammer,f
 Django Freeman,Django Freeman,f
 Odin(-| )?force Thor,Odin-Force Thor,f
 Jean Gr(e|a)y,Jean Grey,f
+Ant(-| )?Mans?,Ant-Man,f
 Ultimates? Scarlet Witch,Ultimate Scarlet Witch,f
 Ultimates? Thor,Ultimate Thor,f
 Ultimates? Wasp,Ultimate Wasp,f
@@ -12363,3 +12363,10 @@ Captain Bravo,Captain Bravo,f
 Kazuki Mut(ō|o)|Mut(ō|o) Kazuki,Kazuki Muto,f
 Kazuki,Kazuki,f
 Edward Wu,Edward Wu,f
+Terraria,Terraria,f
+Izou Motobe,Izou Motobe,f
+Voyager,Voyager,f
+Beowulf's Dragon,Beowulf's Dragon,f
+Swarms,Swarms,f
+Evo,Evo,f
+Hawk(-| )Owl,Hawk-Owl,f

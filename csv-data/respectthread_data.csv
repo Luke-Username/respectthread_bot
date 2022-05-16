@@ -982,6 +982,7 @@ id,title,link
 1033,Respect Cordie! (CliffSide),https://redd.it/9caq0t
 1034,Respect XANA [Code Lyoko],https://redd.it/34406o
 1035,Now you must still Respect... Evillak! (Conan the Adventurer),https://redd.it/6w2p1h
+1081,Respect Magneto (The New Fantastic Four),https://redd.it/uplwdn
 1037,Dan (Dan Vs.),https://redd.it/2xfech
 1038,Respect Darkwing Duck (Darkwing Duck),https://redd.it/ajqqyw
 1039,Respect Negaduck (Darkwing Duck),https://redd.it/ajqqoq
@@ -1025,7 +1026,6 @@ id,title,link
 1078,Respect Rikochet (¡Mucha Lucha!),https://redd.it/50pjiz
 1079,Respect Jenny Wakeman! (My Life As A Teenage Robot),https://redd.it/4y98qa
 1080,Respect Queen Vexus (My Life As a Teenage Robot),https://redd.it/60j3j6
-1081,"Respect `"Wooden Gun`" Magneto? Maybe?",https://redd.it/288vga
 1002,"Respect Aquaman (Kaldur'ahm, Young Justice)",https://redd.it/g7i4jm
 1082,Respect the Numbertaker (Numberjacks),https://redd.it/b3vpts
 1083,Respect Phil Matibag! (The Nutshack),https://redd.it/60czrp
@@ -1151,7 +1151,7 @@ id,title,link
 1209,Respect Count Dracula and family (Hotel Transylvania),https://redd.it/4e9jxx
 1210,"Respect Robert Bruce Banner, The Incredible Hulk (Hulk Vs.)",https://redd.it/60xrga
 1211,Respect Scrat! (Ice Age),https://redd.it/brqetq
-1213,Respect Owlman (JL: CO2E),https://redd.it/5f7o5q
+1213,Respect Owlman (Justice League: Crisis on Two Earths),https://redd.it/uovq7k
 1215,Respect Gantu (Lilo and Stitch!),https://redd.it/5erwrz
 1216,Respect Stitch! (Lilo and Stitch),https://redd.it/7btonw
 1217,Respect Capitaine Chantel Dubois (Madagascar),https://redd.it/68prtb
@@ -8700,7 +8700,6 @@ id,title,link
 16552,"Respect Okita Souji, the Sakura Saber! (Fate)",https://redd.it/n2vh6v
 16553,Respect Sakamoto Ryouma and Oryou (Fate)!,https://redd.it/n3bqlw
 16554,Respect Ghostface Killah! [Wu-Tang Clan],https://redd.it/3yyuz0
-16555,Respect MechaMew2 (Pokemon Live!),https://redd.it/3rgr7i
 16556,Respect Tyler Howard (BIOHAZARD THE STAGE),https://redd.it/cjouiq
 16557,Respect Theodore Roosevelt (Real Life),https://redd.it/drpx0r
 16558,Respect Milk Copypasta Guy! (Milk Copypasta),https://redd.it/dbst15
@@ -8741,6 +8740,7 @@ id,title,link
 16593,Respect Balan! (Balan Wonderworld),https://redd.it/mzh1gb
 16594,Respect Gandrayda (Metroid),https://redd.it/n3etm5
 16595,Respect Rundas (Metroid),https://redd.it/mzmwii
+16555,Respect MechaMew2 (Pokemon Live!),https://redd.it/uor69h
 16596,Respect Ghor (Metroid),https://redd.it/n338ya
 16597,Respect the Battletoads! (Battletoads),https://redd.it/mzwhgw
 16598,Respect Putt-Putt! (Putt-Putt),https://redd.it/n0ukjq
@@ -9170,12 +9170,12 @@ id,title,link
 13128,Respect the Chex Mix Squadron (Chex Quest),https://redd.it/igh35l
 13129,Respect Tychoben Arisaenn! (Forgotten Realms),https://redd.it/iadg7h
 13130,Respect Luke Cage (CAGE!),https://redd.it/igqupy
-13131,Respect Judge Claude Frollo (The Hunchback of Notre Dame),https://redd.it/igs1kd
 13132,Respect Steve (Bigtop Burger),https://redd.it/igzxvi
 13133,Respect Szass Tam! (Forgotten Realms),https://redd.it/ibhtxe
 13134,Respect Shatterfist! (616),https://redd.it/ic1gg9
 13083,"Respect Reinhard van Astrea (Re:Zero, Anime)",https://redd.it/smrco6
 13098,"Respect Elsa Granhiert (Re:Zero, Anime)",https://redd.it/snl1pf
+13131,Respect Judge Claude Frollo (Disney's The Hunchback of Notre Dame),https://redd.it/upv1rc
 13135,Respect Peepers! (616),https://redd.it/igqi6e
 13136,Respect Mortimer 'Toad' Toynbee! (616),https://redd.it/icrhd1
 13137,Respect Magma-Tron (3Below: Tales of Arcadia),https://redd.it/ibeked
@@ -9415,6 +9415,20 @@ id,title,link
 21955,Respect Captain Bravo! (Busou Renkin),https://redd.it/uo85dq
 21956,Respect Kazuki Muto! (Busou Renkin),https://redd.it/uo871p
 21957,"Respect `"The King of Hades`" Edward Wu (Kengan Omega)",https://redd.it/uo7xaz
+21958,Respect Kai (Ninjago),https://redd.it/uoepgg
+21959,Respect Izou Motobe (Grappler Baki),https://redd.it/uogiu3
+21960,Respect Voyager! (Fate),https://redd.it/uoj2b5
+21961,Respect Beowulf's Dragon (Beowulf),https://redd.it/uov9tz
+21962,Respect Mega Man (Captain N: The Game Master),https://redd.it/uoz5fx
+21963,Respect Imperiex! (Legion of Super Heroes),https://redd.it/upaoue
+21964,Respect the Swarms (Prey),https://redd.it/upr570
+21965,"Respect Silver the Hedgehog (Sonic the Hedgehog) [Archie Comics, Pre Genesis]",https://redd.it/upvv26
+21966,"Respect Shadow the Hedgehog (Sonic the Hedgehog) [Archie Comics, Pre Genesis]",https://redd.it/upvvh5
+21967,"Respect Flint Marko, the Sandman (The Spectacular Spider-Man)",https://redd.it/uq4iv6
+21968,"Respect The Fantastic Four (Marvel, 7712)",https://redd.it/uq5w3d
+21969,Respect Evo (Space Station Silicon Valley),https://redd.it/uqaajt
+21970,"Jack Danner, Hawk-Owl (Marvel, 1610)",https://redd.it/uqkqsx
+21971,Respect Clayface (DCAU),https://redd.it/uqt82o
 21670,Respect Zangief! (Udon Comics Street Fighter),https://redd.it/tpj0xq
 21671,Gill [Street fighter Udon Comics] Vs Garou [OPM],https://redd.it/jhehf2
 21672,Respect King Bosse! (Ranking of Kings),https://redd.it/tppz34
