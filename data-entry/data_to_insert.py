@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['The Thing'],
+'The Thing',
+False,
+False,
+[
+    ['2005.*2007']
+],
+'Fantastic Four Movies',
+'{8573}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ur1nh0/the_thing_20052004_vs_korg_mcu/i8ugpqj/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
