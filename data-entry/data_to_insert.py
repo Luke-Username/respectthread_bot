@@ -121,6 +121,34 @@ False,
 
 ########################################
 
+add_data(['Jean Gr(e|a)y'],
+'Jean Grey',
+False,
+False,
+[
+    ['X(-| )?Men ?:( The)? ?Last Stand'], ['\(Last Stand\)']
+],
+'FOX',
+'{14882}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/urunr2/the_phoenix_xmen_last_stand_vs_scarlett_witch/i92yvpe/?context=3
+
+########################################
+
+add_data(['The Mods'],
+'The Mods',
+False,
+False,
+[
+    ['Star Wars']
+],
+'Star Wars',
+'{21385}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/usbkxx/rey_skywalker_vs_bobba_fetts_gang_star_wars/i92cvq7/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Kamen Rider Century (Kamen Rider Beyond Generations)!', 'https://redd.it/ura7ye')
 add_data(['Kamen Rider Century'],
 'Kamen Rider Century',
@@ -223,6 +251,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/us9v3e/respect_peter_parker_spiderman_spiderman_unlimited/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Arthur Nagan, Gorilla-Man (Marvel, 616)', 'https://redd.it/usc1a8')
+add_data(['Gorilla(-| )Man'],
+'Gorilla-Man',
+False,
+False,
+[
+    ['Arthur Nagan']
+],
+'Arthur Nagan',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/usc1a8/respect_arthur_nagan_gorillaman_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, "Respect Dola''s Gang (Laputa: Castle in the Sky)", 'https://redd.it/ushj2b')
+add_data(['Dola'],
+'Dola',
+False,
+False,
+[
+    ['Castle in the Sky']
+],
+'Castle in the Sky',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ushj2b/respect_dolas_gang_laputa_castle_in_the_sky/
 
 ########################################
 
