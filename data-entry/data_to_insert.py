@@ -121,6 +121,111 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Kamen Rider Century (Kamen Rider Beyond Generations)!', 'https://redd.it/ura7ye')
+add_data(['Kamen Rider Century'],
+'Kamen Rider Century',
+False,
+True,
+[
+    ['Beyond Generations']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ura7ye/respect_kamen_rider_century_kamen_rider_beyond/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (IDW Comics Anthologies)', 'https://redd.it/urqlt7')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Godzilla: Rivals'], ['Godzilla:? Legends']
+],
+'IDW Anthologies',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/urqlt7/respect_godzilla_idw_comics_anthologies/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Godzilla: Gangsters and Goliaths)', 'https://redd.it/urvxvz')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Gangsters and Goliaths']
+],
+'Gangsters and Goliaths',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/urvxvz/respect_godzilla_godzilla_gangsters_and_goliaths/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Billy Hatcher (Billy Hatcher and the Giant Egg)', 'https://redd.it/urt3y5')
+add_data(['Billy Hatcher'],
+'Billy Hatcher',
+False,
+True,
+[
+    ['Giant Egg']
+],
+'Billy Hatcher and the Giant Egg',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/urt3y5/respect_billy_hatcher_billy_hatcher_and_the_giant/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Princess Lana (Captain N: The Game Master)', 'https://redd.it/urw7aw')
+add_data(['Princess Lana'],
+'Princess Lana',
+False,
+False,
+[
+    ['Captain N']
+],
+'Captain N: The Game Master',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/urw7aw/respect_princess_lana_captain_n_the_game_master/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Prince Mamuwalde (Blacula)', 'https://redd.it/us28da')
+add_data(['Blacula'],
+'Blacula',
+False,
+True,
+[
+    ['Mamuwalde']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/us28da/respect_prince_mamuwalde_blacula/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Peter Parker, Spider-Man (Spider-Man Unlimited)', 'https://redd.it/us9v3e')
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['Spider(-| )?Man Unlimited']
+],
+'Spider-Man Unlimited',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/us9v3e/respect_peter_parker_spiderman_spiderman_unlimited/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

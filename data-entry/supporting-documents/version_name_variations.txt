@@ -483,6 +483,12 @@ Calvin and Hobbes
 	Displayed Version Name
 		"Calvin and Hobbes"
 
+Captain N: The Game Master
+	Version
+		['Captain N']
+	Displayed Version Name
+		"Captain N: The Game Master"
+
 Captain Pronin
 	Version
 		'{"Captain Pronin"}'

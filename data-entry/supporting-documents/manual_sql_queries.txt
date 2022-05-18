@@ -23,6 +23,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+SELECT * FROM respectthread WHERE link='https://redd.it/urqlt7';
+UPDATE character SET rt_id_array='{1926}' WHERE default_name='Godzilla' AND version='{"IDW"}'; --After run
+
 ########################################
 
 
