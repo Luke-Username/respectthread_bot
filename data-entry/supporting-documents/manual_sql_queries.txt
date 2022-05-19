@@ -19,6 +19,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{6348}'
+
 ########################################
 
 UPDATE character SET version='{"Arcade.*616"}' WHERE default_name='Arcade' AND version='{"616"}';
