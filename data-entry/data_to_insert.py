@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['(Doctor|Dr\.?|Stephen) ?Strange'],
+'Doctor Strange',
+False,
+False,
+[
+    ['No Way Home'], ['NWH']
+],
+'MCU',
+'{13351}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/usl832/could_toms_spiderman_really_defeat_dr_strange_as/i95g2sw/?context=3
+
+########################################
+
+add_data(['A-Train'],
+'A-Train',
+False,
+False,
+[
+    ['Black Noir']
+],
+'The Boys',
+'{21325}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/usl28w/spidermen_no_way_home_vs_vought_team/
+
+########################################
+
 add_data(['The Thing'],
 'The Thing',
 False,
@@ -281,6 +309,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ushj2b/respect_dolas_gang_laputa_castle_in_the_sky/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Godzilla: Oblivion)', 'https://redd.it/ussl1k')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Godzilla:? Oblivion']
+],
+'Godzilla: Oblivion',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ussl1k/respect_godzilla_godzilla_oblivion/
 
 ########################################
 
