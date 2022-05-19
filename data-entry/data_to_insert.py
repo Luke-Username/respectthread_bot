@@ -107,6 +107,50 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ganondorf (Hyrule Warriors)', 'https://redd.it/ut4hlf')
+add_data(['Ganon(dorf)?'],
+'Ganondorf',
+False,
+False,
+[
+    ['Hyrule Warriors']
+],
+'Hyrule Warriors',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ut4hlf/respect_ganondorf_hyrule_warriors/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dr. Michael Morbius (Morbius)', 'https://redd.it/ut58oo')
+add_data(['Morbius'],
+'Morbius',
+False,
+False,
+[
+    ['Morbius ?\(Morbius\)'], ['ut58oo'], ['2022'], ['Sony'], ['Jared Letos?'], ['MCU'],
+    ['Morbius.*(movie|film)s?'], ['(movie|film) Morbius']
+],
+'2022',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ut58oo/respect_dr_michael_morbius_morbius/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Milo Morbius (Morbius)', 'https://redd.it/ut593e')
+add_data(['Milo'],
+'Milo',
+False,
+False,
+[
+    ['Morbius']
+],
+'Morbius',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ut593e/respect_milo_morbius_morbius/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
