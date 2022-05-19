@@ -19,17 +19,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{6348}'
-
 ########################################
 
-UPDATE character SET version='{"Arcade.*616"}' WHERE default_name='Arcade' AND version='{"616"}';
-UPDATE character SET version='{"Arcade.*Marvel"}' WHERE default_name='Arcade' AND version='{"Marvel"}';
-
 ########################################
-
-SELECT * FROM respectthread WHERE link='https://redd.it/urqlt7';
-UPDATE character SET rt_id_array='{1926}' WHERE default_name='Godzilla' AND version='{"IDW"}'; --After run
 
 ########################################
 

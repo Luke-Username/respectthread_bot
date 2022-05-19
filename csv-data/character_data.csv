@@ -7404,8 +7404,6 @@ Hercules,{616},f,{2447},616
 Hercules,"{`"\\(Marvel( comics?)?\\)`"}",f,{2447},616
 Enchantress,{616},f,{8161},616
 Enchantress,"{`"\\(Marvel\\)`"}",f,{8161},616
-Arcade,{616},f,{8162},616
-Arcade,{Marvel},f,{8162},616
 Arno Stark,{616},t,{8163},616
 Iron Man 2020,{616},t,{8163},616
 Jesus,{616},f,{8164},616
@@ -7427,6 +7425,7 @@ Cachirú,{PC},t,{8168},Post-Crisis
 Cachirú,"{`"Post(-| )?C(risis)?`"}",t,{8168},Post-Crisis
 Cachirú,"{`"New(-| )Earth`"}",t,{8168},Post-Crisis
 Cyborg Superman,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1798,1799}",DC
+Arcade,{Arcade.*Marvel},f,{8162},616
 Cyborg Superman,{PC},f,{1798},Post-Crisis
 Cyborg Superman,"{`"Post(-| )?C(risis)?`"}",f,{1798},Post-Crisis
 Cyborg Superman,"{`"New(-| )Earth`"}",f,{1798},Post-Crisis
@@ -9865,7 +9864,6 @@ Loki,{Norse},f,{},Norse mythology
 Magni Thorson,{3515},t,{1976},3515
 Magni Thorson,{comics?},t,{1976},3515
 Baymax,{Disney},f,{10863},Disney's Big Hero 6
-Godzilla,{IDW},f,{1926},IDW
 Kato,"{`"((The )*Green Hornet)`"}",f,{453},"The Green Hornet, 2011"
 Puddlegulp,{616},t,{1977},616
 Ragnarok,"{`"Ragnarok \\(Marvel`"}",f,{1978},616
@@ -9890,6 +9888,7 @@ Song-Joo,"{`"Promised Neverland`"}",f,{4443},The Promised Neverland
 That Guy,"{`"Promised Neverland`"}",f,{4444},The Promised Neverland
 Wild Demons,"{`"Promised Neverland`"}",f,{4445},The Promised Neverland
 Baymax,{movies?},f,{10863},Disney's Big Hero 6
+Godzilla,{IDW},f,"{1926,21973}",IDW
 Scott Lang,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Scott Lang,{MCU},f,{},MCU
 Scott Lang,{199999},f,{},MCU
@@ -25922,7 +25921,7 @@ Steve Austin,"{`"Steve Austin.*Dynamite Comics|Dynamite Comics.*Steve Austin`"}"
 Bionic Woman,"{`"Bionic Woman.*Dynamite Comics|Dynamite Comics.*Bionic Woman`"}",f,{21267},Dynamite Comics
 Foreskin Man,{comics?},t,{21268},""
 Superman X,"{`"Legion of Super Heroe?s`"}",f,{21269},Legion of Super Heroes
-Silverback gorilla,"{`"Real Life`"}",t,{6348},""
+Silverback gorilla,"{`"Real Life`"}",t,{},""
 Spider-Man,"{`"Golden Spongecake`"}",f,{},51914
 Crimson,{Dreamwalker},f,{21272},Dreamwalker
 Katsumi Orochi,{Baki},t,{21273},Baki
@@ -27221,3 +27220,22 @@ Hawk-Owl,"{`"Jack Danner`"}",f,{21970},1610
 Clayface,"{`"DC Animated Universe`"}",f,{21971},DCAU
 Clayface,{DCAU},f,{21971},DCAU
 Fantastic Four,{7712},f,{21968},7712
+Arcade,{Arcade.*616},f,{8162},616
+Doctor Strange,"{`"No Way Home`"}",f,{13351},MCU
+Doctor Strange,{NWH},f,{13351},MCU
+A-Train,"{`"Black Noir`"}",f,{21325},The Boys
+The Thing,{2005.*2007},f,{8573},Fantastic Four Movies
+Jean Grey,"{`"X(-| )?Men ?:( The)? ?Last Stand`"}",f,{14882},FOX
+Jean Grey,"{`"\\(Last Stand\\)`"}",f,{14882},FOX
+The Mods,"{`"Star Wars`"}",f,{21385},Star Wars
+Kamen Rider Century,"{`"Beyond Generations`"}",t,{21972},""
+Godzilla,"{`"Godzilla: Rivals`"}",f,{21973},IDW Anthologies
+Godzilla,"{`"Godzilla:? Legends`"}",f,{21973},IDW Anthologies
+Godzilla,"{`"Gangsters and Goliaths`"}",f,{21974},Gangsters and Goliaths
+Billy Hatcher,"{`"Giant Egg`"}",t,{21975},Billy Hatcher and the Giant Egg
+Princess Lana,"{`"Captain N`"}",f,{21976},Captain N: The Game Master
+Blacula,{Mamuwalde},t,{21977},""
+Spider-Man,"{`"Spider(-| )?Man Unlimited`"}",f,{21978},Spider-Man Unlimited
+Gorilla-Man,"{`"Arthur Nagan`"}",f,{21979},Arthur Nagan
+Dola,"{`"Castle in the Sky`"}",f,{21980},Castle in the Sky
+Godzilla,"{`"Godzilla:? Oblivion`"}",f,{21981},Godzilla: Oblivion
