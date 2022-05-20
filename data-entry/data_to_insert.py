@@ -107,6 +107,24 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1151, 'Respect Tai Lung! (Kung Fu Panda)', 'https://redd.it/uu0pi2')
+
+########################################
+
+add_data(['(Doctor|Dr\.?) Manhattan'],
+'Doctor Manhattan',
+False,
+False,
+[
+    ['Watchmen (movie|film)s?']
+],
+'Watchmen, 2009',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/utftx8/dormammu_mcu_vs_dr_manhattan_watchmen_movie/i99lrap/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Ganondorf (Hyrule Warriors)', 'https://redd.it/ut4hlf')
 add_data(['Ganon(dorf)?'],
 'Ganondorf',
@@ -150,6 +168,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ut593e/respect_milo_morbius_morbius/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kid Icarus (Captain N: The Game Master)', 'https://redd.it/utgmzu')
+add_data(['Kid Icarus'],
+'Kid Icarus',
+False,
+False,
+[
+    ['Captain N']
+],
+'Captain N: The Game Master',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/utgmzu/respect_kid_icarus_captain_n_the_game_master/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jonathan Chase (Manimal)', 'https://redd.it/utrbyo')
+add_data(['Jonathan Chase'],
+'Jonathan Chase',
+False,
+False,
+[
+    ['Manimal']
+],
+'Manimal',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/utrbyo/respect_jonathan_chase_manimal/
 
 ########################################
 
