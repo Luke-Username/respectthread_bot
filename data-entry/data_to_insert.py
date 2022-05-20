@@ -111,6 +111,34 @@ update_respectthread(cur, 1151, 'Respect Tai Lung! (Kung Fu Panda)', 'https://re
 
 ########################################
 
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Snyders?']
+],
+'DCEU',
+'{130}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/uu4nvz/can_strange_and_wanda_mom_defeat_snyders_jl/
+
+########################################
+
+add_data(['Wanda'],
+'Wanda',
+False,
+False,
+[
+    ['\(MoM\)', 'Strange']
+],
+'MCU',
+'{270}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/uu4nvz/can_strange_and_wanda_mom_defeat_snyders_jl/
+
+########################################
+
 add_data(['(Doctor|Dr\.?) Manhattan'],
 'Doctor Manhattan',
 False,
