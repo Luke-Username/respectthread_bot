@@ -16,6 +16,7 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character_name SET name='Reinhardt? v(a|o)n Astrea' WHERE name='Reinhard v(a|o)n Astrea';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dante', 'Count Dante', -6);
 
 ########################################
 
