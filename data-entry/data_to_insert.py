@@ -112,6 +112,20 @@ update_respectthread(cur, 118, 'Respect Aquaman (DC Extended Universe)', 'https:
 
 ########################################
 
+add_data(['Y(ou?r|uri) Briar'],
+'Yor Briar',
+False,
+True,
+[
+    ['Spy x Family']
+],
+'Spy x Family',
+'{20970}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/uui4nn/your_briar_spyxfamily_vs_spiderman/
+
+########################################
+
 add_data(['Super(-| )?man'],
 'Superman',
 False,
