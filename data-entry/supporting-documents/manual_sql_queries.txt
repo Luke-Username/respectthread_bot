@@ -20,6 +20,8 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dante', 'Count D
 
 ########################################
 
+UPDATE character SET displayed_version_name='DC' WHERE default_name='Batman' AND rt_id_array='{1493,1494}';
+
 ########################################
 
 ########################################

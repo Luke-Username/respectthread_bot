@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 1151, 'Respect Tai Lung! (Kung Fu Panda)', 'https://redd.it/uu0pi2')
+update_respectthread(cur, 118, 'Respect Aquaman (DC Extended Universe)', 'https://redd.it/uudk8g')
 
 ########################################
 
@@ -226,6 +227,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/utrbyo/respect_jonathan_chase_manimal/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rend (Pokemon ReBurst)', 'https://redd.it/uuft0x')
+add_data(['Rend'],
+'Rend',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n ReBurst']
+],
+'Pocket Monsters RéBURST',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uuft0x/respect_rend_pokemon_reburst/
 
 ########################################
 
