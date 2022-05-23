@@ -109,6 +109,9 @@ cur = con.cursor()
 
 update_respectthread(cur, 1151, 'Respect Tai Lung! (Kung Fu Panda)', 'https://redd.it/uu0pi2')
 update_respectthread(cur, 118, 'Respect Aquaman (DC Extended Universe)', 'https://redd.it/uudk8g')
+update_respectthread(cur, 5565, 'Respect Fury (Darksiders)', 'https://redd.it/uvyvpm')
+update_respectthread(cur, 8208, 'Respect God! (Bruce Almighty)', 'https://redd.it/uw3ond')
+update_respectthread(cur, 17515, "Respect Malu The Ghost Witch! (Avatar: The Last Airbender''s Official TCG)", 'https://redd.it/uw4f7y')
 
 ########################################
 
@@ -256,6 +259,157 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/uuft0x/respect_rend_pokemon_reburst/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zan (Rising Zan: The Samurai Gunman)', 'https://redd.it/uukjzn')
+add_data(['Zan'],
+'Zan',
+False,
+False,
+[
+    ['Rising Zan'], ['The Samurai Gunman']
+],
+'Rising Zan: The Samurai Gunman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uukjzn/respect_zan_rising_zan_the_samurai_gunman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Inquisitorius (Star Wars Canon)', 'https://redd.it/uv05hj')
+add_data(['Inquisitorius'],
+'Inquisitorius',
+True,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uv05hj/respect_the_inquisitorius_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Marina (Mischief Makers)', 'https://redd.it/uv78g3')
+add_data(['Marina'],
+'Marina',
+False,
+False,
+[
+    ['Mischief Makers'], ['Liteyears']
+],
+'Mischief Makers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uv78g3/respect_marina_mischief_makers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Elle Bishop (Heroes)', 'https://redd.it/uv7grl')
+add_data(['Elle Bishop'],
+'Elle Bishop',
+False,
+True,
+[
+    ['Heroes']
+],
+'Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uv7grl/respect_elle_bishop_heroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shiromi and Same (Killer Shark in Another World)', 'https://redd.it/uv9vgz')
+add_data(['Shiromi'],
+'Shiromi',
+False,
+False,
+[
+    ['Killer Shark in Another World'], ['Shiromi.*Same']
+],
+'Killer Shark in Another World',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uv9vgz/respect_shiromi_and_same_killer_shark_in_another/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Popeye the Sailor Man (DEATH BATTLE!)', 'https://redd.it/uveeqq')
+add_data(['Popeye'],
+'Popeye',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uveeqq/respect_popeye_the_sailor_man_death_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Omniman! (Image Comics)', 'https://redd.it/uvef7i')
+add_data(['Omniman'],
+'Omniman',
+False,
+False,
+[
+    ['Image Comics']
+],
+'Image Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uvef7i/respect_omniman_image_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kilgrave (Marvel Cinematic Universe)', 'https://redd.it/uvz3jx')
+add_data(['Kill?grave'],
+'Kilgrave',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU'],
+    ['Jessica Jones'], ['Thompsons?'], ['Netflix'], ['Kevin Thompson']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uvz3jx/respect_kilgrave_marvel_cinematic_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Don Zenkai-Oh (Avataro Sentai Donbrothers)', 'https://redd.it/uw0t0q')
+add_data(['Don Zenkai(-| )?Oh'],
+'Don Zenkai-Oh',
+False,
+True,
+[
+    ['Avataro Sentai Donbrothers']
+],
+'Avataro Sentai Donbrothers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uw0t0q/respect_don_zenkaioh_avataro_sentai_donbrothers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shagnasty the Skinwalker (The Dresden Files)', 'https://redd.it/uw2zrt')
+add_data(['Shagnasty'],
+'Shagnasty',
+False,
+True,
+[
+    ['Dresden']
+],
+'Dresden Files',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uw2zrt/respect_shagnasty_the_skinwalker_the_dresden_files/
 
 ########################################
 
