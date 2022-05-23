@@ -1228,11 +1228,11 @@ Topo,{N-?52},f,{1492},New 52 / Rebirth
 Topo,"{`"Post(-| )52`"}",f,{1492},New 52 / Rebirth
 Topo,"{`"Prime(-| )Earth`"}",f,{1492},New 52 / Rebirth
 Topo,{Rebirth},f,{1492},New 52 / Rebirth
-Batman,{Comics},t,"{1493,1494}",""
 Batman,"{`"New 52`"}",f,{1493},New 52
 Batman,{N-?52},f,{1493},New 52
 Yondu,{691},f,{2049},691
 Smith,"{`"Agent Smith`"}",f,"{276,275}",The Matrix
+Batman,{Comics},t,"{1493,1494}",DC
 Thanos,"{`"Marvel Cinematic`"}",f,{263},MCU
 Thanos,{MCU},f,{263},MCU
 Thanos,{199999},f,{263},MCU
@@ -27239,3 +27239,36 @@ Spider-Man,"{`"Spider(-| )?Man Unlimited`"}",f,{21978},Spider-Man Unlimited
 Gorilla-Man,"{`"Arthur Nagan`"}",f,{21979},Arthur Nagan
 Dola,"{`"Castle in the Sky`"}",f,{21980},Castle in the Sky
 Godzilla,"{`"Godzilla:? Oblivion`"}",f,{21981},Godzilla: Oblivion
+Yor Briar,"{`"Spy x Family`"}",t,{20970},Spy x Family
+Superman,{Snyders?},f,{130},DCEU
+Wanda,"{`"\\(MoM\\)`",Strange}",f,{270},MCU
+Doctor Manhattan,"{`"Watchmen (movie|film)s?`"}",f,{21590},"Watchmen, 2009"
+Ganondorf,"{`"Hyrule Warriors`"}",f,{21998},Hyrule Warriors
+Morbius,"{`"Morbius ?\\(Morbius\\)`"}",f,{21999},2022
+Morbius,{ut58oo},f,{21999},2022
+Morbius,{2022},f,{21999},2022
+Morbius,{Sony},f,{21999},2022
+Morbius,"{`"Jared Letos?`"}",f,{21999},2022
+Morbius,{Morbius.*(movie|film)s?},f,{21999},2022
+Morbius,"{`"(movie|film) Morbius`"}",f,{21999},2022
+Milo,{Morbius},f,{22000},Morbius
+Kid Icarus,"{`"Captain N`"}",f,{22001},Captain N: The Game Master
+Jonathan Chase,{Manimal},f,{22002},Manimal
+Rend,"{`"Pok(e|é)m(o|a)n ReBurst`"}",f,{22003},Pocket Monsters RéBURST
+Zan,"{`"The Samurai Gunman`"}",f,{22004},Rising Zan: The Samurai Gunman
+Inquisitorius,"{`"S(tar )?Wars`"}",t,{22005},Star Wars
+Marina,"{`"Mischief Makers`"}",f,{22006},Mischief Makers
+Marina,{Liteyears},f,{22006},Mischief Makers
+Elle Bishop,{Heroes},t,{22007},Heroes
+Shiromi,"{`"Killer Shark in Another World`"}",f,{22008},Killer Shark in Another World
+Shiromi,{Shiromi.*Same},f,{22008},Killer Shark in Another World
+Popeye,"{`"DEATH BATTLE`"}",f,{22009},DEATH BATTLE!
+Omniman,"{`"Image Comics`"}",f,{22010},Image Comics
+Kilgrave,"{`"Marvel Cinematic Universe`"}",f,{22011},MCU
+Kilgrave,{MCU},f,{22011},MCU
+Kilgrave,"{`"Jessica Jones`"}",f,{22011},MCU
+Kilgrave,{Thompsons?},f,{22011},MCU
+Kilgrave,{Netflix},f,{22011},MCU
+Kilgrave,"{`"Kevin Thompson`"}",f,{22011},MCU
+Don Zenkai-Oh,"{`"Avataro Sentai Donbrothers`"}",t,{22012},Avataro Sentai Donbrothers
+Shagnasty,{Dresden},t,{22013},Dresden Files

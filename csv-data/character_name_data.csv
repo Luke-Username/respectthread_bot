@@ -826,7 +826,6 @@ Coffee (Maker|Machine),Coffee Maker,f
 The Major,The Major,f
 Corrupted Jaspers?,Corrupted Jaspers,f
 Diamond Ships?,Diamond Ships,f
-Jason Voo?rhees,Jason Voorhees,f
 Snake Eyes,Snake Eyes,f
 Storm Shadow,Storm Shadow,f
 The Giant Claw,The Giant Claw,f
@@ -873,6 +872,7 @@ Hades,Hades,f
 Ghost ?Rider,Ghost Rider,f
 Drones,Drones,f
 Mich(ae|ea)l Myers,Michael Myers,f
+Jason Voo?rhee?s,Jason Voorhees,f
 Jasper,Jasper,f
 Ares,Ares,f
 Poseidon,Poseidon,f
@@ -7347,7 +7347,6 @@ Petelgeuse,Petelgeuse Romanee-Conti,f
 White Whale,White Whale,f
 Julius Juukulius,Julius Juukulius,f
 Crusch,Crusch Karsten,f
-Reinhard v(a|o)n Astrea,Reinhard van Astrea,f
 Mechs?,Mechs,f
 Back Lack,Back Lack,f
 Bedivere,Bedivere,f
@@ -7425,6 +7424,7 @@ Equuleus Sh(o|ō)ko,Equuleus Shōko,f
 Pegasus Seiya,Pegasus Seiya,f
 Bright ?burn,Brightburn,f
 Elsa Granhie?rte?,Elsa Granhiert,f
+Reinhardt? v(a|o)n Astrea,Reinhard van Astrea,f
 Gold Cloth Saiya,Pegasus Seiya,f
 Saint Seiya,Saint Seiya,f
 Leopold Vermillion,Leopold Vermillion,f
@@ -11579,7 +11579,6 @@ Harvest,Harvest,f
 Vengeance,Vengeance,f
 3g4,3g4,f
 Denny Swan,Denny Swan,f
-Yor Forger,Yor Forger,f
 The Muscle,The Muscle,f
 (Mister|Mr\\.?) Wing,Mister Wing,f
 Overman,Overman,f
@@ -11686,6 +11685,7 @@ Django,Django,f
 First Hassan,First Hassan,f
 CAS,CAS,f
 Star (and|&) Stripe,Star and Stripe,f
+You?r Forger,Yor Forger,f
 Golden Sperm,Golden Sperm,f
 Empty Hand,Empty Hand,f
 SCP(-| )?008,SCP-008,f
@@ -12378,3 +12378,17 @@ Princess Lana,Princess Lana,f
 Blacula,Blacula,f
 Gorilla(-| )Man,Gorilla-Man,f
 Dola,Dola,f
+Y(ou?r|uri) Briar,Yor Briar,f
+Morbius,Morbius,f
+Milo,Milo,f
+Kid Icarus,Kid Icarus,f
+Jonathan Chase,Jonathan Chase,f
+Rend,Rend,f
+Inquisitorius,Inquisitorius,t
+Marina,Marina,f
+Elle Bishop,Elle Bishop,f
+Shiromi,Shiromi,f
+Omniman,Omniman,f
+Kill?grave,Kilgrave,f
+Don Zenkai(-| )?Oh,Don Zenkai-Oh,f
+Shagnasty,Shagnasty,f

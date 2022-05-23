@@ -96,7 +96,6 @@ id,title,link
 115,Respect Daredevil (Daredevil 2003),https://redd.it/ax38sh
 116,Respect Elektra (Daredevil 2003/Elektra 2005),https://redd.it/azi47t
 117,Respect the Elite Members of the Hand (Elektra 2005),https://redd.it/azi6fd
-118,Respect Aquaman (DC Extended Universe),https://redd.it/bfujou
 119,Respect Batman (DC Extended Universe),https://redd.it/7yjuqi
 120,Respect Black Manta (DC Extended Universe),https://redd.it/bg7s56
 121,Respect Deadshot (DC Extended Universe),https://redd.it/5zyx2d
@@ -112,6 +111,7 @@ id,title,link
 131,"Respect Diana, Wonder Woman (DC Extended Universe)",https://redd.it/7yjuqk
 132,Respect General Zod ! (DC EXTENDED UNIVERSE),https://redd.it/90hsgu
 133,Respect Brian O'Conner (The Fast and Furious),https://redd.it/6ci5qd
+118,Respect Aquaman (DC Extended Universe),https://redd.it/uudk8g
 135,Respect Dominic Toretto (The Fast and the Furious),https://redd.it/6dauki
 137,Respect Agent Zero (X-Men Origins: Wolverine),https://redd.it/9367yt
 138,Respect Ajax (FOX),https://redd.it/50ibcn
@@ -1090,7 +1090,6 @@ id,title,link
 1148,Respect Master Shifu (Kung Fu Panda),https://redd.it/4q9jcg
 1149,Respect Master Oogway (Kung Fu Panda),https://redd.it/b5s9rj
 1150,"Respect Po, the Dragon Warrior! (Kung Fu Panda)",https://redd.it/450rci
-1151,Respect Tai Lung (Kung Fu Panda),https://redd.it/3n8v4b
 1152,Respect Tigress (Kung Fu Panda),https://redd.it/3ytr4h
 1153,[Respect] The Wu Sisters (Kung Fu Panda),https://redd.it/be399a
 1154,Respect Maui (Moana),https://redd.it/5ymlfb
@@ -1104,6 +1103,7 @@ id,title,link
 1162,Respect Santa Claus! (Rise of the Guardians),https://redd.it/5xgsm3
 1163,Respect Brave Shaggy! (Scooby Doo! Legend of the Phantosaur),https://redd.it/8jqsze
 1091,Respect Scrappy-Doo and his Demons (Scooby-Doo) [2002 film],https://redd.it/dctfp2
+1151,Respect Tai Lung! (Kung Fu Panda),https://redd.it/uu0pi2
 1128,Respect Elastigirl (The Incredibles),https://redd.it/fygdwf
 1164,Respect Crystal and Amber! (Scooby-Doo and the Alien Invaders),https://redd.it/bpmaa8
 1165,Respect the Loch Ness Monster (Scooby Doo and the Loch Ness Monster),https://redd.it/bxn5hv
@@ -5346,7 +5346,6 @@ id,title,link
 5562,Respect the Prophet! (Darkest Dungeon),https://redd.it/arqo7x
 5563,Respect Jackie Estacado! (The Darkness) (Games),https://redd.it/59yomc
 5564,Respect Death (Darksiders series),https://redd.it/6xc8fg
-5565,Darksiders - Fury,https://redd.it/ad8fn6
 5567,Respect Isaac Clarke [Dead Space],https://redd.it/8e7ek7
 5568,Respect the Scorpion (Deadly Creatures),https://redd.it/areaqk
 5569,Respect the Tarantula (Deadly Creatures),https://redd.it/areant
@@ -5403,6 +5402,7 @@ id,title,link
 5622,Respect King Tongue (King Tongue),https://redd.it/4lz0ab
 5623,Respect Knack! (Knack),https://redd.it/77jc4u
 5624,[Respect] Cyclop (The Last DeadEnd),https://redd.it/9ot0ar
+5565,Respect Fury (Darksiders),https://redd.it/uvyvpm
 5547,Respect the Protagonist! (CarnEvil),https://redd.it/nolru5
 5626,Respect Starfy! (The Legendary Starfy),https://redd.it/74s4nd
 5627,Respect Carnom (LEGO Marvel),https://redd.it/ca7kz7
@@ -7251,7 +7251,6 @@ id,title,link
 8205,Respect Kamen Rider Zamonas (Kamen Rider Zi-O: Over Quartzer),https://redd.it/f1073y
 8206,Respect Peter Pan (Peter Pan 1953 Animated Film),https://redd.it/etwmq9
 8207,Respect Tinkerbell (Peter Pan 1953 Animated Film),https://redd.it/etwnd1
-8208,Respect God (Bruce Almighty 2003 Live Action Film/Even Almighty 2007 Live Action Film),https://redd.it/etwptr
 8210,Respect Jianzhu The Gravedigger (Avatar: The Rise of Kyoshi),https://redd.it/eudzs3
 8211,Respect Thanos (Verbalase),https://redd.it/eufsiu
 8212,Mighty Mouse (Terrytoons),https://redd.it/eui1nu
@@ -7282,6 +7281,7 @@ id,title,link
 8209,Respect Neil Clarke! (Absolutely Anything),https://redd.it/sysjhf
 8173,"Respect Metallo, the Man with the Kryptonite Heart! (DC, Post-Crisis)",https://redd.it/u9u5al
 8237,Respect Yuichiro Kurono (Fire Force Manga),https://redd.it/uksbpy
+8208,Respect God! (Bruce Almighty),https://redd.it/uw3ond
 8239,Respect Shinra Kusakabe! (Fire Force),https://redd.it/f0cj8b
 8240,Respect Joker! (Fire Force),https://redd.it/exwtn6
 8241,"Respect Takeru `"Juggernaut`" Noto! (Fire Force)",https://redd.it/exxe9j
@@ -9450,6 +9450,22 @@ id,title,link
 21979,"Respect Arthur Nagan, Gorilla-Man (Marvel, 616)",https://redd.it/usc1a8
 21980,Respect Dola's Gang (Laputa: Castle in the Sky),https://redd.it/ushj2b
 21981,Respect Godzilla (Godzilla: Oblivion),https://redd.it/ussl1k
+21998,Respect Ganondorf (Hyrule Warriors),https://redd.it/ut4hlf
+21999,Respect Dr. Michael Morbius (Morbius),https://redd.it/ut58oo
+22000,Respect Milo Morbius (Morbius),https://redd.it/ut593e
+22001,Respect Kid Icarus (Captain N: The Game Master),https://redd.it/utgmzu
+22002,Respect Jonathan Chase (Manimal),https://redd.it/utrbyo
+22003,Respect Rend (Pokemon ReBurst),https://redd.it/uuft0x
+22004,Respect Zan (Rising Zan: The Samurai Gunman),https://redd.it/uukjzn
+22005,Respect the Inquisitorius (Star Wars Canon),https://redd.it/uv05hj
+22006,Respect Marina (Mischief Makers),https://redd.it/uv78g3
+22007,Respect Elle Bishop (Heroes),https://redd.it/uv7grl
+22008,Respect Shiromi and Same (Killer Shark in Another World),https://redd.it/uv9vgz
+22009,Respect Popeye the Sailor Man (DEATH BATTLE!),https://redd.it/uveeqq
+22010,Respect: Omniman! (Image Comics),https://redd.it/uvef7i
+22011,Respect Kilgrave (Marvel Cinematic Universe),https://redd.it/uvz3jx
+22012,Respect Don Zenkai-Oh (Avataro Sentai Donbrothers),https://redd.it/uw0t0q
+22013,Respect Shagnasty the Skinwalker (The Dresden Files),https://redd.it/uw2zrt
 13117,Respect Homelander (Amazon's The Boys),https://redd.it/j860gx
 2745,"Respect Tony Chu (Chew, Image Comics)",https://redd.it/jiui4v
 416,Respect Count Dracula! (Universal Classic Monsters),https://redd.it/jlhc6c
@@ -10456,7 +10472,6 @@ id,title,link
 17511,"Respect Jimmy Olsen, The Human Octopus (Dc, Pre-Crisis)",https://redd.it/ojhjyq
 17512,"Respect Jimmy Olsen, The Giant Turtle Man (Dc, Pre-Crisis)",https://redd.it/oieg55
 17513,"Respect Jimmy Olsen, The Human Flame Thrower (Dc, Pre-Crisis)",https://redd.it/oiu02q
-17515,Respect Malu The Guardian (Avatar:-The Last Airbender's Official Trading Card Game),https://redd.it/oit35g
 17516,Respect Mordecai and Rigby (Regular Show),https://redd.it/oigwx0
 17517,Respect Drew Ferran (Wereworld),https://redd.it/oisg6r
 17518,Respect the Poison Clan! (Five Deadly Venoms),https://redd.it/oivdso
@@ -10495,6 +10510,7 @@ id,title,link
 21521,"Respect SCP-056, A Beautiful Person (SCP Foundation)",https://redd.it/t680j7
 21522,"Respect Kate Bishop, Hawkeye! {MCU}",https://comicvine.gamespot.com/forums/gen-discussion-1/respect-kate-bishop-hawkeye-mcu-2249411/
 21523,Vehicles BatmanMegaRT,https://redd.it/859k0m
+17515,Respect Malu The Ghost Witch! (Avatar: The Last Airbender's Official TCG),https://redd.it/uw4f7y
 17529,Respect The Hero of Twilight (Legend of Zelda Manga),https://redd.it/onhfzi
 21120,Respect the New Avengers (Avengers: Earth's Mightiest Heroes),https://redd.it/riu5on
 21282,Respect Kotomine Kirei (Fate/Zero and Fate/Stay Night),https://redd.it/3ktbhf
