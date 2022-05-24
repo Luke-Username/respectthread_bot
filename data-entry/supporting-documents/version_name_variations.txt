@@ -811,7 +811,7 @@ Dr. Stone
 
 Doctor Who
 	Version
-		r'{"(Doctor|Dr\\.?) ?Who"}', '{"Who(ni)?verse"}'
+		['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
 	Displayed Version Name
 		"Doctor Who"
 

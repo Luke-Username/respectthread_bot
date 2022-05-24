@@ -106,6 +106,133 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+add_data(['Ghost ?Rider'],
+'Ghost Rider',
+False,
+False,
+[
+    ['AoS']
+],
+'MCU',
+'{16830}'
+)
+#
+
+add_data(['Sonic the Hedgehog'],
+'Sonic the Hedgehog',
+False,
+False,
+[
+    ['Sonic the Hedgehog.*movies']
+],
+'2020 film',
+'{8607}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/uwr4re/master_chief_halo_show_runs_a_gauntlet_of_other/
+
+########################################
+
+id = get_rt_id(cur, 'Respect King Hippo (Captain N: The Game Master)', 'https://redd.it/uwevnh')
+add_data(['King Hippo'],
+'King Hippo',
+False,
+False,
+[
+    ['Captain N']
+],
+'Captain N: The Game Master',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uwevnh/respect_king_hippo_captain_n_the_game_master/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Marcy Wu! (Amphibia)', 'https://redd.it/uwevnh')
+add_data(['Marcy Wu'],
+'Marcy Wu',
+False,
+True,
+[
+    ['Amphibia']
+],
+'Amphibia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uwnmmh/respect_marcy_wu_amphibia/
+
+add_data(['Marcy'],
+'Marcy',
+False,
+False,
+[
+    ['Amphibia']
+],
+'Amphibia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uwnmmh/respect_marcy_wu_amphibia/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sasha Waybright! (Amphibia)', 'https://redd.it/uwnmu3')
+add_data(['Sasha'],
+'Sasha',
+False,
+False,
+[
+    ['Amphibia'], ['Waybright']
+],
+'Amphibia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uwnmu3/respect_sasha_waybright_amphibia/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anne Boonchuy! (Amphibia)', 'https://redd.it/uwnn82')
+add_data(['Anne'],
+'Anne',
+False,
+False,
+[
+    ['Amphibia'], ['Boonchuy']
+],
+'Amphibia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uwnn82/respect_anne_boonchuy_amphibia/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Sycorax (Doctor Who)', 'https://redd.it/uwqxjx')
+add_data(['Sycorax'],
+'Sycorax',
+False,
+False,
+[
+    ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uwqxjx/respect_the_sycorax_doctor_who/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Sun God (Marvel, Earth-4290001)', 'https://redd.it/uwqzq5')
+add_data(['Sun God'],
+'Sun God',
+False,
+False,
+[
+    ['4290001']
+],
+'4290001',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uwqzq5/respect_sun_god_marvel_earth4290001/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
