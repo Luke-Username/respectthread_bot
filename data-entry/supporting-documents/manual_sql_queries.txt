@@ -16,6 +16,9 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character SET is_default=FALSE WHERE default_name='Hal Jordan' AND displayed_version_name='Injustice';
+UPDATE character_name SET name='(Alexander|Father) An(d|e)erson' WHERE name='Alexander An(d|e)erson';
+UPDATE character_name SET name='Gr(iev|evi|eiv)ous' WHERE name='Grievous';
+DELETE FROM character_name WHERE name='Greivous';
 
 ########################################
 
