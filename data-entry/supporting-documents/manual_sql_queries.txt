@@ -16,11 +16,21 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character SET is_default=FALSE WHERE default_name='Hal Jordan' AND displayed_version_name='Injustice';
+UPDATE character SET is_default=FALSE WHERE default_name='Jack-Jack';
+
 UPDATE character_name SET name='(Alexander|Father) An(d|e)erson' WHERE name='Alexander An(d|e)erson';
 UPDATE character_name SET name='Gr(iev|evi|eiv)ous' WHERE name='Grievous';
+UPDATE character_name SET name='Pikachus?' WHERE name='Pikachu';
+
+DELETE FROM character WHERE default_name='Loki' AND version='{"comics?"}';
 DELETE FROM character_name WHERE name='Greivous';
+DELETE FROM character_name WHERE name='(Doctor|Dr\\.?|Stephen) ?Strange';
 
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('(Doctor|Dr\.?|Stephen) ?Strange', 'Doctor Strange 2', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Gr(a|e)y Wolf', 'Grey Wolf Sif', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('DEATH BATTLE', 'A Death Battle', -2);
 
 ########################################
 

@@ -107,6 +107,12 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1225, 'Respect The Next Avengers (Next Avengers: Heroes of Tomorrow)', 'https://redd.it/ux5nvp')
+update_respectthread(cur, 113, 'Respect Peter Parker, Spider-Man (The Amazing Spider-Man)', 'https://redd.it/uxffyb')
+update_respectthread(cur, 20522, "Respect Kinto The Cruel Trickster (Avatar: The Last Airbender''s Official TCG)", 'https://redd.it/uxifzv')
+
+########################################
+
 add_data(['Ghost ?Rider'],
 'Ghost Rider',
 False,
@@ -232,6 +238,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/uwqzq5/respect_sun_god_marvel_earth4290001/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mantis [DC Pre-Crisis]', 'https://redd.it/uxudkq')
+add_data(['Mantis'],
+'Mantis',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uxudkq/respect_mantis_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Featured Character: Jorgen von Strangle (Fairly Odd Parents)', 'https://redd.it/ceccuu')
+add_data(['Jorgen von Strangle'],
+'Jorgen von Strangle',
+False,
+True,
+[
+    ['Fairly Odd ?parents'], ['FOP']
+],
+'Fairly OddParents',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/uy10su/popular_verses_that_jorgen_von_strangle_the/
 
 ########################################
 
