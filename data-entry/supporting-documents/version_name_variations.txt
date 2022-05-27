@@ -521,7 +521,8 @@ Character Scramble
 
 Chivalry of a Failed Knight
 	Version
-		'{"Chivalry of a Failed Knight"}', '{"Rakudai"}'
+		['Chivalry of a Failed Knight'], ['Rakudai']
+		['Rakudai Kishi No Ca(val|lv)ary']
 	Displayed Version Name
 		"Chivalry of a Failed Knight"
 
@@ -2653,6 +2654,13 @@ Pre New 52
 		'{"pre(-| )N(ew ?)?52"}', '{"pre(-| )?52"}'
 	Displayed Version Name
 		"Pre New 52"
+
+Primal
+	Version
+		['Tartakovskys?']
+		['Primal']
+	Displayed Version Name
+		"Primal"
 
 The Princess and the Frog
 	Version

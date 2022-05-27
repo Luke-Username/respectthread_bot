@@ -271,6 +271,110 @@ True,
 
 ########################################
 
+add_data(['Sherlock'],
+'Sherlock Holmes',
+False,
+False,
+[
+    ['BBC']
+],
+'BBC',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/uy5a99/who_can_keep_their_secret_identity_from_sherlock/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Tempest (The Mask)', 'https://redd.it/uy4tew')
+add_data(['The Tempest'],
+'The Tempest',
+False,
+False,
+[
+    ['The Mask']
+],
+'The Mask',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uy4tew/respect_the_tempest_the_mask/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yuudai Moroboshi, (Rakudai Kishi No Calvary)', 'https://redd.it/uy55ns')
+add_data(['Yuudai Moroboshi'],
+'Yuudai Moroboshi',
+False,
+True,
+[
+    ['Chivalry of a Failed Knight'], ['Rakudai']
+],
+'Chivalry of a Failed Knight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uy55ns/respect_yuudai_moroboshi_rakudai_kishi_no_calvary/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Night Feeder (Genndy Tartakovsky''s Primal)", 'https://redd.it/uy777x')
+add_data(['Night Feeder'],
+'Night Feeder',
+False,
+True,
+[
+    ['Primal'], ['Tartakovskys?']
+],
+'Primal',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uy777x/respect_the_night_feeder_genndy_tartakovskys/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Colossi (Shadow of the Colossus)', 'https://redd.it/uyhs06')
+add_data(['Colossi'],
+'Colossi',
+True,
+False,
+[
+    ['Shadow of the Colossus']
+],
+'Shadow of the Colossus',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uyhs06/respect_the_colossi_shadow_of_the_colossus/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wander (Shadow of the Colossus)', 'https://redd.it/uyhx87')
+add_data(['Wander'],
+'Wander',
+False,
+False,
+[
+    ['Shadow of the Colossus']
+],
+'Shadow of the Colossus',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uyhx87/respect_wander_shadow_of_the_colossus/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Adam (I, Frankenstein)', 'https://redd.it/uywpuq')
+add_data(['Adam'],
+'Adam',
+False,
+False,
+[
+    ['I, Frankenstein']
+],
+'I, Frankenstein',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uywpuq/respect_adam_i_frankenstein/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

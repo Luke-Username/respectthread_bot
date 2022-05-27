@@ -34,6 +34,10 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('DEATH BATTLE', '
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Atrocitus, the Red Lantern (DC Comics, Post-Crisis)', 'https://redd.it/uyjaby'); SELECT * FROM respectthread WHERE link='https://redd.it/uyjaby';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Atrocitus' AND displayed_version_name='DC';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Atrocitus' AND displayed_version_name='Post-Crisis';
+
 ########################################
 
 ########################################
