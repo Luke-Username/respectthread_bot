@@ -91,7 +91,6 @@ id,title,link
 110,Respect Electro (The Amazing Spider-Man 2),https://redd.it/btk9d1
 111,Respect The Green Goblin (The Amazing Spider-Man 2),https://redd.it/btkcju
 112,Respect The Lizard (The Amazing Spider-Man),https://redd.it/btscns
-113,Respect The Amazing Spider-Man (Andrew Garfield),https://redd.it/66qyax
 114,Respect Bullseye (Daredevil 2003),https://redd.it/ax3a2u
 115,Respect Daredevil (Daredevil 2003),https://redd.it/ax38sh
 116,Respect Elektra (Daredevil 2003/Elektra 2005),https://redd.it/azi47t
@@ -113,6 +112,7 @@ id,title,link
 133,Respect Brian O'Conner (The Fast and Furious),https://redd.it/6ci5qd
 118,Respect Aquaman (DC Extended Universe),https://redd.it/uudk8g
 135,Respect Dominic Toretto (The Fast and the Furious),https://redd.it/6dauki
+113,"Respect Peter Parker, Spider-Man (The Amazing Spider-Man)",https://redd.it/uxffyb
 137,Respect Agent Zero (X-Men Origins: Wolverine),https://redd.it/9367yt
 138,Respect Ajax (FOX),https://redd.it/50ibcn
 139,Respect Angel Dust (Fox),https://redd.it/622dgx
@@ -1162,7 +1162,6 @@ id,title,link
 1222,"Respect Randall Boggs (Monsters, Inc.)",https://redd.it/bvf7sz
 1223,Respect Mulan (Disney's Mulan),https://redd.it/640lzf
 1224,Respect Shan Yu (Mulan),https://redd.it/antnk1
-1225,Respect The Next Avengers (Next Avengers: Heroes of Tomorrow),https://redd.it/7tyv4g
 1226,Respect Garrett and Ayden (Quest for Camelot),https://redd.it/9pqfbl
 1227,Respect Ruber (Quest for Camelot),https://redd.it/9mbc5h
 1228,Respect Rango (Rango),https://redd.it/6oyozs
@@ -1172,6 +1171,7 @@ id,title,link
 1232,Respect Maleficent (Disney),https://redd.it/9s8et9
 1233,Respect Smash (Smash and Grab),https://redd.it/apzyel
 1234,Respect Atomic Skull (Superman VS The Elite),https://redd.it/7rhbga
+1225,Respect The Next Avengers (Next Avengers: Heroes of Tomorrow),https://redd.it/ux5nvp
 1236,Respect the Thief! (The Thief And The Cobbler),https://redd.it/73xf5c
 1237,"Respect Carl Fredricksen! (Pixar's Up, 2009)",https://redd.it/6e32j1
 1238,"Respect, EVE (WALL-E)",https://redd.it/73g8v7
@@ -8036,7 +8036,6 @@ id,title,link
 20519,Respect General Fong (Avatar The Last Airbender),https://redd.it/qlw5n6
 20520,Respect Kelsang the Living Typhoon (Avatar: The Kyoshi Novels),https://redd.it/qjn3pa
 20521,Respect Xu Ping An (Avatar: Rise of Kyoshi),https://redd.it/qfulpw
-20522,Respect Kinto the Prankster (Avatar:-The Last Airbender's Official Trading Card Game),https://redd.it/pyfbqs
 20523,"Respect Mystery Inc. (What's New, Scooby-Doo?)",https://redd.it/qjo5rw
 20524,Respect The Scooby-Doo Detective Agency! (A Pup Named Scooby-Doo),https://redd.it/qjqxu4
 20525,"Respect Duck Guy (What's New, Scooby-Doo?)",https://redd.it/q1g1ud
@@ -9755,6 +9754,7 @@ id,title,link
 21717,Respect Ralph Hinkley (The Greatest American Hero),https://redd.it/tumz9n
 21718,Respect Regular Humans (Marvel and DC Comics),https://comicvine.gamespot.com/forums/gen-discussion-1/respect-regular-humans-marvel-and-dc-comics-2178276/
 21155,"Respect King Thor Odinson, the All-Father of Asgard (Marvel, Earth-616)",https://redd.it/ujpj4f
+22014,"Respect Atrocitus, the Red Lantern (DC Comics, Post-Crisis)",https://redd.it/uyjaby
 21105,"Respect the Imposter, Ashfur (Warrior Cats)",https://redd.it/rfuz1y
 21138,"Respect Michelle Dreemurr [The Princess, the Songstress, and the Plushie]",https://redd.it/rlvyhk
 3055,Respect Eren Yeager (Attack On Titan),https://redd.it/cmnegi
@@ -9788,6 +9788,20 @@ id,title,link
 21264,Respect Bigfoot! (Bigfoot),https://redd.it/s7wiww
 21265,Respect Kickpuncher! (Community),https://redd.it/s8290h
 21719,Respect Meelo (The Legend of Korra),https://redd.it/tvi1bv
+20522,Respect Kinto The Cruel Trickster (Avatar: The Last Airbender's Official TCG),https://redd.it/uxifzv
+22015,Respect King Hippo (Captain N: The Game Master),https://redd.it/uwevnh
+22016,Respect Sasha Waybright! (Amphibia),https://redd.it/uwnmu3
+22017,Respect Anne Boonchuy! (Amphibia),https://redd.it/uwnn82
+22018,Respect the Sycorax (Doctor Who),https://redd.it/uwqxjx
+22019,"Respect: Sun God (Marvel, Earth-4290001)",https://redd.it/uwqzq5
+22020,Respect Mantis [DC Pre-Crisis],https://redd.it/uxudkq
+22021,Featured Character: Jorgen von Strangle (Fairly Odd Parents),https://redd.it/ceccuu
+22022,Respect the Tempest (The Mask),https://redd.it/uy4tew
+22023,"Respect Yuudai Moroboshi, (Rakudai Kishi No Calvary)",https://redd.it/uy55ns
+22024,Respect The Night Feeder (Genndy Tartakovsky's Primal),https://redd.it/uy777x
+22025,Respect the Colossi (Shadow of the Colossus),https://redd.it/uyhs06
+22026,Respect Wander (Shadow of the Colossus),https://redd.it/uyhx87
+22027,"Respect Adam (I, Frankenstein)",https://redd.it/uywpuq
 21106,"Respect Sigurd, the King of Warriors! (Fate)",https://redd.it/rggv7q
 21139,Respect Space Marines (Warhammer 40k),https://redd.it/jbsqpz
 1077,"Respect Marinette Dupain-Cheng, the Miraculous Ladybug! (Miraculous: Tales of Ladybug & Cat Noir)",https://redd.it/rt49u2

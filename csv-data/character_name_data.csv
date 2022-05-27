@@ -619,7 +619,6 @@ Tim,Tim,f
 Tim the Enchanter,Tim the Enchanter,f
 Mewtwo,Mewtwo,f
 Ms. Norman,Ms. Norman,f
-Pikachu,Pikachu,f
 Gundam,Gundam,f
 Mighty Steel Leg,Sing,f
 Shaolin Soccer Team,Team Shaolin,f
@@ -681,7 +680,6 @@ FN-2199,FN-2199,f
 FN 2199,FN-2199,f
 FN2199,FN-2199,f
 Nines,Nines,f
-Grievous,General Grievous,f
 Jango Fett,Jango Fett,f
 Jar Jar,Jar Jar Binks,f
 K-2SO,K-2SO,f
@@ -730,6 +728,8 @@ Adrian Toomes,Adrian Toomes,f
 Robin Hood,Robin Hood,f
 Vasquez,Vasquez,f
 Avengers,The Avengers,t
+Gr(iev|evi|eiv)ous,General Grievous,f
+Pikachus?,Pikachu,f
 Xenomorphs,Xenomorphs,f
 Xenomorph,Xenomorphs,f
 Alien Queen,Xenomorphs,f
@@ -2616,7 +2616,6 @@ Ikaris,Ikaris,f
 Makkari,Makkari,f
 Sersi,Sersi,f
 King Thanos,King Thanos,f
-Greivous,Grievous,f
 Damian Wayne,Damian Wayne,f
 (Mister|Mr)\.? Freeze,Mr. Freeze,f
 Victor Fries,Mr. Freeze,f
@@ -5595,7 +5594,6 @@ Boma,Boma,f
 Clair Leonelli,Clair Leonelli,f
 Daisuke Aurora,Daisuke Aurora,f
 J,J,f
-Alexander An(d|e)erson,Alexander Anderson,f
 Seras Victoria,Seras Victoria,f
 Alhambra,Alhambra,f
 Tubalcain Alhambra,Tubalcain Alhambra,f
@@ -5652,6 +5650,7 @@ Leorio,Leorio,f
 Killua,Killua Zoldyck,f
 Kurapika,Kurapika,f
 Meruem,Meruem,f
+(Alexander|Father) An(d|e)erson,Alexander Anderson,f
 (Nefer)?pitou,Neferpitou,f
 Phantom Troupe,Phantom Troupe,t
 Chrollo,Chrollo Lucilfer,f
@@ -12370,7 +12369,6 @@ Beowulf's Dragon,Beowulf's Dragon,f
 Swarms,Swarms,f
 Evo,Evo,f
 Hawk(-| )Owl,Hawk-Owl,f
-(Doctor|Dr\\.?|Stephen) ?Strange,Doctor Strange,f
 The Mods,The Mods,f
 Kamen Rider Century,Kamen Rider Century,f
 Billy Hatcher,Billy Hatcher,f
@@ -12392,3 +12390,15 @@ Omniman,Omniman,f
 Kill?grave,Kilgrave,f
 Don Zenkai(-| )?Oh,Don Zenkai-Oh,f
 Shagnasty,Shagnasty,f
+Marcy Wu,Marcy Wu,f
+Marcy,Marcy,f
+Sasha,Sasha,f
+Anne,Anne,f
+Sycorax,Sycorax,f
+Sun God,Sun God,f
+Jorgen von Strangle,Jorgen von Strangle,f
+The Tempest,The Tempest,f
+Yuudai Moroboshi,Yuudai Moroboshi,f
+Night Feeder,Night Feeder,f
+Colossi,Colossi,t
+Wander,Wander,f

@@ -3907,9 +3907,9 @@ Drix,"{`"Osmosis Jones`"}",f,{1157},Osmosis Jones
 Osmosis Jones,"{`"Osmosis Jones`"}",t,{1158},""
 Thrax,"{`"Osmosis Jones`"}",t,{1159},Osmosis Jones
 Monkey,{Kubo},f,{1141},Kubo and the Two Strings
-Jack-Jack,{Incredibles},t,"{1130,20570}",The Incredibles
 Mr. Incredible,{Incredibles},t,"{1131,20570}",The Incredibles
 Violet,{Incredibles},f,"{1133,20570}",The Incredibles
+Jack-Jack,{Incredibles},f,"{1130,20570}",The Incredibles
 Easter Bunny,"{`"Rise of the Guardians`"}",f,{1160},Rise of the Guardians
 Jack Frost,"{`"Rise of the Guardians`"}",f,{1161},Rise of the Guardians
 Santa Claus,"{`"Rise of the Guardians`"}",f,{1162},Rise of the Guardians
@@ -5063,10 +5063,6 @@ Red Lantern Corps,{Nu?-?52},f,{},New 52
 Red Lantern Corps,"{`"Post(-| )52`"}",f,{},New 52
 Red Lantern Corps,"{`"Prime(-| )Earth`"}",f,{},New 52
 Red Lantern Corps,{Rebirth},f,{},New 52
-Atrocitus,{DC},t,{1674},DC
-Atrocitus,{PC},f,{1674},Post-Crisis
-Atrocitus,"{`"Post(-| )?C(risis)?`"}",f,{1674},Post-Crisis
-Atrocitus,"{`"New(-| )Earth`"}",f,{1674},Post-Crisis
 Atrocitus,"{`"New(-| )?52`"}",f,{},New 52
 Atrocitus,{Nu?-?52},f,{},New 52
 Atrocitus,"{`"Post(-| )52`"}",f,{},New 52
@@ -5075,6 +5071,9 @@ Atrocitus,{Rebirth},f,{},New 52
 Bleez,{DC},t,{1674},DC
 Crocodile,"{`"One Piece`"}",f,{4042},One Piece
 Crocodile,{OP},f,{4042},One Piece
+Atrocitus,{DC},t,{22014},DC
+Atrocitus,{PC},f,{22014},Post-Crisis
+Atrocitus,"{`"Post(-| )?C(risis)?`"}",f,{22014},Post-Crisis
 Bleez,{PC},f,{1674},Post-Crisis
 Bleez,"{`"Post(-| )?C(risis)?`"}",f,{1674},Post-Crisis
 Bleez,"{`"New(-| )Earth`"}",f,{1674},Post-Crisis
@@ -6313,7 +6312,6 @@ Jester Lavorre,"{`"Critical Role`"}",t,{7465},Critical Role
 Caduceus Clay,"{`"Critical Role`"}",t,{7466},Critical Role
 Salvadora,{Salvadora},t,{7467},Salvadora
 Yasha Nydoorin,"{`"Critical Role`"}",t,{7468},Critical Role
-Hal Jordan,{Injustice},t,{7469},Injustice
 Nott,"{`"Critical Role`"}",f,{7470},Critical Role
 Ghost,{616},f,{7471},616
 Chris,"{`"Subspace Emissary`"}",f,{7472},The Subspace Emissary's Worlds Conquest
@@ -9851,7 +9849,6 @@ Laufey,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Laufey,{MCU},f,{},MCU
 Laufey,{199999},f,{},MCU
 Loki,{616},t,{1975},616
-Loki,{comics?},t,{1975},616
 Loki,"{Jitari,`"New York`"}",f,{251},MCU
 Loki,"{Chitauri,`"New York`"}",f,{251},MCU
 Loki,{Jitari},f,{251},MCU
@@ -26583,6 +26580,7 @@ Mister Negative,{Insomniacs?},f,{15398},Insomniac's Spider-Man
 Peter Parker,{Insomniacs?},f,{15258},Insomniac's Spider-Man
 Batman,"{`"Arkham Knights?`"}",f,{17381},Batman: Arkham
 Old Woman Laura,{18366},t,{21860},18366
+Ghost Rider,{AoS},f,{16830},MCU
 Godzilla,"{`"King of the Monsters`"}",f,{280},MonsterVerse
 Godzilla,"{`"Godzilla: King of Monsters`"}",f,{280},MonsterVerse
 Godzilla,{Legendary},f,{280},MonsterVerse
@@ -27272,3 +27270,28 @@ Kilgrave,{Netflix},f,{22011},MCU
 Kilgrave,"{`"Kevin Thompson`"}",f,{22011},MCU
 Don Zenkai-Oh,"{`"Avataro Sentai Donbrothers`"}",t,{22012},Avataro Sentai Donbrothers
 Shagnasty,{Dresden},t,{22013},Dresden Files
+Hal Jordan,{Injustice},f,{7469},Injustice
+Atrocitus,"{`"New(-| )Earth`"}",f,{22014},Post-Crisis
+Sonic the Hedgehog,"{`"Sonic the Hedgehog.*movies`"}",f,{8607},2020 film
+King Hippo,"{`"Captain N`"}",f,{22015},Captain N: The Game Master
+Marcy Wu,{Amphibia},t,{22015},Amphibia
+Marcy,{Amphibia},f,{22015},Amphibia
+Sasha,{Amphibia},f,{22016},Amphibia
+Sasha,{Waybright},f,{22016},Amphibia
+Anne,{Amphibia},f,{22017},Amphibia
+Anne,{Boonchuy},f,{22017},Amphibia
+Sycorax,"{`"(Doctor|Dr\\.?) ?Who`"}",f,{22018},Doctor Who
+Sycorax,{Who(ni)?verse},f,{22018},Doctor Who
+Sun God,{4290001},f,{22019},4290001
+Mantis,"{`"Pre(-| )?Crisis`"}",f,{22020},Pre-Crisis
+Jorgen von Strangle,"{`"Fairly Odd ?parents`"}",t,{22021},Fairly OddParents
+Jorgen von Strangle,{FOP},t,{22021},Fairly OddParents
+Sherlock Holmes,{BBC},f,{},BBC
+The Tempest,"{`"The Mask`"}",f,{22022},The Mask
+Yuudai Moroboshi,"{`"Chivalry of a Failed Knight`"}",t,{22023},Chivalry of a Failed Knight
+Yuudai Moroboshi,{Rakudai},t,{22023},Chivalry of a Failed Knight
+Night Feeder,{Primal},t,{22024},Primal
+Night Feeder,{Tartakovskys?},t,{22024},Primal
+Colossi,"{`"Shadow of the Colossus`"}",f,{22025},Shadow of the Colossus
+Wander,"{`"Shadow of the Colossus`"}",f,{22026},Shadow of the Colossus
+Adam,"{`"I, Frankenstein`"}",f,{22027},"I, Frankenstein"
