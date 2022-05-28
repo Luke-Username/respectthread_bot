@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Tiaane (Chaotic)', 'https://redd.it/uyyc2g')
+add_data(['Tiaane'],
+'Tiaane',
+False,
+True,
+[
+    ['Chaotic']
+],
+'Chaotic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uyyc2g/respect_tiaane_chaotic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Middleman (The Middleman) [Comics]', 'https://redd.it/uz1fxr')
+add_data(['The Middleman'],
+'The Middleman',
+False,
+False,
+[
+    ['The Middleman ?\((The Middleman|Comics?)']
+],
+'Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uz1fxr/respect_the_middleman_the_middleman_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Cartoon Hooligans)', 'https://redd.it/uzglcd')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Cartoon ?Hooligans']
+],
+'CartoonHooligans',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/uzglcd/respect_godzilla_cartoon_hooligans/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
