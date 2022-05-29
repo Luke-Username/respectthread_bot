@@ -509,7 +509,7 @@ Castlevania
 
 Chainsaw Man
 	Version
-		'{"Chainsaw(-| )?Man"}'
+		['Chainsaw(-| )?Man']
 	Displayed Version Name
 		"Chainsaw Man"
 
@@ -803,6 +803,12 @@ Disney's Hercules
 		"Hercules, 1997"
 		# If character name == "Hercules":
 			default	= "Disney"
+
+The Dresden Files
+	Version
+		['Dresden Files']
+	Displayed Verion Name
+		"The Dresden Files"
 
 Dr. Stone
 	Version

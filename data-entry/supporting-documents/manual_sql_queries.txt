@@ -15,18 +15,31 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Marcy Wu! (Amphibia)', 'https://redd.it/uwnmmh'); SELECT * FROM respectthread WHERE link='https://redd.it/uwnmmh';
-UPDATE character SET rt_id_array='{?}' WHERE default_name LIKE %Marcy% AND default_name='Amphibia';
+DELETE FROM character_name WHERE name='Morbius';
 
 ########################################
 
 UPDATE character SET is_default=FALSE WHERE default_name='Fujin';
+UPDATE character SET displayed_version_name='The Dresden Files' WHERE displayed_version_name='Dresden Files';
 
 ########################################
 
-########################################
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Iron Fist', 'an Iron Fist', -3);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Aku', 'Aku Aku', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Aku', 'Aku Aku', -4);
 
 ########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='Aku';
+
+########################################
+
+UPDATE character SET version='{"Batman v\\. Superman"}' WHERE version='{"Batman v. Superman"}';
+
+########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/uwnmmh';
+UPDATE character SET rt_id_array='{?}' WHERE default_name LIKE %Marcy% AND default_name='Amphibia'; -- after run
 
 ########################################
 
