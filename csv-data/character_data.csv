@@ -516,7 +516,6 @@ Batman,{DCCU},f,{119},DCEU
 Batman,"{`"Man of Steel`"}",f,{119},DCEU
 Batman,{MoS},f,{119},DCEU
 Batman,"{`"Batman v Superman`"}",f,{119},DCEU
-Batman,"{`"Batman v. Superman`"}",f,{119},DCEU
 Batman,{BvS},f,{119},DCEU
 Batman,"{`"Dawn of Justice`"}",f,{119},DCEU
 Batman,{DoJ},f,{119},DCEU
@@ -541,7 +540,6 @@ Doomsday,{movies},f,{122},DCEU
 Doomsday,{film},f,{122},DCEU
 Doomsday,{films},f,{122},DCEU
 Doomsday,"{`"Batman v Superman`"}",f,{122},DCEU
-Doomsday,"{`"Batman v. Superman`"}",f,{122},DCEU
 Doomsday,{BvS},f,{122},DCEU
 Doomsday,"{`"Dawn of Justice`"}",f,{122},DCEU
 Doomsday,{DoJ},f,{122},DCEU
@@ -550,7 +548,6 @@ Superman,{DCEU},f,{130},DCEU
 Superman,"{`"DC Cinematic Universe`"}",f,{130},DCEU
 Superman,{DCCU},f,{130},DCEU
 Superman,"{`"Batman v Superman`"}",f,{130},DCEU
-Superman,"{`"Batman v. Superman`"}",f,{130},DCEU
 Superman,{BvS},f,{130},DCEU
 Superman,"{`"Dawn of Justice`"}",f,{130},DCEU
 Superman,{DoJ},f,{130},DCEU
@@ -559,7 +556,6 @@ Wonder Woman,{DCEU},f,{131},DCEU
 Wonder Woman,"{`"DC Cinematic Universe`"}",f,{131},DCEU
 Wonder Woman,{DCCU},f,{131},DCEU
 Wonder Woman,"{`"Batman v Superman`"}",f,{131},DCEU
-Wonder Woman,"{`"Batman v. Superman`"}",f,{131},DCEU
 Wonder Woman,{BvS},f,{131},DCEU
 Wonder Woman,"{`"Dawn of Justice`"}",f,{131},DCEU
 Wonder Woman,{DoJ},f,{131},DCEU
@@ -569,7 +565,6 @@ Diana,{DCEU},f,{131},DCEU
 Diana,"{`"DC Cinematic Universe`"}",f,{131},DCEU
 Diana,{DCCU},f,{131},DCEU
 Diana,"{`"Batman v Superman`"}",f,{131},DCEU
-Diana,"{`"Batman v. Superman`"}",f,{131},DCEU
 Diana,{BvS},f,{131},DCEU
 Diana,"{`"Dawn of Justice`"}",f,{131},DCEU
 Diana,{DoJ},f,{131},DCEU
@@ -578,7 +573,6 @@ Justice League,{DCEU},f,{123},DCEU
 Justice League,"{`"DC Cinematic Universe`"}",f,{123},DCEU
 Justice League,{DCCU},f,{123},DCEU
 Justice League,"{`"Batman v Superman`"}",f,{123},DCEU
-Justice League,"{`"Batman v. Superman`"}",f,{123},DCEU
 Justice League,{BvS},f,{123},DCEU
 Justice League,"{`"Dawn of Justice`"}",f,{123},DCEU
 Justice League,{DoJ},f,{123},DCEU
@@ -588,6 +582,8 @@ Aquaman,{Composite},f,"{1485,1486,1487}",Composite
 Aquaman,"{`"New 52`"}",f,{1486},New 52 / Rebirth
 Aquaman,{N-?52},f,{1486},New 52 / Rebirth
 Aquaman,"{`"Post(-| )52`"}",f,{1486},New 52 / Rebirth
+Doomsday,"{`"Batman v\\. Superman`"}",f,{122},DCEU
+Superman,"{`"Batman v\\. Superman`"}",f,{130},DCEU
 Korg,"{`"Marvel Cinematic`"}",f,{250},MCU
 Korg,{MCU},f,{250},MCU
 Korg,{199999},f,{250},MCU
@@ -3202,12 +3198,12 @@ Rick,"{`"Rick (&|and) Morty`"}",f,{876},Rick and Morty
 Rick,{C-?137},f,{876},Rick and Morty
 Scary Terry,"{`"Rick (&|and) Morty`"}",t,{877},Rick and Morty
 Vindicators,{Rick|Morty},f,{878},Rick and Morty
-Aku,"{`"Samurai Jack`"}",t,{879},Samurai Jack
 Ashi,"{`"Samurai Jack`"}",t,{880},Samurai Jack
 Demongo,"{`"Samurai Jack`"}",t,{881},Samurai Jack
 Samurai Jack,"{`"Samurai Jack`"}",t,{882},Samurai Jack
 Scaramouche,"{`"Samurai Jack`"}",t,{883},Samurai Jack
 Scotsman,"{`"Samurai Jack`"}",f,{884},Samurai Jack
+Aku,"{`"Samurai Jack`"}",f,{879},Samurai Jack
 Snowman,"{`"Samurai Jack`"}",f,{885},Samurai Jack
 The Thief,"{`"Samurai Jack`"}",f,{886},Samurai Jack
 Drew Saturday,"{`"Secret Saturdays`"}",t,{887},Secret Saturdays
@@ -17622,9 +17618,6 @@ Cassie Cage,"{`"Mortal Kombat`"}",t,{5265},Mortal Kombat
 Cassie Cage,"{`"MK\\d*`"}",t,{5265},Mortal Kombat
 Cyrax,"{`"Mortal Kombat`"}",t,{5267},Mortal Kombat
 Cyrax,"{`"MK\\d*`"}",t,{5267},Mortal Kombat
-Fujin,"{`"Mortal Kombat`"}",t,{5277},Mortal Kombat
-Fujin,"{`"MK\\d*`"}",t,{5277},Mortal Kombat
-Fujin,"{`"Shao Khan`"}",t,{5277},Mortal Kombat
 Hsu Hao,"{`"Mortal Kombat`"}",t,{5280},Mortal Kombat
 Hsu Hao,"{`"MK\\d*`"}",t,{5280},Mortal Kombat
 Jacqui Briggs,"{`"Mortal Kombat`"}",t,{5282},Mortal Kombat
@@ -17670,6 +17663,9 @@ Tremor,"{`"MK\\d*`"}",f,{5318},Mortal Kombat
 Blaze,"{`"Blaze ?\\(Mortal Kombat`"}",f,{5263},Mortal Kombat
 Blaze,"{`"Blaze ?\\(MK\\d*`"}",f,{5263},Mortal Kombat
 Blaze,"{`"Sh(ao|oa) K(ah|ha)n`"}",f,{5263},Mortal Kombat
+Fujin,"{`"Mortal Kombat`"}",f,{5277},Mortal Kombat
+Fujin,"{`"MK\\d*`"}",f,{5277},Mortal Kombat
+Fujin,"{`"Shao Khan`"}",f,{5277},Mortal Kombat
 Daegon,"{`"Mortal Kombat`"}",f,{5268},Mortal Kombat
 Daegon,{MKd*},f,{5268},Mortal Kombat
 Jade,"{`"Mortal Kombat`"}",f,{5283},Mortal Kombat
@@ -22476,8 +22472,6 @@ Beatrice,"{`"Divine Comedy`"}",f,{6139},Divine Comedy
 Virgil,"{`"Divine Comedy`"}",f,{6140},Divine Comedy
 Flicker,"{`"Doc Future`"}",f,{6141},Doc Future
 Dracula,{Stoker},t,{6142},""
-Harry Dresden,"{`"Dresden Files`"}",t,{6143},Dresden Files
-Harry,"{`"Dresden Files`"}",f,{6143},Dresden Files
 Paul,{Dune},f,{6144},Dune
 Paul,{Muad'?Dib},f,{6144},Dune
 Paul Atreides,{Dune},t,{6144},Dune
@@ -23980,7 +23974,6 @@ Sonia,"{`"Sonia the Hedgehog`"}",f,{17611},Sonic Underground
 Sonic,"{`"Sonic Underground`"}",f,{17612},Sonic Underground
 Kronk,"{`"Cas van de Pol`"}",f,{17613},Cas van de Pol
 Stitch,"{`"Cas van de Pol`"}",f,{17614},Cas van de Pol
-Ethniu,"{`"Dresden Files`"}",f,{17615},Dresden Files
 Jimmy Olsen,"{`"Super(-| )?Lad`"}",f,{17616},Super-Lad of Space
 Jimmy Olsen,"{`"Steel(-| )Man`"}",f,{17617},The Batman-Superman of Earth-X
 Jimmy Olsen,"{`"Batman(-| )Superman of Earth(-| )X`"}",f,{17617},The Batman-Superman of Earth-X
@@ -26192,7 +26185,6 @@ Sonic,{Paramount},f,{8607},2020 film
 Thor,"{`"Thor ?\\(Avengers Assemble`"}",f,{},Avengers Assemble
 Thor,"{`"Avengers Assemble Thor`"}",f,{},Avengers Assemble
 Shinji Matou,{Fate},t,{21392},Fate
-Sue,"{`"Harry Dresden|Dresden Files`"}",f,{21393},Dresden Files
 Smiling Friends,"{`"Adult Swim`"}",t,{21394},""
 Dinosaur King,{card},t,{21395},""
 D'Bari,"{FOX,`"X(-| )?Men`"}",f,{21396},FOX
@@ -26200,6 +26192,7 @@ D'Bari,"{`"Dark Phoenix`"}",f,{21396},FOX
 Vuk,"{FOX,`"X(-| )?Men`"}",f,{21396},FOX
 Vuk,"{`"Dark Phoenix`"}",f,{21396},FOX
 Hector Doyle,{Baki},f,{21397},Baki
+Sue,"{`"Harry Dresden|Dresden Files`"}",f,{21393},The Dresden Files
 The Juggernaut,{616},t,{2395},616
 Cain Marko,{616},t,{2395},616
 Cain Marko,{Marvel},t,{2395},616
@@ -27269,13 +27262,11 @@ Kilgrave,{Thompsons?},f,{22011},MCU
 Kilgrave,{Netflix},f,{22011},MCU
 Kilgrave,"{`"Kevin Thompson`"}",f,{22011},MCU
 Don Zenkai-Oh,"{`"Avataro Sentai Donbrothers`"}",t,{22012},Avataro Sentai Donbrothers
-Shagnasty,{Dresden},t,{22013},Dresden Files
 Hal Jordan,{Injustice},f,{7469},Injustice
 Atrocitus,"{`"New(-| )Earth`"}",f,{22014},Post-Crisis
+Shagnasty,{Dresden},t,{22013},The Dresden Files
 Sonic the Hedgehog,"{`"Sonic the Hedgehog.*movies`"}",f,{8607},2020 film
 King Hippo,"{`"Captain N`"}",f,{22015},Captain N: The Game Master
-Marcy Wu,{Amphibia},t,{22015},Amphibia
-Marcy,{Amphibia},f,{22015},Amphibia
 Sasha,{Amphibia},f,{22016},Amphibia
 Sasha,{Waybright},f,{22016},Amphibia
 Anne,{Amphibia},f,{22017},Amphibia
@@ -27295,3 +27286,48 @@ Night Feeder,{Tartakovskys?},t,{22024},Primal
 Colossi,"{`"Shadow of the Colossus`"}",f,{22025},Shadow of the Colossus
 Wander,"{`"Shadow of the Colossus`"}",f,{22026},Shadow of the Colossus
 Adam,"{`"I, Frankenstein`"}",f,{22027},"I, Frankenstein"
+Harry Dresden,"{`"Dresden Files`"}",t,{6143},The Dresden Files
+Harry,"{`"Dresden Files`"}",f,{6143},The Dresden Files
+Ethniu,"{`"Dresden Files`"}",f,{17615},The Dresden Files
+Batman,"{`"Batman v\\. Superman`"}",f,{119},DCEU
+Wonder Woman,"{`"Batman v\\. Superman`"}",f,{131},DCEU
+Diana,"{`"Batman v\\. Superman`"}",f,{131},DCEU
+Justice League,"{`"Batman v\\. Superman`"}",f,{123},DCEU
+Luz,{Hexside},f,{20975},The Owl House
+Amity,{Hexside},f,{20614},The Owl House
+Anne,"{`"Calamity Trio`"}",f,{22017},Amphibia
+Sasha,"{`"Calamity Trio`"}",f,{22017},Amphibia
+Virgil,"{`"Devil May Cry`"}",f,{5048},Devil May Cry
+Virgil,"{`"DMC\\d?`"}",f,{5048},Devil May Cry
+Virgil,{Dante},f,{5048},Devil May Cry
+Metal Bat,"{`"Puri Puri Prisoner`"}",f,{4107},One Punch Man
+Metal Bat,"{`"S(-| )class`"}",f,{4107},One Punch Man
+Metal Bat,{Tatsumaki},f,{4107},One Punch Man
+Tiaane,{Chaotic},t,{22029},Chaotic
+The Middleman,"{`"The Middleman ?\\((The Middleman|Comics?)`"}",f,{22030},Comics
+Godzilla,"{`"Cartoon ?Hooligans`"}",f,{22031},CartoonHooligans
+Kong,"{`"Cartoon ?Hooligans`"}",f,{22032},CartoonHooligans
+Thor,"{`"DEATH BATTLE`"}",f,{22033},DEATH BATTLE!
+Cassandra Nova,{616},t,{22034},616
+Morbius,{1610},f,{22035},1610
+Morbius,{Ultimates},f,{22035},1610
+Morbius,"{`"Ultimate Morbius`"}",f,{22035},1610
+Zombie Morbius,{2149},t,{22036},2149
+Morbius,"{`"Ultimate Spider(-| )?Man`"}",f,{22037},12041
+Morbius,{12041},f,{22037},12041
+Morbius,"{`"Marvel Animated Universe`"}",f,{22038},Marvel Animated Universe
+Morbius,{92131},f,{22038},Marvel Animated Universe
+Bat Devil,"{`"Chainsaw(-| )?Man`"}",f,{22039},Chainsaw Man
+Warp Darkmatter,"{`"Buzz Lightyear`"}",f,{22040},Buzz Lightyear of Star Command
+Ash Williams,"{`"Marvel Zombies`"}",f,{22041},Marvel Zombies
+Stella Vermillion,"{`"Chivalry of a Failed Knight`"}",t,{22042},Chivalry of a Failed Knight
+Stella Vermillion,{Rakudai},t,{22042},Chivalry of a Failed Knight
+Javi,"{`"Wa(lk|kl)ing Dead`"}",f,{22043},The Walking Dead
+Cadre,"{`"(Post(-| ))?Flash(-| )?point`"}",f,{22044},Flashpoint
+Most Interesting Man in the World,{Beer},t,{22045},Dos Equis
+Most Interesting Man in the World,"{`"Dos Equis`"}",t,{22045},Dos Equis
+Red Court of Vampires,"{`"Dresden Files`"}",t,{22046},The Dresden Files
+Red Court,"{`"Dresden Files`"}",f,{22046},The Dresden Files
+Marcy Wu,{Amphibia},t,{22028},Amphibia
+Marcy,{Amphibia},f,{22028},Amphibia
+Marcy,"{`"Calamity Trio`"}",f,{22028},Amphibia
