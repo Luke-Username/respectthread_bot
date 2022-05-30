@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Godzilla (Godzilla vs Kong Final Battle… But The Roles Are Reversed)', 'https://redd.it/v0npmb')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Godzilla vs Kong Final Battle', 'But The Roles Are Reversed']
+],
+'Godzilla vs Kong Final Battle… But The Roles Are Reversed',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v0npmb/respect_godzilla_godzilla_vs_kong_final_battle/
 
 ########################################
 
