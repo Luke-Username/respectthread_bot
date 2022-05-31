@@ -5264,7 +5264,6 @@ Tim Hunter,"{`"(DC( Comics)?)`"}",t,{1719},DC
 Tim Hunter,{PC},f,{1719},Post-Crisis
 Tim Hunter,"{`"Post(-| )?C(risis)?`"}",f,{1719},Post-Crisis
 Tim Hunter,"{`"New(-| )Earth`"}",f,{1719},Post-Crisis
-Kingpin,"{`"Spider(-| )?Verse`"}",f,{10800},Into the Spider-Verse
 Wilson Fisk,"{`"Spider(-| )?Verse`"}",f,{10800},Into the Spider-Verse
 Oracle,"{`"Young Justice`"}",f,{10801},Young Justice
 Young Justice Team,"{`"Young Justice`"}",t,{10802},""
@@ -5912,8 +5911,6 @@ Daredevil,{comics?},t,{2051},616
 Elektra,{Marvel},t,{2052},616
 Elektra,{616},t,{2052},616
 Elektra,{comics?},t,{2052},616
-Kingpin,{616},t,{2053},616
-Kingpin,{comics?},t,{2053},616
 Wilson Fisk,{616},t,{2053},616
 Wilson Fisk,{comics?},t,{2053},616
 Lady Bullseye,{616},t,{2054},616
@@ -5946,11 +5943,13 @@ God Emperor Doom,{Marvel},t,{2058},""
 God Emperor Doom,{comics?},t,{2058},""
 God Emperor Doom,"{`"Secret Wars`"}",t,{2058},""
 Infamous Iron Man,{616},t,{2059},""
-Kingpin,{Netflix},f,{},MCU
 Wilson Fisk,{Netflix},f,{},MCU
 Wilson Fisk,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Wilson Fisk,{MCU},f,{},MCU
 Wilson Fisk,{199999},f,{},MCU
+Kingpin,{616},f,{2053},616
+Kingpin,{comics?},f,{2053},616
+Kingpin,{Netflix},f,{},MCU
 Infamous Iron Man,{Marvel},t,{2059},""
 Infamous Iron Man,{comics?},t,{2059},""
 Infamous Iron Man,"{`"Secret Wars`"}",t,{2059},""
@@ -16206,8 +16205,6 @@ Nerys Kathon,"{`"Forgotten Realms`"}",t,{14529},Forgotten Realms
 Taurus Aldebaran,{Seiya},t,{14530},Saint Seiya
 Batman,{Schumacher},f,{14531},Schumacher
 XLR8,"{`"Ben (10|Ten(nyson)?)`"}",t,{14532},Ben 10
-Kingpin,"{`"2003 (film|Kingpin)`"}",f,{14533},Daredevil film 2003
-Kingpin,"{`"(Daredevil|DD) 2003`"}",f,{14533},Daredevil film 2003
 Puppy,{RUINER},f,{14534},RUINER
 Sharon Carter,"{`"Marvel Cinematic Universe`"}",f,{14535},MCU
 Sharon Carter,{MCU},f,{14535},MCU
@@ -25308,9 +25305,6 @@ Shigaraki,"{`"Boku no Hero`"}",t,{13258},My Hero Academia
 Golden Sperm,"{`"One(-| )Punch Man`"}",t,{4094},One Punch Man
 Golden Sperm,{OPM},t,{4094},One Punch Man
 Scorpion,"{`"Scorpion ?\\(616`"}",f,{2302},616
-Kingpin,"{`"Marvel Cinematic Universe`"}",f,{},MCU
-Kingpin,{MCU},f,{},MCU
-Kingpin,{199999},f,{},MCU
 Minato,{Obito},f,{20429},Naruto
 Minato,{Kurama},f,{20429},Naruto
 Sonic,"{Pre,`"Genesis Wave`"}",f,{2629},Archie Comics
@@ -25323,6 +25317,9 @@ Predator,"{`"Young Predator`"}",f,"{2799,13507}",""
 Predator,{Planet},f,"{2799,13507}",""
 Yautja,{Predator},t,"{2799,13507}",Predator
 Spongebob,{Spongebob},t,{},Spongebob
+Kingpin,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Kingpin,{MCU},f,{},MCU
+Kingpin,{199999},f,{},MCU
 Horrorterror,{Homestuck},t,{21103},Homestuck
 Venom,"{`"Spider(-| )?Man 3`"}",f,{303},Raimiverse Spider-Man
 Venom,{96283},f,{303},Raimiverse Spider-Man
@@ -27331,3 +27328,19 @@ Red Court,"{`"Dresden Files`"}",f,{22046},The Dresden Files
 Marcy Wu,{Amphibia},t,{22028},Amphibia
 Marcy,{Amphibia},f,{22028},Amphibia
 Marcy,"{`"Calamity Trio`"}",f,{22028},Amphibia
+Kingpin,"{`"Spider(-| )?Verse`"}",f,{10800},Into the Spider-Verse
+Kingpin,"{`"2003 (film|Kingpin)`"}",f,{14533},Daredevil film 2003
+Kingpin,"{`"(Daredevil|DD) 2003`"}",f,{14533},Daredevil film 2003
+X,"{`"\\(Mega Man X\\)`"}",f,{12145},Mega Man X
+Kong,"{`"\\(KOTM\\)`"}",f,{281},MonsterVerse
+Akatsuki,{Orochimaru},f,"{3964,3967,3960,3950,3959,3972,3942,3948,3956}",Naruto
+Godzilla,"{`"Godzilla vs Kong Final Battle`",`"But The Roles Are Reversed`"}",f,{22047},Godzilla vs Kong Final Battle… But The Roles Are Reversed
+Ouma Kurogane,"{`"Chivalry of a Failed Knight`"}",t,{22048},Chivalry of a Failed Knight
+Ouma Kurogane,{Rakudai},t,{22048},Chivalry of a Failed Knight
+M.O.R.B.I.U.S,{14512},f,{22049},14512
+Hulk,"{`"Hulk:? Ultimate Destruction`"}",f,{22050},Hulk: Ultimate Destruction
+Hitler,"{`"Danger 5`"}",f,{22051},Danger 5
+Alien Jones,"{`"BOSS Coffee`"}",f,{22052},BOSS Coffee
+Hunk,"{`"Resident Evil`"}",f,{22053},Resident Evil
+Mickey,"{Donald,Goofy,Musketeers}",f,{22054},"Mickey, Donald, Goofy: The Three Musketeers"
+Mickey Mouse,"{`"Three Musketeers`"}",f,{22054},"Mickey, Donald, Goofy: The Three Musketeers"

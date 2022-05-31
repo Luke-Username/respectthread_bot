@@ -15,16 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Kingpin';
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Doomsday', '"Doomsday"', -1);
-
 ########################################
 
-UPDATE character_name SET name='Ghidorah?' WHERE name='Ghidorah';
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Kong', 'Hong Kong', -5);
 
 ########################################
 
