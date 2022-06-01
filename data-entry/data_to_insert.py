@@ -107,6 +107,32 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Spider(-| )?Men'],
+'Spider-Men',
+True,
+False,
+[
+    ['Tobey|M(a|c)guire', 'Andrew|Garfield', 'Tom|Holland']
+],
+'Live-Action',
+'{302,113,261}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v262h5/morbius_movie_vs_spidermen_movies/iar6i70/?context=3
+
+########################################
+
+add_data(['Z(-| )Fighters'],
+'Z-Fighters',
+True,
+True,
+[
+    ['Dragon Ball'], ['DB(Z|S)?']
+],
+'Dragon Ball',
+'{3288, 3286, 3313, 3306, 9352, 12062, 9349}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v24kty/present_zamasu_vs_zfighters/iaqae1g/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
