@@ -135,6 +135,20 @@ True,
 
 ########################################
 
+add_data(['Lucifer Morningstar'],
+'Lucifer Morningstar',
+False,
+False,
+[
+    ['Lucifer Morningstar ?\(TV']
+],
+'Lucifer 2018',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v2jwiw/lucifer_morningstar_tv_vs_cain_supernatural/iasqv4g/?context=3
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
