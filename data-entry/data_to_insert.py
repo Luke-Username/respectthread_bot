@@ -107,6 +107,47 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['M(iste)?r\.? Bean'],
+'Mr. Bean',
+False,
+True,
+[
+    ['(Mr\.? Bean \(Mr\.? Bean\)']
+],
+'',
+'{21102}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v3op39/could_king_one_punch_man_outlast_mr_bean_mr_bean/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mata Hari, the Witch of Secrets! (The War of Greedy Witches)', 'https://redd.it/v3q0dq')
+add_data(['Mata Hari'],
+'Mata Hari',
+False,
+False,
+[
+    ['War of Greedy Witches'], ['Majo Taisen']
+],
+'The War of Greedy Witches',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v3q0dq/respect_mata_hari_the_witch_of_secrets_the_war_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mary Read, the Witch of the Seas! (The War of Greedy Witches)', 'https://redd.it/v3q0f8')
+add_data(['Mary Read'],
+'Mary Read',
+False,
+False,
+[
+    ['War of Greedy Witches'], ['Majo Taisen']
+],
+'The War of Greedy Witches',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v3q0f8/respect_mary_read_the_witch_of_the_seas_the_war/
 
 ########################################
 

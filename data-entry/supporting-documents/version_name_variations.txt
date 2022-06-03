@@ -3654,6 +3654,12 @@ WarioWare
 	Displayed Version Name
 		"WarioWare"
 
+The War of Greedy Witches
+	Version
+		['War of Greedy Witches'], ['Majo Taisen']
+	Displayed Version Name
+		"The War of Greedy Witches"
+
 The War of the Worlds
 	Version
 		'{"War of the Worlds"}', '{"T?WOTW"}'
