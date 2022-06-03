@@ -35,7 +35,7 @@ def search_characters(title: str, post: str, cur, is_testing = False):
                 version = c[1]
                 respectthread_ids = c[3]
                 verse_name = c[4]
-                if check_version_array(version, post, cur):                                                             # Check if the post contains the character's verse-name
+                if check_version_array(version, post, cur):                                                         # Check if the post contains the character's verse-name
                     add_character(name, default_name, verse_name, respectthread_ids, title, post, cur, character_list)
                     char_added = True
 

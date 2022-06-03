@@ -15,11 +15,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Gold(en)? Experience Requiem' WHERE name='Gold Experience Requiem';
-
 ########################################
-
-UPDATE character SET rt_id_array='{5604}' WHERE default_name='Niko Bellic';
 
 ########################################
 
