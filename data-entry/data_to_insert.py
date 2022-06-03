@@ -121,6 +121,48 @@ True,
 
 ########################################
 
+add_data(['Calvin (and|&) Hobbes'],
+'Calvin and Hobbes',
+True,
+True,
+[
+    ['default']
+],
+'',
+'{1479, 1480, 1481}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v4487t/spy_x_family_but_anya_is_replaced_by_calvin_and/
+
+########################################
+
+add_data(['Johnny'],
+'Johnny',
+False,
+False,
+[
+    ['Mortal Kombat']
+],
+'Mortal Kombat',
+'{5284}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v43g8z/johnny_vs_johnny_guilty_gear_vs_mortal_kombat/
+
+########################################
+
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Rune King']
+],
+'Rune King',
+'{21155}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v4644a/thor_rune_king_vs_death_marvel_comics616/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Mata Hari, the Witch of Secrets! (The War of Greedy Witches)', 'https://redd.it/v3q0dq')
 add_data(['Mata Hari'],
 'Mata Hari',
