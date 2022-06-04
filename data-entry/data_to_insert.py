@@ -121,6 +121,20 @@ True,
 
 ########################################
 
+add_data(['Rengoku'],
+'Rengoku',
+False,
+True,
+[
+    ['Demon ?Slayer'], ['Kimetsu no Yaiba'], ['KnY'], ['DS']
+],
+'Demon Slayer',
+'{17375}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v4aprs/shota_aizawaeraserhead_my_hero_academia_vs/ib3df0l/?context=3
+
+########################################
+
 add_data(['Calvin (and|&) Hobbes'],
 'Calvin and Hobbes',
 True,
@@ -190,6 +204,96 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/v3q0f8/respect_mary_read_the_witch_of_the_seas_the_war/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jiji! (Dandadan)', 'https://redd.it/v4b49n')
+add_data(['Jiji'],
+'Jiji',
+False,
+False,
+[
+    ['Dandadan']
+],
+'Dandadan',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v4b49n/respect_jiji_dandadan/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aira Shiratori! (Dandadan)', 'https://redd.it/v4be6h')
+add_data(['Aira Shiratori'],
+'Aira Shiratori',
+False,
+False,
+[
+    ['Dandadan']
+],
+'Dandadan',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v4be6h/respect_aira_shiratori_dandadan/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Momo Ayase! (Dandadan)', 'https://redd.it/v4e46l')
+add_data(['Momo Ayase'],
+'Momo Ayase',
+False,
+True,
+[
+    ['Dandadan']
+],
+'Dandadan',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v4e46l/respect_momo_ayase_dandadan/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ken "Okarun" Takakura! (Dandadan)', 'https://redd.it/v4efhr')
+add_data(['Okarun'],
+'Okarun',
+False,
+True,
+[
+    ['Dandadan']
+],
+'Dandadan',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v4efhr/respect_ken_okarun_takakura_dandadan/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Blue Marsalis! (Alien: Cold Forge / Into Charybdis)', 'https://redd.it/v4c0zo')
+add_data(['Blue Marsalis'],
+'Blue Marsalis',
+False,
+True,
+[
+    ['Alien']
+],
+'Alien',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v4c0zo/respect_blue_marsalis_alien_cold_forge_into/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Snatchers! (Alien: The Cold Forge)', 'https://redd.it/v4c7hh')
+add_data(['Snatchers'],
+'Snatchers',
+False,
+False,
+[
+    ['Cold Forge']
+],
+'Alien: The Cold Forge',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v4c7hh/respect_snatchers_alien_the_cold_forge/
 
 ########################################
 
