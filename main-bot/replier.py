@@ -69,5 +69,8 @@ def reply_to_submission(submission, reply_text):
 
     # Reply if the submission is less than 4 days old, and the reply text is not empty
     if age < 345600 and reply_text != "":
-        submission.reply(reply_text)
-        print(reply_text)
+        try:
+            submission.reply(reply_text)
+            print(reply_text)
+        except:
+            print('ERROR: Can not reply')
