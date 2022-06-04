@@ -20,8 +20,8 @@ def read_posts(r, cur, posts_list: List[str], blacklist: List[str]):
             now = datetime.datetime.now(datetime.timezone.utc).timestamp()
             age = now - submission.created_utc
 
-            # Check the age of the post is less than 20 minutes old, the bot hasn't checked it already, and the poster hasn't opted out
-            if age < 1200 and submission.id not in posts_list and submission.author.name not in blacklist:
+            # Check the age of the post is less than 4 minutes old, the bot hasn't checked it already, and the poster hasn't opted out
+            if age < 240 and submission.id not in posts_list and submission.author.name not in blacklist:
                 print("\tChecking post {}".format(submission.id))
                 title = tp.strip_accents(submission.title)
                 post = (title + " " + tp.strip_accents(submission.selftext)).replace("’", "'")

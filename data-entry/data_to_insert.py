@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Demons (Aliens: Phalanx)', 'https://redd.it/v4rnk4')
+add_data(['Demons'],
+'Demons',
+False,
+False,
+[
+    ['Aliens:? Phalanx']
+],
+'Aliens: Phalanx',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v4rnk4/respect_the_demons_aliens_phalanx/
 
 ########################################
 
