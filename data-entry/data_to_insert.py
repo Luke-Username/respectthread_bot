@@ -107,6 +107,24 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1686, 'Respect Larfleeze, the Orange Lantern! (DC Comics, Post-Crisis)', 'https://redd.it/v53md3')
+
+########################################
+
+add_data(['Griffith'],
+'Griffith',
+False,
+False,
+[
+    ['Guts']
+],
+'Berserk',
+'{12088}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v57cdq/mr_t_vs_nightrider_vs_airwolf_vs_andy_griffith/ib8d4x1/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Demons (Aliens: Phalanx)', 'https://redd.it/v4rnk4')
 add_data(['Demons'],
 'Demons',
@@ -119,6 +137,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/v4rnk4/respect_the_demons_aliens_phalanx/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Eternity Devil (Chainsaw Man)', 'https://redd.it/v5163x')
+add_data(['Eternity Devil'],
+'Eternity Devil',
+False,
+True,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v5163x/respect_the_eternity_devil_chainsaw_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dagon (Godzilla: Lord of the Galaxy)', 'https://redd.it/v53zmz')
+add_data(['Dagon'],
+'Dagon',
+False,
+False,
+[
+    ['Godzilla:? Lord of the Galaxy']
+],
+'Godzilla: Lord of the Galaxy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v53zmz/respect_dagon_godzilla_lord_of_the_galaxy/
 
 ########################################
 
