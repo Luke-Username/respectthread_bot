@@ -170,6 +170,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ellen Ripley (Alien)', 'https://redd.it/v5drkt')
+add_data(['Ellen Ripley'],
+'Ellen Ripley',
+False,
+True,
+[
+    ['Aliens?']
+],
+'Alien',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v5drkt/respect_ellen_ripley_alien/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
