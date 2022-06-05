@@ -96,8 +96,8 @@ def add_character(name: str, default_name: str, verse_name: str, respectthread_i
 def add_to_reply(name: str, default_name: str, verse_name: str, respectthread_ids: List[int], character_list: List[Character], post: str, cur):
     included_rts = []
     for id in respectthread_ids:
-        if is_rt_in_post(id, post, cur):
-            respectthread_list.append(id)
+        #if is_rt_in_post(id, post, cur):
+        #    respectthread_list.append(id)
         if id not in respectthread_list:
             respectthread_list.append(id)                                                                               # To prevent linking duplicates
             included_rts.append(id)
