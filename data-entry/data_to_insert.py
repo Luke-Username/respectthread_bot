@@ -108,6 +108,8 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 1686, 'Respect Larfleeze, the Orange Lantern! (DC Comics, Post-Crisis)', 'https://redd.it/v53md3')
+update_respectthread(cur, 1764, 'Respect Bizarro (DC, Rebirth)', 'https://redd.it/v5o680')
+update_respectthread(cur, 1357, 'Respect Yang Xiao Long! (RWBY)', 'https://redd.it/v6b5pe')
 
 ########################################
 
@@ -182,6 +184,75 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/v5drkt/respect_ellen_ripley_alien/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Party (Die)', 'https://redd.it/v5hc1c')
+add_data(['Dominic Ash'],
+'Dominic Ash',
+False,
+False,
+[
+    ['DIE']
+],
+'DIE',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v5hc1c/respect_the_party_die/
+
+add_data(['Angela Ash'],
+'Angela Ash',
+False,
+False,
+[
+    ['DIE']
+],
+'DIE',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v5hc1c/respect_the_party_die/
+
+add_data(['Matt'],
+'Matt',
+False,
+False,
+[
+    ['Grief Knight']
+],
+'DIE',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v5hc1c/respect_the_party_die/
+
+########################################
+
+id = get_rt_id(cur, "Respect Quasimodo, the Hunchback of Notre Dame (Disney''s The Hunchback of Notre Dame)", 'https://redd.it/v5jofi')
+add_data(['Quasimodo'],
+'Quasimodo',
+False,
+True,
+[
+    ['Disney'], ['Hunchback of Notre Dame'], ['1996']
+],
+'The Hunchback of Notre Dame',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v5jofi/respect_quasimodo_the_hunchback_of_notre_dame/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thunderbird (The Gifted)', 'https://redd.it/v5sfby')
+add_data(['Thunderbird'],
+'Thunderbird',
+False,
+False,
+[
+    ['Gifted']
+],
+'The Gifted',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v5sfby/respect_thunderbird_the_gifted/
 
 ########################################
 
