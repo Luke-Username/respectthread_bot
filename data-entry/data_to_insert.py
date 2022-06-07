@@ -110,6 +110,7 @@ cur = con.cursor()
 update_respectthread(cur, 1686, 'Respect Larfleeze, the Orange Lantern! (DC Comics, Post-Crisis)', 'https://redd.it/v53md3')
 update_respectthread(cur, 1764, 'Respect Bizarro (DC, Rebirth)', 'https://redd.it/v5o680')
 update_respectthread(cur, 1357, 'Respect Yang Xiao Long! (RWBY)', 'https://redd.it/v6b5pe')
+update_respectthread(cur, 381, 'Respect the Xenomorph (Alien) (Canon)', 'https://redd.it/v6u73b')
 
 ########################################
 
@@ -268,6 +269,32 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/v6lb0l/respect_thaal_sinestro_dc_comics_precrisis/
+
+########################################
+
+add_data(['Anti(-| )?Venom'],
+'Anti-Venom',
+False,
+False,
+[
+    ['Spider(-| )?Man:? Edge of Time']
+],
+'Spider-Man: Edge of Time',
+'{}'
+)
+#
+
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['Spider(-| )?Man:? Edge of Time']
+],
+'Spider-Man: Edge of Time',
+'{}'
+)
+#
 
 ########################################
 
