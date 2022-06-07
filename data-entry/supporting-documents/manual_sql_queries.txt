@@ -18,6 +18,7 @@ UPDATE character_name SET name='' WHERE...
 UPDATE character_name SET name='Armstrongs?' WHERE name='Armstrong';
 UPDATE character SET is_default=FALSE WHERE default_name='Griffith';
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Doom', 'Doom Eternal', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Gambit', 'Queen''s Gambit', -8);
 
 ########################################
 

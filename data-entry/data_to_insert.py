@@ -256,6 +256,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Thaal Sinestro! (DC Comics, Pre-Crisis)', 'https://redd.it/v6lb0l')
+add_data(['Sinestro'],
+'Sinestro',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v6lb0l/respect_thaal_sinestro_dc_comics_precrisis/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
