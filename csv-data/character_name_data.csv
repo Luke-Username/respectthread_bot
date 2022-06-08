@@ -5525,7 +5525,6 @@ Fran Madar(a|i)ki,Madaraki Fran,f
 (Doctor|Dr\.?) Fran,Dr. Fran,f
 Gavrill Madar(a|i)ki,Gavrill Madaraki,f
 Gavrill,Gavrill,f
-Armstrong,Armstrong,f
 Alex(ander)? (Louis )?Armstrong,Alex Louis Armstrong,f
 Barry the Chopper,Barry the Chopper,f
 Isaac McDougal,Isaac McDougal,f
@@ -5651,6 +5650,7 @@ Killua,Killua Zoldyck,f
 Kurapika,Kurapika,f
 Meruem,Meruem,f
 (Alexander|Father) An(d|e)erson,Alexander Anderson,f
+Armstrongs?,Armstrong,f
 (Nefer)?pitou,Neferpitou,f
 Phantom Troupe,Phantom Troupe,t
 Chrollo,Chrollo Lucilfer,f
@@ -12439,3 +12439,10 @@ Momo Ayase,Momo Ayase,f
 Okarun,Okarun,f
 Blue Marsalis,Blue Marsalis,f
 Snatchers,Snatchers,f
+Dagon,Dagon,f
+Ellen Ripley,Ellen Ripley,f
+Dominic Ash,Dominic Ash,f
+Angela Ash,Angela Ash,f
+Quasimodo,Quasimodo,f
+Thunderbird,Thunderbird,f
+Vampire Bat(-| )?woman,Vampire Batwoman,f

@@ -6471,7 +6471,6 @@ Melissa de Vignolles,{Madoka},t,{4429},Madoka Magica
 Saren Arterius,{Andromeda},t,{7551},Mass Effect
 M-44 Hammerhead,"{`"Mass Effect`"}",t,{7552},Mass Effect
 Pain,{Paths},f,{3964},Naruto
-Gremlins,{Gremlins},t,{7553},""
 Vandal Savage,{PC},t,"{1636,7554}",DC
 Vandal Savage,"{`"Post(-| )?C(risis)?`"}",t,"{1636,7554}",DC
 Vandal Savage,"{`"New(-| )Earth`"}",t,"{1636,7554}",DC
@@ -6503,6 +6502,7 @@ M35 Mako,{MEd?},t,{7563},Mass Effect
 Matilda,{1996},t,{7564},1996
 Matilda,"{`"Live(-| )Action`"}",t,{7564},1996
 Skullmageddon,"{`"Double Dragon`"}",t,{7565},Double Dragon
+Gremlins,"{`"\\(Gremlins\\)`"}",f,{7553},""
 Jack Cooper,"{`"Titan ?fall`"}",t,{7566},Titanfall
 BT-7274,"{`"Titan ?fall`"}",t,{7566},Titanfall
 Mr. X,"{`"Resident Evil`"}",f,{7567},Resident Evil
@@ -11461,7 +11461,6 @@ Lei Kung,"{`"Kung(-| )?Fu Panda`"}",f,{12084},Kung Fu Panda
 Murder,"{`"Hoax Hunters`"}",f,{12085},Hoax Hunters
 Frankenstein Jr.,"{`"Future Quest`"}",f,{12086},Future Quest
 Acidic Jew,{Image},t,{12087},Image Comics
-Griffith,{Berserk},t,{12088},Berserk
 American Eagle,{Marvel},f,{12089},616
 American Eagle,{616},f,{12089},616
 Jason Strongbow,{Marvel},t,{12089},616
@@ -27208,6 +27207,7 @@ Fantastic Four,{7712},f,{21968},7712
 Arcade,{Arcade.*616},f,{8162},616
 Doctor Strange,"{`"No Way Home`"}",f,{13351},MCU
 Doctor Strange,{NWH},f,{13351},MCU
+Griffith,{Guts},f,{12088},Berserk
 A-Train,"{`"Black Noir`"}",f,{21325},The Boys
 The Thing,{2005.*2007},f,{8573},Fantastic Four Movies
 Jean Grey,"{`"X(-| )?Men ?:( The)? ?Last Stand`"}",f,{14882},FOX
@@ -27417,3 +27417,18 @@ Momo Ayase,{Dandadan},t,{22080},Dandadan
 Okarun,{Dandadan},t,{22081},Dandadan
 Blue Marsalis,{Alien},t,{22082},Alien
 Snatchers,"{`"Cold Forge`"}",f,{22083},Alien: The Cold Forge
+Griffith,{Berserk},f,{12088},Berserk
+Demons,"{`"Aliens:? Phalanx`"}",f,{22084},Aliens: Phalanx
+Dagon,"{`"Godzilla:? Lord of the Galaxy`"}",f,{22086},Godzilla: Lord of the Galaxy
+Ellen Ripley,{Aliens?},t,{22087},Alien
+Dominic Ash,{DIE},f,{22088},DIE
+Angela Ash,{DIE},f,{22088},DIE
+Matt,"{`"Grief Knight`"}",f,{22088},DIE
+Quasimodo,{Disney},t,{22089},The Hunchback of Notre Dame
+Quasimodo,"{`"Hunchback of Notre Dame`"}",t,{22089},The Hunchback of Notre Dame
+Quasimodo,{1996},t,{22089},The Hunchback of Notre Dame
+Thunderbird,{Gifted},f,{22090},The Gifted
+Sinestro,"{`"Pre(-| )?Crisis`"}",f,{22091},Pre-Crisis
+Anti-Venom,"{`"Spider(-| )?Man:? Edge of Time`"}",f,{},Spider-Man: Edge of Time
+Spider-Man,"{`"Spider(-| )?Man:? Edge of Time`"}",f,{},Spider-Man: Edge of Time
+Vampire Batwoman,"{`"Futures End`"}",f,{22092},Futures End
