@@ -22,6 +22,9 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Gambit', 'Queen'
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Gremlins';
+UPDATE character SET version='{"\\(Gremlins\\)"}' WHERE default_name='Gremlins';
+
 ########################################
 
 ########################################

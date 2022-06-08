@@ -298,6 +298,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Vampire Batwoman (DC Comics: Futures End)', 'https://redd.it/v7e8tr')
+add_data(['Vampire Bat(-| )?woman'],
+'Vampire Batwoman',
+False,
+False,
+[
+    ['Futures End']
+],
+'Futures End',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v7e8tr/respect_vampire_batwoman_dc_comics_futures_end/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
