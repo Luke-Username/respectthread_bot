@@ -32,6 +32,8 @@ UPDATE character SET version='{"\\(Hook\\)"}' WHERE default_name='Peter Pan' AND
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Deathstroke' AND displayed_version_name='New 52 / Rebirth';
+
 ########################################
 
 ########################################

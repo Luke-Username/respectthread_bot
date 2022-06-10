@@ -108,7 +108,6 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 7394, 'Respect Hal Jordan, the Green Lantern (New 52/Rebirth)', 'https://redd.it/v8pxby')
-update_respectthread(cur, 5941, 'Respect SCP-682, the Hard-to-Kill Lizard [SCP Foundation]', 'https://redd.it/v94abc')
 
 ########################################
 
@@ -126,6 +125,20 @@ False,
 
 ########################################
 
+add_data(['Slade'],
+'Deathstroke',
+False,
+True,
+[
+    ['\(DC\)']
+],
+'DC',
+'{1576,1577,1578,21861}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v9bqu0/blade_marvel_vs_deathstroke_dc/ibvtad2/?context=3
+
+########################################
+
 add_data(['Sasaki'],
 'Sasaki',
 False,
@@ -137,6 +150,20 @@ False,
 '{4542}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/v8m3xk/kojiro_sasaki_record_of_ragnarok_vs_zoro_one_piece/ibr7lth/?context=3
+
+########################################
+
+add_data(['Storm'],
+'Storm',
+False,
+False,
+[
+    ['Storm ?\(X-Men\)']
+],
+'616',
+'{2386}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v99kl4/stormxmen_vs_vasto_lorde_ichigobleach/
 
 ########################################
 
@@ -197,6 +224,33 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/v93xoc/respect_the_farm_adventure_time/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Saint Walker! (DC Comics, Post-Flashpoint)', 'https://redd.it/v9gvdx')
+add_data(['Saint Walker'],
+'Saint Walker',
+False,
+False,
+[
+    ['Post(-| )Flash(-| )?point']
+],
+'Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v9gvdx/respect_saint_walker_dc_comics_postflashpoint/
+
+add_data(['Saint Walker'],
+'Saint Walker',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v9gvdx/respect_saint_walker_dc_comics_postflashpoint/
 
 ########################################
 
