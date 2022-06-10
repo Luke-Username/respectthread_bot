@@ -2967,7 +2967,7 @@ Shrek
 
 Shuumatsu no Valkyrie
 	Version
-		'{"Shuumatsu no Valkyrie"}', '{"Record of Ragnarok"}'
+		p'Shuumatsu no Valkyrie'], ['Record of Ragnarok']
 	Displayed Version Name
 		"Shuumatsu no Valkyrie"
 

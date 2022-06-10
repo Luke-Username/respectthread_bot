@@ -107,6 +107,97 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 7394, 'Respect Hal Jordan, the Green Lantern (New 52/Rebirth)', 'https://redd.it/v8pxby')
+update_respectthread(cur, 5941, 'Respect SCP-682, the Hard-to-Kill Lizard [SCP Foundation]', 'https://redd.it/v94abc')
+
+########################################
+
+add_data(['Wanda'],
+'Wanda',
+False,
+False,
+[
+    ['HOM', 'Tribunal']
+],
+'616',
+'{1997}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v8j4xj/nightmare_v_wanda/ibqogwt/?context=3
+
+########################################
+
+add_data(['Sasaki'],
+'Sasaki',
+False,
+False,
+[
+    ['Record of Ragnarok']
+],
+'Shuumatsu no Valkyrie',
+'{4542}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v8m3xk/kojiro_sasaki_record_of_ragnarok_vs_zoro_one_piece/ibr7lth/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Oggar, the World''s Mightiest Immortal (DC, Earth S)", 'https://redd.it/v7nnya')
+add_data(['Oggar'],
+'Oggar',
+False,
+False,
+[
+    ['DC'], ['Earth(-| )S'], ['Mightiest Immortal']
+],
+'Earth-S',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v7nnya/respect_oggar_the_worlds_mightiest_immortal_dc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Melati Kusuma, Komodo! (Marvel, Earth-616)', 'https://redd.it/v8y2bl')
+add_data(['Komodo'],
+'Komodo',
+False,
+False,
+[
+    ['Melati Kusuma']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v8y2bl/respect_melati_kusuma_komodo_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Martine Bancroft! (Marvel, 616)', 'https://redd.it/v8zb2c')
+add_data(['Martine Bancroft'],
+'Martine Bancroft',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v8zb2c/respect_martine_bancroft_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Farm (Adventure Time)', 'https://redd.it/v93xoc')
+add_data(['The Farm'],
+'The Farm',
+False,
+False,
+[
+    ['Adventure Time']
+],
+'Adventure Time',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v93xoc/respect_the_farm_adventure_time/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
