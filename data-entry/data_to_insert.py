@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 7394, 'Respect Hal Jordan, the Green Lantern (New 52/Rebirth)', 'https://redd.it/v8pxby')
+update_respectthread(cur, 490, 'Respect Zuko (Avatar: The Last Airbender)', 'https://redd.it/v9xwp7')
 
 ########################################
 
@@ -164,6 +165,20 @@ False,
 '{2386}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/v99kl4/stormxmen_vs_vasto_lorde_ichigobleach/
+
+########################################
+
+add_data(['The Juggernaut'],
+'The Juggernaut',
+False,
+False,
+[
+    ['FOX']
+],
+'FOX',
+'{150,151}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v9urje/the_juggernaut_fox_vs_gamora_drax_and_starlord_mcu/
 
 ########################################
 
@@ -251,6 +266,50 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/v9gvdx/respect_saint_walker_dc_comics_postflashpoint/
+
+########################################
+
+add_data(['Captain Marvel'],
+'Captain Marvel',
+False,
+False,
+[
+    ['Freddy Freeman']
+],
+'Freddy Freeman',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/va0d9z/superboy_vs_freddy_freeman_dc/ibzh7vm/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fatality! (DC Comics, Post-Crisis)', 'https://redd.it/v9xud1')
+add_data(['Fatality'],
+'Fatality',
+False,
+False,
+[
+    ['Yrra|Cynril'], ['Fatality ?\(DC']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/v9xud1/respect_fatality_dc_comics_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect Esmeralda (Disney''s The Hunchback of Notre Dame)", 'https://redd.it/va0q5p')
+add_data(['Esmeralda'],
+'Esmeralda',
+False,
+True,
+[
+    ['Disneys?'], ['Hunchback of Notre Dame']
+],
+'The Hunchback of Notre Dame',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/va0q5p/respect_esmeralda_disneys_the_hunchback_of_notre/
 
 ########################################
 
