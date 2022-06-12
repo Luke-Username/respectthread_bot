@@ -1949,7 +1949,6 @@ Cain,"{`"He Never Died`"}",f,{463},He Never Died
 Hercules,{2014},f,{464},2014
 Kevin McCallister,"{`"Home Alone`"}",t,{466},Home Alone
 Kevin,"{`"Home Alone`"}",f,{466},Home Alone
-Peter Pan,{Hook},f,{467},Hook [Deleted]
 Sgt. Nicholas Angel,"{`"Hot Fuzz`"}",t,{468},Hot Fuzz
 Hulk,{400083},f,{469},2003
 Hulk,{2003},f,{469},2003
@@ -1979,6 +1978,7 @@ Jaws,{007},f,{475},James Bond
 The Guardians,"{`"\\(Guardians\\)`"}",f,{454},Guardians
 Hancock,"{`"\\(Hancock\\)`"}",f,{457},Hancock
 Pinhead,{Hellraiser},t,"{462,21270,21281}",Hellraiser
+Peter Pan,"{`"\\(Hook\\)`"}",f,{467},Hook
 Skeletons,"{`"Jason and the Argonauts`"}",f,{476},Jason and the Argonauts
 Valek,{Vampires},t,{478},Vampires
 Valek,{1998},t,{478},Vampires
@@ -4501,15 +4501,13 @@ Red Death,"{`"Prime(-| )Earth`"}",f,{1574},New 52
 Red Death,{Rebirth},f,{1574},New 52
 Red Death,{Batman},f,{1574},New 52
 Red Death,"{`"Dark K?nights`"}",f,{1574},New 52
-Deathstroke,"{`"New ?52`"}",t,"{1576,1577}",New 52 / Rebirth
-Deathstroke,{N-?52},t,"{1576,1577}",New 52 / Rebirth
-Deathstroke,"{`"Post(-| )52`"}",t,"{1576,1577}",New 52 / Rebirth
-Deathstroke,"{`"Prime(-| )Earth`"}",t,"{1576,1577}",New 52 / Rebirth
-Deathstroke,{Rebirth},t,"{1576,1577}",New 52 / Rebirth
 Ant-Man,{comics?},t,{1986},616
 Devastator,"{`"\\(DC`"}",f,{1570},New 52
 Deathstroke,{PC},f,"{1578,21861}",Post-Crisis
 Deathstroke,"{`"Post(-| )?C(risis)?`"}",f,"{1578,21861}",Post-Crisis
+Deathstroke,"{`"New ?52`"}",f,"{1576,1577}",New 52 / Rebirth
+Deathstroke,{N-?52},f,"{1576,1577}",New 52 / Rebirth
+Deathstroke,"{`"Post(-| )52`"}",f,"{1576,1577}",New 52 / Rebirth
 Freddy Freeman,"{Shazam,2019}",f,{6555},DCEU
 Freddy Freeman,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Freddy Freeman,{DCEU},f,{6555},DCEU
@@ -5842,10 +5840,6 @@ Astro City,"{`"Astro City`"}",t,"{1474,1477,1475,1476,1478}",""
 Ms. Marvel,{616},t,{2031},616
 Ms. Marvel,{comics?},t,{2031},616
 Ms. Marvel,{Champions},t,{2031},616
-Khamala Khan,{616},t,{2031},616
-Khamala Khan,{comics?},t,{2031},616
-Khamala Khan,{Marvel},t,{2031},616
-Khamala Khan,{Champions},t,{2031},616
 Viv Vision,{616},t,{2032},616
 Viv Vision,{comics?},t,{2032},616
 Viv Vision,{Champions},t,{2032},616
@@ -5876,6 +5870,7 @@ The Keeper,{691},f,{2041},691
 The Keeper,{Marvel},f,{2041},691
 The Keeper,"{`"Reed Richards`"}",f,{2041},691
 Nova Prime,{616},t,{2042},616
+Kamala Khan,{616},t,{2031},616
 Nova Prime,{Marvel},t,{2042},616
 Richard Rider,{616},t,{2042},616
 Richard Rider,{Marvel},t,{2042},616
@@ -27432,3 +27427,36 @@ Sinestro,"{`"Pre(-| )?Crisis`"}",f,{22091},Pre-Crisis
 Anti-Venom,"{`"Spider(-| )?Man:? Edge of Time`"}",f,{},Spider-Man: Edge of Time
 Spider-Man,"{`"Spider(-| )?Man:? Edge of Time`"}",f,{},Spider-Man: Edge of Time
 Vampire Batwoman,"{`"Futures End`"}",f,{22092},Futures End
+Deathstroke,"{`"Prime(-| )Earth`"}",f,"{1576,1577}",New 52 / Rebirth
+Deathstroke,{Rebirth},f,"{1576,1577}",New 52 / Rebirth
+Kamala Khan,{comics?},t,{2031},616
+Kamala Khan,{Marvel},t,{2031},616
+Kamala Khan,{Champions},t,{2031},616
+Wanda,"{HOM,Tribunal}",f,{1997},616
+Angela,"{`"Angela ?\\(Marvel.*616`"}",f,{1969},616
+USAgent,"{`"Marvel Cinematic Universe`"}",f,{21271},MCU
+USAgent,{MCU},f,{21271},MCU
+Moon Knight,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Moon Knight,{MCU},f,{},MCU
+Deathstroke,"{`"\\(DC\\)`"}",t,"{1576,1577,1578,21861}",DC
+Sasaki,"{`"Record of Ragnarok`"}",f,{4542},Shuumatsu no Valkyrie
+Storm,"{`"Storm ?\\(X-Men\\)`"}",f,{2386},616
+The Juggernaut,{FOX},f,"{150,151}",FOX
+Venom,"{`"Ghost ?Rider`",`"Red Skulls?`"}",f,{2319},616
+Oggar,{DC},f,{22093},Earth-S
+Oggar,"{`"Earth(-| )S`"}",f,{22093},Earth-S
+Oggar,"{`"Mightiest Immortal`"}",f,{22093},Earth-S
+Komodo,"{`"Melati Kusuma`"}",f,{22094},616
+Martine Bancroft,{616},t,{22095},616
+The Farm,"{`"Adventure Time`"}",f,{22096},Adventure Time
+Saint Walker,"{`"Post(-| )Flash(-| )?point`"}",f,{22097},Flashpoint
+Captain Marvel,"{`"Freddy Freeman`"}",f,{},Freddy Freeman
+Fatality,{Yrra|Cynril},f,{22098},DC
+Fatality,"{`"Fatality ?\\(DC`"}",f,{22098},DC
+Esmeralda,{Disneys?},t,{22099},The Hunchback of Notre Dame
+Esmeralda,"{`"Hunchback of Notre Dame`"}",t,{22099},The Hunchback of Notre Dame
+Heron,"{`"Blood of Zeus`"}",f,{22100},Blood of Zeus
+Major Man,"{`"Power ?puff Girls`"}",f,{22101},Powerpuff Girls
+Major Man,{PPG},f,{22101},Powerpuff Girls
+Phoebus,{Disney},f,{22102},The Hunchback of Notre Dame
+Phoebus,"{`"Hunchback of Notre Dame`"}",f,{22102},The Hunchback of Notre Dame

@@ -15,30 +15,15 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Goku', 'Goku Black', 0);
-UPDATE character_name SET name='Sephiro(t|p)h' WHERE name='Sephiroth';
+########################################
 
 ########################################
 
-UPDATE character_name SET name='Sasaki Kojir(ō|o)u?|Kojir(ō|o)u? Sasaki' WHERE name='Sasaki Kojir(ō|o)u?';
+########################################
 
 ########################################
 
-UPDATE character SET displayed_version_name='Hook' WHERE displayed_version_name='Hook [Deleted]';
-
 ########################################
-
-UPDATE character SET version='{"\\(Hook\\)"}' WHERE default_name='Peter Pan' AND version='{"Hook"}';
-
-########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Deathstroke' AND displayed_version_name='New 52 / Rebirth';
-
-########################################
-
-UPDATE character_name SET default_name='Kamala Khan' WHERE name='Khamala Khan';
-UPDATE character_name SET name='Kh?amala Khan' WHERE name='Khamala Khan';
-UPDATE character SET default_name='Kamala Khan' WHERE default_name='Khamala Khan';
 
 ########################################
 
