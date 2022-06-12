@@ -36,6 +36,10 @@ UPDATE character SET is_default=FALSE WHERE default_name='Deathstroke' AND displ
 
 ########################################
 
+UPDATE character_name SET default_name='Kamala Khan' WHERE name='Khamala Khan';
+UPDATE character_name SET name='Kh?amala Khan' WHERE name='Khamala Khan';
+UPDATE character SET default_name='Kamala Khan' WHERE default_name='Khamala Khan';
+
 ########################################
 
 

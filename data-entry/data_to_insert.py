@@ -126,6 +126,20 @@ False,
 
 ########################################
 
+add_data(['Angela'],
+'Angela',
+False,
+False,
+[
+    ['Angela ?\(Marvel.*616']
+],
+'616',
+'{1969}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vahakn/ghost_rider_vs_thors_sister_who_would_win/ic2kw06/?context=3
+
+########################################
+
 add_data(['USAgent'],
 'USAgent',
 False,
@@ -367,6 +381,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vaacwj/respect_heron_blood_of_zeus/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Major Man (Powerpuff Girls)', 'https://redd.it/valyix')
+add_data(['Major Man'],
+'Major Man',
+False,
+False,
+[
+    ['Power ?puff Girls'], ['PPG']
+],
+'Powerpuff Girls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/valyix/respect_major_man_powerpuff_girls/
+
+########################################
+
+id = get_rt_id(cur, "Respect Captain Phoebus (Disney''s The Hunchback of Notre Dame)", 'https://redd.it/vaoham')
+add_data(['Phoebus'],
+'Phoebus',
+False,
+False,
+[
+    ['Disney'], ['Hunchback of Notre Dame']
+],
+'The Hunchback of Notre Dame',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vaoham/respect_captain_phoebus_disneys_the_hunchback_of/
 
 ########################################
 

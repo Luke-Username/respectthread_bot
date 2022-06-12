@@ -2625,7 +2625,7 @@ Post-Crisis
 
 Powerpuff Girls
 	Version
-		'{"Power ?puff Girls"}', '{"PPG"}'
+		['Power ?puff Girls'], ['PPG']
 	Spin-offs
 		'{"Dance Pantsed"}'
 	"Powerpuff Girls: Dance Pantsed"
