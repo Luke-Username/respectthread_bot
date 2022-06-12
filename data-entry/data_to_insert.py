@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Corinthian'],
+'Corinthian',
+False,
+False,
+[
+    ['\\(Sandman\\)']
+],
+'Post-Crisis',
+'{21327}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
