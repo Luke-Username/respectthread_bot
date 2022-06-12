@@ -126,6 +126,34 @@ False,
 
 ########################################
 
+add_data(['USAgent'],
+'USAgent',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{21271}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vaac7w/peacemaker_dceu_vs_usagent_mcu/ic1amr8/?context=3
+
+########################################
+
+add_data(['Moon Knight'],
+'Moon Knight',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/va6jk0/shang_chi_mcu_vs_moon_knight_mcu/
+
+########################################
+
 add_data(['Slade'],
 'Deathstroke',
 False,
@@ -179,6 +207,20 @@ False,
 '{150,151}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/v9urje/the_juggernaut_fox_vs_gamora_drax_and_starlord_mcu/
+
+########################################
+
+add_data(['Venom'],
+'Venom',
+False,
+False,
+[
+    ['Ghost ?Rider', 'Red Skulls?']
+],
+'616',
+'{2319}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/va27m6/ghostrider_venom_and_red_skull_become_ice_cream/
 
 ########################################
 
@@ -310,6 +352,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/va0q5p/respect_esmeralda_disneys_the_hunchback_of_notre/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Heron (Blood of Zeus)', 'https://redd.it/vaacwj')
+add_data(['Heron'],
+'Heron',
+False,
+False,
+[
+    ['Blood of Zeus']
+],
+'Blood of Zeus',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vaacwj/respect_heron_blood_of_zeus/
 
 ########################################
 
