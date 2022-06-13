@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Erynis the Implacable One (The One Who Eats Monsters)', 'https://redd.it/vb2q9e')
+add_data(['Erynis'],
+'Erynis',
+False,
+False,
+[
+    ['One Who Eats Monsters']
+],
+'The One Who Eats Monsters',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Barnell Bohusk, the Beak! (Earth-616)', 'https://redd.it/vb6too')
+add_data(['Barnell Bohusk'],
+'Barnell Bohusk',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vb6too/respect_barnell_bohusk_the_beak_earth616/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
