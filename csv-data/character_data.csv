@@ -27228,7 +27228,6 @@ Morbius,"{`"Morbius ?\\(Morbius\\)`"}",f,{21999},2022
 Morbius,{ut58oo},f,{21999},2022
 Morbius,{2022},f,{21999},2022
 Morbius,{Sony},f,{21999},2022
-Morbius,"{`"Jared Letos?`"}",f,{21999},2022
 Morbius,{Morbius.*(movie|film)s?},f,{21999},2022
 Morbius,"{`"(movie|film) Morbius`"}",f,{21999},2022
 Milo,{Morbius},f,{22000},Morbius
@@ -27254,6 +27253,7 @@ Don Zenkai-Oh,"{`"Avataro Sentai Donbrothers`"}",t,{22012},Avataro Sentai Donbro
 Hal Jordan,{Injustice},f,{7469},Injustice
 Atrocitus,"{`"New(-| )Earth`"}",f,{22014},Post-Crisis
 Shagnasty,{Dresden},t,{22013},The Dresden Files
+Morbius,{Letos?},f,{21999},2022
 Sonic the Hedgehog,"{`"Sonic the Hedgehog.*movies`"}",f,{8607},2020 film
 King Hippo,"{`"Captain N`"}",f,{22015},Captain N: The Game Master
 Sasha,{Amphibia},f,{22016},Amphibia
@@ -27462,3 +27462,7 @@ Phoebus,{Disney},f,{22102},The Hunchback of Notre Dame
 Phoebus,"{`"Hunchback of Notre Dame`"}",f,{22102},The Hunchback of Notre Dame
 Corinthian,"{`"\\(Sandman\\)`"}",f,{21327},Post-Crisis
 Chen Zhen,"{`"Fist Of Fury`"}",t,{22103},Fist Of Fury
+Team RWBY,{default},t,"{1347,1354,1321,1357}",""
+Erynis,"{`"One Who Eats Monsters`"}",f,{22104},The One Who Eats Monsters
+Barnell Bohusk,{616},t,{22105},616
+Caveman from Krypton,"{`"Pre(-| )?Crisis`"}",t,{22106},Pre-Crisis
