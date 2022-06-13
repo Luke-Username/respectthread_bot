@@ -121,6 +121,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Chen Zhen (Fist Of Fury)', 'https://redd.it/varqyl')
+add_data(['Chen Zhen'],
+'Chen Zhen',
+False,
+True,
+[
+    ['Fist Of Fury']
+],
+'Fist Of Fury',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/varqyl/respect_chen_zhen_fist_of_fury/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
