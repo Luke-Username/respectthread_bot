@@ -107,6 +107,28 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 20415, 'Respect Baiken! (Guilty Gear)', 'https://redd.it/vbdxsv')
+update_respectthread(cur, 20413, 'Respect Slayer! (Guilty Gear)', 'https://redd.it/vbj0dd')
+update_respectthread(cur, 20412, 'Respect I-No! (Guilty Gear)', 'https://redd.it/vbj2g5')
+update_respectthread(cur, 20411, 'Respect Potemkin! (Guilty Gear)', 'https://redd.it/vbj6m3')
+update_respectthread(cur, 20409, 'Respect Chipp Zanuff! (Guilty Gear)', 'https://redd.it/vbj7by')
+
+########################################
+
+add_data(['Team RWBY|RWBY Team'],
+'Team RWBY',
+True,
+True,
+[
+    ['default']
+],
+'',
+'{1347, 1354, 1321, 1357}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/v5z6vf/spiderman_vs_rwby_team/ic7dvx0/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Erynis the Implacable One (The One Who Eats Monsters)', 'https://redd.it/vb2q9e')
 add_data(['Erynis'],
 'Erynis',
@@ -134,6 +156,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vb6too/respect_barnell_bohusk_the_beak_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Caveman from Krypton (DC, Pre-Crisis)', 'https://redd.it/vbab7x')
+add_data(['Caveman from Krypton'],
+'Caveman from Krypton',
+False,
+True,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vbab7x/respect_the_caveman_from_krypton_dc_precrisis/
 
 ########################################
 

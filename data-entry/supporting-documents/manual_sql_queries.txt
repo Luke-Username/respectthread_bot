@@ -15,6 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET version='{"Letos?"}' WHERE version='{"Jared Letos?"}';
+UPDATE character_name SET name='Metal Gear RAYs?' WHERE name='Metal Gear RAY';
+
 ########################################
 
 ########################################
