@@ -107,6 +107,39 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 644, 'Respect Toph Beifong (Avatar: The Last Airbender)', 'https://redd.it/vc590y')
+update_respectthread(cur, 22104, 'Respect Erynis the Implacable One (The One Who Eats Monsters)', 'https://redd.it/vccf9c')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tigra (The Avengers: United They Stand)', 'https://redd.it/vbt96i')
+add_data(['Tigra'],
+'Tigra',
+False,
+False,
+[
+    ['Avengers:? United They Stand']
+],
+'The Avengers: United They Stand',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vbt96i/respect_tigra_the_avengers_united_they_stand/
+
+########################################
+
+id = get_rt_id(cur, 'Respect General Mung! (Avatar: The Last Airbender)', 'https://redd.it/vcgln7')
+add_data(['Mung'],
+'Mung',
+False,
+False,
+[
+    ['Avatar']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vcgln7/respect_general_mung_avatar_the_last_airbender/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
