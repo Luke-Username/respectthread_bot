@@ -112,6 +112,20 @@ update_respectthread(cur, 22104, 'Respect Erynis the Implacable One (The One Who
 
 ########################################
 
+add_data(['The Ring'],
+'The Ring',
+False,
+False,
+[
+    ['Lord of the Rings'], ['T?LOTR']
+],
+'Lord of the Rings',
+'{5863}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vct230/dr_doom_marvel_vs_the_ring_the_lord_of_the_rings/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Tigra (The Avengers: United They Stand)', 'https://redd.it/vbt96i')
 add_data(['Tigra'],
 'Tigra',
@@ -139,6 +153,78 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vcgln7/respect_general_mung_avatar_the_last_airbender/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bedman (Guilty Gear)', 'https://redd.it/vcw15p')
+add_data(['Bedman'],
+'Bedman',
+False,
+False,
+[
+    ['Guilty Gear']
+],
+'Guilty Gear',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vcw15p/respect_bedman_guilty_gear/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Dirty Bubble! (Spongebob Squarepants)', 'https://redd.it/vcy30v')
+add_data(['Dirty Bubble'],
+'Dirty Bubble',
+False,
+True,
+[
+    ['SpongeBob']
+],
+'SpongeBob',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vcy30v/respect_the_dirty_bubble_spongebob_squarepants/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yakon (Dragon Ball Z)', 'https://redd.it/vd1q4w')
+add_data(['Yakon'],
+'Yakon',
+False,
+False,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)?'], ['Babidis?'], ['Frieza']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vd1q4w/respect_yakon_dragon_ball_z/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Curator (Amphibia)', 'https://redd.it/vd6dk4')
+add_data(['Curator'],
+'Curator',
+False,
+False,
+[
+    ['Amphibia'], ['Curator Ponds']
+],
+'Amphibia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vd6dk4/respect_the_curator_amphibia/
+
+add_data(['Mr\.? ?Ponds'],
+'Mr. Ponds',
+False,
+False,
+[
+    ['Amphibia'], ['Curator']
+],
+'Amphibia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vd6dk4/respect_the_curator_amphibia/
 
 ########################################
 
