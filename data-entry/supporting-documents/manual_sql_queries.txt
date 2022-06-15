@@ -19,6 +19,9 @@ UPDATE character SET version='{"Street Fighters?"}' WHERE version='{"Street Figh
 
 ########################################
 
+DELETE FROM character_name WHERE name='Obi Wan';
+UPDATE character_name SET name='Obi(-| )Wans?' WHERE name='Obi-Wan';
+
 ########################################
 
 ########################################
