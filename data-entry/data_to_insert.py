@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 644, 'Respect Toph Beifong (Avatar: The Last Airbender)', 'https://redd.it/vc590y')
 update_respectthread(cur, 22104, 'Respect Erynis the Implacable One (The One Who Eats Monsters)', 'https://redd.it/vccf9c')
+update_respectthread(cur, 1321, 'Respect Blake Belladonna! (RWBY)', 'https://redd.it/vdaan9')
 
 ########################################
 
@@ -225,6 +226,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vd6dk4/respect_the_curator_amphibia/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Juggernaut! (X-Men 1992)', 'https://redd.it/vdez20')
+add_data(['Curator'],
+'Curator',
+False,
+False,
+[
+    ['X(-| )?Men', '1992']
+],
+'X-Men, 1992',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vdez20/respect_juggernaut_xmen_1992/
 
 ########################################
 

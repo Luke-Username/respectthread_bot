@@ -24,6 +24,9 @@ UPDATE character_name SET name='Obi(-| )Wans?' WHERE name='Obi-Wan';
 
 ########################################
 
+UPDATE character SET rt_id_array='{74}' WHERE default_name='Strowman';
+
+
 ########################################
 
 ########################################
