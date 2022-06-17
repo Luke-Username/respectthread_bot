@@ -690,8 +690,6 @@ Grand Master Luke,Grandmaster Luke Skywalker,f
 Grandmaster Luke,Grandmaster Luke Skywalker,f
 Luminara Unduli,Luminara Unduli,f
 Mace Windu,Mace Windu,f
-Obi-Wan,Obi-Wan Kenobi,f
-Obi Wan,Obi-Wan Kenobi,f
 Plo Koon,Plo Koon,f
 Yoda,Yoda,f
 Cade Yeager,Cade Yeager,f
@@ -730,6 +728,7 @@ Vasquez,Vasquez,f
 Avengers,The Avengers,t
 Gr(iev|evi|eiv)ous,General Grievous,f
 Pikachus?,Pikachu,f
+Obi(-| )Wans?,Obi-Wan Kenobi,f
 Xenomorphs,Xenomorphs,f
 Xenomorph,Xenomorphs,f
 Alien Queen,Xenomorphs,f
@@ -12461,3 +12460,12 @@ Team RWBY|RWBY Team,Team RWBY,t
 Erynis,Erynis,f
 Barnell Bohusk,Barnell Bohusk,f
 Caveman from Krypton,Caveman from Krypton,f
+The Ring,The Ring,f
+Mung,Mung,f
+Bedman,Bedman,f
+Dirty Bubble,Dirty Bubble,f
+Yakon,Yakon,f
+Curator,Curator,f
+Mr\\.? ?Ponds,Mr. Ponds,f
+Knights of Ren,Knights of Ren,f
+Lostbelt Olympians,Lostbelt Olympians,t

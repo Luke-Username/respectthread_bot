@@ -15,18 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"Street Fighters?"}' WHERE version='{"Street Fighter"}';
-
 ########################################
 
-DELETE FROM character_name WHERE name='Obi Wan';
-UPDATE character_name SET name='Obi(-| )Wans?' WHERE name='Obi-Wan';
-
 ########################################
-
-UPDATE character SET rt_id_array='{74}' WHERE default_name='Strowman';
-
-DELETE FROM character WHERE default_name='Raven' AND version='{"vs.? Raven"}';
 
 ########################################
 

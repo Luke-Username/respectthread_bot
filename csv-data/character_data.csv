@@ -4,10 +4,8 @@ Kiri,{Conquest},f,{71},Mortal Kombat: Conquest
 Ankha,{Conquest},f,{71},Mortal Kombat: Conquest
 Noob Saibot,{Conquest},f,{72},Mortal Kombat: Conquest
 Raiden,{Conquest},f,{73},Mortal Kombat: Conquest
-Strowman,{WWE},t,{73},WWE
 Mick Foley,{WWE},t,{75},WWF/WWE
 The Undertaker,{WWE},t,{76},WWE
-Strowman,"{`"World Wrestling Entertainment`"}",t,{73},WWE
 Mick Foley,"{`"World Wrestling Entertainment`"}",t,{75},WWF/WWE
 The Undertaker,"{`"World Wrestling Entertainment`"}",t,{76},WWE
 The Ray,{Arrowverse},f,{32},CW Arrowverse
@@ -65,6 +63,8 @@ Undertaker,{WWE},f,{76},WWE
 Undertaker,"{`"World Wrestling Entertainment`"}",f,{76},WWE
 The Mountain,{Bjornsson},f,{},""
 The Mountain,{Bjornson},f,{},""
+Strowman,{WWE},t,{74},WWE
+Strowman,"{`"World Wrestling Entertainment`"}",t,{74},WWE
 Korath The Pursuer,{Cinematic},f,{249},MCU
 Thunder,{CW},f,{80},Black Lightning TV Series
 Anissa Pierce,{CW},f,{80},Black Lightning TV Series
@@ -8291,7 +8291,6 @@ Raven,"{`"Earth(-| )(1|One)`"}",f,{1832},DC
 Raven,"{`"Post(-| )?C(risis)?`"}",f,{1832},DC
 Raven,"{`"New(-| )Earth`"}",f,{1832},DC
 Raven,"{`"Raven vs`"}",f,{1832},DC
-Raven,"{`"vs.? Raven`"}",f,{1832},DC
 Raven,{Zatanna},f,{1832},DC
 Starfire,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{1833},DC
 Starfire,{PC},f,{1833},DC
@@ -8486,8 +8485,6 @@ Josh,"{`"Seven Sleepers`"}",f,{8351},The Seven Sleepers
 Joshua Adams,"{`"Seven Sleepers`"}",f,{8351},The Seven Sleepers
 Reb,"{`"Seven Sleepers`"}",f,{8352},The Seven Sleepers
 Bob Lee Jackson,"{`"Seven Sleepers`"}",f,{8352},The Seven Sleepers
-Necro,"{`"Street Fighter`"}",f,{8353},Street Fighter
-Effie,"{`"Street Fighter`"}",f,{8353},Street Fighter
 Arak,{DC},f,{8354},DC
 Arak,{PC},f,{8354},DC
 Arak,"{`"Earth(-| )(1|One)`"}",f,{8354},DC
@@ -12136,7 +12133,6 @@ Jack The Ripper,"{`"Record of Ragnarok`"}",f,{9366},Shuumatsu no Valkyrie
 Heracles,"{`"Shuumatsu no Valkyrie`"}",f,{9367},Shuumatsu no Valkyrie
 Heracles,"{`"Record of Ragnarok`"}",f,{9367},Shuumatsu no Valkyrie
 Live Action Josuke,"{`"Diamond is Unbreakable`"}",t,{9368},""
-Kevin Straker,"{`"Street Fighter`"}",t,{9369},Street Fighter
 Baby Godzillas,{1998},t,{9370},"Godzilla, 1998"
 Baby Godzillas,{TriStar},t,{9370},"Godzilla, 1998"
 Godzilla,{TriStar},f,{9370},6494
@@ -12164,6 +12160,7 @@ Captain Marvel,"{`"End ?game`"}",f,{6500},MCU
 Carol,"{`"End ?game`"}",f,{6500},MCU
 Thor,"{`"End ?game`"}",f,{264},MCU
 Tony,"{`"End ?game`"}",f,{247},MCU
+Kevin Straker,"{`"Street Fighters?`"}",t,{9369},Street Fighter
 Infinity Gauntlet,"{`"End ?game`"}",f,{246},MCU
 Hawkeye,"{`"End ?game`"}",f,{244},MCU
 Touma,"{`"To ?aru`"}",t,{4450},Toaru Majutsu no Index
@@ -15820,7 +15817,6 @@ Grey Trace,{Upgrade},t,{13033},Upgrade
 STEM,{Upgrade},t,{13033},Upgrade
 Nemesis,"{Remake,`"Resident Evil`"}",f,{13034},Resident Evil 3 Remake
 Nemesis,"{Remake,`"RE\\d?`"}",f,{13034},Resident Evil 3 Remake
-Q,"{`"Street Fighter`"}",f,{13035},Street Fighter
 Sunstar,"{`"Second Coming`"}",f,{13036},Second Coming
 Jesus,"{`"\\(Second Coming`",comic}",f,{13036},Second Coming
 Ahsoka Tano,"{`"Star ?Wars`"}",t,{13037},Star Wars
@@ -19652,41 +19648,19 @@ Star Wars Chess,{default},t,{5726},""
 Chewbacca,{chess},f,{5726},Star Wars Chess
 C-3PO,{chess},f,{5726},Star Wars Chess
 Yoda,"{`"game of chess`"}",f,{5726},Star Wars Chess
-Akuma,"{`"Street Fighter`"}",t,{5393},Street Fighter
-Balrog,"{`"Street Fighter`"}",f,{5394},Street Fighter
-Blanka,"{`"Street Fighter`"}",t,{5395},Street Fighter
-Cammy,"{`"Street Fighter`"}",t,{5396},Street Fighter
-Chun-Li,"{`"Street Fighter`"}",t,{5398},Street Fighter
-Elena,"{`"Street Fighter`"}",f,{5399},Street Fighter
-F.A.N.G,"{`"Street Fighter`"}",f,{5400},Street Fighter
-G,"{`"Street Fighter`"}",f,{5401},Street Fighter
-Gill,"{`"Street Fighter`"}",f,{5402},Street Fighter
-Guile,"{`"Street Fighter`"}",f,{5403},Street Fighter
 Guile,{Blanka},f,{5403},Street Fighter
 Guile,"{`"Chun(-| )Li`"}",f,{5403},Street Fighter
 Guile,{theme},f,{5403},Street Fighter
 Guile,{America},f,{5403},Street Fighter
-Hakan,"{`"Street Fighter`"}",f,{5404},Street Fighter
-Ibuki,"{`"Street Fighter`"}",f,{5405},Street Fighter
-Juri,"{`"Street Fighter`"}",t,{5406},Street Fighter
 Juri,"{`"Juri Han`"}",t,{5406},Street Fighter
 Juri,"{`"Feng Shui Engine`"}",t,{5406},Street Fighter
 Makoto,"{`"Makoto ?\\(Street Fighter`"}",f,{5407},Street Fighter
-M. Bison,"{`"Street Fighter`"}",t,{5408},Street Fighter
-Oro,"{`"Street Fighter`"}",f,{5409},Street Fighter
-Poison,"{`"Street Fighter`"}",f,{5410},Street Fighter
-Rainbow Mika,"{`"Street Fighter`"}",t,{5411},Street Fighter
 Rose,"{`"Rose ?\\(Street Fighter`"}",f,{5412},Street Fighter
-Ryu,"{`"Street Fighter`"}",f,{5413},Street Fighter
 Ryu,{Ken},f,{5413},Street Fighter
 Ryu,"{`"Chun(-| )Li`"}",f,{5413},Street Fighter
 Ryu,"{`"Evil Ryu`"}",f,{5413},Street Fighter
-Sagat,"{`"Street Fighter`"}",t,{5414},Street Fighter
 Sagat,"{`"SF\\d`"}",t,{5414},Street Fighter
 Sakura,"{`"Sakura ?\\(Street Fighter`"}",f,{5415},Street Fighter
-Sakura Kasugano,"{`"Street Fighter`"}",t,{5415},Street Fighter
-Vega,"{`"Street Fighter`"}",f,{5416},Street Fighter
-Zangief,"{`"Street Fighter`"}",t,{5417},Street Fighter
 Ashley,"{`"Wario ?Ware`"}",f,{5418},WarioWare
 Birdo,{Mario},t,{5419},Mario
 Boom Boom,{Mario},f,{5420},Mario
@@ -23158,14 +23132,14 @@ Vortex,"{`"Danny Phantom`"}",f,{16637},Danny Phantom
 Bertilak de Hautdesert,"{`"Green Knight`"}",t,{16638},Sir Gawain and the Green Knight
 Green Knight,"{`"Sir Gawain and the Green Knight`"}",f,{16638},Sir Gawain and the Green Knight
 Chloe,{Pok(e|é)m(o|a)n},f,{16639},Pokémon
-Lucia Morgan,"{`"Street Fighter`"}",t,{16640},Final Fight
 Lucia Morgan,"{`"Final Fight`"}",t,{16640},Final Fight
-Lucia,"{`"Street Fighter`"}",f,{16640},Final Fight
 Lucia,"{`"Final Fight`"}",f,{16640},Final Fight
 Huntress,"{`"Dead by Daylight`"}",f,{16641},Dead by Daylight
 Anna,"{`"Dead by Daylight`"}",f,{16641},Dead by Daylight
 Plague,"{`"Dead by Daylight`"}",f,{16642},Dead by Daylight
 Six Gun Gorilla,"{`"Six Gun Gorilla`"}",t,"{16643,8318}",""
+Lucia Morgan,"{`"Street Fighters?`"}",t,{16640},Final Fight
+Lucia,"{`"Street Fighters?`"}",f,{16640},Final Fight
 Oni,"{`"Dead by Daylight`"}",f,{16746},Dead by Daylight
 Eldrazi,"{`"Magic:? The Gathering`"}",t,{16747},Magic: The Gathering
 Eldrazi,{M:?TG},t,{16747},Magic: The Gathering
@@ -27466,3 +27440,45 @@ Team RWBY,{default},t,"{1347,1354,1321,1357}",""
 Erynis,"{`"One Who Eats Monsters`"}",f,{22104},The One Who Eats Monsters
 Barnell Bohusk,{616},t,{22105},616
 Caveman from Krypton,"{`"Pre(-| )?Crisis`"}",t,{22106},Pre-Crisis
+Necro,"{`"Street Fighters?`"}",f,{8353},Street Fighter
+Effie,"{`"Street Fighters?`"}",f,{8353},Street Fighter
+Q,"{`"Street Fighters?`"}",f,{13035},Street Fighter
+Akuma,"{`"Street Fighters?`"}",t,{5393},Street Fighter
+Balrog,"{`"Street Fighters?`"}",f,{5394},Street Fighter
+Blanka,"{`"Street Fighters?`"}",t,{5395},Street Fighter
+Cammy,"{`"Street Fighters?`"}",t,{5396},Street Fighter
+Chun-Li,"{`"Street Fighters?`"}",t,{5398},Street Fighter
+Elena,"{`"Street Fighters?`"}",f,{5399},Street Fighter
+F.A.N.G,"{`"Street Fighters?`"}",f,{5400},Street Fighter
+G,"{`"Street Fighters?`"}",f,{5401},Street Fighter
+Gill,"{`"Street Fighters?`"}",f,{5402},Street Fighter
+Guile,"{`"Street Fighters?`"}",f,{5403},Street Fighter
+Hakan,"{`"Street Fighters?`"}",f,{5404},Street Fighter
+Ibuki,"{`"Street Fighters?`"}",f,{5405},Street Fighter
+Juri,"{`"Street Fighters?`"}",t,{5406},Street Fighter
+M. Bison,"{`"Street Fighters?`"}",t,{5408},Street Fighter
+Oro,"{`"Street Fighters?`"}",f,{5409},Street Fighter
+Poison,"{`"Street Fighters?`"}",f,{5410},Street Fighter
+Rainbow Mika,"{`"Street Fighters?`"}",t,{5411},Street Fighter
+Ryu,"{`"Street Fighters?`"}",f,{5413},Street Fighter
+Sagat,"{`"Street Fighters?`"}",t,{5414},Street Fighter
+Sakura Kasugano,"{`"Street Fighters?`"}",t,{5415},Street Fighter
+Vega,"{`"Street Fighters?`"}",f,{5416},Street Fighter
+Zangief,"{`"Street Fighters?`"}",t,{5417},Street Fighter
+The Ring,"{`"Lord of the Rings`"}",f,{5863},Lord of the Rings
+The Ring,{T?LOTR},f,{5863},Lord of the Rings
+Tigra,"{`"Avengers:? United They Stand`"}",f,{22107},The Avengers: United They Stand
+Mung,{Avatar},f,{22108},Avatar: TLA
+Bedman,"{`"Guilty Gear`"}",f,{22109},Guilty Gear
+Dirty Bubble,{SpongeBob},t,{22110},SpongeBob
+Yakon,"{`"Dragon ?Ball`"}",f,{22111},Dragon Ball
+Yakon,{DB(Z|S)?},f,{22111},Dragon Ball
+Yakon,{Babidis?},f,{22111},Dragon Ball
+Yakon,{Frieza},f,{22111},Dragon Ball
+Curator,{Amphibia},f,{22112},Amphibia
+Curator,"{`"Curator Ponds`"}",f,{22112},Amphibia
+Mr. Ponds,{Amphibia},f,{22112},Amphibia
+Mr. Ponds,{Curator},f,{22112},Amphibia
+Curator,"{`"X(-| )?Men`",1992}",f,{22113},"X-Men, 1992"
+Knights of Ren,"{`"S(tar )?Wars`"}",t,{22114},Star Wars
+Lostbelt Olympians,{Fate},t,{22115},Fate
