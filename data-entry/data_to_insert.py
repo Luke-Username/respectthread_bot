@@ -244,6 +244,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Knights of Ren Respect Thread', 'https://comicvine.gamespot.com/profile/thevivas/blog/knights-of-ren-respect-thread/156909/')
+add_data(['Knights of Ren'],
+'Knights of Ren',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vdlhp4/reva_vs_the_knights_of_ren_star_wars/ickst6f/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Lostbelt Olympians! (Fate)', 'https://redd.it/ve6epn')
+add_data(['Lostbelt Olympians'],
+'Lostbelt Olympians',
+True,
+True,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ve6epn/respect_the_lostbelt_olympians_fate/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
