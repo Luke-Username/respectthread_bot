@@ -107,6 +107,59 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Lucifer Morningstar'],
+'Lucifer Morningstar',
+False,
+False,
+[
+    ['Supernatural'], ['Lucifer ?TV']
+],
+'Lucifer 2018',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vecayh/azazel_vs_lucifer_morningstar/icpbsb5/?context=3
+
+########################################
+
+add_data(['Toothless'],
+'Toothless',
+False,
+False,
+[
+    ['Night ?Fury']
+],
+'How to Train Your Dragon',
+'{6572}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vf2oan/toothless_the_night_fury_vs_ancalagon_the_black/
+
+########################################
+
+add_data(['Blue Beetle'],
+'Blue Beetle',
+False,
+True,
+[
+    ['\\(DC\\)']
+],
+'DC',
+'{1825, 1855, 1642}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vdseci/blue_beetle_vs_spiderman_miles_morales/
+
+id = get_rt_id(cur, 'Respect Bradley Thomas (Brawl in Cell Block 99)', 'https://redd.it/vf58b2')
+add_data(['Bradley Thomas'],
+'Bradley Thomas',
+False,
+False,
+[
+    ['Cell Block 99']
+],
+'Brawl in Cell Block 99',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vf58b2/respect_bradley_thomas_brawl_in_cell_block_99/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

@@ -15,7 +15,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{5941}';
+UPDATE character SET version='{"Five Nights at Fredd(ys?|ies)"}' WHERE version='{"Five Nights at Fredd(y|ies)"}';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dante', 'Dante Zogratis', 0);
 
 ########################################
 
