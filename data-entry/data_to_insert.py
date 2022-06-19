@@ -107,6 +107,30 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Navi'],
+'Navi',
+False,
+False,
+[
+    ['Tribe', 'Avatar']
+],
+'Avatar',
+'{21669}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vfyow9/navi_tribe_avatar_vs_predators/icyimbm/?context=3
+
+add_data(["Na''vi"],
+"Na''vi",
+False,
+False,
+[
+    ['Avatar']
+],
+'Avatar',
+'{21669}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vfyow9/navi_tribe_avatar_vs_predators/icyimbm/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
