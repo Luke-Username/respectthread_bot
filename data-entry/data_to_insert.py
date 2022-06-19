@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3318, 'Respect Zamasu (Dragon Ball Super Anime)', 'https://redd.it/vfdtne')
+
+########################################
+
 add_data(['Lucifer Morningstar'],
 'Lucifer Morningstar',
 False,
@@ -135,6 +139,20 @@ False,
 
 ########################################
 
+add_data(['Toothless'],
+'Toothless',
+False,
+False,
+[
+    ['Smaug']
+],
+'How to Train Your Dragon',
+'{6572}'
+)
+#
+
+########################################
+
 add_data(['Blue Beetle'],
 'Blue Beetle',
 False,
@@ -146,6 +164,8 @@ True,
 '{1825, 1855, 1642}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/vdseci/blue_beetle_vs_spiderman_miles_morales/
+
+########################################
 
 id = get_rt_id(cur, 'Respect Bradley Thomas (Brawl in Cell Block 99)', 'https://redd.it/vf58b2')
 add_data(['Bradley Thomas'],
@@ -159,6 +179,96 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vf58b2/respect_bradley_thomas_brawl_in_cell_block_99/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Arie Inieta, the Genius Swordsman! (Tower of God)', 'https://redd.it/vf9m3m')
+add_data(['Arie Inieta'],
+'Arie Inieta',
+False,
+True,
+[
+    ['Tower of God']
+],
+'Tower of God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vf9m3m/respect_arie_inieta_the_genius_swordsman_tower_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Merged Zamasu (Dragon Ball Super Anime)', 'https://redd.it/vfdtqn')
+add_data(['Zamasu'],
+'Zamasu',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)?']
+],
+'Dragon Ball',
+'{' + '3318, {}, 7601, 3303'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vfdtqn/respect_merged_zamasu_dragon_ball_super_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Detective Chimp (DC Comics, Post-Flashpoint)', 'https://redd.it/vfh5vw')
+add_data(['Detective Chimp'],
+'Detective Chimp',
+False,
+False,
+[
+    ['Flashpoint']
+],
+'Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vfh5vw/respect_detective_chimp_dc_comics_postflashpoint/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Avatar Aang (Avatar: The Last Airbender Pilot)', 'https://redd.it/vfj50l')
+add_data(['Detective Chimp'],
+'Detective Chimp',
+False,
+False,
+[
+    ['Last Airbender Pilot']
+],
+'Avatar: The Last Airbender Pilot',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vfj50l/respect_avatar_aang_avatar_the_last_airbender/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kishibe! (Chainsaw Man)', 'https://redd.it/vfkb3e')
+add_data(['Kishibe'],
+'Kishibe',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vfkb3e/respect_kishibe_chainsaw_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Japanese Public Safety Devil Hunters! (Chainsaw Man)', 'https://redd.it/vfkbsm')
+add_data(['Public Safety Devil Hunters?'],
+'Public Safety Devil Hunters',
+True,
+True,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vfkbsm/respect_the_japanese_public_safety_devil_hunters/
 
 ########################################
 
