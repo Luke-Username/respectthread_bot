@@ -34,12 +34,18 @@ DELETE FROM character WHERE default_name='Zamasu';
 
 UPDATE character_name SET name='Rohan Kishibe|Kishibe Rohan' WHERE name='Rohan Kishibe';
 
+DELETE FROM character WHERE default_name='Team Avatar' AND version='{"Avatar"}';
+DELETE FROM character WHERE default_name='Team Avatar' AND version='{"A?TLA"}';
+
 ########################################
 
 SELECT * FROM respectthread WHERE link='https://redd.it/vfh5vw';
 UPDATE character SET rt_id_array='{1857, ?}' AND default_name='Detective Chimp' AND version='{"(\\(|\\[)DC( Comics)?(\\)|\\])"}'; --After run
 
 ########################################
+
+
+
 
 ########################################
 
