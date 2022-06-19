@@ -19,6 +19,8 @@ UPDATE character SET version='{"X(-| )?Men (movie|film)s?"}' WHERE version='{"X-
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dragon ?Ball', 'Dragon Ball Evolution', 0);
+
 ########################################
 
 ########################################

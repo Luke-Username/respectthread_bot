@@ -133,6 +133,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Hound (RWBY)', 'https://redd.it/vg0fby')
+add_data(['The Hound'],
+'The Hound',
+False,
+False,
+[
+    ['RWBY']
+],
+'RWBY',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vg0fby/respect_the_hound_rwby/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dream! (SAD-ist)', 'https://redd.it/vg4vhm')
+add_data(['Dream'],
+'Dream',
+False,
+False,
+[
+    ['SAD-ist']
+],
+'SAD-ist',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vg4vhm/respect_dream_sadist/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
