@@ -15,37 +15,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{5941}';
-UPDATE character SET version='{"Five Nights at Fredd(ys?|ies)"}' WHERE version='{"Five Nights at Fredd(y|ies)"}';
+########################################
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dante', 'Dante Zogratis', 0);
-
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Future Trunks (Dragon Ball Super Anime)', 'https://redd.it/vfdtga'); SELECT * FROM respectthread WHERE link='https://redd.it/vfdtga';
-UPDATE character SET rt_id_array='{3284, ?}' WHERE rt_id_array='{3284}';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Goku Black (Dragon Ball Super Anime)', 'https://redd.it/vfdtkc'); SELECT * FROM respectthread WHERE link='https://redd.it/vfdtkc';
-UPDATE character SET rt_id_array='{7586, ?2}' WHERE rt_id_array='{7586, 3265}';
-
-DELETE FROM character WHERE default_name='Zamasu';
-
-UPDATE character_name SET name='Rohan Kishibe|Kishibe Rohan' WHERE name='Rohan Kishibe';
-
-DELETE FROM character WHERE default_name='Team Avatar' AND version='{"Avatar"}';
-DELETE FROM character WHERE default_name='Team Avatar' AND version='{"A?TLA"}';
-
 ########################################
-
-SELECT * FROM respectthread WHERE link='https://redd.it/vfh5vw';
-UPDATE character SET rt_id_array='{1857, ?}' AND default_name='Detective Chimp' AND version='{"(\\(|\\[)DC( Comics)?(\\)|\\])"}'; --After run
-
-########################################
-
-
-
 
 ########################################
 

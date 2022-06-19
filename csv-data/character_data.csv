@@ -3001,8 +3001,6 @@ Zaheer,{Avatar},t,{815},Avatar: TLOK
 Zaheer,{A?TLA},t,{815},Avatar: TLOK
 Zaheer,{Korra},t,{815},Avatar: TLOK
 Zaheer,{A?T?LOK},t,{815},Avatar: TLOK
-Team Avatar,{Avatar},t,"{816,808,812,809,813}",Avatar: TLOK
-Team Avatar,{A?TLA},t,"{816,808,812,809,813}",Avatar: TLOK
 Team Avatar,{Korra},t,"{816,808,812,809,813}",Avatar: TLOK
 Team Avatar,{A?T?LOK},t,"{816,808,812,809,813}",Avatar: TLOK
 Snow Kaguya,"{`"Sailor Moon`"}",t,{4419},Sailor Moon
@@ -3498,6 +3496,8 @@ Slade,"{`"Teen Titans Cartoon`"}",f,{974},Teen Titans
 Slade,"{`"Teen Titans`",2003|2006}",f,{974},Teen Titans
 Slade,"{`"animated Teen Titans`"}",f,{974},Teen Titans
 Speedy,"{`"Teen Titans`",`"TV Show`"}",f,{975},Teen Titans
+SCP-682,"{`"SCP Foundation`"}",t,{},""
+Animatronics,"{`"Five Nights at Fredd(ys?|ies)`"}",f,"{21242,21243}",FNAF
 Starfire,"{`"Teen Titans (the )?animated`"}",f,{976},Teen Titans
 Starfire,"{`"from Teen Titans`"}",f,{976},Teen Titans
 Starfire,"{`"Teen Titans`",`"TV Show`"}",f,{976},Teen Titans
@@ -6583,7 +6583,6 @@ Brimstone,{PC},f,{7599},Post-Crisis
 Brimstone,"{`"Post(-| )?C(risis)?`"}",f,{7599},Post-Crisis
 Brimstone,"{`"New(-| )Earth`"}",f,{7599},Post-Crisis
 Agent Adad,{Ultraman},t,{7600},Ultraman
-Zamasu,{Manga},f,"{7601,3303}",Manga
 Jimmy Neutron,"{`"Jimmy Neutron`"}",t,{7602},Jimmy Neutron
 Vel'Koz,"{`"League of Legends`"}",t,{1139},League of Legends
 Vel'Koz,{LOL},t,{1139},League of Legends
@@ -12629,10 +12628,10 @@ Vegeta,"{`"Dragon ?Ball`"}",t,{3313},Dragon Ball
 Vegeta,{DB(Z|S)?},t,{3313},Dragon Ball
 Master Roshi,"{`"Dragon ?Ball`"}",t,{3301},Dragon Ball
 Master Roshi,{DB(Z|S)?},t,{3301},Dragon Ball
-Trunks,"{`"Dragon ?Ball`"}",f,{3284},Dragon Ball
-Trunks,{DB(Z|S)?},f,{3284},Dragon Ball
 Goten,"{`"Dragon ?Ball`"}",f,{3291},Dragon Ball
 Goten,{DB(Z|S)?},f,{3291},Dragon Ball
+Trunks,"{`"Dragon ?Ball`"}",f,"{3284,22116}",Dragon Ball
+Trunks,{DB(Z|S)?},f,"{3284,22116}",Dragon Ball
 Mercenary Tao,"{`"Dragon ?Ball`"}",t,{3302},Dragon Ball
 Mercenary Tao,{DB(Z|S)?},t,{3302},Dragon Ball
 Yamcha,{Reincarnated},f,{3317},Dragon Ball: That Time I Got Reincarnated as Yamcha!
@@ -12670,8 +12669,6 @@ Lavenda,"{`"Dragon ?Ball`"}",t,{3299},Dragon Ball
 Lavenda,{DB(Z|S)?},t,{3299},Dragon Ball
 Trio De Dangers,"{`"Dragon ?Ball`"}",t,"{3271,3273,3299}",Dragon Ball
 Trio De Dangers,{DB(Z|S)?},t,"{3271,3273,3299}",Dragon Ball
-Zamasu,"{`"Dragon ?Ball`"}",t,{3318},Dragon Ball
-Zamasu,{DB(Z|S)?},t,{3318},Dragon Ball
 Dyspo,"{`"Dragon ?Ball`"}",t,{3279},Dragon Ball
 Dyspo,{DB(Z|S)?},t,{3279},Dragon Ball
 Toppo,"{`"Dragon ?Ball`"}",t,{3310},Dragon Ball
@@ -21331,7 +21328,6 @@ Scarlet King,{SCP},f,{5937},SCP
 Viral Organism 133345355675,{SCP},t,{5938},SCP
 SCP-076,"{`"SCP Foundation`"}",t,{5939},""
 SCP-083-D,"{`"SCP Foundation`"}",t,{5940},""
-SCP-682,"{`"SCP Foundation`"}",t,{5941},""
 SCP-777-J,"{`"SCP Foundation`"}",t,{5942},""
 SCP-784-ARC,"{`"SCP Foundation`"}",t,{5943},""
 SCP-1548,"{`"SCP Foundation`"}",t,{5944},""
@@ -25341,10 +25337,10 @@ Kid Flash,"{`"DC ?TV`"}",f,{},CW Arrowverse
 Demogorgon,"{`"Stranger Things`"}",f,{16793},Stranger Things
 Buffy,"{`"Buffy vs`"}",f,{36},Buffy the Vampire Slayer
 Buffy,"{`"vs\\.? Buffy`"}",f,{36},Buffy the Vampire Slayer
-Goku Black,"{`"Dragon Ball`"}",t,"{7586,3265}",Dragon Ball
 Sigurd,{Fate},f,{21106},Fate
 Kira,"{`"Death Note`"}",f,{21232},Death Note
 Kira,{Light},f,{21232},Death Note
+Goku Black,"{`"Dragon Ball`"}",t,"{7586,22117}",Dragon Ball
 Anastasia,"{`"Grande? Order`"}",f,{21107},Fate
 Anastasia,"{`"F(ate )?/?GO`"}",f,{21107},Fate
 Aśvatthāman,{Fate},f,{21108},Fate
@@ -25779,19 +25775,12 @@ Superman,"{`"Raj Comics`"}",f,{21237},Raj Comics
 G.I. Jeff,{Community},t,{21238},Community
 Hariru,{Pok(e|é)m(o|a)n},f,{21239},Pocket Monsters RéBURST
 Chiharu Shiba,{Baki},t,{21240},Baki
-Animatronics,"{`"Five Nights at Fredd(y|ies)`"}",f,"{21242,21243}",FNAF
 Animatronics,{FNAF},f,"{21242,21243}",FNAF
-Animatronic,"{`"Five Nights at Fredd(y|ies)`"}",f,"{21242,21243}",FNAF
 Animatronic,{FNAF},f,"{21242,21243}",FNAF
-Freddy Fazbear,"{`"Five Nights at Fredd(y|ies)`"}",t,"{21242,21243}",FNAF
 Freddy Fazbear,{FNAF},t,"{21242,21243}",FNAF
-Freddy,"{`"Five Nights at Fredd(y|ies)`"}",f,"{21242,21243}",FNAF
 Freddy,{FNAF},f,"{21242,21243}",FNAF
-Chica,"{`"Five Nights at Fredd(y|ies)`"}",f,"{21242,21243}",FNAF
 Chica,{FNAF},f,"{21242,21243}",FNAF
-Bonnie,"{`"Five Nights at Fredd(y|ies)`"}",f,{21242},FNAF
 Bonnie,{FNAF},f,{21242},FNAF
-Foxy,"{`"Five Nights at Fredd(y|ies)`"}",f,{21242},FNAF
 Foxy,{FNAF},f,{21242},FNAF
 Tusken Raider,"{`"Book of Boba`"}",f,{21244},The Book of Boba Fett
 Cinos,{Sonic},f,{21245},Sonic the Hedgehog
@@ -27482,3 +27471,22 @@ Mr. Ponds,{Curator},f,{22112},Amphibia
 Curator,"{`"X(-| )?Men`",1992}",f,{22113},"X-Men, 1992"
 Knights of Ren,"{`"S(tar )?Wars`"}",t,{22114},Star Wars
 Lostbelt Olympians,{Fate},t,{22115},Fate
+Animatronic,"{`"Five Nights at Fredd(ys?|ies)`"}",f,"{21242,21243}",FNAF
+Freddy Fazbear,"{`"Five Nights at Fredd(ys?|ies)`"}",t,"{21242,21243}",FNAF
+Freddy,"{`"Five Nights at Fredd(ys?|ies)`"}",f,"{21242,21243}",FNAF
+Chica,"{`"Five Nights at Fredd(ys?|ies)`"}",f,"{21242,21243}",FNAF
+Bonnie,"{`"Five Nights at Fredd(ys?|ies)`"}",f,{21242},FNAF
+Foxy,"{`"Five Nights at Fredd(ys?|ies)`"}",f,{21242},FNAF
+Lucifer Morningstar,{Supernatural},f,{},Lucifer 2018
+Lucifer Morningstar,"{`"Lucifer ?TV`"}",f,{},Lucifer 2018
+Toothless,"{`"Night ?Fury`"}",f,{6572},How to Train Your Dragon
+Toothless,{Smaug},f,{6572},How to Train Your Dragon
+Blue Beetle,"{`"\\(DC\\)`"}",t,"{1825,1855,1642}",DC
+Bradley Thomas,"{`"Cell Block 99`"}",f,{22118},Brawl in Cell Block 99
+Arie Inieta,"{`"Tower of God`"}",t,{22119},Tower of God
+Zamasu,"{`"Dragon ?Ball`"}",t,"{3318,22120,7601,3303}",Dragon Ball
+Zamasu,{DB(Z|S)?},t,"{3318,22120,7601,3303}",Dragon Ball
+Detective Chimp,{Flashpoint},f,{22121},Flashpoint
+Detective Chimp,"{`"Last Airbender Pilot`"}",f,{22122},Avatar: The Last Airbender Pilot
+Kishibe,"{`"Chainsaw(-| )?Man`"}",f,{22123},Chainsaw Man
+Public Safety Devil Hunters,"{`"Chainsaw(-| )?Man`"}",t,{22124},Chainsaw Man
