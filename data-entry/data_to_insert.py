@@ -163,6 +163,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Gomdulla, The Living Pharaoh (Marvel, 616)', 'https://redd.it/vg9dkn')
+add_data(['Gomdulla'],
+'Gomdulla',
+False,
+False,
+[
+    ['616'], ['Marvel']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
