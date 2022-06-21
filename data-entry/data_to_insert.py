@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect John Constantine (DC/Vertigo - Pre-Flashpoint)', 'https://redd.it/9xp0fr')
+add_data(['Constantine'],
+'John Constantine',
+False,
+False,
+[
+    ['Vertigo'], ['Flashpoint']
+],
+'Vertigo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vh9fcd/john_constantine_vertigo_vs_freddy_krueger/id5wu0n/?context=3
 
 ########################################
 

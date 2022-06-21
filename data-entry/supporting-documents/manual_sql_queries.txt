@@ -25,6 +25,10 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+SELECT * FROM respectthread WHERE link='https://redd.it/9xp0fr';
+UPDATE character SET rt_id_array='{?, 1704}' WHERE default_name='John Constantine' AND displayed_version_name='DC';
+--After Run
+
 ########################################
 
 
