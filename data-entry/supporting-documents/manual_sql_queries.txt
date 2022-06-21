@@ -15,15 +15,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"X(-| )?Men (movie|film)s?"}' WHERE version='{"X-Men movies"}';
-
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dragon ?Ball', 'Dragon Ball Evolution', 0);
-
 ########################################
-
-UPDATE character SET rt_id_array='{2204}' WHERE default_name='Blade' AND displayed_version_name='616';
 
 ########################################
 
