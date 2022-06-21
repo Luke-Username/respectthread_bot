@@ -107,6 +107,24 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2204, 'Respect Blade! (Marvel 616)', 'https://redd.it/vgp6eh')
+
+########################################
+
+add_data(['Thanos'],
+'Thanos',
+False,
+False,
+[
+    ['SHS Thanos'], ['Super Hero Squad']
+],
+'The Super Hero Squad Show',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vgwq4p/xeno_goku_vs_shs_thanos/id3xyth/?context=3
+
+########################################
+
 add_data(['Navi'],
 'Navi',
 False,
@@ -175,6 +193,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tony Stark, Iron Man (Marvel Anime, Madhouse)', 'https://redd.it/vgqi96')
+add_data(['Iron(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Marvel Anime']
+],
+'Marvel Anime',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vgqi96/respect_tony_stark_iron_man_marvel_anime_madhouse/
 
 ########################################
 

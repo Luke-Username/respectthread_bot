@@ -23,6 +23,8 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dragon ?Ball', '
 
 ########################################
 
+UPDATE character SET rt_id_array='{2204}' WHERE default_name='Blade' AND displayed_version_name='616';
+
 ########################################
 
 ########################################
