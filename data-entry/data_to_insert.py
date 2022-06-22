@@ -122,6 +122,108 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Rorgg, King of the Spider Men (Marvel, 616)', 'https://redd.it/vhasp5')
+add_data(['Rorgg'],
+'Rorgg',
+False,
+False,
+[
+    ['616'], ['Marvel']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vhasp5/respect_rorgg_king_of_the_spider_men_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Master Chief! (Halo - Silver Timeline)', 'https://redd.it/vhcsre')
+add_data(['Mas?ter Chiefs?'],
+'Master Chief',
+False,
+False,
+[
+    ['Silver Timeline']
+],
+'Silver Timeline',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vhcsre/respect_master_chief_halo_silver_timeline/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miles Morales, Thor (Marvel, What If...?)', 'https://redd.it/vhe5od')
+add_data(['Miles? Morales'],
+'Miles Morales',
+False,
+False,
+[
+    ['Thor', 'What If']
+],
+'What if...?',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vhe5od/respect_miles_morales_thor_marvel_what_if/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pieck Finger, the Cart Titan! (Attack on Titan [Anime])', 'https://redd.it/vhjb7d')
+add_data(['Pieck Finger'],
+'Pieck Finger',
+False,
+True,
+[
+    ['Attack on Titan'], ['Shingeki no Kyojin'], ['AOT'], ['SnK']
+],
+'Attack on Titan',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vhjb7d/respect_pieck_finger_the_cart_titan_attack_on/
+
+add_data(['Cart Titan'],
+'Cart Titan',
+False,
+True,
+[
+    ['Attack on Titan'], ['Shingeki no Kyojin'], ['AOT'], ['SnK']
+],
+'Attack on Titan',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vhjb7d/respect_pieck_finger_the_cart_titan_attack_on/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Allosaurus (Dino Crisis 2)', 'https://redd.it/vhybof')
+add_data(['Allosaurus'],
+'Allosaurus',
+False,
+False,
+[
+    ['Dino Crisis']
+],
+'Dino Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vhybof/respect_the_allosaurus_dino_crisis_2/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spamton NEO (Deltarune)', 'https://redd.it/vhz1j4')
+add_data(['Spamton'],
+'Spamton',
+False,
+True,
+[
+    ['Deltarune'], ['Spamton NEO']
+],
+'Deltarune',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vhz1j4/respect_spamton_neo_deltarune/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

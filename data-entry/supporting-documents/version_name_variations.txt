@@ -203,7 +203,7 @@ Atop the Fourth Wall
 
 Attack on Titan
 	Version
-		'{"Attack on Titan"}', '{"Shingeki no Kyojin"}', '{"AOT"}', '{"SnK"}'
+		['Attack on Titan'], ['Shingeki no Kyojin'], ['AOT'], ['SnK']
 	Displayed Version Name
 		"Attack on Titan"
 
