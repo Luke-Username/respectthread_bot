@@ -21,7 +21,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{5177}';
+UPDATE character SET rt_id_array='{9283}' WHERE rt_id_array='{9283,5177}';
+
 ########################################
+
+DELETE FROM name_conflict WHERE name='Metroids?';
 
 ########################################
 
