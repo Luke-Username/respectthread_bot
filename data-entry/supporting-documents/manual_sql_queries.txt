@@ -19,7 +19,11 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Marvel', 'Captai
 
 ########################################
 
+UPDATE character_name SET name='John Wicks?' WHERE name='John Wick';
+
 ########################################
+
+UPDATE character_name SET name='Zang(ie|ei)f' WHERE name='Zangief';
 
 ########################################
 
