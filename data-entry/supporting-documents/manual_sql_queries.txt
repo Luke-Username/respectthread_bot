@@ -12,10 +12,20 @@ UPDATE character SET rt_id_array='' WHERE...
 
 UPDATE character_name SET name='' WHERE...
 
+########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dragon ?Ball', 'Dragon Ball: Evolution', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dragon ?Ball', 'DragonBall: Evolution', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dragon ?Ball', 'DragonBall Evolution', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Marvel', 'Captain Marvel', -8);
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Marvel', 'Captain Marvel', -8);
+UPDATE character SET version='{"Sony(verse)?"}' WHERE default_name='Morbius' AND version='{"Sony"}';
+
+########################################
+
+DELETE FROM character WHERE default_name='Morbius' AND version='{"Marvel"}';
 
 ########################################
 

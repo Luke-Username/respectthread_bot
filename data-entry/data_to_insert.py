@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Thor ?\((Norse)? Mythology']
+],
+'Norse Mythology',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vii4fz/zeus_greek_mythology_vs_thor_norse_mythology/idd57z5/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect John Constantine (DC/Vertigo - Pre-Flashpoint)', 'https://redd.it/9xp0fr')
 add_data(['Constantine'],
 'John Constantine',
@@ -221,6 +235,66 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vhz1j4/respect_spamton_neo_deltarune/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bio-Broly (Dragon Ball Z, Movies)', 'https://redd.it/vi4x15')
+add_data(['Bio(-| )Broly'],
+'Bio-Broly',
+False,
+True,
+[
+    ['Dragon ?Ball']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vi4x15/respect_biobroly_dragon_ball_z_movies/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godbert Manderville! (Final Fantasy XIV)', 'https://redd.it/vi9iu2')
+add_data(['Godbert'],
+'Godbert',
+False,
+True,
+[
+    ['Manderville'], ['FFXIV'], ['Final Fantasy']
+],
+'Final Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vi9iu2/respect_godbert_manderville_final_fantasy_xiv/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Art of Witchcraft (American Dad!)', 'https://redd.it/virl8z')
+add_data(['Art of Witchcraft'],
+'Art of Witchcraft',
+False,
+False,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/virl8z/respect_the_art_of_witchcraft_american_dad/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Heisuke Mashimo (Sakamoto Days)', 'https://redd.it/vj1vys')
+add_data(['Heisuke Mashimo'],
+'Heisuke Mashimo',
+False,
+True,
+[
+    ['Sakamoto Days']
+],
+'Sakamoto Days',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vj1vys/respect_heisuke_mashimo_sakamoto_days/
 
 ########################################
 
