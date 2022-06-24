@@ -14,41 +14,19 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dragon ?Ball', 'Dragon Ball: Evolution', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dragon ?Ball', 'DragonBall: Evolution', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dragon ?Ball', 'DragonBall Evolution', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Marvel', 'Captain Marvel', -8);
+########################################
 
 ########################################
 
-UPDATE character SET version='{"Sony(verse)?"}' WHERE default_name='Morbius' AND version='{"Sony"}';
+########################################
 
 ########################################
 
-DELETE FROM character WHERE default_name='Morbius' AND version='{"Marvel"}';
+########################################
 
 ########################################
 
-UPDATE character_name SET name='John Wicks?' WHERE name='John Wick';
-
 ########################################
-
-UPDATE character_name SET name='Zang(ie|ei)f' WHERE name='Zangief';
-
-########################################
-
-UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{5177}';
-UPDATE character SET rt_id_array='{9283}' WHERE rt_id_array='{9283,5177}';
-
-########################################
-
-DELETE FROM name_conflict WHERE name='Metroids?';
-
-########################################
-
-SELECT * FROM respectthread WHERE link='https://redd.it/9xp0fr';
-UPDATE character SET rt_id_array='{?, 1704}' WHERE default_name='John Constantine' AND displayed_version_name='DC';
---After Run
 
 ########################################
 

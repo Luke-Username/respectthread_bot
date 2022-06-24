@@ -261,7 +261,6 @@ Bat(-| )?mans?,(Batman),-1
 Stardust,Stardust Crusaders,0
 Thor,Thor Bjornnson,0
 Ego,Alter Ego,-6
-Metroids?,(Metroid),-1
 Dante,Count Dante,-6
 (Doctor|Dr\.?|Stephen) ?Strange,Doctor Strange 2,0
 Gr(a|e)y Wolf,Grey Wolf Sif,0
@@ -275,3 +274,7 @@ Gambit,Queen's Gambit,-8
 Goku,Goku Black,0
 Dante,Dante Zogratis,0
 Dragon ?Ball,Dragon Ball Evolution,0
+Dragon ?Ball,Dragon Ball: Evolution,0
+Dragon ?Ball,DragonBall: Evolution,0
+Dragon ?Ball,DragonBall Evolution,0
+Marvel,Captain Marvel,-8

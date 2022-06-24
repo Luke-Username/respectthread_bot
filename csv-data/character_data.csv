@@ -4498,6 +4498,9 @@ Deathstroke,"{`"Post(-| )?C(risis)?`"}",f,"{1578,21861}",Post-Crisis
 Deathstroke,"{`"New ?52`"}",f,"{1576,1577}",New 52 / Rebirth
 Deathstroke,{N-?52},f,"{1576,1577}",New 52 / Rebirth
 Deathstroke,"{`"Post(-| )52`"}",f,"{1576,1577}",New 52 / Rebirth
+Gooey,{Kirby},f,{},Kirby
+John Constantine,"{`"\\(DC( Comics)?\\)`"}",t,"{22129,1704}",DC
+John Constantine,"{`"\\[DC( Comics)?\\]`"}",t,"{22129,1704}",DC
 Freddy Freeman,"{Shazam,2019}",f,{6555},DCEU
 Freddy Freeman,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Freddy Freeman,{DCEU},f,{6555},DCEU
@@ -7689,7 +7692,6 @@ Man-Thing,{616},t,{2209},616
 Man-Thing,{Marvel},t,{2209},616
 Man-Thing,{comics?},t,{2209},616
 Morbius,{616},t,{2210},616
-Morbius,{Marvel},t,{2210},616
 Morbius,{comics?},t,{2210},616
 Orrgo,{616},t,{2211},616
 Orrgo,{Marvel},t,{2211},616
@@ -11893,11 +11895,11 @@ Shrek,"{`"Kattobi!? Shrek`"}",f,{9279},Kattobi! Shrek
 Indrajit,{Ramayana},f,{9280},Ramayana
 Saitama,"{`"DB X SAITAMA`"}",f,{9281},DB X SAITAMA
 Macavity,{2019},f,{9282},"Cats, 2019"
-Kirby,{Kirby},t,"{9283,5177}",""
 Adriana Soria,{Marvel},t,{9284},616
 Adriana Soria,{616},t,{9284},616
 Spider-Queen,{Marvel},f,{9284},616
 Spider-Queen,{616},f,{9284},616
+Kirby,{Kirby},t,{9283},""
 Robbie Reyes,{Marvel},t,{2099},616
 Robbie Reyes,{616},t,{2099},616
 Ghost Rider,{Reyes},f,{2099},Robbie Reyes
@@ -16560,7 +16562,6 @@ Dark Matter Blade,{Kirby},t,"{5172,5173}",Kirby
 Dark Meta Knight,{Kirby},t,{5174},Kirby
 Nova,{Kirby},f,{5175},Kirby
 Galactic Nova,{Kirby},t,{5175},Kirby
-Gooey,{Kirby},f,{5177},Kirby
 Kracko,{Kirby},t,{5178},Kirby
 Marx,{Kirby},f,{5180},Kirby
 President Haltmann,{Kirby},t,{5182},Kirby
@@ -26988,8 +26989,6 @@ Wonder Woman,"{`"DC Super ?Hero Girls`"}",f,{21855},DC Super Hero Girls
 Green Lantern,"{`"DC Super ?Hero Girls`"}",f,{21856},DC Super Hero Girls
 Toichiro Suzuki,"{`"Mob Psycho`"}",t,"{7543,21871}",Mob Psycho 100
 Toichiro Suzuki,{MP100},t,"{7543,21871}",Mob Psycho 100
-John Constantine,"{`"\\(DC( Comics)?\\)`"}",t,{1704},DC
-John Constantine,"{`"\\[DC( Comics)?\\]`"}",t,{1704},DC
 Red Skull,{616},t,{21873},616
 Tintin,"{`"Adventures of Tintin`",`"Secret of.*Unicorn`"}",f,{21874},The Adventures of Tintin: The Secret of the Unicorn
 Captain Haddock,"{`"Adventures of Tintin`",`"Secret of.*Unicorn`"}",f,{21875},The Adventures of Tintin: The Secret of the Unicorn
@@ -27180,7 +27179,6 @@ Ganondorf,"{`"Hyrule Warriors`"}",f,{21998},Hyrule Warriors
 Morbius,"{`"Morbius ?\\(Morbius\\)`"}",f,{21999},2022
 Morbius,{ut58oo},f,{21999},2022
 Morbius,{2022},f,{21999},2022
-Morbius,{Sony},f,{21999},2022
 Morbius,{Morbius.*(movie|film)s?},f,{21999},2022
 Morbius,"{`"(movie|film) Morbius`"}",f,{21999},2022
 Milo,{Morbius},f,{22000},Morbius
@@ -27207,6 +27205,7 @@ Hal Jordan,{Injustice},f,{7469},Injustice
 Atrocitus,"{`"New(-| )Earth`"}",f,{22014},Post-Crisis
 Shagnasty,{Dresden},t,{22013},The Dresden Files
 Morbius,{Letos?},f,{21999},2022
+Morbius,{Sony(verse)?},f,{21999},2022
 Sonic the Hedgehog,"{`"Sonic the Hedgehog.*movies`"}",f,{8607},2020 film
 King Hippo,"{`"Captain N`"}",f,{22015},Captain N: The Game Master
 Sasha,{Amphibia},f,{22016},Amphibia
@@ -27499,3 +27498,23 @@ Dream,{SAD-ist},f,{22126},SAD-ist
 Gomdulla,{616},f,{22127},616
 Gomdulla,{Marvel},f,{22127},616
 Iron Man,"{`"Marvel Anime`"}",f,{22128},Marvel Anime
+Thor,"{`"Thor ?\\((Norse)? Mythology`"}",f,{},Norse Mythology
+John Constantine,{Vertigo},f,{22129},Vertigo
+John Constantine,{Flashpoint},f,{22129},Vertigo
+Rorgg,{616},f,{22130},616
+Rorgg,{Marvel},f,{22130},616
+Master Chief,"{`"Silver Timeline`"}",f,{22131},Silver Timeline
+Miles Morales,"{Thor,`"What If`"}",f,{22132},What if...?
+Pieck Finger,"{`"Attack on Titan`"}",t,{22133},Attack on Titan
+Pieck Finger,"{`"Shingeki no Kyojin`"}",t,{22133},Attack on Titan
+Pieck Finger,{AOT},t,{22133},Attack on Titan
+Pieck Finger,{SnK},t,{22133},Attack on Titan
+Allosaurus,"{`"Dino Crisis`"}",f,{22134},Dino Crisis
+Spamton,{Deltarune},t,{22135},Deltarune
+Spamton,"{`"Spamton NEO`"}",t,{22135},Deltarune
+Bio-Broly,"{`"Dragon ?Ball`"}",t,{22136},Dragon Ball
+Godbert,{Manderville},t,{22137},Final Fantasy
+Godbert,{FFXIV},t,{22137},Final Fantasy
+Godbert,"{`"Final Fantasy`"}",t,{22137},Final Fantasy
+Art of Witchcraft,"{`"American Dad`"}",f,{22138},American Dad!
+Heisuke Mashimo,"{`"Sakamoto Days`"}",t,{22139},Sakamoto Days
