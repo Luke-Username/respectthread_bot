@@ -107,6 +107,161 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Kai'],
+'Kai',
+False,
+False,
+[
+    ['Po', 'Panda']
+],
+'Kung Fu Panda',
+'{1142}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vkdlyw/avatars_aang_korra_and_the_order_of_the_white/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Your Car (Is Your Car Safe From Supermaneuverable Air-Defense Fighter Aircraft?)', 'https://redd.it/vjypef')
+add_data(['Car'],
+'Car',
+False,
+False,
+[
+    ['Is Your Car Safe.*Aircraft?']
+],
+'Is Your Car Safe From Supermaneuverable Air-Defense Fighter Aircraft?',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vjypef/respect_your_car_is_your_car_safe_from/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Outlaw! (Marvel 616)', 'https://redd.it/vk2x6t')
+add_data(['Inez Temple'],
+'Inez Temple',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vk2x6t/respect_outlaw_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anya Forger! (Spy x Family)', 'https://redd.it/vk5d4h')
+add_data(['Anya Forger'],
+'Anya Forger',
+False,
+True,
+[
+    ['Spy x Family']
+],
+'Spy x Family',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vk5d4h/respect_anya_forger_spy_x_family/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bond! (Spy x Family)', 'https://redd.it/vkdx11')
+add_data(['Bond Forger'],
+'Bond Forger',
+False,
+True,
+[
+    ['Spy x Family']
+],
+'Spy x Family',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vkdx11/respect_bond_spy_x_family/
+
+add_data(['Bond'],
+'Bond',
+False,
+False,
+[
+    ['Spy x Family']
+],
+'Spy x Family',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vkdx11/respect_bond_spy_x_family/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Loid Forger, Agent Twilight! (Spy x Family)', 'https://redd.it/vkl4pl')
+add_data(['Loid Forger'],
+'Loid Forger',
+False,
+True,
+[
+    ['Spy x Family']
+],
+'Spy x Family',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vkdx11/respect_bond_spy_x_family/
+
+add_data(['Loid'],
+'Loid',
+False,
+False,
+[
+    ['Spy x Family']
+],
+'Spy x Family',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vkl4pl/respect_loid_forger_agent_twilight_spy_x_family/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pikkon (Dragon Ball Z)', 'https://redd.it/vki1w1')
+add_data(['Pikkon'],
+'Pikkon',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)?']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vki1w1/respect_pikkon_dragon_ball_z/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Spinosaurus (Jurassic Park 3 in One Minute)', 'https://redd.it/vkkphj')
+add_data(['Spinosaurus'],
+'Spinosaurus',
+False,
+False,
+[
+    ['Jurassic Park 3 in One Minute']
+],
+'Jurassic Park 3 in One Minute',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vkkphj/respect_the_spinosaurus_jurassic_park_3_in_one/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Giganotosaurus (Dino Crisis 2)', 'https://redd.it/vkn6q0')
+add_data(['Giganotosaurus'],
+'Giganotosaurus',
+False,
+False,
+[
+    ['Dino Crisis']
+],
+'Dino Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vkn6q0/respect_the_giganotosaurus_dino_crisis_2/
 
 ########################################
 
