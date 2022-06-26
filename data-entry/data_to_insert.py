@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Composite Superman'],
+'Composite Superman',
+False,
+False,
+[
+    ['Amalgamax'], ['Xan']
+],
+'Pre-Crisis',
+'{1797}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vkvqb3/which_characters_without_reality/idrm8w1/?context=3
+
+########################################
+
 add_data(['Kai'],
 'Kai',
 False,
@@ -117,7 +131,7 @@ False,
 'Kung Fu Panda',
 '{1142}'
 )
-#https://www.reddit.com/r/whowouldwin/comments/vkdlyw/avatars_aang_korra_and_the_order_of_the_white/
+#
 
 ########################################
 
@@ -262,6 +276,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vkn6q0/respect_the_giganotosaurus_dino_crisis_2/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Isaiah Mustafa (Old Spice)', 'https://redd.it/vktz8r')
+add_data(['Isaiah Mustafa'],
+'Isaiah Mustafa',
+False,
+True,
+[
+    ['Old Spice']
+],
+'Old Spice',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vktz8r/respect_isaiah_mustafa_old_spice/
 
 ########################################
 
