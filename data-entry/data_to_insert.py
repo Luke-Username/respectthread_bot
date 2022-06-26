@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5550, 'Respect Part of Me/Badeline (Celeste)', 'https://redd.it/vl35l5')
+update_respectthread(cur, 5734, "Respect Clementine (Telltale''s The Walking Dead Game)", 'https://redd.it/vlcqxt')
+
+########################################
+
 add_data(['Composite Superman'],
 'Composite Superman',
 False,
@@ -291,6 +296,35 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vktz8r/respect_isaiah_mustafa_old_spice/
+
+########################################
+
+add_data(['Badeline'],
+'Badeline',
+False,
+True,
+[
+    ['Celeste']
+],
+'Celeste',
+'{5550}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vl35l5/respect_part_of_mebadeline_celeste/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Madeline (Celeste)', 'https://redd.it/vl35o3')
+add_data(['Madeline'],
+'Madeline',
+False,
+True,
+[
+    ['Celeste']
+],
+'Celeste',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vl35o3/respect_madeline_celeste/
 
 ########################################
 
