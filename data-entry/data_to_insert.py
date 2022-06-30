@@ -199,6 +199,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ultimate Tigra (Marvel, 1610)', 'https://redd.it/voipu5')
+add_data(['Ultimate Tigra'],
+'Ultimate Tigra',
+False,
+True,
+[
+    ['1610']
+],
+'1610',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/voipu5/respect_ultimate_tigra_marvel_1610/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
