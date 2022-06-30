@@ -20747,7 +20747,6 @@ Iron Man,"{`"Marvel vs\\.? Capcom`"}",f,{15301},Marvel vs. Capcom
 Iron Man,{MVC},f,{15301},Marvel vs. Capcom
 Metal Sonic,{IDW},f,{15302},IDW
 Sonic the Hedgehog,{IDW},f,{15303},IDW
-Sonic,"{Sonic,IDW}",f,{15303},IDW
 Silver the Hedgehog,{IDW},f,{15304},IDW
 Silver,"{Sonic,IDW}",f,{15304},IDW
 Team Dark,{IDW},f,{15305},IDW
@@ -26161,7 +26160,6 @@ Ness,{Nintendo},f,{5056},EarthBound
 Ness,{Smash},f,{5056},EarthBound
 Ness,{Magicant},f,{5056},EarthBound
 Turtle,"{`"Turtle ?\\[DC`"}",f,{20333},DC
-The Flash,{Barry},f,"{1581,1583}",Barry Allen
 Freddy,"{`"Elm St(reet)?`"}",f,"{16415,16416}",A Nightmare on Elm Street
 Demon Freddy,"{`"Elm St(reet)?`"}",f,{2762},A Nightmare on Elm Street
 Mysterio,{616},t,{21404},616
@@ -27535,3 +27533,26 @@ Giganotosaurus,"{`"Dino Crisis`"}",f,{22147},Dino Crisis
 Isaiah Mustafa,"{`"Old Spice`"}",t,{22148},Old Spice
 Badeline,{Celeste},t,{5550},Celeste
 Madeline,{Celeste},f,{22149},Celeste
+Sonic,"{`"Sonic ?\\(IDW`"}",f,{15303},IDW
+Indominus Rex,"{`"\\(Slick\\)`"}",f,{22150},Slick
+Atomic Skull,{PC},f,{22151},Post-Crisis
+Atomic Skull,"{`"Posts?(-| )?C(risis)?`"}",f,{22151},Post-Crisis
+Atomic Skull,"{`"New(-| )Earth`"}",f,{22151},Post-Crisis
+Atomic Skull,"{`"Joseph Martin`"}",f,{22151},Post-Crisis
+Atomic Skull,"{`"New(-| )?52`"}",f,{},New 52
+Atomic Skull,{Nu?-?52},f,{},New 52
+Atomic Skull,"{`"Post(-| )52`"}",f,{},New 52
+Atomic Skull,"{`"Prime(-| )Earth`"}",f,{},New 52
+Atomic Skull,{Rebirth},f,{},New 52
+Atomic Skull,"{`"Albert Michaels`"}",f,{},New 52
+Atomic Skull,"{`"\\(DC( Comics)?\\)`"}",t,{},DC
+Atomic Skull,"{`"\\[DC( Comics)?\\]`"}",t,{},DC
+Rianna Saren,"{`"S(tar )?Wars`"}",t,{22152},Star Wars: Lethal Alliance
+Zeeo,"{`"S(tar )?Wars`"}",f,{22152},Star Wars: Lethal Alliance
+A Man Named Frank,{616},t,{22153},616
+Rachel Summers,{616},t,{22154},616
+Gazef Stronoff,{Overlord},t,{22155},Overlord
+Darkstalker,"{`"Wings of Fire`"}",f,{22156},Wings of Fire
+Inuarashi,"{`"One ?Piece?`"}",t,{22157},One Piece
+Nekomamushi,"{`"One ?Piece?`"}",t,{22157},One Piece
+Omni-Man,"{`"Omni-Man vs\\.? Bardock`"}",f,{22158},Omni-Man vs Bardock

@@ -14,11 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='The Flash' AND version='{"Barry"}';
-
 ########################################
-
-UPDATE character SET version='{"Sonic ?\\(IDW"}' WHERE default_name='Sonic' AND version='{"Sonic", "IDW"}';
 
 ########################################
 
