@@ -14,11 +14,23 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+DELETE FROM character_name WHERE name='Black Bolt';
+DELETE FROM character_name WHERE name='Blackbolt';
 
 ########################################
 
+UPDATE character_name SET name='Nate Gr(e|a)y' WHERE name='Nate Grey';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Stormfront (The Boys, Dynamite Entertainment)', 'https://redd.it/vod082'); SELECT * FROM respectthread WHERE link='https://redd.it/vod082';
+UPDATE character SET rt_id_array='{?, 21319}' WHERE default_name='Stormfront' AND displayed_version_name='The Boys, 2019';
+UPDATE character SET displayed_version_name='The Boys' WHERE default_name='Stormfront' AND displayed_version_name='The Boys, 2019';
+
+########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Blast! (One Punch Man [Manga])', 'https://redd.it/voggfp'); SELECT * FROM respectthread WHERE link='https://redd.it/voggfp';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Blast' AND displayed_version_name='One Punch Man';
 
 ########################################
 
