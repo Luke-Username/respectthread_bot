@@ -18673,9 +18673,6 @@ Metal Knight,"{`"One(-| )Punch Man`"}",t,{4113},One Punch Man
 Metal Knight,{OPM},t,{4113},One Punch Man
 Bofoi,"{`"One(-| )Punch Man`"}",t,{4113},One Punch Man
 Bofoi,{OPM},t,{4113},One Punch Man
-Blast,"{`"Blast ?\\(One(-| )Punch Man`"}",f,{4113},One Punch Man
-Blast,"{`"Blast ?\\(OPM`"}",f,{4113},One Punch Man
-Blast,"{`"S(-| )Class`"}",f,{4113},One Punch Man
 Subterraneans,"{`"One(-| )Punch Man`"}",f,{4115},One Punch Man
 Subterraneans,{OPM},f,{4115},One Punch Man
 Suiryu,"{`"One(-| )Punch Man`"}",t,{4116},One Punch Man
@@ -18684,6 +18681,8 @@ Tank Top Master,"{`"One(-| )Punch Man`"}",t,{7572},One Punch Man
 Tank Top Master,{OPM},t,{7572},One Punch Man
 TTM,"{`"One(-| )Punch Man`"}",f,{7572},One Punch Man
 King,"{`"S(-| )Class`",heroe?s?}",f,{4113},One Punch Man
+Blast,"{`"Blast ?\\(One(-| )Punch Man`"}",f,{22160},One Punch Man
+Blast,"{`"Blast ?\\(OPM`"}",f,{22160},One Punch Man
 TTM,{OPM},f,{7572},One Punch Man
 Tatsumaki,"{`"One(-| )Punch Man`"}",t,{4117},One Punch Man
 Tatsumaki,{OPM},t,{4117},One Punch Man
@@ -25957,9 +25956,6 @@ Spider-Bite,{Nathan},t,{21313},616
 The Deep,"{`"The Boys?`"}",f,{21316},"The Boys, 2019"
 Galactus,"{`"Galactus.*Movie Version`"}",f,{},Fantastic Four Movies
 Flash,"{`"Flash \\(Barry( Allen)?\\)`"}",f,{1582},New 52 / Rebirth
-Stormfront,"{`"The Boys`"}",f,{21319},"The Boys, 2019"
-Stormfront,{Homelander},f,{21319},"The Boys, 2019"
-Stormfront,{Amazon},f,{21319},"The Boys, 2019"
 Storm front,"{`"The Boys`"}",f,{21319},"The Boys, 2019"
 Storm front,{Homelander},f,{21319},"The Boys, 2019"
 Storm front,{Amazon},f,{21319},"The Boys, 2019"
@@ -25992,6 +25988,9 @@ Corinthian,{DC},f,{21327},Post-Crisis
 Jatkosota High School,"{`"Girls und Panzer`"}",t,{21328},Girls und Panzer
 Young Justice,"{`"Young Justice ?\\(Young Justice`"}",f,{1020},Young Justice
 Isekai Quartet,{default},t,{21329},""
+Stormfront,"{`"The Boys`"}",f,"{22159,21319}",The Boys
+Stormfront,{Homelander},f,"{22159,21319}",The Boys
+Stormfront,{Amazon},f,"{22159,21319}",The Boys
 John Henry Irons,"{`"Superman (&|and) Lois`"}",f,{},CW Arrowverse
 John Henry Irons,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
 John Henry Irons,{(DC)?CW},f,{},CW Arrowverse
@@ -27556,3 +27555,11 @@ Darkstalker,"{`"Wings of Fire`"}",f,{22156},Wings of Fire
 Inuarashi,"{`"One ?Piece?`"}",t,{22157},One Piece
 Nekomamushi,"{`"One ?Piece?`"}",t,{22157},One Piece
 Omni-Man,"{`"Omni-Man vs\\.? Bardock`"}",f,{22158},Omni-Man vs Bardock
+Blast,"{`"S(-| )Class`"}",f,{22160},One Punch Man
+Adam Jensen,"{`"Deus Ex`"}",t,{5571},Deus Ex
+Black Bolt,"{`"Black ?Bolt from( the)? Inhumans`"}",f,{65},Inhumans/MCU
+Paul,"{`"the Apostle`"}",f,{22161},Apostle
+Demencia,{Villainous},f,{22163},Villainous
+Demencia,"{`"Black Hat`"}",f,{22163},Villainous
+Supergirl,{1984},f,{22164},1984
+Ultimate Tigra,{1610},t,{22165},1610
