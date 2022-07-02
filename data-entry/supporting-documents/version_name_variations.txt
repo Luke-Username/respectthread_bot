@@ -183,7 +183,7 @@ asdfmovie
 
 Assassin's Creed
 	Version
-		'{"Assassin", "Creed"}', r'{"AC\\d"}'
+		['Assassin', 'Creed'], ['AC\d']
 	Displayed Version Name
 		"Assassin''s Creed"
 
@@ -3368,7 +3368,7 @@ Teenage Mutant Ninja Turtles (1987)
 
 Teenage Mutant Ninja Turtles (2003)
 	Version
-		['Teenaged? Mutant Ninja Turtles?', 2003'], ['TMNT', '2003']
+		['Teenaged? Mutant Ninja Turtles?', '2003'], ['TMNT', '2003']
 	Displayed Version Name
 		"TMNT 2003"
 
