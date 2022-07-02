@@ -360,6 +360,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Taiyo Asano (Mission: Yozakura Family)', 'https://redd.it/vpjari')
+add_data(['Taiyo Asano'],
+'Taiyo Asano',
+False,
+True,
+[
+    ['Yozakura Family']
+],
+'Mission: Yozakura Family',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vpjari/respect_taiyo_asano_mission_yozakura_family/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
