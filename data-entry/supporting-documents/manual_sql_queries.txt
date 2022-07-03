@@ -29,6 +29,9 @@ UPDATE name_conflict SET name='Bat(-| )?mans?' WHERE name='Batman';
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Thing, the blue eyed idol of millions! ', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-thing-the-blue-eyed-idol-of-millions-2230704/'); SELECT * FROM respectthread WHERE link='https://comicvine.gamespot.com/forums/gen-discussion-1/respect-thing-the-blue-eyed-idol-of-millions-2230704/';
+UPDATE character SET rt_id_array='{2072, ?}' WHERE rt_id_array='{2072}';
+
 ########################################
 
 ########################################
