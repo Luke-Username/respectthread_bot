@@ -107,6 +107,48 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Europa! (Fate)', 'https://redd.it/vqk24k')
+add_data(['Europa'],
+'Europa',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vqk24k/respect_europa_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sun-Hee (The Boys Presents: Diabolical)', 'https://redd.it/vqqjc6')
+add_data(['Sun(-| )Hee'],
+'Sun-Hee',
+False,
+False,
+[
+    ['The Boys']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect R. Dorothy Wayneright (The Big O)', 'https://redd.it/vqs7ss')
+add_data(['Dorothy Wayneright'],
+'Dorothy Wayneright',
+False,
+True,
+[
+    ['Big(-| )O']
+],
+'The Big O',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vqs7ss/respect_r_dorothy_wayneright_the_big_o/
 
 ########################################
 
