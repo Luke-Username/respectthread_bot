@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1801, 'Respect Doomsday (DC Post-Crisis)', 'https://redd.it/vptkbp')
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Allosaurus (Allosaurus vs Tyrannosaurus Claymation)', 'https://redd.it/vomcrw')
 add_data(['Allosaurus'],
 'Allosaurus',
