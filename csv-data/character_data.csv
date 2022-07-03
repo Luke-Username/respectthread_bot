@@ -5977,14 +5977,6 @@ Human Torch,{comics?},t,{2071},616
 Johnny Storm,{616},t,{2071},616
 Johnny Storm,{Marvel},t,{2071},616
 Johnny Storm,{comics?},t,{2071},616
-Ben Grimm,{616},t,{2072},616
-Ben Grimm,{Marvel},t,{2072},616
-Ben Grimm,{comics?},t,{2072},616
-Thing,"{`"Thing ?\\(616`"}",f,{2072},616
-Thing,"{`"Thing ?\\[616`"}",f,{2072},616
-Thing,"{`"Thing \\(Marvel`"}",f,{2072},616
-Thing,"{`"Thing \\[Marvel`"}",f,{2072},616
-Thing,"{`"616 Thing`"}",f,{2072},616
 Brute,"{`"Counter(-| )Earth`"}",f,{2073},616
 Brute,"{`"Brute \\(Marvel`"}",f,{2073},616
 Hyperstorm,{616},t,{2074},616
@@ -6011,6 +6003,9 @@ Red Shift,{Galactus},t,{2081},616
 Red Shift,{616},t,{2081},616
 Marquis of Death,{616},t,{2584},Marvel
 Human Torch,"{`"Tim Story`"}",f,{8573},Fantastic Four Movies
+Ben Grimm,{616},t,"{2072,22166}",616
+Ben Grimm,{Marvel},t,"{2072,22166}",616
+Ben Grimm,{comics?},t,"{2072,22166}",616
 Red Shift,{Marvel},t,{2081},616
 Firelord,{Herald},f,{2082},616
 Firelord,{Galactus},f,{2082},616
@@ -19852,10 +19847,6 @@ Frisk,{Determination},t,{5500},Undertale
 Frisk,{save},t,{5500},Undertale
 Frisk,{load},t,{5500},Undertale
 Frisk,{sans},t,{5500},Undertale
-Sans,{Undertales?},f,{5501},Undertale
-Sans,{Skeleton},f,{5501},Undertale
-Sans,{Papyrus},f,{5501},Undertale
-Sans,"{`"sans vs`"}",f,{5501},Undertale
 Guyzoch Space Pirates,"{`"Wonderful 101`"}",t,{5502},The Wonderful 101
 Platinum Robo,"{`"Wonderful 101`"}",t,{5503},The Wonderful 101
 The Wonderful 101,{default},t,{5504},""
@@ -19893,6 +19884,7 @@ Satoru,"{`"Ape Escape`"}",f,{5523},Ape Escape
 Sayaka,"{`"Ape Escape`"}",f,{5523},Ape Escape
 Kei,"{`"Ape Escape`"}",f,{5523},Ape Escape
 Yumi,"{`"Ape Escape`"}",f,{5523},Ape Escape
+Sans,{Undertales?},f,"{5501,5498}",Undertale
 Joey,"{`"Arcade America`"}",f,{5524},Arcade America
 Ezio,"{Assassin,Creed}",t,{5525},Assassin's Creed
 Ezio,"{`"AC\\d`"}",t,{5525},Assassin's Creed
@@ -27563,3 +27555,37 @@ Demencia,{Villainous},f,{22163},Villainous
 Demencia,"{`"Black Hat`"}",f,{22163},Villainous
 Supergirl,{1984},f,{22164},1984
 Ultimate Tigra,{1610},t,{22165},1610
+Sans,{Skeleton},f,"{5501,5498}",Undertale
+Sans,{Papyrus},f,"{5501,5498}",Undertale
+Sans,"{`"sans vs`"}",f,"{5501,5498}",Undertale
+Thing,"{`"Thing ?\\(616`"}",f,"{2072,22166}",616
+Thing,"{`"Thing ?\\[616`"}",f,"{2072,22166}",616
+Thing,"{`"Thing \\(Marvel`"}",f,"{2072,22166}",616
+Thing,"{`"Thing \\[Marvel`"}",f,"{2072,22166}",616
+Thing,"{`"616 Thing`"}",f,"{2072,22166}",616
+Allosaurus,"{`"Allosaurus vs Tyrannosaurus Claymation`"}",f,{22167},Allosaurus vs Tyrannosaurus (Claymation)
+The Bad Guys,"{`"The Bad Guys ?\\(The Bad Guys`"}",f,{22168},Dreamworks
+The Bad Guys,"{`"The Bad Guys (film|movie)`"}",f,{22168},Dreamworks
+The Bad Guys,"{`"The Bad Guys.*Dreamworks`"}",f,{22168},Dreamworks
+Mr. Wolf,"{`"The Bad Guys`"}",f,{22168},The Bad Guys
+Mr. Snake,"{`"The Bad Guys`"}",f,{22168},The Bad Guys
+Mr. Shark,"{`"The Bad Guys`"}",f,{22168},The Bad Guys
+Ashura Doji,"{`"One ?Piece?`"}",t,{22169},One Piece
+Kawamatsu,"{`"One ?Piece?`"}",t,{22169},One Piece
+Denjiro,"{`"One ?Piece?`"}",f,{22169},One Piece
+Denjiro,{Zoro},f,{22169},One Piece
+Kiku,"{`"One ?Piece?`"}",f,{22170},One Piece
+Kiku,{Kawamatsu},f,{22170},One Piece
+Love Sausage,"{`"The Boys`"}",t,{22171},The Boys
+Malcolm Turner,"{`"Big Mommas?`"}",f,{22172},Big Momma's House
+Big Momma,"{`"Big Momma ?\\(Big Mommas?`"}",t,{22172},Big Momma's House
+Big Momma,{Doubtfire},t,{22172},Big Momma's House
+Rat King,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22173},TMNT 2003
+Rat King,"{TMNT,2003}",f,{22173},TMNT 2003
+Edward Kenway,"{Assassin,Creed}",t,{22174},Assassin's Creed
+Edward Kenway,"{`"AC\\d`"}",t,{22174},Assassin's Creed
+Heracles,{myth?(ical|olog(y|ical))?},t,{22175},Greek Mythology
+Lunatik,{616},f,{22176},616
+Tyrannosaurus rex Bull,"{`"Jurassic Park`"}",f,{22177},Jurassic Park
+Elijah,{Prophet},f,{22178},Prophet
+Taiyo Asano,"{`"Yozakura Family`"}",t,{22179},Mission: Yozakura Family

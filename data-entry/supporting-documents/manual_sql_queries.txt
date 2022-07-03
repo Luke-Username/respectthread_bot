@@ -14,23 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{5501, 5498}' WHERE rt_id_array='{5501}'
+########################################
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bat(-| )?mans?', 'Batman the animated series', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bat(-| )?mans?', 'Batman: the animated series', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bat(-| )?mans?', 'Batman: TAS', 0);
-
 ########################################
-
-UPDATE name_conflict SET name='Bat(-| )?mans?' WHERE name='Bat(-| )?man';
-UPDATE name_conflict SET name='Bat(-| )?mans?' WHERE name='Batman';
-
-########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Thing, the blue eyed idol of millions! ', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-thing-the-blue-eyed-idol-of-millions-2230704/'); SELECT * FROM respectthread WHERE link='https://comicvine.gamespot.com/forums/gen-discussion-1/respect-thing-the-blue-eyed-idol-of-millions-2230704/';
-UPDATE character SET rt_id_array='{2072, ?}' WHERE rt_id_array='{2072}';
 
 ########################################
 
