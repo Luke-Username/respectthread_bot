@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5250, 'Respect Senator Steven Armstrong! (Metal Gear)', 'https://redd.it/vqvd8t')
+
+########################################
+
+add_data(['Steve'],
+'Steve',
+False,
+False,
+[
+    ['Steve with commands?']
+],
+'Minecraft',
+'{5648, 5647}'
+)
+#
+
+########################################
+
+add_data(['Queen Maeve'],
+'Queen Maeve',
+False,
+False,
+[
+    ['Black Noir']
+],
+'The Boys',
+'{13595}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vqvimw/soldier_boy_vs_black_noir_queen_maeve_atrain_and/ierm0nl/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Europa! (Fate)', 'https://redd.it/vqk24k')
 add_data(['Europa'],
 'Europa',
@@ -149,6 +181,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vqs7ss/respect_r_dorothy_wayneright_the_big_o/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Baiken (Character Scramble)', 'https://redd.it/vqvaw2')
+add_data(['Baiken'],
+'Baiken',
+False,
+False,
+[
+    ['Character Scramble']
+],
+'Character Scramble',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vqvaw2/respect_baiken_character_scramble/
 
 ########################################
 

@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{5648, 5647}' WHERE rt_id_array='{5648}';
+
 ########################################
+
+UPDATE character_name SET name='Obi(-| )W(a|o)ns?' WHERE name='Obi(-| )Wans?';
 
 ########################################
 
