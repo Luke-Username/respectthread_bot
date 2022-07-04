@@ -199,6 +199,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Carolina (Character Scramble)', 'https://redd.it/vr3wjf')
+add_data(['Carolina'],
+'Carolina',
+False,
+False,
+[
+    ['Character Scramble']
+],
+'Character Scramble',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Marvel (Marvel Cinematic Universe: What If...?)', 'https://redd.it/vr0icz')
+add_data(['Captain Marvel'],
+'Captain Marvel',
+False,
+False,
+[
+    ['What If']
+],
+'What if...?',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vr0icz/respect_captain_marvel_marvel_cinematic_universe/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
