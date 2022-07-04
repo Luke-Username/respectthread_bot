@@ -15,12 +15,15 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character SET rt_id_array='{5648, 5647}' WHERE rt_id_array='{5648}';
+UPDATE character SET rt_id_array='{14492, 1252}' WHERE rt_id_array='{14492}';
 
 ########################################
 
 UPDATE character_name SET name='Obi(-| )W(a|o)ns?' WHERE name='Obi(-| )Wans?';
 
 ########################################
+
+UPDATE character_name SET name='Shere?( |-)Khan' WHERE default_name='Shere? Khan';
 
 ########################################
 
