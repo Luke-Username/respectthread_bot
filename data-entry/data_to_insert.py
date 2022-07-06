@@ -446,6 +446,50 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/vrspg4/respect_john_grimm_doom_2005_film/
 
+########################################
+
+id = get_rt_id(cur, 'Respect Neon White (Neon White)', 'https://redd.it/vs9vkt')
+add_data(['Neon White'],
+'Neon White',
+False,
+True,
+[
+    ['Neon White ?\(Neon White']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vs9vkt/respect_neon_white_neon_white/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Herbie Popnecker (Herbie)', 'https://redd.it/vsagk7')
+add_data(['Herbie Popnecker'],
+'Herbie Popnecker',
+False,
+True,
+[
+    ['Herbie Popnecker ?\(Herbie']
+],
+'Herbie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vsagk7/respect_herbie_popnecker_herbie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the "Merciless Demon" Kyouichirou Sabu (Grappler Baki)', 'https://redd.it/vsc4a9')
+add_data(['Kyouichirou Sabu'],
+'Kyouichirou Sabu',
+False,
+True,
+[
+    ['Baki(verse)?']
+],
+'Baki',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vsc4a9/respect_the_merciless_demon_kyouichirou_sabu/
 
 ########################################
 
