@@ -15349,7 +15349,6 @@ Ikora Rey,{Destiny},t,{14489},Destiny
 Hive,{Destiny},f,{14490},Destiny
 War,{Darksiders},f,{14491},Darksiders
 Four Horsemen,{Darksiders},f,"{14491,5565}",Darksiders
-Alucard,"{`"Castle(-| )?vania`"}",f,{14492},Castlevania
 Maya,"{`"Border ?lands?`"}",f,{14493},Borderlands
 Tyreen Calypso,"{`"Border ?lands?`"}",t,{14494},Borderlands
 Racer X,"{`"Speed Racer`"}",f,{14495},Speed Racer
@@ -25876,8 +25875,6 @@ SCP-019,"{`"SCP Foundation`"}",t,{21290},""
 Kiara Sessyoin,{Fate},t,{21291},Fate
 Yasuda Koinosuke,"{`"Tokyo Duel`"}",t,{21292},Tokyo Duel
 Lop,"{`"Star Wars:? Visions`"}",f,{21293},Star Wars: Visions
-Steve,{Minecraft},f,{5648},Minecraft
-Steve,"{`"creative (mode|Steve)`"}",f,{5648},Minecraft
 Caesar,"{`"Planet of the Apes`"}",f,{12115},Planet of the Apes Reboot
 Ratchet,{Jak},f,"{5689,21294,21295}",Ratchet & Clank
 Kaneki,"{`"Tokyo Ghoul`"}",f,{4964},Tokyo Ghoul
@@ -25909,6 +25906,8 @@ Translucent,{Amazon},f,{21303},"The Boys, 2019"
 Kamen Rider Shin,"{`"Shin Kamen Rider`"}",t,{21304},""
 Nase Maser,"{`"A Hero'?s Shadow`"}",t,{21305},A Hero's Shadow
 Minnal Murali,{default},t,{21306},""
+Steve,{Minecraft},f,"{5648,5647}",Minecraft
+Steve,"{`"creative (mode|Steve)`"}",f,"{5648,5647}",Minecraft
 Artoria Pendragon,"{`"Lion King`"}",f,{21307},Fate
 Artoria Pendragon,"{`"Grande? Order`"}",f,{21307},Fate
 Artoria Pendragon,"{`"F(ate )?/?GO`"}",f,{21307},Fate
@@ -27589,3 +27588,35 @@ Lunatik,{616},f,{22176},616
 Tyrannosaurus rex Bull,"{`"Jurassic Park`"}",f,{22177},Jurassic Park
 Elijah,{Prophet},f,{22178},Prophet
 Taiyo Asano,"{`"Yozakura Family`"}",t,{22179},Mission: Yozakura Family
+Alucard,"{`"Castle(-| )?vania`"}",f,"{14492,1252}",Castlevania
+Steve,"{`"Steve with commands?`"}",f,"{5648,5647}",Minecraft
+Queen Maeve,"{`"Black Noir`"}",f,{13595},The Boys
+Europa,{Fate},f,{22180},Fate
+Sun-Hee,"{`"The Boys`"}",f,{22181},The Boys
+Dorothy Wayneright,"{`"Big(-| )O`"}",t,{22182},The Big O
+Baiken,"{`"Character Scramble`"}",f,{22183},Character Scramble
+Carolina,"{`"Character Scramble`"}",f,{22184},Character Scramble
+Fall Barros,"{`"Character Scramble`"}",f,{22185},Character Scramble
+Captain Marvel,"{`"What If`"}",f,{22186},What if...?
+Guile,{UDON},f,{22187},UDON
+Captain America 2099,{23291},t,{22188},23291
+Roberta Mendez,{23291},t,{22188},23291
+Captain America,{44921},f,{22189},The Thing from Another Time
+Captain America,"{`"Thing from Another Time`"}",f,{22189},The Thing from Another Time
+Ryu Han-bin,"{`"Latna Saga`"}",t,{22190},Survival of a Sword King
+Ryu Han-bin,"{`"Survival of a Sword King`"}",t,{22190},Survival of a Sword King
+Soldier Boy,"{`"The Boys`"}",f,{22191},The Boys
+Soldier Boy,{MCU},f,{22191},The Boys
+Soldier Boy,{Homelander},f,{22191},The Boys
+Ben 10 Franklin,{MAD},t,{22192},""
+George Washington,{WildStorm},f,{22193},WildStorm
+H.M.E.R,"{`"Sym(-| )?Bionic Titan`"}",f,{22194},Sym-Bionic Titan
+H.M.E.R,"{`"General Steels?`"}",f,{22194},Sym-Bionic Titan
+General Washingtoad,"{`"Super Mario Brothers Super Show`"}",t,{22195},Super Mario Brothers Super Show!
+Goldlewis Dickinson,"{`"Guilty Gear`"}",t,{22196},Guilty Gear
+Nikaido,{Dorohedoro},f,{22197},Dorohedoro
+John Grimm,"{`"Doom ?\\(2005 film`"}",f,{22198},Doom [2005 Film]
+"John `"Reaper`" Grimm","{Doom,2005}",f,{22198},Doom [2005 Film]
+Neon White,"{`"Neon White ?\\(Neon White`"}",t,{22199},""
+Herbie Popnecker,"{`"Herbie Popnecker ?\\(Herbie`"}",t,{22200},Herbie
+Kyouichirou Sabu,{Baki(verse)?},t,{22201},Baki
