@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Killer Bee'],
+'Killer Bee',
+False,
+False,
+[
+    ['Akatsuki']
+],
+'Akatsuki',
+'{3957}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vts0r8/killer_bee_has_to_fight_the_akatsuki_one_at_a/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Atsushi Suedo (Baki)', 'https://redd.it/vvfcf4')
+add_data(['Atsushi Suedou?'],
+'Atsushi Suedou',
+False,
+True,
+[
+    ['Baki(verse)?']
+],
+'Baki',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vvfcf4/respect_atsushi_suedo_baki/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
