@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Kaguya'],
+'Kaguya',
+False,
+False,
+[
+    ['Akatsuki'], ['Ten Tails']
+],
+'Naruto',
+'{3954}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vvp53n/saitama_vs_kaguya_who_will_win/
+
+########################################
+
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Mario', 'Goku']
+],
+'Sonic the Hedgehog',
+'{8276,8277}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vvvxdo/saitama_has_gone_evil_and_is_causing_destruction/ifm8eez/?context=3
+
+########################################
+
 add_data(['Killer Bee'],
 'Killer Bee',
 False,
@@ -114,7 +142,7 @@ False,
 [
     ['Akatsuki']
 ],
-'Akatsuki',
+'Naruto',
 '{3957}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/vts0r8/killer_bee_has_to_fight_the_akatsuki_one_at_a/
@@ -133,6 +161,93 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vvfcf4/respect_atsushi_suedo_baki/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Old Ulysses (American Dad!)', 'https://redd.it/vvpvvj')
+add_data(['Old Ulysses'],
+'Old Ulysses',
+False,
+True,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vvpvvj/respect_old_ulysses_american_dad/
+
+########################################
+
+id = get_rt_id(cur, 'Respect S.T.A.A.N (American Dad!)', 'https://redd.it/vw05sb')
+add_data(['S\.T\.A\.A\.N'],
+'S.T.A.A.N',
+False,
+False,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vw05sb/respect_staan_american_dad/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Professor Paradox (Ben 10)', 'https://redd.it/vvpywq')
+add_data(['Professor Paradox'],
+'Professor Paradox',
+False,
+True,
+[
+    ['Ben (10|Ten(nyson)?)']
+],
+'Ben 10',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vvpywq/respect_professor_paradox_ben_10/
+
+add_data(['Paradox'],
+'Paradox',
+False,
+False,
+[
+    ['Paradox.*Ben (10|Ten(nyson)?)']
+],
+'Ben 10',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vvpywq/respect_professor_paradox_ben_10/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zhu Bajie (Xi Xing Ji)', 'https://redd.it/vvso25')
+add_data(['Zhu Bajie'],
+'Zhu Bajie',
+False,
+True,
+[
+    ['Xi Xing Ji']
+],
+'Xi Xing Ji',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vvso25/respect_zhu_bajie_xi_xing_ji/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Starfish Hitler! (Kamen Rider X)', 'https://redd.it/vw3zub')
+add_data(['Starfish Hitler'],
+'Starfish Hitler',
+False,
+True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vw3zub/respect_starfish_hitler_kamen_rider_x/
 
 ########################################
 
