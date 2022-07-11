@@ -1343,17 +1343,17 @@ Black Panther,{199999},f,{234},MCU
 Black Panther,{movie},f,{234},MCU
 Black Panther,{movies},f,{234},MCU
 Black Panther,"{`"Civil War`"}",f,{234},MCU
+Hulk,"{`"Marvel Cinematic Universe`"}",f,{236},MCU
+Hulk,{MCU},f,{236},MCU
+Yakko Warner,{Animaniacs},t,{636},Animaniacs
+Zhao,{Avatar},f,{637},Avatar: TLA
+Zhao,{A?TLA},f,{637},Avatar: TLA
 Black Widow,"{`"Marvel Cinematic Universe`"}",f,{235},MCU
 Black Widow,{MCU},f,{235},MCU
 Black Widow,{199999},f,{235},MCU
 Black Widow,{movie},f,{235},MCU
 Black Widow,{movies},f,{235},MCU
 Black Widow,"{`"Civil War`"}",f,{235},MCU
-Hulk,"{`"Marvel Cinematic Universe`"}",f,{236},MCU
-Hulk,{MCU},f,{236},MCU
-Yakko Warner,{Animaniacs},t,{636},Animaniacs
-Zhao,{Avatar},f,{637},Avatar: TLA
-Zhao,{A?TLA},f,{637},Avatar: TLA
 Hulk,{199999},f,{236},MCU
 Hulk,{movie},f,{236},MCU
 Hulk,{movies},f,{236},MCU
@@ -2252,11 +2252,6 @@ Azula,{A?T?LOK},t,{640},Avatar: TLA
 Combustion Man,{Avatar},t,{641},Avatar: TLA
 Combustion Man,{A?TLA},t,{641},Avatar: TLA
 Combustion Man,{Korra},t,{641},Avatar: TLA
-Kitana,"{`"Mortal Kombat`",movies?}",f,{6528},Mortal Kombat Movies
-Kitana,"{MK,movies?}",f,{6528},Mortal Kombat Movies
-Kitana,"{`"Mortal Kombat`",films?}",f,{6528},Mortal Kombat Movies
-Kitana,"{MK,films?}",f,{6528},Mortal Kombat Movies
-Kitana,{1990s?},f,{6528},Mortal Kombat Movies
 Storm,{FOX},f,{6529},FOX
 Storm,{Foxverse},f,{6529},FOX
 Storm,"{`"X(-| )Men Cinemantic Universe`"}",f,{6529},FOX
@@ -2288,6 +2283,10 @@ Donatello,"{`"ROT ?TMNT`"}",f,{6540},Rise of the Teenage Mutant Ninja Turtles
 Michelangelo,"{`"Rise of the`",Turtles}",f,{6541},Rise of the Teenage Mutant Ninja Turtles
 Wesley Gibson,"{Wanted,films?}",f,{595},Wanted
 Rodan,"{`"King of the Monsters`"}",f,{6530},MonsterVerse
+Kitana,"{`"Mortal Kombat`",movies?}",f,{6528},Mortal Kombat Movies
+Kitana,"{MK,movies?}",f,{6528},Mortal Kombat Movies
+Kitana,"{`"Mortal Kombat`",films?}",f,{6528},Mortal Kombat Movies
+Kitana,"{MK,films?}",f,{6528},Mortal Kombat Movies
 Michelangelo,"{`"Rise of the`",TMNT}",f,{6541},Rise of the Teenage Mutant Ninja Turtles
 Michelangelo,"{`"ROT ?TMNT`"}",f,{6541},Rise of the Teenage Mutant Ninja Turtles
 Baron Draxum,"{`"Rise of the`",Turtles}",t,{6542},Rise of the Teenage Mutant Ninja Turtles
@@ -3038,7 +3037,6 @@ Jax,"{`"Defenders of the Realm`"}",f,{829},Mortal Kombat: Defenders of the Realm
 Karbrac,"{`"Mortal Kombat`"}",t,{830},Mortal Kombat: Defenders of the Realm
 Karbrac,{MK},t,{830},Mortal Kombat: Defenders of the Realm
 Karbrac,"{`"Defenders of the Realm`"}",t,{830},Mortal Kombat: Defenders of the Realm
-Kitana,"{`"Defenders of the Realm`"}",f,{831},Mortal Kombat: Defenders of the Realm
 Kiva,"{`"Mortal Kombat`"}",f,{832},Mortal Kombat: Defenders of the Realm
 Kiva,{MK},f,{832},Mortal Kombat: Defenders of the Realm
 Kiva,"{`"Defenders of the Realm`"}",f,{832},Mortal Kombat: Defenders of the Realm
@@ -4998,8 +4996,6 @@ Kotal Kahn,{MK},t,{5291},Mortal Kombat
 Link,"{`"Hyrule Warriors`"}",f,{5214},Hyrule Warriors
 Taven,"{`"Mortal Kombat`"}",t,{5317},Mortal Kombat
 Taven,{MK},t,{5317},Mortal Kombat
-Black Widow,{616},t,{1989},616
-Black Widow,{comics},t,{1989},616
 Starkiller,"{`"Galen Marek`"}",t,{5728},Star Wars
 Link,"{`"Wind Waker`"}",f,{5227},Wind Waker / Phantom Hourglass
 Link,"{`"Phantom Hourglass`"}",f,{5227},Wind Waker / Phantom Hourglass
@@ -5061,6 +5057,8 @@ Crocodile,{OP},f,{4042},One Piece
 Atrocitus,{DC},t,{22014},DC
 Atrocitus,{PC},f,{22014},Post-Crisis
 Atrocitus,"{`"Post(-| )?C(risis)?`"}",f,{22014},Post-Crisis
+Black Widow,{616},f,{1989},616
+Black Widow,{comics},f,{1989},616
 Bleez,{PC},f,{1674},Post-Crisis
 Bleez,"{`"Post(-| )?C(risis)?`"}",f,{1674},Post-Crisis
 Bleez,"{`"New(-| )Earth`"}",f,{1674},Post-Crisis
@@ -9240,11 +9238,6 @@ Togata,"{`"Fire Punch`"}",f,{8450},Fire Punch
 Sakura,"{`"Sakura \\(Pok(e|é)mon`"}",f,{8451},Pokémon
 Erin,"{`"You're Next`"}",f,{8453},You're Next
 Erin Harson,"{`"You're Next`"}",t,{8453},You're Next
-Kitana,"{`"Shaolin Monks`"}",f,{8454},Mortal Kombat: Shaolin Monks
-Kitana,{Malibu},f,{8455},Malibu Comics
-Kitana,"{`"Mortal Kombat`",Conquest}",f,{8456},Mortal Kombat: Conquest
-Kitana,"{MK,Conquest}",f,{8456},Mortal Kombat: Conquest
-Kitana,"{`"(Mortal Kombat|MK):? Legacy`"}",f,{8457},Mortal Kombat: Legacy
 Guardian,"{`"Jim Harper`"}",f,{8458},DC
 Guardian,{PC},f,{8458},Post-Crisis
 Guardian,"{`"Earth(-| )(1|One)`"}",f,{8458},Post-Crisis
@@ -9269,6 +9262,8 @@ Crimson King,"{`"Dark Tower`"}",t,{},The Dark Tower
 Gan,"{`"Stephan King`"}",f,{},The Dark Tower
 Gan,"{`"Dark Tower`"}",f,{},The Dark Tower
 Guardian,"{`"Guardian.*(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{8458},DC
+Kitana,"{`"Shaolin Monks`"}",f,{8454},Mortal Kombat: Shaolin Monks
+Kitana,{Malibu},f,{8455},Malibu Comics
 Kratos Aurion,{Symphonia},t,{4953},Tales of Symphonia
 Kratos,{Symphonia},f,{4953},Tales of Symphonia
 Master Chief,{Halo},t,{5098},Halo
@@ -14987,7 +14982,6 @@ Iron Man,"{`"Zombies Assemble`"}",f,{14450},Zombies Assemble
 Captain America,"{`"Zombies Assemble`"}",f,{14450},Zombies Assemble
 Thor,"{`"Zombies Assemble`"}",f,{14450},Zombies Assemble
 Hulk,"{`"Zombies Assemble`"}",f,{14450},Zombies Assemble
-Black Widow,"{`"Zombies Assemble`"}",f,{14450},Zombies Assemble
 Hawkeye,"{`"Zombies Assemble`"}",f,{14450},Zombies Assemble
 Dipper Pines,"{`"Gravity Falls`"}",t,{14451},Gravity Falls
 Dipper Pines,{GF},t,{14451},Gravity Falls
@@ -15006,6 +15000,7 @@ Nyx,"{`"Lupin the (3|III|Thi)rd`"}",f,{14454},Lupin III
 Fatalis,"{`"Monster Hunter`"}",t,{14455},Monster Hunter
 Nergigante,"{`"Monster Hunter`"}",t,{14456},Monster Hunter
 Venom,"{`"Spider(-| )?Man Training Studio`"}",f,{14457},The Amazing Spider-Man Training Studio
+Black Widow,"{`"Zombies Assemble`"}",f,{14450},Zombies Assemble
 Shy,"{`"Shy ?\\(SHY`"}",f,{14460},SHY
 Shy,{Bukimi},f,{14460},SHY
 Mayhem,{982},f,{14461},982
@@ -17637,8 +17632,6 @@ Daegon,"{`"Mortal Kombat`"}",f,{5268},Mortal Kombat
 Daegon,{MKd*},f,{5268},Mortal Kombat
 Jade,"{`"Mortal Kombat`"}",f,{5283},Mortal Kombat
 Jade,{MKd*},f,{5283},Mortal Kombat
-Kitana,"{`"Mortal Kombat`"}",t,{5289},Mortal Kombat
-Kitana,{MKd*},t,{5289},Mortal Kombat
 Ashrah,"{`"Mortal Kombat`"}",t,{5261},Mortal Kombat
 Ashrah,{MKd*},t,{5261},Mortal Kombat
 Drahmin,"{`"Mortal Kombat`"}",t,{5271},Mortal Kombat
@@ -21746,8 +21739,6 @@ Darquesse,{Skull?duggery},t,{5955},Skulduggery Pleasant
 Darquesse,{SP},t,{5955},Skulduggery Pleasant
 Grotesquery,{Skull?duggery},f,{5956},Skulduggery Pleasant
 Grotesquery,{SP},f,{5956},Skulduggery Pleasant
-Kitana,"{`"Skull?duggery Pleasant`"}",f,{5957},Skulduggery Pleasant
-Kitana,"{`"Kitana (Hillher|Kella)way`"}",f,{5957},Skulduggery Pleasant
 Doran,{Skull?duggery},f,{5957},Skulduggery Pleasant
 Doran,"{`"Doran (Kickass|Purcell)`"}",f,{5957},Skulduggery Pleasant
 Sean,{Skull?duggery},f,{5957},Skulduggery Pleasant
@@ -27635,3 +27626,33 @@ Beta Ray Bill,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{22208},Earths Might
 Beta Ray Bill,"{`"A(vengers)?: ?EMH`"}",f,{22208},Earths Mightiest Heroes
 Beta Ray Bill,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{22208},Earths Mightiest Heroes
 Bai Lang,"{`"Xi Xing Ji`"}",f,{22209},Xi Xing Ji
+Kitana,{1990s?},f,{6528},Mortal Kombat Movies
+Kitana,"{`"Defenders of the Realm`"}",f,{831},Mortal Kombat: Defenders of the Realm
+Kitana,"{`"Mortal Kombat`",Conquest}",f,{8456},Mortal Kombat: Conquest
+Kitana,"{MK,Conquest}",f,{8456},Mortal Kombat: Conquest
+Kitana,"{`"(Mortal Kombat|MK):? Legacy`"}",f,{8457},Mortal Kombat: Legacy
+Kitana,"{`"Mortal Kombat`"}",f,{5289},Mortal Kombat
+Kitana,{MKd*},f,{5289},Mortal Kombat
+Kitana,"{`"Skull?duggery Pleasant`"}",f,{5957},Skulduggery Pleasant
+Kitana,"{`"Kitana (Hillher|Kella)way`"}",f,{5957},Skulduggery Pleasant
+Hit-Monkey,"{`"Hit(-| )Monkey.*TV`"}",f,{},TV Series
+Kaguya,{Akatsuki},f,{3954},Naruto
+Kaguya,"{`"Ten Tails`"}",f,{3954},Naruto
+Sonic,"{Mario,Goku}",f,"{8276,8277}",Sonic the Hedgehog
+Killer Bee,{Akatsuki},f,{3957},Naruto
+Komamura,{Bleach},f,{3161},Bleach
+Komamura,{Sajin},f,{3161},Bleach
+Komamura,{Bankai},f,{3161},Bleach
+Atsushi Suedou,{Baki(verse)?},t,{22222},Baki
+Old Ulysses,"{`"American Dad`"}",t,{22223},American Dad!
+S.T.A.A.N,"{`"American Dad`"}",f,{22224},American Dad!
+Professor Paradox,"{`"Ben (10|Ten(nyson)?)`"}",t,{22225},Ben 10
+Paradox,"{`"Paradox.*Ben (10|Ten(nyson)?)`"}",f,{22225},Ben 10
+Zhu Bajie,"{`"Xi Xing Ji`"}",t,{22226},Xi Xing Ji
+Starfish Hitler,"{`"Kamen Rider`"}",t,{22227},Kamen Rider
+Steve,"{`"Smash Bros`"}",f,{22228},Super Smash Bros
+Great Rabbit,"{`"Re:? ?Zero`"}",f,{22229},Re:Zero
+Ares,"{`"A Modern Myth`"}",f,{22230},A Modern Myth
+Zeus,"{`"A Modern Myth`"}",f,{22231},A Modern Myth
+Athena,"{`"A Modern Myth`"}",f,{22232},A Modern Myth
+Prometheus,"{`"A Modern Myth`"}",f,{22233},A Modern Myth
