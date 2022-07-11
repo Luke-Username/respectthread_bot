@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4709, 'Respect Denji, the Chainsaw Man! (Chainsaw Man)', 'https://redd.it/vw7tm4')
+
+########################################
+
 add_data(['Kaguya'],
 'Kaguya',
 False,
@@ -248,6 +252,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vw3zub/respect_starfish_hitler_kamen_rider_x/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Steve (Super Smash Bros.)', 'https://redd.it/vw9mnp')
+add_data(['Steve'],
+'Stever',
+False,
+False,
+[
+    ['Smash Bros']
+],
+'Super Smash Bros',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vw9mnp/respect_steve_super_smash_bros/
 
 ########################################
 
