@@ -22,6 +22,8 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hulk', 'Iranian 
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Kitana';
+
 ########################################
 
 ########################################

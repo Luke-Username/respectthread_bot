@@ -111,6 +111,20 @@ update_respectthread(cur, 4709, 'Respect Denji, the Chainsaw Man! (Chainsaw Man)
 
 ########################################
 
+add_data(['Hit(-| )Monkey'],
+'Hit-Monkey',
+False,
+False,
+[
+    ['Hit(-| )Monkey.*TV']
+],
+'TV Series',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vwl0ur/hit_monkey_marvel_tv_show_vs_king_kong_2005/ifqds20/?context=3
+
+########################################
+
 add_data(['Kaguya'],
 'Kaguya',
 False,
@@ -150,6 +164,20 @@ False,
 '{3957}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/vts0r8/killer_bee_has_to_fight_the_akatsuki_one_at_a/
+
+########################################
+
+add_data(['Komamura'],
+'Komamura',
+False,
+False,
+[
+    ['Bleach'], ['Sajin'], ['Bankai']
+],
+'Bleach',
+'{3161}'
+)
+#
 
 ########################################
 
@@ -267,6 +295,81 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/vw9mnp/respect_steve_super_smash_bros/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Great Rabbit (Re:Zero, Anime)', 'https://redd.it/vwhzja')
+add_data(['Great Rabbit'],
+'Great Rabbit',
+False,
+False,
+[
+    ['Re:? ?Zero']
+],
+'Re:Zero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vwhzja/respect_the_great_rabbit_rezero_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ares! (A Modern Myth)', 'https://redd.it/vwi5cm')
+add_data(['Ares'],
+'Ares',
+False,
+False,
+[
+    ['A Modern Myth']
+],
+'A Modern Myth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vwi5cm/respect_ares_a_modern_myth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zeus! (A Modern Myth)', 'https://redd.it/vwi72d')
+add_data(['Zeus'],
+'Zeus',
+False,
+False,
+[
+    ['A Modern Myth']
+],
+'A Modern Myth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vwi72d/respect_zeus_a_modern_myth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Athena! (A Modern Myth)', 'https://redd.it/vwi9gv')
+add_data(['Athena'],
+'Athena',
+False,
+False,
+[
+    ['A Modern Myth']
+],
+'A Modern Myth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vwi9gv/respect_athena_a_modern_myth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Prometheus! (A Modern Myth)', 'https://redd.it/vwib9z')
+add_data(['Prometheus'],
+'Prometheus',
+False,
+False,
+[
+    ['A Modern Myth']
+],
+'A Modern Myth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vwib9z/respect_prometheus_a_modern_myth/
 
 ########################################
 
