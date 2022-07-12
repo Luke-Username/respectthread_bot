@@ -107,6 +107,211 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Godzilla ?\(2017'], ['Planet of( the)? Monsters']
+],
+'Planet of the Monsters',
+'{21133}'
+)
+#
+
+########################################
+
+add_data(['Marc Spector'],
+'Marc Spector',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vx6swi/mcu_marc_spector_vs_frank_castle_jon_bernthal_who/ifu3ih8/?context=3
+
+########################################
+
+add_data(['Mighty Thor'],
+'Mighty Thor',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vx0joo/the_mighty_thor_mcu_vs_starlight_queen_maeve_and/ift5vjs/?context=3
+
+########################################
+
+add_data(['The Deep'],
+'The Deep',
+False,
+False,
+[
+    ['Timothy']
+],
+'The Boys',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vx9b18/the_deep_vs_saitama/
+
+########################################
+
+add_data(['Green Goblin'],
+'Green Goblin',
+False,
+False,
+[
+    ['(movie|film) villains?'], ['(movie|film) versions?']
+],
+'Raimiverse Spider-Man',
+'{300}'
+)
+#
+
+add_data(['Doc Oc'],
+'Doc Oc',
+False,
+False,
+[
+    ['(movie|film) villains?'], ['(movie|film) versions?'], ['Rai?mi(ni)?-?(verse)?'], ['Marvel Cinematic Universe'], ['MCU'], ['No Way Home'], ['NWH']
+],
+'Raimiverse Spider-Man',
+'{299}'
+)
+#
+
+add_data(['Doc Ock'],
+'Doctor Octopus',
+False,
+False,
+[
+    ['(movie|film) villains?'], ['(movie|film) versions?']
+],
+'Raimiverse Spider-Man',
+'{299}'
+)
+#
+
+add_data(['Sand(-| )?man'],
+'Sandman',
+False,
+False,
+[
+    ['(movie|film) villains?'], ['(movie|film) versions?']
+],
+'Raimiverse Spider-Man',
+'{6508}'
+)
+#
+
+add_data(['Harry Osborn'],
+'Harry Osborn',
+False,
+False,
+[
+    ['(movie|film) villains?'], ['(movie|film) versions?']
+],
+'Raimiverse Spider-Man',
+'{301}'
+)
+#
+
+add_data(['Lizard'],
+'Lizard',
+False,
+False,
+[
+    ['Spider(-| )?Mans?', '(movie|film) villains?'], ['Spider(-| )?Mans?', '(movie|film) versions?']
+],
+'The Amazing Spider-Man',
+'{112}'
+)
+#
+
+add_data(['Electro'],
+'Electro',
+False,
+False,
+[
+    ['(movie|film) villains?'], ['(movie|film) versions?']
+],
+'The Amazing Spider-Man',
+'{110}'
+)
+#
+
+add_data(['Shocker'],
+'Shocker',
+False,
+False,
+[
+    ['Spider(-| )?Mans?', '(movie|film) villains?'], ['Spider(-| )?Mans?', '(movie|film) versions?']
+],
+'MCU',
+'{260}'
+)
+#
+
+add_data(['Vulture'],
+'Vulture',
+False,
+False,
+[
+    ['Spider(-| )?Mans?', '(movie|film) villains?'], ['Spider(-| )?Mans?', '(movie|film) versions?']
+],
+'MCU',
+'{269}'
+)
+#
+
+add_data(['Mysterio'],
+'Mysterio',
+False,
+False,
+[
+    ['(movie|film) villains?'], ['(movie|film) versions?']
+],
+'MCU',
+'{6527}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vwh1ia/homelander_the_boys_fight_each_of_spidermans/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ao Xue (Xi Xing Ji)', 'https://redd.it/vx83c2')
+add_data(['Ao Xue'],
+'Ao Xue',
+False,
+False,
+[
+    ['Xi Xing Ji']
+],
+'Xi Xing Ji',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vx83c2/respect_ao_xue_xi_xing_ji/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Black Serpent (Re:Zero, Anime)', 'https://redd.it/vxaool')
+add_data(['Black Serpent'],
+'Black Serpent',
+False,
+False,
+[
+    ['Re:? ?Zero']
+],
+'Re:Zero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/vxaool/respect_the_black_serpent_rezero_anime/
 
 ########################################
 
