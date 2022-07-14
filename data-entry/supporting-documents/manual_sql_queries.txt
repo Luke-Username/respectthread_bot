@@ -14,8 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='The Flash';
-
 ########################################
 
 UPDATE character SET rt_id_array='{6465}' WHERE rt_id_array='{6465,6023}';
