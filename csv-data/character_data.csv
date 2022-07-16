@@ -4499,6 +4499,8 @@ Deathstroke,"{`"Post(-| )52`"}",f,"{1576,1577}",New 52 / Rebirth
 Gooey,{Kirby},f,{},Kirby
 John Constantine,"{`"\\(DC( Comics)?\\)`"}",t,"{22129,1704}",DC
 John Constantine,"{`"\\[DC( Comics)?\\]`"}",t,"{22129,1704}",DC
+Kushala,{616},f,{22236},616
+Kushala,"{`"Spirit Rider`"}",f,{22236},616
 Freddy Freeman,"{Shazam,2019}",f,{6555},DCEU
 Freddy Freeman,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Freddy Freeman,{DCEU},f,{6555},DCEU
@@ -4527,11 +4529,6 @@ Flash,{Rebirth},f,{1582},New 52 / Rebirth
 Flash,"{`"Flash vs`"}",f,{1582},New 52 / Rebirth
 Flash,"{`"vs.? Flash`"}",f,{1582},New 52 / Rebirth
 Flash,"{`"(Could|is) Flash`"}",f,{1582},New 52 / Rebirth
-The Flash,"{`"New ?52`"}",f,{1582},New 52 / Rebirth
-The Flash,{N-?52},f,{1582},New 52 / Rebirth
-The Flash,"{`"Post(-| )52`"}",f,{1582},New 52 / Rebirth
-The Flash,"{`"Prime(-| )Earth`"}",f,{1582},New 52 / Rebirth
-The Flash,{Rebirth},f,{1582},New 52 / Rebirth
 Barry Allen,"{`"New ?52`"}",t,{1582},New 52 / Rebirth
 Barry Allen,{N-?52},t,{1582},New 52 / Rebirth
 Barry Allen,"{`"Post(-| )52`"}",t,{1582},New 52 / Rebirth
@@ -4568,6 +4565,7 @@ Wallace West,"{`"New(-| )?52`"}",f,{1591},New 52
 Wallace West,{N-?52},f,{1591},New 52
 Wallace West,"{`"Post(-| )52`"}",f,{1591},New 52
 Deathstroke,"{`"New(-| )Earth`"}",f,"{1578,21861}",Post-Crisis
+The Flash,"{`"New ?52`"}",f,{1582},New 52 / Rebirth
 Mary Bromfield,"{Shazam,2019}",f,{6555},DCEU
 Mary Bromfield,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Mary Bromfield,{DCEU},f,{6555},DCEU
@@ -16249,6 +16247,21 @@ Goku,"{`"Base Goku`"}",t,{3288},Dragon Ball
 Goku,"{`"SSJ\\d?`"}",t,{3288},Dragon Ball
 Scarlet Witch,{WandaVision},f,{270},MCU
 Wanda,{WandaVision},f,{270},MCU
+Kushala,{Marvel},f,{22236},616
+America Chavez,"{`"Marvel Cinematic Universe`"}",f,{22237},MCU
+America Chavez,{MCU},f,{22237},MCU
+America Chavez,"{`"Doctor Strange 2`"}",f,{22237},MCU
+Strength of a River in His Shoulders,{Dresden},t,{22238},The Dresden Files
+Carlos Ramirez,{Dresden},f,{22239},The Dresden Files
+Carlos Ramirez,{Warden},f,{22239},The Dresden Files
+Ebenezar McCoy,{Dresden},t,{22240},The Dresden Files
+Ivy,"{`"Dresden Files`"}",f,{22241},The Dresden Files
+Ivy,"{`"The Archive`"}",f,{22241},The Dresden Files
+Sha Wujing,"{`"Xi Xing Ji`"}",f,{22242},Xi Xing Ji
+Sun Wukong,"{`"Xi Xing Ji`"}",f,{22243},Xi Xing Ji
+Echidna,"{`"Re:? ?Zero`"}",f,{22244},Re:Zero
+Satella,"{`"Re:? ?Zero`"}",t,{22245},Re:Zero
+Izou,"{`"One ?Piece?`"}",f,{22246},One Piece
 Saint-14,{Destiny},t,{5041},Destiny
 Sjur Eido,{Destiny},t,{5042},Destiny
 Warpriest,{Destiny},f,{5043},Destiny
@@ -22094,8 +22107,6 @@ U.S. Agent,"{`"Marvel Cinematic Universe`"}",f,{16446},MCU
 U.S. Agent,{MCU},f,{16446},MCU
 U.S. Agent,{199999},f,{16446},MCU
 de Blob,{default},t,{16447},""
-God-Emperor of Mankind,{(WH)?40K},t,"{6465,6023}",Warhammer 40k
-God-Emperor of Mankind,{Warhammer},t,"{6465,6023}",Warhammer 40k
 Ahriman,{(WH)?40K},f,"{16448,6464}",Warhammer 40k
 Ahriman,{Warhammer},f,"{16448,6464}",Warhammer 40k
 Ahzek Ahriman,{(WH)?40K},t,"{16448,6464}",Warhammer 40k
@@ -22129,6 +22140,8 @@ The Mountain,"{`"Game of Thrones`"}",f,"{6119,87}",Game of Thrones
 The Mountain,"{`"Song of Ice`"}",f,"{6119,87}",Game of Thrones
 The Mountain,{ASOIAF},f,"{6119,87}",Game of Thrones
 The Mountain,"{`"\\(GoT\\)`"}",f,"{6119,87}",Game of Thrones
+God-Emperor of Mankind,{(WH)?40K},t,{6465},Warhammer 40k
+God-Emperor of Mankind,{Warhammer},t,{6465},Warhammer 40k
 Bog,{RHG},f,{17254},RHG
 Elyas,"{`"Wheel of Time`"}",f,{6036},The Wheel of Time
 Elyas,{WOT},f,{6036},The Wheel of Time
@@ -25871,7 +25884,6 @@ Ratchet,{Jak},f,"{5689,21294,21295}",Ratchet & Clank
 Kaneki,"{`"Tokyo Ghoul`"}",f,{4964},Tokyo Ghoul
 Kaneki,{Dragon},f,{4964},Tokyo Ghoul
 Kaneki,{Naruto},f,{4964},Tokyo Ghoul
-The Flash,"{Goku,`"Bat(-| )?mans?`",`"Super(-| )?man`"}",f,"{1582,1583,1590,1589}",DC
 King Kong,"{`"King Kong.*1933|1933.*King Kong`"}",f,{15404},1933
 Storm Eagle,"{`"Something ?Series`"}",f,{21296},Something Series
 Storm Eagle,"{`"Terminal ?Montage`"}",f,{21296},Something Series
@@ -25899,6 +25911,7 @@ Nase Maser,"{`"A Hero'?s Shadow`"}",t,{21305},A Hero's Shadow
 Minnal Murali,{default},t,{21306},""
 Steve,{Minecraft},f,"{5648,5647}",Minecraft
 Steve,"{`"creative (mode|Steve)`"}",f,"{5648,5647}",Minecraft
+The Flash,"{Goku,`"Bat(-| )?mans?`",`"Super(-| )?man`"}",f,"{1582,1583,1590,1589}",DC
 Artoria Pendragon,"{`"Lion King`"}",f,{21307},Fate
 Artoria Pendragon,"{`"Grande? Order`"}",f,{21307},Fate
 Artoria Pendragon,"{`"F(ate )?/?GO`"}",f,{21307},Fate
@@ -26834,8 +26847,6 @@ Ozma,{Ozpin},f,{21781},RWBY
 She-Hulk,{comics?},t,"{2131,21782}",616
 Niko,"{`"GTA(\\d|\\w+)?`"}",f,{},GTA
 Niko,"{`"Grand Theft Auto`"}",f,{},GTA
-The Flash,"{`"\\(DC( Comics)?\\)`"}",t,"{1582,1583,1590,1589}",DC
-The Flash,"{`"\\[DC( Comics)?\\]`"}",t,"{1582,1583,1590,1589}",DC
 Spider-Man,{12101},f,{},12101
 Storm,"{`"Storm vs\\.`",Goku,comics?}",f,{2386},616
 Captain N,"{`"Game Master`"}",t,{21783},Captain N: The Game Master
@@ -26873,6 +26884,8 @@ Heptadd,{Chaotic},t,{21801},Chaotic
 Akuma,{Tekken},f,{21802},Tekken
 Necromorph,"{`"Alien:? Prototype`"}",f,{21803},Alien: Prototype
 Barbra Streisand,"{`"South Park`"}",f,{21804},South Park
+The Flash,"{`"\\(DC( Comics)?\\)`"}",f,"{1582,1583,1590,1589}",DC
+The Flash,"{`"\\[DC( Comics)?\\]`"}",f,"{1582,1583,1590,1589}",DC
 Crimson Hawk Ranger,"{`"Power Rangers?`"}",t,{21805},Power Rangers
 Ryu,"{`"Power Rangers?`",`"Legacy Wars`"}",f,{21805},Power Rangers
 Mario & Sonic at the Olympic Games,{characters?},t,{21806},""
@@ -27656,3 +27669,45 @@ Ares,"{`"A Modern Myth`"}",f,{22230},A Modern Myth
 Zeus,"{`"A Modern Myth`"}",f,{22231},A Modern Myth
 Athena,"{`"A Modern Myth`"}",f,{22232},A Modern Myth
 Prometheus,"{`"A Modern Myth`"}",f,{22233},A Modern Myth
+The Flash,{N-?52},f,{1582},New 52 / Rebirth
+The Flash,"{`"Post(-| )52`"}",f,{1582},New 52 / Rebirth
+The Flash,"{`"Prime(-| )Earth`"}",f,{1582},New 52 / Rebirth
+The Flash,{Rebirth},f,{1582},New 52 / Rebirth
+Godzilla,"{`"Godzilla ?\\(2017`"}",f,{21133},Planet of the Monsters
+Godzilla,"{`"Planet of( the)? Monsters`"}",f,{21133},Planet of the Monsters
+Marc Spector,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Marc Spector,{MCU},f,{},MCU
+Mighty Thor,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Mighty Thor,{MCU},f,{},MCU
+The Deep,{Timothy},f,{},The Boys
+Green Goblin,"{`"(movie|film) villains?`"}",f,{300},Raimiverse Spider-Man
+Green Goblin,"{`"(movie|film) versions?`"}",f,{300},Raimiverse Spider-Man
+Doc Oc,"{`"(movie|film) villains?`"}",f,{299},Raimiverse Spider-Man
+Doc Oc,"{`"(movie|film) versions?`"}",f,{299},Raimiverse Spider-Man
+Doc Oc,{Rai?mi(ni)?-?(verse)?},f,{299},Raimiverse Spider-Man
+Doc Oc,"{`"Marvel Cinematic Universe`"}",f,{299},Raimiverse Spider-Man
+Doc Oc,{MCU},f,{299},Raimiverse Spider-Man
+Doc Oc,"{`"No Way Home`"}",f,{299},Raimiverse Spider-Man
+Doc Oc,{NWH},f,{299},Raimiverse Spider-Man
+Doctor Octopus,"{`"(movie|film) villains?`"}",f,{299},Raimiverse Spider-Man
+Doctor Octopus,"{`"(movie|film) versions?`"}",f,{299},Raimiverse Spider-Man
+Sandman,"{`"(movie|film) villains?`"}",f,{6508},Raimiverse Spider-Man
+Sandman,"{`"(movie|film) versions?`"}",f,{6508},Raimiverse Spider-Man
+Harry Osborn,"{`"(movie|film) villains?`"}",f,{301},Raimiverse Spider-Man
+Harry Osborn,"{`"(movie|film) versions?`"}",f,{301},Raimiverse Spider-Man
+Lizard,"{`"Spider(-| )?Mans?`",`"(movie|film) villains?`"}",f,{112},The Amazing Spider-Man
+Lizard,"{`"Spider(-| )?Mans?`",`"(movie|film) versions?`"}",f,{112},The Amazing Spider-Man
+Electro,"{`"(movie|film) villains?`"}",f,{110},The Amazing Spider-Man
+Electro,"{`"(movie|film) versions?`"}",f,{110},The Amazing Spider-Man
+Shocker,"{`"Spider(-| )?Mans?`",`"(movie|film) villains?`"}",f,{260},MCU
+Shocker,"{`"Spider(-| )?Mans?`",`"(movie|film) versions?`"}",f,{260},MCU
+Vulture,"{`"Spider(-| )?Mans?`",`"(movie|film) villains?`"}",f,{269},MCU
+Vulture,"{`"Spider(-| )?Mans?`",`"(movie|film) versions?`"}",f,{269},MCU
+Mysterio,"{`"(movie|film) villains?`"}",f,{6527},MCU
+Mysterio,"{`"(movie|film) versions?`"}",f,{6527},MCU
+Ao Xue,"{`"Xi Xing Ji`"}",f,{22234},Xi Xing Ji
+Black Serpent,"{`"Re:? ?Zero`"}",f,{22235},Re:Zero
+Izo,"{`"One ?Piece?`"}",f,{22246},One Piece
+Skye Ryland,"{`"Five Kingdoms`"}",f,{22247},Five Kingdoms
+SCP-2241,"{`"SCP Foundation`"}",t,{22248},""
+Eleven,"{`"Stranger Things`"}",f,{22249},Stranger Things
