@@ -806,7 +806,7 @@ Disney's Hercules
 
 The Dresden Files
 	Version
-		['Dresden Files']
+		['Dresden( Files|verse)']
 	Displayed Verion Name
 		"The Dresden Files"
 
@@ -2467,7 +2467,7 @@ OneyPlays
 
 One Punch Man
 	Version
-		'{"One(-| )Punch Man"}', '{"OPM"}'
+		['One(-| )Punch Man'], ['OPM']
 	Sometimes Called
 		'{"Saitama"}', '{"Tatsumaki"}', '{"Genos"}'
 		'{"S(-| )Class"}'
