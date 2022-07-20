@@ -8510,7 +8510,6 @@ Doctor Poison,{DC},t,{1848},DC
 Hermes,{DC},f,{1849},DC
 Hippolyta,{DC},f,{1850},DC
 Hippolyta,"{`"Wonder Woman`"}",f,{1850},DC
-Hippolyta,{Amazon(s|ian)?},f,{1850},DC
 I-Ching,{DC},t,{1851},Pre New 52
 I-Ching,"{`"Wonder Woman`"}",t,{1851},Pre New 52
 I-Ching,"{`"pre(-| )N(ew ?)?52`"}",t,{1851},Pre New 52
@@ -27711,3 +27710,32 @@ Izo,"{`"One ?Piece?`"}",f,{22246},One Piece
 Skye Ryland,"{`"Five Kingdoms`"}",f,{22247},Five Kingdoms
 SCP-2241,"{`"SCP Foundation`"}",t,{22248},""
 Eleven,"{`"Stranger Things`"}",f,{22249},Stranger Things
+Thor,"{`"Nor(se|dic) Mythology`"}",f,{},Norse Mythology
+Carrie,"{`"Chloe Grace Moretz`"}",f,{396},2013
+Patrick Bateman,"{`"American Psycho`"}",t,{22250},American Psycho
+Twitch,"{`"Five Kingdoms`"}",f,{22251},Five Kingdoms
+Carnag,"{`"Five Kingdoms`"}",f,{22252},Five Kingdoms
+Jace,"{`"Five Kingdoms`"}",f,{22253},Five Kingdoms
+Liam,"{`"Five Kingdoms`"}",f,{22254},Five Kingdoms
+Raizo,"{`"One ?Piece?`"}",f,{22255},One Piece
+The Alphas,{Dresden(verse)?},f,{22256},The Dresden Files
+Lara Raith,"{`"Dresden( Files|verse)`"}",t,{22257},The Dresden Files
+Mouse,"{`"Mouse ?\\((The )?Dresden( Files|verse)`"}",f,{22258},The Dresden Files
+Mouse,"{`"Dresden Files Mouse`"}",f,{22258},The Dresden Files
+Little Mac,"{`"Brothers in Arms`"}",f,{22259},Brothers in Arms
+Robin,"{`"Brothers in Arms`"}",f,{22260},Brothers in Arms
+Leaf,"{`"Brothers in Arms`"}",f,{22261},Brothers in Arms
+Sheik,"{`"Brothers in Arms`"}",f,{22262},Brothers in Arms
+Vashyron,"{`"Resonance of Fate`"}",t,{22263},Resonance of Fate
+Fohhder,{FIGHTERS},t,{22264},FIGHTERS
+Sani Kuh,{FIGHTERS},f,{22265},FIGHTERS
+Apollo Don,{FIGHTERS},f,{22266},FIGHTERS
+Lawliet Kuh,{FIGHTERS},f,{22267},FIGHTERS
+Jackuss,{FIGHTERS},f,{22268},FIGHTERS
+Witches of Sin,"{`"Re:? ?Zero`"}",f,{22269},Re:Zero
+Gorr the Golden Gorilla,{Marvel},t,{22270},Marvel
+Vaccine Man,"{`"One(-| )Punch Man`"}",t,{22271},One Punch Man
+Vaccine Man,{OPM},t,{22271},One Punch Man
+Light Turner,"{`"Death Note`"}",t,{22272},Netflix's Death Note
+L,"{`"Netflix.*Death Note`"}",f,{22273},Netflix's Death Note
+Blackfire,"{`"\\(Teen Titans\\)`"}",f,{22274},Teen Titans

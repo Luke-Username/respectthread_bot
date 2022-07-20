@@ -14,11 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Mich(ae|ea)l Me?yers' WHERE name='Mich(ae|ea)l Myers';
-
 ########################################
-
-DELETE FROM character WHERE default_name='Hippolyta' AND version='{"Amazon(s|ian)?"}';
 
 ########################################
 
