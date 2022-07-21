@@ -14,7 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET version='{"Records? of Ragnarok"}' WHERE version='{"Record of Ragnarok"}';
+UPDATE character SET version='{"Worm(-| )?verse"}' WHERE default_name='Night' AND version='{"Worm(verse)?"}';
+
 ########################################
+
+DELETE FROM character WHERE default_name='Rocket' AND version='{"movie"}';
+DELETE FROM character WHERE default_name='Rocket' AND version='{"movies"}';
 
 ########################################
 

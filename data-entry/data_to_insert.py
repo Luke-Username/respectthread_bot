@@ -107,6 +107,168 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13269, 'Respect Puck (Re:Zero, Anime)', 'https://redd.it/w3lxm0')
+
+########################################
+
+add_data(['Adam'],
+'Adam',
+False,
+False,
+[
+    ['Adam ?\(ROR']
+],
+'Shuumatsu no Valkyrie',
+'{4539}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/w3ypzc/adamror_vs_garou/igz0ng6/?context=3
+
+########################################
+
+add_data(['Toothless'],
+'Toothless',
+False,
+False,
+[
+    ['Toothless vs', 'fly']
+],
+'How to Train Your Dragon',
+'{6572}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/w3q3r2/toothless_vs_aang/igxkvps/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Kim''Dael, The Blood Moon Huntress (The Dragon Prince)", 'https://redd.it/w3ajj3')
+add_data(["Kim''Dael"],
+"Kim''Dael",
+False,
+False,
+[
+    ['Dragon Prince']
+],
+'The Dragon Prince',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w3ajj3/respect_kimdael_the_blood_moon_huntress_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Finn the Superhuman (Adventure Time [Comics])', 'https://redd.it/w3mm2q')
+add_data(['Finn the Superhuman'],
+'Finn the Superhuman',
+False,
+False,
+[
+    ['Adventure Time', 'Comics']
+],
+'Adventure Time',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w3mm2q/respect_finn_the_superhuman_adventure_time_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roxie! (Five Kingdoms)', 'https://redd.it/w3njzw')
+add_data(['Roxie'],
+'Roxie',
+False,
+False,
+[
+    ['Five Kingdoms']
+],
+'Five Kingdoms',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w3njzw/respect_roxie_five_kingdoms/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sidekick! (Five Kingdoms)', 'https://redd.it/w3y3je')
+add_data(['Sidekick'],
+'Sidekick',
+False,
+False,
+[
+    ['Five Kingdoms']
+],
+'Five Kingdoms',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w3y3je/respect_sidekick_five_kingdoms/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bowser (Brothers in Arms)', 'https://redd.it/w3psn6')
+add_data(['Bowser'],
+'Bowser',
+False,
+False,
+[
+    ['Brothers in Arms']
+],
+'Brothers in Arms',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w3psn6/respect_bowser_brothers_in_arms/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Samus (Brothers in Arms)', 'https://redd.it/w3q1v7')
+add_data(['Samus'],
+'Samus Aran',
+False,
+False,
+[
+    ['Brothers in Arms']
+],
+'Brothers in Arms',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w3q1v7/respect_samus_brothers_in_arms/
+
+########################################
+
+id = get_rt_id(cur, "Respect Kin''emon (One Piece)", 'https://redd.it/w3ta3s')
+add_data(["Kin''emon"],
+"Kin''emon",
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w3ta3s/respect_kinemon_one_piece/
+
+add_data(["Kinemon"],
+"Kinemon",
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w3ta3s/respect_kinemon_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Leanansidhe (The Dresden Files)', 'https://redd.it/w3v448')
+add_data(['Leanansidhe'],
+'Leanansidhe',
+False,
+False,
+[
+    ['Dresden(verse)?']
+],
+'The Dresden Files',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w3v448/respect_the_leanansidhe_the_dresden_files/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

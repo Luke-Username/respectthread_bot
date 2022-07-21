@@ -807,6 +807,8 @@ Disney's Hercules
 The Dresden Files
 	Version
 		['Dresden( Files|verse)']
+	Sometimes called
+		['Dresden(verse)?']
 	Displayed Verion Name
 		"The Dresden Files"
 
