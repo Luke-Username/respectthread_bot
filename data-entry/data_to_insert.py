@@ -125,6 +125,34 @@ False,
 
 ########################################
 
+add_data(['Bec Noir'],
+'Bec Noir',
+False,
+True,
+[
+    ['Homestuck']
+],
+'Homestuck',
+'{2876}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/w48w8h/vsbattles_tier_2_thunderdome/ih0ncmw/?context=3
+
+########################################
+
+add_data(['Chaos 0'],
+'Chaos 0',
+False,
+False,
+[
+    ['Sonic']
+],
+'Sonic the Hedgehog',
+'{8577}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/w48w8h/vsbattles_tier_2_thunderdome/ih0ncmw/?context=3
+
+########################################
+
 add_data(['Toothless'],
 'Toothless',
 False,
