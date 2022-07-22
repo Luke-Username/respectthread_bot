@@ -111,6 +111,20 @@ update_respectthread(cur, 13269, 'Respect Puck (Re:Zero, Anime)', 'https://redd.
 
 ########################################
 
+add_data(['Mega ?man'],
+'Megaman',
+False,
+False,
+[
+    ['Battle Network']
+],
+'MegaMan NT Warrior',
+'{4854}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/w4h0yz/lan_and_megamanexe_vs_xana_megaman_battle_network/ih2hvwv/?context=3
+
+########################################
+
 add_data(['Adam'],
 'Adam',
 False,
@@ -122,6 +136,20 @@ False,
 '{4539}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/w3ypzc/adamror_vs_garou/igz0ng6/?context=3
+
+########################################
+
+add_data(['Hyperion'],
+'Hyperion',
+False,
+False,
+[
+    ['Superman']
+],
+'Marvel',
+'{2163,2164,2165,2166}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/w4p0le/free_for_all_superman_vs_omni_man_vs_hyperion_vs/ih38t86/?context=3
 
 ########################################
 
@@ -257,6 +285,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Pedro (One Piece)', 'https://redd.it/w4685i')
+add_data(['Pedro'],
+'Pedro',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w4685i/respect_pedro_one_piece/
+
+########################################
+
 id = get_rt_id(cur, "Respect Kin''emon (One Piece)", 'https://redd.it/w3ta3s')
 add_data(["Kin''emon"],
 "Kin''emon",
@@ -296,6 +339,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/w3v448/respect_the_leanansidhe_the_dresden_files/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Biggy (FIGHTERS)', 'https://redd.it/w4id89')
+add_data(['Biggy'],
+'Biggy',
+False,
+False,
+[
+    ['Biggy ?\(FIGHTERS\)']
+],
+'FIGHTERS',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w4id89/respect_biggy_fighters/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kamala Khan! (Marvel Cinematic Universe)', 'https://redd.it/w4uxof')
+add_data(['Kh?amala Khan'],
+'Kamala Khan',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w4uxof/respect_kamala_khan_marvel_cinematic_universe/
 
 ########################################
 
