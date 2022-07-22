@@ -1484,8 +1484,6 @@ Nebula,{GOTG},f,{13605},MCU
 Rocket,"{`"Marvel Cinematic Universe`"}",f,{13606},MCU
 Rocket,{MCU},f,{13606},MCU
 Rocket,{199999},f,{13606},MCU
-Rocket,{movie},f,{13606},MCU
-Rocket,{movies},f,{13606},MCU
 Rocket,"{`"Guardians of the Galaxy`"}",f,{13606},MCU
 Rocket,{GOTG},f,{13606},MCU
 Rocket,"{`"and Groot`"}",f,{13606},MCU
@@ -12107,9 +12105,7 @@ Omega-1,{Robowar},f,{9364},Robowar
 Sauron,"{`"Shadow of Mordor`"}",f,{9365},Shadow of Mordor
 Sauron,"{`"Shadow of War`"}",f,{9365},Shadow of Mordor
 Jack The Ripper,"{`"Shuumatsu no Valkyrie`"}",f,{9366},Shuumatsu no Valkyrie
-Jack The Ripper,"{`"Record of Ragnarok`"}",f,{9366},Shuumatsu no Valkyrie
 Heracles,"{`"Shuumatsu no Valkyrie`"}",f,{9367},Shuumatsu no Valkyrie
-Heracles,"{`"Record of Ragnarok`"}",f,{9367},Shuumatsu no Valkyrie
 Live Action Josuke,"{`"Diamond is Unbreakable`"}",t,{9368},""
 Baby Godzillas,{1998},t,{9370},"Godzilla, 1998"
 Baby Godzillas,{TriStar},t,{9370},"Godzilla, 1998"
@@ -12149,6 +12145,8 @@ Touma Kamijou,{Index(verse)?},t,{4450},Toaru Majutsu no Index
 Touma Kamijou,{TAMNI},t,{4450},Toaru Majutsu no Index
 Yondu,"{`"End ?game`"}",f,{13485},MCU
 Avengers,"{`"End ?game`"}",f,"{233,247,237,264,236,244,235,270,268,242,271,256}",MCU
+Jack The Ripper,"{`"Records? of Ragnarok`"}",f,{9366},Shuumatsu no Valkyrie
+Heracles,"{`"Records? of Ragnarok`"}",f,{9367},Shuumatsu no Valkyrie
 Matt Cordell,"{`"Maniac Cop`"}",t,{12134},Maniac Cop
 Maniac Cop,"{`"Maniac Cop`"}",t,{12134},Maniac Cop
 Ultimate Deathstrike,{1610},t,{12135},1610
@@ -13965,17 +13963,11 @@ Tao Ren,"{`"Shaman King`"}",t,{4536},Shaman King
 Umemiya Ryunosuke,"{`"Shaman King`"}",t,{4537},Shaman King
 Usui Horokeu,"{`"Shaman King`"}",t,{4538},Shaman King
 Adam,"{`"Shuumatsu no Valkyrie`"}",f,{4539},Shuumatsu no Valkyrie
-Adam,"{`"Record of Ragnarok`"}",f,{4539},Shuumatsu no Valkyrie
 Lu Bu,"{`"Shuumatsu no Valkyrie`"}",f,{4540},Shuumatsu no Valkyrie
-Lu Bu,"{`"Record of Ragnarok`"}",f,{4540},Shuumatsu no Valkyrie
 Poseidon,"{`"Shuumatsu no Valkyrie`"}",f,{4541},Shuumatsu no Valkyrie
-Poseidon,"{`"Record of Ragnarok`"}",f,{4541},Shuumatsu no Valkyrie
 Sasaki Kojirō,"{`"Shuumatsu no Valkyrie`"}",f,{4542},Shuumatsu no Valkyrie
-Sasaki Kojirō,"{`"Record of Ragnarok`"}",f,{4542},Shuumatsu no Valkyrie
 Thor,"{`"Shuumatsu no Valkyrie`"}",f,{4543},Shuumatsu no Valkyrie
-Thor,"{`"Record of Ragnarok`"}",f,{4543},Shuumatsu no Valkyrie
 Zeus,"{`"Shuumatsu no Valkyrie`"}",f,{4544},Shuumatsu no Valkyrie
-Zeus,"{`"Record of Ragnarok`"}",f,{4544},Shuumatsu no Valkyrie
 Black☆Star,"{`"Soul Eater`"}",t,{4545},Soul Eater
 Death the Kid,"{`"Soul Eater`"}",t,{4547},Soul Eater
 Death Scythes,"{`"Soul Eater`"}",f,{4548},Soul Eater
@@ -14001,6 +13993,7 @@ Aurora E. Juutilainen,"{`"World Witches`"}",t,{4561},Strike Witches
 Eila Ilmatar Juutilainen,"{`"Strike Witches`"}",t,{4562},Strike Witches
 Eila Ilmatar Juutilainen,"{`"World Witches`"}",t,{4562},Strike Witches
 Eila,"{`"Strike Witches`"}",f,{4562},Strike Witches
+Adam,"{`"Records? of Ragnarok`"}",f,{4539},Shuumatsu no Valkyrie
 Eila,"{`"World Witches`"}",f,{4562},Strike Witches
 Erica Hartmann,"{`"Strike Witches`"}",t,{4563},Strike Witches
 Erica Hartmann,"{`"World Witches`"}",t,{4563},Strike Witches
@@ -22292,10 +22285,10 @@ Nice Guy,{Worm(verse)?},f,{6091},Worm
 Nice Guy,"{`"Para(-| )?humans?`"}",f,{6091},Worm
 Nice Guy,"{`"Brockton Bay`"}",f,{6091},Worm
 Nice Guy,"{`"Slaughter ?house`"}",f,{6091},Worm
-Night,{Worm(verse)?},f,{6092},Worm
 Night,"{`"Para(-| )?humans?`"}",f,{6092},Worm
 Night,"{`"Brockton Bay`"}",f,{6092},Worm
 Number Man,{Worm(verse)?},t,{6093},Worm
+Night,"{`"Worm(-| )?verse`"}",f,{6092},Worm
 Number Man,"{`"Para(-| )?humans?`"}",t,{6093},Worm
 Number Man,"{`"Brockton Bay`"}",t,{6093},Worm
 Harbinger,{Worm(verse)?},f,{6093},Worm
@@ -25338,7 +25331,6 @@ Yamato,"{`"Yamato ?\\(One ?Piece?`"}",f,{21112},One Piece
 Yamato,"{`"One Piece`",Nami}",f,{21112},One Piece
 Leonard Burns,"{`"Fire ?Force`"}",t,{21113},Fire Force
 Sakura,"{`"Dangan ?ronpa`"}",f,{5022},Danganronpa
-Buddha,"{`"Record of Ragnarok`"}",f,{},Record of Ragnarok
 Buddha,"{`"Saint Oniisan`"}",f,{},Saint Oniisan
 Remina,"{`"Hellstar Remina`"}",f,{14338},Hellstar Remina
 Accelerator,"{`"To ?aru`"}",f,{4449},Toaru Majutsu no Index
@@ -25389,6 +25381,7 @@ Buddha,{Buddhism},t,"{21114,21300}",Mahāyāna
 Buddha,{Enlighten(ment|ed)},t,"{21114,21300}",Mahāyāna
 Buddha,"{`"Composite Buddha`"}",t,"{21114,21300}",Mahāyāna
 Buddha,"{`"Journey To The West`"}",t,"{21114,21300}",Mahāyāna
+Buddha,"{`"Records? of Ragnarok`"}",f,{},Record of Ragnarok
 Lion,"{`"Balloon Trip of Love`"}",f,{16804},The Legend of Zelda
 SCP-001,"{`"Gate Guardian`"}",f,{15332},""
 StarCraft Marine,"{`"SC\\d?`"}",t,{},""
@@ -27382,7 +27375,6 @@ USAgent,{MCU},f,{21271},MCU
 Moon Knight,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Moon Knight,{MCU},f,{},MCU
 Deathstroke,"{`"\\(DC\\)`"}",t,"{1576,1577,1578,21861}",DC
-Sasaki,"{`"Record of Ragnarok`"}",f,{4542},Shuumatsu no Valkyrie
 Storm,"{`"Storm ?\\(X-Men\\)`"}",f,{2386},616
 The Juggernaut,{FOX},f,"{150,151}",FOX
 Venom,"{`"Ghost ?Rider`",`"Red Skulls?`"}",f,{2319},616
@@ -27739,3 +27731,28 @@ Vaccine Man,{OPM},t,{22271},One Punch Man
 Light Turner,"{`"Death Note`"}",t,{22272},Netflix's Death Note
 L,"{`"Netflix.*Death Note`"}",f,{22273},Netflix's Death Note
 Blackfire,"{`"\\(Teen Titans\\)`"}",f,{22274},Teen Titans
+Lu Bu,"{`"Records? of Ragnarok`"}",f,{4540},Shuumatsu no Valkyrie
+Poseidon,"{`"Records? of Ragnarok`"}",f,{4541},Shuumatsu no Valkyrie
+Sasaki Kojirō,"{`"Records? of Ragnarok`"}",f,{4542},Shuumatsu no Valkyrie
+Thor,"{`"Records? of Ragnarok`"}",f,{4543},Shuumatsu no Valkyrie
+Zeus,"{`"Records? of Ragnarok`"}",f,{4544},Shuumatsu no Valkyrie
+Sasaki,"{`"Records? of Ragnarok`"}",f,{4542},Shuumatsu no Valkyrie
+Megaman,"{`"Battle Network`"}",f,{4854},MegaMan NT Warrior
+Adam,"{`"Adam ?\\(ROR`"}",f,{4539},Shuumatsu no Valkyrie
+Hyperion,{Superman},f,"{2163,2164,2165,2166}",Marvel
+Bec Noir,{Homestuck},t,{2876},Homestuck
+Chaos 0,{Sonic},f,{8577},Sonic the Hedgehog
+Toothless,"{`"Toothless vs`",fly}",f,{6572},How to Train Your Dragon
+Kim'Dael,"{`"Dragon Prince`"}",f,{22275},The Dragon Prince
+Finn the Superhuman,"{`"Adventure Time`",Comics}",f,{22276},Adventure Time
+Roxie,"{`"Five Kingdoms`"}",f,{22277},Five Kingdoms
+Sidekick,"{`"Five Kingdoms`"}",f,{22278},Five Kingdoms
+Bowser,"{`"Brothers in Arms`"}",f,{22279},Brothers in Arms
+Samus Aran,"{`"Brothers in Arms`"}",f,{22280},Brothers in Arms
+Pedro,"{`"One ?Piece?`"}",f,{22281},One Piece
+Kin'emon,"{`"One ?Piece?`"}",f,{22282},One Piece
+Kinemon,"{`"One ?Piece?`"}",f,{22282},One Piece
+Leanansidhe,{Dresden(verse)?},f,{22283},The Dresden Files
+Biggy,"{`"Biggy ?\\(FIGHTERS\\)`"}",f,{22284},FIGHTERS
+Kamala Khan,"{`"Marvel Cinematic Universe`"}",f,{22285},MCU
+Kamala Khan,{MCU},f,{22285},MCU
