@@ -20388,11 +20388,6 @@ Hero,"{`"Sunset Overdrive`"}",f,{5731},Sunset Overdrive
 Protag,"{`"Sunset Overdrive`"}",f,{5731},Sunset Overdrive
 Protagonist,"{`"Sunset Overdrive`"}",f,{5731},Sunset Overdrive
 Player,"{`"Sunset Overdrive`"}",f,{5731},Sunset Overdrive
-Superhot,"{`"Super ?hot (Guy|Protag(onist)?|player|campaign|vs)`"}",t,{5732},""
-Superhot,{time},t,{5732},""
-Superhot,"{`"hot(-| )switch(ing)?`"}",t,{5732},""
-Superhot,"{`"vs\\.? Super ?hot`"}",t,{5732},""
-Superhot,"{`"\\(Super ?hot`"}",t,{5732},""
 Supreme Commander,{default},t,{5733},""
 Clementine,"{`"Wa(lk|kl)ing Dead`"}",f,{5734},The Walking Dead
 Clementine,{TWD},f,{5734},The Walking Dead
@@ -20421,6 +20416,8 @@ Vectorman,{default},t,{5748},""
 Nightmare Gabe,"{`"Video Game Championship Wrestling`"}",f,{5749},Video Game Championship Wrestling
 Terran,"{`"Star ?Craft`"}",f,{},StarCraft
 Terran,"{`"SC\\d?`"}",f,{},StarCraft
+Superhot,"{`"Super ?hot (Guy|Protag(onist)?|player|campaign|vs)`"}",f,{5732},""
+Superhot,{time},f,{5732},""
 Nightmare Gabe,{VGCW},f,{5749},Video Game Championship Wrestling
 The Visitor,"{`"flash ?game`"}",f,{5750},""
 The Visitor,"{alien,eat(en)?}",f,{5750},""
@@ -27756,3 +27753,31 @@ Leanansidhe,{Dresden(verse)?},f,{22283},The Dresden Files
 Biggy,"{`"Biggy ?\\(FIGHTERS\\)`"}",f,{22284},FIGHTERS
 Kamala Khan,"{`"Marvel Cinematic Universe`"}",f,{22285},MCU
 Kamala Khan,{MCU},f,{22285},MCU
+Superhot,"{`"hot(-| )switch(ing)?`"}",f,{5732},""
+Superhot,"{`"vs\\.? Super ?hot`"}",f,{5732},""
+Superhot,"{`"\\(Super ?hot`"}",f,{5732},""
+Dante,"{`"Dante ?\\(Dante'?s Inferno`"}",f,{},Dante?s Inferno
+Aizawa,"{`"Squid Girl`"}",f,{},Squid Girl
+Wanda,"{`"Multiverse of Madness`"}",f,{270},MCU
+Thanos,"{`"Multiverse of Madness`"}",f,{263},MCU
+Darcy,{Amphibia},f,{22028},Amphibia
+One Punch Finn,{QYTvLX0NZog},f,{22328},""
+William Adams,{Tenkaichi},f,{22329},Tenkaichi
+Yagyu Munenori,{Tenkaichi},f,{22330},Tenkaichi
+Mr. Justice,{FIGHTERS},f,{22331},FIGHTERS
+Michael Malloy,{kuYylDsN6KQ},f,{22332},Sam O'Nella Academy
+Michael Malloy,{Sam.*Nella},f,{22332},Sam O'Nella Academy
+Josuke Higashikata,"{`"Crazy Diamond's Demonic Heartbreak`"}",f,{22334},Crazy Diamond's Demonic Heartbreak
+Hol Horse,"{`"Crazy Diamond's Demonic Heartbreak`"}",f,{22335},Crazy Diamond's Demonic Heartbreak
+Fuuko Izumo,"{`"Undead Unluck`"}",t,{22336},Undead Unluck
+DekaRed,"{`"Tokusou Sentai Dekaranger`"}",t,{22337},Tokusou Sentai Dekaranger
+DekaBlue,"{`"Tokusou Sentai Dekaranger`"}",t,{22338},Tokusou Sentai Dekaranger
+DekaGreen,"{`"Tokusou Sentai Dekaranger`"}",t,{22339},Tokusou Sentai Dekaranger
+Dekaranger Robo,"{`"Tokusou Sentai Dekaranger`"}",t,{22340},Tokusou Sentai Dekaranger
+Tena Sorimura,"{`"Dead Mount Death Play`"}",t,{22341},Dead Mount Death Play
+Hunter,"{`"Five Kingdoms`"}",f,{22342},Five Kingdoms
+SCP-4128,"{`"SCP Foundation`"}",t,{22343},""
+SCP-6599,"{`"SCP Foundation`"}",t,{22344},""
+Knights of the Cross,{Dresden(verse)?},f,{22345},The Dresden Files
+Doctor Cockroach,"{`"Monsters vs?\\.? Aliens`"}",t,{22346},Monsters vs. Aliens
+Giovanni Potage,"{`"Epithet Erased`"}",t,{22347},Epithet Erased

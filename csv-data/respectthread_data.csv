@@ -3409,7 +3409,6 @@ id,title,link
 3552,Respect Enya the Hag! [Jojo's Bizarre Adventure],https://redd.it/4a46rj
 3553,Respect Forever! [Jojo's Bizarre Adventure],https://redd.it/49g3ut
 3554,Respect Gray Fly! [Jojo's Bizarre Adventure],https://redd.it/49fad2
-3555,Respect Hol Horse (and his partners) (Jojo's Bizarre Adventure),https://redd.it/33tsoh
 3556,Respect Iggy! (Jojo's Bizarre Adventure),https://redd.it/6xn2ev
 3557,Respect Impostor Captain Tennille! [Jojo's Bizarre Adventure],https://redd.it/49gdpy
 3558,Respect J. Geil! [Jojo's Bizarre Adventure],https://redd.it/49ly9f
@@ -3421,6 +3420,7 @@ id,title,link
 3529,Respect Leonhard Saijou (The Irregular at Magic High School anime),https://redd.it/pnaybs
 3544,Respect Santana (Jojo's Bizarre Adventure),https://redd.it/rt9y5v
 3543,Respect Rudol von Stroheim (Jojo's Bizarre Adventure),https://redd.it/tiuj5c
+3555,Respect Hol Horse (Jojo's Bizarre Adventure),https://redd.it/w5sg04
 3561,Respect Mannish Boy! [Jojo's Bizarre Adventure],https://redd.it/4a6pdv
 3562,Respect Mariah! [Jojo's Bizarre Adventure],https://redd.it/4ae29v
 3563,Respect Midler! [Jojo's Bizarre Adventure],https://redd.it/4a8mfa
@@ -4603,7 +4603,6 @@ id,title,link
 4787,Respect Guyver 1,https://redd.it/3p8vql
 4788,Respect Zeorymer (Hades Project Zeorymer),https://redd.it/81knhg
 4789,Respect Zeorymer of the Heavens (Hades Project Zeorymer),https://redd.it/81vbuz
-4790,Respect Makunouchi Ippo (Hajime No Ippo),https://redd.it/438tvc
 4791,Respect Ikaros (Sora no Otoshimono/Heaven's Lost Property),https://redd.it/a3pka5
 4792,Respect Helck (Helck),https://redd.it/7fz3yi
 4793,"Respect Vamirio, The Heavenly King (Helck)",https://redd.it/7dofl1
@@ -4639,6 +4638,7 @@ id,title,link
 4825,Respect Brute Ratel (Killing Bites),https://redd.it/ajgku0
 4826,Respect the Morph (Killing Morph),https://redd.it/b0qhcj
 4827,Respect Hashibira Inosuke (Kimetsu No Yaiba),https://redd.it/98uezy
+4790,Respect Makunouchi Ippo! (Hajime no Ippo),https://redd.it/w6atvc
 4829,Respect Kiriko! (Kiriko),https://redd.it/b0vhm1
 4830,Zenki Respect Thread (Kishin Douji Zenki),https://redd.it/bo8flb
 4831,"Henshin! Respect Shinnosuke Tomari, Kamen Rider Drive.(KR Drive)",https://redd.it/3ktca4
@@ -6224,7 +6224,6 @@ id,title,link
 6466,The humble Space Marine (Xpost /r/whowouldwin),https://redd.it/1sq5al
 6467,Respect Ajani Goldmane! (Magic: The Gathering),https://redd.it/492tod
 6468,"Respect Anafenza, the Foremost, and the Kin-Tree Spirit. [MTG]",https://redd.it/4skt77
-6469,"Respect Arlinn Kord, protector of the Ulvenwald! [Magic: the Gathering]",https://redd.it/4n6vr8
 6446,Respect Brendon Urie! (Panic! at the Disco),https://redd.it/phkfp2
 6474,"Respect Kaya, the Ghost Assassin! [MTG]",https://redd.it/4weh1d
 6475,"Respect Kiora, Master of the Depths!",https://redd.it/498hi9
@@ -6263,6 +6262,7 @@ id,title,link
 6507,Respect the Rabbit of Caerbannog (Monty Python and the Holy Grail/Spamalot),https://redd.it/cplttx
 6508,Respect Sandman (Spider-Man 3),https://redd.it/ciwvsl
 6464,Respect: Ahzek Ahriman (Warhammer 40k),https://redd.it/fb38yw
+6469,Respect Arlinn Kord (Magic the Gathering),https://redd.it/w8887d
 6509,Respect Indiana Jones (Indiana Jones),https://redd.it/d0aua3
 2788,Respect the Mask (Dark Horse Comics),https://redd.it/c7mf7h
 6510,[Respect] Inmate 93X666 (Jungle Jail),https://redd.it/bvttq1
@@ -9440,7 +9440,6 @@ id,title,link
 13266,"Respect Ram (Re:Zero, Anime)",https://redd.it/ipgwub
 13267,"Respect Subaru Natsuki (Re:Zero, Anime)",https://redd.it/j38fv3
 13268,"Respect Emilia (Re:Zero, Anime)",https://redd.it/ixmj75
-13270,"Respect Rem (Re:Zero, Anime)",https://redd.it/iqq2j0
 13271,"Respect Roswaal L Mathers (Re:Zero, Anime)",https://redd.it/io6lrp
 13272,"Respect Link, the Hero of the Wild (The Legend of Zelda)",https://redd.it/d5m33i
 13273,Respect Asami Sato (The Legend of Korra),https://redd.it/in5rtl
@@ -9451,6 +9450,7 @@ id,title,link
 13278,Respect Tonraq (The Legend of Korra),https://redd.it/io9cda
 13279,Respect the Monster (Carrion),https://redd.it/ioehqq
 22258,Respect Mouse (The Dresden Files),https://redd.it/w399eo
+13270,"Respect Rem (Re:Zero, Anime)",https://redd.it/w7omg7
 13280,Respect Wally West (Death Battle),https://redd.it/iosp2d
 13281,Respect Bayonetta (Bayonetta: Bloody Fate),https://redd.it/iou27k
 13282,Respect Kid Goku (Dragon Ball Manga),https://redd.it/inf0pf
@@ -10403,6 +10403,26 @@ id,title,link
 22044,Respect Cadre (DC Post Flashpoint),https://redd.it/v0anl1
 22045,Respect The Most Interesting Man In The World (Dos Equis),https://redd.it/v0j2zv
 22046,Respect the Red Court of Vampires (The Dresden Files),https://redd.it/v0h937
+22328,Respect Finn (One Punch Finn),https://redd.it/w5ncb0
+22329,Respect William Adams (Tenkaichi),https://redd.it/w5rfof
+22330,Respect Yagyu Munenori (Tenkaichi),https://redd.it/w5rg7b
+22331,Respect Mr. Justice (FIGHTERS),https://redd.it/w64ap4
+22332,Respect Michael Malloy (Sam O'Nella Academy),https://redd.it/w66hmf
+22333,Respect Bea! (Pokemon Anime | Pokemon Journeys),https://redd.it/w6bml6
+22334,Respect Josuke Higashikata (Crazy Diamond's Demonic Heartbreak),https://redd.it/w6e6cb
+22335,Respect Hol Horse (Crazy Diamond's Demonic Heartbreak),https://redd.it/w6e6nw
+22336,Respect Fuuko Izumo! (Undead Unluck),https://redd.it/w6ijor
+22337,"Respect Ban, DekaRed (Tokusou Sentai Dekaranger)",https://redd.it/w6t2hn
+22338,"Respect Hoji, DekaBlue (Tokusou Sentai Dekaranger)",https://redd.it/w6t2rs
+22339,"Respect Sen-chan, DekaGreen (Tokusou Sentai Dekaranger)",https://redd.it/w7m15d
+22340,Respect the Dekaranger Robo (Tokusou Sentai Dekaranger),https://redd.it/w7m208
+22341,"Respect Tena Sorimura, The Phantom Solitaire (Dead Mount Death Play)",https://redd.it/w6tbyy
+22342,Respect Hunter! (Five Kingdoms),https://redd.it/w6zjw6
+22343,"Respect SCP-4128, Action Comics #1 (SCP Foundation)",https://redd.it/w715ov
+22344,Respect SCP-6599 (SCP Foundation),https://redd.it/w7es0o
+22345,Respect the Knights of the Cross (The Dresden Files),https://redd.it/w7ze40
+22346,Respect Doctor Cockroach! (Monsters vs. Aliens),https://redd.it/w80yqv
+22347,Respect Giovanni Potage (Epithet Erased),https://redd.it/w83uga
 2538,"Respect Ultimate Thing (Marvel, 1610)",https://redd.it/ok5kn9
 17466,Respect The Underminer (The Incredibles),https://redd.it/oax7pf
 17467,"Respect The Avengers! (Marvel, What If The Avengers defeated everybody?)",https://redd.it/okh1o1
