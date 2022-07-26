@@ -14,9 +14,17 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+UPDATE character SET is_default=FALSE WHERE default_name='Superhot';
 
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Shredder', 'Tengu Shredder', -6);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Aizawa', 'Chizuru Aizawa', -8);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('King', 'Biceps King', -7);
+
+########################################
+
+UPDATE character_name SET name='Josuke Higashikata' WHERE name='Josuke';
 
 ########################################
 
