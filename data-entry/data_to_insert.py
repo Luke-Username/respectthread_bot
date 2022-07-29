@@ -155,6 +155,20 @@ False,
 
 ########################################
 
+add_data(['Kang'],
+'Kang',
+False,
+False,
+[
+    ['Comics Kang']
+],
+'616',
+'{2016}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/waqe70/comics_kang_vs_doctor_doom_vs_thanos/ii50yh9/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Jasmine, DekaYellow (Tokusou Sentai Dekaranger)', 'https://redd.it/w8kuyk')
 add_data(['DekaYellow'],
 'DekaYellow',
