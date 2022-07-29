@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 13268, 'Respect Emilia (Re:Zero, Anime)', 'https://redd.it/w8jdfv')
 update_respectthread(cur, 13267, 'Respect Subaru Natsuki (Re:Zero, Anime)', 'https://redd.it/w9ecps')
+update_respectthread(cur, 6343, 'Respect Segata Sanshiro (Sega Advertisements)', 'https://redd.it/wak2w3')
 
 ########################################
 
@@ -123,6 +124,20 @@ True,
 '{}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/w9dkqg/dracula_vs_the_mummy_vs_frankensteins_monster_vs/ihueh65/?context=3
+
+########################################
+
+add_data(['Cyborg'],
+'Cyborg',
+False,
+False,
+[
+    ['D(octo)?r\.? Fate', 'Doom']
+],
+'DC',
+'{1646,1828}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/waf2b6/whats_the_weakest_thing_that_can_beat_this_team/ii0g5ot/?context=3
 
 ########################################
 
@@ -275,6 +290,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Shen! (Undead Unluck)', 'https://redd.it/wafj7d')
+add_data(['Shen'],
+'Shen',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wafj7d/respect_shen_undead_unluck/
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Knights of the Blackened Denarius (The Dresden Files)', 'https://redd.it/w9q1lw')
 add_data(['Blackened Denarius'],
 'Blackened Denarius',
@@ -335,6 +365,63 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/w9q1lw/respect_the_knights_of_the_blackened_denarius_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Ghost Pilot and The Spectral Flash (DC, Pre-Crisis)', 'https://redd.it/w9uych')
+add_data(['Ghost Pilot'],
+'Ghost Pilot',
+False,
+False,
+[
+    ['Luther Jarvis'], ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w9uych/respect_the_ghost_pilot_and_the_spectral_flash_dc/
+
+add_data(['Spectral Flash'],
+'Spectral Flash',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w9uych/respect_the_ghost_pilot_and_the_spectral_flash_dc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Black Maria (One Piece)', 'https://redd.it/w9yul1')
+add_data(['Black Maria'],
+'Black Maria',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/w9yul1/respect_black_maria_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Boom Boom (Marvel 616)', 'https://redd.it/wa0oa7')
+add_data(['Boom Boom'],
+'Boom Boom',
+False,
+False,
+[
+    ['616'], ['Tabitha Smith']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wa0oa7/respect_boom_boom_marvel_616/
 
 ########################################
 
