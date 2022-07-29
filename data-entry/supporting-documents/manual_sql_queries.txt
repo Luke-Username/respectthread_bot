@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Silver ?Fang' WHERE name='Silver Fang';
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Robot (Invincible) Respect Thread ', 'https://comicvine.gamespot.com/forums/gen-discussion-1/robot-invincible-respect-thread-2228705/'); SELECT * FROM respectthread WHERE link='https://comicvine.gamespot.com/forums/gen-discussion-1/robot-invincible-respect-thread-2228705/';
-UPDATE character SET rt_id_array='{21553, ?}' WHERE rt_id_array='{21553}';
 
 ########################################
 

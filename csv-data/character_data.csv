@@ -26381,11 +26381,6 @@ Spider-Man,{2002},f,{302},Raimiverse Spider-Man
 Batman,"{`"DC Animated Universe`"}",f,{21552},DCAU
 Batman,{DCAU},f,{21552},DCAU
 Batman,{Timmverse},f,{21552},DCAU
-Robot,{Robot.*Invincible},f,{21553},Invincible
-Robot,"{Invincible,Guardians}",f,{21553},Invincible
-Robot,"{`"Robot vs`",`"Omni(-| )?Man`",Invincible}",f,{21553},Invincible
-Robot,"{`"Invincible ?verse`"}",f,{21553},Invincible
-Robot,"{Invincible,Friends}",f,{21553},Invincible
 Mister Mxyzptlk,{Injustice(verse)?},f,{11141},Injustice
 Elsa,"{`"Gunslinger Girl`"}",f,{11111},Gunslinger Girl
 Astolfo,{Fate},t,{20243},Fate
@@ -27781,3 +27776,35 @@ SCP-6599,"{`"SCP Foundation`"}",t,{22344},""
 Knights of the Cross,{Dresden(verse)?},f,{22345},The Dresden Files
 Doctor Cockroach,"{`"Monsters vs?\\.? Aliens`"}",t,{22346},Monsters vs. Aliens
 Giovanni Potage,"{`"Epithet Erased`"}",t,{22347},Epithet Erased
+Robot,{Robot.*Invincible},f,"{21553,22348}",Invincible
+Robot,"{Invincible,Guardians}",f,"{21553,22348}",Invincible
+Robot,"{`"Robot vs`",`"Omni(-| )?Man`",Invincible}",f,"{21553,22348}",Invincible
+Robot,"{`"Invincible ?verse`"}",f,"{21553,22348}",Invincible
+Robot,"{Invincible,Friends}",f,"{21553,22348}",Invincible
+Creature from the Black Lagoon,{Universal},t,{},""
+Cyborg,"{`"D(octo)?r\\.? Fate`",Doom}",f,"{1646,1828}",DC
+Hiccup,"{dragon,rider}",f,{6572},How to Train Your Dragon
+Kang,"{`"Comics Kang`"}",f,{2016},616
+DekaYellow,"{`"Tokusou Sentai Dekaranger`"}",t,{22349},Tokusou Sentai Dekaranger
+DekaPink,"{`"Tokusou Sentai Dekaranger`"}",t,{22350},Tokusou Sentai Dekaranger
+DekaBreak,"{`"Tokusou Sentai Dekaranger`"}",t,{22351},Tokusou Sentai Dekaranger
+DekaMaster,"{`"Tokusou Sentai Dekaranger`"}",t,{22352},Tokusou Sentai Dekaranger
+Guan Yu,"{`"Romance of the (Three|3) Kingdoms`"}",t,{22353},Romance of the Three Kingdoms
+Guan Yu,"{`"Chinese Myth(ology)?`"}",t,{22353},Romance of the Three Kingdoms
+RX-78-01,{Gundam},t,{22354},Gundam
+Buu,"{`"Dragon Ball Multiverse`"}",f,{22355},Dragon Ball Multiverse
+Innistrad's Werewolves,"{`"Magic:? The Gathering`"}",t,{22356},Magic: The Gathering
+Innistrad's Werewolves,{M:?TG},t,{22356},Magic: The Gathering
+Andy,"{`"Undead Unluck`"}",f,{22357},Undead Unluck
+Shen,"{`"Undead Unluck`"}",f,{22358},Undead Unluck
+Blackened Denarius,{Dresden(verse)?},t,{22359},The Dresden Files
+Nicodemus Archleone,{Dresden(verse)?},t,{22359},The Dresden Files
+Polonius Lartessa,{Dresden(verse)?},t,{22359},The Dresden Files
+Deirdre,{Dresden(verse)?},f,{22359},The Dresden Files
+Urisel,{Dresden(verse)?},f,{22359},The Dresden Files
+Ghost Pilot,"{`"Luther Jarvis`"}",f,{22360},Pre-Crisis
+Ghost Pilot,"{`"Pre(-| )?Crisis`"}",f,{22360},Pre-Crisis
+Spectral Flash,"{`"Pre(-| )?Crisis`"}",f,{22360},Pre-Crisis
+Black Maria,"{`"One ?Piece?`"}",t,{22361},One Piece
+Boom Boom,{616},f,{22362},616
+Boom Boom,"{`"Tabitha Smith`"}",f,{22362},616
