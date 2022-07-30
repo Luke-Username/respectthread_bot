@@ -18,7 +18,9 @@ DELETE FROM character WHERE default_name='Thunder' AND version='{"TV"}';
 
 ########################################
 
-1588
+UPDATE character SET is_default=FALSE WHERE rt_id_array='{1588}';
+UPDATE character SET displayed_version_name='Pre-Crisis' WHERE rt_id_array='{1588}';
+
 ########################################
 
 ########################################
