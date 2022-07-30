@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Asa Mitaka, the War Devil! (Chainsaw Man)', 'https://redd.it/wbhdw5')
+add_data(['Asa Mitaka'],
+'Asa Mitaka',
+False,
+True,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wbhdw5/respect_asa_mitaka_the_war_devil_chainsaw_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spock (Star Trek [Reboot Films])', 'https://redd.it/wbk4nx')
+add_data(['Spock'],
+'Spock',
+False,
+False,
+[
+    ['Reboot'], ['2009'], ['Into Darkness']
+],
+'Star Trek Reboot',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wbk4nx/respect_spock_star_trek_reboot_films/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
