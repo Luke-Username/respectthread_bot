@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Future Kevin Levin'],
+'Future Kevin Levin',
+False,
+True,
+[
+    ['Ben (10|Ten(nyson)?)']
+],
+'Ben 10',
+'{6547}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Asa Mitaka, the War Devil! (Chainsaw Man)', 'https://redd.it/wbhdw5')
 add_data(['Asa Mitaka'],
 'Asa Mitaka',
@@ -134,6 +148,201 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/wbk4nx/respect_spock_star_trek_reboot_films/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nathaniel Richards, Rama-Tut (Marvel, 616)', 'https://redd.it/wbn2jn')
+add_data(['Rama(-| )Tut'],
+'Rama-Tut',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wbn2jn/respect_nathaniel_richards_ramatut_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Malenia, Blade of Miquella (Elden Ring)', 'https://redd.it/wbnah2')
+add_data(['Malenia'],
+'Malenia',
+False,
+False,
+[
+    ['Elden Ring'], ['Miquella']
+],
+'Elden Ring',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wbnah2/respect_malenia_blade_of_miquella_elden_ring/
+
+########################################
+
+id = get_rt_id(cur, "Respect Who''s-Who (One Piece)", 'https://redd.it/wbnbjj')
+add_data(["Who''?s-Who"],
+"Who''s-Who",
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wbnbjj/respect_whoswho_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Deirdre Beaubeirdra! (Everything Everywhere All At Once)', 'https://redd.it/wbpq7o')
+add_data(['Deirdre Beaubeirdra'],
+'Deirdre Beaubeirdra',
+False,
+True,
+[
+    ['Everything Everywhere All At Once']
+],
+'Everything Everywhere All At Once',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wbpq7o/respect_deirdre_beaubeirdra_everything_everywhere/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jobu Tupaki! (Everything Everywhere All At Once)', 'https://redd.it/wbptzy')
+add_data(['Jobu Tupaki'],
+'Jobu Tupaki',
+False,
+True,
+[
+    ['Everything Everywhere All At Once']
+],
+'Everything Everywhere All At Once',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wbptzy/respect_jobu_tupaki_everything_everywhere_all_at/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Waymond Wang! (Everything Everywhere All At Once)', 'https://redd.it/wc4gsz')
+add_data(['Waymond Wang'],
+'Waymond Wang',
+False,
+True,
+[
+    ['Everything Everywhere All At Once']
+],
+'Everything Everywhere All At Once',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wc4gsz/respect_waymond_wang_everything_everywhere_all_at/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Evelyn Wang! (Everything Everywhere All At Once)', 'https://redd.it/wc4ogy')
+add_data(['Evelyn Wang'],
+'Evelyn Wang',
+False,
+False,
+[
+    ['Everything Everywhere All At Once']
+],
+'Everything Everywhere All At Once',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wc4ogy/respect_evelyn_wang_everything_everywhere_all_at/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Giant Crocodile (Resident Evil) [Netflix]', 'https://redd.it/wbq9n0')
+add_data(['Crocodile'],
+'Crocodile',
+False,
+False,
+[
+    ['Resident Evil', 'Netflix']
+],
+'Resident Evil Netflix',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bert Wesker (Resident Evil) [Netflix]', 'https://redd.it/wbr06a')
+add_data(['Bert Wesker'],
+'Bert Wesker',
+False,
+False,
+[
+    ['Resident Evil', 'Netflix']
+],
+'Resident Evil Netflix',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wbr06a/respect_bert_wesker_resident_evil_netflix/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Marcus Holloway (Watch_Dogs 2)', 'https://redd.it/wbyvtc')
+add_data(['Marcus Holloway'],
+'Marcus Holloway',
+False,
+True,
+[
+    ['Watch(_| )?Dogs_?2?']
+],
+'Watch_Dogs',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wbyvtc/respect_marcus_holloway_watch_dogs_2/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ryu (DEATH BATTLE!)', 'https://redd.it/wcdqd9')
+add_data(['Ryu'],
+'Ryu',
+False,
+False,
+[
+    ['DEATH BATTLE!']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wcdqd9/respect_ryu_death_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fenghuang (Kung Fu Panda: Legends of Awesomeness)', 'https://redd.it/wc6ms2')
+add_data(['Fenghuang'],
+'Fenghuang',
+False,
+False,
+[
+    ['Kung(-| )?Fu Panda']
+],
+'Kung Fu Panda',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wc6ms2/respect_fenghuang_kung_fu_panda_legends_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mummy Lobster (Two Best Friends Funtime Adventures)', 'https://redd.it/wcexa7')
+add_data(['Mummy Lobster'],
+'Mummy Lobster',
+False,
+False,
+[
+    ['Two Best Friends']
+],
+'Two Best Friends Funtime Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wcexa7/respect_the_mummy_lobster_two_best_friends/
 
 ########################################
 

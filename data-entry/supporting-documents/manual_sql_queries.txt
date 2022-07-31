@@ -23,6 +23,8 @@ UPDATE character SET displayed_version_name='Pre-Crisis' WHERE rt_id_array='{158
 
 ########################################
 
+DELTE FROM character WHERE rt_id_array='{6547}';
+
 ########################################
 
 ########################################
