@@ -346,6 +346,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Dee-Dee (Dexter''s Laboratory)", 'https://redd.it/wbo21k')
+add_data(['Dee(-| )Dee'],
+'Dee-Dee',
+False,
+False,
+[
+    ["Dexter''?s?"]
+],
+"Dexter''s Laboratory",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wbo21k/respect_deedee_dexters_laboratory/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
