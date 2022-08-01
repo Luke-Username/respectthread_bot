@@ -361,6 +361,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Sigrun Gard (The Dresden Files)', 'https://redd.it/wcu825')
+add_data(['Sigrun Gard'],
+'Sigrun Gard',
+False,
+True,
+[
+    ['Dresden(verse)?']
+],
+'The Dresden Files',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wcu825/respect_sigrun_gard_the_dresden_files/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fujino Asagami! (Kara no Kyoukai)', 'https://redd.it/wculua')
+add_data(['Fujino Asagami'],
+'Fujino Asagami',
+False,
+True,
+[
+    ['Kara no Kyoukai'], ['KnK'], ['TYPE(-| )?MOON'], ['Nasu(-| )?verse']
+],
+'Kara no Kyoukai',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wculua/respect_fujino_asagami_kara_no_kyoukai/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hondo Ohnaka! (Star Wars (Canon))', 'https://redd.it/wd1n6z')
+add_data(['Hondo Ohnaka'],
+'Hondo Ohnaka',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wd1n6z/respect_hondo_ohnaka_star_wars_canon/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
