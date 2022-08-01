@@ -121,6 +121,20 @@ True,
 
 ########################################
 
+add_data(['Mr?s\.? Marvel'],
+'Ms. Marvel',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{22285}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/wda8gl/ms_marvel_616_vs_ms_marvel_mcu/iihz7cz/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Asa Mitaka, the War Devil! (Chainsaw Man)', 'https://redd.it/wbhdw5')
 add_data(['Asa Mitaka'],
 'Asa Mitaka',
@@ -376,6 +390,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect "Gentleman" John Marcone, the Baron of Chicago (The Dresden Files)', 'https://redd.it/wdipst')
+add_data(['John Marcone'],
+'John Marcone',
+False,
+True,
+[
+    ['Dresden(verse)?']
+],
+'The Dresden Files',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wdipst/respect_gentleman_john_marcone_the_baron_of/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Fujino Asagami! (Kara no Kyoukai)', 'https://redd.it/wculua')
 add_data(['Fujino Asagami'],
 'Fujino Asagami',
@@ -403,6 +432,81 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/wd1n6z/respect_hondo_ohnaka_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Echo (Star Wars Canon)', 'https://redd.it/wd5s94')
+add_data(['Echo'],
+'Echo',
+False,
+False,
+[
+    ['Echo.*S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wd5s94/respect_echo_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Bad Batch! (Star Wars Canon)', 'https://redd.it/wd81i4')
+add_data(['Bad Batch'],
+'Bad Batch',
+True,
+False,
+[
+    ['*S(tar )?Wars'], ['clones'], ['Hunter', 'Echo|Crosshairs?|Wrecker']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wd81i4/respect_the_bad_batch_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, "Respect JD (JD''s Tinder profile)", 'https://redd.it/wd6grs')
+add_data(['JD'],
+'JD',
+False,
+False,
+[
+    ['Tinder']
+],
+'Tinder',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wd6grs/respect_jd_jds_tinder_profile/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miss Gsptlsnz (DC Comics, Pre-Crisis)', 'https://redd.it/wdjbf5')
+add_data(['(Nxyl)?Gsptlsnz'],
+'Gsptlsnz',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mnemnoid (Adventure Time [Comics])', 'https://redd.it/wdjrmu')
+add_data(['Mnemnoid'],
+'Mnemnoid',
+False,
+True,
+[
+    ['Adventure Time']
+],
+'Adventure Time',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
