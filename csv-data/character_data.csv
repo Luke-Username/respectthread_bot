@@ -225,7 +225,6 @@ Daisy Johnson,{TV},f,{69},Agents of SHIELD
 Madame Masque,{TV},f,{70},Agent Carter/MCU
 Green Arrow,{TV},f,{16},CW Arrowverse
 Korath The Pursuer,{199999},f,{249},MCU
-Thunder,{TV},f,{80},Black Lightning TV Series
 Anissa Pierce,{TV},f,{80},Black Lightning TV Series
 Eli Morrow,{AoS},f,{66},Agents of SHIELD/MCU
 Hive,{AoS},f,{67},Agents of SHIELD/MCU
@@ -454,13 +453,11 @@ Elektra,{199999},f,{1291},MCU
 Electro,"{`"Amazing Spider Man`"}",f,{110},The Amazing Spider-Man
 Electro,"{`"Amazing Spiderman`"}",f,{110},The Amazing Spider-Man
 Electro,{ASM},f,{110},The Amazing Spider-Man
-Electro,{TASM},f,{110},The Amazing Spider-Man
 Green Goblin,{Garfield},f,{111},The Amazing Spider-Man
 Green Goblin,"{`"Amazing Spider-Man`"}",f,{111},The Amazing Spider-Man
 Green Goblin,"{`"Amazing Spider Man`"}",f,{111},The Amazing Spider-Man
 Green Goblin,"{`"Amazing Spiderman`"}",f,{111},The Amazing Spider-Man
 Green Goblin,{ASM},f,{111},The Amazing Spider-Man
-Green Goblin,{TASM},f,{111},The Amazing Spider-Man
 Green Goblin,{Andrew},f,{111},The Amazing Spider-Man
 Lizard,{Garfield},f,{112},The Amazing Spider-Man
 Lizard,{Andrew},f,{112},The Amazing Spider-Man
@@ -468,14 +465,12 @@ Lizard,"{`"Amazing Spider-Man`"}",f,{112},The Amazing Spider-Man
 Lizard,"{`"Amazing Spider Man`"}",f,{112},The Amazing Spider-Man
 Lizard,"{`"Amazing Spiderman`"}",f,{112},The Amazing Spider-Man
 Lizard,{ASM},f,{112},The Amazing Spider-Man
-Lizard,{TASM},f,{112},The Amazing Spider-Man
 Spider-Man,{Garfield},f,{113},The Amazing Spider-Man
 Spider-Man,{Andrew},f,{113},The Amazing Spider-Man
 Spider-Man,"{`"Amazing Spider-Man`"}",f,{113},The Amazing Spider-Man
 Spider-Man,"{`"Amazing Spider Man`"}",f,{113},The Amazing Spider-Man
 Spider-Man,"{`"Amazing Spiderman`"}",f,{113},The Amazing Spider-Man
 Spider-Man,{ASM},f,{113},The Amazing Spider-Man
-Spider-Man,{TASM},f,{113},The Amazing Spider-Man
 Bullseye,"{`"Daredevil 2003`"}",f,{114},Daredevil film 2003
 Bullseye,"{`"Daredevil film`"}",f,{114},Daredevil film 2003
 Bullseye,"{`"Daredevil movie`"}",f,{114},Daredevil film 2003
@@ -516,6 +511,7 @@ Batman,{DCCU},f,{119},DCEU
 Batman,"{`"Man of Steel`"}",f,{119},DCEU
 Batman,{MoS},f,{119},DCEU
 Batman,"{`"Batman v Superman`"}",f,{119},DCEU
+Electro,"{`"TASM\\d?`"}",f,{110},The Amazing Spider-Man
 Batman,{BvS},f,{119},DCEU
 Batman,"{`"Dawn of Justice`"}",f,{119},DCEU
 Batman,{DoJ},f,{119},DCEU
@@ -1248,7 +1244,6 @@ Harry Osborn,"{`"Amazing Spider-Man`"}",f,{301},Raimiverse Spider-Man
 Harry Osborn,"{`"Amazing Spider Man`"}",f,{301},Raimiverse Spider-Man
 Harry Osborn,"{`"Amazing Spiderman`"}",f,{301},Raimiverse Spider-Man
 Harry Osborn,{ASM},f,{301},Raimiverse Spider-Man
-Harry Osborn,{TASM},f,{301},Raimiverse Spider-Man
 Harry Osborn,{Andrew},f,{301},Raimiverse Spider-Man
 DeVleene,"{`"Sailor Moon`"}",t,{4405},Sailor Moon
 Nyan-Nyan,"{`"Sailor Moon`"}",f,{4405},Sailor Moon
@@ -1256,6 +1251,7 @@ Wan-Wan,"{`"Sailor Moon`"}",f,{4405},Sailor Moon
 Chuu-Chuu,"{`"Sailor Moon`"}",f,{4405},Sailor Moon
 Lin-Lin,"{`"Sailor Moon`"}",f,{4405},Sailor Moon
 Danburite,"{`"Sailor Moon`"}",f,{4405},Sailor Moon
+Harry Osborn,"{`"TASM\\d?`"}",f,{301},Raimiverse Spider-Man
 Fenris,"{`"Marvel Cinematic`"}",f,{253},MCU
 Fenris,{MCU},f,{253},MCU
 Fenris,{199999},f,{253},MCU
@@ -2342,10 +2338,6 @@ Darkseid,"{`"Justice League:? War`"}",f,{1124},DC Animated Movie Universe
 Darkseid,"{`"animated movies?`"}",f,{1124},DC Animated Movie Universe
 Darkseid,"{`"animated films?`"}",f,{1124},DC Animated Movie Universe
 Darkseid,{DCAMU},f,{1124},DC Animated Movie Universe
-Kevin,"{`"Ben 10`"}",f,{6547},Ben 10
-Kevin,"{`"Ben Ten`"}",f,{6547},Ben 10
-Kevin Levin,"{`"Ben 10`"}",t,{6547},Ben 10
-Kevin Levin,"{`"Ben Ten`"}",t,{6547},Ben 10
 Ernie the Chicken,"{`"Family Guy`"}",t,{6548},Family Guy
 Chicken,"{`"Family Guy`"}",f,{6548},Family Guy
 Kronk,"{`"Emperors New Groove`"}",t,{1201},The Emperor's New Groove
@@ -4540,9 +4532,6 @@ Zoom,{Rebirth},f,{1587},New 52 / Rebirth
 Zoom,"{`"Zoom vs.?`"}",f,{1587},New 52 / Rebirth
 Zoom,"{`"vs.? Zoom`"}",f,{1587},New 52 / Rebirth
 Zoom,"{`"Professor Zoom`"}",f,{1587},New 52 / Rebirth
-Reverse-Flash,{PC},t,{1588},""
-Reverse-Flash,"{`"Pre(-| )?Crisis`"}",t,{1588},""
-Reverse-Flash,"{`"Silver ?Age`"}",t,{1588},""
 Silver Surfer,{616},t,{2090},616
 Silver Surfer,{Marvel},t,{2090},616
 Ultimate Quicksilver,{1610},t,{2544},1610
@@ -4564,6 +4553,9 @@ Wallace West,{N-?52},f,{1591},New 52
 Wallace West,"{`"Post(-| )52`"}",f,{1591},New 52
 Deathstroke,"{`"New(-| )Earth`"}",f,"{1578,21861}",Post-Crisis
 The Flash,"{`"New ?52`"}",f,{1582},New 52 / Rebirth
+Reverse-Flash,{PC},f,{1588},Pre-Crisis
+Reverse-Flash,"{`"Pre(-| )?Crisis`"}",f,{1588},Pre-Crisis
+Reverse-Flash,"{`"Silver ?Age`"}",f,{1588},Pre-Crisis
 Mary Bromfield,"{Shazam,2019}",f,{6555},DCEU
 Mary Bromfield,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Mary Bromfield,{DCEU},f,{6555},DCEU
@@ -12288,7 +12280,6 @@ Guts,"{`"vs.? Guts`"}",f,{3076},Berserk
 Irvine,{Ber(s|z)erk},f,{3077},Berserk
 Locus,{Ber(s|z)erk},f,{3078},Berserk
 Zodd,{Ber(s|z)erk},f,{3079},Berserk
-Nosferatu Zodd,{Ber(s|z)erk},t,"{3084,3079}",Berserk
 Rakshas,{Ber(s|z)erk},t,{3080},Berserk
 Serpico,{Ber(s|z)erk},f,{3081},Berserk
 Serpico,{Guts},f,{3081},Berserk
@@ -12336,6 +12327,7 @@ Yammy Llargo,{Bleach},t,{3116},Bleach
 Yammy,{Bleach},f,{3116},Bleach
 Yammy,{Espada},f,{3116},Bleach
 Zommari Rureaux,{Bleach},t,{3117},Bleach
+Nosferatu Zodd,{Ber(s|z)erk},t,{3079},Berserk
 Kugo Ginjo,{Bleach},t,{3118},Bleach
 Shūkurō Tsukishima,{Bleach},t,{3119},Bleach
 Orihime Inoue,{Bleach},t,{3120},Bleach
@@ -21299,7 +21291,6 @@ Nanku,{SCP},f,{5934},SCP
 Munru,{SCP},f,{5934},SCP
 Olympia,{SCP},f,{5935},SCP
 Robert Bumaro,{SCP},t,{5936},SCP
-Scarlet King,{SCP},f,{5937},SCP
 Viral Organism 133345355675,{SCP},t,{5938},SCP
 SCP-076,"{`"SCP Foundation`"}",t,{5939},""
 SCP-083-D,"{`"SCP Foundation`"}",t,{5940},""
@@ -21316,6 +21307,7 @@ SCP-3922,"{`"SCP Foundation`"}",t,{15910},""
 SCP-5045,"{`"SCP Foundation`"}",t,{15911},""
 SCP-4866,"{`"SCP Foundation`"}",t,{15912},""
 Zoichi Kanoe,{BioMega},t,{15913},BioMega
+Scarlet King,{SCP},t,{5937},SCP
 Hazel Levesque,"{`"Heroe?s of Olympus`"}",f,{15914},Heroes of Olympus
 Hazel Levesque,"{`"Riordan(-| )?(verse)?`"}",f,{15914},Heroes of Olympus
 Quatach-Ichl,"{`"Mother of Learning`"}",t,{15915},Mother of Learning
@@ -27808,3 +27800,39 @@ Spectral Flash,"{`"Pre(-| )?Crisis`"}",f,{22360},Pre-Crisis
 Black Maria,"{`"One ?Piece?`"}",t,{22361},One Piece
 Boom Boom,{616},f,{22362},616
 Boom Boom,"{`"Tabitha Smith`"}",f,{22362},616
+Green Goblin,"{`"TASM\\d?`"}",f,{111},The Amazing Spider-Man
+Lizard,"{`"TASM\\d?`"}",f,{112},The Amazing Spider-Man
+Spider-Man,"{`"TASM\\d?`"}",f,{113},The Amazing Spider-Man
+Future Kevin Levin,"{`"Ben (10|Ten(nyson)?)`"}",t,{6547},Ben 10
+Ms. Marvel,"{`"Marvel Cinematic Universe`"}",f,{22285},MCU
+Ms. Marvel,{MCU},f,{22285},MCU
+Asa Mitaka,"{`"Chainsaw(-| )?Man`"}",t,{22363},Chainsaw Man
+Spock,{Reboot},f,{22364},Star Trek Reboot
+Spock,{2009},f,{22364},Star Trek Reboot
+Spock,"{`"Into Darkness`"}",f,{22364},Star Trek Reboot
+Rama-Tut,{616},t,{22365},616
+Malenia,"{`"Elden Ring`"}",f,{22366},Elden Ring
+Malenia,{Miquella},f,{22366},Elden Ring
+Who's-Who,"{`"One ?Piece?`"}",f,{22367},One Piece
+Deirdre Beaubeirdra,"{`"Everything Everywhere All At Once`"}",t,{22368},Everything Everywhere All At Once
+Jobu Tupaki,"{`"Everything Everywhere All At Once`"}",t,{22369},Everything Everywhere All At Once
+Waymond Wang,"{`"Everything Everywhere All At Once`"}",t,{22370},Everything Everywhere All At Once
+Evelyn Wang,"{`"Everything Everywhere All At Once`"}",f,{22371},Everything Everywhere All At Once
+Crocodile,"{`"Resident Evil`",Netflix}",f,{22372},Resident Evil Netflix
+Bert Wesker,"{`"Resident Evil`",Netflix}",f,{22373},Resident Evil Netflix
+Marcus Holloway,"{`"Watch(_| )?Dogs_?2?`"}",t,{22374},Watch_Dogs
+Ryu,"{`"DEATH BATTLE!`"}",f,{22375},DEATH BATTLE!
+Fenghuang,"{`"Kung(-| )?Fu Panda`"}",f,{22376},Kung Fu Panda
+Mummy Lobster,"{`"Two Best Friends`"}",f,{22377},Two Best Friends Funtime Adventures
+Dee-Dee,{Dexter'?s?},f,{22378},Dexter's Laboratory
+Sigrun Gard,{Dresden(verse)?},t,{22379},The Dresden Files
+John Marcone,{Dresden(verse)?},t,{22380},The Dresden Files
+Fujino Asagami,"{`"Kara no Kyoukai`"}",t,{22381},Kara no Kyoukai
+Fujino Asagami,{KnK},t,{22381},Kara no Kyoukai
+Fujino Asagami,"{`"TYPE(-| )?MOON`"}",t,{22381},Kara no Kyoukai
+Fujino Asagami,"{`"Nasu(-| )?verse`"}",t,{22381},Kara no Kyoukai
+Hondo Ohnaka,"{`"S(tar )?Wars`"}",t,{22382},Star Wars
+Echo,"{`"Echo.*S(tar )?Wars`"}",f,{22383},Star Wars
+JD,{Tinder},f,{22385},Tinder
+Gsptlsnz,"{`"Pre(-| )?Crisis`"}",f,{22386},Pre-Crisis
+Mnemnoid,"{`"Adventure Time`"}",t,{22387},Adventure Time
