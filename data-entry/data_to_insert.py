@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Ghost ?Rider'],
+'Ghost Rider',
+False,
+False,
+[
+    ['Ghost ?Rider ?\(Movies\)']
+],
+'Movies',
+'{}'
+)
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
