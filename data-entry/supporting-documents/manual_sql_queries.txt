@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Penguins of Ma(d|g)a(g|d)ascar' WHERE name='Penguins of Madagascar';
+
 ########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='Super Sonic';
 
 ########################################
 

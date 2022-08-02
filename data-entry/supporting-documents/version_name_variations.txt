@@ -1063,7 +1063,7 @@ Flashpoint
 
 FLCL
 	Version
-		'{"FLCL"}', '{"Fooly Cooly"}'
+		['FLCL'], ['Fooly Cooly']
 	Displayed Version Name
 		"FLCL"
 

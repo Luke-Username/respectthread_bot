@@ -118,6 +118,35 @@ False,
 '{}'
 )
 
+########################################
+
+id = get_rt_id(cur, 'Respect Irene Rapona (Gorgeous Irene)', 'https://redd.it/wdv49b')
+add_data(['Irene'],
+'Irene',
+False,
+False,
+[
+    ['Gorgeous Irene'], ['Irene Rapona']
+],
+'Gorgeous Irene',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wdv49b/respect_irene_rapona_gorgeous_irene/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jinyu! (FLCL: Progressive)', 'https://redd.it/wdw7lq')
+add_data(['Jinyu'],
+'Jinyu',
+False,
+False,
+[
+    ['FLCL'], ['Fooly Cooly']
+],
+'FLCL',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
