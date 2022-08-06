@@ -137,6 +137,12 @@ Amethyst, Princess Of Gemworld
 	Displayed Version Name
 		"Amethyst, Princess Of Gemworld"
 
+Amphibia
+	Version
+		['Amphibia']
+	Displayed Version Name
+		"Amphibia"
+
 Angry Video Game Nerd
 	Version
 		'{"Angry Video Game Nerd"}',
@@ -685,6 +691,14 @@ DC's Masters of the Universe
 		'{"DC", "Masters of the Universe"}'
 	Displayed Version Name
 		"DC''s Masters of the Universe"
+
+Dead by Daylight
+	Version
+		['Dead by Daylight']
+	Acronyms
+		['DBD']
+	Displayed Version Name
+		"Dead by Daylight"
 
 Deadpool Kills the Marvel Universe
 	Version
