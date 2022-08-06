@@ -1051,7 +1051,6 @@ Elle Driver,"{`"Kill Bill`"}",t,{224},Kill Bill
 Budd,"{`"Kill Bill`"}",f,{224},Kill Bill
 Gogo,"{`"Kill Bill`"}",f,{225},Kill Bill
 Gogo Yubari,"{`"Kill Bill`"}",t,{225},Kill Bill
-Cap,"{`"Marvel Cinematic Universe`"}",f,{237},MCU
 Shocker,{MCU},f,{260},MCU
 Shocker,{199999},f,{260},MCU
 Vulture,"{`"Marvel Cinematic`"}",f,{269},MCU
@@ -1302,11 +1301,7 @@ Chicken Boo,{Animaniacs},t,{632},Animaniacs
 Katie Ka-Boom,{Animaniacs},t,{633},Animaniacs
 Slappy Squirrel,{Animaniacs},t,{634},Animaniacs
 Wakko Warner,{Animaniacs},t,{635},Animaniacs
-Cap,{MCU},f,{237},MCU
 Dante,{FMA:?B?},f,{3416},Fullmetal Alchemist
-Cap,"{`"Infinity War`"}",f,{237},MCU
-Cap,{IW},f,{237},MCU
-Cap,"{`"Civil War`"}",f,{237},MCU
 Captain America,"{`"Marvel Cinematic Universe`"}",f,{237},MCU
 Captain America,{MCU},f,{237},MCU
 Kuru-Kuru Hime,"{`"Magical Girl Raising Project`"}",t,{10790},Magical Girl Raising Project
@@ -7640,7 +7635,6 @@ Superman,"{`"Superman For All Seasons`"}",f,{8274},Superman For All Seasons
 Tangle the Lemur,{IDW},t,{8275},IDW
 Classic Sonic,"{`"Sonic the Hedgehog`"}",t,{8276},""
 Modern Sonic,"{`"Sonic the Hedgehog`"}",t,{8277},""
-Super Sonic,"{`"Sonic the Hedgehog`"}",t,"{8276,8277}",Sonic the Hedgehog
 Skipper,{Madagascar},f,"{8462,8262}",Madagascar
 Kowalski,{Madagascar},f,"{8463,8262}",Madagascar
 Rico,{Madagascar},f,"{8464,8262}",Madagascar
@@ -7648,6 +7642,7 @@ Private,{Madagascar},f,"{8465,8262}",Madagascar
 Dracula,"{`"Dracula \\(Earth`",616}",f,{2205},616
 Sonic the Hedgehog,{default},t,"{8276,8277}",""
 Genie,{Aladdin},f,{8256},Aladdin
+Super Sonic,"{`"Sonic the Hedgehog`"}",f,"{8276,8277}",Sonic the Hedgehog
 Sonic,"{`"Sonic vs`"}",f,"{8276,8277}",Sonic the Hedgehog
 Sonic,"{`"vs.? Sonic`"}",f,"{8276,8277}",Sonic the Hedgehog
 Sonic,"{`"Sonic could beat`"}",f,"{8276,8277}",Sonic the Hedgehog
@@ -12119,7 +12114,6 @@ Teenage Mutant Ninja Turtles,"{`"original TMNT cartoon`"}",f,"{9375,9376,9377,93
 Iron Man,"{`"End ?game`"}",f,{247},MCU
 Thanos,"{`"End ?game`"}",f,{263},MCU
 Ranma,"{`"Ranma ½`"}",t,{4457},Ranma ½
-Cap,"{`"End ?game`"}",f,{237},MCU
 Captain America,"{`"End ?game`"}",f,{237},MCU
 Hulk,"{`"End ?game`"}",f,{236},MCU
 Captain Marvel,"{`"End ?game`"}",f,{6500},MCU
@@ -20210,6 +20204,12 @@ Shredder,"{`"Teenaged? Mutant Ninja Turtles?`",2012}",f,{21515},TMNT 2012
 Shredder,"{TMNT,2012}",f,{21515},TMNT 2012
 Red Dart Machine,{vending},t,{21516},""
 Alternate Calliope,{Homestuck},t,{21517},Homestuck
+Elisha,{Prophe},f,{22403},Bible
+Yangchen,{Avatar},t,{22404},Avatar
+Yangchen,{A?TLA},t,{22404},Avatar
+Yangchen,"{`"Air(-| )bender`"}",t,{22404},Avatar
+Judge Dredd,"{`"2000 ?AD`"}",f,{22405},2000 AD
+Collector,"{`"Owl House`"}",f,{22406},The Owl House
 Lucifer,{CAS},f,{1616},DC
 Thanos,{Fortnite},f,{},Fortnite
 Flash,{DCEU},f,{21548},DCEU
@@ -27836,3 +27836,32 @@ Echo,"{`"Echo.*S(tar )?Wars`"}",f,{22383},Star Wars
 JD,{Tinder},f,{22385},Tinder
 Gsptlsnz,"{`"Pre(-| )?Crisis`"}",f,{22386},Pre-Crisis
 Mnemnoid,"{`"Adventure Time`"}",t,{22387},Adventure Time
+Ghost Rider,"{`"Ghost ?Rider ?\\(Movies\\)`"}",f,{},Movies
+The Flash,"{`"can The Flash`"}",f,"{1582,1583,1590,1589}",DC
+Irene,"{`"Gorgeous Irene`"}",f,{22388},Gorgeous Irene
+Irene,"{`"Irene Rapona`"}",f,{22388},Gorgeous Irene
+Jinyu,{FLCL},f,{22389},FLCL
+Jinyu,"{`"Fooly Cooly`"}",f,{22389},FLCL
+King,"{`"King ?\\(One ?Piece?`"}",f,{22390},One Piece
+King,"{`"King the Wildfire`"}",f,{22390},One Piece
+Captain Grime,{Amphibia},t,{22391},Amphibia
+Talbot Grimes,"{`"Dead by Daylight`"}",t,{22392},Dead by Daylight
+Talbot Grimes,{DBD},t,{22392},Dead by Daylight
+The Blight,"{`"Dead by Daylight`"}",f,{22392},Dead by Daylight
+The Blight,{DBD},f,{22392},Dead by Daylight
+Deathslinger,"{`"Dead by Daylight`"}",t,{22393},Dead by Daylight
+Deathslinger,{DBD},t,{22393},Dead by Daylight
+Anti-Life Equation,{DCeased},f,{22394},DCeased
+Anti-Life Equation,"{`"Anti(-| )?Life Equation Infection`"}",f,{22394},DCeased
+Anti-Life Equation,{Zombies},f,{22394},DCeased
+Lady Spellbinder,{PC},f,{22395},Post-Crisis
+Lady Spellbinder,"{`"Posts?(-| )?C(risis)?`"}",f,{22395},Post-Crisis
+Lady Spellbinder,"{`"New(-| )Earth`"}",f,{22395},Post-Crisis
+Wild Dog,"{`"Time Crisis`"}",f,{22396},Time Crisis
+Lauper,"{`"Gorgeous Irene`"}",f,{22397},Gorgeous Irene
+Female Assassin,"{`"Gorgeous Irene`"}",f,{22398},Gorgeous Irene
+Deadly Mantis,{1957},t,{22399},1957
+Demonreach,{Dresden(verse)?},t,{22400},The Dresden Files
+Doomsday,"{`"Doomsday.*Superman ?: ?Doomsday`"}",f,{22401},Superman: Doomsday
+Superman,"{`"Super(-| )?man.*Superman ?: ?Doomsday`"}",f,{22402},Superman: Doomsday
+Elisha,{Bible},f,{22403},Bible

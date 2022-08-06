@@ -14,17 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Penguins of Ma(d|g)a(g|d)ascar' WHERE name='Penguins of Madagascar';
-UPDATE character_name SET name='Cap(tain)? Marvel' WHERE name='Captain Marvel';
-UPDATE character_name SET name='Ca?pt((ai|ia)n)? America' WHERE name='Capt(ai|ia)n America';
-
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Super Sonic';
-
 ########################################
-
-DELETE FROM character WHERE default_name='Cap' AND displayed_version_name='MCU';
 
 ########################################
 

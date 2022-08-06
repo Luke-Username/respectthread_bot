@@ -493,7 +493,6 @@ Blackpanther,Black Panther,f
 Black Widow,Black Widow,f
 Natasha Romanoff,Black Widow,f
 Hulk,Hulk,f
-Captain Marvel,Captain Marvel,f
 Misaki Shokuhou,Shokuhou Misaki,f
 Carol,Carol,f
 Corvus Glaive,Corvus Glaive,f
@@ -580,8 +579,9 @@ Ultron,Ultron,f
 Ulysses Klaue,Ulysses Klaue,f
 Cross ?bones,Crossbones,f
 Bruce Banner,Bruce Banner,f
-Capt(ai|ia)n America,Captain America,f
 Scarlett? Witch,Scarlet Witch,f
+Cap(tain)? Marvel,Captain Marvel,f
+Ca?pt((ai|ia)n)? America,Captain America,f
 Vulture,Vulture,f
 Yellowjacket,Yellowjacket,f
 Darren Cross,Yellowjacket,f
@@ -3234,7 +3234,6 @@ Doug Jones,Doug Jones,f
 Barack the Barbarian,Barack the Barbarian,f
 Shego,Shego,f
 Shinnok,Shinnok,f
-Penguins of Madagascar,Penguins of Madagascar,t
 Skipper,Skipper,f
 Skipper the Penguin,Skipper the Penguin,f
 Kowalski,Kowalski,f
@@ -3336,6 +3335,7 @@ Necro(-| )?sword,Necrosword,f
 All(-| )Black,All-Black,f
 Anti(-| )?Venom,Anti-Venom,f
 Dock? Ock,Doctor Octopus,f
+Penguins of Ma(d|g)a(g|d)ascar,Penguins of Madagascar,t
 Giant Kryptonite Covered Clone of Jimmy Olsen,Giant Kryptonite Covered Clone of Jimmy Olsen,f
 H'El,H'El,f
 Imperiex,Imperiex,f
@@ -12659,3 +12659,19 @@ Fujino Asagami,Fujino Asagami,f
 Hondo Ohnaka,Hondo Ohnaka,f
 (Nxyl)?Gsptlsnz,Gsptlsnz,f
 Mnemnoid,Mnemnoid,f
+Irene,Irene,f
+Jinyu,Jinyu,f
+Captain Grime,Captain Grime,f
+Talbot Grimes,Talbot Grimes,f
+The Blight,The Blight,f
+Deathslinger,Deathslinger,f
+Anti(-| )?Life Equation,Anti-Life Equation,f
+Lady Spellbinder,Lady Spellbinder,f
+Wild Dog,Wild Dog,f
+Lauper,Lauper,f
+Female Assassin,Female Assassin,f
+Deadly Mantis,Deadly Mantis,f
+Demonreach,Demonreach,f
+Elisha,Elisha,f
+Yangchen,Yangchen,f
+Collector,Collector,f
