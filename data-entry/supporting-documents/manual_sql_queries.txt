@@ -18,6 +18,8 @@ UPDATE character SET version='{"Sonic the Hedgehog"}' WHERE default_name='Silver
 
 ########################################
 
+DELETE FROM character WHERE default_name='Gwen' AND version='{"Peter","Miles"}';
+
 ########################################
 
 ########################################

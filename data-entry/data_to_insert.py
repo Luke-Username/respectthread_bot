@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['The Doctor'],
+'The Doctor',
+False,
+False,
+[
+    ['The Doctor.*(Doctor|Dr\.?) ?Who']
+],
+'Doctor Who',
+'{14419, 40, 15401}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/wicobx/the_doctor_dr_who_vs_mrs_frizzle_the_magic_school/ijany1a/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
