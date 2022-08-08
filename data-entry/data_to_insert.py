@@ -121,6 +121,65 @@ False,
 
 ########################################
 
+add_data(['Hancock'],
+'Hancock',
+False,
+False,
+[
+    ['Hancock ?\(Film']
+],
+'Hancock',
+'{457}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/wiw3w6/soldier_boy_the_boys_vs_hancock_film/ijdyhue/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Ghost Shark (Ghost Shark)', 'https://redd.it/wijdan')
+add_data(['Ghost Shark'],
+'Ghost Shark',
+False,
+False,
+[
+    ['(Film|Movie)s?'], ['Ghost Shark ?\(Ghost Shark']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wijdan/respect_the_ghost_shark_ghost_shark/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yuichi Sakai! (Neechan Wa Chuunibyou)', 'https://redd.it/wiwqor')
+add_data(['Yuichi Sakai'],
+'Yuichi Sakai',
+False,
+False,
+[
+    ['Nee(-| )?chan Wa Chuunibyou']
+],
+'Neechan Wa Chuunibyou',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wiwqor/respect_yuichi_sakai_neechan_wa_chuunibyou/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Debby (Debby the Corsifa is Emulous; manga)', 'https://redd.it/wj8bps')
+add_data(['Debby the Corsifa'],
+'Debby the Corsifa',
+False,
+True,
+[
+    ['Emulous']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wj8bps/respect_debby_debby_the_corsifa_is_emulous_manga/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
