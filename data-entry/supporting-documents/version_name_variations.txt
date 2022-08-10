@@ -215,7 +215,7 @@ Attack on Titan
 
 Arthurian Myth
 	Version
-		'{"Arthurian"}'
+		['Arthurian']
 	Displayed Version Name
 		"Arthurian Myth"
 

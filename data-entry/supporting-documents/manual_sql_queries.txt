@@ -19,14 +19,29 @@ UPDATE character SET version='{"Sonic the Hedgehog"}' WHERE default_name='Silver
 ########################################
 
 DELETE FROM character WHERE default_name='Gwen' AND version='{"Peter","Miles"}';
+DELETE FROM character WHERE default_name='Spectre' AND version='{"The Spectre"}';
 
 ########################################
 
-########################################
+UPDATE character_name SET name='Brock Samp?son' WHERE name='Brock Samson';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Starkiller', 'Starkiller Base', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Vegeta', 'Planet Vegeta', -7);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Nova Corps', '21st Nova Corps', -5);
+
 ########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='Tall Man';
+
+########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Majin Buu! (Dragon Ball Z - Anime)', 'https://redd.it/wk2pbp'); SELECT * FROM respectthread WHERE link='https://redd.it/wk2pbp';
+UPDATE character SET rt_id_array='{3300, ?}' WHERE rt_id_array='{3300}';
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Android 17! (Dragon Ball Z - Anime)', 'https://redd.it/wkn0f8'); SELECT * FROM respectthread WHERE link='https://redd.it/wkn0f8';
+UPDATE character SET rt_id_array='{3267, ?2}' WHERE rt_id_array='{3267}';
 
 ########################################
 
