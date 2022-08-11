@@ -4709,7 +4709,6 @@ Spectre,"{`"Und?bound Spectre`"}",f,{1632},DC
 Spectre,{Aztar},f,{1632},DC
 Spectre,{DC},f,{1632},DC
 Spectre,{Corrigan},f,{1632},DC
-Spectre,"{`"The Spectre`"}",f,{1632},DC
 Spectre,"{`"vs.? Spectre`"}",f,{1632},DC
 Spectre,"{`"Spectre vs.?`"}",f,{1632},DC
 Spectre,{PC},f,{1632},DC
@@ -9145,7 +9144,6 @@ Tails,{Sonic},f,{8411},Sonic the Hedgehog
 Tails,{Prower},f,{8411},Sonic the Hedgehog
 Amy,{Sonic},f,{8412},Sonic the Hedgehog
 Amy Rose,{Sonic},f,{8412},Sonic the Hedgehog
-Silver,{Sonic},f,{5390},Sonic the Hedgehog
 Silver the Hedgehog,{Sonic},t,{5390},Sonic the Hedgehog
 Talos,{Eizouken},f,{8413},Keep Your Hands Off Eizouken!
 Princess Mononoke,"{`"Princess Mononoke`"}",t,{8414},""
@@ -9183,6 +9181,7 @@ Reggie,"{`"Sword Interval`"}",f,{8432},Sword Interval
 Alexandra Ivanova,"{`"Sword Interval`"}",t,{8433},Sword Interval
 Kurse,{616},t,{1973},616
 Silver Surfer,{ROTSS},f,{8427},Fantastic Four Movies
+Silver,"{`"Sonic the Hedgehog`"}",f,{5390},Sonic the Hedgehog
 Marco Tousi,"{`"Sword Interval`"}",t,{8434},Sword Interval
 Red Rover,"{`"Sword Interval`"}",f,{8434},Sword Interval
 Mah Yun,"{`"Sword Interval`"}",f,{8435},Sword Interval
@@ -12544,10 +12543,6 @@ Goku,{M?UI},f,{3290},Ultra Instinct
 Goku,"{`"Ultra Instinct`"}",f,{3290},Ultra Instinct
 Android 16,"{`"Dragon ?Ball`"}",t,{3266},Dragon Ball
 Android 16,{DB(Z|S)?},t,{3266},Dragon Ball
-Android 17,"{`"Dragon ?Ball`"}",t,{3267},Dragon Ball
-Android 17,{DB(Z|S)?},t,{3267},Dragon Ball
-17,"{`"Dragon ?Ball`"}",f,{3267},Dragon Ball
-17,{DB(Z|S)?},f,{3267},Dragon Ball
 Android 18,"{`"Dragon ?Ball`"}",t,{3268},Dragon Ball
 Android 18,{DB(Z|S)?},t,{3268},Dragon Ball
 18,"{`"Dragon ?Ball`"}",f,{3268},Dragon Ball
@@ -12591,10 +12586,13 @@ Vegeta,"{`"Dragon ?Ball`"}",t,{3313},Dragon Ball
 Vegeta,{DB(Z|S)?},t,{3313},Dragon Ball
 Master Roshi,"{`"Dragon ?Ball`"}",t,{3301},Dragon Ball
 Master Roshi,{DB(Z|S)?},t,{3301},Dragon Ball
+Android 17,"{`"Dragon ?Ball`"}",t,"{3267,22408}",Dragon Ball
+Android 17,{DB(Z|S)?},t,"{3267,22408}",Dragon Ball
 Goten,"{`"Dragon ?Ball`"}",f,{3291},Dragon Ball
 Goten,{DB(Z|S)?},f,{3291},Dragon Ball
 Trunks,"{`"Dragon ?Ball`"}",f,"{3284,22116}",Dragon Ball
 Trunks,{DB(Z|S)?},f,"{3284,22116}",Dragon Ball
+17,"{`"Dragon ?Ball`"}",f,"{3267,22408}",Dragon Ball
 Mercenary Tao,"{`"Dragon ?Ball`"}",t,{3302},Dragon Ball
 Mercenary Tao,{DB(Z|S)?},t,{3302},Dragon Ball
 Yamcha,{Reincarnated},f,{3317},Dragon Ball: That Time I Got Reincarnated as Yamcha!
@@ -12641,8 +12639,6 @@ Grand Priest,{DB(Z|S)?},t,{3293},Dragon Ball
 Janemba,"{`"Dragon ?Ball`"}",t,{3297},Dragon Ball
 Janemba,{DB(Z|S)?},t,{3297},Dragon Ball
 Janemba,"{`"Fusion Reborn`"}",t,{3297},Dragon Ball
-Buu,"{`"Dragon ?Ball`"}",t,{3300},Dragon Ball
-Buu,{DB(Z|S)?},t,{3300},Dragon Ball
 Neko Majin,{default},t,{3305},""
 Whis,"{`"Dragon ?Ball`"}",t,{3315},Dragon Ball
 Whis,{DB(Z|S)?},t,{3315},Dragon Ball
@@ -12663,6 +12659,8 @@ Korin,{Roshi},f,{3261},Dragon Ball
 Beerus,"{`"Dragon ?Ball`"}",t,"{3272,16850}",Dragon Ball
 Beerus,{DB(Z|S)?},t,"{3272,16850}",Dragon Ball
 Hit,{Hit.*DB(Z|S)?},f,{3295},Dragon Ball
+Buu,"{`"Dragon ?Ball`"}",t,"{3300,22407}",Dragon Ball
+Buu,{DB(Z|S)?},t,"{3300,22407}",Dragon Ball
 Korin,"{`"Korin Tower`"}",f,{3261},Dragon Ball
 Korin,"{`"Korin's Tower`"}",f,{3261},Dragon Ball
 Ginyu Force,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
@@ -20980,10 +20978,10 @@ Huntress,"{`"DC ?EU`"}",f,{15414},DCEU
 Huntress,"{`"DC Cinematic Universe`"}",f,{15414},DCEU
 Huntress,{DCCU},f,{15414},DCEU
 Chuck E. Cheese,{default},t,{15415},""
-Tall Man,{Phantasm},t,{15416},Phantasm
 Kyle Rayner,"{`"Kyle Rayner ?\\(DC( Comics)?\\)`"}",t,"{1685,15411}",DC
 Kyle Rayner,"{`"Green Lantern ?\\(Kyle Rayner`"}",t,"{1685,15411}",DC
 Kyle Rayner,"{`"White Lantern`"}",t,"{1685,15411}",DC
+Tall Man,{Phantasm},f,{15416},Phantasm
 Flex Mentallo,{DC},t,"{1860,15275}",DC
 Mister Negative,{PS4},f,{15398},Insomniac's Spider-Man
 Mister Negative,{1048},f,{15398},Insomniac's Spider-Man
@@ -25360,7 +25358,6 @@ Accelerator,{wings},f,{4449},Toaru Majutsu no Index
 Accelerator,{Raildex},f,{4449},Toaru Majutsu no Index
 Accelerator,"{`"max wank`"}",f,{4449},Toaru Majutsu no Index
 Accelerator,{Accel},f,{4449},Toaru Majutsu no Index
-Gwen,"{Peter,Miles}",f,{2249},65
 Spiders-Man,{11580},t,{21115},11580
 Amao,{Croczilla},f,{21116},Croczilla
 Yuu Amanai,{Baki},t,{21117},Baki
@@ -27865,3 +27862,31 @@ Demonreach,{Dresden(verse)?},t,{22400},The Dresden Files
 Doomsday,"{`"Doomsday.*Superman ?: ?Doomsday`"}",f,{22401},Superman: Doomsday
 Superman,"{`"Super(-| )?man.*Superman ?: ?Doomsday`"}",f,{22402},Superman: Doomsday
 Elisha,{Bible},f,{22403},Bible
+17,{DB(Z|S)?},f,"{3267,22408}",Dragon Ball
+The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,40,15401}",Doctor Who
+Zim,"{GIR,Alien}",f,{6526},Invader Zim
+Hancock,"{`"Hancock ?\\(Film`"}",f,{457},Hancock
+Ghost Shark,{(Film|Movie)s?},f,{22409},""
+Ghost Shark,"{`"Ghost Shark ?\\(Ghost Shark`"}",f,{22409},""
+Yuichi Sakaki,"{`"Nee(-| )?chan|Chuunibyou`"}",f,{22410},Neechan Wa Chuunibyou
+Debby the Corsifa,{Emulous},t,{22411},""
+Little John,"{`"Robin Hood`",1973}",f,{22411},"Robin Hood, 1973"
+Matthias Tannhauser,{Trilogy},t,{22412},Tannhauser
+Hundun,{Korra},f,{22413},Avatar: TLA
+Hundun,{A?T?LOK},f,{22413},Avatar: TLA
+Hundun,{Avatar},f,{22413},Avatar: TLA
+Toot-Toot,{Dresden(verse)?},f,{22414},The Dresden Files
+Taylor Hebert,"{`"\\(Intuition\\)`"}",f,{22415},Intuition
+Scion,"{`"\\(Intuition\\)`"}",f,{22416},Intuition
+Gabriel Gray,"{`"\\(Intuition\\)`"}",f,{22417},Intuition
+Callista,"{`"Five Kingdoms`"}",f,{22418},Five Kingdoms
+Rogue Knight,"{`"Five Kingdoms`"}",f,{22419},Five Kingdoms
+Morgassa,"{`"Five Kingdoms`"}",f,{22420},Five Kingdoms
+Honor Pemberton,"{`"Five Kingdoms`"}",t,{22421},Five Kingdoms
+Trillian,"{`"Five Kingdoms`"}",f,{22422},Five Kingdoms
+Dreadknight,"{`"Five Kingdoms`"}",f,{22423},Five Kingdoms
+Ramarro,"{`"Five Kingdoms`"}",f,{22424},Five Kingdoms
+Cole Randolph,"{`"Five Kingdoms`"}",t,{22425},Five Kingdoms
+Cadet Dredd,"{`"2000 ?AD`"}",t,{22426},2000 AD
+Tristan,{Arthurian},f,{22427},Arthurian Myth
+Temari,{Naruto},t,{22428},Naruto
