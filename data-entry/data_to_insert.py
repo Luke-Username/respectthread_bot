@@ -108,6 +108,11 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 7606, 'Respect Robin Hood! (Robin Hood 1973)', 'https://redd.it/wk70t8')
+update_respectthread(cur, 15327, 'Respect Reze! (Chainsaw Man)', 'https://redd.it/wlcewl')
+update_respectthread(cur, 15326, 'Respect Aki Hayakawa! (Chainsaw Man)', 'https://redd.it/wlcgxi')
+update_respectthread(cur, 15967, 'Respect Quanxi! (Chainsaw Man)', 'https://redd.it/wlcfn2')
+update_respectthread(cur, 15325, 'Respect the Gun Devil! (Chainsaw Man)', 'https://redd.it/wlcgin')
+update_respectthread(cur, 15966, 'Respect Power! (Chainsaw Man)', 'https://redd.it/wlcfzv')
 
 ########################################
 
@@ -450,6 +455,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/wl1s5p/respect_sir_tristan_de_liones_arthurian_myth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Temari (Naruto)', 'https://redd.it/wlebap')
+add_data(['Temari'],
+'Temari',
+False,
+True,
+[
+    ['Naruto']
+],
+'Naruto',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wlebap/respect_temari_naruto/
 
 ########################################
 
