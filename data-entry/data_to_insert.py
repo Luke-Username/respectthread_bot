@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Detective (Disco Elysium)', 'https://redd.it/wmk2f5')
+add_data(['Detective'],
+'Detective',
+False,
+False,
+[
+    ['Disco Elysium']
+],
+'Disco Elysium',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wmk2f5/respect_the_detective_disco_elysium/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
