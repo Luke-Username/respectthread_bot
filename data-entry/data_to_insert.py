@@ -122,6 +122,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Guts (Death Battle!)', 'https://redd.it/wmyjzn')
+add_data(['Guts'],
+'Guts',
+False,
+False,
+[
+    ['Guts.*Death Battle']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wmyjzn/respect_guts_death_battle/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
