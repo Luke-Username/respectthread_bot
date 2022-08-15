@@ -14,13 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Hulk' AND version='{"movie"}';
-DELETE FROM character WHERE default_name='Hulk' AND version='{"movies"}';
-DELETE FROM character WHERE default_name='Buddha' AND version='{"Enlighten(ment|ed)"}';
-
 ########################################
 
-UPDATE character SET version='{"Kung( |-)?Fu Hustle"}' WHERE version='{"Kung Fu Hustle"}'
 
 ########################################
 
@@ -33,9 +28,6 @@ UPDATE character SET version='{"Kung( |-)?Fu Hustle"}' WHERE version='{"Kung Fu 
 ########################################
 
 ########################################
-
-SELECT * FROM respectthread WHERE link='https://redd.it/woszhn';
-UPDATE character SET rt_id_array='{?, 1736}' WHERE default_name='Highfather' AND displayed_version_name='DC';-- After run
 
 ########################################
 

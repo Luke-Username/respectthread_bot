@@ -1055,19 +1055,11 @@ Shocker,{MCU},f,{260},MCU
 Shocker,{199999},f,{260},MCU
 Vulture,"{`"Marvel Cinematic`"}",f,{269},MCU
 Pai Mei,"{`"Kill Bill`"}",t,{226},Kill Bill
-Beast,"{`"Kung Fu Hustle`"}",f,{227},Kung Fu Hustle
-The Beast,"{`"Kung Fu Hustle`"}",f,{227},Kung Fu Hustle
-Pig Sty Alley,"{`"Kung Fu Hustle`"}",t,{228},Kung Fu Hustle
-Landlord,"{`"Kung Fu Hustle`"}",f,{228},Kung Fu Hustle
 Landlord,"{`"Pig Sty Alley`"}",f,{228},Kung Fu Hustle
 Landlady,"{`"Pig Sty Alley`"}",t,{228},Kung Fu Hustle
-Landlady,"{`"Kung Fu Hustle`"}",t,{228},Kung Fu Hustle
 Tailor,"{`"Pig Sty Alley`"}",f,{228},Kung Fu Hustle
-Tailor,"{`"Kung Fu Hustle`"}",f,{228},Kung Fu Hustle
 Donut,"{`"Pig Sty Alley`"}",f,{228},Kung Fu Hustle
-Donut,"{`"Kung Fu Hustle`"}",f,{228},Kung Fu Hustle
 Sing,"{`"Pig Sty Alley`"}",f,{229},Kung Fu Hustle
-Sing,"{`"Kung Fu Hustle`"}",f,{229},Kung Fu Hustle
 The Mandarin,"{`"Marvel Cinematic`"}",f,{252},MCU
 The Mandarin,{MCU},f,{252},MCU
 The Mandarin,{199999},f,{252},MCU
@@ -1109,6 +1101,9 @@ Huntsman and Huntsgirl,"{`"American Dragon`"}",f,{629},Amarican Dragon: Jake Lon
 Huntsman and Huntsgirl,"{`"Jake Long`"}",f,{629},Amarican Dragon: Jake Long
 Huntsman,"{`"American Dragon`"}",f,{629},Amarican Dragon: Jake Long
 Huntsman,"{`"Jake Long`"}",f,{629},Amarican Dragon: Jake Long
+Beast,"{`"Kung( |-)?Fu Hustle`"}",f,{227},Kung Fu Hustle
+The Beast,"{`"Kung( |-)?Fu Hustle`"}",f,{227},Kung Fu Hustle
+Pig Sty Alley,"{`"Kung( |-)?Fu Hustle`"}",t,{228},Kung Fu Hustle
 T-800,{Terminator},t,{329},Terminator
 Animals,"{`"Marvel Cinematic`"}",f,{253},MCU
 Animals,{MCU},f,{253},MCU
@@ -1346,8 +1341,6 @@ Black Widow,{movie},f,{235},MCU
 Black Widow,{movies},f,{235},MCU
 Black Widow,"{`"Civil War`"}",f,{235},MCU
 Hulk,{199999},f,{236},MCU
-Hulk,{movie},f,{236},MCU
-Hulk,{movies},f,{236},MCU
 Kuru-Kuru Hime,"{`"Mahou Shoujo Ikusei Keikaku`"}",t,{10790},Magical Girl Raising Project
 Hulk,{Ragnarok},f,{236},MCU
 Captain Marvel,"{`"Marvel Cinematic Universe`"}",f,{6500},MCU
@@ -25364,7 +25357,6 @@ Yuu Amanai,{Baki},t,{21117},Baki
 SCP-749,{Foundation},t,{21118},""
 Buddha,{Mah(ā|a)y(ā|a)na},t,"{21114,21300}",Mahāyāna
 Buddha,{Buddhism},t,"{21114,21300}",Mahāyāna
-Buddha,{Enlighten(ment|ed)},t,"{21114,21300}",Mahāyāna
 Buddha,"{`"Composite Buddha`"}",t,"{21114,21300}",Mahāyāna
 Buddha,"{`"Journey To The West`"}",t,"{21114,21300}",Mahāyāna
 Buddha,"{`"Records? of Ragnarok`"}",f,{},Record of Ragnarok
@@ -26582,7 +26574,6 @@ SCP-4494,{Specter},f,{21677},""
 Sandy,"{`"Sandy Cheeks`"}",f,{21678},SpongeBob
 Sandy,{SpongeBob},f,{21678},SpongeBob
 Coolie,"{`"Pig Sty Alley`"}",f,{228},Kung Fu Hustle
-Coolie,"{`"Kung Fu Hustle`"}",f,{228},Kung Fu Hustle
 Genie,"{`"\\(Aladdin\\)`"}",f,{8256},Aladdin
 Genie,"{`"Will Smiths?`"}",f,{20490},"Aladdin, 2019"
 Genie,"{`"Live(-| )Action`",Aladd?in}",f,{20490},"Aladdin, 2019"
@@ -27890,3 +27881,34 @@ Cole Randolph,"{`"Five Kingdoms`"}",t,{22425},Five Kingdoms
 Cadet Dredd,"{`"2000 ?AD`"}",t,{22426},2000 AD
 Tristan,{Arthurian},f,{22427},Arthurian Myth
 Temari,{Naruto},t,{22428},Naruto
+Landlord,"{`"Kung( |-)?Fu Hustle`"}",f,{228},Kung Fu Hustle
+Landlady,"{`"Kung( |-)?Fu Hustle`"}",t,{228},Kung Fu Hustle
+Tailor,"{`"Kung( |-)?Fu Hustle`"}",f,{228},Kung Fu Hustle
+Donut,"{`"Kung( |-)?Fu Hustle`"}",f,{228},Kung Fu Hustle
+Sing,"{`"Kung( |-)?Fu Hustle`"}",f,{229},Kung Fu Hustle
+Coolie,"{`"Kung( |-)?Fu Hustle`"}",f,{228},Kung Fu Hustle
+Buddha,"{`"World of Darkness`"}",f,{},World of Darkness
+Dante,"{`"S(hin)? ?M(egami)? ?T(ensei)?`"}",f,{},Shin Megami Tensei
+Kars,"{`"spin(-| )off`"}",f,{6168},Jorge Joestar
+Dio,"{`"spin(-| )off`",Kars}",f,{6167},Jorge Joestar
+Detective,"{`"Disco Elysium`"}",f,{22429},Disco Elysium
+Guts,"{`"Guts.*Death Battle`"}",f,{22430},DEATH BATTLE!
+Dovin Baan,"{`"Magic:? The Gathering`"}",t,{22431},Magic: The Gathering
+Dovin Baan,{M:?TG},t,{22431},Magic: The Gathering
+Dovin Baan,{Planeswalk(er)?s?},t,{22431},Magic: The Gathering
+Kamen Rider Ichigo,{First|Next},t,{22432},""
+Kamen Rider Nigo,{First|Next},t,{22433},""
+Kamen Rider V3,{First|Next},t,{22434},""
+Sheep,"{`"Black Sheep`",Oldfield}",f,{22435},Black Sheep
+X-23,"{`"X(-| )?Men:? Evolution`"}",t,{22436},X-Men: Evolution
+Scorpia,"{`"Elaine Coll`",616}",f,{22437},616
+Highfather,"{`"New(-| )?52`"}",f,{22438},New 52
+Highfather,{Nu?-?52},f,{22438},New 52
+Highfather,"{`"Post(-| )52`"}",f,{22438},New 52
+Highfather,"{`"Prime(-| )Earth`"}",f,{22438},New 52
+Highfather,{Rebirth},f,{22438},New 52
+Darren Shan,"{`"Cirque Du Freak`",Manga}",f,{22439},Cirque Du Freak Manga
+Darren Shan,"{CDF,Manga}",f,{22439},Cirque Du Freak Manga
+Larten Crepsley,"{`"Cirque Du Freak`",Manga}",f,{22440},Cirque Du Freak Manga
+Larten Crepsley,"{CDF,Manga}",f,{22440},Cirque Du Freak Manga
+Vord,"{`"Codex Alera`"}",f,{22441},Codex Alera
