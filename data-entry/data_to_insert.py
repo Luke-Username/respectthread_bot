@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Beatrice Flowerchild (Fate)', 'https://redd.it/wq3tsx')
+add_data(['Beatrice Flowerchild'],
+'Beatrice Flowerchild',
+False,
+True,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wq3tsx/respect_beatrice_flowerchild_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cheetah (Batman Unlimited)', 'https://redd.it/wq7zk1')
+add_data(['Cheetah'],
+'Cheetah',
+False,
+False,
+[
+    ['Batman Unlimited']
+],
+'Batman Unlimited',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wq7zk1/respect_cheetah_batman_unlimited/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

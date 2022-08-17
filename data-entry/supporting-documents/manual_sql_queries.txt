@@ -20,6 +20,8 @@ DELETE FROM character WHERE default_name='Ego' AND version='{"Marvel"}';
 
 ########################################
 
+UPDATE character SET version='{"Kamen Rider Drive"}' WHERE default_name='009' AND version='{"Kamen Rider"}';
+
 ########################################
 
 ########################################
