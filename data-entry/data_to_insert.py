@@ -107,6 +107,48 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Hercules'],
+'Hercules',
+False,
+False,
+[
+    ['Greek Myth(ology)?']
+],
+'Greek Mythology',
+'{22175}'
+)
+#https://www.reddit.com/r/respectthread_bot/comments/wrbe2i/the_son_brother_grimms_fairy_tales_vs_hercules/ikrexue/?context=3
+
+########################################
+
+add_data(['Sora'],
+'Sora',
+False,
+False,
+[
+    ['Ultimate Form']
+],
+'Kingdom Hearts',
+'{5161}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/wreg65/ultimate_form_sora_vs_super_sonic_the_hedgehog/ikulg49/?context=3
+
+########################################
+
+add_data(['Crocodile'],
+'Crocodile',
+False,
+False,
+[
+    ['Alabsta']
+],
+'One Piece',
+'{4042}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/wrekd1/the_sandman_vs_crocodile/ikrv88y/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Beatrice Flowerchild (Fate)', 'https://redd.it/wq3tsx')
 add_data(['Beatrice Flowerchild'],
 'Beatrice Flowerchild',
@@ -164,6 +206,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/wqrijc/respect_trapstr_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Wonder Pets! (Nickelodeon/Nick Jr)', 'https://redd.it/wrl0pd')
+add_data(['Wonder Pets'],
+'Wonder Pets',
+True,
+True,
+[
+    ['Wonder Pets ?(Wonder Pets']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wrl0pd/respect_the_wonder_pets_nickelodeonnick_jr/
 
 ########################################
 
