@@ -224,6 +224,22 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Reva Sevander, the Third Sister (Star Wars Canon)', 'https://redd.it/wsol83')
+add_data(['Reva'],
+'Reva',
+False,
+False,
+[
+    ['Sevander'], ['S(tar )?Wars'], ['SW'], ['Third Sister']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wsol83/respect_reva_sevander_the_third_sister_star_wars/
+
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
