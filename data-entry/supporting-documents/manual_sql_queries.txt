@@ -16,18 +16,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Ego' AND version='{"Marvel"}';
-
 ########################################
 
-UPDATE character SET version='{"Kamen Rider Drive"}' WHERE default_name='009' AND version='{"Kamen Rider"}';
-UPDATE character SET version='{"Bo(o|u)nch(u|o)y"}' WHERE version='{"Boonchuy"}';
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Spider(-| )?Mans?', 'Spider Man 3', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Spider(-| )?Mans?', 'Spider-Man 3', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Spider(-| )?Mans?', 'SpiderMan 3', 0);
 
 ########################################
 
