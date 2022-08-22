@@ -2760,10 +2760,6 @@ Killer Croc,"{Batman,`"Animated Series`"}",f,{763},DCAU
 Killer Croc,{B:?TAS},f,{763},DCAU
 Killer Croc,"{`"New Batman Adventures`"}",f,{763},DCAU
 Killer Croc,{TNBA},f,{763},DCAU
-Man-Bat,"{`"DC Animated Universe`"}",f,{763},DCAU
-Man-Bat,"{`"Animated DC`"}",f,{763},DCAU
-Man-Bat,{DCAU},f,{763},DCAU
-Man-Bat,{Timmverse},f,{763},DCAU
 She-Bat,"{`"DC Animated Universe`"}",f,{764},DCAU
 She-Bat,"{`"Animated DC`"}",f,{764},DCAU
 She-Bat,{DCAU},f,{764},DCAU
@@ -11525,7 +11521,6 @@ Captain Marvel,{comics?},t,{1992},616
 Carol Danvers,{616},t,{1992},616
 Carol Danvers,{comics?},t,{1992},616
 Carol Danvers,"{`"Marvel Cinematic Universe`"}",f,{6500},616
-Carol Danvers,{MCU},f,{6500},616
 Carol Danvers,{199999},f,{6500},616
 Hank Pym,{616},t,{1993},616
 Hank Pym,{comics?},t,{1993},616
@@ -27923,3 +27918,23 @@ Beatrice Flowerchild,{Fate},t,{22442},Fate
 Cheetah,"{`"Batman Unlimited`"}",f,{22443},Batman Unlimited
 Karrin Murphy,{Dresden(verse)?},t,{22444},The Dresden Files
 Trapstr,{616},f,{22445},616
+Carol Danvers,{MCU},f,{6500},MCU
+Man-Bat,"{`"DC Animated Universe`"}",f,{764},DCAU
+Man-Bat,"{`"Animated DC`"}",f,{764},DCAU
+Man-Bat,{DCAU},f,{764},DCAU
+Man-Bat,{Timmverse},f,{764},DCAU
+Lucifer,"{`"Gwendol(i|y)ne? Christie`"}",f,{},"The Sandman, 2022"
+Lucifer Morningstar,"{`"Gwendol(i|y)ne? Christie`"}",f,{},"The Sandman, 2022"
+Zuko,"{`"Last Airbender Pilot`"}",f,{22448},Avatar: The Last Airbender Pilot
+Waluigi,"{`"Brawl In The Family`"}",f,{22449},Brawl In The Family
+Dr. Livesey,"{`"Treasure Island`",1988}",f,{22450},"Treasure Island, 1988"
+Black Adam,"{`"Justice League Action`"}",f,{22451},Justice League Action
+Santa Claus,"{`"American Dad`"}",f,{22452},American Dad!
+Mab,{Dresden(verse)?},f,{22453},The Dresden Files
+Thomas Raith,{Dresden(verse)?},t,{22454},The Dresden Files
+Superman,"{`"DC Animated Film Universe`"}",f,{22455},DC Animated Movie Universe
+Superman,{DCA(F|M)U},f,{22455},DC Animated Movie Universe
+Superman,"{`"DC Animated Movies?`"}",f,{22455},DC Animated Movie Universe
+General Zod,"{`"Pre(-| )?Crisis`"}",f,{22456},Pre-Crisis
+Subject One,{DC},f,{22457},Flashpoint
+Subject One,"{`"Flash(-| )?point`"}",f,{22457},Flashpoint
