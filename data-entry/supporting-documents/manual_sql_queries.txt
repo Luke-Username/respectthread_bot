@@ -26,7 +26,11 @@ UPDATE character SET displayed_version_name='MCU' WHERE default_name='Carol Danv
 
 ########################################
 
+UPDATE character_name SET name='Groun?don' WHERE name='Groudon';
+
 ########################################
+
+UPDATE character SET rt_id_array='{764}' WHERE default_name='Man-Bat' AND displayed_version_name='DCAU';
 
 ########################################
 

@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2595, 'Respect Hit-Girl! (Kick-Ass)', 'https://redd.it/wuqvw9')
+update_respectthread(cur, 13486, "Respect Black Noir (Amazon''s The Boys)", 'https://redd.it/wv3cvi')
+
+########################################
+
 add_data(['Lucifer'],
 'Lucifer',
 False,
@@ -223,6 +228,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Thomas Raith (The Dresden Files)', 'https://redd.it/wugwsh')
+add_data(['Thomas Raith'],
+'Thomas Raith',
+False,
+True,
+[
+    ['Dresden(verse)?']
+],
+'The Dresden Files',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wugwsh/respect_thomas_raith_the_dresden_files/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Superman (DC Animated Movie Universe)', 'https://redd.it/wuen6p')
 add_data(['Super(-| )?man'],
 'Superman',
@@ -251,6 +271,20 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/wu0d3f/respect_general_zod_dc_precrisis/
 
+########################################
+
+id = get_rt_id(cur, 'Respect Subject One (DC Comics, Flashpoint Timeline)', 'https://redd.it/wuxigc')
+add_data(['Subject One'],
+'Subject One',
+False,
+False,
+[
+    ['DC'], ['Flash(-| )?point']
+],
+'Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wuxigc/respect_subject_one_dc_comics_flashpoint_timeline/
 
 ########################################
 

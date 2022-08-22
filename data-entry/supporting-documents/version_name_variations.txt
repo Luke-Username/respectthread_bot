@@ -1069,11 +1069,11 @@ Five Nights at Freddies
 	Displayed Version Name
 		"FNAF"
 
-Flashpoint
+Post Flashpoint
 	Version
-		['(Post(-| ))?Flash(-| )?point']
+		['(Post(-| ))Flash(-| )?point']
 	Displayed Version Name
-		"Flashpoint"
+		"Post-Flashpoint"
 
 FLCL
 	Version
