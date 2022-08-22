@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Lucifer'],
+'Lucifer',
+False,
+False,
+[
+    ['Gwendol(i|y)ne? Christie']
+],
+'The Sandman, 2022',
+'{}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

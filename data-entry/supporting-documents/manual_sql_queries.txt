@@ -14,9 +14,15 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+INSERT INTO character_name (name, default_name) VALUES ('Josuke', 'Josuke', FALSE);
 
 ########################################
+
+DELETE FROM character_name WHERE name='Godzilla Junior';
+
+########################################
+
+UPDATE character SET displayed_version_name='MCU' WHERE default_name='Carol Danvers' AND version='{"MCU"}';
 
 ########################################
 
