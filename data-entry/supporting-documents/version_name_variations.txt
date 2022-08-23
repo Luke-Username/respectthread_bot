@@ -3804,7 +3804,7 @@ Yu-Gi-Oh!
 
 Yu Yu Hakusho
 	Version
-		'{"Y(u|ū) ?Y(u|ū) Hakusho"}', '{"YYH"}'
+		['Y(u|ū) ?Y(u|ū) Hakusho'], ['YYH']
 	Displayed Version Name
 		"Yu Yu Hakusho"
 
