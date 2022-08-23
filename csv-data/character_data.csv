@@ -1556,8 +1556,6 @@ Soul Stone,{movies},f,{246},MCU
 Gems,"{`"Marvel Cinematic Universe`"}",f,{246},MCU
 Gems,{MCU},f,{246},MCU
 Gems,{199999},f,{246},MCU
-Gems,{movie},f,{246},MCU
-Gems,{movies},f,{246},MCU
 Gems,"{`"Infinity War`"}",f,{246},MCU
 Stones,"{`"Marvel Cinematic Universe`"}",f,{246},MCU
 Stones,{MCU},f,{246},MCU
@@ -27938,3 +27936,10 @@ Superman,"{`"DC Animated Movies?`"}",f,{22455},DC Animated Movie Universe
 General Zod,"{`"Pre(-| )?Crisis`"}",f,{22456},Pre-Crisis
 Subject One,{DC},f,{22457},Flashpoint
 Subject One,"{`"Flash(-| )?point`"}",f,{22457},Flashpoint
+Rambo,"{`"First Blood`"}",f,{20364},First Blood
+Amber,{Genshin},f,{22458},Genshin Impact
+Sensui Seven,"{`"Y(u|ū) ?Y(u|ū) Hakusho`"}",t,{22459},Yu Yu Hakusho
+Sensui Seven,{YYH},t,{22459},Yu Yu Hakusho
+Hirudegarn,"{`"Dragon ?Ball`"}",t,{22460},Dragon Ball
+Hirudegarn,{DB(Z|S)},t,{22460},Dragon Ball
+Superman,"{`"Superman:? The Dark Side`"}",f,{22461},Superman: The Dark Side

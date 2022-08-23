@@ -14,9 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Gems' AND version='{"movie"}';
-DELETE FROM character WHERE default_name='Gems' AND version='{"movies"}';
-
 ########################################
 
 ########################################
