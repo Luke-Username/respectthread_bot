@@ -14,6 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET version='{"Amazing Spider(-| )?Mans?"}' WHERE version='{"Amazing Spider-Man"}';
+
 ########################################
 
 ########################################
