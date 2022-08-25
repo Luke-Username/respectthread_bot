@@ -107,6 +107,68 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13595, "Respect Queen Maeve (Amazon''s The Boys)", 'https://redd.it/wwjhel')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Molly Carpenter (The Dresden Files)', 'https://redd.it/ww6bd5')
+add_data(['Molly'],
+'Molly',
+False,
+False,
+[
+    ['Molly Carpenter'], ['Dresden(verse)?']
+],
+'The Dresden Files',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ww6bd5/respect_molly_carpenter_the_dresden_files/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Voolvif Monn (Star Wars Legends)', 'https://redd.it/ww9zwh')
+add_data(['Voolvif Monn'],
+'Voolvif Monn',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ww9zwh/respect_voolvif_monn_star_wars_legends/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Molly McGee! (The Ghost and Molly McGee)', 'https://redd.it/wwcy1y')
+add_data(['Molly McGee'],
+'Molly McGee',
+False,
+True,
+[
+    ['Ghost']
+],
+'The Ghost and Molly McGee',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wwcy1y/respect_molly_mcgee_the_ghost_and_molly_mcgee/
+
+########################################
+
+id = get_rt_id(cur, 'Respect General Zod, Avruskin (DC, Post-Crisis)', 'https://redd.it/wwzdga')
+add_data(['Zod'],
+'General Zod',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wwzdga/respect_general_zod_avruskin_dc_postcrisis/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
