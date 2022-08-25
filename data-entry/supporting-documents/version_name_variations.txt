@@ -876,7 +876,9 @@ Dota 2 (Defense of the Ancients)
 
 Dragon Ball
 	Version
-		['Dragon ?Ball'], ['DB(Z|S)?']
+		['Dragon ?Ball'], ['DB(Z|S)']
+	Sometimes Called
+		['DB']
 	Specific
 		['Fusion Reborn']
 		['DB ?GT']

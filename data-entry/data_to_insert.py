@@ -111,6 +111,32 @@ update_respectthread(cur, 13595, "Respect Queen Maeve (Amazon''s The Boys)", 'ht
 
 ########################################
 
+add_data(['Cracker'],
+'Cracker',
+False,
+False,
+[
+    ['One Piece', 'Doflamingo']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/wx6bmr/one_piece_doflamingo_vs_cracker/ilp82vr/?context=3
+
+add_data(['Cracker'],
+'Cracker',
+False,
+False,
+[
+    ['Cracker ?\(One Piece']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/wx6bmr/one_piece_doflamingo_vs_cracker/ilp82vr/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Molly Carpenter (The Dresden Files)', 'https://redd.it/ww6bd5')
 add_data(['Molly'],
 'Molly',
@@ -123,6 +149,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ww6bd5/respect_molly_carpenter_the_dresden_files/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Ghost of Harry Dresden (The Dresden Files)', 'https://redd.it/wx1pj9')
+add_data(['Ghost of Harry Dresden', "Harry Dresden''?s Ghost"],
+'Ghost of Harry Dresden',
+False,
+True,
+[
+    ['Dresden( Files|verse)']
+],
+'The Dresden Files',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wx1pj9/respect_the_ghost_of_harry_dresden_the_dresden/
 
 ########################################
 
@@ -168,6 +209,48 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/wwzdga/respect_general_zod_avruskin_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Duplicate Vegeta (Dragon Ball Super - Anime)', 'https://redd.it/wx265m')
+add_data(['Duplicate Vegeta'],
+'Duplicate Vegeta',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wx265m/respect_duplicate_vegeta_dragon_ball_super_anime/
+
+add_data(['Copy(-| )Vegeta'],
+'Copy-Vegeta',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wx265m/respect_duplicate_vegeta_dragon_ball_super_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Leonard Snart, Captain Cold (DC Post-Crisis)', 'https://redd.it/wxakmd')
+add_data(['Captain Cold'],
+'Captain Cold',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wxakmd/respect_leonard_snart_captain_cold_dc_postcrisis/
 
 ########################################
 
