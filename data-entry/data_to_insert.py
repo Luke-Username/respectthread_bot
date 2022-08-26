@@ -111,6 +111,21 @@ update_respectthread(cur, 13595, "Respect Queen Maeve (Amazon''s The Boys)", 'ht
 
 ########################################
 
+add_data(['Wolverines'],
+'Wolverines',
+False,
+False,
+[
+    ['Hugh|Jackman'], ['FOX'], ['Foxverse'],
+    ['X(-| )?Men (Movie|Film)s?'], ['X-?Men Cinematic Universe']
+],
+'FOX',
+'{158}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/wxi9wa/how_many_fox_wolverines_does_it_take_to_kill_mcu/
+
+########################################
+
 add_data(['Cracker'],
 'Cracker',
 False,
@@ -251,6 +266,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/wxakmd/respect_leonard_snart_captain_cold_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Casey Jones! (Teenage Mutant Ninja Turtles 1987)', 'https://redd.it/wxn6k5')
+add_data(['Casey Jones'],
+'Casey Jones',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '1987'], ['TMNT', '1987']
+],
+'TMNT 1987',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wxn6k5/respect_casey_jones_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fordo (Star Wars Legends)', 'https://redd.it/wxr2vr')
+add_data(['Fordo'],
+'Fordo',
+False,
+False,
+[
+    ['S(tar )?Wars'], ['Captain Fordo'], ['ARC(77)?']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wxr2vr/respect_fordo_star_wars_legends/
 
 ########################################
 
