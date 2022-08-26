@@ -299,6 +299,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Golden Turd (American Dad!)', 'https://redd.it/wy5757')
+add_data(['Golden Turd'],
+'Golden Turd',
+False,
+True,
+[
+    ['American Dad'], ["Roger''?s?"]
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
