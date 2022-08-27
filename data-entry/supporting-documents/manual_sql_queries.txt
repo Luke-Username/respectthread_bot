@@ -14,16 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"Amazing Spider(-| )?Mans?"}' WHERE version='{"Amazing Spider-Man"}';
-
 ########################################
 
-SELECT * FROM respectthread WHERE link='https://redd.it/wxakmd';
-UPDATE character SET rt_id_array='' WHERE default_name='Captain Cold' AND displayed_version_name=''; -- After
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Constantine', 'Constantine the Great', 0);
 
 ########################################
 
