@@ -2669,7 +2669,7 @@ Pre-Crisis
 
 Pre-Flashpoint
 	Version
-		'{"Pre(-| )?Flashpoint"}'
+		['Pre(-| )?Flashpoint']
 	Displayed Version Name
 		"Pre-Flashpoint"
 

@@ -126,6 +126,20 @@ False,
 
 ########################################
 
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['a Predator', 'movie feats']
+],
+'',
+'{2799,13507}'
+)
+# https://www.reddit.com/r/whowouldwin/comments/wy6q0p/young_joseph_joestar_jjba_vs_jason_voorhees/
+
+########################################
+
 add_data(['Cracker'],
 'Cracker',
 False,
@@ -227,6 +241,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Irving Norbet and Edward Burke, Planet Master (DC, Pre-Flashpoint)', 'https://redd.it/wy6pm8')
+add_data(['Planet Master'],
+'Planet Master',
+False,
+False,
+[
+    ['Pre(-| )?Flashpoint']
+],
+'Pre-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Duplicate Vegeta (Dragon Ball Super - Anime)', 'https://redd.it/wx265m')
 add_data(['Duplicate Vegeta'],
 'Duplicate Vegeta',
@@ -311,6 +340,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kayako Saeki (The Grudge [American Remake Series])', 'https://redd.it/wya6lp')
+add_data(['Kayako Saeki'],
+'Kayako Saeki',
+False,
+False,
+[
+    ['The Grudge', 'Remake']
+],
+'The Grudge Remake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wya6lp/respect_kayako_saeki_the_grudge_american_remake/
 
 ########################################
 

@@ -23,6 +23,8 @@ UPDATE character SET rt_id_array='' WHERE default_name='Captain Cold' AND displa
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Constantine', 'Constantine the Great', 0);
+
 ########################################
 
 ########################################
