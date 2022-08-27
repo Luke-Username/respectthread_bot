@@ -211,6 +211,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Kar Vastor! (Star Wars Legends)', 'https://redd.it/wyzb21')
+add_data(['Kar Vastor'],
+'Kar Vastor',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wyzb21/respect_kar_vastor_star_wars_legends/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Molly McGee! (The Ghost and Molly McGee)', 'https://redd.it/wwcy1y')
 add_data(['Molly McGee'],
 'Molly McGee',
@@ -355,6 +370,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/wya6lp/respect_kayako_saeki_the_grudge_american_remake/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Ice Climbers (Ice Climbers'' SSBM Adventure)", 'https://redd.it/wyt9ep')
+add_data(['Ice Climbers?'],
+'Ice Climbers',
+False,
+False,
+[
+    ['Ice Climbers?.*SSBM Adventure']
+],
+"Ice Climbers'' SSBM Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
