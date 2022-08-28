@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Prot(e|é)g(e|é)'],
+'Protege',
+False,
+False,
+[
+    ['Prot(e|é)g(e|é) ?\(Marvel']
+],
+'Marvel',
+'{2043}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/wzt0lk/garou_opm_vs_the_protege_marvel_comics/
+
+########################################
+
 add_data(['Percival King'],
 'Percival King',
 False,
@@ -163,6 +177,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/wzecvv/respect_scratch_the_ghost_and_molly_mcgee/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Joe Smith, The Nemesis (The Samaritan)', 'https://redd.it/x01msk')
+add_data(['Nemesis'],
+'Nemesis',
+False,
+False,
+[
+    ['Samaritan'], ['Joe Smith'], ['Sylvester|Stallone']
+],
+'Samaritan',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x01msk/respect_joe_smith_the_nemesis_the_samaritan/
 
 ########################################
 
