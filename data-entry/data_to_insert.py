@@ -107,6 +107,63 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Percival King'],
+'Percival King',
+False,
+False,
+[
+    ['Epithet Erased']
+],
+'Epithet Erased',
+'{21898}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Thor Odinson! (Marvel Animated Universe)', 'https://redd.it/wzan2g')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Marvel Animated Universe'], ['92131']
+],
+'Marvel Animated Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wzan2g/respect_thor_odinson_marvel_animated_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Molly McGee! (The Ghost and Molly McGee)', 'https://redd.it/wwcy1y')
+add_data(['Molly McGee'],
+'Molly McGee',
+False,
+True,
+[
+    ['Ghost']
+],
+'The Ghost and Molly McGee',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wwcy1y/respect_molly_mcgee_the_ghost_and_molly_mcgee/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scratch! (The Ghost and Molly McGee)', 'https://redd.it/wzecvv')
+add_data(['Scratch'],
+'Scratch',
+False,
+False,
+[
+    ['Molly McGee']
+],
+'The Ghost and Molly McGee',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/wzecvv/respect_scratch_the_ghost_and_molly_mcgee/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
