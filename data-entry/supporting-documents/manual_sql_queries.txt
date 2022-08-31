@@ -26,6 +26,9 @@ UPDATE character SET version='{"Ultimates?( Marvel)? Apocalyps?e"}' WHERE versio
 
 ########################################
 
+SELECT * FROM respectthread WHERE link='https://redd.it/x1x83s';
+UPDATE character SET rt_id_array='{1679, ?}' WHERE rt_id_array='{1679}'; --After
+
 ########################################
 
 ########################################
