@@ -107,6 +107,12 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1283, 'Respect Jesus! (Madness Combat)', 'https://redd.it/x0dhmp')
+update_respectthread(cur, 13117, "Respect Homelander (Amazon''s The Boys)", 'https://redd.it/x1ibg9')
+update_respectthread(cur, 22179, 'Respect Taiyo Asano (Mission: Yozakura Family)', 'https://redd.it/x1n2o6')
+
+########################################
+
 add_data(['Prot(e|é)g(e|é)'],
 'Protege',
 False,
@@ -192,6 +198,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/x01msk/respect_joe_smith_the_nemesis_the_samaritan/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Perturabo! (Warhammer 40K)', 'https://redd.it/clzy03')
+add_data(['Perturabo'],
+'Perturabo',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/clzy03/respect_perturabo_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sphelonious Donk (SiIvaGunner)', 'https://redd.it/x1t4un')
+add_data(['Sphelonious Donk'],
+'Sphelonious Donk',
+False,
+True,
+[
+    ['SiIva(Gunner)?']
+],
+'SiIvaGunner',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Guardians of the Universe (DC Pre-Flashpoint)', 'https://redd.it/x1x83s')
+add_data(['Guardians? of the Universe'],
+'Guardians of the Universe',
+False,
+True,
+[
+    ['Pre(-| )?Flashpoint']
+],
+'Pre-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 

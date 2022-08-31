@@ -22,6 +22,8 @@ UPDATE character SET version='{"Raven ?\\(RWBY"}' WHERE default_name='Raven' AND
 
 ########################################
 
+UPDATE character SET version='{"Ultimates?( Marvel)? Apocalyps?e"}' WHERE version='{"Ultimates? Apocalyps?e"}';
+
 ########################################
 
 ########################################
