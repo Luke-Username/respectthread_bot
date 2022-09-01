@@ -122,6 +122,63 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Crazy Jane (DC, Post-Crisis)', 'https://redd.it/x2vo6s')
+add_data(['Crazy Jane'],
+'Crazy Jane',
+False,
+True,
+[
+    ['Doom Patrol'], ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x2vo6s/respect_crazy_jane_dc_postcrisis/
+
+add_data(['Crazy Jane'],
+'Crazy Jane',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x2vo6s/respect_crazy_jane_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Lord God (Pearl of Great Price)', 'https://redd.it/x2w7cd')
+add_data(['God'],
+'God',
+False,
+False,
+[
+    ['Pearl of Great Price']
+],
+'Pearl of Great Price',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x2w7cd/respect_the_lord_god_pearl_of_great_price/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Falcon (DEATH BATTLE!)', 'https://redd.it/x2wqc1')
+add_data(['Ca?pt(ain)?\.? Falcon'],
+'Captain Falcon',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x2wqc1/respect_captain_falcon_death_battle/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

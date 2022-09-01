@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET displayed_version_name='The Boys' WHERE default_name='Starlight' AND version='{"The Boys","TV"}';
+UPDATE character SET version='{"The Boys"}' WHERE default_name='Starlight' AND version='{"The Boys","TV"}';
+
 ########################################
 
 ########################################
