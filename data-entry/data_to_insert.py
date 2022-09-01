@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect Red (Genndy Tartakovsky''s Primal)", 'https://redd.it/x2tj7n')
+add_data(['Red'],
+'Red',
+False,
+False,
+[
+    ['Primal', 'Tartakovskys?']
+],
+'Primal',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x2tj7n/respect_red_genndy_tartakovskys_primal/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
