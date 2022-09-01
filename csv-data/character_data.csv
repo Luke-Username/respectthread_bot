@@ -447,26 +447,23 @@ Takuya Yamashiro,{Supaidaman},t,{107},Japanese Spider-Man
 Takuya Yamashiro,"{`"Japanese Spider-Man`"}",t,{107},Japanese Spider-Man
 Japanese Spider-Man,{Supaidaman},t,{107},""
 Electro,{Garfield},f,{110},The Amazing Spider-Man
-Electro,"{`"Amazing Spider-Man`"}",f,{110},The Amazing Spider-Man
 Elektra,{199999},f,{1291},MCU
+Electro,"{`"Amazing Spider(-| )?Mans?`"}",f,{110},The Amazing Spider-Man
 Electro,"{`"Amazing Spider Man`"}",f,{110},The Amazing Spider-Man
 Electro,"{`"Amazing Spiderman`"}",f,{110},The Amazing Spider-Man
 Electro,{ASM},f,{110},The Amazing Spider-Man
 Green Goblin,{Garfield},f,{111},The Amazing Spider-Man
-Green Goblin,"{`"Amazing Spider-Man`"}",f,{111},The Amazing Spider-Man
 Green Goblin,"{`"Amazing Spider Man`"}",f,{111},The Amazing Spider-Man
 Green Goblin,"{`"Amazing Spiderman`"}",f,{111},The Amazing Spider-Man
 Green Goblin,{ASM},f,{111},The Amazing Spider-Man
 Green Goblin,{Andrew},f,{111},The Amazing Spider-Man
 Lizard,{Garfield},f,{112},The Amazing Spider-Man
 Lizard,{Andrew},f,{112},The Amazing Spider-Man
-Lizard,"{`"Amazing Spider-Man`"}",f,{112},The Amazing Spider-Man
 Lizard,"{`"Amazing Spider Man`"}",f,{112},The Amazing Spider-Man
 Lizard,"{`"Amazing Spiderman`"}",f,{112},The Amazing Spider-Man
 Lizard,{ASM},f,{112},The Amazing Spider-Man
 Spider-Man,{Garfield},f,{113},The Amazing Spider-Man
 Spider-Man,{Andrew},f,{113},The Amazing Spider-Man
-Spider-Man,"{`"Amazing Spider-Man`"}",f,{113},The Amazing Spider-Man
 Spider-Man,"{`"Amazing Spider Man`"}",f,{113},The Amazing Spider-Man
 Spider-Man,"{`"Amazing Spiderman`"}",f,{113},The Amazing Spider-Man
 Spider-Man,{ASM},f,{113},The Amazing Spider-Man
@@ -511,6 +508,9 @@ Batman,"{`"Man of Steel`"}",f,{119},DCEU
 Batman,{MoS},f,{119},DCEU
 Batman,"{`"Batman v Superman`"}",f,{119},DCEU
 Electro,"{`"TASM\\d?`"}",f,{110},The Amazing Spider-Man
+Green Goblin,"{`"Amazing Spider(-| )?Mans?`"}",f,{111},The Amazing Spider-Man
+Lizard,"{`"Amazing Spider(-| )?Mans?`"}",f,{112},The Amazing Spider-Man
+Spider-Man,"{`"Amazing Spider(-| )?Mans?`"}",f,{113},The Amazing Spider-Man
 Batman,{BvS},f,{119},DCEU
 Batman,"{`"Dawn of Justice`"}",f,{119},DCEU
 Batman,{DoJ},f,{119},DCEU
@@ -1233,7 +1233,6 @@ Sing,"{`"Mighty Steel Leg`"}",f,{295},Shaolin Soccer
 Super,"{`"Shaolin Soccer`"}",f,{293},Shaolin Soccer
 Will,"{`"Sky High`"}",f,{298},Sky High
 Harry Osborn,{Garfield},f,{301},Raimiverse Spider-Man
-Harry Osborn,"{`"Amazing Spider-Man`"}",f,{301},Raimiverse Spider-Man
 Harry Osborn,"{`"Amazing Spider Man`"}",f,{301},Raimiverse Spider-Man
 Harry Osborn,"{`"Amazing Spiderman`"}",f,{301},Raimiverse Spider-Man
 Harry Osborn,{ASM},f,{301},Raimiverse Spider-Man
@@ -1278,6 +1277,7 @@ King Kong,{RPO},f,{290},Ready Player One
 Team Shaolin,"{`"Shaolin Soccer`"}",t,"{294,295}",Shaolin Soccer
 The Commander,"{`"Sky High`"}",f,{296},Sky High
 Sky High,"{`"Sky High`"}",t,"{298,297,296}",Sky High
+Harry Osborn,"{`"Amazing Spider(-| )?Mans?`"}",f,{301},Raimiverse Spider-Man
 Terminatrix,{Terminator},t,{328},Terminator
 Terminatrix,{T-3},t,{328},Terminator
 Terminatrix,{T3},t,{328},Terminator
@@ -4552,8 +4552,6 @@ Owen Mercer,{Flash},t,{1594},""
 Owen Mercer,{Rogues},t,{1594},""
 Captain Boomerang Jr,{Flash},t,{1594},""
 Captain Boomerang Jr,{Rogues},t,{1594},""
-Captain Cold,{Flash},t,"{1596,1595}",""
-Captain Cold,{Rogues},t,"{1596,1595}",""
 Godspeed,{Flash},f,{1597},DC
 Godspeed,{Rogues},f,{1597},DC
 Godspeed,"{`"Barry Allen`"}",f,{1597},DC
@@ -4607,6 +4605,8 @@ Brick,"{`"Brick ((DC )?Post(-| )?Crisis)`"}",f,{1607},DC
 Brick,"{`"Daniel Brickwell`"}",f,{1607},DC
 Connor Hawke,{PC},t,{1608},DC
 Connor Hawke,"{`"Post(-| )?C(risis)?`"}",t,{1608},DC
+Captain Cold,{Flash},t,"{22526,1596,1595}",""
+Captain Cold,{Rogues},t,"{22526,1596,1595}",""
 Pedro Pena,"{Shazam,2019}",f,{6555},DCEU
 Pedro Pena,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Pedro Pena,{DCEU},f,{6555},DCEU
@@ -4899,10 +4899,6 @@ Guy Gardner,{DC},t,{1678},DC
 Guy Gardner,{PC},t,{1678},DC
 Guy Gardner,"{`"Post(-| )?C(risis)?`"}",t,{1678},DC
 Guy Gardner,"{`"New(-| )Earth`"}",t,{1678},DC
-Guardians of the Universe,{DC},t,{1679},DC
-Guardians of the Universe,{PC},t,{1679},DC
-Guardians of the Universe,"{`"Post(-| )?C(risis)?`"}",t,{1679},DC
-Guardians of the Universe,"{`"New(-| )Earth`"}",t,{1679},DC
 Hal Jordan,{PC},f,{1680},Post-Crisis
 Hal Jordan,"{`"Post(-| )?C(risis)?`"}",f,{1680},Post-Crisis
 Hal Jordan,"{`"New(-| )Earth`"}",f,{1680},Post-Crisis
@@ -4960,6 +4956,7 @@ Kyle Rayner,"{`"New(-| )Earth`"}",f,{1685},Post-Crisis
 Kyle Rayner,"{`"Green Lantern Kyle Rayner`"}",f,"{1685,15411}",DC
 Sinestro,"{`"\\(DC( Comics)?\\)`"}",t,"{1691,1690}",DC
 Sodam Yat,"{`"\\(DC( Comics)?\\)`"}",t,{1692},DC
+Guardians of the Universe,{DC},t,"{1679,22537}",DC
 Kotal Kahn,{MK},t,{5291},Mortal Kombat
 Link,"{`"Hyrule Warriors`"}",f,{5214},Hyrule Warriors
 Taven,"{`"Mortal Kombat`"}",t,{5317},Mortal Kombat
@@ -5599,7 +5596,6 @@ Penny,{RWBY},f,{1341},RWBY
 Pyrrha,{RWBY},f,{1342},RWBY
 Pyrrha Nikos?,{RWBY},t,{1342},RWBY
 Qrow,{RWBY},t,{1343},RWBY
-Raven,{RWBY},f,{1344},RWBY
 Reese Chloris,{RWBY},t,{1345},RWBY
 Roman,{RWBY},f,{1346},RWBY
 Roman Torchwick,{RWBY},t,{1346},RWBY
@@ -5627,6 +5623,7 @@ Vav,"{`"X(-| )Ray (and|&) Vav`"}",f,{1364},X-Ray and Vav
 X-Ray,"{`"X(-| )Ray (and|&) Vav`"}",f,{1365},X-Ray and Vav
 Angry Video Game Nerd,{AVGN},t,{1366},""
 Angry Video Game Nerd,"{`"Angry Video Game Nerd`"}",t,{1366},""
+Raven,"{`"Raven ?\\(RWBY`"}",f,{1344},RWBY
 Arin Hanson,"{`"Animate(-| )A(-| )Grump`"}",f,{1367},Animate-A-Grump
 Doom,"{`"Assist Me!`"}",f,{1368},Assist Me!
 Captain Canuck,{2013},f,{1369},2013
@@ -23715,9 +23712,7 @@ The Avengers,"{`"What If The Avengers defeated everybody`"}",f,{17467},What If T
 The Avengers,{8110},f,{17467},What If The Avengers defeated everybody?
 Haunted Mask,{Goosebumps},f,{17468},Goosebumps
 Saya Kuroki,"{`"Deadly Class`"}",t,{17469},Deadly Class
-Apocalypse,"{`"Ultimates? Apocalyps?e`"}",f,{17470},1610
 Apocalypse,{1610},f,{17470},1610
-Kid Miracleman,"{`"Ultimates? Apocalyps?e`"}",t,{17471},1610
 Kid Miracleman,{1610},t,{17471},1610
 Ethan Edwards,{Marvel},t,{17472},616
 Ethan Edwards,{616},t,{17472},616
@@ -26987,7 +26982,6 @@ Gameboy,{Zetabrand},f,{21896},RHG
 Mayday,"{`"No Straight Roads`"}",f,{21897},No Straight Roads
 Mayday,{Zuke},f,{21897},No Straight Roads
 Zuke,"{`"No Straight Roads`"}",f,{21897},No Straight Roads
-Epithet Erased,"{`"Epithet Erased`"}",f,{21898},Epithet Erased
 Shepard,"{`"Shepard.*\\(ME\\)`"}",f,{9313},Mass Effect
 Dracula,{Castlevania},f,{1253},Castlevania
 Homelander,{show},f,{13117},"The Boys, 2019"
@@ -27943,3 +27937,54 @@ Sensui Seven,{YYH},t,{22459},Yu Yu Hakusho
 Hirudegarn,"{`"Dragon ?Ball`"}",t,{22460},Dragon Ball
 Hirudegarn,{DB(Z|S)},t,{22460},Dragon Ball
 Superman,"{`"Superman:? The Dark Side`"}",f,{22461},Superman: The Dark Side
+Wolverines,{Hugh|Jackman},f,{158},FOX
+Wolverines,{FOX},f,{158},FOX
+Wolverines,{Foxverse},f,{158},FOX
+Wolverines,"{`"X(-| )?Men (Movie|Film)s?`"}",f,{158},FOX
+Wolverines,"{`"X-?Men Cinematic Universe`"}",f,{158},FOX
+Predator,"{`"a Predator`",`"movie feats`"}",f,"{2799,13507}",""
+Cracker,"{`"One Piece`",Doflamingo}",f,{4064},One Piece
+Cracker,"{`"Cracker ?\\(One Piece`"}",f,{4064},One Piece
+Molly,"{`"Molly Carpenter`"}",f,{22518},The Dresden Files
+Molly,{Dresden(verse)?},f,{22518},The Dresden Files
+Ghost of Harry Dresden,"{`"Dresden( Files|verse)`"}",t,{22519},The Dresden Files
+Voolvif Monn,"{`"S(tar )?Wars`"}",t,{22520},Star Wars
+Kar Vastor,"{`"S(tar )?Wars`"}",t,{22521},Star Wars
+Molly McGee,{Ghost},t,{22522},The Ghost and Molly McGee
+General Zod,{PC},f,{22523},Post-Crisis
+General Zod,"{`"Posts?(-| )?C(risis)?`"}",f,{22523},Post-Crisis
+General Zod,"{`"New(-| )Earth`"}",f,{22523},Post-Crisis
+Planet Master,"{`"Pre(-| )?Flashpoint`"}",f,{22524},Pre-Flashpoint
+Duplicate Vegeta,"{`"Dragon ?Ball`"}",t,{22525},Dragon Ball
+Duplicate Vegeta,{DB(Z|S)},t,{22525},Dragon Ball
+Copy-Vegeta,"{`"Dragon ?Ball`"}",t,{22525},Dragon Ball
+Copy-Vegeta,{DB(Z|S)},t,{22525},Dragon Ball
+Captain Cold,{PC},f,{22526},Post-Crisis
+Captain Cold,"{`"Posts?(-| )?C(risis)?`"}",f,{22526},Post-Crisis
+Captain Cold,"{`"New(-| )Earth`"}",f,{22526},Post-Crisis
+Casey Jones,"{`"Teenaged? Mutant Ninja Turtles?`",1987}",f,{22527},TMNT 1987
+Casey Jones,"{TMNT,1987}",f,{22527},TMNT 1987
+Fordo,"{`"S(tar )?Wars`"}",f,{22528},Star Wars
+Fordo,"{`"Captain Fordo`"}",f,{22528},Star Wars
+Fordo,{ARC(77)?},f,{22528},Star Wars
+Golden Turd,"{`"American Dad`"}",t,{22529},American Dad!
+Golden Turd,{Roger'?s?},t,{22529},American Dad!
+Kayako Saeki,"{`"The Grudge`",Remake}",f,{22530},The Grudge Remake
+Ice Climbers,"{`"Ice Climbers?.*SSBM Adventure`"}",f,{22531},Ice Climbers' SSBM Adventure
+Apocalypse,"{`"Ultimates?( Marvel)? Apocalyps?e`"}",f,{17470},1610
+Kid Miracleman,"{`"Ultimates?( Marvel)? Apocalyps?e`"}",t,{17471},1610
+Protege,"{`"Prot(e|é)g(e|é) ?\\(Marvel`"}",f,{2043},Marvel
+Percival King,"{`"Epithet Erased`"}",f,{21898},Epithet Erased
+Thor,"{`"Marvel Animated Universe`"}",f,{22532},Marvel Animated Universe
+Thor,{92131},f,{22532},Marvel Animated Universe
+Scratch,"{`"Molly McGee`"}",f,{22533},The Ghost and Molly McGee
+Nemesis,{Samaritan},f,{22534},Samaritan
+Nemesis,"{`"Joe Smith`"}",f,{22534},Samaritan
+Nemesis,{Sylvester|Stallone},f,{22534},Samaritan
+Perturabo,{(WH)?40K},t,{22535},Warhammer 40k
+Perturabo,{Warhammer},t,{22535},Warhammer 40k
+Sphelonious Donk,{SiIva(Gunner)?},t,{22536},SiIvaGunner
+Guardians of the Universe,"{`"Pre(-| )?Flashpoint`"}",t,{22537},Pre-Flashpoint
+Guardians of the Universe,{PC},t,"{1679,22537}",DC
+Guardians of the Universe,"{`"Post(-| )?C(risis)?`"}",t,"{1679,22537}",DC
+Guardians of the Universe,"{`"New(-| )Earth`"}",t,"{1679,22537}",DC

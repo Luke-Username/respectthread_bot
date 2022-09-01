@@ -14,20 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE rt_id_array='{21898}';
+########################################
 
 ########################################
 
-UPDATE character SET version='{"Raven ?\\(RWBY"}' WHERE default_name='Raven' AND version='{"RWBY"}';
-
 ########################################
-
-UPDATE character SET version='{"Ultimates?( Marvel)? Apocalyps?e"}' WHERE version='{"Ultimates? Apocalyps?e"}';
-
-########################################
-
-SELECT * FROM respectthread WHERE link='https://redd.it/x1x83s';
-UPDATE character SET rt_id_array='{1679, ?}' WHERE rt_id_array='{1679}'; --After
 
 ########################################
 
