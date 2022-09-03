@@ -19,6 +19,9 @@ UPDATE character SET version='{"The Boys"}' WHERE default_name='Starlight' AND v
 
 ########################################
 
+UPDATE character_name SET name='B(r|l)ue?ford' WHERE name='Bruford';
+UPDATE character_name SET name='Gir(a|i)tina' WHERE name='Giratina';
+
 ########################################
 
 ########################################

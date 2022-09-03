@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Mob'],
+'Mob',
+False,
+False,
+[
+    ['Mob.*Mob Psycho 100']
+],
+'Mob Psycho 100',
+'{3906,3905}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/x3vo8t/mob_from_mob_psycho_100_vs_saiki_kusuo_from_saikik/
+
+########################################
+
 id = get_rt_id(cur, "Respect Red (Genndy Tartakovsky''s Primal)", 'https://redd.it/x2tj7n')
 add_data(['Red'],
 'Red',
@@ -176,6 +190,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/x2wqc1/respect_captain_falcon_death_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spider-Man! (Spider-Man: The Animated Series 1994)', 'https://redd.it/s5f4c4')
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['Animated', '1994'], ['Spider(-| )?Man:? The Animated Series']
+],
+'Spider-Man: The Animated Series',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Davriel Cane (Magic: The Gathering)', 'https://redd.it/x3olht')
+add_data(['Davriel Cane'],
+'Davriel Cane',
+False,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x3olht/respect_davriel_cane_magic_the_gathering/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tlano, The Batman of Zur-En-Arrh (DC, Pre-Crisis)', 'https://redd.it/x41kbh')
+add_data(['Tlano'],
+'Tlano',
+False,
+False,
+[
+    ['Pre(-| )?Crisis'], ['Batman of Zur(-| )En(-| )Arrh']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x41kbh/respect_tlano_the_batman_of_zurenarrh_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roron Corobb (Star Wars Legends)', 'https://redd.it/x4ay0q')
+add_data(['Roron Corobb'],
+'Roron Corobb',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
