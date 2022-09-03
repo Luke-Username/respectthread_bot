@@ -121,6 +121,46 @@ False,
 
 ########################################
 
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Xenomorphs?']
+],
+'',
+'{2799,13507}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/x4pk6r/thanos_vs_horror_characters/imwln9z/?context=3
+
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Xenomorphs?']
+],
+'',
+'{2799,13507}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/x4pk6r/thanos_vs_horror_characters/imwln9z/?context=3
+
+########################################
+
+add_data(['Luban'],
+'Luban',
+False,
+False,
+[
+    ['Leprechaun']
+],
+'Leprechaun film series',
+'{9214}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, "Respect Red (Genndy Tartakovsky''s Primal)", 'https://redd.it/x2tj7n')
 add_data(['Red'],
 'Red',
