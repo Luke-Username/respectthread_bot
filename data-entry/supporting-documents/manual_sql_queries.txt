@@ -24,9 +24,15 @@ UPDATE character_name SET name='Gir(a|i)tina' WHERE name='Giratina';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sentry', 'Sentry Turret', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sentry', 'Sentry Turrets', 0);
+
 ########################################
 
 ########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/x547ez';
+UPDATE character SET rt_id_array='{21129, ?}' WHERE default_name='Man-Bat' AND displayed_version_name='DC'; --After
 
 ########################################
 

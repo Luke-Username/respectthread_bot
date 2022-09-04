@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2272, 'Respect Adrian Toomes, the Vulture! (Marvel, Earth-616)', 'https://redd.it/x547gi')
+
+########################################
+
 add_data(['Mob'],
 'Mob',
 False,
@@ -290,6 +294,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Foul Moudama (Star Wars Legends)', 'https://redd.it/x52v7n')
+add_data(['Foul Moudama'],
+'Foul Moudama',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x52v7n/respect_foul_moudama_star_wars_legends/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Illuminati (Marvel Cinematic Universe, Earth-838)', 'https://redd.it/x4mlxv')
+add_data(['Illuminati'],
+'Illuminati',
+True,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU'], ['838'], ['DS:? ?MOM'], ['Multiverse of Madness']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kirk Langstrom, the Man-Bat! (DC, Post-Crisis)', 'https://redd.it/x547ez')
+add_data(['Man(-| )?Bat'],
+'Man-Bat',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x547ez/respect_kirk_langstrom_the_manbat_dc_postcrisis/
 
 ########################################
 
