@@ -36,6 +36,8 @@ UPDATE character SET rt_id_array='{21129, ?}' WHERE default_name='Man-Bat' AND d
 
 ########################################
 
+DELETE FROM character WHERE default_name='Aquaman' AND displayed_version_name='Young Justice';
+
 ########################################
 
 ########################################

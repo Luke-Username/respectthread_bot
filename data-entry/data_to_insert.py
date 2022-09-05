@@ -342,6 +342,258 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Stegosaurus (Dinosaur King)', 'https://redd.it/x5ece6')
+add_data(['Stegosaurus'],
+'Stegosaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Feral Predator (Prey)', 'https://redd.it/x5nnz1')
+add_data(['Feral Predator'],
+'Feral Predator',
+False,
+True,
+[
+    ['Prey']
+],
+'Prey',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x5nnz1/respect_the_feral_predator_prey/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Naru (Prey)', 'https://redd.it/x5nou2')
+add_data(['Naru'],
+'Naru',
+False,
+False,
+[
+    ['Prey']
+],
+'Prey',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x5nou2/respect_naru_prey/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kefka! (Final Fantasy)', 'https://redd.it/x5t27t')
+add_data(['Kefka'],
+'Kefka',
+False,
+True,
+[
+    ['Final Fantasy'], ['FF'], ['FF\d\d?']
+],
+'Final Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x5t27t/respect_kefka_final_fantasy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Neru (Camprul: The Prul Campaign)', 'https://redd.it/x5z4g0')
+add_data(['Neru'],
+'Neru',
+False,
+False,
+[
+    ['Camprul'], ['Prul Campaign']
+],
+'Camprul: The Prul Campaign',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x5z4g0/respect_neru_camprul_the_prul_campaign/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aril Leewings (Camprul: The Prul Campaign)', 'https://redd.it/x6kh4m')
+add_data(['Ari Leewings'],
+'Ari Leewings',
+False,
+True,
+[
+    ['Camprul'], ['Prul Campaign']
+],
+'Camprul: The Prul Campaign',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x6kh4m/respect_aril_leewings_camprul_the_prul_campaign/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Munchy (Road to Radcon)', 'https://redd.it/x63mcc')
+add_data(['Munchy'],
+'Munchy',
+False,
+False,
+[
+    ['Road to Radcon']
+],
+'Road to Radcon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x63mcc/respect_munchy_road_to_radcon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Brad Garlinghouse (Road to Radcon)', 'https://redd.it/x63mrk')
+add_data(['Brad Garlinghouse'],
+'Brad Garlinghouse',
+False,
+False,
+[
+    ['Road to Radcon']
+],
+'Road to Radcon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x63mrk/respect_brad_garlinghouse_road_to_radcon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ben Saint (Road to Radcon)', 'https://redd.it/x63n7w')
+add_data(['Ben Saint'],
+'Ben Saint',
+False,
+True,
+[
+    ['Road to Radcon']
+],
+'Road to Radcon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jacked Pumpk (Road to Radcon)', 'https://redd.it/x63nmz')
+add_data(['Jacked Pumpk'],
+'Jacked Pumpk',
+False,
+False,
+[
+    ['Road to Radcon']
+],
+'Road to Radcon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x63nmz/respect_jacked_pumpk_road_to_radcon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Digibro (Road to Radcon)', 'https://redd.it/x63o20')
+add_data(['Digibro'],
+'Digibro',
+False,
+True,
+[
+    ['Road to Radcon']
+],
+'Road to Radcon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x63o20/respect_digibro_road_to_radcon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tom (Road to Radcon)', 'https://redd.it/x63ocd')
+add_data(['Tom'],
+'Tom',
+False,
+False,
+[
+    ['Road to Radcon']
+],
+'Road to Radcon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x63ocd/respect_tom_road_to_radcon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Bombers: Genthru, Sub, and Bara (Hunter x Hunter)', 'https://redd.it/x64dhq')
+add_data(['Genthru'],
+'Genthru',
+False,
+False,
+[
+    ['Hunter ?(x ?)?Hunter'], ['HxH']
+],
+'Hunter x Hunter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x64dhq/respect_the_bombers_genthru_sub_and_bara_hunter_x/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Big Al (Walking With Dinosaurs)', 'https://redd.it/x6cd00')
+add_data(['Big Al'],
+'Big Al',
+False,
+False,
+[
+    ['Walking With Dinosaurs']
+],
+'Walking With Dinosaurs',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x6cd00/respect_big_al_walking_with_dinosaurs/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aquaman (Orin, Young Justice)', 'https://redd.it/x6hkgc')
+add_data(['Aqua(-| )?man'],
+'Aquaman',
+False,
+False,
+[
+    ['Aqua(-| )?man ?\(Young Justice'], ['Aqua(-| )?man from Young Justice']
+],
+'Young Justice',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x6hkgc/respect_aquaman_orin_young_justice/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Grail, The Daughter of Darkseid (DC, New 52/Rebirth)', 'https://redd.it/x6ksce')
+add_data(['Grail'],
+'Grail',
+False,
+False,
+[
+    ['Grail ?\(DC'], ['Darkseid', 'DC']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x6ksce/respect_grail_the_daughter_of_darkseid_dc_new/
+
+add_data(['Grail'],
+'Grail',
+False,
+False,
+[
+    ['Grail.*New 52'], ['Grail ?\(Rebirth']
+],
+'New 52 / Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x6ksce/respect_grail_the_daughter_of_darkseid_dc_new/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
