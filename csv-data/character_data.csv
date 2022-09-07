@@ -3569,8 +3569,6 @@ Flash,"{`"Flash (Young Justice)`"}",f,{1008},Young Justice
 Flash,"{`"Flash from Young Justice`"}",f,{1008},Young Justice
 Green Lantern,"{`"(Green Lantern|Hal Jordan|John Stewart|Guy Gardner) (Young Justice)`"}",f,{1008},Young Justice
 Green Lantern,"{`"(Green Lantern|Hal Jordan|John Stewart|Guy Gardner) from Young Justice`"}",f,{1008},Young Justice
-Aquaman,"{`"Aquaman (Young Justice)`"}",f,{1008},Young Justice
-Aquaman,"{`"Aquaman from Young Justice`"}",f,{1008},Young Justice
 Martian Manhunter,"{`"Martian Manhunter (Young Justice)`"}",f,{1008},Young Justice
 Martian Manhunter,"{`"Martian Manhunter from Young Justice`"}",f,{1008},Young Justice
 Green Arrow,"{`"Green Arrow (Young Justice)`"}",f,{1008},Young Justice
@@ -19474,7 +19472,6 @@ Wolfe Allelujah,{Suggs(verse)?},t,{13589},Suggsverse
 Doctor Bong,{616},t,{13590},616
 Bellatrix Lestrange,"{`"Harry Potter`"}",t,"{5817,13591}",Harry Potter
 Helltaker,"{`"\\(Helltaker\\)`"}",t,{13592},""
-Starlight,"{`"The Boys`",TV}",f,{13593},"The Boys, 2019"
 Starlight,"{`"The Boys`",show}",f,{13593},"The Boys, 2019"
 Starlight,"{`"The Boys`",2019}",f,{13593},"The Boys, 2019"
 Starlight,"{`"show version`"}",f,{13593},"The Boys, 2019"
@@ -25416,8 +25413,6 @@ Man-Bat,"{`"New(-| )?52`"}",f,{21129},New 52
 Man-Bat,{Nu?-?52},f,{21129},New 52
 Man-Bat,"{`"Post(-| )52`"}",f,{21129},New 52
 Man-Bat,"{`"Prime(-| )Earth`"}",f,{21129},New 52
-Man-Bat,"{`"\\(DC( Comics)?\\)`"}",t,{21129},DC
-Man-Bat,"{`"\\[DC( Comics)?\\]`"}",t,{21129},DC
 Man-Bat,{PC},f,{},Post-Crisis
 Man-Bat,"{`"Posts?(-| )?C(risis)?`"}",f,{},Post-Crisis
 Man-Bat,"{`"New(-| )Earth`"}",f,{},Post-Crisis
@@ -25470,6 +25465,8 @@ Echo,"{`"Echo ?\\(MCU`"}",f,{21147},MCU
 Echo,"{MCU,`"martial arti?st?`"}",f,{21147},MCU
 Swordsman,"{`"Swordsman ?\\(Marvel Cinematic Universe`"}",f,{21148},MCU
 Sonic,"{`"Movie Sonic|Sonic Movie`"}",f,"{8607,17670}",2020 film
+Man-Bat,"{`"\\(DC( Comics)?\\)`"}",t,"{21129,22548}",DC
+Man-Bat,"{`"\\[DC( Comics)?\\]`"}",t,"{21129,22548}",DC
 Swordsman,"{`"Swordsman ?\\(MCU`"}",f,{21148},MCU
 Swordsman,"{Duquesne,`"Marvel Cinematic Universe`"}",f,{21148},MCU
 Swordsman,"{Duquesne,MCU}",f,{21148},MCU
@@ -26691,7 +26688,6 @@ Indigo Tribe,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
 Star Sapphire,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
 Black Lantern Corps,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
 Metal Men,"{`"\\(DC( Comics)?\\)`"}",f,{7559},DC
-Bane,"{`"\\(DC( Comics)?\\)`"}",f,"{1529,1530}",New 52 / Rebirth
 Luther Strode,{Image},f,{2784},Image Comics
 The Elder,"{`"S(tar )?Wars`"}",f,{21726},Star Wars
 Arcanine,{Gary},f,{21727},Gary
@@ -26728,6 +26724,7 @@ Souichirou Kuzuki,{Fate},t,{21740},Fate
 Amazons,"{`"DC Extended Universe`"}",f,{21741},DCEU
 Amazons,"{`"DC ?(E|C)U`"}",f,{21741},DCEU
 Amazons,"{`"DC Cinematic Universe`"}",f,{21741},DCEU
+Bane,"{`"\\(DC( Comics)?\\)`"}",f,"{1529,1530}",DC
 Archangel,{Marvel},f,{2343},616
 Splinter,"{TMNT,Archie}",f,{21755},Archie Comics
 Shredder,"{`"Teenaged? Mutant Ninja Turtles?`",Archie}",f,{21756},Archie Comics
@@ -27988,3 +27985,78 @@ Guardians of the Universe,"{`"Pre(-| )?Flashpoint`"}",t,{22537},Pre-Flashpoint
 Guardians of the Universe,{PC},t,"{1679,22537}",DC
 Guardians of the Universe,"{`"Post(-| )?C(risis)?`"}",t,"{1679,22537}",DC
 Guardians of the Universe,"{`"New(-| )Earth`"}",t,"{1679,22537}",DC
+Starlight,"{`"The Boys`"}",f,{13593},The Boys
+Mob,"{`"Mob.*Mob Psycho 100`"}",f,"{3906,3905}",Mob Psycho 100
+Bane,{Bane.*Venom},f,"{1529,1530}",DC
+Predator,{Xenomorphs?},f,"{2799,13507}",""
+Predators,{Xenomorphs?},f,"{2799,13507}",""
+Luban,{Leprechaun},f,{9214},Leprechaun film series
+Red,"{Primal,Tartakovskys?}",f,{22538},Primal
+Crazy Jane,"{`"Doom Patrol`"}",t,{22539},DC
+Crazy Jane,"{`"\\(DC( Comics)?\\)`"}",t,{22539},DC
+Crazy Jane,"{`"\\[DC( Comics)?\\]`"}",t,{22539},DC
+Crazy Jane,{PC},f,{22539},Post-Crisis
+Crazy Jane,"{`"Posts?(-| )?C(risis)?`"}",f,{22539},Post-Crisis
+Crazy Jane,"{`"New(-| )Earth`"}",f,{22539},Post-Crisis
+God,"{`"Pearl of Great Price`"}",f,{22540},Pearl of Great Price
+Captain Falcon,"{`"DEATH BATTLE`"}",f,{22541},DEATH BATTLE!
+Spider-Man,"{Animated,1994}",f,{22542},Spider-Man: The Animated Series
+Spider-Man,"{`"Spider(-| )?Man:? The Animated Series`"}",f,{22542},Spider-Man: The Animated Series
+Davriel Cane,"{`"Magic:? The Gathering`"}",t,{22543},Magic: The Gathering
+Davriel Cane,{M:?TG},t,{22543},Magic: The Gathering
+Tlano,"{`"Pre(-| )?Crisis`"}",f,{22544},Pre-Crisis
+Tlano,"{`"Batman of Zur(-| )En(-| )Arrh`"}",f,{22544},Pre-Crisis
+Roron Corobb,"{`"S(tar )?Wars`"}",f,{22545},Star Wars
+Foul Moudama,"{`"S(tar )?Wars`"}",t,{22546},Star Wars
+Illuminati,"{`"Marvel Cinematic Universe`"}",f,{22547},MCU
+Illuminati,{MCU},f,{22547},MCU
+Illuminati,{838},f,{22547},MCU
+Illuminati,"{`"DS:? ?MOM`"}",f,{22547},MCU
+Illuminati,"{`"Multiverse of Madness`"}",f,{22547},MCU
+Stegosaurus,"{`"Dinosaur King`"}",f,{22549},Dinosaur King
+Feral Predator,{Prey},t,{22550},Prey
+Naru,{Prey},f,{22551},Prey
+Kefka,"{`"Final Fantasy`"}",t,{22552},Final Fantasy
+Kefka,{FF},t,{22552},Final Fantasy
+Kefka,"{`"FF\\d\\d?`"}",t,{22552},Final Fantasy
+Neru,{Camprul},f,{22553},Camprul: The Prul Campaign
+Neru,"{`"Prul Campaign`"}",f,{22553},Camprul: The Prul Campaign
+Ari Leewings,{Camprul},t,{22554},Camprul: The Prul Campaign
+Ari Leewings,"{`"Prul Campaign`"}",t,{22554},Camprul: The Prul Campaign
+Munchy,"{`"Road to Radcon`"}",f,{22555},Road to Radcon
+Brad Garlinghouse,"{`"Road to Radcon`"}",f,{22556},Road to Radcon
+Ben Saint,"{`"Road to Radcon`"}",t,{22557},Road to Radcon
+Jacked Pumpk,"{`"Road to Radcon`"}",f,{22558},Road to Radcon
+Digibro,"{`"Road to Radcon`"}",t,{22559},Road to Radcon
+Tom,"{`"Road to Radcon`"}",f,{22560},Road to Radcon
+Genthru,"{`"Hunter ?(x ?)?Hunter`"}",f,{22561},Hunter x Hunter
+Genthru,{HxH},f,{22561},Hunter x Hunter
+Big Al,"{`"Walking With Dinosaurs`"}",f,{22562},Walking With Dinosaurs
+Aquaman,"{`"Aqua(-| )?man ?\\(Young Justice`"}",f,{22563},Young Justice
+Aquaman,"{`"Aqua(-| )?man from Young Justice`"}",f,{22563},Young Justice
+Grail,"{`"Grail ?\\(DC`"}",f,{22564},DC
+Grail,"{Darkseid,DC}",f,{22564},DC
+Grail,"{`"Grail.*New 52`"}",f,{22564},New 52 / Rebirth
+Grail,"{`"Grail ?\\(Rebirth`"}",f,{22564},New 52 / Rebirth
+Vampire Batman,"{`"Brave (and|&) the Bold`"}",f,{22565},The Brave and the Bold
+Bat Monolith,"{`"Brave (and|&) the Bold`"}",t,{22566},The Brave and the Bold
+Warrior Lady,"{`"Warrior Lady of the Wasteland`"}",f,{22567},Yu-Gi-Oh!
+Warrior Lady,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{22567},Yu-Gi-Oh!
+Galactus,{Fortnite},f,{22568},Fortnite
+The Scientist,{Fortnite},f,{22569},Fortnite
+Meowscles,{Fortnite},t,{22570},Fortnite
+Thor,"{`"Ultimate Avengers`"}",f,{22571},Ultimate Avengers
+Bio-Ship,"{`"Young Justice`"}",f,{22572},Young Justice
+Merlyn,"{`"Posts?(-| )?C(risis)?`"}",f,{22573},Post-Crisis
+Merlyn,"{`"\\(DC( Comics)?\\)`"}",f,{22573},DC
+Merlyn,"{`"\\[DC( Comics)?\\]`"}",f,{22573},DC
+Malcolm Merlyn,"{`"\\(DC( Comics)?\\)`"}",t,{22573},DC
+Malcolm Merlyn,"{`"\\[DC( Comics)?\\]`"}",t,{22573},DC
+Malcolm Merlyn,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
+Malcolm Merlyn,{(DC)?CW},f,{},CW Arrowverse
+Malcolm Merlyn,"{`"DC ?TV`"}",f,{},CW Arrowverse
+George Dyke,"{`"Pre(-| )?Crisis`"}",f,{22574},Pre-Crisis
+The Grapplers,{616},f,{22575},616
+Pulsemon,"{`"Digimon Project`"}",f,{22576},Digimon Project
+RizeGreymon,"{`"Digimon Project`"}",f,{22577},Digimon Project
+BlackWarGreymon,"{`"Digimon Project`"}",f,{22578},Digimon Project

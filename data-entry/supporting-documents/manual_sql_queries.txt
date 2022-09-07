@@ -14,32 +14,15 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET displayed_version_name='The Boys' WHERE default_name='Starlight' AND version='{"The Boys","TV"}';
-UPDATE character SET version='{"The Boys"}' WHERE default_name='Starlight' AND version='{"The Boys","TV"}';
+########################################
 
 ########################################
 
-UPDATE character_name SET name='B(r|l)ue?ford' WHERE name='Bruford';
-UPDATE character_name SET name='Gir(a|i)tina' WHERE name='Giratina';
+########################################
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sentry', 'Sentry Turret', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sentry', 'Sentry Turrets', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Shaggy', 'Shaggy man', 0);
-
 ########################################
-
-UPDATE character SET displayed_version_name='DC' WHERE rt_id_array='{1529,1530}';
-
-########################################
-
-SELECT * FROM respectthread WHERE link='https://redd.it/x547ez';
-UPDATE character SET rt_id_array='{21129, ?}' WHERE default_name='Man-Bat' AND displayed_version_name='DC'; --After
-
-########################################
-
-DELETE FROM character WHERE default_name='Aquaman' AND displayed_version_name='Young Justice';
 
 ########################################
 
