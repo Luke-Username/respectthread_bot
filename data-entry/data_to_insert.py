@@ -125,6 +125,20 @@ False,
 
 ########################################
 
+add_data(['Bane'],
+'Bane',
+False,
+False,
+[
+    ['Bane.*Venom']
+],
+'DC',
+'{1529,1530}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/x70clo/who_would_win_captain_america_or_bane/in9tkt3/?context=3
+
+########################################
+
 add_data(['Predator'],
 'Predator',
 False,
@@ -591,6 +605,252 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/x6ksce/respect_grail_the_daughter_of_darkseid_dc_new/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vampire Batman (Batman: The Brave and the Bold)', 'https://redd.it/x6rott')
+add_data(['Vampire Batman'],
+'Vampire Batman',
+False,
+False,
+[
+    ['Brave (and|&) the Bold']
+],
+'The Brave and the Bold',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x6rott/respect_vampire_batman_batman_the_brave_and_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bat Monolith! (Batman: The Brave and the Bold)', 'https://redd.it/x7u1b1')
+add_data(['Bat(-| )Monolith'],
+'Bat Monolith',
+False,
+True,
+[
+    ['Brave (and|&) the Bold']
+],
+'The Brave and the Bold',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x7u1b1/respect_bat_monolith_batman_the_brave_and_the_bold/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Warrior Lady (Yu-Gi-Oh! Card Game)', 'https://redd.it/x6x5lt')
+add_data(['Warrior Lady'],
+'Warrior Lady',
+False,
+False,
+[
+    ['Warrior Lady of the Wasteland'], ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x6x5lt/respect_the_warrior_lady_yugioh_card_game/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Galactus (Fortnite)', 'https://redd.it/x6zhjf')
+add_data(['Galactus'],
+'Galactus',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x6zhjf/respect_galactus_fortnite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Scientist (Fortnite)', 'https://redd.it/x7jedc')
+add_data(['The Scientist'],
+'The Scientist',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x7jedc/respect_the_scientist_fortnite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Meowscles! (Fortnite)', 'https://redd.it/x7hupg')
+add_data(['Meowscles'],
+'Meowscles',
+False,
+True,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x7hupg/respect_meowscles_fortnite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Thor Odinson! (Ultimate Avengers)', 'https://redd.it/x6sxyg')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Ultimate Avengers']
+],
+'Ultimate Avengers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x6sxyg/respect_thor_odinson_ultimate_avengers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bio-Ship (Young Justice)', 'https://redd.it/x6ztvd')
+add_data(['Bio-Ship'],
+'Bio-Ship',
+False,
+False,
+[
+    ['Young Justice']
+],
+'Young Justice',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x6ztvd/respect_bioship_young_justice/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Malcolm Merlyn (DC, Post-Crisis)', 'https://redd.it/x7chbs')
+add_data(['Merlyn'],
+'Merlyn',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x7chbs/respect_malcolm_merlyn_dc_postcrisis/
+
+add_data(['Merlyn'],
+'Merlyn',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x7chbs/respect_malcolm_merlyn_dc_postcrisis/
+
+add_data(['Malcolm Merlyn'],
+'Malcolm Merlyn',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x7chbs/respect_malcolm_merlyn_dc_postcrisis/
+
+add_data(['Malcolm Merlyn'],
+'Malcolm Merlyn',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+],
+'CW Arrowverse',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x7chbs/respect_malcolm_merlyn_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect George Dyke, The Gorilla Boss of Gotham City (DC, Pre-Crisis)', 'https://redd.it/x7q3je')
+add_data(['George Dyke'],
+'George Dyke',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x7q3je/respect_george_dyke_the_gorilla_boss_of_gotham/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Grapplers! (Marvel 616)', 'https://redd.it/x7jm5d')
+add_data(['The Grapplers'],
+'The Grapplers',
+True,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x7jm5d/respect_the_grapplers_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pulsemon (Digimon Project)', 'https://redd.it/x7v8x0')
+add_data(['Pulsemon'],
+'Pulsemon',
+False,
+False,
+[
+    ['Digimon Project']
+],
+'Digimon Project',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x7v8x0/respect_pulsemon_digimon_project/
+
+########################################
+
+id = get_rt_id(cur, 'Respect RizeGreymon (Digimon Project)', 'https://redd.it/x7v8yu')
+add_data(['RizeGreymon'],
+'RizeGreymon',
+False,
+False,
+[
+    ['Digimon Project']
+],
+'Digimon Project',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x7v8yu/respect_rizegreymon_digimon_project/
+
+########################################
+
+id = get_rt_id(cur, 'Respect BlackWarGreymon (Digimon Project)', 'https://redd.it/x7vdna')
+add_data(['BlackWarGreymon'],
+'BlackWarGreymon',
+False,
+False,
+[
+    ['Digimon Project']
+],
+'Digimon Project',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 

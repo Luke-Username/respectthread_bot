@@ -26,8 +26,11 @@ UPDATE character_name SET name='Gir(a|i)tina' WHERE name='Giratina';
 
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sentry', 'Sentry Turret', 0);
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sentry', 'Sentry Turrets', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Shaggy', 'Shaggy man', 0);
 
 ########################################
+
+UPDATE character SET displayed_version_name='DC' WHERE rt_id_array='{1529,1530}';
 
 ########################################
 

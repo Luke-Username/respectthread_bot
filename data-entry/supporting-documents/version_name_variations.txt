@@ -3800,7 +3800,7 @@ You're Next
 
 Yu-Gi-Oh!
 	Version
-		'{"Yu(-| )?Gi(-| )?Oh"}'
+		['Yu(-| )?Gi(-| )?Oh']
 	Displayed Version Name
 		"Yu-Gi-Oh!"
 
