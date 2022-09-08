@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Lashawn Baez, Peek-a-Boo (DC, Post Crisis)', 'https://redd.it/x89azb')
+add_data(['Lashawn Baez'],
+'Lashawn Baez',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x89azb/respect_lashawn_baez_peekaboo_dc_post_crisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Megalo (Fossil Fighters)', 'https://redd.it/x8iqt6')
+add_data(['Megalo'],
+'Megalo',
+False,
+False,
+[
+    ['Fossil Fighters']
+],
+'Fossil Fighters',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
