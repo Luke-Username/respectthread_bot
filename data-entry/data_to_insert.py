@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Black Widow'],
+'Black Widow',
+False,
+False,
+[
+    ['vs.*Black Widow', 'John Wick']
+],
+'616',
+'{1989}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/x941ql/yorspy_x_family_vs_dutch_john_wick_james_bond/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Lashawn Baez, Peek-a-Boo (DC, Post Crisis)', 'https://redd.it/x89azb')
 add_data(['Lashawn Baez'],
 'Lashawn Baez',
@@ -134,6 +148,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Super-Batman (Batman: The Brave and The Bold)', 'https://redd.it/x8pya5')
+add_data(['Super(-| )Batman'],
+'Super-Batman',
+False,
+False,
+[
+    ['Brave (and|&) the Bold']
+],
+'The Brave and the Bold',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x8pya5/respect_superbatman_batman_the_brave_and_the_bold/
+
+########################################
+
+id = get_rt_id(cur, 'Respect ToyAgumon (Digimon Frontier)', 'https://redd.it/x8t72z')
+add_data(['ToyAgumon'],
+'ToyAgumon',
+False,
+False,
+[
+    ['Digimon Frontier']
+],
+'Digimon Frontier',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x8t72z/respect_toyagumon_digimon_frontier/
 
 ########################################
 

@@ -14,6 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Lupin( the)? (3|III|Thi)(rd)?' WHERE name='Lupin( the)? (3|III|Thi)rd';
+
 ########################################
 
 ########################################
