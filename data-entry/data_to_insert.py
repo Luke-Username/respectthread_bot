@@ -107,6 +107,27 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13351, 'Respect Doctor Strange (Marvel Cinematic Universe)', 'https://redd.it/xaothr')
+update_respectthread(cur, 270, 'Respect Scarlet Witch (Marvel Cinematic Universe)', 'https://redd.it/xaotrs')
+
+########################################
+
+add_data(['The writer'],
+'The writer',
+False,
+False,
+[
+    ['The writer ?\(DC']
+],
+'DC',
+'{20331}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/x8qum2/louis_bloom_nightcrawler_vs_patrick_bateman/injtx6f/?context=3
+
+########################################
+
+########################################
+
 add_data(['Night ?crawler'],
 'Nightcrawler',
 False,
@@ -117,7 +138,7 @@ False,
 'Louis Bloom',
 '{}'
 )
-#https://www.reddit.com/r/whowouldwin/comments/x8qum2/louis_bloom_nightcrawler_vs_patrick_bateman/injtx6f/?context=3
+#
 
 ########################################
 
