@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Night ?crawler'],
+'Nightcrawler',
+False,
+False,
+[
+    ['Louis Bloom']
+],
+'Louis Bloom',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/x8qum2/louis_bloom_nightcrawler_vs_patrick_bateman/injtx6f/?context=3
+
+########################################
+
 add_data(['Black Widow'],
 'Black Widow',
 False,
