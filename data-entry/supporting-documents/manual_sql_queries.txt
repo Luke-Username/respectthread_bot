@@ -14,15 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Lupin( the)? (3|III|Thi)(rd)?' WHERE name='Lupin( the)? (3|III|Thi)rd';
-
 ########################################
 
-UPDATE respectthread SET link='https://redd.it/k7fxua' WHERE link='link='https://redd.it/k7fxuas';
-
 ########################################
-
-UPDATE character SET is_default=TRUE WHERE default_name='Sun Wukong' AND full_version_name='Overly Sarcastic Productions';
 
 ########################################
 

@@ -26006,12 +26006,12 @@ Pleiades,"{`"Ainz Ooal Gown`"}",f,{21351},Overlord
 Yuri Alpha,{Overlord},t,{21351},Overlord
 Lupusregina Beta,{Overlord},t,{21351},Overlord
 Narberal Gamma,{Overlord},t,{21351},Overlord
-Sun Wukong,"{`"Overly Sarcastic Productions`"}",f,{21352},Overly Sarcastic Productions
 Ultron,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{21353},Earths Mightiest Heroes
 Ultron,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{21353},Earths Mightiest Heroes
 Artoria Pendragon,{Fate},t,"{6256,21412}",Fate
 Artoria Pendragon,{Zero},t,"{6256,21412}",Fate
 Godzilla,"{`"Godzilla vs\\.? Kong`"}",f,{280},MonsterVerse
+Sun Wukong,"{`"Overly Sarcastic Productions`"}",t,{21352},Overly Sarcastic Productions
 Ultron,"{`"A(vengers)?: ?EMH`"}",f,{21353},Earths Mightiest Heroes
 Ultron,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{21353},Earths Mightiest Heroes
 Alabaster,{Torrington},f,{21354},Percy Jackson
@@ -28060,3 +28060,19 @@ The Grapplers,{616},f,{22575},616
 Pulsemon,"{`"Digimon Project`"}",f,{22576},Digimon Project
 RizeGreymon,"{`"Digimon Project`"}",f,{22577},Digimon Project
 BlackWarGreymon,"{`"Digimon Project`"}",f,{22578},Digimon Project
+The writer,"{`"The writer ?\\(DC`"}",f,{20331},DC
+Nightcrawler,"{`"Louis Bloom`"}",f,{},Louis Bloom
+Black Widow,"{`"vs.*Black Widow`",`"John Wick`"}",f,{1989},616
+Lara Croft,"{`"movie Lara`"}",f,{21699},Lara Croft: Tomb Raider
+Lashawn Baez,{PC},f,{22579},Post-Crisis
+Lashawn Baez,"{`"Posts?(-| )?C(risis)?`"}",f,{22579},Post-Crisis
+Lashawn Baez,"{`"New(-| )Earth`"}",f,{22579},Post-Crisis
+Megalo,"{`"Fossil Fighters`"}",f,{22580},Fossil Fighters
+Usagi Yojimbo,"{`"Teenaged? Mutant Ninja Turtles?`",1987}",f,{22581},TMNT 1987
+Usagi Yojimbo,"{TMNT,1987}",f,{22581},TMNT 1987
+Usagi Yojimbo,"{TMNT,87}",f,{22581},TMNT 1987
+Usagi Yojimbo,"{`"original TMNT cartoon`"}",f,{22581},TMNT 1987
+Super-Batman,"{`"Brave (and|&) the Bold`"}",f,{22582},The Brave and the Bold
+ToyAgumon,"{`"Digimon Frontier`"}",f,{22583},Digimon Frontier
+Robin Hood,"{`"Folk ?(lore|tale)`"}",t,{22584},""
+Robin Hood,{Ballads?},t,{22584},""
