@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Lara Croft'],
+'Lara Croft',
+False,
+False,
+[
+    ['movie Lara']
+],
+'Lara Croft: Tomb Raider',
+'{21699}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xaencv/lara_croft_tomb_raider_vs_hermione_granger_harry/intacxd/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Lashawn Baez, Peek-a-Boo (DC, Post Crisis)', 'https://redd.it/x89azb')
 add_data(['Lashawn Baez'],
 'Lashawn Baez',
@@ -151,6 +165,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Usagi Yojimbo (Teenage Mutant Ninja Turtles 1987)', 'https://redd.it/x9typt')
+add_data(['Usagi Yojimbo'],
+'Usagi Yojimbo',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '1987'], ['TMNT', '1987'], ['TMNT', '87'], ['original TMNT cartoon']
+],
+'TMNT 1987',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/x9typt/respect_usagi_yojimbo_teenage_mutant_ninja/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Super-Batman (Batman: The Brave and The Bold)', 'https://redd.it/x8pya5')
 add_data(['Super(-| )Batman'],
 'Super-Batman',
@@ -178,6 +207,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/x8t72z/respect_toyagumon_digimon_frontier/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Robin Hood (Traditional Robin Hood Ballads)', 'https://redd.it/xacxxw')
+add_data(['Robin Hood'],
+'Robin Hood',
+False,
+True,
+[
+    ['Folk ?(lore|tale)'], ['Ballads?']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 

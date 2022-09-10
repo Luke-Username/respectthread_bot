@@ -1085,7 +1085,7 @@ FLCL
 
 Folklore
 	Version
-		'{"Folk ?(lore|tale)"}'
+		['Folk ?(lore|tale)']
 	Displayed Version Name
 		"Folklore"
 
@@ -3378,7 +3378,7 @@ Teenage Mutant Ninja Turtles
 
 Teenage Mutant Ninja Turtles (1987)
 	Version
-		'{"Teenaged? Mutant Ninja Turtles?", "1987"}', '{"TMNT", "1987"}', '{"TMNT", "87"}', '{"original TMNT cartoon"}'
+		['Teenaged? Mutant Ninja Turtles?', '1987'], ['TMNT', '1987'], ['TMNT', '87'], ['original TMNT cartoon']
 	Displayed Version Name
 		"TMNT 1987"
 	if name == "Teenage mutant ninja turtles":

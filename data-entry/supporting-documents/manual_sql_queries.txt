@@ -18,6 +18,8 @@ UPDATE character_name SET name='Lupin( the)? (3|III|Thi)(rd)?' WHERE name='Lupin
 
 ########################################
 
+UPDATE respectthread SET link='https://redd.it/k7fxua' WHERE link='link='https://redd.it/k7fxuas';
+
 ########################################
 
 ########################################
