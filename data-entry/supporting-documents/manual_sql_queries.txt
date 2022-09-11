@@ -18,6 +18,12 @@ UPDATE character SET is_default=FALSE WHERE default_name='Black Dwarf';
 
 ########################################
 
+UPDATE character SET version='{"Raven.*RWBY"} WHERE version='{"Raven ?\\(RWBY"}';
+
+########################################
+
+DELETE FROM character WHERE default_name='Raven' AND version='{"Raven vs"}';
+
 ########################################
 
 ########################################

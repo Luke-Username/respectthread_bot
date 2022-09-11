@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Sega']
+],
+'Sonic the Hedgehog',
+'{8276,8277}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Batmobile! (Batman: The Brave and the Bold)', 'https://redd.it/xb7bai')
 add_data(['Bat(-| )?mobile'],
 'Batmobile',
@@ -119,6 +133,33 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/xb7bai/respect_the_batmobile_batman_the_brave_and_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bizarro-Girl (DC, Post Crisis)', 'https://redd.it/xbkt7d')
+add_data(['Bizarro(-| )Girl'],
+'Bizarro-Girl',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xbkt7d/respect_bizarrogirl_dc_post_crisis/
+
+add_data(['Bizarro-Girl'],
+'Bizarro-Girl',
+False,
+True,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xbkt7d/respect_bizarrogirl_dc_post_crisis/
 
 ########################################
 
