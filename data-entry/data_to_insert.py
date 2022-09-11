@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Batmobile! (Batman: The Brave and the Bold)', 'https://redd.it/xb7bai')
+add_data(['Bat(-| )?mobile'],
+'Batmobile',
+False,
+False,
+[
+    ['Brave (and|&) the Bold']
+],
+'The Brave and the Bold',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xb7bai/respect_the_batmobile_batman_the_brave_and_the/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
