@@ -18,6 +18,8 @@ UPDATE character_name SET name='Viv(ian)? Vision' WHERE name='Viv Vision';
 
 ########################################
 
+UPDATE character_name SET name='Mr\.? 9' WHERE name='Mr\\.? 9';
+
 ########################################
 
 ########################################
