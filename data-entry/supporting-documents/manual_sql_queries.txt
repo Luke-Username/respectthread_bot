@@ -22,6 +22,9 @@ UPDATE character_name SET name='Mr\.? 9' WHERE name='Mr\\.? 9';
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Batman (The Batman, 2022)', 'https://redd.it/xd7nvf'); SELECT * FROM respectthread WHERE link='https://redd.it/xd7nvf';
+UPDATE character SET rt_id_array='{?}' WHERE displayed_version_name='The Batman, 2022';
+
 ########################################
 
 ########################################
