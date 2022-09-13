@@ -5621,7 +5621,7 @@ Vav,"{`"X(-| )Ray (and|&) Vav`"}",f,{1364},X-Ray and Vav
 X-Ray,"{`"X(-| )Ray (and|&) Vav`"}",f,{1365},X-Ray and Vav
 Angry Video Game Nerd,{AVGN},t,{1366},""
 Angry Video Game Nerd,"{`"Angry Video Game Nerd`"}",t,{1366},""
-Raven,"{`"Raven ?\\(RWBY`"}",f,{1344},RWBY
+Raven,{Raven.*RWBY},f,{1344},RWBY
 Arin Hanson,"{`"Animate(-| )A(-| )Grump`"}",f,{1367},Animate-A-Grump
 Doom,"{`"Assist Me!`"}",f,{1368},Assist Me!
 Captain Canuck,{2013},f,{1369},2013
@@ -8236,7 +8236,6 @@ Raven,{PC},f,{1832},DC
 Raven,"{`"Earth(-| )(1|One)`"}",f,{1832},DC
 Raven,"{`"Post(-| )?C(risis)?`"}",f,{1832},DC
 Raven,"{`"New(-| )Earth`"}",f,{1832},DC
-Raven,"{`"Raven vs`"}",f,{1832},DC
 Raven,{Zatanna},f,{1832},DC
 Starfire,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{1833},DC
 Starfire,{PC},f,{1833},DC
@@ -11638,11 +11637,6 @@ Corvus Glaive,{616},t,{2011},616
 Corvus Glaive,{comics?},t,{2011},616
 Supergiant,{616},f,{2011},616
 Supergiant,{comics?},f,{2011},616
-Black Dwarf,{616},t,{2011},616
-Black Dwarf,{comics?},t,{2011},616
-Black Dwarf,{Marvel},t,{2011},616
-Black Dwarf,"{`"Marvel Cinematic Universe`"}",f,{6514},MCU
-Black Dwarf,{199999},f,{6514},MCU
 Black Swan,{616},f,{2011},616
 Black Swan,{comics?},f,{2011},616
 Black Swan,{Marvel},f,{2011},616
@@ -11712,6 +11706,7 @@ Hekapoo,"{`"Star vs`"}",t,{9226},SVTFOE
 Hekapoo,{SVTFOE},t,{9226},SVTFOE
 Rhombulus,"{`"Star vs`"}",t,{9226},SVTFOE
 Rhombulus,{SVTFOE},t,{9226},SVTFOE
+Black Dwarf,{199999},f,{6514},MCU
 Omnitraxus,"{`"Star vs`"}",t,{9226},SVTFOE
 Omnitraxus,{SVTFOE},t,{9226},SVTFOE
 Lekmet,"{`"Star vs`"}",t,{9226},SVTFOE
@@ -26294,6 +26289,7 @@ Nightcrawler,{XCU},f,{21526},FOX
 SCP-457,"{`"Burning Man`"}",t,{21527},""
 Batmobile,"{`"\\(DC( Comics)?\\)`"}",t,{21523},DC
 Mongal,"{`"DC ?(E|C)U`"}",f,{},DCEU
+Black Dwarf,{616},f,{2011},616
 SCP-6630,"{`"Fire On the Horizon`"}",t,{21528},""
 E.M.M.I.s,{Metroid},t,{21529},Metroid
 Sonic.EXE,{Creepypasta},t,{21530},Creepypasta
@@ -28076,3 +28072,19 @@ Super-Batman,"{`"Brave (and|&) the Bold`"}",f,{22582},The Brave and the Bold
 ToyAgumon,"{`"Digimon Frontier`"}",f,{22583},Digimon Frontier
 Robin Hood,"{`"Folk ?(lore|tale)`"}",t,{22584},""
 Robin Hood,{Ballads?},t,{22584},""
+Black Dwarf,{comics?},f,{2011},616
+Black Dwarf,{Marvel},f,{2011},616
+Black Dwarf,"{`"Marvel Cinematic Universe`"}",f,{6514},MCU
+Sonic,{Sega},f,"{8276,8277}",Sonic the Hedgehog
+Batmobile,"{`"Brave (and|&) the Bold`"}",f,{22585},The Brave and the Bold
+Booster Gold,"{`"Brave (and|&) the Bold`"}",f,{22586},The Brave and the Bold
+Bizarro-Girl,"{`"\\(DC( Comics)?\\)`"}",t,{22587},DC
+Bizarro-Girl,"{`"\\[DC( Comics)?\\]`"}",t,{22587},DC
+Bizarro-Girl,{PC},f,{22587},Post-Crisis
+Bizarro-Girl,"{`"Posts?(-| )?C(risis)?`"}",f,{22587},Post-Crisis
+Bizarro-Girl,"{`"New(-| )Earth`"}",f,{22587},Post-Crisis
+Solomon Grundy,"{`"\\(DC( Comics)?\\)`"}",t,{22588},DC
+Solomon Grundy,"{`"\\[DC( Comics)?\\]`"}",t,{22588},DC
+Bizarro-Girl,"{`"Pre(-| )?Crisis`"}",f,{22588},Pre-Crisis
+Bizarro-Girl,{Earth-One},f,{22588},Pre-Crisis
+Katana Man,"{`"Chainsaw(-| )?Man`"}",f,{22589},Chainsaw Man

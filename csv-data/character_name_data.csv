@@ -9831,7 +9831,6 @@ Guile,Guile,f
 Hakan,Hakan,f
 Ibuki,Ibuki,f
 Juri,Juri,f
-M\\.? ?Bison,M. Bison,f
 Oro,Oro,f
 Poison,Poison,f
 R(ainbow)?\\.? ?Mika,Rainbow Mika,f
@@ -9950,6 +9949,7 @@ Monkey Yellow,Monkey Yellow,f
 Monkey Pink,Monkey Pink,f
 Monkey Red,Monkey Red,f
 Zang(ie|ei)f,Zangief,f
+M\.? ?Bison,M. Bison,f
 Satoru,Satoru,f
 Yumi,Yumi,f
 Ezio,Ezio,f
@@ -12771,3 +12771,7 @@ Megalo,Megalo,f
 Usagi Yojimbo,Usagi Yojimbo,f
 Super(-| )Batman,Super-Batman,f
 ToyAgumon,ToyAgumon,f
+Bizarro(-| )Girl,Bizarro-Girl,f
+Bizarro-Girl,Bizarro-Girl,f
+Solomon Grundy,Solomon Grundy,f
+Katana Man,Katana Man,f
