@@ -136,6 +136,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Booster Gold! (Batman: The Brave and the Bold)', 'https://redd.it/xc0dnl')
+add_data(['Booster Gold'],
+'Booster Gold',
+False,
+False,
+[
+    ['Brave (and|&) the Bold']
+],
+'The Brave and the Bold',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xc0dnl/respect_booster_gold_batman_the_brave_and_the_bold/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Bizarro-Girl (DC, Post Crisis)', 'https://redd.it/xbkt7d')
 add_data(['Bizarro(-| )Girl'],
 'Bizarro-Girl',
@@ -152,7 +167,7 @@ True,
 add_data(['Bizarro-Girl'],
 'Bizarro-Girl',
 False,
-True,
+False,
 [
     ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
 ],
@@ -160,6 +175,48 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/xbkt7d/respect_bizarrogirl_dc_post_crisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Solomon Grundy (DC Comics, Pre-Crisis Earth-One)', 'https://redd.it/xc95xb')
+add_data(['Solomon Grundy'],
+'Solomon Grundy',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xbkt7d/respect_bizarrogirl_dc_post_crisis/
+
+add_data(['Bizarro-Girl'],
+'Bizarro-Girl',
+False,
+False,
+[
+    ['Pre(-| )?Crisis'], ['Earth-One']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xc95xb/respect_solomon_grundy_dc_comics_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Katana Man (Chainsaw Man)', 'https://redd.it/xbvep2')
+add_data(['Katana Man'],
+'Katana Man',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xbvep2/respect_katana_man_chainsaw_man/
 
 ########################################
 
