@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Touka Toudou (Rakudai Kishi no Cavalry)', 'https://redd.it/xdcc1w')
+add_data(['Touka Toudou'],
+'Touka Toudou',
+False,
+True,
+[
+    ['Chivalry of a Failed Knight'], ['Rakudai']
+],
+'Chivalry of a Failed Knight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xdcc1w/respect_touka_toudou_rakudai_kishi_no_cavalry/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
