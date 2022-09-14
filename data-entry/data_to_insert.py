@@ -122,6 +122,51 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Blaine (Pokemon Anime)', 'https://redd.it/xe2a1k')
+add_data(['Blaine'],
+'Blaine',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xe2a1k/respect_blaine_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hermit Worms (The Fifth Science)', 'https://redd.it/xe3787')
+add_data(['Hermit Worms?'],
+'Hermit Worm',
+False,
+False,
+[
+    ['The Fifth Science']
+],
+'The Fifth Science',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xe3787/respect_hermit_worms_the_fifth_science/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Everett Donnelly, Frost (Marvel, 616)', 'https://redd.it/xe4kyo')
+add_data(['Everett Donnelly'],
+'Everett Donnelly',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xe4kyo/respect_everett_donnelly_frost_marvel_616/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
