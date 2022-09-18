@@ -107,6 +107,30 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Black Hat'],
+'Black Hat',
+False,
+False,
+[
+    ['Black Hat Organization']
+],
+'Villainous',
+'{17281}'
+)
+#
+
+add_data(['Frank Castle'],
+'Punisher',
+False,
+False,
+[
+    ['Marvel Max']
+],
+'Marvel Max',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xdkm7t/the_punisher_marvel_max_vs_the_entire_hutt/iopf0ud/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
