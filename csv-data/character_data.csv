@@ -171,7 +171,6 @@ Heather,{Whoniverse},f,{42},Doctor Who
 Space Oil,{Whoniverse},f,{42},Doctor Who
 Jenny,{Whoniverse},f,{43},Doctor Who
 Kamen Rider Ichigo,"{`"The First`"}",t,{57},Kamen Rider Build The First/The Next
-Kamen Rider Accel,{KR},t,{46},Kamen Rider W
 Kamen Rider Amazon Alpha,{KR},t,{47},Kamen Rider Amazons
 Alpha,{KR},f,{47},Kamen Rider Amazons
 Kamen Rider Amazon Omega,{KR},t,{48},Kamen Rider Amazons
@@ -268,7 +267,6 @@ Matt,{Hardy},f,{81},Broken Universe
 Nero,{Hardy},f,{81},Broken Universe
 Alpha,"{`"Kamen Rider`"}",f,{47},Kamen Rider Amazons
 Kamen Rider Amazon Alpha,"{`"Kamen Rider`"}",t,{47},Kamen Rider Amazons
-Kamen Rider Accel,"{`"Kamen Rider`"}",t,{46},Kamen Rider W
 Kamen Rider Amazon Omega,"{`"Kamen Rider`"}",t,{48},Kamen Rider Amazons
 Omega,"{`"Kamen Rider`"}",f,{48},Kamen Rider Amazons
 Kamen Rider Build,"{`"Kamen Rider`"}",t,{49},Kamen Rider Build
@@ -2120,8 +2118,6 @@ Robocop,{Original},t,{544},Original
 Robocop,{2014},f,{545},2014
 Robocop,{reboot},f,{545},2014
 Robocop,{remake},f,{545},2014
-Rocky Bulboa,{Rocky},t,"{546,547}",Rocky
-Rocky Bulboa,{Rockyverse},t,"{546,547}",Rocky
 Apollo Creed,{Rocky},t,{546},Rocky
 Apollo Creed,{Rockyverse},t,{546},Rocky
 Clubber Lang,{Rocky},t,{546},Rocky
@@ -2139,6 +2135,8 @@ Adonis Creed,{Rockyverse},t,{546},Creed
 Ricky Conlan,{Creed},t,{546},Creed
 Repo Man,"{`"Genetic Opera`"}",t,{539},Repo! The Genetic Opera
 Inigo Montoya,"{`"Princess Bride`"}",t,"{5912,530}",The Princess Bride
+Rocky Balboa,{Rocky},t,"{546,547}",Rocky
+Rocky Balboa,{Rockyverse},t,"{546,547}",Rocky
 Ricky Conlan,{Rocky},t,{546},Creed
 Ricky Conlan,{Rockyverse},t,{546},Creed
 Robert the Tire,{Rubber},t,{548},Rubber
@@ -15868,12 +15866,6 @@ Princess Remedy,"{`"World of Hurt`"}",t,{13075},Princess remedy in a World of Hu
 Princess Remedy,"{`"Heap of Trouble`"}",t,{13075},Princess remedy in a World of Hurt
 Serleena,"{`"Men in Black`"}",t,{13076},Men in Black
 Serleena,{MIB},t,{13076},Men in Black
-Felt,{Re:?Zero},f,{13077},Re:Zero
-Petelgeuse Romanee-Conti,{Re:?Zero},t,{13078},Re:Zero
-White Whale,{Re:?Zero},f,{13079},Re:Zero
-Julius Juukulius,{Re:?Zero},t,{13080},Re:Zero
-Beatrice,{Re:?Zero},f,{13082},Re:Zero
-Reinhard van Astrea,{Re:?Zero},t,{13083},Re:Zero
 Jack Frost,"{`"Mutant Killer Snowman`"}",f,{13084},The Mutant Killer Snowman
 Mechs,"{`"Into the Breach`"}",f,{13084},Into the Breach
 Pilot,"{`"Into the Breach`"}",f,{13084},Into the Breach
@@ -15896,6 +15888,7 @@ Bruford,"{`"Phantom Blood`"}",t,{13086},Jojo's Bizarre Adventure
 Bruford,{Part},t,{13086},Jojo's Bizarre Adventure
 Tarkus,{Dio},f,{13086},Jojo's Bizarre Adventure
 Yondu,{movies},f,{13485},MCU
+Felt,"{`"Re(:|-)? ?Zero`"}",f,{13077},Re:Zero
 Tarkus,"{`"Phantom Blood`"}",f,{13086},Jojo's Bizarre Adventure
 Tarkus,{Part},f,{13086},Jojo's Bizarre Adventure
 Falcon,{Kengan(verse)?},f,{13087},Kengan Asura
@@ -15926,8 +15919,6 @@ Valayun,{Voltron},t,{13096},Voltron: Legendary Defender
 Valayun,"{`"Legendary Defender`"}",t,{13096},Voltron: Legendary Defender
 Pike,"{`"Legendary Defender`"}",f,{13096},Voltron: Legendary Defender
 Nanashi,"{`"Sword of the Stranger`"}",f,{13097},Sword of the Stranger
-Elsa Granhiert,{Re:?Zero},t,{13098},Re:Zero
-Wilhelm van Astrea,{Re:?Zero},t,{13099},Re:Zero
 Metal Bat,"{`"One(-| )Punch Man`"}",f,{4107},One Punch Man
 Metal Bat,{OPM},f,{4107},One Punch Man
 Metal Bat,"{`"vs\\.? Metal Bat`"}",f,{4107},One Punch Man
@@ -17283,14 +17274,8 @@ Kobayashi,"{`"Kobayashi ?\\(`",`"Dragon Maid`"}",f,{13264},Miss Kobayashi's Drag
 Decker,"{`"Decker ?\\(Decker`"}",f,{13265},Decker
 Jack Decker,{Decker},t,{13265},Decker
 Jonathan Kington,{Decker},t,{13265},Decker
-Ram,{Re:?Zero},f,{13266},Re:Zero
 Subaru,"{`"Re:? ?Zero`"}",f,{13267},Re:Zero
 Subaru,{Natsuki},f,{13267},Re:Zero
-Emilia,{Re:?Zero},f,{13268},Re:Zero
-Puck,{Re:?Zero},f,{13269},Re:Zero
-Rem,{Re:?Zero},f,{13270},Re:Zero
-Roswaal,{Re:?Zero},t,{13271},Re:Zero
-Roswaal L Mathers,{Re:?Zero},t,{13271},Re:Zero
 Link,"{`"Breath of the Wild`"}",f,{13272},Breath of the Wild
 Link,{BOTW},f,{13272},Breath of the Wild
 Asami,{Avatar},t,{13273},Avatar: TLA
@@ -23942,7 +23927,6 @@ Lockheed,"{`"Kitty Pryde`"}",f,{17665},616
 Rake,{EverymanHYBRID},f,{17666},EverymanHYBRID
 James Bond,{Craig},f,{17667},Daniel Craig
 Sairaorg Bael,{DxD},t,"{6146,17669}",High School DxD
-Sonic,{2020},f,"{8607,17670}",2020 film
 Invincible,"{`"Invincible \\(Comics?\\)`"}",f,"{1961,17671}",Image Comics
 Invincible,"{`"Invincible vs`"}",f,"{1961,17671}",Image Comics
 Invincible,{Grayson},f,"{1961,17671}",Image Comics
@@ -23966,6 +23950,7 @@ Superman,{OMM},f,{1272},DEATH BATTLE!
 Superman,"{`"Death Battle`"}",f,{1272},DEATH BATTLE!
 Wally West,"{`"Death Battle`"}",f,{13280},DEATH BATTLE!
 Killer Bean,"{`"Killer Bean Forever`"}",t,{1214},""
+Sonic,{Sonic.*2020},f,"{8607,17670}",2020 film
 Kintoki,{Fate},f,{20242},Fate
 Caliborn,{Homestuck},t,{2877},Homestuck
 Gwenom,{65},t,{15420},65
@@ -25959,7 +25944,6 @@ Nick Fury,{MCU},f,{14376},MCU
 Nick Fury,{199999},f,{14376},MCU
 Nick Fury,"{`"Infinity War`"}",f,{14376},MCU
 Nick Fury,"{`"End ?game`"}",f,{14376},MCU
-Crusch Karsten,{Re:?Zero},t,{21339},Re:Zero
 Quinlan Vos,"{`"S(tar )?Wars`"}",t,"{21340,20323}",Star Wars
 Quinlan Vos,{Legends?},t,"{21340,20323}",Star Wars
 Batman,"{`"Dark K?night`",2008}",f,{6531},The Dark Knight
@@ -26007,6 +25991,7 @@ Artoria Pendragon,{Fate},t,"{6256,21412}",Fate
 Artoria Pendragon,{Zero},t,"{6256,21412}",Fate
 Godzilla,"{`"Godzilla vs\\.? Kong`"}",f,{280},MonsterVerse
 Sun Wukong,"{`"Overly Sarcastic Productions`"}",t,{21352},Overly Sarcastic Productions
+Crusch Karsten,"{`"Re(:|-)? ?Zero`"}",t,{21339},Re:Zero
 Ultron,"{`"A(vengers)?: ?EMH`"}",f,{21353},Earths Mightiest Heroes
 Ultron,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{21353},Earths Mightiest Heroes
 Alabaster,{Torrington},f,{21354},Percy Jackson
@@ -26263,8 +26248,6 @@ Maya Lopez,"{`"Marvel Cinematic Universe`"}",f,{21147},MCU
 Maya Lopez,{MCU},f,{21147},MCU
 Jack Duquesne,"{`"Marvel Cinematic Universe`"}",f,{21148},MCU
 Jack Duquesne,{MCU},f,{21148},MCU
-Batman,"{`"Bat(-| )?mans?.*2022`"}",f,{},"The Batman, 2022"
-Batman,"{`"The Batman`",2022}",f,{},"The Batman, 2022"
 SCP-056,"{`"Beautiful Person`"}",f,{21521},""
 Kate Bishop,"{`"Marvel Cinematic Universe`"}",f,{21522},MCU
 Kate Bishop,{MCU},f,{21522},MCU
@@ -26356,9 +26339,6 @@ The Thing,"{`"The Thing.*vs\\.? The Thing`"}",f,{14803},John Carpenter
 Batman,"{`"Christian Bale`"}",f,{6531},Nolanverse
 Elsa,"{`"Re:? ?Zero`"}",f,{13098},Re:Zero
 Guts,"{Guts.*Punisher|Punisher.*Guts,or}",f,{3076},Berserk
-Battinson,"{`"The Batman`"}",t,{},"The Batman, 2022"
-Battinson,{2022},t,{},"The Batman, 2022"
-Batman,"{`"Bat(-| )?mans? ?\\(2022`"}",f,{},"The Batman, 2022"
 Batman,{Burton},f,{387},1989 film
 Reptar,"{Rugrats,Games}",f,{21555},Rugrats Games
 Dude,"{`"Free Guy`"}",f,{21557},Free Guy
@@ -26393,6 +26373,9 @@ Hal,"{`"Green Lantern`",Nu?-?52}",f,{7394},New 52 / Rebirth
 Hal,"{`"Green Lantern`",Rebirth}",f,{7394},New 52 / Rebirth
 Dementor,"{`"Methods of Rationality`"}",f,{21567},Harry Potter and the Methods of Rationality
 Thor,{3515},f,{21894},3515
+Battinson,"{`"The Batman`"}",t,{22590},"The Batman, 2022"
+Battinson,{2022},t,{22590},"The Batman, 2022"
+Batman,"{`"Bat(-| )?mans? ?\\(2022`"}",f,{22590},"The Batman, 2022"
 Opa-Opa,"{`"Fantasy Zone`"}",f,{21568},Fantasy Zone
 Hector Hammond,"{`"Live(-| )Action Green Lantern|Green Lantern Live(-| )Action`"}",f,{21569},"Green Lantern, 2011"
 Hector Hammond,"{`"Green Lantern (Movie|Film)`"}",f,{21569},"Green Lantern, 2011"
@@ -26537,7 +26520,6 @@ Kaguya,{Naruto},f,{3954},Naruto
 Kaguya,{Shippuden},f,{3954},Naruto
 Kaguya,{Byakugan},f,{3954},Naruto
 Kaguya,{Sharingan},f,{3954},Naruto
-Batman,{Pattin?sons?},f,{},"The Batman, 2022"
 Caesar,"{`"Plane?t of the Apes.*trilogy`"}",f,{12115},Planet of the Apes Reboot
 Teenage Mutant Ninja Turtles,{IDW},f,"{2668,2669,2664,2672}",IDW
 Teenage Mutant Ninja Turtles,"{`"Image Comics`"}",f,"{21595,21598,21597,21596}",Image Comics
@@ -26596,6 +26578,7 @@ Ashiya Dōman,{Fate},f,{21688},Fate
 Dioscuri,{Fate},f,{21689},Fate
 Dioscuri,"{`"Grande? Order`"}",f,{21689},Fate
 Ivan the Terrible,{Fate},f,{21690},Fate
+Batman,{Pattin?sons?},f,{22590},"The Batman, 2022"
 Ivan the Terrible,"{`"Grande? Order`"}",f,{21690},Fate
 Scathach-Skadi,{Fate},t,{21691},Fate
 Scathach-Skadi,"{`"Grande? Order`"}",t,{21691},Fate
@@ -28088,3 +28071,42 @@ Solomon Grundy,"{`"\\[DC( Comics)?\\]`"}",t,{22588},DC
 Bizarro-Girl,"{`"Pre(-| )?Crisis`"}",f,{22588},Pre-Crisis
 Bizarro-Girl,{Earth-One},f,{22588},Pre-Crisis
 Katana Man,"{`"Chainsaw(-| )?Man`"}",f,{22589},Chainsaw Man
+Petelgeuse Romanee-Conti,"{`"Re(:|-)? ?Zero`"}",t,{13078},Re:Zero
+White Whale,"{`"Re(:|-)? ?Zero`"}",f,{13079},Re:Zero
+Julius Juukulius,"{`"Re(:|-)? ?Zero`"}",t,{13080},Re:Zero
+Beatrice,"{`"Re(:|-)? ?Zero`"}",f,{13082},Re:Zero
+Reinhard van Astrea,"{`"Re(:|-)? ?Zero`"}",t,{13083},Re:Zero
+Elsa Granhiert,"{`"Re(:|-)? ?Zero`"}",t,{13098},Re:Zero
+Wilhelm van Astrea,"{`"Re(:|-)? ?Zero`"}",t,{13099},Re:Zero
+Ram,"{`"Re(:|-)? ?Zero`"}",f,{13266},Re:Zero
+Emilia,"{`"Re(:|-)? ?Zero`"}",f,{13268},Re:Zero
+Puck,"{`"Re(:|-)? ?Zero`"}",f,{13269},Re:Zero
+Rem,"{`"Re(:|-)? ?Zero`"}",f,{13270},Re:Zero
+Roswaal,"{`"Re(:|-)? ?Zero`"}",t,{13271},Re:Zero
+Roswaal L Mathers,"{`"Re(:|-)? ?Zero`"}",t,{13271},Re:Zero
+Batman,"{`"Bat(-| )?mans?.*2022`"}",f,{22590},"The Batman, 2022"
+Batman,"{`"The Batman`",2022}",f,{22590},"The Batman, 2022"
+The Doctor,{TARDIS},f,"{14419,40,15401}",Doctor Who
+Vi,{Arcane},f,{5201},League of Legends
+Touka Toudou,"{`"Chivalry of a Failed Knight`"}",t,{22591},Chivalry of a Failed Knight
+Touka Toudou,{Rakudai},t,{22591},Chivalry of a Failed Knight
+Blaine,{Pok(e|é)m(o|a)n},f,{22592},Pokémon
+Giant Ancient Alakazam,{Pok(e|é)m(o|a)n},t,{22593},Pokémon
+Hermit Worm,"{`"The Fifth Science`"}",f,{22594},The Fifth Science
+Everett Donnelly,{616},t,{22595},616
+Baron Mordo,{616},t,{22596},616
+Gorr the God Butcher,"{`"Marvel Cinematic Universe`"}",f,{22597},MCU
+Gorr the God Butcher,{MCU},f,{22597},MCU
+Gorr,"{`"Marvel Cinematic Universe`"}",f,{22597},MCU
+Gorr,{MCU},f,{22597},MCU
+Jane Foster,"{`"Marvel Cinematic Universe`"}",f,{22599},MCU
+Jane Foster,{MCU},f,{22599},MCU
+Rex Splode,{Invincible},t,{22600},Invincible
+Sprig Plantar,{Amphibia},t,{22601},Amphibia
+Blue Beetle,"{`"Brave (and|&) the Bold`"}",f,{22602},The Brave and the Bold
+Plastic Man,"{`"Brave (and|&) the Bold`"}",f,{22603},The Brave and the Bold
+Heretic,"{`"New 52`",Rebirth}",f,{22604},New 52 / Rebirth
+Maggie Lacivi,"{`"Ava'?s Demon`"}",t,{22605},Ava's Demon
+Ichibe Hyosube,{Bleach},t,{22606},Bleach
+Darth Vader,{Fortnite},f,{22607},Fortnite
+Bulma,{Fortnite},f,{22608},Fortnite

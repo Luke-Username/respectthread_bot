@@ -616,7 +616,6 @@ id,title,link
 661,"[Respect] Kirk Langstrom, The Man-Bat (The Batman)",https://redd.it/6roixx
 662,Respect Robin (The Batman),https://redd.it/648at4
 663,Respect Aquaman (Batman: The Brave and the Bold),https://redd.it/82k893
-664,Respect Batman (Batman: The Brave and the Bold!),https://redd.it/5900xu
 665,"Respect Jim Craddock, the Gentleman Ghost (Batman: The Brave & The Bold)",https://redd.it/8jtopq
 666,Respect John Wilkes Booth (Batman: The Brave and The Bold),https://redd.it/4ljjla
 667,Respect The Music Meister (Batman: The Brave and the Bold),https://redd.it/816mql
@@ -630,6 +629,7 @@ id,title,link
 601,Respect Zohan Dvir (You Don't Mess With The Zohan),https://redd.it/9qitgt
 638,Respect Avatar Aang (Avatar: The Last Airbender),https://redd.it/uo2yl5
 644,Respect Toph Beifong (Avatar: The Last Airbender),https://redd.it/vc590y
+664,Respect Batman! (Batman: The Brave and the Bold),https://redd.it/xgxk4q
 639,Respect Avatar Kyoshi (Avatar: The Last Airbender),https://redd.it/i2lkav
 673,Respect Big Chill (Ben 10),https://redd.it/3kwtzp
 675,Respect Brainstorm (Ben 10) [Classic],https://redd.it/aijh7y
@@ -2550,7 +2550,6 @@ id,title,link
 2663,Respect Alopex (Teenage Mutant Ninja Turtles) [IDW],https://redd.it/83ixrq
 2664,Respect Donatello (Teenage Mutant Ninja Turtles) [IDW],https://redd.it/84j1vj
 2665,Respect Hun (Teenage Mutant Ninja Turtles) [IDW],https://redd.it/83zgdq
-2917,Ava Ire (Ava's Demon),https://redd.it/3qwxzo
 2595,Respect Hit-Girl! (Kick-Ass),https://redd.it/wuqvw9
 22538,Respect Red (Genndy Tartakovsky's Primal),https://redd.it/x2tj7n
 2647,Respect Darth Momin (updated 2021) (Star Wars Canon),https://redd.it/lo5mg8
@@ -6257,7 +6256,6 @@ id,title,link
 236,"Respect Bruce Banner, the Hulk (Marvel Cinematic Universe)",https://redd.it/clm5ur
 6500,Respect Captain Marvel (Marvel Cinematic Universe),https://redd.it/ckooxd
 6501,Respect Corvus Glaive (Marvel Cinematic Universe),https://redd.it/cofrok
-264,Respect Thor Odinson (Marvel Cinematic Universe),https://redd.it/clm622
 6502,Respect Ghost (Marvel Cinematic Universe),https://redd.it/cjqf5b
 6503,Respect Proxima Midnight (Marvel Cinematic Universe),https://redd.it/cofzy0
 6504,Respect Yellowjacket (Marvel Cinematic Universe),https://redd.it/cj3ip3
@@ -6266,6 +6264,7 @@ id,title,link
 6508,Respect Sandman (Spider-Man 3),https://redd.it/ciwvsl
 6464,Respect: Ahzek Ahriman (Warhammer 40k),https://redd.it/fb38yw
 6469,Respect Arlinn Kord (Magic the Gathering),https://redd.it/w8887d
+264,Respect Thor Odinson (Marvel Cinematic Universe),https://redd.it/xguqef
 6509,Respect Indiana Jones (Indiana Jones),https://redd.it/d0aua3
 2788,Respect the Mask (Dark Horse Comics),https://redd.it/c7mf7h
 6510,[Respect] Inmate 93X666 (Jungle Jail),https://redd.it/bvttq1
@@ -6608,6 +6607,7 @@ id,title,link
 22454,Respect Thomas Raith (The Dresden Files),https://redd.it/wugwsh
 22455,Respect Superman (DC Animated Movie Universe),https://redd.it/wuen6p
 22456,"Respect General Zod (DC, Pre-Crisis)",https://redd.it/wu0d3f
+22607,Respect Darth Vader (Fortnite),https://redd.it/xffw4t
 1545,Respect Lady Shiva (New 52/Rebirth),https://redd.it/7mwhqo
 5291,Respect Kotal Kahn! (Mortal Kombat),https://redd.it/dtjxzu
 5214,Respect Link (Hyrule Warriors),https://redd.it/dtp4uk
@@ -8279,6 +8279,7 @@ id,title,link
 22576,Respect Pulsemon (Digimon Project),https://redd.it/x7v8x0
 22577,Respect RizeGreymon (Digimon Project),https://redd.it/x7v8yu
 22578,Respect BlackWarGreymon (Digimon Project),https://redd.it/x7vdna
+22608,Respect Bulma! (Fortnite),https://redd.it/xg5a7x
 15261,Respect Brad Armstrong! (LISA: The Painful RPG),https://redd.it/meonxe
 3076,Respect Guts! (Berserk),https://redd.it/mr554s
 16323,Respect the Lord Infante (Twig),https://redd.it/cvpm7d
@@ -10864,6 +10865,7 @@ id,title,link
 22587,"Respect Bizarro-Girl (DC, Post Crisis)",https://redd.it/xbkt7d
 22588,"Respect Solomon Grundy (DC Comics, Pre-Crisis Earth-One)",https://redd.it/xc95xb
 22589,Respect Katana Man (Chainsaw Man),https://redd.it/xbvep2
+22590,"Respect Batman (The Batman, 2022)",https://redd.it/xd7nvf
 21121,You will Respect The Lady of Pain,https://redd.it/29yjpi
 21288,Respect Pinhead (Dead by Daylight),https://redd.it/sax28f
 21289,"Respect Li Shuwen, the Divine Spear! (Fate)",https://redd.it/sb3yoh
@@ -11307,6 +11309,9 @@ id,title,link
 22426,Respect Cadet Dredd (2000AD),https://redd.it/wkzt33
 22427,Respect Sir Tristan de Liones (Arthurian Myth),https://redd.it/wl1s5p
 22428,Respect Temari (Naruto),https://redd.it/wlebap
+2917,Respect Ava Ire (Ava's Demon),https://redd.it/xflbp3
+22591,Respect Touka Toudou (Rakudai Kishi no Cavalry),https://redd.it/xdcc1w
+22592,Respect Blaine (Pokemon Anime),https://redd.it/xe2a1k
 21302,Respect Mega Man X (Something Series),https://redd.it/schwjv
 21303,Respect Translucent (Amazon's The Boys),https://redd.it/scmsyr
 21304,Respect Kamen Rider Shin (Shin Kamen Rider: Prologue),https://redd.it/scsunc
@@ -11340,6 +11345,10 @@ id,title,link
 22439,Respect Darren Shan! (Cirque Du Freak Manga),https://redd.it/wo8rll
 22440,Respect Larten Crepsley! (Cirque Du Freak Manga),https://redd.it/wo8tdn
 22441,Respect the Vord! (Codex Alera),https://redd.it/wp0f79
+22593,Respect the Giant Ancient Alakazam (Pokemon),https://redd.it/xgi3or
+22594,Respect Hermit Worms (The Fifth Science),https://redd.it/xe3787
+22595,"Respect Everett Donnelly, Frost (Marvel, 616)",https://redd.it/xe4kyo
+22596,Respect Baron Mordo (Marvel 616),https://redd.it/xg0eti
 21310,"Respect Ainz Ooal Gown (Overlord, Manga)",https://redd.it/sdaag2
 21549,"Respect SCP-4606, `"Deimos`" (SCP Foundation)",https://redd.it/tajliy
 21550,RESPECT The Prison Rig Warden (Avatar: The Last Airbender),https://redd.it/tbshtj
@@ -11406,3 +11415,13 @@ id,title,link
 22535,Respect Perturabo! (Warhammer 40K),https://redd.it/clzy03
 22536,Respect Sphelonious Donk (SiIvaGunner),https://redd.it/x1t4un
 22537,Respect the Guardians of the Universe (DC Pre-Flashpoint),https://redd.it/x1x83s
+22597,"Respect Gorr, the God Butcher (Marvel Cinematic Universe)!",https://redd.it/xg4dnu
+22598,Respect Moon Knight (Marvel Cinematic Universe),https://redd.it/xg93oa
+22599,"Respect Jane Foster, The Mighty Thor (Marvel Cinematic Universe)",https://redd.it/xhfowd
+22600,Rex Splode (Invincible) Respect Thread,https://comicvine.gamespot.com/forums/gen-discussion-1/rex-splode-invincible-respect-thread-2229067/
+22601,Respect Sprig Plantar! (Amphibia),https://redd.it/xh3w3a
+22602,"Respect Jaime Reyes, The Blue Beetle! (Batman: The Brave and the Bold)",https://redd.it/xemrnv
+22603,Respect Plastic Man! (Batman: The Brave and the Bold),https://redd.it/xg024o
+22604,"Respect The Heretic (DC, New 52/Rebirth)",https://redd.it/xevjwu
+22605,Respect Maggie Lacivi (Ava's Demon),https://redd.it/xf9w92
+22606,"Respect 'The Monk who Calls the Real Name', Ichibe Hyosube (Bleach)",https://redd.it/xfe5xq

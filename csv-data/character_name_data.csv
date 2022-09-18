@@ -992,7 +992,6 @@ Yellow Diamond,Yellow Diamond,f
 Robocop,Robocop,f
 Alex Murphy,Robocop,f
 Antauri,Antauri,f
-Rocky Bulboa,Rocky Bulboa,f
 Apollo Creed,Apollo Creed,f
 Clubber Lang,Clubber Lang,f
 Ivan Drago,Ivan Drago,f
@@ -1015,6 +1014,7 @@ Sherlock,Sherlock Holmes,f
 Otto,Otto,f
 Halo,Halo,f
 Mr.? Smith,Mr. Smith,f
+Rocky B(a|u)lboa,Rocky Balboa,f
 Nic Eastman,Nic Eastman,f
 Miho,Miho,f
 Bajirao,Bajirao Singham,f
@@ -2181,7 +2181,6 @@ Constrictor,Constrictor,f
 Hate(-| )Monger,Hate-Monger,f
 Amadeus Cho,Amadeus Cho,f
 Mr?s\.? Marvel,Ms. Marvel,f
-Viv Vision,Viv Vision,f
 Adam Warlock,Adam Warlock,f
 Annihilus,Annihilus,f
 Annihilation Wave,Annihilation Wave,t
@@ -2324,6 +2323,7 @@ Arby McDonald,Arby McDonald,f
 Cosmo,Cosmo,f
 Astro ?Boy,Astro Boy,f
 Miles? Morales,Miles Morales,f
+Viv(ian)? Vision,Viv Vision,f
 "Arby `"The Meathead`" McDonald","Arby `"The Meathead`" McDonald",f
 Jefferson Tallpipe,Jefferson Tallpipe,f
 Benny,Benny,f
@@ -6976,7 +6976,6 @@ Jango,Jango,f
 Jesus Burgess,Jesus Burgess,f
 Marco,Marco,f
 Miss Monday,Miss Monday,f
-Mr\\.? 9,Mr. 9,f
 Nyaban Brothers,Nyaban Brothers,f
 Oars,Oars,f
 Perona,Perona,f
@@ -11664,7 +11663,6 @@ Rockslide,Rockslide,f
 Anole,Anole,f
 Thor Girl,Thor Girl,f
 Gorr,Gorr,f
-Gorr the God Butcher,Gorr the God Butcher,f
 SCP(-| )?517(-| )?ARC,SCP-517-ARC,f
 K(ō|o)u?sh(ō|o)u? Shinogi,Kōushō Shinogi,f
 Aa'une,Aa'une,f
@@ -12775,3 +12773,16 @@ Bizarro(-| )Girl,Bizarro-Girl,f
 Bizarro-Girl,Bizarro-Girl,f
 Solomon Grundy,Solomon Grundy,f
 Katana Man,Katana Man,f
+"Gorr,? the God Butcher",Gorr the God Butcher,f
+Mr\.? 9,Mr. 9,f
+Touka Toudou,Touka Toudou,f
+Blaine,Blaine,f
+Giant( Ancient)? Alakazam,Giant Ancient Alakazam,f
+Hermit Worms?,Hermit Worm,f
+Everett Donnelly,Everett Donnelly,f
+Baron Mordo,Baron Mordo,f
+Jane Foster,Jane Foster,f
+Rex( |-)Splode,Rex Splode,f
+Sprig Plantar,Sprig Plantar,f
+Maggie Lacivi,Maggie Lacivi,f
+Ichibe Hyosube,Ichibe Hyosube,f

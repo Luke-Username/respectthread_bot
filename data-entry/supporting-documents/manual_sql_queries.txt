@@ -14,26 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Viv(ian)? Vision' WHERE name='Viv Vision';
-UPDATE character_name SET name='Gorr,? the God Butcher' WHERE name='Gorr the God Butcher';
-UPDATE character_name SET name='Mr\.? 9' WHERE name='Mr\\.? 9';
-UPDATE character_name SET default_name='Rocky Balboa' WHERE name='Rocky Bulboa';
-UPDATE character_name SET name='Rocky B(a|u)lboa' WHERE name='Rocky Bulboa';
+########################################
 
 ########################################
 
-UPDATE character SET version='{"Re(:|-)? ?Zero"}' WHERE version='{"Re:?Zero"}';
-UPDATE character SET version='{"Sonic.*2020"}' WHERE default_name='Sonic' AND version='{"2020"}';
-UPDATE character SET default_name='Rocky Balboa' WHERE default_name='Rocky Bulboa'
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Batman (The Batman, 2022)', 'https://redd.it/xd7nvf'); SELECT * FROM respectthread WHERE link='https://redd.it/xd7nvf';
-UPDATE character SET rt_id_array='{?}' WHERE displayed_version_name='The Batman, 2022';
-
-########################################
-
-DELETE FROM character WHERE rt_id_array='{46}';
 
 ########################################
 
