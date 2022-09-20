@@ -131,7 +131,124 @@ False,
 )
 #https://www.reddit.com/r/whowouldwin/comments/xdkm7t/the_punisher_marvel_max_vs_the_entire_hutt/iopf0ud/?context=3
 
-########################################
+################################
+
+id = get_rt_id(cur, 'Respect Pedro, The Death Eye! (Tower of God)', 'https://redd.it/xi9hle')
+add_data(['Pedro'],
+'Pedro',
+False,
+False,
+[
+    ['Tower of God']
+],
+'Tower of God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xi9hle/respect_pedro_the_death_eye_tower_of_god/
+
+################################
+
+id = get_rt_id(cur, 'Respect Kojika Hanamaki (Ningen Series Manga)', 'https://redd.it/xidlcs')
+add_data(['Kojika Hanamaki'],
+'Kojika Hanamaki',
+False,
+True,
+[
+    ['Ningen Series']
+],
+'Ningen Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xidlcs/respect_kojika_hanamaki_ningen_series_manga/
+
+################################
+
+id = get_rt_id(cur, "Respect Polpo! (Jojo''s Bizarre Adventure)", 'https://redd.it/xigc3w')
+add_data(['Polpo'],
+'Polpo',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA'], ['Black Sabbath']
+],
+'Jojo''s Bizarre Adventure',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xigc3w/respect_polpo_jojos_bizarre_adventure/
+
+################################
+
+id = get_rt_id(cur, 'Respect Dagon! (Jujutsu Kaisen)', 'https://redd.it/xivtre')
+add_data(['Dagon'],
+'Dagon',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+################################
+
+id = get_rt_id(cur, 'Respect Frigisaurus (Fossil Fighters, Manga)', 'https://redd.it/xix68i')
+add_data(['Frigisaurus'],
+'Frigisaurus',
+False,
+True,
+[
+    ['Fossil Fighters']
+],
+'Fossil Fighters',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xix68i/respect_frigisaurus_fossil_fighters_manga/
+
+add_data(['Frigi'],
+'Frigi',
+False,
+False,
+[
+    ['Fossil Fighters']
+],
+'Fossil Fighters',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xix68i/respect_frigisaurus_fossil_fighters_manga/
+
+################################
+
+id = get_rt_id(cur, 'Respect Biscuit Krueger (Hunter x Hunter)', 'https://redd.it/xiyf39')
+add_data(['Biscuit Krueger'],
+'Biscuit Krueger',
+False,
+True,
+[
+    ['Hunter ?(x ?)?Hunter'], ['HxH']
+],
+'Hunter x Hunter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xiyf39/respect_biscuit_krueger_hunter_x_hunter/
+
+################################
+
+id = get_rt_id(cur, 'Respect Sagat! (Udon Comics Street Fighter)', 'https://redd.it/xj3vfi')
+add_data(['Sagat'],
+'Sagat',
+False,
+False,
+[
+    ['UDON']
+],
+'UDON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xj3vfi/respect_sagat_udon_comics_street_fighter/
+
+################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0

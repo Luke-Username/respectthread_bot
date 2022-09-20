@@ -14,7 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character WHERE default_name='Lockdown' AND version='{"Bay"}';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Seiya Ryuuguuuin! (Cautious Hero Manga)', 'https://redd.it/xie3o0'); SELECT * FROM respectthread WHERE link='https://redd.it/xie3o0';
+UPDATE character SET rt_id_array='{20565, ?}' WHERE rt_id_array='{20565}';
+UPDATE character SET version='{"Ryuu?gu+in"}' WHERE version='{"Ryuu?guu?in"}';
 
 ########################################
 
