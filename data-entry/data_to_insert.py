@@ -131,6 +131,20 @@ False,
 )
 #https://www.reddit.com/r/whowouldwin/comments/xdkm7t/the_punisher_marvel_max_vs_the_entire_hutt/iopf0ud/?context=3
 
+########################################
+
+add_data(['Harley Quinn?'],
+'Harley Quinn',
+False,
+False,
+[
+    ['Harley Quinn? ?\(Harley Quinn\)'], ['Harley Quinn? ?\[Harley Quinn\]']
+],
+'Harley Quinn animated series, 2019',
+'{8348}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xjaypw/could_harley_quinn_harley_quinn_and_her_gang/ip9fdkz/?context=3
+
 ################################
 
 id = get_rt_id(cur, 'Respect Pedro, The Death Eye! (Tower of God)', 'https://redd.it/xi9hle')
@@ -193,6 +207,21 @@ False,
 
 ################################
 
+id = get_rt_id(cur, 'Respect Hunter (Fossil Fighters, Manga)', 'https://redd.it/xj8a6l')
+add_data(['Hunter'],
+'Hunter',
+False,
+False,
+[
+    ['Fossil Fighters']
+],
+'Fossil Fighters',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xj8a6l/respect_hunter_fossil_fighters_manga/
+
+################################
+
 id = get_rt_id(cur, 'Respect Frigisaurus (Fossil Fighters, Manga)', 'https://redd.it/xix68i')
 add_data(['Frigisaurus'],
 'Frigisaurus',
@@ -247,6 +276,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/xj3vfi/respect_sagat_udon_comics_street_fighter/
+
+################################
+
+id = get_rt_id(cur, 'Respect Cloak-Bot (Amphibia)', 'https://redd.it/xjk06c')
+add_data(['Cloak(-| )Bot'],
+'Cloak-Bot',
+False,
+False,
+[
+    ['Amphibia']
+],
+'Amphibia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xjk06c/respect_cloakbot_amphibia/
 
 ################################
 

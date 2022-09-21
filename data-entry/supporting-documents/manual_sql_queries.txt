@@ -22,6 +22,9 @@ INSERT INTO respectthread (title, link) VALUES ('Respect Seiya Ryuuguuuin! (Caut
 UPDATE character SET rt_id_array='{20565, ?}' WHERE rt_id_array='{20565}';
 UPDATE character SET version='{"Ryuu?gu+in"}' WHERE version='{"Ryuu?guu?in"}';
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Batman! (Batman: The Brave and the Bold Comics)', 'https://redd.it/xjarg3'); SELECT * FROM respectthread WHERE link='https://redd.it/xjarg3';
+UPDATE character SET rt_id_array='{664, ?}' WHERE rt_id_array='{664}';
+
 ########################################
 
 ########################################
