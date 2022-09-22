@@ -341,6 +341,21 @@ False,
 
 ################################
 
+id = get_rt_id(cur, 'Respect Aphrodite IX (Image, Top Cow)', 'https://redd.it/xkot3s')
+add_data(['Aphrodite IX'],
+'Aphrodite IX',
+False,
+True,
+[
+    ['Image'], ['Top Cow']
+],
+'Image, Top Cow',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xkot3s/respect_aphrodite_ix_image_top_cow/
+
+################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
