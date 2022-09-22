@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 15328, 'Respect Makima! (Chainsaw Man)', 'https://redd.it/xkcfc9')
+
+########################################
+
+add_data(['Mighty Thor'],
+'Mighty Thor',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU'], ['Love and Thunder']
+],
+'MCU',
+'{22599}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xk6gbb/the_revengers_vs_the_endgame_trio_vs_team_love/ipc2v2n/?context=3
+
+########################################
+
+add_data(['Death'],
+'Death',
+False,
+False,
+[
+    ['Final Destinations?.*Death']
+],
+'Final Destination',
+'{22599}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xkhsz0/doomguy_vs_guts_vs_dante_vs_dante/ipdyjgu/?context=3
+
+########################################
+
 add_data(['Black Hat'],
 'Black Hat',
 False,
@@ -291,6 +323,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/xjk06c/respect_cloakbot_amphibia/
+
+################################
+
+id = get_rt_id(cur, 'Respect the Four Horsemen of the Apocalypse (Holy Bible)', 'https://redd.it/xkgq3r')
+add_data(['Four Horsemen'],
+'Four Horsemen',
+False,
+False,
+[
+    ['Bible'], ['Biblical']
+],
+'Bible',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xkgq3r/respect_the_four_horsemen_of_the_apocalypse_holy/
 
 ################################
 
