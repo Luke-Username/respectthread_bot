@@ -1700,7 +1700,6 @@ Dragonstorm,{Bayformers},f,{336},Transformers Films
 Dragonstorm,"{`"The Last Knight`"}",f,{336},Transformers Films
 Lockdown,"{`"Transformers Films`"}",f,{337},Transformers Films
 Lockdown,"{`"Transformers Movies`"}",f,{337},Transformers Films
-Lockdown,{Bay},f,{337},Transformers Films
 Lockdown,{Bayverse},f,{337},Transformers Films
 Lockdown,{Bayformers},f,{337},Transformers Films
 Megatron,"{`"Transformers Films`"}",f,{338},Transformers Films
@@ -2504,12 +2503,12 @@ Killer Croc,"{Batman,2004}",f,{660},"The Batman, 2004-2008"
 Man-Bat,"{Batman,2004}",f,{661},"The Batman, 2004-2008"
 Robin,"{Batman,2004}",f,{662},"The Batman, 2004-2008"
 Aquaman,"{`"Brave (and|&) the Bold`"}",f,{663},The Brave and the Bold
-Batman,"{`"Brave (and|&) the Bold`"}",f,{664},The Brave and the Bold
 Gentleman Ghost,"{`"Brave (and|&) the Bold`"}",f,{665},The Brave and the Bold
 John Wilkes Booth,"{`"Brave (and|&) the Bold`"}",f,{666},The Brave and the Bold
 Music Meister,{Batman},f,{667},The Brave and the Bold
 Doomsday,{DCAU},f,{757},DCAU
 Bane,"{`"\\(The Batman\\)`"}",f,{653},"The Batman, 2004-2008"
+Batman,"{`"Brave (and|&) the Bold`"}",f,"{664,22610}",The Brave and the Bold
 Terrible Trio,"{`"Brave (and|&) the Bold`"}",f,{668},The Brave and the Bold
 Alien X,"{`"Ben 10`"}",t,{669},Ben 10
 Atomic-X,"{`"Ben 10`"}",t,{670},Ben 10
@@ -3579,8 +3578,6 @@ Zatara,"{`"Zatara (Young Justice)`"}",f,{1008},Young Justice
 Zatara,"{`"Zatara from Young Justice`"}",f,{1008},Young Justice
 Captain Atom,"{`"Captain Atom (Young Justice)`"}",f,{1008},Young Justice
 Captain Atom,"{`"Captain Atom from Young Justice`"}",f,{1008},Young Justice
-Black Canary,"{`"Black Canary (Young Justice)`"}",f,{1008},Young Justice
-Black Canary,"{`"Black Canary from Young Justice`"}",f,{1008},Young Justice
 Captain Marvel,"{`"Captain Marvel (Young Justice)`"}",f,{1008},Young Justice
 Captain Marvel,"{`"Captain Marvel from Young Justice`"}",f,{1008},Young Justice
 Red Tornado,"{`"Red Tornado (Young Justice)`"}",f,{1008},Young Justice
@@ -3604,12 +3601,14 @@ Black Lightning,"{`"Black Lightning (Young Justice)`"}",f,{1008},Young Justice
 Black Lightning,"{`"Black Lightning from Young Justice`"}",f,{1008},Young Justice
 Hulk,"{`"1610 Hulk`"}",f,{2542},1610
 Zatanna,"{`"Young Justice`",`"season d`"}",f,{1024},Young Justice
+Black Canary,"{`"Black Canary (Young Justice)`"}",f,{22611},Young Justice
 Zatanna,"{`"Young Justice`",`"TV (shows?|series|versions?)`"}",f,{1024},Young Justice
 Zatanna,"{`"Young Justice`",`"cartoon network`"}",f,{1024},Young Justice
 Zatanna,"{`"from Young Justice`"}",f,{1024},Young Justice
 Zatanna,"{`"Young Justice (show|series)`"}",f,{1024},Young Justice
 Rocket,"{`"(Young Justice)`"}",f,{1016},Young Justice
 Red Arrow,"{`"\\[Young Justice`"}",f,{1014},Young Justice
+Black Canary,"{`"Black Canary from Young Justice`"}",f,{22611},Young Justice
 Rocket,"{`"Young Justice`",`"season d`"}",f,{1016},Young Justice
 Deathstroke,"{`"Arkham(-| )?verse`"}",f,{10795},Batman: Arkham
 Rocket,"{`"Young Justice`",`"TV (shows?|series|versions?)`"}",f,{1016},Young Justice
@@ -13646,7 +13645,6 @@ Mash Vandead,"{`"Magic and Muscles`"}",t,{12469},Mashle: Magic and Muscles
 Reisen Udongein Inaba,{Touhou},t,{4968},Touhou
 Watatsuki no Toyohime,{Touhou},t,{12470},Touhou
 Kaguya Houraisan,{Touhou},t,{12471},Touhou
-Death,"{`"Final Destination`"}",f,{12472},Final Destination
 Goblin Slayer,"{`"Goblin Slayer`"}",t,{4769},""
 Carlos Medel,{Kengan(verse)?},t,{12473},Kengan Asura
 Kaburagi Koji,{Kengan(verse)?},t,{12474},Kengan Asura
@@ -13689,6 +13687,7 @@ Kratos,"{`"God of War`"}",t,{5094},God of War
 Kratos,{GOW},t,{5094},God of War
 Ultimate Professor X,{1610},t,{12491},1610
 Charles Xavier,"{`"X(avier)? ?\\(1610`"}",f,{12491},1610
+Death,"{`"Death.*Final Destination`"}",f,{12472},Final Destination
 Charles Xavier,"{`"\\(Ultimates?\\)`"}",f,{12491},1610
 Rumbling,{Titans?},f,{12492},Attack on Titan
 Rumbling,"{`"Shingeki no Kyojin`"}",f,{12492},Attack on Titan
@@ -17452,9 +17451,6 @@ Ki-Adi-Mundi,"{`"Star ?Wars`"}",t,{13331},Star Wars
 Ki-Adi-Mundi,{SWars},t,{13331},Star Wars
 Sabine Wren,"{`"Star ?Wars`"}",t,{13332},Star Wars
 Sabine Wren,{SWars},t,{13332},Star Wars
-Sabine,"{`"Star ?Wars`"}",t,{13332},Star Wars
-Sabine,{SWars},t,{13332},Star Wars
-Sabine,{Rebels},t,{13332},Star Wars
 Edelgard von Hresvelg,"{`"Fire Emblem`"}",t,{13333},Fire Emblem
 BUGS2,"{`"Terra Formars`"}",t,{13334},Terra Formars
 Donatello K. Davis,"{`"Terra Formars`"}",t,{13334},Terra Formars
@@ -17512,6 +17508,8 @@ Link,"{`"Oracle of Ages`"}",f,"{7498,3815}",Link to the Past
 Link,{OOA},f,"{7498,3815}",Link to the Past
 Link,"{`"Link's Awakening`"}",f,"{7498,3815}",Link to the Past
 Calamity Mary,"{`"Magical Girl Raising Project`"}",t,"{3834,13348}",Magical Girl Raising Project
+Sabine,"{`"Star ?Wars`"}",f,{13332},Star Wars
+Sabine,{SWars},f,{13332},Star Wars
 Musician of the Forest,"{`"Magical Girl Raising Project`"}",t,"{3835,13349}",Magical Girl Raising Project
 Swim Swim,"{`"Magical Girl Raising Project`"}",t,"{3836,13350}",Magical Girl Raising Project
 Swim Swim,"{`"Mahou Shoujo Ikusei Keikaku`"}",t,"{3836,13350}",Magical Girl Raising Project
@@ -24650,8 +24648,6 @@ She-Ra,{2018},t,{20563},She-Ra and the Princesses of Power
 She-Ra,{Reboot},t,{20563},She-Ra and the Princesses of Power
 She-Ra,{Netflix},t,{20563},She-Ra and the Princesses of Power
 El Macho,"{`"Despicable Me`"}",t,{20564},Despicable Me
-Seiya,{Ryuu?guu?in},f,{20565},Cautious Hero
-Seiya,"{`"Cautious Hero`"}",f,{20565},Cautious Hero
 Black Zodiac,"{`"(Thir(13|te)en|13) Ghosts`"}",f,{20566},Thir13en Ghosts
 Iron Man,"{`"Jeff Vintar`"}",f,{20567},Jeff Vintar
 Morgan Yu,{Prey},t,{20568},Prey
@@ -28110,3 +28106,37 @@ Maggie Lacivi,"{`"Ava'?s Demon`"}",t,{22605},Ava's Demon
 Ichibe Hyosube,{Bleach},t,{22606},Bleach
 Darth Vader,{Fortnite},f,{22607},Fortnite
 Bulma,{Fortnite},f,{22608},Fortnite
+Seiya,"{`"Cautious Hero`"}",f,"{20565,22609}",Cautious Hero
+Seiya,{Ryuu?gu+in},f,"{20565,22609}",Cautious Hero
+Sabine,{Rebels},f,{13332},Star Wars
+Mighty Thor,"{`"Love and Thunder`"}",f,{22599},MCU
+Death,"{`"Final Destinations?.*Death`"}",f,{22599},Final Destination
+Black Hat,"{`"Black Hat Organization`"}",f,{17281},Villainous
+Punisher,"{`"Marvel Max`"}",f,{},Marvel Max
+Harley Quinn,"{`"Harley Quinn? ?\\(Harley Quinn\\)`"}",f,{8348},"Harley Quinn animated series, 2019"
+Harley Quinn,"{`"Harley Quinn? ?\\[Harley Quinn\\]`"}",f,{8348},"Harley Quinn animated series, 2019"
+Pedro,"{`"Tower of God`"}",f,{22612},Tower of God
+Kojika Hanamaki,"{`"Ningen Series`"}",t,{22613},Ningen Series
+Polpo,{Jojos?(verse)?},f,{22614},Jojos Bizarre Adventure
+Polpo,{JJBA},f,{22614},Jojos Bizarre Adventure
+Polpo,"{`"Black Sabbath`"}",f,{22614},Jojos Bizarre Adventure
+Dagon,"{`"Jujus?t?s?u Kaisen`"}",f,{22615},Jujutsu Kaisen
+Dagon,{JJK},f,{22615},Jujutsu Kaisen
+Hunter,"{`"Fossil Fighters`"}",f,{22616},Fossil Fighters
+Frigisaurus,"{`"Fossil Fighters`"}",t,{22617},Fossil Fighters
+Frigi,"{`"Fossil Fighters`"}",f,{22617},Fossil Fighters
+Biscuit Krueger,"{`"Hunter ?(x ?)?Hunter`"}",t,{22618},Hunter x Hunter
+Biscuit Krueger,{HxH},t,{22618},Hunter x Hunter
+Sagat,{UDON},f,{22619},UDON
+Cloak-Bot,{Amphibia},f,{22620},Amphibia
+Four Horsemen,{Bible},f,{22621},Bible
+Four Horsemen,{Biblical},f,{22621},Bible
+Aphrodite IX,{Image},t,{22622},"Image, Top Cow"
+Aphrodite IX,"{`"Top Cow`"}",t,{22622},"Image, Top Cow"
+Toshi Yoshida,"{`"American Dad`"}",f,{22623},American Dad!
+C.I.A,"{`"American Dad`"}",f,{22624},American Dad!
+The CIA,"{`"American Dad`"}",f,{22624},American Dad!
+Principal Lewis,"{`"American Dad`"}",t,{22625},American Dad!
+Desaad,"{`"Pre(-| )?Flashpoint`"}",t,{22627},Pre-Flashpoint
+Desaad,"{`"\\(DC( Comics)?\\)`"}",t,{22627},DC
+Desaad,"{`"\\[DC( Comics)?\\]`"}",t,{22627},DC
