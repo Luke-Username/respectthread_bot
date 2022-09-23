@@ -27,7 +27,10 @@ UPDATE character SET rt_id_array='{20565, ?}' WHERE rt_id_array='{20565}';
 UPDATE character SET version='{"Ryuu?gu+in"}' WHERE version='{"Ryuu?guu?in"}';
 
 INSERT INTO respectthread (title, link) VALUES ('Respect Batman! (Batman: The Brave and the Bold Comics)', 'https://redd.it/xjarg3'); SELECT * FROM respectthread WHERE link='https://redd.it/xjarg3';
-UPDATE character SET rt_id_array='{664, ?}' WHERE rt_id_array='{664}';
+UPDATE character SET rt_id_array='{664, ?2}' WHERE rt_id_array='{664}';
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Black Canary (Young Justice)', 'https://redd.it/xlk425'); SELECT * FROM respectthread WHERE link='https://redd.it/xlk425';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Black Canary' AND displayed_version_name='Young Justice';
 
 ########################################
 

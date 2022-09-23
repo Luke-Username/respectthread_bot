@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 15328, 'Respect Makima! (Chainsaw Man)', 'https://redd.it/xkcfc9')
+update_respectthread(cur, 4103, 'Respect Garou, The Hero Hunter! (One-Punch Man)', 'https://redd.it/xl2o70')
 
 ########################################
 
@@ -353,6 +354,106 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/xkot3s/respect_aphrodite_ix_image_top_cow/
+
+################################
+
+id = get_rt_id(cur, 'Respect Toshi Yoshida (American Dad!)', 'https://redd.it/xlbfvm')
+add_data(['Toshi Yoshida'],
+'Toshi Yoshida',
+False,
+False,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xlbfvm/respect_toshi_yoshida_american_dad/
+
+################################
+
+id = get_rt_id(cur, 'Respect The C.I.A (American Dad!)', 'https://redd.it/xle99j')
+add_data(['C\.I\.A'],
+'C.I.A',
+False,
+False,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xle99j/respect_the_cia_american_dad/
+
+add_data(['The CIA'],
+'The CIA',
+False,
+False,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xle99j/respect_the_cia_american_dad/
+
+################################
+
+id = get_rt_id(cur, 'Respect Principal Brian Lewis (American Dad!)', 'https://redd.it/xlffd4')
+add_data(['Principal( Brian)? Lewis'],
+'Principal Lewis',
+False,
+True,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xlffd4/respect_principal_brian_lewis_american_dad/
+
+################################
+
+id = get_rt_id(cur, 'Respect Painis Cupcake (TF2 Freaks)', 'https://redd.it/xlffc8')
+add_data(['Painis Cupcake'],
+'Painis Cupcake',
+False,
+True,
+[
+    ['TF2 Freaks']
+],
+'TF2 Freaks',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xlffc8/respect_painis_cupcake_tf2_freaks/
+
+
+################################
+
+id = get_rt_id(cur, 'Respect Desaad [DC Pre-Flashpoint]', 'https://redd.it/xlotpd')
+add_data(['Desaad'],
+'Desaad',
+False,
+True,
+[
+    ['Pre(-| )?Flashpoint']
+],
+'Pre-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xlotpd/respect_desaad_dc_preflashpoint/
+
+add_data(['Desaad'],
+'Desaad',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xlotpd/respect_desaad_dc_preflashpoint/
 
 ################################
 
