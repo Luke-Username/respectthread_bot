@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Vinsmoke Sanji (Shokugeki no Sanji)', 'https://redd.it/xlygo3')
+add_data(['Sanji'],
+'Sanji',
+False,
+False,
+[
+    ['Shokugeki']
+],
+'Shokugeki no Sanji',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xlygo3/respect_vinsmoke_sanji_shokugeki_no_sanji/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
