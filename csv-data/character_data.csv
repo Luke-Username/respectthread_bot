@@ -27816,7 +27816,6 @@ Doomsday,"{`"Doomsday.*Superman ?: ?Doomsday`"}",f,{22401},Superman: Doomsday
 Superman,"{`"Super(-| )?man.*Superman ?: ?Doomsday`"}",f,{22402},Superman: Doomsday
 Elisha,{Bible},f,{22403},Bible
 17,{DB(Z|S)?},f,"{3267,22408}",Dragon Ball
-The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,40,15401}",Doctor Who
 Zim,"{GIR,Alien}",f,{6526},Invader Zim
 Hancock,"{`"Hancock ?\\(Film`"}",f,{457},Hancock
 Ghost Shark,{(Film|Movie)s?},f,{22409},""
@@ -28082,7 +28081,6 @@ Roswaal,"{`"Re(:|-)? ?Zero`"}",t,{13271},Re:Zero
 Roswaal L Mathers,"{`"Re(:|-)? ?Zero`"}",t,{13271},Re:Zero
 Batman,"{`"Bat(-| )?mans?.*2022`"}",f,{22590},"The Batman, 2022"
 Batman,"{`"The Batman`",2022}",f,{22590},"The Batman, 2022"
-The Doctor,{TARDIS},f,"{14419,40,15401}",Doctor Who
 Vi,{Arcane},f,{5201},League of Legends
 Touka Toudou,"{`"Chivalry of a Failed Knight`"}",t,{22591},Chivalry of a Failed Knight
 Touka Toudou,{Rakudai},t,{22591},Chivalry of a Failed Knight
@@ -28106,8 +28104,6 @@ Maggie Lacivi,"{`"Ava'?s Demon`"}",t,{22605},Ava's Demon
 Ichibe Hyosube,{Bleach},t,{22606},Bleach
 Darth Vader,{Fortnite},f,{22607},Fortnite
 Bulma,{Fortnite},f,{22608},Fortnite
-Seiya,"{`"Cautious Hero`"}",f,"{20565,22609}",Cautious Hero
-Seiya,{Ryuu?gu+in},f,"{20565,22609}",Cautious Hero
 Sabine,{Rebels},f,{13332},Star Wars
 Mighty Thor,"{`"Love and Thunder`"}",f,{22599},MCU
 Death,"{`"Final Destinations?.*Death`"}",f,{22599},Final Destination
@@ -28117,6 +28113,8 @@ Harley Quinn,"{`"Harley Quinn? ?\\(Harley Quinn\\)`"}",f,{8348},"Harley Quinn an
 Harley Quinn,"{`"Harley Quinn? ?\\[Harley Quinn\\]`"}",f,{8348},"Harley Quinn animated series, 2019"
 Pedro,"{`"Tower of God`"}",f,{22612},Tower of God
 Kojika Hanamaki,"{`"Ningen Series`"}",t,{22613},Ningen Series
+Seiya,"{`"Cautious Hero`"}",f,"{20565,22609,22628}",Cautious Hero
+The Doctor,{TARDIS},f,"{14419,40,15401,22631}",Doctor Who
 Polpo,{Jojos?(verse)?},f,{22614},Jojos Bizarre Adventure
 Polpo,{JJBA},f,{22614},Jojos Bizarre Adventure
 Polpo,"{`"Black Sabbath`"}",f,{22614},Jojos Bizarre Adventure
@@ -28140,3 +28138,9 @@ Principal Lewis,"{`"American Dad`"}",t,{22625},American Dad!
 Desaad,"{`"Pre(-| )?Flashpoint`"}",t,{22627},Pre-Flashpoint
 Desaad,"{`"\\(DC( Comics)?\\)`"}",t,{22627},DC
 Desaad,"{`"\\[DC( Comics)?\\]`"}",t,{22627},DC
+Seiya,{Ryuu?gu+in},f,"{20565,22609,22628}",Cautious Hero
+Sanji,{Shokugeki},f,{22629},Shokugeki no Sanji
+Dai Ibuki,"{`"Until Death Do Us Part`"}",t,{22630},Until Death Do Us Part
+The Eighth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{22631},Doctor Who
+The Eighth Doctor,{Who(ni)?verse},t,{22631},Doctor Who
+The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,40,15401,22631}",Doctor Who

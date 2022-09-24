@@ -107,53 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 8531, 'Respect: Sanguinius (Warhammer 40k)', 'https://redd.it/xmekdr')
-
-########################################
-
-id = get_rt_id(cur, 'Respect Vinsmoke Sanji (Shokugeki no Sanji)', 'https://redd.it/xlygo3')
-add_data(['Sanji'],
-'Sanji',
-False,
-False,
-[
-    ['Shokugeki']
-],
-'Shokugeki no Sanji',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/xlygo3/respect_vinsmoke_sanji_shokugeki_no_sanji/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Dai Ibuki (Until Death Do Us Part)', 'https://redd.it/xmdoje')
-add_data(['Dai Ibuki'],
-'Dai Ibuki',
-False,
-True,
-[
-    ['Until Death Do Us Part']
-],
-'Until Death Do Us Part',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/xmdoje/respect_dai_ibuki_until_death_do_us_part/
-
-########################################
-
-id = get_rt_id(cur, 'Respect The Eighth Doctor! (Doctor Who)', 'https://redd.it/xme7qg')
-add_data(['(Eigh|8)th Doctor'],
-'The Eighth Doctor',
-False,
-True,
-[
-    ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
-],
-'Doctor Who',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/xme7qg/respect_the_eighth_doctor_doctor_who/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
