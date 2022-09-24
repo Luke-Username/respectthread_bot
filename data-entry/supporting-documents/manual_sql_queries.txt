@@ -19,9 +19,14 @@ UPDATE character SET rt_id_array='{20565,22609, ?}' WHERE default_name='Seiya' A
 
 ########################################
 
+DELETE FROM name_conflict WHERE name='Metroid';
+
 ########################################
 
 ########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/xme7qg';
+UPDATE character SET rt_id_array='{14419,40,15401, ?}' WHERE default_name='The Doctor' AND displayed_version_name='Doctor Who'; --After run
 
 ########################################
 
