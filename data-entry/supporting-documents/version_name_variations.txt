@@ -97,9 +97,9 @@ Aladdin
 
 Aliens vs. Predator
 	Version
-		'{"Aliens? vs\.? Predator"}'
+		['Aliens? vs\.? Predator']
 	Acronyms
-		'{"AVP"}'
+		['AVP']
 	Specific
 		'{"Requiem"}'
 	Displayed Version Name

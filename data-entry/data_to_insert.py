@@ -107,6 +107,139 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6143, "Respect Harry Dresden, Chicago''s Only Professional Wizard (The Dresden Files)", 'https://redd.it/xo0pbr')
+
+########################################
+
+add_data(['Queen Maeve'],
+'Queen Maeve',
+False,
+False,
+[
+    ['The Boys']
+],
+'The Boys',
+'{13595}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Gaston (Disney''s 2017 Beauty and the Beast)", 'https://redd.it/xmqy8h')
+add_data(['Gaston'],
+'Gaston',
+False,
+False,
+[
+    ['2017'], ['Live Action']
+],
+'Beauty and the Beast, 2017',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xmqy8h/respect_gaston_disneys_2017_beauty_and_the_beast/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Penitent One (Blasphemous)', 'https://redd.it/xnn66s')
+add_data(['Penitent One'],
+'Penitent One',
+False,
+True,
+[
+    ['Blasphemous']
+],
+'Blasphemous',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xnn66s/respect_the_penitent_one_blasphemous/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Fugitive Predator (The Predator)', 'https://redd.it/xnpssj')
+add_data(['Fugitive Predator'],
+'Fugitive Predator',
+False,
+True,
+[
+    ['The Predator']
+],
+'The Predator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xnpssj/respect_the_fugitive_predator_the_predator/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Celtic (AVP: Alien vs Predator)', 'https://redd.it/xo31g4')
+add_data(['Celtic'],
+'Celtic',
+False,
+False,
+[
+    ['Aliens? vs?\.? Predator'], ['AVP']
+],
+'Aliens vs. Predator, 2004',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xo31g4/respect_celtic_avp_alien_vs_predator/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Grid the Xenomorph (AVP: Alien vs Predator)', 'https://redd.it/xo4hcl')
+add_data(['Grid'],
+'Grid',
+False,
+False,
+[
+    ['Aliens? vs?\.? Predator'], ['AVP']
+],
+'Aliens vs. Predator, 2004',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xo4hcl/respect_grid_the_xenomorph_avp_alien_vs_predator/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the fodder Knights (Elden Ring)', 'https://redd.it/xo2lgg')
+add_data(['Common Knights?'],
+'Common Knight',
+False,
+False,
+[
+    ['Elden Ring']
+],
+'Elden Ring',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xo2lgg/respect_the_fodder_knights_elden_ring/
+
+add_data(['Fodder Knights?'],
+'Fodder Knight',
+False,
+False,
+[
+    ['Elden Ring']
+],
+'Elden Ring',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xo2lgg/respect_the_fodder_knights_elden_ring/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Justice Friends (Dexter''s Laboratory)", 'https://redd.it/xoaa19')
+add_data(['Justice Friends'],
+'Justice Friends',
+False,
+False,
+[
+    ['Dexters?']
+],
+"Dexter''s Laboratory",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xoaa19/respect_the_justice_friends_dexters_laboratory/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

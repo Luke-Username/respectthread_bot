@@ -14,7 +14,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Morpheus';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Harry Dresden, The Winter Knight (The Dresden Files)', 'https://redd.it/xo1bj3'); SELECT * FROM respectthread WHERE link='https://redd.it/xo1bj3';
+UPDATE character SET rt_id_array='{6143, ?}' WHERE rt_id_array='{6143}';
 
 ########################################
 
