@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Yuji'],
+'Yuji',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{12490}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xohx66/gon_hxh_vs_yuji_jjk/ipyow8v/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
