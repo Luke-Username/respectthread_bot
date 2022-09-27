@@ -121,6 +121,22 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'The Culture Respect Thread', 'https://forums.spacebattles.com/threads/the-culture-respect-thread.669015/')
+add_data(['The Culture'],
+'The Culture',
+False,
+False,
+[
+    ['GSV'], ['Cultureverse'], ['The Culture vs'], ['Iai?n', 'Banks'], ['Consider Phlebas'], ['Time Lords.*The Culture'],
+    ['vs\.? The Culture']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
