@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character WHERE default_name='Death' AND rt_id_array='{22599}';
+
 ########################################
+
+UPDATE character SET version='{"Wormverse"}' WHERE default_name='Dragon' AND version='{"Worm(verse)?"}';
 
 ########################################
 
