@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6479, 'Respect Nissa Revane, Worldwaker! (Magic: The Gathering)', 'https://redd.it/xp7fh7')
+
+########################################
+
 add_data(['Yuji'],
 'Yuji',
 False,
