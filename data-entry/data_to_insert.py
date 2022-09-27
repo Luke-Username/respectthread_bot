@@ -141,6 +141,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Francine Lee, She-Bat (DC, New 52)', 'https://redd.it/xpexqn')
+add_data(['She(-| )Bat'],
+'She-Bat',
+False,
+False,
+[
+    ['New(-| )?52'], ['Nu?-?52']
+],
+'New 52',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xpexqn/respect_francine_lee_shebat_dc_new_52/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sauron (Primal Rage)', 'https://redd.it/xpm2dq')
+add_data(['Sauron'],
+'Sauron',
+False,
+False,
+[
+    ['Primal Rage']
+],
+'Primal Rage',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xpm2dq/respect_sauron_primal_rage/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
