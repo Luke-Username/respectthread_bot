@@ -22168,7 +22168,6 @@ Clairvoyant,{Worm(verse)?},f,{6071},Worm
 Clairvoyant,"{`"Para(-| )?humans?`"}",f,{6071},Worm
 Clairvoyant,"{`"Brockton Bay`"}",f,{6071},Worm
 Clairvoyant,{Cauldron},f,{6071},Worm
-Dragon,{Worm(verse)?},f,{6072},Worm
 Dragon,"{`"Para(-| )?humans?`"}",f,{6072},Worm
 Dragon,"{`"Brockton Bay`"}",f,{6072},Worm
 Echidna,{Worm(verse)?},f,{6073},Worm
@@ -22237,6 +22236,7 @@ Night,"{`"Para(-| )?humans?`"}",f,{6092},Worm
 Night,"{`"Brockton Bay`"}",f,{6092},Worm
 Number Man,{Worm(verse)?},t,{6093},Worm
 Night,"{`"Worm(-| )?verse`"}",f,{6092},Worm
+Dragon,{Wormverse},f,{6072},Worm
 Number Man,"{`"Para(-| )?humans?`"}",t,{6093},Worm
 Number Man,"{`"Brockton Bay`"}",t,{6093},Worm
 Harbinger,{Worm(verse)?},f,{6093},Worm
@@ -28106,7 +28106,6 @@ Darth Vader,{Fortnite},f,{22607},Fortnite
 Bulma,{Fortnite},f,{22608},Fortnite
 Sabine,{Rebels},f,{13332},Star Wars
 Mighty Thor,"{`"Love and Thunder`"}",f,{22599},MCU
-Death,"{`"Final Destinations?.*Death`"}",f,{22599},Final Destination
 Black Hat,"{`"Black Hat Organization`"}",f,{17281},Villainous
 Punisher,"{`"Marvel Max`"}",f,{},Marvel Max
 Harley Quinn,"{`"Harley Quinn? ?\\(Harley Quinn\\)`"}",f,{8348},"Harley Quinn animated series, 2019"
@@ -28156,3 +28155,17 @@ Grid,{AVP},f,{22637},"Aliens vs. Predator, 2004"
 Common Knight,"{`"Elden Ring`"}",f,{22638},Elden Ring
 Fodder Knight,"{`"Elden Ring`"}",f,{22638},Elden Ring
 Justice Friends,{Dexters?},f,{22639},Dexter's Laboratory
+Necrosword,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Necrosword,{MCU},f,{},MCU
+Yuji,"{`"Jujus?t?s?u Kaisen`"}",f,{12490},Jujutsu Kaisen
+Yuji,{JJK},f,{12490},Jujutsu Kaisen
+The Culture,{GSV},f,{22640},""
+The Culture,{Cultureverse},f,{22640},""
+The Culture,"{`"The Culture vs`"}",f,{22640},""
+The Culture,"{Iai?n,Banks}",f,{22640},""
+The Culture,"{`"Consider Phlebas`"}",f,{22640},""
+The Culture,"{`"Time Lords.*The Culture`"}",f,{22640},""
+The Culture,"{`"vs\\.? The Culture`"}",f,{22640},""
+She-Bat,"{`"New(-| )?52`"}",f,{22641},New 52
+She-Bat,{Nu?-?52},f,{22641},New 52
+Sauron,"{`"Primal Rage`"}",f,{22642},Primal Rage
