@@ -111,6 +111,20 @@ update_respectthread(cur, 6479, 'Respect Nissa Revane, Worldwaker! (Magic: The G
 
 ########################################
 
+add_data(['Necro(-| )?sword'],
+'Necrosword',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{}'
+)
+#
+
+########################################
+
 add_data(['Yuji'],
 'Yuji',
 False,
