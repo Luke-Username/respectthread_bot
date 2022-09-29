@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5903, 'Respect Kronos, The Lord of Time! (Percy Jackson and the Olympians)', 'https://redd.it/xrcgbr')
+update_respectthread(cur, 6480, 'Respect Ob Nixilis! (Magic: The Gathering)', 'https://redd.it/xrkg69')
+
+########################################
+
 add_data(['Cosmo'],
 'Cosmo',
 False,
@@ -190,6 +195,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/xquoqm/respect_diablo_primal_rage/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Scorching Jailer (Avatar: The Legend of Aang Videogame)', 'https://redd.it/xrfhas')
+add_data(['Scorching Jailer'],
+'Scorching Jailer',
+False,
+False,
+[
+    ['Avatar'], ['A?TLA']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xrfhas/respect_the_scorching_jailer_avatar_the_legend_of/
 
 ########################################
 

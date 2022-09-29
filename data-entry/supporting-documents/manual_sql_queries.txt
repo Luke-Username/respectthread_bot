@@ -24,7 +24,11 @@ UPDATE character SET rt_id_array='{?1, ?2}' WHERE rt_id_array='{21927}';
 
 ########################################
 
+UPDATE character_name SET name='Omni-?droid' WHERE name='Omnidroid';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hyperion', 'Hyperion Corporation', 0);
 
 ########################################
 
