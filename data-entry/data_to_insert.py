@@ -107,6 +107,89 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Cosmo'],
+'Cosmo',
+False,
+False,
+[
+    ['Saint Seiya']
+],
+'Saint Seiya',
+'{14353}'
+)
+#https://www.reddit.com/r/respectthreads/comments/cpwmls/respect_cosmos_and_miracles_saint_seiya/
+
+########################################
+
+add_data(['Baki'],
+'Baki',
+False,
+False,
+[
+    ['Baki.*Baki Dou']
+],
+'Baki the Grappler',
+'{3446}'
+)
+#
+
+########################################
+
+add_data(['Grimes'],
+'Grimes',
+False,
+False,
+[
+    ['Sasha', 'Amphibia']
+],
+'Amphibia',
+'{22391}'
+)
+#
+
+########################################
+
+add_data(['Peter Parker'],
+'Peter Parker',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{261}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xqqpsb/mark_grayson_invincible_replaces_peter_parker_in/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cosmic Iron Man (Marvel, Earth-616)', 'https://redd.it/xqgdlz')
+add_data(['Cosmic Iron Man'],
+'Cosmic Iron Man',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xqgdlz/respect_cosmic_iron_man_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Diablo (Primal Rage)', 'https://redd.it/xquoqm')
+add_data(['Diablo'],
+'Diablo',
+False,
+False,
+[
+    ['Primal Rage']
+],
+'Primal Rage',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xquoqm/respect_diablo_primal_rage/
 
 ########################################
 
