@@ -22,6 +22,9 @@ INSERT INTO respectthread (title, link) VALUES ('Respect Lara Croft! (Tomb Raide
 INSERT INTO respectthread (title, link) VALUES ('Respect Lara Croft! (Top Cow Comics, Journeys Timeline)', 'https://redd.it/xqferk'); SELECT * FROM respectthread WHERE link='https://redd.it/xqferk';
 UPDATE character SET rt_id_array='{?1, ?2}' WHERE rt_id_array='{21927}';
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Galactus, the Devourer of Worlds (Marvel: Earth-616)', 'https://redd.it/f1za37'); SELECT * FROM respectthread WHERE link='https://redd.it/f1za37';
+UPDATE character SET rt_id_array='{2084, ?3}' WHERE rt_id_array='{2084}';
+
 ########################################
 
 UPDATE character_name SET name='Omni-?droid' WHERE name='Omnidroid';
@@ -32,6 +35,7 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hyperion', 'Hype
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hulk', 'Red Hulk', -4);
 
 ########################################
+
 
 ########################################
 
