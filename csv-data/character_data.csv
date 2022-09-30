@@ -5969,8 +5969,6 @@ Firelord,{Galactus},f,{2082},616
 Firelord,{616},f,{2082},616
 Firelord,{Marvel},f,{2082},616
 Galacta,{Galactus},f,{2083},616
-Galactus,{616},t,{2084},616
-Galactus,{Marvel},t,{2084},616
 Golden Oldie,{616},f,{2085},8417
 Golden Oldie,{Marvel},f,{2085},8417
 Golden Oldie,{Galactus},f,{2085},8417
@@ -16226,8 +16224,6 @@ Diddy,{Kong},f,{5050},Donkey Kong
 Diddy Kong,"{`"Donkey Kong`"}",t,{5050},Donkey Kong
 Donkey Kong,{default},t,{5051},""
 King K. Rool,"{`"Donkey Kong`"}",t,{5052},Donkey Kong
-Giygas,"{`"Earth(-| )?bound`"}",t,{5053},EarthBound
-Giygas,{Mother},t,{5053},EarthBound
 Kumatora,"{`"Earth(-| )?bound`"}",t,{5054},EarthBound
 Kumatora,{Mother},t,{5054},EarthBound
 Chosen Four,"{`"Earth(-| )?bound`"}",t,{5056},EarthBound
@@ -16263,6 +16259,8 @@ Vivec,"{`"Elder Scrolls?`"}",t,{5066},Elder Scrolls
 Father Theodore,"{`"Evil Within`"}",t,{5067},The Evil Within
 Sebastian Castellanos,"{`"Evil Within`"}",t,{5068},The Evil Within
 Sebastian,"{`"Evil Within`"}",f,{5068},The Evil Within
+Giygas,"{`"Earth(-| )?bound`"}",t,{},EarthBound
+Giygas,{Mother},t,{},EarthBound
 Stefano Valentini,"{`"Evil Within`"}",t,{5069},The Evil Within
 Stefano,"{`"Evil Within`"}",f,{5069},The Evil Within
 Courier Six,{Fallout},t,{5070},Fallout
@@ -26372,6 +26370,8 @@ Thor,{3515},f,{21894},3515
 Battinson,"{`"The Batman`"}",t,{22590},"The Batman, 2022"
 Battinson,{2022},t,{22590},"The Batman, 2022"
 Batman,"{`"Bat(-| )?mans? ?\\(2022`"}",f,{22590},"The Batman, 2022"
+Galactus,{616},t,"{2084,22645}",616
+Galactus,{Marvel},t,"{2084,22645}",616
 Opa-Opa,"{`"Fantasy Zone`"}",f,{21568},Fantasy Zone
 Hector Hammond,"{`"Live(-| )Action Green Lantern|Green Lantern Live(-| )Action`"}",f,{21569},"Green Lantern, 2011"
 Hector Hammond,"{`"Green Lantern (Movie|Film)`"}",f,{21569},"Green Lantern, 2011"
@@ -26971,7 +26971,6 @@ Volstagg,{616},t,{21925},616
 Volstagg,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Volstagg,{MCU},f,{},MCU
 Articuno,{Nolands?},f,{21926},Noland
-Lara Croft,"{`"Top Cow`"}",f,{21927},Top Cow
 Tails,"{Sonic,202(0|2)}",f,{21928},"Sonic the Hedgehog, Paramount"
 Tails,"{`"Sonic Movies?`"}",f,{21928},"Sonic the Hedgehog, Paramount"
 Tails,"{Sonic,Paramount}",f,{21928},"Sonic the Hedgehog, Paramount"
@@ -27004,6 +27003,7 @@ Baby 5,{Buffalo},f,{21946},One Piece
 Baby 5,{Donquixote|Doflamingo},f,{21946},One Piece
 Destiny,"{`"Takt Op`"}",f,{21947},Takt Op
 Cuddles,"{`"American Dad`"}",f,{21948},American Dad!
+Lara Croft,"{`"Top Cow`"}",f,"{22643,22644}",Top Cow
 Roland Istaz,{Baki(verse)?},t,{21949},Baki
 Alexia,"{`"Blood of Zeus`"}",f,{21950},Blood of Zeus
 Fiona,"{`"Haunting Ground`"}",f,{21951},Haunting Ground
@@ -28169,3 +28169,18 @@ The Culture,"{`"vs\\.? The Culture`"}",f,{22640},""
 She-Bat,"{`"New(-| )?52`"}",f,{22641},New 52
 She-Bat,{Nu?-?52},f,{22641},New 52
 Sauron,"{`"Primal Rage`"}",f,{22642},Primal Rage
+Cosmo,"{`"Saint Seiya`"}",f,{14353},Saint Seiya
+Red Hulk,{Ross},f,{2130},Thunderbolt Ross
+Baki,"{`"Baki.*Baki Dou`"}",f,{3446},Baki the Grappler
+Grimes,"{Sasha,Amphibia}",f,{22391},Amphibia
+Peter Parker,"{`"Marvel Cinematic Universe`"}",f,{261},MCU
+Peter Parker,{MCU},f,{261},MCU
+Cosmic Iron Man,{616},t,{22646},616
+Diablo,"{`"Primal Rage`"}",f,{22647},Primal Rage
+Scorching Jailer,{Avatar},f,{22648},Avatar: TLA
+Scorching Jailer,{A?TLA},f,{22648},Avatar: TLA
+The Beast,{2017},f,{22649},"Beauty and the Beast, 2017"
+The Beast,"{`"Live Action`"}",f,{22649},"Beauty and the Beast, 2017"
+Beast,"{`"Beast ?\\(2017`"}",f,{22649},"Beauty and the Beast, 2017"
+Beast,"{2017,`"Live Action`"}",f,{22649},"Beauty and the Beast, 2017"
+SCP-UBU,"{`"SCP Foundation`"}",f,{22650},""

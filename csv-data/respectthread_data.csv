@@ -263,6 +263,7 @@ id,title,link
 296,Respect The Commander (Sky High),https://redd.it/5t3ehv
 297,Respect Warren Peace (Sky High),https://redd.it/602fbj
 298,Respect Will Stronghold (Sky High),https://redd.it/602ely
+280,"Respect Godzilla, King of the Monsters! (MonsterVerse)",https://redd.it/xrpb2j
 302,Respect Spider-Man (Raimi Trilogy),https://redd.it/o4tnq6
 301,Respect Harry Osborn (Raimiverse),https://redd.it/aewqr2
 303,Respect Venom (Spider-Man 3),https://redd.it/97od24
@@ -298,7 +299,6 @@ id,title,link
 339,Respect Optimus Prime (Michael Bay's Transformers),https://redd.it/acx0y8
 284,Respect the Black Knight [Monty Python and the Holy Grail],https://redd.it/cj79y0
 285,Respect King Arthur [Monty Python and the Holy Grail],https://redd.it/cjntxm
-280,"Respect Godzilla, King of the Monsters (Godzilla) [Monsterverse]",https://redd.it/cwi5k1
 319,Respect Jar Jar Binks! (Star Wars Canon),https://redd.it/drji6o
 299,Respect Dr. Octopus (Spider-Man 2),https://redd.it/ge2rjy
 305,Respect Adi Gallia (Star Wars Canon),https://redd.it/g384mr
@@ -5675,7 +5675,6 @@ id,title,link
 5900,Respect Alicia Valeyard! (Outrace The Sky),https://redd.it/7k9zgn
 5901,Respect Fortissimo Staplegun! (Outrace the Sky),https://redd.it/7kmyk6
 5902,Respect the Primary Marjoes! (Outrace the Sky),https://redd.it/7kvcoq
-5903,Kronos (Percy Jackson & the Olympians),https://redd.it/86xav7
 5904,Respect Nico di Angelo! (Percy Jackson and the Olympians),https://redd.it/qc29uv
 5906,"Respect Amadeus, the Black Knight (A Practical Guide to Evil)",https://redd.it/9klk7i
 5907,"Respect Catherine Foundling, the Squire (A Practical Guide to Evil)",https://redd.it/800ttu
@@ -5719,6 +5718,7 @@ id,title,link
 5945,Respect SCP-2399: A Malfunctioning Destroyer (SCP Foundation),https://redd.it/6qe2by
 5946,Respect SCP-2599 (SCP Foundation),https://redd.it/8atk8e
 5947,"Respect SCP-2845, THE DEER",https://redd.it/7u1nhr
+5903,"Respect Kronos, The Lord of Time! (Percy Jackson and the Olympians)",https://redd.it/xrcgbr
 5896,Respect Sakamaki Izayoi (Mondaiji Tachi),https://redd.it/hqyxkx
 5948,"Respect poky and Carnegias, SCP-3388 (SCP Foundation)",https://redd.it/b27so8
 5949,"Respect SCP-3740, Ashur! (SCP Foundation)",https://redd.it/7n42fe
@@ -6232,7 +6232,6 @@ id,title,link
 6476,[Respect] Liliana Vess (Magic the Gathering),https://redd.it/36wnr9
 6477,"Respect Nahiri, the Lithomancer! (Magic: The Gathering)",https://redd.it/47w6ub
 6478,"Respect Nicol Bolas, puny humans!",https://redd.it/2hp4mb
-6480,"Planeswalkers and mere humans alike, respect Ob Nixilis! (Magic: The Gathering)",https://redd.it/47ep2m
 6481,Respect Ral Zarek (Magic: The Gathering),https://redd.it/46thxa
 6482,"Respect Sarkhan Vol, the overly obsessed with dragons! (Magic the Gathering)",https://redd.it/48iiz8
 6484,"Respect Tamiyo, the Moon Sage! [Magic: The Gathering]",https://redd.it/4jblcu
@@ -6265,6 +6264,7 @@ id,title,link
 6469,Respect Arlinn Kord (Magic the Gathering),https://redd.it/w8887d
 264,Respect Thor Odinson (Marvel Cinematic Universe),https://redd.it/xguqef
 6479,"Respect Nissa Revane, Worldwaker! (Magic: The Gathering)",https://redd.it/xp7fh7
+6480,Respect Ob Nixilis! (Magic: The Gathering),https://redd.it/xrkg69
 6509,Respect Indiana Jones (Indiana Jones),https://redd.it/d0aua3
 2788,Respect the Mask (Dark Horse Comics),https://redd.it/c7mf7h
 6510,[Respect] Inmate 93X666 (Jungle Jail),https://redd.it/bvttq1
@@ -9704,6 +9704,11 @@ id,title,link
 22629,Respect Vinsmoke Sanji (Shokugeki no Sanji),https://redd.it/xlygo3
 22630,Respect Dai Ibuki (Until Death Do Us Part),https://redd.it/xmdoje
 22631,Respect The Eighth Doctor! (Doctor Who),https://redd.it/xme7qg
+22646,"Respect Cosmic Iron Man (Marvel, Earth-616)",https://redd.it/xqgdlz
+22647,Respect Diablo (Primal Rage),https://redd.it/xquoqm
+22648,Respect The Scorching Jailer (Avatar: The Legend of Aang Videogame),https://redd.it/xrfhas
+22649,Respect The Beast (Disney's 2017 Beauty and the Beast),https://redd.it/xroz5v
+22650,Respect SCP-UBU (SCP Foundation),https://redd.it/xrktv1
 13482,Respect the S.H.I.E.L.D. Helicarriers (Marvel Cinematic Universe),https://redd.it/j82lm2
 13484,Respect M'Baku (Marvel Cinematic Universe),https://redd.it/jc8yij
 13485,Respect Yondu (Marvel Cinematic Universe),https://redd.it/jc9lg9
@@ -10011,6 +10016,7 @@ id,title,link
 22640,The Culture Respect Thread,https://forums.spacebattles.com/threads/the-culture-respect-thread.669015/
 22641,"Respect Francine Lee, She-Bat (DC, New 52)",https://redd.it/xpexqn
 22642,Respect Sauron (Primal Rage),https://redd.it/xpm2dq
+22643,"Respect Lara Croft! (Tomb Raider, Top Cow Timeline)",https://redd.it/xqfatw
 21105,"Respect the Imposter, Ashfur (Warrior Cats)",https://redd.it/rfuz1y
 21138,"Respect Michelle Dreemurr [The Princess, the Songstress, and the Plushie]",https://redd.it/rlvyhk
 3055,Respect Eren Yeager (Attack On Titan),https://redd.it/cmnegi
@@ -11459,3 +11465,5 @@ id,title,link
 22604,"Respect The Heretic (DC, New 52/Rebirth)",https://redd.it/xevjwu
 22605,Respect Maggie Lacivi (Ava's Demon),https://redd.it/xf9w92
 22606,"Respect 'The Monk who Calls the Real Name', Ichibe Hyosube (Bleach)",https://redd.it/xfe5xq
+22644,"Respect Lara Croft! (Top Cow Comics, Journeys Timeline)",https://redd.it/xqferk
+22645,"Respect Galactus, the Devourer of Worlds (Marvel: Earth-616)",https://redd.it/f1za37
