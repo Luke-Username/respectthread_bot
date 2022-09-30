@@ -29,6 +29,7 @@ UPDATE character_name SET name='Omni-?droid' WHERE name='Omnidroid';
 ########################################
 
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hyperion', 'Hyperion Corporation', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hulk', 'Red Hulk', -4);
 
 ########################################
 

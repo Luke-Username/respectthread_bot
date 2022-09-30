@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 5903, 'Respect Kronos, The Lord of Time! (Percy Jackson and the Olympians)', 'https://redd.it/xrcgbr')
 update_respectthread(cur, 6480, 'Respect Ob Nixilis! (Magic: The Gathering)', 'https://redd.it/xrkg69')
+update_respectthread(cur, 280, 'Respect Godzilla, King of the Monsters! (MonsterVerse)', 'https://redd.it/xrpb2j')
 
 ########################################
 
@@ -123,6 +124,20 @@ False,
 '{14353}'
 )
 #https://www.reddit.com/r/respectthreads/comments/cpwmls/respect_cosmos_and_miracles_saint_seiya/
+
+########################################
+
+add_data(['Red Hulk'],
+'Red Hulk',
+False,
+False,
+[
+    ['Ross']
+],
+'Thunderbolt Ross',
+'{2130}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xru6r9/the_red_hulk_battle_who_wins_robert_maverick_red/iqgxr1k/?context=3
 
 ########################################
 
@@ -210,6 +225,48 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/xrfhas/respect_the_scorching_jailer_avatar_the_legend_of/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Beast (Disney''s 2017 Beauty and the Beast)", 'https://redd.it/xroz5v')
+add_data(['The Beast'],
+'The Beast',
+False,
+False,
+[
+    ['2017'], ['Live Action']
+],
+'Beauty and the Beast, 2017',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xroz5v/respect_the_beast_disneys_2017_beauty_and_the/
+
+add_data(['Beast'],
+'Beast',
+False,
+False,
+[
+    ['Beast ?\(2017'], ['2017', 'Live Action']
+],
+'Beauty and the Beast, 2017',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xroz5v/respect_the_beast_disneys_2017_beauty_and_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-UBU (SCP Foundation)', 'https://redd.it/xrktv1')
+add_data(['SCP ?(-| )? ?UBU'],
+'SCP-UBU',
+False,
+False,
+[
+    ['SCP Foundation']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
