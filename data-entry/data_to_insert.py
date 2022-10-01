@@ -137,6 +137,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Killbots (Chopping Mall)', 'https://redd.it/xswnj7')
+add_data(['Killbots?'],
+'Killbots',
+False,
+False,
+[
+    ['Chopping Mall']
+],
+'Chopping Mall',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xswnj7/respect_the_killbots_chopping_mall/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
