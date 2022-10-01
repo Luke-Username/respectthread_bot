@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect Mandark (Dexter''s Laboratory)", 'https://redd.it/xse0y1')
+add_data(['Mandark'],
+'Mandark',
+False,
+True,
+[
+    ['Dexters?']
+],
+"Dexter''s Laboratory",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bizarro (DC Super Hero Girls)', 'https://redd.it/xslne2')
+add_data(['Bizz?arr?o'],
+'Bizarro',
+False,
+False,
+[
+    ['DC Super ?Hero Girls']
+],
+'DC Super Hero Girls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xslne2/respect_bizarro_dc_super_hero_girls/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
