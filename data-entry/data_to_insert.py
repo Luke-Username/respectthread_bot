@@ -107,6 +107,32 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Mark'],
+'Mark',
+False,
+False,
+[
+    ['Invincible', 'Nolan']
+],
+'Invincible',
+'{1961,17671}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xsz7ly/the_bad_batchstar_wars_vs_master_chiefhalo/
+
+add_data(['Nolan'],
+'Nolan',
+False,
+False,
+[
+    ['Invincible', 'Mark']
+],
+'Invincible',
+'{1962,16453}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xsz7ly/the_bad_batchstar_wars_vs_master_chiefhalo/
+
+########################################
+
 id = get_rt_id(cur, "Respect Mandark (Dexter''s Laboratory)", 'https://redd.it/xse0y1')
 add_data(['Mandark'],
 'Mandark',
@@ -149,6 +175,50 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/xswnj7/respect_the_killbots_chopping_mall/
+
+########################################
+
+add_data(['Bad Batch'],
+'Bad Batch',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{22384}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xsz7ly/the_bad_batchstar_wars_vs_master_chiefhalo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Carousel Entity (Stagtown)', 'https://redd.it/xt2d9h')
+add_data(['Carousel'],
+'Carousel',
+False,
+False,
+[
+    ['Stagtown']
+],
+'Stagtown',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xt2d9h/respect_the_carousel_entity_stagtown/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Cube (Cube)', 'https://redd.it/xt3ao1')
+add_data(['The Cube'],
+'The Cube',
+False,
+False,
+[
+    ['1997'], ['Hypercube'], ['Cube:? Zero']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
