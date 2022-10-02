@@ -222,6 +222,84 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Alluri Sitarama Raju (RRR)', 'https://redd.it/xtrp3b')
+add_data(['Alluri Sitarama Raju'],
+'Alluri Sitarama Raju',
+False,
+False,
+[
+    ['RRR']
+],
+'RRR',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xtrp3b/respect_alluri_sitarama_raju_rrr/
+
+add_data(['Ram'],
+'Ram',
+False,
+False,
+[
+    ['RRR']
+],
+'RRR',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xtrp3b/respect_alluri_sitarama_raju_rrr/
+
+add_data(['Raju'],
+'Raju',
+False,
+False,
+[
+    ['RRR']
+],
+'RRR',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xtrp3b/respect_alluri_sitarama_raju_rrr/
+
+add_data(['Protagonist'],
+'Protagonist',
+False,
+False,
+[
+    ['RRR']
+],
+'RRR',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xtrp3b/respect_alluri_sitarama_raju_rrr/
+
+add_data(['Protagonists'],
+'Protagonists',
+False,
+False,
+[
+    ['RRR']
+],
+'RRR',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xtrp3b/respect_alluri_sitarama_raju_rrr/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hayley Smith (American Dad!)', 'https://redd.it/xtt992')
+add_data(['Hayley Smith'],
+'Hayley Smith',
+False,
+True,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xtt992/respect_hayley_smith_american_dad/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
