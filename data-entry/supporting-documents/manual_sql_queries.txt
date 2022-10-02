@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Predator' AND version='{"The Predators?"}';
-
 ########################################
-
-UPDATE character SET rt_id_array='{4976, 6017,6016}' WHERE rt_id_array='{6017,6016}';
-UPDATE character SET rt_id_array='{4976, 6017,6016}' WHERE rt_id_array='{4976}';
 
 ########################################
 

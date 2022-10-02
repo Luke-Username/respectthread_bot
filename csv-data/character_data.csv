@@ -15142,7 +15142,6 @@ Köinzell,"{`"(Ü|U)bel Blatt`"}",t,{4972},Übel Blatt
 Special Week,"{`"Pretty Derby`"}",f,{4973},Uma Musume Pretty Derby
 Mamoru Hijikata,"{`"Until Death Do Us Part`"}",t,{4974},Until Death Do Us Part
 Uratarou,"{`"Uratarou ?\\(Uratarou`"}",t,{4975},""
-Vampire Hunter D,{Kikuchi},t,{4976},""
 Amedome Tsutsuji,"{`"Vanilla Spider`"}",t,{4977},Vanilla Spider
 Ma Gangryong,{Veritas},t,{4978},Veritas
 Viewtiful Joe,"{`"Viewtiful Joe ?\\(Viewtiful Joe`"}",t,{4979},""
@@ -15160,6 +15159,7 @@ Gan Takada,{Yatterm(e|a)n},t,{4986},Yatterman
 Ai Kaminari,{Yatterm(e|a)n},t,{4986},Yatterman
 Zetman,"{`"Zetman ?\\(Zetman`"}",t,{4988},""
 Zet,{Zetman},f,{4988},Zetman
+Vampire Hunter D,{Kikuchi},t,"{4976,6017,6016}",""
 Jin Kanzaki,{Zetman},t,{4988},Zetman
 Kyousuke Hyoubu,"{`"The Unlimited`"}",t,{4989},Zettai Karen Children: The Unlimited
 Kyousuke Hyoubu,"{`"Zettai Karen Children`"}",t,{4989},Zettai Karen Children: The Unlimited
@@ -21780,7 +21780,6 @@ Zegion,{Slime},t,{6010},That Time I Got Reincarnated as a Slime
 Zegion,{Rimuru},t,{6010},That Time I Got Reincarnated as a Slime
 God,"{`"God ?\\(Twig`"}",f,{6224},Twig
 Left Hand,"{`"Vampire Hunter D`"}",f,{6015},Vampire Hunter D
-D,"{`"Vampire Hunter`"}",f,"{6017,6016}",Vampire Hunter D
 Angron,{(WH)?40K},t,{6019},Warhammer 40k
 Angron,{Warhammer},t,{6019},Warhammer 40k
 C'tan,{(WH)?40K},t,{6020},Warhammer 40k
@@ -21823,6 +21822,7 @@ Nurgle,{Warhammer},t,{6031},Warhammer 40k
 Skarbrand,{(WH)?40K},t,{6033},Warhammer 40k
 Skarbrand,{Warhammer},t,{6033},Warhammer 40k
 Darkhounds,"{`"Wheel of Time`"}",t,{6034},Warhammer 40k
+D,"{`"Vampire Hunter`"}",f,"{4976,6017,6016}",Vampire Hunter D
 Darkhounds,{WOT},t,{6034},Warhammer 40k
 Draghkar,"{`"Wheel of Time`"}",t,{6035},Warhammer 40k
 Draghkar,{WOT},t,{6035},Warhammer 40k
@@ -25190,7 +25190,6 @@ Minato,{Kurama},f,{20429},Naruto
 Sonic,"{Pre,`"Genesis Wave`"}",f,{2629},Archie Comics
 Wolf,"{`"Wolf \\(Predator\\)`"}",f,{8421},Aliens vs. Predator
 Predator,"{`"Predator Franchise`"}",f,"{2799,13507}",""
-Predator,"{`"The Predators?`"}",f,"{2799,13507}",""
 Predator,"{`"vs\\.? Predator`"}",f,"{2799,13507}",""
 Predator,"{`"How many Predators?`"}",f,"{2799,13507}",""
 Predator,"{`"Young Predator`"}",f,"{2799,13507}",""
@@ -28184,3 +28183,19 @@ The Beast,"{`"Live Action`"}",f,{22649},"Beauty and the Beast, 2017"
 Beast,"{`"Beast ?\\(2017`"}",f,{22649},"Beauty and the Beast, 2017"
 Beast,"{2017,`"Live Action`"}",f,{22649},"Beauty and the Beast, 2017"
 SCP-UBU,"{`"SCP Foundation`"}",f,{22650},""
+Mark,"{Invincible,Nolan}",f,"{1961,17671}",Invincible
+Nolan,"{Invincible,Mark}",f,"{1962,16453}",Invincible
+Mandark,{Dexters?},t,{22651},Dexter's Laboratory
+Bizarro,"{`"DC Super ?Hero Girls`"}",f,{22652},DC Super Hero Girls
+Killbots,"{`"Chopping Mall`"}",f,{22653},Chopping Mall
+Bad Batch,"{`"S(tar )?Wars`"}",f,{22384},Star Wars
+Carousel,{Stagtown},f,{22654},Stagtown
+The Cube,{1997},f,{22655},""
+The Cube,{Hypercube},f,{22655},""
+The Cube,"{`"Cube:? Zero`"}",f,{22655},""
+Alluri Sitarama Raju,{RRR},f,{22656},RRR
+Ram,{RRR},f,{22656},RRR
+Raju,{RRR},f,{22656},RRR
+Protagonist,{RRR},f,{22656},RRR
+Protagonists,{RRR},f,{22656},RRR
+Hayley Smith,"{`"American Dad`"}",t,{22657},American Dad!
