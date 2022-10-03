@@ -14,7 +14,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Sonic(\.| )EXE' WHERE name='Sonic(\\.| )EXE';
+
 ########################################
+
+DELETE FROM character WHERE default_name='Ego' AND version='{"movie"}';
+DELETE FROM character WHERE default_name='Ego' AND version='{"movies"}';
 
 ########################################
 

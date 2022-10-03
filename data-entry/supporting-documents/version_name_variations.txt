@@ -2213,12 +2213,12 @@ Monsters, Inc.
 
 MonsterVerse
 	Version
-		'{"Monster(-| )?verse"}'
+		['Monster(-| )?verse']
 	Acronyms
-		'{"MV"}'
+		['MV']
 	Specific
-		'{"Aftershock"}'
-		r'{"Godzilla vs\\.? Kong"}'
+		['Aftershock']
+		['Godzilla vs\.? Kong']
 	Displayed Version Name
 		"MonsterVerse"
 

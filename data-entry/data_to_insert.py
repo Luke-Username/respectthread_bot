@@ -107,6 +107,98 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 281, 'Respect Kong, the God of Skull Island! (MonsterVerse)', 'https://redd.it/xu1n81')
+update_respectthread(cur, 8264, 'Pangolin Respect Thread', 'https://redd.it/vx9niy')
+
+########################################
+
+add_data(['The Doctor'],
+'The Doctor',
+False,
+False,
+[
+    ['The Doctor vs|vs\.? The Doctor', 'Rick']
+],
+'Doctor Who',
+'{14419,40,15401,22631}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Amhuluk (Godzilla: Dominion) [MonsterVerse]', 'https://redd.it/xutaee')
+add_data(['Amhuluk'],
+'Amhuluk',
+False,
+True,
+[
+    ['Monster(-| )?verse'], ['Godzilla:? Dominion']
+],
+'MonsterVerse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xutaee/respect_amhuluk_godzilla_dominion_monsterverse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Camazotz, the King of the Deep (Kingdom Kong) [MonsterVerse]', 'https://redd.it/xu2nzi')
+add_data(['Camazotz'],
+'Camazotz',
+False,
+False,
+[
+    ['Monster(-| )?verse']
+],
+'MonsterVerse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xu2nzi/respect_camazotz_the_king_of_the_deep_kingdom/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scylla (Godzilla: King of the Monsters) [MonsterVerse]', 'https://redd.it/xudqsa')
+add_data(['Scylla'],
+'Scylla',
+False,
+False,
+[
+    ['Monster(-| )?verse'], ['Godzilla: King of the Monsters']
+],
+'MonsterVerse',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, '[NSFW] Respect Misora Haebaru! (Hagure Idol: Jigoku-hen)', 'https://redd.it/xu5in9')
+add_data(['Misora Haebaru'],
+'Misora Haebaru',
+False,
+True,
+[
+    ['Hagure Idol']
+],
+'Hagure Idol: Jigoku-hen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xu5in9/nsfw_respect_misora_haebaru_hagure_idol_jigokuhen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Steve Smith (American Dad!)', 'https://redd.it/xuopyn')
+add_data(['Steve Smith'],
+'Steve Smith',
+False,
+False,
+[
+    ['American Dad'], ['Stan']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xuopyn/respect_steve_smith_american_dad/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
