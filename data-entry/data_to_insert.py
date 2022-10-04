@@ -201,6 +201,33 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Deputy Director Avery Bullock (American Dad!)', 'https://redd.it/xuv2ye')
+add_data(['Avery Bullock'],
+'Avery Bullock',
+False,
+True,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xuv2ye/respect_deputy_director_avery_bullock_american_dad/
+
+add_data(['Director Bullock'],
+'Director Bullock',
+False,
+True,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xuv2ye/respect_deputy_director_avery_bullock_american_dad/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
