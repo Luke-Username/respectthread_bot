@@ -1493,8 +1493,6 @@ Ebony Maw,"{`"Infinity War`"}",f,{240},MCU
 Ego,"{`"Marvel Cinematic Universe`"}",f,{241},MCU
 Ego,{MCU},f,{241},MCU
 Ego,{199999},f,{241},MCU
-Ego,{movie},f,{241},MCU
-Ego,{movies},f,{241},MCU
 Ego,{GOTG},f,{241},MCU
 Ego,"{`"Guardians of the Galaxy`"}",f,{241},MCU
 Ego,{GOTG2},f,{241},MCU
@@ -28199,3 +28197,14 @@ Raju,{RRR},f,{22656},RRR
 Protagonist,{RRR},f,{22656},RRR
 Protagonists,{RRR},f,{22656},RRR
 Hayley Smith,"{`"American Dad`"}",t,{22657},American Dad!
+The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,40,15401,22631}",Doctor Who
+Amhuluk,"{`"Monster(-| )?verse`"}",t,{22658},MonsterVerse
+Amhuluk,"{`"Godzilla:? Dominion`"}",t,{22658},MonsterVerse
+Camazotz,"{`"Monster(-| )?verse`"}",f,{22659},MonsterVerse
+Scylla,"{`"Monster(-| )?verse`"}",f,{22660},MonsterVerse
+Scylla,"{`"Godzilla: King of the Monsters`"}",f,{22660},MonsterVerse
+Misora Haebaru,"{`"Hagure Idol`"}",t,{22661},Hagure Idol: Jigoku-hen
+Steve Smith,"{`"American Dad`"}",f,{22662},American Dad!
+Steve Smith,{Stan},f,{22662},American Dad!
+Avery Bullock,"{`"American Dad`"}",t,{22663},American Dad!
+Director Bullock,"{`"American Dad`"}",t,{22663},American Dad!
