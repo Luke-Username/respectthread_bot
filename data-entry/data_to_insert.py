@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6179, 'Respect Cthulhu! (H.P. Lovecraft)', 'https://redd.it/xveuuw')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Komaram Bheem (RRR)', 'https://redd.it/xv1kc2')
 add_data(['Bheem'],
 'Bheem',
@@ -146,6 +150,63 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/xvb240/respect_princess_snake_dragon_ball_z/
+
+########################################
+
+id = get_rt_id(cur, 'Respect John Doe (Embalming: Another Tale of Frankenstein)', 'https://redd.it/xvhs0g')
+add_data(['John Doe'],
+'John Doe',
+False,
+False,
+[
+    ['Embalming']
+],
+'Embalming',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Francine Smith (American Dad!)', 'https://redd.it/xvjz8p')
+add_data(['Francine Smith'],
+'Francine Smith',
+False,
+True,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xvjz8p/respect_francine_smith_american_dad/
+
+add_data(['Francine'],
+'Francine',
+False,
+False,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xvjz8p/respect_francine_smith_american_dad/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Gorgonopsid (Primeval)', 'https://redd.it/xvpjee')
+add_data(['Gorgonopsid'],
+'Gorgonopsid',
+False,
+False,
+[
+    ['Primeval']
+],
+'Primeval',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xvpjee/respect_the_gorgonopsid_primeval/
 
 ########################################
 
