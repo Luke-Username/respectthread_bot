@@ -107,6 +107,46 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Komaram Bheem (RRR)', 'https://redd.it/xv1kc2')
+add_data(['Bheem'],
+'Bheem',
+False,
+False,
+[
+    ['RRR']
+],
+'RRR',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xv1kc2/respect_komaram_bheem_rrr/
+
+add_data(['Beem'],
+'Beem',
+False,
+False,
+[
+    ['RRR']
+],
+'RRR',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xv1kc2/respect_komaram_bheem_rrr/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Princess Snake (Dragon Ball Z)', 'https://redd.it/xvb240')
+add_data(['Princess Snake'],
+'Princess Snake',
+False,
+False,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xvb240/respect_princess_snake_dragon_ball_z/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
