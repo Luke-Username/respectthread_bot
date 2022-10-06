@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 6179, 'Respect Cthulhu! (H.P. Lovecraft)', 'https://redd.it/xveuuw')
+update_respectthread(cur, 14822, 'Respect Jack the Drought (One Piece)', 'https://redd.it/xwayc7')
 
 ########################################
 
@@ -207,6 +208,48 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/xvpjee/respect_the_gorgonopsid_primeval/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ulla (When Water Sang Fire)', 'https://redd.it/xvskm3')
+add_data(['Ulla'],
+'Ulla',
+False,
+False,
+[
+    ['When Water Sang Fire']
+],
+'When Water Sang Fire',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ulysses (DC, New 52)', 'https://redd.it/xwfxys')
+add_data(['Ulysses'],
+'Ulysses',
+False,
+False,
+[
+    ['New(-| )?52'], ['Nu?-?52']
+],
+'New 52',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xwfxys/respect_ulysses_dc_new_52/
+
+add_data(['Ulysses'],
+'Ulysses',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xwfxys/respect_ulysses_dc_new_52/
 
 ########################################
 
