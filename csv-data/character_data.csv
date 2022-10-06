@@ -26434,6 +26434,7 @@ Peter Parker,{Insomniacs?},f,{15258},Insomniac's Spider-Man
 Batman,"{`"Arkham Knights?`"}",f,{17381},Batman: Arkham
 Old Woman Laura,{18366},t,{21860},18366
 Ghost Rider,{AoS},f,{16830},MCU
+Bheem,{RRR},f,{22664},RRR
 Godzilla,"{`"King of the Monsters`"}",f,{280},MonsterVerse
 Godzilla,"{`"Godzilla: King of Monsters`"}",f,{280},MonsterVerse
 Godzilla,{Legendary},f,{280},MonsterVerse
@@ -27509,6 +27510,8 @@ Rat King,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22173},TMNT 2003
 Rat King,"{TMNT,2003}",f,{22173},TMNT 2003
 Edward Kenway,"{Assassin,Creed}",t,{22174},Assassin's Creed
 Edward Kenway,"{`"AC\\d`"}",t,{22174},Assassin's Creed
+Beem,{RRR},f,{22664},RRR
+Princess Snake,"{`"Dragon ?Ball`"}",f,{22665},Dragon Ball
 Heracles,{myth?(ical|olog(y|ical))?},t,{22175},Greek Mythology
 Lunatik,{616},f,{22176},616
 Tyrannosaurus rex Bull,"{`"Jurassic Park`"}",f,{22177},Jurassic Park
@@ -28208,3 +28211,13 @@ Steve Smith,"{`"American Dad`"}",f,{22662},American Dad!
 Steve Smith,{Stan},f,{22662},American Dad!
 Avery Bullock,"{`"American Dad`"}",t,{22663},American Dad!
 Director Bullock,"{`"American Dad`"}",t,{22663},American Dad!
+Princess Snake,{DB(Z|S)},f,{22665},Dragon Ball
+John Doe,{Embalming},f,{22666},Embalming
+Francine Smith,"{`"American Dad`"}",t,{22667},American Dad!
+Francine,"{`"American Dad`"}",f,{22667},American Dad!
+Gorgonopsid,{Primeval},f,{22668},Primeval
+Ulla,"{`"When Water Sang Fire`"}",f,{22669},When Water Sang Fire
+Ulysses,"{`"New(-| )?52`"}",f,{22670},New 52
+Ulysses,{Nu?-?52},f,{22670},New 52
+Ulysses,"{`"\\(DC( Comics)?\\)`"}",f,{22670},DC
+Ulysses,"{`"\\[DC( Comics)?\\]`"}",f,{22670},DC

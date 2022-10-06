@@ -14,8 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Tao ?(B|P)ai ?(B|P)ai' WHERE name='Tao (B|P)ai (B|P)ai';
-
 ########################################
 
 ########################################
