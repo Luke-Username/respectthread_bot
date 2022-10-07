@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Future Mer Creatures (Primeval)', 'https://redd.it/xxdeqq')
+add_data(['Mer Creatures?'],
+'Mer Creatures',
+False,
+True,
+[
+    ['Primeval']
+],
+'Primeval',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xxdeqq/respect_the_future_mer_creatures_primeval/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Infinite! (Sonic Forces)', 'https://redd.it/xxe6vp')
+add_data(['Infinite'],
+'Infinite',
+False,
+False,
+[
+    ['Sonic Forces'], ['Infinite ?\(Sonic']
+],
+'Sonic the Hedgehog',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xxe6vp/respect_infinite_sonic_forces/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Smilodon (Primeval)', 'https://redd.it/xxyyfg')
+add_data(['Smilodon'],
+'Smilodon',
+False,
+False,
+[
+    ['Primeval']
+],
+'Primeval',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xxyyfg/respect_the_smilodon_primeval/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
