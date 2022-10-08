@@ -2115,7 +2115,7 @@ Men in Black
 
 Metal Gear
 	Version
-		'{"Metal ?Gear"}', r'{"MGS(\\d|\\w+)?"}', r'{"MGS?\\d"}'
+		['Metal ?Gear'], ['MGS(\d|\w+)?'], ['MGS?\d']
 	Specific
 		'{"MGs?:? ?RR?"}'
 	Displayed Version Name

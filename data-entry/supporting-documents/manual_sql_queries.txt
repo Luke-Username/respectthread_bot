@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Kaku', 'Seiga Kaku', -6);
+UPDATE character SET is_default=FALSE WHERE default_name='Firestorm';
+
 ########################################
 
 ########################################

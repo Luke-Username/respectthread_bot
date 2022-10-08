@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Jason Voo?rhee?s'],
+'Jason Voorhees',
+False,
+True,
+[
+    ['Human Jason']
+],
+'Friday the 13th',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xyg09s/the_teenagers_from_cobra_kai_go_to_camp_crystal/irh0k43/?context=3
+
+########################################
+
+add_data(['Radien'],
+'Radien',
+False,
+False,
+[
+    ['Metal ?Gear']
+],
+'Metal Gear',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xyi3kq/bayonetta_vs_radien_metal_gear_rising/
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Future Mer Creatures (Primeval)', 'https://redd.it/xxdeqq')
 add_data(['Mer Creatures?'],
 'Mer Creatures',
