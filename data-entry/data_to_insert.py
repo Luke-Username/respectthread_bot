@@ -107,6 +107,25 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2313, 'Respect All-Black the Necrosword (Marvel, Earth-616)', 'https://redd.it/xz2nkc')
+
+########################################
+
+add_data(['Fin'],
+'Fin',
+False,
+False,
+[
+    ['Sharknado']
+],
+'Sharknado',
+'{552}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/xyg09s/the_teenagers_from_cobra_kai_go_to_camp_crystal/irh0k43/?context=3
+
+
+########################################
+
 add_data(['Jason Voo?rhee?s'],
 'Jason Voorhees',
 False,
@@ -115,7 +134,7 @@ True,
     ['Human Jason']
 ],
 'Friday the 13th',
-'{' + '{}'.format(id) + '}'
+'{434}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/xyg09s/the_teenagers_from_cobra_kai_go_to_camp_crystal/irh0k43/?context=3
 
@@ -150,18 +169,18 @@ True,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Infinite! (Sonic Forces)', 'https://redd.it/xxe6vp')
-add_data(['Infinite'],
-'Infinite',
+id = get_rt_id(cur, 'Respect the Giganotosaurus (Primeval)', 'https://redd.it/xysmka')
+add_data(['Giganotosaurus'],
+'Giganotosaurus',
 False,
 False,
 [
-    ['Sonic Forces'], ['Infinite ?\(Sonic']
+    ['Primeval']
 ],
-'Sonic the Hedgehog',
+'Primeval',
 '{' + '{}'.format(id) + '}'
 )
-#https://www.reddit.com/r/respectthreads/comments/xxe6vp/respect_infinite_sonic_forces/
+#
 
 ########################################
 
@@ -177,6 +196,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/xxyyfg/respect_the_smilodon_primeval/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Infinite! (Sonic Forces)', 'https://redd.it/xxe6vp')
+add_data(['Infinite'],
+'Infinite',
+False,
+False,
+[
+    ['Sonic Forces'], ['Infinite ?\(Sonic']
+],
+'Sonic the Hedgehog',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xxe6vp/respect_infinite_sonic_forces/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fengxi! (The Legend of Luo Xiaohei)', 'https://redd.it/xxyyfg')
+add_data(['Fengxi'],
+'Fengxi',
+False,
+False,
+[
+    ['Luo Xiaohei']
+],
+'The Legend of Luo Xiaohei',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xz1zzj/respect_fengxi_the_legend_of_luo_xiaohei/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Knull, the God of the Symbiotes (Marvel, Earth-616)', 'https://redd.it/xz2ltr')
+add_data(['Knull'],
+'Knull',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
