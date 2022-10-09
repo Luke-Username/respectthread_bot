@@ -107,6 +107,23 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 12494, 'Respect Queen the Plague (One Piece)', 'https://redd.it/xznb7b')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sir William de Mornay (Primeval)', 'https://redd.it/xzazgd')
+add_data(['William de Mornay'],
+'William de Mornay',
+False,
+True,
+[
+    ['Primeval']
+],
+'Primeval',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xzazgd/respect_sir_william_de_mornay_primeval/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
