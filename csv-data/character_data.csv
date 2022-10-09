@@ -4759,9 +4759,6 @@ Cyborg,"{`"Prime(-| )Earth`"}",f,{1646},New 52 / Rebirth
 Cyborg,{Rebirth},f,{1646},New 52 / Rebirth
 Shirai Kuroko,"{`"To ?aru`"}",t,{10797},Toaru Majutsu no Index
 Vibe,"{`"Vibe \\(DC`"}",f,{1655},DC
-Firestorm,{PC},t,{1647},DC
-Firestorm,"{`"Post(-| )?C(risis)?`"}",t,{1647},DC
-Firestorm,"{`"New(-| )Earth`"}",t,{1647},DC
 Sam Alexander,{616},t,{2030},616
 Hawkman,{PC},f,{},Post-Crisis
 Hawkman,"{`"Post(-| )?C(risis)?`"}",f,{},Post-Crisis
@@ -4811,6 +4808,9 @@ Shazam,"{`"movies? versions?`"}",f,{6554},DCEU
 Shazam,{(movie)},f,{6554},DCEU
 Shazam,"{`"New(-| )?52`"}",f,{1653},New 52
 Shazam,{N-?52},f,{1653},New 52
+Firestorm,{PC},f,{1647},DC
+Firestorm,"{`"Post(-| )?C(risis)?`"}",f,{1647},DC
+Firestorm,"{`"New(-| )Earth`"}",f,{1647},DC
 Chunky Chicken,"{`"Power Rangers?`"}",t,{6556},Power Rangers
 Despero,"{`"New(-| )?52`"}",f,{},New 52
 Despero,{N-?52},f,{},New 52
@@ -28221,3 +28221,13 @@ Ulysses,"{`"New(-| )?52`"}",f,{22670},New 52
 Ulysses,{Nu?-?52},f,{22670},New 52
 Ulysses,"{`"\\(DC( Comics)?\\)`"}",f,{22670},DC
 Ulysses,"{`"\\[DC( Comics)?\\]`"}",f,{22670},DC
+Fin,{Sharknado},f,{552},Sharknado
+Jason Voorhees,"{`"Human Jason`"}",t,{434},Friday the 13th
+Radien,"{`"Metal ?Gear`"}",f,{5248},Metal Gear
+Mer Creatures,{Primeval},t,{22676},Primeval
+Giganotosaurus,{Primeval},f,{22677},Primeval
+Smilodon,{Primeval},f,{22678},Primeval
+Infinite,"{`"Sonic Forces`"}",f,{22679},Sonic the Hedgehog
+Infinite,"{`"Infinite ?\\(Sonic`"}",f,{22679},Sonic the Hedgehog
+Fengxi,"{`"Luo Xiaohei`"}",f,{22678},The Legend of Luo Xiaohei
+Knull,{616},t,{22680},616
