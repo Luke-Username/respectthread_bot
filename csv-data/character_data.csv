@@ -3842,7 +3842,6 @@ Kung Fu Council,"{`"Kung(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
 Master Croc,"{`"Kung(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
 Storming Ox,"{`"Kung(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
 Thundering Rhino,"{`"Kung(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
-Lord Shen,"{`"Kung(-| )?Fu Panda`"}",t,{1147},Kung Fu Panda
 Master Shifu,"{`"Kung(-| )?Fu Panda`"}",t,{1148},Kung Fu Panda
 Master Oogway,"{`"Kung(-| )?Fu Panda`"}",t,{1149},Kung Fu Panda
 Po,"{`"Kung(-| )?Fu Panda`"}",f,{1150},Kung Fu Panda
@@ -3855,6 +3854,7 @@ Drix,"{`"Osmosis Jones`"}",f,{1157},Osmosis Jones
 Osmosis Jones,"{`"Osmosis Jones`"}",t,{1158},""
 Thrax,"{`"Osmosis Jones`"}",t,{1159},Osmosis Jones
 Monkey,{Kubo},f,{1141},Kubo and the Two Strings
+Lord Shen,"{`"Kung(-| )?Fu Panda`"}",t,"{1147,22684}",Kung Fu Panda
 Mr. Incredible,{Incredibles},t,"{1131,20570}",The Incredibles
 Violet,{Incredibles},f,"{1133,20570}",The Incredibles
 Jack-Jack,{Incredibles},f,"{1130,20570}",The Incredibles
@@ -28231,3 +28231,13 @@ Infinite,"{`"Sonic Forces`"}",f,{22679},Sonic the Hedgehog
 Infinite,"{`"Infinite ?\\(Sonic`"}",f,{22679},Sonic the Hedgehog
 Fengxi,"{`"Luo Xiaohei`"}",f,{22678},The Legend of Luo Xiaohei
 Knull,{616},t,{22680},616
+Kevin,"{Home,prep,family}",f,{466},Home Alone
+William de Mornay,{Primeval},t,{22681},Primeval
+Megopteran,{Primeval},t,{22682},Primeval
+Kite,"{`"Hunter ?(x ?)?Hunter`"}",f,{22683},Hunter x Hunter
+Kite,{HxH},f,{22683},Hunter x Hunter
+Shen,"{`"Kung(-| )?Fu Panda`"}",f,"{1147,22684}",Kung Fu Panda
+Stan Smith,"{`"American Dad`"}",t,{22685},American Dad!
+Stan,"{`"American Dad`"}",f,{22685},American Dad!
+SCP-073,"{`"SCP Foundation`"}",t,{22686},""
+Adam Smasher,{Cyberpunk},t,{22687},Cyberpunk

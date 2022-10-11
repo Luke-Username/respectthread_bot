@@ -22,9 +22,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-SELECT * FROM respectthread WHERE link='https://redd.it/xzuevj';
-UPDATE character SET rt_id_array='{1147, ?}' WHERE rt_id_array='{1147}'; WHERE... --After run
-
 ########################################
 
 ########################################
