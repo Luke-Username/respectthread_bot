@@ -515,7 +515,7 @@ CartoonHooligans
 
 Castlevania
 	Version
-		'{"Castle(-| )?vania"}'
+		['Castle(-| )?vania']
 	Displayed Version Name
 		"Castlevania"
 
@@ -670,7 +670,7 @@ DC Animated Film Universe / DC Animated Movie Universe / DCAMU
 DC Cinematic Universe
 	Version
 		['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe']
-		['Snyder']
+		['Snyder(verse)?']
 	Displayed Version Name
 		"DCEU"
 

@@ -107,6 +107,309 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Black Adam'],
+'Black Adam',
+False,
+False,
+[
+    ['Supermans?.*Regime', 'games?']
+],
+'Injustice',
+'{7575}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/y1r3sn/omniman_comics_vs_supermans_regime/iryyudj/?context=3
+
+add_data(['Shazam'],
+'Shazam',
+False,
+False,
+[
+    ['Supermans?.*Regime', 'games?']
+],
+'Injustice',
+'{7574}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/y1sco1/whos_the_weakest_character_who_could_make_it/irz7s1c/?context=3
+
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Supermans?.*Regime', 'games?']
+],
+'Injustice',
+'{7685}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/y1sco1/whos_the_weakest_character_who_could_make_it/irz7s1c/?context=3
+
+########################################
+
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Toaru', 'Almighty Thor']
+],
+'Toaru Majutsu no Index',
+'{15253}'
+)
+#
+
+########################################
+
+add_data(['Madoka'],
+'Madoka',
+False,
+False,
+[
+    ['Goddess Madoka']
+],
+'Madoka Magica',
+'{4428}'
+)
+#
+
+########################################
+
+add_data(['Rorsc?har?ch'],
+'Rorschach',
+False,
+False,
+[
+    ['C(o|ó)mics']
+],
+'Watchmen',
+'{1838}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/y28ym3/next_batman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Columbian Mammoth (Primeval)', 'https://redd.it/y1rhrm')
+add_data(['Columbian Mammoth'],
+'Columbian Mammoth',
+False,
+False,
+[
+    ['Primeval']
+],
+'Primeval',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y1rhrm/respect_the_columbian_mammoth_primeval/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Camouflage Beast (Primeval)', 'https://redd.it/y2dnio')
+add_data(['Camouflage Beast'],
+'Camouflage Beast',
+False,
+True,
+[
+    ['Primeval']
+],
+'Primeval',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y2dnio/respect_the_camouflage_beast_primeval/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Future Predators (Primeval)', 'https://redd.it/y2ms20')
+add_data(['Future Predators?'],
+'Future Predators',
+False,
+True,
+[
+    ['Primeval']
+],
+'Primeval',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y2ms20/respect_the_future_predators_primeval/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Tree Creepers (Primeval)', 'https://redd.it/y31h1z')
+add_data(['Tree Creepers?'],
+'Tree Creepers',
+False,
+False,
+[
+    ['Primeval']
+],
+'Primeval',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y31h1z/respect_the_tree_creepers_primeval/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nathan Graves (Castlevania: Circle of the Moon)', 'https://redd.it/y22kyz')
+add_data(['Nathan Graves'],
+'Nathan Graves',
+False,
+True,
+[
+    ['Castle(-| )?vania']
+],
+'Castlevania',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y22kyz/respect_nathan_graves_castlevania_circle_of_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rampage (Transformers: Beast Wars)', 'https://redd.it/y2kch2')
+add_data(['Rampage'],
+'Rampage',
+False,
+False,
+[
+    ['Transformers', 'Beast Wars']
+],
+'Transformers: Beast Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y2kch2/respect_rampage_transformers_beast_wars/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Funta (Powerpuff Girls Z)', 'https://redd.it/y2oych')
+add_data(['Funta'],
+'Funta',
+False,
+False,
+[
+    ['Power ?puff Girls Z']
+],
+'Powerpuff Girls Z',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y2oych/respect_funta_powerpuff_girls_z/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kyo Sohma! (Fruits Basket, 2019 Anime)', 'https://redd.it/y2vzjp')
+add_data(['Kyo Sohma'],
+'Kyo Sohma',
+False,
+True,
+[
+    ['Fruits Basket']
+],
+'Fruits Basket',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gabriel May (Malignant)', 'https://redd.it/y2zh9q')
+add_data(['Gabriel'],
+'Gabriel',
+False,
+False,
+[
+    ['Malignant']
+],
+'Malignant',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y2zh9q/respect_gabriel_may_malignant/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-7987, "The Irate Gamer" (SCP Foundation)', 'https://redd.it/y3daef')
+add_data(['SCP ?(-| )? ?7987'],
+'SCP-7987',
+False,
+True,
+[
+    ['Irate Gamer']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y3daef/respect_scp7987_the_irate_gamer_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Darkyloseid (DC Comics)', 'https://redd.it/y3hyp6')
+add_data(['Darkyloseid'],
+'Darkyloseid',
+False,
+True,
+[
+    ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y3hyp6/respect_darkyloseid_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Jurassic League (DC Comics)', 'https://redd.it/y3hzsm')
+add_data(['Jurassic League'],
+'Jurassic League',
+True,
+True,
+[
+    ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y3hzsm/respect_the_jurassic_league_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Douglas Bullet (One Piece)', 'https://redd.it/y2wlyw')
+add_data(['Douglas Bullet'],
+'Douglas Bullet',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Robot Rudy (ChalkZone)', 'https://redd.it/y40bse')
+add_data(['Robot Rudy'],
+'Robot Rudy',
+False,
+False,
+[
+    ['Chalk ?Zone']
+],
+'ChalkZone',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Moleculo, The Molecular Man (Saturday Night Live)', 'https://redd.it/y4449a')
+add_data(['Moleculo'],
+'Moleculo',
+False,
+False,
+[
+    ['Molecular Man'], ['Saturday Night Live'], ['SNL']
+],
+'Saturday Night Live',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y4449a/respect_moleculo_the_molecular_man_saturday_night/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

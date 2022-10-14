@@ -14,11 +14,21 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dante', 'Dante Alighieri', 0);
 
 ########################################
 
+UPDATE respectthread SET title='Respect Kanzaki Kaori (Toaru Majutsu no Index)' WHERE id=10857;
+
 ########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='Celestia';
+UPDATE character SET version='{"Snyder(verse)?"}' WHERE version='{"Snyder"}';
+
+########################################
+
+UPDATE character_name SET name='Lex Luth(o|e)r' WHERE name='Lex Luthor';
+UPDATE character_name SET name='Rorsc?har?ch' WHERE name='Rorsc?hach';
 
 ########################################
 
