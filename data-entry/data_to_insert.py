@@ -159,6 +159,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Captain Marvel (DC Post-Crisis)', 'https://redd.it/3iwq7x')
+add_data(['Shazam'],
+'Shazam',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{1653, ' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/3iwq7x/respect_captain_marvel_dc_postcrisis/
+
+########################################
+
 add_data(['Madoka'],
 'Madoka',
 False,
