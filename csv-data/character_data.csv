@@ -3033,8 +3033,6 @@ Discord,{Ponyville},f,{844},My Little Pony
 Equestria,"{`"My Little Pony`"}",t,{845},My Little Pony
 Equestria,{MLP},t,{845},My Little Pony
 Bolt,"{`"\\(Bolt\\)`"}",f,{1190},Bolt
-Celestia,"{`"My Little Pony`"}",t,{845},My Little Pony
-Celestia,{MLP},t,{845},My Little Pony
 Luna,"{`"My Little Pony`"}",f,{845},My Little Pony
 Luna,{MLP},f,{845},My Little Pony
 Cadance,"{`"My Little Pony`"}",t,{845},My Little Pony
@@ -3100,6 +3098,7 @@ Twilight Sparkle,{MLP},t,{857},My Little Pony
 Ursa Minor,"{`"My Little Pony`"}",f,{858},My Little Pony
 Ursa Minor,{MLP},f,{858},My Little Pony
 Swamp Thing,{2019},f,{21036},2019
+Celestia,"{`"My Little Pony`"}",f,{845},My Little Pony
 Boxmore Corporation,"{`"OK K.?O.?`"}",t,{859},OK K.O.! Let's Be Heroes
 Boxmore Corporation,"{`"Let's be heroes`"}",t,{859},OK K.O.! Let's Be Heroes
 Boxman,"{`"OK K.?O.?`"}",f,{859},OK K.O.! Let's Be Heroes
@@ -5754,7 +5753,6 @@ T-Bones,{TOME},f,{1452},TOME
 T-Granda,{TOME},f,{1452},TOME
 Tomska,{Tomska},t,{1453},Tomska
 Celestia and Luna,"{`"Best Sisters Play`"}",f,{1454},Two Best Sisters Play
-Celestia,"{`"Best Sisters Play`"}",f,{1454},Two Best Sisters Play
 Luna,"{`"Best Sisters Play`"}",f,{1454},Two Best Sisters Play
 Deathclaw,"{`"Best Sisters Play`"}",f,{1455},Two Best Sisters Play
 videogamedunkey,{videogamedunkey},t,{1456},""
@@ -5820,6 +5818,7 @@ The Keeper,{Marvel},f,{2041},691
 The Keeper,"{`"Reed Richards`"}",f,{2041},691
 Nova Prime,{616},t,{2042},616
 Kamala Khan,{616},t,{2031},616
+Celestia,"{`"Best Sisters Play`"}",f,{1454},Two Best Sisters Play
 Nova Prime,{Marvel},t,{2042},616
 Richard Rider,{616},t,{2042},616
 Richard Rider,{Marvel},t,{2042},616
@@ -24297,8 +24296,6 @@ Mother Box,"{`"Pre(-| )?Flashpoint`"}",f,{20342},Pre-Flashpoint
 Mother Box,"{`"DC Extended Universe`"}",f,{},DCEU
 Mother Box,"{`"DC ?(E|C)U`"}",f,{},DCEU
 Mother Box,"{`"DC Cinematic Universe`"}",f,{},DCEU
-Mother Box,{Snyder},f,{},DCEU
-Steppenwolf,{Snyder},f,{128},DCEU
 Blackguard,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{20343},DC
 Blackguard,{PC},f,{20343},Post-Crisis
 Blackguard,"{`"Earth(-| )(1|One)`"}",f,{20343},Post-Crisis
@@ -24347,6 +24344,7 @@ Bloodsport,"{`"Suicide Squad`"}",f,{20352},DCEU
 Bloodsport,"{`"Idris Elba`"}",f,{20352},DCEU
 Peacemaker,"{`"DC Extended Universe`"}",f,{20353},DCEU
 Peacemaker,"{`"DC ?(E|C)U`"}",f,{20353},DCEU
+Mother Box,{Snyder(verse)?},f,{},DCEU
 Peacemaker,"{`"DC Cinematic Universe`"}",f,{20353},DCEU
 Peacemaker,"{`"Peace ?maker ?\\((The )?Suicide Squad`"}",f,{20353},DCEU
 Peacemaker,"{`"John Cena`"}",f,{20353},DCEU
@@ -26300,10 +26298,10 @@ Avalugg,{Pok(e|é)m(o|a)n},t,{21545},Pokémon
 Darkseid,"{`"DC Extended Universe`"}",f,{21546},DCEU
 Darkseid,"{`"DC ?(E|C)U`"}",f,{21546},DCEU
 Darkseid,"{`"DC Cinematic Universe`"}",f,{21546},DCEU
-Darkseid,{Snyder},f,{21546},DCEU
 Huck,"{`"Mark Millar`"}",f,{21547},Image Comics
 Huck,"{`"Image Comics`"}",f,{21547},Image Comics
 Huck,"{`"Huck ?\\(Huck`"}",f,{21547},Image Comics
+Darkseid,{Snyder(verse)?},f,{21546},DCEU
 Flash,"{`"DC Cinematic Universe`"}",f,{21548},DCEU
 Flash,{DCCU},f,{21548},DCEU
 Doctor Octopus,"{`"Marvel Cinematic Universe`"}",f,{299},MCU
@@ -28241,3 +28239,31 @@ Stan Smith,"{`"American Dad`"}",t,{22685},American Dad!
 Stan,"{`"American Dad`"}",f,{22685},American Dad!
 SCP-073,"{`"SCP Foundation`"}",t,{22686},""
 Adam Smasher,{Cyberpunk},t,{22687},Cyberpunk
+Celestia,{MLP},f,{845},My Little Pony
+Steppenwolf,{Snyder(verse)?},f,{128},DCEU
+Black Adam,"{Supermans?.*Regime,games?}",f,{7575},Injustice
+Shazam,"{Supermans?.*Regime,games?}",f,{7574},Injustice
+Superman,"{Supermans?.*Regime,games?}",f,{7685},Injustice
+Thor,"{Toaru,`"Almighty Thor`"}",f,{15253},Toaru Majutsu no Index
+Shazam,"{`"\\(DC( Comics)?\\)`"}",f,"{1653,22688}",DC
+Shazam,"{`"\\[DC( Comics)?\\]`"}",f,"{1653,22688}",DC
+Madoka,"{`"Goddess Madoka`"}",f,{4428},Madoka Magica
+Rorschach,{C(o|ó)mics},f,{1838},Watchmen
+Columbian Mammoth,{Primeval},f,{22689},Primeval
+Camouflage Beast,{Primeval},t,{22690},Primeval
+Future Predators,{Primeval},t,{22691},Primeval
+Tree Creepers,{Primeval},f,{22692},Primeval
+Nathan Graves,"{`"Castle(-| )?vania`"}",t,{22693},Castlevania
+Rampage,"{Transformers,`"Beast Wars`"}",f,{22694},Transformers: Beast Wars
+Funta,"{`"Power ?puff Girls Z`"}",f,{22695},Powerpuff Girls Z
+Kyo Sohma,"{`"Fruits Basket`"}",t,{22696},Fruits Basket
+Gabriel,{Malignant},f,{22697},Malignant
+SCP-7987,"{`"Irate Gamer`"}",t,{22698},""
+SCP-5175,"{`"DEATH KNIFE`"}",t,{22699},""
+Darkyloseid,"{`"DC Comics`"}",t,{22700},DC
+Jurassic League,"{`"DC Comics`"}",t,{22701},DC
+Douglas Bullet,"{`"One ?Piece?`"}",t,{22702},One Piece
+Robot Rudy,"{`"Chalk ?Zone`"}",f,{22703},ChalkZone
+Moleculo,"{`"Molecular Man`"}",f,{22704},Saturday Night Live
+Moleculo,"{`"Saturday Night Live`"}",f,{22704},Saturday Night Live
+Moleculo,{SNL},f,{22704},Saturday Night Live
