@@ -352,6 +352,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect SCP-5175, DEATH KNIFE (SCP Foundation)', 'https://redd.it/y49fsp')
+add_data(['SCP ?(-| )? ?5175'],
+'SCP-5175',
+False,
+True,
+[
+    ['DEATH KNIFE']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y49fsp/respect_scp5175_death_knife_scp_foundation/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Darkyloseid (DC Comics)', 'https://redd.it/y3hyp6')
 add_data(['Darkyloseid'],
 'Darkyloseid',
