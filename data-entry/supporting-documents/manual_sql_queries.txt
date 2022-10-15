@@ -14,7 +14,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('GER', 'V''Ger', -2);
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Dr. Herbert West (Re-Animator)', 'https://redd.it/j4lcrc'); SELECT * FROM respectthread WHERE link='https://redd.it/j4lcrc';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Herbert West' AND displayed_version_name='Re-Animator';
 
 ########################################
 

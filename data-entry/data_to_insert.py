@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1284, 'Respect Tricky the Clown! (Madness Combat)', 'https://redd.it/y4nqer')
+update_respectthread(cur, 5647, 'Respect... Steve? (Minecraft)', 'https://redd.it/y4qv8y')
+
+########################################
+
+add_data(['Gold Saints'],
+'Gold Saints',
+True,
+True,
+[
+    ['Saint Seiya']
+],
+'Saint Seiya',
+'{7576, 14530, 13522, 4486, 17628, 4495, 17627, 16439, 17623, 15289, 16440, 14816}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/y4c83n/jin_mori_the_god_of_high_school_vs_12_gold_saints/isdffft/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Terror Birds (Primeval)', 'https://redd.it/y4d6x8')
+add_data(['Terror Birds'],
+'Terror Birds',
+False,
+False,
+[
+    ['Primeval']
+],
+'Primeval',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y4d6x8/respect_terror_birds_primeval/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
