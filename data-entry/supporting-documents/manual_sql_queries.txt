@@ -23,7 +23,11 @@ UPDATE character SET rt_id_array='{?}' WHERE default_name='Herbert West' AND dis
 
 ########################################
 
+DELETE FROM character WHERE default_name='Homelander';
+
 ########################################
+
+UPDATE character SET rt_id_array='{14419,22631,40,15401}' WHERE rt_id_array='{14419,40,15401,22631}';
 
 ########################################
 

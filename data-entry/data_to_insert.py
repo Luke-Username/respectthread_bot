@@ -112,6 +112,20 @@ update_respectthread(cur, 5647, 'Respect... Steve? (Minecraft)', 'https://redd.i
 
 ########################################
 
+add_data(['Homelander'],
+'Homelander',
+False,
+True,
+[
+    ['The Boys']
+],
+'The Boys',
+'{8445, 13117}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/y4xst0/am_i_tripping_out_or_could_edward_cullen_twilight/
+
+########################################
+
 add_data(['Gold Saints'],
 'Gold Saints',
 True,
