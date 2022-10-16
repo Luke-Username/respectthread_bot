@@ -155,6 +155,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Page One (One Piece)', 'https://redd.it/y5b7ax')
+add_data(['Page One'],
+'Page One',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y5b7ax/respect_page_one_one_piece/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
