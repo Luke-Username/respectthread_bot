@@ -32,6 +32,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+SELECT * FROM respectthread WHERE link='https://redd.it/y6hheq';
+SELECT * FROM respectthread WHERE link='https://redd.it/y6hhb8';
+SELECT * FROM respectthread WHERE link='https://redd.it/y6hhaj';
+SELECT * FROM respectthread WHERE link='https://redd.it/y6hh9j';
+UPDATE character SET rt_id_array='{?1, ?2, ?3, ?4}' WHERE default_name='Teenaged Mutant Ninja Turtles' AND rt_id_array='{982}'; --After run
+
 ########################################
 
 

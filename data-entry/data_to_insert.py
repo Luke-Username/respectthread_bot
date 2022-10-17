@@ -138,6 +138,109 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Shaggy! (MultiVersus)', 'https://redd.it/w9lnro')
+add_data(['Shaggy'],
+'Shaggy',
+False,
+False,
+[
+    ['MultiVersus']
+],
+'MultiVersus',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/y6664z/weakest_character_that_can_solo_the_multiversus/ispd2de/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Luo Xiaohei! (The Legend of Luo Xiaohei)', 'https://redd.it/y6dpv2')
+add_data(['Luo Xiaohei'],
+'Luo Xiaohei',
+False,
+True,
+[
+    ['Legend of Luo Xiaohei']
+],
+'The Legend of Luo Xiaohei',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y6dpv2/respect_luo_xiaohei_the_legend_of_luo_xiaohei/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Michelangelo (Teenage Mutant Ninja Turtles 2003)', 'https://redd.it/y6hh9j')
+add_data(['Luo Xiaohei'],
+'Luo Xiaohei',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '2003'], ['TMNT', '2003']
+],
+'TMNT 2003',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y6hh9j/respect_michelangelo_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Donatello (Teenage Mutant Ninja Turtles 2003)', 'https://redd.it/y6hhaj')
+add_data(['Donatello'],
+'Donatello',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '2003'], ['TMNT', '2003']
+],
+'TMNT 2003',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y6hhaj/respect_donatello_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Raphael (Teenage Mutant Ninja Turtles 2003)', 'https://redd.it/y6hhb8')
+add_data(['Raphael'],
+'Raphael',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '2003'], ['TMNT', '2003']
+],
+'TMNT 2003',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y6hhb8/respect_raphael_teenage_mutant_ninja_turtles_2003/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Leonardo (Teenage Mutant Ninja Turtles 2003)', 'https://redd.it/y6hheq')
+add_data(['Leonardo'],
+'Leonardo',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '2003'], ['TMNT', '2003']
+],
+'TMNT 2003',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y6hheq/respect_leonardo_teenage_mutant_ninja_turtles_2003/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bob the Skull (The Dresden Files)', 'https://redd.it/y6imrv')
+add_data(['Bob'],
+'Bob',
+False,
+False,
+[
+    ['Bob the Skull'], ['Dresden( Files|verse)']
+],
+'The Dresden Files',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y6imrv/respect_bob_the_skull_the_dresden_files/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
