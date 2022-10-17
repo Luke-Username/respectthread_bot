@@ -170,6 +170,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ulti (One Piece)', 'https://redd.it/y5nor1')
+add_data(['Ulti'],
+'Ulti',
+False,
+False,
+[
+    ['One ?Piece?'], ['OP', 'Pirates?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y5nor1/respect_ulti_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wuxian! (The Legend of Luo Xiaohei)', 'https://redd.it/y5m3p6')
+add_data(['Wuxian'],
+'Wuxian',
+False,
+False,
+[
+    ['Luo Xiaohei']
+],
+'The Legend of Luo Xiaohei',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y5m3p6/respect_wuxian_the_legend_of_luo_xiaohei/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
