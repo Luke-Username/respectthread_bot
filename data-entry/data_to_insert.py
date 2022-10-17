@@ -107,6 +107,37 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13280, 'Respect Wally West, The Flash (Death Battle)', 'https://redd.it/y60jmy')
+
+########################################
+
+add_data(['Gate Guardian'],
+'Gate Guardian',
+False,
+False,
+[
+    ['SCP']
+],
+'SCP',
+'{15332}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/y60nah/scp_mtf_vs_cookie_run_kingdom/ismx21b/?context=3
+
+
+add_data(['Cain'],
+'Cain',
+False,
+False,
+[
+    ['SCP', 'MTF']
+],
+'SCP',
+'{22686}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/y60nah/scp_mtf_vs_cookie_run_kingdom/ismx21b/?context=3
+
+########################################
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
