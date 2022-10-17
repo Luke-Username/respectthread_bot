@@ -14,28 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('GER', 'V''Ger', -2);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Rogue', 'Rogue Gallery', 0);
+########################################
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Dr. Herbert West (Re-Animator)', 'https://redd.it/j4lcrc'); SELECT * FROM respectthread WHERE link='https://redd.it/j4lcrc';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Herbert West' AND displayed_version_name='Re-Animator';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Fengxi! (The Legend of Luo Xiaohei)', 'https://redd.it/xz1zzj'); SELECT * FROM respectthread WHERE link='https://redd.it/xz1zzj';
-UPDATE character SET rt_id_array='{?2}' WHERE default_name='Fengxi';
-
 ########################################
 
-DELETE FROM character WHERE default_name='Homelander';
-
 ########################################
-
-UPDATE character SET rt_id_array='{14419,22631,40,15401}' WHERE rt_id_array='{14419,40,15401,22631}';
-
-########################################
-
-UPDATE character SET displayed_version_name='616' WHERE AND default_name='Rogue' AND displayed_version_name='DC';
 
 ########################################
 

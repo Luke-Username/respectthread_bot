@@ -13707,7 +13707,6 @@ James Vega,"{`"ME\\d`"}",t,{8536},Mass Effect
 Tali,"{`"ME\\d`"}",f,{8537},Mass Effect
 Shepard,"{`"ME\\d`"}",f,{9313},Mass Effect
 Commander Shepard,"{`"ME\\d`"}",t,{9313},Mass Effect
-Homelander,"{`"\\(The Boys\\)`"}",t,"{8445,8444}",The Boys
 Ukyo Kuonji,{Ranma},t,{4461},Ranma ½
 Kenshin Himura,"{`"Rurouni Kenshin`"}",t,{4462},Rurouni Kenshin
 Sanosuke Sagara,"{`"Rurouni Kenshin`"}",t,{4463},Rurouni Kenshin
@@ -15956,9 +15955,6 @@ Mao Mao,"{`"Heroes of Pure Heart`"}",t,{13113},Mao Mao: Heroes of Pure Heart
 Luthor,"{`"Red Son`"}",f,{13114},Red Son
 Badgerclops,"{`"Mao Mao`"}",t,{13115},Mao Mao: Heroes of Pure Heart
 Dark Knight,"{`"All(-| )Star Batman`"}",f,{13116},All-Star Batman
-Homelander,{Amazon},f,{13117},"The Boys, 2019"
-Homelander,{TV},f,{13117},"The Boys, 2019"
-Homelander,"{`"The Boys`",Comics?}",t,{8445},The Boys
 Deathstroke,"{`"Death(-| )?stroke ?\\(Titans`"}",f,{13118},Titans
 Deathstroke,"{`"\\(Titans\\) ?Death(-| )?stroke`"}",f,{13118},Titans
 Deathstroke,"{`"Titans Slade`"}",f,{13118},Titans
@@ -17480,11 +17476,6 @@ Nine,"{`"Heroes Rising`"}",f,{13337},My Hero Academia
 Gandalf,"{`"Lord of the Rings`"}",t,"{5860,13338}",Lord of the Rings
 Gandalf,{LOTR},t,"{5860,13338}",Lord of the Rings
 Medicine Seller,{Mononoke},f,{13339},Mononoke
-Herbert West,{1985},f,{13339},Re-Animator
-Herbert West,"{`"Re(-| )Animator`"}",f,{13339},Re-Animator
-Herbert West,{Slashers?},f,{13339},Re-Animator
-Herbert West,{80s},f,{13339},Re-Animator
-Herbert West,"{`"horror movies?`"}",f,{13339},Re-Animator
 Herbert West,{Lovecraft},t,{},Lovecraft
 Herbert West,{Reanimator},t,{},Lovecraft
 Rathraq,{Rumble},t,{13341},Rumble
@@ -17505,6 +17496,9 @@ Link,"{`"Link's Awakening`"}",f,"{7498,3815}",Link to the Past
 Calamity Mary,"{`"Magical Girl Raising Project`"}",t,"{3834,13348}",Magical Girl Raising Project
 Sabine,"{`"Star ?Wars`"}",f,{13332},Star Wars
 Sabine,{SWars},f,{13332},Star Wars
+Herbert West,{1985},f,{22705},Re-Animator
+Herbert West,"{`"Re(-| )Animator`"}",f,{22705},Re-Animator
+Herbert West,{Slashers?},f,{22705},Re-Animator
 Musician of the Forest,"{`"Magical Girl Raising Project`"}",t,"{3835,13349}",Magical Girl Raising Project
 Swim Swim,"{`"Magical Girl Raising Project`"}",t,"{3836,13350}",Magical Girl Raising Project
 Swim Swim,"{`"Mahou Shoujo Ikusei Keikaku`"}",t,"{3836,13350}",Magical Girl Raising Project
@@ -25824,11 +25818,6 @@ Katyusha,{(Ü|U)ber},f,{2818},Über
 Aquaman,"{`"DC Comics`"}",t,"{1485,1486,1487}",DC
 Mera,"{`"DC Comics`"}",f,{1491},DC
 Mera,{moisure.*body},f,{1491},DC
-Rogue,{Absorbs?},f,{2382},DC
-Rogue,{Rogue.*616},f,{2382},DC
-Rogue,{Rogue.*Marvel},f,{2382},DC
-Rogue,"{`"Rogue.*X(-| )?Men`"}",f,{2382},DC
-Rogue,"{`"Wonder Man`"}",f,{2382},DC
 Mega Man X,"{`"Something ?Series`"}",f,{21302},Something Series
 Mega Man X,"{`"Terminal ?Montage`"}",f,{21302},Something Series
 Translucent,"{`"The Boys`"}",f,{21303},"The Boys, 2019"
@@ -25839,6 +25828,11 @@ Minnal Murali,{default},t,{21306},""
 Steve,{Minecraft},f,"{5648,5647}",Minecraft
 Steve,"{`"creative (mode|Steve)`"}",f,"{5648,5647}",Minecraft
 The Flash,"{Goku,`"Bat(-| )?mans?`",`"Super(-| )?man`"}",f,"{1582,1583,1590,1589}",DC
+Rogue,{Absorbs?},f,{2382},616
+Rogue,{Rogue.*616},f,{2382},616
+Rogue,{Rogue.*Marvel},f,{2382},616
+Rogue,"{`"Rogue.*X(-| )?Men`"}",f,{2382},616
+Rogue,"{`"Wonder Man`"}",f,{2382},616
 Artoria Pendragon,"{`"Lion King`"}",f,{21307},Fate
 Artoria Pendragon,"{`"Grande? Order`"}",f,{21307},Fate
 Artoria Pendragon,"{`"F(ate )?/?GO`"}",f,{21307},Fate
@@ -26952,7 +26946,6 @@ Mayday,{Zuke},f,{21897},No Straight Roads
 Zuke,"{`"No Straight Roads`"}",f,{21897},No Straight Roads
 Shepard,"{`"Shepard.*\\(ME\\)`"}",f,{9313},Mass Effect
 Dracula,{Castlevania},f,{1253},Castlevania
-Homelander,{show},f,{13117},"The Boys, 2019"
 Wanda Maximoff,"{`"Wanda Maximoff.*MoM`"}",f,{270},MCU
 Wanda Maximoff,"{`"Multiverse of Madness`"}",f,{270},MCU
 Scarlet Witch,"{`"Multiverse of Madness`"}",f,{270},MCU
@@ -28111,7 +28104,7 @@ Harley Quinn,"{`"Harley Quinn? ?\\[Harley Quinn\\]`"}",f,{8348},"Harley Quinn an
 Pedro,"{`"Tower of God`"}",f,{22612},Tower of God
 Kojika Hanamaki,"{`"Ningen Series`"}",t,{22613},Ningen Series
 Seiya,"{`"Cautious Hero`"}",f,"{20565,22609,22628}",Cautious Hero
-The Doctor,{TARDIS},f,"{14419,40,15401,22631}",Doctor Who
+The Doctor,{TARDIS},f,"{14419,22631,40,15401}",Doctor Who
 Polpo,{Jojos?(verse)?},f,{22614},Jojos Bizarre Adventure
 Polpo,{JJBA},f,{22614},Jojos Bizarre Adventure
 Polpo,"{`"Black Sabbath`"}",f,{22614},Jojos Bizarre Adventure
@@ -28140,7 +28133,6 @@ Sanji,{Shokugeki},f,{22629},Shokugeki no Sanji
 Dai Ibuki,"{`"Until Death Do Us Part`"}",t,{22630},Until Death Do Us Part
 The Eighth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{22631},Doctor Who
 The Eighth Doctor,{Who(ni)?verse},t,{22631},Doctor Who
-The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,40,15401,22631}",Doctor Who
 Queen Maeve,"{`"The Boys`"}",f,{13595},The Boys
 Gaston,{2017},f,{22633},"Beauty and the Beast, 2017"
 Gaston,"{`"Live Action`"}",f,{22633},"Beauty and the Beast, 2017"
@@ -28198,7 +28190,6 @@ Raju,{RRR},f,{22656},RRR
 Protagonist,{RRR},f,{22656},RRR
 Protagonists,{RRR},f,{22656},RRR
 Hayley Smith,"{`"American Dad`"}",t,{22657},American Dad!
-The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,40,15401,22631}",Doctor Who
 Amhuluk,"{`"Monster(-| )?verse`"}",t,{22658},MonsterVerse
 Amhuluk,"{`"Godzilla:? Dominion`"}",t,{22658},MonsterVerse
 Camazotz,"{`"Monster(-| )?verse`"}",f,{22659},MonsterVerse
@@ -28209,6 +28200,7 @@ Steve Smith,"{`"American Dad`"}",f,{22662},American Dad!
 Steve Smith,{Stan},f,{22662},American Dad!
 Avery Bullock,"{`"American Dad`"}",t,{22663},American Dad!
 Director Bullock,"{`"American Dad`"}",t,{22663},American Dad!
+The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,22631,40,15401}",Doctor Who
 Princess Snake,{DB(Z|S)},f,{22665},Dragon Ball
 John Doe,{Embalming},f,{22666},Embalming
 Francine Smith,"{`"American Dad`"}",t,{22667},American Dad!
@@ -28227,7 +28219,6 @@ Giganotosaurus,{Primeval},f,{22677},Primeval
 Smilodon,{Primeval},f,{22678},Primeval
 Infinite,"{`"Sonic Forces`"}",f,{22679},Sonic the Hedgehog
 Infinite,"{`"Infinite ?\\(Sonic`"}",f,{22679},Sonic the Hedgehog
-Fengxi,"{`"Luo Xiaohei`"}",f,{22678},The Legend of Luo Xiaohei
 Knull,{616},t,{22680},616
 Kevin,"{Home,prep,family}",f,{466},Home Alone
 William de Mornay,{Primeval},t,{22681},Primeval
@@ -28267,3 +28258,14 @@ Robot Rudy,"{`"Chalk ?Zone`"}",f,{22703},ChalkZone
 Moleculo,"{`"Molecular Man`"}",f,{22704},Saturday Night Live
 Moleculo,"{`"Saturday Night Live`"}",f,{22704},Saturday Night Live
 Moleculo,{SNL},f,{22704},Saturday Night Live
+Herbert West,{80s},f,{22705},Re-Animator
+Herbert West,"{`"horror movies?`"}",f,{22705},Re-Animator
+Fengxi,"{`"Luo Xiaohei`"}",f,{22706},The Legend of Luo Xiaohei
+The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,22631,40,15401}",Doctor Who
+Homelander,"{`"The Boys`"}",t,"{8445,13117}",The Boys
+Gold Saints,"{`"Saint Seiya`"}",t,"{7576,14530,13522,4486,17628,4495,17627,16439,17623,15289,16440,14816}",Saint Seiya
+Terror Birds,{Primeval},f,{22707},Primeval
+Page One,"{`"One ?Piece?`"}",f,{22708},One Piece
+Ulti,"{`"One ?Piece?`"}",f,{22709},One Piece
+Ulti,"{OP,Pirates?}",f,{22709},One Piece
+Wuxian,"{`"Luo Xiaohei`"}",f,{22710},The Legend of Luo Xiaohei
