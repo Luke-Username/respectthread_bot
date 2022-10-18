@@ -243,6 +243,61 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Harley MacFinn, the Loup-Garou (The Dresden Files)', 'https://redd.it/y6srva')
+add_data(['Harley MacFinn'],
+'Harley MacFinn',
+False,
+True,
+[
+    ['Dresden(verse)?']
+],
+'The Dresden Files',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y6srva/respect_harley_macfinn_the_loupgarou_the_dresden/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Android 13 (Dragon Ball Z: Super Android 13!)', 'https://redd.it/y6srva')
+id2 = get_rt_id(cur, 'Respect Android 14 & Android 15 (Dragon Ball Z: Super Android 13!)', 'https://redd.it/y6ofxv')
+add_data(['Android 13'],
+'Android 13',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)']
+],
+'Dragon Ball',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y6oe53/respect_android_13_dragon_ball_z_super_android_13/
+
+add_data(['Android 14'],
+'Android 14',
+False,
+False,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)'], ['Android 13']
+],
+'Dragon Ball',
+'{' + '{}'.format(id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y6oe53/respect_android_13_dragon_ball_z_super_android_13/
+
+add_data(['Android 15'],
+'Android 15',
+False,
+False,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)'], ['Android 13']
+],
+'Dragon Ball',
+'{' + '{}'.format(id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y6oe53/respect_android_13_dragon_ball_z_super_android_13/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
