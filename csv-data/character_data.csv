@@ -3484,7 +3484,6 @@ Slade,"{`"\\[Teen Titans?\\]`"}",f,{974},Teen Titans
 Starfire,"{`"\\[Teen Titans?\\]`"}",f,{976},Teen Titans
 Terra,"{`"\\[Teen Titans?\\]`"}",f,{978},Teen Titans
 Shredder,{2003},f,{981},TMNT 2003
-Teenaged Mutant Ninja Turtles,{2003},f,{982},TMNT 2003
 Adamai,{Wakfu},t,{983},Wakfu
 Amalia,{Wakfu},f,{984},Wakfu
 Amalia Sheram Sharm,{Wakfu},t,{984},Wakfu
@@ -28269,3 +28268,27 @@ Page One,"{`"One ?Piece?`"}",f,{22708},One Piece
 Ulti,"{`"One ?Piece?`"}",f,{22709},One Piece
 Ulti,"{OP,Pirates?}",f,{22709},One Piece
 Wuxian,"{`"Luo Xiaohei`"}",f,{22710},The Legend of Luo Xiaohei
+Gate Guardian,{SCP},f,{15332},SCP
+Cain,"{SCP,MTF}",f,{22686},SCP
+Shaggy,{MultiVersus},f,{22711},MultiVersus
+Luo Xiaohei,"{`"Legend of Luo Xiaohei`"}",t,{22712},The Legend of Luo Xiaohei
+Luo Xiaohei,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22713},TMNT 2003
+Luo Xiaohei,"{TMNT,2003}",f,{22713},TMNT 2003
+Donatello,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22714},TMNT 2003
+Donatello,"{TMNT,2003}",f,{22714},TMNT 2003
+Raphael,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22715},TMNT 2003
+Raphael,"{TMNT,2003}",f,{22715},TMNT 2003
+Leonardo,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22716},TMNT 2003
+Leonardo,"{TMNT,2003}",f,{22716},TMNT 2003
+Bob,"{`"Bob the Skull`"}",f,{22717},The Dresden Files
+Bob,"{`"Dresden( Files|verse)`"}",f,{22717},The Dresden Files
+Harley MacFinn,{Dresden(verse)?},t,{22718},The Dresden Files
+Android 13,"{`"Dragon ?Ball`"}",t,"{22718,22719}",Dragon Ball
+Android 13,{DB(Z|S)},t,"{22718,22719}",Dragon Ball
+Android 14,"{`"Dragon ?Ball`"}",f,{22719},Dragon Ball
+Android 14,{DB(Z|S)},f,{22719},Dragon Ball
+Android 14,"{`"Android 13`"}",f,{22719},Dragon Ball
+Android 15,"{`"Dragon ?Ball`"}",f,{22719},Dragon Ball
+Android 15,{DB(Z|S)},f,{22719},Dragon Ball
+Android 15,"{`"Android 13`"}",f,{22719},Dragon Ball
+Teenaged Mutant Ninja Turtles,{2003},f,"{22716,22715,22714,22713}",TMNT 2003
