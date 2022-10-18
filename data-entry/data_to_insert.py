@@ -107,6 +107,68 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 982, 'Respect the Teenage Mutant Ninja Turtles (Teenage Mutant Ninja Turtles 2003)', 'https://redd.it/y79zn0')
+update_respectthread(cur, 981, "Respect Ch''rell, the Utrom Shredder (Teenage Mutant Ninja Turtles 2003)", 'https://redd.it/y79zok')
+
+########################################
+
+add_data(['Amatsu(-| )Mikaboshi'],
+'Amatsu-Mikaboshi',
+False,
+False,
+[
+    ['Naoto']
+],
+'Persona',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/y6vzsn/shirogane_naoto_persona_vs_giorno_giovanna_jjba/isrh73n/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Amleth, The Bear-Wolf (The Northman)', 'https://redd.it/y79sb5')
+add_data(['Amleth'],
+'Amleth',
+False,
+False,
+[
+    ['Northman']
+],
+'The Northman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y79sb5/respect_amleth_the_bearwolf_the_northman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Splinter (Teenage Mutant Ninja Turtles 2003)', 'https://redd.it/y79znn')
+add_data(['Splinter'],
+'Splinter',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', '2003'], ['TMNT', '2003']
+],
+'TMNT 2003',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y79znn/respect_splinter_teenage_mutant_ninja_turtles_2003/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hello Kitty (Gundam vs Hello Kitty)', 'https://redd.it/y7h7vi')
+add_data(['Hello Kitty'],
+'Hello Kitty',
+False,
+False,
+[
+    ['Gundam vs Hello Kitty']
+],
+'Gundam vs Hello Kitty',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y7h7vi/respect_hello_kitty_gundam_vs_hello_kitty/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
