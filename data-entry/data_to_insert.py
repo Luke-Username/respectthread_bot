@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Box Assassin! (The Box Assassin)', 'https://redd.it/y7ullw')
+add_data(['Box Assassin'],
+'Box Assassin',
+False,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/y7ullw/respect_the_box_assassin_the_box_assassin/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
