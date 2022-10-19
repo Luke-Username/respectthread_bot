@@ -14,15 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Smoke' AND version='{"MK\\d*"}';
-
 ########################################
 
-UPDATE character SET default_name='Michelangelo' WHERE default_name='Luo Xiaohei' AND rt_id_array='{22713}';
-
 ########################################
-
-UPDATE character SET rt_id_array='{982, 22716,22715,22714,22713}' WHERE rt_id_array='{22716,22715,22714,22713}';
 
 ########################################
 

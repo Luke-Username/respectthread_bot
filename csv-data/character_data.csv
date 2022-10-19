@@ -17643,7 +17643,6 @@ Kurtis Stryker,"{`"MK\\d*`"}",t,{14761},Mortal Kombat
 Stryker,"{`"Mortal Kombat`"}",f,{14761},Mortal Kombat
 Stryker,"{`"MK\\d*`"}",f,{14761},Mortal Kombat
 Smoke,"{`"Mortal Kombat`"}",f,{14762},Mortal Kombat
-Smoke,"{`"MK\\d*`"}",f,{14762},Mortal Kombat
 Shujinko,"{`"Mortal Kombat`"}",t,{14763},Mortal Kombat
 Shujinko,"{`"MK\\d*`"}",t,{14763},Mortal Kombat
 Sektor,"{`"Mortal Kombat`"}",t,{14764},Mortal Kombat
@@ -27618,6 +27617,7 @@ Shocker,"{`"Spider(-| )?Mans?`",`"(movie|film) villains?`"}",f,{260},MCU
 Shocker,"{`"Spider(-| )?Mans?`",`"(movie|film) versions?`"}",f,{260},MCU
 Vulture,"{`"Spider(-| )?Mans?`",`"(movie|film) villains?`"}",f,{269},MCU
 Vulture,"{`"Spider(-| )?Mans?`",`"(movie|film) versions?`"}",f,{269},MCU
+Amatsu-Mikaboshi,{Naoto},f,{},Persona
 Mysterio,"{`"(movie|film) villains?`"}",f,{6527},MCU
 Mysterio,"{`"(movie|film) versions?`"}",f,{6527},MCU
 Ao Xue,"{`"Xi Xing Ji`"}",f,{22234},Xi Xing Ji
@@ -28272,8 +28272,6 @@ Gate Guardian,{SCP},f,{15332},SCP
 Cain,"{SCP,MTF}",f,{22686},SCP
 Shaggy,{MultiVersus},f,{22711},MultiVersus
 Luo Xiaohei,"{`"Legend of Luo Xiaohei`"}",t,{22712},The Legend of Luo Xiaohei
-Luo Xiaohei,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22713},TMNT 2003
-Luo Xiaohei,"{TMNT,2003}",f,{22713},TMNT 2003
 Donatello,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22714},TMNT 2003
 Donatello,"{TMNT,2003}",f,{22714},TMNT 2003
 Raphael,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22715},TMNT 2003
@@ -28291,4 +28289,10 @@ Android 14,"{`"Android 13`"}",f,{22719},Dragon Ball
 Android 15,"{`"Dragon ?Ball`"}",f,{22719},Dragon Ball
 Android 15,{DB(Z|S)},f,{22719},Dragon Ball
 Android 15,"{`"Android 13`"}",f,{22719},Dragon Ball
-Teenaged Mutant Ninja Turtles,{2003},f,"{22716,22715,22714,22713}",TMNT 2003
+Michelangelo,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22713},TMNT 2003
+Michelangelo,"{TMNT,2003}",f,{22713},TMNT 2003
+Teenaged Mutant Ninja Turtles,{2003},f,"{982,22716,22715,22714,22713}",TMNT 2003
+Amleth,{Northman},f,{22720},The Northman
+Splinter,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22721},TMNT 2003
+Splinter,"{TMNT,2003}",f,{22721},TMNT 2003
+Hello Kitty,"{`"Gundam vs Hello Kitty`"}",f,{22722},Gundam vs Hello Kitty
