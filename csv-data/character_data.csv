@@ -3483,7 +3483,6 @@ Robin,"{`"\\[Teen Titans?\\]`"}",f,{973},Teen Titans
 Slade,"{`"\\[Teen Titans?\\]`"}",f,{974},Teen Titans
 Starfire,"{`"\\[Teen Titans?\\]`"}",f,{976},Teen Titans
 Terra,"{`"\\[Teen Titans?\\]`"}",f,{978},Teen Titans
-Shredder,{2003},f,{981},TMNT 2003
 Adamai,{Wakfu},t,{983},Wakfu
 Amalia,{Wakfu},f,{984},Wakfu
 Amalia Sheram Sharm,{Wakfu},t,{984},Wakfu
@@ -3547,6 +3546,7 @@ Guardian,"{`"(Young Justice)`"}",f,{1007},Young Justice
 Guardian,"{`"Young Justice`",`"season d`"}",f,{1007},Young Justice
 Guardian,"{`"Young Justice`",`"TV shows?`"}",f,{1007},Young Justice
 Guardian,"{`"Young Justice`",`"cartoon network`"}",f,{1007},Young Justice
+Shredder,{2003},f,{22723},TMNT 2003
 Guardian,"{`"Young Justice`",`"TV versions?`"}",f,{1007},Young Justice
 Guardian,"{`"from Young Justice`"}",f,{1007},Young Justice
 Guardian,"{`"Young Justice show`"}",f,{1007},Young Justice
@@ -28296,3 +28296,28 @@ Amleth,{Northman},f,{22720},The Northman
 Splinter,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22721},TMNT 2003
 Splinter,"{TMNT,2003}",f,{22721},TMNT 2003
 Hello Kitty,"{`"Gundam vs Hello Kitty`"}",f,{22722},Gundam vs Hello Kitty
+Tengu Shredder,{2003},f,{22723},TMNT 2003
+Oroku Saki,{2003},f,{22723},TMNT 2003
+Cyber Shredder,{2003},t,{22724},TMNT 2003
+Cyber Shredder,"{`"Teenaged? Mutant Ninja Turtles?`"}",t,{22724},TMNT 2003
+Cyber Shredder,{TMNT},t,{22724},TMNT 2003
+Miyamoto Usagi,{2003},f,{22724},TMNT 2003
+Leslie Vernon,"{`"Behind the Mask`"}",t,{22725},""
+Babylon Rogues,{IDW},f,{22726},IDW
+Mimic,"{Sonic,IDW}",f,{22727},IDW
+Doctor Starline,"{Sonic,IDW}",t,{22728},IDW
+Kitsunami,"{Sonic,IDW}",t,{22729},IDW
+Surge,"{Sonic,IDW}",f,{22730},IDW
+Surge,"{`"Surge the Tenrec`"}",f,{22730},IDW
+Powerpuff Girls Z,{default},t,{22731},""
+Ring of Brass,"{`"Critical Role`"}",f,{22732},Critical Role
+Nydas Okiro,"{`"Critical Role`"}",t,{22732},Critical Role
+Patia Por'co,"{`"Critical Role`"}",t,{22732},Critical Role
+Zerxus Ilerez,"{`"Critical Role`"}",t,{22732},Critical Role
+Loquatius Seelie,"{`"Critical Role`"}",t,{22732},Critical Role
+Laerryn Coramar-Seelie,"{`"Critical Role`"}",t,{22732},Critical Role
+Cerrit Agrupnin,"{`"Critical Role`"}",t,{22732},Critical Role
+Wanda Maximoff,"{`"DEATH BATTLE`"}",f,{22733},DEATH BATTLE!
+Zatanna,"{`"DEATH BATTLE`"}",f,{22734},DEATH BATTLE!
+Utrom Shredder,{2003},f,{22723},TMNT 2003
+Ch'rell,{2003},f,{22723},TMNT 2003

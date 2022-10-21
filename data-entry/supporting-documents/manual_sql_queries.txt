@@ -14,12 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Esdeaths?' WHERE name='Esdeath';
-
-########################################
-
-DELETE FROM character_name WHERE name='Miyamoto Usagi';
-
 ########################################
 
 ########################################
@@ -32,8 +26,7 @@ DELETE FROM character_name WHERE name='Miyamoto Usagi';
 
 ########################################
 
-SELECT * FROM respectthread WHERE link='https://redd.it/y87ctn';
-UPDATE character SET rt_id_array='{?}' WHERE rt_id_array='{981}'; --After run
+########################################
 
 ########################################
 
