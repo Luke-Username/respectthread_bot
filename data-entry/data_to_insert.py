@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Niko'],
+'Niko',
+False,
+False,
+[
+    ['GTA(\d|\w+)?'], ['Grand Theft Auto']
+],
+'GTA',
+'{5604}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yaankq/every_gta_protagonist_battles_it_out_in_a_city/ita5gyv/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

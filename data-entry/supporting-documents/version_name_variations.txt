@@ -1249,7 +1249,7 @@ Good Luck Girl!
 
 Grand Theft Auto (GTA)
 	Version
-		r'{"GTA(\\d|\\w+)?"}', '{"Grand Theft Auto"}'
+		['GTA(\d|\w+)?'], ['Grand Theft Auto']
 	Displayed Version Name
 		"GTA"
 
