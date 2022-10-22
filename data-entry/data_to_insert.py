@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['NWH']
+],
+'MCU',
+'{261}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yaueiz/spiderman_nwh_vs_master_chief_halo/itda0sc/?context=3
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
