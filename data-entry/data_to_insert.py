@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1609, 'Respect Constantine Drakon (DC, Post-Crisis)', 'https://redd.it/eqyxwk')
+update_respectthread(cur, 2445, 'Respect Gwenpool/Gwen Poole [Marvel]', 'https://redd.it/erge0l')
+
+########################################
+
 add_data(['Niko'],
 'Niko',
 False,
@@ -132,6 +137,122 @@ False,
 '{261}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/yaueiz/spiderman_nwh_vs_master_chief_halo/itda0sc/?context=3
+
+########################################
+
+add_data(['Kimiko'],
+'Kimiko',
+False,
+False,
+[
+    ['The Boys']
+],
+'The Boys',
+'{13594}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ybghd3/black_noir_kimiko_and_starlight_the_boys_vs/itg7op5/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 71: the Quad-Hulkbuster (Marvel, Earth-616)', 'https://redd.it/yaqvx5')
+add_data(['Quad(-| )Hulkbuster'],
+'Quad-Hulkbuster',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yaqvx5/respect_iron_man_model_71_the_quadhulkbuster/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doyle Dormammu (Marvel 616)', 'https://redd.it/yazjy5')
+add_data(['Doyle Dormammu'],
+'Doyle Dormammu',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yazjy5/respect_doyle_dormammu_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mr. Misery (Marvel 616)', 'https://redd.it/yazow2')
+add_data(['M(iste)?r\.? Misery'],
+'Mister Misery',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yazow2/respect_mr_misery_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "Bloody" Agatha (Claymore)', 'https://redd.it/yb0cd8')
+add_data(['Agatha'],
+'Agatha',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yb0cd8/respect_bloody_agatha_claymore/
+
+########################################
+
+id = get_rt_id(cur, 'Respect James "Jimmy" Tong (The Tuxedo)', 'https://redd.it/yb3b15')
+add_data(['Jimmy Tong'],
+'Jimmy Tong',
+False,
+True,
+[
+    ['The Tuxedo']
+],
+'The Tuxedo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yb3b15/respect_james_jimmy_tong_the_tuxedo/
+
+add_data(['Jackie Chan'],
+'Jackie Chan',
+False,
+False,
+[
+    ['The Tuxedo']
+],
+'The Tuxedo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yb3b15/respect_james_jimmy_tong_the_tuxedo/
+
+########################################
+
+id = get_rt_id(cur, "Respect Billy Butcher (Amazon''s The Boys)", 'https://redd.it/yb755m')
+add_data(['Billy Butcher'],
+'Billy Butcher',
+False,
+True,
+[
+    ['The Boys']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yb755m/respect_billy_butcher_amazons_the_boys/
 
 ########################################
 
