@@ -19441,11 +19441,6 @@ Starlight,"{`"The Boys`",show}",f,{13593},"The Boys, 2019"
 Starlight,"{`"The Boys`",2019}",f,{13593},"The Boys, 2019"
 Starlight,"{`"show version`"}",f,{13593},"The Boys, 2019"
 Starlight,"{`"TV shows?`"}",f,{13593},"The Boys, 2019"
-Kimiko,"{`"The Boys`",TV}",f,{13594},"The Boys, 2019"
-Kimiko,"{`"The Boys`",show}",f,{13594},"The Boys, 2019"
-Kimiko,"{`"The Boys`",2019}",f,{13594},"The Boys, 2019"
-Kimiko,"{`"show version`"}",f,{13594},"The Boys, 2019"
-Kimiko,"{`"TV shows?`"}",f,{13594},"The Boys, 2019"
 Queen Maeve,"{`"The Boys`",TV}",f,{13595},"The Boys, 2019"
 Queen Maeve,"{`"The Boys`",show}",f,{13595},"The Boys, 2019"
 Queen Maeve,"{`"The Boys`",2019}",f,{13595},"The Boys, 2019"
@@ -27740,6 +27735,7 @@ Spectral Flash,"{`"Pre(-| )?Crisis`"}",f,{22360},Pre-Crisis
 Black Maria,"{`"One ?Piece?`"}",t,{22361},One Piece
 Boom Boom,{616},f,{22362},616
 Boom Boom,"{`"Tabitha Smith`"}",f,{22362},616
+Spider-Man,{NWH},f,{261},MCU
 Green Goblin,"{`"TASM\\d?`"}",f,{111},The Amazing Spider-Man
 Lizard,"{`"TASM\\d?`"}",f,{112},The Amazing Spider-Man
 Spider-Man,"{`"TASM\\d?`"}",f,{113},The Amazing Spider-Man
@@ -28321,3 +28317,11 @@ Wanda Maximoff,"{`"DEATH BATTLE`"}",f,{22733},DEATH BATTLE!
 Zatanna,"{`"DEATH BATTLE`"}",f,{22734},DEATH BATTLE!
 Utrom Shredder,{2003},f,{22723},TMNT 2003
 Ch'rell,{2003},f,{22723},TMNT 2003
+Kimiko,"{`"The Boys`"}",f,{13594},The Boys
+Quad-Hulkbuster,{616},t,{22735},616
+Doyle Dormammu,{616},t,{22736},616
+Mister Misery,{616},t,{22737},616
+Agatha,{Claymore},f,{22738},Claymore
+Jimmy Tong,"{`"The Tuxedo`"}",t,{22739},The Tuxedo
+Jackie Chan,"{`"The Tuxedo`"}",f,{22739},The Tuxedo
+Billy Butcher,"{`"The Boys`"}",t,{22740},The Boys
