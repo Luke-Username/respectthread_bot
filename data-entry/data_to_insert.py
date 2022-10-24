@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Robotnik'],
+'Robotnik',
+False,
+False,
+[
+    ['Fleetway']
+],
+'Fleetway',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yc1tzf/infinity_ultron_marvel_vs_dr_robotnik_fleetway/itjuspl/?context=3
+
+########################################
+
+add_data(['Chaos Emeralds?'],
+'Chaos Emeralds',
+False,
+False,
+[
+    ['Fleetway']
+],
+'Fleetway',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yc1tzf/infinity_ultron_marvel_vs_dr_robotnik_fleetway/itjuspl/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Dreadhorde! (Magic: The Gathering)', 'https://redd.it/ybn7cf')
 add_data(['Dreadhorde'],
 'Dreadhorde',
@@ -119,6 +147,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ybn7cf/respect_the_dreadhorde_magic_the_gathering/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Darren Shan! (Cirque Du Freak Novels)', 'https://redd.it/ycgnxz')
+add_data(['Darren Shan'],
+'Darren Shan',
+False,
+True,
+[
+    ['Cirque Du Freak'], ['CDF']
+],
+'Cirque Du Freak',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ycgnxz/respect_darren_shan_cirque_du_freak_novels/
 
 ########################################
 
