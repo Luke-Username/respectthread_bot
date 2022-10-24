@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Dreadhorde! (Magic: The Gathering)', 'https://redd.it/ybn7cf')
+add_data(['Dreadhorde'],
+'Dreadhorde',
+False,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ybn7cf/respect_the_dreadhorde_magic_the_gathering/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
