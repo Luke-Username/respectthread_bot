@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13594, "Respect Kimiko (Amazon''s The Boys)", 'https://redd.it/ycvbrg')
+
+########################################
+
 add_data(['Robotnik'],
 'Robotnik',
 False,
@@ -132,6 +136,20 @@ False,
 '{}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/yc1tzf/infinity_ultron_marvel_vs_dr_robotnik_fleetway/itjuspl/?context=3
+
+########################################
+
+add_data(['Hawkman'],
+'Hawkman',
+False,
+False,
+[
+    ['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe']
+],
+'DCEU',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yczorb/hawkmandceu_vs_batmandceu/itp72nz/?context=3
 
 ########################################
 
@@ -162,6 +180,66 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ycgnxz/respect_darren_shan_cirque_du_freak_novels/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dr. Gerald, SCP-666-J (SCP Foundation)', 'https://redd.it/ycnjsq')
+add_data(['SCP ?(-| )? ?666 ?(-| )? ?J'],
+'SCP-666-J',
+False,
+True,
+[
+    ['Gerald']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ycnjsq/respect_dr_gerald_scp666j_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect She-Hulk (Marvel Cinematic Universe)', 'https://redd.it/ycu1n0')
+add_data(['She(-| )?Hulk'],
+'She-Hulk',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Titania (Marvel Cinematic Universe)', 'https://redd.it/ycuafa')
+add_data(['Titania'],
+'Titania',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ycuafa/respect_titania_marvel_cinematic_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scrappy-Doo (Scooby-Doo and Scrappy-Doo Game)', 'https://redd.it/yd018z')
+add_data(['Scrappy(-| )Doo'],
+'Scrappy-Doo',
+False,
+False,
+[
+    ['Scooby-Doo and Scrappy(-| )Doo', 'Game']
+],
+'Scooby-Doo and Scrappy-Doo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yd018z/respect_scrappydoo_scoobydoo_and_scrappydoo_game/
 
 ########################################
 
