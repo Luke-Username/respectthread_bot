@@ -27976,6 +27976,8 @@ Illuminati,"{`"Multiverse of Madness`"}",f,{22547},MCU
 Stegosaurus,"{`"Dinosaur King`"}",f,{22549},Dinosaur King
 Feral Predator,{Prey},t,{22550},Prey
 Naru,{Prey},f,{22551},Prey
+Robotnik,{Fleetway},f,{},Fleetway
+Chaos Emeralds,{Fleetway},f,{},Fleetway
 Kefka,"{`"Final Fantasy`"}",t,{22552},Final Fantasy
 Kefka,{FF},t,{22552},Final Fantasy
 Kefka,"{`"FF\\d\\d?`"}",t,{22552},Final Fantasy
@@ -28167,6 +28169,8 @@ Scorching Jailer,{A?TLA},f,{22648},Avatar: TLA
 The Beast,{2017},f,{22649},"Beauty and the Beast, 2017"
 The Beast,"{`"Live Action`"}",f,{22649},"Beauty and the Beast, 2017"
 Beast,"{`"Beast ?\\(2017`"}",f,{22649},"Beauty and the Beast, 2017"
+Hawkman,"{`"DC Extended Universe`"}",f,{},DCEU
+Hawkman,"{`"DC ?(E|C)U`"}",f,{},DCEU
 Beast,"{2017,`"Live Action`"}",f,{22649},"Beauty and the Beast, 2017"
 SCP-UBU,"{`"SCP Foundation`"}",f,{22650},""
 Mark,"{Invincible,Nolan}",f,"{1961,17671}",Invincible
@@ -28325,3 +28329,14 @@ Agatha,{Claymore},f,{22738},Claymore
 Jimmy Tong,"{`"The Tuxedo`"}",t,{22739},The Tuxedo
 Jackie Chan,"{`"The Tuxedo`"}",f,{22739},The Tuxedo
 Billy Butcher,"{`"The Boys`"}",t,{22740},The Boys
+Hawkman,"{`"DC Cinematic Universe`"}",f,{},DCEU
+Dreadhorde,"{`"Magic:? The Gathering`"}",t,{22741},Magic: The Gathering
+Dreadhorde,{M:?TG},t,{22741},Magic: The Gathering
+Darren Shan,"{`"Cirque Du Freak`"}",t,{22742},Cirque Du Freak
+Darren Shan,{CDF},t,{22742},Cirque Du Freak
+SCP-666-J,{Gerald},t,{22743},""
+She-Hulk,"{`"Marvel Cinematic Universe`"}",f,{22744},MCU
+She-Hulk,{MCU},f,{22744},MCU
+Titania,"{`"Marvel Cinematic Universe`"}",f,{22745},MCU
+Titania,{MCU},f,{22745},MCU
+Scrappy-Doo,"{`"Scooby-Doo and Scrappy(-| )Doo`",Game}",f,{22746},Scooby-Doo and Scrappy-Doo
