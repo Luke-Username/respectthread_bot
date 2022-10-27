@@ -22,6 +22,8 @@ DELETE FROM character_name WHERE default_name='Doctor Fate';
 
 ########################################
 
+UPDATE character_name SET name='Jake Sc?ully' WHERE name='Jake Sully';
+
 ########################################
 
 ########################################

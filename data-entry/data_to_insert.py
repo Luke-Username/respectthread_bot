@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 565, 'Respect The Monstars! (Space Jam)', 'https://redd.it/yevxgk')
+
+########################################
+
 add_data(['Chainsaw(-| )?Man'],
 'Chainsaw Man',
 False,
@@ -118,6 +122,20 @@ False,
 '{4709}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/yef5wz/cloud_strife_vs_chainsaw_man/
+
+########################################
+
+add_data(['Black Adam'],
+'Black Adam',
+False,
+False,
+[
+    ['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe'], ['Dwayne'], ['The Rock']
+],
+'DCEU',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yeq8bh/black_adam_dceu_vs_wonder_woman_dceu/itzqczv/?context=3
 
 ########################################
 
@@ -174,6 +192,63 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/yeie68/respect_hughie_campbell_amazons_the_boys/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anthony Lupus, The Werewolf (DC, Pre-Crisis)', 'https://redd.it/yesopk')
+add_data(['Anthony Lupus'],
+'Anthony Lupus',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yesopk/respect_anthony_lupus_the_werewolf_dc_precrisis/
+
+add_data(['Anthony Lupus'],
+'Anthony Lupus',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yesopk/respect_anthony_lupus_the_werewolf_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Juggernaut (Spider-Man: Shattered Dimensions)', 'https://redd.it/yeu2fz')
+add_data(['Juggernaut'],
+'Juggernaut',
+False,
+False,
+[
+    ['Spider(-| )?Man:? ?Shattered Dimensions']
+],
+'Spider-Man: Shattered Dimensions',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yeu2fz/respect_the_juggernaut_spiderman_shattered/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roland (After the Revolution)', 'https://redd.it/yey3h4')
+add_data(['Roland'],
+'Roland',
+False,
+False,
+[
+    ['After the Revolution']
+],
+'After the Revolution',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yey3h4/respect_roland_after_the_revolution/
 
 ########################################
 
