@@ -107,6 +107,44 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['D(octo)?r\.? Fate'],
+'Doctor Fate',
+False,
+False,
+[
+    ['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe']
+],
+'DCEU',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ycrutt/doctor_fate_vs_doctor_strange/itv9lm8/?context=3
+
+add_data(['(Doctor|Dr\.?|Stephen) ?Strange'],
+'Doctor Strange',
+False,
+False,
+[
+    ['MoM.*Strange'], ['Strange.*MoM']
+],
+'MCU',
+'{13351}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ycrutt/doctor_fate_vs_doctor_strange/itv9lm8/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maniac Harry (Maniac of New York)', 'https://redd.it/ydxtke')
+add_data(['Maniac Harry'],
+'Maniac Harry',
+False,
+True,
+[
+    ['Maniac of New York']
+],
+'Maniac of New York',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ydxtke/respect_maniac_harry_maniac_of_new_york/
 
 ########################################
 
