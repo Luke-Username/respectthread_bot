@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Chainsaw(-| )?Man'],
+'Chainsaw Man',
+False,
+False,
+[
+    ['vs\.? Chainsaw(-| )?Man']
+],
+'',
+'{4709}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yef5wz/cloud_strife_vs_chainsaw_man/
+
+########################################
+
 add_data(['D(octo)?r\.? Fate'],
 'Doctor Fate',
 False,
@@ -145,6 +159,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ydxtke/respect_maniac_harry_maniac_of_new_york/
+
+########################################
+
+id = get_rt_id(cur, "Respect Hughie Campbell (Amazon''s The Boys)", 'https://redd.it/yeie68')
+add_data(['Hughie Campbell'],
+'Hughie Campbell',
+False,
+True,
+[
+    ['The Boys']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yeie68/respect_hughie_campbell_amazons_the_boys/
 
 ########################################
 
