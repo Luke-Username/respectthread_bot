@@ -1371,7 +1371,6 @@ Nathaniel Adams,Captain Atom,f
 Shazam,Shazam,f
 Billy Batson,Shazam,f
 Curar(é|e),Curaré,f
-(Dr|Doctor)\.? Fate,Doctor Fate,f
 Female Furies,Female Furies,t
 Lashina,Lashina,f
 Stompa,Stompa,f
@@ -1672,7 +1671,6 @@ Hawkwoman,Hawkwoman,f
 Zatara,Zatara,f
 Dinah Lance,Black Canary,f
 Red Tornado,Red Tornado,f
-Doctor Fate,Doctor Fate,f
 Atom,Atom,f
 Plastic Man,Plastic Man,f
 Icon,Icon,f
@@ -2899,7 +2897,6 @@ Madam Mim,Madam Mim,f
 Mimey,Mimey,f
 Absol,Absol,f
 Devil Ray,Devil Ray,f
-(Dr\.?|Doctor) Fate,Doctor Fate,f
 Anton Arcane,Anton Arcane,f
 Abigail Arcane,Abigail Arcane,f
 Rot Family,Rot Family,f
@@ -11397,7 +11394,6 @@ Volkner,Volkner,f
 Caserin,Caserin,f
 Team Pok(é|e)pals,Team Poképals,t
 Hon(ō|o),Honō,f
-(Dr|Doctor)\\.? Fate,Doctor Fate,f
 The Movement,The Movement,t
 Phelphor,Phelphor,f
 Blazvatan,Blazvatan,f
@@ -12159,7 +12155,6 @@ Ken Masters,Ken Masters,f
 Etherow,Etherow,f
 Lucretia Popescu,Lucretia Popescu,f
 Ouken,Ouken,f
-Jake Sully,Jake Sully,f
 King Bosse,King Bosse,f
 Caenis,Caenis,f
 Rakan,Rakan,f
@@ -12905,3 +12900,10 @@ Jimmy Tong,Jimmy Tong,f
 Billy Butcher,Billy Butcher,f
 Dreadhorde,Dreadhorde,f
 SCP ?(-| )? ?666 ?(-| )? ?J,SCP-666-J,f
+Jake Sc?ully,Jake Sully,f
+Chainsaw(-| )?Man,Chainsaw Man,f
+D(octo)?r\\.? Fate,Doctor Fate,f
+(Doctor|Dr\\.?|Stephen) ?Strange,Doctor Strange,f
+Maniac Harry,Maniac Harry,f
+Hughie Campbell,Hughie Campbell,f
+Jericho Cross,Jericho Cross,f

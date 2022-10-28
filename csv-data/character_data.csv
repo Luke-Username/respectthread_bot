@@ -14157,7 +14157,6 @@ Tsumiki,"{`"Place to Place`"}",f,{4661},Acchi Kocchi
 Tsumiki Miniwa,"{`"Acchi(-| )Kocchi`"}",t,{4661},Acchi Kocchi
 Tsumiki Miniwa,"{`"Place to Place`"}",t,{4661},Acchi Kocchi
 Phoenix Wright,"{`"Ace Attorney`"}",t,{4662},Ace Attorney
-Afro Samurai,{default},f,{4663},""
 Maki Aikawa,"{`"Air Master`"}",t,{4664},Air Master
 Satō,{Ajin},f,{4665},Ajin
 Tetsuo,{Akira},f,{4666},Akira
@@ -28340,3 +28339,23 @@ She-Hulk,{MCU},f,{22744},MCU
 Titania,"{`"Marvel Cinematic Universe`"}",f,{22745},MCU
 Titania,{MCU},f,{22745},MCU
 Scrappy-Doo,"{`"Scooby-Doo and Scrappy(-| )Doo`",Game}",f,{22746},Scooby-Doo and Scrappy-Doo
+Afro Samurai,{default},t,{4663},""
+Chainsaw Man,"{`"vs\\.? Chainsaw(-| )?Man`"}",f,{4709},""
+Black Adam,"{`"DC Extended Universe`"}",f,{},DCEU
+Black Adam,"{`"DC ?(E|C)U`"}",f,{},DCEU
+Black Adam,"{`"DC Cinematic Universe`"}",f,{},DCEU
+Black Adam,{Dwayne},f,{},DCEU
+Black Adam,"{`"The Rock`"}",f,{},DCEU
+Doctor Fate,"{`"DC Extended Universe`"}",f,{},DCEU
+Doctor Fate,"{`"DC ?(E|C)U`"}",f,{},DCEU
+Doctor Fate,"{`"DC Cinematic Universe`"}",f,{},DCEU
+Doctor Strange,{MoM.*Strange},f,{13351},MCU
+Doctor Strange,{Strange.*MoM},f,{13351},MCU
+Maniac Harry,"{`"Maniac of New York`"}",t,{22747},Maniac of New York
+Hughie Campbell,"{`"The Boys`"}",t,{22748},The Boys
+Anthony Lupus,"{`"\\(DC( Comics)?\\)`"}",t,{22749},DC
+Anthony Lupus,"{`"\\[DC( Comics)?\\]`"}",t,{22749},DC
+Anthony Lupus,"{`"Pre(-| )?Crisis`"}",f,{22749},Pre-Crisis
+Juggernaut,"{`"Spider(-| )?Man:? ?Shattered Dimensions`"}",f,{22750},Spider-Man: Shattered Dimensions
+Roland,"{`"After the Revolution`"}",f,{22751},After the Revolution
+Jericho Cross,{Darkwatch},t,{22752},Darkwatch

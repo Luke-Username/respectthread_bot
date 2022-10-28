@@ -14,15 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=TRUE WHERE default_name='Afro Samurai';
-
 ########################################
 
-DELETE FROM character_name WHERE default_name='Doctor Fate';
-
 ########################################
-
-UPDATE character_name SET name='Jake Sc?ully' WHERE name='Jake Sully';
 
 ########################################
 
