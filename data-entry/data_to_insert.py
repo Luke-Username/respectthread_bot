@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Thor, The Stone God (IDW, Ragnarök)', 'https://redd.it/yfr6go')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['IDW', 'Ragnar(ö|o)k']
+],
+'IDW, Ragnarök',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yfr6go/respect_thor_the_stone_god_idw_ragnar%C3%B6k/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
