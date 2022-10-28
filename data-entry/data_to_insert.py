@@ -252,6 +252,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Jericho Cross (Darkwatch)', 'https://redd.it/yfj8z8')
+add_data(['Jericho Cross'],
+'Jericho Cross',
+False,
+True,
+[
+    ['Darkwatch']
+],
+'Darkwatch',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yfj8z8/respect_jericho_cross_darkwatch/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
