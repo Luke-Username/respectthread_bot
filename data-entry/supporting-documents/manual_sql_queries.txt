@@ -19,6 +19,7 @@ UPDATE character SET rt_id_array='{21093, 2313}' WHERE rt_id_array='{21093}';
 ########################################
 
 UPDATE character SET version='{"Cavill?"}' WHERE version='{"Cavill"}';
+UPDATE character SET version='{"Reincarnated as Yamcha"}' WHERE default_name='Yamcha' AND version='{"Reincarnated"}';
 
 ########################################
 
