@@ -107,65 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Thor, The Stone God (IDW, Ragnarök)', 'https://redd.it/yfr6go')
-add_data(['Thor'],
-'Thor',
-False,
-False,
-[
-    ['IDW', 'Ragnar(ö|o)k']
-],
-'IDW, Ragnarök',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/yfr6go/respect_thor_the_stone_god_idw_ragnar%C3%B6k/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Monarch (DC Comics)', 'https://redd.it/46r6vy')
-add_data(['Monarch'],
-'Monarch',
-False,
-False,
-[
-    ['Monarch ?\(DC Comics']
-],
-'DC',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/46r6vy/respect_monarch_dc_comics/
-#https://www.reddit.com/r/whowouldwin/comments/yg95jz/monarch_dc_comics_vs_moro_dbs_manga/iu7jtid/?context=3
-
-########################################
-
-id = get_rt_id(cur, 'Respect Captain Marvel (Marvel Earth-19919)', 'https://redd.it/yg1sz8')
-add_data(['Cap(tain)? Marvel'],
-'Captain Marvel',
-False,
-False,
-[
-    ['19919']
-],
-'19919',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/yg1sz8/respect_captain_marvel_marvel_earth19919/
-
-########################################
-
-id = get_rt_id(cur, 'Respect The Hulk (Marvel Earth 19919)', 'https://redd.it/yg1tx4')
-add_data(['Hulk'],
-'Hulk',
-False,
-False,
-[
-    ['19919']
-],
-'19919',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/yg1tx4/respect_the_hulk_marvel_earth_19919/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

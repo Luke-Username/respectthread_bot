@@ -12560,7 +12560,6 @@ Trunks,{DB(Z|S)?},f,"{3284,22116}",Dragon Ball
 17,"{`"Dragon ?Ball`"}",f,"{3267,22408}",Dragon Ball
 Mercenary Tao,"{`"Dragon ?Ball`"}",t,{3302},Dragon Ball
 Mercenary Tao,{DB(Z|S)?},t,{3302},Dragon Ball
-Yamcha,{Reincarnated},f,{3317},Dragon Ball: That Time I Got Reincarnated as Yamcha!
 Frieza,"{`"Dragon ?Ball`"}",t,"{3281,3282}",Dragon Ball
 Frieza,{DB(Z|S)?},t,"{3281,3282}",Dragon Ball
 Jaco,"{`"Dragon ?Ball`"}",f,{3296},Dragon Ball
@@ -12626,6 +12625,7 @@ Beerus,{DB(Z|S)?},t,"{3272,16850}",Dragon Ball
 Hit,{Hit.*DB(Z|S)?},f,{3295},Dragon Ball
 Buu,"{`"Dragon ?Ball`"}",t,"{3300,22407}",Dragon Ball
 Buu,{DB(Z|S)?},t,"{3300,22407}",Dragon Ball
+Yamcha,"{`"Reincarnated as Yamcha`"}",f,{3317},Dragon Ball: That Time I Got Reincarnated as Yamcha!
 Korin,"{`"Korin Tower`"}",f,{3261},Dragon Ball
 Korin,"{`"Korin's Tower`"}",f,{3261},Dragon Ball
 Ginyu Force,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
@@ -15001,7 +15001,7 @@ Superman,"{`"Super(-| )?man ?\\(Man of Steel`"}",f,{130},DCEU
 Superman,"{`"Super(-| )?man ?\\[Man of Steel`"}",f,{130},DCEU
 Superman,"{`"Man of Steel Super(-| )?man`"}",f,{130},DCEU
 Superman,{2013},f,{130},DCEU
-Superman,{Cavill},f,{130},DCEU
+Superman,{Cavill?},f,{130},DCEU
 Yondu,{199999},f,{13485},MCU
 Poison Ivy,"{`"Bat(-| )?man`",1997}",f,{14486},"Batman & Robin, 1997"
 Hera,"{`"Greek myth?(olog(y|ical))?`"}",f,{5807},Greek Mythology
@@ -25120,10 +25120,6 @@ Anole,"{`"X(-| )?Men`"}",f,{21091},616
 Anole,{Victor},f,{21091},616
 Thor Girl,{616},t,{21092},616
 Thor Girl,{Marvel},t,{21092},616
-Gorr,{616},t,{21093},616
-Gorr,{Marvel},t,{21093},616
-Gorr the God Butcher,{616},t,{21093},616
-Gorr the God Butcher,{Marvel},t,{21093},616
 SCP-517-ARC,{Foundation},t,{21094},""
 Kōushō Shinogi,{Baki},t,{21095},Baki
 Aa'une,{Chaotic},t,{21096},Chaotic
@@ -25135,6 +25131,10 @@ Sun Wukong,{JTTW},t,{},""
 Sun Wukong,{Chinese},t,{},""
 Sun Wukong,{myth?(ical|olog(y|ical))?},t,{},""
 Sun Wukong,{buddha(hood)?},t,{},""
+Gorr,{616},t,"{21093,2313}",616
+Gorr,{Marvel},t,"{21093,2313}",616
+Gorr the God Butcher,{616},t,"{21093,2313}",616
+Gorr the God Butcher,{Marvel},t,"{21093,2313}",616
 Pain,{Shippuden},f,{3964},Naruto
 Pain,{Akatsuki},f,{3964},Naruto
 Waluigi,{Mashable},f,{21100},Mashable
@@ -28359,3 +28359,7 @@ Anthony Lupus,"{`"Pre(-| )?Crisis`"}",f,{22749},Pre-Crisis
 Juggernaut,"{`"Spider(-| )?Man:? ?Shattered Dimensions`"}",f,{22750},Spider-Man: Shattered Dimensions
 Roland,"{`"After the Revolution`"}",f,{22751},After the Revolution
 Jericho Cross,{Darkwatch},t,{22752},Darkwatch
+Thor,"{IDW,Ragnar(ö|o)k}",f,{22753},"IDW, Ragnarök"
+Monarch,"{`"Monarch ?\\(DC Comics`"}",f,{22754},DC
+Captain Marvel,{19919},f,{22755},19919
+Hulk,{19919},f,{22756},19919
