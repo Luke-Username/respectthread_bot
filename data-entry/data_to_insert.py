@@ -107,6 +107,66 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 14384, 'Respect Marisa (minusT Animations)', 'https://redd.it/ygge4b')
+update_respectthread(cur, 14383, 'Respect Reimu (minusT Animations)', 'https://redd.it/ygge9k')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lord Morbius (Marvel Earth-37072)', 'https://redd.it/yggrw4')
+add_data(['Lord Morbius'],
+'Lord Morbius',
+False,
+True,
+[
+    ['37072']
+],
+'37072',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yggrw4/respect_lord_morbius_marvel_earth37072/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Creature Commandos (DC Pre-Crisis)', 'https://redd.it/ygxg0g')
+add_data(['Creature Commandos'],
+'Creature Commandos',
+True,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ygxg0g/respect_the_creature_commandos_dc_precrisis/
+
+add_data(['Creature Commandos'],
+'Creature Commandos',
+True,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ygxg0g/respect_the_creature_commandos_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dark Carnage (Marvel, Earth-616)', 'https://redd.it/yhancm')
+add_data(['Dark Carnage'],
+'Dark Carnage',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yhancm/respect_dark_carnage_marvel_earth616/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
