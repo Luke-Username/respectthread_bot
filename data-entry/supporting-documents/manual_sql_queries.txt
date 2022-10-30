@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Patrick Bateman (American Psycho, Composite)', 'https://redd.it/yhkj4p'); SELECT * FROM respectthread WHERE link='https://redd.it/yhkj4p';
+UPDATE character SET rt_id_array='{?, 22250}' WHERE default_name='Patrick Bateman';
+
 ########################################
 
 ########################################

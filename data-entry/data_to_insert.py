@@ -109,6 +109,21 @@ cur = con.cursor()
 
 update_respectthread(cur, 14384, 'Respect Marisa (minusT Animations)', 'https://redd.it/ygge4b')
 update_respectthread(cur, 14383, 'Respect Reimu (minusT Animations)', 'https://redd.it/ygge9k')
+update_respectthread(cur, 3963, 'Respect Might Guy! (Naruto)', 'https://redd.it/yhf02s')
+
+########################################
+
+add_data(['Pure Blood'],
+'Pure Blood',
+False,
+False,
+[
+    ['One(-| )Punch Man'], ['OPM']
+],
+'One Punch Man',
+'{4119}'
+)
+#
 
 ########################################
 
@@ -166,6 +181,36 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/yhancm/respect_dark_carnage_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Silence Priests (Doctor Who)', 'https://redd.it/yhewh3')
+add_data(['Silence Priests?'],
+'Silence Priests',
+False,
+False,
+[
+    ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yhewh3/respect_the_silence_priests_doctor_who/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Consul of Omashu! (Avatar: The Legend of Aang Videogame)', 'https://redd.it/yhjsns')
+add_data(['Consul'],
+'Consul',
+False,
+False,
+[
+    ['Avatar'], ['A?TLA'], ['Air(-| )bender']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yhjsns/respect_consul_of_omashu_avatar_the_legend_of/
 
 ########################################
 
