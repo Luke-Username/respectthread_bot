@@ -111,6 +111,7 @@ update_respectthread(cur, 14384, 'Respect Marisa (minusT Animations)', 'https://
 update_respectthread(cur, 14383, 'Respect Reimu (minusT Animations)', 'https://redd.it/ygge9k')
 update_respectthread(cur, 3963, 'Respect Might Guy! (Naruto)', 'https://redd.it/yhf02s')
 update_respectthread(cur, 6476, 'Respect Liliana Vess! (Magic: The Gathering)', 'https://redd.it/yhynb6')
+update_respectthread(cur, 4032, 'Respect Shimotsuki Ryuma! (Monsters/One Piece)', 'https://redd.it/yik7qu')
 
 ########################################
 
