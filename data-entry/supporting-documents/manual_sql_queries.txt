@@ -19,7 +19,12 @@ UPDATE character SET rt_id_array='{?, 22250}' WHERE default_name='Patrick Batema
 
 ########################################
 
+DELETE FROM character WHERE default_name='Thor' AND version='{"movie"}';
+DELETE FROM character WHERE default_name='Thor' AND version='{"movies"}';
+
 ########################################
+
+UPDATE character SET is_default=TRUE WHERE default_name='A-Train';
 
 ########################################
 

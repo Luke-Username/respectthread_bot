@@ -302,6 +302,93 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Mystery Inc. (Scooby-Doo Tie-In Games)', 'https://redd.it/yi9uvq')
+add_data(['Mystery Inc(orporated)?'],
+'Mystery Inc.',
+True,
+False,
+[
+    ['Scooby(-| )Doo Games']
+],
+'Scooby-Doo Tie-In Games',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yi9uvq/respect_mystery_inc_scoobydoo_tiein_games/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pinhead (Hellraiser 2022)', 'https://redd.it/yiba3y')
+add_data(['Pinhead'],
+'Pinhead',
+False,
+False,
+[
+    ['Hellraiser', '2022']
+],
+'Hellraiser, 2022',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yiba3y/respect_pinhead_hellraiser_2022/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Goku Black, the Crimson Masked Saiyan (Dragon Ball Heroes Anime)', 'https://redd.it/yic6yy')
+add_data(['Goku Black'],
+'Goku Black',
+False,
+False,
+[
+    ['Dragon Ball ?Heroes'], ['DBH'], ['Crimson(-| )Mask(ed)?']
+],
+'Dragon Ball Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yic6yy/respect_goku_black_the_crimson_masked_saiyan/
+
+add_data(['Crimson(-| )Masked Saiyan'],
+'Crimson-Masked Saiyan',
+False,
+False,
+[
+    ['Dragon Ball ?Heroes'], ['S?DBH']
+],
+'Dragon Ball Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yic6yy/respect_goku_black_the_crimson_masked_saiyan/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Nowhere King! (Centaurworld)', 'https://redd.it/yid9iy')
+add_data(['Nowhere King'],
+'Nowhere King',
+False,
+True,
+[
+    ['Centaur ?world']
+],
+'Centaurworld',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yid9iy/respect_the_nowhere_king_centaurworld/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ninomae Ina''nis (Hololive: Myth's Bad Ending)", 'https://redd.it/yiifvp')
+add_data(["Ninomae Ina(''nis)?|Ina(''nis)? Ninomae"],
+'Ninomae Ina''nis',
+False,
+False,
+[
+    ["Myth''?s Bad Ending"]
+],
+"Myth''s Bad Ending",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yiifvp/respect_ninomae_inanis_hololive_myths_bad_ending/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
