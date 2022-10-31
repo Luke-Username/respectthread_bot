@@ -110,6 +110,7 @@ cur = con.cursor()
 update_respectthread(cur, 14384, 'Respect Marisa (minusT Animations)', 'https://redd.it/ygge4b')
 update_respectthread(cur, 14383, 'Respect Reimu (minusT Animations)', 'https://redd.it/ygge9k')
 update_respectthread(cur, 3963, 'Respect Might Guy! (Naruto)', 'https://redd.it/yhf02s')
+update_respectthread(cur, 6476, 'Respect Liliana Vess! (Magic: The Gathering)', 'https://redd.it/yhynb6')
 
 ########################################
 
@@ -124,6 +125,48 @@ False,
 '{4119}'
 )
 #
+
+########################################
+
+add_data(['Alucard'],
+'Alucard',
+False,
+False,
+[
+    ['Seras']
+],
+'Hellsing',
+'{3476}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yi610d/dio_vs_alucard_vs_muzanbut_with_a_twist/iuh8dfw/?context=3
+
+########################################
+
+add_data(['Dracula'],
+'Dracula',
+False,
+False,
+[
+    ['Vampire:? The Masquerade'], ['VTM']
+],
+'Vampire: The Masquerade',
+'{3476}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yi7ko7/whod_win_alucard_hellsing_vs_the_eldesttzimisce/iuhd4ln/?context=3
+
+########################################
+
+add_data(['Terraria Player'],
+'Terrarian',
+False,
+True,
+[
+    ['default']
+],
+'Terraria',
+'{5497}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yhm76m/the_dragonborn_vs_a_maxed_melee_terraria_player/
 
 ########################################
 
@@ -211,6 +254,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/yhjsns/respect_consul_of_omashu_avatar_the_legend_of/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Bride of Chucky, Tiffany Valentine! (Child''s Play)", 'https://redd.it/yhny4r')
+add_data(['Tiffany Valentine'],
+'Tiffany Valentine',
+False,
+True,
+[
+    ["Child''?s Play"]
+],
+"Child''s Play",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yhny4r/respect_the_bride_of_chucky_tiffany_valentine/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cindy Campbell (Scary Movie)', 'https://redd.it/yi5s6r')
+add_data(['Cindy Campbell'],
+'Cindy Campbell',
+False,
+True,
+[
+    ['Scary Movie']
+],
+'Scary Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yi5s6r/respect_cindy_campbell_scary_movie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Brenda Meeks', 'https://www.reddit.com/r/respectthreads/comments/yi5s6r/respect_cindy_campbell_scary_movie/iuh7efx/')
+add_data(['Brenda Meeks'],
+'Brenda Meeks',
+False,
+True,
+[
+    ['Scary Movie']
+],
+'Scary Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yi5s6r/respect_cindy_campbell_scary_movie/iuh7efx/
 
 ########################################
 
