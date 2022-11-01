@@ -106,6 +106,68 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+update_respectthread(cur, 615, 'Respect the Lich (Adventure Time)', 'https://redd.it/yitv18')
+
+########################################
+
+add_data(['Super(-| )?boy'],
+'Superboy',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{1762}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yirqxr/invincible_image_comics_vs_superboy_dc_comics/iuk5nz1/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Gawr Gura (Hololive: Myth''s Bad Ending)", 'https://redd.it/yipzi2')
+add_data(['Gawr Gura'],
+'Gawr Gura',
+False,
+False,
+[
+    ["Myth''?s Bad Ending"]
+],
+"Myth''s Bad Ending",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yipzi2/respect_gawr_gura_hololive_myths_bad_ending/
+
+########################################
+
+id = get_rt_id(cur, 'Respect DJ Lyka (Fortnite)', 'https://redd.it/yiqoh8')
+add_data(['DJ Lyka'],
+'DJ Lyka',
+False,
+True,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yiqoh8/respect_dj_lyka_fortnite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ash Williams (Fortnite)', 'https://redd.it/yiqok7')
+add_data(['Ash Williams'],
+'Ash Williams',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
