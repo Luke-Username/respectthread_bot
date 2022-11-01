@@ -573,7 +573,6 @@ id,title,link
 612,Respect Huntress Wizard (Adventure Time),https://redd.it/9gly5i
 613,Respect Jake the Dog (Adventure Time),https://redd.it/awxc9c
 614,Respect Lemongrab (Adventure Time),https://redd.it/avosy3
-615,Respect The Lich (Adventure Time),https://redd.it/9dp6ha
 616,Respect Magic Man (Adventure Time),https://redd.it/aqr3st
 618,Respect Peace Master (Adventure Time),https://redd.it/9lhh8x
 619,Respect Princess Bubblegum (Adventure Time),https://redd.it/awl7ct
@@ -629,6 +628,7 @@ id,title,link
 638,Respect Avatar Aang (Avatar: The Last Airbender),https://redd.it/uo2yl5
 644,Respect Toph Beifong (Avatar: The Last Airbender),https://redd.it/vc590y
 664,Respect Batman! (Batman: The Brave and the Bold),https://redd.it/xgxk4q
+615,Respect the Lich (Adventure Time),https://redd.it/yitv18
 639,Respect Avatar Kyoshi (Avatar: The Last Airbender),https://redd.it/i2lkav
 673,Respect Big Chill (Ben 10),https://redd.it/3kwtzp
 675,Respect Brainstorm (Ben 10) [Classic],https://redd.it/aijh7y
@@ -3799,9 +3799,10 @@ id,title,link
 3958,Respect Kimimaro (Naruto),https://redd.it/6ji71m
 3960,Respect Konan (Naruto),https://redd.it/6uymie
 3962,[Respect] Mei Terumi (Naruto),https://redd.it/3bgvfa
-3963,Respect Might Guy (Naruto),https://redd.it/5yqa7y
+3963,Respect Might Guy! (Naruto),https://redd.it/yhf02s
 3965,[Respect] Naruto Uzumaki (Naruto),https://redd.it/3pxdii
 3966,Respect Neji Hyuga [Naruto],https://redd.it/6hlm6u
+4032,Respect Shimotsuki Ryuma! (Monsters/One Piece),https://redd.it/yik7qu
 3968,"Respect Onoki, the 3rd Tsuchikage [Naruto]",https://redd.it/3brwd0
 3969,Respect Orochimaru [Naruto],https://redd.it/430tcu
 3961,Respect Madara Uchiha (Naruto),https://redd.it/l4nu7o
@@ -3863,7 +3864,6 @@ id,title,link
 4029,Respect Nefertari Vivi (One Piece),https://redd.it/5kb6pc
 4030,Respect Paulie (One Piece),https://redd.it/5ok74v
 4031,Respect Peeply Lulu (One Piece),https://redd.it/5ok77a
-4032,Respect Ryuma (One Piece),https://redd.it/71s54a
 4033,Respect Sabo (One Piece),https://redd.it/7fyinx
 4034,Respect Shuraiya Bascud (One Piece: Dead End Adventure),https://redd.it/6b237m
 4035,Respect Tilestone (One Piece),https://redd.it/5ok787
@@ -6226,7 +6226,6 @@ id,title,link
 6446,Respect Brendon Urie! (Panic! at the Disco),https://redd.it/phkfp2
 6474,"Respect Kaya, the Ghost Assassin! [MTG]",https://redd.it/4weh1d
 6475,"Respect Kiora, Master of the Depths!",https://redd.it/498hi9
-6476,[Respect] Liliana Vess (Magic the Gathering),https://redd.it/36wnr9
 6477,"Respect Nahiri, the Lithomancer! (Magic: The Gathering)",https://redd.it/47w6ub
 6478,"Respect Nicol Bolas, puny humans!",https://redd.it/2hp4mb
 6481,Respect Ral Zarek (Magic: The Gathering),https://redd.it/46thxa
@@ -6262,6 +6261,7 @@ id,title,link
 264,Respect Thor Odinson (Marvel Cinematic Universe),https://redd.it/xguqef
 6479,"Respect Nissa Revane, Worldwaker! (Magic: The Gathering)",https://redd.it/xp7fh7
 6480,Respect Ob Nixilis! (Magic: The Gathering),https://redd.it/xrkg69
+6476,Respect Liliana Vess! (Magic: The Gathering),https://redd.it/yhynb6
 6509,Respect Indiana Jones (Indiana Jones),https://redd.it/d0aua3
 2788,Respect the Mask (Dark Horse Comics),https://redd.it/c7mf7h
 6510,[Respect] Inmate 93X666 (Jungle Jail),https://redd.it/bvttq1
@@ -10599,8 +10599,6 @@ id,title,link
 14380,Respect Izumi Curtis (Fullmetal Alchemist manga/Brotherhood),https://redd.it/jyh8wg
 14381,Respect Zak Gibbs (Clockstoppers),https://redd.it/jyla12
 14382,Respect The Green Goblin (Spider-Man: Into the Spider-Verse),https://redd.it/jywqbu
-14383,Respect Reimu (minusT Animations),https://redd.it/jyydrj
-14384,Respect Marisa (minusT Animations),https://redd.it/jyye5l
 14385,Respect Batman (DEATH BATTLE!),https://redd.it/jz438x
 14386,Respect Mulan (DBX),https://redd.it/jz5ed9
 14387,Respect the Heroes (Heroes United: Coronavirus),https://redd.it/jz7cbr
@@ -10615,6 +10613,7 @@ id,title,link
 14396,"Respect SCP-1233, The Lunatic Moon Champion (SCP Foundation)",https://redd.it/k24uvq
 14397,Respect Phantom R (Rhythm Thief),https://redd.it/k0l6t3
 14398,"Respect Tonpa the `"Rookie Crusher`" (Hunter x Hunter)",https://redd.it/k0y3v1
+14384,Respect Marisa (minusT Animations),https://redd.it/ygge4b
 14399,Respect The Enormous Crocodile (The Enormous Crocodile),https://redd.it/k104fe
 14400,Respect Malori Crowett (Mage & Demon Queen),https://redd.it/k195qq
 14401,Respect Queen Velverosa (Mage & Demon Queen),https://redd.it/k9yqep
@@ -11568,3 +11567,24 @@ id,title,link
 22754,Respect Monarch (DC Comics),https://redd.it/46r6vy
 22755,Respect Captain Marvel (Marvel Earth-19919),https://redd.it/yg1sz8
 22756,Respect The Hulk (Marvel Earth 19919),https://redd.it/yg1tx4
+22757,"Respect Patrick Bateman (American Psycho, Composite)",https://redd.it/yhkj4p
+14383,Respect Reimu (minusT Animations),https://redd.it/ygge9k
+22770,Respect Lord Morbius (Marvel Earth-37072),https://redd.it/yggrw4
+22771,Respect The Creature Commandos (DC Pre-Crisis),https://redd.it/ygxg0g
+22772,"Respect Dark Carnage (Marvel, Earth-616)",https://redd.it/yhancm
+22773,Respect the Silence Priests (Doctor Who),https://redd.it/yhewh3
+22774,Respect Consul of Omashu! (Avatar: The Legend of Aang Videogame),https://redd.it/yhjsns
+22775,"Respect the Bride of Chucky, Tiffany Valentine! (Child's Play)",https://redd.it/yhny4r
+22776,Respect Cindy Campbell (Scary Movie),https://redd.it/yi5s6r
+22777,Respect Brenda Meeks,https://www.reddit.com/r/respectthreads/comments/yi5s6r/respect_cindy_campbell_scary_movie/iuh7efx/
+22778,Respect Mystery Inc. (Scooby-Doo Tie-In Games),https://redd.it/yi9uvq
+22779,Respect Pinhead (Hellraiser 2022),https://redd.it/yiba3y
+22780,"Respect Goku Black, the Crimson Masked Saiyan (Dragon Ball Heroes Anime)",https://redd.it/yic6yy
+22781,Respect The Nowhere King! (Centaurworld),https://redd.it/yid9iy
+22782,Respect Ninomae Ina'nis (Hololive: Myth's Bad Ending),https://redd.it/yiifvp
+22783,Respect Dracula! (Castlevania),https://redd.it/yizwbi
+22784,Respect Gawr Gura (Hololive: Myth's Bad Ending),https://redd.it/yipzi2
+22785,Respect DJ Lyka (Fortnite),https://redd.it/yiqoh8
+22786,Respect Ash Williams (Fortnite),https://redd.it/yiqok7
+22787,"Respect Sam Hain, SCP-6750-1! (SCP Foundation)",https://redd.it/yixkl9
+22788,"Respect the Darkhold, the Book of the Damned (Marvel 616)",https://redd.it/yj12s0

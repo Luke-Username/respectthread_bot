@@ -1425,8 +1425,6 @@ Hawkeye,{movies},f,{244},MCU
 Thor,"{`"Marvel Cinematic Universe`"}",f,{264},MCU
 Thor,{MCU},f,{264},MCU
 Thor,{199999},f,{264},MCU
-Thor,{movie},f,{264},MCU
-Thor,{movies},f,{264},MCU
 Tepsekemei,"{`"Mahou Shoujo Ikusei Keikaku`"}",t,{10791},Magical Girl Raising Project
 Star-Lord,"{`"Marvel Cinematic Universe`"}",f,{13603},MCU
 Tony,"{`"Infinity War`"}",f,{247},MCU
@@ -17715,7 +17713,6 @@ Rhea,{FE3H},f,{14799},Fire Emblem
 Zulmak,{Destiny},f,{14800},Destiny
 Doc Rocket,"{`"Extreme Universe`"}",t,{14801},Extreme Universe
 Doc Rocket,{Youngblood},t,{14801},Extreme Universe
-Thriller,"{`"Sting of Death`"}",t,{14802},The Sting of Death
 Thing,"{`"John Carpenters?`"}",f,{14803},John Carpenter
 Thing,{1982},f,{14803},John Carpenter
 Thing,"{`"Thing ?\\(The Thing`"}",f,{14803},John Carpenter
@@ -17766,6 +17763,7 @@ Doomsday,{DCA(F|M)U},f,{14824},DC Animated Movie Universe
 Doomsday,"{`"DC Animated Movies?`"}",f,{14824},DC Animated Movie Universe
 Giran,"{`"Dragon ?Ball`"}",f,{14825},Dragon Ball
 Giran,{DB(Z|S)?},f,{14825},Dragon Ball
+Thriller,"{`"Sting of Death`"}",f,{14802},The Sting of Death
 Giran,"{`"Monster Beast`"}",f,{14825},Dragon Ball
 Giran,{Tien},f,{14825},Dragon Ball
 Giran,{Goku},f,{14825},Dragon Ball
@@ -25884,7 +25882,6 @@ Peacemaker,"{`"Peace ?maker ?\\(Prime Earth`"}",f,{21323},New 52
 Peacemaker,"{`"Peace ?maker ?\\(Rebirth`"}",f,{21323},New 52
 Peacemaker,"{`"Peace ?maker ?\\(New Earth`"}",f,{21323},Post-Crisis
 Peacemaker,"{`"Peace ?maker ?\\(Posts?(-| )?C(risis)?`"}",f,{21323},Post-Crisis
-A-Train,"{`"The Boys`"}",f,{21325},The Boys
 A Train,"{`"The Boys`"}",f,{21325},The Boys
 Superman,"{`"Legion of Super Heroes`",Animated}",f,{21326},Legion of Super Heroes
 Godzilla,"{`"King of the Monsters`",`"Metaphor for Hiroshima`"}",f,{},""
@@ -25899,6 +25896,7 @@ Isekai Quartet,{default},t,{21329},""
 Stormfront,"{`"The Boys`"}",f,"{22159,21319}",The Boys
 Stormfront,{Homelander},f,"{22159,21319}",The Boys
 Stormfront,{Amazon},f,"{22159,21319}",The Boys
+A-Train,"{`"The Boys`"}",t,{21325},The Boys
 John Henry Irons,"{`"Superman (&|and) Lois`"}",f,{},CW Arrowverse
 John Henry Irons,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
 John Henry Irons,{(DC)?CW},f,{},CW Arrowverse
@@ -26211,7 +26209,6 @@ Black Adam,"{`"Earth(-| )S`"}",f,{21490},Earth-S
 Rasputin,"{`"The King'?s Man`"}",f,{21491},The King's Man
 Flying Dutchman,{SpongeBob},f,{21492},SpongeBob
 Tangath Toborn,{Chaotic},t,{21493},Chaotic
-A-Train,{Homelander},f,{21325},The Boys
 Meowthinator Impersonator,{Pok(e|é)m(o|a)n},f,{21518},Pokémon
 Karen,{SpongeBob},f,{21519},SpongeBob
 Karen,{Plankton},f,{21519},SpongeBob
@@ -26248,6 +26245,7 @@ SCP-457,"{`"Burning Man`"}",t,{21527},""
 Batmobile,"{`"\\(DC( Comics)?\\)`"}",t,{21523},DC
 Mongal,"{`"DC ?(E|C)U`"}",f,{},DCEU
 Black Dwarf,{616},f,{2011},616
+A-Train,{Homelander},t,{21325},The Boys
 SCP-6630,"{`"Fire On the Horizon`"}",t,{21528},""
 E.M.M.I.s,{Metroid},t,{21529},Metroid
 Sonic.EXE,{Creepypasta},t,{21530},Creepypasta
@@ -26937,7 +26935,6 @@ Mayday,"{`"No Straight Roads`"}",f,{21897},No Straight Roads
 Mayday,{Zuke},f,{21897},No Straight Roads
 Zuke,"{`"No Straight Roads`"}",f,{21897},No Straight Roads
 Shepard,"{`"Shepard.*\\(ME\\)`"}",f,{9313},Mass Effect
-Dracula,{Castlevania},f,{1253},Castlevania
 Wanda Maximoff,"{`"Wanda Maximoff.*MoM`"}",f,{270},MCU
 Wanda Maximoff,"{`"Multiverse of Madness`"}",f,{270},MCU
 Scarlet Witch,"{`"Multiverse of Madness`"}",f,{270},MCU
@@ -26985,6 +26982,7 @@ Baby 5,{Donquixote|Doflamingo},f,{21946},One Piece
 Destiny,"{`"Takt Op`"}",f,{21947},Takt Op
 Cuddles,"{`"American Dad`"}",f,{21948},American Dad!
 Lara Croft,"{`"Top Cow`"}",f,"{22643,22644}",Top Cow
+Dracula,{Castlevania},f,{22783},Castlevania
 Roland Istaz,{Baki(verse)?},t,{21949},Baki
 Alexia,"{`"Blood of Zeus`"}",f,{21950},Blood of Zeus
 Fiona,"{`"Haunting Ground`"}",f,{21951},Haunting Ground
@@ -27054,7 +27052,6 @@ Arcade,{Arcade.*616},f,{8162},616
 Doctor Strange,"{`"No Way Home`"}",f,{13351},MCU
 Doctor Strange,{NWH},f,{13351},MCU
 Griffith,{Guts},f,{12088},Berserk
-A-Train,"{`"Black Noir`"}",f,{21325},The Boys
 The Thing,{2005.*2007},f,{8573},Fantastic Four Movies
 Jean Grey,"{`"X(-| )?Men ?:( The)? ?Last Stand`"}",f,{14882},FOX
 Jean Grey,"{`"\\(Last Stand\\)`"}",f,{14882},FOX
@@ -27105,6 +27102,7 @@ Atrocitus,"{`"New(-| )Earth`"}",f,{22014},Post-Crisis
 Shagnasty,{Dresden},t,{22013},The Dresden Files
 Morbius,{Letos?},f,{21999},2022
 Morbius,{Sony(verse)?},f,{21999},2022
+A-Train,"{`"Black Noir`"}",t,{21325},The Boys
 Sonic the Hedgehog,"{`"Sonic the Hedgehog.*movies`"}",f,{8607},2020 film
 King Hippo,"{`"Captain N`"}",f,{22015},Captain N: The Game Master
 Sasha,{Amphibia},f,{22016},Amphibia
@@ -27622,7 +27620,6 @@ SCP-2241,"{`"SCP Foundation`"}",t,{22248},""
 Eleven,"{`"Stranger Things`"}",f,{22249},Stranger Things
 Thor,"{`"Nor(se|dic) Mythology`"}",f,{},Norse Mythology
 Carrie,"{`"Chloe Grace Moretz`"}",f,{396},2013
-Patrick Bateman,"{`"American Psycho`"}",t,{22250},American Psycho
 Twitch,"{`"Five Kingdoms`"}",f,{22251},Five Kingdoms
 Carnag,"{`"Five Kingdoms`"}",f,{22252},Five Kingdoms
 Jace,"{`"Five Kingdoms`"}",f,{22253},Five Kingdoms
@@ -28363,3 +28360,41 @@ Thor,"{IDW,Ragnar(ö|o)k}",f,{22753},"IDW, Ragnarök"
 Monarch,"{`"Monarch ?\\(DC Comics`"}",f,{22754},DC
 Captain Marvel,{19919},f,{22755},19919
 Hulk,{19919},f,{22756},19919
+Patrick Bateman,"{`"American Psycho`"}",t,"{22757,22250}",American Psycho
+Pure Blood,"{`"One(-| )Punch Man`"}",f,{4119},One Punch Man
+Pure Blood,{OPM},f,{4119},One Punch Man
+Alucard,{Seras},f,{3476},Hellsing
+Dracula,"{`"Vampire:? The Masquerade`"}",f,{3476},Vampire: The Masquerade
+Dracula,{VTM},f,{3476},Vampire: The Masquerade
+Terrarian,{default},t,{5497},Terraria
+Lord Morbius,{37072},t,{22770},37072
+Creature Commandos,"{`"\\(DC( Comics)?\\)`"}",t,{22771},DC
+Creature Commandos,"{`"\\[DC( Comics)?\\]`"}",t,{22771},DC
+Creature Commandos,"{`"Pre(-| )?Crisis`"}",f,{22771},Pre-Crisis
+Dark Carnage,{616},t,{22772},616
+Silence Priests,"{`"(Doctor|Dr\\.?) ?Who`"}",f,{22773},Doctor Who
+Silence Priests,{Who(ni)?verse},f,{22773},Doctor Who
+Consul,{Avatar},f,{22774},Avatar: TLA
+Consul,{A?TLA},f,{22774},Avatar: TLA
+Consul,"{`"Air(-| )bender`"}",f,{22774},Avatar: TLA
+Tiffany Valentine,"{`"Child'?s Play`"}",t,{22775},Child's Play
+Cindy Campbell,"{`"Scary Movie`"}",t,{22776},Scary Movie
+Brenda Meeks,"{`"Scary Movie`"}",t,{22777},Scary Movie
+Mystery Inc.,"{`"Scooby(-| )Doo Games`"}",f,{22778},Scooby-Doo Tie-In Games
+Pinhead,"{Hellraiser,2022}",f,{22779},"Hellraiser, 2022"
+Goku Black,"{`"Dragon Ball ?Heroes`"}",f,{22780},Dragon Ball Heroes
+Goku Black,{DBH},f,{22780},Dragon Ball Heroes
+Goku Black,"{`"Crimson(-| )Mask(ed)?`"}",f,{22780},Dragon Ball Heroes
+Crimson-Masked Saiyan,"{`"Dragon Ball ?Heroes`"}",f,{22780},Dragon Ball Heroes
+Crimson-Masked Saiyan,{S?DBH},f,{22780},Dragon Ball Heroes
+Nowhere King,"{`"Centaur ?world`"}",t,{22781},Centaurworld
+Ninomae Inanis,"{`"Myth'?s Bad Ending`"}",f,{22782},Myth's Bad Ending
+Superboy,"{`"\\(DC( Comics)?\\)`"}",f,{1762},DC
+Superboy,"{`"\\[DC( Comics)?\\]`"}",f,{1762},DC
+Gawr Gura,"{`"Myth'?s Bad Ending`"}",f,{22784},Myth's Bad Ending
+DJ Lyka,{Fortnite},t,{22785},Fortnite
+Ash Williams,{Fortnite},f,{22786},Fortnite
+SCP-6750-1,"{`"Sam Hain`"}",f,{22787},""
+Darkhold,{616},t,{22788},616
+Darkhold,"{`"Marvel Cinematic Universe`"}",f,{22788},MCU
+Darkhold,{MCU},f,{22788},MCU
