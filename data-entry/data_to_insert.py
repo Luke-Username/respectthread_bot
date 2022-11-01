@@ -107,6 +107,47 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Chainsaw(-| )?Man'],
+'Chainsaw Man',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man vs']
+],
+'',
+'{4709}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yj8blx/chainsaw_man_vs_all_might/iumrhm0/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Naoya Zenin! (Jujutsu Kaisen)', 'https://redd.it/yjawqc')
+add_data(['Naoya'],
+'Naoya',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yjawqc/respect_naoya_zenin_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Caretaker (Marvel 616)', 'https://redd.it/yjhx88')
+add_data(['Caretaker'],
+'Caretaker',
+False,
+False,
+[
+    ['Blood', '616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yjhx88/respect_caretaker_marvel_616/
 
 ########################################
 
