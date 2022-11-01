@@ -170,6 +170,48 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Sam Hain, SCP-6750-1! (SCP Foundation)', 'https://redd.it/yixkl9')
+add_data(['SCP ?(-| )? ?6750(-| )1'],
+'SCP-6750-1',
+False,
+False,
+[
+    ['Sam Hain']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yixkl9/respect_sam_hain_scp67501_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Darkhold, the Book of the Damned (Marvel 616)', 'https://redd.it/yj12s0')
+add_data(['Darkhold'],
+'Darkhold',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yj12s0/respect_the_darkhold_the_book_of_the_damned/
+
+add_data(['Darkhold'],
+'Darkhold',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yj12s0/respect_the_darkhold_the_book_of_the_damned/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

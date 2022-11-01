@@ -18,6 +18,9 @@ UPDATE character SET is_default=FALSE WHERE default_name='Thriller';
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Dracula! (Castlevania)', 'https://redd.it/yizwbi'); SELECT * FROM respectthread WHERE link='https://redd.it/yizwbi';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Dracula' AND version='{"Castlevania"}';
+
 ########################################
 
 ########################################
