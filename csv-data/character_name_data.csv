@@ -580,7 +580,7 @@ Cross ?bones,Crossbones,f
 Bruce Banner,Bruce Banner,f
 Scarlett? Witch,Scarlet Witch,f
 Cap(tain)? Marvel,Captain Marvel,f
-Ca?pt((ai|ia)n)? America,Captain America,f
+Ca?pt((ai|ia)n)? Americas?,Captain America,f
 Vulture,Vulture,f
 Yellowjacket,Yellowjacket,f
 Darren Cross,Yellowjacket,f
@@ -2848,6 +2848,7 @@ Devil Dinosaur,Devil Dinosaur,f
 Reader,Reader,f
 Living Laser,Living Laser,f
 M\.?O\.?D\.?O\.?K,M.O.D.O.K,f
+Barry All(e|a)n,Barry Allen,f
 Vegeta,Vegeta,f
 Metal Men,Metal Men,f
 Emperor Anakin,Emperor Anakin,f
@@ -2859,7 +2860,6 @@ Matilda,Matilda,f
 Skullmageddon,Skullmageddon,f
 Jack Cooper,Jack Cooper,f
 BT(-| )?7274,BT-7274,f
-Barry Allen,Barry Allen,f
 Mr\.? X,Mr. X,f
 T(-| )00,T-00,f
 Pink (and|&) Blue,Pink and Blue,f
@@ -3623,7 +3623,6 @@ Kratos,Kratos,f
 John(-| )?117,Master Chief,f
 Frank West,Frank West,f
 Humbug,Humbug,f
-Indo ?raptor,Indoraptor,f
 Eggsy,Eggsy,f
 He(-| )?Man,He-Man,f
 Composite He(-| )?Man,Composite He-Man,f
@@ -3762,6 +3761,7 @@ Asgardian Destroyer,Asgardian Destroyer,f
 Bodolf,Bodolf,f
 Bor,Bor,f
 Bor B(ú|u)rison,Bor Búrison,f
+Indo ?raptors?,Indoraptor,f
 Hong Meiling,Hong Meiling,f
 Javik,Javik,f
 Thalia,Thalia,f
@@ -12925,3 +12925,14 @@ Gawr Gura,Gawr Gura,f
 DJ Lyka,DJ Lyka,f
 SCP ?(-| )? ?6750(-| )1,SCP-6750-1,f
 Darkhold,Darkhold,f
+Naoya,Naoya,f
+Caretaker,Caretaker,f
+Gods of Amonkhet,Gods of Amonkhet,t
+Hazoret,Hazoret,f
+Godkiller Mark II,Godkiller Mark II,f
+Final Bat(-| )?Suit,Final Bat-Suit,f
+HellBat,HellBat,f
+Hell Bat,Hell Bat,f
+Nadine,Nadine,f
+Red Chalk,Red Chalk,f
+Hunter Rose,Hunter Rose,f

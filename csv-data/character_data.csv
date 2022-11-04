@@ -12541,8 +12541,6 @@ Saiyaman and Saiyagirl,"{`"Dragon ?Ball`"}",t,{3294},Dragon Ball
 Saiyaman and Saiyagirl,{DB(Z|S)?},t,{3294},Dragon Ball
 Nappa,"{`"Dragon ?Ball`"}",t,{3304},Dragon Ball
 Nappa,{DB(Z|S)?},t,{3304},Dragon Ball
-Raditz,"{`"Dragon ?Ball`"}",t,{3307},Dragon Ball
-Raditz,{DB(Z|S)?},t,{3307},Dragon Ball
 Turles,"{`"Dragon ?Ball`"}",t,{3311},Dragon Ball
 Turles,{DB(Z|S)?},t,{3311},Dragon Ball
 Vegeta,"{`"Dragon ?Ball`"}",t,{3313},Dragon Ball
@@ -12556,6 +12554,8 @@ Goten,{DB(Z|S)?},f,{3291},Dragon Ball
 Trunks,"{`"Dragon ?Ball`"}",f,"{3284,22116}",Dragon Ball
 Trunks,{DB(Z|S)?},f,"{3284,22116}",Dragon Ball
 17,"{`"Dragon ?Ball`"}",f,"{3267,22408}",Dragon Ball
+Raditz,"{`"Dragon ?Ball`"}",t,"{3307,22789}",Dragon Ball
+Raditz,{DB(Z|S)?},t,"{3307,22789}",Dragon Ball
 Mercenary Tao,"{`"Dragon ?Ball`"}",t,{3302},Dragon Ball
 Mercenary Tao,{DB(Z|S)?},t,{3302},Dragon Ball
 Frieza,"{`"Dragon ?Ball`"}",t,"{3281,3282}",Dragon Ball
@@ -28398,3 +28398,24 @@ SCP-6750-1,"{`"Sam Hain`"}",f,{22787},""
 Darkhold,{616},t,{22788},616
 Darkhold,"{`"Marvel Cinematic Universe`"}",f,{22788},MCU
 Darkhold,{MCU},f,{22788},MCU
+Chainsaw Man,"{`"Chainsaw(-| )?Man vs`"}",f,{4709},""
+Falcon,"{`"Falcon ?\\((Marvel)? ?616`"}",f,{17672},616
+Naoya,"{`"Jujus?t?s?u Kaisen`"}",f,{22790},Jujutsu Kaisen
+Naoya,{JJK},f,{22790},Jujutsu Kaisen
+Caretaker,"{Blood,616}",f,{22791},616
+Gods of Amonkhet,"{`"Magic:? The Gathering`"}",t,{22792},Magic: The Gathering
+Gods of Amonkhet,{M:?TG},t,{22792},Magic: The Gathering
+Hazoret,"{`"Magic:? The Gathering`"}",t,{22792},Magic: The Gathering
+Hazoret,{M:?TG},t,{22792},Magic: The Gathering
+He-Man,"{`"Fall Of Grayskull`"}",f,{22793},Fall Of Grayskull
+Godkiller Mark II,{616},t,{22794},616
+Final Bat-Suit,{DC},t,{22795},""
+HellBat,{Suit},f,{22795},""
+HellBat,"{`"Bat(-| )?mans?`"}",f,{22795},""
+Hell Bat,{Suit},f,{22795},""
+Hell Bat,"{`"Bat(-| )?mans?`"}",f,{22795},""
+Scaramouche,{Genshin},f,{22796},Genshin Impact
+Nadine,"{`"Nadine Hurley`"}",f,{22797},Twin Peaks
+Nadine,"{`"Twin Peaks`"}",f,{22797},Twin Peaks
+Red Chalk,"{`"Chalk ?Zone`"}",f,{22798},ChalkZone
+Hunter Rose,{Grendel},t,{22799},Grendel
