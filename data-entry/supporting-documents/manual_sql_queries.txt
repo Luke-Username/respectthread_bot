@@ -14,11 +14,20 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Raditz! (Dragon Ball Z - Anime)', 'https://redd.it/ykj0oz'); SELECT * FROM respectthread WHERE link='https://redd.it/ykj0oz';
+UPDATE character SET rt_id_array='{3307, ?}' WHERE default_name='Raditz';
+
+########################################
+
 UPDATE character_name SET name='Ca?pt((ai|ia)n)? Americas?' WHERE name='Ca?pt((ai|ia)n)? America';
 
 ########################################
 
+UPDATE character_name SET name='Indo ?raptors?' WHERE name='Indo ?raptor';
+
 ########################################
+
+UPDATE character_name SET name='Barry All(e|a)n' WHERE name='Barry Allen';
 
 ########################################
 
