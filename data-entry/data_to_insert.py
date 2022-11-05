@@ -107,6 +107,45 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Kei and Yumi! (Ape Escape)', 'https://redd.it/ymd5pg')
+add_data(['Kei'],
+'Kei',
+False,
+False,
+[
+    ['Ape Escape']
+],
+'Ape Escape',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ymd5pg/respect_kei_and_yumi_ape_escape/
+
+add_data(['Yumi'],
+'Yumi',
+False,
+False,
+[
+    ['Ape Escape']
+],
+'Ape Escape',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ymd5pg/respect_kei_and_yumi_ape_escape/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lo Po Bia Dokoko, Family Head of the Windbird Family! (Tower of God)', 'https://redd.it/ymdvvd')
+add_data(['Lo Po Bia Dokoko'],
+'Lo Po Bia Dokoko',
+False,
+False,
+[
+    ['Tower of God']
+],
+'Tower of God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ymdvvd/respect_lo_po_bia_dokoko_family_head_of_the/
 
 ########################################
 
