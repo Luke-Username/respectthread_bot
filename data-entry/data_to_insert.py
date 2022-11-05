@@ -149,6 +149,52 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Iron Man Model 72: the Celestial Hulkbuster (Marvel, Earth-616)', 'https://redd.it/ymr6q5')
+add_data(['Celestial Hulkbuster'],
+'Celestial Hulkbuster',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ymr6q5/respect_iron_man_model_72_the_celestial/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thor Odinson, the Mighty Hulk (Marvel, Earth-616)', 'https://redd.it/ymr7to')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Mighty Hulk']
+],
+'Mighty Hulk',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ymr7to/respect_thor_odinson_the_mighty_hulk_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Peter Parker, the Amazing Spider-Man (Spider-Man: Shattered Dimensions)', 'https://redd.it/ymsmyn')
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['Spider(-| )?Man:? ?Shattered Dimensions']
+],
+'Spider-Man: Shattered Dimensions',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ymsmyn/respect_peter_parker_the_amazing_spiderman/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
