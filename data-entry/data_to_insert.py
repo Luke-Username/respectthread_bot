@@ -195,6 +195,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "[NSFW] Respect Termite (Amazon''s The Boys)", 'https://redd.it/ymzxdx')
+add_data(['Termite'],
+'Termite',
+False,
+False,
+[
+    ['The Boys']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ymzxdx/nsfw_respect_termite_amazons_the_boys/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
