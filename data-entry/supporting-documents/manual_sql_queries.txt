@@ -14,16 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='(Mr\.?|Mister) Bean' WHERE default_name='(Mr\\.?|Mister) Bean';
-
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Bullseye';
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Captain Ginyu! (Dragon Ball Z - Anime)', 'https://redd.it/ynqn5b'); SELECT * FROM respectthread WHERE link='https://redd.it/ynqn5b';
-UPDATE character SET rt_id_array='{?, 3262}' WHERE default_name='Ginyu';
 
 ########################################
 

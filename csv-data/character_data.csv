@@ -465,9 +465,6 @@ Spider-Man,{Andrew},f,{113},The Amazing Spider-Man
 Spider-Man,"{`"Amazing Spider Man`"}",f,{113},The Amazing Spider-Man
 Spider-Man,"{`"Amazing Spiderman`"}",f,{113},The Amazing Spider-Man
 Spider-Man,{ASM},f,{113},The Amazing Spider-Man
-Bullseye,"{`"Daredevil 2003`"}",f,{114},Daredevil film 2003
-Bullseye,"{`"Daredevil film`"}",f,{114},Daredevil film 2003
-Bullseye,"{`"Daredevil movie`"}",f,{114},Daredevil film 2003
 Daredevil,{2003},f,{115},Daredevil film 2003
 Daredevil,{film},f,{115},Daredevil film 2003
 Daredevil,{movie},f,{115},Daredevil film 2003
@@ -509,6 +506,9 @@ Electro,"{`"TASM\\d?`"}",f,{110},The Amazing Spider-Man
 Green Goblin,"{`"Amazing Spider(-| )?Mans?`"}",f,{111},The Amazing Spider-Man
 Lizard,"{`"Amazing Spider(-| )?Mans?`"}",f,{112},The Amazing Spider-Man
 Spider-Man,"{`"Amazing Spider(-| )?Mans?`"}",f,{113},The Amazing Spider-Man
+Bullseye,"{`"Daredevil 2003`"}",f,{114},Daredevil film 2003
+Bullseye,"{`"Daredevil film`"}",f,{114},Daredevil film 2003
+Bullseye,"{`"Daredevil movie`"}",f,{114},Daredevil film 2003
 Batman,{BvS},f,{119},DCEU
 Batman,"{`"Dawn of Justice`"}",f,{119},DCEU
 Batman,{DoJ},f,{119},DCEU
@@ -5840,9 +5840,6 @@ Quasar,"{`"Protector of the Universe`"}",f,{2044},616
 Rom the Space Knight,{Marvel},t,{2046},Marvel
 The Runner,{Marvel},t,{2047},616
 The Runner,{616},t,{2047},616
-Bullseye,{Marvel},t,{2050},616
-Bullseye,{616},t,{2050},616
-Bullseye,{Deadshot},t,{2050},616
 Kazumi Subaru,"{`"Madoka Magica`"}",t,{4424},Madoka Magica
 Kirika Kure,"{`"Madoka Magica`"}",t,{4425},Madoka Magica
 Daredevil,{Marvel},t,{2051},616
@@ -5883,6 +5880,7 @@ God Emperor Doom,{Marvel},t,{2058},""
 God Emperor Doom,{comics?},t,{2058},""
 God Emperor Doom,"{`"Secret Wars`"}",t,{2058},""
 Infamous Iron Man,{616},t,{2059},""
+Bullseye,{Marvel},f,{2050},616
 Wilson Fisk,{Netflix},f,{},MCU
 Wilson Fisk,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Wilson Fisk,{MCU},f,{},MCU
@@ -5890,6 +5888,8 @@ Wilson Fisk,{199999},f,{},MCU
 Kingpin,{616},f,{2053},616
 Kingpin,{comics?},f,{2053},616
 Kingpin,{Netflix},f,{},MCU
+Bullseye,{616},f,{2050},616
+Bullseye,{Deadshot},f,{2050},616
 Infamous Iron Man,{Marvel},t,{2059},""
 Infamous Iron Man,{comics?},t,{2059},""
 Infamous Iron Man,"{`"Secret Wars`"}",t,{2059},""
@@ -9115,7 +9115,6 @@ Amy Rose,{Sonic},f,{8412},Sonic the Hedgehog
 Silver the Hedgehog,{Sonic},t,{5390},Sonic the Hedgehog
 Talos,{Eizouken},f,{8413},Keep Your Hands Off Eizouken!
 Princess Mononoke,"{`"Princess Mononoke`"}",t,{8414},""
-Bullseye,"{`"\\(MCU`"}",f,{12455},MCU
 Chuck Norris,"{`"Dane ?Boe`"}",f,{8415},Daneboe
 Hawk,"{`"Lupin III`"}",f,{8416},Lupin III
 Hawk,"{`"Lupin the (3|III|Thi)rd`"}",f,{8416},Lupin III
@@ -9150,6 +9149,7 @@ Alexandra Ivanova,"{`"Sword Interval`"}",t,{8433},Sword Interval
 Kurse,{616},t,{1973},616
 Silver Surfer,{ROTSS},f,{8427},Fantastic Four Movies
 Silver,"{`"Sonic the Hedgehog`"}",f,{5390},Sonic the Hedgehog
+Bullseye,"{`"\\(MCU`"}",f,{12455},MCU
 Marco Tousi,"{`"Sword Interval`"}",t,{8434},Sword Interval
 Red Rover,"{`"Sword Interval`"}",f,{8434},Sword Interval
 Mah Yun,"{`"Sword Interval`"}",f,{8435},Sword Interval
@@ -12628,8 +12628,6 @@ Korin,"{`"Korin Tower`"}",f,{3261},Dragon Ball
 Korin,"{`"Korin's Tower`"}",f,{3261},Dragon Ball
 Ginyu Force,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
 Ginyu Force,{DB(Z|S)?},t,{3262},Dragon Ball
-Ginyu,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
-Ginyu,{DB(Z|S)?},t,{3262},Dragon Ball
 Recoome,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
 Recoome,{DB(Z|S)?},t,{3262},Dragon Ball
 Burter,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
@@ -13693,9 +13691,6 @@ Illumi Zoldyck,"{`"Hunter ?(x ?)?Hunter`"}",t,{12493},Hunter x Hunter
 Illumi Zoldyck,{HxH},t,{12493},Hunter x Hunter
 Queen,"{`"Queen ?\\(One Piece`"}",f,{12494},One Piece
 Queen the Plague,"{`"One Piece`"}",t,{12494},One Piece
-Bullseye,"{`"Marvel Cinematic Universe`"}",f,{12455},MCU
-Bullseye,{199999},f,{12455},MCU
-Bullseye,"{`"Bullseye ?\\(Netflix`"}",f,{12455},MCU
 Gluttony,"{`"Full ?metal`"}",f,"{3406,12495}",Fullmetal Alchemist
 Gluttony,{FMA},f,"{3406,12495}",Fullmetal Alchemist
 Saren Arterius,"{`"ME\\d`"}",t,{7551},Mass Effect
@@ -13747,6 +13742,7 @@ Yōma,"{`"Lost Canvas`"}",f,{4492},Saint Seiya
 Phoenix Ikki,{Seiya},t,{4494},Saint Seiya
 Mountain God,"{`"Sengoku Youko`"}",f,{4496},Sengoku Youko
 Mudo,"{`"Sengoku Youko`"}",f,{4497},Sengoku Youko
+Bullseye,"{`"Marvel Cinematic Universe`"}",f,{12455},MCU
 Senya,"{`"Sengoku Youko`"}",f,{4498},Sengoku Youko
 Shakugan,"{`"Sengoku Youko`"}",f,{4499},Sengoku Youko
 Shinsuke Kazamatsuri,"{`"Sengoku Youko`"}",t,{4500},Sengoku Youko
@@ -20143,6 +20139,10 @@ Yangchen,{A?TLA},t,{22404},Avatar
 Yangchen,"{`"Air(-| )bender`"}",t,{22404},Avatar
 Judge Dredd,"{`"2000 ?AD`"}",f,{22405},2000 AD
 Collector,"{`"Owl House`"}",f,{22406},The Owl House
+Bullseye,{199999},f,{12455},MCU
+Bullseye,"{`"Bullseye ?\\(Netflix`"}",f,{12455},MCU
+Ginyu,"{`"Dragon ?Ball`"}",t,"{22800,3262}",Dragon Ball
+Ginyu,{DB(Z|S)?},t,"{22800,3262}",Dragon Ball
 Lucifer,{CAS},f,{1616},DC
 Thanos,{Fortnite},f,{},Fortnite
 Flash,{DCEU},f,{21548},DCEU
@@ -25140,11 +25140,6 @@ Venom,"{`"movies?\\)`"}",f,{591},"Sony, 2018"
 Green Goblin,"{`"Spider(-| )?Verse`"}",f,{14382},Into the Spider-Verse
 Green Goblin,{ITSV},f,{14382},Into the Spider-Verse
 Hulk,"{`"Comics? Hulk`"}",t,"{2116,2117}",616
-Bullseye,{Bullseye-MCU},f,{12455},MCU
-Bullseye,"{`"MCU Bullseye`"}",f,{12455},MCU
-Bullseye,"{MCU,Punisher}",f,{12455},MCU
-Bullseye,"{MCU,Hawkeye}",f,{12455},MCU
-Bullseye,"{MCU,`"Dark Avengers`"}",f,{12455},MCU
 Daredevil,"{`"\\(MCU`"}",f,{1289},MCU
 Daredevil,{Daredevil-MCU},f,{1289},MCU
 Daredevil,"{`"MCU Daredevil`"}",f,{1289},MCU
@@ -25159,6 +25154,11 @@ Django,{Foxx},f,{10886},Django Unchained
 Django,{2012},f,{10886},Django Unchained
 Django,"{`"Django from Django Unchained`"}",f,{10886},Django Unchained
 First Hassan,{Fate},t,{14515},Fate
+Bullseye,{Bullseye-MCU},f,{12455},MCU
+Bullseye,"{`"MCU Bullseye`"}",f,{12455},MCU
+Bullseye,"{MCU,Punisher}",f,{12455},MCU
+Bullseye,"{MCU,Hawkeye}",f,{12455},MCU
+Bullseye,"{MCU,`"Dark Avengers`"}",f,{12455},MCU
 Shigaraki,"{`"My Hero`"}",t,{13258},My Hero Academia
 Shigaraki,{(M|BN?)HA},t,{13258},My Hero Academia
 Shigaraki,"{`"Boku no Hero`"}",t,{13258},My Hero Academia
@@ -28419,3 +28419,15 @@ Nadine,"{`"Nadine Hurley`"}",f,{22797},Twin Peaks
 Nadine,"{`"Twin Peaks`"}",f,{22797},Twin Peaks
 Red Chalk,"{`"Chalk ?Zone`"}",f,{22798},ChalkZone
 Hunter Rose,{Grendel},t,{22799},Grendel
+Pennywise,"{`"IT Movies?`"}",f,{17638},Movies
+Jaws,{Cujo},f,{20627},""
+Thor,{BattleTech},f,{},BattleTech
+Lo Po Bia Dokoko,"{`"Tower of God`"}",f,{22802},Tower of God
+Celestial Hulkbuster,{616},t,{22803},616
+Buri,{616},f,{22804},616
+Thor,"{`"Mighty Hulk`"}",f,{22805},Mighty Hulk
+Spider-Man,"{`"Spider(-| )?Man:? ?Shattered Dimensions`"}",f,{22806},Spider-Man: Shattered Dimensions
+Termite,"{`"The Boys`"}",f,{22807},The Boys
+Miria,{Claymore},f,{22808},Claymore
+Meno,"{`"Sasuke Retsuden`"}",f,{22809},Sasuke Retsuden
+Negative Superman,"{`"Pre(-| )?Crisis`"}",t,{22810},Pre-Crisis
