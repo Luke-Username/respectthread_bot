@@ -107,6 +107,48 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Penny(-| )?wise'],
+'Pennywise',
+False,
+False,
+[
+    ['IT Movies?']
+],
+'Movies',
+'{17638}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ynzoqi/pennywise_it_movies_vs_scp_106_the_old_man/ivbl9ct/?context=3
+
+########################################
+
+add_data(['Jaws'],
+'Jaws',
+False,
+False,
+[
+    ['Cujo']
+],
+'',
+'{20627}'
+)
+#
+
+########################################
+
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['BattleTech']
+],
+'BattleTech',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yo7qsm/the_atlas_mech_battletech_vs_gypsy_danger_pacific/ivcsvbg/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Kei and Yumi! (Ape Escape)', 'https://redd.it/ymd5pg')
 add_data(['Kei'],
 'Kei',
@@ -162,6 +204,20 @@ True,
 )
 #https://www.reddit.com/r/respectthreads/comments/ymr6q5/respect_iron_man_model_72_the_celestial/
 
+########################################
+
+id = get_rt_id(cur, 'Respect Buri, the first Asgardian (Marvel, Earth-616)', 'https://redd.it/yn8al7')
+add_data(['Buri'],
+'Buri',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yn8al7/respect_buri_the_first_asgardian_marvel_earth616/
 
 ########################################
 
@@ -207,6 +263,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ymzxdx/nsfw_respect_termite_amazons_the_boys/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "Phantom" Miria, Number Six (Claymore)', 'https://redd.it/yn9byc')
+add_data(['Miria'],
+'Miria',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yn9byc/respect_phantom_miria_number_six_claymore/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Meno (Sasuke Retsuden: The Uchiha Descendants and the Heavenly Stardust, Manga)', 'https://redd.it/ynfrp6')
+add_data(['Meno'],
+'Meno',
+False,
+False,
+[
+    ['Sasuke Retsuden']
+],
+'Sasuke Retsuden',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ynfrp6/respect_meno_sasuke_retsuden_the_uchiha/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Negative Superman! (Pre-Crisis DC Comics)', 'https://redd.it/yo7kgw')
+add_data(['Negative Super(-| )?man'],
+'Negative Superman',
+False,
+True,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yo7kgw/respect_negative_superman_precrisis_dc_comics/
 
 ########################################
 
