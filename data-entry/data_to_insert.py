@@ -107,6 +107,61 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Rudy Tabootie (ChalkZone)', 'https://redd.it/yomaci')
+add_data(['Rudy Tabootie'],
+'Rudy Tabootie',
+False,
+True,
+[
+    ['Chalk ?Zone']
+],
+'ChalkZone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yomaci/respect_rudy_tabootie_chalkzone/
+
+add_data(['Rudy'],
+'Rudy',
+False,
+False,
+[
+    ['Chalk ?Zone']
+],
+'ChalkZone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yomaci/respect_rudy_tabootie_chalkzone/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Shadow Supreme! (Image Comics)', 'https://redd.it/yowq62')
+add_data(['Shadow Supreme'],
+'Shadow Supreme',
+False,
+False,
+[
+    ['Image'], ['Comics']
+],
+'Image Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yowq62/respect_shadow_supreme_image_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "Winged" Anastasia, Number 7 (Claymore)', 'https://redd.it/yoxiiq')
+add_data(['Anastasia'],
+'Anastasia',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yoxiiq/respect_winged_anastasia_number_7_claymore/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
