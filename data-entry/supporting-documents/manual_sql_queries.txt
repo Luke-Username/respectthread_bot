@@ -18,6 +18,8 @@ UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{6241}';
 
 ########################################
 
+DELETE FROM character WHERE default_name='Cyborg' AND version='{"Genos"}';
+
 ########################################
 
 ########################################
