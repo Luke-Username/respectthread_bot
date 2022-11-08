@@ -282,7 +282,7 @@ Batman Unlimited
 
 Batman vs. Teenage Mutant Ninja Turtles
 	Version
-		'{"Batman", "Teenaged? Mutant Ninja Turtles"}', '{"Batman", "TMNT"}'
+		['Batman', 'Teenaged? Mutant Ninja Turtles'], ['Batman', 'TMNT']
 	Displayed Version Name
 		"Batman vs. Teenage Mutant Ninja Turtles"
 
@@ -1832,7 +1832,7 @@ The Legend of Zelda
 		'{"Link\'\'s Awakening"}'
 		'{"Orarina of Time"}', '{"OOT"}'
 		'{"Skyward Sword"}'
-		'{"Breath of the Wild"}', '{"BOTW"}'
+		['Breath of the Wild'], ['BOTW']
 		'{"Hyrule Warriors"}'
 	Displayed Version Name
 		"The Legend of Zelda"

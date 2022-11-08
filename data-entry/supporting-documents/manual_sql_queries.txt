@@ -15,12 +15,15 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{6241}';
+UPDATE character SET displayed_version_name='DC' WHERE rt_id_array='{1543}';
 
 ########################################
 
 DELETE FROM character WHERE default_name='Cyborg' AND version='{"Genos"}';
 
 ########################################
+
+
 
 ########################################
 

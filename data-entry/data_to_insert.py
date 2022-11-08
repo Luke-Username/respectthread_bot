@@ -107,6 +107,21 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Snap (ChalkZone)', 'https://redd.it/ypn2ha')
+add_data(['Snap'],
+'Snap',
+False,
+False,
+[
+    ['Chalk ?Zone']
+],
+'ChalkZone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ypn2ha/respect_snap_chalkzone/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Rudy Tabootie (ChalkZone)', 'https://redd.it/yomaci')
 add_data(['Rudy Tabootie'],
 'Rudy Tabootie',
@@ -161,6 +176,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/yoxiiq/respect_winged_anastasia_number_7_claymore/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Teenage Mutant Ninja Turtles (Batman vs Teenage Mutant Ninja Turtles)', 'https://redd.it/yp82wi')
+add_data(['TMNT'],
+'Teenage Mutant Ninja Turtles',
+True,
+False,
+[
+    ['Batman', 'Teenaged? Mutant Ninja Turtles'], ['Batman', 'TMNT']
+],
+'Batman vs. Teenage Mutant Ninja Turtles',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yp82wi/respect_the_teenage_mutant_ninja_turtles_batman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lynels! (The Legend of Zelda: Breath of the Wild)', 'https://redd.it/ypa4dw')
+add_data(['Lynels?'],
+'Lynels',
+False,
+False,
+[
+    ['Breath of the Wild'], ['BOTW']
+],
+'Breath of the Wild',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ypa4dw/respect_lynels_the_legend_of_zelda_breath_of_the/
 
 ########################################
 
