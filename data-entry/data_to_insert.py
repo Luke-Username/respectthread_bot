@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Homer'],
+'Homer',
+False,
+False,
+[
+    ['Simpsons'], ['Shaggy', 'eating']
+],
+'The Simpsons',
+'{20516}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ypshzx/homer_vs_shaggy_in_an_all_you_can_eat_buffet/ivkqkdn/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Snap (ChalkZone)', 'https://redd.it/ypn2ha')
 add_data(['Snap'],
 'Snap',
@@ -179,6 +193,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect "Quicksword" Ilena (Claymore)', 'https://redd.it/ypx9be')
+add_data(['Ilena'],
+'Ilena',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ypx9be/respect_quicksword_ilena_claymore/
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Teenage Mutant Ninja Turtles (Batman vs Teenage Mutant Ninja Turtles)', 'https://redd.it/yp82wi')
 add_data(['TMNT'],
 'Teenage Mutant Ninja Turtles',
@@ -206,6 +235,33 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ypa4dw/respect_lynels_the_legend_of_zelda_breath_of_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Colonel Miles Quaritch (Avatar)', 'https://redd.it/ypvbi9')
+add_data(['Quaritch'],
+'Quaritch',
+False,
+False,
+[
+    ['AMP'], ['Avatar']
+],
+'Avatar',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ypvbi9/respect_colonel_miles_quaritch_avatar/
+
+add_data(['(Colonel|Miles) Quaritch'],
+'Colonel Miles Quaritch',
+False,
+True,
+[
+    ['AMP'], ['Avatar']
+],
+'Avatar',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ypvbi9/respect_colonel_miles_quaritch_avatar/
 
 ########################################
 
