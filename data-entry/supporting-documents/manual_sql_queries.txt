@@ -14,22 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{6241}';
-UPDATE character SET displayed_version_name='DC' WHERE rt_id_array='{1543}';
+########################################
 
 ########################################
 
-DELETE FROM character WHERE default_name='Cyborg' AND version='{"Genos"}';
-
 ########################################
-
-UPDATE character_name SET name='Ratcatcher (2|II|LL)' WHERE name='Ratcatcher (2|II)'; 
-UPDATE character_name SET default_name='Avengers' WHERE default_name='The Avengers'; 
-
-########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect General Zod (DC, Post-Crisis)', 'https://redd.it/yrm4xs'); SELECT * FROM respectthread WHERE link='https://redd.it/yrm4xs';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='General Zod' AND displayed_version_name='Post-Crisis';
 
 ########################################
 

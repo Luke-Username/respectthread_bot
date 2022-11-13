@@ -4298,8 +4298,6 @@ Hush,"{Thomas,Elliot}",f,{1541},Post-Crisis
 KGBeast,{PC},t,{1542},""
 KGBeast,"{`"Post(-| )C(risis)?`"}",t,{1542},""
 KGBeast,"{`"New(-| )Earth`"}",t,{1542},""
-Kite Man,{PC},t,{1543},Pre-Crisis
-Kite Man,"{`"Pre(-| )?Crisis`"}",t,{1543},Pre-Crisis
 Lady Shiva,"{`"New ?52`"}",t,"{1544,1545}",New 52 / Rebirth
 Lady Shiva,{N-?52},t,"{1544,1545}",New 52 / Rebirth
 Lady Shiva,"{`"Post(-| )52`"}",t,"{1544,1545}",New 52 / Rebirth
@@ -4322,6 +4320,8 @@ Mr. Freeze,"{`"Post(-| )52`"}",t,{1549},New 52
 Mr. Freeze,"{`"Prime(-| )Earth`"}",t,{1549},New 52
 Mr. Freeze,{Rebirth},t,{1549},New 52
 Mr. Freeze,{PC},t,{1550},Post-Crisis
+Kite Man,{PC},t,{1543},DC
+Kite Man,"{`"Pre(-| )?Crisis`"}",t,{1543},DC
 Mr. Freeze,"{`"Post(-| )C(risis)?`"}",t,{1550},Post-Crisis
 Mr. Freeze,"{`"New(-| )Earth`"}",t,{1550},Post-Crisis
 Nightwing Rogues,{PC},t,{1551},Post-Crisis
@@ -8512,7 +8512,6 @@ Green Lantern,"{`"Len Lewis`"}",f,{1687},Earth 6
 Superman,"{`"Earth(-| )(6|Six)`"}",f,{1787},Earth 6
 Shooting Star,"{`"Shooting Star ?\\(616`"}",f,{2324},616
 Wonder Woman,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1852,1853}",DC
-Cyborg,{Genos},f,"{1646,1828}",DC
 Cyborg,{Batman},f,"{1646,1828}",DC
 Mario Bros,"{`"Great Mission to Rescue Princess Peach`"}",f,{8271},The Great Mission to Rescue Princess Peach!
 Mario,"{`"Great Mission to Rescue Princess Peach`"}",f,{8271},The Great Mission to Rescue Princess Peach!
@@ -20143,6 +20142,15 @@ Bullseye,{199999},f,{12455},MCU
 Bullseye,"{`"Bullseye ?\\(Netflix`"}",f,{12455},MCU
 Ginyu,"{`"Dragon ?Ball`"}",t,"{22800,3262}",Dragon Ball
 Ginyu,{DB(Z|S)?},t,"{22800,3262}",Dragon Ball
+Reinhard,"{`"Dies Irae`"}",f,{},Dies Irae
+Reinhard,{Shinza},f,{},Dies Irae
+Reinhard,{Masadaverse},f,{},Dies Irae
+Reinhard Heydrich,"{`"Dies Irae`"}",t,{},Dies Irae
+Reinhard Heydrich,{Shinza},t,{},Dies Irae
+Reinhard Heydrich,{Masadaverse},t,{},Dies Irae
+Reinhard Heydrich,{Atziluth},t,{},Dies Irae
+General Zod,{PC},f,{22811},Post-Crisis
+General Zod,"{`"Posts?(-| )?C(risis)?`"}",f,{22811},Post-Crisis
 Lucifer,{CAS},f,{1616},DC
 Thanos,{Fortnite},f,{},Fortnite
 Flash,{DCEU},f,{21548},DCEU
@@ -22459,13 +22467,6 @@ Methuselah,{Shinza},f,{6240},Dies Irae
 Methuselah,{Masadaverse},f,{6240},Dies Irae
 Methuselah,{Ikabey},f,{6240},Dies Irae
 Methuselah,"{`"Kaziklu Bey`"}",f,{6240},Dies Irae
-Reinhard,"{`"Dies Irae`"}",f,{6241},Dies Irae
-Reinhard,{Shinza},f,{6241},Dies Irae
-Reinhard,{Masadaverse},f,{6241},Dies Irae
-Reinhard Heydrich,"{`"Dies Irae`"}",t,{6241},Dies Irae
-Reinhard Heydrich,{Shinza},t,{6241},Dies Irae
-Reinhard Heydrich,{Masadaverse},t,{6241},Dies Irae
-Reinhard Heydrich,{Atziluth},t,{6241},Dies Irae
 Ren,"{`"Dies Irae`"}",f,{6242},Dies Irae
 Ren,{Shinza},f,{6242},Dies Irae
 Ren,{Masadaverse},f,{6242},Dies Irae
@@ -27904,9 +27905,6 @@ Ghost of Harry Dresden,"{`"Dresden( Files|verse)`"}",t,{22519},The Dresden Files
 Voolvif Monn,"{`"S(tar )?Wars`"}",t,{22520},Star Wars
 Kar Vastor,"{`"S(tar )?Wars`"}",t,{22521},Star Wars
 Molly McGee,{Ghost},t,{22522},The Ghost and Molly McGee
-General Zod,{PC},f,{22523},Post-Crisis
-General Zod,"{`"Posts?(-| )?C(risis)?`"}",f,{22523},Post-Crisis
-General Zod,"{`"New(-| )Earth`"}",f,{22523},Post-Crisis
 Planet Master,"{`"Pre(-| )?Flashpoint`"}",f,{22524},Pre-Flashpoint
 Duplicate Vegeta,"{`"Dragon ?Ball`"}",t,{22525},Dragon Ball
 Duplicate Vegeta,{DB(Z|S)},t,{22525},Dragon Ball
@@ -28431,3 +28429,35 @@ Termite,"{`"The Boys`"}",f,{22807},The Boys
 Miria,{Claymore},f,{22808},Claymore
 Meno,"{`"Sasuke Retsuden`"}",f,{22809},Sasuke Retsuden
 Negative Superman,"{`"Pre(-| )?Crisis`"}",t,{22810},Pre-Crisis
+General Zod,"{`"New(-| )Earth`"}",f,{22811},Post-Crisis
+General Zod,{Avruskin},f,{22523},Avruskin
+Avengers,"{`"2012 Avengers`"}",f,"{233,247,237,264,236,244,235,270,268,242,271,256}",MCU
+Homer,{Simpsons},f,{20516},The Simpsons
+Homer,"{Shaggy,eating}",f,{20516},The Simpsons
+Endeavor,{Ozai},f,{3920},My Hero Academia
+Endeavor,"{`"Peak Endeavou?r`"}",f,{3920},My Hero Academia
+Snap,"{`"Chalk ?Zone`"}",f,{22812},ChalkZone
+Rudy Tabootie,"{`"Chalk ?Zone`"}",t,{22813},ChalkZone
+Rudy,"{`"Chalk ?Zone`"}",f,{22813},ChalkZone
+Shadow Supreme,{Image},f,{22814},Image Comics
+Shadow Supreme,{Comics},f,{22814},Image Comics
+Anastasia,{Claymore},f,{22815},Claymore
+Miata,{Claymore},f,{22816},Claymore
+Clarice,{Claymore},f,{22816},Claymore
+Ilena,{Claymore},f,{22817},Claymore
+Teenage Mutant Ninja Turtles,"{Batman,`"Teenaged? Mutant Ninja Turtles`"}",f,{22818},Batman vs. Teenage Mutant Ninja Turtles
+Teenage Mutant Ninja Turtles,"{Batman,TMNT}",f,{22818},Batman vs. Teenage Mutant Ninja Turtles
+Lynels,"{`"Breath of the Wild`"}",f,{22819},Breath of the Wild
+Lynels,{BOTW},f,{22819},Breath of the Wild
+Quaritch,{AMP},f,{22820},Avatar
+Quaritch,{Avatar},f,{22820},Avatar
+Colonel Miles Quaritch,{AMP},t,{22820},Avatar
+Colonel Miles Quaritch,{Avatar},t,{22820},Avatar
+Kenji Miyashiro,"{`"The Boys`"}",t,{22821},The Boys
+Kenji,"{`"The Boys`"}",f,{22821},The Boys
+Catboy Jerma,{Jerma985},t,{22822},""
+The Horror,{Jerma985},f,{22823},Jerma985
+Gaia,{Baki(verse)?},f,{22824},Baki
+Angelica Longrider,"{`"Swamp Angel`"}",t,{22825},Swamp Angel
+Bahumat,{Fablehaven},f,{22826},Fablehaven
+Revenant,{Fablehaven},f,{22827},Fablehaven
