@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1026, 'Respect Roger the Alien (American Dad!)', 'https://redd.it/yva4kt')
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Black Cat Guardian! (Fablehaven)', 'https://redd.it/yu0s43')
 add_data(['Black Cat Guardian'],
 'Black Cat Guardian',
@@ -209,6 +213,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/yu10ws/respect_ephira_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tanu! (Fablehaven)', 'https://redd.it/yuxwof')
+add_data(['Tanu'],
+'Tanu',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yuxwof/respect_tanu_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ryland, the Somber Knight! (Fablehaven)', 'https://redd.it/yuxy1r')
+add_data(['Ryland'],
+'Ryland',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yuxy1r/respect_ryland_the_somber_knight_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, "Respect Leon''s Rillaboom (Pokemon Anime)", 'https://redd.it/yv9xyn')
+add_data(['Rillaboom'],
+'Rillaboom',
+False,
+False,
+[
+    ['Leons?']
+],
+'Leon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yv9xyn/respect_leons_rillaboom_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect Leon''s Dragapult (Pokemon Anime)", 'https://redd.it/yv9y9f')
+add_data(['Dragapult'],
+'Dragapult',
+False,
+False,
+[
+    ['Leons?']
+],
+'Leon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yv9y9f/respect_leons_dragapult_pokemon_anime/
 
 ########################################
 

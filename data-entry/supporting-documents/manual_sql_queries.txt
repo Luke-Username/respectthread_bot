@@ -21,9 +21,15 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Lee', 'Ty Lee', 
 INSERT INTO respectthread (title, link) VALUES ('Respect Nappa! (Dragon Ball Z - Anime)', 'https://redd.it/yu2gh3'); SELECT * FROM respectthread WHERE link='https://redd.it/yu2gh3';
 UPDATE character SET rt_id_array='{3304, ?}' WHERE rt_id_array='{3304}';
 
-########################################
+UPDATE character SET rt_id_array='{1026}' WHERE default_name='Roger' AND displayed_version_name='American Dad!';
 
 ########################################
+
+UPDATE character SET rt_id_array='{22680, 2313}' WHERE default_name='Knull';
+
+########################################
+
+UPDATE character_name SET name='D(octo)?r\.? Livesey' WHERE name='D(octo)?r\\.? Livesey'; --https://www.reddit.com/r/whowouldwin/comments/yv50ti/dr_livesey_treasure_island_vs_zarya_overwatch/iwcfjam/?context=3
 
 ########################################
 
