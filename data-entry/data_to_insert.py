@@ -107,6 +107,183 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Black Cat Guardian! (Fablehaven)', 'https://redd.it/yu0s43')
+add_data(['Black Cat Guardian'],
+'Black Cat Guardian',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yu0s43/respect_the_black_cat_guardian_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bracken! (Fablehaven)', 'https://redd.it/yu0ug6')
+add_data(['Bracken'],
+'Bracken',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yu0ug6/respect_bracken_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Gray Assassin! (Fablehaven)', 'https://redd.it/yu0vtk')
+add_data(['Gray Assassin'],
+'Gray Assassin',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yu0vtk/respect_the_gray_assassin_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mirav! (Fablehaven)', 'https://redd.it/yu0yzz')
+add_data(['Mirav'],
+'Mirav',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yu0yzz/respect_mirav_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mendigo! (Fablehaven)', 'https://redd.it/yu12q3')
+add_data(['Mendigo'],
+'Mendigo',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hugo! (Fablehaven)', 'https://redd.it/yu4jyw')
+add_data(['Hugo'],
+'Hugo',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yu4jyw/respect_hugo_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ephira! (Fablehaven)', 'https://redd.it/yu10ws')
+add_data(['Ephira'],
+'Ephira',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yu10ws/respect_ephira_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Babadook (The Babadook)', 'https://redd.it/yudczk')
+add_data(['Babadook'],
+'Babadook',
+False,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yudczk/respect_the_babadook_the_babadook/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "God-Eye" Galatea (Claymore)', 'https://redd.it/yufcp1')
+add_data(['Galatea'],
+'Galatea',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yufcp1/respect_godeye_galatea_claymore/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-162, Ball of Sharp (SCP Foundation)', 'https://redd.it/yuffty')
+add_data(['SCP ?(-| )? ?162'],
+'SCP-162',
+False,
+False,
+[
+    ['Ball of Sharp']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lady Liadrin (Hearthstone)', 'https://redd.it/yulm4l')
+add_data(['Lady Liadrin'],
+'Lady Liadrin',
+False,
+False,
+[
+    ['Hearthstone']
+],
+'Hearthstone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yulm4l/respect_lady_liadrin_hearthstone/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Arthas Menethil, the Lich King (Hearthstone)', 'https://redd.it/yulupk')
+add_data(['Arthas Menethil'],
+'Arthas Menethil',
+False,
+False,
+[
+    ['Hearthstone']
+],
+'Hearthstone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yulupk/respect_arthas_menethil_the_lich_king_hearthstone/
 
 ########################################
 

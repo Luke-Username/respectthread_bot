@@ -14,7 +14,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Lee', 'Ty Lee', -3);
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Nappa! (Dragon Ball Z - Anime)', 'https://redd.it/yu2gh3'); SELECT * FROM respectthread WHERE link='https://redd.it/yu2gh3';
+UPDATE character SET rt_id_array='{3304, ?}' WHERE rt_id_array='{3304}';
 
 ########################################
 
