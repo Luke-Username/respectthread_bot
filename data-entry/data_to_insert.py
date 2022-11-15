@@ -126,6 +126,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Olloch the Glutton! (Fablehaven)', 'https://redd.it/yvhu2z')
+add_data(['Olloch'],
+'Olloch',
+False,
+True,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yvhu2z/respect_olloch_the_glutton_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Patton Burgess! (Fablehaven)', 'https://redd.it/yvvvie')
+add_data(['Patton Burgess'],
+'Patton Burgess',
+False,
+True,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yvvvie/respect_patton_burgess_fablehaven/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Bracken! (Fablehaven)', 'https://redd.it/yu0ug6')
 add_data(['Bracken'],
 'Bracken',
@@ -348,6 +378,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/yulupk/respect_arthas_menethil_the_lich_king_hearthstone/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kainé (NieR Replicant ver.1.22474487139...)', 'https://redd.it/yvn6l1')
+add_data(['Kain(é|e)'],
+'Kainé',
+False,
+False,
+[
+    ['Nier']
+],
+'NieR Replicant',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yvn6l1/respect_kain%C3%A9_nier_replicant_ver122474487139/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tropic Woods (Kirby and the Forgotten Land)', 'https://redd.it/ywakht')
+add_data(['Tropic Woods'],
+'Tropic Woods',
+False,
+True,
+[
+    ['Kirby']
+],
+'Kirby',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ywakht/respect_tropic_woods_kirby_and_the_forgotten_land/
 
 ########################################
 

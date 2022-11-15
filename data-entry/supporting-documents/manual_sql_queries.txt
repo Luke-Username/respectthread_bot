@@ -33,6 +33,8 @@ UPDATE character_name SET name='D(octo)?r\.? Livesey' WHERE name='D(octo)?r\\.? 
 
 ########################################
 
+DELETE FROM character WHERE default_name='Vision' AND version='{"comics?"}';
+
 ########################################
 
 ########################################
