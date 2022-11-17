@@ -37,6 +37,9 @@ DELETE FROM character WHERE default_name='Vision' AND version='{"comics?"}';
 
 ########################################
 
+UPDATE character SET displayed_version_name='Dante''s Inferno' WHERE version='{"Dante ?\\(Dante'?s Inferno"}';
+UPDATE character SET version='{"Dante'?s Infern(o|al)"}' WHERE version='{"Dante ?\\(Dante'?s Inferno"}';
+
 ########################################
 
 ########################################
