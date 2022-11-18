@@ -126,6 +126,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Trask! (Fablehaven)', 'https://redd.it/yws3o9')
+add_data(['Trask'],
+'Trask',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yws3o9/respect_trask_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Navarog! (Fablehaven)', 'https://redd.it/yx9sx8')
+add_data(['Navarog'],
+'Navarog',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yx9sx8/respect_navarog_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Warren Burgess! (Fablehaven)', 'https://redd.it/ywdz58')
+add_data(['Warren Burgess'],
+'Warren Burgess',
+False,
+True,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ywdz58/respect_warren_burgess_fablehaven/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Olloch the Glutton! (Fablehaven)', 'https://redd.it/yvhu2z')
 add_data(['Olloch'],
 'Olloch',
@@ -336,11 +381,68 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Abyssal Feeders (Claymore)', 'https://redd.it/ywlc5f')
+add_data(['Abyssal Feeders?'],
+'Abyssal Feeder',
+False,
+True,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ywlc5f/respect_the_abyssal_feeders_claymore/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "Dark" Alicia and Beth, the Abyss Hunters (Claymore)', 'https://redd.it/yxhcqz')
+add_data(['Alicia'],
+'Alicia',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yxhcqz/respect_dark_alicia_and_beth_the_abyss_hunters/
+
+add_data(['Beth'],
+'Beth',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yxhcqz/respect_dark_alicia_and_beth_the_abyss_hunters/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roxanne of Love and Hate (Claymore)', 'https://redd.it/yxwgwl')
+add_data(['Roxanne'],
+'Roxanne',
+False,
+False,
+[
+    ['Claymore'], ['Love and Hate']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yxwgwl/respect_roxanne_of_love_and_hate_claymore/
+
+########################################
+
 id = get_rt_id(cur, 'Respect SCP-162, Ball of Sharp (SCP Foundation)', 'https://redd.it/yuffty')
 add_data(['SCP ?(-| )? ?162'],
 'SCP-162',
 False,
-False,
+True,
 [
     ['Ball of Sharp']
 ],
@@ -348,6 +450,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-2337, Dr. Spanko (SCP Foundation)', 'https://redd.it/ywfivs')
+add_data(['SCP ?(-| )? ?2337'],
+'SCP-2337',
+False,
+True,
+[
+    ['Spanko']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ywfivs/respect_scp2337_dr_spanko_scp_foundation/
 
 ########################################
 
@@ -396,6 +513,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Nier & Grimoire Weiss (NieR Replicant ver.1.22474487139...)', 'https://redd.it/ywh3jo')
+add_data(['Nier'],
+'Nier',
+False,
+False,
+[
+    ['NieR Replicant'], ['Grimoire Weiss']
+],
+'NieR Replicant',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ywh3jo/respect_nier_grimoire_weiss_nier_replicant/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Tropic Woods (Kirby and the Forgotten Land)', 'https://redd.it/ywakht')
 add_data(['Tropic Woods'],
 'Tropic Woods',
@@ -408,6 +540,162 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ywakht/respect_tropic_woods_kirby_and_the_forgotten_land/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Morpho Knight (Kirby)', 'https://redd.it/yxbyc3')
+add_data(['Morpho Knight'],
+'Morpho Knight',
+False,
+True,
+[
+    ['Kirby']
+],
+'Kirby',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yxbyc3/respect_morpho_knight_kirby/
+
+########################################
+
+id = get_rt_id(cur, "Respect Kirby (Kirby''s Dream Buffet)", 'https://redd.it/yy4b8i')
+add_data(['Kirby'],
+'Kirby',
+False,
+False,
+[
+    ["Kirby''?s Dream Buffet"]
+],
+"Kirby''s Dream Buffet",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yy4b8i/respect_kirby_kirbys_dream_buffet/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Richard Spender (Paranatural)', 'https://redd.it/yx0hcw')
+add_data(['Richard Spender'],
+'Richard Spender',
+False,
+True,
+[
+    ['Paranatural']
+],
+'Paranatural',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yx0hcw/respect_richard_spender_paranatural/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Octane (Fortnite)', 'https://redd.it/yx33h2')
+add_data(['Octane'],
+'Octane',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yx33h2/respect_the_octane_fortnite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect TwinSoul (Mistborn)', 'https://redd.it/yxj53t')
+add_data(['TwinSoul'],
+'TwinSoul',
+False,
+False,
+[
+    ['Mistborn']
+],
+'Mistborn',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yxj53t/respect_twinsoul_mistborn/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Edward Clariss, The Rival (DC, Post Crisis)', 'https://redd.it/yxtl0r')
+add_data(['Edward Clariss'],
+'Edward Clariss',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yxtl0r/respect_edward_clariss_the_rival_dc_post_crisis/
+
+add_data(['Edward Clariss'],
+'Edward Clariss',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yxtl0r/respect_edward_clariss_the_rival_dc_post_crisis/
+
+add_data(['Edward Clariss'],
+'Edward Clariss',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+],
+'CW Arrowverse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yxtl0r/respect_edward_clariss_the_rival_dc_post_crisis/
+
+add_data(['The Rival'],
+'The Rival',
+False,
+False,
+[
+    ['Reverse(-| )Flashes']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yxtl0r/respect_edward_clariss_the_rival_dc_post_crisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kartana! (TerminalMontage)', 'https://redd.it/yy0grm')
+add_data(['Kartana'],
+'Kartana',
+False,
+False,
+[
+    ['Terminal ?Montage']
+],
+'TerminalMontage',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yy0grm/respect_kartana_terminalmontage/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Deimos! (Madness Combat)', 'https://redd.it/yy30b5')
+add_data(['Deimos'],
+'Deimos',
+False,
+False,
+[
+    ['Madness Combat']
+],
+'Madness Combat',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yy30b5/respect_deimos_madness_combat/
 
 ########################################
 

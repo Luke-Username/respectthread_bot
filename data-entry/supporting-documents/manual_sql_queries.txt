@@ -21,6 +21,9 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Lee', 'Ty Lee', 
 INSERT INTO respectthread (title, link) VALUES ('Respect Nappa! (Dragon Ball Z - Anime)', 'https://redd.it/yu2gh3'); SELECT * FROM respectthread WHERE link='https://redd.it/yu2gh3';
 UPDATE character SET rt_id_array='{3304, ?}' WHERE rt_id_array='{3304}';
 
+INSERT INTO respectthread (title, link) VALUES ('Respect "Weird Al" Yankovic! (Weird: The Al Yankovic Story)', 'https://redd.it/yy7i07'); SELECT * FROM respectthread WHERE link='https://redd.it/yu2gh3';
+UPDATE character SET rt_id_array='{6457, ?2}' WHERE rt_id_array='{6457}';
+
 UPDATE character SET rt_id_array='{1026}' WHERE default_name='Roger' AND displayed_version_name='American Dad!';
 
 ########################################
