@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET is_default=TRUE WHERE rt_id_array='{21277}';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Anakin', 'Anakin Solo', 0);
 
 ########################################
 

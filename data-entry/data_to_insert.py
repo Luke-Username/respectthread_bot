@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Rambo! (Rambo)', 'https://redd.it/yypts7')
+add_data(['Rambo'],
+'Rambo',
+False,
+True,
+[
+    ['Rambo ?\(Rambo']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yypts7/respect_rambo_rambo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Deadpool! (Epic Rap Battles of History)', 'https://redd.it/yyrud4')
+add_data(['Dead(-| )?pool'],
+'Deadpool',
+False,
+False,
+[
+    ['Epic Rap Battles of History']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yyrud4/respect_deadpool_epic_rap_battles_of_history/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
