@@ -3679,6 +3679,7 @@ XANA,{Lyoko},t,{1034},Code Lyoko
 Evillak,"{`"Conan the Adventurer`"}",t,{1035},Conan the Adventurer
 Cubix,{Cubix},t,{4720},""
 Cubix,"{`"Robots For Everyone`"}",t,{4720},""
+Roger,"{`"American Dad`"}",f,{1026},American Dad!
 Dave the Barbarian,"{`"Dave the Barbarian`"}",t,{1040},""
 Fang,"{`"Dave the Barbarian`"}",f,{1041},Dave the Barbarian
 Ajax the Gorilla,{Disney},t,{1042},""
@@ -3725,7 +3726,6 @@ Mega Man,"{`"Cartoon Promo`"}",f,{1071},Cartoon Promo
 Megas XLR,"{`"Megas XLR`"}",t,{1072},""
 Nathan Explosion,{Metalocalypse},t,{1073},Metalocalypse
 Wonder Girl,"{`"\\[Young Justice`"}",f,{1023},Young Justice
-Roger,"{`"American Dad`"}",f,{},American Dad!
 Mickey Mouse,"{`"Mickey Mouse Works`"}",f,{1075},Mickey Mouse Works
 Rikochet,"{`"Mucha Lucha`"}",f,{1078},¡Mucha Lucha!
 Jenny Wakeman,"{`"My Life As A Teenage Robot`"}",t,{1079},My Life As A Teenage Robot
@@ -11546,7 +11546,6 @@ Tigra,{Marvel},t,{2001},616
 Tigra,{Greer},t,{2001},616
 Vision,{616},f,{2002},616
 Vision,{Marvel},f,{2002},616
-Vision,{comics?},f,{2002},616
 Vision,"{`"The Vision`"}",f,{2002},616
 Vision,"{`"Martian Manhunter`"}",f,{2002},616
 Wonder Man,{616},t,{2003},616
@@ -12538,8 +12537,6 @@ Saiyagirl,"{`"Dragon ?Ball`"}",t,{3294},Dragon Ball
 Saiyagirl,{DB(Z|S)?},t,{3294},Dragon Ball
 Saiyaman and Saiyagirl,"{`"Dragon ?Ball`"}",t,{3294},Dragon Ball
 Saiyaman and Saiyagirl,{DB(Z|S)?},t,{3294},Dragon Ball
-Nappa,"{`"Dragon ?Ball`"}",t,{3304},Dragon Ball
-Nappa,{DB(Z|S)?},t,{3304},Dragon Ball
 Turles,"{`"Dragon ?Ball`"}",t,{3311},Dragon Ball
 Turles,{DB(Z|S)?},t,{3311},Dragon Ball
 Vegeta,"{`"Dragon ?Ball`"}",t,{3313},Dragon Ball
@@ -12555,6 +12552,8 @@ Trunks,{DB(Z|S)?},f,"{3284,22116}",Dragon Ball
 17,"{`"Dragon ?Ball`"}",f,"{3267,22408}",Dragon Ball
 Raditz,"{`"Dragon ?Ball`"}",t,"{3307,22789}",Dragon Ball
 Raditz,{DB(Z|S)?},t,"{3307,22789}",Dragon Ball
+Nappa,"{`"Dragon ?Ball`"}",t,"{3304,22828}",Dragon Ball
+Nappa,{DB(Z|S)?},t,"{3304,22828}",Dragon Ball
 Mercenary Tao,"{`"Dragon ?Ball`"}",t,{3302},Dragon Ball
 Mercenary Tao,{DB(Z|S)?},t,{3302},Dragon Ball
 Frieza,"{`"Dragon ?Ball`"}",t,"{3281,3282}",Dragon Ball
@@ -20982,6 +20981,8 @@ Reva,{Sevander},f,{22447},Star Wars
 Reva,"{`"S(tar )?Wars`"}",f,{22447},Star Wars
 Reva,{SW},f,{22447},Star Wars
 Reva,"{`"Third Sister`"}",f,{22447},Star Wars
+Knull,{616},t,"{22680,2313}",616
+Dante,"{`"Dante'?s Infern(o|al)`"}",f,{},Dante's Inferno
 Preston J. Cole,{Halo},t,{5813},Halo
 Rtas 'Vadum,{Halo},t,{5814},Halo
 Tem'Bhetek,{Halo},t,{5815},Halo
@@ -22765,7 +22766,6 @@ Taylor Swift,{default},t,{6452},""
 Turn Down for What,{default},t,{6454},""
 Tupperware Remix Party,{default},t,{6455},""
 Mark Metcalf,"{`"Twisted Sister`"}",t,{6456},Twisted Sister
-Weird Al,{Yankovic},t,{6457},""
 Alligator Snapping Turtle,"{`"real life`"}",t,{6349},""
 Grey Wolf,"{`"real life`"}",t,{6350},""
 Grey Wolves,"{`"real life`"}",t,{6350},""
@@ -22822,6 +22822,7 @@ Liliana Vess,{M:?TG},t,{6476},Magic: The Gathering
 Liliana Vess,{Planeswalkers?},t,{6476},Magic: The Gathering
 Lion,"{`"real life`"}",f,{6354},""
 Crocodile,"{`"real life`"}",f,{6355},""
+Weird Al,{Yankovic},t,"{6457,22829}",""
 Liliana,"{`"Magic:? The Gathering`"}",f,{6476},Magic: The Gathering
 Liliana,{M:?TG},f,{6476},Magic: The Gathering
 Liliana,{Planeswalkers?},f,{6476},Magic: The Gathering
@@ -27675,7 +27676,6 @@ Kamala Khan,{MCU},f,{22285},MCU
 Superhot,"{`"hot(-| )switch(ing)?`"}",f,{5732},""
 Superhot,"{`"vs\\.? Super ?hot`"}",f,{5732},""
 Superhot,"{`"\\(Super ?hot`"}",f,{5732},""
-Dante,"{`"Dante ?\\(Dante'?s Inferno`"}",f,{},Dante?s Inferno
 Aizawa,"{`"Squid Girl`"}",f,{},Squid Girl
 Wanda,"{`"Multiverse of Madness`"}",f,{270},MCU
 Thanos,"{`"Multiverse of Madness`"}",f,{263},MCU
@@ -28212,7 +28212,6 @@ Giganotosaurus,{Primeval},f,{22677},Primeval
 Smilodon,{Primeval},f,{22678},Primeval
 Infinite,"{`"Sonic Forces`"}",f,{22679},Sonic the Hedgehog
 Infinite,"{`"Infinite ?\\(Sonic`"}",f,{22679},Sonic the Hedgehog
-Knull,{616},t,{22680},616
 Kevin,"{Home,prep,family}",f,{466},Home Alone
 William de Mornay,{Primeval},t,{22681},Primeval
 Megopteran,{Primeval},t,{22682},Primeval
@@ -28461,3 +28460,49 @@ Gaia,{Baki(verse)?},f,{22824},Baki
 Angelica Longrider,"{`"Swamp Angel`"}",t,{22825},Swamp Angel
 Bahumat,{Fablehaven},f,{22826},Fablehaven
 Revenant,{Fablehaven},f,{22827},Fablehaven
+Black Cat Guardian,{Fablehaven},f,{22830},Fablehaven
+Trask,{Fablehaven},f,{22831},Fablehaven
+Navarog,{Fablehaven},f,{22832},Fablehaven
+Warren Burgess,{Fablehaven},t,{22833},Fablehaven
+Olloch,{Fablehaven},t,{22834},Fablehaven
+Patton Burgess,{Fablehaven},t,{22835},Fablehaven
+Bracken,{Fablehaven},f,{22836},Fablehaven
+Gray Assassin,{Fablehaven},f,{22837},Fablehaven
+Mirav,{Fablehaven},f,{22838},Fablehaven
+Mendigo,{Fablehaven},f,{22839},Fablehaven
+Ephira,{Fablehaven},f,{22841},Fablehaven
+Tanu,{Fablehaven},f,{22842},Fablehaven
+Ryland,{Fablehaven},f,{22843},Fablehaven
+Rillaboom,{Leons?},f,{22844},Leon
+Dragapult,{Leons?},f,{22845},Leon
+Babadook,{default},t,{22846},""
+Galatea,{Claymore},f,{22847},Claymore
+Abyssal Feeder,{Claymore},t,{22848},Claymore
+Alicia,{Claymore},f,{22849},Claymore
+Beth,{Claymore},f,{22849},Claymore
+Roxanne,{Claymore},f,{22850},Claymore
+Roxanne,"{`"Love and Hate`"}",f,{22850},Claymore
+SCP-162,"{`"Ball of Sharp`"}",t,{22851},""
+SCP-2337,{Spanko},t,{22852},""
+Lady Liadrin,{Hearthstone},f,{22853},Hearthstone
+Arthas Menethil,{Hearthstone},f,{22854},Hearthstone
+Kainé,{Nier},f,{22855},NieR Replicant
+Nier,"{`"NieR Replicant`"}",f,{22856},NieR Replicant
+Nier,"{`"Grimoire Weiss`"}",f,{22856},NieR Replicant
+Tropic Woods,{Kirby},t,{22857},Kirby
+Morpho Knight,{Kirby},t,{22858},Kirby
+Kirby,"{`"Kirby'?s Dream Buffet`"}",f,{22859},Kirby's Dream Buffet
+Richard Spender,{Paranatural},t,{22860},Paranatural
+Octane,{Fortnite},f,{22861},Fortnite
+TwinSoul,{Mistborn},f,{22862},Mistborn
+Edward Clariss,"{`"\\(DC( Comics)?\\)`"}",t,{22863},DC
+Edward Clariss,"{`"\\[DC( Comics)?\\]`"}",t,{22863},DC
+Edward Clariss,{PC},f,{22863},Post-Crisis
+Edward Clariss,"{`"Posts?(-| )?C(risis)?`"}",f,{22863},Post-Crisis
+Edward Clariss,"{`"New(-| )Earth`"}",f,{22863},Post-Crisis
+Edward Clariss,"{`"(Fl)?arrow(-| )?verse`"}",f,{22863},CW Arrowverse
+Edward Clariss,{(DC)?CW},f,{22863},CW Arrowverse
+Edward Clariss,"{`"DC ?TV`"}",f,{22863},CW Arrowverse
+The Rival,"{`"Reverse(-| )Flashes`"}",f,{22863},DC
+Kartana,"{`"Terminal ?Montage`"}",f,{22864},TerminalMontage
+Deimos,"{`"Madness Combat`"}",f,{22865},Madness Combat
