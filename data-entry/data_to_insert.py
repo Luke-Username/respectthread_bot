@@ -180,6 +180,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Sphinx! (Fablehaven)', 'https://redd.it/yzb6xc')
+add_data(['Sphinx'],
+'Sphinx',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yzb6xc/respect_the_sphinx_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Celebrant! (Fablehaven)', 'https://redd.it/yzb7ef')
+add_data(['Celebrant'],
+'Celebrant',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yzb7ef/respect_celebrant_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Raxtus! (Fablehaven)', 'https://redd.it/yzcgvw')
+add_data(['Raxtus'],
+'Raxtus',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yzcgvw/respect_raxtus_fablehaven/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Vanessa Santoro! (Fablehaven)', 'https://redd.it/yyufjv')
 add_data(['Vanessa Santoro'],
 'Vanessa Santoro',
