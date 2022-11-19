@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Vulpimancer'],
+'Vulpimancer',
+False,
+True,
+[
+    ['Ben (10|Ten(nyson)?)']
+],
+'Ben 10',
+'{700}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yyf5bm/future_predator_primeval_vs_vulpimancer_ben_10/iwx3n5v/?context=3
+
+########################################
+
+add_data(['Ice(-| )?man'],
+'Iceman',
+False,
+False,
+[
+    ['Kuklinkski']
+],
+'Kuklinkski',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yz1084/anton_chigurh_vs_richard_the_iceman_kuklinkski/iwxtzxe/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Rambo! (Rambo)', 'https://redd.it/yypts7')
 add_data(['Rambo'],
 'Rambo',
@@ -134,6 +162,81 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/yyrud4/respect_deadpool_epic_rap_battles_of_history/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Velrog! (Fablehaven)', 'https://redd.it/yyrud4')
+add_data(['Velrog'],
+'Velrog',
+False,
+False,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yyuctp/respect_velrog_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vanessa Santoro! (Fablehaven)', 'https://redd.it/yyufjv')
+add_data(['Vanessa Santoro'],
+'Vanessa Santoro',
+False,
+True,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yyufjv/respect_vanessa_santoro_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shou Yamai (Girl) [Ill Boy Ill Girl]', 'https://redd.it/yyuhll')
+add_data(['Shou Yamai'],
+'Shou Yamai',
+False,
+True,
+[
+    ['Ill Boy Ill Girl']
+],
+'Ill Boy Ill Girl',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yyuhll/respect_shou_yamai_girl_ill_boy_ill_girl/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Taniel Two-Shot (Powder Mage)', 'https://redd.it/yyw58w')
+add_data(['Taniel Two(-| )Shot'],
+'Taniel Two-Shot',
+False,
+True,
+[
+    ['Powder Mage']
+],
+'Powder Mage',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yyw58w/respect_taniel_twoshot_powder_mage/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Robot (Zathura: A Space Adventure)', 'https://redd.it/yz3irk')
+add_data(['Robot'],
+'Robot',
+False,
+False,
+[
+    ['Zathura']
+],
+'Zathura: A Space Adventure',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yz3irk/respect_the_robot_zathura_a_space_adventure/
 
 ########################################
 
