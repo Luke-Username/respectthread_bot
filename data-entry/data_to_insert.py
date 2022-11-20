@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3520, 'Respect Meruem, King of the Ants! (Hunter X Hunter) [Composite]', 'https://redd.it/z03jt2')
+
+########################################
+
 add_data(['Vulpimancer'],
 'Vulpimancer',
 False,
@@ -191,6 +195,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/yyuctp/respect_velrog_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Graulas! (Fablehaven)', 'https://redd.it/z04x3c')
+add_data(['Graulas'],
+'Graulas',
+False,
+True,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z04x3c/respect_graulas_fablehaven/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Seth Sorenson! (Fablehaven)', 'https://redd.it/z04x5x')
+add_data(['Seth Sorenson'],
+'Seth Sorenson',
+False,
+True,
+[
+    ['Fablehaven']
+],
+'Fablehaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z04x5x/respect_seth_sorenson_fablehaven/
 
 ########################################
 
@@ -296,6 +330,150 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/yz3irk/respect_the_robot_zathura_a_space_adventure/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 36: the World War Hulkbuster (Marvel, Earth-616)', 'https://redd.it/z054yy')
+add_data(['World War Hulkbuster'],
+'World War Hulkbuster',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z054yy/respect_iron_man_model_36_the_world_war/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Silver Banshee! (DC Comics, Post-Crisis)', 'https://redd.it/yznixp')
+add_data(['Silver Banshee'],
+'Silver Banshee',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yznixp/respect_the_silver_banshee_dc_comics_postcrisis/
+
+add_data(['Silver Banshee'],
+'Silver Banshee',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yznixp/respect_the_silver_banshee_dc_comics_postcrisis/
+
+add_data(['Silver Banshee'],
+'Silver Banshee',
+False,
+False,
+[
+    ['New(-| )?52'], ['Nu?-?52'], ['Post(-| )52'], ['Prime(-| )Earth'], ['Rebirth']
+],
+'New 52',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yznixp/respect_the_silver_banshee_dc_comics_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Billy Batson, Superman (DC Comics, Futures End)', 'https://redd.it/yzreyu')
+add_data(['Billy Batson'],
+'Billy Batson',
+False,
+False,
+[
+    ['Futures End']
+],
+'Futures End',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yzreyu/respect_billy_batson_superman_dc_comics_futures/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "Elegant" Hysteria (Claymore)', 'https://redd.it/yzs7cs')
+add_data(['Hysteria'],
+'Hysteria',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yzs7cs/respect_elegant_hysteria_claymore/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cassandra the Dust-Eater (Claymore)', 'https://redd.it/z07o5c')
+add_data(['Cassandra'],
+'Cassandra',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z07o5c/respect_cassandra_the_dusteater_claymore/
+
+########################################
+
+id = get_rt_id(cur, 'Respect “Black Arm” Zephyr, aka Z (One Piece)', 'https://redd.it/yzutt5')
+add_data(['Z'],
+'Z',
+False,
+False,
+[
+    ['Z ?\(One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/yzutt5/respect_black_arm_zephyr_aka_z_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect NAIR Rectangle!(NAIR)', 'https://redd.it/z04r32')
+add_data(['Rectangle'],
+'Rectangle',
+False,
+False,
+[
+    ['NAIR']
+],
+'NAIR',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z04r32/respect_nair_rectanglenair/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Bizarro! (All Star Superman)', 'https://redd.it/z0dueu')
+add_data(['Bizz?arr?o'],
+'Bizarro',
+False,
+False,
+[
+    ['All(-| )Star']
+],
+'All-Star Superman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z0dueu/respect_bizarro_all_star_superman/
 
 ########################################
 

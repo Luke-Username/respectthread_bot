@@ -23,7 +23,11 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ymir', 'Ymir Fri
 
 ########################################
 
+UPDATE character SET is_default=TRUE WHERE rt_id_array='{2784}';
+
 ########################################
+
+DELETE FROM character_name WHERE name='Billy Batson';
 
 ########################################
 
