@@ -121,6 +121,20 @@ True,
 
 ########################################
 
+add_data(['Carl'],
+'Carl',
+False,
+False,
+[
+    ['the talking llama'], ['Carl the llama']
+],
+'Llamas With Hats',
+'{1408}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/yzpszi/batman_vs_carl_the_talking_llama/ix1c59p/?context=3
+
+########################################
+
 add_data(['Ice(-| )?man'],
 'Iceman',
 False,
