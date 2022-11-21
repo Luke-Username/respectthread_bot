@@ -25768,8 +25768,6 @@ Colonel Avery Hull,"{`"Bionic Man`"}",f,{21274},"Bionic Man, Dynamite"
 Colonel Avery Hull,{Dynamite},f,{21274},"Bionic Man, Dynamite"
 Bigfoot,"{`"Bionic Man`"}",f,{21275},"Bionic Man, Dynamite"
 Trench,"{`"Bionic Man`"}",f,{21276},"Bionic Man, Dynamite"
-Bebop,"{Rocksteady,IDW}",f,{21277},IDW
-Rocksteady,"{Bebop,IDW}",f,{21277},IDW
 Mordred,"{`"Paradox Reincarnator`"}",f,{21278},Fate/Paradox Reincarnator
 Medea,"{`"Paradox Reincarnator`"}",f,{21279},Fate/Paradox Reincarnator
 Shuten-Dōji,"{`"Paradox Reincarnator`"}",f,{21279},Fate/Paradox Reincarnator
@@ -25825,6 +25823,8 @@ Rogue,{Rogue.*616},f,{2382},616
 Rogue,{Rogue.*Marvel},f,{2382},616
 Rogue,"{`"Rogue.*X(-| )?Men`"}",f,{2382},616
 Rogue,"{`"Wonder Man`"}",f,{2382},616
+Bebop,"{Rocksteady,IDW}",t,{21277},IDW
+Rocksteady,"{Bebop,IDW}",t,{21277},IDW
 Artoria Pendragon,"{`"Lion King`"}",f,{21307},Fate
 Artoria Pendragon,"{`"Grande? Order`"}",f,{21307},Fate
 Artoria Pendragon,"{`"F(ate )?/?GO`"}",f,{21307},Fate
@@ -26645,7 +26645,6 @@ Indigo Tribe,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
 Star Sapphire,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
 Black Lantern Corps,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
 Metal Men,"{`"\\(DC( Comics)?\\)`"}",f,{7559},DC
-Luther Strode,{Image},f,{2784},Image Comics
 The Elder,"{`"S(tar )?Wars`"}",f,{21726},Star Wars
 Arcanine,{Gary},f,{21727},Gary
 Fang,"{`"Blaze Core`"}",f,{21727},Blaze Core
@@ -26682,6 +26681,7 @@ Amazons,"{`"DC Extended Universe`"}",f,{21741},DCEU
 Amazons,"{`"DC ?(E|C)U`"}",f,{21741},DCEU
 Amazons,"{`"DC Cinematic Universe`"}",f,{21741},DCEU
 Bane,"{`"\\(DC( Comics)?\\)`"}",f,"{1529,1530}",DC
+Luther Strode,{Image},t,{2784},Image Comics
 Archangel,{Marvel},f,{2343},616
 Splinter,"{TMNT,Archie}",f,{21755},Archie Comics
 Shredder,"{`"Teenaged? Mutant Ninja Turtles?`",Archie}",f,{21756},Archie Comics
@@ -28506,3 +28506,40 @@ Edward Clariss,"{`"DC ?TV`"}",f,{22863},CW Arrowverse
 The Rival,"{`"Reverse(-| )Flashes`"}",f,{22863},DC
 Kartana,"{`"Terminal ?Montage`"}",f,{22864},TerminalMontage
 Deimos,"{`"Madness Combat`"}",f,{22865},Madness Combat
+Vulpimancer,"{`"Ben (10|Ten(nyson)?)`"}",t,{700},Ben 10
+Devil Hulk,{616},t,{2124},616
+Carl,"{`"the talking llama`"}",f,{1408},Llamas With Hats
+Carl,"{`"Carl the llama`"}",f,{1408},Llamas With Hats
+Iceman,{Kuklinkski},f,{},Kuklinkski
+Rambo,"{`"Rambo ?\\(Rambo`"}",t,{22866},""
+Deadpool,"{`"Epic Rap Battles of History`"}",f,{22867},Epic Rap Battles of History
+Velrog,{Fablehaven},f,{22867},Fablehaven
+Graulas,{Fablehaven},t,{22868},Fablehaven
+Seth Sorenson,{Fablehaven},t,{22869},Fablehaven
+Sphinx,{Fablehaven},f,{22870},Fablehaven
+Celebrant,{Fablehaven},f,{22871},Fablehaven
+Raxtus,{Fablehaven},f,{22872},Fablehaven
+Vanessa Santoro,{Fablehaven},t,{22873},Fablehaven
+Shou Yamai,"{`"Ill Boy Ill Girl`"}",t,{22874},Ill Boy Ill Girl
+Taniel Two-Shot,"{`"Powder Mage`"}",t,{22875},Powder Mage
+Robot,{Zathura},f,{22876},Zathura: A Space Adventure
+World War Hulkbuster,{616},t,{22877},616
+Silver Banshee,"{`"\\(DC( Comics)?\\)`"}",t,{22878},DC
+Silver Banshee,"{`"\\[DC( Comics)?\\]`"}",t,{22878},DC
+Silver Banshee,{PC},f,{22878},Post-Crisis
+Silver Banshee,"{`"Posts?(-| )?C(risis)?`"}",f,{22878},Post-Crisis
+Silver Banshee,"{`"New(-| )Earth`"}",f,{22878},Post-Crisis
+Silver Banshee,"{`"New(-| )?52`"}",f,{},New 52
+Silver Banshee,{Nu?-?52},f,{},New 52
+Silver Banshee,"{`"Post(-| )52`"}",f,{},New 52
+Silver Banshee,"{`"Prime(-| )Earth`"}",f,{},New 52
+Silver Banshee,{Rebirth},f,{},New 52
+Billy Batson,"{`"Futures End`"}",f,{22879},Futures End
+Hysteria,{Claymore},f,{22880},Claymore
+Luciela,{Claymore},f,{22881},Claymore
+Rafaela,{Claymore},f,{22881},Claymore
+Cassandra,{Claymore},f,{22882},Claymore
+Z,"{`"Z ?\\(One ?Piece?`"}",f,{22883},One Piece
+Rectangle,{NAIR},f,{22884},NAIR
+Bizarro,"{`"All(-| )Star`"}",f,{22885},All-Star Superman
+Blue,"{`"And I Show You How Deep The Rabbit Hole Goes`"}",f,{22886},...And I Show You How Deep The Rabbit Hole Goes
