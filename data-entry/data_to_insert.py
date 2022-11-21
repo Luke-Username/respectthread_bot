@@ -431,6 +431,33 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Luciela of the South and Rafaela, the Destroyer (Claymore)', 'https://redd.it/z0qqt8')
+add_data(['Luciela'],
+'Luciela',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z0qqt8/respect_luciela_of_the_south_and_rafaela_the/
+
+add_data(['Rafaela'],
+'Rafaela',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z0qqt8/respect_luciela_of_the_south_and_rafaela_the/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Cassandra the Dust-Eater (Claymore)', 'https://redd.it/z07o5c')
 add_data(['Cassandra'],
 'Cassandra',
@@ -488,6 +515,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/z0dueu/respect_bizarro_all_star_superman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Blue (...And I Show You How Deep The Rabbit Hole Goes)', 'https://redd.it/z0v2h0')
+add_data(['Blue'],
+'Blue',
+False,
+False,
+[
+    ['And I Show You How Deep The Rabbit Hole Goes']
+],
+'...And I Show You How Deep The Rabbit Hole Goes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z0v2h0/respect_blue_and_i_show_you_how_deep_the_rabbit/
 
 ########################################
 
