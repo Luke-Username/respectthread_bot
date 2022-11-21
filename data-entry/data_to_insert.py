@@ -125,6 +125,20 @@ True,
 
 ########################################
 
+add_data(['Devil Hulk'],
+'Devil Hulk',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{2124}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/z09gah/this_anime_team_has_been_tasked_with_stopping/ix5sbum/?context=3
+
+########################################
+
 add_data(['Carl'],
 'Carl',
 False,
