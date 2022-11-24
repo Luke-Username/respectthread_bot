@@ -2950,10 +2950,6 @@ P'Li,{Avatar},t,{815},Avatar: TLOK
 P'Li,{A?TLA},t,{815},Avatar: TLOK
 P'Li,{Korra},t,{815},Avatar: TLOK
 P'Li,{A?T?LOK},t,{815},Avatar: TLOK
-Zaheer,{Avatar},t,{815},Avatar: TLOK
-Zaheer,{A?TLA},t,{815},Avatar: TLOK
-Zaheer,{Korra},t,{815},Avatar: TLOK
-Zaheer,{A?T?LOK},t,{815},Avatar: TLOK
 Team Avatar,{Korra},t,"{816,808,812,809,813}",Avatar: TLOK
 Team Avatar,{A?T?LOK},t,"{816,808,812,809,813}",Avatar: TLOK
 Snow Kaguya,"{`"Sailor Moon`"}",t,{4419},Sailor Moon
@@ -7957,7 +7953,6 @@ Carnage,{616},f,{2315},616
 Carnage,{symbiotes?},f,{2315},616
 Carnage,"{`"Carnage vs`"}",f,{2315},616
 Carnage,"{`"Anti(-| )?Venom`"}",f,{2315},616
-Carnage,{comics?},f,{2315},616
 Life Foundation Symbiotes,{Marvel},t,{2316},616
 Life Foundation Symbiotes,{616},t,{2316},616
 Scream Symbiote,{Marvel},t,{2316},616
@@ -12549,7 +12544,6 @@ Goten,"{`"Dragon ?Ball`"}",f,{3291},Dragon Ball
 Goten,{DB(Z|S)?},f,{3291},Dragon Ball
 Trunks,"{`"Dragon ?Ball`"}",f,"{3284,22116}",Dragon Ball
 Trunks,{DB(Z|S)?},f,"{3284,22116}",Dragon Ball
-17,"{`"Dragon ?Ball`"}",f,"{3267,22408}",Dragon Ball
 Raditz,"{`"Dragon ?Ball`"}",t,"{3307,22789}",Dragon Ball
 Raditz,{DB(Z|S)?},t,"{3307,22789}",Dragon Ball
 Nappa,"{`"Dragon ?Ball`"}",t,"{3304,22828}",Dragon Ball
@@ -16931,17 +16925,13 @@ Suruga Kanbaru,{(Bake)?Monogatari},t,{3913},Monogatari
 Tsubasa Hanekawa,{(Bake)?Monogatari},t,{3914},Monogatari
 Yozuru Kagenui,{(Bake)?Monogatari},t,{3915},Monogatari
 Yotsugi Ononoki,{(Bake)?Monogatari},t,{3915},Monogatari
-All For One,"{`"My Hero Academia`"}",t,{3916},My Hero Academia
-All For One,"{`"\\(My Hero\\)`"}",t,{3916},My Hero Academia
-All For One,{BN?HA},t,{3916},My Hero Academia
-All For One,{MHA},t,{3916},My Hero Academia
-All For One,"{`"Boku no Hero`"}",t,{3916},My Hero Academia
 All Might,"{`"My Hero Academia`"}",t,{3917},My Hero Academia
 All Might,"{`"\\(My Hero\\)`"}",t,{3917},My Hero Academia
 All Might,{BN?HA},t,{3917},My Hero Academia
 All Might,{MHA},t,{3917},My Hero Academia
 All Might,"{`"Boku no Hero`"}",t,{3917},My Hero Academia
 Wolverine,"{`"Gulo Gulo`"}",f,{},""
+All For One,"{`"My Hero Academia`"}",f,{3916},My Hero Academia
 Endeavor,"{`"\\(My Hero\\)`"}",f,{3920},My Hero Academia
 Endeavor,{BN?HA},f,{3920},My Hero Academia
 Endeavor,{MHA},f,{3920},My Hero Academia
@@ -27798,7 +27788,6 @@ Demonreach,{Dresden(verse)?},t,{22400},The Dresden Files
 Doomsday,"{`"Doomsday.*Superman ?: ?Doomsday`"}",f,{22401},Superman: Doomsday
 Superman,"{`"Super(-| )?man.*Superman ?: ?Doomsday`"}",f,{22402},Superman: Doomsday
 Elisha,{Bible},f,{22403},Bible
-17,{DB(Z|S)?},f,"{3267,22408}",Dragon Ball
 Zim,"{GIR,Alien}",f,{6526},Invader Zim
 Hancock,"{`"Hancock ?\\(Film`"}",f,{457},Hancock
 Ghost Shark,{(Film|Movie)s?},f,{22409},""
@@ -28543,3 +28532,28 @@ Z,"{`"Z ?\\(One ?Piece?`"}",f,{22883},One Piece
 Rectangle,{NAIR},f,{22884},NAIR
 Bizarro,"{`"All(-| )Star`"}",f,{22885},All-Star Superman
 Blue,"{`"And I Show You How Deep The Rabbit Hole Goes`"}",f,{22886},...And I Show You How Deep The Rabbit Hole Goes
+All For One,"{`"\\(My Hero\\)`"}",f,{3916},My Hero Academia
+All For One,{BN?HA},f,{3916},My Hero Academia
+All For One,{MHA},f,{3916},My Hero Academia
+All For One,"{`"Boku no Hero`"}",f,{3916},My Hero Academia
+Hero Association,"{`"My Hero Academia`"}",f,{},My Hero Academia
+Hero Association,"{`"\\(My Hero\\)`"}",f,{},My Hero Academia
+Hero Association,{(M|BN?)HA},f,{},My Hero Academia
+Hero Association,"{`"Boku no Hero`"}",f,{},My Hero Academia
+Thor,"{`"God of War Thor`"}",f,{},God of War
+Thor,"{`"God of War`",Pantheons?}",f,{},God of War
+Nemesis,"{`"Nemesis ?\\(RE`"}",f,{5373},Resident Evil
+Cynthia,{Pok(e|é)m(o|a)n},f,{22887},Pokémon
+Kendra Sorenson,{Fablehaven},t,{22888},Fablehaven
+Jack Hanma,{Baki(verse)?},t,{22889},Baki
+Jack,"{`"Hanma (Family|Bloodline)`"}",f,{22889},Baki
+Jack,"{`"Jack ?\\(Baki`"}",f,{22889},Baki
+Mr. T,"{`"Anki Deck`"}",f,{22890},Anki Deck
+Sega Shiro,{advert(isement)s?},t,{22891},""
+Miss Doublefinger,"{`"One ?Piece?`"}",t,{22892},One Piece
+Zala,"{`"One ?Piece?`"}",f,{22892},One Piece
+Odin,"{`"Odin ?\\(Fate`"}",f,{22893},Fate
+William,"{`"Inquisitor'?s Tale`"}",f,{22894},The Inquisitor's Tale
+Crane,"{`"Sting of Death`"}",f,{22895},The Sting of Death
+Rogu,"{`"American Dad`"}",f,{22896},American Dad!
+Riful,{Claymore},f,{22897},Claymore
