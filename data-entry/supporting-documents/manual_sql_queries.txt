@@ -14,9 +14,17 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+DELETE FROM character WHERE default_name='Carnage' AND version='{"comics?"}';
+DELETE FROM character WHERE default_name='17';
+DELETE FROM character WHERE default_name='Zaheer' AND displayed_version_name='Avatar: TLOK';
 
 ########################################
+
+DELETE FROM character_name WHERE name='Iron Head';
+
+########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='All For One';
 
 ########################################
 
