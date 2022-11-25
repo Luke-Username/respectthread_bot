@@ -107,6 +107,17 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Thor ?\(GoW']
+],
+'God of War',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/z3k5ci/what_hero_rank_would_these_characters_be_in_the/ixntyjk/?context=3
 
 ########################################
 
