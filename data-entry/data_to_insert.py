@@ -107,6 +107,64 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Onmyo Bureau (Ayashimon)', 'https://redd.it/z4ni5s')
+add_data(['Onmyo Bureau'],
+'Onmyo Bureau',
+False,
+True,
+[
+    ['Ayashimon']
+],
+'Ayashimon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z4ni5s/respect_the_onmyo_bureau_ayashimon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Kalel Kent, aka Superman 2020 (Pre-Crisis DC Comics)', 'https://redd.it/z4rmhz')
+add_data(['Kalel Kent'],
+'Kalel Kent',
+False,
+True,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z4rmhz/respect_kalel_kent_aka_superman_2020_precrisis_dc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Jorel Kent, aka Superman II (Pre-Crisis Earth 2020)', 'https://redd.it/z4sf3f')
+add_data(['Jorel Kent'],
+'Jorel Kent',
+False,
+True,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z4sf3f/respect_jorel_kent_aka_superman_ii_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect King William (...And I Show You How Deep The Rabbit Hole Goes)', 'https://redd.it/z4xis2')
+add_data(['King William'],
+'King William',
+False,
+False,
+[
+    ['And I Show You How Deep The Rabbit Hole Goes']
+],
+'...And I Show You How Deep The Rabbit Hole Goes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z4xis2/respect_king_william_and_i_show_you_how_deep_the/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
