@@ -26343,6 +26343,9 @@ Battinson,{2022},t,{22590},"The Batman, 2022"
 Batman,"{`"Bat(-| )?mans? ?\\(2022`"}",f,{22590},"The Batman, 2022"
 Galactus,{616},t,"{2084,22645}",616
 Galactus,{Marvel},t,"{2084,22645}",616
+Thor,"{`"Thor ?\\(GoW`"}",f,{},God of War
+Onion Penndraig,"{`"Worth the Candle`"}",t,{22898},Worth the Candle
+Zilla,"{`"Sting of Death`"}",f,{22899},The Sting of Death
 Opa-Opa,"{`"Fantasy Zone`"}",f,{21568},Fantasy Zone
 Hector Hammond,"{`"Live(-| )Action Green Lantern|Green Lantern Live(-| )Action`"}",f,{21569},"Green Lantern, 2011"
 Hector Hammond,"{`"Green Lantern (Movie|Film)`"}",f,{21569},"Green Lantern, 2011"
@@ -28557,3 +28560,6 @@ William,"{`"Inquisitor'?s Tale`"}",f,{22894},The Inquisitor's Tale
 Crane,"{`"Sting of Death`"}",f,{22895},The Sting of Death
 Rogu,"{`"American Dad`"}",f,{22896},American Dad!
 Riful,{Claymore},f,{22897},Claymore
+Isley,{Claymore},f,{22900},Claymore
+Raki,{Claymore},f,{22901},Claymore
+Frankenstein's Monster,"{`"Junji Ito`"}",f,{22902},Junji Ito
