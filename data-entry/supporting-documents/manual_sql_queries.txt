@@ -23,6 +23,9 @@ DELETE FROM character WHERE default_name='Hit' AND version='{"Goku"}';
 
 ########################################
 
+UPDATE character SET rt_id_array='{606, 20464}' WHERE rt_id_array='{606}';
+UPDATE character SET rt_id_array='{613, 20463}' WHERE rt_id_array='{613}';
+
 ########################################
 
 ########################################
