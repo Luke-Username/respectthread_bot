@@ -201,6 +201,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect: Clark Kent, Superman I (Pre-Crisis Earth 2020)', 'https://redd.it/z6bm20')
+add_data(['Super(-| )?man I'],
+'Superman I',
+False,
+False,
+[
+    ['Earth(-| )2020']
+],
+'Earth 2020',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z6bm20/respect_clark_kent_superman_i_precrisis_earth_2020/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Spider-Nor-Man (Marvel, Earth-44145)', 'https://redd.it/z5ikb0')
 add_data(['Spider(-| )Nor(-| )Man'],
 'Spider-Nor-Man',
@@ -287,7 +302,22 @@ True,
 '',
 '{' + '{}'.format(id) + '}'
 )
-#https://www.reddit.com/r/respectthreads/comments/z66beg/respect_the_sabertooth_swordsman_sabertooth/
+#https://www.reddit.com/r/respectthreads/comments/z66beg/respect_the_sabertooth_swordsman_sabertooth/ 
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Rogal Dorn (Warhammer 40k)', 'https://redd.it/z6afhi')
+add_data(['Rogal Dorn'],
+'Rogal Dorn',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z6afhi/respect_rogal_dorn_warhammer_40k/
 
 ########################################
 

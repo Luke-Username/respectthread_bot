@@ -19,6 +19,8 @@ UPDATE character SET rt_id_array='{7450, ?}' WHERE rt_id_array='{7450}';
 
 ########################################
 
+DELETE FROM character WHERE default_name='Hit' AND version='{"Goku"}';
+
 ########################################
 
 ########################################
