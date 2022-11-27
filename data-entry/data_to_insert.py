@@ -107,6 +107,25 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4086, 'Respect Shanks! (One Piece)', 'https://redd.it/z5nv65')
+update_respectthread(cur, 22535, 'Respect: Perturabo (Warhammer 40k)', 'https://redd.it/z5pdrd')
+
+########################################
+
+add_data(['Land ?lords'],
+'Landlords',
+False,
+False,
+[
+    ['Kung Fu Hustle']
+],
+'Kung Fu Hustle',
+'{228}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/z57xip/the_landlords_from_king_fu_hustle_versus_captain/
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Onmyo Bureau (Ayashimon)', 'https://redd.it/z4ni5s')
 add_data(['Onmyo Bureau'],
 'Onmyo Bureau',
@@ -164,6 +183,111 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/z4xis2/respect_king_william_and_i_show_you_how_deep_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Evan McCulloch, Mirror Master (DC Post-Crisis)', 'https://redd.it/z5andl')
+add_data(['Mirror Master'],
+'Mirror Master',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z5andl/respect_evan_mcculloch_mirror_master_dc_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spider-Nor-Man (Marvel, Earth-44145)', 'https://redd.it/z5ikb0')
+add_data(['Spider(-| )Nor(-| )Man'],
+'Spider-Nor-Man',
+False,
+True,
+[
+    ['44145']
+],
+'44145',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z5ikb0/respect_spidernorman_marvel_earth44145/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Helen (Claymore)', 'https://redd.it/z5bb9q')
+add_data(['Helen'],
+'Helen',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z5bb9q/respect_helen_claymore/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Daisuke Kambe (The Millionaire Detective Balance: Unlimited)', 'https://redd.it/z5anfl')
+add_data(['Daisuke Kambe'],
+'Daisuke Kambe',
+False,
+True,
+[
+    ['Millionaire Detective']
+],
+'The Millionaire Detective Balance: Unlimited',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z5anfl/respect_daisuke_kambe_the_millionaire_detective/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jewelry Bonney! (One Piece)', 'https://redd.it/z5nxho')
+add_data(['Jewelry Bonney'],
+'Jewelry Bonney',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z5nxho/respect_jewelry_bonney_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Steven Stone (Pokemon Anime)', 'https://redd.it/z61caz')
+add_data(['Steven Stone'],
+'Steven Stone',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z61caz/respect_steven_stone_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Sabertooth Swordsman (Sabertooth Swordsman)', 'https://redd.it/z66beg')
+add_data(['Sabertooth Swordsman'],
+'Sabertooth Swordsman',
+False,
+True,
+[
+    ['Sabertooth Swordsman ?\(Sabertooth Swordsman']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z66beg/respect_the_sabertooth_swordsman_sabertooth/
 
 ########################################
 

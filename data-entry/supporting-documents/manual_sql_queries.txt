@@ -14,7 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+INSERT INTO respectthread (title, link) VALUES ('Respect Menthuthuyoupi! (Hunter X Hunter) [Composite]', 'https://redd.it/z639ae'); SELECT * FROM respectthread WHERE link='https://redd.it/z639ae';
+UPDATE character SET rt_id_array='{7450, ?}' WHERE rt_id_array='{7450}';
 
 ########################################
 
@@ -33,6 +34,11 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 ########################################
+
+########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/z5andl';
+UPDATE character SET rt_id_array='{1601, ?}' WHERE rt_id_array='{1601}'; --After run
 
 ########################################
 
