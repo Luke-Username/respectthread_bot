@@ -28,6 +28,8 @@ UPDATE character SET rt_id_array='{613, 20463}' WHERE rt_id_array='{613}';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ghidorah?', 'Void Ghidorah', -5);
+
 ########################################
 
 ########################################

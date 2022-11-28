@@ -246,6 +246,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Deneve (Claymore)', 'https://redd.it/z6k0yj')
+add_data(['Deneve'],
+'Deneve',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z6k0yj/respect_deneve_claymore/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Daisuke Kambe (The Millionaire Detective Balance: Unlimited)', 'https://redd.it/z5anfl')
 add_data(['Daisuke Kambe'],
 'Daisuke Kambe',
@@ -291,6 +306,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Diantha (Pokemon Anime)', 'https://redd.it/z6wzlx')
+add_data(['Diantha'],
+'Diantha',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z6wzlx/respect_diantha_pokemon_anime/
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Sabertooth Swordsman (Sabertooth Swordsman)', 'https://redd.it/z66beg')
 add_data(['Sabertooth Swordsman'],
 'Sabertooth Swordsman',
@@ -318,6 +348,51 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/z6afhi/respect_rogal_dorn_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Terry (SlicK)', 'https://redd.it/z6jrkl')
+add_data(['Terry'],
+'Terry',
+False,
+False,
+[
+    ['Terry ?\(SlicK']
+],
+'SlicK',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z6jrkl/respect_terry_slick/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doctor Bob Doom (Marvel, 616)', 'https://redd.it/z70idu')
+add_data(['D(octo)?r\.? Bob Doom'],
+'Doctor Bob Doom',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z70idu/respect_doctor_bob_doom_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Odin Borson, Mjolnir (Marvel, Earth-616)', 'https://redd.it/z771fo')
+add_data(['Odin Borson'],
+'Odin Borson',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z771fo/respect_odin_borson_mjolnir_marvel_earth616/
 
 ########################################
 
