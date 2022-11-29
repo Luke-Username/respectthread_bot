@@ -14,32 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Menthuthuyoupi! (Hunter X Hunter) [Composite]', 'https://redd.it/z639ae'); SELECT * FROM respectthread WHERE link='https://redd.it/z639ae';
-UPDATE character SET rt_id_array='{7450, ?}' WHERE rt_id_array='{7450}';
+########################################
 
 ########################################
 
-DELETE FROM character WHERE default_name='Hit' AND version='{"Goku"}';
-
 ########################################
 
-UPDATE character SET rt_id_array='{606, 20464}' WHERE rt_id_array='{606}';
-UPDATE character SET rt_id_array='{613, 20463}' WHERE rt_id_array='{613}';
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ghidorah?', 'Void Ghidorah', -5);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Cardiac', 'Cardiac Arrest', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Quicksilver', 'Quicksilver Reflex Booster', 0);
-
-########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Hidan';
-UPDATE character SET is_default=FALSE WHERE default_name='Dorian';
-
-########################################
-
-UPDATE character SET version='{"Reeves?"}' WHERE version='{"Reeves"}';
 
 ########################################
 
@@ -51,8 +32,7 @@ UPDATE character SET version='{"Reeves?"}' WHERE version='{"Reeves"}';
 
 ########################################
 
-SELECT * FROM respectthread WHERE link='https://redd.it/z5andl';
-UPDATE character SET rt_id_array='{1601, ?}' WHERE rt_id_array='{1601}'; --After run
+########################################
 
 ########################################
 

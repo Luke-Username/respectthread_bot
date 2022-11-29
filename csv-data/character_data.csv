@@ -2175,7 +2175,6 @@ Kahuna,"{`"Baby Geniuses`"}",f,{572},Baby Geniuses
 Dragonfly,"{`"Superhero Movie`"}",f,{573},Superhero Movie
 Superman,{Donner},f,{574},Donnerverse
 Superman,{Donnerverse},f,{574},Donnerverse
-Superman,{Reeves},f,{574},Donnerverse
 Superman,"{`"Superman returns`"}",f,{575},Superman Returns
 Mario,"{`"Mario Bros.? Movie`"}",f,{576},Super Mario Bros. Movie
 Mario,"{`"Mario Bros.? Film`"}",f,{576},Super Mario Bros. Movie
@@ -2402,8 +2401,6 @@ Zombeavers,{Zombeavers},t,{602},Zombeavers
 Billy,"{`"Adventure Time`"}",f,{603},Adventure Time
 Farmworld Finn,"{`"Adventure Time`"}",t,{604},Adventure Time
 Fern,"{`"Adventure Time`"}",f,{605},Adventure Time
-Finn the Human,"{`"Adventure Time`"}",t,{606},Adventure Time
-Finn,"{`"Adventure Time`"}",f,{606},Adventure Time
 Fionna and Cake,"{`"Adventure Time`"}",t,{607},Adventure Time
 Fionna,"{`"Adventure Time`"}",f,{607},Adventure Time
 Cake,"{`"Adventure Time`"}",f,{607},Adventure Time
@@ -2413,8 +2410,6 @@ Goliad,"{`"Adventure Time`"}",f,{609},Adventure Time
 Grob Gob Glob Grod,"{`"Adventure Time`"}",t,{610},Adventure Time
 Hunson Abadeer,"{`"Adventure Time`"}",t,{611},Adventure Time
 Huntress Wizard,"{`"Adventure Time`"}",t,{612},Adventure Time
-Jake,"{`"Adventure Time`"}",f,{613},Adventure Time
-Jake the Dog,"{`"Adventure Time`"}",t,{613},Adventure Time
 Lemongrab,"{`"Adventure Time`"}",t,{614},Adventure Time
 Lich,"{`"Adventure Time`"}",f,{615},Adventure Time
 Magic Man,"{`"Adventure Time`"}",f,{616},Adventure Time
@@ -2447,6 +2442,9 @@ Nicole Watterson,{Gumball},t,{626},Amazing World of Gumball
 Toph,{Avatar},t,{644},Avatar: TLA
 Toph,{A?TLA},t,{644},Avatar: TLA
 Toph,{Korra},t,{644},Avatar: TLA
+Finn the Human,"{`"Adventure Time`"}",t,"{606,20464}",Adventure Time
+Jake,"{`"Adventure Time`"}",f,"{613,20463}",Adventure Time
+Jake the Dog,"{`"Adventure Time`"}",t,"{613,20463}",Adventure Time
 Toph,{A?T?LOK},t,{644},Avatar: TLA
 Ty Lee,{Avatar},t,{645},Avatar: TLA
 Ty Lee,{A?TLA},t,{645},Avatar: TLA
@@ -4563,8 +4561,6 @@ Inertia,{PC},f,{1600},""
 Inertia,"{`"Post(-| )?C(risis)?`"}",f,{1600},""
 Inertia,"{`"New(-| )Earth`"}",f,{1600},""
 Inertia,{Impulse},f,{1600},""
-Mirror Master,{Rogues},t,{1601},""
-Mirror Master,"{`"Evan McCulloch`"}",t,{1601},""
 Pied Piper,{Rogues},f,{1602},""
 Pied Piper,"{`"Hartley Rathaway`"}",f,{1602},""
 Pied Piper,{Flash},f,{1602},""
@@ -4592,6 +4588,8 @@ Connor Hawke,{PC},t,{1608},DC
 Connor Hawke,"{`"Post(-| )?C(risis)?`"}",t,{1608},DC
 Captain Cold,{Flash},t,"{22526,1596,1595}",""
 Captain Cold,{Rogues},t,"{22526,1596,1595}",""
+Mirror Master,{Rogues},t,"{1601,22908}",""
+Mirror Master,"{`"Evan McCulloch`"}",t,"{1601,22908}",""
 Pedro Pena,"{Shazam,2019}",f,{6555},DCEU
 Pedro Pena,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Pedro Pena,{DCEU},f,{6555},DCEU
@@ -6200,8 +6198,6 @@ Kyanchome and Parco Folgore,"{`"Zatch Bell`"}",t,{7449},Zatch Bell!
 Kyanchome and Parco Folgore,"{`"Golden Gash`"}",t,{7449},Zatch Bell!
 Kyanchome and Parco Folgore,"{`"Konjiki no Gash`"}",t,{7449},Zatch Bell!
 Kyanchome and Parco Folgore,"{`"Gash Bell`"}",t,{7449},Zatch Bell!
-Menthuthuyoupi,"{`"Hunter x Hunter`"}",t,{7450},Hunter x Hunter
-Menthuthuyoupi,{HxH},t,{7450},Hunter x Hunter
 Cherish,"{`"Zatch Bell`"}",f,{7451},Zatch Bell!
 Cherish,"{`"Golden Gash`"}",f,{7451},Zatch Bell!
 Cherish,"{`"Konjiki no Gash`"}",f,{7451},Zatch Bell!
@@ -6230,6 +6226,8 @@ Umagon,"{`"Gash Bell`"}",t,{7460},Zatch Bell!
 Flame Flamey,"{`"Magical Girl Raising Project`"}",t,{7461},Magical Girl Raising Project
 Undyne,{Undertale},t,{7462},Undertale
 Necrozma,{Pok(e|é)m(o|a)n},t,"{4226,7463}",Pokémon
+Menthuthuyoupi,"{`"Hunter x Hunter`"}",t,"{7450,22903}",Hunter x Hunter
+Menthuthuyoupi,{HxH},t,"{7450,22903}",Hunter x Hunter
 Zelda,"{`"Spirit Tracks`"}",f,{7464},Spirit Tracks
 Jester Lavorre,"{`"Critical Role`"}",t,{7465},Critical Role
 Caduceus Clay,"{`"Critical Role`"}",t,{7466},Critical Role
@@ -12571,7 +12569,6 @@ Frost,{Goku},f,"{3283,3312}",Dragon Ball
 Frost,{Fr(i|e)eza},f,"{3283,3312}",Dragon Ball
 Hit,"{`"Dragon ?Ball`"}",f,{3295},Dragon Ball
 Hit,{Saiyan},f,{3295},Dragon Ball
-Hit,{Goku},f,{3295},Dragon Ball
 Hit,{Fr(i|e)eza},f,{3295},Dragon Ball
 Basil,"{`"Dragon ?Ball`"}",f,{3271},Dragon Ball
 Basil,{DB(Z|S)?},f,{3271},Dragon Ball
@@ -17087,7 +17084,6 @@ Haku,{Naruto},f,{3946},Naruto
 Haku,{Zabuza},f,{3946},Naruto
 Haku,{Kimm?imaro},f,{3946},Naruto
 Hashirama Senju,{Naruto},t,{3947},Naruto
-Hidan,{Naruto},t,{3948},Naruto
 Hinata Hyuga,{Naruto},t,{3949},Naruto
 Hinata,{Naruto},f,{3949},Naruto
 Hinata,{shinobi},f,{3949},Naruto
@@ -17136,6 +17132,7 @@ Killer Bee,{Hokage},f,{3957},Naruto
 Killer Bee,{Raikage},f,{3957},Naruto
 Killer B,{Naruto},t,{3957},Naruto
 Jotaro Kujo,{EOH},f,{},Eyes of Heaven
+Hidan,{Naruto},f,{3948},Naruto
 Killer B,{Shippuden},t,{3957},Naruto
 Killer B,{Hachibi},t,{3957},Naruto
 Killer B,{Gy(u|ū)ki},t,{3957},Naruto
@@ -25261,7 +25258,6 @@ Oliva,{Hanayama},t,{3447},Baki
 Oliva,"{`"(5|five) (Prisoners|Convicts)`"}",t,{3447},Baki
 Oliva,{grapplers?},t,{3447},Baki
 Doppo Orochi,{Baki},t,{3448},Baki
-Dorian,{Baki},t,{3449},Baki
 Pickle,{Baki},f,{3451},Baki
 Yujiro,{Baki},f,{3452},Baki
 Yujiro Hanma,{Baki},t,{3452},Baki
@@ -25293,6 +25289,7 @@ Buddha,{Buddhism},t,"{21114,21300}",Mahāyāna
 Buddha,"{`"Composite Buddha`"}",t,"{21114,21300}",Mahāyāna
 Buddha,"{`"Journey To The West`"}",t,"{21114,21300}",Mahāyāna
 Buddha,"{`"Records? of Ragnarok`"}",f,{},Record of Ragnarok
+Dorian,{Baki},f,{3449},Baki
 Lion,"{`"Balloon Trip of Love`"}",f,{16804},The Legend of Zelda
 SCP-001,"{`"Gate Guardian`"}",f,{15332},""
 StarCraft Marine,"{`"SC\\d?`"}",t,{},""
@@ -25742,15 +25739,15 @@ Glitchtrap,"{`"Five Nights at Fredd(ys?|ies)`"}",t,{21263},FNAF
 Glitchtrap,"{`"FNAF\\d?`"}",t,{21263},FNAF
 Bigfoot,"{`"Rob Zombie|Steve Niles|Richard Corben`"}",f,{21264},"Steve Niles, Richard Corben, Rob Zombie"
 Kickpuncher,{Community},f,{21265},Community
-Jake,{Finn},f,{613},Adventure Time
-Jake,"{`"Princess Bubblegum`"}",f,{613},Adventure Time
-Finn,{Jake},f,{606},Adventure Time
-Finn,"{`"Princess Bubblegum`"}",f,{606},Adventure Time
 Steve Austin,"{`"Steve Austin.*Dynamite Comics|Dynamite Comics.*Steve Austin`"}",f,{21266},Dynamite Comics
 Bionic Woman,"{`"Bionic Woman.*Dynamite Comics|Dynamite Comics.*Bionic Woman`"}",f,{21267},Dynamite Comics
 Foreskin Man,{comics?},t,{21268},""
 Superman X,"{`"Legion of Super Heroe?s`"}",f,{21269},Legion of Super Heroes
 Silverback gorilla,"{`"Real Life`"}",t,{},""
+Finn,{Jake},f,"{606,20464}",Adventure Time
+Finn,"{`"Princess Bubblegum`"}",f,"{606,20464}",Adventure Time
+Jake,{Finn},f,"{613,20463}",Adventure Time
+Jake,"{`"Princess Bubblegum`"}",f,"{613,20463}",Adventure Time
 Spider-Man,"{`"Golden Spongecake`"}",f,{},51914
 Crimson,{Dreamwalker},f,{21272},Dreamwalker
 Katsumi Orochi,{Baki},t,{21273},Baki
@@ -26627,7 +26624,6 @@ Pelipper,"{`"Team Rockets?`"}",f,{21725},Team Rocket
 Lady Blackhawk,"{`"\\(DC( Comics)?\\)`"}",t,{1565},DC
 Kate Spencer,"{`"\\(DC( Comics)?\\)`"}",t,{1566},DC
 Heat Wave,"{`"\\(DC( Comics)?\\)`"}",f,{1599},Post-Crisis
-Mirror Master,"{`"\\(DC( Comics)?\\)`"}",t,{1601},""
 Green Arrow,"{`"\\(DC( Comics)?\\)`"}",t,"{1610,1611}",DC
 Plastic Man,"{`"\\(DC( Comics)?\\)`"}",t,"{1650,1651}",DC
 Yellow Lantern Corps,"{`"\\(DC( Comics)?\\)`"}",t,{1674},DC
@@ -26675,6 +26671,7 @@ Amazons,"{`"DC ?(E|C)U`"}",f,{21741},DCEU
 Amazons,"{`"DC Cinematic Universe`"}",f,{21741},DCEU
 Bane,"{`"\\(DC( Comics)?\\)`"}",f,"{1529,1530}",DC
 Luther Strode,{Image},t,{2784},Image Comics
+Mirror Master,"{`"\\(DC( Comics)?\\)`"}",t,"{1601,22908}",""
 Archangel,{Marvel},f,{2343},616
 Splinter,"{TMNT,Archie}",f,{21755},Archie Comics
 Shredder,"{`"Teenaged? Mutant Ninja Turtles?`",Archie}",f,{21756},Archie Comics
@@ -28563,3 +28560,28 @@ Riful,{Claymore},f,{22897},Claymore
 Isley,{Claymore},f,{22900},Claymore
 Raki,{Claymore},f,{22901},Claymore
 Frankenstein's Monster,"{`"Junji Ito`"}",f,{22902},Junji Ito
+Finn,"{`"Adventure Time`"}",f,"{606,20464}",Adventure Time
+Superman,{Reeves?},f,{574},Donnerverse
+Landlords,"{`"Kung Fu Hustle`"}",f,{228},Kung Fu Hustle
+Onmyo Bureau,{Ayashimon},t,{22904},Ayashimon
+Kalel Kent,"{`"Pre(-| )?Crisis`"}",t,{22905},Pre-Crisis
+Jorel Kent,"{`"Pre(-| )?Crisis`"}",t,{22906},Pre-Crisis
+King William,"{`"And I Show You How Deep The Rabbit Hole Goes`"}",f,{22907},...And I Show You How Deep The Rabbit Hole Goes
+Mirror Master,{PC},f,{22908},Post-Crisis
+Mirror Master,"{`"Posts?(-| )?C(risis)?`"}",f,{22908},Post-Crisis
+Superman I,"{`"Earth(-| )2020`"}",f,{22909},Earth 2020
+Spider-Nor-Man,{44145},t,{22910},44145
+Helen,{Claymore},f,{22911},Claymore
+Deneve,{Claymore},f,{22912},Claymore
+Daisuke Kambe,"{`"Millionaire Detective`"}",t,{22913},The Millionaire Detective Balance: Unlimited
+Jewelry Bonney,"{`"One ?Piece?`"}",t,{22914},One Piece
+Steven Stone,{Pok(e|é)m(o|a)n},t,{22915},Pokémon
+Diantha,{Pok(e|é)m(o|a)n},t,{22916},Pokémon
+Sabertooth Swordsman,"{`"Sabertooth Swordsman ?\\(Sabertooth Swordsman`"}",t,{22917},""
+Rogal Dorn,{(WH)?40K},t,{22918},Warhammer 40k
+Rogal Dorn,{Warhammer},t,{22918},Warhammer 40k
+Terry,"{`"Terry ?\\(SlicK`"}",f,{22919},SlicK
+Doctor Bob Doom,{616},t,{22920},616
+Odin Borson,{616},t,{22921},616
+Abominatrix,{616},t,{22922},616
+Bloody Mary,"{`"Sting of Death`"}",f,{22923},The Sting of Death
