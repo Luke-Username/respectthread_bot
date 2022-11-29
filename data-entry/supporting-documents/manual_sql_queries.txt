@@ -29,10 +29,17 @@ UPDATE character SET rt_id_array='{613, 20463}' WHERE rt_id_array='{613}';
 ########################################
 
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ghidorah?', 'Void Ghidorah', -5);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Cardiac', 'Cardiac Arrest', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Quicksilver', 'Quicksilver Reflex Booster', 0);
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Hidan';
+UPDATE character SET is_default=FALSE WHERE default_name='Dorian';
+
 ########################################
+
+UPDATE character SET version='{"Reeves?"}' WHERE version='{"Reeves"}';
 
 ########################################
 

@@ -396,6 +396,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Florence Sharples, Abominatrix (Marvel, 616)', 'https://redd.it/z7uk5t')
+add_data(['Abominatrix'],
+'Abominatrix',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z7uk5t/respect_florence_sharples_abominatrix_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bloody Mary (The Sting of Death)', 'https://redd.it/z7krje')
+add_data(['Bloody Mary'],
+'Bloody Mary',
+False,
+False,
+[
+    ['Sting of Death']
+],
+'The Sting of Death',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z7krje/respect_bloody_mary_the_sting_of_death/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
