@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Leon (Pokemon Anime)', 'https://redd.it/z8bkkm')
+add_data(['Leon'],
+'Leon',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z8bkkm/respect_leon_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Jaghatai Khan (Warhammer 40k)', 'https://redd.it/z8bro2')
+add_data(['Jaghatai Khan'],
+'Jaghatai Khan',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z8bro2/respect_jaghatai_khan_warhammer_40k/
 
 ########################################
 

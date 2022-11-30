@@ -14,6 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='(Seven|7)th Sister' WHERE name='Seventh Sister';
+
 ########################################
 
 ########################################
