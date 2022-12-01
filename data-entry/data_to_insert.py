@@ -137,6 +137,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Frosty the Snowman (Frosty the Snowman)', 'https://redd.it/z8p51v')
+add_data(['Frosty the Snowman'],
+'Frosty the Snowman',
+False,
+True,
+[
+    ['1969'], ['Winter Wonderland'], ['Rankin', 'Bass'], ['Legend of Frosty the Snowman']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z8p51v/respect_frosty_the_snowman_frosty_the_snowman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 49: the Hulkbuster Mark V (Marvel, Earth-616)', 'https://redd.it/z960io')
+add_data(['Troy Hulkbuster'],
+'Troy Hulkbuster',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z960io/respect_iron_man_model_49_the_hulkbuster_mark_v/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
