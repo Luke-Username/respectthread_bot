@@ -18,7 +18,11 @@ UPDATE character_name SET name='(Seven|7)th Sister' WHERE name='Seventh Sister';
 
 ########################################
 
+UPDATE character SET version='{"Amalgam Comics"}' WHERE default_name='Amazon' AND version='{"Amalgam"}';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bond', 'James Bond', -6);
 
 ########################################
 

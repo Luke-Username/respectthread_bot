@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Dragon'],
+'Dragon',
+False,
+False,
+[
+    ['Dragon from Worm']
+],
+'Worm',
+'{6072}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/z9am1h/mcu_vision_vs_dragon_from_worm/iyhcexs/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Leon (Pokemon Anime)', 'https://redd.it/z8bkkm')
 add_data(['Leon'],
 'Leon',
@@ -164,6 +178,180 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/z960io/respect_iron_man_model_49_the_hulkbuster_mark_v/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Allosaurus (Dinosaur King)', 'https://redd.it/z9c9k5')
+add_data(['Allosaurus'],
+'Allosaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z9c9k5/respect_allosaurus_dinosaur_king/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Kaiju Claymation Fight)', 'https://redd.it/z9cyp8')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Kaiju Claymation Fight']
+],
+'Kaiju Claymation Fight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z9cyp8/respect_godzilla_kaiju_claymation_fight/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Quantasaurus Rex! (Power Rangers Time Force)', 'https://redd.it/z9cz9a')
+add_data(['Quantasaurus Rex'],
+'Quantasaurus Rex',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z9cz9a/respect_the_quantasaurus_rex_power_rangers_time/
+
+add_data(['Q(-| )Rex'],
+'Q-Rex',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z9cz9a/respect_the_quantasaurus_rex_power_rangers_time/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Sentinels! (FOX X-Men)', 'https://redd.it/z9exs7')
+add_data(['Sentinels'],
+'Sentinels',
+False,
+False,
+[
+    ['Sentinels ?\(Fox'], ['Days of Future Past']
+],
+'FOX',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z9exs7/respect_the_sentinels_fox_xmen/
+
+add_data(['Sentinel'],
+'Sentinel',
+False,
+False,
+[
+    ['Sentinels ?\(Fox'], ['Days of Future Past']
+],
+'FOX',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z9exs7/respect_the_sentinels_fox_xmen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Clare (Claymore)', 'https://redd.it/z9u1sr')
+add_data(['Clare'],
+'Clare',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/z9u1sr/respect_clare_claymore/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Shin Yellow Devil (Super Adventure Rockman)', 'https://redd.it/zafght')
+add_data(['Shin Yellow Devil'],
+'Shin Yellow Devil',
+False,
+True,
+[
+    ['Super Adventure Rockman']
+],
+'Super Adventure Rockman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zafght/respect_the_shin_yellow_devil_super_adventure/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ra Thor (Super Adventure Rockman)', 'https://redd.it/zafkut')
+add_data(['Ra Thor'],
+'Ra Thor',
+False,
+False,
+[
+    ['Super Adventure Rockman']
+],
+'Super Adventure Rockman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zafkut/respect_ra_thor_super_adventure_rockman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ra Moon (Super Adventure Rockman)', 'https://redd.it/zago37')
+add_data(['Ra Moon'],
+'Ra Moon',
+False,
+False,
+[
+    ['Super Adventure Rockman']
+],
+'Super Adventure Rockman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zago37/respect_ra_moon_super_adventure_rockman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect King (Mega Man & Bass)', 'https://redd.it/zagywf')
+add_data(['King'],
+'King',
+False,
+False,
+[
+    ['Mega Man & Bass']
+],
+'Mega Man & Bass',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zagywf/respect_king_mega_man_bass/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the All Guardsmen Party (The Adventures of the All Guardsmen Party)', 'https://redd.it/zanes6')
+add_data(['All Guardsmen Party'],
+'All Guardsmen Party',
+True,
+True,
+[
+    ['All Guardsmen Party ?\(The Adventures of the All Guardsmen Party\)']
+],
+'The Adventures of the All Guardsmen Party',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zanes6/respect_the_all_guardsmen_party_the_adventures_of/
 
 ########################################
 
