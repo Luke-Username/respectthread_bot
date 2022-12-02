@@ -4531,7 +4531,6 @@ Aoshi,Aoshi,f
 RED Engineer,RED Engineer,f
 BLU Spy,BLU Spy,f
 Fifth Brother,Fifth Brother,f
-Seventh Sister,Seventh Sister,f
 Fifth Brother (and|&) (The )?Seventh Sister,Fifth Brother and Seventh Sister,t
 Seventh Sister (and|&) (the )?Fifth Brother,Fifth Brother and Seventh Sister,t
 Meliodas,Meliodas,f
@@ -4630,6 +4629,7 @@ Greg Willis,Greg Willis,f
 Gravity,Gravity,f
 Jeannine Sauvage,Jeannine Sauvage,f
 Guillotine,Guillotine,f
+(Seven|7)th Sister,Seventh Sister,f
 Shaolin Cowboy,Shaolin Cowboy,f
 Shirtless Bear(-| )Fighter,Shirtless Bear-Fighter,f
 Silver Soldiers,Silver Soldiers,f
@@ -13040,3 +13040,14 @@ Rogal Dorn,Rogal Dorn,f
 D(octo)?r\\.? Bob Doom,Doctor Bob Doom,f
 Odin Borson,Odin Borson,f
 Abominatrix,Abominatrix,f
+Jaghatai Khan,Jaghatai Khan,f
+Frosty the Snowman,Frosty the Snowman,f
+Troy Hulkbuster,Troy Hulkbuster,f
+Quantasaurus Rex,Quantasaurus Rex,f
+Q(-| )Rex,Q-Rex,f
+Sentinels,Sentinels,f
+Sentinel,Sentinel,f
+Shin Yellow Devil,Shin Yellow Devil,f
+Ra Thor,Ra Thor,f
+Ra Moon,Ra Moon,f
+All Guardsmen Party,All Guardsmen Party,t

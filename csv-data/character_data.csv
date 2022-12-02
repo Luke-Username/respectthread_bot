@@ -5762,7 +5762,6 @@ Polymath,"{`"Arthur Blankenship`"}",f,{1466},Absolution
 Polymath,"{`"Avatar Press`"}",f,{1466},Absolution
 Happy Kitty,{Absolution},f,{1467},Absolution
 Happy Kitty,"{`"Avatar Press`"}",f,{1467},Absolution
-Amazon,{Amalgam},f,{1468},Amalgam Comics
 Amazon,"{`"Wonder Woman`",Storm}",f,{1468},Amalgam Comics
 Dark Claw,{Amalgam},f,{1469},Amalgam Comics
 Dark Claw,"{Batman,Wolverine}",f,{1469},Amalgam Comics
@@ -5810,6 +5809,7 @@ The Keeper,"{`"Reed Richards`"}",f,{2041},691
 Nova Prime,{616},t,{2042},616
 Kamala Khan,{616},t,{2031},616
 Celestia,"{`"Best Sisters Play`"}",f,{1454},Two Best Sisters Play
+Amazon,"{`"Amalgam Comics`"}",f,{1468},Amalgam Comics
 Nova Prime,{Marvel},t,{2042},616
 Richard Rider,{616},t,{2042},616
 Richard Rider,{Marvel},t,{2042},616
@@ -28585,3 +28585,25 @@ Doctor Bob Doom,{616},t,{22920},616
 Odin Borson,{616},t,{22921},616
 Abominatrix,{616},t,{22922},616
 Bloody Mary,"{`"Sting of Death`"}",f,{22923},The Sting of Death
+Dragon,"{`"Dragon from Worm`"}",f,{6072},Worm
+Leon,{Pok(e|é)m(o|a)n},f,{22924},Pokémon
+Jaghatai Khan,{(WH)?40K},t,{22925},Warhammer 40k
+Jaghatai Khan,{Warhammer},t,{22925},Warhammer 40k
+Frosty the Snowman,{1969},t,{22926},""
+Frosty the Snowman,"{`"Winter Wonderland`"}",t,{22926},""
+Frosty the Snowman,"{Rankin,Bass}",t,{22926},""
+Frosty the Snowman,"{`"Legend of Frosty the Snowman`"}",t,{22926},""
+Troy Hulkbuster,{616},t,{22927},616
+Allosaurus,"{`"Dinosaur King`"}",f,{22928},Dinosaur King
+Godzilla,"{`"Kaiju Claymation Fight`"}",f,{22929},Kaiju Claymation Fight
+Quantasaurus Rex,"{`"Power Rangers`"}",t,{22930},Power Rangers
+Q-Rex,"{`"Power Rangers`"}",t,{22930},Power Rangers
+Sentinels,"{`"Sentinels ?\\(Fox`"}",f,{22931},FOX
+Sentinels,"{`"Days of Future Past`"}",f,{22931},FOX
+Sentinel,"{`"Sentinels ?\\(Fox`"}",f,{22931},FOX
+Sentinel,"{`"Days of Future Past`"}",f,{22931},FOX
+Shin Yellow Devil,"{`"Super Adventure Rockman`"}",t,{22933},Super Adventure Rockman
+Ra Thor,"{`"Super Adventure Rockman`"}",f,{22934},Super Adventure Rockman
+Ra Moon,"{`"Super Adventure Rockman`"}",f,{22935},Super Adventure Rockman
+King,"{`"Mega Man & Bass`"}",f,{22936},Mega Man & Bass
+All Guardsmen Party,"{`"All Guardsmen Party ?\\(The Adventures of the All Guardsmen Party\\)`"}",t,{22937},The Adventures of the All Guardsmen Party
