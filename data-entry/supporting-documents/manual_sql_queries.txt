@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+INSERT INTO respectthread (title, link) VALUES ('Respect Quick Man! (Mega Man)', 'https://redd.it/zc1uwy'); SELECT * FROM respectthread WHERE link='https://redd.it/zc1uwy';
+UPDATE character SET rt_id_array='{?, 5241}' WHERE rt_id_array='{5241}';
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Shaiapouf! (Hunter X Hunter) [Composite]', 'https://redd.it/zcdcz9'); SELECT * FROM respectthread WHERE link='https://redd.it/zcdcz9';
+UPDATE character SET rt_id_array='{12386, ?}' WHERE rt_id_array='{12386}';
 
 ########################################
 
@@ -33,6 +37,11 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 ########################################
+
+########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/zdcr1j';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Thor' AND displayed_version_name='God of War'; --After run
 
 ########################################
 

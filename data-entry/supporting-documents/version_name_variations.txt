@@ -2095,7 +2095,7 @@ Medaka Box
 
 Mega Man
 	Version
-		'{"Mega ?Man"}'
+		['Mega ?Man']
 	Displayed Version Name
 		"Mega Man"
 
@@ -2658,11 +2658,11 @@ Powerpuff Girls
 
 Power Rangers
 	Version
-		'{"Power Rangers?"}'
+		['Power Rangers?']
 	Specific
-		'{"BOOM!? Studios?"}'
+		['BOOM!? Studios?']
 	Acronyms
-		'{"(MM)?PR"}'
+		['(MM)?PR']
 	Displayed Version Name
 		"Power Rangers"
 
