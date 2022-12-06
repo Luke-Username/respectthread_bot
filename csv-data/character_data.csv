@@ -13409,8 +13409,6 @@ Kyo Nijimura,{Jojos?(verse)?},t,{3629},Jojo's Bizarre Adventure
 Kyo Nijimura,{JJBA},t,{3629},Jojo's Bizarre Adventure
 Tamaki Damo,{Jojos?(verse)?},t,{3630},Jojo's Bizarre Adventure
 Tamaki Damo,{JJBA},t,{3630},Jojo's Bizarre Adventure
-Shaiapouf,"{`"Hunter ?(x ?)?Hunter`"}",t,{12386},Hunter x Hunter
-Shaiapouf,{HxH},t,{12386},Hunter x Hunter
 Morel Mackernasey,"{`"Hunter ?(x ?)?Hunter`"}",t,{12387},Hunter x Hunter
 Morel Mackernasey,{HxH},t,{12387},Hunter x Hunter
 Morel,"{`"Hunter ?(x ?)?Hunter`"}",f,{12387},Hunter x Hunter
@@ -13465,6 +13463,7 @@ Houou Maniwa,{Katanagatari},t,"{3632,16086}",Katanagatari
 Shichika Yasuri,{Katanagatari},t,"{3634,16087}",Katanagatari
 Nanami Yasuri,{Katanagatari},t,"{16452,3633}",Katanagatari
 Josuke Higashikata,"{`"Part 8`"}",t,{3628},Jojo's Bizarre Adventure
+Shaiapouf,"{`"Hunter ?(x ?)?Hunter`"}",t,"{12386,22939}",Hunter x Hunter
 Bulma Brief,{DB(Z|S)?},t,{12405},Dragon Ball
 Senku,"{`"(Doctor|Dr.?) ?Stone`"}",t,{12406},Dr. Stone
 Tsukasa,"{`"(Doctor|Dr.?) ?Stone`"}",f,{12407},Dr. Stone
@@ -16573,7 +16572,6 @@ Shadow Broker,"{`"ME\\d`"}",t,{5236},Mass Effect
 Bass,"{`"Mega ?Man`"}",f,{5238},Mega Man
 Mega Man,"{`"Mega Man ?\\(Mega ?Man`"}",t,{5239},""
 Proto Man,"{`"Mega ?Man`"}",t,{5240},Mega Man
-Quick Man,"{`"Mega ?Man`"}",t,{5241},Mega Man
 Big Boss,"{`"Metal ?Gear`"}",f,{5242},Metal Gear
 Big Boss,"{`"MGS\\d?`"}",f,{5242},Metal Gear
 Big Boss,{Snake},f,{5242},Metal Gear
@@ -16581,6 +16579,7 @@ Cobra Unit,"{`"Metal ?Gear`"}",t,{5243},Metal Gear
 Cobra Unit,"{`"MGS\\d?`"}",t,{5243},Metal Gear
 The Pain,"{`"Metal ?Gear`"}",f,{5243},Metal Gear
 The Pain,"{`"MGS\\d?`"}",f,{5243},Metal Gear
+Quick Man,"{`"Mega ?Man`"}",t,"{22938,5241}",Mega Man
 The Fear,"{`"Metal ?Gear`"}",f,{5243},Metal Gear
 The Fear,"{`"MGS\\d?`"}",f,{5243},Metal Gear
 The End,"{`"Metal ?Gear`"}",f,{5243},Metal Gear
@@ -26340,7 +26339,6 @@ Battinson,{2022},t,{22590},"The Batman, 2022"
 Batman,"{`"Bat(-| )?mans? ?\\(2022`"}",f,{22590},"The Batman, 2022"
 Galactus,{616},t,"{2084,22645}",616
 Galactus,{Marvel},t,"{2084,22645}",616
-Thor,"{`"Thor ?\\(GoW`"}",f,{},God of War
 Onion Penndraig,"{`"Worth the Candle`"}",t,{22898},Worth the Candle
 Zilla,"{`"Sting of Death`"}",f,{22899},The Sting of Death
 Opa-Opa,"{`"Fantasy Zone`"}",f,{21568},Fantasy Zone
@@ -28540,8 +28538,6 @@ Hero Association,"{`"My Hero Academia`"}",f,{},My Hero Academia
 Hero Association,"{`"\\(My Hero\\)`"}",f,{},My Hero Academia
 Hero Association,{(M|BN?)HA},f,{},My Hero Academia
 Hero Association,"{`"Boku no Hero`"}",f,{},My Hero Academia
-Thor,"{`"God of War Thor`"}",f,{},God of War
-Thor,"{`"God of War`",Pantheons?}",f,{},God of War
 Nemesis,"{`"Nemesis ?\\(RE`"}",f,{5373},Resident Evil
 Cynthia,{Pok(e|é)m(o|a)n},f,{22887},Pokémon
 Kendra Sorenson,{Fablehaven},t,{22888},Fablehaven
@@ -28607,3 +28603,44 @@ Ra Thor,"{`"Super Adventure Rockman`"}",f,{22934},Super Adventure Rockman
 Ra Moon,"{`"Super Adventure Rockman`"}",f,{22935},Super Adventure Rockman
 King,"{`"Mega Man & Bass`"}",f,{22936},Mega Man & Bass
 All Guardsmen Party,"{`"All Guardsmen Party ?\\(The Adventures of the All Guardsmen Party\\)`"}",t,{22937},The Adventures of the All Guardsmen Party
+Shaiapouf,{HxH},t,"{12386,22939}",Hunter x Hunter
+Betsy Braddock,{616},t,{2380},616
+Manny,"{`"Swiss Army Man`"}",f,{22967},Swiss Army Man
+Phantom Superman,"{`"Pre(-| )?Crisis`"}",f,{22968},Pre-Crisis
+Air Man,"{`"Mega ?Man`"}",f,{22969},Mega Man
+Air Man,"{`"Air ?man ga Taosenai`"}",f,{22969},Mega Man
+Yellow Devil,"{`"Mega ?Man`"}",t,{22970},Mega Man
+Guts Man,"{`"Mega ?Man`"}",t,{22971},Mega Man
+Needle Man,"{`"Mega ?Man`"}",t,{22972},Mega Man
+Terra,"{`"Mega ?Man`"}",f,{22973},Mega Man
+Sunstar,"{`"Mega ?Man`"}",f,{22974},Mega Man
+Riot,"{`"Riot ?\\(Sonys?`"}",f,{22975},Sony
+Riot,"{Carnage,`"\\(Sony\\)`"}",f,{22975},Sony
+Carnage,"{`"Carnage ?\\(Sonys?`"}",f,{22976},Sony
+Carnage,"{Riot,`"\\(Sony\\)`"}",f,{22976},Sony
+Carnage,"{`"Let There Be Carnage`"}",f,{22976},Sony
+Carnage,"{`"Venom 2`"}",f,{22976},Sony
+Carnage,{LTBC},f,{22976},Sony
+Frances Barrison,{Sonys?},f,{22977},Sony
+Mori Nagayoshi,"{`"Fate ?verse`"}",t,{22978},Fate
+Seven Ghosts,{Claymore},f,{22979},Claymore
+Spa'ark,"{`"Power Rangers?`"}",t,{22980},Power Rangers
+Spa'ark,"{`"BOOM!? Studios?`"}",t,{22980},Power Rangers
+Naruo,{Speedboy},f,{22981},Speedboy!
+Balls,{Speedboy},f,{22982},Speedboy!
+Bugsy,{Pok(e|é)m(o|a)n},f,{22983},Pokémon
+Captain Smiley,"{`"Comic Jumper`"}",t,{22984},Comic Jumper
+Sukapon,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",f,{22985},Super Smash Bros
+John Constantine,{2005},f,{22986},2005
+Herald,{Fortnite},f,{22987},Fortnite
+Martial Artist,{Sifu},f,{22988},Sifu
+Sifu,"{`"Sifu ?\\(Sifu`"}",f,{22988},""
+Sifu,"{`"Sifu protagonist`"}",f,{22988},""
+The Child,{Sifu},f,{22988},Sifu
+Smash,"{`"Image Comics`"}",f,{22989},Image Comics
+Django,"{`"Django ?\\(Django`"}",t,{22990},""
+Orphan,"{`"Young Justice`"}",f,{22991},Young Justice
+Thor,"{`"Thor ?\\(GoW`"}",f,{22966},God of War
+Thor,"{`"God of War Thor`"}",f,{22966},God of War
+Thor,"{`"God of War`",Pantheons?}",f,{22966},God of War
+Thor,"{`"God of War`"}",f,{22966},God of War
