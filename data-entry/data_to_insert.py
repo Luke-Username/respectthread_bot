@@ -107,6 +107,139 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4719, 'Respect Spike Spiegel! (Cowboy Bebop)', 'https://redd.it/ze2m4w')
+
+########################################
+
+add_data(['Rudolph'],
+'Rudolph',
+False,
+False,
+[
+    ['Frosty'], ['Composite Rudolph']
+],
+'Rankin/Bass',
+'{1229}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ze87ka/rudolph_vs_frosty_christmas/iz4vwku/?context=3
+
+add_data(['Rudolph the Red(-| )?Nosed? Reindeer'],
+'Rudolph the Red-Nosed Reindeer',
+False,
+True,
+[
+    ['Frosty'], ['Composite Rudolph']
+],
+'Rankin/Bass',
+'{1229}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ze87ka/rudolph_vs_frosty_christmas/iz4vwku/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Phoenix Wright (Marvel vs. Capcom)', 'https://redd.it/zdx9bj')
+add_data(['Phoenix Wright'],
+'Phoenix Wright',
+False,
+False,
+[
+    ['Marvel', 'Capcom']
+],
+'Marvel vs. Capcom',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zdx9bj/respect_phoenix_wright_marvel_vs_capcom/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cut Man (Ruby-Spears Mega Man)', 'https://redd.it/zeaoih')
+add_data(['Cut Man'],
+'Cut Man',
+False,
+False,
+[
+    ['Ruby(-| )Spears']
+],
+'Ruby-Spears',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zeaoih/respect_cut_man_rubyspears_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Guts Man (Ruby-Spears Mega Man)', 'https://redd.it/zeaok9')
+add_data(['Guts Man'],
+'Guts Man',
+False,
+False,
+[
+    ['Ruby(-| )Spears']
+],
+'Ruby-Spears',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zeaok9/respect_guts_man_rubyspears_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mega Man (The Megas)', 'https://redd.it/zeatml')
+add_data(['Mega ?Man'],
+'Mega Man',
+False,
+False,
+[
+    ['The Megas']
+],
+'The Megas',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zeatml/respect_mega_man_the_megas/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Block Man (Mega Man)', 'https://redd.it/zeos8w')
+add_data(['Block Man'],
+'Block Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zeos8w/respect_block_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Son of Sparda, Dante (Devil May Cry Comics)', 'https://redd.it/zedgur')
+add_data(['Dante'],
+'Dante',
+False,
+False,
+[
+    ['Devil May Cry Comics'], ['Dreamwave']
+],
+'Devil May Cry Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zedgur/respect_the_son_of_sparda_dante_devil_may_cry/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fami! (Chainsaw Man)', 'https://redd.it/zel1jj')
+add_data(['Fami'],
+'Fami',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zel1jj/respect_fami_chainsaw_man/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
