@@ -344,6 +344,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Doppo Akari (Ayashimon)', 'https://redd.it/zflu14')
+add_data(['Doppo Akari'],
+'Doppo Akari',
+False,
+True,
+[
+    ['Ayashimon']
+],
+'Ayashimon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zflu14/respect_doppo_akari_ayashimon/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
