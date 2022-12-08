@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{"Hit ?\\(Dragon ?Ball"}' WHERE default_name='Hit' AND version='{"Dragon ?Ball"}';
+
 ########################################
+
+DELETE FROM character WHERE default_name='Abomination' AND version='{"comics?"}';
 
 ########################################
 

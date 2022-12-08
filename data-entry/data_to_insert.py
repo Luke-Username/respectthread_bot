@@ -212,6 +212,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Acid Man (Mega Man)', 'https://redd.it/zerqyl')
+add_data(['Acid Man'],
+'Acid Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zerqyl/respect_acid_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Blast Man (Mega Man)', 'https://redd.it/zes74m')
+add_data(['Blast Man'],
+'Blast Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zes74m/respect_blast_man_mega_man/
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Son of Sparda, Dante (Devil May Cry Comics)', 'https://redd.it/zedgur')
 add_data(['Dante'],
 'Dante',
@@ -239,6 +269,78 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/zel1jj/respect_fami_chainsaw_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Liquid Snake (Metal Gear Solid)', 'https://redd.it/zeyr7l')
+add_data(['Liquid Snake'],
+'Liquid Snake',
+False,
+True,
+[
+    ['Metal ?Gear'], ['MGS(\d|\w+)?'], ['MGS?\d']
+],
+'Metal Gear',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zeyr7l/respect_liquid_snake_metal_gear_solid/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zheng Shi-Hua, Sister Hammer (Marvel, 616)', 'https://redd.it/zf3opz')
+add_data(['Zheng Shi(-| )Hua'],
+'Zheng Shi-Hua',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zf3opz/respect_zheng_shihua_sister_hammer_marvel_616/
+
+add_data(['Sister Hammer'],
+'Sister Hammer',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zf3opz/respect_zheng_shihua_sister_hammer_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mecha-Noctowl (Pokemon Anime)', 'https://redd.it/zf4hox')
+add_data(['Mecha(-| )Noctowl'],
+'Mecha-Noctowl',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zf4hox/respect_mechanoctowl_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kotton (Ayashimon)', 'https://redd.it/zffs53')
+add_data(['Kotton'],
+'Kotton',
+False,
+False,
+[
+    ['Ayashimon']
+],
+'Ayashimon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zffs53/respect_kotton_ayashimon/
 
 ########################################
 
