@@ -14,13 +14,16 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{"Hit ?\\(Dragon ?Ball"}' WHERE default_name='Hit' AND version='{"Dragon ?Ball"}';
+UPDATE character SET version='{"Hit ?\\(Dragon ?Ball"}' WHERE default_name='Hit' AND version='{"Dragon ?Ball"}';
 
 ########################################
 
 DELETE FROM character WHERE default_name='Abomination' AND version='{"comics?"}';
 
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Black Adam, The Champion of Kahndaq (DC Extended Universe)', 'https://redd.it/zg2o9b'); SELECT * FROM respectthread WHERE link='https://redd.it/zg2o9b';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Black Adam' AND displayed_version_name='DCEU';
 
 ########################################
 

@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 4719, 'Respect Spike Spiegel! (Cowboy Bebop)', 'https://redd.it/ze2m4w')
+update_respectthread(cur, 5942, 'Respect SCP-777-J, Darkblade (SCP Foundation)', 'https://redd.it/zgj6vu')
 
 ########################################
 
@@ -209,6 +210,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/zeos8w/respect_block_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cut Man! (Mega Man)', 'https://redd.it/zfmpcw')
+add_data(['Cut Man'],
+'Cut Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zfmpcw/respect_cut_man_mega_man/
 
 ########################################
 
@@ -344,6 +360,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Maruo Kaido (Ayashimon)', 'https://redd.it/zfmck1')
+add_data(['Maruo Kaido'],
+'Maruo Kaido',
+False,
+True,
+[
+    ['Ayashimon']
+],
+'Ayashimon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zfmck1/respect_maruo_kaido_ayashimon/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Doppo Akari (Ayashimon)', 'https://redd.it/zflu14')
 add_data(['Doppo Akari'],
 'Doppo Akari',
@@ -356,6 +387,95 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/zflu14/respect_doppo_akari_ayashimon/
+
+########################################
+
+add_data(['Juju Toobootie'],
+'Juju Toobootie',
+False,
+True,
+[
+    ['Everything Everywhere All At Once']
+],
+'Everything Everywhere All At Once',
+'{22369}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zgett8/juju_toobootie_everything_everywhere_all_at_once/izgoat2/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Shield Captain Valerian (Warhammer 40k)', 'https://redd.it/zfpjeg')
+add_data(['Shield(-| )Captain Valerian'],
+'Shield-Captain Valerian',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zfpjeg/respect_shield_captain_valerian_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fumio Kirisaki! (Saitama Chainsaw Shoujo)', 'https://redd.it/zfwx1t')
+add_data(['Fumio Kirisaki'],
+'Fumio Kirisaki',
+False,
+True,
+[
+    ['Saitama Chainsaw Shoujo']
+],
+'Saitama Chainsaw Shoujo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zfwx1t/respect_fumio_kirisaki_saitama_chainsaw_shoujo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect John Abar (Abar, The First Black Superman)', 'https://redd.it/zfx3po')
+add_data(['Abar'],
+'Abar',
+False,
+False,
+[
+    ['Black Superman']
+],
+'The First Black Superman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zfx3po/respect_john_abar_abar_the_first_black_superman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Marvel Man! (Pre-Crisis DC Comics)', 'https://redd.it/zgbbvb')
+add_data(['Marvel Man'],
+'Marvel Man',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zgbbvb/respect_marvel_man_precrisis_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Torrents (Pirates of the Caribbean: The Adventures of Jack Sparrow)', 'https://redd.it/zgemfi')
+add_data(['Captain Torrents'],
+'Captain Torrents',
+False,
+False,
+[
+    ['Pirates? of the Caribbean', 'Adventures of Jack Sparrow'], ['POTC', 'Adventures of Jack Sparrow']
+],
+'Pirates of the Caribbean: The Adventures of Jack Sparrow',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zgemfi/respect_captain_torrents_pirates_of_the_caribbean/
 
 ########################################
 
