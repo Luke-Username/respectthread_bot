@@ -109,6 +109,21 @@ cur = con.cursor()
 
 update_respectthread(cur, 4719, 'Respect Spike Spiegel! (Cowboy Bebop)', 'https://redd.it/ze2m4w')
 update_respectthread(cur, 5942, 'Respect SCP-777-J, Darkblade (SCP Foundation)', 'https://redd.it/zgj6vu')
+update_respectthread(cur, 22688, 'Respect Captain Marvel! (DC Comics, Post-Crisis)', 'https://redd.it/zh0moq')
+
+########################################
+
+add_data(['Cap(tain)? Marvel'],
+'Captain Marvel',
+False,
+False,
+[
+    ['Cap(tain)? Marvel.*\(Post(-| )Crisis\)']
+],
+'Post-Crisis',
+'{22688}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ze87ka/rudolph_vs_frosty_christmas/iz4vwku/?context=3
 
 ########################################
 
@@ -135,6 +150,46 @@ True,
 '{1229}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/ze87ka/rudolph_vs_frosty_christmas/iz4vwku/?context=3
+
+########################################
+
+add_data(['Wonder ?Woman'],
+'Wonder Woman',
+False,
+False,
+[
+    ['DC Animated Universe'], ['DCAU']
+],
+'DCAU',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zhjdlg/wonder_woman_dcau_vs_mirko_mha/izmisr4/?context=3
+
+########################################
+
+add_data(['Billy'],
+'Billy',
+False,
+False,
+[
+    ['Stu', 'Scream'], ['Billy Loomis']
+],
+'Scream',
+'{13479}'
+)
+#https://www.reddit.com/r/respectthreads/comments/j7jdbq/respect_ghostface_scream/
+
+add_data(['Roman Bridger'],
+'Roman Bridger',
+False,
+True,
+[
+    ['Scream']
+],
+'Scream',
+'{13479}'
+)
+#https://www.reddit.com/r/respectthreads/comments/j7jdbq/respect_ghostface_scream/
 
 ########################################
 
@@ -476,6 +531,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/zgemfi/respect_captain_torrents_pirates_of_the_caribbean/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Pale Rider, Death! (Darksiders Series)', 'https://redd.it/bdww4v')
+add_data(['Death'],
+'Death',
+False,
+False,
+[
+    ['Darksiders']
+],
+'Darksiders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/bdww4v/respect_the_pale_rider_death_darksiders_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mitsurugi Ryoko! (Samurai Girl - Real Bout High School)', 'https://redd.it/zgmalf')
+add_data(['(Ryoko Mitsurugi|Mitsurugi Ryoko)'],
+'Ryoko Mitsurugi',
+False,
+True,
+[
+    ['Samurai Girl'], ['Real Bout High School']
+],
+'Samurai Girl: Real Bout High School',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kusanagi Shizuma! (Samurai Girl - Real Bout High School)', 'https://redd.it/zgmb2t')
+add_data(['(Shizuma Kusanagi|Kusanagi Shizuma)'],
+'Shizuma Kusanagi',
+False,
+True,
+[
+    ['Samurai Girl'], ['Real Bout High School']
+],
+'Samurai Girl: Real Bout High School',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zgmb2t/respect_kusanagi_shizuma_samurai_girl_real_bout/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Skye (Darkened Skye)', 'https://redd.it/zh0vts')
+add_data(['Skye'],
+'Skye',
+False,
+False,
+[
+    ['Darkened Skye']
+],
+'Darkened Skye',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zh0vts/respect_skye_darkened_skye/
 
 ########################################
 

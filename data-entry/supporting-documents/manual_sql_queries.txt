@@ -27,6 +27,8 @@ UPDATE character SET rt_id_array='{?}' WHERE default_name='Black Adam' AND displ
 
 ########################################
 
+UPDATE character_name SET name='(Joh?nathan|John) Joestar' WHERE name='(Jonathan|John) Joestar';
+
 ########################################
 
 ########################################
