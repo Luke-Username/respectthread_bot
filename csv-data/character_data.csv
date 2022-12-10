@@ -6535,7 +6535,6 @@ Weapon H,{616},t,{2133},616
 Weapon H,{Marvel},t,{2133},616
 Abomination,{616},f,{2134},616
 Abomination,{Marvel},f,{2134},616
-Abomination,{comics?},f,{2134},616
 Amphibion,{616},t,{2135},616
 Amphibion,{Marvel},t,{2135},616
 Amphibion,{comics?},t,{2135},616
@@ -12567,7 +12566,6 @@ Frost,{DB(Z|S)?},f,"{3283,3312}",Dragon Ball
 Frost,{Saiyan},f,"{3283,3312}",Dragon Ball
 Frost,{Goku},f,"{3283,3312}",Dragon Ball
 Frost,{Fr(i|e)eza},f,"{3283,3312}",Dragon Ball
-Hit,"{`"Dragon ?Ball`"}",f,{3295},Dragon Ball
 Hit,{Saiyan},f,{3295},Dragon Ball
 Hit,{Fr(i|e)eza},f,{3295},Dragon Ball
 Basil,"{`"Dragon ?Ball`"}",f,{3271},Dragon Ball
@@ -12613,6 +12611,7 @@ Hit,{Hit.*DB(Z|S)?},f,{3295},Dragon Ball
 Buu,"{`"Dragon ?Ball`"}",t,"{3300,22407}",Dragon Ball
 Buu,{DB(Z|S)?},t,"{3300,22407}",Dragon Ball
 Yamcha,"{`"Reincarnated as Yamcha`"}",f,{3317},Dragon Ball: That Time I Got Reincarnated as Yamcha!
+Hit,"{`"Hit ?\\(Dragon ?Ball`"}",f,{3295},Dragon Ball
 Korin,"{`"Korin Tower`"}",f,{3261},Dragon Ball
 Korin,"{`"Korin's Tower`"}",f,{3261},Dragon Ball
 Ginyu Force,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
@@ -28322,11 +28321,6 @@ Titania,{MCU},f,{22745},MCU
 Scrappy-Doo,"{`"Scooby-Doo and Scrappy(-| )Doo`",Game}",f,{22746},Scooby-Doo and Scrappy-Doo
 Afro Samurai,{default},t,{4663},""
 Chainsaw Man,"{`"vs\\.? Chainsaw(-| )?Man`"}",f,{4709},""
-Black Adam,"{`"DC Extended Universe`"}",f,{},DCEU
-Black Adam,"{`"DC ?(E|C)U`"}",f,{},DCEU
-Black Adam,"{`"DC Cinematic Universe`"}",f,{},DCEU
-Black Adam,{Dwayne},f,{},DCEU
-Black Adam,"{`"The Rock`"}",f,{},DCEU
 Doctor Fate,"{`"DC Extended Universe`"}",f,{},DCEU
 Doctor Fate,"{`"DC ?(E|C)U`"}",f,{},DCEU
 Doctor Fate,"{`"DC Cinematic Universe`"}",f,{},DCEU
@@ -28640,6 +28634,55 @@ The Child,{Sifu},f,{22988},Sifu
 Smash,"{`"Image Comics`"}",f,{22989},Image Comics
 Django,"{`"Django ?\\(Django`"}",t,{22990},""
 Orphan,"{`"Young Justice`"}",f,{22991},Young Justice
+Black Adam,"{`"DC Extended Universe`"}",f,{22992},DCEU
+Black Adam,"{`"DC ?(E|C)U`"}",f,{22992},DCEU
+Black Adam,"{`"DC Cinematic Universe`"}",f,{22992},DCEU
+Black Adam,{Dwayne},f,{22992},DCEU
+Black Adam,"{`"The Rock`"}",f,{22992},DCEU
+Captain Marvel,"{`"Cap(tain)? Marvel.*\\(Post(-| )Crisis\\)`"}",f,{22688},Post-Crisis
+Rudolph,{Frosty},f,{1229},Rankin/Bass
+Rudolph,"{`"Composite Rudolph`"}",f,{1229},Rankin/Bass
+Rudolph the Red-Nosed Reindeer,{Frosty},t,{1229},Rankin/Bass
+Rudolph the Red-Nosed Reindeer,"{`"Composite Rudolph`"}",t,{1229},Rankin/Bass
+Wonder Woman,"{`"DC Animated Universe`"}",f,{},DCAU
+Wonder Woman,{DCAU},f,{},DCAU
+Billy,"{Stu,Scream}",f,{13479},Scream
+Billy,"{`"Billy Loomis`"}",f,{13479},Scream
+Roman Bridger,{Scream},t,{13479},Scream
+Phoenix Wright,"{Marvel,Capcom}",f,{22993},Marvel vs. Capcom
+Cut Man,"{`"Ruby(-| )Spears`"}",f,{22994},Ruby-Spears
+Guts Man,"{`"Ruby(-| )Spears`"}",f,{22995},Ruby-Spears
+Mega Man,"{`"The Megas`"}",f,{22996},The Megas
+Block Man,"{`"Mega ?Man`"}",f,{22997},Mega Man
+Cut Man,"{`"Mega ?Man`"}",f,{22998},Mega Man
+Acid Man,"{`"Mega ?Man`"}",f,{22999},Mega Man
+Blast Man,"{`"Mega ?Man`"}",f,{23000},Mega Man
+Dante,"{`"Devil May Cry Comics`"}",f,{23001},Devil May Cry Comics
+Dante,{Dreamwave},f,{23001},Devil May Cry Comics
+Fami,"{`"Chainsaw(-| )?Man`"}",f,{23002},Chainsaw Man
+Liquid Snake,"{`"Metal ?Gear`"}",t,{23003},Metal Gear
+Liquid Snake,"{`"MGS(\\d|\\w+)?`"}",t,{23003},Metal Gear
+Liquid Snake,"{`"MGS?\\d`"}",t,{23003},Metal Gear
+Zheng Shi-Hua,{616},t,{23004},616
+Sister Hammer,{616},f,{23004},616
+Mecha-Noctowl,{Pok(e|é)m(o|a)n},t,{23005},Pokémon
+Kotton,{Ayashimon},f,{23006},Ayashimon
+Maruo Kaido,{Ayashimon},t,{23007},Ayashimon
+Doppo Akari,{Ayashimon},t,{23008},Ayashimon
+Juju Toobootie,"{`"Everything Everywhere All At Once`"}",t,{22369},Everything Everywhere All At Once
+Shield-Captain Valerian,{(WH)?40K},t,{23009},Warhammer 40k
+Shield-Captain Valerian,{Warhammer},t,{23009},Warhammer 40k
+Fumio Kirisaki,"{`"Saitama Chainsaw Shoujo`"}",t,{23010},Saitama Chainsaw Shoujo
+Abar,"{`"Black Superman`"}",f,{23011},The First Black Superman
+Marvel Man,"{`"Pre(-| )?Crisis`"}",f,{23012},Pre-Crisis
+Captain Torrents,"{`"Pirates? of the Caribbean`",`"Adventures of Jack Sparrow`"}",f,{23013},Pirates of the Caribbean: The Adventures of Jack Sparrow
+Captain Torrents,"{POTC,`"Adventures of Jack Sparrow`"}",f,{23013},Pirates of the Caribbean: The Adventures of Jack Sparrow
+Death,{Darksiders},f,{23014},Darksiders
+Ryoko Mitsurugi,"{`"Samurai Girl`"}",t,{23015},Samurai Girl: Real Bout High School
+Ryoko Mitsurugi,"{`"Real Bout High School`"}",t,{23015},Samurai Girl: Real Bout High School
+Shizuma Kusanagi,"{`"Samurai Girl`"}",t,{23016},Samurai Girl: Real Bout High School
+Shizuma Kusanagi,"{`"Real Bout High School`"}",t,{23016},Samurai Girl: Real Bout High School
+Skye,"{`"Darkened Skye`"}",f,{23017},Darkened Skye
 Thor,"{`"Thor ?\\(GoW`"}",f,{22966},God of War
 Thor,"{`"God of War Thor`"}",f,{22966},God of War
 Thor,"{`"God of War`",Pantheons?}",f,{22966},God of War
