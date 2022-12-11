@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{3288,13282}' WHERE rt_id_array='{3288}';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hulk', 'Space Hulk', -6);
 
 ########################################
 

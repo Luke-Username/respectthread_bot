@@ -107,6 +107,293 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Black Goku'],
+'Black Goku',
+False,
+False,
+[
+    ['SSJ9K']
+],
+'SSJ9K',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zi3sah/goku_dbs_vs_black_goku_ssj9k_original_character/izpf8j0/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Phineas and Ferb (Phineas and Ferb) Draft', 'https://redd.it/df9hsm')
+add_data(['Phineas (and|&) Ferb'],
+'Phineas and Ferb',
+False,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zhw7qh/phineas_and_ferb_with_6_months_prep_time_vs/izo6nz7/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Starship Hulk (Marvel, Earth-616)', 'https://redd.it/zhqu59')
+add_data(['Starship Hulk'],
+'Starship Hulk',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zhqu59/respect_the_starship_hulk_marvel_earth616/
+
+add_data(['Smashtronaut'],
+'Smashtronaut',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zhqu59/respect_the_starship_hulk_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mr. Terrific (DCAU)', 'https://redd.it/zhqwg7')
+add_data(['(Mr\.?|Mister) Terrific'],
+'Mister Terrific',
+False,
+False,
+[
+    ['DC Animated Universe'], ['DCAU']
+],
+'DCAU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zhqwg7/respect_mr_terrific_dcau/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lyle Corley, The Clown (DC, Pre-Crisis)', 'https://redd.it/zhtjm0')
+add_data(['Lyle Corley'],
+'Lyle Corley',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zhtjm0/respect_lyle_corley_the_clown_dc_precrisis/
+
+add_data(['Lyle Corley'],
+'Lyle Corley',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zhtjm0/respect_lyle_corley_the_clown_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mary Marvel! (DC Comics, Post-Crisis)', 'https://redd.it/zi7vfd')
+add_data(['Mary Marvel'],
+'Mary Marvel',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zhtjm0/respect_lyle_corley_the_clown_dc_precrisis/
+
+add_data(['Mary Marvel'],
+'Mary Marvel',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zi7vfd/respect_mary_marvel_dc_comics_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Black Mary (Young Justice)', 'https://redd.it/zhwi2y')
+add_data(['Black Mary'],
+'Black Mary',
+False,
+False,
+[
+    ['Young Justice']
+],
+'Young Justice',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zhwi2y/respect_black_mary_young_justice/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Leonard Snart, Citizen Cold (DC Comics, Flashpoint Timeline)', 'https://redd.it/zivllc')
+add_data(['Citizen Cold'],
+'Citizen Cold',
+False,
+True,
+[
+    ['Flashpoint']
+],
+'Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zivllc/respect_leonard_snart_citizen_cold_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Priscilla (Claymore)', 'https://redd.it/zhvi08')
+add_data(['Priscilla'],
+'Priscilla',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zhvi08/respect_priscilla_claymore/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Teresa of the Faint Smile (Claymore)', 'https://redd.it/ziyyac')
+add_data(['Teresa'],
+'Teresa',
+False,
+False,
+[
+    ['Claymore']
+],
+'Claymore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ziyyac/respect_teresa_of_the_faint_smile_claymore/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Garrett (Thief)', 'https://redd.it/zipzsc')
+add_data(['Garrett'],
+'Garrett',
+False,
+False,
+[
+    ['Garrett.*Thief']
+],
+'Thief',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zipzsc/respect_garrett_thief/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Grenade Man (Mega Man)', 'https://redd.it/ziby56')
+add_data(['Grenade Man'],
+'Grenade Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ziby56/respect_grenade_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Frost Man (Mega Man)', 'https://redd.it/zicnkl')
+add_data(['Frost Man'],
+'Frost Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zicnkl/respect_frost_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Clown Man (Mega Man)', 'https://redd.it/zie7c9')
+add_data(['Clown Man'],
+'Clown Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zie7c9/respect_clown_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nitro Man (Mega Man)', 'https://redd.it/ziha6k')
+add_data(['Nitro Man'],
+'Nitro Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ziha6k/respect_nitro_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chill Man (Mega Man)', 'https://redd.it/zihduk')
+add_data(['Chill Man'],
+'Chill Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zihduk/respect_chill_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sheep Man (Mega Man)', 'https://redd.it/zihhxy')
+add_data(['Sheep Man'],
+'Sheep Man',
+False,
+True,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zihhxy/respect_sheep_man_mega_man/
 
 ########################################
 
