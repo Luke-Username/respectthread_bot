@@ -14,23 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{3288,13282}' WHERE rt_id_array='{3288}';
+########################################
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hulk', 'Space Hulk', -6);
-
 ########################################
 
-UPDATE character_name SET name='Alphonse Elric' WHERE name='Alphonse';
-
 ########################################
-
-UPDATE character SET version='{"Insomniac(verse)?s?"}' WHERE version='{"Insomniacs?"}'
-
-########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ichigo', 'Kamen Rider Ichigo', -12);
 
 ########################################
 

@@ -16153,9 +16153,8 @@ Ultron,"{`"Final Form`"}",t,{2018},616
 Superman,"{`"Super(-| )?man ?\\(Justice League`"}",f,{130},DCEU
 Hit,"{Buu,`"vs\\.? Hit`"}",f,{3295},Dragon Ball
 Hit,"{Buu,`"Hit vs`"}",f,{3295},Dragon Ball
-Goku,"{`"Base Goku`"}",t,{3288},Dragon Ball
-Goku,"{`"SSJ\\d?`"}",t,{3288},Dragon Ball
 Scarlet Witch,{WandaVision},f,{270},MCU
+Goku,"{`"Base Goku`"}",t,"{3288,13282}",Dragon Ball
 Wanda,{WandaVision},f,{270},MCU
 Kushala,{Marvel},f,{22236},616
 America Chavez,"{`"Marvel Cinematic Universe`"}",f,{22237},MCU
@@ -16172,6 +16171,7 @@ Sun Wukong,"{`"Xi Xing Ji`"}",f,{22243},Xi Xing Ji
 Echidna,"{`"Re:? ?Zero`"}",f,{22244},Re:Zero
 Satella,"{`"Re:? ?Zero`"}",t,{22245},Re:Zero
 Izou,"{`"One ?Piece?`"}",f,{22246},One Piece
+Goku,"{`"SSJ\\d?`"}",t,"{3288,13282}",Dragon Ball
 Saint-14,{Destiny},t,{5041},Destiny
 Sjur Eido,{Destiny},t,{5042},Destiny
 Warpriest,{Destiny},f,{5043},Destiny
@@ -20968,6 +20968,25 @@ Reva,{SW},f,{22447},Star Wars
 Reva,"{`"Third Sister`"}",f,{22447},Star Wars
 Knull,{616},t,"{22680,2313}",616
 Dante,"{`"Dante'?s Infern(o|al)`"}",f,{},Dante's Inferno
+Black Goku,{SSJ9K},f,{},SSJ9K
+Phineas and Ferb,{default},t,{23018},""
+Starship Hulk,{616},f,{23019},616
+Smashtronaut,{616},t,{23019},616
+Mister Terrific,"{`"DC Animated Universe`"}",f,{23020},DCAU
+Mister Terrific,{DCAU},f,{23020},DCAU
+Lyle Corley,"{`"Pre(-| )?Crisis`"}",f,{23021},Pre-Crisis
+Lyle Corley,"{`"\\(DC( Comics)?\\)`"}",t,{23021},DC
+Lyle Corley,"{`"\\[DC( Comics)?\\]`"}",t,{23021},DC
+Mary Marvel,{PC},f,{23022},Post-Crisis
+Mary Marvel,"{`"Posts?(-| )?C(risis)?`"}",f,{23022},Post-Crisis
+Mary Marvel,"{`"New(-| )Earth`"}",f,{23022},Post-Crisis
+Mary Marvel,"{`"\\(DC( Comics)?\\)`"}",t,{23022},DC
+Mary Marvel,"{`"\\[DC( Comics)?\\]`"}",t,{23022},DC
+Black Mary,"{`"Young Justice`"}",f,{23023},Young Justice
+Citizen Cold,{Flashpoint},t,{23024},Flashpoint
+Priscilla,{Claymore},f,{23025},Claymore
+Teresa,{Claymore},f,{23026},Claymore
+Garrett,{Garrett.*Thief},f,{23027},Thief
 Preston J. Cole,{Halo},t,{5813},Halo
 Rtas 'Vadum,{Halo},t,{5814},Halo
 Tem'Bhetek,{Halo},t,{5815},Halo
@@ -28687,3 +28706,22 @@ Thor,"{`"Thor ?\\(GoW`"}",f,{22966},God of War
 Thor,"{`"God of War Thor`"}",f,{22966},God of War
 Thor,"{`"God of War`",Pantheons?}",f,{22966},God of War
 Thor,"{`"God of War`"}",f,{22966},God of War
+Grenade Man,"{`"Mega ?Man`"}",f,{23028},Mega Man
+Frost Man,"{`"Mega ?Man`"}",f,{23029},Mega Man
+Clown Man,"{`"Mega ?Man`"}",f,{23030},Mega Man
+Nitro Man,"{`"Mega ?Man`"}",f,{23031},Mega Man
+Chill Man,"{`"Mega ?Man`"}",f,{23032},Mega Man
+Sheep Man,"{`"Mega ?Man`"}",t,{23033},Mega Man
+Strike Man,"{`"Mega ?Man`"}",f,{23034},Mega Man
+Commando Man,"{`"Mega ?Man`"}",f,{23035},Mega Man
+Blade Man,"{`"Mega ?Man`"}",f,{23036},Mega Man
+Wood Man,"{`"Mega ?Man`"}",t,{23037},Mega Man
+Top Man,"{`"Mega ?Man`"}",f,{23038},Mega Man
+Hard Man,"{`"Mega ?Man`"}",f,{23039},Mega Man
+Zero.EXE,"{`"Network Transmission`"}",t,{23040},Mega Man Battle Network
+Zero.EXE,"{`"Battle Network`"}",t,{23040},Mega Man Battle Network
+Ryokugyu,"{`"One ?Piece?`"}",t,{23041},One Piece
+Ryokugyu,{Admirals?},t,{23041},One Piece
+Ryokugyu,{Logia},t,{23041},One Piece
+Thirteen,"{`"Young Justice`"}",f,{23042},Young Justice
+Green Arrow,"{`"Young Justice`"}",f,{23043},Young Justice
