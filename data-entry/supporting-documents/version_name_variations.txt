@@ -3135,9 +3135,9 @@ Spider-Man: Into the Spider-verse
 
 Spider-Man PS4
 	Version
-		'{"Insomniac"}', '{"Spider(-| )?Man", "PS4"}', '{"1048"}'
+		['Insomniac(verse)?s?'], ['Spider(-| )?Man', 'PS4'], ['1048']
 	If character name == Spider-Man
-		'{"PS4"}'
+		['PS4']
 	Displayed Version Name
 		"Insomniac''s Spider-Man"
 

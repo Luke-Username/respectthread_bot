@@ -22,9 +22,15 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Hulk', 'Space Hu
 
 ########################################
 
-########################################
+UPDATE character_name SET name='Alphonse Elric' WHERE name='Alphonse';
 
 ########################################
+
+UPDATE character SET version='{"Insomniac(verse)?s?"}' WHERE version='{"Insomniacs?"}'
+
+########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Ichigo', 'Kamen Rider Ichigo', -12);
 
 ########################################
 

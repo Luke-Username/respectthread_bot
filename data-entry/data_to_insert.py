@@ -397,6 +397,156 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Strike Man (Mega Man)', 'https://redd.it/zjfk62')
+add_data(['Strike Man'],
+'Strike Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zjfk62/respect_strike_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Commando Man (Mega Man)', 'https://redd.it/zjgjfn')
+add_data(['Commando Man'],
+'Commando Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Blade Man (Mega Man)', 'https://redd.it/zjgo76')
+add_data(['Blade Man'],
+'Blade Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zjgo76/respect_blade_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wood Man (Mega Man)', 'https://redd.it/zjjpgv')
+add_data(['Wood Man'],
+'Wood Man',
+False,
+True,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zjjpgv/respect_wood_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Top Man (Mega Man)', 'https://redd.it/zjjpji')
+add_data(['Top Man'],
+'Top Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zjjpji/respect_top_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hard Man (Mega Man)', 'https://redd.it/zjjq2p')
+add_data(['Hard Man'],
+'Hard Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zjjpji/respect_top_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zero.EXE (Mega Man Network Transmission)', 'https://redd.it/zj8b9d')
+add_data(['Zero\.EXE'],
+'Zero.EXE',
+False,
+True,
+[
+    ['Network Transmission'], ['Battle Network']
+],
+'Mega Man Battle Network',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zj8b9d/respect_zeroexe_mega_man_network_transmission/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ryokugyu! (One Piece)', 'https://redd.it/zjkqfz')
+add_data(['Ryokugyu'],
+'Ryokugyu',
+False,
+True,
+[
+    ['One ?Piece?'], ['Admirals?'], ['Logia']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zjkqfz/respect_ryokugyu_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thirteen (Young Justice)', 'https://redd.it/zj7rlu')
+add_data(['Thirteen'],
+'Thirteen',
+False,
+False,
+[
+    ['Young Justice']
+],
+'Young Justice',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zj7rlu/respect_thirteen_young_justice/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Green Arrow (Young Justice)', 'https://redd.it/zjlpm9')
+add_data(['Green Arrow'],
+'Green Arrow',
+False,
+False,
+[
+    ['Young Justice']
+],
+'Young Justice',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zjlpm9/respect_green_arrow_young_justice/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
