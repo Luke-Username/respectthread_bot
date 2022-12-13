@@ -14,9 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Hank J. Wimbleton! (Madness Combat)', 'https://redd.it/zk9vha'); SELECT * FROM respectthread WHERE link='https://redd.it/zk9vha';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Hank J. Wimbleton';
-
 ########################################
 
 ########################################
