@@ -259,6 +259,51 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Eustass Kid! (One Piece)', 'https://redd.it/zl8lik')
+add_data(['Eustass Kid'],
+'Eustass Kid',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zl8lik/respect_eustass_kid_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kamiizumi Ise-no-Kami Nobutsuna (Tenkaichi)', 'https://redd.it/zlacmx')
+add_data(['Kamiizumi'],
+'Kamiizumi',
+False,
+False,
+[
+    ['Tenkaichi']
+],
+'Tenkaichi',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zlacmx/respect_kamiizumi_isenokami_nobutsuna_tenkaichi/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hino Choko (Tenkaichi)', 'https://redd.it/zlaczi')
+add_data(['Hino Choko'],
+'Hino Choko',
+False,
+True,
+[
+    ['Tenkaichi']
+],
+'Tenkaichi',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zlaczi/respect_hino_choko_tenkaichi/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
