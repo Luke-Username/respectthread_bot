@@ -137,6 +137,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The UNSC Infinity (Halo)', 'https://redd.it/zlwvmy')
+add_data(['UNSC Infinity'],
+'UNSC Infinity',
+False,
+True,
+[
+    ['Halo']
+],
+'Halo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zlwvmy/respect_the_unsc_infinity_halo/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
