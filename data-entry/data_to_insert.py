@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Mister Mind! (DC Comics, Post-Crisis)', 'https://redd.it/zluzjb')
+add_data(['Mister Mind'],
+'Mister Mind',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zluzjb/respect_mister_mind_dc_comics_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jennifer Walters, Grey She-Hulk (Marvel, 616)', 'https://redd.it/zlvd9o')
+add_data(['Gr(e|a)y She(-| )?Hulk'],
+'Grey She-Hulk',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zlvd9o/respect_jennifer_walters_grey_shehulk_marvel_616/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
