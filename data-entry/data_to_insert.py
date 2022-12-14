@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6465, 'Respect: The God-Emperor of Mankind (Warhammer 40k)', 'https://redd.it/zm1scc')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Mister Mind! (DC Comics, Post-Crisis)', 'https://redd.it/zluzjb')
 add_data(['Mister Mind'],
 'Mister Mind',
