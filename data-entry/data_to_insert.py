@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Mega ?man\.EXE'],
+'MegaMan.EXE',
+False,
+True,
+[
+    ['Manga']
+],
+'',
+'{4854}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zlddkf/could_mega_manexe_mega_man_successfully_destroy/j04q2fn/?context=3
+
+########################################
+
 id = get_rt_id(cur, "Respect Spider-Man (Spider-Man ''67)", 'https://redd.it/zkegzu')
 add_data(['Spider(-| )?Mans?'],
 'Spider-Man',
