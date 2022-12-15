@@ -111,6 +111,20 @@ update_respectthread(cur, 6465, 'Respect: The God-Emperor of Mankind (Warhammer 
 
 ########################################
 
+add_data(['Nathan Drake'],
+'Nathan Drake',
+False,
+True,
+[
+    ['Uncharted']
+],
+'Uncharted',
+'{5743}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zm977n/nathan_drake_uncharted_vs_john_mcclane_die_hard/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Mister Mind! (DC Comics, Post-Crisis)', 'https://redd.it/zluzjb')
 add_data(['Mister Mind'],
 'Mister Mind',
@@ -153,6 +167,36 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/zlwvmy/respect_the_unsc_infinity_halo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Crash Man (Mega Man)', 'https://redd.it/zm8aux')
+add_data(['Crash Man'],
+'Crash Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zm8aux/respect_crash_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bubble Man (Mega Man)', 'https://redd.it/zm8vkj')
+add_data(['Bubble Man'],
+'Bubble Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zm8vkj/respect_bubble_man_mega_man/
 
 ########################################
 

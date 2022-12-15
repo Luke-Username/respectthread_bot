@@ -14,9 +14,16 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Wolverine', 'The Wolverine', -4);
 
 ########################################
+
+DELETE FROM character WHERE default_name='Fujin' AND version='{"MK\\d*"}';
+DELETE FROM character WHERE default_name='Rain' AND version='{"MK"}';
+
+########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='Stocking';
 
 ########################################
 
