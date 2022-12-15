@@ -107,6 +107,68 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 987, 'Respect Goultard (Wakfu)', 'https://redd.it/zmdbpt')
+
+########################################
+
+add_data(['Cyclops'],
+'Cyclops',
+False,
+False,
+[
+    ['Movie Cyclops', 'X(-| )Men']
+],
+'FOX',
+'{142}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Randall (Telltale''s The Walking Dead: Michonne)", 'https://redd.it/zmciwc')
+add_data(['Randall'],
+'Randall',
+False,
+False,
+[
+    ['Walking Dead', 'Michonne']
+],
+'The Walking Dead: Michonne',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zmciwc/respect_randall_telltales_the_walking_dead/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect God (Answer to Job)', 'https://redd.it/zmf43f')
+add_data(['God'],
+'God',
+False,
+False,
+[
+    ['Answer to Job']
+],
+'Answer to Job',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zmf43f/respect_god_answer_to_job/
+
+########################################
+
+id = get_rt_id(cur, 'Respect David Martinez! (Cyberpunk: Edgerunners)', 'https://redd.it/zmfhi2')
+add_data(['David Martinez'],
+'David Martinez',
+False,
+True,
+[
+    ['Cyberpunk'], ['Edgerunners']
+],
+'Cyberpunk',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
