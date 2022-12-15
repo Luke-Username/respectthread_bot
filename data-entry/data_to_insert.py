@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 987, 'Respect Goultard (Wakfu)', 'https://redd.it/zmdbpt')
+update_respectthread(cur, 4045, 'Respect Trafalgar Law, The Surgeon of Death! (One Piece)', 'https://redd.it/zmdbpt')
 
 ########################################
 
