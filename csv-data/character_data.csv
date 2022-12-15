@@ -6256,7 +6256,6 @@ Supergirl,{Injustice(verse)?},f,{7480},Injustice
 Hong Xiao-Hu,{Kengan(verse)?},t,{7481},Kengan Asura
 Ganondorf,"{`"Subspace Emissary`"}",f,{7482},The Subspace Emissary's Worlds Conquest
 Rain,"{`"Mortal Kombat`"}",f,"{5305,7483}",Mortal Kombat
-Rain,{MK},f,"{5305,7483}",Mortal Kombat
 Infinity Gauntlet,{616},t,{7484},616
 Infinity Gauntlet,{comics?},t,{7484},616
 Meow-Meow,"{`"Magical Girl Raising Project`"}",f,{7485},Magical Girl Raising Project
@@ -17536,7 +17535,6 @@ Blaze,"{`"Blaze ?\\(Mortal Kombat`"}",f,{5263},Mortal Kombat
 Blaze,"{`"Blaze ?\\(MK\\d*`"}",f,{5263},Mortal Kombat
 Blaze,"{`"Sh(ao|oa) K(ah|ha)n`"}",f,{5263},Mortal Kombat
 Fujin,"{`"Mortal Kombat`"}",f,{5277},Mortal Kombat
-Fujin,"{`"MK\\d*`"}",f,{5277},Mortal Kombat
 Fujin,"{`"Shao Khan`"}",f,{5277},Mortal Kombat
 Daegon,"{`"Mortal Kombat`"}",f,{5268},Mortal Kombat
 Daegon,{MKd*},f,{5268},Mortal Kombat
@@ -18623,8 +18621,6 @@ Panty Anarchy,"{`"Panty (&|and) Stocking`"}",t,{4124},Panty & Stocking
 Stocking Anarchy,"{`"Panty (&|and) Stocking`"}",t,{4124},Panty & Stocking
 Panty,{PSG},f,{4124},Panty & Stocking
 Panty,{Scanty|Kneesocks},f,{4124},Panty & Stocking
-Stocking,{PSG},t,{4124},Panty & Stocking
-Stocking,{Scanty|Kneesocks},t,{4124},Panty & Stocking
 Scanty and Kneesocks,"{`"Panty (&|and) Stocking`"}",t,{4125},Panty & Stocking
 Scanty,{Panty|Stocking},f,{4125},Panty & Stocking
 Scanty,{PSG},f,{4125},Panty & Stocking
@@ -18645,6 +18641,8 @@ M'Baku,"{`"Marvel Cinematic Universe`"}",f,{13484},MCU
 M'Baku,{MCU},f,{13484},MCU
 M'Baku,{199999},f,{13484},MCU
 M'Baku,"{`"Infinity War`"}",f,{13484},MCU
+Stocking,{PSG},f,{4124},Panty & Stocking
+Stocking,{Scanty|Kneesocks},f,{4124},Panty & Stocking
 Jack Krauser,"{`"RE ?\\d`"}",t,{5370},Resident Evil
 Joe Baker,"{`"Resident Evil`"}",t,{5371},Resident Evil
 Joe Baker,"{`"RE ?\\d`"}",t,{5371},Resident Evil
@@ -28752,3 +28750,11 @@ Agent Nightfall,"{`"Spy x Family`"}",t,{23064},Spy x Family
 Fiona Frost,"{`"Spy x Family`"}",t,{23064},Spy x Family
 Kamiizumi,{Tenkaichi},f,{23066},Tenkaichi
 Hino Choko,{Tenkaichi},t,{23067},Tenkaichi
+Nathan Drake,{Uncharted},t,{5743},Uncharted
+Mister Mind,{PC},f,{23068},Post-Crisis
+Mister Mind,"{`"Posts?(-| )?C(risis)?`"}",f,{23068},Post-Crisis
+Mister Mind,"{`"New(-| )Earth`"}",f,{23068},Post-Crisis
+Grey She-Hulk,{616},t,{23069},616
+UNSC Infinity,{Halo},t,{23070},Halo
+Crash Man,"{`"Mega ?Man`"}",f,{23071},Mega Man
+Bubble Man,"{`"Mega ?Man`"}",f,{23072},Mega Man
