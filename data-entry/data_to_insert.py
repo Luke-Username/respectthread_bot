@@ -107,6 +107,17 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Scaler'],
+'Scaler',
+False,
+False,
+[
+    ['Scaler ?\(Scaler']
+],
+'',
+'{9319}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/znm605/which_countrys_military_is_the_strongest_based/
 
 ########################################
 
