@@ -214,6 +214,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Monkey D. Dragon (One Piece)', 'https://redd.it/zn564q')
+add_data(['Monkey D\.? Dragon'],
+'Monkey D. Dragon',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zn564q/respect_monkey_d_dragon_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Artie, the Strongest Man... in the World! (The Adventures of Pete & Pete)', 'https://redd.it/znafcc')
+add_data(['Artie'],
+'Artie',
+False,
+False,
+[
+    ['Adventures of Pete']
+],
+'The Adventures of Pete & Pete',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/znafcc/respect_artie_the_strongest_man_in_the_world_the/
+
+########################################
+
+id = get_rt_id(cur, 'RESPECT STRONG MAD (Homestar Runner)', 'https://redd.it/znbrlr')
+add_data(['Strong Bad'],
+'Strong Bad',
+False,
+True,
+[
+    ['Homestar ?Runner']
+],
+'Homestar Runner',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
