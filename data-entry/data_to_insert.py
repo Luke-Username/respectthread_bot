@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 20970, 'Respect Yor Forger, the Thorn Princess! (Spy x Family)', 'https://redd.it/znnlk2')
+
+########################################
+
 add_data(['Scaler'],
 'Scaler',
 False,
@@ -118,6 +122,20 @@ False,
 '{9319}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/znm605/which_countrys_military_is_the_strongest_based/
+
+########################################
+
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['\(Marvel\)']
+],
+'Marvel',
+'{1981}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/znq1we/kratosgod_of_war_asuraasuras_wrath_vs_thor/j0ikeck/?context=3
 
 ########################################
 
@@ -163,6 +181,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/znjzh3/respect_black_adam_young_justice/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Razorbeast (Transformers Beast Wars) [IDW, 2006]', 'https://redd.it/zno8qr')
+add_data(['Razorbeast'],
+'Razorbeast',
+False,
+True,
+[
+    ['Transformers'], ['IDW']
+],
+'Transformers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zno8qr/respect_razorbeast_transformers_beast_wars_idw/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thunderwing (Transformers) [IDW Hasbroverse]', 'https://redd.it/zns5t3')
+add_data(['Thunderwing'],
+'Thunderwing',
+False,
+False,
+[
+    ['IDW']
+],
+'IDW',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zns5t3/respect_thunderwing_transformers_idw_hasbroverse/
 
 ########################################
 
