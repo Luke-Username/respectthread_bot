@@ -121,6 +121,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Michonne Hawthorne (The Walking Dead)', 'https://redd.it/zne559')
+add_data(['Michonne Hawthorne'],
+'Michonne Hawthorne',
+False,
+True,
+[
+    ['Wa(lk|kl)ing Dead']
+],
+'The Walking Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zne559/respect_michonne_hawthorne_the_walking_dead/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lor-Zod (Young Justice)', 'https://redd.it/zni8oi')
+add_data(['Lor(-| )Zod'],
+'Lor-Zod',
+False,
+False,
+[
+    ['Young Justice']
+],
+'Young Justice',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Black Adam! (Young Justice)', 'https://redd.it/znjzh3')
+add_data(['Black Adam'],
+'Black Adam',
+False,
+False,
+[
+    ['Young Justice']
+],
+'Young Justice',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/znjzh3/respect_black_adam_young_justice/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
