@@ -172,6 +172,48 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect General Zod (DC Comics, New 52/Rebirth)', 'https://redd.it/zmy47v')
+add_data(['General Zod'],
+'General Zod',
+False,
+False,
+[
+    ['New(-| )?52'], ['Nu?-?52'], ['Post(-| )52'], ['Prime(-| )Earth'], ['Rebirth']
+],
+'New 52 / Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zmy47v/respect_general_zod_dc_comics_new_52rebirth/
+
+add_data(['General Zod'],
+'General Zod',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}, 22811'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zmy47v/respect_general_zod_dc_comics_new_52rebirth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Snake Man (Mega Man)', 'https://redd.it/zmzk0z')
+add_data(['Snake Man'],
+'Snake Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zmzk0z/respect_snake_man_mega_man/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

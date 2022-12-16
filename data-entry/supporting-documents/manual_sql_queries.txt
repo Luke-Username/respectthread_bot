@@ -18,6 +18,8 @@ UPDATE character SET version={"X(-| )?Men","movies?"}' WHERE version='{"X-Men","
 
 ########################################
 
+DELETE FROM character WHERE default_name='General Zod' AND version='{"New(-| )Earth"}';
+
 ########################################
 
 ########################################
