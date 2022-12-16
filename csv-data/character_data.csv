@@ -691,7 +691,6 @@ Cyclops,{FOX},f,{142},FOX
 Cyclops,"{`"X-Men Cinematic Universe`"}",f,{142},FOX
 Cyclops,{XCU},f,{142},FOX
 Cyclops,"{X-Men,films}",f,{142},FOX
-Cyclops,"{X-Men,movies}",f,{142},FOX
 Deadpool,{FOX},f,{143},FOX films
 Deadpool,"{`"X-Men Cinematic Universe`"}",f,{143},FOX films
 Deadpool,{XCU},f,{143},FOX films
@@ -28426,7 +28425,6 @@ Termite,"{`"The Boys`"}",f,{22807},The Boys
 Miria,{Claymore},f,{22808},Claymore
 Meno,"{`"Sasuke Retsuden`"}",f,{22809},Sasuke Retsuden
 Negative Superman,"{`"Pre(-| )?Crisis`"}",t,{22810},Pre-Crisis
-General Zod,"{`"New(-| )Earth`"}",f,{22811},Post-Crisis
 General Zod,{Avruskin},f,{22523},Avruskin
 Avengers,"{`"2012 Avengers`"}",f,"{233,247,237,264,236,244,235,270,268,242,271,256}",MCU
 Homer,{Simpsons},f,{20516},The Simpsons
@@ -28758,3 +28756,20 @@ Grey She-Hulk,{616},t,{23069},616
 UNSC Infinity,{Halo},t,{23070},Halo
 Crash Man,"{`"Mega ?Man`"}",f,{23071},Mega Man
 Bubble Man,"{`"Mega ?Man`"}",f,{23072},Mega Man
+Cyclops,"{`"X(-| )?Men`",movies?}",f,{142},FOX
+Cyclops,"{`"Movie Cyclops`",`"X(-| )Men`"}",f,{142},FOX
+Randall,"{`"Walking Dead`",Michonne}",f,{23073},The Walking Dead: Michonne
+God,"{`"Answer to Job`"}",f,{23074},Answer to Job
+David Martinez,{Cyberpunk},t,{23075},Cyberpunk
+David Martinez,{Edgerunners},t,{23075},Cyberpunk
+General Zod,"{`"New(-| )?52`"}",f,{23076},New 52 / Rebirth
+General Zod,{Nu?-?52},f,{23076},New 52 / Rebirth
+General Zod,"{`"Post(-| )52`"}",f,{23076},New 52 / Rebirth
+General Zod,"{`"Prime(-| )Earth`"}",f,{23076},New 52 / Rebirth
+General Zod,{Rebirth},f,{23076},New 52 / Rebirth
+General Zod,"{`"\\(DC( Comics)?\\)`"}",t,"{23076,22811}",DC
+General Zod,"{`"\\[DC( Comics)?\\]`"}",t,"{23076,22811}",DC
+Snake Man,"{`"Mega ?Man`"}",f,{23077},Mega Man
+Monkey D. Dragon,"{`"One ?Piece?`"}",t,{23078},One Piece
+Artie,"{`"Adventures of Pete`"}",f,{23079},The Adventures of Pete & Pete
+Strong Bad,"{`"Homestar ?Runner`"}",t,{23080},Homestar Runner

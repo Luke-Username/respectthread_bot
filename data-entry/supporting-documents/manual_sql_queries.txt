@@ -14,11 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version={"X(-| )?Men","movies?"}' WHERE version='{"X-Men","movies"}';
-
 ########################################
-
-DELETE FROM character WHERE default_name='General Zod' AND version='{"New(-| )Earth"}';
 
 ########################################
 
