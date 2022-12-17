@@ -139,6 +139,20 @@ False,
 
 ########################################
 
+add_data(['T\.?(-| )Rex'],
+'Tyrannosaurus Rex',
+False,
+False,
+[
+    ['Grimlock']
+],
+'Grimlock',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/znvvtz/grimlock_transformers_vs_beast_titan_aot/j0jfok6/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Michonne Hawthorne (The Walking Dead)', 'https://redd.it/zne559')
 add_data(['Michonne Hawthorne'],
 'Michonne Hawthorne',
@@ -211,6 +225,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/zns5t3/respect_thunderwing_transformers_idw_hasbroverse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bojack (Dragon Ball Z: Bojack Unbound)', 'https://redd.it/znu8u1')
+add_data(['Bojack'],
+'Bojack',
+False,
+False,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)'], ['Broly'], ['Bojack Unbound'], ['Perfect cell'], ['Saiyan'], ['Tyrant']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/znu8u1/respect_bojack_dragon_ball_z_bojack_unbound/
 
 ########################################
 
