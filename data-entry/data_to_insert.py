@@ -243,6 +243,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Fallen (Transformers) [Dreamwave G1]', 'https://redd.it/znycw2')
+add_data(['Fallen '],
+'Fallen',
+False,
+False,
+[
+    ['Transformers', 'Dreamwave']
+],
+'Dreamwave',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/znycw2/respect_the_fallen_transformers_dreamwave_g1/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
