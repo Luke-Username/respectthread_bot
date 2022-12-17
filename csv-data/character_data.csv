@@ -11907,8 +11907,6 @@ Kirby,{Yarn},f,{9315},Kirby's Epic Yarn
 Ball Kirby,{Kirby},t,{9316},""
 Sakuya Izayoi,{Touhou},t,{9317},Touhou
 Tewi Inaba,{Touhou},t,{9318},Touhou
-Scaler,{Scaler},t,{9319},""
-Scaler,{Bobby},t,{9319},""
 Shin,"{`"Children Who Chase Lost Voices`"}",f,{4711},Children Who Chase Lost Voices
 Shun,"{`"Children Who Chase Lost Voices`"}",f,{4711},Children Who Chase Lost Voices
 Kenshi,"{`"(Mortal Kombat|MK):? Legacy`"}",f,{9320},Mortal Kombat: Legacy
@@ -28337,9 +28335,6 @@ Titania,{MCU},f,{22745},MCU
 Scrappy-Doo,"{`"Scooby-Doo and Scrappy(-| )Doo`",Game}",f,{22746},Scooby-Doo and Scrappy-Doo
 Afro Samurai,{default},t,{4663},""
 Chainsaw Man,"{`"vs\\.? Chainsaw(-| )?Man`"}",f,{4709},""
-Doctor Fate,"{`"DC Extended Universe`"}",f,{},DCEU
-Doctor Fate,"{`"DC ?(E|C)U`"}",f,{},DCEU
-Doctor Fate,"{`"DC Cinematic Universe`"}",f,{},DCEU
 Doctor Strange,{MoM.*Strange},f,{13351},MCU
 Doctor Strange,{Strange.*MoM},f,{13351},MCU
 Maniac Harry,"{`"Maniac of New York`"}",t,{22747},Maniac of New York
@@ -28387,6 +28382,9 @@ Superboy,"{`"\\(DC( Comics)?\\)`"}",f,{1762},DC
 Superboy,"{`"\\[DC( Comics)?\\]`"}",f,{1762},DC
 Gawr Gura,"{`"Myth'?s Bad Ending`"}",f,{22784},Myth's Bad Ending
 DJ Lyka,{Fortnite},t,{22785},Fortnite
+Doctor Fate,"{`"DC Extended Universe`"}",f,{23081},DCEU
+Doctor Fate,"{`"DC ?(E|C)U`"}",f,{23081},DCEU
+Doctor Fate,"{`"DC Cinematic Universe`"}",f,{23081},DCEU
 Ash Williams,{Fortnite},f,{22786},Fortnite
 SCP-6750-1,"{`"Sam Hain`"}",f,{22787},""
 Darkhold,{616},t,{22788},616
@@ -28773,3 +28771,23 @@ Snake Man,"{`"Mega ?Man`"}",f,{23077},Mega Man
 Monkey D. Dragon,"{`"One ?Piece?`"}",t,{23078},One Piece
 Artie,"{`"Adventures of Pete`"}",f,{23079},The Adventures of Pete & Pete
 Strong Bad,"{`"Homestar ?Runner`"}",t,{23080},Homestar Runner
+Scaler,"{`"Scaler ?\\(Scaler`"}",f,{9319},""
+Thor,"{`"\\(Marvel\\)`"}",f,{1981},Marvel
+Tyrannosaurus Rex,{Grimlock},f,{},Grimlock
+Michonne Hawthorne,"{`"Wa(lk|kl)ing Dead`"}",t,{23082},The Walking Dead
+Lor-Zod,"{`"Young Justice`"}",f,{23083},Young Justice
+Black Adam,"{`"Young Justice`"}",f,{23084},Young Justice
+Razorbeast,{Transformers},t,{23085},Transformers
+Razorbeast,{IDW},t,{23085},Transformers
+Thunderwing,{IDW},f,{23086},IDW
+Bojack,"{`"Dragon ?Ball`"}",f,{23087},Dragon Ball
+Bojack,{DB(Z|S)},f,{23087},Dragon Ball
+Bojack,{Broly},f,{23087},Dragon Ball
+Bojack,"{`"Bojack Unbound`"}",f,{23087},Dragon Ball
+Bojack,"{`"Perfect cell`"}",f,{23087},Dragon Ball
+Bojack,{Saiyan},f,{23087},Dragon Ball
+Bojack,{Tyrant},f,{23087},Dragon Ball
+Fallen,"{Transformers,Dreamwave}",f,{23088},Dreamwave
+Stinkoman,"{`"Homestar Runner`"}",t,{23089},Homestar Runner
+TOTALLY REAL Straw Hat Pirates,"{`"One ?Piece?`"}",t,{23090},One Piece
+Gol D. Roger,"{`"One ?Piece?`"}",t,{23091},One Piece
