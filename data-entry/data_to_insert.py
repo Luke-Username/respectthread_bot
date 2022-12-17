@@ -258,6 +258,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Stinkoman! (Homestar Runner)', 'https://redd.it/zo4uh9')
+add_data(['Stinkoman'],
+'Stinkoman',
+False,
+True,
+[
+    ['Homestar Runner']
+],
+'Homestar Runner',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zo4uh9/respect_stinkoman_homestar_runner/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the TOTALLY REAL Straw Hat Pirates! (One Piece)', 'https://redd.it/zo84bt')
+add_data(['TOTALLY REAL Straw Hat Pirates'],
+'TOTALLY REAL Straw Hat Pirates',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zo84bt/respect_the_totally_real_straw_hat_pirates_one/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gol D. Roger, the Pirate King! (One Piece)', 'https://redd.it/zo8a96')
+add_data(['Gol D\.? Roger'],
+'Gol D. Roger',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zo8a96/respect_gol_d_roger_the_pirate_king_one_piece/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
