@@ -107,6 +107,53 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4935, 'Respect Harlock (and Miime) [Space Pirate Captain Harlock Franchise]', 'https://redd.it/6aixeb')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doskoi! (Dragon Ball Z: Bojack Unbound)', 'https://redd.it/zobwm7')
+add_data(['Doskoi'],
+'Doskoi',
+False,
+False,
+[
+    ['Dragon ?Ball']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zobwm7/respect_doskoi_dragon_ball_z_bojack_unbound/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Clodzilla (Dark Horse Insane)', 'https://redd.it/zoedjl')
+add_data(['Clodzilla'],
+'Clodzilla',
+False,
+False,
+[
+    ['Insane'], ['Dark Horse']
+],
+'Insane',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zoedjl/respect_clodzilla_dark_horse_insane/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Future Gohan (Dragon Ball Franchise)', 'https://redd.it/zojnqz')
+add_data(['Future Gohan'],
+'Future Gohan',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zojnqz/respect_future_gohan_dragon_ball_franchise/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
