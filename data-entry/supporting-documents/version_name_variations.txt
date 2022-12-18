@@ -3767,6 +3767,12 @@ X-Men
 	Displayed Version Name
 		?
 
+X-Men: The Animated Series
+	Version
+		['X(-| )?Men:? The Animated Series'], ['X(-| )?Men', '1992']
+	Displayed Version Name
+		"X-Men, 1992"
+
 X-Ray and Vav
 	Version
 		'{"X(-| )Ray (and|&) Vav"}'

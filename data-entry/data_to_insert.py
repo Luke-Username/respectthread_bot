@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect: Silver Samurai! (X-Men The Animated Series, 1992)', 'https://redd.it/zp35un')
+add_data(['Silver Samurai'],
+'Silver Samurai',
+False,
+False,
+[
+    ['X(-| )?Men:? The Animated Series'], ['X(-| )?Men', '1992']
+],
+'X-Men, 1992',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zp35un/respect_silver_samurai_xmen_the_animated_series/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
