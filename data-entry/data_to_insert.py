@@ -200,6 +200,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Godzilla (Trendmasters''® Godzilla: King of the Monsters: Monster Island Unleashed)", 'https://redd.it/zopy1u')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Trendmasters']
+],
+'Trendmasters',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zopy1u/respect_godzilla_trendmasters_godzilla_king_of/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
