@@ -111,6 +111,20 @@ update_respectthread(cur, 4935, 'Respect Harlock (and Miime) [Space Pirate Capta
 
 ########################################
 
+add_data(['Luck'],
+'Luck',
+False,
+False,
+[
+    ['Luck ?\(BC\)']
+],
+'Black Clover',
+'{3090}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zonw4a/sanji_op_vs_luck_bc/j0nyiam/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Doskoi! (Dragon Ball Z: Bojack Unbound)', 'https://redd.it/zobwm7')
 add_data(['Doskoi'],
 'Doskoi',
