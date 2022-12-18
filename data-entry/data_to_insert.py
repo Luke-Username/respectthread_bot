@@ -156,6 +156,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Italian Spiderman! (Italian Spiderman)', 'https://redd.it/zomay4')
+add_data(['Italian Spider(-| )?Mans?'],
+'Italian Spiderman',
+False,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zomay4/respect_italian_spiderman_italian_spiderman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nix Uotan, the Superjudge! (DC Comics)', 'https://redd.it/zojx07')
+add_data(['Nix Uotan'],
+'Nix Uotan',
+False,
+True,
+[
+    ['DC Comics']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zojx07/respect_nix_uotan_the_superjudge_dc_comics/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
