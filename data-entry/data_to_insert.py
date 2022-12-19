@@ -240,6 +240,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Fu Xiaoli (Rakudai Kishi No Cavalry)', 'https://redd.it/zpxryt')
+add_data(['Fu Xiaoli'],
+'Fu Xiaoli',
+False,
+True,
+[
+    ['Chivalry of a Failed Knight'], ['Rakudai']
+],
+'Chivalry of a Failed Knight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zpxryt/respect_fu_xiaoli_rakudai_kishi_no_cavalry/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
