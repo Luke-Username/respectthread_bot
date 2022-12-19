@@ -151,6 +151,81 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Shard (Sonic the Hedgehog) [Archie Comics]', 'https://redd.it/zpfxje')
+add_data(['Shard'],
+'Shard',
+False,
+False,
+[
+    ['Sonic the Hedgehog'], ['Metal Sonic'], ['Mecha Sonic']
+],
+'Sonic the Hedgehog',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zpfxje/respect_shard_sonic_the_hedgehog_archie_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wednesday Addams (Wednesday)', 'https://redd.it/zpm4x2')
+add_data(['Wednesday Addams'],
+'Wednesday Addams',
+False,
+True,
+[
+    ['\(Wednesday\)']
+],
+'Wednesday',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Enid Sinclair (Wednesday)', 'https://redd.it/zpo5sb')
+add_data(['Enid Sinclair'],
+'Enid Sinclair',
+False,
+True,
+[
+    ['Wednesday']
+],
+'Wednesday',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zpo5sb/respect_enid_sinclair_wednesday/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tyler Galpin (Wednesday)', 'https://redd.it/zpohb4')
+add_data(['Tyler Galpin'],
+'Tyler Galpin',
+False,
+True,
+[
+    ['Wednesday']
+],
+'Wednesday',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zpohb4/respect_tyler_galpin_wednesday/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thing (Wednesday)', 'https://redd.it/zpokjg')
+add_data(['Thing'],
+'Thing',
+False,
+False,
+[
+    ['Thing ?\(Wednesday\)']
+],
+'Wednesday',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zpokjg/respect_thing_wednesday/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
