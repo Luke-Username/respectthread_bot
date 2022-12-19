@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Mythos Thor']
+],
+'Norse Mythology',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zpaj34/daniel_from_reapers_creek_empress_teresa_goku/j0rsads/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect: Silver Samurai! (X-Men The Animated Series, 1992)', 'https://redd.it/zp35un')
 add_data(['Silver Samurai'],
 'Silver Samurai',
@@ -119,6 +133,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/zp35un/respect_silver_samurai_xmen_the_animated_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rohan Kishibe (Thus Spoke Rohan Kishibe TV Drama)', 'https://redd.it/zpc6op')
+add_data(['Rohan Kishibe|Kishibe Rohan'],
+'Rohan Kishibe',
+False,
+False,
+[
+    ['Thus Spoke Rohan Kishibe','TV Drama']
+],
+'Thus Spoke Rohan Kishibe TV Drama',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zpc6op/respect_rohan_kishibe_thus_spoke_rohan_kishibe_tv/
 
 ########################################
 
