@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Rumbling'],
+'Rumbling',
+False,
+False,
+[
+    ['Can.*The Rumbling']
+],
+'Attack on Titan',
+'{12492}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zptsbn/can_mark_grayson_invincible_take_on_the_rumbling/j0uim3m/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect: Silver Samurai! (X-Men The Animated Series, 1992)', 'https://redd.it/zp35un')
 add_data(['Silver Samurai'],
 'Silver Samurai',
