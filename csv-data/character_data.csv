@@ -18881,12 +18881,6 @@ Raikou,{Pok(e|é)mon},t,"{4218,4228}",Pokémon
 Suicune,{Pok(e|é)mon},t,"{4218,4232}",Pokémon
 Lugia,{Pok(e|é)mon},t,"{4219,4220}",Pokémon
 Lunala,{Pok(e|é)mon},t,{4221},Pokémon
-Mew,{Pok(e|é)m(o|a)n},f,{4222},Pokémon
-Mew,"{`"Mew(-| )?two`"}",f,{4222},Pokémon
-Mew,{Deoxys},f,{4222},Pokémon
-Mew,{Rayquaza},f,{4222},Pokémon
-Mew,{Kirby},f,{4222},Pokémon
-Mew,{Yoda},f,{4222},Pokémon
 Mewtwo,{Pok(e|é)m(o|a)n},t,"{4224,4223}",Pokémon
 Moltres,{Pok(e|é)m(o|a)n},t,{4225},Pokémon
 Reshiram,{Pok(e|é)m(o|a)n},t,{4230},Pokémon
@@ -18925,6 +18919,8 @@ Nidoking,{Paul},f,{4251},Paul
 Palkia,{Pok(e|é)m(o|a)n},t,"{4227,5361}",Pokémon
 Giratina,{Pok(e|é)mon},t,"{4209,5361}",Pokémon
 Rayquaza,{Pok(e|é)m(o|a)n},t,"{4229,5364}",Pokémon
+Mew,{Pok(e|é)m(o|a)n},f,"{4222,23098}",Pokémon
+Mew,"{`"Mew(-| )?two`"}",f,"{4222,23098}",Pokémon
 Aggron,{Pok(e|é)m(o|a)n},t,{4251},Pokémon
 Gastrodon,{Pok(e|é)m(o|a)n},t,{4251},Pokémon
 Ninjask,{Pok(e|é)m(o|a)n},t,{4251},Pokémon
@@ -22030,9 +22026,6 @@ Sammael,{Hellboy},f,{16444},Hellboy films
 Sammael,"{`"Desolate One`"}",f,{16444},Hellboy films
 Doodlebob,{SpongeBob},t,{16445},SpongeBob
 Landmaster,"{`"Star ?Fox`"}",f,{16446},Star Fox
-U.S. Agent,"{`"Marvel Cinematic Universe`"}",f,{16446},MCU
-U.S. Agent,{MCU},f,{16446},MCU
-U.S. Agent,{199999},f,{16446},MCU
 de Blob,{default},t,{16447},""
 Ahriman,{(WH)?40K},f,"{16448,6464}",Warhammer 40k
 Ahriman,{Warhammer},f,"{16448,6464}",Warhammer 40k
@@ -22064,11 +22057,14 @@ Xenovia Quarta,"{`"High ?school DxD`"}",t,{3485},High School DxD
 Yuuto Kiba,"{`"High ?school DxD`"}",t,{3486},High School DxD
 John Walker,{MCU},f,{},MCU
 The Mountain,"{`"Game of Thrones`"}",f,"{6119,87}",Game of Thrones
+U.S. Agent,"{`"Marvel Cinematic Universe`"}",f,{21271},MCU
 The Mountain,"{`"Song of Ice`"}",f,"{6119,87}",Game of Thrones
 The Mountain,{ASOIAF},f,"{6119,87}",Game of Thrones
 The Mountain,"{`"\\(GoT\\)`"}",f,"{6119,87}",Game of Thrones
 God-Emperor of Mankind,{(WH)?40K},t,{6465},Warhammer 40k
 God-Emperor of Mankind,{Warhammer},t,{6465},Warhammer 40k
+U.S. Agent,{MCU},f,{21271},MCU
+U.S. Agent,{199999},f,{21271},MCU
 Bog,{RHG},f,{17254},RHG
 Elyas,"{`"Wheel of Time`"}",f,{6036},The Wheel of Time
 Elyas,{WOT},f,{6036},The Wheel of Time
@@ -27286,8 +27282,6 @@ Kamala Khan,{Marvel},t,{2031},616
 Kamala Khan,{Champions},t,{2031},616
 Wanda,"{HOM,Tribunal}",f,{1997},616
 Angela,"{`"Angela ?\\(Marvel.*616`"}",f,{1969},616
-USAgent,"{`"Marvel Cinematic Universe`"}",f,{21271},MCU
-USAgent,{MCU},f,{21271},MCU
 Moon Knight,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Moon Knight,{MCU},f,{},MCU
 Deathstroke,"{`"\\(DC\\)`"}",t,"{1576,1577,1578,21861}",DC
@@ -28800,3 +28794,21 @@ Future Gohan,{DB(Z|S)},t,{23094},Dragon Ball
 Italian Spiderman,{default},t,{23095},""
 Nix Uotan,"{`"DC Comics`"}",t,{23096},""
 Godzilla,{Trendmasters},f,{23097},Trendmasters
+Mew,{Deoxys},f,"{4222,23098}",Pokémon
+Mew,{Rayquaza},f,"{4222,23098}",Pokémon
+Mew,{Kirby},f,"{4222,23098}",Pokémon
+Mew,{Yoda},f,"{4222,23098}",Pokémon
+Thor,"{`"Mythos Thor`"}",f,{},Norse Mythology
+Rumbling,"{`"Can.*The Rumbling`"}",f,{12492},Attack on Titan
+Silver Samurai,"{`"X(-| )?Men:? The Animated Series`"}",f,{23099},"X-Men, 1992"
+Silver Samurai,"{`"X(-| )?Men`",1992}",f,{23099},"X-Men, 1992"
+Rohan Kishibe,"{`"Thus Spoke Rohan Kishibe`",`"TV Drama`"}",f,{23100},Thus Spoke Rohan Kishibe TV Drama
+Shard,"{`"Sonic the Hedgehog`"}",f,{23101},Sonic the Hedgehog
+Shard,"{`"Metal Sonic`"}",f,{23101},Sonic the Hedgehog
+Shard,"{`"Mecha Sonic`"}",f,{23101},Sonic the Hedgehog
+Wednesday Addams,"{`"\\(Wednesday\\)`"}",t,{23102},Wednesday
+Enid Sinclair,{Wednesday},t,{23103},Wednesday
+Tyler Galpin,{Wednesday},t,{23104},Wednesday
+Thing,"{`"Thing ?\\(Wednesday\\)`"}",f,{23105},Wednesday
+Fu Xiaoli,"{`"Chivalry of a Failed Knight`"}",t,{23106},Chivalry of a Failed Knight
+Fu Xiaoli,{Rakudai},t,{23106},Chivalry of a Failed Knight

@@ -14,14 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Mew (Pokemon Anime: Pokemon Journeys)', 'https://redd.it/zoypeh'); SELECT * FROM respectthread WHERE link='https://redd.it/zoypeh';
-UPDATE character SET rt_id_array='{4222,?}' WHERE rt_id_array='{4222}';
-
 ########################################
-
-UPDATE character_name SET name='U\.?S\.? ?Agent' WHERE name='U\\.?S\\.? Agent';
-DELETE FROM character WHERE default_name='USAgent';
-UPDATE character SET rt_id_array='{21271}' WHERE default_name='U.S. Agent' AND displayed_version_name='MCU';
 
 ########################################
 
