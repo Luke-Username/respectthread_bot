@@ -107,6 +107,140 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 184, 'Respect Godzilla (Shin Godzilla)', 'https://redd.it/zs4px7')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Klarienne the Witch-Girl (DC Comics, Earth-11)', 'https://redd.it/zqigag')
+add_data(['Klarienne'],
+'Klarienne',
+False,
+True,
+[
+    ['Earth(-| )11'], ['DC Comics']
+],
+'Earth-11',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Supergirl (DC Comics, Earth-11)', 'https://redd.it/zqiz4z')
+add_data(['Supergirl'],
+'Supergirl',
+False,
+False,
+[
+    ['Earth(-| )11']
+],
+'Earth-11',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zqiz4z/respect_supergirl_dc_comics_earth11/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: The first Bizarro! (Pre-Crisis DC Comics)', 'https://redd.it/zrtvug')
+add_data(['The First Bizarro'],
+'The First Bizz?arr?o',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zrtvug/respect_the_first_bizarro_precrisis_dc_comics/
+
+add_data(['Bizz?arr?o( |-)Superboy'],
+'Bizarro Superboy',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zrtvug/respect_the_first_bizarro_precrisis_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Black Adam! (The Kid Super Power Hour with Shazam!)', 'https://redd.it/zqtvep')
+add_data(['Black Adam'],
+'Black Adam',
+False,
+False,
+[
+    ['Kid Super Power Hour']
+],
+'The Kid Super Power Hour with Shazam!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zqtvep/respect_black_adam_the_kid_super_power_hour_with/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cyclops! (Marvel Anime)', 'https://redd.it/zs6u18')
+add_data(['Cyclops'],
+'Cyclops',
+False,
+False,
+[
+    ['Marvel Anime']
+],
+'Marvel Anime',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zs6u18/respect_cyclops_marvel_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cell Max! (Dragon Ball Super: Super Hero)', 'https://redd.it/zr20s2')
+add_data(['Cell Max'],
+'Cell Max',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zr20s2/respect_cell_max_dragon_ball_super_super_hero/
+
+########################################
+
+id = get_rt_id(cur, "Respect Grimm! (American McGee''s Grimm)", 'https://redd.it/zscqab')
+add_data(['Grimm'],
+'Grimm',
+False,
+False,
+[
+    ['American McGees?']
+],
+'American McGee',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zscqab/respect_grimm_american_mcgees_grimm/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Krang (Rise of the Teenage Mutant Ninja Turtles)', 'https://redd.it/zsncaw')
+add_data(['Krang'],
+'Krang',
+False,
+False,
+[
+    ['Rise of the', 'Turtles'], ['Rise of the', 'TMNT'], ['ROT ?TMNT']
+],
+'Rise of the Teenage Mutant Ninja Turtles',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zsncaw/respect_the_krang_rise_of_the_teenage_mutant/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

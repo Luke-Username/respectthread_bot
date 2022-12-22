@@ -2839,7 +2839,7 @@ Rick and Morty
 
 Rise of the Teenage Mutant Ninja Turtles
 	Version
-		'{"Rise of the", "TMNT"}', '{"ROT ?TMNT"}'
+		['Rise of the', 'Turtles'], ['Rise of the', 'TMNT'], ['ROT ?TMNT']
 	Displayed Version Name
 		"Rise of the Teenage Mutant Ninja Turtles"
 
