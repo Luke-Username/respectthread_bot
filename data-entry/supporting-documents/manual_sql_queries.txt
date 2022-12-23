@@ -14,7 +14,16 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{1622,14881}' WHERE rt_id_array='{1622,14881,7393}';
+UPDATE character SET rt_id_array='{14881}' WHERE rt_id_array='{14881,7393}';
+
 ########################################
+
+DELETE FROM character_name WHERE name='Dick Grayson';
+UPDATE character_name SET name='(Richard|Dick) Gr(a|e)yson' WHERE name='Richard Grayson';
+
+########################################
+
 
 ########################################
 
@@ -26,7 +35,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+SELECT * FROM respectthread WHERE link='https://redd.it/zsqwiv';
+UPDATE character SET rt_id_array='{14419,22631,?,40,15401}' WHERE rt_id_array='{14419,22631,40,15401}'; --After run
 
 ########################################
 
