@@ -24,6 +24,7 @@ UPDATE character_name SET name='(Richard|Dick) Gr(a|e)yson' WHERE name='Richard 
 
 ########################################
 
+UPDATE character_name SET name='Hank\.? (J\.? )?Wimbleton' WHERE name='Hank (J\.? )?Wimbleton';
 
 ########################################
 

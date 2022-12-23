@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2048, 'Respect Peter Quill, Star-Lord! (Marvel, 616)', 'https://redd.it/ztiumx')
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Ninth Doctor (Doctor Who)', 'https://redd.it/zsqwiv')
 add_data(['(Nin|9)th Doctor'],
 'The Ninth Doctor',
@@ -149,6 +153,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/zt2ngu/respect_honkai_beasts_honkai_impact_3rd/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Project: Changeling (DC, Post Crisis)', 'https://redd.it/ztlg3b')
+add_data(['Project:? Changeling'],
+'Project: Changeling',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ztlg3b/respect_project_changeling_dc_post_crisis/
 
 ########################################
 
