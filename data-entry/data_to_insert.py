@@ -109,6 +109,81 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect: Super-Menace! (Pre-Crisis DC Comics)', 'https://redd.it/ztpqyo')
+add_data(['Super(-| )Menace'],
+'Super-Menace',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ztpqyo/respect_supermenace_precrisis_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Child (Young Justice)', 'https://redd.it/ztunwk')
+add_data(['Child'],
+'Child',
+False,
+False,
+[
+    ['Child.*Young Justice']
+],
+'Young Justice',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ztunwk/respect_child_young_justice/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sato Klaus (Santa Claus Academia)', 'https://redd.it/zttc9x')
+add_data(['Sato Klaus'],
+'Sato Klaus',
+False,
+True,
+[
+    ['Santa Claus Academia']
+],
+'Santa Claus Academia',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Greatest Teacher in Japan, Eikichi Onizuka! (Great Teacher Onizuka)', 'https://redd.it/zu2obk')
+add_data(['Onizuka'],
+'Onizuka',
+False,
+False,
+[
+    ['Great Teacher Onizuka'], ['GTO'], ['Eikichi']
+],
+'Great Teacher Onizuka',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Krampus (American Dad!)', 'https://redd.it/zu8jks')
+add_data(['Krampus'],
+'Krampus',
+False,
+False,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zu8jks/respect_krampus_american_dad/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
