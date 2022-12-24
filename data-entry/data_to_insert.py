@@ -125,6 +125,20 @@ False,
 
 ########################################
 
+add_data(['Doctor'],
+'Doctor',
+False,
+False,
+[
+    ['Bloodlusted Doctor', '(Doctor|Dr\.?) ?Who'], ['Doctor ?\(Doctor Who\)']
+],
+'Doctor Who',
+'{14419,22631,23115,40,15401}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zuezrw/can_the_scp_foundation_contain_a_bloodlusted/
+
+########################################
+
 id = get_rt_id(cur, "Respect Santa Claus, The Son of Satan (Santa''s Slay)", 'https://redd.it/zudvnd')
 add_data(['Santa'],
 'Santa',
