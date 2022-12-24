@@ -107,68 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 2048, 'Respect Peter Quill, Star-Lord! (Marvel, 616)', 'https://redd.it/ztiumx')
-
-########################################
-
-id = get_rt_id(cur, 'Respect the Ninth Doctor (Doctor Who)', 'https://redd.it/zsqwiv')
-add_data(['(Nin|9)th Doctor'],
-'The Ninth Doctor',
-False,
-True,
-[
-    ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
-],
-'Doctor Who',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/zsqwiv/respect_the_ninth_doctor_doctor_who/
-
-########################################
-
-id = get_rt_id(cur, 'Respect: Black Adam! (Batman: The Brave and the Bold)', 'https://redd.it/zsvzqm')
-add_data(['Black Adam'],
-'Black Adam',
-False,
-False,
-[
-    ['Brave (and|&) the Bold']
-],
-'The Brave and the Bold',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/zsvzqm/respect_black_adam_batman_the_brave_and_the_bold/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Honkai Beasts (Honkai Impact 3rd)', 'https://redd.it/zt2ngu')
-add_data(['Honkai Beasts?'],
-'Honkai Beasts',
-False,
-True,
-[
-    ['Honkai Impact']
-],
-'Honkai Impact 3rd',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/zt2ngu/respect_honkai_beasts_honkai_impact_3rd/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Project: Changeling (DC, Post Crisis)', 'https://redd.it/ztlg3b')
-add_data(['Project:? Changeling'],
-'Project: Changeling',
-False,
-False,
-[
-    ['PC'], ['Posts?(-| )?C(risis)?']
-],
-'Post-Crisis',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/ztlg3b/respect_project_changeling_dc_post_crisis/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

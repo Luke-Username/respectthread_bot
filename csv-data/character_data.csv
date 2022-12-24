@@ -6092,8 +6092,8 @@ Mindless Hulk,{616},t,{2129},616
 Mindless Hulk,{Marvel},t,{2129},616
 Red Hulk,{616},t,{2130},616
 Red Hulk,{Marvel},t,{2130},616
-Black Adam,"{`"\\(DC( Comics)?\\)`"}",t,"{1622,14881,7393}",DC
 Hulk,"{`"\\(Comics?`"}",t,"{2116,2117}",616
+Black Adam,"{`"\\(DC( Comics)?\\)`"}",t,"{1622,14881}",DC
 Sun Wukong,{Marvel},f,{7406},616
 Sun Wukong,{616},f,{7406},616
 Takizawa,"{`"Tokyo Ghoul`"}",t,{7407},Tokyo Ghoul
@@ -17853,9 +17853,6 @@ Xurkitree,{Pok(e|é)m(o|a)n},t,"{4300,5366}",Pokémon
 Celesteela,{Pok(e|é)m(o|a)n},t,"{4300,5366}",Pokémon
 Jiren,"{`"Dragon ?Ball`"}",t,"{3298,14880}",Dragon Ball
 Jiren,{DB(Z|S)?},t,"{3298,14880}",Dragon Ball
-Black Adam,{PC},f,"{14881,7393}",Post-Crisis
-Black Adam,"{`"Post(-| )?C(risis)?`"}",f,"{14881,7393}",Post-Crisis
-Black Adam,"{`"New(-| )Earth`"}",f,"{14881,7393}",Post-Crisis
 Jean Grey,{Fox(verse)?},f,{14882},FOX
 Jean Grey,"{`"X-?Men Cinematic Universe`"}",f,{14882},FOX
 Jean Grey,{XCU},f,{14882},FOX
@@ -28089,7 +28086,7 @@ Harley Quinn,"{`"Harley Quinn? ?\\[Harley Quinn\\]`"}",f,{8348},"Harley Quinn an
 Pedro,"{`"Tower of God`"}",f,{22612},Tower of God
 Kojika Hanamaki,"{`"Ningen Series`"}",t,{22613},Ningen Series
 Seiya,"{`"Cautious Hero`"}",f,"{20565,22609,22628}",Cautious Hero
-The Doctor,{TARDIS},f,"{14419,22631,40,15401}",Doctor Who
+The Doctor,{TARDIS},f,"{14419,22631,23115,40,15401}",Doctor Who
 Polpo,{Jojos?(verse)?},f,{22614},Jojos Bizarre Adventure
 Polpo,{JJBA},f,{22614},Jojos Bizarre Adventure
 Polpo,"{`"Black Sabbath`"}",f,{22614},Jojos Bizarre Adventure
@@ -28187,7 +28184,7 @@ Steve Smith,"{`"American Dad`"}",f,{22662},American Dad!
 Steve Smith,{Stan},f,{22662},American Dad!
 Avery Bullock,"{`"American Dad`"}",t,{22663},American Dad!
 Director Bullock,"{`"American Dad`"}",t,{22663},American Dad!
-The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,22631,40,15401}",Doctor Who
+The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,22631,23115,40,15401}",Doctor Who
 Princess Snake,{DB(Z|S)},f,{22665},Dragon Ball
 John Doe,{Embalming},f,{22666},Embalming
 Francine Smith,"{`"American Dad`"}",t,{22667},American Dad!
@@ -28247,7 +28244,6 @@ Moleculo,{SNL},f,{22704},Saturday Night Live
 Herbert West,{80s},f,{22705},Re-Animator
 Herbert West,"{`"horror movies?`"}",f,{22705},Re-Animator
 Fengxi,"{`"Luo Xiaohei`"}",f,{22706},The Legend of Luo Xiaohei
-The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,22631,40,15401}",Doctor Who
 Homelander,"{`"The Boys`"}",t,"{8445,13117}",The Boys
 Gold Saints,"{`"Saint Seiya`"}",t,"{7576,14530,13522,4486,17628,4495,17627,16439,17623,15289,16440,14816}",Saint Seiya
 Terror Birds,{Primeval},f,{22707},Primeval
@@ -28255,6 +28251,7 @@ Page One,"{`"One ?Piece?`"}",f,{22708},One Piece
 Ulti,"{`"One ?Piece?`"}",f,{22709},One Piece
 Ulti,"{OP,Pirates?}",f,{22709},One Piece
 Wuxian,"{`"Luo Xiaohei`"}",f,{22710},The Legend of Luo Xiaohei
+The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,22631,23115,40,15401}",Doctor Who
 Gate Guardian,{SCP},f,{15332},SCP
 Cain,"{SCP,MTF}",f,{22686},SCP
 Shaggy,{MultiVersus},f,{22711},MultiVersus
@@ -28825,3 +28822,12 @@ Grimm,"{`"American McGees?`"}",f,{23113},American McGee
 Krang,"{`"Rise of the`",Turtles}",f,{23114},Rise of the Teenage Mutant Ninja Turtles
 Krang,"{`"Rise of the`",TMNT}",f,{23114},Rise of the Teenage Mutant Ninja Turtles
 Krang,"{`"ROT ?TMNT`"}",f,{23114},Rise of the Teenage Mutant Ninja Turtles
+Black Adam,{PC},f,{14881},Post-Crisis
+Black Adam,"{`"Post(-| )?C(risis)?`"}",f,{14881},Post-Crisis
+Black Adam,"{`"New(-| )Earth`"}",f,{14881},Post-Crisis
+The Ninth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{23115},Doctor Who
+The Ninth Doctor,{Who(ni)?verse},t,{23115},Doctor Who
+Black Adam,"{`"Brave (and|&) the Bold`"}",f,{23116},The Brave and the Bold
+Honkai Beasts,"{`"Honkai Impact`"}",t,{23117},Honkai Impact 3rd
+Project: Changeling,{PC},f,{23118},Post-Crisis
+Project: Changeling,"{`"Posts?(-| )?C(risis)?`"}",f,{23118},Post-Crisis

@@ -939,7 +939,6 @@ Radu,Radu,f
 Sardonyx,Sardonyx,f
 Olivia Octavius,Olivia Octavius,f
 Hank,Hank,f
-Hank (J\.? )?Wimbleton,Hank J. Wimbleton,f
 Smoky Quartz,Smoky Quartz,f
 Jack Sparrow,Captain Jack Sparrow,f
 Will Turner,Will Turner,f
@@ -1238,7 +1237,6 @@ Francis Grey,Francis Grey,f
 Man(-| )?Bat,Man-Bat,f
 Kirk Langstrom,Man-Bat,f
 Robin,Robin,f
-Dick Grayson,Robin,f
 Gentleman Ghost,Gentleman Ghost,f
 Jim Craddock,Gentleman Ghost,f
 John Wilkes Booth,John Wilkes Booth,f
@@ -1955,7 +1953,6 @@ Ahn Kwang(-| )Jo,Dragonson,f
 Topo,Topo,f
 Jason Todd,Red Hood,f
 Red Hood,Red Hood,f
-Richard Grayson,Nightwing,f
 Tim Drake,Tim Drake,f
 Cassandra Cain,Cassandra Cain,f
 Oracle,Oracle,f
@@ -1970,6 +1967,7 @@ Gotham and Gotham Girl,Gotham and Gotham Girl,t
 Gotham Girl,Gotham Girl,f
 Henry Clover,"Henry Clover, Jr.",f
 Erin (Y|J)eager,Eren Yeager,f
+(Richard|Dick) Gr(a|e)yson,Nightwing,f
 Nite(-| )?Wing,Nite-Wing,f
 Duke Thomas,Duke Thomas,f
 Nosferatu,Nosferatu,f
@@ -13169,3 +13167,7 @@ Klarienne,Klarienne,f
 The First Bizarro,The First Bizz?arr?o,f
 Bizz?arr?o( |-)Superboy,Bizarro Superboy,f
 Cell Max,Cell Max,f
+Hank\.? (J\.? )?Wimbleton,Hank J. Wimbleton,f
+(Nin|9)th Doctor,The Ninth Doctor,f
+Honkai Beasts?,Honkai Beasts,f
+Project:? Changeling,Project: Changeling,f
