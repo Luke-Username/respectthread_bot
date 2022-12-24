@@ -111,6 +111,20 @@ update_respectthread(cur, 2048, 'Respect Peter Quill, Star-Lord! (Marvel, 616)',
 
 ########################################
 
+add_data(['Hulk(-| )?buster'],
+'Hulkbuster',
+True,
+True,
+[
+    ['616']
+],
+'616',
+'{22877, 22927, 22735, 22803}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ztho7c/who_is_the_most_powerful_opponent_tony_stark/j1g7vxo/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Ninth Doctor (Doctor Who)', 'https://redd.it/zsqwiv')
 add_data(['(Nin|9)th Doctor'],
 'The Ninth Doctor',
@@ -168,6 +182,81 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/ztlg3b/respect_project_changeling_dc_post_crisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Super-Menace! (Pre-Crisis DC Comics)', 'https://redd.it/ztpqyo')
+add_data(['Super(-| )Menace'],
+'Super-Menace',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ztpqyo/respect_supermenace_precrisis_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Child (Young Justice)', 'https://redd.it/ztunwk')
+add_data(['Child'],
+'Child',
+False,
+False,
+[
+    ['Child.*Young Justice']
+],
+'Young Justice',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/ztunwk/respect_child_young_justice/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sato Klaus (Santa Claus Academia)', 'https://redd.it/zttc9x')
+add_data(['Sato Klaus'],
+'Sato Klaus',
+False,
+True,
+[
+    ['Santa Claus Academia']
+],
+'Santa Claus Academia',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Greatest Teacher in Japan, Eikichi Onizuka! (Great Teacher Onizuka)', 'https://redd.it/zu2obk')
+add_data(['Onizuka'],
+'Onizuka',
+False,
+False,
+[
+    ['Great Teacher Onizuka'], ['GTO'], ['Eikichi']
+],
+'Great Teacher Onizuka',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Krampus (American Dad!)', 'https://redd.it/zu8jks')
+add_data(['Krampus'],
+'Krampus',
+False,
+False,
+[
+    ['American Dad']
+],
+'American Dad!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zu8jks/respect_krampus_american_dad/
 
 ########################################
 
