@@ -107,6 +107,36 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6161, 'Respect the Grinch (How the Grinch Stole Christmas!)', 'https://redd.it/zuaynb')
+
+########################################
+
+add_data(['Ashoka'],
+'Ashoka',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{13037}'
+)
+#https://www.reddit.com/r/respectthreads/comments/d2kwip/respect_sully_monsters_inc/
+
+########################################
+
+id = get_rt_id(cur, "Respect Santa Claus, The Son of Satan (Santa''s Slay)", 'https://redd.it/zudvnd')
+add_data(['Santa'],
+'Santa',
+False,
+False,
+[
+    ["Santa''?s Slay"]
+],
+"Santa''s Slay",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zudvnd/respect_santa_claus_the_son_of_satan_santas_slay/
 
 ########################################
 
