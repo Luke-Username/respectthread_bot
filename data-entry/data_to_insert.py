@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Santa Claus! (Violent Night)', 'https://redd.it/zuzf3c')
+add_data(['Santa'],
+'Santa',
+False,
+False,
+[
+    ['Violent Night']
+],
+'Violent Night',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zuzf3c/respect_santa_claus_violent_night/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
