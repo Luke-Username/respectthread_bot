@@ -154,6 +154,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Sandman (Rise of the Guardians)', 'https://redd.it/zumn1l')
+add_data(['Sand(-| )?man'],
+'Sandman',
+False,
+False,
+[
+    ['Rise of the Guardians']
+],
+'Rise of the Guardians',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zumn1l/respect_sandman_rise_of_the_guardians/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
