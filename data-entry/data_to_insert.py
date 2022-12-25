@@ -169,6 +169,48 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Giant Robotic Santa (Amphibia)', 'https://redd.it/zuwg7x')
+add_data(['Giant Santa'],
+'Giant Santa',
+False,
+False,
+[
+    ['Amphibia']
+],
+'Amphibia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zuwg7x/respect_the_giant_robotic_santa_amphibia/
+
+add_data(['Giant Robot(ic)? Santa'],
+'Giant Robot Santa',
+False,
+False,
+[
+    ['Amphibia']
+],
+'Amphibia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zuwg7x/respect_the_giant_robotic_santa_amphibia/
+
+########################################
+
+id = get_rt_id(cur, 'Respect San Niko (Santa Claus Academia)', 'https://redd.it/zuxvf6')
+add_data(['San Niko'],
+'San Niko',
+False,
+False,
+[
+    ['Santa Claus Academia']
+],
+'Santa Claus Academia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zuxvf6/respect_san_niko_santa_claus_academia/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
