@@ -28838,3 +28838,11 @@ Onizuka,"{`"Great Teacher Onizuka`"}",f,{23122},Great Teacher Onizuka
 Onizuka,{GTO},f,{23122},Great Teacher Onizuka
 Onizuka,{Eikichi},f,{23122},Great Teacher Onizuka
 Krampus,"{`"American Dad`"}",f,{23123},American Dad!
+Ashoka,"{`"S(tar )?Wars`"}",f,{13037},Star Wars
+Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,22631,23115,40,15401}",Doctor Who
+Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,22631,23115,40,15401}",Doctor Who
+Santa,"{`"Santa'?s Slay`"}",f,{23124},Santa's Slay
+Sandman,"{`"Rise of the Guardians`"}",f,{23125},Rise of the Guardians
+Giant Santa,{Amphibia},f,{23126},Amphibia
+Giant Robot Santa,{Amphibia},f,{23126},Amphibia
+San Niko,"{`"Santa Claus Academia`"}",f,{23127},Santa Claus Academia
