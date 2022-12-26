@@ -1348,8 +1348,6 @@ Tepsekemei,"{`"Magical Girl Raising Project`"}",t,{10791},Magical Girl Raising P
 Carol,"{`"Marvel Cinematic Universe`"}",f,{6500},MCU
 Carol,{MCU},f,{6500},MCU
 Carol,{199999},f,{6500},MCU
-Carol,{movie},f,{6500},MCU
-Carol,{movies},f,{6500},MCU
 Corvus Glaive,"{`"Marvel Cinematic Universe`"}",f,{6501},MCU
 Corvus Glaive,{MCU},f,{6501},MCU
 Corvus Glaive,{199999},f,{6501},MCU
@@ -19891,7 +19889,6 @@ Iji,{Kataiser},t,{5616},""
 Jak and Daxter,{J&D},t,{5617},""
 Jak,{Daxter},t,{5617},Jak and Daxter
 Daxter,{Jak},t,{5617},Jak and Daxter
-Dio,{Heavens?},f,{5618},The World Over Heaven
 Rico,"{`"Just Cause`"}",f,{5619},Just Cause
 Rico,"{`"JC\\d`"}",f,{5619},Just Cause
 Rico Rodriguez,"{`"Just Cause`"}",t,{5619},Just Cause
@@ -19904,6 +19901,7 @@ Garican Smith,"{`"Killer ?7`"}",f,{5620},Killer7
 Garican Smith,"{`"Suda ?51`"}",f,{5620},Killer7
 Emir Parkreiner,"{`"Killer ?7`"}",t,{5620},Killer7
 Dark Emperor,"{`"Find Mii`"}",f,{5595},Find Mii
+Dio,"{`"World over Heaven|Heaven'?s? Ascension`"}",f,{5618},The World Over Heaven
 Niko Bellic,"{`"GTA(\\d|\\w+)?`"}",t,{5604},GTA
 Emir Parkreiner,"{`"Suda ?51`"}",t,{5620},Killer7
 Dan Smith,"{`"Killer ?7`"}",f,{5620},Killer7
@@ -28846,3 +28844,10 @@ Sandman,"{`"Rise of the Guardians`"}",f,{23125},Rise of the Guardians
 Giant Santa,{Amphibia},f,{23126},Amphibia
 Giant Robot Santa,{Amphibia},f,{23126},Amphibia
 San Niko,"{`"Santa Claus Academia`"}",f,{23127},Santa Claus Academia
+Klaus,"{Santa,`"vs\\.? Klaus`"}",f,{14542},2019
+Santa,"{`"Violent Night`"}",f,{23128},Violent Night
+Scrapeface,"{`"Madness Combat`"}",f,{23129},Madness Combat
+Colox,"{`"Colox ?\\(Colox`"}",f,{23129},""
+Colox,{Indonesian?},f,{23129},""
+Black Hot,{Villainous},f,{23130},Villainous
+Black Hot,{Markiplier},f,{23130},Villainous
