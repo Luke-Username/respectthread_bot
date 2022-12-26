@@ -19,6 +19,8 @@ DELETE FROM character WHERE default_name='Carol' AND version='{"movies"}';
 
 ########################################
 
+UPDATE character SET version='{"World over Heaven|Heaven''?s? Ascension"}' WHERE default_name='Dio' AND version='{"Heavens?"}';
+
 ########################################
 
 ########################################
