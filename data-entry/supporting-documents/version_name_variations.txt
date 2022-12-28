@@ -2975,7 +2975,7 @@ Shield Hero
 
 Shin Megami Tensei
 	Version
-		'{"S(hin)? ?M(egami)? ?T(ensei)?"}'
+		['S(hin)? ?M(egami)? ?T(ensei)?']
 	Specific
 		'{"Nocturne"}'
 	Displayed Version Name

@@ -107,6 +107,98 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4156, 'Respect Pikachu (Pokemon Anime)', 'https://redd.it/zwlds8')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Oni Blade! (Oni Blade)', 'https://redd.it/zvza76')
+add_data(['Oni Blade'],
+'Oni Blade',
+False,
+False,
+[
+    ['Oni Blade ?\(Oni Blade']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zvza76/respect_oni_blade_oni_blade/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vouivre (Shin Megami Tensei)', 'https://redd.it/zwgkbw')
+add_data(['Vouivre'],
+'Vouivre',
+False,
+False,
+[
+    ['S(hin)? ?M(egami)? ?T(ensei)?']
+],
+'Shin Megami Tensei',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zwgkbw/respect_vouivre_shin_megami_tensei/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ichi the Killer (Koroshiya 1)', 'https://redd.it/zwiqkg')
+add_data(['Ichi the Killer'],
+'Ichi the Killer',
+False,
+True,
+[
+    ['Koroshiya 1']
+],
+'Koroshiya 1',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zwiqkg/respect_ichi_the_killer_koroshiya_1/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 44: the Heavy-Duty Armor (Marvel, Earth-616)', 'https://redd.it/zwm3vt')
+add_data(['Iron(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Heavy(-| )Duty Armou?r'], ['Model 44']
+],
+'Heavy-Duty Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zwm3vt/respect_iron_man_model_44_the_heavyduty_armor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spooder-Man (Laugh Over Life)', 'https://redd.it/zwn04c')
+add_data(['Spooder(-| )Man'],
+'Spooder-Man',
+False,
+False,
+[
+    ['Laugh Over Life']
+],
+'Laugh Over Life',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zwn04c/respect_spooderman_laugh_over_life/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nagi Taira (Tank Chair)', 'https://redd.it/zwwarc')
+add_data(['Nagi Taira'],
+'Nagi Taira',
+False,
+False,
+[
+    ['Tank Chair']
+],
+'Tank Chair',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zwwarc/respect_nagi_taira_tank_chair/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
