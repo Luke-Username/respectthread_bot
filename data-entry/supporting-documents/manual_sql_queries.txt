@@ -18,6 +18,8 @@ UPDATE character SET version='{"Monster''?s,? Inc"}' WHERE version='{"Monsters,?
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dean', 'Dean Karnazes', 0);
+
 ########################################
 
 ########################################

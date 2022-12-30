@@ -111,6 +111,20 @@ update_respectthread(cur, 4156, 'Respect Pikachu (Pokemon Anime)', 'https://redd
 
 ########################################
 
+add_data(['Oni Blade'],
+'Oni Blade',
+False,
+False,
+[
+    ['Oni Blade ?\(Oni Blade']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Oni Blade! (Oni Blade)', 'https://redd.it/zvza76')
 add_data(['Oni Blade'],
 'Oni Blade',
@@ -171,6 +185,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Iron Man Model 21: the Plastic Ghost (Marvel, Earth-616)', 'https://redd.it/zynlda')
+add_data(['Iron(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Plastic Ghost Armou?r'], ['Model 21']
+],
+'Plastic Ghost Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zynlda/respect_iron_man_model_21_the_plastic_ghost/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Spooder-Man (Laugh Over Life)', 'https://redd.it/zwn04c')
 add_data(['Spooder(-| )Man'],
 'Spooder-Man',
@@ -213,6 +242,105 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/zx9s1c/respect_the_mule_foundation_books/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iku Nagae (Touhou)', 'https://redd.it/zy5vtl')
+add_data(['Iku Nagae'],
+'Iku Nagae',
+False,
+True,
+[
+    ['Touhou']
+],
+'Touhou',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zy5vtl/respect_iku_nagae_touhou/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Chaos! (E.V.I.L. Heroes)', 'https://redd.it/zyawfb')
+add_data(['Chaos'],
+'Chaos',
+False,
+False,
+[
+    ['E\.?V\.?I\.?L\.? Heroes']
+],
+'E.V.I.L. Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zyawfb/respect_chaos_evil_heroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tae Yul (The Swordsman)', 'https://redd.it/zyex2h')
+add_data(['Tae Yul'],
+'Tae Yul',
+False,
+False,
+[
+    ['Swordsman']
+],
+'The Swordsman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zyex2h/respect_tae_yul_the_swordsman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jin Mu-Won (Legend of the Northern Blade)', 'https://redd.it/zyk5u1')
+add_data(['Jin Mu(-| )Won'],
+'Jin Mu-Won',
+False,
+True,
+[
+    ['Legend of the Northern Blade']
+],
+'Legend of the Northern Blade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zyk5u1/respect_jin_muwon_legend_of_the_northern_blade/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Payday Gang (Payday)', 'https://redd.it/zyx6pl')
+add_data(['Payday Gang'],
+'Payday Gang',
+True,
+True,
+[
+    ['\(Payday\)']
+],
+'Payday',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zyx6pl/respect_the_payday_gang_payday/
+
+add_data(['Dallas'],
+'Dallas',
+False,
+False,
+[
+    ['\(Payday\)']
+],
+'Payday',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zyx6pl/respect_the_payday_gang_payday/
+
+add_data(['Bain'],
+'Bain',
+False,
+False,
+[
+    ['\(Payday\)']
+],
+'Payday',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zyx6pl/respect_the_payday_gang_payday/
 
 ########################################
 
