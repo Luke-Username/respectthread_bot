@@ -1988,8 +1988,6 @@ The Mask,"{`"Jim Carrey`"}",f,{508},1994
 The Mask,"{`"Son Of The Mask`"}",f,{508},1994
 The Mask,"{`"Dorian Tyrell`"}",f,{508},1994
 The Mask,"{`"Tim Avery`"}",f,{508},1994
-Randall,"{`"Monsters,? Inc`"}",f,{1222},"Monsters, Inc."
-Randall Boggs,"{`"Monsters,? Inc`"}",t,{1222},"Monsters, Inc."
 Indiana Jones,"{`"Indiana Jones`"}",t,{6509},""
 The Mask,"{`"Dark Horse`"}",f,{2788},Dark Horse Comics
 The Mask,{comics?},f,{2788},Dark Horse Comics
@@ -2000,9 +1998,11 @@ The Mask,"{`"\\(The Mask\\)`"}",f,{2788},Dark Horse Comics
 Stanley Ipkiss,{comics?},t,{2788},Dark Horse Comics
 Jeepers Creepers,{Jeepers?.*Creepers?},t,{477},""
 Creeper,{Jeepers?.*Creepers?},f,{477},""
+Randall,"{`"Monster'?s,? Inc`"}",f,{1222},"Monsters, Inc."
 Stanley Ipkiss,{movies?},f,{508},1994
 Stanley Ipkiss,{films?},f,{508},1994
 Stanley Ipkiss,{1994},f,{508},1994
+Randall Boggs,"{`"Monster'?s,? Inc`"}",t,{1222},"Monsters, Inc."
 Inmate 93X666,"{`"Jungle Jail`"}",t,{6510},Jungle Jail
 Batman,"{`"Batman Ninja`"}",f,{6511},Batman Ninja
 Super Bike,"{`"Fairly Oddparents`"}",t,{6512},Fairly Oddparents
@@ -4106,9 +4106,6 @@ Gotham and Gotham Girl,{N-?52},t,{1512},New 52
 Gotham and Gotham Girl,"{`"Post(-| )52`"}",t,{1512},New 52
 Gotham and Gotham Girl,"{`"Prime(-| )Earth`"}",t,{1512},New 52
 Ant-Man,{616},t,{1986},616
-Sully,"{`"Monsters,? Inc`"}",f,{6653},"Monsters, Inc."
-Sulley,"{`"Monsters,? Inc`"}",f,{6653},"Monsters, Inc."
-James P. Sullivan,"{`"Monsters,? Inc`"}",t,{6653},"Monsters, Inc."
 Black Adam,"{`"Return of Black Adam`"}",f,{6654},Superman/Shazam! Return of Black Adam
 M-OC,{LEGO},f,{6655},LEGO Star Wars
 M-OC,{Freemaker},f,{6655},LEGO Star Wars
@@ -28851,3 +28848,23 @@ Colox,"{`"Colox ?\\(Colox`"}",f,{23129},""
 Colox,{Indonesian?},f,{23129},""
 Black Hot,{Villainous},f,{23130},Villainous
 Black Hot,{Markiplier},f,{23130},Villainous
+Sully,"{`"Monster'?s,? Inc`"}",f,{6653},"Monsters, Inc."
+Sulley,"{`"Monster'?s,? Inc`"}",f,{6653},"Monsters, Inc."
+James P. Sullivan,"{`"Monster'?s,? Inc`"}",t,{6653},"Monsters, Inc."
+Oni Blade,"{`"Oni Blade ?\\(Oni Blade`"}",f,{23144},""
+Vouivre,"{`"S(hin)? ?M(egami)? ?T(ensei)?`"}",f,{23145},Shin Megami Tensei
+Ichi the Killer,"{`"Koroshiya 1`"}",t,{23146},Koroshiya 1
+Iron Man,"{`"Heavy(-| )Duty Armou?r`"}",f,{23147},Heavy-Duty Armor
+Iron Man,"{`"Model 44`"}",f,{23147},Heavy-Duty Armor
+Iron Man,"{`"Plastic Ghost Armou?r`"}",f,{23148},Plastic Ghost Armor
+Iron Man,"{`"Model 21`"}",f,{23148},Plastic Ghost Armor
+Spooder-Man,"{`"Laugh Over Life`"}",f,{23149},Laugh Over Life
+Nagi Taira,"{`"Tank Chair`"}",f,{23150},Tank Chair
+Mule,"{`"Foundation books`"}",f,{23151},Foundation books
+Iku Nagae,{Touhou},t,{23152},Touhou
+Chaos,"{`"E\\.?V\\.?I\\.?L\\.? Heroes`"}",f,{23153},E.V.I.L. Heroes
+Tae Yul,{Swordsman},f,{23154},The Swordsman
+Jin Mu-Won,"{`"Legend of the Northern Blade`"}",t,{23155},Legend of the Northern Blade
+Payday Gang,"{`"\\(Payday\\)`"}",t,{23156},Payday
+Dallas,"{`"\\(Payday\\)`"}",f,{23156},Payday
+Bain,"{`"\\(Payday\\)`"}",f,{23156},Payday
