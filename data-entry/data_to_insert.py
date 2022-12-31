@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6467, 'Respect Ajani Goldmane! (Magic: The Gathering)', 'https://redd.it/zzf2wq')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 57: the Fin Fang Foombuster (Marvel, Earth-616)', 'https://redd.it/zzgxm6')
+add_data(['Fin Fang Foombuster'],
+'Fin Fang Foombuster',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zzgxm6/respect_iron_man_model_57_the_fin_fang_foombuster/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the War Doctor (Doctor Who)', 'https://redd.it/zz4tvf')
+add_data(['War Doctor'],
+'War Doctor',
+False,
+False,
+[
+    ['Sonic Screwdriver'], ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zz4tvf/respect_the_war_doctor_doctor_who/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
