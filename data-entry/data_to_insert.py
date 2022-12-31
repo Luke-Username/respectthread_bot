@@ -111,6 +111,34 @@ update_respectthread(cur, 6467, 'Respect Ajani Goldmane! (Magic: The Gathering)'
 
 ########################################
 
+add_data(['Punisher'],
+'Punisher',
+False,
+False,
+[
+    ['MAX!Punisher']
+],
+'Punisher MAX',
+'{2226}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zzzxj9/punisher_is_transferred_into_silent_hill_how_well/j2el5dr/?context=3
+
+########################################
+
+add_data(['Black ?beard'],
+'Blackbeard',
+False,
+False,
+[
+    ['Yami Yami no Mi'], ['Gura Gura no Mi']
+],
+'One Piece',
+'{4039}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zzzxj9/punisher_is_transferred_into_silent_hill_how_well/j2el5dr/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Iron Man Model 57: the Fin Fang Foombuster (Marvel, Earth-616)', 'https://redd.it/zzgxm6')
 add_data(['Fin Fang Foombuster'],
 'Fin Fang Foombuster',
@@ -138,6 +166,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/zz4tvf/respect_the_war_doctor_doctor_who/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Sixth Doctor (Doctor Who)', 'https://redd.it/zzxsti')
+add_data(['(Six|6)th Doctor'],
+'The Sixth Doctor',
+False,
+True,
+[
+    ['Sonic Screwdriver'], ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zzxsti/respect_the_sixth_doctor_doctor_who/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jock! (Nerd and Jock)', 'https://redd.it/zzy5on')
+add_data(['Jock'],
+'Jock',
+False,
+False,
+[
+    ['Jock ?\(Nerd and Jock']
+],
+'Nerd and Jock',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/zzy5on/respect_jock_nerd_and_jock/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 63: the Godbuster (Marvel, Earth-616)', 'https://redd.it/100106s')
+add_data(['Tony Stark'],
+'Iron Man',
+False,
+False,
+[
+    ['God(-| )?buster']
+],
+'Godbuster',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/100106s/respect_iron_man_model_63_the_godbuster_marvel/
 
 ########################################
 
