@@ -28081,7 +28081,7 @@ Harley Quinn,"{`"Harley Quinn? ?\\[Harley Quinn\\]`"}",f,{8348},"Harley Quinn an
 Pedro,"{`"Tower of God`"}",f,{22612},Tower of God
 Kojika Hanamaki,"{`"Ningen Series`"}",t,{22613},Ningen Series
 Seiya,"{`"Cautious Hero`"}",f,"{20565,22609,22628}",Cautious Hero
-The Doctor,{TARDIS},f,"{14419,22631,23115,40,15401}",Doctor Who
+The Doctor,{TARDIS},f,"{14419,23159,22631,23115,40,15401}",Doctor Who
 Polpo,{Jojos?(verse)?},f,{22614},Jojos Bizarre Adventure
 Polpo,{JJBA},f,{22614},Jojos Bizarre Adventure
 Polpo,"{`"Black Sabbath`"}",f,{22614},Jojos Bizarre Adventure
@@ -28179,7 +28179,7 @@ Steve Smith,"{`"American Dad`"}",f,{22662},American Dad!
 Steve Smith,{Stan},f,{22662},American Dad!
 Avery Bullock,"{`"American Dad`"}",t,{22663},American Dad!
 Director Bullock,"{`"American Dad`"}",t,{22663},American Dad!
-The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,22631,23115,40,15401}",Doctor Who
+The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,23159,22631,23115,40,15401}",Doctor Who
 Princess Snake,{DB(Z|S)},f,{22665},Dragon Ball
 John Doe,{Embalming},f,{22666},Embalming
 Francine Smith,"{`"American Dad`"}",t,{22667},American Dad!
@@ -28246,7 +28246,7 @@ Page One,"{`"One ?Piece?`"}",f,{22708},One Piece
 Ulti,"{`"One ?Piece?`"}",f,{22709},One Piece
 Ulti,"{OP,Pirates?}",f,{22709},One Piece
 Wuxian,"{`"Luo Xiaohei`"}",f,{22710},The Legend of Luo Xiaohei
-The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,22631,23115,40,15401}",Doctor Who
+The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401}",Doctor Who
 Gate Guardian,{SCP},f,{15332},SCP
 Cain,"{SCP,MTF}",f,{22686},SCP
 Shaggy,{MultiVersus},f,{22711},MultiVersus
@@ -28834,8 +28834,6 @@ Onizuka,{GTO},f,{23122},Great Teacher Onizuka
 Onizuka,{Eikichi},f,{23122},Great Teacher Onizuka
 Krampus,"{`"American Dad`"}",f,{23123},American Dad!
 Ashoka,"{`"S(tar )?Wars`"}",f,{13037},Star Wars
-Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,22631,23115,40,15401}",Doctor Who
-Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,22631,23115,40,15401}",Doctor Who
 Santa,"{`"Santa'?s Slay`"}",f,{23124},Santa's Slay
 Sandman,"{`"Rise of the Guardians`"}",f,{23125},Rise of the Guardians
 Giant Santa,{Amphibia},f,{23126},Amphibia
@@ -28868,3 +28866,25 @@ Jin Mu-Won,"{`"Legend of the Northern Blade`"}",t,{23155},Legend of the Northern
 Payday Gang,"{`"\\(Payday\\)`"}",t,{23156},Payday
 Dallas,"{`"\\(Payday\\)`"}",f,{23156},Payday
 Bain,"{`"\\(Payday\\)`"}",f,{23156},Payday
+Punisher,{MAX!Punisher},f,{2226},Punisher MAX
+Blackbeard,"{`"Yami Yami no Mi`"}",f,{4039},One Piece
+Blackbeard,"{`"Gura Gura no Mi`"}",f,{4039},One Piece
+Fin Fang Foombuster,{616},t,{23157},616
+War Doctor,"{`"Sonic Screwdriver`"}",f,{23158},Doctor Who
+War Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",f,{23158},Doctor Who
+War Doctor,{Who(ni)?verse},f,{23158},Doctor Who
+The Sixth Doctor,"{`"Sonic Screwdriver`"}",t,{23159},Doctor Who
+The Sixth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{23159},Doctor Who
+The Sixth Doctor,{Who(ni)?verse},t,{23159},Doctor Who
+Jock,"{`"Jock ?\\(Nerd and Jock`"}",f,{23160},Nerd and Jock
+Iron Man,"{`"God(-| )?buster`"}",f,{23161},Godbuster
+Thor,{Mangaverse},f,{23162},2301
+Thor,{2301},f,{23162},2301
+Chuck Norris,"{`"World of Warcraft`"}",f,{23163},World of Warcraft
+Lancelot,"{`"Monty Python`"}",f,{23164},Monty Python and the Holy Grail
+Lancelot,{Spamalot},f,{23164},Monty Python and the Holy Grail
+Bellona,{SMITE},f,{23165},SMITE
+Lego Captain Jack Sparrow,"{`"Lego Pirates of the Caribbean`"}",t,{23166},Lego Pirates of the Caribbean
+Dr. Who,"{`"Dr\\.? Who and the Daleks`"}",f,{23167},Dr. Who and the Daleks
+Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401}",Doctor Who
+Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,23159,22631,23115,40,15401}",Doctor Who
