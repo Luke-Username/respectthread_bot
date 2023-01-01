@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 6467, 'Respect Ajani Goldmane! (Magic: The Gathering)', 'https://redd.it/zzf2wq')
 update_respectthread(cur, 6422, 'Respect The Guy (Distrurbed)', 'https://redd.it/1005evf')
+update_respectthread(cur, 525, 'Respect Captain Jack Sparrow (Pirates of the Caribbean)', 'https://redd.it/100hd9l')
 
 ########################################
 
@@ -242,6 +243,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/100779o/respect_chuck_norriss_world_of_warcraft_character/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sir Lancelot the Brave (Monty Python and the Holy Grail/Spamalot)', 'https://redd.it/100ca50')
+add_data(['Lancelot'],
+'Lancelot',
+False,
+False,
+[
+    ['Monty Python'], ['Spamalot']
+],
+'Monty Python and the Holy Grail',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/100ca50/respect_sir_lancelot_the_brave_monty_python_and/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bellona! (SMITE)', 'https://redd.it/100ccd6')
+add_data(['Bellona'],
+'Bellona',
+False,
+False,
+[
+    ['SMITE']
+],
+'SMITE',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/100ccd6/respect_bellona_smite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lego Captain Jack Sparrow (Lego Pirates of the Caribbean)', 'https://redd.it/100hdsh')
+add_data(['Lego( Captain)? Jack Sparrow'],
+'Lego Captain Jack Sparrow',
+False,
+True,
+[
+    ['Lego Pirates of the Caribbean']
+],
+'Lego Pirates of the Caribbean',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/100hdsh/respect_lego_captain_jack_sparrow_lego_pirates_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dr. Who (Dr. Who and the Daleks)', 'https://redd.it/100lg6g')
+add_data(['Dr\.? Who'],
+'Dr. Who',
+False,
+False,
+[
+    ['Dr\.? Who and the Daleks']
+],
+'Dr. Who and the Daleks',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/100lg6g/respect_dr_who_dr_who_and_the_daleks/
 
 ########################################
 
