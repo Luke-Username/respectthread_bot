@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 6467, 'Respect Ajani Goldmane! (Magic: The Gathering)', 'https://redd.it/zzf2wq')
+update_respectthread(cur, 6422, 'Respect The Guy (Distrurbed)', 'https://redd.it/1005evf')
 
 ########################################
 
@@ -211,6 +212,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/100106s/respect_iron_man_model_63_the_godbuster_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thor (Marvel, Earth-2301 [Mangaverse])', 'https://redd.it/1005pkm')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Mangaverse'], ['2301']
+],
+'2301',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1005pkm/respect_thor_marvel_earth2301_mangaverse/
+
+########################################
+
+id = get_rt_id(cur, "Respect Chuck Norris''s World of Warcraft character (World of Warcraft advertisement)", 'https://redd.it/100779o')
+add_data(['Chuck Norris'],
+'Chuck Norris',
+False,
+False,
+[
+    ['World of Warcraft']
+],
+'World of Warcraft',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/100779o/respect_chuck_norriss_world_of_warcraft_character/
 
 ########################################
 
