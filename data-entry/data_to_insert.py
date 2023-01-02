@@ -107,6 +107,94 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Togera (War of the Monsters)', 'https://redd.it/100nyzk')
+add_data(['Togera'],
+'Togera',
+False,
+False,
+[
+    ['War of the Monsters']
+],
+'War of the Monsters',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/100nyzk/respect_togera_war_of_the_monsters/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Ape (A*P*E)', 'https://redd.it/100nzab')
+add_data(['Ape'],
+'Ape',
+False,
+False,
+[
+    ['A\*P\*E']
+],
+'A*P*E',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/100nzab/respect_the_ape_ape/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nanoha Takamachi (Mahou Shoujo Lyrical Nanoha Movie Canon)', 'https://redd.it/100tgxh')
+add_data(['Nanoha Takamachi'],
+'Nanoha Takamachi',
+False,
+True,
+[
+    ['Mahou Shoujo Lyrical Nanoha'], ['MSLN']
+],
+'Mahou Shoujo Lyrical Nanoha',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/100tgxh/respect_nanoha_takamachi_mahou_shoujo_lyrical/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Ravage! (Marvel, Earth-616)', 'https://redd.it/100wy3k')
+add_data(['Ravage'],
+'Ravage',
+False,
+False,
+[
+    ['Ravage ?\(616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/100wy3k/respect_ravage_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Barbossa (Pirates of the Caribbean)', 'https://redd.it/1019yk8')
+add_data(['Barbossa'],
+'Barbossa',
+False,
+False,
+[
+    ['Pirates? of the Caribbean'], ['POTC'], ['Captain Barbossa']
+],
+'Pirates of the Caribbean',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1019yk8/respect_captain_barbossa_pirates_of_the_caribbean/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Potion (Death Becomes Her)', 'https://redd.it/101fri4')
+add_data(['Potion'],
+'Potion',
+False,
+False,
+[
+    ['Death Becomes Her']
+],
+'Death Becomes Her',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/101fri4/respect_the_potion_death_becomes_her/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
