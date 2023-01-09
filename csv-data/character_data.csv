@@ -28888,3 +28888,60 @@ Lego Captain Jack Sparrow,"{`"Lego Pirates of the Caribbean`"}",t,{23166},Lego P
 Dr. Who,"{`"Dr\\.? Who and the Daleks`"}",f,{23167},Dr. Who and the Daleks
 Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401}",Doctor Who
 Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,23159,22631,23115,40,15401}",Doctor Who
+Togera,"{`"War of the Monsters`"}",f,{23168},War of the Monsters
+Ape,"{`"A\\*P\\*E`"}",f,{23169},A*P*E
+Nanoha Takamachi,"{`"Mahou Shoujo Lyrical Nanoha`"}",t,{23170},Mahou Shoujo Lyrical Nanoha
+Nanoha Takamachi,{MSLN},t,{23170},Mahou Shoujo Lyrical Nanoha
+Ravage,"{`"Ravage ?\\(616`"}",f,{23171},616
+Flux,"{`"Flux ?\\(616`"}",f,{23172},616
+Flux,"{`"Benjamin Tibbets`",616}",f,{23172},616
+Blob,"{`"Blob ?\\(616`"}",f,{23173},616
+Blob,"{`"Fred Dukes`"}",f,{23173},616
+Blob,"{`"Blob ?\\(Marvel( Comics)?\\)`"}",f,{23173},616
+Squirrel Girlbuster,{616},t,{23174},616
+Squirrelpool,{616},t,{23175},616
+Dazzler,{616},f,{23176},616
+Dazzler,"{`"Black Canary`",Banshee}",f,{23176},616
+Dazzler,"{Jubilee,Fireworks?}",f,{23176},616
+Dazzler,"{`"Dazzler vs`",`"Black Canary`"}",f,{23176},616
+Dazzler,"{`"Black Bolt`",Sound}",f,{23176},616
+Dazzler,"{Jubilee,`"X(-| )?Men`"}",f,{23176},616
+Barbossa,"{`"Pirates? of the Caribbean`"}",f,{23177},Pirates of the Caribbean
+Barbossa,{POTC},f,{23177},Pirates of the Caribbean
+Barbossa,"{`"Captain Barbossa`"}",f,{23177},Pirates of the Caribbean
+Potion,"{`"Death Becomes Her`"}",f,{23178},Death Becomes Her
+Smokin' Joe Rudeboy,"{`"Tom Cardy`"}",f,{23179},Tom Cardy
+Klarion,"{`"Young Justice`"}",f,{23180},Young Justice
+Rebecca,{Cyberpunk},f,{23181},Cyberpunk
+Rebecca,{Edgerunners},f,{23181},Cyberpunk
+Rin Kaenbyou,{Touhou},t,{23182},Touhou
+Satori Komeiji,{Touhou},t,{23183},Touhou
+Lightray,"{`"DC cosmic`"}",f,{23184},DC
+Lightray,"{`"New(-| )?52`"}",f,{23184},New 52 / Rebirth
+Lightray,{Nu?-?52},f,{23184},New 52 / Rebirth
+Lightray,"{`"Post(-| )52`"}",f,{23184},New 52 / Rebirth
+Lightray,"{`"Prime(-| )Earth`"}",f,{23184},New 52 / Rebirth
+Lightray,{Rebirth},f,{23184},New 52 / Rebirth
+Icon,"{`"Icon ?\\(DC( Comics)?\\)`"}",f,{23185},DC Comics
+Icon,"{Milestone,DC}",f,{23185},DC Comics
+Icon,"{`"Milestone Comics?`"}",f,{23185},DC Comics
+Icon,"{`"Icon ?\\(Posts?(-| )?C(risis)?`"}",f,{23185},Post-Crisis
+Resurrection Man,"{`"\\(DC( Comics)?\\)`"}",t,{23186},DC Comics
+Resurrection Man,"{`"\\[DC( Comics)?\\]`"}",t,{23186},DC Comics
+Resurrection Man,{PC},f,{23186},Post-Crisis
+Resurrection Man,"{`"Posts?(-| )?C(risis)?`"}",f,{23186},Post-Crisis
+Resurrection Man,"{`"New(-| )Earth`"}",f,{23186},Post-Crisis
+Plastique,"{`"Futures End`"}",f,{23187},Futures End
+Battle Pope,"{`"Battle Pope ?\\(Battle Pope`"}",t,{23188},""
+Consul N,{Xenoblade},t,{23189},Xenoblade
+Zira,"{`"Girlfriend is an Orc Warlord`"}",f,{23190},My Girlfriend is an Orc Warlord
+Rakdos,"{`"Magic:? The Gathering`"}",t,{23191},Magic: The Gathering
+Rakdos,{M:?TG},t,{23191},Magic: The Gathering
+Utopian,"{`"Jupiter'?s Legacy`"}",f,{23192},Jupiter's Legacy
+Utopian,"{`"Utopian vs|vs\\.? Utopian`",`"Omni(-| )?Man|Hancock|Homelander`"}",f,{23192},Jupiter's Legacy
+Utopian,"{`"vs\\. The Utopian`"}",f,{23192},Jupiter's Legacy
+Kamen Rider Saber,"{`"Touma Kamiyama`"}",t,{23193},""
+Art the Clown,{Terrifier},t,{23194},Terrifier
+Suguru Geto,"{`"Jujus?t?s?u Kaisen`"}",t,{23195},Jujutsu Kaisen
+Lucas Kane,{Fahrenheit},t,{23196},Fahrenheit/Indigo Prophecy
+Lucas Kane,"{`"Indigo Prophecy`"}",t,{23196},Fahrenheit/Indigo Prophecy
