@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect: The Hulk! (Marvel Comics, Earth-20017)', 'https://redd.it/108fgec')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['20017']
+],
+'20017',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/108fgec/respect_the_hulk_marvel_comics_earth20017/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Niv-Mizzet, the Firemind! (Magic: The Gathering)', 'https://redd.it/108fucn')
+add_data(['Niv(-| )Mizzet'],
+'Niv-Mizzet',
+False,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/108fucn/respect_nivmizzet_the_firemind_magic_the_gathering/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "The Great Terror" ( Shrek / Puss in Boots )', 'https://redd.it/108n599')
+add_data(['Great Terror'],
+'Great Terror',
+False,
+False,
+[
+    ['Shrek'], ['Puss i?n Boots']
+],
+'Shrek',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/108n599/respect_the_great_terror_shrek_puss_in_boots/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
