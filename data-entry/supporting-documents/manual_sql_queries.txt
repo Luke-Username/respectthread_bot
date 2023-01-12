@@ -27,6 +27,8 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Puss i?n Boots',
 
 ########################################
 
+UPDATE character SET displayed_version_name='Heroes of Olympus' WHERE default_name='Leo Valdez';
+
 ########################################
 
 ########################################

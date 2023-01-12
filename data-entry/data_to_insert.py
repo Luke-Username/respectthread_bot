@@ -112,7 +112,32 @@ update_respectthread(cur, 4723, 'Respect Joe Shimamura, Cyborg 009 (Cyborg 009)'
 
 ########################################
 
-id = get_rt_id(cur, 'Respect: The Hulk! (Marvel Comics, Earth-20017)', 'https://redd.it/108fgec')
+add_data(['Robotnik'],
+'Robotnik',
+False,
+False,
+[
+    ['Sonic Movies?']
+],
+'Sonic Movies',
+'{8608}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/109zmsb/dr_robotnik_sonic_movies_vs_tony_stark_mcu/j42eto5/?context=3
+
+add_data(['Eggman'],
+'Eggman',
+False,
+False,
+[
+    ['Sonic Movies?']
+],
+'Sonic Movies',
+'{8608}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/109zmsb/dr_robotnik_sonic_movies_vs_tony_stark_mcu/j42eto5/?context=3
+
+########################################
+
 add_data(['Jacco'],
 'Jacco',
 False,
@@ -200,6 +225,81 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/109o33d/respect_huntress_helena_wayne_dc_new_52_earth_2/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Aliens (Feeders)', 'https://redd.it/109zelp')
+add_data(['Aliens'],
+'Aliens',
+False,
+False,
+[
+    ['Aliens ?\(Feeders']
+],
+'Feeders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/109zelp/respect_the_aliens_feeders/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Suruga Shushu! (Chained Soldier)', 'https://redd.it/10a9jcs')
+add_data(['Suruga Shushu'],
+'Suruga Shushu',
+False,
+True,
+[
+    ['Chained Soldier']
+],
+'Chained Soldier',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10a9jcs/respect_suruga_shushu_chained_soldier/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Azuma Himari! (Chained Soldier)', 'https://redd.it/10a9k9j')
+add_data(['Azuma Himari|Himari Azuma'],
+'Himari Azuma',
+False,
+True,
+[
+    ['Chained Soldier']
+],
+'Chained Soldier',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10a9k9j/respect_azuma_himari_chained_soldier/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Uzen Kyouka! (Chained Soldier)', 'https://redd.it/10a9kw1')
+add_data(['Kyouka Uzen|Uzen Kyouka'],
+'Kyouka Uzen',
+False,
+True,
+[
+    ['Chained Soldier']
+],
+'Chained Soldier',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10a9kw1/respect_uzen_kyouka_chained_soldier/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wakura Yuuki! (Chained Soldier)', 'https://redd.it/10a9mx3')
+add_data(['Yuuki Wakura|Wakura Yuuki'],
+'Yuuki Wakura',
+False,
+True,
+[
+    ['Chained Soldier']
+],
+'Chained Soldier',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10a9mx3/respect_wakura_yuuki_chained_soldier/
 
 ########################################
 
