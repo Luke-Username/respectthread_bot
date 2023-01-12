@@ -15,10 +15,15 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character_name SET name='Puss i?n Boots' WHERE name='Puss in Boots';
+UPDATE character_name SET name='Jacc?o,? the Galactic Patrolman' WHERE name='Jaco,? the Galactic Patrolman';
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Ginny';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Puss i?n Boots', '(Puss In Boots', -1);
 
 ########################################
 

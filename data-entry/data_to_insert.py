@@ -107,6 +107,27 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4087, 'Respect Shiki, the Golden Lion (One Piece)', 'https://redd.it/108v1fn')
+update_respectthread(cur, 4723, 'Respect Joe Shimamura, Cyborg 009 (Cyborg 009)', 'https://redd.it/1099s14')
+
+########################################
+
+id = get_rt_id(cur, 'Respect: The Hulk! (Marvel Comics, Earth-20017)', 'https://redd.it/108fgec')
+add_data(['Jacco'],
+'Jacco',
+False,
+False,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)'],
+    ['Goku']
+],
+'Dragon Ball',
+'{3296}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1094dlm/jacco_vs_yamcha_dbs/j3vz5dg/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect: The Hulk! (Marvel Comics, Earth-20017)', 'https://redd.it/108fgec')
 add_data(['Hulk'],
 'Hulk',
@@ -149,6 +170,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/108n599/respect_the_great_terror_shrek_puss_in_boots/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vandal Savage (Young Justice)', 'https://redd.it/109l169')
+add_data(['Vandal Savage'],
+'Vandal Savage',
+False,
+False,
+[
+    ['Young Justice']
+],
+'Young Justice',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/109l169/respect_vandal_savage_young_justice/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Huntress, Helena Wayne (DC New 52, Earth 2)', 'https://redd.it/109o33d')
+add_data(['Helena Wayne'],
+'Helena Wayne',
+False,
+True,
+[
+    ['New(-| )?52'], ['Nu?-?52']
+],
+'New 52',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/109o33d/respect_huntress_helena_wayne_dc_new_52_earth_2/
 
 ########################################
 
