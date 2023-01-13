@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13094, "Respect Chucky (Child''s Play)", 'https://redd.it/10atv2w')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Tony Stark, Iron Man! (Iron Man: The Gauntlet)', 'https://redd.it/10advsj')
 add_data(['Iron(-| )?Man'],
 'Iron Man',
@@ -134,6 +138,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/10advtb/respect_the_mandarin_iron_man_the_gauntlet/
+
+########################################
+
+id = get_rt_id(cur, "Respect Chucky (Child''s Play [2019 Remake])", 'https://redd.it/10atvaf')
+add_data(['Chucky'],
+'Chucky',
+False,
+False,
+[
+    ['Chucky ?\(Remake'], ['Remake Chucky'], ['2019']
+],
+"Child''s Play, 2019",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10atvaf/respect_chucky_childs_play_2019_remake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hellverine (Marvel, 616)', 'https://redd.it/10b03di')
+add_data(['Hellverine'],
+'Hellverine',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10b03di/respect_hellverine_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'American Dad! Hub post', 'https://redd.it/10b053l')
+add_data(['American Dad ?verse'],
+'American Dadverse',
+False,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10b053l/american_dad_hub_post/
 
 ########################################
 
