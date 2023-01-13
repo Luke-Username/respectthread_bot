@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Tony Stark, Iron Man! (Iron Man: The Gauntlet)', 'https://redd.it/10advsj')
+add_data(['Iron(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Iron Man: The Gauntlet']
+],
+'Iron Man: The Gauntlet',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10advsj/respect_tony_stark_iron_man_iron_man_the_gauntlet/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mandarin! (Iron Man: The Gauntlet)', 'https://redd.it/10advtb')
+add_data(['Mandarin'],
+'Mandarin',
+False,
+False,
+[
+    ['Iron Man: The Gauntlet']
+],
+'Iron Man: The Gauntlet',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10advtb/respect_the_mandarin_iron_man_the_gauntlet/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
