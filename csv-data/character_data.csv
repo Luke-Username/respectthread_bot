@@ -6103,8 +6103,6 @@ Frost,"{`"Mortal Kombat`"}",f,"{5276,7414}",Mortal Kombat
 Frost,{MK},f,"{5276,7414}",Mortal Kombat
 Tanya,"{`"Mortal Kombat`"}",f,"{5316,7415}",Mortal Kombat
 Tanya,{MK},f,"{5316,7415}",Mortal Kombat
-Leo Valdez,"{`"Heroes of Olympus`"}",t,{7416},Mortal Kombat
-Leo Valdez,"{`"Riordan(-| )?(verse)?`"}",t,{7416},Mortal Kombat
 Danny,"{`"Zatch Bell`"}",f,{7417},Zatch Bell!
 Danny,"{`"Golden Gash`"}",f,{7417},Zatch Bell!
 Danny,"{`"Konjiki no Gash`"}",f,{7417},Zatch Bell!
@@ -24915,10 +24913,6 @@ Fiona,{Shrek},f,{20981},Shrek
 Fiona,{Princess},f,{20981},Shrek
 Fiona,"{`"Tai Lung`"}",f,{20981},Shrek
 Chaor,{Chaotic},t,{20982},Chaotic
-Ginny,{Weasley},t,{20983},Harry Potter
-Ginny,{Harry},t,{20983},Harry Potter
-Ginny,{Ron},t,{20983},Harry Potter
-Ginny,{Hermione},t,{20983},Harry Potter
 Unnamed Champion,{Avatar},f,{20984},Avatar: TLA
 Unnamed Champion,{A?TLA},f,{20984},Avatar: TLA
 Unnamed Champion,"{`"(Air|Earth)(-| )bender`"}",f,{20984},Avatar: TLA
@@ -28945,3 +28939,26 @@ Art the Clown,{Terrifier},t,{23194},Terrifier
 Suguru Geto,"{`"Jujus?t?s?u Kaisen`"}",t,{23195},Jujutsu Kaisen
 Lucas Kane,{Fahrenheit},t,{23196},Fahrenheit/Indigo Prophecy
 Lucas Kane,"{`"Indigo Prophecy`"}",t,{23196},Fahrenheit/Indigo Prophecy
+Ginny,{Weasley},f,{20983},Harry Potter
+Ginny,{Harry},f,{20983},Harry Potter
+Ginny,{Ron},f,{20983},Harry Potter
+Ginny,{Hermione},f,{20983},Harry Potter
+Leo Valdez,"{`"Heroes of Olympus`"}",t,{7416},Heroes of Olympus
+Leo Valdez,"{`"Riordan(-| )?(verse)?`"}",t,{7416},Heroes of Olympus
+Robotnik,"{`"Sonic Movies?`"}",f,{8608},Sonic Movies
+Eggman,"{`"Sonic Movies?`"}",f,{8608},Sonic Movies
+Jacco,"{`"Dragon ?Ball`"}",f,{3296},Dragon Ball
+Jacco,{DB(Z|S)},f,{3296},Dragon Ball
+Jacco,{Goku},f,{3296},Dragon Ball
+Hulk,{20017},f,{23197},20017
+Niv-Mizzet,"{`"Magic:? The Gathering`"}",t,{23198},Magic: The Gathering
+Niv-Mizzet,{M:?TG},t,{23198},Magic: The Gathering
+Great Terror,{Shrek},f,{23199},Shrek
+Great Terror,"{`"Puss i?n Boots`"}",f,{23199},Shrek
+Helena Wayne,"{`"New(-| )?52`"}",t,{23201},New 52
+Helena Wayne,{Nu?-?52},t,{23201},New 52
+Aliens,"{`"Aliens ?\\(Feeders`"}",f,{23202},Feeders
+Suruga Shushu,"{`"Chained Soldier`"}",t,{23203},Chained Soldier
+Himari Azuma,"{`"Chained Soldier`"}",t,{23204},Chained Soldier
+Kyouka Uzen,"{`"Chained Soldier`"}",t,{23205},Chained Soldier
+Yuuki Wakura,"{`"Chained Soldier`"}",t,{23206},Chained Soldier

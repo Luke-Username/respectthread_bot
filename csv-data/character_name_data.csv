@@ -1850,7 +1850,6 @@ Matches,Matches,f
 Hand,Hand,f
 Fairy Godmother,Fairy Godmother,f
 Mongo,Mongo,f
-Puss in Boots,Puss in Boots,f
 Shrek,Shrek,f
 Kim,Kim,f
 Kim the Invincible,Kim the Invincible,f
@@ -1894,6 +1893,7 @@ Skullcrusher,Skullcrusher,f
 Jason Blood,Jason Blood,f
 Brock Samp?son,Brock Samson,f
 Omni-?droid,Omnidroid,f
+Puss i?n Boots,Puss in Boots,f
 Snotlout,Snotlout,f
 Hookfang,Hookfang,f
 Fishlegs,Fishlegs,f
@@ -5380,7 +5380,6 @@ General Tao,Mercenary Tao,f
 Cyborg Tao,Mercenary Tao,f
 Fr(i|e)eza,Frieza,f
 Jaco,Jaco,f
-"Jaco,? the Galactic Patrolman",Jaco the Galactic Patrolman,f
 Anilaza,Anilaza,f
 Cabba,Cabba,f
 Hit,Hit,f
@@ -5493,6 +5492,7 @@ Juza,Juza,f
 Kaioh,Kaioh,f
 Kenshiro,Kenshiro,f
 Tao ?(B|P)ai ?(B|P)ai,Mercenary Tao,f
+"Jacc?o,? the Galactic Patrolman",Jaco the Galactic Patrolman,f
 Raoh,Raoh,f
 Rei,Rei,f
 Shu,Shu,f
@@ -13222,3 +13222,12 @@ Kamen Rider Saber,Kamen Rider Saber,f
 Art the Clown,Art the Clown,f
 Suguru Geto|Geto Suguru,Suguru Geto,f
 Lucas Kane,Lucas Kane,f
+Jacco,Jacco,f
+Niv(-| )Mizzet,Niv-Mizzet,f
+Great Terror,Great Terror,f
+Helena Wayne,Helena Wayne,f
+Aliens,Aliens,f
+Suruga Shushu,Suruga Shushu,f
+Azuma Himari|Himari Azuma,Himari Azuma,f
+Kyouka Uzen|Uzen Kyouka,Kyouka Uzen,f
+Yuuki Wakura|Wakura Yuuki,Yuuki Wakura,f
