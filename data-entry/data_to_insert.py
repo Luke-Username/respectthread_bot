@@ -111,6 +111,20 @@ update_respectthread(cur, 13094, "Respect Chucky (Child''s Play)", 'https://redd
 
 ########################################
 
+add_data(['Blade'],
+'Blade',
+False,
+False,
+[
+    ['Buffy', 'Blade.*Vampire Slayer']
+],
+'616',
+'{2204}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10cjjzv/blade_the_vampire_slayer/j4h570h/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Tony Stark, Iron Man! (Iron Man: The Gauntlet)', 'https://redd.it/10advsj')
 add_data(['Iron(-| )?Man'],
 'Iron Man',
@@ -198,6 +212,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/10bwc55/respect_overman_dc_comics_precrisis_earthseventeen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mask of Jason Voorhees (Friday the 13th)', 'https://redd.it/10cpd1f')
+add_data(['Mask of Jason Voo?rhee?s'],
+'Mask of Jason Voorhees',
+False,
+True,
+[
+    ['Friday the 13th']
+],
+'Friday the 13th',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10cpd1f/respect_the_mask_of_jason_voorhees_friday_the_13th/
 
 ########################################
 
