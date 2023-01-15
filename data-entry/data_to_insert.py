@@ -186,6 +186,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect: Overman! (DC Comics, Pre-Crisis Earth-Seventeen)', 'https://redd.it/10bwc55')
+add_data(['Overman'],
+'Overman',
+False,
+False,
+[
+    ['Pre(-| )?Crisis'], ['Earth(-| )(Seventeen|17)']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10bwc55/respect_overman_dc_comics_precrisis_earthseventeen/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
