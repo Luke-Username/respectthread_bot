@@ -107,6 +107,45 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Aku'],
+'Aku',
+False,
+False,
+[
+    ['Ganon(dorf)?', 'vs\.? Aku']
+],
+'Samurai Jack',
+'{879}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10d68up/ganondorf_vs_aku/j4jvcsu/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect AonDor and the Elantrians (Elantris)', 'https://redd.it/10d655u')
+add_data(['AonDor'],
+'AonDor',
+False,
+True,
+[
+    ['Elantris'], ['Elantrians?'], ['Cosmere']
+],
+'Elantris',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10d655u/respect_aondor_and_the_elantrians_elantris/
+
+add_data(['Elantrians?'],
+'Elantrians',
+False,
+True,
+[
+    ['Elantris'], ['Cosmere']
+],
+'Elantris',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10d655u/respect_aondor_and_the_elantrians_elantris/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
