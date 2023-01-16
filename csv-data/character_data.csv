@@ -9548,7 +9548,6 @@ Jake Rivers,"{`"Trigger Warning`"}",f,{8571},Trigger Warning
 Thing,"{`"Fred and Barney Meet the Thing`"}",f,{8572},700974
 Thing,{700974},f,{8572},700974
 Paul Blart,"{`"Mall Cop`"}",t,{8574},Paul Blart: Mall Cop
-Angel,{Fox(verse)?},f,{8575},FOX
 Angel,"{`"X-?Men Cinematic Universe`"}",f,{8575},FOX
 Angel,{XCU},f,{8575},FOX
 Angel,"{`"X-?Men:? Apocalypse`"}",f,{8575},FOX
@@ -9603,6 +9602,7 @@ Ida,"{`"Class ?1(-| )?a`"}",f,{3937},My Hero Academia
 Ida,{Tenya},f,{3937},My Hero Academia
 Ida,{Deku},f,{3937},My Hero Academia
 Captain Celebrity,"{`"My Hero Academia`"}",t,{3918},My Hero Academia
+Angel,{Foxverse},f,{8575},FOX
 Captain Celebrity,"{`"\\(My Hero\\)`"}",t,{3918},My Hero Academia
 Captain Celebrity,{BN?HA},t,{3918},My Hero Academia
 Captain Celebrity,{MHA},t,{3918},My Hero Academia
@@ -12555,8 +12555,6 @@ Frost,{DB(Z|S)?},f,"{3283,3312}",Dragon Ball
 Frost,{Saiyan},f,"{3283,3312}",Dragon Ball
 Frost,{Goku},f,"{3283,3312}",Dragon Ball
 Frost,{Fr(i|e)eza},f,"{3283,3312}",Dragon Ball
-Hit,{Saiyan},f,{3295},Dragon Ball
-Hit,{Fr(i|e)eza},f,{3295},Dragon Ball
 Basil,"{`"Dragon ?Ball`"}",f,{3271},Dragon Ball
 Basil,{DB(Z|S)?},f,{3271},Dragon Ball
 Basil,{Saiyan},f,{3271},Dragon Ball
@@ -28962,3 +28960,14 @@ Suruga Shushu,"{`"Chained Soldier`"}",t,{23203},Chained Soldier
 Himari Azuma,"{`"Chained Soldier`"}",t,{23204},Chained Soldier
 Kyouka Uzen,"{`"Chained Soldier`"}",t,{23205},Chained Soldier
 Yuuki Wakura,"{`"Chained Soldier`"}",t,{23206},Chained Soldier
+Blade,"{Buffy,`"Blade.*Vampire Slayer`"}",f,{2204},616
+Iron Man,"{`"Iron Man: The Gauntlet`"}",f,{23207},Iron Man: The Gauntlet
+Mandarin,"{`"Iron Man: The Gauntlet`"}",f,{23208},Iron Man: The Gauntlet
+Chucky,"{`"Chucky ?\\(Remake`"}",f,{23209},"Child's Play, 2019"
+Chucky,"{`"Remake Chucky`"}",f,{23209},"Child's Play, 2019"
+Chucky,{2019},f,{23209},"Child's Play, 2019"
+Hellverine,{616},t,{23210},616
+American Dadverse,{default},t,{23211},""
+Overman,"{`"Pre(-| )?Crisis`"}",f,{23212},Pre-Crisis
+Overman,"{`"Earth(-| )(Seventeen|17)`"}",f,{23212},Pre-Crisis
+Mask of Jason Voorhees,"{`"Friday the 13th`"}",t,{23213},Friday the 13th

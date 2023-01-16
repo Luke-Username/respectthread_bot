@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Hit' AND version='{"Saiyan"}';
-DELETE FROM character WHERE default_name='Hit' AND version='{"Fr(i|e)eza"}';
-
 ########################################
-
-UPDATE character SET version='{"Foxverse"}' WHERE default_name='Angel' AND version='{"Fox(verse)?"}';
 
 ########################################
 
