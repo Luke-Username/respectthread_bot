@@ -148,6 +148,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Crunch (Crash Bandicoot)', 'https://redd.it/10di7h3')
+add_data(['Crunch'],
+'Crunch',
+False,
+False,
+[
+    ['Crash Bandicoot'], ['Crunch Bandicoot']
+],
+'Crash Bandicoot',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10di7h3/respect_crunch_crash_bandicoot/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Blade (Marvel Anime, Madhouse)', 'https://redd.it/10dihwn')
+add_data(['Blade'],
+'Blade',
+False,
+False,
+[
+    ['Blade ?\(Marvel Anime'], ['Marvel Anime', 'Madhouse']
+],
+'Marvel Anime',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10dihwn/respect_blade_marvel_anime_madhouse/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
