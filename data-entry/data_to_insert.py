@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6147, "Respect Wan ShaiLu (The Emporer''s Soul)", 'https://redd.it/10e3q2r')
+
+########################################
+
 add_data(['Aku'],
 'Aku',
 False,
@@ -118,6 +122,20 @@ False,
 '{879}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/10d68up/ganondorf_vs_aku/j4jvcsu/?context=3
+
+########################################
+
+add_data(['Afton'],
+'Afton',
+False,
+False,
+[
+    ['William']
+],
+'FNAF',
+'{21263}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10dxnz8/another_isekaid_hero_midoriya_vs_afton/j4nrqx4/?context=3
 
 ########################################
 
@@ -175,6 +193,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/10dihwn/respect_blade_marvel_anime_madhouse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nanako! (Tsukihime)', 'https://redd.it/10dxc0l')
+add_data(['Nanako'],
+'Nanako',
+False,
+False,
+[
+    ['Tsukihime']
+],
+'Tsukihime',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10dxc0l/respect_nanako_tsukihime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ciel! (Tsukihime)', 'https://redd.it/10dxe7p')
+add_data(['Ciel'],
+'Ciel',
+False,
+False,
+[
+    ['Tsukihime']
+],
+'Tsukihime',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10dxe7p/respect_ciel_tsukihime/
+
+########################################
+
+id = get_rt_id(cur, "Respect Aquaman (La''gaan, Young Justice)", 'https://redd.it/10e1dby')
+add_data(["La''gaan"],
+"La''gaan",
+False,
+False,
+[
+    ['Young Justice']
+],
+'Young Justice',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10e1dby/respect_aquaman_lagaan_young_justice/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anguirus (Godzilla Singular Point)', 'https://redd.it/10e3tbj')
+add_data(['Anguirus'],
+'Anguirus',
+False,
+False,
+[
+    ['Godzilla Singular Point']
+],
+'Godzilla Singular Point',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10e3tbj/respect_anguirus_godzilla_singular_point/
 
 ########################################
 
