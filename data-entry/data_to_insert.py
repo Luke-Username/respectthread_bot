@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 6147, "Respect Wan ShaiLu (The Emporer''s Soul)", 'https://redd.it/10e3q2r')
+update_respectthread(cur, 5720, 'Respect Rick Taylor (Splatterhouse) (Classic)', 'https://redd.it/10ebojc')
 
 ########################################
 
@@ -136,6 +137,34 @@ False,
 '{21263}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/10dxnz8/another_isekaid_hero_midoriya_vs_afton/j4nrqx4/?context=3
+
+########################################
+
+add_data(['Din Djarin'],
+'Din Djarin',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{8117}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10ecvbn/whos_the_best_jedi_that_peak_din_djarin_beats_in/j4q36g8/?context=3
+
+add_data(['Mando'],
+'Mando',
+False,
+False,
+[
+    ['S(tar )?Wars'], ['Boba|Fett'], ['Greef Karga'], ['Disintegrat(ing|or)', 'rifle'],
+    ['Mando vs|vs\.? Mando', 'Captain America|Black Panther|Geralt|Predator'], ['Din'], ['Dark ?saber'], ['Grievous'], ['Yoda'], ['Ahsoka'], ['MCU Gauntlet'],
+    ['Bounty Hunters?']
+],
+'Star Wars',
+'{8117}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10ecvbn/whos_the_best_jedi_that_peak_din_djarin_beats_in/j4q36g8/?context=3
 
 ########################################
 
