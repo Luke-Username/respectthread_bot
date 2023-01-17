@@ -10285,7 +10285,6 @@ Soldier of Love,"{`"Dark(-| )?Horse`"}",f,{2753},Empowered
 Boone Dias,{Ether},t,{2754},Ether
 Bigby Wolf,{Fables},t,{2755},Fables
 Bigby Wolf,"{`"Wolf Among Us`"}",f,{},The Wolf Among Us
-Jack Horner,{Fables},t,{2756},Fables
 Fear Agent,"{`"Fear Agent`"}",t,{2757},""
 Heath Huston,"{`"Fear Agent`"}",t,{2757},Fear Agent
 Fantomah,"{`"Fletcher Hanks`"}",t,{2760},Fletcher Hanks
@@ -20267,7 +20266,6 @@ Soulcalibur,{default},t,{5717},""
 Ulala,"{`"Space Channel`"}",f,{5718},Space Channel 5
 Ulala,{Sega},f,{5718},Space Channel 5
 Spartan,"{`"Total Warrior`"}",f,{5719},Spartan: Total Warrior
-Rick Taylor,{Splatterhouse},t,{5720},Splatterhouse
 Battle for Bikini Bottom,{Spongebob},t,{5721},""
 Robo-Sandy,"{`"Battle for Bikini Bottom`"}",t,{5721},Battle for Bikini Bottom
 Robo-Sandy,{BFBB},t,{5721},Battle for Bikini Bottom
@@ -20314,6 +20312,7 @@ Terran,"{`"Star ?Craft`"}",f,{},StarCraft
 Terran,"{`"SC\\d?`"}",f,{},StarCraft
 Superhot,"{`"Super ?hot (Guy|Protag(onist)?|player|campaign|vs)`"}",f,{5732},""
 Superhot,{time},f,{5732},""
+Rick Taylor,{Splatterhouse},t,"{5720,23214}",Splatterhouse
 Nightmare Gabe,{VGCW},f,{5749},Video Game Championship Wrestling
 The Visitor,"{`"flash ?game`"}",f,{5750},""
 The Visitor,"{alien,eat(en)?}",f,{5750},""
@@ -28971,3 +28970,38 @@ American Dadverse,{default},t,{23211},""
 Overman,"{`"Pre(-| )?Crisis`"}",f,{23212},Pre-Crisis
 Overman,"{`"Earth(-| )(Seventeen|17)`"}",f,{23212},Pre-Crisis
 Mask of Jason Voorhees,"{`"Friday the 13th`"}",t,{23213},Friday the 13th
+Jack Horner,{Fables},f,{2756},Fables
+Aku,"{Ganon(dorf)?,`"vs\\.? Aku`"}",f,{879},Samurai Jack
+Afton,{William},f,{21263},FNAF
+Hellboy,{Perlman},f,{214},Hellboy films
+Hellboy,"{`"David Harbour`"}",f,{16338},2019
+Din Djarin,"{`"S(tar )?Wars`"}",t,{8117},Star Wars
+Mando,"{`"S(tar )?Wars`"}",f,{8117},Star Wars
+Mando,{Boba|Fett},f,{8117},Star Wars
+Mando,"{`"Greef Karga`"}",f,{8117},Star Wars
+Mando,"{Disintegrat(ing|or),rifle}",f,{8117},Star Wars
+Mando,"{`"Mando vs|vs\\.? Mando`",`"Captain America|Black Panther|Geralt|Predator`"}",f,{8117},Star Wars
+Mando,{Din},f,{8117},Star Wars
+Mando,"{`"Dark ?saber`"}",f,{8117},Star Wars
+Mando,{Grievous},f,{8117},Star Wars
+Mando,{Yoda},f,{8117},Star Wars
+Mando,{Ahsoka},f,{8117},Star Wars
+Mando,"{`"MCU Gauntlet`"}",f,{8117},Star Wars
+Mando,"{`"Bounty Hunters?`"}",f,{8117},Star Wars
+AonDor,{Elantris},t,{23215},Elantris
+AonDor,{Elantrians?},t,{23215},Elantris
+AonDor,{Cosmere},t,{23215},Elantris
+Elantrians,{Elantris},t,{23215},Elantris
+Elantrians,{Cosmere},t,{23215},Elantris
+Crunch,"{`"Crash Bandicoot`"}",f,{23216},Crash Bandicoot
+Crunch,"{`"Crunch Bandicoot`"}",f,{23216},Crash Bandicoot
+Blade,"{`"Blade ?\\(Marvel Anime`"}",f,{23217},Marvel Anime
+Blade,"{`"Marvel Anime`",Madhouse}",f,{23217},Marvel Anime
+Nanako,{Tsukihime},f,{23218},Tsukihime
+La'gaan,"{`"Young Justice`"}",f,{23220},Young Justice
+Anguirus,"{`"Godzilla Singular Point`"}",f,{23221},Godzilla Singular Point
+Rick Taylor,"{`"Wanpaku Graffiti`"}",f,{23222},Splatterhouse: Wanpaku Graffiti
+Pied Piper,{Shrek},f,{23223},Shrek
+Titans,"{`"Crash Bandicoot`"}",f,{23224},Crash Bandicoot
+Mantis,"{`"Marvel Cinematic Universe`"}",f,{23225},MCU
+Mantis,{MCU},f,{23225},MCU
