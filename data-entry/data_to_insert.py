@@ -285,6 +285,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Rick Taylor (Splatterhouse: Wanpaku Graffiti)', 'https://redd.it/10ebok6')
+add_data(['Rick Taylor'],
+'Rick Taylor',
+False,
+False,
+[
+    ['Wanpaku Graffiti']
+],
+'Splatterhouse: Wanpaku Graffiti',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10ebok6/respect_rick_taylor_splatterhouse_wanpaku_graffiti/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
