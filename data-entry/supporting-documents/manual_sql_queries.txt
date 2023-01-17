@@ -23,6 +23,8 @@ UPDATE character SET rt_id_array='{5720, ?}' WHERE rt_id_array='{5720}';
 
 ########################################
 
+UPDATE character_name SET name='Hellboys?' WHERE name='Hellboy';
+
 ########################################
 
 ########################################

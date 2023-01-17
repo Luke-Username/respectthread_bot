@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 6147, "Respect Wan ShaiLu (The Emporer''s Soul)", 'https://redd.it/10e3q2r')
 update_respectthread(cur, 5720, 'Respect Rick Taylor (Splatterhouse) (Classic)', 'https://redd.it/10ebojc')
+update_respectthread(cur, 13602, 'Respect Drax the Destroyer! (Marvel Cinematic Universe)', 'https://redd.it/10enhef')
 
 ########################################
 
@@ -137,6 +138,32 @@ False,
 '{21263}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/10dxnz8/another_isekaid_hero_midoriya_vs_afton/j4nrqx4/?context=3
+
+########################################
+
+add_data(['Hellboys?'],
+'Hellboy',
+False,
+False,
+[
+    ['Perlman']
+],
+'Hellboy films',
+'{214}'
+)
+#https://www.reddit.com/r/respectthreads/comments/5sc8rf/respect_hellboy_20042008/
+
+add_data(['Hellboys?'],
+'Hellboy',
+False,
+False,
+[
+    ['David Harbour']
+],
+'2019',
+'{16338}'
+)
+#https://www.reddit.com/r/respectthreads/comments/5sc8rf/respect_hellboy_20042008/
 
 ########################################
 
@@ -297,6 +324,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/10ebok6/respect_rick_taylor_splatterhouse_wanpaku_graffiti/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Pied Piper (Shrek)', 'https://redd.it/10eevcx')
+add_data(['Pied Piper'],
+'Pied Piper',
+False,
+False,
+[
+    ['Shrek']
+],
+'Shrek',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10eevcx/respect_the_pied_piper_shrek/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Titans (Crash Bandicoot)', 'https://redd.it/10ekyzw')
+add_data(['Titans'],
+'Titans',
+False,
+False,
+[
+    ['Crash Bandicoot']
+],
+'Crash Bandicoot',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10ekyzw/respect_the_titans_crash_bandicoot/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mantis! (Marvel Cinematic Universe)', 'https://redd.it/10enjz7')
+add_data(['Mantis'],
+'Mantis',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10enjz7/respect_mantis_marvel_cinematic_universe/
 
 ########################################
 
