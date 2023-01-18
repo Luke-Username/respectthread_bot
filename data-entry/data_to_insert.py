@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Death (Puss in Boots: The Last Wish)', 'https://redd.it/10eujug')
+add_data(['Death'],
+'Death',
+False,
+False,
+[
+    ['Puss i?n Boots']
+],
+'Puss in Boots',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10eujug/respect_death_puss_in_boots_the_last_wish/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
