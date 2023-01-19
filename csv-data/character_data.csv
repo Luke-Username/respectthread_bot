@@ -26720,7 +26720,6 @@ Lorraine,{Broughton},f,{21779},Atomic Blonde
 Lorraine,"{`"Atomic Blonde?`"}",f,{21779},Atomic Blonde
 Shredder,{Mirage},f,{2677},Mirage Comics
 Invincible,{Mark},f,"{1961,17671}",Image Comics
-Invincible,"{`"(and|&) Omni(-| )?Man`"}",f,"{1961,17671}",Image Comics
 Kirby,{Captain.Kirby},f,{},SCP
 Nightwing,{DC},f,"{1499,1498}",DC
 Cenobite,{Hellraiser},t,"{462,21270,21281}",Hellraiser
@@ -29005,3 +29004,14 @@ Pied Piper,{Shrek},f,{23223},Shrek
 Titans,"{`"Crash Bandicoot`"}",f,{23224},Crash Bandicoot
 Mantis,"{`"Marvel Cinematic Universe`"}",f,{23225},MCU
 Mantis,{MCU},f,{23225},MCU
+Invincible,"{`"(and|&|has) Omni(-| )?Man`"}",f,"{1961,17671}",Image Comics
+Death,"{`"Puss i?n Boots`"}",f,{23226},Puss in Boots
+Princesses,{Shrek},f,{23227},Shrek
+Doctor Death,"{`"New(-| )?52`"}",f,{23228},New 52
+Doctor Death,{Nu?-?52},f,{23228},New 52
+Doctor Death,{PC},f,{},Post-Crisis
+Doctor Death,"{`"Posts?(-| )?C(risis)?`"}",f,{},Post-Crisis
+Doctor Death,"{`"New(-| )Earth`"}",f,{},Post-Crisis
+Doctor Death,"{`"\\(DC( Comics)?\\)`"}",f,{},DC
+Doctor Death,"{`"\\[DC( Comics)?\\]`"}",f,{},DC
+Baron Munchausen,"{`"Adventures of Baron Munchausen`"}",t,{23229},The Adventures of Baron Munchausen

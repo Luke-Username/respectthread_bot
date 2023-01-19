@@ -14,11 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"(and|&|has) Omni(-| )?Man"}' WHERE version='{"(and|&) Omni(-| )?Man"}';
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Nero', 'Nero Angelo', 0);
 
 ########################################
 
