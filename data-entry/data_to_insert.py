@@ -122,6 +122,75 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Princesses (Shrek the Third)', 'https://redd.it/10flwn5')
+add_data(['Princesses'],
+'Princesses',
+True,
+False,
+[
+    ['Shrek']
+],
+'Shrek',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10flwn5/respect_the_princesses_shrek_the_third/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Karl Helfern, Doctor Death (DC, New 52)', 'https://redd.it/10fbe57')
+add_data(['D(octo)?r\.? Death'],
+'Doctor Death',
+False,
+False,
+[
+    ['New(-| )?52'], ['Nu?-?52']
+],
+'New 52',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10fbe57/respect_karl_helfern_doctor_death_dc_new_52/
+
+add_data(['D(octo)?r\.? Death'],
+'Doctor Death',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10fbe57/respect_karl_helfern_doctor_death_dc_new_52/
+
+add_data(['D(octo)?r\.? Death'],
+'Doctor Death',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10fbe57/respect_karl_helfern_doctor_death_dc_new_52/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Baron Munchausen! (The Adventures of Baron Munchausen)', 'https://redd.it/10fhxmb')
+add_data(['Baron Munchausen'],
+'Baron Munchausen',
+False,
+True,
+[
+    ['Adventures of Baron Munchausen']
+],
+'The Adventures of Baron Munchausen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10fhxmb/respect_baron_munchausen_the_adventures_of_baron/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
