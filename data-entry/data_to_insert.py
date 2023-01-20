@@ -107,6 +107,137 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5654, 'Respect A2 (Nier: Automata)', 'https://redd.it/10h2h4m')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Eric Myers, the Quantum Ranger! (Power Rangers Time Force)', 'https://redd.it/10gl0ot')
+add_data(['Eric Myers'],
+'Eric Myers',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10gl0ot/respect_eric_myers_the_quantum_ranger_power/
+
+add_data(['Quantum Ranger'],
+'Quantum Ranger',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10gl0ot/respect_eric_myers_the_quantum_ranger_power/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Prince Caspian! (The Chronicles of Narnia)', 'https://redd.it/10gm7pu')
+add_data(['Prince Caspian'],
+'Prince Caspian',
+False,
+True,
+[
+    ['Narnia']
+],
+'The Chronicles of Narnia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10gm7pu/respect_prince_caspian_the_chronicles_of_narnia/
+
+add_data(['Caspian'],
+'Caspian',
+False,
+False,
+[
+    ['Narnia']
+],
+'The Chronicles of Narnia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10gm7pu/respect_prince_caspian_the_chronicles_of_narnia/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Edmund Pevensie (The Chronicles of Narnia)', 'https://redd.it/10gmf62')
+add_data(['Edmund'],
+'Edmund',
+False,
+False,
+[
+    ['Narnia'], ['Pevensie']
+],
+'The Chronicles of Narnia',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Susan Pevensie (The Chronicles of Narnia)', 'https://redd.it/10gmhkq')
+add_data(['Susan'],
+'Susan',
+False,
+False,
+[
+    ['Narnia'], ['Pevensie']
+],
+'The Chronicles of Narnia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10gmhkq/respect_susan_pevensie_the_chronicles_of_narnia/
+
+########################################
+
+id = get_rt_id(cur, "Respect Batman''s Superman-suit (DC Comics, Post-Crisis)", 'https://redd.it/10gmt1n')
+add_data(["Bat(-| )?man''?s Super(-| )?man(-| )suit"],
+"Batman''s Superman-suit",
+False,
+True,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10gmt1n/respect_batmans_supermansuit_dc_comics_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, "Respect Batman''s Justice Buster (DC Comics, New52)", 'https://redd.it/10h6qa1')
+add_data(['Justice Buster'],
+'Justice Buster',
+False,
+True,
+[
+    ['New(-| )?52'], ['Nu?-?52'], ['Post(-| )52'], ['Prime(-| )Earth']
+],
+'New 52',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10h6qa1/respect_batmans_justice_buster_dc_comics_new52/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Vulkan (Warhammer 40k)', 'https://redd.it/10gokqg')
+add_data(['Vulkan'],
+'Vulkan',
+False,
+False,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10gokqg/respect_vulkan_warhammer_40k/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
