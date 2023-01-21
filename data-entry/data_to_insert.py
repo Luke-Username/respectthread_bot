@@ -108,6 +108,35 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 5654, 'Respect A2 (Nier: Automata)', 'https://redd.it/10h2h4m')
+update_respectthread(cur, 1020, 'Respect The Team (Young Justice)', 'https://redd.it/10hxs6d')
+
+########################################
+
+add_data(['Shinso'],
+'Shinso',
+False,
+False,
+[
+    ['My Hero Academia'], ['(M|BN?)HA'], ['Boku no Hero'], ['Brainwash(ing|er)'], ['Quirks?']
+],
+'My Hero Academia',
+'{17325}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10hbx6m/a_brainwasher_studies_under_the_ingenious_mind/j57jaeu/?context=3
+
+########################################
+
+add_data(['Galen Marek'],
+'Galen Marek',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{5728}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10hohsn/jean_grey_vs_forcesensitives/
 
 ########################################
 
@@ -237,6 +266,108 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/10gokqg/respect_vulkan_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect White Lantern Batman (DC Comics, Rebirth)', 'https://redd.it/10hh441')
+add_data(['White Lantern Batman'],
+'White Lantern Batman',
+False,
+True,
+[
+    ['Rebirth']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10hh441/respect_white_lantern_batman_dc_comics_rebirth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Bizzare Batman Genie (DC, Pre-Crisis)', 'https://redd.it/10hs97t')
+add_data(['Bizzare Batman(-| )Genie'],
+'Bizzare Batman-Genie',
+False,
+True,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10hs97t/respect_the_bizzare_batman_genie_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Overman! (DC Comics, Post Crisis Earth 10/Earth X)', 'https://redd.it/10hy45g')
+add_data(['Overman'],
+'Overman',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth'], ['Earth(-| )(10|X)']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10hy45g/respect_overman_dc_comics_post_crisis_earth/
+
+add_data(['Overman'],
+'Overman',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}, 23212'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10hy45g/respect_overman_dc_comics_post_crisis_earth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Arthur, King of the Britons! (BOOM! Studios, Once & Future)', 'https://redd.it/10hixg6')
+add_data(['Arthur'],
+'Arthur',
+False,
+False,
+[
+    ['Once (&|and) Future']
+],
+'Once & Future',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10hixg6/respect_arthur_king_of_the_britons_boom_studios/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kinshiki Otsutsuki (Boruto: Naruto Next Generations [Manga])', 'https://redd.it/10ho688')
+add_data(['Kinshiki'],
+'Kinshiki',
+False,
+True,
+[
+    ['Naruto'], ['Boruto'], ['(Ō|O)tsutsuki'], ['Momoshiki']
+],
+'Naruto',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10ho688/respect_kinshiki_otsutsuki_boruto_naruto_next/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kinshiki Otsutsuki (Boruto: Naruto Next Generations [Manga])', 'https://redd.it/10ho688')
+add_data(['Crocker'],
+'Crocker',
+False,
+False,
+[
+    ['Fairly Odd ?parents'], ['FOP'], ['Timmy|Cosmo|Wanda'], ['Denzel'], ['Fair(y|ies)'], ['Muffin'], ['Mr\.? Crocker']
+],
+'Fairly OddParents',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10hvsus/respect_denzel_crocker_the_fairly_oddparents/
 
 ########################################
 
