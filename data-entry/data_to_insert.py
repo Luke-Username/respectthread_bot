@@ -356,7 +356,7 @@ True,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Kinshiki Otsutsuki (Boruto: Naruto Next Generations [Manga])', 'https://redd.it/10ho688')
+id = get_rt_id(cur, 'Respect Denzel Crocker! (The Fairly OddParents)', 'https://redd.it/10hvsus')
 add_data(['Crocker'],
 'Crocker',
 False,
