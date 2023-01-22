@@ -20396,7 +20396,6 @@ Jadis,{Narnia},f,{5770},The Chronicles of Narnia
 Jadis,"{`"The White`"}",f,{5770},The Chronicles of Narnia
 White Witch,{Narnia},f,{5770},The Chronicles of Narnia
 White Witch,{Jadis},f,{5770},The Chronicles of Narnia
-Peter Pevensie,{Narnia},t,{5771},The Chronicles of Narnia
 Peter,{Narnia},f,{5771},The Chronicles of Narnia
 Codex Alera,{default},t,{5772},""
 Vord Queen,"{`"Codex Alera`"}",t,{5773},Codex Alera
@@ -20446,6 +20445,7 @@ Kiritsugu Emiya,"{`"Fate( ?/ ?| )Zero`"}",t,{5789},Fate/Zero
 Diarmuid Ua Duibhne,"{`"Fate( ?/ ?| )Zero`"}",f,{5790},Fate/Zero
 Rider of Red,{Fate},t,{},Fate
 Achilles,{Apocrypha},f,{},Fate
+Peter Pevensie,{Narnia},t,"{5771,23230}",The Chronicles of Narnia
 Diarmuid Ua Duibhne,{Lancer},f,{5790},Fate/Zero
 Lancer,"{`"Fate( ?/ ?| )Zero`"}",f,{5790},Fate/Zero
 Alexander the Great,"{`"Fate( ?/ ?| )Zero`"}",f,{5791},Fate/Zero
@@ -29015,3 +29015,47 @@ Doctor Death,"{`"New(-| )Earth`"}",f,{},Post-Crisis
 Doctor Death,"{`"\\(DC( Comics)?\\)`"}",f,{},DC
 Doctor Death,"{`"\\[DC( Comics)?\\]`"}",f,{},DC
 Baron Munchausen,"{`"Adventures of Baron Munchausen`"}",t,{23229},The Adventures of Baron Munchausen
+Shinso,"{`"My Hero Academia`"}",f,{17325},My Hero Academia
+Shinso,{(M|BN?)HA},f,{17325},My Hero Academia
+Shinso,"{`"Boku no Hero`"}",f,{17325},My Hero Academia
+Shinso,{Brainwash(ing|er)},f,{17325},My Hero Academia
+Shinso,{Quirks?},f,{17325},My Hero Academia
+Galen Marek,"{`"S(tar )?Wars`"}",f,{5728},Star Wars
+Eric Myers,"{`"Power Rangers?`"}",t,{23231},Power Rangers
+Quantum Ranger,"{`"Power Rangers?`"}",t,{23231},Power Rangers
+Prince Caspian,{Narnia},t,{23232},The Chronicles of Narnia
+Caspian,{Narnia},f,{23232},The Chronicles of Narnia
+Edmund,{Narnia},f,{23233},The Chronicles of Narnia
+Edmund,{Pevensie},f,{23233},The Chronicles of Narnia
+Susan,{Narnia},f,{23234},The Chronicles of Narnia
+Susan,{Pevensie},f,{23234},The Chronicles of Narnia
+Batman's Superman-suit,{PC},t,{23235},Post-Crisis
+Batman's Superman-suit,"{`"Posts?(-| )?C(risis)?`"}",t,{23235},Post-Crisis
+Batman's Superman-suit,"{`"New(-| )Earth`"}",t,{23235},Post-Crisis
+Justice Buster,"{`"New(-| )?52`"}",t,{23236},New 52
+Justice Buster,{Nu?-?52},t,{23236},New 52
+Justice Buster,"{`"Post(-| )52`"}",t,{23236},New 52
+Justice Buster,"{`"Prime(-| )Earth`"}",t,{23236},New 52
+Vulkan,{(WH)?40K},f,{23237},Warhammer 40k
+Vulkan,{Warhammer},f,{23237},Warhammer 40k
+White Lantern Batman,{Rebirth},t,{23238},Rebirth
+Bizzare Batman-Genie,"{`"Pre(-| )?Crisis`"}",t,{23239},Pre-Crisis
+Overman,{PC},f,{23240},Post-Crisis
+Overman,"{`"Posts?(-| )?C(risis)?`"}",f,{23240},Post-Crisis
+Overman,"{`"New(-| )Earth`"}",f,{23240},Post-Crisis
+Overman,"{`"Earth(-| )(10|X)`"}",f,{23240},Post-Crisis
+Overman,"{`"\\(DC( Comics)?\\)`"}",t,"{23240,23212}",DC
+Overman,"{`"\\[DC( Comics)?\\]`"}",t,"{23240,23212}",DC
+Arthur,"{`"Once (&|and) Future`"}",f,{23241},Once & Future
+Kinshiki,{Naruto},t,{23242},Naruto
+Kinshiki,{Boruto},t,{23242},Naruto
+Kinshiki,{(Ō|O)tsutsuki},t,{23242},Naruto
+Kinshiki,{Momoshiki},t,{23242},Naruto
+Crocker,"{`"Fairly Odd ?parents`"}",f,{23243},Fairly OddParents
+Crocker,{FOP},f,{23243},Fairly OddParents
+Crocker,{Timmy|Cosmo|Wanda},f,{23243},Fairly OddParents
+Crocker,{Denzel},f,{23243},Fairly OddParents
+Crocker,{Fair(y|ies)},f,{23243},Fairly OddParents
+Crocker,{Muffin},f,{23243},Fairly OddParents
+Crocker,"{`"Mr\\.? Crocker`"}",f,{23243},Fairly OddParents
+Crocker,"{`"Abra Catastrophe`"}",f,{23243},Fairly OddParents
