@@ -362,7 +362,7 @@ add_data(['Crocker'],
 False,
 False,
 [
-    ['Fairly Odd ?parents'], ['FOP'], ['Timmy|Cosmo|Wanda'], ['Denzel'], ['Fair(y|ies)'], ['Muffin'], ['Mr\.? Crocker']
+    ['Fairly Odd ?parents'], ['FOP'], ['Timmy|Cosmo|Wanda'], ['Denzel'], ['Fair(y|ies)'], ['Muffin'], ['Mr\.? Crocker'], ['Abra Catastrophe']
 ],
 'Fairly OddParents',
 '{' + '{}'.format(id) + '}'
