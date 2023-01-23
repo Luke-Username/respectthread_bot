@@ -111,6 +111,21 @@ update_respectthread(cur, 14889, 'Respect Cirno (Touhou)games ', 'https://redd.i
 
 ########################################
 
+id = get_rt_id(cur, 'Respect: Mephiston, Lord of Death (Warhammer 40k)', 'https://redd.it/10ipcxg')
+add_data(['Mephiston'],
+'Mephiston',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10ipcxg/respect_mephiston_lord_of_death_warhammer_40k/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
