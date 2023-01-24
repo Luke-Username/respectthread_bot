@@ -126,6 +126,96 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Aunn Komano (Touhou)', 'https://redd.it/10jd4zj')
+add_data(['Aunn Komano'],
+'Aunn Komano',
+False,
+True,
+[
+    ['Touhou']
+],
+'Touhou',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10jd4zj/respect_aunn_komano_touhou/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shinji Kaminaga, Ultraman (Shin Ultraman)', 'https://redd.it/10k8nrz')
+add_data(['Shin Ultraman'],
+'Shin Ultraman',
+False,
+True,
+[
+    ['Shinji Kaminaga']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10k8nrz/respect_shinji_kaminaga_ultraman_shin_ultraman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Quantum Replay 9000 (The Adventures of Jimmy Neutron, Boy Genius)', 'https://redd.it/10kgusc')
+add_data(['Quantum Replay'],
+'Quantum Replay',
+False,
+False,
+[
+    ['Quantum Replay 9000'], ['Jimmy Neutron']
+],
+'Jimmy Neutron',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10kgusc/respect_the_quantum_replay_9000_the_adventures_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Glüna! (Ginka & Glüna)', 'https://redd.it/10kfo03')
+add_data(['Gl(ü|u)na'],
+'Gluna',
+False,
+False,
+[
+    ['Ginka (&|and) Gl(ü|u)na']
+],
+'Ginka & Glüna',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10kfo03/respect_gl%C3%BCna_ginka_gl%C3%BCna/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ginka! (Ginka & Glüna)', 'https://redd.it/10kft45')
+add_data(['Ginka'],
+'Ginka',
+False,
+False,
+[
+    ['Ginka (&|and) Gl(ü|u)na']
+],
+'Ginka & Glüna',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10kft45/respect_ginka_ginka_gl%C3%BCna/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Beretta! (Ginka & Glüna)', 'https://redd.it/10kfrjr')
+add_data(['Beretta'],
+'Beretta',
+False,
+False,
+[
+    ['Ginka (&|and) Gl(ü|u)na']
+],
+'Ginka & Glüna',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10kfrjr/respect_beretta_ginka_gl%C3%BCna/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
