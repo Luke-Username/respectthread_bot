@@ -58,7 +58,6 @@ Vixen,{CW},f,{30},CW Arrowverse
 John Constantine,{CW},f,{31},CW Arrowverse
 Superman,{CW},f,{34},CW Arrowverse
 Saejima,{Garo},f,{88},Garo
-Bowman,{Ninja},f,{94},Ninja
 Undertaker,{WWE},f,{76},WWE
 Undertaker,"{`"World Wrestling Entertainment`"}",f,{76},WWE
 The Mountain,{Bjornsson},f,{},""
@@ -186,7 +185,6 @@ Kamen Rider Gaim,{KR},t,{55},Kamen Rider Gaim
 Hokuto Trio,{KR},t,{56},Kamen Rider Build
 Black Lightning,{DCTV},f,{79},TV Series
 Kouga,{Garo},f,{88},Garo
-Casey,{Ninja},f,{94},Ninja
 Black Manta,{DCEU},f,{120},DCEU
 Black Manta,"{Aquaman,movie}",f,{120},DCEU
 Black Manta,"{Aquaman,film}",f,{120},DCEU
@@ -14319,8 +14317,6 @@ Gon,{Threapod},f,{4777},Gon
 Gon,{Dinosaurs?},f,{4777},Gon
 Gon,"{`"Gon ?\\(Gon`"}",f,{4777},Gon
 Gang Ryong,{Gosu(verse)?},t,{4778},Gosu
-Eikichi Onizuka,"{`"Great Teacher Onizuka`"}",t,{4779},Great Teacher Onizuka
-Eikichi Onizuka,{GTO},t,{4779},Great Teacher Onizuka
 Gang Hanul,"{`"(Greatest|Ultimate) Outcast`"}",t,{4780},Ultimate Outcast
 Gang Hanul,{Manhwa},t,{4780},Ultimate Outcast
 Morito Hayama,"{`"Gun x Clover`"}",t,{4781},Gun x Clover
@@ -29059,3 +29055,12 @@ Crocker,{Fair(y|ies)},f,{23243},Fairly OddParents
 Crocker,{Muffin},f,{23243},Fairly OddParents
 Crocker,"{`"Mr\\.? Crocker`"}",f,{23243},Fairly OddParents
 Crocker,"{`"Abra Catastrophe`"}",f,{23243},Fairly OddParents
+Mephiston,{(WH)?40K},t,{23244},Warhammer 40k
+Mephiston,{Warhammer},t,{23244},Warhammer 40k
+Aunn Komano,{Touhou},t,{23245},Touhou
+Shin Ultraman,"{`"Shinji Kaminaga`"}",t,{23246},""
+Quantum Replay,"{`"Quantum Replay 9000`"}",f,{23247},Jimmy Neutron
+Quantum Replay,"{`"Jimmy Neutron`"}",f,{23247},Jimmy Neutron
+Gluna,"{`"Ginka (&|and) Gl(ü|u)na`"}",f,{23248},Ginka & Glüna
+Ginka,"{`"Ginka (&|and) Gl(ü|u)na`"}",f,{23249},Ginka & Glüna
+Beretta,"{`"Ginka (&|and) Gl(ü|u)na`"}",f,{23250},Ginka & Glüna
