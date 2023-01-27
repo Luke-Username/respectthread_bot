@@ -346,7 +346,7 @@ Bill & Ted's Excellent Adventure
 
 BIONICLE
 	Version
-		'{"BIONICLE"}'
+		['BIONICLE']
 	Display Version Name
 		"BIONICLE"
 

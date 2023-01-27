@@ -107,6 +107,44 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Kraa?ng'],
+'Krang',
+False,
+False,
+[
+    ['Kraa?ng ?\(Rise']
+],
+'Rise of the Teenage Mutant Ninja Turtles',
+'{23114}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10lqvv4/tmnt_kraang_rise_vs_the_ninja_tribunal_2003/j5ykh38/?context=3
+
+add_data(['Cyclops'],
+'Cyclops',
+False,
+False,
+[
+    ['\(X(-| )?Men\)']
+],
+'616',
+'{2354}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10m9v51/cyclops_wolverine_and_beast_xmen_vs_anakin/j61tbyq/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gali! (BIONICLE) (G1)', 'https://redd.it/10mk5z2')
+add_data(['Gali'],
+'Gali',
+False,
+False,
+[
+    ['BIONICLE'], ['Nuva']
+],
+'BIONICLE',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10mk5z2/respect_gali_bionicle_g1/
 
 ########################################
 
