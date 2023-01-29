@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 844, 'Respect Discord! (My Little Pony: Friendship is Magic)', 'https://redd.it/10nt1x5')
+
+########################################
+
+add_data(['White ?beard'],
+'Whitebeard',
+False,
+False,
+[
+    ['Marineford']
+],
+'One Piece',
+'{4089}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10nfb4o/strongest_character_in_naruto_that_whitebeard_can/
+
+########################################
+
+add_data(['Saiki'],
+'Saiki',
+False,
+False,
+[
+    ['psychic']
+],
+'The Disastrous Life of Saiki K.',
+'{4732}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10nt69q/saiki_without_glasses_and_antennae_vs_ten_tails/
+
+########################################
+
 add_data(['Kraa?ng'],
 'Krang',
 False,
@@ -145,6 +177,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/10mk5z2/respect_gali_bionicle_g1/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sam (Until Dawn)', 'https://redd.it/10nck5r')
+add_data(['Sam'],
+'Sam',
+False,
+False,
+[
+    ['Until Dawn']
+],
+'Until Dawn',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10nck5r/respect_sam_until_dawn/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Thirteenth Doctor (Doctor Who)', 'https://redd.it/10nfp6h')
+add_data(['(Thirteen|13)th Doctor'],
+'Thirteenth Doctor',
+False,
+True,
+[
+    ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10nfp6h/respect_the_thirteenth_doctor_doctor_who/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mother Malkin (Wardstone Chronicles)', 'https://redd.it/10nmcie')
+add_data(['Mother Malkin'],
+'Mother Malkin',
+False,
+True,
+[
+    ['Wardstone Chronicles']
+],
+'Wardstone Chronicles',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10nmcie/respect_mother_malkin_wardstone_chronicles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mother Malkin (Wardstone Chronicles)', 'https://redd.it/10nmcie')
+add_data(['Tomie'],
+'Tomie',
+False,
+False,
+[
+    ['(tomie_)?Kawakami'], ['Junji Ito'], ['Tomie vs|vs\.? Tomie']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10nquy9/respect_tomie_kawakami_tomie/
 
 ########################################
 
