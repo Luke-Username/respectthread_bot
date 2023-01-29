@@ -107,7 +107,8 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 180, 'Respect Godzilla, The King of the Monsters (Godzilla, 1954) ', 'https://redd.it/10o986s')
+update_respectthread(cur, 180, 'Respect Godzilla, The King of the Monsters (Godzilla, 1954)', 'https://redd.it/10o986s')
+update_respectthread(cur, 22432, 'Respect Kamen Rider Ichigo (Kamen Rider)', 'https://redd.it/10ob9cq')
 
 ########################################
 
