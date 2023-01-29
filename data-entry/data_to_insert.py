@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 180, 'Respect Godzilla, The King of the Monsters (Godzilla, 1954) ', 'https://redd.it/10o986s')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Suwako Moriya (Touhou)', 'https://redd.it/10o7qam')
+add_data(['Suwako Moriya'],
+'Suwako Moriya',
+False,
+True,
+[
+    ['Touhou']
+],
+'Touhou',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10o7qam/respect_suwako_moriya_touhou/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ogra (Gorgo)', 'https://redd.it/10o97ee')
+add_data(['Ogra'],
+'Ogra',
+False,
+False,
+[
+    ['Gorgo']
+],
+'Gorgo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10o97ee/respect_ogra_gorgo/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

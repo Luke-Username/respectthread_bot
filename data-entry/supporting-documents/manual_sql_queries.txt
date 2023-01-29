@@ -14,6 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET is_default=TRUE WHERE version='{180}';
+
 ########################################
 
 ########################################
