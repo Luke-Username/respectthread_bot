@@ -28067,7 +28067,7 @@ Harley Quinn,"{`"Harley Quinn? ?\\[Harley Quinn\\]`"}",f,{8348},"Harley Quinn an
 Pedro,"{`"Tower of God`"}",f,{22612},Tower of God
 Kojika Hanamaki,"{`"Ningen Series`"}",t,{22613},Ningen Series
 Seiya,"{`"Cautious Hero`"}",f,"{20565,22609,22628}",Cautious Hero
-The Doctor,{TARDIS},f,"{14419,23159,22631,23115,40,15401}",Doctor Who
+The Doctor,{TARDIS},f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
 Polpo,{Jojos?(verse)?},f,{22614},Jojos Bizarre Adventure
 Polpo,{JJBA},f,{22614},Jojos Bizarre Adventure
 Polpo,"{`"Black Sabbath`"}",f,{22614},Jojos Bizarre Adventure
@@ -28165,7 +28165,7 @@ Steve Smith,"{`"American Dad`"}",f,{22662},American Dad!
 Steve Smith,{Stan},f,{22662},American Dad!
 Avery Bullock,"{`"American Dad`"}",t,{22663},American Dad!
 Director Bullock,"{`"American Dad`"}",t,{22663},American Dad!
-The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,23159,22631,23115,40,15401}",Doctor Who
+The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
 Princess Snake,{DB(Z|S)},f,{22665},Dragon Ball
 John Doe,{Embalming},f,{22666},Embalming
 Francine Smith,"{`"American Dad`"}",t,{22667},American Dad!
@@ -28232,7 +28232,6 @@ Page One,"{`"One ?Piece?`"}",f,{22708},One Piece
 Ulti,"{`"One ?Piece?`"}",f,{22709},One Piece
 Ulti,"{OP,Pirates?}",f,{22709},One Piece
 Wuxian,"{`"Luo Xiaohei`"}",f,{22710},The Legend of Luo Xiaohei
-The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401}",Doctor Who
 Gate Guardian,{SCP},f,{15332},SCP
 Cain,"{SCP,MTF}",f,{22686},SCP
 Shaggy,{MultiVersus},f,{22711},MultiVersus
@@ -28872,8 +28871,6 @@ Lancelot,{Spamalot},f,{23164},Monty Python and the Holy Grail
 Bellona,{SMITE},f,{23165},SMITE
 Lego Captain Jack Sparrow,"{`"Lego Pirates of the Caribbean`"}",t,{23166},Lego Pirates of the Caribbean
 Dr. Who,"{`"Dr\\.? Who and the Daleks`"}",f,{23167},Dr. Who and the Daleks
-Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401}",Doctor Who
-Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,23159,22631,23115,40,15401}",Doctor Who
 Togera,"{`"War of the Monsters`"}",f,{23168},War of the Monsters
 Ape,"{`"A\\*P\\*E`"}",f,{23169},A*P*E
 Nanoha Takamachi,"{`"Mahou Shoujo Lyrical Nanoha`"}",t,{23170},Mahou Shoujo Lyrical Nanoha
@@ -29064,3 +29061,19 @@ Quantum Replay,"{`"Jimmy Neutron`"}",f,{23247},Jimmy Neutron
 Gluna,"{`"Ginka (&|and) Gl(ü|u)na`"}",f,{23248},Ginka & Glüna
 Ginka,"{`"Ginka (&|and) Gl(ü|u)na`"}",f,{23249},Ginka & Glüna
 Beretta,"{`"Ginka (&|and) Gl(ü|u)na`"}",f,{23250},Ginka & Glüna
+Whitebeard,{Marineford},f,{4089},One Piece
+Saiki,{psychic},f,{4732},The Disastrous Life of Saiki K.
+Krang,"{`"Kraa?ng ?\\(Rise`"}",f,{23114},Rise of the Teenage Mutant Ninja Turtles
+Cyclops,"{`"\\(X(-| )?Men\\)`"}",f,{2354},616
+Gali,{BIONICLE},f,{23251},BIONICLE
+Gali,{Nuva},f,{23251},BIONICLE
+Sam,"{`"Until Dawn`"}",f,{23252},Until Dawn
+Thirteenth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{23253},Doctor Who
+Thirteenth Doctor,{Who(ni)?verse},t,{23253},Doctor Who
+Mother Malkin,"{`"Wardstone Chronicles`"}",t,{23254},Wardstone Chronicles
+Tomie,{(tomie_)?Kawakami},f,{23254},""
+Tomie,"{`"Junji Ito`"}",f,{23254},""
+Tomie,"{`"Tomie vs|vs\\.? Tomie`"}",f,{23254},""
+The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
+Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
+Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
