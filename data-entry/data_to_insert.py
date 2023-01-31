@@ -182,6 +182,22 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/10onbnw/respect_iron_man_model_52_the_hulkbuster_mark_vi/
 
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tamara Blake, Iron Cat (Marvel, 616)', 'https://redd.it/10q0gfu')
+add_data(['Iron Cat'],
+'Iron Cat',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10q0gfu/respect_tamara_blake_iron_cat_marvel_616/
+
 ########################################
 
 id = get_rt_id(cur, 'Respect Zilla (Among Kaiju)', 'https://redd.it/10ov6ek')
@@ -211,6 +227,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dunban (Xenoblade Chronicles)', 'https://redd.it/10pyrps')
+add_data(['Dunban'],
+'Dunban',
+False,
+False,
+[
+    ['Xenoblade']
+],
+'Xenoblade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10pyrps/respect_dunban_xenoblade_chronicles/
 
 ########################################
 
@@ -256,6 +287,36 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/10plhdq/respect_akaboshi_bisco_sabikui_bisco/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Neutronic Monster Maker (The Adventures of Jimmy Neutron, Boy Genius)', 'https://redd.it/10q2u1c')
+add_data(['Neutronic Monster Maker'],
+'Neutronic Monster Maker',
+False,
+True,
+[
+    ['Jimmy Neutron']
+],
+'Jimmy Neutron',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10q2u1c/respect_the_neutronic_monster_maker_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gix! (Magic: The Gathering)', 'https://redd.it/10q5fog')
+add_data(['Gix'],
+'Gix',
+False,
+False,
+[
+    ['Magic:? The Gathering'], ['M:?TG']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10q5fog/respect_gix_magic_the_gathering/
 
 ########################################
 
