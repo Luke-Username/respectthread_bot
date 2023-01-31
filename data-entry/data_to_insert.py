@@ -109,6 +109,21 @@ cur = con.cursor()
 
 update_respectthread(cur, 180, 'Respect Godzilla, The King of the Monsters (Godzilla, 1954)', 'https://redd.it/10o986s')
 update_respectthread(cur, 22432, 'Respect Kamen Rider Ichigo (Kamen Rider)', 'https://redd.it/10ob9cq')
+update_respectthread(cur, 1008, 'Respect The Justice League (Young Justice)', 'https://redd.it/10phypt')
+
+########################################
+
+add_data(['Cyclops'],
+'Cyclops',
+False,
+False,
+[
+    ['Scott Summers'], ['X(-| )?Men']
+],
+'616',
+'{2354}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10pijfy/name_a_character_that_cyclops_could_defeat_most/j6l4e2s/?context=3
 
 ########################################
 
@@ -139,6 +154,108 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/10o97ee/respect_ogra_gorgo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 52: the Hulkbuster Mark VI (Marvel, Earth-616)', 'https://redd.it/10onbnw')
+add_data(['Hulk ?buster'],
+'Hulkbuster',
+False,
+False,
+[
+    ['616'], ['Comics? Hulk ?buster'], ['Mark VI']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10onbnw/respect_iron_man_model_52_the_hulkbuster_mark_vi/
+
+add_data(['Hulk ?buster'],
+'Hulkbuster',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU'], ['Marvel Future Avengers'], ['Ultimates? Marvel'], ['Age of Ultron']
+],
+'MCU',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10onbnw/respect_iron_man_model_52_the_hulkbuster_mark_vi/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zilla (Among Kaiju)', 'https://redd.it/10ov6ek')
+add_data(['Zilla'],
+'Zilla',
+False,
+False,
+[
+    ['Among Kaiju']
+],
+'Among Kaiju',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10ov6ek/respect_zilla_among_kaiju/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Riki (Xenoblade Chronicles)', 'https://redd.it/10p45ol')
+add_data(['Riki'],
+'Riki',
+False,
+False,
+[
+    ['Xenoblade']
+],
+'Xenoblade',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Reyn (Xenoblade Chronicles)', 'https://redd.it/10p46ae')
+add_data(['Reyn'],
+'Reyn',
+False,
+False,
+[
+    ['Xenoblade'], ['Shulk']
+],
+'Xenoblade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10p46ae/respect_reyn_xenoblade_chronicles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kamen Rider ZX (Birth of the 10th! Kamen Riders All Together!!)', 'https://redd.it/10p5qon')
+add_data(['Kamen Rider ZX'],
+'Kamen Rider ZX',
+False,
+True,
+[
+    ['Ryo Murasame']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10p5qon/respect_kamen_rider_zx_birth_of_the_10th_kamen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Akaboshi Bisco! (Sabikui Bisco)', 'https://redd.it/10plhdq')
+add_data(['Bisco Akaboshi|Akaboshi Bisco'],
+'Bisco Akaboshi',
+False,
+True,
+[
+    ['Ryo Murasame']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10plhdq/respect_akaboshi_bisco_sabikui_bisco/
 
 ########################################
 
