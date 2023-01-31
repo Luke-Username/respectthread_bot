@@ -127,6 +127,20 @@ False,
 
 ########################################
 
+add_data(['Willow'],
+'Willow',
+False,
+False,
+[
+    ['Buffy|Vampire Slayer']
+],
+'Buffy the Vampire Slayer',
+'{7490}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10qbf7w/willow_vs_charmed/j6ozxee/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Suwako Moriya (Touhou)', 'https://redd.it/10o7qam')
 add_data(['Suwako Moriya'],
 'Suwako Moriya',
