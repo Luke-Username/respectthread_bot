@@ -852,7 +852,6 @@ King Kong,"{`"Monster Comics`"}",f,{2766},Gold Key/Monster Comics
 King Kong,{Animated},f,{1060},Kong: The Animated Series
 Lockjaw,{199999},f,{253},MCU
 Lockjaw,{Inhumans},f,{253},MCU
-Godzilla,{1954},f,{180},1954
 Miek,"{`"Marvel Cinematic`"}",f,{250},MCU
 Miek,{MCU},f,{250},MCU
 Mothra,{1964},f,{207},Showa
@@ -914,6 +913,7 @@ Mechagodzilla,{1974},f,{197},Showa Era
 Mechagodzilla,{Heisei},f,{196},Heisei Era
 Mechagodzilla,{1993},f,{196},Heisei Era
 Mechagodzilla II,{Heisei},t,{196},Heisei Era
+Godzilla,{1954},t,{180},1954
 Mechagodzilla II,{1993},t,{196},Heisei Era
 Mechagodzilla,"{`"Ready Player One`"}",f,{291},Ready Player One
 Mechagodzilla,{RPO},f,{291},Ready Player One
@@ -2271,13 +2271,10 @@ Rogues,{Nolanverse},f,{6545},Nolanverse
 Ra's al Ghul,"{`"Dark Night`"}",f,{6545},The Dark Knight
 Ra's al Ghul,{Nolan},f,{6545},Nolanverse
 Ra's al Ghul,{Nolanverse},f,{6545},Nolanverse
-Scarecrow,"{`"Dark Night`"}",f,{6545},The Dark Knight
 Joker,"{`"Dark Night`"}",f,{6545},The Dark Knight
 Two-Face,"{`"Dark Night`"}",f,{6545},The Dark Knight
 Multiplex,"{`"Prime(-| )Earth`"}",f,{},New 52
 Talia al Ghul,"{`"Dark Night`"}",f,{6545},The Dark Knight
-Scarecrow,{Nolan},f,{6545},Nolanverse
-Scarecrow,{Nolanverse},f,{6545},Nolanverse
 Talia al Ghul,{Nolan},f,{6545},Nolanverse
 Talia al Ghul,{Nolanverse},f,{6545},Nolanverse
 Joker,{Nolan},f,{6545},Nolanverse
@@ -2316,6 +2313,9 @@ Kronk,"{`"Emperors New Groove`"}",t,{1201},The Emperor's New Groove
 Scrappy-Doo,{2002},f,{1091},"Scooby-Doo, 2002 Live Action"
 Scrappy-Doo,"{`"live(-| )action`"}",f,{1091},"Scooby-Doo, 2002 Live Action"
 Demons,"{Scooby,2002}",f,{1091},Live Action Scooby-Doo
+Scarecrow,"{`"Dark Night`"}",f,{6545},The Dark Knight
+Scarecrow,{Nolan},f,{6545},Nolanverse
+Scarecrow,{Nolanverse},f,{6545},Nolanverse
 Demons,"{Scooby,`"live(-| )action`"}",f,{1091},Live Action Scooby-Doo
 Monster,"{`"Scooby(-| )Doo 2`"}",f,{6549},Live Action Scooby-Doo
 Monster,"{`"Monsters Unleashed`"}",f,{6549},Live Action Scooby-Doo
@@ -4355,14 +4355,6 @@ Riddler,"{`"Post(-| )52`"}",f,{},New 52
 Riddler,"{`"Prime(-| )Earth`"}",f,{},New 52
 Riddler,{Rebirth},f,{},New 52
 Riddler,"{`"(DC Comics)`"}",t,{1556},""
-Scarecrow,"{`"New ?52`"}",f,{1557},New 52
-Scarecrow,{N-?52},f,{1557},New 52
-Scarecrow,"{`"Post(-| )52`"}",f,{1557},New 52
-Scarecrow,"{`"Prime(-| )Earth`"}",f,{1557},New 52
-Scarecrow,{Rebirth},f,{1557},New 52
-Scarecrow,{PC},f,{1558},Post-Crisis
-Scarecrow,"{`"Post(-| )?C(risis)?`"}",f,{1558},Post-Crisis
-Scarecrow,"{`"New(-| )Earth`"}",f,{1558},Post-Crisis
 Sensei,"{`"pre(-| )N(ew )?52`"}",f,{1559},DC
 Sensei,"{`"pre(-| )?52`"}",f,{1559},DC
 Sensei,"{`"Sensei (DC)}`"}",f,{1559},DC
@@ -4370,12 +4362,16 @@ Wrath,"{`"Pre(-| )?Flashpoint`"}",f,{1561},Pre-Flashpoint
 Wrath,{PC},f,{1561},Pre-Flashpoint
 Wrath,"{`"Pre(-| )?Crisis`"}",f,{1561},Pre-Flashpoint
 Poison Ivy,"{`"\\(DC`"}",t,{1553},(DC)
-Scarecrow,"{`"\\(DC( Comics)?\\)`"}",t,"{1557,1558}",DC
 Talons,"{`"\\(DC( Comics)?\\)`"}",f,{1560},DC
 Shazam,{2019},f,{6554},DCEU
 Shazam,"{`"DC Extended Universe`"}",f,{6554},DCEU
 Shazam,{DCEU},f,{6554},DCEU
 Shazam,"{`"DC Cinematic Universe`"}",f,{6554},DCEU
+Scarecrow,"{`"New ?52`"}",f,{1557},New 52
+Scarecrow,{N-?52},f,{1557},New 52
+Scarecrow,"{`"Post(-| )52`"}",f,{1557},New 52
+Scarecrow,"{`"Prime(-| )Earth`"}",f,{1557},New 52
+Scarecrow,{Rebirth},f,{1557},New 52
 Shazam Family,"{Shazam,2019}",f,{6555},DCEU
 Shazam Family,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Shazam Family,{DCEU},f,{6555},DCEU
@@ -18706,8 +18702,6 @@ Lord Slug,"{`"Dragon ?Ball`"}",t,{13512},Dragon Ball
 Lord Slug,{DB(Z|S)?},t,{13512},Dragon Ball
 Victor Alvarez,{616},t,{13515},616
 Ebenezer Laughton,{616},t,{13517},616
-Scarecrow,{616},f,{13517},616
-Scarecrow,"{`"Scarecrow ?\\(Marvel`"}",f,{13517},616
 Dario Agger,{616},t,{13518},616
 Butcher,{Worm},f,{13519},Worm
 Hookwolf,{Worm},t,{13520},Worm
@@ -18763,6 +18757,7 @@ Oshawott,{Pok(e|é)mon},t,{4152},Pokémon
 Palpitoad,{Pok(e|é)mon},t,{4153},Pokémon
 Pidgeotto,{Pok(e|é)mon},t,{4154},Pokémon
 Impostor,"{`"Among (U|i)s`"}",f,{13514},Among Us
+Scarecrow,{616},f,{13517},616
 Pignite,{Pok(e|é)mon},t,{4155},Pokémon
 Tepig,{Pok(e|é)mon},t,{4155},Pokémon
 Primeape,{Pok(e|é)mon},t,{4167},Pokémon
@@ -23876,7 +23871,6 @@ Alyssa,"{`"Clock Tower`"}",f,{17659},Clock Tower
 Pangolin Queen,"{`"Hero:? 108`"}",f,{17660},Hero: 108
 Scar,{Predator},f,{17661},"Alien vs. Predator, 2004"
 Scar,{AVP},f,{17661},"Alien vs. Predator, 2004"
-Scarecrow,{Injustice(verse)?},f,{17662},Injustice
 Qu,"{`"All Tomorrows?`"}",f,{17663},All Tomorrows
 Sam O'Nella,{Academy},t,{17664},""
 Lockheed,"{`"Pet Avengers`"}",f,{17665},616
@@ -23908,6 +23902,7 @@ Superman,"{`"Death Battle`"}",f,{1272},DEATH BATTLE!
 Wally West,"{`"Death Battle`"}",f,{13280},DEATH BATTLE!
 Killer Bean,"{`"Killer Bean Forever`"}",t,{1214},""
 Sonic,{Sonic.*2020},f,"{8607,17670}",2020 film
+Scarecrow,{Injustice(verse)?},f,{17662},Injustice
 Kintoki,{Fate},f,{20242},Fate
 Caliborn,{Homestuck},t,{2877},Homestuck
 Gwenom,{65},t,{15420},65
@@ -25756,8 +25751,6 @@ Spider-Man,"{Don(ald)?,Glut}",f,{21285},1969
 Lapras,"{`"Terminal ?Montage`"}",f,{21286},Terminalmontage
 Formed One,{Dreamwalker},f,{21287},Dreamwalker
 Fliqpy,"{`"Happy Tree Friends`"}",t,{1277},Happy Tree Friends
-Scarecrow,"{Batman,`"Animated Series`"}",f,{},DCAU
-Scarecrow,{B:?TAS},f,{},DCAU
 Pinhead,"{`"Dead by Daylight`"}",f,{21288},Dead by Daylight
 Li Shuwen,"{`"Li Shuwen.+Fate`"}",f,{21289},Fate
 SCP-019,"{`"SCP Foundation`"}",t,{21290},""
@@ -25799,6 +25792,8 @@ Rogue,"{`"Rogue.*X(-| )?Men`"}",f,{2382},616
 Rogue,"{`"Wonder Man`"}",f,{2382},616
 Bebop,"{Rocksteady,IDW}",t,{21277},IDW
 Rocksteady,"{Bebop,IDW}",t,{21277},IDW
+Scarecrow,"{Batman,`"Animated Series`"}",f,{},DCAU
+Scarecrow,{B:?TAS},f,{},DCAU
 Artoria Pendragon,"{`"Lion King`"}",f,{21307},Fate
 Artoria Pendragon,"{`"Grande? Order`"}",f,{21307},Fate
 Artoria Pendragon,"{`"F(ate )?/?GO`"}",f,{21307},Fate
@@ -29077,3 +29072,32 @@ Tomie,"{`"Tomie vs|vs\\.? Tomie`"}",f,{23254},""
 The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
 Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
 Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
+Scarecrow,{PC},f,{1558},Post-Crisis
+Scarecrow,"{`"Post(-| )?C(risis)?`"}",f,{1558},Post-Crisis
+Scarecrow,"{`"New(-| )Earth`"}",f,{1558},Post-Crisis
+Scarecrow,"{`"\\(DC( Comics)?\\)`"}",f,"{1557,1558}",DC
+Scarecrow,"{`"Scarecrow ?\\(Marvel`"}",f,{13517},616
+Cyclops,"{`"Scott Summers`"}",f,{2354},616
+Cyclops,"{`"X(-| )?Men`"}",f,{2354},616
+Willow,"{`"Buffy|Vampire Slayer`"}",f,{7490},Buffy the Vampire Slayer
+Suwako Moriya,{Touhou},t,{23255},Touhou
+Ogra,{Gorgo},f,{23256},Gorgo
+Hulkbuster,{616},f,{23257},616
+Hulkbuster,"{`"Comics? Hulk ?buster`"}",f,{23257},616
+Hulkbuster,"{`"Mark VI`"}",f,{23257},616
+Hulkbuster,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Hulkbuster,{MCU},f,{},MCU
+Hulkbuster,"{`"Marvel Future Avengers`"}",f,{},MCU
+Hulkbuster,"{`"Ultimates? Marvel`"}",f,{},MCU
+Hulkbuster,"{`"Age of Ultron`"}",f,{},MCU
+Iron Cat,{616},f,{23258},616
+Zilla,"{`"Among Kaiju`"}",f,{23259},Among Kaiju
+Riki,{Xenoblade},f,{23260},Xenoblade
+Dunban,{Xenoblade},f,{23261},Xenoblade
+Reyn,{Xenoblade},f,{23262},Xenoblade
+Reyn,{Shulk},f,{23262},Xenoblade
+Kamen Rider ZX,"{`"Ryo Murasame`"}",t,{23263},""
+Bisco Akaboshi,"{`"Ryo Murasame`"}",t,{23264},""
+Neutronic Monster Maker,"{`"Jimmy Neutron`"}",t,{23265},Jimmy Neutron
+Gix,"{`"Magic:? The Gathering`"}",f,{23266},Magic: The Gathering
+Gix,{M:?TG},f,{23266},Magic: The Gathering
