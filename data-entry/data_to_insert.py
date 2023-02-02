@@ -107,6 +107,247 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5347, 'Respect Naoto Shirogane (Persona 4)', 'https://redd.it/10rfm7e')
+
+########################################
+
+add_data(['Cap(tain)? Marvel'],
+'Captain Marvel',
+False,
+False,
+[
+    ['Cap(tain)? Marvel ?\(DC( Comics)?\)']
+],
+'DC',
+'{22688}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10qm3sa/full_on_captain_brawl/j6r0u1b/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Uzu! (Tank Chair)', 'https://redd.it/10qbsp3')
+add_data(['Uzu'],
+'Uzu',
+False,
+False,
+[
+    ['Tank Chair']
+],
+'Tank Chair',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10qbsp3/respect_uzu_tank_chair/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Nanobots (The Adventures of Jimmy Neutron, Boy Genius)', 'https://redd.it/10qd5ev')
+add_data(['Nano ?bots'],
+'Nanobots',
+False,
+False,
+[
+    ['Jimmy Neutron']
+],
+'Jimmy Neutron',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10qd5ev/respect_the_nanobots_the_adventures_of_jimmy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jinx! (Arcane / League of Legends)', 'https://redd.it/10qm3w6')
+add_data(['Jinx'],
+'Jinx',
+False,
+False,
+[
+    ['Arcane'], ['League of Legends'], ['LoL (players?|lore)']
+],
+'League of Legends',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10qm3w6/respect_jinx_arcane_league_of_legends/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tank Girl! (Tank Girl)', 'https://redd.it/10qoisq')
+add_data(['Tank Girl'],
+'Tank Girl',
+False,
+True,
+[
+    ['Tank Girl ?\(Tank Girl']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10qoisq/respect_tank_girl_tank_girl/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sharla (Xenoblade Chronicles)', 'https://redd.it/10qq0lz')
+add_data(['Sharla'],
+'Sharla',
+False,
+False,
+[
+    ['Xenoblade'], ['Shulk']
+],
+'Xenoblade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10qq0lz/respect_sharla_xenoblade_chronicles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mew (Pokemon: Lucario and the Mystery of Mew)', 'https://redd.it/10qqln4')
+add_data(['Mew'],
+'Mew',
+False,
+False,
+[
+    ['Lucario and the Mystery of Mew']
+],
+'Lucario and the Mystery of Mew',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jirachi (Pokemon Anime)', 'https://redd.it/10qqlpc')
+add_data(['Jirachi'],
+'Jirachi',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10qqlpc/respect_jirachi_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Primal Dialga (Pokemon Mystery Dungeon)', 'https://redd.it/10qqlrd')
+add_data(['Primal Dialga'],
+'Primal Dialga',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10qqlrd/respect_primal_dialga_pokemon_mystery_dungeon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Snowbird (Marvel Comics, Earth-616)', 'https://redd.it/10quy36')
+add_data(['Snowbird'],
+'Snowbird',
+False,
+False,
+[
+    ['Marvel Comics'], ['616'], ['Alpha Flight']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10quy36/respect_snowbird_marvel_comics_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sindr, Queen of Muspelheim! (Marvel 616)', 'https://redd.it/10qxdhe')
+add_data(['Sindr'],
+'Sindr',
+False,
+False,
+[
+    ['Marvel Comics'], ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10qxdhe/respect_sindr_queen_of_muspelheim_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Purple Hayes, Nosferata (Marvel, 616)', 'https://redd.it/10qy0ir')
+add_data(['Nosferata'],
+'Nosferata',
+False,
+False,
+[
+    ['Marvel Comics'], ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10qy0ir/respect_purple_hayes_nosferata_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Haumea! (Fire Force)', 'https://redd.it/10qx6gt')
+add_data(['Haumea'],
+'Haumea',
+False,
+False,
+[
+    ['Fire Force']
+],
+'Fire Force',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10qx6gt/respect_haumea_fire_force/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wario! (Xploshi)', 'https://redd.it/10r24cb')
+add_data(['Wario'],
+'Wario',
+False,
+False,
+[
+    ['Xploshi']
+],
+'Xploshi',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10r24cb/respect_wario_xploshi/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Frey Holland (Forspoken)', 'https://redd.it/10rmp9z')
+add_data(['Frey Holland'],
+'Frey Holland',
+False,
+True,
+[
+    ['Forspoken']
+],
+'Forspoken',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10rmp9z/respect_frey_holland_forspoken/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Steve Fox (Tekken)', 'https://redd.it/10rneys')
+add_data(['Steve Fox'],
+'Steve Fox',
+False,
+False,
+[
+    ['Tekken']
+],
+'Tekken',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10rneys/respect_steve_fox_tekken/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

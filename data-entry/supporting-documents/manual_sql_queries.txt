@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Deku', 'Deku Scrubs?', 0);
+DELETE FROM name_conflict WHERE name='Puss i?n Boots';
+
 ########################################
 
 ########################################
