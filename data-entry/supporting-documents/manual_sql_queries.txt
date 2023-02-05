@@ -19,9 +19,17 @@ UPDATE character SET rt_id_array='{?, 21522}' WHERE rt_id_array='{21522}';
 
 ########################################
 
-########################################
+DELETE FROM charcter WHERE default_name='Legion' AND version='{"FX"}';
+DELETE FROM charcter WHERE default_name='Legion' AND version='{"FOX"}';
+DELETE FROM charcter WHERE default_name='Vlad' AND version='{"Impaler"}';
 
 ########################################
+
+UPDATE character SET rt_id_array='{21029}' WHERE rt_id_array='{5780}';
+
+########################################
+
+UPDATE character_name SET name='Roger Smiths?' WHERE name='Roger Smith';
 
 ########################################
 
