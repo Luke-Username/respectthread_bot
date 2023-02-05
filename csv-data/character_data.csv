@@ -19432,8 +19432,6 @@ Beast,"{`"X(-| )?Men films?`"}",f,{13609},FOX
 Beast,"{`"X(-| )?Men movies?`"}",f,{13609},FOX
 Beast,"{`"X-?Men Cinematic Universe`"}",f,{13609},FOX
 Gengar,{Pok(e|é)mon},t,"{13610,12422}",Pokémon
-Legion,{FX},f,{13583},FX
-Legion,{FOX},f,{13583},FX
 Legion,"{`"Dan Stevens`"}",f,{13583},FX
 Archeops,{Pok(e|é)mon},t,{8149},Pokémon
 Ant-Man,"{`"Marvel Cinematic Universe`"}",f,{13611},MCU
@@ -20406,11 +20404,6 @@ Berserker of Red,{Fate},t,{5778},Fate
 Spartacus,{Apocrypha},f,{5778},Fate
 Spartacus,{Berserker},f,{5778},Fate
 Kairi Sisigou,{Fate},t,{5779},Fate
-Lancer of Black,{Fate},t,{5780},Fate
-Vlad,{Apocrypha},f,{5780},Fate
-Vlad,"{`"\\(Fate`"}",f,{5780},Fate
-Vlad,{Lancer},f,{5780},Fate
-Vlad,{Impaler},f,{5780},Fate
 Lancer of Red,{Fate},t,{5781},Fate
 Karna,{Apocrypha},f,{5781},Fate/Apocrypha
 Karna,"{`"\\(Fate\\)`"}",f,{5781},Fate
@@ -20437,6 +20430,9 @@ Diarmuid Ua Duibhne,"{`"Fate( ?/ ?| )Zero`"}",f,{5790},Fate/Zero
 Rider of Red,{Fate},t,{},Fate
 Achilles,{Apocrypha},f,{},Fate
 Peter Pevensie,{Narnia},t,"{5771,23230}",The Chronicles of Narnia
+Lancer of Black,{Fate},t,{21029},Fate
+Vlad,{Apocrypha},f,{21029},Fate
+Vlad,"{`"\\(Fate`"}",f,{21029},Fate
 Diarmuid Ua Duibhne,{Lancer},f,{5790},Fate/Zero
 Lancer,"{`"Fate( ?/ ?| )Zero`"}",f,{5790},Fate/Zero
 Alexander the Great,"{`"Fate( ?/ ?| )Zero`"}",f,{5791},Fate/Zero
@@ -26192,8 +26188,6 @@ Maya Lopez,{MCU},f,{21147},MCU
 Jack Duquesne,"{`"Marvel Cinematic Universe`"}",f,{21148},MCU
 Jack Duquesne,{MCU},f,{21148},MCU
 SCP-056,"{`"Beautiful Person`"}",f,{21521},""
-Kate Bishop,"{`"Marvel Cinematic Universe`"}",f,{21522},MCU
-Kate Bishop,{MCU},f,{21522},MCU
 Batmobile,{PC},f,{21523},Post-Crisis
 Batmobile,"{`"Posts?(-| )?C(risis)?`"}",f,{21523},Post-Crisis
 Batmobile,"{`"New(-| )Earth`"}",f,{21523},Post-Crisis
@@ -26217,6 +26211,7 @@ Batmobile,"{`"\\(DC( Comics)?\\)`"}",t,{21523},DC
 Mongal,"{`"DC ?(E|C)U`"}",f,{},DCEU
 Black Dwarf,{616},f,{2011},616
 A-Train,{Homelander},t,{21325},The Boys
+Kate Bishop,"{`"Marvel Cinematic Universe`"}",f,"{23282,21522}",MCU
 SCP-6630,"{`"Fire On the Horizon`"}",t,{21528},""
 E.M.M.I.s,{Metroid},t,{21529},Metroid
 Sonic.EXE,{Creepypasta},t,{21530},Creepypasta
@@ -29124,3 +29119,28 @@ Haumea,"{`"Fire Force`"}",f,{23278},Fire Force
 Wario,{Xploshi},f,{23279},Xploshi
 Frey Holland,{Forspoken},t,{23280},Forspoken
 Steve Fox,{Tekken},f,{23281},Tekken
+Kate Bishop,{MCU},f,"{23282,21522}",MCU
+Vlad,{Lancer},f,{21029},Fate
+Piranha,"{`"Piranha.*The Bad Guys`"}",f,{22168},The Bad Guys
+Daisy,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",f,{69},Agents of SHIELD/MCU
+Coulson,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",f,{23283},MCU
+Coulson,"{`"Marvel Cinematic Universe`"}",f,{23283},MCU
+Coulson,{MCU},f,{23283},MCU
+Two,"{`"Battle for Dream Island`"}",f,{23284},Battle for Dream Island
+Mikey,"{`"Tokyo Revengers`"}",f,{23285},Tokyo Revengers
+Manjiro Sano,"{`"Tokyo Revengers`"}",t,{23285},Tokyo Revengers
+Tawna,"{`"Crash Bandicoot`"}",t,{23286},Crash Bandicoot
+Aku Aku,{Crash},t,{23287},Crash Bandicoot
+The Righteous,"{`"Wild ?storm`"}",f,{23288},Wildstorm
+The Righteous,{DC},f,{23288},Wildstorm
+Rek-Rap,{616},t,{23289},616
+Aarkus,{616},t,{23290},616
+Barghest,"{Love,Death,Robots}",f,{23291},"Love, Death, & Robots"
+Marisa Kirisame,"{`"Fantasy Kaleidoscope`"}",f,{23292},Fantasy Kaleidoscope
+Marisa Kirisame,"{`"Memories of Phantasm`"}",f,{23292},Fantasy Kaleidoscope
+Reimu Hakurei,"{`"Fantasy Kaleidoscope`"}",f,{23293},Fantasy Kaleidoscope
+Reimu Hakurei,"{`"Memories of Phantasm`"}",f,{23293},Fantasy Kaleidoscope
+Eris,{Sinbad},f,{23294},Sinbad
+Markus,"{`"Detroit:? Become Human`"}",f,{23295},Detroit: Become Human
+Wat,"{`"The Real Ghostbusters`"}",f,{23296},The Real Ghostbusters
+Firefly Family,"{Devils?,Rejects}",t,{23297},""
