@@ -288,7 +288,7 @@ Batman vs. Teenage Mutant Ninja Turtles
 
 Bayonetta
 	Version
-		'{"Bayonetta"}'
+		['Bayonetta']
 	Displayed Version Name
 		"Bayonetta"
 
@@ -549,6 +549,14 @@ CollegeHumor
 		'{"College ?Humor"}'
 	Displayed Version Name
 		"CollegeHumor"
+
+Crash Bandicoot
+	Version
+		['Crash Bandicoot']
+	Sometimes called
+		['Crash']
+	Displayed Version Name
+		"Crash Bandicoot"
 
 Creepypasta
 	Version
