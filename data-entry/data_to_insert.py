@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 553, 'Respect the Sharktopi (Sharktopus)', 'https://redd.it/10wgrmi')
+
+########################################
+
 add_data(['Spider(-| )?Mans?'],
 'Spider-Man',
 False,
@@ -202,6 +206,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/10vgaoz/respect_coco_crash_bandicoot/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Uka Uka (Crash Bandicoot)', 'https://redd.it/10weeuy')
+add_data(['Uka Uka'],
+'Uka Uka',
+False,
+False,
+[
+    ['Crash Bandicoot']
+],
+'Crash Bandicoot',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10weeuy/respect_uka_uka_crash_bandicoot/
 
 ########################################
 

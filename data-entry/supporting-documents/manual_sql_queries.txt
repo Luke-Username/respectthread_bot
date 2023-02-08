@@ -27,6 +27,8 @@ UPDATE character SET rt_id_array='{?}' WHERE default_name='Thor' AND displayed_v
 
 ########################################
 
+DELETE FROM character WHERE default_name='Samuel' AND version='{"Judeo|Christian(ity)?"}';
+
 ########################################
 
 ########################################
