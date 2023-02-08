@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect: Corvus Corax (Warhammer 40k)', 'https://redd.it/10wkrd3')
+add_data(['Corvus Corax'],
+'Corvus Corax',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10wkrd3/respect_corvus_corax_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ruri! (RuriDragon)', 'https://redd.it/10wnhzd')
+add_data(['Ruri'],
+'Ruri',
+False,
+False,
+[
+    ['RuriDragon']
+],
+'RuriDragon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10wnhzd/respect_ruri_ruridragon/
 
 ########################################
 
