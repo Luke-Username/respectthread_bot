@@ -5990,8 +5990,6 @@ Shang-Chi,{616},t,{2104},616
 Shang-Chi,{Marvel},t,{2104},616
 Amatsu-Mikaboshi,{616},t,{2105},616
 Amatsu-Mikaboshi,{Marvel},t,{2105},616
-Arishem,{616},t,{2106},616
-Arishem,{Marvel},t,{2106},616
 Pre-Retcon Beyonder,{Marvel},t,{2107},""
 Beyonder,"{`"Pre(-| )?Ret ?con`"}",f,{2107},Pre-Retcon
 Beyonder,{Lucifer},f,{2107},Pre-Retcon
@@ -6012,6 +6010,8 @@ Bruce Banner,{MCU},f,{236},MCU
 Bruce Banner,{199999},f,{236},MCU
 Bruce Banner,"{`"Infinity War`"}",f,{236},MCU
 Bruce Banner,{IW},f,{236},MCU
+Arishem,{616},t,{},616
+Arishem,{Marvel},t,{},616
 Bruce Banner,{Endgame},f,{236},MCU
 Bruce Banner,{EG},f,{236},MCU
 Caiera,{616},t,{2114},616
@@ -21024,7 +21024,6 @@ Samson,{Judeo|Christian(ity)?},f,{5835},Bible
 Samuel,{Biblical},f,{5836},Bible
 Samuel,{Bible},f,{5836},Bible
 Samuel,"{`"(Old|New) Testament`"}",f,{5836},Bible
-Samuel,{Judeo|Christian(ity)?},f,{5836},Bible
 Devil,{Biblical},f,{5837},Bible
 Devil,{Bible},f,{5837},Bible
 Devil,"{`"(Old|New) Testament`"}",f,{5837},Bible
@@ -27359,7 +27358,6 @@ Dream,{SAD-ist},f,{22126},SAD-ist
 Gomdulla,{616},f,{22127},616
 Gomdulla,{Marvel},f,{22127},616
 Iron Man,"{`"Marvel Anime`"}",f,{22128},Marvel Anime
-Thor,"{`"Thor ?\\((Norse)? Mythology`"}",f,{},Norse Mythology
 John Constantine,{Vertigo},f,{22129},Vertigo
 John Constantine,{Flashpoint},f,{22129},Vertigo
 Rorgg,{616},f,{22130},616
@@ -27583,7 +27581,6 @@ Izo,"{`"One ?Piece?`"}",f,{22246},One Piece
 Skye Ryland,"{`"Five Kingdoms`"}",f,{22247},Five Kingdoms
 SCP-2241,"{`"SCP Foundation`"}",t,{22248},""
 Eleven,"{`"Stranger Things`"}",f,{22249},Stranger Things
-Thor,"{`"Nor(se|dic) Mythology`"}",f,{},Norse Mythology
 Carrie,"{`"Chloe Grace Moretz`"}",f,{396},2013
 Twitch,"{`"Five Kingdoms`"}",f,{22251},Five Kingdoms
 Carnag,"{`"Five Kingdoms`"}",f,{22252},Five Kingdoms
@@ -27639,6 +27636,7 @@ Kamala Khan,{MCU},f,{22285},MCU
 Superhot,"{`"hot(-| )switch(ing)?`"}",f,{5732},""
 Superhot,"{`"vs\\.? Super ?hot`"}",f,{5732},""
 Superhot,"{`"\\(Super ?hot`"}",f,{5732},""
+Thor,"{`"Nor(se|dic) Mythology`"}",f,{23298},Norse Mythology
 Aizawa,"{`"Squid Girl`"}",f,{},Squid Girl
 Wanda,"{`"Multiverse of Madness`"}",f,{270},MCU
 Thanos,"{`"Multiverse of Madness`"}",f,{263},MCU
@@ -28765,7 +28763,6 @@ Mew,{Deoxys},f,"{4222,23098}",Pokémon
 Mew,{Rayquaza},f,"{4222,23098}",Pokémon
 Mew,{Kirby},f,"{4222,23098}",Pokémon
 Mew,{Yoda},f,"{4222,23098}",Pokémon
-Thor,"{`"Mythos Thor`"}",f,{},Norse Mythology
 Rumbling,"{`"Can.*The Rumbling`"}",f,{12492},Attack on Titan
 Silver Samurai,"{`"X(-| )?Men:? The Animated Series`"}",f,{23099},"X-Men, 1992"
 Silver Samurai,"{`"X(-| )?Men`",1992}",f,{23099},"X-Men, 1992"
@@ -29144,3 +29141,23 @@ Eris,{Sinbad},f,{23294},Sinbad
 Markus,"{`"Detroit:? Become Human`"}",f,{23295},Detroit: Become Human
 Wat,"{`"The Real Ghostbusters`"}",f,{23296},The Real Ghostbusters
 Firefly Family,"{Devils?,Rejects}",t,{23297},""
+Thor,"{`"Thor ?\\((Norse)? Mythology`"}",f,{23298},Norse Mythology
+Thor,"{`"Mythos Thor`"}",f,{23298},Norse Mythology
+Spider-Man,"{`"whatever a spider can`"}",f,{23059},1967
+Zsasz,{PC},f,{23299},Post-Crisis
+Zsasz,"{`"Posts?(-| )?C(risis)?`"}",f,{23299},Post-Crisis
+Zsasz,"{`"New(-| )Earth`"}",f,{23299},Post-Crisis
+Zsasz,"{`"\\(DC( Comics)?\\)`"}",t,{23299},DC
+Zsasz,"{`"\\[DC( Comics)?\\]`"}",t,{23299},DC
+Zsasz,"{`"Gotham version`"}",f,{23299},Gotham
+Zsasz,"{Gotham,`"tv Series`"}",f,{23299},Gotham
+Thanapod,"{Love,Death,Robots}",t,{23300},"Love, Death, & Robots"
+Morbius,"{`"Spider(-| )?Mans? 3`",PS3|Wii}",f,{23301},96283
+Coco,"{`"Crash Bandicoot`"}",f,{23302},Crash Bandicoot
+Uka Uka,"{`"Crash Bandicoot`"}",f,{23303},Crash Bandicoot
+Sphinx,"{`"Sphinx and the Cursed Mummy`"}",f,{23304},Sphinx and the Cursed Mummy
+Tutankhamun,"{`"Sphinx and the Cursed Mummy`"}",f,{23305},Sphinx and the Cursed Mummy
+Death Dealer,"{`"Death Dealer ?\\(Death Dealer`"}",f,{23306},Death Dealer
+Keeper,"{`"Evil Within`"}",f,{23307},The Evil Within
+Mac Gargan,{Virus},f,{23308},Virus
+Aesir,{Bayonetta},f,{23309},Bayonetta
