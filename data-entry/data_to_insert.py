@@ -107,6 +107,64 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4117, 'Respect Tatsumaki, the Tornado of Terror! (One Punch-Man [Manga])', 'https://redd.it/10xamw3')
+
+########################################
+
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Mythos', 'Pantheons?']
+],
+'Norse Mythology',
+'{23298}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10xwn2k/greek_vs_norse_vs_egyptian_vs_hindu_vs_shinto_vs/j7ukxng/?context=3
+
+########################################
+
+add_data(['Witch-king'],
+'Witch-king',
+False,
+True,
+[
+    ['L(ord )?o(f )?t(he )?R(ings)?']
+],
+'Lord of the Rings',
+'{5862}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10wx4ka/witchking_of_angmar_vs_treebeard_lotr/j7pef4a/?context=3
+
+add_data(['Witch(-| )king of Angmar'],
+'Witch-king of Angmar',
+False,
+True,
+[
+    ['L(ord )?o(f )?t(he )?R(ings)?']
+],
+'Lord of the Rings',
+'{5862}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10wx4ka/witchking_of_angmar_vs_treebeard_lotr/j7pef4a/?context=3
+
+########################################
+
+add_data(['Butcher'],
+'Butcher',
+False,
+False,
+[
+    ['The Boys']
+],
+'The Boys',
+'{22740}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10y869m/baby_lasertag_butcher_the_boys_vs_mr_incredible/j7wl2bt/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect: Corvus Corax (Warhammer 40k)', 'https://redd.it/10wkrd3')
 add_data(['Corvus Corax'],
 'Corvus Corax',
@@ -134,6 +192,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/10wnhzd/respect_ruri_ruridragon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Pteracuda (Sharktopus vs. Pteracuda)', 'https://redd.it/10x16xw')
+add_data(['Pteracuda'],
+'Pteracuda',
+False,
+True,
+[
+    ['Sharktopus']
+],
+'Sharktopus',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10x16xw/respect_the_pteracuda_sharktopus_vs_pteracuda/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Whalewolf (Sharktopus vs. Whalewolf)', 'https://redd.it/10x174p')
+add_data(['Whalewolf'],
+'Whalewolf',
+False,
+True,
+[
+    ['Sharktopus']
+],
+'Sharktopus',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10x174p/respect_the_whalewolf_sharktopus_vs_whalewolf/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Diana Cavendish! (Little Witch Academia [TV Series])', 'https://redd.it/10xo8k0')
+add_data(['Diana Cavendish'],
+'Diana Cavendish',
+False,
+True,
+[
+    ['Little Witch Academia']
+],
+'Little Witch Academia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10xo8k0/respect_diana_cavendish_little_witch_academia_tv/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ransik! (Power Rangers Time Force)', 'https://redd.it/10xvnip')
+add_data(['Ransik'],
+'Ransik',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10xvnip/respect_ransik_power_rangers_time_force/
 
 ########################################
 

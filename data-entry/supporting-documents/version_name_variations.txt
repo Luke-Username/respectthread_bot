@@ -1910,9 +1910,9 @@ Looney Toons
 
 Lord of the Rings
 	Version
-		'{"L(ord )?o(f )?t(he )?R(ings)?"}'
+		['L(ord )?o(f )?t(he )?R(ings)?']
 	Sometimes Called
-		'{"Middle(-| )?Earth"}'
+		['Middle(-| )?Earth']
 	Displayed Version Name
 		"Lord of the Rings"
 
