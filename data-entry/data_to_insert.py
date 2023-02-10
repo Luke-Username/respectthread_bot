@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 4117, 'Respect Tatsumaki, the Tornado of Terror! (One Punch-Man [Manga])', 'https://redd.it/10xamw3')
+update_respectthread(cur, 20353, 'Respect Christopher Smith, Peacemaker! (DCEU)', 'https://redd.it/10yb77r')
 
 ########################################
 
@@ -162,6 +163,20 @@ False,
 '{22740}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/10y869m/baby_lasertag_butcher_the_boys_vs_mr_incredible/j7wl2bt/?context=3
+
+########################################
+
+add_data(['Rocky'],
+'Rocky',
+False,
+False,
+[
+    ['Miyagi']
+],
+'',
+'{546,547}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10y01ia/rocky_vs_mr_miyagi/
 
 ########################################
 
@@ -252,6 +267,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/10xvnip/respect_ransik_power_rangers_time_force/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rintaro Shindo, aka Kamen Rider Blades (Kamen Rider Saber)!', 'https://redd.it/10yelp8')
+add_data(['Kamen Rider Blades?'],
+'Kamen Rider Blades',
+False,
+True,
+[
+    ['Rintaro Shindo']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/10yelp8/respect_rintaro_shindo_aka_kamen_rider_blades/
 
 ########################################
 
