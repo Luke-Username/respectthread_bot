@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 4117, 'Respect Tatsumaki, the Tornado of Terror! (One Punch-Man [Manga])', 'https://redd.it/10xamw3')
 update_respectthread(cur, 20353, 'Respect Christopher Smith, Peacemaker! (DCEU)', 'https://redd.it/10yb77r')
+update_respectthread(cur, 6470, 'Respect Chandra Nalaar! (Magic: The Gathering - Moe Tsukinu Honoo)', 'https://redd.it/10yy42t')
 
 ########################################
 
