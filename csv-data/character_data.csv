@@ -19901,7 +19901,6 @@ Mondo,"{`"Suda ?51`"}",f,{5621},Killer is Dead
 Mondo,"{`"Killer is Dead`"}",f,{5621},Killer is Dead
 Mondo Zappa,"{`"Killer is Dead`"}",t,{5621},Killer is Dead
 Mondo Zappa,"{`"Suda ?51`"}",t,{5621},Killer is Dead
-Knack,"{`"Knack (II|2)`"}",t,{5623},""
 Cyclops,"{`"Last DeadEnd`"}",f,{5624},The Last DeadEnd
 Starfy,"{`"Legendary Starfy`"}",t,{5626},The Legendary Starfy
 Carnom,"{`"LEGO Marvel`"}",f,{5627},LEGO Marvel
@@ -29161,3 +29160,19 @@ Death Dealer,"{`"Death Dealer ?\\(Death Dealer`"}",f,{23306},Death Dealer
 Keeper,"{`"Evil Within`"}",f,{23307},The Evil Within
 Mac Gargan,{Virus},f,{23308},Virus
 Aesir,{Bayonetta},f,{23309},Bayonetta
+Knack,"{`"Knack (II|2)`"}",f,{5623},""
+Superman,"{`"Earth(-| )Prime`"}",f,{7632},Rebirth
+The Emperor,{(WH)?40K},f,{6465},Warhammer 40k
+Thor,"{Mythos,Pantheons?}",f,{23298},Norse Mythology
+Witch-king,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{5862},Lord of the Rings
+Witch-king of Angmar,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{5862},Lord of the Rings
+Butcher,"{`"The Boys`"}",f,{22740},The Boys
+Rocky,{Miyagi},f,"{546,547}",""
+Corvus Corax,{(WH)?40K},t,{23310},Warhammer 40k
+Corvus Corax,{Warhammer},t,{23310},Warhammer 40k
+Ruri,{RuriDragon},f,{23311},RuriDragon
+Pteracuda,{Sharktopus},t,{23312},Sharktopus
+Whalewolf,{Sharktopus},t,{23313},Sharktopus
+Diana Cavendish,"{`"Little Witch Academia`"}",t,{23314},Little Witch Academia
+Ransik,"{`"Power Rangers?`"}",t,{23315},Power Rangers
+Kamen Rider Blades,"{`"Rintaro Shindo`"}",t,{23316},""

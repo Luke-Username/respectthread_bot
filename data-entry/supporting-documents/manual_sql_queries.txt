@@ -14,11 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Godzilla', 'Godzilla Ultima', 0);
-
 ########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Knack';
 
 ########################################
 
