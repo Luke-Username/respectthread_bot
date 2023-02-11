@@ -110,6 +110,35 @@ cur = con.cursor()
 update_respectthread(cur, 4117, 'Respect Tatsumaki, the Tornado of Terror! (One Punch-Man [Manga])', 'https://redd.it/10xamw3')
 update_respectthread(cur, 20353, 'Respect Christopher Smith, Peacemaker! (DCEU)', 'https://redd.it/10yb77r')
 update_respectthread(cur, 6470, 'Respect Chandra Nalaar! (Magic: The Gathering - Moe Tsukinu Honoo)', 'https://redd.it/10yy42t')
+update_respectthread(cur, 8239, 'Respect Shinra Kusakabe! (Fire Force)', 'https://redd.it/10zrl8k')
+
+########################################
+
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Earth(-| )Prime']
+],
+'Rebirth',
+'{7632}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10zvdms/superman_with_the_venom_symbiote_vs_ultraman/j85dv1r/?context=3
+
+########################################
+
+add_data(['The Emperor'],
+'The Emperor',
+False,
+False,
+[
+    ['(WH)?40K']
+],
+'Warhammer 40k',
+'{6465}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/10z0wor/one_punch_man_vs_40k/
 
 ########################################
 
