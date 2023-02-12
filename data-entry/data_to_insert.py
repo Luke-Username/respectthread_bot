@@ -107,6 +107,94 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Buster Scruggs, The San Saba Songbird (The Ballad of Buster Scruggs)', 'https://redd.it/110h9ln')
+add_data(['Buster Scruggs'],
+'Buster Scruggs',
+False,
+True,
+[
+    ['Ballad of Buster Scruggs']
+],
+'The Ballad of Buster Scruggs',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/110h9ln/respect_buster_scruggs_the_san_saba_songbird_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Umar (Marvel 616)', 'https://redd.it/110jtjr')
+add_data(['Umar'],
+'Umar',
+False,
+False,
+[
+    ['616'], ['Hulk']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/110jtjr/respect_umar_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Orion (DCAU)', 'https://redd.it/110jtpf')
+add_data(['Orion'],
+'Orion',
+False,
+False,
+[
+    ['DC Animated Universe'], ['DCAU']
+],
+'DCAU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/110jtpf/respect_orion_dcau/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ra (Gods of Egypt)', 'https://redd.it/110jtuy')
+add_data(['Ra'],
+'Ra',
+False,
+False,
+[
+    ['Ra ?\(Gods of Egypt\)']
+],
+'Gods of Egypt',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/110jtuy/respect_ra_gods_of_egypt/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fabricant No. 100! (Fabricant 100)', 'https://redd.it/110kf1n')
+add_data(['Fabricant 100'],
+'Fabricant 100',
+False,
+True,
+[
+    ['default']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/110kf1n/respect_fabricant_no_100_fabricant_100/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mother Mountain Dragon (Dragons: A Fantasy Made Real)', 'https://redd.it/110l83e')
+add_data(['Mother Mountain Dragon'],
+'Mother Mountain Dragon',
+False,
+True,
+[
+    ['Dragons:? A Fantasy Made Real']
+],
+'Dragons: A Fantasy Made Real',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
