@@ -197,6 +197,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Fat Cobra! (Marvel 616)', 'https://redd.it/1113mfp')
+add_data(['Fat Cobra'],
+'Fat Cobra',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1113mfp/respect_fat_cobra_marvel_616/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
