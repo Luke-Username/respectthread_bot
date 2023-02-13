@@ -28784,6 +28784,7 @@ Black Adam,"{`"Kid Super Power Hour`"}",f,{23110},The Kid Super Power Hour with 
 Cyclops,"{`"Marvel Anime`"}",f,{23111},Marvel Anime
 Cell Max,"{`"Dragon ?Ball`"}",t,{23112},Dragon Ball
 Cell Max,{DB(Z|S)},t,{23112},Dragon Ball
+Fat Cobra,{616},t,{23323},616
 Grimm,"{`"American McGees?`"}",f,{23113},American McGee
 Krang,"{`"Rise of the`",Turtles}",f,{23114},Rise of the Teenage Mutant Ninja Turtles
 Krang,"{`"Rise of the`",TMNT}",f,{23114},Rise of the Teenage Mutant Ninja Turtles
@@ -29176,3 +29177,11 @@ Whalewolf,{Sharktopus},t,{23313},Sharktopus
 Diana Cavendish,"{`"Little Witch Academia`"}",t,{23314},Little Witch Academia
 Ransik,"{`"Power Rangers?`"}",t,{23315},Power Rangers
 Kamen Rider Blades,"{`"Rintaro Shindo`"}",t,{23316},""
+Buster Scruggs,"{`"Ballad of Buster Scruggs`"}",t,{23317},The Ballad of Buster Scruggs
+Umar,{616},f,{23318},616
+Umar,{Hulk},f,{23318},616
+Orion,"{`"DC Animated Universe`"}",f,{23319},DCAU
+Orion,{DCAU},f,{23319},DCAU
+Ra,"{`"Ra ?\\(Gods of Egypt\\)`"}",f,{23320},Gods of Egypt
+Fabricant 100,{default},t,{23321},""
+Mother Mountain Dragon,"{`"Dragons:? A Fantasy Made Real`"}",t,{23322},Dragons: A Fantasy Made Real
