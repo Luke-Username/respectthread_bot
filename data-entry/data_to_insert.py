@@ -107,6 +107,62 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['Ultimate Destruction', 'game']
+],
+'Hulk: Ultimate Destruction',
+'{22050}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/111h2rb/the_galactic_rebellion_finds_hulk/j8ela9b/?context=3
+
+########################################
+
+add_data(['Darkstalker'],
+'Darkstalker',
+False,
+False,
+[
+    ['NightWing'], ['animus magic']
+],
+'Wings of Fire',
+'{22156}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/111h2rb/the_galactic_rebellion_finds_hulk/j8ela9b/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miraak! (The Elder Scrolls)', 'https://redd.it/111jclm')
+add_data(['Miraak'],
+'Miraak',
+False,
+True,
+[
+    ['Skyrim'], ['Elder Scrolls?']
+],
+'Elder Scrolls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/111jclm/respect_miraak_the_elder_scrolls/
+
+########################################
+
+id = get_rt_id(cur, 'Respect S, aka Kamen Rider Eden (Kamen Rider Zero-One)!', 'https://redd.it/111obvp')
+add_data(['Kamen Rider Eden'],
+'Kamen Rider Eden',
+False,
+True,
+[
+    ['S']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/111obvp/respect_s_aka_kamen_rider_eden_kamen_rider_zeroone/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

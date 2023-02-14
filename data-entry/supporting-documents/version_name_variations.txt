@@ -975,9 +975,9 @@ EarthBound
 
 Elder Scrolls
 	Version
-		'{"Elder Scrolls?"}'
+		['Elder Scrolls?']
 	Specific
-		'{"Skyrim"}'
+		['Skyrim']
 	Displayed Version Name
 		"Elder Scrolls"
 
