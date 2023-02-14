@@ -813,8 +813,6 @@ Jiger,{Gamera},t,{168},Gamera
 Legion,{Gamera},f,{169},Gamera
 Korg,{Ragnarok},f,{250},MCU
 Godzilla,{Showa},f,{185},Showa Era
-Zilla,{1998},f,{6494},1998
-Godzilla,{1998},f,{6494},1998
 Godzilla,{2000},f,{183},Millennium Era
 Godzilla,{Millennium},f,{183},Millennium Era
 Godzilla,"{`"Final Wars`"}",f,{183},Millennium Era
@@ -843,6 +841,8 @@ Godzilla,{KOTM},f,{280},MonsterVerse
 X-24,"{`"X(-| )?Men (movie|film)s?`"}",f,{160},FOX
 Yukio,"{`"X(-| )?Men (movie|film)s?`"}",f,{161},FOX
 Deathstrike,"{`"X(-| )?Men (movie|film)s?`"}",f,{162},FOX
+Zilla,{1998},f,{14373},1998
+Godzilla,{1998},f,{14373},1998
 King Kong,"{`"King Kong vs. Godzilla`"}",f,{192},Godzilla
 King Kong,{KKvG},f,{192},Godzilla
 King Kong,"{`"King Kong Escapes`"}",f,{192},Godzilla
@@ -12030,7 +12030,6 @@ Heracles,"{`"Shuumatsu no Valkyrie`"}",f,{9367},Shuumatsu no Valkyrie
 Live Action Josuke,"{`"Diamond is Unbreakable`"}",t,{9368},""
 Baby Godzillas,{1998},t,{9370},"Godzilla, 1998"
 Baby Godzillas,{TriStar},t,{9370},"Godzilla, 1998"
-Godzilla,{TriStar},f,{9370},6494
 MUTO Prime,"{`"Monster(-| )?verse`"}",t,{9371},MonsterVerse
 MUTO Prime,{Aftershock},t,{9371},MonsterVerse
 Masuda,"{`"Studio Nimai`"}",f,{9372},Studio Nimai
@@ -12067,6 +12066,7 @@ Yondu,"{`"End ?game`"}",f,{13485},MCU
 Avengers,"{`"End ?game`"}",f,"{233,247,237,264,236,244,235,270,268,242,271,256}",MCU
 Jack The Ripper,"{`"Records? of Ragnarok`"}",f,{9366},Shuumatsu no Valkyrie
 Heracles,"{`"Records? of Ragnarok`"}",f,{9367},Shuumatsu no Valkyrie
+Godzilla,{TriStar},f,{14373},TriStar
 Matt Cordell,"{`"Maniac Cop`"}",t,{12134},Maniac Cop
 Maniac Cop,"{`"Maniac Cop`"}",t,{12134},Maniac Cop
 Ultimate Deathstrike,{1610},t,{12135},1610
@@ -26904,7 +26904,6 @@ Wanda Maximoff,"{`"Wanda Maximoff.*MoM`"}",f,{270},MCU
 Wanda Maximoff,"{`"Multiverse of Madness`"}",f,{270},MCU
 Scarlet Witch,"{`"Multiverse of Madness`"}",f,{270},MCU
 Jean Grey,"{`"X(-| )?Men (Movie|Film)s?`"}",f,{14882},FOX
-Tanjiro,"{`"Demon ?Slayer`"}",f,{4828},Demon Slayer
 Tanjiro,"{`"Kimetsu no Yaiba`"}",f,{4828},Demon Slayer
 Tanjiro,{KnY},f,{4828},Demon Slayer
 Raihan,{Pok(e|é)m(o|a)n},f,{21922},Pokémon
@@ -26948,6 +26947,7 @@ Destiny,"{`"Takt Op`"}",f,{21947},Takt Op
 Cuddles,"{`"American Dad`"}",f,{21948},American Dad!
 Lara Croft,"{`"Top Cow`"}",f,"{22643,22644}",Top Cow
 Dracula,{Castlevania},f,{22783},Castlevania
+Tanjiro,{Demon},f,{4828},Demon Slayer
 Roland Istaz,{Baki(verse)?},t,{21949},Baki
 Alexia,"{`"Blood of Zeus`"}",f,{21950},Blood of Zeus
 Fiona,"{`"Haunting Ground`"}",f,{21951},Haunting Ground
@@ -29185,3 +29185,12 @@ Orion,{DCAU},f,{23319},DCAU
 Ra,"{`"Ra ?\\(Gods of Egypt\\)`"}",f,{23320},Gods of Egypt
 Fabricant 100,{default},t,{23321},""
 Mother Mountain Dragon,"{`"Dragons:? A Fantasy Made Real`"}",t,{23322},Dragons: A Fantasy Made Real
+Hulk,"{`"Ultimate Destruction`",game}",f,{22050},Hulk: Ultimate Destruction
+Thor,"{`"Battle of New York`"}",f,{264},MCU
+Darkstalker,{NightWing},f,{22156},Wings of Fire
+Darkstalker,"{`"animus magic`"}",f,{22156},Wings of Fire
+Miraak,{Skyrim},t,{23324},Elder Scrolls
+Miraak,"{`"Elder Scrolls?`"}",t,{23324},Elder Scrolls
+Kamen Rider Eden,{S},t,{23325},""
+Hoaqin,"{`"Tower of God`"}",t,{23326},Tower of God
+Gero Hikaru,"{`"MARRIAGE ?TOXIN`"}",t,{23327},MARRIAGETOXIN
