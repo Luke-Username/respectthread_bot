@@ -14,7 +14,14 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Teru(ki)? Hanazawa' WHERE name='Teruki Hanazawa'; 
+
 ########################################
+
+UPDATE character SET rt_id_array='{14373}' WHERE rt_id_array='{6494}';
+UPDATE character SET rt_id_array='{14373}' WHERE default_name='Godzilla' AND version='{"TriStar"}';
+UPDATE character SET displayed_version_name='TriStar' WHERE default_name='Godzilla' AND version='{"TriStar"}';
+UPDATE character SET version='{"Demon"}' WHERE default_name='Tanjiro' AND version='{"Demon ?Slayer"}';
 
 ########################################
 

@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Battle of New York']
+],
+'MCU',
+'{264}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/11205oj/why_didnt_thor_catch_the_nuke_battle_of_new_york/
+
+########################################
+
 add_data(['Darkstalker'],
 'Darkstalker',
 False,
@@ -162,6 +176,36 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/111obvp/respect_s_aka_kamen_rider_eden_kamen_rider_zeroone/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hoaqin Arie! (Tower of God)', 'https://redd.it/112a8pc')
+add_data(['Hoaqin'],
+'Hoaqin',
+False,
+True,
+[
+    ['Tower of God']
+],
+'Tower of God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/112a8pc/respect_hoaqin_arie_tower_of_god/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gero Hikaru! (MARRIAGETOXIN)', 'https://redd.it/112azwn')
+add_data(['Gero Hikaru'],
+'Gero Hikaru',
+False,
+True,
+[
+    ['MARRIAGE ?TOXIN']
+],
+'MARRIAGETOXIN',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/112azwn/respect_gero_hikaru_marriagetoxin/
 
 ########################################
 
