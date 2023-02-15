@@ -107,6 +107,7 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5890, 'Respect Waxillium Ladrian (Mistborn)', 'https://redd.it/112lc1a')
 
 ########################################
 
