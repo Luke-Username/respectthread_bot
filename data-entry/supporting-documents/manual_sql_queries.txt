@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Bebop';
+UPDATE character SET displayed_version_name='DC' WHERE displayed_version_name='(DC)';
+
 ########################################
 
 ########################################

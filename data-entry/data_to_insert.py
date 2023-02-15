@@ -111,6 +111,109 @@ update_respectthread(cur, 5890, 'Respect Waxillium Ladrian (Mistborn)', 'https:/
 
 ########################################
 
+add_data(['Storm'],
+'Storm',
+False,
+False,
+[
+    ['Storm ?\(Marvel\)']
+],
+'616',
+'{2386}'
+)
+#
+
+########################################
+
+add_data(['Spawn'],
+'Spawn',
+False,
+False,
+[
+    ['fuse(s|d)'], ['God Spawn'], ['Divine Spawn'], ['Eden fruit']
+],
+'Image Comics',
+'{2638,2639}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/112he04/current_goku_and_spawn_become_permanently_fused/j8mhl6x/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Null (Image Comics)', 'https://redd.it/112vgrq')
+add_data(['Null'],
+'Null',
+False,
+False,
+[
+    ['Null ?\(Image']
+],
+'Image Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/112vgrq/respect_null_image_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rom, the Wraithslayer (IDW Comics, Hasbro Universe)', 'https://redd.it/11322q6')
+add_data(['Rom'],
+'Rom',
+False,
+False,
+[
+    ['IDW'], ['Wraithslayer'], ['Hasbro'], ["K''atsema"]
+],
+'IDW',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11322q6/respect_rom_the_wraithslayer_idw_comics_hasbro/
+
+########################################
+
+id = get_rt_id(cur, 'Respect White(Hoaqin), the Tenth Slayer of FUG! (Tower of God)', 'https://redd.it/11300it')
+add_data(['White'],
+'White',
+False,
+False,
+[
+    ['Tower of God'], ['Hoaqin']
+],
+'Tower of God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11300it/respect_whitehoaqin_the_tenth_slayer_of_fug_tower/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gabriel, The Judge of Hell! (ULTRAKILL)', 'https://redd.it/1136uyt')
+add_data(['Gabriel'],
+'Gabriel',
+False,
+False,
+[
+    ['ULTRAKILL']
+],
+'ULTRAKILL',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1136uyt/respect_gabriel_the_judge_of_hell_ultrakill/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lobo (DCAU)', 'https://redd.it/1137u1f')
+add_data(['Lobo'],
+'Lobo',
+False,
+False,
+[
+    ['DC Animated Universe'], ['DCAU']
+],
+'DCAU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1137u1f/respect_lobo_dcau/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
