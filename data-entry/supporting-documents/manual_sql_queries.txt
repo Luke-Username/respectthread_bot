@@ -19,6 +19,9 @@ UPDATE character SET displayed_version_name='DC' WHERE displayed_version_name='(
 
 ########################################
 
+UPDATE character SET rt_id_array='{22097}' WHERE default_name='Saint Walker' AND displayed_version_name='DC';
+UPDATE character SET rt_id_array='{22097}' WHERE default_name='Saint Walker' AND displayed_version_name='Post-Crisis';
+
 ########################################
 
 ########################################

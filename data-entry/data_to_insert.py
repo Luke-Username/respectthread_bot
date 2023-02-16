@@ -214,6 +214,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Untested Firebrand, Viola (Bayonetta)', 'https://redd.it/113hw4d')
+add_data(['Viola'],
+'Viola',
+False,
+False,
+[
+    ['Bayonetta']
+],
+'Bayonetta',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/113hw4d/respect_the_untested_firebrand_viola_bayonetta/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sugar (One Piece)', 'https://redd.it/113hyci')
+add_data(['Sugar'],
+'Sugar',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/113hyci/respect_sugar_one_piece/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
