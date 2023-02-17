@@ -4361,7 +4361,6 @@ Sensei,"{`"Sensei (DC)}`"}",f,{1559},DC
 Wrath,"{`"Pre(-| )?Flashpoint`"}",f,{1561},Pre-Flashpoint
 Wrath,{PC},f,{1561},Pre-Flashpoint
 Wrath,"{`"Pre(-| )?Crisis`"}",f,{1561},Pre-Flashpoint
-Poison Ivy,"{`"\\(DC`"}",t,{1553},(DC)
 Talons,"{`"\\(DC( Comics)?\\)`"}",f,{1560},DC
 Shazam,{2019},f,{6554},DCEU
 Shazam,"{`"DC Extended Universe`"}",f,{6554},DCEU
@@ -4372,6 +4371,7 @@ Scarecrow,{N-?52},f,{1557},New 52
 Scarecrow,"{`"Post(-| )52`"}",f,{1557},New 52
 Scarecrow,"{`"Prime(-| )Earth`"}",f,{1557},New 52
 Scarecrow,{Rebirth},f,{1557},New 52
+Poison Ivy,"{`"\\(DC`"}",t,{1553},DC
 Shazam Family,"{Shazam,2019}",f,{6555},DCEU
 Shazam Family,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Shazam Family,{DCEU},f,{6555},DCEU
@@ -13267,8 +13267,6 @@ Diavolo,{Jojos?},t,{3588},Jojo's Bizarre Adventure
 Diavolo,{JJBA},t,{3588},Jojo's Bizarre Adventure
 Formaggio,{Jojos?},t,{3589},Jojo's Bizarre Adventure
 Formaggio,{JJBA},t,{3589},Jojo's Bizarre Adventure
-Ghiaccio,{Jojos?},t,{3590},Jojo's Bizarre Adventure
-Ghiaccio,{JJBA},t,{3590},Jojo's Bizarre Adventure
 Giorno Giovanna,{Jojos?},t,{3591},Jojo's Bizarre Adventure
 Giorno Giovanna,{JJBA},t,{3591},Jojo's Bizarre Adventure
 Gold Experience Requiem,{Jojos?},t,{3591},Jojo's Bizarre Adventure
@@ -13644,7 +13642,7 @@ Kratos,"{`"God of War`"}",t,{5094},God of War
 Kratos,{GOW},t,{5094},God of War
 Ultimate Professor X,{1610},t,{12491},1610
 Charles Xavier,"{`"X(avier)? ?\\(1610`"}",f,{12491},1610
-Death,"{`"Death.*Final Destination`"}",f,{12472},Final Destination
+Death,"{`"Final Destination`"}",f,{12472},Final Destination
 Charles Xavier,"{`"\\(Ultimates?\\)`"}",f,{12491},1610
 Rumbling,{Titans?},f,{12492},Attack on Titan
 Rumbling,"{`"Shingeki no Kyojin`"}",f,{12492},Attack on Titan
@@ -13990,7 +13988,6 @@ Legato,{Trigun},f,{4600},Trigun
 Nicolas D. Wolfwood,{Trigun},t,{4601},Trigun
 Vash the Stampede,{Trigun},t,{4602},Trigun
 Vash,{Trigun},f,{4602},Trigun
-Arcueid Brunestud,{Tsukihime},t,"{6259,4603}",Tsukihime
 Ciel,{Tsukihime},f,{4604},Tsukihime
 Ciel,"{`"TYPE(-| )?MOON`"}",f,{4604},Tsukihime
 Ciel,"{`"Nasu(-| )?verse`"}",f,{4604},Tsukihime
@@ -20189,7 +20186,6 @@ James Heller,{Prototype},t,{5682},Prototype
 Raz,{Psychonauts},f,{5683},Psychonauts
 Razputin Aquato,{Psychonauts},t,{5683},Psychonauts
 Pulseman,{default},t,{5684},""
-Little Mac,"{`"Punch(-| )Out`"}",t,{5685},Punch-Out!!
 Punch-Out,{Wii},f,{5686},Wii
 Punch-Out,{Boxers?},f,{5686},Wii
 Glass Joe,"{`"Punch(-| )?Out`"}",t,{5686},Punch-Out!!
@@ -20238,6 +20234,7 @@ Ms. Fortune,{Nadia},f,{5712},Skullgirls
 Parasoul,"{`"Skull ?girls`"}",t,{5712},Skullgirls
 Painwheel,"{`"Skull ?girls`"}",t,{5712},Skullgirls
 Ratchet,{Clank},f,"{5689,21294,21295}",Ratchet & Clank
+Little Mac,"{`"Punch(-| )Out`"}",t,{5686},Punch-Out!!
 Valentine,"{`"Skull ?girls`"}",f,{5712},Skullgirls
 Double,"{`"Skull ?girls`"}",f,{5712},Skullgirls
 Squigly,"{`"Skull ?girls`"}",f,{5712},Skullgirls
@@ -25784,10 +25781,10 @@ Rogue,{Rogue.*616},f,{2382},616
 Rogue,{Rogue.*Marvel},f,{2382},616
 Rogue,"{`"Rogue.*X(-| )?Men`"}",f,{2382},616
 Rogue,"{`"Wonder Man`"}",f,{2382},616
-Bebop,"{Rocksteady,IDW}",t,{21277},IDW
 Rocksteady,"{Bebop,IDW}",t,{21277},IDW
 Scarecrow,"{Batman,`"Animated Series`"}",f,{},DCAU
 Scarecrow,{B:?TAS},f,{},DCAU
+Bebop,"{Rocksteady,IDW}",f,{21277},IDW
 Artoria Pendragon,"{`"Lion King`"}",f,{21307},Fate
 Artoria Pendragon,"{`"Grande? Order`"}",f,{21307},Fate
 Artoria Pendragon,"{`"F(ate )?/?GO`"}",f,{21307},Fate
@@ -25795,11 +25792,6 @@ Artoria Pendragon,"{`"Artoria Pendragon.*Lancer`"}",f,{21307},Fate
 Maria,"{`"Maria Dacascos`"}",f,{21308},Fight Class 3
 Maria,"{`"Fight Class 3`"}",f,{21308},Fight Class 3
 Jiu Ji-Tae,"{`"Fight Class 3`"}",t,{21309},Fight Class 3
-Saint Walker,"{`"\\(DC( Comics)?\\)`"}",t,{6653},DC
-Saint Walker,"{`"\\[DC( Comics)?\\]`"}",t,{6653},DC
-Saint Walker,{PC},f,{6653},Post-Crisis
-Saint Walker,"{`"Posts?(-| )?C(risis)?`"}",f,{6653},Post-Crisis
-Saint Walker,"{`"New(-| )Earth`"}",f,{6653},Post-Crisis
 Saint Walker,"{`"New(-| )?52`"}",f,{},New 52 / Rebirth
 Saint Walker,{Nu?-?52},f,{},New 52 / Rebirth
 Saint Walker,"{`"Post(-| )52`"}",f,{},New 52 / Rebirth
@@ -25826,6 +25818,11 @@ Ainz,"{`"Ainz vs`"}",t,"{21299,21310,21318}",Overlord
 Spider-Bite,{Nathan},t,{21313},616
 The Deep,"{`"The Boys?`"}",f,{21316},"The Boys, 2019"
 Galactus,"{`"Galactus.*Movie Version`"}",f,{},Fantastic Four Movies
+Saint Walker,"{`"\\(DC( Comics)?\\)`"}",t,{22097},DC
+Saint Walker,"{`"\\[DC( Comics)?\\]`"}",t,{22097},DC
+Saint Walker,{PC},f,{22097},Post-Crisis
+Saint Walker,"{`"Posts?(-| )?C(risis)?`"}",f,{22097},Post-Crisis
+Saint Walker,"{`"New(-| )Earth`"}",f,{22097},Post-Crisis
 Flash,"{`"Flash \\(Barry( Allen)?\\)`"}",f,{1582},New 52 / Rebirth
 Storm front,"{`"The Boys`"}",f,{21319},"The Boys, 2019"
 Storm front,{Homelander},f,{21319},"The Boys, 2019"
@@ -29194,3 +29191,32 @@ Miraak,"{`"Elder Scrolls?`"}",t,{23324},Elder Scrolls
 Kamen Rider Eden,{S},t,{23325},""
 Hoaqin,"{`"Tower of God`"}",t,{23326},Tower of God
 Gero Hikaru,"{`"MARRIAGE ?TOXIN`"}",t,{23327},MARRIAGETOXIN
+Storm,"{`"Storm ?\\(Marvel\\)`"}",f,{2386},616
+Spawn,{fuse(s|d)},f,"{2638,2639}",Image Comics
+Spawn,"{`"God Spawn`"}",f,"{2638,2639}",Image Comics
+Spawn,"{`"Divine Spawn`"}",f,"{2638,2639}",Image Comics
+Spawn,"{`"Eden fruit`"}",f,"{2638,2639}",Image Comics
+Kitana,"{`"Sh(ao|oa) K(ah|ha)ns?`"}",f,{5289},Mortal Kombat
+Kitana,{Jade},f,{5289},Mortal Kombat
+Null,"{`"Null ?\\(Image`"}",f,{23328},Image Comics
+Rom,{IDW},f,{23329},IDW
+Rom,{Wraithslayer},f,{23329},IDW
+Rom,{Hasbro},f,{23329},IDW
+Rom,{K'atsema},f,{23329},IDW
+White,"{`"Tower of God`"}",f,{23330},Tower of God
+White,{Hoaqin},f,{23330},Tower of God
+Gabriel,{ULTRAKILL},f,{23331},ULTRAKILL
+Lobo,"{`"DC Animated Universe`"}",f,{23332},DCAU
+Lobo,{DCAU},f,{23332},DCAU
+Viola,{Bayonetta},f,{23333},Bayonetta
+Sugar,"{`"One ?Piece?`"}",f,{23334},One Piece
+Rory Mercury,{Gate},t,{23335},Gate
+Kang the Conqueror,"{`"Marvel Cinematic Universe`"}",f,{23336},MCU
+Kang the Conqueror,{MCU},f,{23336},MCU
+Attuma,"{`"Marvel Cinematic Universe`"}",f,{23337},MCU
+Attuma,{MCU},f,{23337},MCU
+Namor,"{`"Marvel Cinematic Universe`"}",f,{23338},MCU
+Namor,{MCU},f,{23338},MCU
+Archetype: Earth,{Tsukihime},t,{23339},Tsukihime
+Archetype: Earth,"{`"Melty Blood`"}",t,{23339},Tsukihime
+Arcueid Brunestud,{Tsukihime},t,"{23339,4603}",Tsukihime

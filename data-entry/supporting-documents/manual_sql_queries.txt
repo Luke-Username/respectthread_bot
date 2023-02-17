@@ -14,27 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Bebop';
-UPDATE character SET displayed_version_name='DC' WHERE displayed_version_name='(DC)';
+########################################
 
 ########################################
 
-UPDATE character SET rt_id_array='{22097}' WHERE default_name='Saint Walker' AND displayed_version_name='DC';
-UPDATE character SET rt_id_array='{22097}' WHERE default_name='Saint Walker' AND displayed_version_name='Post-Crisis';
-UPDATE character SET rt_id_array='{5686}' WHERE rt_id_array='{5685}';
-
 ########################################
 
-DELETE FROM character WHERE rt_id_array='{3590}';
-
 ########################################
-
-UPDATE character SET version='{"Final Destination"}' WHERE version='{"Death.*Final Destination"}';
-
-########################################
-
-SELECT * FROM respectthread WHERE link='https://redd.it/11450sr';
-UPDATE character SET rt_id_array='{?}' WHERE rt_id_array='{6259,4603}'; --After run
 
 ########################################
 
