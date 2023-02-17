@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+
+id = get_rt_id(cur, 'Respect the Japanese Special Defense Force! (Gate, Anime)', 'https://redd.it/114ueoq')
+add_data(['Japanese Special Defense Force'],
+'Japanese Special Defense Force',
+False,
+False,
+[
+    ['Gate']
+],
+'Gate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/114ueoq/respect_the_japanese_special_defense_force_gate/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
