@@ -139,6 +139,20 @@ False,
 
 ########################################
 
+add_data(['Kitana'],
+'Kitana',
+False,
+False,
+[
+    ['Sh(ao|oa) K(ah|ha)ns?'], ['Jade']
+],
+'Mortal Kombat',
+'{5289}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1148efs/sekiro_vs_kitana_and_jade/j8uvbj3/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Null (Image Comics)', 'https://redd.it/112vgrq')
 add_data(['Null'],
 'Null',
@@ -256,6 +270,66 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/113vjbr/respect_rory_mercury_gate_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect MCU Kang the Conqueror', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-mcu-kang-the-conqueror-2294405/')
+add_data(['Kang the Conqueror'],
+'Kang the Conqueror',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/11451l6/mcu_kang_the_conqueror_vs_iron_man/j8u8zmq/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Attuma! (MCU)', 'https://redd.it/11452ee')
+add_data(['Attuma'],
+'Attuma',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11452ee/respect_attuma_mcu/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Namor! (MCU)', 'https://redd.it/11452np')
+add_data(['Namor'],
+'Namor',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11452np/respect_namor_mcu/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Archetype: Earth! (Tsukihime)', 'https://redd.it/11450sr')
+add_data(['Archetype:?( |-)?Earth'],
+'Archetype: Earth',
+False,
+True,
+[
+    ['Tsukihime'], ['Melty Blood']
+],
+'Tsukihime',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11450sr/respect_archetype_earth_tsukihime/
 
 ########################################
 
