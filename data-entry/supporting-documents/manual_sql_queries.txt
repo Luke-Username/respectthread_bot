@@ -18,6 +18,8 @@ UPDATE character_name SET name='Bill C(i|y)phers?' WHERE name='Bill Ciphers?';
 
 ########################################
 
+UPDATE character SET version='{"I(,? )?Robot"}' WHERE version='{"I, Robot"}';
+
 ########################################
 
 ########################################
