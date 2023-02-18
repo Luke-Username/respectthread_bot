@@ -2999,7 +2999,7 @@ Shrek
 
 Shuumatsu no Valkyrie
 	Version
-		p'Shuumatsu no Valkyrie'], ['Record of Ragnarok']
+		['Shuumatsu no Valkyrie'], ['Record of Ragnarok']
 	Displayed Version Name
 		"Shuumatsu no Valkyrie"
 

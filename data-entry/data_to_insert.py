@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Cell'],
+'Cell',
+False,
+False,
+[
+    ['Perfect', 'Androids?']
+],
+'Dragon Ball',
+'{3277}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/115bwur/roasting_challenge_cell_roasts_the_narutoverse/
+
+########################################
 
 id = get_rt_id(cur, 'Respect the Japanese Special Defense Force! (Gate, Anime)', 'https://redd.it/114ueoq')
 add_data(['Japanese Special Defense Force'],
@@ -120,6 +133,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/114ueoq/respect_the_japanese_special_defense_force_gate/
+
+########################################
+
+id = get_rt_id(cur, "Respect Raiden Tame''emon (Shuumatsu no Valkyrie/Record of Ragnarok)", 'https://redd.it/1152cvz')
+add_data(["Raiden Tame''?emon"],
+'Raiden Tameemon',
+False,
+False,
+[
+    ['Shuumatsu no Valkyrie'], ['Record of Ragnarok']
+],
+'Shuumatsu no Valkyrie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1152cvz/respect_raiden_tameemon_shuumatsu_no/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cavendish/Hakuba (One Piece)', 'https://redd.it/1157doe')
+add_data(['Cavendish'],
+'Cavendish',
+False,
+False,
+[
+    ['Hakuba'], ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1157doe/respect_cavendishhakuba_one_piece/
 
 ########################################
 
