@@ -119,6 +119,21 @@ False,
 )
 #https://www.reddit.com/r/whowouldwin/comments/115bwur/roasting_challenge_cell_roasts_the_narutoverse/
 
+
+########################################
+
+add_data(['Wuxian'],
+'Wuxian',
+False,
+False,
+[
+    ['Legend of Hei']
+],
+'The Legend of Luo Xiaohei',
+'{22710}'
+)
+#
+
 ########################################
 
 id = get_rt_id(cur, 'Respect the Japanese Special Defense Force! (Gate, Anime)', 'https://redd.it/114ueoq')
