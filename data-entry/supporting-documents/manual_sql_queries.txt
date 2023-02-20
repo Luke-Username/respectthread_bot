@@ -21,8 +21,11 @@ UPDATE character_name SET name='Bill C(i|y)phers?' WHERE name='Bill Ciphers?';
 UPDATE character SET version='{"I(,? )?Robot"}' WHERE version='{"I, Robot"}';
 UPDATE character SET version='{"over Heaven|Heaven'?s? Ascension"}' WHERE version='{"World over Heaven|Heaven'?s? Ascension"}';
 
-
 ########################################
+
+UPDATE character SET displayed_version_name='Super Adaptoid' WHERE default_name='Yelena Belova' AND version='{"616"}'; 
+UPDATE character SET version='{"Super Adaptoid"}' WHERE default_name='Yelena Belova' AND version='{"616"}';
+DELETE FROM character WHERE default_name='Yelena Belova' AND version='{"Marvel"}';
 
 ########################################
 

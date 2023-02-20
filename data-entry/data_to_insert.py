@@ -287,6 +287,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Yelena Belova (Marvel Comics, Earth-616)', 'https://redd.it/117c4y4')
+add_data(['Yelena Belova'],
+'Yelena Belova',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/117c4y4/respect_yelena_belova_marvel_comics_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yelena Belova (Marvel Cinematic Universe)', 'https://redd.it/117ckm6')
+add_data(['Yelena Belova'],
+'Yelena Belova',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/117ckm6/respect_yelena_belova_marvel_cinematic_universe/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Iron Man Model 54: the Marvelbuster (Marvel, Earth-616)', 'https://redd.it/116rlrg')
 add_data(['Danversbuster'],
 'Danversbuster',
@@ -341,6 +371,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/116tl6u/respect_big_jack_horner_puss_in_boots_the_last/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Loki, the God of Mischief! (LEGO Marvel)', 'https://redd.it/117hhxy')
+add_data(['Loki'],
+'Loki',
+False,
+False,
+[
+    ['LEGO Marvel']
+],
+'LEGO Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/117hhxy/respect_loki_the_god_of_mischief_lego_marvel/
 
 ########################################
 
