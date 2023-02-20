@@ -3381,8 +3381,8 @@ Team Fortress 2
 
 TeamFourStar
 	Version
-		'{"Team ?Four ?Star"}', '{"TFSA?"}', '{"DBZ:? ?A"}', '{"Abridged"}'
-		'{"D(ragon)? ?B(all)? ?Z:? Abridged"}'
+		['Team ?Four ?Star'], ['TFSA?'], ['DBZ:? ?A'], ['Abridged']
+		['D(ragon)? ?B(all)? ?Z:? Abridged']
 	Displayed Version Name
 		"TeamFourStar"
 

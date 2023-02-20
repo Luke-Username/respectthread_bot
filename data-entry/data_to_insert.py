@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6268, 'Respect the Ultimate Ones! (TYPE-MOON / Nasuverse)', 'https://redd.it/115lh06')
+
+########################################
+
 add_data(['Cell'],
 'Cell',
 False,
@@ -133,6 +137,48 @@ False,
 '{22710}'
 )
 #
+
+########################################
+
+add_data(['Teen Titans'],
+'Teen Titans',
+False,
+False,
+[
+    ['Teen Titans \(.*animation.*\)']
+],
+'Teen Titans',
+'{977}'
+)
+#https://www.reddit.com/r/respectthreads/comments/9bajhs/respect_the_teen_titans_teen_titans/
+
+########################################
+
+add_data(['Hercules'],
+'Hercules',
+False,
+False,
+[
+    ['Shuumatsu no Valkyrie'], ['Record of Ragnarok']
+],
+'Shuumatsu no Valkyrie',
+'{9367}'
+)
+#
+
+########################################
+
+add_data(['Ultimate Ones'],
+'Ultimate Ones',
+False,
+False,
+[
+    ['TYPE(-| )?MOON'], ['Nasu(-| )?verse'], ['Fate']
+],
+'Nasuverse',
+'{6268}'
+)
+#https://www.reddit.com/r/respectthreads/comments/115lh06/respect_the_ultimate_ones_typemoon_nasuverse/
 
 ########################################
 
@@ -178,6 +224,123 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1157doe/respect_cavendishhakuba_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miyoi Okunoda (Touhou)', 'https://redd.it/115fcoj')
+add_data(['Miyoi Okunoda'],
+'Miyoi Okunoda',
+False,
+False,
+[
+    ['Touhou']
+],
+'Touhou',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/115fcoj/respect_miyoi_okunoda_touhou/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Teenage Mutant Ninja Turtles (Mutant Turtles: Superman Legend)', 'https://redd.it/115itdf')
+add_data(['TMNT'],
+'Teenage Mutant Ninja Turtles',
+False,
+False,
+[
+    ['Mutant Turtles:? Superman Legend']
+],
+'Mutant Turtles: Superman Legend',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/115itdf/respect_the_teenage_mutant_ninja_turtles_mutant/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shredder (Mutant Turtles: Superman Legend)', 'https://redd.it/115itof')
+add_data(['Shredder'],
+'Shredder',
+False,
+False,
+[
+    ['Mutant Turtles:? Superman Legend']
+],
+'Mutant Turtles: Superman Legend',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/115itof/respect_shredder_mutant_turtles_superman_legend/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Missy! (Doctor Who)', 'https://redd.it/115l0h1')
+add_data(['Missy'],
+'Missy',
+False,
+False,
+[
+    ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/115l0h1/respect_missy_doctor_who/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 54: the Marvelbuster (Marvel, Earth-616)', 'https://redd.it/116rlrg')
+add_data(['Danversbuster'],
+'Danversbuster',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/116rlrg/respect_iron_man_model_54_the_marvelbuster_marvel/
+
+add_data(['Marvelbuster'],
+'Marvelbuster',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/116rlrg/respect_iron_man_model_54_the_marvelbuster_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Piccolo! (Dragon Ball Z Abridged)', 'https://redd.it/116j6wu')
+add_data(['Piccolo'],
+'Piccolo',
+False,
+False,
+[
+    ['Team ?Four ?Star'], ['TFSA?'], ['DBZ:? ?A'], ['Abridged'], ['D(ragon)? ?B(all)? ?Z:? Abridged']
+],
+'TeamFourStar',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/116j6wu/respect_piccolo_dragon_ball_z_abridged/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "Big" Jack Horner (Puss in Boots: The Last Wish)', 'https://redd.it/116tl6u')
+add_data(['Jack Horner'],
+'Jack Horner',
+False,
+False,
+[
+    ['Puss i?n Boots'], ['The Last Wish']
+],
+'Puss in Boots',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/116tl6u/respect_big_jack_horner_puss_in_boots_the_last/
 
 ########################################
 
