@@ -389,6 +389,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Sansfield (Bad Monday Simulator)', 'https://redd.it/117myie')
+add_data(['Sansfield'],
+'Sansfield',
+False,
+True,
+[
+    ['Bad Monday Simulator']
+],
+'Bad Monday Simulator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/117myie/respect_sansfield_bad_monday_simulator/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nermal (Bad Monday Simulator)', 'https://redd.it/117np0o')
+add_data(['Nermal'],
+'Nermal',
+False,
+False,
+[
+    ['Bad Monday Simulator']
+],
+'Bad Monday Simulator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/117np0o/respect_nermal_bad_monday_simulator/
+
+########################################
+
+id = get_rt_id(cur, 'Respect ORT! (TYPE-MOON / Nasuverse)', 'https://redd.it/1184x21')
+add_data(['ORT'],
+'ORT',
+False,
+False,
+[
+    ['TYPE(-| )?MOON'], ['Nasu(-| )?verse']
+],
+'Nasuverse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1184x21/respect_ort_typemoon_nasuverse/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
