@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 6268, 'Respect the Ultimate Ones! (TYPE-MOON / Nasuverse)', 'https://redd.it/115lh06')
+update_respectthread(cur, 6023, 'Respect: The God Emperor of Mankind (40k)', 'https://redd.it/118h4ht')
 
 ########################################
 
@@ -431,6 +432,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1184x21/respect_ort_typemoon_nasuverse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aesling! (Thrilling Intent)', 'https://redd.it/118dzqd')
+add_data(['Aesling'],
+'Aesling',
+False,
+False,
+[
+    ['Thrilling Intent']
+],
+'Thrilling Intent',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
