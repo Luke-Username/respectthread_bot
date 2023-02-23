@@ -1348,7 +1348,7 @@ Hack/Slash
 
 Half-Life
 	Version
-		'{"Half(-| )?Life"}'
+		['Half(-| )?Life']
 	Displayed Version Name
 		"Half-Life"
 

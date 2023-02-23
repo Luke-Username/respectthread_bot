@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 6019, 'Respect: Angron (Warhammer 40k)', 'https://redd.it/119lsn3')
+update_respectthread(cur, 6484, 'Respect Tamiyo, the Moon Sage! (Magic: The Gathering)', 'https://redd.it/11a1pwh')
 
 ########################################
 
@@ -256,6 +257,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/119mf93/mystery_inc_velma/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dog (Half-Life)', 'https://redd.it/11a4w5c')
+add_data(['Dog'],
+'Dog',
+False,
+False,
+[
+    ['Half(-| )?Life']
+],
+'Half-Life',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
