@@ -107,6 +107,156 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6019, 'Respect: Angron (Warhammer 40k)', 'https://redd.it/119lsn3')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Firi! (Thrilling Intent)', 'https://redd.it/118mkxt')
+add_data(['Firi'],
+'Firi',
+False,
+False,
+[
+    ['Thrilling Intent']
+],
+'Thrilling Intent',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/118mkxt/respect_firi_thrilling_intent/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Ashen Knight! (Thrilling Intent)', 'https://redd.it/118mofi')
+add_data(['Ashen Knight'],
+'Ashen Knight',
+False,
+False,
+[
+    ['Thrilling Intent']
+],
+'Thrilling Intent',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/118mofi/respect_the_ashen_knight_thrilling_intent/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Inien the Witch! (Thrilling Intent)', 'https://redd.it/119eytt')
+add_data(['Inien'],
+'Inien',
+False,
+False,
+[
+    ['Thrilling Intent']
+],
+'Thrilling Intent',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/119eytt/respect_inien_the_witch_thrilling_intent/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Athos Colvin Jun! (Thrilling Intent)', 'https://redd.it/119f2vk')
+add_data(['Colvin'],
+'Colvin',
+False,
+False,
+[
+    ['Thrilling Intent'], ['Athos Colvin Jun']
+],
+'Thrilling Intent',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/119f2vk/respect_athos_colvin_jun_thrilling_intent/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yuru! (Daemons of the Shadow Realm)', 'https://redd.it/118ynit')
+add_data(['Yuru'],
+'Yuru',
+False,
+False,
+[
+    ['Daemons of the Shadow Realm']
+],
+'Daemons of the Shadow Realm',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/118ynit/respect_yuru_daemons_of_the_shadow_realm/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Asa! (Daemons of the Shadow Realm)', 'https://redd.it/118yo5q')
+add_data(['Asa'],
+'Asa',
+False,
+False,
+[
+    ['Daemons of the Shadow Realm']
+],
+'Daemons of the Shadow Realm',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/118yo5q/respect_asa_daemons_of_the_shadow_realm/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Marvel Guy (Marvel Comics, Earth-616)', 'https://redd.it/1193h6s')
+add_data(['Marvel Guy'],
+'Marvel Guy',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1193h6s/respect_marvel_guy_marvel_comics_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anubis (Yu-Gi-Oh! The Movie: The Pyramid of Light)', 'https://redd.it/119bc97')
+add_data(['Anubis'],
+'Anubis',
+False,
+False,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Pyramid of Light'],
+'Pyramid of Light',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Mystery Inc. (Velma)', 'https://redd.it/119mf93')
+add_data(['Velma'],
+'Velma',
+False,
+False,
+[
+    ['Velma ?\(Velma\)']
+],
+'Velma',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/119mf93/mystery_inc_velma/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
