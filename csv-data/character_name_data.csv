@@ -3726,7 +3726,6 @@ Appa,Appa,f
 Bemular,Bemular,f
 (Doctor|Dr\.?) Sivana,Doctor Sivana,f
 Thaddeus Sivana,Doctor Sivana,f
-Inklings?,Inklings,f
 Miranda,Miranda,f
 Miranda Lawson,Miranda Lawson,f
 Bast,Bast,f
@@ -3758,6 +3757,7 @@ Bodolf,Bodolf,f
 Bor,Bor,f
 Bor B(ú|u)rison,Bor Búrison,f
 Indo ?raptors?,Indoraptor,f
+Inklings,Inklings,f
 Hong Meiling,Hong Meiling,f
 Javik,Javik,f
 Thalia,Thalia,f
@@ -7295,7 +7295,6 @@ Scooby(-| )(Doo(-| ))?Gang,Scooby Gang,t
 Fred Jones,Fred Jones,f
 Daphne,Daphne,f
 Daphne Blake,Daphne Blake,f
-Velma,Velma Dinkley,f
 Shaggy Rogers,Shaggy Rogers,f
 Great Lakes Avengers,Great Lakes Avengers,t
 Torasawa Aiko,Torasawa Aiko,f
@@ -7407,6 +7406,7 @@ Bright ?burn,Brightburn,f
 Elsa Granhie?rte?,Elsa Granhiert,f
 Reinhardt? v(a|o)n Astrea,Reinhard van Astrea,f
 Ahsoka,Ahsoka Tano,f
+Velma Dinkley,Velma Dinkley,f
 Gold Cloth Saiya,Pegasus Seiya,f
 Saint Seiya,Saint Seiya,f
 Leopold Vermillion,Leopold Vermillion,f
@@ -13352,3 +13352,12 @@ Marvelbuster,Marvelbuster,f
 Sansfield,Sansfield,f
 ORT,ORT,f
 Aesling,Aesling,f
+Firi,Firi,f
+Ashen Knight,Ashen Knight,f
+Inien,Inien,f
+Colvin,Colvin,f
+Yuru,Yuru,f
+Asa,Asa,f
+Marvel Guy,Marvel Guy,f
+Pyramid of Light,Pyramid of Light,f
+Velma,Velma,f

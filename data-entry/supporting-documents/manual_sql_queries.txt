@@ -14,15 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET displayed_version_name='DC' WHERE rt_id_array='{1680,7394}';
-
 ########################################
 
-UPDATE character_name SET name='Inklings' WHERE name='Inklings?';
-
 ########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Chen';
 
 ########################################
 

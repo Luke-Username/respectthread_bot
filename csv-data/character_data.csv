@@ -6054,7 +6054,6 @@ Hal Jordan,{Nu?-?52},f,{7394},New 52 / Rebirth
 Hal Jordan,"{`"Post(-| )52`"}",f,{7394},New 52 / Rebirth
 Hal Jordan,"{`"Prime(-| )Earth`"}",f,{7394},New 52 / Rebirth
 Hal Jordan,{Rebirth},f,{7394},New 52 / Rebirth
-Hal Jordan,{Comics?},t,"{1680,7394}",New 52 / Rebirth
 Ion,"{`"Kyle Rayner`"}",f,{7395},Kyle Rayner
 Freefall,{Wildstorm},f,{7396},Wildstorm
 Freefall,{Roxy},f,{7396},Wildstorm
@@ -6083,6 +6082,7 @@ Red Hulk,{616},t,{2130},616
 Red Hulk,{Marvel},t,{2130},616
 Hulk,"{`"\\(Comics?`"}",t,"{2116,2117}",616
 Black Adam,"{`"\\(DC( Comics)?\\)`"}",t,"{1622,14881}",DC
+Hal Jordan,{Comics?},t,"{1680,7394}",DC
 Sun Wukong,{Marvel},f,{7406},616
 Sun Wukong,{616},f,{7406},616
 Takizawa,"{`"Tokyo Ghoul`"}",t,{7407},Tokyo Ghoul
@@ -18680,10 +18680,10 @@ Joe Vickers,"{`"Psycho Cop`"}",t,{13500},Psycho Cop
 Eiki Shiki,{Touhou},t,{13501},Touhou
 Ran Yakumo,{Touhou},t,{13502},Touhou
 Ran,{Touhou},f,{13502},Touhou
-Chen,{Touhou},t,{13503},Touhou
 Flandre Scarlet,{Touhou},t,{13504},Touhou
 Remilia Scarlet,{Touhou},t,{13505},Touhou
 Remilia,{Touhou},f,{13505},Touhou
+Chen,{Touhou},f,{13503},Touhou
 Kasukabe Yo,"{`"Problem Children`"}",t,{13506},Mondaiji-tachi
 Kasukabe Yo,"{`"Mondaiji(-| )tachi`"}",t,{13506},Mondaiji-tachi
 Predator,"{`"Dark(-| )?Horse`"}",f,{13507},Dark Horse Comics
@@ -29255,3 +29255,15 @@ Nermal,"{`"Bad Monday Simulator`"}",f,{23354},Bad Monday Simulator
 ORT,"{`"TYPE(-| )?MOON`"}",f,{23355},Nasuverse
 ORT,"{`"Nasu(-| )?verse`"}",f,{23355},Nasuverse
 Aesling,"{`"Thrilling Intent`"}",f,{23356},Thrilling Intent
+Firi,"{`"Thrilling Intent`"}",f,{23367},Thrilling Intent
+Ashen Knight,"{`"Thrilling Intent`"}",f,{23368},Thrilling Intent
+Inien,"{`"Thrilling Intent`"}",f,{23369},Thrilling Intent
+Colvin,"{`"Thrilling Intent`"}",f,{23370},Thrilling Intent
+Colvin,"{`"Athos Colvin Jun`"}",f,{23370},Thrilling Intent
+Yuru,"{`"Daemons of the Shadow Realm`"}",f,{23371},Daemons of the Shadow Realm
+Asa,"{`"Daemons of the Shadow Realm`"}",f,{23372},Daemons of the Shadow Realm
+Marvel Guy,{616},f,{23373},616
+Anubis,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23374},Yu-Gi-Oh!
+Pyramid of Light,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23374},Yu-Gi-Oh!
+Velma,"{`"Velma ?\\(Velma\\)`"}",f,{23375},Velma
+Dog,"{`"Half(-| )?Life`"}",f,{23376},Half-Life
