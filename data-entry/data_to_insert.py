@@ -107,6 +107,124 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Doombot', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-the-doombot-2066251/')
+add_data(['Doom ?bots?'],
+'Doombot',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/11art9k/doombots_vs_sentinels/j9tlp65/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ciaphas Cain (Warhammer 40k)', 'https://redd.it/louo8y')
+add_data(['Ciaphas Cain'],
+'Ciaphas Cain',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/Thevexarecool/comments/louo8y/respect_ciaphas_cain_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kyr Fiore! (Thrilling Intent)', 'https://redd.it/11aeisz')
+add_data(['Kyr Fiore'],
+'Kyr Fiore',
+False,
+True,
+[
+    ['Thrilling Intent']
+],
+'Thrilling Intent',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11aeisz/respect_kyr_fiore_thrilling_intent/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thog! (Thrilling Intent)', 'https://redd.it/11aem5f')
+add_data(['Thog'],
+'Thog',
+False,
+False,
+[
+    ['Thrilling Intent']
+],
+'Thrilling Intent',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11aem5f/respect_thog_thrilling_intent/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gorgon (Ex-Heroes)', 'https://redd.it/11amjpp')
+add_data(['Gorgon'],
+'Gorgon',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11amjpp/respect_gorgon_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Regenerator (Ex-Heroes)', 'https://redd.it/11ao49t')
+add_data(['Regenerator'],
+'Regenerator',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ao49t/respect_regenerator_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Fright Hound (Scooby Doo: Mystery Incorporated', 'https://redd.it/11aesnd')
+add_data(['Fright Hound'],
+'Fright Hound',
+False,
+True,
+[
+    ['Scooby(-| )?Doo']
+],
+'Scooby-Doo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11aesnd/respect_the_fright_hound_scooby_doo_mystery/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nadia van Dyne, The Unstoppable Wasp (Marvel Comics, Earth-616)', 'https://redd.it/11ax4uv')
+add_data(['Wasp'],
+'Wasp',
+False,
+False,
+[
+    ['616'], ['Wasp ?\(Marve\)']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ax4uv/respect_nadia_van_dyne_the_unstoppable_wasp/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

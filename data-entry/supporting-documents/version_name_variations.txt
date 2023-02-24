@@ -2907,9 +2907,9 @@ Scary Godmother: Halloween Spooktakular
 
 Scooby-Doo
 	Version
-		'{"Scooby(-| )?Doo"}'
+		['Scooby(-| )?Doo']
 	Acronyms
-		'{"SD"}'
+		['SD']
 	Displayed Version Name
 		"Scooby-Doo"
 
