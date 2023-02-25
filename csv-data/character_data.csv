@@ -22029,10 +22029,10 @@ U.S. Agent,"{`"Marvel Cinematic Universe`"}",f,{21271},MCU
 The Mountain,"{`"Song of Ice`"}",f,"{6119,87}",Game of Thrones
 The Mountain,{ASOIAF},f,"{6119,87}",Game of Thrones
 The Mountain,"{`"\\(GoT\\)`"}",f,"{6119,87}",Game of Thrones
-God-Emperor of Mankind,{(WH)?40K},t,{6465},Warhammer 40k
-God-Emperor of Mankind,{Warhammer},t,{6465},Warhammer 40k
 U.S. Agent,{MCU},f,{21271},MCU
 U.S. Agent,{199999},f,{21271},MCU
+God-Emperor of Mankind,{(WH)?40K},t,{6023},Warhammer 40k
+God-Emperor of Mankind,{Warhammer},t,{6023},Warhammer 40k
 Bog,{RHG},f,{17254},RHG
 Elyas,"{`"Wheel of Time`"}",f,{6036},The Wheel of Time
 Elyas,{WOT},f,{6036},The Wheel of Time
@@ -29159,7 +29159,6 @@ Mac Gargan,{Virus},f,{23308},Virus
 Aesir,{Bayonetta},f,{23309},Bayonetta
 Knack,"{`"Knack (II|2)`"}",f,{5623},""
 Superman,"{`"Earth(-| )Prime`"}",f,{7632},Rebirth
-The Emperor,{(WH)?40K},f,{6465},Warhammer 40k
 Thor,"{Mythos,Pantheons?}",f,{23298},Norse Mythology
 Witch-king,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{5862},Lord of the Rings
 Witch-king of Angmar,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{5862},Lord of the Rings
@@ -29267,3 +29266,18 @@ Anubis,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23374},Yu-Gi-Oh!
 Pyramid of Light,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23374},Yu-Gi-Oh!
 Velma,"{`"Velma ?\\(Velma\\)`"}",f,{23375},Velma
 Dog,"{`"Half(-| )?Life`"}",f,{23376},Half-Life
+Laura Kinney,"{`"Weapon Hex`"}",f,{},Weapon Hex
+Doombot,{616},t,{23377},616
+Ciaphas Cain,{(WH)?40K},t,{23378},Warhammer 40k
+Ciaphas Cain,{Warhammer},t,{23378},Warhammer 40k
+Kyr Fiore,"{`"Thrilling Intent`"}",t,{23379},Thrilling Intent
+Gregor,"{`"Thrilling Intent`"}",f,{23380},Thrilling Intent
+Gregor,"{`"Gregor Hartway`"}",f,{23380},Thrilling Intent
+Thog,"{`"Thrilling Intent`"}",f,{23381},Thrilling Intent
+Gorgon,"{`"Ex(-| )Heroes`"}",f,{23382},Ex-Heroes
+Regenerator,"{`"Ex(-| )Heroes`"}",f,{23383},Ex-Heroes
+Fright Hound,"{`"Scooby(-| )?Doo`"}",t,{23384},Scooby-Doo
+Wasp,{616},f,{23385},616
+Wasp,"{`"Wasp ?\\(Marve\\)`"}",f,{23385},616
+Christina,"{`"Princess Connect`"}",f,{23386},Princess Connect! Re:Dive
+The Emperor,{(WH)?40K},f,{6023},Warhammer 40k
