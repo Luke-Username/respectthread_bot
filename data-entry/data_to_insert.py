@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Laura Kinney'],
+'Laura Kinney',
+False,
+False,
+[
+    ['Weapon Hex']
+],
+'Weapon Hex',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/11bav65/laura_kinneyweapon_hex_vs_kefla_marvel_vs_dragon/j9wwocn/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Doombot', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-the-doombot-2066251/')
 add_data(['Doom ?bots?'],
 'Doombot',
@@ -149,6 +163,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/11aeisz/respect_kyr_fiore_thrilling_intent/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gregor Hartway! (Thrilling Intent)', 'https://redd.it/11b5jis')
+add_data(['Gregor'],
+'Gregor',
+False,
+False,
+[
+    ['Thrilling Intent'], ['Gregor Hartway']
+],
+'Thrilling Intent',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11b5jis/respect_gregor_hartway_thrilling_intent/
 
 ########################################
 
@@ -224,6 +253,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/11ax4uv/respect_nadia_van_dyne_the_unstoppable_wasp/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Christina Morgan (Princess Connect! Re:Dive)', 'https://redd.it/11bbx4s')
+add_data(['Christina'],
+'Christina',
+False,
+False,
+[
+    ['Princess Connect']
+],
+'Princess Connect! Re:Dive',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11bbx4s/respect_christina_morgan_princess_connect_redive/
 
 ########################################
 
