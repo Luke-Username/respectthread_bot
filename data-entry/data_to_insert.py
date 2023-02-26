@@ -107,6 +107,63 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['The Doctor'],
+'The Doctor',
+False,
+False,
+[
+    ['Time Lords?']
+],
+'Doctor Who',
+'{14419,23159,22631,23115,40,15401,23253}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/11c4av8/batman_has_to_come_up_with_a_contingency_plan_for/ja2n6vn/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Nagao Kagetora, Echigo''s God of War (Fate)", 'https://redd.it/11c2g2m')
+add_data(['Nagao Kagetora'],
+'Nagao Kagetora',
+False,
+True,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11c2g2m/respect_nagao_kagetora_echigos_god_of_war_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pidge (Voltron Force)', 'https://redd.it/11c7j6u')
+add_data(['Pidge'],
+'Pidge',
+False,
+False,
+[
+    ['Voltron Force']
+],
+'Voltron Force',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11c7j6u/respect_pidge_voltron_force/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ghiblib the Christmas Demon (Royalty Free Christmas Songs)', 'https://redd.it/11cgy7z')
+add_data(['Ghiblib the Christmas Demon'],
+'Ghiblib the Christmas Demon',
+False,
+True,
+[
+    ['Royalty Free Christmas Songs'], ['Jacksfilms']
+],
+'Royalty Free Christmas Songs',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
