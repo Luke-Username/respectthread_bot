@@ -107,6 +107,36 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13121, 'Respect Ophiuchus the emperor, A.K.A GODFIELD (Lumpy Touch)', 'https://redd.it/11dfb1l')
+
+########################################
+
+add_data(['Godfield'],
+'Godfield',
+False,
+True,
+[
+    ['Lumpy Touch']
+],
+'Lumpy Touch',
+'{13121}'
+)
+#
+
+add_data(['Ophiuchus the emperor'],
+'Ophiuchus the emperor',
+False,
+False,
+[
+    ['Lumpy Touch']
+],
+'Lumpy Touch',
+'{13121}'
+)
+#
+
+########################################
+
 add_data(['The Doctor'],
 'The Doctor',
 False,
@@ -163,6 +193,224 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Winslow Schott, the Toyman (DC Comics, Post Crisis)', 'https://redd.it/11cl4iz')
+add_data(['Toyman'],
+'Toyman',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cl4iz/respect_winslow_schott_the_toyman_dc_comics_post/
+
+add_data(['Toyman'],
+'Toyman',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'],
+    ['Toyman vs'], ['vs\.? Toyman'], ['Superman', 'DC'],
+    ['Superman', 'Batman'], ['Superman', 'rogues? gallery'],
+    ["Superman''?s? Villains"], ['Prep']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cl4iz/respect_winslow_schott_the_toyman_dc_comics_post/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Leonardo (Teenage Mutant Ninja Turtles) [Mirage Comics]', 'https://redd.it/11cl67q')
+add_data(['Leonardo'],
+'Leonardo',
+False,
+False,
+[
+    ['Mirage (Comics|Studios)']
+],
+'Mirage Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cl67q/respect_leonardo_teenage_mutant_ninja_turtles/
+
+########################################
+
+id1 = get_rt_id(cur, 'Respect Raphael (Teenage Mutant Ninja Turtles) [Mirage Comics]', 'https://redd.it/11cl69j')
+add_data(['Raphael'],
+'Raphael',
+False,
+False,
+[
+    ['Mirage (Comics|Studios)']
+],
+'Mirage Comics',
+'{' + '{}'.format(id1) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cl69j/respect_raphael_teenage_mutant_ninja_turtles/
+
+########################################
+
+id2 = get_rt_id(cur, 'Respect Donatello (Teenage Mutant Ninja Turtles) [Mirage Comics]', 'https://redd.it/11cl6bk')
+add_data(['Donatello'],
+'Donatello',
+False,
+False,
+[
+    ['Mirage (Comics|Studios)']
+],
+'Mirage Comics',
+'{' + '{}'.format(id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cl6bk/respect_donatello_teenage_mutant_ninja_turtles/
+
+########################################
+
+id3 = get_rt_id(cur, 'Respect Michelangelo (Teenage Mutant Ninja Turtles) [Mirage Comics]', 'https://redd.it/11cl6dp')
+add_data(['Michelangelo'],
+'Michelangelo',
+False,
+False,
+[
+    ['Mirage (Comics|Studios)']
+],
+'Mirage Comics',
+'{' + '{}'.format(id3) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cl6dp/respect_michelangelo_teenage_mutant_ninja_turtles/
+
+########################################
+
+add_data(['Ninja Turtles?'],
+'Teenage Mutant Ninja Turtles',
+True,
+False,
+[
+    ['Mirage']
+],
+'Mirage Comics',
+'{' + '{}, {}, {}, {}'.format(id, id1, id2, id3) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Koraidon and Miraidon (Pokemon Games)', 'https://redd.it/11cohk6')
+add_data(['Koraidon'],
+'Koraidon',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cohk6/respect_koraidon_and_miraidon_pokemon_games/
+
+add_data(['Miraidon'],
+'Miraidon',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cohk6/respect_koraidon_and_miraidon_pokemon_games/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rogue (X-Men: The Animated Series)', 'https://redd.it/11cvycx')
+add_data(['Rogue'],
+'Rogue',
+False,
+False,
+[
+    ['X(-| )?Men:? The Animated Series'], ['X(-| )?Men', '1992']
+],
+'X-Men, 1992',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cvycx/respect_rogue_xmen_the_animated_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Seal of Orichalcos (Yu-Gi-Oh!)', 'https://redd.it/11cwlkn')
+add_data(['Seal of Orichalcos'],
+'Seal of Orichalcos',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cwlkn/respect_the_seal_of_orichalcos_yugioh/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Legendary Dragons (Yu-Gi-Oh!)', 'https://redd.it/11cwlrb')
+add_data(['Legendary Dragons'],
+'Legendary Dragons',
+True,
+False,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cwlrb/respect_the_legendary_dragons_yugioh/
+
+add_data(['Timaeus'],
+'Timaeus',
+False,
+False,
+[
+    ['Yu(-| )?Gi(-| )?Oh'], ['Yugis?']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11cwlrb/respect_the_legendary_dragons_yugioh/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Luka Redgrave (Bayonetta)', 'https://redd.it/11d2r94')
+add_data(['Luka'],
+'Luka',
+False,
+False,
+[
+    ['Bayonetta'], ['Luka Redgrave']
+],
+'Bayonetta',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11d2r94/respect_luka_redgrave_bayonetta/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-343, "God" (SCP Foundation)', 'https://redd.it/11dcoax')
+add_data(['SCP ?(-| )? ?343'],
+'SCP ?(-| )? ?343',
+False,
+True,
+[
+    ['God']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11dcoax/respect_scp343_god_scp_foundation/
 
 ########################################
 
