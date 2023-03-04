@@ -110,6 +110,8 @@ cur = con.cursor()
 update_respectthread(cur, 5506, 'Respect Shulk (Xenoblade Chronicles)', 'https://redd.it/11efam8')
 update_respectthread(cur, 3895, 'Respect Misogi Kumagawa! (Medaka Box)', 'https://redd.it/11euydv')
 update_respectthread(cur, 7602, 'Respect Jimmy Neutron (The Adventures of Jimmy Neutron, Boy Genius)', 'https://redd.it/11f8q78')
+update_respectthread(cur, 2283, 'Respect Doppelganger (Marvel 616)', 'https://redd.it/11fp3ru')
+update_respectthread(cur, 23129, 'Respect Scrapeface! (Madness Combat)', 'https://redd.it/11i7g9d')
 
 ########################################
 
@@ -256,6 +258,22 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/11ehjuz/auggie_smith_the_white_dragon_dceu/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Charlie the Gorilla! (DCEU)', 'https://redd.it/11i2us8')
+add_data(['Charlie the Gorilla'],
+'Charlie the Gorilla',
+False,
+True,
+[
+    ['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe'],
+    ['Peacemaker']
+],
+'DCEU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11i2us8/respect_charlie_the_gorilla_dceu/
 
 ########################################
 
@@ -437,6 +455,215 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/11f8prl/respect_the_nmen_the_adventures_of_jimmy_neutron/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Red Locust (Marvel, 616)', 'https://redd.it/11g2y7c')
+add_data(['Red Locust'],
+'Red Locust',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11g2y7c/respect_the_red_locust_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Anti-Superman! (Pre-Crisis DC Comics)', 'https://redd.it/11g3ih1')
+add_data(['Anti-Superman'],
+'Anti-Superman',
+False,
+False,
+[
+    ['Anti-Superman ?\(Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11g3ih1/respect_antisuperman_precrisis_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Count Dragorin of Transilvane (DC, Post Crisis)', 'https://redd.it/11i1s5e')
+add_data(['Dragorin'],
+'Dragorin',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11i1s5e/respect_count_dragorin_of_transilvane_dc_post/
+
+add_data(['Dragorin'],
+'Dragorin',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11i1s5e/respect_count_dragorin_of_transilvane_dc_post/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shriek (DC Animated Universe)', 'https://redd.it/11g86su')
+add_data(['Shriek'],
+'Shriek',
+False,
+False,
+[
+    ['DC Animated Universe'], ['DCAU']
+],
+'DCAU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11g86su/respect_shriek_dc_animated_universe/
+
+########################################
+
+id = get_rt_id(cur, "Respect I.M. Meen (Animation Magic''s I.M. Meen)", 'https://redd.it/11fongd')
+add_data(['I\. ?M\.? Meen'],
+'I.M. Meen',
+False,
+True,
+[
+    ['Animation Magic']
+],
+'Animation Magic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Robin the Frog! (Muppet Monster Adventure)', 'https://redd.it/11frado')
+add_data(['Robin the Frog'],
+'Robin the Frog',
+False,
+False,
+[
+    ['Muppet Monster Adventure']
+],
+'Muppet Monster Adventure',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11frado/respect_robin_the_frog_muppet_monster_adventure/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tony Farms, the Pumaman! (Pumaman)', 'https://redd.it/11frafh')
+add_data(['Pumaman'],
+'Pumaman',
+False,
+True,
+[
+    ['Tony Farms']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11frafh/respect_tony_farms_the_pumaman_pumaman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Choo-Choo Charles (Choo-Choo Charles)', 'https://redd.it/11g2y9f')
+add_data(['Choo(-| )Choo Charles'],
+'Choo-Choo Charles',
+False,
+True,
+[
+    ['game']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11g2y9f/respect_choochoo_charles_choochoo_charles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hugh Glass (The Revenant)', 'https://redd.it/11g2yb8')
+add_data(['Hugh Glass'],
+'Hugh Glass',
+False,
+False,
+[
+    ['The Revenant']
+],
+'The Revenant',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11g2yb8/respect_hugh_glass_the_revenant/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Warrior of Light (Final Fantasy XIV Trailers)', 'https://redd.it/11g74uu')
+add_data(['Warriors? of Light'],
+'Warrior of Light',
+False,
+True,
+[
+    ['Final Fantasy'], ['FF(14|XIV)']
+],
+'Final Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tomoyo Sakagami! (Clannad)', 'https://redd.it/11ge1nk')
+add_data(['Tomoyo Sakagami'],
+'Tomoyo Sakagami',
+False,
+True,
+[
+    ['Clannad']
+],
+'Clannad',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ge1nk/respect_tomoyo_sakagami_clannad/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Titan Pokemon (Pokemon Games)', 'https://redd.it/11h3k4n')
+add_data(['Titan Pok(e|é)m(o|a)n'],
+'Titan Pokémon',
+True,
+True,
+[
+    ['Pok(e|é)m(o|a)n Games']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11h3k4n/respect_the_titan_pokemon_pokemon_games/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-6345, "Huesos Malos/Bad Bones" (SCP Foundation)', 'https://redd.it/11hn8gd')
+add_data(['SCP ?(-| )? ?6345'],
+'SCP-6345',
+False,
+True,
+[
+    ['Huesos Malos|Bad Bones']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11hn8gd/respect_scp6345_huesos_malosbad_bones_scp/
+
+
 
 ########################################
 

@@ -28,6 +28,10 @@ INSERT INTO respectthread (title, link) VALUES ('Respect Jimmy Neutron''s Watch 
 INSERT INTO respectthread (title, link) VALUES ('Respect Jimmy Neutron''s Rockets (The Adventure of Jimmy Neutron, Boy Genius)', 'https://redd.it/11f8skj'); SELECT * FROM respectthread WHERE link='https://redd.it/11f8skj';
 UPDATE character SET rt_id_array='{7602, ?3, ?4}' WHERE rt_id_array='{7602}';
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Colox! (Colox)', 'https://redd.it/zvadxj'); SELECT * FROM respectthread WHERE link='https://redd.it/zvadxj';
+UPDATE character SET rt_id_array='{?5}' WHERE default_name='Colox';
+
+
 ########################################
 
 ########################################
