@@ -14,7 +14,19 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET is_default=TRUE WHERE default_name='Evelyn Wang';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect the Teenage Mutant Ninja Turtles (Mirage Comics)', 'https://redd.it/11dm9tm'); SELECT * FROM respectthread WHERE link='https://redd.it/11dm9tm';
+UPDATE character SET rt_id_array='{?, 23391,23392,23393,23394}' WHERE rt_id_array='{23391,23392,23393,23394}';
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Xeranthemum! (Suggsverse)', 'https://redd.it/11f66qx'); SELECT * FROM respectthread WHERE link='https://redd.it/11f66qx';
+UPDATE character SET rt_id_array='{?2, 5992}' WHERE default_name='Xeranthemum';
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Jimmy Neutron''s Watch (The Adventures of Jimmy Neutron, Boy Genius)', 'https://redd.it/11f8ruz'); SELECT * FROM respectthread WHERE link='https://redd.it/11f8ruz';
+INSERT INTO respectthread (title, link) VALUES ('Respect Jimmy Neutron''s Rockets (The Adventure of Jimmy Neutron, Boy Genius)', 'https://redd.it/11f8skj'); SELECT * FROM respectthread WHERE link='https://redd.it/11f8skj';
+UPDATE character SET rt_id_array='{7602, ?3, ?4}' WHERE rt_id_array='{7602}';
 
 ########################################
 

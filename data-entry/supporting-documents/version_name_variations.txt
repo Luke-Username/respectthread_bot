@@ -3769,6 +3769,12 @@ Xeelee Sequence
 	Displayed Version Name
 		"Xeelee Sequence"
 
+Xenoblade
+	Version
+		['Xenoblade']
+	Displayed Version Name
+		"Xenoblade"
+
 X-Men
 	Version
 		['X(-| )?Men']

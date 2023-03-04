@@ -107,6 +107,336 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5506, 'Respect Shulk (Xenoblade Chronicles)', 'https://redd.it/11efam8')
+update_respectthread(cur, 3895, 'Respect Misogi Kumagawa! (Medaka Box)', 'https://redd.it/11euydv')
+update_respectthread(cur, 7602, 'Respect Jimmy Neutron (The Adventures of Jimmy Neutron, Boy Genius)', 'https://redd.it/11f8q78')
+
+########################################
+
+add_data(['Calamity Trio'],
+'Calamity Trio',
+True,
+True,
+[
+    ['Amphibia']
+],
+'Amphibia',
+'{22017, 22016, 22028}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/11e5lly/the_calamity_trio_amphibia_vs_the_crystal_gems/jacg80d/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Dante Alighieri (EA''s Dante's Inferno)", 'https://redd.it/a5xp34')
+add_data(['Dante'],
+'Dante',
+False,
+False,
+[
+    ["Dante''s Inferno", 'Movie', 'Game']
+],
+"Dante''s Inferno, EA",
+'{' + '{}, 1195'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/a5xp34/respect_dante_alighieri_eas_dantes_inferno/
+#https://www.reddit.com/r/respectthreads/comments/673x9u/respect_dante_alighieri_dantes_inferno_an/
+#https://en.wikipedia.org/wiki/Dante%27s_Inferno:_An_Animated_Epic
+
+########################################
+
+id = get_rt_id(cur, 'Respect Falyce, the Emerald Empress (DC, Pre-Zero Hour)', 'https://redd.it/11dpyfi')
+add_data(['Falyce'],
+'Falyce',
+False,
+True,
+[
+    ['Pre(-| )Zero Hour']
+],
+'Pre-Zero Hour',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11dpyfi/respect_falyce_the_emerald_empress_dc_prezero_hour/
+
+add_data(['Falyce'],
+'Falyce',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11dpyfi/respect_falyce_the_emerald_empress_dc_prezero_hour/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hecate (DC, New 52/Rebirth)', 'https://redd.it/11eohrg')
+add_data(['Hecate'],
+'Hecate',
+False,
+False,
+[
+    ['Goddess of Magic'], ['DC Hecate'], ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'], ['The Presence'], ['Lucifer Morningstar'], ['The Darkest Knight']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11eohrg/respect_hecate_dc_new_52rebirth/
+
+add_data(['Hecate'],
+'Hecate',
+False,
+False,
+[
+    ['New(-| )?52'], ['Nu?-?52'], ['Post(-| )52'], ['Prime(-| )Earth'], ['Rebirth']
+],
+'New 52 / Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11eohrg/respect_hecate_dc_new_52rebirth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Markus Velafi! (Thrilling Intent)', 'https://redd.it/11esxer')
+add_data(['Markus Velafi'],
+'Markus Velafi',
+False,
+True,
+[
+    ['Thrilling Intent']
+],
+'Thrilling Intent',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11esxer/respect_markus_velafi_thrilling_intent/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fiora (Xenoblade Chronicles)', 'https://redd.it/11dxfxn')
+add_data(['Fiora'],
+'Fiora',
+False,
+False,
+[
+    ['Xenoblade']
+],
+'Xenoblade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11dxfxn/respect_fiora_xenoblade_chronicles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Melia (Xenoblade Chronicles)', 'https://redd.it/11e45td')
+add_data(['Melia'],
+'Melia',
+False,
+False,
+[
+    ['Xenoblade']
+],
+'Xenoblade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11e45td/respect_melia_xenoblade_chronicles/
+
+########################################
+
+id = get_rt_id(cur, 'Auggie Smith, The White Dragon (DCEU)', 'https://redd.it/11ehjuz')
+add_data(['White Dragon'],
+'White Dragon',
+False,
+False,
+[
+    ['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe'],
+    ['Peacemaker'], ['Auggie Smith']
+],
+'DCEU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ehjuz/auggie_smith_the_white_dragon_dceu/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Judomaster! (DCEU)', 'https://redd.it/11f547q')
+add_data(['Judomaster'],
+'Judomaster',
+False,
+False,
+[
+    ['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe'],
+    ['Peacemaker']
+],
+'DCEU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yugi Muto (Yu-Gi-Oh! Capsule Monsters)', 'https://redd.it/11ei2fs')
+add_data(['Yugi Muto'],
+'Yugi Muto',
+False,
+False,
+[
+    ['Capsule Monsters']
+],
+'Yu-Gi-Oh! Capsule Monsters',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ei2fs/respect_yugi_muto_yugioh_capsule_monsters/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Joey Wheeler (Yu-Gi-Oh! Capsule Monsters)', 'https://redd.it/11ei2ho')
+add_data(['Joey Wheeler'],
+'Joey Wheeler',
+False,
+False,
+[
+    ['Capsule Monsters']
+],
+'Yu-Gi-Oh! Capsule Monsters',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ei2ho/respect_joey_wheeler_yugioh_capsule_monsters/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yuki Tsukumo! (Jujutsu Kaisen)', 'https://redd.it/11ei8td')
+add_data(['Yuki Tsukumo'],
+'Yuki Tsukumo',
+False,
+True,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ei8td/respect_yuki_tsukumo_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Professor Fig - (Hogwarts Legacy)', 'https://redd.it/11eke4o')
+add_data(['Professor Fig'],
+'Professor Fig',
+False,
+False,
+[
+    ['Hogwarts Legacy']
+],
+'Hogwarts Legacy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11eke4o/respect_professor_fig_hogwarts_legacy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ranrok - (Hogwarts Legacy)', 'https://redd.it/11ekh5a')
+add_data(['Ranrok'],
+'Ranrok',
+False,
+False,
+[
+    ['Hogwarts Legacy']
+],
+'Hogwarts Legacy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ekh5a/respect_ranrok_hogwarts_legacy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Rev-9 (Terminator: Dark Fate)', 'https://redd.it/11eu4ek')
+add_data(['Rev-9'],
+'Rev-9',
+False,
+True,
+[
+    ['Terminator'], ['Dark Fate']
+],
+'Terminator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11eu4ek/respect_the_rev9_terminator_dark_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Splinter (Teenage Mutant Ninja Turtles) [Mirage Comics]', 'https://redd.it/11dm9v2')
+add_data(['Splinter'],
+'Splinter',
+False,
+False,
+[
+    ['Mirage']
+],
+'Mirage Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11dm9v2/respect_splinter_teenage_mutant_ninja_turtles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lityerses! (Heroes of Olympus)', 'https://redd.it/11eurs4')
+add_data(['Lityerses'],
+'Lityerses',
+False,
+True,
+[
+    ['Heroe?s of Olympus'], ['Riordan(-| )?(verse)?']
+],
+'Heroes of Olympus',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shimada Death! (Dai Dark)', 'https://redd.it/11euutv')
+add_data(['Shimada Death'],
+'Shimada Death',
+False,
+True,
+[
+    ['Dai Dark']
+],
+'Dai Dark',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11euutv/respect_shimada_death_dai_dark/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Goddard! (The Adventures of Jimmy Neutron: Boy Genius)', 'https://redd.it/11f8okg')
+add_data(['Goddard'],
+'Goddard',
+False,
+False,
+[
+    ['Jimmy Neutron']
+],
+'Jimmy Neutron',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11f8okg/respect_goddard_the_adventures_of_jimmy_neutron/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The N-Men! (The Adventures of Jimmy Neutron: Boy Genius)', 'https://redd.it/11f8prl')
+add_data(['N-Men'],
+'N-Men',
+True,
+True,
+[
+    ['Jimmy Neutron']
+],
+'Jimmy Neutron',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11f8prl/respect_the_nmen_the_adventures_of_jimmy_neutron/
 
 ########################################
 
