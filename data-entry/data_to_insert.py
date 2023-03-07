@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6477, 'Respect Nahiri, the Lithomancer! (Magic: The Gathering)', 'https://redd.it/11j1old')
+update_respectthread(cur, 4555, 'Respect Medusa Gorgon! (Soul Eater)', 'https://redd.it/11j2dzn')
+
+########################################
+
 add_data(['Anya'],
 'Anya',
 False,
@@ -358,6 +363,121 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/11jwzxi/respect_yugi_muto_yugioh_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lloyd Crayton, Doombreaker (DC, Rebirth)', 'https://redd.it/11j5emv')
+add_data(['Doombreaker'],
+'Doombreaker',
+False,
+False,
+[
+    ['Rebirth']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11j5emv/respect_lloyd_crayton_doombreaker_dc_rebirth/
+
+add_data(['Doombreaker'],
+'Doombreaker',
+False,
+False,
+[
+    ['Lloyd Crayton'], ['DC']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11j5emv/respect_lloyd_crayton_doombreaker_dc_rebirth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rescue (Marvel Comics)', 'https://redd.it/11j9psl')
+add_data(['Rescue'],
+'Rescue',
+False,
+False,
+[
+    ['Rescue ?\(Marvel']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11j9psl/respect_rescue_marvel_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shadow the Hedgehog (Sonic Boom)', 'https://redd.it/11jaxtd')
+add_data(['Shadow the Hedgehog'],
+'Shadow the Hedgehog',
+False,
+False,
+[
+    ['Sonic Boom']
+],
+'Sonic Boom',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11jaxtd/respect_shadow_the_hedgehog_sonic_boom/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Sidekicks (Sky High)', 'https://redd.it/11jsk6h')
+add_data(['Sidekicks'],
+'Sidekicks',
+True,
+False,
+[
+    ['Sky High']
+],
+'Sky High',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11jsk6h/respect_the_sidekicks_sky_high/
+
+add_data(['Sidekick'],
+'Sidekick',
+False,
+False,
+[
+    ['Sky High']
+],
+'Sky High',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11jsk6h/respect_the_sidekicks_sky_high/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Supergirl! (Earth-1098)', 'https://redd.it/11k7nvo')
+add_data(['Super(-| )?girl'],
+'Supergirl',
+False,
+False,
+[
+    ['Sky High']
+],
+'Sky High',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11k7nvo/respect_supergirl_earth1098/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aang! (Cas van de pol)', 'https://redd.it/11ke3xt')
+add_data(['Aang'],
+'Aang',
+False,
+False,
+[
+    ['Cas van de pol']
+],
+'Cas van de pol',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ke3xt/respect_aang_cas_van_de_pol/
 
 ########################################
 
