@@ -107,6 +107,258 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Anya'],
+'Anya',
+False,
+False,
+[
+    ['Spy x Family']
+],
+'Spy x Family',
+'{22142}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/11jhhhg/miri_buddy_daddies_vs_anya_spy_x_family/jb2mifc/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godwynn (Nocturne of the Heaven) [Nijisanji Kamigakari campaign]', 'https://redd.it/11l19bi')
+add_data(['Godwynn'],
+'Godwynn',
+False,
+False,
+[
+    ['Nocturne of the Heaven'], ['NOTH'], ['Kamigakari'], ['Nijisanji']
+],
+'Nocturne of the Heaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11l19bi/respect_godwynn_nocturne_of_the_heaven_nijisanji/
+
+########################################
+
+id = get_rt_id(cur, 'Respect St George, the Mighty Dragon (Ex-Heroes)', 'https://redd.it/11iqamq')
+add_data(['St\.? George'],
+'St. George',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11iqamq/respect_st_george_the_mighty_dragon_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Garfield (The Animation Picture Company trilogy)', 'https://redd.it/11iuf93')
+add_data(['Garfield'],
+'Garfield',
+False,
+False,
+[
+    ['Animation Picture Company']
+],
+'The Animation Picture Company',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11iuf93/respect_garfield_the_animation_picture_company/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Saiko Bichitaru! (SMG4)', 'https://redd.it/11iyoh0')
+add_data(['Saiko Bichitaru'],
+'Saiko Bichitaru',
+False,
+True,
+[
+    ['SMG4'], ['SuperMarioGlitchy4']
+],
+'SMG4 Bloopers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11iyoh0/respect_saiko_bichitaru_smg4/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Billy (Undead Unluck)', 'https://redd.it/11iyuek')
+add_data(['Billy'],
+'Billy',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11iyuek/respect_billy_undead_unluck/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anno Un (Undead Unluck)', 'https://redd.it/11jzt2l')
+add_data(['Anno Un'],
+'Anno Un',
+False,
+True,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11jzt2l/respect_anno_un_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Egyptian God Cards (Yu-Gi-Oh! Anime)', 'https://redd.it/11ia22m')
+add_data(['Egyptian God Cards?'],
+'Egyptian God Cards',
+True,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Egyptian Gods'],
+'Egyptian Gods',
+True,
+False,
+[
+    ['Yu(-| )?Gi(-| )?Oh'], ['Slifer']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ia22m/respect_the_egyptian_god_cards_yugioh_anime/
+
+
+add_data(['Slifer'],
+'Slifer',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ia22m/respect_the_egyptian_god_cards_yugioh_anime/
+
+add_data(['Slifer the Sky Dragon'],
+'Slifer the Sky Dragon',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ia22m/respect_the_egyptian_god_cards_yugioh_anime/
+
+add_data(['Obelisk the Tormentor'],
+'Obelisk the Tormentor',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ia22m/respect_the_egyptian_god_cards_yugioh_anime/
+
+add_data(['Winged Dragon of Ra'],
+'Winged Dragon of Ra',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ia22m/respect_the_egyptian_god_cards_yugioh_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dark Magician Girl (Yu-Gi-Oh! Anime)', 'https://redd.it/11ibzwf')
+add_data(['Dark Magician Girl'],
+'Dark Magician Girl',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ibzwf/respect_dark_magician_girl_yugioh_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dark Magician (Yu-Gi-Oh! Anime)', 'https://redd.it/11jwzzi')
+add_data(['Dark Magician'],
+'Dark Magician',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ibzwf/respect_dark_magician_girl_yugioh_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Magical Hats (Yu-Gi-Oh! Anime)', 'https://redd.it/11icny2')
+add_data(['Magical Hats'],
+'Magical Hats',
+False,
+False,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yugi Muto (Yu-Gi-Oh! Anime)', 'https://redd.it/11jwzxi')
+add_data(['Yugi Muto'],
+'Yugi Muto',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11jwzxi/respect_yugi_muto_yugioh_anime/
+
+add_data(['Yugi'],
+'Yugi',
+False,
+False,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11jwzxi/respect_yugi_muto_yugioh_anime/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

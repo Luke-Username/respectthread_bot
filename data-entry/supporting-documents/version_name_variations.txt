@@ -2438,6 +2438,12 @@ Ninja Sex Party
 	Displayed Version Name
 		"Ninja Sex Party"
 
+Nocturne of the Heaven
+	Version
+		['Nocturne of the Heaven'], ['NOTH'], ['Kamigakari'], ['Nijisanji']
+	Displayed Version Name
+		"Nocturne of the Heaven"
+
 No Game No Life
 	Version
 		'{"No Game No Life"}', '{"NGNL"}'
@@ -3296,7 +3302,9 @@ Super Mario Brothers Super Show!
 
 SuperMarioGlitchy4
 	Version
-		'{"SMG4 Bloopers"}', '{"SuperMarioGlitchy4"}'
+		['SMG4 Bloopers'], ['SuperMarioGlitchy4']
+	Sometimes
+		['SMG4']
 	Displayed Version Name
 		"SMG4 Bloopers"
 
