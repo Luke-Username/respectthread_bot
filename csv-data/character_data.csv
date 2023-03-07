@@ -6499,7 +6499,6 @@ Brimstone,{PC},f,{7599},Post-Crisis
 Brimstone,"{`"Post(-| )?C(risis)?`"}",f,{7599},Post-Crisis
 Brimstone,"{`"New(-| )Earth`"}",f,{7599},Post-Crisis
 Agent Adad,{Ultraman},t,{7600},Ultraman
-Jimmy Neutron,"{`"Jimmy Neutron`"}",t,{7602},Jimmy Neutron
 Vel'Koz,"{`"League of Legends`"}",t,{1139},League of Legends
 Vel'Koz,{LOL},t,{1139},League of Legends
 Casper,"{`"New Casper Cartoon Show`"}",f,{7603},The New Casper Cartoon Show
@@ -6556,6 +6555,7 @@ Samuel Sterns,{616},t,{2145},616
 Metal Master,{Marvel},f,{2146},616
 Metal Master,{616},f,{2146},616
 Missing Link,{Marvel},f,{2148},616
+Jimmy Neutron,"{`"Jimmy Neutron`"}",t,"{7602,23403,23404}",Jimmy Neutron
 Ebony Maw,{comics?},t,{7609},616
 Devil Ray,"{`"DC Animated Universe`"}",t,{7610},DCAU
 Devil Ray,"{`"Animated DC`"}",t,{7610},DCAU
@@ -21684,7 +21684,6 @@ Artemisia,{Suggs(verse)?},f,{5992},Suggsverse
 Catmint,{Suggs(verse)?},f,{5992},Suggsverse
 Golden Strawberry,{Suggs(verse)?},f,{5992},Suggsverse
 Physalis,{Suggs(verse)?},f,{5992},Suggsverse
-Xeranthemum,{Suggs(verse)?},f,{5992},Suggsverse
 Zephyranth,{Suggs(verse)?},f,{5992},Suggsverse
 Administrator,"{`"Sword Art Online`"}",f,{5993},Sword Art Online
 Administrator,{SAO},f,{5993},Sword Art Online
@@ -27706,7 +27705,6 @@ Who's-Who,"{`"One ?Piece?`"}",f,{22367},One Piece
 Deirdre Beaubeirdra,"{`"Everything Everywhere All At Once`"}",t,{22368},Everything Everywhere All At Once
 Jobu Tupaki,"{`"Everything Everywhere All At Once`"}",t,{22369},Everything Everywhere All At Once
 Waymond Wang,"{`"Everything Everywhere All At Once`"}",t,{22370},Everything Everywhere All At Once
-Evelyn Wang,"{`"Everything Everywhere All At Once`"}",f,{22371},Everything Everywhere All At Once
 Crocodile,"{`"Resident Evil`",Netflix}",f,{22372},Resident Evil Netflix
 Bert Wesker,"{`"Resident Evil`",Netflix}",f,{22373},Resident Evil Netflix
 Marcus Holloway,"{`"Watch(_| )?Dogs_?2?`"}",t,{22374},Watch_Dogs
@@ -28810,8 +28808,6 @@ San Niko,"{`"Santa Claus Academia`"}",f,{23127},Santa Claus Academia
 Klaus,"{Santa,`"vs\\.? Klaus`"}",f,{14542},2019
 Santa,"{`"Violent Night`"}",f,{23128},Violent Night
 Scrapeface,"{`"Madness Combat`"}",f,{23129},Madness Combat
-Colox,"{`"Colox ?\\(Colox`"}",f,{23129},""
-Colox,{Indonesian?},f,{23129},""
 Black Hot,{Villainous},f,{23130},Villainous
 Black Hot,{Markiplier},f,{23130},Villainous
 Sully,"{`"Monster'?s,? Inc`"}",f,{6653},"Monsters, Inc."
@@ -28844,6 +28840,8 @@ War Doctor,{Who(ni)?verse},f,{23158},Doctor Who
 The Sixth Doctor,"{`"Sonic Screwdriver`"}",t,{23159},Doctor Who
 The Sixth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{23159},Doctor Who
 The Sixth Doctor,{Who(ni)?verse},t,{23159},Doctor Who
+Colox,"{`"Colox ?\\(Colox`"}",f,{23405},""
+Colox,{Indonesian?},f,{23405},""
 Jock,"{`"Jock ?\\(Nerd and Jock`"}",f,{23160},Nerd and Jock
 Iron Man,"{`"God(-| )?buster`"}",f,{23161},Godbuster
 Thor,{Mangaverse},f,{23162},2301
@@ -29304,7 +29302,6 @@ Leonardo,"{`"Mirage (Comics|Studios)`"}",f,{23391},Mirage Comics
 Raphael,"{`"Mirage (Comics|Studios)`"}",f,{23392},Mirage Comics
 Donatello,"{`"Mirage (Comics|Studios)`"}",f,{23393},Mirage Comics
 Michelangelo,"{`"Mirage (Comics|Studios)`"}",f,{23394},Mirage Comics
-Teenage Mutant Ninja Turtles,{Mirage},f,"{23391,23392,23393,23394}",Mirage Comics
 Koraidon,{Pok(e|é)m(o|a)n},t,{23395},Pokémon
 Miraidon,{Pok(e|é)m(o|a)n},t,{23395},Pokémon
 Rogue,"{`"X(-| )?Men:? The Animated Series`"}",f,{23396},"X-Men, 1992"
@@ -29316,3 +29313,103 @@ Timaeus,{Yugis?},f,{23398},Yu-Gi-Oh!
 Luka,{Bayonetta},f,{23399},Bayonetta
 Luka,"{`"Luka Redgrave`"}",f,{23399},Bayonetta
 SCP ?(-| )? ?343,{God},t,{23400},""
+Evelyn Wang,"{`"Everything Everywhere All At Once`"}",t,{22371},Everything Everywhere All At Once
+Teenage Mutant Ninja Turtles,{Mirage},f,"{23401,23391,23392,23393,23394}",Mirage Comics
+Xeranthemum,{Suggs(verse)?},f,"{23402,5992}",Suggsverse
+Calamity Trio,{Amphibia},t,"{22017,22016,22028}",Amphibia
+Dante,"{`"Dante's Inferno`",Movie,Game}",f,"{23406,1195}","Dante's Inferno, EA"
+Falyce,"{`"Pre(-| )Zero Hour`"}",t,{23407},Pre-Zero Hour
+Falyce,"{`"\\(DC( Comics)?\\)`"}",t,{23407},DC
+Falyce,"{`"\\[DC( Comics)?\\]`"}",t,{23407},DC
+Hecate,"{`"Goddess of Magic`"}",f,{23408},DC
+Hecate,"{`"DC Hecate`"}",f,{23408},DC
+Hecate,"{`"\\(DC( Comics)?\\)`"}",f,{23408},DC
+Hecate,"{`"\\[DC( Comics)?\\]`"}",f,{23408},DC
+Hecate,"{`"The Presence`"}",f,{23408},DC
+Hecate,"{`"Lucifer Morningstar`"}",f,{23408},DC
+Hecate,"{`"The Darkest Knight`"}",f,{23408},DC
+Hecate,"{`"New(-| )?52`"}",f,{23408},New 52 / Rebirth
+Hecate,{Nu?-?52},f,{23408},New 52 / Rebirth
+Hecate,"{`"Post(-| )52`"}",f,{23408},New 52 / Rebirth
+Hecate,"{`"Prime(-| )Earth`"}",f,{23408},New 52 / Rebirth
+Hecate,{Rebirth},f,{23408},New 52 / Rebirth
+Markus Velafi,"{`"Thrilling Intent`"}",t,{23409},Thrilling Intent
+Fiora,{Xenoblade},f,{23410},Xenoblade
+Melia,{Xenoblade},f,{23411},Xenoblade
+White Dragon,"{`"DC Extended Universe`"}",f,{23412},DCEU
+White Dragon,"{`"DC ?(E|C)U`"}",f,{23412},DCEU
+White Dragon,"{`"DC Cinematic Universe`"}",f,{23412},DCEU
+White Dragon,{Peacemaker},f,{23412},DCEU
+White Dragon,"{`"Auggie Smith`"}",f,{23412},DCEU
+Charlie the Gorilla,"{`"DC Extended Universe`"}",t,{23413},DCEU
+Charlie the Gorilla,"{`"DC ?(E|C)U`"}",t,{23413},DCEU
+Charlie the Gorilla,"{`"DC Cinematic Universe`"}",t,{23413},DCEU
+Charlie the Gorilla,{Peacemaker},t,{23413},DCEU
+Judomaster,"{`"DC Extended Universe`"}",f,{23414},DCEU
+Judomaster,"{`"DC ?(E|C)U`"}",f,{23414},DCEU
+Judomaster,"{`"DC Cinematic Universe`"}",f,{23414},DCEU
+Judomaster,{Peacemaker},f,{23414},DCEU
+Yugi Muto,"{`"Capsule Monsters`"}",f,{23415},Yu-Gi-Oh! Capsule Monsters
+Joey Wheeler,"{`"Capsule Monsters`"}",f,{23416},Yu-Gi-Oh! Capsule Monsters
+Yuki Tsukumo,"{`"Jujus?t?s?u Kaisen`"}",t,{23417},Jujutsu Kaisen
+Yuki Tsukumo,{JJK},t,{23417},Jujutsu Kaisen
+Professor Fig,"{`"Hogwarts Legacy`"}",f,{23418},Hogwarts Legacy
+Ranrok,"{`"Hogwarts Legacy`"}",f,{23419},Hogwarts Legacy
+Rev-9,{Terminator},t,{23420},Terminator
+Rev-9,"{`"Dark Fate`"}",t,{23420},Terminator
+Splinter,{Mirage},f,{23421},Mirage Comics
+Lityerses,"{`"Heroe?s of Olympus`"}",t,{23422},Heroes of Olympus
+Lityerses,"{`"Riordan(-| )?(verse)?`"}",t,{23422},Heroes of Olympus
+Shimada Death,"{`"Dai Dark`"}",t,{23423},Dai Dark
+Goddard,"{`"Jimmy Neutron`"}",f,{23424},Jimmy Neutron
+N-Men,"{`"Jimmy Neutron`"}",t,{23425},Jimmy Neutron
+Red Locust,{616},f,{23426},616
+Anti-Superman,"{`"Anti-Superman ?\\(Pre(-| )?Crisis`"}",f,{23427},Pre-Crisis
+Dragorin,{PC},f,{23428},Post-Crisis
+Dragorin,"{`"Posts?(-| )?C(risis)?`"}",f,{23428},Post-Crisis
+Dragorin,"{`"New(-| )Earth`"}",f,{23428},Post-Crisis
+Dragorin,"{`"\\(DC( Comics)?\\)`"}",f,{23428},DC
+Dragorin,"{`"\\[DC( Comics)?\\]`"}",f,{23428},DC
+Shriek,"{`"DC Animated Universe`"}",f,{23429},DCAU
+Shriek,{DCAU},f,{23429},DCAU
+I.M. Meen,"{`"Animation Magic`"}",t,{23430},Animation Magic
+Robin the Frog,"{`"Muppet Monster Adventure`"}",f,{23431},Muppet Monster Adventure
+Pumaman,"{`"Tony Farms`"}",t,{23432},""
+Choo-Choo Charles,{game},t,{23433},""
+Hugh Glass,"{`"The Revenant`"}",f,{23434},The Revenant
+Warrior of Light,"{`"Final Fantasy`"}",t,{23435},Final Fantasy
+Warrior of Light,{FF(14|XIV)},t,{23435},Final Fantasy
+Tomoyo Sakagami,{Clannad},t,{23436},Clannad
+Titan Pokémon,"{`"Pok(e|é)m(o|a)n Games`"}",t,{23437},""
+SCP-6345,"{`"Huesos Malos|Bad Bones`"}",t,{23438},""
+Anya,"{`"Spy x Family`"}",f,{22142},Spy x Family
+Godwynn,"{`"Nocturne of the Heaven`"}",f,{23439},Nocturne of the Heaven
+Godwynn,{NOTH},f,{23439},Nocturne of the Heaven
+Godwynn,{Kamigakari},f,{23439},Nocturne of the Heaven
+Godwynn,{Nijisanji},f,{23439},Nocturne of the Heaven
+St. George,"{`"Ex(-| )Heroes`"}",f,{23440},Ex-Heroes
+Garfield,"{`"Animation Picture Company`"}",f,{23441},The Animation Picture Company
+Saiko Bichitaru,{SMG4},t,{23442},SMG4 Bloopers
+Saiko Bichitaru,{SuperMarioGlitchy4},t,{23442},SMG4 Bloopers
+Billy,"{`"Undead Unluck`"}",f,{23443},Undead Unluck
+Anno Un,"{`"Undead Unluck`"}",t,{23444},Undead Unluck
+Egyptian God Cards,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23445},Yu-Gi-Oh!
+Egyptian Gods,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23445},Yu-Gi-Oh!
+Egyptian Gods,{Slifer},f,{23445},Yu-Gi-Oh!
+Slifer,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23445},Yu-Gi-Oh!
+Slifer the Sky Dragon,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23445},Yu-Gi-Oh!
+Obelisk the Tormentor,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23445},Yu-Gi-Oh!
+Winged Dragon of Ra,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23445},Yu-Gi-Oh!
+Dark Magician Girl,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23446},Yu-Gi-Oh!
+Magical Hats,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23448},Yu-Gi-Oh!
+Yugi Muto,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23449},Yu-Gi-Oh!
+Yugi,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23449},Yu-Gi-Oh!
+Doombreaker,{Rebirth},f,{23450},Rebirth
+Doombreaker,"{`"Lloyd Crayton`"}",f,{23450},Rebirth
+Doombreaker,{DC},f,{23450},Rebirth
+Rescue,"{`"Rescue ?\\(Marvel`"}",f,{23451},Marvel
+Shadow the Hedgehog,"{`"Sonic Boom`"}",f,{23452},Sonic Boom
+Sidekicks,"{`"Sky High`"}",f,{23453},Sky High
+Sidekick,"{`"Sky High`"}",f,{23453},Sky High
+Supergirl,"{`"Sky High`"}",f,{23454},Sky High
+Aang,"{`"Cas van de pol`"}",f,{23455},Cas van de pol
