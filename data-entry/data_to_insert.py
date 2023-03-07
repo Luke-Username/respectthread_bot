@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Mr Krabs (Death by Krab Borg)', 'https://redd.it/11l6ffx')
+add_data(['M(iste)?r\.? Krabs?'],
+'Mr. Krabs',
+False,
+False,
+[
+    ['Death by Krab Borg']
+],
+'Death by Krab Borg',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11l6ffx/respect_mr_krabs_death_by_krab_borg/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
