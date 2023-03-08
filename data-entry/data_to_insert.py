@@ -122,6 +122,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Suicune (Pokemon Adventures)', 'https://redd.it/11le7ly')
+add_data(['Suicune'],
+'Suicune',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11le7ly/respect_suicune_pokemon_adventures/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
