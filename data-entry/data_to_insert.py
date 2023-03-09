@@ -186,6 +186,63 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Sillydillo! (Kirby and the Forgotten Land)', 'https://redd.it/11mgzan')
+add_data(['Sillydillo'],
+'Sillydillo',
+False,
+True,
+[
+    ['Kirby']
+],
+'Kirby',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11mgzan/respect_sillydillo_kirby_and_the_forgotten_land/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Seto Kaiba (Yu-Gi-Oh! Anime)', 'https://redd.it/11mpbwf')
+add_data(['Kaiba'],
+'Kaiba',
+False,
+True,
+[
+    ['Seto'], ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11mpbwf/respect_seto_kaiba_yugioh_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Blue-Eyes White Dragon (Yu-Gi-Oh! Anime)', 'https://redd.it/11mpbxg')
+add_data(['Blue(-| )Eyes White Dragon'],
+'Blue-Eyes White Dragon',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11mpbxg/respect_the_blueeyes_white_dragon_yugioh_anime/
+
+add_data(['Blue(-| )Eyes'],
+'Blue-Eyes',
+False,
+False,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11mpbxg/respect_the_blueeyes_white_dragon_yugioh_anime/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
