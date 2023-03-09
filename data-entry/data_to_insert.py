@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 3896, 'Respect Medaka Kurokami! (Medaka Box)', 'https://redd.it/11lzs1l')
+update_respectthread(cur, 9251, 'Respect Gina Chamber (Undead Unluck)', 'https://redd.it/11n3a91')
 
 ########################################
 
