@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3896, 'Respect Medaka Kurokami! (Medaka Box)', 'https://redd.it/11lzs1l')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Mr Krabs (Death by Krab Borg)', 'https://redd.it/11l6ffx')
 add_data(['M(iste)?r\.? Krabs?'],
 'Mr. Krabs',
@@ -134,6 +138,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/11le7ly/respect_suicune_pokemon_adventures/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pop Step (My Hero Academia)', 'https://redd.it/11m1l5v')
+add_data(['Pop Step'],
+'Pop Step',
+False,
+True,
+[
+    ['My Hero Academia'], ['(M|BN?)HA']
+],
+'My Hero Academia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11m1l5v/respect_pop_step_my_hero_academia/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Number Six (My Hero Academia)', 'https://redd.it/11m28pc')
+add_data(['Number Six'],
+'Number Six',
+False,
+False,
+[
+    ['My Hero Academia'], ['(M|BN?)HA']
+],
+'My Hero Academia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11m28pc/respect_number_six_my_hero_academia/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kento Nanami! (Jujutsu Kaisen)', 'https://redd.it/11m8o9i')
+add_data(['Nanami'],
+'Nanami',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK'], ['Kento']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11m8o9i/respect_kento_nanami_jujutsu_kaisen/
 
 ########################################
 
