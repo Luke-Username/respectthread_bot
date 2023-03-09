@@ -16,6 +16,8 @@ UPDATE character_name SET name='' WHERE...
 
 DELETE FROM character WHERE default_name='Vision' AND version='{"movie"}';
 DELETE FROM character WHERE default_name='Vision' AND version='{"movies"}';
+DELETE FROM character WHERE rt_id_array='{5669}';
+DELETE FROM respectthread WHERE id=5669;
 
 ########################################
 
