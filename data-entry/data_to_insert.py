@@ -107,6 +107,68 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3892, "Respect Ajimu Najimi, Anshin''in-san! (Medaka Box)", 'https://redd.it/11nmre2')
+
+########################################
+
+add_data(['White ?beard'],
+'Whitebeard',
+False,
+False,
+[
+    ['Kaido']
+],
+'One Piece',
+'{4089}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/11na0wn/dio_vs_whitebeard/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Caleb (Blood)', 'https://redd.it/11nal83')
+add_data(['Caleb'],
+'Caleb',
+False,
+False,
+[
+    ['Blood']
+],
+'Blood',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11nal83/respect_caleb_blood/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tot Musica (One Piece)', 'https://redd.it/11nc4ve')
+add_data(['Tot Musica'],
+'Tot Musica',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11nc4ve/respect_tot_musica_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect General Yunan! (Amphibia)', 'https://redd.it/11njy95')
+add_data(['Yunan'],
+'Yunan',
+False,
+False,
+[
+    ['Amphibia']
+],
+'Amphibia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11njy95/respect_general_yunan_amphibia/
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
