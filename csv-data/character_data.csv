@@ -1402,8 +1402,6 @@ Scarlet Witch,{AOU},f,{270},MCU
 Vision,"{`"Marvel Cinematic Universe`"}",f,{268},MCU
 Vision,{MCU},f,{268},MCU
 Vision,{199999},f,{268},MCU
-Vision,{movie},f,{268},MCU
-Vision,{movies},f,{268},MCU
 Vision,"{`"Age of Ultron`"}",f,{268},MCU
 Vision,{AOU},f,{268},MCU
 Falcon,"{`"Marvel Cinematic Universe`"}",f,{242},MCU
@@ -18752,8 +18750,8 @@ Noibat,{Pok(e|é)mon},t,{4151},Pokémon
 Oshawott,{Pok(e|é)mon},t,{4152},Pokémon
 Palpitoad,{Pok(e|é)mon},t,{4153},Pokémon
 Pidgeotto,{Pok(e|é)mon},t,{4154},Pokémon
-Impostor,"{`"Among (U|i)s`"}",f,{13514},Among Us
 Scarecrow,{616},f,{13517},616
+Impostor,"{`"Among (U|i)s`"}",f,"{13514,23456}",Among Us
 Pignite,{Pok(e|é)mon},t,{4155},Pokémon
 Tepig,{Pok(e|é)mon},t,{4155},Pokémon
 Primeape,{Pok(e|é)mon},t,{4167},Pokémon
@@ -20164,7 +20162,6 @@ Chris Walker,{Outlast},t,{5665},Outlast
 Pac-Man,{default},t,{5666},""
 Ash,{Paladins},f,{5667},Paladins
 Terminus,{Paladins},f,{5668},Paladins
-Payday Gang,{default},t,{5669},""
 PlayStation All-Stars,{default},t,{5673},""
 Polaris Snocross,{default},t,{5675},""
 Aperture Science,{Portal},t,{5676},Portal
@@ -29413,3 +29410,18 @@ Sidekicks,"{`"Sky High`"}",f,{23453},Sky High
 Sidekick,"{`"Sky High`"}",f,{23453},Sky High
 Supergirl,"{`"Sky High`"}",f,{23454},Sky High
 Aang,"{`"Cas van de pol`"}",f,{23455},Cas van de pol
+Mr. Krabs,"{`"Death by Krab Borg`"}",f,{23457},Death by Krab Borg
+Suicune,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{23458},Pokémon Adventures
+Pop Step,"{`"My Hero Academia`"}",t,{23459},My Hero Academia
+Pop Step,{(M|BN?)HA},t,{23459},My Hero Academia
+Number Six,"{`"My Hero Academia`"}",f,{23460},My Hero Academia
+Number Six,{(M|BN?)HA},f,{23460},My Hero Academia
+Nanami,"{`"Jujus?t?s?u Kaisen`"}",f,{23461},Jujutsu Kaisen
+Nanami,{JJK},f,{23461},Jujutsu Kaisen
+Nanami,{Kento},f,{23461},Jujutsu Kaisen
+Sillydillo,{Kirby},t,{23462},Kirby
+Kaiba,{Seto},t,{23463},Yu-Gi-Oh!
+Kaiba,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23463},Yu-Gi-Oh!
+Blue-Eyes White Dragon,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23464},Yu-Gi-Oh!
+Blue-Eyes,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23464},Yu-Gi-Oh!
+Rallen,{Spectrobes},f,{23465},Spectrobes
