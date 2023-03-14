@@ -3734,8 +3734,6 @@ id,title,link
 3889,Respect Jack (MÄR),https://redd.it/6u4p0u
 3890,Respect Nanashi (MÄR),https://redd.it/6to6r6
 3891,Respect Snow (MÄR),https://redd.it/6thkxr
-3892,Respect Ajimu Najimi (Medaka Box),https://redd.it/6c6lbu
-3893,"Respect The Irreversible Destructor, Iihiko Shishime (Medaka Box)",https://redd.it/6ox1l6
 3894,Respect Kakegae Yuzuriha (Medaka Box),https://redd.it/6bag3u
 3897,"Respect Nekomi Nabeshima, the Foul King (Medaka Box)",https://redd.it/8jlv94
 3899,Respect Kanna Kamui (Miss Kobayashi's Dragon Maid Anime),https://redd.it/7c20dp
@@ -3781,7 +3779,9 @@ id,title,link
 3946,Respect Haku (Naruto),https://redd.it/63jnij
 3947,Respect Hashirama Senju,https://redd.it/2gqi8v
 3949,"Respect Hinata Hyuga, the Byakugan Princess! (Naruto)",https://redd.it/649da6
+3892,"Respect Ajimu Najimi, Anshin'in-san! (Medaka Box)",https://redd.it/11nmre2
 3918,Respect Captain Celebrity! (My Hero Academia Vigilantes),https://redd.it/fj98hg
+3893,Respect Iihiko Shishime! (Medaka Box),https://redd.it/11ojx4t
 3948,Respect Hidan! (Naruto) [Composite],https://redd.it/m3y165
 3938,Respect Tsuyu Asui (My Hero Academia),https://redd.it/mf5x1w
 3900,[NSFW] Respect Quetzalcoatl! (Miss Kobayashi's Dragon Maid),https://redd.it/mmgfq2
@@ -5376,8 +5376,6 @@ id,title,link
 5602,Respect Gene! (God Hand),https://redd.it/5w5l1b
 5603,"Respect Isaac, the Golden Venus Adept! (Golden Sun Series)",https://redd.it/4mwr2j
 5605,Respect Trevor Phillips (GTA V),https://redd.it/3drn1d
-5606,Respect Kat (Gravity Rush),https://redd.it/362yh1
-5607,Respect Raven (Gravity Rush),https://redd.it/73czil
 5613,Respect Jacket! (Hotline Miami),https://redd.it/pdzjg9
 5609,Respect Sol Badguy (Guilty Gear Franchise),https://redd.it/b11tuj
 5610,Respect Henry Stickmin (Henry Stickmin),https://redd.it/9gohun
@@ -5399,6 +5397,8 @@ id,title,link
 5547,Respect the Protagonist! (CarnEvil),https://redd.it/nolru5
 5550,Respect Part of Me/Badeline (Celeste),https://redd.it/vl35l5
 5571,Respect Adam Jensen (Deus Ex),https://redd.it/voc9j9
+5606,Respect Kat (Gravity Rush),https://redd.it/11pf3cm
+5607,Respect Raven (Gravity Rush),https://redd.it/11pf44b
 5626,Respect Starfy! (The Legendary Starfy),https://redd.it/74s4nd
 5627,Respect Carnom (LEGO Marvel),https://redd.it/ca7kz7
 5628,Respect Stan Lee! (LEGO Marvel),https://redd.it/b27ntj
@@ -8731,7 +8731,6 @@ id,title,link
 12406,Respect Ishigami Senku! (Dr. Stone),https://redd.it/cyyhay
 12407,Respect Tsukasa Shishio! (Dr. Stone),https://redd.it/cyg8dc
 12408,[NSFW] Respect En! (Dorohedoro),https://redd.it/cft99f
-12409,[NSFW] Respect Noi! (Dorohedoro),https://redd.it/cfs6hb
 12410,[NSFW] Respect Shin! (Dorohedoro),https://redd.it/cfs6a2
 12411,Devilman (OVA) Respect Thread,https://redd.it/dncqum
 12412,Respect the Gungeoneers (Enter the Gungeon),https://redd.it/he57kh
@@ -8786,6 +8785,7 @@ id,title,link
 12461,Respect Alex Mason (Call of Duty: Black Ops Series),https://redd.it/hkufzk
 12462,Respect Frank Woods (Call of Duty: Black Ops Series),https://redd.it/hkujco
 12463,Respect Solomon Kane (Solomon Kane),https://redd.it/hkvhnh
+12409,(NSFW) Respect Noi (Dorohedoro),https://redd.it/11qb4gf
 12465,Respect Charlotte Perospero (One Piece),https://redd.it/hi4et6
 12466,"Respect Capone `"Gang`" Bege and the Fire Tank Pirates (One Piece)",https://redd.it/hkl2vo
 12467,Respect The Predator (Archie vs The Predator),https://redd.it/hqbswv
@@ -12204,3 +12204,20 @@ id,title,link
 23463,Respect Seto Kaiba (Yu-Gi-Oh! Anime),https://redd.it/11mpbwf
 23464,Respect the Blue-Eyes White Dragon (Yu-Gi-Oh! Anime),https://redd.it/11mpbxg
 23465,Respect Rallen (Spectrobes),https://redd.it/11mt2ol
+23466,Isaac and Night Creatures (Castlevania Netflix) Respect Thread,https://comicvine.gamespot.com/forums/gen-discussion-1/isaac-and-night-creatures-castlevania-netflix-resp-2241847/
+23484,Respect Caleb (Blood),https://redd.it/11nal83
+23485,Respect Tot Musica (One Piece),https://redd.it/11nc4ve
+23486,Respect General Yunan! (Amphibia),https://redd.it/11njy95
+23487,Respect Odin Borson (Marvel: Earth-616),https://redd.it/edec8v
+23488,Respect Lance Sterling (Spies In Disguise),https://redd.it/11o3b4d
+23489,"Respect Eddie Blake, The Comedian! (Watchmen 2009)",https://redd.it/11o3lpd
+23490,Respect Koga Itami! (Medaka Box),https://redd.it/11pi3nj
+23491,Respect Duke Devlin (Yu-Gi-Oh! Anime),https://redd.it/11okc40
+23492,"Respect Zack Thompson, Tech Jacket (Image Comics)",https://redd.it/11okfnj
+23493,Respect Hal Jordan (Green Lantern: First Flight),https://redd.it/11omnoc
+23494,Respect Uta (One Piece),https://redd.it/11ougda
+23495,Respect Salazzle (Pokemon Anime),https://redd.it/11oz7q6
+23496,Respect The Hammer! (Regular Show),https://redd.it/11ozriv
+23497,Respect N.N.! (Nyaight of the Living Cat),https://redd.it/11p4aiz
+23498,Respect Blizzard! (Primal Rage),https://redd.it/11ppe8f
+23499,Respect Mala Mala Jong! (Xiaolin Showdown),https://redd.it/11q94gl

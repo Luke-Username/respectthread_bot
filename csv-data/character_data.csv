@@ -3895,8 +3895,6 @@ Hiccup,{DreamWorks},f,{6572},How to Train Your Dragon
 Hiccup,{Toothless},f,{6572},How to Train Your Dragon
 Hector,{Castlevania},f,{6573},Netflix's Castlevania
 Hector,{Netflix},f,{6573},Netflix's Castlevania
-Isaac,{Castlevania},f,{6574},Netflix's Castlevania
-Isaac,{Netflix},f,{6574},Netflix's Castlevania
 Slippery Shark,"{`"Power Rangers?`"}",t,{6575},Power Rangers
 Dash,{Incredibles},f,{6576},The Incredibles
 Dash Parr,{Incredibles},t,{6576},The Incredibles
@@ -3907,6 +3905,7 @@ Gary,"{`"Final Space`"}",f,{6579},Final Space
 Mooncake,"{`"Final Space`"}",f,{6579},Final Space
 Slenderman,"{`"One Minute Melee`"}",f,{6580},One Minute Melee
 Slenderman,{OMM},f,{6580},One Minute Melee
+Isaac,{Castlevania},f,"{6574,23466}",Netflix's Castlevania
 Jack Skellington,"{`"Nightmare Before Christmas`"}",t,{6581},The Nightmare Before Christmas
 Undergrowth,"{`"Danny Phantom`"}",f,{6582},Danny Phantom
 Pariah Dark,"{`"Danny Phantom`"}",t,{6583},Danny Phantom
@@ -6635,7 +6634,6 @@ Martian Manhunter,{Rebirth},f,{1731},New 52
 Martian Manhunter,"{`"DC( Comics)?`"}",t,"{1731,1730}",DC
 Miss Martian,"{`"(DC( Comics)?)`"}",t,{1732},DC
 White Martians,{DC},t,{1733},DC
-Darkseid,{DC},t,"{1735,1734}",DC
 Darkseid,"{`"New(-| )?52`"}",f,{1735},New 52
 Darkseid,{Nu?-?52},f,{1735},New 52
 Darkseid,"{`"Post(-| )52`"}",f,{1735},New 52
@@ -6691,6 +6689,7 @@ Kalibak,{Rebirth},f,{21554},New 52
 Highfather,"{`"(DC( Comics)?)`"}",t,"{22438,1736}",DC
 Highfather,{Darkseid},t,"{22438,1736}",DC
 Highfather,{Izaya},t,"{22438,1736}",DC
+Darkseid,{DC},t,"{1735,15422,17387,1734}",DC
 Nathaniel Angel,"{`"Huynh Phu Dat`"}",t,{7623},Huynh Phu Dat
 Yoda,{LEGO},f,{7624},LEGO Star Wars
 IG-11,"{`"Star Wars`"}",t,{7625},Star Wars
@@ -28534,7 +28533,6 @@ Rogal Dorn,{(WH)?40K},t,{22918},Warhammer 40k
 Rogal Dorn,{Warhammer},t,{22918},Warhammer 40k
 Terry,"{`"Terry ?\\(SlicK`"}",f,{22919},SlicK
 Doctor Bob Doom,{616},t,{22920},616
-Odin Borson,{616},t,{22921},616
 Abominatrix,{616},t,{22922},616
 Bloody Mary,"{`"Sting of Death`"}",f,{22923},The Sting of Death
 Dragon,"{`"Dragon from Worm`"}",f,{6072},Worm
@@ -28572,6 +28570,7 @@ Terra,"{`"Mega ?Man`"}",f,{22973},Mega Man
 Sunstar,"{`"Mega ?Man`"}",f,{22974},Mega Man
 Riot,"{`"Riot ?\\(Sonys?`"}",f,{22975},Sony
 Riot,"{Carnage,`"\\(Sony\\)`"}",f,{22975},Sony
+Odin Borson,{616},f,{22921},616
 Carnage,"{`"Carnage ?\\(Sonys?`"}",f,{22976},Sony
 Carnage,"{Riot,`"\\(Sony\\)`"}",f,{22976},Sony
 Carnage,"{`"Let There Be Carnage`"}",f,{22976},Sony
@@ -29425,3 +29424,26 @@ Kaiba,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23463},Yu-Gi-Oh!
 Blue-Eyes White Dragon,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23464},Yu-Gi-Oh!
 Blue-Eyes,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23464},Yu-Gi-Oh!
 Rallen,{Spectrobes},f,{23465},Spectrobes
+Isaac,{Netflix},f,"{6574,23466}",Netflix's Castlevania
+Whitebeard,{Kaido},f,{4089},One Piece
+Wolverine,"{`"\\(Animal\\)`"}",f,{},Animal
+Zeus,"{`"Zeus, DC`"}",f,{17373},DC
+Caleb,{Blood},f,{23484},Blood
+Tot Musica,"{`"One ?Piece?`"}",t,{23485},One Piece
+Yunan,{Amphibia},f,{23486},Amphibia
+Odin,{Marvel},f,{23487},616
+Odin,{616},f,{23487},616
+Lance Sterling,"{`"Spies In Disguise`"}",t,{23488},Spies In Disguise
+Comedian,"{Watchmen,2009}",f,{23489},"Watchmen, 2009"
+Koga Itami,{Medd?aka},t,{23490},Medaka Box
+Duke Devlin,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23491},Yu-Gi-Oh!
+Tech Jacket,"{`"Image Comics`"}",t,{23492},Image Comics
+Tech Jacket,{Invincible},t,{23492},Image Comics
+Hal Jordan,"{`"First Flight`"}",f,{23493},Green Lantern: First Flight
+Max Cady,{1991},f,{23493},"Cape Fear, 1991"
+Uta,"{`"One ?Piece?`"}",f,{23494},One Piece
+Salazzle,{Pok(e|é)m(o|a)n},t,{23495},Pokémon
+The Hammer,"{`"Regular Show`"}",f,{23496},Regular Show
+N.N.,"{`"Nyaight of the Living Cat`"}",f,{23497},Nyaight of the Living Cat
+Blizzard,"{`"Primal Rage`"}",f,{23498},Primal Rage
+Mala Mala Jong,"{`"Xiaolin Showdown`"}",t,{23499},Xiaolin Showdown

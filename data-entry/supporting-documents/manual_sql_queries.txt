@@ -14,20 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{1735,15422,17387,1734}' WHERE rt_id_array='{1735,1734}';
+########################################
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Garou', 'Garou werewolf Elders', 0);
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Isaac and Night Creatures (Castlevania Netflix) Respect Thread', 'https://comicvine.gamespot.com/forums/gen-discussion-1/isaac-and-night-creatures-castlevania-netflix-resp-2241847/'); SELECT * FROM respectthread WHERE link='https://comicvine.gamespot.com/forums/gen-discussion-1/isaac-and-night-creatures-castlevania-netflix-resp-2241847/';
-UPDATE character SET rt_id_array='{6574, ?}' WHERE rt_id_array='{6574}';
-
-########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Odin Borson';
 
 ########################################
 
