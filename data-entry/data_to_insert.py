@@ -372,6 +372,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Canaan! (CANAAN)', 'https://redd.it/11tdjrm')
+add_data(['Canaan'],
+'Canaan',
+False,
+False,
+[
+    ['Canaan ?\(CANAAN\)']
+],
+'CANAAN',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11tdjrm/respect_canaan_canaan/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
