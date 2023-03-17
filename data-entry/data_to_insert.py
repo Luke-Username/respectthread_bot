@@ -387,6 +387,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Sae, ordinary orphanage caretaker (Nocturne of the Heaven) [Nijisanji Kamigakari campaign]', 'https://redd.it/11teimd')
+add_data(['Sae'],
+'Sae',
+False,
+False,
+[
+    ['Nocturne of the Heaven'], ['NOTH'], ['Kamigakari'], ['Nijisanji'], ['Yukimura']
+],
+'Nocturne of the Heaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11teimd/respect_sae_ordinary_orphanage_caretaker_nocturne/?
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
