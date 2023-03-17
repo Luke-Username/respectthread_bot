@@ -111,6 +111,7 @@ update_respectthread(cur, 3892, "Respect Ajimu Najimi, Anshin''in-san! (Medaka B
 update_respectthread(cur, 5606, 'Respect Kat (Gravity Rush)', 'https://redd.it/11pf3cm')
 update_respectthread(cur, 5607, 'Respect Raven (Gravity Rush)', 'https://redd.it/11pf44b')
 update_respectthread(cur, 12409, '(NSFW) Respect Noi (Dorohedoro)', 'https://redd.it/11qb4gf')
+update_respectthread(cur, 12442, 'Respect Miyakonojou Oudo! (Medaka Box)', 'https://redd.it/11rgx8a')
 
 ########################################
 
@@ -153,6 +154,62 @@ False,
 '{17373}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/11p92vn/which_saiyan_hybrid_would_be_powerful/jbwocty/?context=3
+
+########################################
+
+add_data(['King ?pin'],
+'Kingpin',
+False,
+False,
+[
+    ['King ?pin ?\(Marvel\)']
+],
+'616',
+'{2053}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/11t4r7i/who_would_win_jack_horner_puss_in_boots_last_wish/jch60no/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Evangelion Unit 02 (Neon Genesis Evangelion)', 'https://redd.it/cf8sd0')
+add_data(['Asuka'],
+'Asuka',
+False,
+False,
+[
+    ['Evangelion'], ['Langley Sohryu']
+],
+'Neon Genesis Evangelion',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/cf8sd0/respect_evangelion_unit_02_neon_genesis_evangelion/
+#https://www.reddit.com/r/whowouldwin/comments/11st4tp/asuka_evangelion_vs_vegeta_dragon_ball/
+
+add_data(['Eva(ngelion)? Unit 02'],
+'Evangelion Unit 02',
+False,
+True,
+[
+    ['Evangelion'], ['Asuka']
+],
+'Neon Genesis Evangelion',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/cf8sd0/respect_evangelion_unit_02_neon_genesis_evangelion/
+#https://www.reddit.com/r/whowouldwin/comments/11st4tp/asuka_evangelion_vs_vegeta_dragon_ball/
+
+add_data(['Unit 02'],
+'Unit 02',
+False,
+False,
+[
+    ['Evangelion'], ['Asuka'], ['Eva units?']
+],
+'Neon Genesis Evangelion',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/cf8sd0/respect_evangelion_unit_02_neon_genesis_evangelion/
+#https://www.reddit.com/r/whowouldwin/comments/11st4tp/asuka_evangelion_vs_vegeta_dragon_ball/
 
 ########################################
 
@@ -292,6 +349,33 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Joey Wheeler (Yu-Gi-Oh! Anime)', 'https://redd.it/11r42nc')
+add_data(['Joey Wheeler'],
+'Joey Wheeler',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11r42nc/respect_joey_wheeler_yugioh_anime/
+
+add_data(['Joey'],
+'Joey',
+False,
+False,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11r42nc/respect_joey_wheeler_yugioh_anime/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Zack Thompson, Tech Jacket (Image Comics)', 'https://redd.it/11okfnj')
 add_data(['Tech Jacket'],
 'Tech Jacket',
@@ -382,6 +466,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ybgir! (Regular Show)', 'https://redd.it/11qn0ij')
+add_data(['Ybgir'],
+'Ybgir',
+False,
+True,
+[
+    ['Regular Show']
+],
+'Regular Show',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11qn0ij/respect_ybgir_regular_show/
+
+########################################
+
 id = get_rt_id(cur, 'Respect N.N.! (Nyaight of the Living Cat)', 'https://redd.it/11p4aiz')
 add_data(['N\.N'],
 'N.N.',
@@ -424,6 +523,168 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/11q94gl/respect_mala_mala_jong_xiaolin_showdown/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Oishi Kawaii (Oishi high school battle)', 'https://redd.it/11qo3br')
+add_data(['Oishi Kawaii'],
+'Oishi Kawaii',
+False,
+True,
+[
+    ['Oishi High School Battle']
+],
+'Oishi High School Battle',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11qo3br/respect_oishi_kawaii_oishi_high_school_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sinbad! (Sinbad: Legend of the Seven Seas)', 'https://redd.it/11qpk8l')
+add_data(['Sinbad'],
+'Sinbad',
+False,
+False,
+[
+    ['Legend of the Seven Seas'], ['DreamWorks']
+],
+'Legend of the Seven Seas',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11qpk8l/respect_sinbad_sinbad_legend_of_the_seven_seas/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anti-Lad (DC, Pre-Zero Hour)', 'https://redd.it/11r9scy')
+add_data(['Anti(-| )Lad'],
+'Anti-Lad',
+False,
+False,
+[
+    ['Pre(-| )Zero Hour']
+],
+'Pre-Zero Hour',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11r9scy/respect_antilad_dc_prezero_hour/
+
+add_data(['Anti(-| )Lad'],
+'Anti-Lad',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11r9scy/respect_antilad_dc_prezero_hour/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Polyphemus the Cyclops (Greek Mythology)', 'https://redd.it/11rhb4p')
+add_data(['Polyphemus'],
+'Polyphemus',
+False,
+True,
+[
+    ['myth?(ical|olog(y|ical))'], ['The Odyssey']
+],
+'Greek Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11rhb4p/respect_polyphemus_the_cyclops_greek_mythology/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Dragonzord (Mighty Morphin'' Power Rangers)", 'https://redd.it/11rw1ja')
+add_data(['Dragon ?zord'],
+'Dragonzord',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11rw1ja/respect_the_dragonzord_mighty_morphin_power/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Thunder Megazord (Mighty Morphin'' Power Rangers)", 'https://redd.it/11t4dt8')
+add_data(['Thunder Megazord'],
+'Thunder Megazord',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11t4dt8/respect_the_thunder_megazord_mighty_morphin_power/
+
+########################################
+
+id = get_rt_id(cur, 'Respect John Shaft (Shaft)', 'https://redd.it/11rymzm')
+add_data(['John Shaft'],
+'John Shaft',
+False,
+True,
+[
+    ['\(Shaft\)']
+],
+'Shaft',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11rymzm/respect_john_shaft_shaft/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Star-Spirit (The Iron Man)', 'https://redd.it/11s7vvn')
+add_data(['Star( |-)Spirit'],
+'Star Spirit',
+False,
+False,
+[
+    ['The Iron Man']
+],
+'The Iron Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11s7vvn/respect_the_starspirit_the_iron_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ozymandias! (Watchmen 2009)', 'https://redd.it/11sb642')
+add_data(['Ozymandias'],
+'Ozymandias',
+False,
+False,
+[
+    ['Watchmen','2009']
+],
+'Watchmen, 2009',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11sb642/respect_ozymandias_watchmen_2009/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the T-600 (Terminator: Salvation timeline)', 'https://redd.it/11tca21')
+add_data(['T-600'],
+'T-600',
+False,
+True,
+[
+    ['Terminator']
+],
+'Terminator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11tca21/respect_the_t600_terminator_salvation_timeline/
 
 ########################################
 
