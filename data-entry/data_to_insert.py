@@ -107,6 +107,64 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Granolah (Dragon Ball Super)', 'https://redd.it/11tv732')
+add_data(['Granolah'],
+'Granolah',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11tv732/respect_granolah_dragon_ball_super/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Batman (Scooby Doo)', 'https://redd.it/11tw3ps')
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Scooby(-| )?Doo']
+],
+'Scooby-Doo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11tw3ps/respect_batman_scooby_doo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pukin! (Magical Girl Raising Project)', 'https://redd.it/11ubu77')
+add_data(['Pukin'],
+'Pukin',
+False,
+False,
+[
+    ['Magical Girl Raising Project'], ['Mahou Shoujo Ikusei Keikaku']
+],
+'Magical Girl Raising Project',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ubu77/respect_pukin_magical_girl_raising_project/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Menma Uzumaki! (Road to Ninja: Naruto the Movie)', 'https://redd.it/11ubxkt')
+add_data(['Menma Uzu?maki'],
+'Menma Uzumaki',
+False,
+True,
+[
+    ['Naruto']
+],
+'Naruto',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11ubxkt/respect_menma_uzumaki_road_to_ninja_naruto_the/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

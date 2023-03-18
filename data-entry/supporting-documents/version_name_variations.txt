@@ -1950,7 +1950,7 @@ Madoka Magica
 
 Magical Girl Raising Project
 	Version
-		'{"Magical Girl Raising Project"}', '{"Mahou Shoujo Ikusei Keikaku"}'
+		['Magical Girl Raising Project'], ['Mahou Shoujo Ikusei Keikaku']
 	Displayed Version Name
 		"Magical Girl Raising Project"
 
