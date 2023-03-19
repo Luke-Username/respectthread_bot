@@ -167,6 +167,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Minos Prime (Ultrakill)', 'https://redd.it/11v3tbg')
+add_data(['Minos Prime'],
+'Minos Prime',
+False,
+True,
+[
+    ['ULTRAKILL']
+],
+'ULTRAKILL',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11v3tbg/respect_minos_prime_ultrakill/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chaos! (Primal Rage)', 'https://redd.it/11vahle')
+add_data(['Chaos'],
+'Chaos',
+False,
+False,
+[
+    ['Primal Rage']
+],
+'Primal Rage',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/11vahle/respect_chaos_primal_rage/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
