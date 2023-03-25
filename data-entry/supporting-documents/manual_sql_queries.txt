@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect First Lieutenant Riza Hawkeye (Fullmetal Alchemist Manga/Brotherhood)', 'https://redd.it/121lhnp'); SELECT * FROM respectthread WHERE link='https://redd.it/121lhnp';
+UPDATE character SET rt_id_array='{?, 9296}' WHERE rt_id_array='{9296}'
+
 ########################################
 
 ########################################
