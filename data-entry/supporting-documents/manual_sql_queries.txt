@@ -14,24 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Gambit', 'King''s Gambit', -7);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Gambit', 'Kings Gambit', -6);
+########################################
 
 ########################################
 
-DELETE FROM character WHERE default_name='Beast' AND rt_id_array='{7621}';
-
 ########################################
-
-UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{2203}';
-
-########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Boros (One-Punch Man [Manga])', 'https://redd.it/11yz0ih'); SELECT * FROM respectthread WHERE link='https://redd.it/11yz0ih';
-UPDATE character SET rt_id_array='{4095, ?}' WHERE rt_id_array='{4095}';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect: Lion El''Jonson (Warhammer 40k)', 'https://redd.it/11zxkuf'); SELECT * FROM respectthread WHERE link='https://redd.it/11zxkuf';
-UPDATE character SET rt_id_array='{?, 21119}' WHERE rt_id_array='{21119}';
 
 ########################################
 

@@ -6675,8 +6675,6 @@ Yoichi Hiruma,"{`"Eyeshield 21`"}",t,{7619},Eyeshield 21
 Robot Devil,{Futurama},f,{7620},Futurama
 Prime-Orks,{(WH)?40K},t,{7621},Warhammer 40k
 Prime-Orks,{Warhammer},t,{7621},Warhammer 40k
-Beast,{(WH)?40K},f,{7621},Warhammer 40k
-Beast,{Warhammer},f,{7621},Warhammer 40k
 Overclocked Bender,{Futurama},t,{7622},Futurama
 Thor,"{`"Thor ?\\(DC( Comics)?\\)`"}",f,{1743},DC
 Orion,{Orion.*DC},f,{1742},DC
@@ -7110,15 +7108,15 @@ Satana,{Jojo},f,{3544},Jojo's Bizarre Adventure
 Satana,{JJBA},f,{3544},Jojo's Bizarre Adventure
 Wired Beck,{Jojo},t,{10829},Jojo's Bizarre Adventure
 Wired Beck,{JJBA},t,{10829},Jojo's Bizarre Adventure
-Vishanti,{616},t,{2203},616
-Vishanti,{Marvel},t,{2203},616
-Vishanti,{comics?},t,{2203},616
 Dracula,"{`"Dracula ?\\(616`"}",f,{2205},616
 Dracula,"{`"Dracula \\[616`"}",f,{2205},616
 Pain,{Konoha},f,{3964},Naruto
 Pain,"{`"tailed beast`"}",f,{3964},Naruto
+Vishanti,{616},t,{},616
+Vishanti,{Marvel},t,{},616
 Blade,"{`"Blade ?\\(616`"}",f,{2204},616
 Blade,"{`"Blade ?\\(Marvel`"}",f,{2204},616
+Vishanti,{comics?},t,{},616
 Killer Croc,"{`"\\(Arkham\\)`"}",f,"{5533,6381}",Batman: Arkham
 Willow Rosenberg,"{`"\\(Buffy\\)`"}",t,{7490},Buffy the Vampire Slayer
 Dan,"{`"\\(Dan vs\\)`"}",f,{1037},(Dan Vs.)
@@ -18464,15 +18462,6 @@ Silver Fang,"{`"One(-| )Punch Man`"}",t,{4093},One Punch Man
 Silver Fang,{OPM},t,{4093},One Punch Man
 Black Sperm,"{`"One(-| )Punch Man`"}",t,{4094},One Punch Man
 Black Sperm,{OPM},t,{4094},One Punch Man
-Boros,"{`"One(-| )Punch Man`"}",t,{4095},One Punch Man
-Boros,{OPM},t,{4095},One Punch Man
-Boros,"{`"Meteoric Burst`"}",t,{4095},One Punch Man
-Boros,{Saitama},t,{4095},One Punch Man
-Boros,{Tatsumaki},t,{4095},One Punch Man
-Boros,"{`"Might Guy`"}",t,{4095},One Punch Man
-Boros,{Mob},t,{4095},One Punch Man
-Lord Boros,"{`"One(-| )Punch Man`"}",t,{4095},One Punch Man
-Lord Boros,{OPM},t,{4095},One Punch Man
 Mizuki,"{`"One(-| )Punch Man`"}",f,{4096},One Punch Man
 Mizuki,{OPM},f,{4096},One Punch Man
 Mizuki,"{`"Meteoric Burst`"}",f,{4096},One Punch Man
@@ -18482,6 +18471,7 @@ Captain Mizuki,"{`"One(-| )Punch Man`"}",t,{4096},One Punch Man
 Captain Mizuki,{OPM},t,{4096},One Punch Man
 Child Emperor,"{`"One(-| )Punch Man`"}",t,{4098},One Punch Man
 Child Emperor,{OPM},t,{4098},One Punch Man
+Boros,"{`"One(-| )Punch Man`"}",t,"{4095,23515}",One Punch Man
 Deep Sea King,"{`"One(-| )Punch Man`"}",t,{4099},One Punch Man
 Deep Sea King,{OPM},t,{4099},One Punch Man
 DSK,"{`"One(-| )Punch Man`"}",t,{4099},One Punch Man
@@ -25260,8 +25250,6 @@ Dorian,{Baki},f,{3449},Baki
 Lion,"{`"Balloon Trip of Love`"}",f,{16804},The Legend of Zelda
 SCP-001,"{`"Gate Guardian`"}",f,{15332},""
 StarCraft Marine,"{`"SC\\d?`"}",t,{},""
-Lion ElJonson,{(WH)?40K},t,{21119},Warhammer 40k
-Lion ElJonson,{Warhammer},t,{21119},Warhammer 40k
 Spider-Men,"{`"Live action Spider(-| )?Men`"}",f,"{302,113,261}",Live-Action
 New Avengers,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{21120},Earths Mightiest Heroes
 New Avengers,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{21120},Earths Mightiest Heroes
@@ -25289,6 +25277,8 @@ Shang-Chi,"{`"Marvel Cinematic Universe`"}",f,{21301},MCU
 Shang-Chi,{MCU},f,{21301},MCU
 Emiya Shirou,{UBW},t,{6251},Fate
 Emiya Shirou,"{`"Unlimited Blade Works`"}",t,{6251},Fate
+Lion ElJonson,{(WH)?40K},t,"{23516,21119}",Warhammer 40k
+Lion ElJonson,{Warhammer},t,"{23516,21119}",Warhammer 40k
 Kafka Hibino,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
 Leno Ichikawa,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
 Kikoru Shinomiya,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
@@ -29476,3 +29466,56 @@ Sae,{NOTH},f,{23514},Nocturne of the Heaven
 Sae,{Kamigakari},f,{23514},Nocturne of the Heaven
 Sae,{Nijisanji},f,{23514},Nocturne of the Heaven
 Sae,{Yukimura},f,{23514},Nocturne of the Heaven
+Boros,{OPM},t,"{4095,23515}",One Punch Man
+Boros,"{`"Meteoric Burst`"}",t,"{4095,23515}",One Punch Man
+Boros,{Saitama},t,"{4095,23515}",One Punch Man
+Boros,{Tatsumaki},t,"{4095,23515}",One Punch Man
+Boros,"{`"Might Guy`"}",t,"{4095,23515}",One Punch Man
+Boros,{Mob},t,"{4095,23515}",One Punch Man
+Lord Boros,"{`"One(-| )Punch Man`"}",t,"{4095,23515}",One Punch Man
+Lord Boros,{OPM},t,"{4095,23515}",One Punch Man
+Hanayama,{Baki},f,{7413},Baki
+Doc Oc,{616},t,{2267},616
+Electro,"{`"Sinister Six`"}",f,{2268},616
+Cyclops,"{`"Sinister Six`"}",f,{2354},616
+Cyclops,{X-Mansion},f,{2354},616
+Wanda,"{`"Wanda ?\\( ?MOM ?\\)`"}",f,{270},MCU
+Granolah,"{`"Dragon ?Ball`"}",t,{23517},Dragon Ball
+Granolah,{DB(Z|S)},t,{23517},Dragon Ball
+Batman,"{`"Scooby(-| )?Doo`"}",f,{23518},Scooby-Doo
+Pukin,"{`"Magical Girl Raising Project`"}",f,{23519},Magical Girl Raising Project
+Pukin,"{`"Mahou Shoujo Ikusei Keikaku`"}",f,{23519},Magical Girl Raising Project
+Menma Uzumaki,{Naruto},t,{23520},Naruto
+Minos Prime,{ULTRAKILL},t,{23521},ULTRAKILL
+Chaos,"{`"Primal Rage`"}",f,{23522},Primal Rage
+Jon,"{`"Fist of the B(0|o)rf Star`"}",f,{23523},Fist of the B0rf Star
+Calvin and Hobbes,"{`"Fist of the B(0|o)rf Star`"}",t,{23524},Fist of the B0rf Star
+Flandre Scarlet,{minusT},f,{23525},minusT
+Krypto the Superdog,{2005},f,{23526},2005
+Kurozumi Orochi,"{`"One ?Piece?`"}",t,{23527},One Piece
+Leo,"{`"One ?Piece?`"}",f,{23528},One Piece
+Godzilla Family,"{`"Godzilla Neo`"}",f,{23529},Godzilla Neo
+Crystal,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{23530},Pokémon Adventures
+Gorillaz,"{`"\\(Gorillaz\\)`"}",t,{23531},""
+Ninja Megazord,"{`"Power Rangers?`"}",t,{23532},Power Rangers
+Shogun Megazord,"{`"Power Rangers?`"}",t,{23533},Power Rangers
+Hero,"{`"Dom Fera`"}",f,{23534},Dom Fera
+Volcano,"{`"Dom Fera`"}",f,{23535},Dom Fera
+Beck,"{`"The Rundown`"}",f,{23536},The Rundown
+Nagi Tahira,"{`"Tank Chair`"}",t,{23150},Tank Chair
+Asajj Ventress,"{`"S(tar )?Wars`"}",t,{23537},Star Wars
+Jason Voorhees,"{`"Mortal Kombat`"}",f,{23538},Mortal Kombat
+Robocop,"{`"Mortal Kombat`"}",f,{23539},Mortal Kombat
+Edward Elric,{PS2},f,{23540},PS2
+Berzerker,{BRZRKR},f,{23541},BRZRKR
+Oniguma,"{`"To Your Eternity`"}",t,{23542},To Your Eternity
+Reimu,"{`"The Power of Terry`"}",f,{23543},The Power of Terry
+Balalaika,"{`"Black Lagoon`"}",f,{23544},Black Lagoon
+Claire Voyant,{616},t,{23545},616
+Rune,{Malibu},f,{23546},Malibu Comics
+Elaine Mallory,"{`"Dresden( Files|verse)`"}",t,{23547},The Dresden Files
+Elaine,{Dresden},f,{23547},The Dresden Files
+Slime Superman,"{`"Pre(-| )?Crisis`"}",f,{23548},Pre-Crisis
+Odin,"{`"Nor(se|dic) Mythology`"}",f,{23549},Norse Mythology
+Odin,"{`"\\(myth?(ical|olog(y|ical))\\)`"}",f,{23549},Norse Mythology
+Odin,"{`"myth?(ical|olog(y|ical)) Battle`"}",f,{23549},Norse Mythology
