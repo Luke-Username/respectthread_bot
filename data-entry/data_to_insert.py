@@ -107,6 +107,140 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect: Mizuha''s nokker (To your eternity)", 'https://redd.it/121r2lc')
+add_data(['Mizuha'],
+'Mizuha',
+False,
+False,
+[
+    ['To your eternity']
+],
+'To your eternity',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/121r2lc/respect_mizuhas_nokker_to_your_eternity/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mizuki Okiura! (AI: the Somnium Files - Nirvana Initiative)', 'https://redd.it/1229cf7')
+add_data(['Mizuki Okiura'],
+'Mizuki Okiura',
+False,
+True,
+[
+    ['Somnium Files']
+],
+'AI: the Somnium Files',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1229cf7/respect_mizuki_okiura_ai_the_somnium_files/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pikachu! (PokéPark)', 'https://redd.it/121wb3r')
+add_data(['Pikachus?'],
+'Pikachu',
+False,
+False,
+[
+    ['Pok(é|e)Park']
+],
+'PokéPark',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/121wb3r/respect_pikachu_pok%C3%A9park/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Ferrus Manus (Warhammer 40k)', 'https://redd.it/122b4to')
+add_data(['Ferrus Manus'],
+'Ferrus Manus',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/122b4to/respect_ferrus_manus_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sky Striker Ace - Raye (Yu-Gi-Oh OCG Stories)', 'https://redd.it/122b4ue')
+add_data(['Sky Striker Ace( -)? Raye'],
+'Sky Striker Ace - Raye',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/122b4ue/respect_sky_striker_ace_raye_yugioh_ocg_stories/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shinobu (One Piece)', 'https://redd.it/122ceo9')
+add_data(['Shinobu'],
+'Shinobu',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/122ceo9/respect_shinobu_one_piece/
+
+########################################
+
+id = get_rt_id(cur, "Respect Anita (Night Warriors: Darkstalkers'' Revenge) (the anime OVA)", 'https://redd.it/122qh00')
+add_data(['Anita'],
+'Anita',
+False,
+False,
+[
+    ['Night Warriors', 'Darkstalkers?']
+],
+"Night Warriors: Darkstalkers'' Revenge",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/122qh00/respect_anita_night_warriors_darkstalkers_revenge/
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Ruby! (Ruby Quest)", 'https://redd.it/122wsre')
+add_data(['Ruby'],
+'Ruby',
+False,
+False,
+[
+    ['Ruby ?\(Ruby Quest']
+],
+'Ruby Quest',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/122wsre/respect_ruby_ruby_quest/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Prophet Muhammad (Qasida Al-Burda)', 'https://redd.it/122yluj')
+add_data(['Muhammad'],
+'Muhammad',
+False,
+False,
+[
+    ['Al-Burda']
+],
+'Qasīdat Al-Burda',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/122yluj/respect_prophet_muhammad_qasida_alburda/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

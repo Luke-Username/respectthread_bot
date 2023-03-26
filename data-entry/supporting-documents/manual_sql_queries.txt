@@ -19,6 +19,8 @@ UPDATE character SET rt_id_array='{?, 9296}' WHERE rt_id_array='{9296}'
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Bismuth';
+
 ########################################
 
 ########################################

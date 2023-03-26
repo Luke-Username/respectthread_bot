@@ -77,6 +77,12 @@ Adventure Time
 	Displayed Version Name
 		"Adventure Time"
 
+AI: the Somnium Files
+	Version
+		['Somnium Files']
+	Displayed Version Name
+		"AI: the Somnium Files"
+
 Akame Ga Kill!
 	Version
 		['Akame Ga Kill']
