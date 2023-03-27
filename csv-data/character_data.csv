@@ -3235,9 +3235,6 @@ Alexandrite,"{`"Crystal Gems?`"}",t,{929},Steven Universe
 Amethyst,{Steven},f,{930},Steven Universe
 Amethyst,{SU},f,{930},Steven Universe
 Amethyst,"{`"Crystal Gems?`"}",f,{930},Steven Universe
-Bismuth,{Steven},t,{931},Steven Universe
-Bismuth,{SU},t,{931},Steven Universe
-Bismuth,"{`"Crystal Gems?`"}",t,{931},Steven Universe
 Blue Diamond,{Steven},t,{932},Steven Universe
 Blue Diamond,{SU},t,{932},Steven Universe
 Blue Diamond,"{`"Crystal Gems?`"}",t,{932},Steven Universe
@@ -11833,8 +11830,6 @@ Mustang,"{`"Full ?metal`"}",f,"{3412,9295}",Fullmetal Alchemist
 Mustang,{FMA},f,"{3412,9295}",Fullmetal Alchemist
 Happosai,{Ranma},t,{4453},Ranma ½
 Kodachi Kuno,{Ranma},t,{4454},Ranma ½
-Riza Hawkeye,"{`"Full ?metal`"}",t,{9296},Fullmetal Alchemist
-Riza Hawkeye,{FMA},t,{9296},Fullmetal Alchemist
 Lust,"{`"Full ?metal`"}",f,"{3410,9297}",Fullmetal Alchemist
 Lust,{FMA:?B?},f,"{3410,9297}",Fullmetal Alchemist
 Wrath,"{`"Full ?metal`"}",f,{3422},Fullmetal Alchemist
@@ -11867,6 +11862,7 @@ Cranberry,"{`"Magical Girl Raising Project`"}",f,"{3835,13349}",Magical Girl Rai
 Envy,"{`"Full ?metal`"}",f,"{13608,9292}",Fullmetal Alchemist
 Envy,{FMA},f,"{13608,9292}",Fullmetal Alchemist
 Ultimate Predator,"{`"The Predator`"}",f,{9309},The Predator
+Riza Hawkeye,"{`"Full ?metal`"}",t,"{23550,9296}",Fullmetal Alchemist
 Wizard of Speed and Time,"{`"Wizard of Speed and Time`"}",t,{9311},""
 Elizabeth,{Persona},f,{9312},Persona
 Shepard,"{`"Mass Effect`"}",f,{9313},Mass Effect
@@ -29519,3 +29515,24 @@ Slime Superman,"{`"Pre(-| )?Crisis`"}",f,{23548},Pre-Crisis
 Odin,"{`"Nor(se|dic) Mythology`"}",f,{23549},Norse Mythology
 Odin,"{`"\\(myth?(ical|olog(y|ical))\\)`"}",f,{23549},Norse Mythology
 Odin,"{`"myth?(ical|olog(y|ical)) Battle`"}",f,{23549},Norse Mythology
+Riza Hawkeye,{FMA},t,"{23550,9296}",Fullmetal Alchemist
+Bismuth,{Steven},f,{931},Steven Universe
+Bismuth,{SU},f,{931},Steven Universe
+Bismuth,"{`"Crystal Gems?`"}",f,{931},Steven Universe
+Mizuha,"{`"To your eternity`"}",f,{23551},To your eternity
+Mizuki Okiura,"{`"Somnium Files`"}",t,{23552},AI: the Somnium Files
+Pikachu,{Pok(é|e)Park},f,{23553},PokéPark
+Ferrus Manus,{(WH)?40K},t,{23554},Warhammer 40k
+Ferrus Manus,{Warhammer},t,{23554},Warhammer 40k
+Sky Striker Ace - Raye,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23555},Yu-Gi-Oh!
+Shinobu,"{`"One ?Piece?`"}",f,{23556},One Piece
+Anita,"{`"Night Warriors`",Darkstalkers?}",f,{23557},Night Warriors: Darkstalkers' Revenge
+Ruby,"{`"Ruby ?\\(Ruby Quest`"}",f,{23558},Ruby Quest
+Tom,"{`"Ruby Quest`"}",f,{23559},Ruby Quest
+Muhammad,{Al-Burda},f,{23560},Qasīdat Al-Burda
+Higgs Monaghan,"{`"Death Stranding`"}",t,{23561},Death Stranding
+Zeon,"{`"(Zatch|Gash) Bell`"}",f,{23562},Zatch Bell!
+Zeon,"{`"Zeon Bell`"}",f,{23562},Zatch Bell!
+Zeon,{Duf(ort|aux)},f,{23562},Zatch Bell!
+David Garcia,"{`"Wa(lk|kl)ing Dead`"}",f,{23563},The Walking Dead
+David Garcia,{TWD},f,{23563},The Walking Dead
