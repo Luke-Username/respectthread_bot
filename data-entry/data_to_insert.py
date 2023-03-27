@@ -228,6 +228,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Tom! (Ruby Quest)', 'https://redd.it/1231cqe')
+add_data(['Tom'],
+'Tom',
+False,
+False,
+[
+    ['Ruby Quest']
+],
+'Ruby Quest',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1231cqe/respect_tom_ruby_quest/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Prophet Muhammad (Qasida Al-Burda)', 'https://redd.it/122yluj')
 add_data(['Muhammad'],
 'Muhammad',
@@ -240,6 +255,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/122yluj/respect_prophet_muhammad_qasida_alburda/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Higgs Monaghan! (Death Stranding)', 'https://redd.it/12313w8')
+add_data(['Higgs Monaghan'],
+'Higgs Monaghan',
+False,
+True,
+[
+    ['Death Stranding']
+],
+'Death Stranding',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12313w8/respect_higgs_monaghan_death_stranding/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zeon and Dufaux (Gash Bell)', 'https://redd.it/1234kka')
+add_data(['Zeon'],
+'Zeon',
+False,
+False,
+[
+    ['(Zatch|Gash) Bell'], ['Zeon Bell'], ['Duf(ort|aux)']
+],
+'Zatch Bell!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1234kka/respect_zeon_and_dufaux_gash_bell/
+
+########################################
+
+id = get_rt_id(cur, "Respect David Garcia (Telltale''s The Walking Dead Game)", 'https://redd.it/1236vp4')
+add_data(['David Garcia'],
+'David Garcia',
+False,
+False,
+[
+    ['Wa(lk|kl)ing Dead'], ['TWD']
+],
+'The Walking Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1236vp4/respect_david_garcia_telltales_the_walking_dead/
 
 ########################################
 

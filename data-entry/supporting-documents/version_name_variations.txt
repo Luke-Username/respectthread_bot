@@ -3866,7 +3866,7 @@ Yuuna and the Haunted Hot Springs
 
 Zatch Bell!
 	Version
-		'{"(Zatch|Gash) Bell"}', '{"Golden Gash"}', '{"Konjiki no Gash"}'
+		['(Zatch|Gash) Bell'], '{"Golden Gash"}', '{"Konjiki no Gash"}'
 	Displayed Version Name
 		"Zatch Bell!"
 
