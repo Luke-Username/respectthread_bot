@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3477, 'The Captain (Hellsing)', 'https://redd.it/12437nj')
+
+########################################
+
+id = get_rt_id(cur, 'Featuring The Gatewatch! (Magic: The Gathering)', 'https://redd.it/121wy7d')
+add_data(['The Gatewatch'],
+'The Gatewatch',
+True,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG'], ['Planeswalk(er)?s?']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/124azhq/the_gatewatch_magic_the_gathering_vs_brockton_bay/jdymo8d/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Xenomorph! (Mortal Kombat)', 'https://redd.it/12454yo')
+add_data(['Xenomorph'],
+'Xenomorphs',
+False,
+False,
+[
+    ['Mortal Kombat']
+],
+'Mortal Kombat',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12454yo/respect_the_xenomorph_mortal_kombat/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
