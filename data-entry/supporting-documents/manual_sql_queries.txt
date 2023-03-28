@@ -14,16 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='I(ro|or)n(-| )?Man' WHERE name='Iron(-| )?Man';
-
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Armor', 'Hulkbuster Armor', -11);
-
 ########################################
-
-UPDATE character SET rt_id_array={22877, 23147, 22927, 23257, 22735, 22803}' WHERE default_name='Hulkbuster' AND version='{"616"}';
-UPDATE character SET rt_id_array={22877, 23147, 22927, 23257, 22735, 22803}' WHERE default_name='Hulkbuster' AND version='{"Comics? Hulk ?buster"}';
 
 ########################################
 

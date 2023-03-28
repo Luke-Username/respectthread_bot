@@ -29050,8 +29050,6 @@ Cyclops,"{`"X(-| )?Men`"}",f,{2354},616
 Willow,"{`"Buffy|Vampire Slayer`"}",f,{7490},Buffy the Vampire Slayer
 Suwako Moriya,{Touhou},t,{23255},Touhou
 Ogra,{Gorgo},f,{23256},Gorgo
-Hulkbuster,{616},f,{23257},616
-Hulkbuster,"{`"Comics? Hulk ?buster`"}",f,{23257},616
 Hulkbuster,"{`"Mark VI`"}",f,{23257},616
 Hulkbuster,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Hulkbuster,{MCU},f,{},MCU
@@ -29094,6 +29092,7 @@ Frey Holland,{Forspoken},t,{23280},Forspoken
 Steve Fox,{Tekken},f,{23281},Tekken
 Kate Bishop,{MCU},f,"{23282,21522}",MCU
 Vlad,{Lancer},f,{21029},Fate
+Hulkbuster,"{`"Comics? Hulk ?buster`"}",f,"{22877,23147,22927,23257,22735,22803}",616
 Piranha,"{`"Piranha.*The Bad Guys`"}",f,{22168},The Bad Guys
 Daisy,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",f,{69},Agents of SHIELD/MCU
 Coulson,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",f,{23283},MCU
@@ -29536,3 +29535,19 @@ Zeon,"{`"Zeon Bell`"}",f,{23562},Zatch Bell!
 Zeon,{Duf(ort|aux)},f,{23562},Zatch Bell!
 David Garcia,"{`"Wa(lk|kl)ing Dead`"}",f,{23563},The Walking Dead
 David Garcia,{TWD},f,{23563},The Walking Dead
+Hulkbuster,{616},f,"{22877,23147,22927,23257,22735,22803}",616
+Hulkbuster,"{`"MCU\\)`"}",f,{12455},MCU
+Hulkbuster,{Bullseye.*MCU},f,{12455},MCU
+Bullseye,"{`"MCU\\)`"}",f,{12455},MCU
+Bullseye,{Bullseye.*MCU},f,{12455},MCU
+Celebi,{Pok(e|é)m(o|a)n},t,{23564},Pokémon
+Iron-Masked Marauder,{Pok(e|é)m(o|a)n},t,{23564},Pokémon
+Ace,"{`"Ruby Quest`"}",f,{23565},Ruby Quest
+Ar-Val,"{`"Pre(-| )?Crisis`"}",f,{23566},Pre-Crisis
+Boba Fett,"{`"Robot Chicken`"}",f,{23567},Robot Chicken
+Autumn,"{`"Undead Unluck`"}",f,{23568},Undead Unluck
+Autumn,"{`"UMA Autumn`"}",f,{23568},Undead Unluck
+Spoil,"{`"Undead Unluck`"}",f,{23569},Undead Unluck
+Spoil,"{`"UMA Spoil`"}",f,{23569},Undead Unluck
+Burn,"{`"Undead Unluck`"}",f,{23570},Undead Unluck
+Burn,"{`"UMA Burn`"}",f,{23570},Undead Unluck
