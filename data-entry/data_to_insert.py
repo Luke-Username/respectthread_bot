@@ -111,6 +111,34 @@ update_respectthread(cur, 3477, 'The Captain (Hellsing)', 'https://redd.it/12437
 
 ########################################
 
+add_data(['Baki'],
+'Baki',
+False,
+False,
+[
+    ['Baki ?\(Baki']
+],
+'Baki',
+'{3446}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/124nrqk/baki_baki_vs_chunli_street_fighter/jdzy9vk/?context=3
+
+########################################
+
+add_data(['Tim Drake'],
+'Tim Drake',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{1500, 1501}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/124ngb9/bakugo_mha_vs_tim_drake_dc/jdzwy2o/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Featuring The Gatewatch! (Magic: The Gathering)', 'https://redd.it/121wy7d')
 add_data(['The Gatewatch'],
 'The Gatewatch',
@@ -138,6 +166,7 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/12454yo/respect_the_xenomorph_mortal_kombat/
+
 
 ########################################
 
