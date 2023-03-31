@@ -1227,7 +1227,7 @@ The God of High School
 
 God of War
 	Version
-		'{"God of War"}', r'{"G\\.?O\\.?W"}'
+		['God of War'], ['G\.?O\.?W']
 	Displayed Version Name
 		"God of War"
 
@@ -1425,7 +1425,7 @@ Hell's Paradise: Jigokuraku
 
 Hellsing
 	Version
-		'{"Hell?sing"}'
+		['Hell?sing']
 	Displayed Version Name
 		"Hellsing"
 
