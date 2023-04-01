@@ -14,20 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Shana';
+########################################
 
 ########################################
 
-UPDATE character SET rt_id_array='{11094, 22643, 22644}' WHERE default_name='Lara Croft' AND version='{"Tomb? Raider"}';
-
 ########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Gojo';
-
-########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Velrog! (Fablehaven)', 'https://redd.it/yyuctp'); SELECT * FROM respectthread WHERE link='https://redd.it/yyuctp';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Velrog';
 
 ########################################
 

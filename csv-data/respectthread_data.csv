@@ -1670,7 +1670,6 @@ id,title,link
 1801,Respect Doomsday (DC Post-Crisis),https://redd.it/vptkbp
 1761,Respect Superman (New 52),https://redd.it/bq7jfu
 1797,Respect Composite Superman! (DC Pre-Crisis),https://redd.it/izshj7
-1763,Respect Superboy-Prime,https://redd.it/2q91mo
 1765,"Respect Flamebird (Thara Ak-Var) (DC, Post Crisis)",https://redd.it/ad3xzy
 1766,Respect Jon Lane Kent (New 52),https://redd.it/41ahwb
 1767,Respect Kismet (DC Comics),https://redd.it/65fxwb
@@ -1703,6 +1702,7 @@ id,title,link
 1794,"Respect Blanque (DC, New 52)",https://redd.it/9yxsgd
 1795,Respect Brainiac [New52/DCYou],https://redd.it/8j33ed
 1796,"Respect Brutaal (DC, New 52 - Earth 2)",https://redd.it/9yj0az
+1763,Respect Superboy-Prime! (DC Comics),https://redd.it/126o1fq
 1798,"Respect Cyborg Superman (DC, Post Crisis)",https://redd.it/bnwpu4
 1799,"Respect Cyborg Superman (DC, New 52/Rebirth)",https://redd.it/bodxvj
 1800,"Respect Cythonna (DC, Post Crisis)",https://redd.it/aphyo1
@@ -3307,6 +3307,7 @@ id,title,link
 3447,"Respect Biscuit `"Unchained`" Oliva! [Baki the Grappler]",https://redd.it/8udqsz
 3448,Respect Doppo Orochi! [Baki the Grappler.],https://redd.it/85ffwn
 3449,Respect Dorian! [Baki the Grappler],https://redd.it/9k7lwg
+3477,The Captain (Hellsing),https://redd.it/12437nj
 3451,Respect Pickle! [Baki the Grappler],https://redd.it/8b3gpc
 3452,"Respect Yujiro Hanma, the strongest creature in history. (Baki the Grappler)",https://redd.it/bz5iea
 3453,Respect Akira Urabe! (Green Worldz),https://redd.it/84pzz9
@@ -3316,6 +3317,7 @@ id,title,link
 3457,Respect Yui Konoshima! (Green Worldz),https://redd.it/82vd35
 3458,[Respect] RX-0 Unicorn Gundam 02 Banshee (Unicorn Gundam),https://redd.it/3hrnsa
 3459,[Respect Team] Celestial Being (Gundam 00),https://redd.it/3jzq1l
+3480,Respect Walter C. Dornez! (Hellsing),https://redd.it/124ym2r
 3461,"[Respect] Lockon Stratos, Gundam Dynames (Gundam 00)",https://redd.it/3jzpno
 3462,"[Respect] Setsuna F. Siei, Gundam Exia (Gundam 00)",https://redd.it/3jzpqg
 3463,"[Respect] Allelujah Haptism, Gundam Kyrios (Gundam 00)",https://redd.it/3jzpk5
@@ -3330,17 +3332,15 @@ id,title,link
 3472,Respect Clair Leonelli and His Bodyguards (Heat Guy J),https://redd.it/6s3yqo
 3473,Respect Daisuke Aurora (Heat Guy J),https://redd.it/6s3zh9
 3474,Respect J (Heat Guy J),https://redd.it/6s402t
-3476,"Respect Alucard, the No Life King [Hellsing]",https://redd.it/3s3r7i
-3477,Respect The Captain [Hellsing],https://redd.it/4a10fb
-3478,[Respect] Seras Victoria (Hellsing),https://redd.it/3knkh7
 3479,"Respect the Dandy Man, Tubalcain Alhambra [Hellsing]",https://redd.it/amw4ej
-3480,"Respect Walter C. Dornez, the Angel of Death [Hellsing]",https://redd.it/3rm741
 3481,Respect Akeno Himejima! (Highschool DxD) (anime),https://redd.it/5l73s9
 3482,Respect Issei Hyoudou! (Highschool DxD) (anime),https://redd.it/5l73mm
 3483,Respect Koneko Toujou! (Highschool DxD) (anime),https://redd.it/5l73ba
 3484,Respect Rias Gremory! (Highschool DxD) (anime),https://redd.it/5l73zn
 3485,Respect Xenovia Quarta! (Highschool DxD) (anime),https://redd.it/5l72rw
 3486,Respect Yuuto Kiba! (Highschool DxD) (anime),https://redd.it/5l73vw
+3478,Respect Seras Victoria! (Hellsing),https://redd.it/126pkyd
+3476,Respect Alucard! (Hellsing),https://redd.it/126pl7w
 3416,Respect Dante (Fullmetal Alchemist 2003),https://redd.it/g7p3ps
 3460,Respect Domon Kasshu (Mobile Fighter G Gundam),https://redd.it/hqmbqw
 3446,Respect Baki Hanma (Baki the Grappler),https://redd.it/kpq5hw
@@ -12292,3 +12292,27 @@ id,title,link
 23568,Respect UMA Autumn (Undead Unluck),https://redd.it/123m4x9
 23569,Respect UMA Spoil (Undead Unluck),https://redd.it/123xih1
 23570,Respect UMA Burn (Undead Unluck),https://redd.it/123xje2
+23571,Respect Velrog! (Fablehaven),https://redd.it/yyuctp
+23572,Featuring The Gatewatch! (Magic: The Gathering),https://redd.it/121wy7d
+23573,Respect the Xenomorph! (Mortal Kombat),https://redd.it/12454yo
+23574,Respect The Last Spartan! (God of War),https://redd.it/124qwe0
+23575,Respect Hercules! (God of War),https://redd.it/125q5kj
+23576,Respect Deimos! (God of War),https://redd.it/127t5v4
+23577,Respect Malzeno! (Monster Hunter),https://redd.it/124sv3c
+23578,Rip Van Winkle (Hellsing),https://redd.it/1252okd
+23579,Tubalcain Alhambra (Hellsing),https://redd.it/125y5k5
+23580,Respect M. Kruger! (Elysium),https://redd.it/125886b
+23581,Respect Harry Potter (A Very Potter Musical),https://redd.it/125mw0c
+23582,Respect The Predator! (Mortal Kombat),https://redd.it/125of59
+23583,Respect: The Parasite! (The New Adventures of Superman),https://redd.it/125udoy
+23584,Respect Morrigan Aensland (Night Warriors: Darkstalkers' Revenge) (The anime OVA),https://redd.it/12659og
+23585,Respect V1! (ULTRAKILL),https://redd.it/126h4hv
+23586,"Respect SuperDoom (DC, New 52)",https://redd.it/126o2pa
+23587,"Respect: Superman's Superman Armor! (DC, Post Crisis)",https://redd.it/127umvx
+23588,Respect The Destroyer (Marvel 616),https://redd.it/127x7j3
+23589,Respect Dr. Andonuts (Earthbound Halloween Hack),https://redd.it/12754m3
+23590,Respect Molly (Telltale's The Walking Dead Game),https://redd.it/12785kj
+23591,Respect Hunahpu and Xbalanque! (Popol Vuh),https://redd.it/127dcwg
+23592,Respect Tyranitar (Pokemon Anime),https://redd.it/127lkhw
+23593,Respect Spons! (Caddicarus),https://redd.it/127v3h5
+23594,Respect The Yellow King! (Fear & Hunger),https://redd.it/127yltx

@@ -10912,7 +10912,6 @@ Big Bertha,"{`"Great Lakes Avengers`"}",f,{11093},616
 Big Bertha,"{`"Black Widow`"}",f,{11093},616
 Big Bertha,{Ashley|Crawford},f,{11093},616
 Big Bertha,"{`"King ?pin`"}",f,{11093},616
-Lara Croft,"{`"Tomb? Raider`"}",t,{11094},Tomb Raider
 Lara Croft,{Survivor},t,{11094},Tomb Raider
 Lara Croft,"{`"Shadow of the Tomb Raider`"}",t,{11094},Tomb Raider
 Lara Croft,{Reboot(ed)?},t,{11094},Tomb Raider
@@ -15016,7 +15015,6 @@ Ookura Kaito,"{`"Sekai Oni`"}",t,{4915},Sekai Oni
 Shinonome Azuma,"{`"Sekai Oni`"}",t,{4916},Sekai Oni
 Hiroshima Jyakkenou,"{`"Sentou Hakai Gakuen Dangerous`"}",t,{4919},Sentou Hakai Gakuen Dangerous
 Kyouko,"{`"Sentou Hakai Gakuen Dangerous`"}",f,{4920},Sentou Hakai Gakuen Dangerous
-Shana,"{`"Shakugan no Shana`"}",t,{4921},Shakugan no Shana
 Anna Nishikinomiya,{Shimoneta},t,{4922},Shimoneta
 Anna,{Shimoneta},f,{4922},Shimoneta
 Washu,{Tenshi},f,{},Tenchi Muyo!
@@ -15033,6 +15031,7 @@ Gateau Mocha,"{`"Sorcerer Hunters`"}",f,{4929},Sorcerer Hunters
 Festum,{Fafner},f,{4930},Soukyuu no Fafner
 Lu Bu,"{`"S(ō|o)u?ten K(ō|o)u?ro`"}",f,{4931},Sōten Kōro
 Space Battleship Yamato,{2199},t,{4932},""
+Shana,"{`"Shakugan no Shana`"}",f,{4921},Shakugan no Shana
 Space Dandy,{Default},t,{4933},""
 Luluco,"{`"Space Patrol Luluco`"}",t,{4934},Space Patrol Luluco
 Harlock,"{`"Space Pirate`"}",t,{4935},Space Pirate Captain Harlock
@@ -16077,10 +16076,6 @@ Scorpion,{MK},f,{7440},Mortal Kombat
 Liu Kang,"{`"Mortal Kombat`"}",t,{9258},Mortal Kombat
 Liu Kang,{MK},t,{9258},Mortal Kombat
 Spartans,{Halo},f,{13325},Halo
-Gojo,"{`"Jujus?t?s?u Kaisen`"}",t,{14809},Jujutsu Kaisen
-Gojo,{JJK},t,{14809},Jujutsu Kaisen
-Gojo,"{`"vs\\.? Gojo`"}",t,{14809},Jujutsu Kaisen
-Gojo,"{`"Gojo vs`"}",t,{14809},Jujutsu Kaisen
 Riku,{Sora},f,{5158},Kingdom Hearts
 Hancock,"{`"John Hancock`"}",f,{457},Hancock
 Ikaris,"{`"Marvel Cinematic Universe`"}",f,{},MCU
@@ -16137,6 +16132,8 @@ Echidna,"{`"Re:? ?Zero`"}",f,{22244},Re:Zero
 Satella,"{`"Re:? ?Zero`"}",t,{22245},Re:Zero
 Izou,"{`"One ?Piece?`"}",f,{22246},One Piece
 Goku,"{`"SSJ\\d?`"}",t,"{3288,13282}",Dragon Ball
+Gojo,"{`"Jujus?t?s?u Kaisen`"}",f,{14809},Jujutsu Kaisen
+Gojo,{JJK},f,{14809},Jujutsu Kaisen
 Saint-14,{Destiny},t,{5041},Destiny
 Sjur Eido,{Destiny},t,{5042},Destiny
 Warpriest,{Destiny},f,{5043},Destiny
@@ -28441,7 +28438,6 @@ Carl,"{`"Carl the llama`"}",f,{1408},Llamas With Hats
 Iceman,{Kuklinkski},f,{},Kuklinkski
 Rambo,"{`"Rambo ?\\(Rambo`"}",t,{22866},""
 Deadpool,"{`"Epic Rap Battles of History`"}",f,{22867},Epic Rap Battles of History
-Velrog,{Fablehaven},f,{22867},Fablehaven
 Graulas,{Fablehaven},t,{22868},Fablehaven
 Seth Sorenson,{Fablehaven},t,{22869},Fablehaven
 Sphinx,{Fablehaven},f,{22870},Fablehaven
@@ -28493,6 +28489,7 @@ Odin,"{`"Odin ?\\(Fate`"}",f,{22893},Fate
 William,"{`"Inquisitor'?s Tale`"}",f,{22894},The Inquisitor's Tale
 Crane,"{`"Sting of Death`"}",f,{22895},The Sting of Death
 Rogu,"{`"American Dad`"}",f,{22896},American Dad!
+Velrog,{Fablehaven},f,{23571},Fablehaven
 Riful,{Claymore},f,{22897},Claymore
 Isley,{Claymore},f,{22900},Claymore
 Raki,{Claymore},f,{22901},Claymore
@@ -29551,3 +29548,45 @@ Spoil,"{`"Undead Unluck`"}",f,{23569},Undead Unluck
 Spoil,"{`"UMA Spoil`"}",f,{23569},Undead Unluck
 Burn,"{`"Undead Unluck`"}",f,{23570},Undead Unluck
 Burn,"{`"UMA Burn`"}",f,{23570},Undead Unluck
+Lara Croft,"{`"Tomb? Raider`"}",t,"{11094,22643,22644}",Tomb Raider
+Gojo,"{`"vs\\.? Gojo`"}",f,{14809},Jujutsu Kaisen
+Gojo,"{`"Gojo vs`"}",f,{14809},Jujutsu Kaisen
+Baki,"{`"Baki ?\\(Baki`"}",f,{3446},Baki
+Tim Drake,"{`"\\(DC( Comics)?\\)`"}",f,"{1500,1501}",DC
+Tim Drake,"{`"\\[DC( Comics)?\\]`"}",f,"{1500,1501}",DC
+The Gatewatch,"{`"Magic:? The Gathering`"}",t,{23572},Magic: The Gathering
+The Gatewatch,{M:?TG},t,{23572},Magic: The Gathering
+The Gatewatch,{Planeswalk(er)?s?},t,{23572},Magic: The Gathering
+Xenomorphs,"{`"Mortal Kombat`"}",f,{23573},Mortal Kombat
+Last Spartan,"{`"God of War`"}",f,{23574},God of War
+Last Spartan,"{`"G\\.?O\\.?W`"}",f,{23574},God of War
+Hercules,"{`"God of War`"}",f,{23575},God of War
+Hercules,"{`"G\\.?O\\.?W`"}",f,{23575},God of War
+Deimos,"{`"God of War`"}",f,{23576},God of War
+Deimos,"{`"G\\.?O\\.?W`"}",f,{23576},God of War
+Malzeno,"{`"Monster Hunter`"}",t,{23577},Monster Hunter
+Rip Van Winkle,{Hell?sing},f,{23578},Hellsing
+Kruger,{Elysium},f,{23580},Elysium
+Harry Potter,"{`"A Very Potter Musical`"}",f,{23581},A Very Potter Musical
+Predator,"{`"Mortal Kombat`"}",f,{23582},Mortal Kombat
+Parasite,"{`"The New Adventures of Superman`"}",f,{23583},The New Adventures of Superman
+Morrigan Aensland,{Darkstalkers},t,{23584},Darkstalkers
+V1,{ULTRAKILL},f,{23585},ULTRAKILL
+SuperDoom,"{`"New(-| )?52`"}",f,{23586},New 52
+SuperDoom,{Nu?-?52},f,{23586},New 52
+SuperDoom,"{`"Post(-| )52`"}",f,{23586},New 52
+SuperDoom,"{`"Prime(-| )Earth`"}",f,{23586},New 52
+SuperDoom,{Rebirth},f,{23586},New 52
+Superman Armor,{PC},f,{23587},Post-Crisis
+Superman Armor,"{`"Posts?(-| )?C(risis)?`"}",f,{23587},Post-Crisis
+Superman Armor,"{`"New(-| )Earth`"}",f,{23587},Post-Crisis
+Keene Marlow,{616},t,{23588},616
+Dr. Andonuts,"{`"Earth(-| )?bound`",`"Halloween Hack`"}",f,{23589},Earthbound Halloween Hack
+Molly,"{`"Wa(lk|kl)ing Dead`"}",f,{23590},The Walking Dead
+Hunahpu,"{`"Popol Vuh`"}",t,{23591},Popol Vuh
+Xbalanque,"{`"Popol Vuh`"}",t,{23591},Popol Vuh
+Hunahpu and Xbalanque,"{`"Popol Vuh`"}",t,{23591},Popol Vuh
+Maya Hero Twins,"{`"Popol Vuh`"}",t,{23591},Popol Vuh
+Tyranitar,{Pok(e|é)m(o|a)n},t,{23592},Pokémon
+Spons,{Caddicarus},f,{23593},Caddicarus
+Yellow King,"{`"Fear (&|and) Hunger`"}",f,{23594},Fear & Hunger
