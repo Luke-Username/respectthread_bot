@@ -14,7 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE ALL FROM character_name WHERE name='Static Shock';
+DELETE ALL FROM character WHERE default_name='Static Shock' AND version='{"\\(Static Shock\\)"}';
+DELETE ALL FROM character WHERE default_name='Static Shock' AND version='{"DC"}';
+
 ########################################
+
+DELETE FROM name_conflict WHERE name='Toriko';
 
 ########################################
 

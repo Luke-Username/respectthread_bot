@@ -107,6 +107,44 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Static'],
+'Static',
+False,
+False,
+[
+    ['Static ?\(Static Shock\)']
+],
+'DCAU',
+'{771}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/qh37kd/who_would_win_gambit_or_static_shock/
+
+add_data(['Static Shock'],
+'Static Shock',
+False,
+False,
+[
+    ['animated series']
+],
+'DCAU',
+'{771}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/qh37kd/who_would_win_gambit_or_static_shock/
+
+########################################
+
+add_data(['Shazam'],
+'Shazam',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{22688}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1280rhv/what_if_shazam_post_crisis_was_in_one_piece/jeiykv8/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
