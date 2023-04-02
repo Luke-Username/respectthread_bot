@@ -7117,7 +7117,6 @@ Vishanti,{comics?},t,{},616
 Killer Croc,"{`"\\(Arkham\\)`"}",f,"{5533,6381}",Batman: Arkham
 Willow Rosenberg,"{`"\\(Buffy\\)`"}",t,{7490},Buffy the Vampire Slayer
 Dan,"{`"\\(Dan vs\\)`"}",f,{1037},(Dan Vs.)
-Static Shock,"{`"\\(Static Shock\\)`"}",f,{771},DCAU
 Nobu,"{`"\\(Daredevil\\)`"}",f,{1296},MCU
 Beast Boy,"{`"\\(Teen Titans?\\)`"}",f,{963},Teen Titans
 Brother Blood,"{`"\\(Teen Titans?\\)`"}",f,{964},Teen Titans
@@ -8936,7 +8935,6 @@ Sideways,"{`"Sideways \\(DC`"}",f,{1871},DC
 Sideways,"{`"Sideways \\[DC`"}",f,{1871},DC
 Static,"{`"Static \\(DC`"}",f,{1872},DC
 Static,"{`"Virgil Hawkins`"}",f,{1872},DC
-Static Shock,{DC},t,{1872},DC
 Static Shock,{comics?},t,{1872},DC
 Uncle Sam,{DC},f,{1873},DC
 Uncle Sam,{PC},f,{1873},Pre-Flashpoint
@@ -16306,8 +16304,6 @@ Zeus,"{`"God of War`"}",f,{5093},God of War
 Zeus,"{`"G\\.?O\\.?W`"}",f,{5093},God of War
 Poseidon,"{`"God of War`"}",f,{5093},God of War
 Poseidon,"{`"G\\.?O\\.?W`"}",f,{5093},God of War
-Hades,"{`"God of War`"}",f,{5093},God of War
-Hades,"{`"G\\.?O\\.?W`"}",f,{5093},God of War
 Ares,"{`"God of War`"}",f,{5093},God of War
 Ares,"{`"G\\.?O\\.?W`"}",f,{5093},God of War
 Hermes,"{`"God of War`"}",f,{5093},God of War
@@ -29590,3 +29586,36 @@ Maya Hero Twins,"{`"Popol Vuh`"}",t,{23591},Popol Vuh
 Tyranitar,{Pok(e|é)m(o|a)n},t,{23592},Pokémon
 Spons,{Caddicarus},f,{23593},Caddicarus
 Yellow King,"{`"Fear (&|and) Hunger`"}",f,{23594},Fear & Hunger
+Hades,"{`"God of War`"}",f,{23595},God of War
+Hades,"{`"G\\.?O\\.?W`"}",f,{23595},God of War
+Static,"{`"Static ?\\(Static Shock\\)`"}",f,{771},DCAU
+Static Shock,"{`"animated series`"}",f,{771},DCAU
+Shazam,"{`"Posts?(-| )?C(risis)?`"}",f,{22688},Post-Crisis
+Shazam,"{`"New(-| )Earth`"}",f,{22688},Post-Crisis
+Larry,"{`"Wa(lk|kl)ing Dead`"}",f,{23596},The Walking Dead
+Gamers,"{`"Dorkness Rising`"}",f,{23597},The Gamers: Dorkness Rising
+Giorno Giovanna,"{`"Pitbulls and Babies`"}",f,{23598},What if Giorno ONLY Made Pitbulls and Babies?
+Garnet,"{`"Garnet's Universe`"}",f,{23599},Garnet's Universe
+Davoth,{DOOM},t,{23600},DOOM
+SCP-6959,{Cirno},t,{23601},""
+Jerri Blank,"{`"Strangers with Candy`"}",t,{23602},Strangers with Candy
+Hammy,"{`"Over The Hedge`"}",f,{23603},Over The Hedge
+17 Trillion Wasps,"{`"The Adventures of 17 Trillion Wasps`"}",t,{23604},The Adventures of 17 Trillion Wasps
+Superhand,"{`"Rooster ?Teeth`"}",t,{23605},Rooster Teeth
+Captain Hammer,{Backyardigans},f,{23606},Backyardigans
+Weather Woman,{Backyardigans},f,{23606},Backyardigans
+Dr. Shrinky,{Backyardigans},t,{23607},Backyardigans
+Yucky Man,{Backyardigans},f,{23607},Backyardigans
+Chumbot,{Spongebob},t,{23608},Spongebob
+Spraymond the Skunk,"{`"Nickelodeon Clickamajigs`"}",t,{23609},Nickelodeon Clickamajigs
+Zote the Mighty,"{`"Hollow Knight`"}",t,{23610},Hollow Knight
+Zote,"{`"Hollow Knight`"}",f,{23610},Hollow Knight
+Emily,"{`"Until Dawn`"}",f,{23611},Until Dawn
+Chuck Liddell,{Duralast},f,{23612},Duralast Commercials
+Chuck Liddell,{Commercials?},f,{23612},Duralast Commercials
+Demitri Maximoff,{Darkstalkers},t,{23613},Darkstalkers
+Garfield,"{`"Fist of the B0rf star`"}",f,{23614},Fist of the B0rf star
+Garfielf,"{`"Fist of the B0rf star`"}",f,{23614},Fist of the B0rf star
+Doomed,"{`"(Post(-| ))Flash(-| )?point`",Reiser}",f,{23615},Post-Flashpoint
+Captain Nemo,"{`"League of Extraordinary Gentlemen`"}",f,{23616},The League of Extraordinary Gentlemen
+Leatherface,"{`"Mortal Kombat`"}",f,{23617},Mortal Kombat
