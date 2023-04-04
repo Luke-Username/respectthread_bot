@@ -107,6 +107,113 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3898, 'Respect Zenkichi Hitoyoshi! (Medaka Box)', 'https://redd.it/12aoua3')
+
+########################################
+
+id = get_rt_id(cur, 'Spandam (One Piece)', 'https://redd.it/12a074b')
+add_data(['Spandam'],
+'Spandam',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12a074b/spandam_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tom (One Piece)', 'https://redd.it/12b4b46')
+add_data(['Tom'],
+'Tom',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12b4b46/respect_tom_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Harry Dresden! (The Dresden Files [TV Series])', 'https://redd.it/12ajpkq')
+add_data(['Harry Dresden'],
+'Harry Dresden',
+False,
+False,
+[
+    ['Dresden Files', 'TV (Shows?|Series)']
+],
+'The Dresden Files TV Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12ajpkq/respect_harry_dresden_the_dresden_files_tv_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tony Stark, The Iron Monarch of the Earth (Marvel, Earth-42777)', 'https://redd.it/12asu6v')
+add_data(['Tony Stark'],
+'Iron Man',
+False,
+False,
+[
+    ['Iron Monarch'], ['42777']
+],
+'42777',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12asu6v/respect_tony_stark_the_iron_monarch_of_the_earth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Beatles! (Beatles song lyrics)', 'https://redd.it/12auaw0')
+add_data(['The Beatles'],
+'The Beatles',
+False,
+True,
+[
+    ['song lyrics']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12auaw0/respect_the_beatles_beatles_song_lyrics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mike Munroe (Until Dawn)', 'https://redd.it/12b3wcm')
+add_data(['Mike'],
+'Mike',
+False,
+False,
+[
+    ['Until Dawn'], ['Mike Munroe']
+],
+'Until Dawn',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12b3wcm/respect_mike_munroe_until_dawn/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doomsday (DC Comics, Post Flashpoint)', 'https://redd.it/12bhsie')
+add_data(['Doomsday'],
+'Doomsday',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12bhsie/respect_doomsday_dc_comics_post_flashpoint/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

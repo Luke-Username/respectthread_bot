@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+SELECT * FROM respectthread WHERE link='https://redd.it/12bhsie';
+UPDATE character SET rt_id_array='{1801, ?}' WHERE default_name='Doomsday' AND displayed_version_name='DC';
+
 ########################################
 
 ########################################
