@@ -7327,14 +7327,6 @@ Cyborg Superman,{Nu?-?52},f,{1799},New 52 / Rebirth
 Cyborg Superman,"{`"Post(-| )52`"}",f,{1799},New 52 / Rebirth
 Cyborg Superman,"{`"Prime(-| )Earth`"}",f,{1799},New 52 / Rebirth
 Cyborg Superman,{Rebirth},f,{1799},New 52 / Rebirth
-Doomsday,{DC},t,{1801},DC
-Doomsday,{Flashpoint},t,{1801},DC
-Doomsday,"{`"Doomsday vs`"}",t,{1801},DC
-Doomsday,"{`"vs.? Doomsday`"}",t,{1801},DC
-Doomsday,"{`", ?Doomsday`"}",t,{1801},DC
-Doomsday,"{`"Composite Doomsday`"}",t,{1801},DC
-Doomsday,{comics?},t,{1801},DC
-Doomsday,"{`"Hunter(/| )Prey`"}",t,{1801},DC
 Doomsday,{PC},f,{1801},Post-Crisis
 Doomsday,"{`"Post(-| )?C(risis)?`"}",f,{1801},Post-Crisis
 Doomsday,"{`"New(-| )Earth`"}",f,{1801},Post-Crisis
@@ -7387,6 +7379,9 @@ Metallo,{Rebirth},f,{},New 52
 Reverse-Flash,"{`"New(-| )?52`"}",f,{8176},Rebirth
 Reverse-Flash,{Nu?-?52},f,{8176},Rebirth
 Reverse-Flash,"{`"Post(-| )52`"}",f,{8176},Rebirth
+Doomsday,{DC},t,"{1801,23625}",DC
+Doomsday,{Flashpoint},t,"{1801,23625}",DC
+Doomsday,"{`"Doomsday vs`"}",t,"{1801,23625}",DC
 Reverse-Flash,"{`"Prime(-| )Earth`"}",f,{8176},Rebirth
 Reverse-Flash,{Rebirth},f,{8176},Rebirth
 Skeleton,"{`"Skeleton Soldier Couldn't Protect the Dungeon`"}",f,{8177},Skeleton Soldier Couldn't Protect the Dungeon
@@ -12581,14 +12576,6 @@ Yamcha,"{`"Reincarnated as Yamcha`"}",f,{3317},Dragon Ball: That Time I Got Rein
 Hit,"{`"Hit ?\\(Dragon ?Ball`"}",f,{3295},Dragon Ball
 Korin,"{`"Korin Tower`"}",f,{3261},Dragon Ball
 Korin,"{`"Korin's Tower`"}",f,{3261},Dragon Ball
-Ginyu Force,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
-Ginyu Force,{DB(Z|S)?},t,{3262},Dragon Ball
-Recoome,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
-Recoome,{DB(Z|S)?},t,{3262},Dragon Ball
-Burter,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
-Burter,{DB(Z|S)?},t,{3262},Dragon Ball
-Guldo,"{`"Dragon ?Ball`"}",t,{3262},Dragon Ball
-Guldo,{DB(Z|S)?},t,{3262},Dragon Ball
 Android Saga,"{`"Dragon ?Ball`"}",t,{3263},Dragon Ball
 Android Saga,{DB(Z|S)?},t,{3263},Dragon Ball
 Cell Saga,"{`"Dragon ?Ball`"}",t,{3263},Dragon Ball
@@ -12649,6 +12636,13 @@ Erza Scarlet,"{`"Fairy Tale`"}",t,{3331},Fairy Tail
 Erza,"{`"Fairy Tail`"}",t,{3331},Fairy Tail
 Erza,"{`"Fairy Tale`"}",t,{3331},Fairy Tail
 Ezra,"{`"Fairy Tail`"}",f,{3331},Fairy Tail
+Ginyu Force,"{`"Dragon ?Ball`"}",t,"{23618,3262}",Dragon Ball
+Recoome,"{`"Dragon ?Ball`"}",t,"{23618,3262}",Dragon Ball
+Recoome,{DB(Z|S)?},t,"{23618,3262}",Dragon Ball
+Burter,"{`"Dragon ?Ball`"}",t,"{23618,3262}",Dragon Ball
+Burter,{DB(Z|S)?},t,"{23618,3262}",Dragon Ball
+Guldo,"{`"Dragon ?Ball`"}",t,"{23618,3262}",Dragon Ball
+Guldo,{DB(Z|S)?},t,"{23618,3262}",Dragon Ball
 Ezra,"{`"Fairy Tale`"}",f,{3331},Fairy Tail
 Ezra,{Natsu},f,{3331},Fairy Tail
 Gajeel Redfox,"{`"Fairy Tail`"}",t,{3332},Fairy Tail
@@ -20062,8 +20056,6 @@ Judge Dredd,"{`"2000 ?AD`"}",f,{22405},2000 AD
 Collector,"{`"Owl House`"}",f,{22406},The Owl House
 Bullseye,{199999},f,{12455},MCU
 Bullseye,"{`"Bullseye ?\\(Netflix`"}",f,{12455},MCU
-Ginyu,"{`"Dragon ?Ball`"}",t,"{22800,3262}",Dragon Ball
-Ginyu,{DB(Z|S)?},t,"{22800,3262}",Dragon Ball
 Reinhard,"{`"Dies Irae`"}",f,{},Dies Irae
 Reinhard,{Shinza},f,{},Dies Irae
 Reinhard,{Masadaverse},f,{},Dies Irae
@@ -29619,3 +29611,67 @@ Garfielf,"{`"Fist of the B0rf star`"}",f,{23614},Fist of the B0rf star
 Doomed,"{`"(Post(-| ))Flash(-| )?point`",Reiser}",f,{23615},Post-Flashpoint
 Captain Nemo,"{`"League of Extraordinary Gentlemen`"}",f,{23616},The League of Extraordinary Gentlemen
 Leatherface,"{`"Mortal Kombat`"}",f,{23617},Mortal Kombat
+Ginyu Force,{DB(Z|S)?},t,"{23618,3262}",Dragon Ball
+Ginyu,"{`"Dragon ?Ball`"}",t,"{23618,22800,3262}",Dragon Ball
+Ginyu,{DB(Z|S)?},t,"{23618,22800,3262}",Dragon Ball
+Spandam,"{`"One ?Piece?`"}",t,{23619},One Piece
+Tom,"{`"One ?Piece?`"}",f,{23620},One Piece
+Harry Dresden,"{`"Dresden Files`",`"TV (Shows?|Series)`"}",f,{23621},The Dresden Files TV Series
+Iron Man,"{`"Iron Monarch`"}",f,{23622},42777
+Iron Man,{42777},f,{23622},42777
+The Beatles,"{`"song lyrics`"}",t,{23623},""
+Mike,"{`"Until Dawn`"}",f,{23624},Until Dawn
+Mike,"{`"Mike Munroe`"}",f,{23624},Until Dawn
+Doomsday,"{`"(Post(-| ))Flash(-| )?point`"}",f,{23625},Post-Flashpoint
+Falling Devil,"{`"Chainsaw(-| )?Man`"}",t,{23626},Chainsaw Man
+White Dragon,{616},f,{23627},616
+Tigerzord,"{`"Power Rangers?`"}",t,{23628},Power Rangers
+Transforming Bot,"{`"Xiaolin Showdown`"}",f,{23629},Xiaolin Showdown
+Transforming Bot,"{`"Shen Gong Wu`"}",f,{23629},Xiaolin Showdown
+Robo-Jack Spicers,"{`"Xiaolin Showdown`"}",t,{23630},Xiaolin Showdown
+Robo-Jack Spicers,"{`"Shen Gong Wu`"}",t,{23630},Xiaolin Showdown
+Dude-Bot,"{`"Xiaolin Showdown`"}",f,{23631},Xiaolin Showdown
+Dude-Bot,"{`"Shen Gong Wu`"}",f,{23631},Xiaolin Showdown
+Chameleon-Bot,"{`"Xiaolin Showdown`"}",f,{23632},Xiaolin Showdown
+Chameleon-Bot,"{`"Shen Gong Wu`"}",f,{23632},Xiaolin Showdown
+Golden Tiger Claws,"{`"Xiaolin Showdown`"}",t,{23633},Xiaolin Showdown
+Golden Tiger Claws,"{`"Shen Gong Wu`"}",t,{23633},Xiaolin Showdown
+Reversing Mirror,"{`"Xiaolin Showdown`"}",f,{23634},Xiaolin Showdown
+Reversing Mirror,"{`"Shen Gong Wu`"}",f,{23634},Xiaolin Showdown
+Sword of the Storm,"{`"Xiaolin Showdown`"}",t,{23635},Xiaolin Showdown
+Sword of the Storm,"{`"Shen Gong Wu`"}",t,{23635},Xiaolin Showdown
+Shroud of Shadows,"{`"Xiaolin Showdown`"}",f,{23636},Xiaolin Showdown
+Shroud of Shadows,"{`"Shen Gong Wu`"}",f,{23636},Xiaolin Showdown
+Changing Chopsticks,"{`"Xiaolin Showdown`"}",t,{23637},Xiaolin Showdown
+Changing Chopsticks,"{`"Shen Gong Wu`"}",t,{23637},Xiaolin Showdown
+Silk Spitter,"{`"Xiaolin Showdown`"}",f,{23638},Xiaolin Showdown
+Silk Spitter,"{`"Shen Gong Wu`"}",f,{23638},Xiaolin Showdown
+Mantis Flip Coin,"{`"Xiaolin Showdown`"}",t,{23639},Xiaolin Showdown
+Mantis Flip Coin,"{`"Shen Gong Wu`"}",t,{23639},Xiaolin Showdown
+Lotus Twister,"{`"Xiaolin Showdown`"}",t,{23640},Xiaolin Showdown
+Lotus Twister,"{`"Shen Gong Wu`"}",t,{23640},Xiaolin Showdown
+Monkey Staff,"{`"Xiaolin Showdown`"}",f,{23641},Xiaolin Showdown
+Monkey Staff,"{`"Shen Gong Wu`"}",f,{23641},Xiaolin Showdown
+Armen Ikarus,"{`"\\(DC( Comics)?\\)`"}",t,{23642},DC
+Armen Ikarus,"{`"\\[DC( Comics)?\\]`"}",t,{23642},DC
+Armen Ikarus,"{`"New(-| )?52`"}",f,{23642},New 52
+Armen Ikarus,{Nu?-?52},f,{23642},New 52
+Armen Ikarus,"{`"Post(-| )52`"}",f,{23642},New 52
+Armen Ikarus,"{`"Prime(-| )Earth`"}",f,{23642},New 52
+Armen Ikarus,{Rebirth},f,{23642},New 52
+Joshua Walker,"{`"\\(DC( Comics)?\\)`"}",f,{23643},DC
+Joshua Walker,"{`"\\[DC( Comics)?\\]`"}",f,{23643},DC
+Joshua Walker,{PC},f,{23643},Post-Crisis
+Joshua Walker,"{`"Posts?(-| )?C(risis)?`"}",f,{23643},Post-Crisis
+Joshua Walker,"{`"New(-| )Earth`"}",f,{23643},Post-Crisis
+God,"{`"Prince of Egypt`"}",f,{23644},The Prince of Egypt
+Moses,"{`"Prince of Egypt`"}",f,{23644},The Prince of Egypt
+Jesus,"{`"Jesus'? Betrayal`",`"What Really Went Down`"}",f,{23645},Jesus' Betrayal : What Really Went Down
+Spawn,"{`"Mortal Kombat`"}",f,{23646},Mortal Kombat
+Adeptus Custodes,{(WH)?40K},f,{23647},Warhammer 40k
+Adeptus Custodes,{Warhammer},f,{23647},Warhammer 40k
+Doomsday,"{`"vs.? Doomsday`"}",t,"{1801,23625}",DC
+Doomsday,"{`", ?Doomsday`"}",t,"{1801,23625}",DC
+Doomsday,"{`"Composite Doomsday`"}",t,"{1801,23625}",DC
+Doomsday,{comics?},t,"{1801,23625}",DC
+Doomsday,"{`"Hunter(/| )Prey`"}",t,"{1801,23625}",DC
