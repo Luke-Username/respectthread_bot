@@ -107,6 +107,76 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Butler'],
+'Butler',
+False,
+False,
+[
+    ['Artemis Fowl']
+],
+'Artemis Fowl',
+'{5766}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/12fqpuk/the_avengers_are_replaced_by_this_yafiction_team/jfgn56w/?context=3
+
+########################################
+
+add_data(['Terraria (Protagonist|Guy)'],
+'Terrarian',
+False,
+True,
+[
+    ['\(Terraria\)']
+],
+'Terraria',
+'{5497}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/12fqmot/terraria_protagonist_runs_an_anime_gauntlet/jfgmadq/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Urouge, the Mad Monk! (One Piece)', 'https://redd.it/12epks0')
+add_data(['Urouge'],
+'Urouge',
+False,
+True,
+[
+    ['One ?Piece?'], ['Mad Monk']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12epks0/respect_urouge_the_mad_monk_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Elzar Mann (Star Wars Canon)', 'https://redd.it/12f5bx5')
+add_data(['Elzar Mann'],
+'Elzar Mann',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12f5bx5/respect_elzar_mann_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jack Spicer, Evil Boy Genius! (Xiaolin Showdown)', 'https://redd.it/12fum2w')
+add_data(['Jack Spicer'],
+'Jack Spicer',
+False,
+True,
+[
+    ['Xiaolin Showdown']
+],
+'Xiaolin Showdown',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12fum2w/respect_jack_spicer_evil_boy_genius_xiaolin/
 
 ########################################
 
