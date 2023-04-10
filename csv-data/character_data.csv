@@ -14752,12 +14752,6 @@ Perpetua,{Beyonder},t,{14410},DC
 Perpetua,{HOTU},t,{14410},DC
 Perpetua,{(over|anti)?monitor},t,{14410},DC
 Bye Bye Man,{default},t,{14411},""
-The Boulder,{Avatar},t,{14412},Avatar: TLA
-The Boulder,{A?TLA},t,{14412},Avatar: TLA
-The Boulder,"{`"Air(-| )bender`"}",t,{14412},Avatar: TLA
-The Boulder,{Aang},t,{14412},Avatar: TLA
-The Boulder,{Korra},t,{14412},Avatar: TLA
-The Boulder,{A?T?LOK},t,{14412},Avatar: TLA
 Seras Victoria,{Abridged},f,{14413},Hellsing Ultimate Abridged
 Ultra Fishbunjin 3000,{Ludosity},t,{14414},Ludosity
 Ultra Fishbunjin 3000,"{`"Slap City`"}",t,{14414},Ludosity
@@ -29675,3 +29669,23 @@ Doomsday,"{`", ?Doomsday`"}",t,"{1801,23625}",DC
 Doomsday,"{`"Composite Doomsday`"}",t,"{1801,23625}",DC
 Doomsday,{comics?},t,"{1801,23625}",DC
 Doomsday,"{`"Hunter(/| )Prey`"}",t,"{1801,23625}",DC
+The Boulder,{Avatar},f,{14412},Avatar: TLA
+The Boulder,{A?TLA},f,{14412},Avatar: TLA
+The Boulder,"{`"Air(-| )bender`"}",f,{14412},Avatar: TLA
+The Boulder,{Aang},f,{14412},Avatar: TLA
+The Boulder,{Korra},f,{14412},Avatar: TLA
+The Boulder,{A?T?LOK},f,{14412},Avatar: TLA
+Butler,"{`"Artemis Fowl`"}",f,{5766},Artemis Fowl
+Terrarian,"{`"\\(Terraria\\)`"}",t,{5497},Terraria
+Urouge,"{`"One ?Piece?`"}",t,{23648},One Piece
+Urouge,"{`"Mad Monk`"}",t,{23648},One Piece
+Elzar Mann,"{`"S(tar )?Wars`"}",t,{23649},Star Wars
+Jack Spicer,"{`"Xiaolin Showdown`"}",t,{23650},Xiaolin Showdown
+Phyrexians,"{`"Magic:? The Gathering`"}",t,{16602},Magic: The Gathering
+Phyrexians,{M:?TG},t,{16602},Magic: The Gathering
+Super Trans Support Group,{616},t,{23651},616
+Super Trans Support Group,{Marvel},t,{23651},616
+Escapade,"{`"Escapade ?\\(616`"}",f,{23652},616
+Escapade,"{Shela,Sexton}",f,{23652},616
+Kroc,"{`"Tiny Titans`"}",f,{23653},Tiny Titans
+Easter Ripper,"{`"Murder House`"}",t,{23654},Murder House
