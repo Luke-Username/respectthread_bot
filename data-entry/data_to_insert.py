@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Natasha Romanoff, War Widow (Marvel, 616)', 'https://redd.it/12hq60r')
+add_data(['War Widow'],
+'War Widow',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12hq60r/respect_natasha_romanoff_war_widow_marvel_616/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
