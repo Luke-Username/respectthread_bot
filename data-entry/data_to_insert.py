@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3088, 'Respect Asta! (Black Clover)', 'https://redd.it/12h2tym')
+
+########################################
+
 add_data(['Butler'],
 'Butler',
 False,
@@ -177,6 +181,80 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/12fum2w/respect_jack_spicer_evil_boy_genius_xiaolin/
+
+########################################
+
+add_data(['Phyrexians?'],
+'Phyrexians',
+True,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG']
+],
+'Magic: The Gathering',
+'{16602}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/12fpvyb/orks_40k_vs_phyrexians_magic_the_gathering/jfi77u5/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Super Trans Support Group (Marvel, Earth-616)', 'https://redd.it/12g5ssg')
+add_data(['Super Trans Support Group'],
+'Super Trans Support Group',
+True,
+True,
+[
+    ['616'], ['Marvel']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12g5ssg/respect_the_super_trans_support_group_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Escapade (Marvel, Earth-616)', 'https://redd.it/12g67yf')
+add_data(['Escapade'],
+'Escapade',
+False,
+False,
+[
+    ['Escapade ?\(616'], ['Shela', 'Sexton']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12g67yf/respect_escapade_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, '[Respect] Kroc (Tiny Titans)', 'https://redd.it/12gqq7t')
+add_data(['Kroc'],
+'Kroc',
+False,
+False,
+[
+    ['Tiny Titans']
+],
+'Tiny Titans',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12gqq7t/respect_kroc_tiny_titans/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Easter Ripper! (Murder House)', 'https://redd.it/12gsw9n')
+add_data(['Easter Ripper'],
+'Easter Ripper',
+False,
+True,
+[
+    ['Murder House']
+],
+'Murder House',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12gsw9n/respect_the_easter_ripper_murder_house/
 
 ########################################
 
