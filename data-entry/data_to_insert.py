@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4025, 'Respect Enel! (One Piece)', 'https://redd.it/12ivso7')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Natasha Romanoff, War Widow (Marvel, 616)', 'https://redd.it/12hq60r')
 add_data(['War Widow'],
 'War Widow',
@@ -119,6 +123,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/12hq60r/respect_natasha_romanoff_war_widow_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cid Kagenou! (The Eminence in Shadow, Anime)', 'https://redd.it/12imzxl')
+add_data(['Cid Kagenou'],
+'Cid Kagenou',
+False,
+True,
+[
+    ['Eminence in Shadow']
+],
+'The Eminence in Shadow',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
