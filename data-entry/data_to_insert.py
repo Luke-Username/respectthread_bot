@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 4025, 'Respect Enel! (One Piece)', 'https://redd.it/12ivso7')
+update_respectthread(cur, 22406, 'Respect The Collector! (The Owl House)', 'https://redd.it/12jompo')
 
 ########################################
 
@@ -126,7 +127,9 @@ False,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Cid Kagenou! (The Eminence in Shadow, Anime)', 'https://redd.it/12imzxl')
+id1 = get_rt_id(cur, 'Respect Cid Kagenou! (The Eminence in Shadow, Light Novel)', 'https://redd.it/12ktqd5')
+id2 = get_rt_id(cur, 'Respect Cid Kagenou! (The Eminence in Shadow, Manga)', 'https://redd.it/12joz35')
+id3 = get_rt_id(cur, 'Respect Cid Kagenou! (The Eminence in Shadow, Anime)', 'https://redd.it/12imzxl')
 add_data(['Cid Kagenou'],
 'Cid Kagenou',
 False,
@@ -135,9 +138,83 @@ True,
     ['Eminence in Shadow']
 ],
 'The Eminence in Shadow',
-'{' + '{}'.format(id) + '}'
+'{' + '{}, {}, {}'.format(id1, id2, id3) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sonic! (Sonic the Comic)', 'https://redd.it/12jlr37')
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Sonic the Comic']
+],
+'Sonic the Comic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12jlr37/respect_sonic_sonic_the_comic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Super Sonic! (Sonic the Comic)', 'https://redd.it/12kp5kg')
+add_data(['Super Sonic'],
+'Super Sonic',
+False,
+False,
+[
+    ['Sonic the Comic']
+],
+'Sonic the Comic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12kp5kg/respect_super_sonic_sonic_the_comic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tokura Ryuji "The T.Rex" (Baki: Gaiden Scarface)', 'https://redd.it/12k0si7')
+add_data(['Ry(ū|u)u?ji Tokura|Tokura Ry(ū|u)u?ji'],
+'Ryūji Tokura',
+False,
+True,
+[
+    ['Baki(verse)?']
+],
+'Baki',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12k0si7/respect_tokura_ryuji_the_trex_baki_gaiden_scarface/
+
+########################################
+
+id = get_rt_id(cur, 'Respect George! (Rampage 2018 Movie)', 'https://redd.it/12kwyol')
+add_data(['George'],
+'George',
+False,
+False,
+[
+    ['Rampage Movie'], ['Rampage', '2018']
+],
+'Rampage, 2018',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12kwyol/respect_george_rampage_2018_movie/
+
+########################################
+
+add_data(['George'],
+'George',
+False,
+False,
+[
+    ['George ?\(Rampage\)']
+],
+'Rampage games',
+'{5688}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12kwyol/respect_george_rampage_2018_movie/
 
 ########################################
 
