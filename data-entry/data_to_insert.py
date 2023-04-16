@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 4025, 'Respect Enel! (One Piece)', 'https://redd.it/12ivso7')
 update_respectthread(cur, 22406, 'Respect The Collector! (The Owl House)', 'https://redd.it/12jompo')
+update_respectthread(cur, 13142, 'Respect Pegasus/Sagittarius Seiya [Saint Seiya, Anime]', 'https://redd.it/12mwsj1')
 
 ########################################
 
@@ -156,6 +157,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/12jlr37/respect_sonic_sonic_the_comic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tails! (Sonic the Comic)', 'https://redd.it/12nawb6')
+add_data(['Tails'],
+'Tails',
+False,
+False,
+[
+    ['Sonic the Comic']
+],
+'Sonic the Comic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12nawb6/respect_tails_sonic_the_comic/
 
 ########################################
 
@@ -215,6 +231,125 @@ False,
 '{5688}'
 )
 #https://www.reddit.com/r/respectthreads/comments/12kwyol/respect_george_rampage_2018_movie/
+
+########################################
+
+add_data(['Alexandria'],
+'Alexandria',
+False,
+False,
+[
+    ['Worm']
+],
+'Worm',
+'{6111}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/12lxdrf/omniman_invincible_vs_alexandria_worm/jg88efu/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Heartless One (Fear & Hunger 2: Termina)', 'https://redd.it/12l8xxi')
+add_data(['Heartless One'],
+'Heartless One',
+False,
+False,
+[
+    ['Fear (&|and) Hunger']
+],
+'Fear & Hunger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12l8xxi/respect_the_heartless_one_fear_hunger_2_termina/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Magdalena! (Top Cow Comics)', 'https://redd.it/12m2owy')
+add_data(['Magdalena'],
+'Magdalena',
+False,
+False,
+[
+    ['Top Cow']
+],
+'Top Cow',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12m2owy/respect_the_magdalena_top_cow_comics/
+
+########################################
+
+id = get_rt_id(cur, "Respect the St. John Family! (TellTale''s The Walking Dead)", 'https://redd.it/12m6rs7')
+add_data(['St\.? John family'],
+'St. John family',
+False,
+False,
+[
+    ['Wa(lk|kl)ing Dead']
+],
+'The Walking Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12m6rs7/respect_the_st_john_family_telltales_the_walking/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Deebo! (Friday)', 'https://redd.it/12nay3w')
+add_data(['Deebo'],
+'Deebo',
+False,
+False,
+[
+    ['Friday']
+],
+'Friday',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12nay3w/respect_deebo_friday/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Thundersaurus Megazord (Power Rangers Dino Thunder)', 'https://redd.it/12nkp7v')
+add_data(['Thundersaurus Megazord'],
+'Thundersaurus Megazord',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12nkp7v/respect_the_thundersaurus_megazord_power_rangers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rokash Rampersad! (Ordeal)', 'https://redd.it/12nq42j')
+add_data(['Rokash Rampersad'],
+'Rokash Rampersad',
+False,
+True,
+[
+    ['Ordeal']
+],
+'Ordeal',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12nq42j/respect_rokash_rampersad_ordeal/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-3740, Mightiest Ashur! (SCP Foundation)', 'https://redd.it/12nq9ue')
+add_data(['SCP ?(-| )? ?3740'],
+'SCP-3740',
+False,
+True,
+[
+    ['SCP Foundation']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12nq9ue/respect_scp3740_mightiest_ashur_scp_foundation/
 
 ########################################
 

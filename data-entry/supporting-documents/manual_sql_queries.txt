@@ -18,6 +18,10 @@ UPDATE character SET default_name='Humungousaur' WHERE default_name='Humungosaur
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Percy Jackson respect thread', 'https://comicvine.gamespot.com/forums/gen-discussion-1/percy-jackson-respect-thread-2091244/'); SELECT * FROM respectthread WHERE link='https://comicvine.gamespot.com/forums/gen-discussion-1/percy-jackson-respect-thread-2091244/';
+INSERT INTO respectthread (title, link) VALUES ('Respect Percy Jackson', 'https://respectinsertnamehere.quora.com/Respect-Percy-Jackson-1';
+UPDATE character SET rt_id_array='{5905, ?1, ?2}' WHERE rt_id_array='{5905}'
+
 ########################################
 
 ########################################
