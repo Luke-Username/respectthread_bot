@@ -13595,8 +13595,6 @@ Power Girl,"{`"Earth(-| )(1|One)`"}",f,{12480},Post-Crisis
 Power Girl,"{`"Post(-| )?C(risis)?`"}",f,{12480},Post-Crisis
 Power Girl,"{`"New(-| )Earth`"}",f,{12480},Post-Crisis
 Power Girl,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{12480},DC
-Percy Jackson,"{`"Heroes of Olympus`"}",t,{5905},Heroes of Olympus
-Percy Jackson,"{`"Riordan(-| )?(verse)?`"}",t,{5905},Heroes of Olympus
 Sub-Zero,{Rovin},f,{12481},"Mortal Kombat, Rovin"
 Sub-Zero,"{`"Mortal Kombat Movies?`"}",f,{12482},Mortal Kombat Movies
 Sub-Zero,"{`"MK Movies?`"}",f,{12482},Mortal Kombat Movies
@@ -13624,6 +13622,7 @@ Kratos,{GOW},t,{5094},God of War
 Ultimate Professor X,{1610},t,{12491},1610
 Charles Xavier,"{`"X(avier)? ?\\(1610`"}",f,{12491},1610
 Death,"{`"Final Destination`"}",f,{12472},Final Destination
+Percy Jackson,"{`"Heroes of Olympus`"}",t,"{5905,23655,23656}",Heroes of Olympus
 Charles Xavier,"{`"\\(Ultimates?\\)`"}",f,{12491},1610
 Rumbling,{Titans?},f,{12492},Attack on Titan
 Rumbling,"{`"Shingeki no Kyojin`"}",f,{12492},Attack on Titan
@@ -21931,9 +21930,9 @@ Harry,{Kingsm(a|e)n},f,{16429},Kingsman
 Agent Whiskey,{Kingsm(a|e)n},t,{16430},Kingsman
 Whiskey,{Kingsm(a|e)n},f,{16430},Kingsman
 Horse,"{`"Winter'?s Tale`",2014}",f,{16431},"Winter's Tale, 2014"
-Humungosaur,"{`"Ben (10|Ten(nyson)?)`"}",t,{16404},Ben 10
 Trunks,{TFSA?},f,{16398},TeamFourStar
 Trunks,"{`"DBZ:? ?A`"}",f,{16398},TeamFourStar
+Humungousaur,"{`"Ben (10|Ten(nyson)?)`"}",t,{16404},Ben 10
 Jason Voorhees,"{`"Never Hike`"}",f,{16432},Never Hike Alone
 Jason,"{`"Never Hike`"}",f,{16432},Never Hike Alone
 Dog,"{`"Black Mirror`"}",f,{16433},Black Mirror
@@ -25537,7 +25536,6 @@ Bubbles,"{`"Power ?puff Girls`"}",f,{868},""
 Bubbles,{PPG},f,{868},""
 Buttercup,"{`"Power ?puff Girls`"}",f,{868},""
 Buttercup,{PPG},f,{868},""
-Humungosaur,{Omnitrix},t,{16404},Ben 10
 Xuanzang Sanzang,{Fate},t,{21215},Fate
 Hassan of the Serenity,{Fate},t,{21216},Fate
 Stelio Kontos,"{`"American Dad`"}",t,{21217},American Dad!
@@ -25552,6 +25550,7 @@ Spider-Men,{Andrew|Garfield},f,{113},The Amazing Spider-Man
 Peter Parker,{PS4},f,{15258},Insomniac's Spider-Man
 Kong,"{`"Kong ?\\(Skull Island`"}",f,{281},MonsterVerse
 Kong,"{`"Kong:? Skull Island`"}",f,{281},MonsterVerse
+Humungousaur,{Omnitrix},t,{16404},Ben 10
 Thor,"{Index,magician}",f,{15253},Toaru Majutsu no Index
 Yaza,"{`"Pok(e|é)m(o|a)n ReBurst`"}",f,{21223},Pokémon
 Gilgamesh,"{`"Epic of Gilgamesh`"}",t,{6148},The Epic of Gilgamesh
@@ -29689,3 +29688,20 @@ Escapade,"{`"Escapade ?\\(616`"}",f,{23652},616
 Escapade,"{Shela,Sexton}",f,{23652},616
 Kroc,"{`"Tiny Titans`"}",f,{23653},Tiny Titans
 Easter Ripper,"{`"Murder House`"}",t,{23654},Murder House
+Percy Jackson,"{`"Riordan(-| )?(verse)?`"}",t,"{5905,23655,23656}",Heroes of Olympus
+War Widow,{616},f,{23657},616
+Cid Kagenou,"{`"Eminence in Shadow`"}",t,"{23658,23659,23660}",The Eminence in Shadow
+Sonic,"{`"Sonic the Comic`"}",f,{23661},Sonic the Comic
+Tails,"{`"Sonic the Comic`"}",f,{23662},Sonic the Comic
+Super Sonic,"{`"Sonic the Comic`"}",f,{23663},Sonic the Comic
+Ryūji Tokura,{Baki(verse)?},t,{23664},Baki
+George,"{`"Rampage Movie`"}",f,{23665},"Rampage, 2018"
+George,"{Rampage,2018}",f,{23665},"Rampage, 2018"
+George,"{`"George ?\\(Rampage\\)`"}",f,{5688},Rampage games
+Alexandria,{Worm},f,{6111},Worm
+Heartless One,"{`"Fear (&|and) Hunger`"}",f,{23666},Fear & Hunger
+Magdalena,"{`"Top Cow`"}",f,{23667},Top Cow
+St. John family,"{`"Wa(lk|kl)ing Dead`"}",f,{23668},The Walking Dead
+Deebo,{Friday},f,{23669},Friday
+Thundersaurus Megazord,"{`"Power Rangers?`"}",t,{23670},Power Rangers
+Rokash Rampersad,{Ordeal},t,{23671},Ordeal
