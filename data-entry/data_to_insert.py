@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Absalom (One Piece)', 'https://redd.it/12nsvky')
+add_data(['Absalom'],
+'Absalom',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12nsvky/respect_absalom_one_piece/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
