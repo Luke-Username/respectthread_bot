@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1998, 'Respect Sentry! (Marvel, 616) [Pre-Siege]', 'https://redd.it/12pkjc3')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Absalom (One Piece)', 'https://redd.it/12nsvky')
 add_data(['Absalom'],
 'Absalom',
@@ -119,6 +123,171 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/12nsvky/respect_absalom_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dellinger (One Piece)', 'https://redd.it/12oixl1')
+add_data(['Dellinger'],
+'Dellinger',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12oixl1/respect_dellinger_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rolo Lamperouge! (Code Geass (Anime Timeline))', 'https://redd.it/12okpwd')
+add_data(['Rolo'],
+'Rolo',
+False,
+False,
+[
+    ['Lamperouge'], ['Code Geass']
+],
+'Code Geass',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12okpwd/respect_rolo_lamperouge_code_geass_anime_timeline/
+
+########################################
+
+id = get_rt_id(cur, 'The 98th Emperor of the Holy Britannian Empire, Charles zi Britannia (Code Geass (Anime Timeline))', 'https://redd.it/12oqgn5')
+add_data(['Charles (zi|of) Britannia'],
+'Charles zi Britannia',
+False,
+True,
+[
+    ['Code Geass']
+],
+'Code Geass',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12oqgn5/the_98th_emperor_of_the_holy_britannian_empire/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Paul "Pigeon" Bowlen! (The Candy Shop War)', 'https://redd.it/12omxx6')
+add_data(['Pigeon'],
+'Pigeon',
+False,
+False,
+[
+    ['Candy Shop War']
+],
+'The Candy Shop War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12omxx6/respect_paul_pigeon_bowlen_the_candy_shop_war/
+
+########################################
+
+id = get_rt_id(cur, 'Respect John Dart! (The Candy Shop War)', 'https://redd.it/12omzmg')
+add_data(['John Dart'],
+'John Dart',
+False,
+False,
+[
+    ['Candy Shop War']
+],
+'The Candy Shop War',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect M.O.D.O.K. (Marvel Cinematic Universe)', 'https://redd.it/12omzy4')
+add_data(['M\.?O\.?D\.?O\.?K'],
+'M.O.D.O.K',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12omzy4/respect_modok_marvel_cinematic_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect John Smith (Hitman: Agent 47)', 'https://redd.it/12oot77')
+add_data(['John Smith'],
+'John Smith',
+False,
+False,
+[
+    ['Hitman']
+],
+'Hitman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12oot77/respect_john_smith_hitman_agent_47/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Knuckles! (Sonic the Comic)', 'https://redd.it/12owyyq')
+add_data(['Knuckles'],
+'Knuckles',
+False,
+False,
+[
+    ['Sonic the Comic']
+],
+'Sonic the Comic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12owyyq/respect_knuckles_sonic_the_comic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jake Vietnam (The Hidden Wizard)', 'https://redd.it/12plru5')
+add_data(['Jake Vietnam'],
+'Jake Vietnam',
+False,
+True,
+[
+    ['The Hidden Wizard']
+],
+'The Hidden Wizard',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12plru5/respect_jake_vietnam_the_hidden_wizard/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Thing (The Thing from Another World)', 'https://redd.it/12pjruz')
+add_data(['The Thing'],
+'The Thing',
+False,
+False,
+[
+    ['from Another World']
+],
+'The Thing from Another World',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12pjruz/respect_the_thing_the_thing_from_another_world/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sentry! (Marvel, 21119, What If Norman Osborn Won Siege)', 'https://redd.it/12pk142')
+add_data(['Sentry'],
+'Sentry',
+False,
+False,
+[
+    ['21119'], ['What If', 'Norman Osborn Won.*Siege']
+],
+'21119',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12pk142/respect_sentry_marvel_21119_what_if_norman_osborn/
 
 ########################################
 
