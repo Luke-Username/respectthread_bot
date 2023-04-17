@@ -156,6 +156,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Kallen Kozuki! (Code Geass (Anime Timeline))', 'https://redd.it/12pry8l')
+add_data(['Kallen'],
+'Kallen',
+False,
+False,
+[
+    ['Code Geass'], ['Guren'], ['Kozuki|Stadtfeld']
+],
+'Code Geass',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12pry8l/respect_kallen_kozuki_code_geass_anime_timeline/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jeremiah Gottwald! (Code Geass (Anime Timeline))', 'https://redd.it/12ptgvn')
+add_data(['Jeremiah'],
+'Jeremiah',
+False,
+False,
+[
+    ['Code Geass'], ['Cyborg Jeremiah'], ['Gottwald']
+],
+'Code Geass',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12ptgvn/respect_jeremiah_gottwald_code_geass_anime/
+
+########################################
+
 id = get_rt_id(cur, 'The 98th Emperor of the Holy Britannian Empire, Charles zi Britannia (Code Geass (Anime Timeline))', 'https://redd.it/12oqgn5')
 add_data(['Charles (zi|of) Britannia'],
 'Charles zi Britannia',
@@ -183,6 +213,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/12omxx6/respect_paul_pigeon_bowlen_the_candy_shop_war/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Trevor! (The Candy Shop War)', 'https://redd.it/12pyjk1')
+add_data(['Trevor'],
+'Trevor',
+False,
+False,
+[
+    ['Candy Shop War']
+],
+'The Candy Shop War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12pyjk1/respect_trevor_the_candy_shop_war/
 
 ########################################
 
@@ -288,6 +333,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/12pk142/respect_sentry_marvel_21119_what_if_norman_osborn/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gaismagorm! (Monster Hunter)', 'https://redd.it/12pudji')
+add_data(['Gaismagorm'],
+'Gaismagorm',
+False,
+True,
+[
+    ['Monster Hunter']
+],
+'Monster Hunter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12pudji/respect_gaismagorm_monster_hunter/
 
 ########################################
 
