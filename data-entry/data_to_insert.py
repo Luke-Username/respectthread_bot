@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6025, 'Respect: Kharn the Betrayer (Warhammer 40k)', 'https://redd.it/12q817t')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sanford! (Madness Combat)', 'https://redd.it/12qm5n1')
+add_data(['Sanford'],
+'Sanford',
+False,
+False,
+[
+    ['Madness']
+],
+'Madness Combat',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yukihiko Higetsu, the End of Miracles! (Heir to the Stars: Adam Conquest)', 'https://redd.it/12qp7ht')
+add_data(['Yukihiko Higetsu'],
+'Yukihiko Higetsu',
+False,
+True,
+[
+    ['Suggs(verse)?'], ['Heir to the Stars']
+],
+'Suggsverse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12qp7ht/respect_yukihiko_higetsu_the_end_of_miracles_heir/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
