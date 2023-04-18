@@ -351,6 +351,33 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Rogol Zaar (DC Comics, Post-Flashpoint)', 'https://redd.it/12q3isr')
+add_data(['Rogol Zaar'],
+'Rogol Zaar',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12q3isr/respect_rogol_zaar_dc_comics_postflashpoint/
+
+add_data(['Rogol Zaar'],
+'Rogol Zaar',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12q3isr/respect_rogol_zaar_dc_comics_postflashpoint/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
