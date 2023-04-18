@@ -11485,13 +11485,6 @@ Wanda Maximoff,{616},t,{1997},616
 Wanda Maximoff,{Marvel},t,{1997},616
 Wanda Maximoff,{comics?},t,{1997},616
 Wanda Maximoff,"{`"House of M`"}",t,{1997},616
-Sentry,{616},t,{1998},616
-Sentry,{Marvel},t,{1998},616
-Sentry,{comics?},t,{1998},616
-Sentry,{void},t,{1998},616
-Sentry,"{`"Death Seed`"}",t,{1998},616
-Sentry,{TF2},f,{5483},TF2
-Sentry,"{`"Team Fortress`"}",f,{5483},TF2
 Spectrum,{616},f,{1999},616
 Spectrum,{Marvel},f,{1999},616
 Spectrum,{Monica},f,{1999},616
@@ -11509,6 +11502,10 @@ Vision,"{`"The Vision`"}",f,{2002},616
 Vision,"{`"Martian Manhunter`"}",f,{2002},616
 Wonder Man,{616},t,{2003},616
 Wonder Man,{Marvel},t,{2003},616
+Sentry,{616},f,"{23674,1998}",616
+Sentry,{Marvel},f,"{23674,1998}",616
+Sentry,{TF2},f,{5483},TF2
+Sentry,"{`"Team Fortress`"}",f,{5483},TF2
 Wonder Man,{comics?},t,{2003},616
 Finesse,"{`"Finesse \\(616\\)`"}",f,{2004},616
 Finesse,"{`"Finesse \\[616\\]`"}",f,{2004},616
@@ -17358,8 +17355,6 @@ Asthma Monster,{Marvel},t,{13330},616
 Alexsandr Kallus,"{`"Star ?Wars`"}",t,{13331},Star Wars
 Tatsumaki,{Tatsumaki.*Destroyer},f,{},""
 Alexsandr Kallus,{SWars},t,{13331},Star Wars
-Ki-Adi-Mundi,"{`"Star ?Wars`"}",t,{13331},Star Wars
-Ki-Adi-Mundi,{SWars},t,{13331},Star Wars
 Sabine Wren,"{`"Star ?Wars`"}",t,{13332},Star Wars
 Sabine Wren,{SWars},t,{13332},Star Wars
 Edelgard von Hresvelg,"{`"Fire Emblem`"}",t,{13333},Fire Emblem
@@ -17419,6 +17414,8 @@ Sabine,{SWars},f,{13332},Star Wars
 Herbert West,{1985},f,{22705},Re-Animator
 Herbert West,"{`"Re(-| )Animator`"}",f,{22705},Re-Animator
 Herbert West,{Slashers?},f,{22705},Re-Animator
+Ki-Adi-Mundi,"{`"Star ?Wars`"}",t,{23673},Star Wars
+Ki-Adi-Mundi,{SWars},t,{23673},Star Wars
 Musician of the Forest,"{`"Magical Girl Raising Project`"}",t,"{3835,13349}",Magical Girl Raising Project
 Swim Swim,"{`"Magical Girl Raising Project`"}",t,"{3836,13350}",Magical Girl Raising Project
 Swim Swim,"{`"Mahou Shoujo Ikusei Keikaku`"}",t,"{3836,13350}",Magical Girl Raising Project
@@ -20226,7 +20223,6 @@ Hero,"{`"Sunset Overdrive`"}",f,{5731},Sunset Overdrive
 Protag,"{`"Sunset Overdrive`"}",f,{5731},Sunset Overdrive
 Protagonist,"{`"Sunset Overdrive`"}",f,{5731},Sunset Overdrive
 Player,"{`"Sunset Overdrive`"}",f,{5731},Sunset Overdrive
-Supreme Commander,{default},t,{5733},""
 Clementine,"{`"Wa(lk|kl)ing Dead`"}",f,{5734},The Walking Dead
 Clementine,{TWD},f,{5734},The Walking Dead
 Clementine,{Lee},f,{5734},The Walking Dead
@@ -20257,6 +20253,7 @@ Terran,"{`"SC\\d?`"}",f,{},StarCraft
 Superhot,"{`"Super ?hot (Guy|Protag(onist)?|player|campaign|vs)`"}",f,{5732},""
 Superhot,{time},f,{5732},""
 Rick Taylor,{Splatterhouse},t,"{5720,23214}",Splatterhouse
+Supreme Commander,"{`"(Supreme Commander)`"}",f,{5733},""
 Nightmare Gabe,{VGCW},f,{5749},Video Game Championship Wrestling
 The Visitor,"{`"flash ?game`"}",f,{5750},""
 The Visitor,"{alien,eat(en)?}",f,{5750},""
@@ -29705,3 +29702,32 @@ St. John family,"{`"Wa(lk|kl)ing Dead`"}",f,{23668},The Walking Dead
 Deebo,{Friday},f,{23669},Friday
 Thundersaurus Megazord,"{`"Power Rangers?`"}",t,{23670},Power Rangers
 Rokash Rampersad,{Ordeal},t,{23671},Ordeal
+Sentry,{comics?},f,"{23674,1998}",616
+Sentry,{void},f,"{23674,1998}",616
+Sentry,"{`"Death Seed`"}",f,"{23674,1998}",616
+Absalom,"{`"One ?Piece?`"}",f,{23675},One Piece
+Dellinger,"{`"One ?Piece?`"}",t,{23676},One Piece
+Rolo,{Lamperouge},f,{23677},Code Geass
+Rolo,"{`"Code Geass`"}",f,{23677},Code Geass
+Kallen,"{`"Code Geass`"}",f,{23678},Code Geass
+Kallen,{Guren},f,{23678},Code Geass
+Kallen,{Kozuki|Stadtfeld},f,{23678},Code Geass
+Jeremiah,"{`"Code Geass`"}",f,{23679},Code Geass
+Jeremiah,"{`"Cyborg Jeremiah`"}",f,{23679},Code Geass
+Jeremiah,{Gottwald},f,{23679},Code Geass
+Charles zi Britannia,"{`"Code Geass`"}",t,{23680},Code Geass
+Pigeon,"{`"Candy Shop War`"}",f,{23681},The Candy Shop War
+Trevor,"{`"Candy Shop War`"}",f,{23682},The Candy Shop War
+John Dart,"{`"Candy Shop War`"}",f,{23683},The Candy Shop War
+M.O.D.O.K,"{`"Marvel Cinematic Universe`"}",f,{23684},MCU
+M.O.D.O.K,{MCU},f,{23684},MCU
+John Smith,{Hitman},f,{23685},Hitman
+Knuckles,"{`"Sonic the Comic`"}",f,{23686},Sonic the Comic
+Jake Vietnam,"{`"The Hidden Wizard`"}",t,{23687},The Hidden Wizard
+The Thing,"{`"from Another World`"}",f,{23688},The Thing from Another World
+Sentry,{21119},f,{23689},21119
+Sentry,"{`"What If`",`"Norman Osborn Won.*Siege`"}",f,{23689},21119
+Gaismagorm,"{`"Monster Hunter`"}",t,{23690},Monster Hunter
+Rogol Zaar,"{`"(Post(-| ))Flash(-| )?point`"}",f,{23691},Post-Flashpoint
+Rogol Zaar,"{`"\\(DC( Comics)?\\)`"}",t,{23691},DC
+Rogol Zaar,"{`"\\[DC( Comics)?\\]`"}",t,{23691},DC
