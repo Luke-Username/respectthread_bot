@@ -2242,6 +2242,12 @@ Monsters vs. Aliens
 	Displayed Version Name
 		"Monsters vs. Aliens"
 
+The Monument Mythos
+	Version
+		['Monument Mythos'], ['Nixonverse']
+	Displayed Version Name
+		"The Monument Mythos"
+
 Mortal Kombat
 	Version
 		'{"Mortal Kombat"}', r'{"MK\\d*"}'

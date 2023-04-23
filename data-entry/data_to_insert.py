@@ -108,6 +108,37 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 6025, 'Respect: Kharn the Betrayer (Warhammer 40k)', 'https://redd.it/12q817t')
+update_respectthread(cur, 1324, 'Respect Cinder Fall (RWBY)', 'https://redd.it/12qvfrf')
+update_respectthread(cur, 100, 'Respect Tommy Oliver (Power Rangers)', 'https://redd.it/12ro2bo')
+update_respectthread(cur, 15297, 'Respect Jason Lee Scott (Power Rangers)', 'https://redd.it/12w49oh')
+update_respectthread(cur, 483, 'Respect King Kong, The Eighth Wonder of the World! (King Kong 2005)', 'https://redd.it/12sfa0q')
+update_respectthread(cur, 2099, 'Respect Ghost Rider (Robbie Reyes) [616]', 'https://redd.it/12wa3zs')
+
+########################################
+
+add_data(['Barry All(e|a)n'],
+'Barry Allen',
+False,
+False,
+[
+    ['Keaton'], ['ZSJL'], ['Snyder']
+],
+'DCEU',
+'{21548}'
+)
+#https://www.reddit.com/r/respectthreads/comments/taz1sa/respect_the_flash_dceu/
+
+add_data(['Flash'],
+'Flash',
+False,
+False,
+[
+    ['Keaton'], ['ZSJL']
+],
+'DCEU',
+'{21548}'
+)
+#https://www.reddit.com/r/respectthreads/comments/taz1sa/respect_the_flash_dceu/
 
 ########################################
 
@@ -138,6 +169,391 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/12qp7ht/respect_yukihiko_higetsu_the_end_of_miracles_heir/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bevis of Hampton (Bevis of Hampton)', 'https://redd.it/12qy8q7')
+add_data(['Bevis of Hampton'],
+'Bevis of Hampton',
+False,
+True,
+[
+    ['romance']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12qy8q7/respect_bevis_of_hampton_bevis_of_hampton/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Suzaku Kururugi and the Lancelot! (Code Geass (Anime Timeline))', 'https://redd.it/12qyhj5')
+add_data(['Suzaku'],
+'Suzaku',
+False,
+False,
+[
+    ['Kururugi'], ['Lancelot']
+],
+'Code Geass',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12qyhj5/respect_suzaku_kururugi_and_the_lancelot_code/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Porter Engle (Star Wars Canon)', 'https://redd.it/12r8h9j')
+add_data(['Porter Engle'],
+'Porter Engle',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12r8h9j/respect_porter_engle_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gargoyle (Gargoyle of the Yoshinaga House)', 'https://redd.it/12ralmw')
+add_data(['Gargoyle'],
+'Gargoyle',
+False,
+False,
+[
+    ['Gargoyle of the Yoshinaga House']
+],
+'Gargoyle of the Yoshinaga House',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12ralmw/respect_gargoyle_gargoyle_of_the_yoshinaga_house/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rodrik “the Ruined” Forrester (Telltale’s Game of Thrones)', 'https://redd.it/12rg4zp')
+add_data(['Rodrik'],
+'Rodrik',
+False,
+False,
+[
+    ['Forrester'], ['Rodrik the Ruined'], ['Telltale']
+],
+"Telltale''s Game of Thrones",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12rg4zp/respect_rodrik_the_ruined_forrester_telltales/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Billy Cranston, the Blue Ranger (Power Rangers)', 'https://redd.it/12sycpv')
+add_data(['Billy Cranston'],
+'Billy Cranston',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12sycpv/respect_billy_cranston_the_blue_ranger_power/
+
+add_data(['Billy'],
+'Billy',
+False,
+False,
+[
+    ['Power Rangers?'], ['Blue Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12sycpv/respect_billy_cranston_the_blue_ranger_power/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kimberly Ann Hart, the Pink Ranger (Power Rangers)', 'https://redd.it/12tx6dx')
+add_data(['Kimberly( Ann)? Hart'],
+'Kimberly Ann Hart',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12tx6dx/respect_kimberly_ann_hart_the_pink_ranger_power/
+
+add_data(['Kimberly'],
+'Kimberly',
+False,
+False,
+[
+    ['Power Rangers?'], ['Pink Ranger']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12tx6dx/respect_kimberly_ann_hart_the_pink_ranger_power/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Trey of Triforia (Power Rangers Zeo)', 'https://redd.it/12v0jzi')
+add_data(['Trey of Triforia'],
+'Trey of Triforia',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12v0jzi/respect_trey_of_triforia_power_rangers_zeo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Joe Biden (The Stars and Strifes)', 'https://redd.it/12rszjy')
+add_data(['Joe Biden'],
+'Joe Biden',
+False,
+False,
+[
+    ['Stars and Strifes']
+],
+'The Stars and Strifes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12rszjy/respect_joe_biden_the_stars_and_strifes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Barack Obama (The Stars and Strifes)', 'https://redd.it/12rt1fp')
+add_data(['Obama'],
+'Obama',
+False,
+False,
+[
+    ['Stars and Strifes']
+],
+'The Stars and Strifes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12rt1fp/respect_barack_obama_the_stars_and_strifes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Donald Trump (The Stars and Strifes)', 'https://redd.it/12rt2o5')
+add_data(['Donald Trump'],
+'Donald Trump',
+False,
+False,
+[
+    ['Stars and Strifes']
+],
+'The Stars and Strifes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12rt2o5/respect_donald_trump_the_stars_and_strifes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shaggy (The Stars and Strifes)', 'https://redd.it/12rt48a')
+add_data(['Shaggy'],
+'Shaggy',
+False,
+False,
+[
+    ['Stars and Strifes']
+],
+'The Stars and Strifes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12rt48a/respect_shaggy_the_stars_and_strifes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lara Croft! (Tomb Raider (2018))', 'https://redd.it/12s3y7l')
+add_data(['Lara Croft'],
+'Lara Croft',
+False,
+False,
+[
+    ['2018']
+],
+'Tomb Raider, 2018',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12s3y7l/respect_lara_croft_tomb_raider_2018/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Summer Atler! (The Candy Shop War)', 'https://redd.it/12sab8y')
+add_data(['Summer Atler'],
+'Summer Atler',
+False,
+True,
+[
+    ['Candy Shop War']
+],
+'The Candy Shop War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12sab8y/respect_summer_atler_the_candy_shop_war/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Talos Valcoran, the Soul Hunter (Warhammer 40k)', 'https://redd.it/12sjdyl')
+add_data(['Talos Valcoran'],
+'Talos Valcoran',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12sjdyl/respect_talos_valcoran_the_soul_hunter_warhammer/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lim Lau (Chili and the Chocolate Factory: Fudge Revelation)', 'https://redd.it/12sytpd')
+add_data(['Lim Lau'],
+'Lim Lau',
+False,
+False,
+[
+    ['Chili and the Chocolate Factory']
+],
+'Chili and the Chocolate Factory',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12sytpd/respect_lim_lau_chili_and_the_chocolate_factory/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dr. Vegapunk! (One Piece)', 'https://redd.it/12t7rl7')
+add_data(['Vegapunk'],
+'Vegapunk',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12t7rl7/respect_dr_vegapunk_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Intruder (The Mandela Catalogue)', 'https://redd.it/12unaay')
+add_data(['The Intruder'],
+'The Intruder',
+False,
+False,
+[
+    ['Mandela Catalogue']
+],
+'The Mandela Catalogue',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12unaay/respect_the_intruder_the_mandela_catalogue/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Freedom (Monument Mythos)', 'https://redd.it/12v49kl')
+add_data(['Freedom'],
+'Freedom',
+False,
+False,
+[
+    ['Monument Mythos'], ['Nixonverse']
+],
+'The Monument Mythos',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12v49kl/respect_freedom_monument_mythos/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Last Son Of Alcatraz. (Monument Mythos)', 'https://redd.it/12whrxc')
+add_data(['Last Son'],
+'Last Son',
+False,
+False,
+[
+    ['Monument Mythos'], ['Nixonverse'],
+    ['Alcatraz']
+],
+'The Monument Mythos',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12whrxc/respect_the_last_son_of_alcatraz_monument_mythos/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the D-Day Knight (Monument Mythos)', 'https://redd.it/12w5jul')
+add_data(['D(-| )Day Knight'],
+'D-Day Knight',
+False,
+True,
+[
+    ['Monument Mythos'], ['Nixonverse']
+],
+'The Monument Mythos',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12w5jul/respect_the_dday_knight_monument_mythos/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Richard Nixon/The Moon God (Monument Mythos)', 'https://redd.it/12wna1g')
+add_data(['Nixon'],
+'Nixon',
+False,
+False,
+[
+    ['Monument Mythos'], ['Nixonverse']
+],
+'The Monument Mythos',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12wna1g/respect_richard_nixonthe_moon_god_monument_mythos/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Air Force One Angel (Monument Mythos)', 'https://redd.it/12vj08u')
+add_data(['Air Force One Angel'],
+'Air Force One Angel',
+False,
+True,
+[
+    ['Monument Mythos'], ['Nixonverse']
+],
+'The Monument Mythos',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12vj08u/respect_the_air_force_one_angel_monument_mythos/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Entity Zero (Creepypasta)', 'https://redd.it/12vf3iz')
+add_data(['Entity Zero'],
+'Entity Zero',
+False,
+False,
+[
+    ['Creepypasta']
+],
+'Creepypasta',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12vf3iz/respect_entity_zero_creepypasta/
 
 ########################################
 
