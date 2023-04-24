@@ -79,7 +79,6 @@ id,title,link
 96,Respect Mose Schrute (The Office),https://redd.it/7qmaxf
 98,Respect Team Machine (Person of Interest),https://redd.it/4pq9yz
 99,"Respect the King of Dong Style, Joey Ryan (Pro wrestling)",https://redd.it/9ebc6g
-100,Respect Tommy Oliver (Power Ranger),https://redd.it/89ct5t
 101,Respect Bill Brasky (Saturday Night Live),https://redd.it/60jh7l
 102,Respect David S. Pumpkins! (Saturday Night Live),https://redd.it/79ztm6
 104,Respect the Kull Warriors (Stargate SG-1),https://redd.it/4q4uhg
@@ -118,6 +117,7 @@ id,title,link
 139,Respect Angel Dust (Fox),https://redd.it/622dgx
 140,Respect Cable (FOX X-Men),https://redd.it/bhx29e
 141,Respect Callisto (X-Men: The Last Stand),https://redd.it/bzgpqq
+100,Respect Tommy Oliver (Power Rangers),https://redd.it/12ro2bo
 144,"Respect Wade Wilson, AKA Deadpool (X-Men Origins: Wolverine)",https://redd.it/93rdyj
 145,Respect Domino (FOX X-Men),https://redd.it/bhx3hp
 146,Respect Firefist (FOX X-Men),https://redd.it/bhx4eh
@@ -441,7 +441,6 @@ id,title,link
 480,Respect Judge Dredd (2012),https://redd.it/5rb1zo
 481,Respect Smolder Bravestone (Jumanji: Welcome to the Jungle),https://redd.it/by3nqu
 482,Respect Kazaam (Kazaam),https://redd.it/5rs4ii
-483,Respect King Kong (King Kong 2005),https://redd.it/bmc9pb
 490,Respect Zuko (Avatar: The Last Airbender),https://redd.it/v9xwp7
 485,Respect Gazelle (Kingsman: The Secret Service),https://redd.it/5s33vn
 486,Respect Krampus (Krampus),https://redd.it/64f3dt
@@ -467,6 +466,7 @@ id,title,link
 508,Respect The Mask! (The Mask/Son Of The Mask),https://redd.it/cafjz7
 426,Respect Newt Scamander! (Harry Potter Films),https://redd.it/nvwmra
 484,Respect Eggsy Unwin (Kingsman Movies),https://redd.it/fc4h2t
+483,"Respect King Kong, The Eighth Wonder of the World! (King Kong 2005)",https://redd.it/12sfa0q
 479,Respect John Wick (John Wick),https://redd.it/hsx48x
 507,Respect Mary Poppins! (Mary Poppins),https://redd.it/ocl9eu
 435,Respect Roy Burns (Friday the 13th A New Beginning),https://redd.it/isjp09
@@ -1250,7 +1250,6 @@ id,title,link
 1320,Respect Bartholomew Oobleck (RWBY),https://redd.it/71sqfg
 1321,Respect Blake Belladonna! (RWBY),https://redd.it/vdaan9
 1322,Respect Bolin Hori (RWBY),https://redd.it/72ttz3
-1324,Respect Cinder Fall (RWBY),https://redd.it/874c9m
 1327,Respect Flynt Coal (RWBY),https://redd.it/71l5jt
 1282,Respect Hank (Madness Combat),https://redd.it/cj5qg2
 1289,Respect Daredevil (Marvel Cinematic Universe),https://redd.it/hgx64y
@@ -1258,6 +1257,7 @@ id,title,link
 1315,Respect The Meta! (Red vs. Blue),https://redd.it/nvvves
 1308,Respect Agent Carolina (Red VS Blue),https://redd.it/iygrfs
 1284,Respect Tricky the Clown! (Madness Combat),https://redd.it/y4nqer
+1324,Respect Cinder Fall (RWBY),https://redd.it/12qvfrf
 1328,Respect Ghira Belladonna (RWBY),https://redd.it/b5cn4h
 1329,Respect Glynda Goodwitch (RWBY),https://redd.it/71sq1u
 1330,Respect the Grimm (RWBY),https://redd.it/739a1d
@@ -6442,7 +6442,6 @@ id,title,link
 15294,Respect Basil Hawkins (One Piece),https://redd.it/leh80f
 15295,Respect Fisher Tiger (One Piece),https://redd.it/l6arc7
 15296,Respect Sengoku (One Piece),https://redd.it/l3wnmc
-15297,Respect Jason Lee Scott (Power Rangers TV franchise),https://redd.it/l7b2tr
 15298,Respect Jason Lee Scott (Boom Comics! Mighty Morphin' Power Rangers0,https://redd.it/l2ncec
 15299,Respect Emmet Brickowski! (The LEGO Movie),https://redd.it/l2t03w
 15300,Respect the Monster Hunter (Marvel vs Capcom),https://redd.it/l2vp2o
@@ -6469,6 +6468,7 @@ id,title,link
 15321,Respect Cyclonus (And I Alone Have Escaped To Tell You),https://redd.it/l3swt8
 15322,Respect Commander Sazabi (Superior Defender Gundam Force),https://redd.it/l4qv6n
 15323,Respect Tallgeese (Superior Defender Gundam Force),https://redd.it/l5cuq5
+15297,Respect Jason Lee Scott (Power Rangers),https://redd.it/12w49oh
 15324,Respect Santa Claus(Chainsaw Man),https://redd.it/l4s477
 15329,Respect Juniper Lee (The Life and Times of Juniper Lee),https://redd.it/l4us8o
 15330,Respect Gigantomachia (My Hero Academia),https://redd.it/l510ph
@@ -6823,7 +6823,6 @@ id,title,link
 7605,Respect Madam Mim (The Sword In The Stone 1963 Animated Film),https://redd.it/ehzjn3
 7607,Respect Mimey (Pokemon Anime),https://redd.it/ei3oca
 7608,Respect Absol (Pokémon: Jirachi: Wish Maker),https://redd.it/eiauay
-6025,Respect: Kharn the Betrayer (Warhammer 40k),https://redd.it/eik433
 1400,Respect the Giant Rat (Rat Movie) [Jerma985],https://redd.it/eirxs9
 7609,"Respect Ebony Maw (Marvel, 616)",https://redd.it/eii2m8
 7610,Respect Devil Ray (Justice League Unlimited/DC Animated Universe),https://redd.it/ej2znc
@@ -6853,6 +6852,7 @@ id,title,link
 7634,Respect the New Super-Man: Kenan Kong (DC),https://redd.it/7pm3gu
 7635,Respect President Superman (DC Comics) [Earth 23],https://redd.it/ct4qyc
 7602,"Respect Jimmy Neutron (The Adventures of Jimmy Neutron, Boy Genius)",https://redd.it/11f8q78
+6025,Respect: Kharn the Betrayer (Warhammer 40k),https://redd.it/12q817t
 4807,Respect Squid Girl! (Shinryaku! Ika Musume),https://redd.it/emzkg7
 7684,Respect: Bender Bending Rodriguez (Futurama),https://redd.it/ekx9x2
 7685,"Respect Superman! (Injustice, DC Comics, Netherrealm Studios)",https://redd.it/el5xsc
@@ -8399,7 +8399,6 @@ id,title,link
 1131,Respect Mr. Incredible (The Incredibles),https://redd.it/fygb5s
 2568,"Respect Ultimate Spider-Man (Marvel, 1610)",https://redd.it/g222bu
 5428,Respect King Boo (Super Mario Bros),https://redd.it/g4bnjn
-2099,Respect Ghost Rider (Robbie Reyes) [616],https://redd.it/g4nbuz
 3835,"Respect Musician of the Forest, Cranberry (Magical Girl Raising Project) (Light Novel)",https://redd.it/g55izn
 5190,Respect Braum! (League of Legends),https://redd.it/g599jw
 3422,Respect Wrath (Fullmetal Alchemist 2003),https://redd.it/g5w5r5
@@ -12413,3 +12412,30 @@ id,title,link
 23689,"Respect Sentry! (Marvel, 21119, What If Norman Osborn Won Siege)",https://redd.it/12pk142
 23690,Respect Gaismagorm! (Monster Hunter),https://redd.it/12pudji
 23691,"Respect Rogol Zaar (DC Comics, Post-Flashpoint)",https://redd.it/12q3isr
+2099,Respect Ghost Rider (Robbie Reyes) [616],https://redd.it/12wa3zs
+23718,Respect Sanford! (Madness Combat),https://redd.it/12qm5n1
+23719,"Respect Yukihiko Higetsu, the End of Miracles! (Heir to the Stars: Adam Conquest)",https://redd.it/12qp7ht
+23720,Respect Bevis of Hampton (Bevis of Hampton),https://redd.it/12qy8q7
+23721,Respect Suzaku Kururugi and the Lancelot! (Code Geass (Anime Timeline)),https://redd.it/12qyhj5
+23722,Respect Porter Engle (Star Wars Canon),https://redd.it/12r8h9j
+23723,Respect Gargoyle (Gargoyle of the Yoshinaga House),https://redd.it/12ralmw
+23724,Respect Rodrik “the Ruined” Forrester (Telltale’s Game of Thrones),https://redd.it/12rg4zp
+23725,"Respect Billy Cranston, the Blue Ranger (Power Rangers)",https://redd.it/12sycpv
+23726,"Respect Kimberly Ann Hart, the Pink Ranger (Power Rangers)",https://redd.it/12tx6dx
+23727,Respect Trey of Triforia (Power Rangers Zeo),https://redd.it/12v0jzi
+23728,Respect Joe Biden (The Stars and Strifes),https://redd.it/12rszjy
+23729,Respect Barack Obama (The Stars and Strifes),https://redd.it/12rt1fp
+23730,Respect Donald Trump (The Stars and Strifes),https://redd.it/12rt2o5
+23731,Respect Shaggy (The Stars and Strifes),https://redd.it/12rt48a
+23732,Respect Lara Croft! (Tomb Raider (2018)),https://redd.it/12s3y7l
+23733,Respect Summer Atler! (The Candy Shop War),https://redd.it/12sab8y
+23734,"Respect: Talos Valcoran, the Soul Hunter (Warhammer 40k)",https://redd.it/12sjdyl
+23735,Respect Lim Lau (Chili and the Chocolate Factory: Fudge Revelation),https://redd.it/12sytpd
+23736,Respect Dr. Vegapunk! (One Piece),https://redd.it/12t7rl7
+23737,Respect the Intruder (The Mandela Catalogue),https://redd.it/12unaay
+23738,Respect Freedom (Monument Mythos),https://redd.it/12v49kl
+23739,Respect The Last Son Of Alcatraz. (Monument Mythos),https://redd.it/12whrxc
+23740,Respect the D-Day Knight (Monument Mythos),https://redd.it/12w5jul
+23741,Respect Richard Nixon/The Moon God (Monument Mythos),https://redd.it/12wna1g
+23742,Respect the Air Force One Angel (Monument Mythos),https://redd.it/12vj08u
+23743,Respect Entity Zero (Creepypasta),https://redd.it/12vf3iz
