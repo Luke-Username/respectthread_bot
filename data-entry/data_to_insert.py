@@ -107,6 +107,228 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Trunks'],
+'Trunks',
+False,
+False,
+[
+    ['Future Trunks']
+],
+'Dragon Ball',
+'{3284,22116}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/12xfhxs/future_trunks_and_buu_replace_tien_and_krillen/jhilg47/?context=3
+
+########################################
+
+add_data(['Ben'],
+'Ben',
+False,
+False,
+[
+    ['Rey', 'S(tar )?Wars']
+],
+'Star Wars',
+'{325, 12433}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Arika McClure (Fine Structure)', 'https://redd.it/12wy5gg')
+add_data(['Arika McClure'],
+'Arika McClure',
+False,
+True,
+[
+    ['Fine Structure']
+],
+'Fine Structure',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12wy5gg/respect_arika_mcclure_fine_structure/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jason Chilton (Fine Structure)', 'https://redd.it/12wy5x8')
+add_data(['Jason Chilton'],
+'Jason Chilton',
+False,
+False,
+[
+    ['Fine Structure']
+],
+'Fine Structure',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12wy5x8/respect_jason_chilton_fine_structure/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Entity 99, "The Game Master" (The Backrooms, Wikidot)', 'https://redd.it/12x0sic')
+add_data(['Entity 99'],
+'Entity 99',
+False,
+False,
+[
+    ['Backrooms']
+],
+'The Backrooms',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12x0sic/respect_entity_99_the_game_master_the_backrooms/
+
+add_data(['Game Master'],
+'Game Master',
+False,
+False,
+[
+    ['Backrooms']
+],
+'The Backrooms',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12x0sic/respect_entity_99_the_game_master_the_backrooms/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Entity 67, The Sanguine Festivus (The Backrooms, Fandom)', 'https://redd.it/12y23rp')
+add_data(['Entity 67'],
+'Entity 67',
+False,
+False,
+[
+    ['Backrooms']
+],
+'The Backrooms',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12y23rp/respect_entity_67_the_sanguine_festivus_the/
+
+add_data(['Sanguine Festivus'],
+'Sanguine Festivus',
+False,
+True,
+[
+    ['Backrooms']
+],
+'The Backrooms',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12x0sic/respect_entity_99_the_game_master_the_backrooms/
+
+########################################
+
+id = get_rt_id(cur, "Respect Trini Kwan, the Yellow Ranger (Mighty Morphin'' Power Rangers)", 'https://redd.it/12xasyn')
+add_data(['Trini'],
+'Trini',
+False,
+False,
+[
+    ['Power Rangers?'], ['Trini Kwan'], ['Yellow Ranger']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12xasyn/respect_trini_kwan_the_yellow_ranger_mighty/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Countess Carmilla Karstein (Carmilla)', 'https://redd.it/12xh7qn')
+add_data(['Carmilla Karstein'],
+'Carmilla Karstein',
+False,
+True,
+[
+    ['Carmilla']
+],
+'Carmilla',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12xh7qn/respect_countess_carmilla_karstein_carmilla/
+
+add_data(['Carmilla'],
+'Carmilla',
+False,
+False,
+[
+    ['Carmilla ?\(Carmilla']
+],
+'Carmilla',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12xh7qn/respect_countess_carmilla_karstein_carmilla/
+
+add_data(['Carmilla'],
+'Carmilla',
+False,
+False,
+[
+    ['Castle(-| )?vania']
+],
+'Castlevania',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12xh7qn/respect_countess_carmilla_karstein_carmilla/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nanao, AKA Ladybug! (Bullet Train/Maria Beetle)', 'https://redd.it/12xq90k')
+id2 = get_rt_id(cur, 'Respect Ladybug! (Bullet Train)', 'https://redd.it/12xq9sa')
+add_data(['Ladybug'],
+'Ladybug',
+False,
+False,
+[
+    ['Bullet Train'], ['Maria Beetle']
+],
+'Bullet Train',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12xq90k/respect_nanao_aka_ladybug_bullet_trainmaria_beetle/
+
+add_data(['Nanao'],
+'Nanao',
+False,
+False,
+[
+    ['Bullet Train'], ['Maria Beetle']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12xq90k/respect_nanao_aka_ladybug_bullet_trainmaria_beetle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shaun (Shaun of the Dead)', 'https://redd.it/12xr8eb')
+add_data(['Shaun'],
+'Shaun',
+False,
+False,
+[
+    ['Shaun of the Dead']
+],
+'Shaun of the Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12xr8eb/respect_shaun_shaun_of_the_dead/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Charlie Bucket (Chili and the Chocolate Factory: Fudge Revelation)', 'https://redd.it/12yj6h6')
+add_data(['Charlie Bucket'],
+'Charlie Bucket',
+False,
+False,
+[
+    ['Chili and the Chocolate Factory']
+],
+'Chili and the Chocolate Factory',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12yj6h6/respect_charlie_bucket_chili_and_the_chocolate/
 
 ########################################
 
