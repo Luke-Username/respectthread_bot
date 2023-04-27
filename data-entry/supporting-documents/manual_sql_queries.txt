@@ -25,6 +25,9 @@ UPDATE character SET rt_id_array='{5214, ?}' WHERE rt_id_array='{5214}';
 
 ########################################
 
+DELETE FROM character WHERE default_name='Spectre' AND version='{"vs.? Spectre"}';
+DELETE FROM character WHERE default_name='Spectre' AND version='{"Spectre vs.?"}';
+
 ########################################
 
 ########################################
