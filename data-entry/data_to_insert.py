@@ -135,6 +135,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Kas''im Respect Thread", 'https://comicvine.gamespot.com/profile/wollfmyth209/blog/kasim-respect-thread/109082/')
+add_data(["Kas''im"],
+"Kas''im",
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1301hsp/rey_and_kylo_ren_vs_kasim/jhuf4zi/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Arika McClure (Fine Structure)', 'https://redd.it/12wy5gg')
 add_data(['Arika McClure'],
 'Arika McClure',
@@ -234,6 +249,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Zack Taylor, the Black Ranger (Mighty Morphin'' Power Rangers)", 'https://redd.it/12zeuo1')
+add_data(['Zack Taylor'],
+'Zack Taylor',
+False,
+True,
+[
+    ['Power Rangers?'], ['Black Ranger']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12zeuo1/respect_zack_taylor_the_black_ranger_mighty/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Countess Carmilla Karstein (Carmilla)', 'https://redd.it/12xh7qn')
 add_data(['Carmilla Karstein'],
 'Carmilla Karstein',
@@ -329,6 +359,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/12yj6h6/respect_charlie_bucket_chili_and_the_chocolate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Terrako (Hyrule Warriors: Age of Calamity)', 'https://redd.it/12zg92e')
+add_data(['Terrako'],
+'Terrako',
+False,
+False,
+[
+    ['Hyrule Warriors']
+],
+'Hyrule Warriors',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12zg92e/respect_terrako_hyrule_warriors_age_of_calamity/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nate Sutter! (The Candy Shop War)', 'https://redd.it/12zz7n8')
+add_data(['Nate Sutter'],
+'Nate Sutter',
+False,
+False,
+[
+    ['Candy Shop War']
+],
+'The Candy Shop War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/12zz7n8/respect_nate_sutter_the_candy_shop_war/
 
 ########################################
 
