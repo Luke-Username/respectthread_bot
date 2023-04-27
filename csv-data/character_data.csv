@@ -4660,8 +4660,6 @@ Spectre,"{`"Und?bound Spectre`"}",f,{1632},DC
 Spectre,{Aztar},f,{1632},DC
 Spectre,{DC},f,{1632},DC
 Spectre,{Corrigan},f,{1632},DC
-Spectre,"{`"vs.? Spectre`"}",f,{1632},DC
-Spectre,"{`"Spectre vs.?`"}",f,{1632},DC
 Spectre,{PC},f,{1632},DC
 Spectre,"{`"Post(-| )?C(risis)?`"}",f,{1632},DC
 Spectre,"{`"New(-| )Earth`"}",f,{1632},DC
@@ -4923,7 +4921,6 @@ Sinestro,"{`"\\(DC( Comics)?\\)`"}",t,"{1691,1690}",DC
 Sodam Yat,"{`"\\(DC( Comics)?\\)`"}",t,{1692},DC
 Guardians of the Universe,{DC},t,"{1679,22537}",DC
 Kotal Kahn,{MK},t,{5291},Mortal Kombat
-Link,"{`"Hyrule Warriors`"}",f,{5214},Hyrule Warriors
 Taven,"{`"Mortal Kombat`"}",t,{5317},Mortal Kombat
 Taven,{MK},t,{5317},Mortal Kombat
 Starkiller,"{`"Galen Marek`"}",t,{5728},Star Wars
@@ -4989,6 +4986,7 @@ Atrocitus,{PC},f,{22014},Post-Crisis
 Atrocitus,"{`"Post(-| )?C(risis)?`"}",f,{22014},Post-Crisis
 Black Widow,{616},f,{1989},616
 Black Widow,{comics},f,{1989},616
+Link,"{`"Hyrule Warriors`"}",f,"{5214,23744}",Hyrule Warriors
 Bleez,{PC},f,{1674},Post-Crisis
 Bleez,"{`"Post(-| )?C(risis)?`"}",f,{1674},Post-Crisis
 Bleez,"{`"New(-| )Earth`"}",f,{1674},Post-Crisis
@@ -25248,8 +25246,8 @@ Shang-Chi,"{`"Marvel Cinematic Universe`"}",f,{21301},MCU
 Shang-Chi,{MCU},f,{21301},MCU
 Emiya Shirou,{UBW},t,{6251},Fate
 Emiya Shirou,"{`"Unlimited Blade Works`"}",t,{6251},Fate
-Lion ElJonson,{(WH)?40K},t,"{23516,21119}",Warhammer 40k
-Lion ElJonson,{Warhammer},t,"{23516,21119}",Warhammer 40k
+Lion El'Jonson,{(WH)?40K},t,"{23516,21119}",Warhammer 40k
+Lion El'Jonson,{Warhammer},t,"{23516,21119}",Warhammer 40k
 Kafka Hibino,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
 Leno Ichikawa,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
 Kikoru Shinomiya,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
@@ -29777,3 +29775,28 @@ Nixon,{Nixonverse},f,{23741},The Monument Mythos
 Air Force One Angel,"{`"Monument Mythos`"}",t,{23742},The Monument Mythos
 Air Force One Angel,{Nixonverse},t,{23742},The Monument Mythos
 Entity Zero,{Creepypasta},f,{23743},Creepypasta
+Trunks,"{`"Future Trunks`"}",f,"{3284,22116}",Dragon Ball
+Ben,"{Rey,`"S(tar )?Wars`"}",f,"{325,12433}",Star Wars
+Kas'im,"{`"S(tar )?Wars`"}",t,{23759},Star Wars
+Arika McClure,"{`"Fine Structure`"}",t,{23760},Fine Structure
+Jason Chilton,"{`"Fine Structure`"}",f,{23761},Fine Structure
+Entity 99,{Backrooms},f,{23762},The Backrooms
+Game Master,{Backrooms},f,{23762},The Backrooms
+Entity 67,{Backrooms},f,{23763},The Backrooms
+Sanguine Festivus,{Backrooms},t,{23763},The Backrooms
+Trini,"{`"Power Rangers?`"}",f,{23764},Power Rangers
+Trini,"{`"Trini Kwan`"}",f,{23764},Power Rangers
+Trini,"{`"Yellow Ranger`"}",f,{23764},Power Rangers
+Zack Taylor,"{`"Power Rangers?`"}",t,{23765},Power Rangers
+Zack Taylor,"{`"Black Ranger`"}",t,{23765},Power Rangers
+Carmilla Karstein,{Carmilla},t,{23766},Carmilla
+Carmilla,"{`"Carmilla ?\\(Carmilla`"}",f,{23766},Carmilla
+Carmilla,"{`"Castle(-| )?vania`"}",f,{},Castlevania
+Ladybug,"{`"Bullet Train`"}",f,"{23767,23768}",Bullet Train
+Ladybug,"{`"Maria Beetle`"}",f,"{23767,23768}",Bullet Train
+Nanao,"{`"Bullet Train`"}",f,{23767},Bullet Train
+Nanao,"{`"Maria Beetle`"}",f,{23767},Bullet Train
+Shaun,"{`"Shaun of the Dead`"}",f,{23769},Shaun of the Dead
+Charlie Bucket,"{`"Chili and the Chocolate Factory`"}",f,{23770},Chili and the Chocolate Factory
+Terrako,"{`"Hyrule Warriors`"}",f,{23771},Hyrule Warriors
+Nate Sutter,"{`"Candy Shop War`"}",f,{23772},The Candy Shop War
