@@ -107,6 +107,77 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Robin Hood'],
+'Robin Hood',
+False,
+False,
+[
+    ['Akechi']
+],
+'Persona',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/130f81i/goro_akechi_megami_tensei_vs_vector_yugioh/
+
+########################################
+
+add_data(['Nemesis'],
+'Nemesis',
+False,
+False,
+[
+    ['Albert Wesker']
+],
+'Resident Evil 3 Remake',
+'{13034}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/130f81i/goro_akechi_megami_tensei_vs_vector_yugioh/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Megazord (Mighty Morphin'' Power Rangers)", 'https://redd.it/130g35f')
+add_data(['Megazord'],
+'Megazord',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/130g35f/respect_the_megazord_mighty_morphin_power_rangers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Super Science Friends! (Super Science Friends)', 'https://redd.it/130lyab')
+add_data(['Super Science Friends'],
+'Super Science Friends',
+True,
+True,
+[
+    ['Super Science Friends ?\(Super Science Friends\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/130lyab/respect_the_super_science_friends_super_science/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Saneegee (Cartoon Fight Club)', 'https://redd.it/131hzif')
+add_data(['Saneegee'],
+'Saneegee',
+False,
+True,
+[
+    ['Cartoon Fight Club']
+],
+'Cartoon Fight Club',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/131hzif/respect_saneegee_cartoon_fight_club/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
