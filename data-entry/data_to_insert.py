@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4516, 'Respect Escanor! (Seven Deadly Sins, Manga)', 'https://redd.it/131wqgj')
+
+########################################
+
 add_data(['Robin Hood'],
 'Robin Hood',
 False,
@@ -177,6 +181,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/131hzif/respect_saneegee_cartoon_fight_club/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Solomon David (KILLSIXBILLIONDEMONS)', 'https://redd.it/132e9v5')
+add_data(['Solomon David'],
+'Solomon David',
+False,
+True,
+[
+    ['Kill ?(Six|6) ?Billion ?Demons'], ['K(S|6)BD']
+],
+'Kill Six Billion Demons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/132e9v5/respect_solomon_david_killsixbilliondemons/
 
 ########################################
 

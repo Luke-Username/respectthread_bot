@@ -1745,6 +1745,12 @@ Kill La Kill
 	Displayed Version Name
 		"Kill La Kill"
 
+Kill Six Billion Demons
+	Version
+		['Kill ?(Six|6) ?Billion ?Demons'], ['K(S|6)BD']
+	Displayed Version Name
+		"Kill Six Billion Demons"
+
 Kim Possible
 	Version
 		['Kim Possible']
