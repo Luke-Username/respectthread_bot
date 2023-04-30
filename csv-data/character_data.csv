@@ -17585,7 +17585,6 @@ Mike Haggar,"{`"Marvel vs\\.? Capcom`"}",f,{14773},Marvel vs. Capcom
 Mike Haggar,"{`"MVC\\d?`"}",f,{14773},Marvel vs. Capcom
 Peach,"{`"Mario (&|and) Luigi`"}",f,{14774},Mario & Luigi
 Princess Peach,"{`"Mario (&|and) Luigi`"}",f,{14774},Mario & Luigi
-Zelda,"{`"Hyrule Warriors\\)`"}",f,{14775},Hyrule Warriors
 Linkle,{Zelda},t,{14776},Hyrule Warriors
 Linkle,{T?LOZ},t,{14776},Hyrule Warriors
 Linkle,"{`"Hyrule Warriors`"}",t,{14776},Hyrule Warriors
@@ -17613,6 +17612,7 @@ Garen,{League},t,{14790},League of Legends
 Garen,{LOL},t,{14790},League of Legends
 Void Termina,{Kirby},t,{14791},Kirby
 Squeak,{Kirby},f,{14792},Kirby
+Zelda,"{`"Hyrule Warriors\\)`"}",f,"{14775,23774}",Hyrule Warriors
 Kirby Mass Attack,{default},t,{14793},""
 Adeleine,{Kirby},t,{14794},Kirby
 Demyx,"{`"Kingdom Hearts`"}",t,{14795},Kingdom Hearts
@@ -18476,8 +18476,6 @@ Personification Of A Light Pull Cord,"{`"One(-| )Punch Man`"}",t,{4109},One Punc
 Personification Of A Light Pull Cord,{OPM},t,{4109},One Punch Man
 Phoenix Man,"{`"One(-| )Punch Man`"}",t,{4110},One Punch Man
 Phoenix Man,{OPM},t,{4110},One Punch Man
-Puri-Puri Prisoner,"{`"One(-| )Punch Man`"}",t,{4111},One Punch Man
-Puri-Puri Prisoner,{OPM},t,{4111},One Punch Man
 Saitama,"{`"One(-| )Punch Man`"}",t,{4112},One Punch Man
 Saitama,{OPM},t,{4112},One Punch Man
 S-class Heroes,"{`"One(-| )Punch Man`"}",t,{4113},One Punch Man
@@ -18507,6 +18505,8 @@ TTM,"{`"One(-| )Punch Man`"}",f,{7572},One Punch Man
 King,"{`"S(-| )Class`",heroe?s?}",f,{4113},One Punch Man
 Blast,"{`"Blast ?\\(One(-| )Punch Man`"}",f,{22160},One Punch Man
 Blast,"{`"Blast ?\\(OPM`"}",f,{22160},One Punch Man
+Puri-Puri Prisoner,"{`"One(-| )Punch Man`"}",t,"{4111,23773}",One Punch Man
+Puri-Puri Prisoner,{OPM},t,"{4111,23773}",One Punch Man
 TTM,{OPM},f,{7572},One Punch Man
 Tatsumaki,"{`"One(-| )Punch Man`"}",t,{4117},One Punch Man
 Tatsumaki,{OPM},t,{4117},One Punch Man
@@ -29800,3 +29800,19 @@ Shaun,"{`"Shaun of the Dead`"}",f,{23769},Shaun of the Dead
 Charlie Bucket,"{`"Chili and the Chocolate Factory`"}",f,{23770},Chili and the Chocolate Factory
 Terrako,"{`"Hyrule Warriors`"}",f,{23771},Hyrule Warriors
 Nate Sutter,"{`"Candy Shop War`"}",f,{23772},The Candy Shop War
+Robin Hood,{Akechi},f,{},Persona
+Nemesis,"{`"Albert Wesker`"}",f,{13034},Resident Evil 3 Remake
+War Devil,"{`"Chainsaw(-| )?Man`"}",f,{22363},Chainsaw Man
+Gr(iev|evi|eiv)ous,"{`"S(tar )?Wars`"}",f,{317},Star Wars
+Gr(iev|evi|eiv)ous,"{`"light ?sabers?`"}",f,{317},Star Wars
+Megazord,"{`"Power Rangers?`"}",t,{23775},Power Rangers
+Super Science Friends,"{`"Super Science Friends ?\\(Super Science Friends\\)`"}",t,{23776},""
+Saneegee,"{`"Cartoon Fight Club`"}",t,{23777},Cartoon Fight Club
+Solomon David,"{`"Kill ?(Six|6) ?Billion ?Demons`"}",t,{23778},Kill Six Billion Demons
+Solomon David,{K(S|6)BD},t,{23778},Kill Six Billion Demons
+Dr. William W. Wettle,{SCP},t,{23779},SCP
+Gawain,"{`"Four Knights of the Apocalypse`"}",f,{23780},Four Knights of the Apocalypse
+T-3000,"{`"Garfield Show`"}",f,{23781},The Garfield Show
+Vertigo,"{`"Primal Rage`"}",f,{23782},Primal Rage
+Sentry,{1611},f,{23783},1611
+Hercules,"{`"Hercules.*The Maestro`"}",f,{23784},Maestro
