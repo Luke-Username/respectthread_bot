@@ -22,7 +22,12 @@ UPDATE character SET rt_id_array='{14775, ?}' WHERE rt_id_array='{14775}';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Gr(iev|evi|eiv)ous', 'grievous wound', 0);
+UPDATE character_name SET name='General Gr(iev|evi|eiv)ous' WHERE name='Gr(iev|evi|eiv)ous';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Venom', 'Venom Snake', 0);
 
 ########################################
 

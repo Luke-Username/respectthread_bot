@@ -108,6 +108,9 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 4516, 'Respect Escanor! (Seven Deadly Sins, Manga)', 'https://redd.it/131wqgj')
+update_respectthread(cur, 23729, 'Respect Barack D. Obama (The Stars and Strifes)', 'https://redd.it/133iem5')
+update_respectthread(cur, 23730, 'Respect Donald Trump (The Stars and Strifes)', 'https://redd.it/133ie6l')
+update_respectthread(cur, 4422, 'Respect Homura Akemi! (Puella Magi Madoka Magica)', 'https://redd.it/133emrf')
 
 ########################################
 
@@ -136,6 +139,34 @@ False,
 '{13034}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/130f81i/goro_akechi_megami_tensei_vs_vector_yugioh/
+
+########################################
+
+add_data(['War Devil'],
+'War Devil',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{22363}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/133sa47/city_17_battle_royale/jib0efd/?context=3
+
+########################################
+
+add_data(['Gr(iev|evi|eiv)ous'],
+'Gr(iev|evi|eiv)ous',
+False,
+False,
+[
+    ['S(tar )?Wars'], ['light ?sabers?']
+],
+'Star Wars',
+'{317}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/133j0kv/slasher_with_the_powers_of_horror_movies_vs_hema/jia5kif/?context=3
 
 ########################################
 
@@ -196,6 +227,96 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/132e9v5/respect_solomon_david_killsixbilliondemons/
+
+########################################
+
+id = get_rt_id(cur, 'Dr. William W. Wettle (SCP Foundation)', 'https://redd.it/133dt1m')
+add_data(['D(octo)?r\.? William W(allace)?\.? Wettle'],
+'Dr. William W. Wettle',
+False,
+True,
+[
+    ['SCP']
+],
+'SCP',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/133dt1m/dr_william_w_wettle_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gawain! (Four Knights of the Apocalypse)', 'https://redd.it/132z02f')
+add_data(['Gawain'],
+'Gawain',
+False,
+False,
+[
+    ['Four Knights of the Apocalypse']
+],
+'Four Knights of the Apocalypse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/132z02f/respect_gawain_four_knights_of_the_apocalypse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect T3000 (The Garfield Show)', 'https://redd.it/1331ld8')
+add_data(['T3000'],
+'T-3000',
+False,
+False,
+[
+    ['Garfield Show']
+],
+'The Garfield Show',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1331ld8/respect_t3000_the_garfield_show/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vertigo! (Primal Rage)', 'https://redd.it/13365ud')
+add_data(['Vertigo'],
+'Vertigo',
+False,
+False,
+[
+    ['Primal Rage']
+],
+'Primal Rage',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13365ud/respect_vertigo_primal_rage/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Golden Guardian of Good, the Sentry! (Marvel, Earth-1611)', 'https://redd.it/133amz7')
+add_data(['Sentry'],
+'Sentry',
+False,
+False,
+[
+    ['1611']
+],
+'1611',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/133amz7/respect_the_golden_guardian_of_good_the_sentry/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hercules, The Maestro (Marvel, 9200)', 'https://redd.it/133ukr5')
+add_data(['Hercules'],
+'Hercules',
+False,
+False,
+[
+    ['Hercules.*The Maestro']
+],
+'Maestro',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/133ukr5/respect_hercules_the_maestro_marvel_9200/
 
 ########################################
 
