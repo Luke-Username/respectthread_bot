@@ -1843,7 +1843,7 @@ Legacy of Kain
 
 The Legend of Zelda
 	Version
-		'{"Zelda"}', '{"T?LOZ"}'
+		['Zelda'], ['T?LOZ']
 	Specific
 		'{"Wind Waker"}', '{"Phantom Hourglass"}'
 		'{"Spirit Tracks"}'
@@ -1853,6 +1853,7 @@ The Legend of Zelda
 		'{"Orarina of Time"}', '{"OOT"}'
 		'{"Skyward Sword"}'
 		['Breath of the Wild'], ['BOTW']
+		['Age of Calamity]
 		'{"Hyrule Warriors"}'
 	Displayed Version Name
 		"The Legend of Zelda"
