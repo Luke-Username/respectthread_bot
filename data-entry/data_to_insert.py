@@ -107,6 +107,24 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 299, 'Respect Dr. Octopus (Raimi)', 'https://redd.it/135shck')
+update_respectthread(cur, 21845, 'Respect Finn! (Star Wars (Canon))', 'https://redd.it/135yi28')
+
+########################################
+
+id = get_rt_id(cur, 'Respect PAL! (The Mitchells vs. the Machines)', 'https://redd.it/135m7c2')
+add_data(['PAL'],
+'PAL',
+False,
+False,
+[
+    ['Mitchell?s?', 'Machines?'], ['PAL Max']
+],
+'The Mitchells vs. the Machines',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/135m7c2/respect_pal_the_mitchells_vs_the_machines/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
