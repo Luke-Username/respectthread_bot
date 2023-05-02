@@ -294,6 +294,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Mag Agent: Gestalt! (Madness: Project Nexus)', 'https://redd.it/1354e3b')
+add_data(['Gestalt'],
+'Gestalt',
+False,
+False,
+[
+    ['Madness Combat'], ['Madness', 'Project Nexus']
+],
+'Madness Combat',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1354e3b/respect_mag_agent_gestalt_madness_project_nexus/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
