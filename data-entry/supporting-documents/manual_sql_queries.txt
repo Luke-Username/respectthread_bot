@@ -14,13 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Satsuki Kiry(ū|u)in' WHERE name='Satsuki';
-
-UPDATE character_name SET name='Perc(y|eus) Jackson' WHERE name='Percy Jackson';
-
 ########################################
-
-UPDATE character SET rt_id_array='{23044}' WHERE default_name='Hank' AND version='{"Madness Comba"}';
 
 ########################################
 

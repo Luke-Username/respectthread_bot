@@ -87,7 +87,6 @@ id,title,link
 107,Respect Japanese Spider-Man! (Supaidāman),https://redd.it/6zoqnw
 108,Respect Dean Winchester (Spoilers up to season 9 finale of Supernatural),https://redd.it/2da4dp
 109,Respect Shane and David! (The Upside-Down Show),https://redd.it/6iqj3y
-110,Respect Electro (The Amazing Spider-Man 2),https://redd.it/btk9d1
 111,Respect The Green Goblin (The Amazing Spider-Man 2),https://redd.it/btkcju
 112,Respect The Lizard (The Amazing Spider-Man),https://redd.it/btscns
 114,Respect Bullseye (Daredevil 2003),https://redd.it/ax3a2u
@@ -132,6 +131,7 @@ id,title,link
 155,Respect Pyro (X-Men films),https://redd.it/bzw231
 156,Respect Sebastian Shaw (FOX),https://redd.it/7o8wor
 157,Respect Sabretooth (X-Men films),https://redd.it/b892o2
+110,"Respect Max Dillon, Electro (The Amazing Spider-Man 2)",https://redd.it/134njd5
 159,Respect X23-23 (Fox),https://redd.it/7aecm6
 160,Respect X-24 (FOX),https://redd.it/6dolbs
 161,Respect Yukio (The Wolverine),https://redd.it/c9ja81
@@ -1351,6 +1351,7 @@ id,title,link
 1426,Respect Suction Cup Man (Piemations),https://redd.it/a80u8f
 1428,Respect Nhazul! (RHG/Zetabrand),https://redd.it/c8nra9
 1429,Respect Oxob (RHG),https://redd.it/c95dwl
+1493,"Respect Batman (DC, Post-Flashpoint)",https://redd.it/1348ale
 1432,Respect Shrek (Shrek Retold),https://redd.it/a8fvk7
 1433,Respect Smol Nozomi! (The SiIvaGunner Christmas Comeback Crisis),https://redd.it/5w5yrn
 1434,Respect the Pink Frosted Sprinkled Donut (Smosh's Food Battle),https://redd.it/bmnf87
@@ -1410,7 +1411,6 @@ id,title,link
 1490,"Respect Dragonson, AKA the Aqua-Man of North Korea (DC Rebirth)",https://redd.it/9f2uow
 1491,Respect Mera,https://redd.it/2gz9a5
 1492,Respect Topo (DC New 52/Rebirth),https://redd.it/bsnl6k
-1493,Respect Batman (Bruce Wayne) (DC - New 52),https://redd.it/85ebay
 1494,Respect Batman (Bruce Wayne) (DC - Post Crisis),https://redd.it/85eb91
 1439,Respect Nazo (Nazo Unleashed),https://redd.it/m00jxk
 1412,Respect Gildedguy (RHG),https://redd.it/o5a2op
@@ -4243,14 +4243,12 @@ id,title,link
 4423,Respect Jeanne d'Arc (Puella Magi Tart Magica),https://redd.it/68axrn
 4424,Respect Kazumi Subaru (Puella Magi Kazumi Magica),https://redd.it/6r6wkx
 4425,Respect Kirika Kure (Puella Magi Oriko Magica),https://redd.it/6l1s5x
-4426,Respect Kyoko Sakura (Puella Magi Madoka Magica),https://redd.it/6lfit2
 4427,Respect Mami Tomoe (Puella Magi Madoka Magica),https://redd.it/6lfikb
 4428,Respect Madoka Kaname (Puella Magi Madoka Magica),https://redd.it/6lfi7h
 4429,Respect Melissa de Vignolles (Puella Magi Tart Magica),https://redd.it/7b6ljy
 4430,Respect Nagisa Momoe (Puella Magi Madoka Magica),https://redd.it/6lfixm
 4431,Respect Oriko Mikuni (Puella Magi Oriko Magica),https://redd.it/6l1sfd
 4432,Respect Riz (Puella Magi Tart Magica),https://redd.it/7az8kz
-4433,Respect Sayaka Miki (Puella Magi Madoka Magica),https://redd.it/6lfipc
 4434,Respect Suzune Amano (Puella Magi Suzune Magica),https://redd.it/69nffp
 4435,Respect Tamura Akemi (Puella Magi Homura Tamura),https://redd.it/6e1ndp
 4436,Respect Wraith Madoka (Puella Magi Madoka Magica: Wraith Arc),https://redd.it/6l8k2e
@@ -4267,12 +4265,14 @@ id,title,link
 4447,Respect Strange Juice (Punchline),https://redd.it/60vd7x
 4448,Respect Yuuta (Punchline),https://redd.it/4yn9ba
 4422,Respect Homura Akemi! (Puella Magi Madoka Magica),https://redd.it/133emrf
+4433,Respect Sayaka Miki! (Puella Magi Madoka Magica),https://redd.it/1349g95
 4452,Respect Akane Tendo! [Ranma 1/2],https://redd.it/3y6xoo
 4453,Respect Happosai! [Ranma 1/2],https://redd.it/3y5979
 4454,"Respect Kodaichi Kuno, the Black Rose! [Ranma 1/2]",https://redd.it/3y15ob
 4455,Respect Mousse! [Ranma 1/2],https://redd.it/3y55ze
 4456,Respect Principal Kuno! [Ranma 1/2],https://redd.it/3y4hzm
 4457,Respect Ranma Saotome! [Ranma 1/2],https://redd.it/3uixzm
+4426,Respect Kyoko Sakura! (Puella Magi Madoka Magica),https://redd.it/134bntd
 4380,Respect Lance (Pokemon Adventures),https://redd.it/nq8kr7
 4382,Respect Mewtwo (Pokemon Adventures),https://redd.it/nx2is3
 4458,Respect Ryoga Hibiki! [Ranma 1/2],https://redd.it/3uhtmw
@@ -12466,3 +12466,15 @@ id,title,link
 23782,Respect Vertigo! (Primal Rage),https://redd.it/13365ud
 23783,"Respect the Golden Guardian of Good, the Sentry! (Marvel, Earth-1611)",https://redd.it/133amz7
 23784,"Respect Hercules, The Maestro (Marvel, 9200)",https://redd.it/133ukr5
+23785,Respect Lelouch vi Britannia! (Code Geass (Anime Timeline)),https://redd.it/133xio2
+23786,Respect Mipha (The Legend of Zelda: Breath of the Wild),https://redd.it/1345259
+23787,Respect Daruk (The Legend of Zelda: Breath of the Wild),https://redd.it/134528m
+23788,Respect Revali (The Legend of Zelda: Breath of the Wild),https://redd.it/13452bw
+23789,Respect Urbosa (The Legend of Zelda: Breath of the Wild),https://redd.it/13452jr
+23790,Respect Weegee (Cartoon Fight Club),https://redd.it/134bqqh
+23791,Respect Adam Park (Power Rangers),https://redd.it/134i9wx
+23792,"Respect Conner McKnight, the Red Dino Ranger (Power Rangers Dino Thunder)",https://redd.it/134i9zd
+23793,Respect Utam (The Mighty Peking Man),https://redd.it/134ia1l
+23794,Respect Frank Drebin (The Naked Gun),https://redd.it/134kasy
+23795,Respect Doshin the Love Giant (Doshin the Giant),https://redd.it/13504d0
+23796,Respect Mag Agent: Gestalt! (Madness: Project Nexus),https://redd.it/1354e3b
