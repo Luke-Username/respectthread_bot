@@ -127,6 +127,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Rita Repulsa (Power Rangers)', 'https://redd.it/136gfw0')
+add_data(['Rita Repulsa'],
+'Rita Repulsa',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/136gfw0/respect_rita_repulsa_power_rangers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Putty Patrol (Power Rangers)', 'https://redd.it/136gg0v')
+add_data(['Putty Patrol(lers?)?'],
+'Putty Patrol',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/136gg0v/respect_the_putty_patrol_power_rangers/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
