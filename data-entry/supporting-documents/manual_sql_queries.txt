@@ -14,29 +14,15 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Winchester';
+########################################
 
 ########################################
 
-DELETE FROM name_conflict WHERE name='Deadpool' AND conflict='Deadpool 2';
+########################################
 
 ########################################
 
-UPDATE character_name SET name='Dante Alighieri' WHERE...
-
 ########################################
-
-UPDATE character SET rt_id_array='{21858}' WHERE default_name='Kingpin' AND displayed_version_name='MCU';
-UPDATE character SET rt_id_array='{21858}' WHERE default_name='Wilson Fisk' AND displayed_version_name='MCU';
-
-########################################
-
-UPDATE character SET rt_id_array='{}' WHERE default_name='Hulkbuster' AND displayed_version_name='MCU';
-
-########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect the Deep Sea King! (One Punch Man Anime)', 'https://redd.it/137z0cr'); SELECT * FROM respectthread WHERE link='https://redd.it/137z0cr';
-UPDATE character SET rt_id_array='{4099, ?}' WHERE rt_id_array='{4099}';
 
 ########################################
 

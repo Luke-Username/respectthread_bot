@@ -437,7 +437,6 @@ Shane,"{`"Upside Down Show`"}",f,{109},The Upside-Down Show
 David,"{`"Upside-Down Show`"}",f,{109},The Upside-Down Show
 David,"{`"Upside Down Show`"}",f,{109},The Upside-Down Show
 Dean,{Supernatural},f,{108},Supernatural
-Winchester,{Supernatural},f,{108},Supernatural
 Dean Winchester,{Supernatural},t,{108},Supernatural
 Takuya Yamashiro,{Supaidaman},t,{107},Japanese Spider-Man
 Takuya Yamashiro,"{`"Japanese Spider-Man`"}",t,{107},Japanese Spider-Man
@@ -5855,15 +5854,14 @@ God Emperor Doom,{comics?},t,{2058},""
 God Emperor Doom,"{`"Secret Wars`"}",t,{2058},""
 Infamous Iron Man,{616},t,{2059},""
 Bullseye,{Marvel},f,{2050},616
-Wilson Fisk,{Netflix},f,{},MCU
-Wilson Fisk,"{`"Marvel Cinematic Universe`"}",f,{},MCU
-Wilson Fisk,{MCU},f,{},MCU
-Wilson Fisk,{199999},f,{},MCU
 Kingpin,{616},f,{2053},616
 Kingpin,{comics?},f,{2053},616
-Kingpin,{Netflix},f,{},MCU
+Wilson Fisk,{Netflix},f,{21858},MCU
 Bullseye,{616},f,{2050},616
 Bullseye,{Deadshot},f,{2050},616
+Kingpin,{Netflix},f,{21858},MCU
+Wilson Fisk,"{`"Marvel Cinematic Universe`"}",f,{21858},MCU
+Wilson Fisk,{MCU},f,{21858},MCU
 Infamous Iron Man,{Marvel},t,{2059},""
 Infamous Iron Man,{comics?},t,{2059},""
 Infamous Iron Man,"{`"Secret Wars`"}",t,{2059},""
@@ -18443,14 +18441,6 @@ Captain Mizuki,{OPM},t,{4096},One Punch Man
 Child Emperor,"{`"One(-| )Punch Man`"}",t,{4098},One Punch Man
 Child Emperor,{OPM},t,{4098},One Punch Man
 Boros,"{`"One(-| )Punch Man`"}",t,"{4095,23515}",One Punch Man
-Deep Sea King,"{`"One(-| )Punch Man`"}",t,{4099},One Punch Man
-Deep Sea King,{OPM},t,{4099},One Punch Man
-DSK,"{`"One(-| )Punch Man`"}",t,{4099},One Punch Man
-DSK,{OPM},t,{4099},One Punch Man
-DSK,{hydrated},t,{4099},One Punch Man
-DSK,{Saitama},t,{4099},One Punch Man
-DSK,{Tatsumaki},t,{4099},One Punch Man
-DSK,{Genos},t,{4099},One Punch Man
 Demonic Fan,"{`"One(-| )Punch Man`"}",t,{4100},One Punch Man
 Demonic Fan,{OPM},t,{4100},One Punch Man
 Demonic Fan,"{`"S(-| )Class`"}",t,{4100},One Punch Man
@@ -18507,6 +18497,9 @@ Blast,"{`"Blast ?\\(One(-| )Punch Man`"}",f,{22160},One Punch Man
 Blast,"{`"Blast ?\\(OPM`"}",f,{22160},One Punch Man
 Puri-Puri Prisoner,"{`"One(-| )Punch Man`"}",t,"{4111,23773}",One Punch Man
 Puri-Puri Prisoner,{OPM},t,"{4111,23773}",One Punch Man
+Deep Sea King,"{`"One(-| )Punch Man`"}",t,"{4099,23797}",One Punch Man
+Deep Sea King,{OPM},t,"{4099,23797}",One Punch Man
+DSK,{OPM},t,"{4099,23797}",One Punch Man
 TTM,{OPM},f,{7572},One Punch Man
 Tatsumaki,"{`"One(-| )Punch Man`"}",t,{4117},One Punch Man
 Tatsumaki,{OPM},t,{4117},One Punch Man
@@ -25091,9 +25084,9 @@ Predator,"{`"Young Predator`"}",f,"{2799,13507}",""
 Predator,{Planet},f,"{2799,13507}",""
 Yautja,{Predator},t,"{2799,13507}",Predator
 Spongebob,{Spongebob},t,{},Spongebob
-Kingpin,"{`"Marvel Cinematic Universe`"}",f,{},MCU
-Kingpin,{MCU},f,{},MCU
-Kingpin,{199999},f,{},MCU
+Kingpin,"{`"Marvel Cinematic Universe`"}",f,{21858},MCU
+Kingpin,{MCU},f,{21858},MCU
+Kingpin,{199999},f,{21858},MCU
 Horrorterror,{Homestuck},t,{21103},Homestuck
 Venom,"{`"Spider(-| )?Man 3`"}",f,{303},Raimiverse Spider-Man
 Venom,{96283},f,{303},Raimiverse Spider-Man
@@ -29024,11 +29017,6 @@ Willow,"{`"Buffy|Vampire Slayer`"}",f,{7490},Buffy the Vampire Slayer
 Suwako Moriya,{Touhou},t,{23255},Touhou
 Ogra,{Gorgo},f,{23256},Gorgo
 Hulkbuster,"{`"Mark VI`"}",f,{23257},616
-Hulkbuster,"{`"Marvel Cinematic Universe`"}",f,{},MCU
-Hulkbuster,{MCU},f,{},MCU
-Hulkbuster,"{`"Marvel Future Avengers`"}",f,{},MCU
-Hulkbuster,"{`"Ultimates? Marvel`"}",f,{},MCU
-Hulkbuster,"{`"Age of Ultron`"}",f,{},MCU
 Iron Cat,{616},f,{23258},616
 Zilla,"{`"Among Kaiju`"}",f,{23259},Among Kaiju
 Riki,{Xenoblade},f,{23260},Xenoblade
@@ -29066,6 +29054,7 @@ Steve Fox,{Tekken},f,{23281},Tekken
 Kate Bishop,{MCU},f,"{23282,21522}",MCU
 Vlad,{Lancer},f,{21029},Fate
 Hulkbuster,"{`"Comics? Hulk ?buster`"}",f,"{22877,23147,22927,23257,22735,22803}",616
+Hulkbuster,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Piranha,"{`"Piranha.*The Bad Guys`"}",f,{22168},The Bad Guys
 Daisy,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",f,{69},Agents of SHIELD/MCU
 Coulson,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",f,{23283},MCU
@@ -29509,8 +29498,6 @@ Zeon,{Duf(ort|aux)},f,{23562},Zatch Bell!
 David Garcia,"{`"Wa(lk|kl)ing Dead`"}",f,{23563},The Walking Dead
 David Garcia,{TWD},f,{23563},The Walking Dead
 Hulkbuster,{616},f,"{22877,23147,22927,23257,22735,22803}",616
-Hulkbuster,"{`"MCU\\)`"}",f,{12455},MCU
-Hulkbuster,{Bullseye.*MCU},f,{12455},MCU
 Bullseye,"{`"MCU\\)`"}",f,{12455},MCU
 Bullseye,{Bullseye.*MCU},f,{12455},MCU
 Celebi,{Pok(e|é)m(o|a)n},t,{23564},Pokémon
@@ -29518,6 +29505,7 @@ Iron-Masked Marauder,{Pok(e|é)m(o|a)n},t,{23564},Pokémon
 Ace,"{`"Ruby Quest`"}",f,{23565},Ruby Quest
 Ar-Val,"{`"Pre(-| )?Crisis`"}",f,{23566},Pre-Crisis
 Boba Fett,"{`"Robot Chicken`"}",f,{23567},Robot Chicken
+Hulkbuster,"{`"MCU\\)`"}",f,{},MCU
 Autumn,"{`"Undead Unluck`"}",f,{23568},Undead Unluck
 Autumn,"{`"UMA Autumn`"}",f,{23568},Undead Unluck
 Spoil,"{`"Undead Unluck`"}",f,{23569},Undead Unluck
@@ -29848,3 +29836,35 @@ Frank Drebin,"{`"Naked Gun`"}",t,{23794},The Naked Gun
 Doshin the Love Giant,{games?},t,{23795},""
 Gestalt,"{`"Madness Combat`"}",f,{23796},Madness Combat
 Gestalt,"{Madness,`"Project Nexus`"}",f,{23796},Madness Combat
+Wilson Fisk,{199999},f,{21858},MCU
+Hulkbuster,{MCU},f,{},MCU
+Hulkbuster,"{`"Marvel Future Avengers`"}",f,{},MCU
+Hulkbuster,"{`"Ultimates? Marvel`"}",f,{},MCU
+Hulkbuster,"{`"Age of Ultron`"}",f,{},MCU
+Hulkbuster,{Bullseye.*MCU},f,{},MCU
+DSK,"{`"One(-| )Punch Man`"}",t,"{4099,23797}",One Punch Man
+DSK,{hydrated},t,"{4099,23797}",One Punch Man
+DSK,{Saitama},t,"{4099,23797}",One Punch Man
+DSK,{Tatsumaki},t,"{4099,23797}",One Punch Man
+DSK,{Genos},t,"{4099,23797}",One Punch Man
+Domino,"{`"Deadpool 2`"}",f,{145},FOX X-Men
+Dante,"{`"Dante Alighieri`"}",f,{},Dante Alighieri
+Batman,"{`"The Batman`",Reeves}",f,{22590},"The Batman, 2022"
+PAL,"{Mitchell?s?,Machines?}",f,{23798},The Mitchells vs. the Machines
+PAL,"{`"PAL Max`"}",f,{23798},The Mitchells vs. the Machines
+Rita Repulsa,"{`"Power Rangers?`"}",t,{23799},Power Rangers
+Putty Patrol,"{`"Power Rangers?`"}",t,{23800},Power Rangers
+Kang the Conqueror,"{`"comics? versions?`"}",t,{2016},616
+Belief,{Bayonetta},f,{23801},Bayonetta
+Beloved,{Bayonetta},f,{23802},Bayonetta
+Valiance,{Bayonetta},f,{23803},Bayonetta
+Valor,{Bayonetta},f,{23803},Bayonetta
+Glamor,{Bayonetta},f,{23804},Bayonetta
+Auditio,{Bayonetta},f,{23805},Bayonetta
+Cardinal Virtues,{Bayonetta},f,{23805},Bayonetta
+Jubileus,{Bayonetta},t,{23806},Bayonetta
+Jimmy Yee,{Demon},f,{23807},Demon
+Perry the Platypus,{INUbis},f,{23808},INUbis
+Darth Vader,"{`"Super Power Beat Down`"}",f,{23809},Super Power Beat Down
+Sherdog Holmes,"{`"Sherlock Bones`"}",f,{23810},Sherlock Bones
+Birthday Boy,"{`"Earth One`"}",f,{23811},Earth One
