@@ -127,6 +127,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Zatanna Zatara (DC, Pre-Crisis)', 'https://redd.it/13asugp')
+add_data(['Zatanna'],
+'Zatanna',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13asugp/respect_zatanna_zatara_dc_precrisis/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
