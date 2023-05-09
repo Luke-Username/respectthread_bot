@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 21136, 'Respect Pirate Queen Tagaka (Avatar: The Kyoshi Novels)', 'https://redd.it/139sv21')
+update_respectthread(cur, 4723, 'Respect Joe Shimamura Cyborg 009 (Cyborg 009)', 'https://redd.it/13cgzqb')
 
 ########################################
 
@@ -139,6 +140,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/13asugp/respect_zatanna_zatara_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Winsor (Marvel, 616)', 'https://redd.it/13bx3hs')
+add_data(['Winsor'],
+'Winsor',
+False,
+False,
+[
+    ['616'], ['Marvel']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13bx3hs/winsor_marvel_616/
 
 ########################################
 
