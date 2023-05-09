@@ -14,12 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
---After run
-UPDATE character SET is_default=FALSE WHERE default_name='Zatanna' AND displayed_version_name='Post-Crisis / New 52';
-SELECT * FROM respectthread WHERE link='https://redd.it/13asugp';
-UPDATE character SET rt_id_array='{1710, ?}' WHERE default_name='Zatanna' AND version='{"(DC( Comics)?)"}';
-UPDATE character SET displayed_version_name='DC' WHERE default_name='Zatanna' AND version='{"(DC( Comics)?)"}';
-
 ########################################
 
 ########################################

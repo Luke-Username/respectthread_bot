@@ -5146,15 +5146,6 @@ Swamp Thing,{PC},f,{1728},Pre New 52
 Swamp Thing,"{`"Pre(-| )?Crisis`"}",f,{1728},Pre New 52
 Swamp Thing,"{`"Post(-| )?C(risis)?`"}",f,{1728},Pre New 52
 Swamp Thing,"{`"New(-| )Earth`"}",f,{1728},Pre New 52
-Zatanna,"{`"New(-| )?52`"}",t,{1710},Post-Crisis / New 52
-Zatanna,{Nu?-?52},t,{1710},Post-Crisis / New 52
-Zatanna,"{`"Post(-| )52`"}",t,{1710},Post-Crisis / New 52
-Zatanna,"{`"Prime(-| )Earth`"}",t,{1710},Post-Crisis / New 52
-Zatanna,{Rebirth},t,{1710},Post-Crisis / New 52
-Zatanna,{PC},t,{1710},Post-Crisis / New 52
-Zatanna,"{`"Post(-| )?C(risis)?`"}",t,{1710},Post-Crisis / New 52
-Zatanna,"{`"New(-| )Earth`"}",t,{1710},Post-Crisis / New 52
-Zatanna,"{`"(DC( Comics)?)`"}",t,{1710},Post-Crisis / New 52
 Blue Devil,{PC},f,{1711},Post-Crisis
 Blue Devil,"{`"Post(-| )?C(risis)?`"}",f,{1711},Post-Crisis
 Blue Devil,"{`"New(-| )Earth`"}",f,{1711},Post-Crisis
@@ -5185,6 +5176,7 @@ Oracle,"{`"Young Justice`"}",f,{10801},Young Justice
 Young Justice Team,"{`"Young Justice`"}",t,{10802},""
 Young Justice,"{`"Young Justice vs`"}",f,{10802},TV Series
 Young Justice,"{`"vs.? Young Justice`"}",f,{10802},TV Series
+Zatanna,"{`"New(-| )?52`"}",f,{1710},Post-Crisis / New 52
 Young Justice,"{`"Young Justice ?\\(TV`"}",f,{10802},TV Series
 Young Justice,"{`"Young Justice ?\\(YJ Cartoon`"}",f,{10802},TV Series
 Young Justice,"{`"Young Justice Sd`"}",f,{10802},TV Series
@@ -29868,3 +29860,19 @@ Perry the Platypus,{INUbis},f,{23808},INUbis
 Darth Vader,"{`"Super Power Beat Down`"}",f,{23809},Super Power Beat Down
 Sherdog Holmes,"{`"Sherlock Bones`"}",f,{23810},Sherlock Bones
 Birthday Boy,"{`"Earth One`"}",f,{23811},Earth One
+Kurako,"{`"Nocturne of the Heaven`"}",f,{23812},Nocturne of the Heaven
+Kurako,{NOTH},f,{23812},Nocturne of the Heaven
+Kurako,{Kamigakari},f,{23812},Nocturne of the Heaven
+Kurako,{Nijisanji},f,{23812},Nocturne of the Heaven
+Kurako,"{`"Saiyou Kurako`"}",f,{23812},Nocturne of the Heaven
+Zatanna,"{`"Pre(-| )?Crisis`"}",f,{23813},Pre-Crisis
+Winsor,{616},f,{23814},616
+Winsor,{Marvel},f,{23814},616
+Zatanna,{Nu?-?52},f,{1710},Post-Crisis / New 52
+Zatanna,"{`"Post(-| )52`"}",f,{1710},Post-Crisis / New 52
+Zatanna,"{`"Prime(-| )Earth`"}",f,{1710},Post-Crisis / New 52
+Zatanna,{Rebirth},f,{1710},Post-Crisis / New 52
+Zatanna,{PC},f,{1710},Post-Crisis / New 52
+Zatanna,"{`"Post(-| )?C(risis)?`"}",f,{1710},Post-Crisis / New 52
+Zatanna,"{`"New(-| )Earth`"}",f,{1710},Post-Crisis / New 52
+Zatanna,"{`"(DC( Comics)?)`"}",f,"{1710,23813}",DC
