@@ -107,55 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 21136, 'Respect Pirate Queen Tagaka (Avatar: The Kyoshi Novels)', 'https://redd.it/139sv21')
-update_respectthread(cur, 4723, 'Respect Joe Shimamura Cyborg 009 (Cyborg 009)', 'https://redd.it/13cgzqb')
-
-########################################
-
-id = get_rt_id(cur, 'Respect Kurako / Heavenly Star☆Angelica (Nocturne of the Heaven) [Nijisanji Kamigakari campaign]', 'https://redd.it/139l39i')
-add_data(['Kurako'],
-'Kurako',
-False,
-False,
-[
-    ['Nocturne of the Heaven'], ['NOTH'], ['Kamigakari'], ['Nijisanji'],
-    ['Saiyou Kurako']
-],
-'Nocturne of the Heaven',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/139l39i/respect_kurako_heavenly_starangelica_nocturne_of/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Zatanna Zatara (DC, Pre-Crisis)', 'https://redd.it/13asugp')
-add_data(['Zatanna'],
-'Zatanna',
-False,
-False,
-[
-    ['Pre(-| )?Crisis']
-],
-'Pre-Crisis',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/13asugp/respect_zatanna_zatara_dc_precrisis/
-
-########################################
-
-id = get_rt_id(cur, 'Winsor (Marvel, 616)', 'https://redd.it/13bx3hs')
-add_data(['Winsor'],
-'Winsor',
-False,
-False,
-[
-    ['616'], ['Marvel']
-],
-'616',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/13bx3hs/winsor_marvel_616/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
