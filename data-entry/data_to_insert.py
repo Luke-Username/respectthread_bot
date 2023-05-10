@@ -107,6 +107,112 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4870, 'Respect Casshern (Neo Human Casshern)', 'https://redd.it/13dijbm')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Garfield (Garfield Live Action Films)', 'https://redd.it/13clcr8')
+add_data(['Garfield'],
+'Garfield',
+False,
+False,
+[
+    ['live(-| )action']
+],
+'Live-Action',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13clcr8/respect_garfield_garfield_live_action_films/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Gregor Eisenhorn (Warhammer 40k)', 'https://redd.it/13czqp5')
+add_data(['Gregor Eisenhorn'],
+'Gregor Eisenhorn',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13czqp5/respect_gregor_eisenhorn_warhammer_40k/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Belinda "Lindy" White! (The Candy Shop War)', 'https://redd.it/13d3pbd')
+add_data(['Belinda White'],
+'Belinda White',
+False,
+False,
+[
+    ['Candy Shop War']
+],
+'The Candy Shop War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13d3pbd/respect_belinda_lindy_white_the_candy_shop_war/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Luigi (The Super Mario Bros. Movie)', 'https://redd.it/13dehd4')
+add_data(['Luigi'],
+'Luigi',
+False,
+False,
+[
+    ['Mario( Bros\.?)? Movie'], ['Illumination']
+],
+'The Super Mario Bros. Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13dehd4/respect_luigi_the_super_mario_bros_movie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Princess Peach (The Super Mario Bros. Movie)', 'https://redd.it/13dejiy')
+add_data(['Princess Peach'],
+'Princess Peach',
+False,
+False,
+[
+    ['Mario( Bros\.?)? Movie'], ['Illumination']
+],
+'The Super Mario Bros. Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13dejiy/respect_princess_peach_the_super_mario_bros_movie/
+
+add_data(['Peach'],
+'Peach',
+False,
+False,
+[
+    ['Mario( Bros\.?)? Movie'], ['Illumination']
+],
+'The Super Mario Bros. Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13dejiy/respect_princess_peach_the_super_mario_bros_movie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bowser (The Super Mario Bros. Movie)', 'https://redd.it/13dem7g')
+add_data(['Bowser'],
+'Bowser',
+False,
+False,
+[
+    ['Mario( Bros\.?)? Movie'], ['Illumination']
+],
+'The Super Mario Bros. Movie',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

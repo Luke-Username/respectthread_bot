@@ -1915,6 +1915,12 @@ Little Witch Academia
 	Displayed Version Name
 		"Little Witch Academia"
 
+Live-Action
+	Version
+		['live(-| )action']
+	Displayed Version Name
+		"Live-Action"
+
 Looney Toons
 	Version
 		'{"Looney Tunes"}'
@@ -3306,6 +3312,12 @@ Super Mario
 		'{"Mario"}'
 	Displayed Version Name
 		"Mario"
+
+	The Super Mario Bros. Movie
+		Version
+			['Mario( Bros\.?)? Movie'], ['Illumination']
+		Displayed Version Name
+			"The Super Mario Bros. Movie"
 
 Super Mario Bros. Z
 	Version
