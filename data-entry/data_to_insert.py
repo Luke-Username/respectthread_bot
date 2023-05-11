@@ -212,6 +212,122 @@ False,
 )
 #
 
+########################################
+
+id = get_rt_id(cur, 'Respect Legion (The Blueballs Incident)', 'https://redd.it/13dytsg')
+add_data(['Legion'],
+'Legion',
+False,
+False,
+[
+    ['Blueballs Incident'], ['Friday Night Funkin']
+],
+'The Blueballs Incident',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13dytsg/respect_legion_the_blueballs_incident/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Titans! (God of War)', 'https://redd.it/13e9bs3')
+add_data(['Titans'],
+'Titans',
+True,
+False,
+[
+    ['God of War'], ['G\.?O\.?W']
+],
+'God of War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13e9bs3/respect_the_titans_god_of_war/
+
+add_data(['Gaia'],
+'Gaia',
+False,
+False,
+[
+    ['God of War'], ['G\.?O\.?W']
+],
+'God of War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13e9bs3/respect_the_titans_god_of_war/
+
+add_data(['Cronos'],
+'Cronos',
+False,
+False,
+[
+    ['God of War'], ['G\.?O\.?W']
+],
+'God of War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13e9bs3/respect_the_titans_god_of_war/
+
+add_data(['Atlas'],
+'Atlas',
+False,
+False,
+[
+    ['God of War'], ['G\.?O\.?W']
+],
+'God of War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13e9bs3/respect_the_titans_god_of_war/
+
+add_data(['Oceanus'],
+'Oceanus',
+False,
+False,
+[
+    ['God of War']
+],
+'God of War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13e9bs3/respect_the_titans_god_of_war/
+
+add_data(['Epimetheus'],
+'Epimetheus',
+False,
+False,
+[
+    ['God of War']
+],
+'God of War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13e9bs3/respect_the_titans_god_of_war/
+
+add_data(['Perses'],
+'Perses',
+False,
+False,
+[
+    ['God of War']
+],
+'God of War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13e9bs3/respect_the_titans_god_of_war/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Polymar [Hurricane Polymar]', 'https://redd.it/13eea7q')
+add_data(['Polymar'],
+'Polymar',
+False,
+True,
+[
+    ['Hurricane Polymar']
+],
+'Hurricane Polymar',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13eea7q/respect_polymar_hurricane_polymar/
 
 ########################################
 
