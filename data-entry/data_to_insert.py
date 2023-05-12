@@ -107,6 +107,64 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect Xx_Fresh_xX Time Trio (Xx_Fresh_xX Time Trio [PD_ZF''s Take])", 'https://redd.it/13enrz4')
+add_data(['Xx_Fresh_xX Time Trio'],
+'Xx_Fresh_xX Time Trio',
+True,
+True,
+[
+    ["PD_ZF''s Take"]
+],
+"PD_ZF''s Take",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13enrz4/respect_xx_fresh_xx_time_trio_xx_fresh_xx_time/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Supreme Monstrosity (Dinosaurs Attack!)', 'https://redd.it/13er0km')
+add_data(['Supreme Monstrosity'],
+'Supreme Monstrosity',
+False,
+False,
+[
+    ['Dinosaurs Attack!']
+],
+'Dinosaurs Attack!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13er0km/respect_the_supreme_monstrosity_dinosaurs_attack/
+
+########################################
+
+id = get_rt_id(cur, "Respect Xx_Fresh_xX Time Trio (Xx_Fresh_xX Time Trio [PD_ZF''s Take])", 'https://redd.it/13enrz4')
+add_data(['Gisa and Geralf'],
+'Gisa and Geralf',
+True,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13et11a/respect_gisa_and_geralf_magic_the_gathering/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aisha Campbell, the Yellow Ranger (Mighty Morphin'' Power Rangers)', 'https://redd.it/13eyt8i')
+add_data(['Aisha'],
+'Aisha',
+False,
+False,
+[
+    ['Aisha Campbell'], ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13eyt8i/respect_aisha_campbell_the_yellow_ranger_mighty/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
