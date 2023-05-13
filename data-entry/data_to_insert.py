@@ -167,6 +167,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Rocky DeSantos (Power Rangers)', 'https://redd.it/13gf6p4')
+add_data(['Rocky DeSantos'],
+'Rocky DeSantos',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Katherine Hillard (Power Rangers)', 'https://redd.it/13gf9z7')
+add_data(['Katherine'],
+'Katherine',
+False,
+False,
+[
+    ['Katherine Hillard'], ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13gf9z7/respect_katherine_hillard_power_rangers/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
