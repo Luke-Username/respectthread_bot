@@ -107,6 +107,28 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4107, 'Respect Metal Bat! (One-Punch Man Manga)', 'https://redd.it/13gutej')
+update_respectthread(cur, 4114, "Respect Speed-O''-Sound Sonic! (One-Punch Man Manga)", 'https://redd.it/13gv296')
+update_respectthread(cur, 4102, 'Respect Fubuki! (One-Punch Man Manga)', 'https://redd.it/13gv9xr')
+update_respectthread(cur, 12453, 'Respect Superalloy Darkshine! (One-Punch Man Manga)', 'https://redd.it/13gvfz8')
+update_respectthread(cur, 4112, 'Respect Saitama! (One-Punch Man Manga)', 'https://redd.it/13gvk0i')
+
+########################################
+
+add_data(['Punisher'],
+'Punisher',
+False,
+False,
+[
+    ['MAX Comics?']
+],
+'Punisher MAX',
+'{2226}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/13gzjqt/punisher_marvel_vs_sawyer_family_the_texas/jk2ky35/?context=3
+
+########################################
+
 id = get_rt_id(cur, "Respect Xx_Fresh_xX Time Trio (Xx_Fresh_xX Time Trio [PD_ZF''s Take])", 'https://redd.it/13enrz4')
 add_data(['Xx_Fresh_xX Time Trio'],
 'Xx_Fresh_xX Time Trio',
@@ -194,6 +216,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/13gf9z7/respect_katherine_hillard_power_rangers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Norman Osborn, the Red Goblin (Marvel, Earth-616)', 'https://redd.it/13gsjrz')
+add_data(['Red Goblin'],
+'Red Goblin',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13gsjrz/respect_norman_osborn_the_red_goblin_marvel/
 
 ########################################
 
