@@ -15,8 +15,11 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character_name SET name='T\.?(-| )Rex' WHERE name='T\\.?(-| )Rex';
+UPDATE character_name SET name='Robo?ute Guilliman' WHERE name='Roboute Guilliman';
 
 ########################################
+
+DELETE FROM name_conflict WHERE name='Ben (10|Ten(nyson)?)';
 
 ########################################
 
