@@ -919,7 +919,7 @@ Dr. Horrible's Sing-Along Blog
 
 Dungeons & Dragons / Dungeons and Dragons
 	Version
-		['Dungeons (&|and) Dragons'], ['D ?& ?D']
+		['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D']
 	Displayed Version Name
 		"Dungeons & Dragons"
 
