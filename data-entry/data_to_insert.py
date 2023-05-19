@@ -122,6 +122,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect: Bruce Wayne, Superman! (DC Comics, Pre-Crisis Earth 136)', 'https://redd.it/13m5sx3')
+add_data(['Bruce Wayne'],
+'Bruce Wayne',
+False,
+False,
+[
+    ['Earth(-| )136']
+],
+'Earth-136',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13m5sx3/respect_bruce_wayne_superman_dc_comics_precrisis/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
