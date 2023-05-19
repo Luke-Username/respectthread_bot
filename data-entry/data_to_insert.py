@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Iron Man Models 30-34: the Argonauts (Marvel, Earth-616)', 'https://redd.it/13loka3')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Argonauts']
+],
+'Argonauts',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13loka3/respect_iron_man_models_3034_the_argonauts_marvel/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
