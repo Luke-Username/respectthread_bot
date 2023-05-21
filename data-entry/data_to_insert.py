@@ -137,6 +137,66 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect: Bruce Wayne, Superman! (DC Comics, Pre-Crisis Earth 353)', 'https://redd.it/13o0s5n')
+add_data(['Bruce Wayne'],
+'Bruce Wayne',
+False,
+False,
+[
+    ['Earth(-| )353']
+],
+'Earth-353',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13o0s5n/respect_bruce_wayne_superman_dc_comics_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect James Valkon, The Stinger (Marvel, 616)', 'https://redd.it/13o2wwe')
+add_data(['Stinger'],
+'Stinger',
+False,
+False,
+[
+    ['Stinger.*616'], ['James Valkon', '616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13o2wwe/respect_james_valkon_the_stinger_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Goomba (Salt Assault!)', 'https://redd.it/13o3wby')
+add_data(['Goomba'],
+'Goomba',
+False,
+False,
+[
+    ['Salt Assault']
+],
+'Salt Assault!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13o3wby/respect_goomba_salt_assault/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kim Jong Un (The Stars and Strifes)', 'https://redd.it/13nii16')
+add_data(['Kim Jong Un'],
+'Kim Jong Un',
+False,
+False,
+[
+    ['Stars and Strifes']
+],
+'The Stars and Strifes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13nii16/respect_kim_jong_un_the_stars_and_strifes/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
