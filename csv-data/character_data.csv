@@ -28992,9 +28992,6 @@ Sam,"{`"Until Dawn`"}",f,{23252},Until Dawn
 Thirteenth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{23253},Doctor Who
 Thirteenth Doctor,{Who(ni)?verse},t,{23253},Doctor Who
 Mother Malkin,"{`"Wardstone Chronicles`"}",t,{23254},Wardstone Chronicles
-Tomie,{(tomie_)?Kawakami},f,{23254},""
-Tomie,"{`"Junji Ito`"}",f,{23254},""
-Tomie,"{`"Tomie vs|vs\\.? Tomie`"}",f,{23254},""
 The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
 Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
 Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
@@ -29045,8 +29042,11 @@ Frey Holland,{Forspoken},t,{23280},Forspoken
 Steve Fox,{Tekken},f,{23281},Tekken
 Kate Bishop,{MCU},f,"{23282,21522}",MCU
 Vlad,{Lancer},f,{21029},Fate
-Hulkbuster,"{`"Comics? Hulk ?buster`"}",f,"{22877,23147,22927,23257,22735,22803}",616
 Hulkbuster,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Hulkbuster,"{`"Comics? Hulk ?buster`"}",f,"{22877,23147,22927,23257,22735,22803,23842}",616
+Tomie,{(tomie_)?Kawakami},f,{23832},Junji Ito
+Tomie,"{`"Junji Ito`"}",f,{23832},Junji Ito
+Tomie,"{`"Tomie vs|vs\\.? Tomie`"}",f,{23832},Junji Ito
 Piranha,"{`"Piranha.*The Bad Guys`"}",f,{22168},The Bad Guys
 Daisy,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",f,{69},Agents of SHIELD/MCU
 Coulson,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",f,{23283},MCU
@@ -29489,7 +29489,6 @@ Zeon,"{`"Zeon Bell`"}",f,{23562},Zatch Bell!
 Zeon,{Duf(ort|aux)},f,{23562},Zatch Bell!
 David Garcia,"{`"Wa(lk|kl)ing Dead`"}",f,{23563},The Walking Dead
 David Garcia,{TWD},f,{23563},The Walking Dead
-Hulkbuster,{616},f,"{22877,23147,22927,23257,22735,22803}",616
 Bullseye,"{`"MCU\\)`"}",f,{12455},MCU
 Bullseye,{Bullseye.*MCU},f,{12455},MCU
 Celebi,{Pok(e|é)m(o|a)n},t,{23564},Pokémon
@@ -29498,6 +29497,7 @@ Ace,"{`"Ruby Quest`"}",f,{23565},Ruby Quest
 Ar-Val,"{`"Pre(-| )?Crisis`"}",f,{23566},Pre-Crisis
 Boba Fett,"{`"Robot Chicken`"}",f,{23567},Robot Chicken
 Hulkbuster,"{`"MCU\\)`"}",f,{},MCU
+Hulkbuster,{616},f,"{22877,23147,22927,23257,22735,22803,23842}",616
 Autumn,"{`"Undead Unluck`"}",f,{23568},Undead Unluck
 Autumn,"{`"UMA Autumn`"}",f,{23568},Undead Unluck
 Spoil,"{`"Undead Unluck`"}",f,{23569},Undead Unluck
@@ -29921,3 +29921,23 @@ Ultra-Humanite,"{`"DC Animated Universe`"}",f,{23831},DCAU
 Ultra-Humanite,{DCAU},f,{23831},DCAU
 Ultra-Humanite,{Timmverse},f,{23831},DCAU
 Ultra-Humanite,"{`"Animated DC`"}",f,{23831},DCAU
+Jonathan,"{`"Dio Brando`"}",f,{3533},Jojo's Bizarre Adventure
+Dr. Reid,{Vampyr},f,{17351},Vampyr
+Shere Khan,{1894},t,{},1894
+Zzzap,"{`"Ex(-| )Heroes`"}",f,{23833},Ex-Heroes
+Barry Burke,"{`"Ex(-| )Heroes`"}",f,{23833},Ex-Heroes
+Stealth,"{`"Ex(-| )Heroes`"}",f,{23834},Ex-Heroes
+Cerberus Battle System,"{`"Ex(-| )Heroes`"}",f,{23835},Ex-Heroes
+Pluton,{Halo},f,{23836},Halo
+Madden 08 Cyborg,"{`"Scott The Woz`"}",t,{23837},Scott The Woz
+M3GAN,"{`"M3GAN \\(M3GAN\\)`"}",t,{23838},""
+Superman Beyond,"{`"DC Animated Universe`"}",f,{23839},DCAU
+Superman Beyond,{DCAU},f,{23839},DCAU
+Superman Beyond,{Timmverse},f,{23839},DCAU
+Superman Beyond,"{`"Animated DC`"}",f,{23839},DCAU
+Jafar,{2019},f,{23840},"Aladdin, 2019"
+Themberchaud,"{`"Honor Among Thieves`"}",f,{23841},Dungeons & Dragons: Honor Among Thieves
+Themberchaud,"{`"Dungeons (&|and) Dragons`",movie|film}",f,{23841},Dungeons & Dragons: Honor Among Thieves
+Themberchaud,"{`"D ?(&|n) ?D`",movie|film}",f,{23841},Dungeons & Dragons: Honor Among Thieves
+Iron Man,{Argonauts},f,{23842},Argonauts
+Bruce Wayne,"{`"Earth(-| )136`"}",f,{23843},Earth-136
