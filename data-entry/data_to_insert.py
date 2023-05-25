@@ -107,6 +107,258 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Dagger'],
+'Dagger',
+False,
+False,
+[
+    ['Dagger ?\((Marvel)? 616\)']
+],
+'616',
+'{2435}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/11ttj8t/lady_nagantmha_vs_daggermarvel_616/jlfrxdn/?context=3
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Marci Camp, Bulldozer (Marvel, Earth-616)', 'https://redd.it/13qrrry')
+add_data(['Bulldozer'],
+'Bulldozer',
+False,
+False,
+[
+    ['Bulldozer ?\((Marvel)? 616\)']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qr74j/respect_savitar_arrowverse/
+
+add_data(['Marci Camp'],
+'Marci Camp',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qr74j/respect_savitar_arrowverse/
+
+
+########################################
+
+add_data(['Apocalyps?e'],
+'Apocalypse',
+False,
+False,
+[
+    ['Apocalyps?e vs|vs\.? Apocalyps?e', 'Marvel comics? versions?']
+],
+'616',
+'{2392}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/13oxqgy/dr_doom_vs_apocalypse/jl6mw4i/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dracula (Blade: Trinity)', 'https://redd.it/13o7llv')
+add_data(['Dracula'],
+'Dracula',
+False,
+False,
+[
+    ['Blade:? Trinity']
+],
+'Blade: Trinity',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13o7llv/respect_dracula_blade_trinity/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Donkey Kong (The Super Mario Bros. Movie)', 'https://redd.it/13p3k6d')
+add_data(['Donkey Kong'],
+'Donkey Kong',
+False,
+False,
+[
+    ['Mario( Bros\\.?)? Movie']
+],
+'The Super Mario Bros. Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13p3k6d/respect_donkey_kong_the_super_mario_bros_movie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mecha Shark! (Mega Shark vs Mecha Shark)', 'https://redd.it/13qa0zq')
+add_data(['Mecha Shark'],
+'Mecha Shark',
+False,
+False,
+[
+    ['Mega Shark vs Mecha Shark']
+],
+'Mega Shark vs Mecha Shark',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qa0zq/respect_mecha_shark_mega_shark_vs_mecha_shark/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rodney Casares (Ex-Heroes)', 'https://redd.it/13qbox6')
+add_data(['Rodney Casares'],
+'Rodney Casares',
+False,
+True,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qbox6/respect_rodney_casares_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Midknight (Ex-Heroes)', 'https://redd.it/13qcbq6')
+add_data(['Midknight'],
+'Midknight',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qcbq6/respect_midknight_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Banzai (Ex-Heroes)', 'https://redd.it/13qcqy3')
+add_data(['Banzai'],
+'Banzai',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qcqy3/respect_banzai_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ethan James, the Blue Dino Ranger (Power Rangers Dino Thunder)', 'https://redd.it/13qjuzv')
+add_data(['Ethan James'],
+'Ethan James',
+False,
+False,
+[
+    ['Power Rangers?'], ['Dino Thunder']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qjuzv/respect_ethan_james_the_blue_dino_ranger_power/
+
+add_data(['Ethan'],
+'Ethan',
+False,
+False,
+[
+    ['Dino Thunder Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qjuzv/respect_ethan_james_the_blue_dino_ranger_power/
+
+add_data(['Blue Dino Ranger'],
+'Blue Dino Ranger',
+False,
+True,
+[
+    ['Dino Thunder Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qjuzv/respect_ethan_james_the_blue_dino_ranger_power/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kira Ford, the Yellow Dino Ranger (Power Rangers Dino Thunder)', 'https://redd.it/13qjv18')
+add_data(['Kira Ford'],
+'Kira Ford',
+False,
+True,
+[
+    ['Power Rangers?'], ['Dino Thunder']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qjuzv/respect_ethan_james_the_blue_dino_ranger_power/
+
+add_data(['Kira'],
+'Kira',
+False,
+False,
+[
+    ['Dino Thunder Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qjuzv/respect_ethan_james_the_blue_dino_ranger_power/
+
+add_data(['Yellow Dino Ranger'],
+'Yellow Dino Ranger',
+False,
+True,
+[
+    ['Dino Thunder Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Savitar (Arrowverse)', 'https://redd.it/13qr74j')
+add_data(['Savitar'],
+'Savitar',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+],
+'CW Arrowverse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qr74j/respect_savitar_arrowverse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dick Grayson, Superwing! (DC Comics, New52/Rebirth)', 'https://redd.it/13qvz0g')
+add_data(['Dick Grayson'],
+'Dick Grayson',
+False,
+False,
+[
+    ['Superwing']
+],
+'Superwing',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13qvz0g/respect_dick_grayson_superwing_dc_comics/
 
 ########################################
 
