@@ -119,6 +119,19 @@ False,
 )
 #https://www.reddit.com/r/whowouldwin/comments/11ttj8t/lady_nagantmha_vs_daggermarvel_616/jlfrxdn/?context=3
 
+########################################
+
+add_data(['Wallace West'],
+'Wallace West',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{1591}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/13rgal3/which_character_would_last_longest_in_the_naruto/jllat71/?context=3
 
 ########################################
 
@@ -147,6 +160,20 @@ True,
 )
 #https://www.reddit.com/r/respectthreads/comments/13qr74j/respect_savitar_arrowverse/
 
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 35: the Hydro Armor Mark III (Marvel, Earth-616)', 'https://redd.it/13rfkjr')
+add_data(['Hydro Armor Mark III'],
+'Hydro Armor Mark III',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13rfkjr/respect_iron_man_model_35_the_hydro_armor_mark/
 
 ########################################
 
@@ -359,6 +386,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/13qvz0g/respect_dick_grayson_superwing_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bruce Wayne, Super-Bat (DC, Post Crisis)', 'https://redd.it/13riig4')
+add_data(['Bruce Wayne'],
+'Bruce Wayne',
+False,
+False,
+[
+    ['Super-Bat']
+],
+'Super-Bat',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13riig4/respect_bruce_wayne_superbat_dc_post_crisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Waylon Jones, the Killer Croc (DC Comics: Earth One)', 'https://redd.it/13rhxsm')
+add_data(['Killer Croc'],
+'Killer Croc',
+False,
+False,
+[
+    ['Earth One']
+],
+'Earth One',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13rhxsm/respect_waylon_jones_the_killer_croc_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bob Lee Swagger! (Shooter [2007])', 'https://redd.it/13rh75n')
+add_data(['Bob Lee Swagger'],
+'Bob Lee Swagger',
+False,
+True,
+[
+    ['Shooter']
+],
+'Shooter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13rh75n/respect_bob_lee_swagger_shooter_2007/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Woltekamui! (Ragna Crimson)', 'https://redd.it/13rn22n')
+add_data(['Woltekamui'],
+'Woltekamui',
+False,
+True,
+[
+    ['Ragna Crimson']
+],
+'Ragna Crimson',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13rn22n/respect_woltekamui_ragna_crimson/
 
 ########################################
 
