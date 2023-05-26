@@ -449,6 +449,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Dokuro-Chan (Bludgeoning Angel Dokuro-Chan)', 'https://redd.it/6ujx74')
+add_data(['Dokuro-Chan'],
+'Dokuro-Chan',
+False,
+True,
+[
+    ['Bludgeoning Angel Dokuro-Chan']
+],
+'Bludgeoning Angel Dokuro-Chan',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
