@@ -107,6 +107,35 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Demogorgon (Forgotten Realms)', 'https://redd.it/ohn7af')
+add_data(['Demogorgon'],
+'Demogorgon',
+False,
+True,
+[
+    ['Forgotten Realms'], ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D']
+],
+'Forgotten Realms',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/MyOwnPersonalTestPage/comments/ohn7af/respect_demogorgon_forgotten_realms/
+#https://www.reddit.com/r/whowouldwin/comments/13scthm/angron_wh40k_vs_demogorgon_dd5e/jlp3zu4/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Will Sawyer! (Skyscraper)', 'https://redd.it/13se551')
+add_data(['Will Sawyer'],
+'Will Sawyer',
+False,
+False,
+[
+    ['Skyscraper']
+],
+'Skyscraper',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13se551/respect_will_sawyer_skyscraper/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
