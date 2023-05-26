@@ -1615,15 +1615,6 @@ Jar Jar Binks,"{`"Star Wars`"}",t,{319},Star Wars
 K-2SO,"{`"Star Wars`"}",t,{320},Star Wars
 K-2SO,"{`"Rogue One`"}",t,{320},Star Wars
 Kit Fisto,"{`"Star Wars`"}",t,{321},Star Wars
-Luke,"{`"Star Wars`"}",f,{322},Star Wars
-Luke,{SW},f,{322},Star Wars
-Luke Skywalker,"{`"Star Wars`"}",t,{322},Star Wars
-Luke Skywalker,{Legends},f,{5973},Star Wars Legends
-Luke Skywalker,"{`"Extended Universe`"}",f,{5973},Star Wars Legends
-Luke Skywalker,{EU},f,{5973},Star Wars Legends
-Grandmaster Luke Skywalker,{Legends},t,{5973},Star Wars Legends
-Grandmaster Luke Skywalker,"{`"Extended Universe`"}",t,{5973},Star Wars Legends
-Grandmaster Luke Skywalker,{EU},t,{5973},Star Wars Legends
 Luminara Unduli,"{`"Star Wars`"}",t,{323},Star Wars
 Mace Windu,"{`"Star Wars`"}",t,{324},Star Wars
 Mace Windu,{Legends},f,{5974},Star Wars Legends
@@ -1671,6 +1662,8 @@ Strafe,{Bayformers},f,{335},Transformers Films
 Guardian Knights,"{`"Transformers Films`"}",f,{336},Transformers Films
 Guardian Knights,"{`"Transformers Movies`"}",f,{336},Transformers Films
 Guardian Knights,{Bay},f,{336},Transformers Films
+Luke,"{`"Star Wars`"}",f,"{322,5973}",Star Wars
+Luke Skywalker,"{`"Star Wars`"}",t,"{322,5973}",Star Wars
 Guardian Knights,{Bayverse},f,{336},Transformers Films
 Guardian Knights,{Bayformers},f,{336},Transformers Films
 Guardian Knights,"{`"The Last Knight`"}",f,{336},Transformers Films
@@ -4452,8 +4445,6 @@ Flash,{PC},f,{1583},Pre-Crisis
 Flash,"{`"Pre(-| )?Crisis`"}",f,{1583},Pre-Crisis
 Bart Allen,{PC},t,{1584},""
 Kid Flash,{PC},t,{1584},""
-Black Flash,{DC},t,{1585},""
-Black Flash,{CW},f,{},CW Arrowverse
 Mikoto Misaka,{Index(verse)?},t,{4451},Toaru Majutsu no Index
 Mikoto Misaka,{TAMNI},t,{4451},Toaru Majutsu no Index
 Flash,"{`"New ?52`"}",f,{1582},New 52 / Rebirth
@@ -4498,6 +4489,8 @@ Wallace West,{N-?52},f,{1591},New 52
 Wallace West,"{`"Post(-| )52`"}",f,{1591},New 52
 Deathstroke,"{`"New(-| )Earth`"}",f,"{1578,21861}",Post-Crisis
 The Flash,"{`"New ?52`"}",f,{1582},New 52 / Rebirth
+Black Flash,{DC},f,{1585},""
+Black Flash,{CW},f,{},CW Arrowverse
 Reverse-Flash,{PC},f,{1588},Pre-Crisis
 Reverse-Flash,"{`"Pre(-| )?Crisis`"}",f,{1588},Pre-Crisis
 Reverse-Flash,"{`"Silver ?Age`"}",f,{1588},Pre-Crisis
@@ -19325,11 +19318,6 @@ Starlight,"{`"The Boys`",show}",f,{13593},"The Boys, 2019"
 Starlight,"{`"The Boys`",2019}",f,{13593},"The Boys, 2019"
 Starlight,"{`"show version`"}",f,{13593},"The Boys, 2019"
 Starlight,"{`"TV shows?`"}",f,{13593},"The Boys, 2019"
-Queen Maeve,"{`"The Boys`",TV}",f,{13595},"The Boys, 2019"
-Queen Maeve,"{`"The Boys`",show}",f,{13595},"The Boys, 2019"
-Queen Maeve,"{`"The Boys`",2019}",f,{13595},"The Boys, 2019"
-Queen Maeve,"{`"show version`"}",f,{13595},"The Boys, 2019"
-Queen Maeve,"{`"TV shows?`"}",f,{13595},"The Boys, 2019"
 Yasuo,"{`"League ?of ?Legends`"}",t,{13596},League of Legends
 Yasuo,{LOL},t,{13596},League of Legends
 Yone,"{`"League ?of ?Legends`"}",t,{13597},League of Legends
@@ -19362,6 +19350,11 @@ Groot,"{`"Marvel Cinematic Universe`"}",f,{13607},MCU
 Groot,{199999},f,{13607},MCU
 Yondu,"{`"Marvel Cinematic Universe`"}",f,{13485},MCU
 Yondu,{MCU},f,{13485},MCU
+Queen Maeve,"{`"The Boys`",TV}",t,{13595},"The Boys, 2019"
+Queen Maeve,"{`"The Boys`",show}",t,{13595},"The Boys, 2019"
+Queen Maeve,"{`"The Boys`",2019}",t,{13595},"The Boys, 2019"
+Queen Maeve,"{`"show version`"}",t,{13595},"The Boys, 2019"
+Queen Maeve,"{`"TV shows?`"}",t,{13595},"The Boys, 2019"
 Yondu,"{`"Guardians of the Galaxy`"}",f,{13485},MCU
 Yondu,"{`"Guardians( of the Galaxy)? 2`"}",f,{13485},MCU
 Yondu,{GOTG2?},f,{13485},MCU
@@ -25742,7 +25735,6 @@ Hei-Ran,{Bend(er|ing)},t,{21312},Avatar: TLA
 Hei-Ran,{Kyoshi},t,{21312},Avatar: TLA
 Batman,"{`"Batman:? Year One`"}",f,{},Aronofsky
 Batman,{Darren},f,{},Aronofsky
-Batman,"{`"Earth One`"}",f,{},Earth One
 Machamp,"{`"Terminal ?Montage`"}",f,{21314},Terminalmontage
 Cryptid,"{`"Call of Duty`"}",f,{21315},Call of Duty
 Cryptid,"{`"COD:? Ghosts?`"}",f,{21315},Call of Duty
@@ -25761,6 +25753,7 @@ Saint Walker,"{`"\\[DC( Comics)?\\]`"}",t,{22097},DC
 Saint Walker,{PC},f,{22097},Post-Crisis
 Saint Walker,"{`"Posts?(-| )?C(risis)?`"}",f,{22097},Post-Crisis
 Saint Walker,"{`"New(-| )Earth`"}",f,{22097},Post-Crisis
+Batman,"{`"Earth One`"}",f,{23848},Earth One
 Flash,"{`"Flash \\(Barry( Allen)?\\)`"}",f,{1582},New 52 / Rebirth
 Storm front,"{`"The Boys`"}",f,{21319},"The Boys, 2019"
 Storm front,{Homelander},f,{21319},"The Boys, 2019"
@@ -27397,7 +27390,6 @@ Elijah,{Prophet},f,{22178},Prophet
 Taiyo Asano,"{`"Yozakura Family`"}",t,{22179},Mission: Yozakura Family
 Alucard,"{`"Castle(-| )?vania`"}",f,"{14492,1252}",Castlevania
 Steve,"{`"Steve with commands?`"}",f,"{5648,5647}",Minecraft
-Queen Maeve,"{`"Black Noir`"}",f,{13595},The Boys
 Europa,{Fate},f,{22180},Fate
 Sun-Hee,"{`"The Boys`"}",f,{22181},The Boys
 Dorothy Wayneright,"{`"Big(-| )O`"}",t,{22182},The Big O
@@ -28017,7 +28009,6 @@ Sanji,{Shokugeki},f,{22629},Shokugeki no Sanji
 Dai Ibuki,"{`"Until Death Do Us Part`"}",t,{22630},Until Death Do Us Part
 The Eighth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{22631},Doctor Who
 The Eighth Doctor,{Who(ni)?verse},t,{22631},Doctor Who
-Queen Maeve,"{`"The Boys`"}",f,{13595},The Boys
 Gaston,{2017},f,{22633},"Beauty and the Beast, 2017"
 Gaston,"{`"Live Action`"}",f,{22633},"Beauty and the Beast, 2017"
 Penitent One,{Blasphemous},t,{22634},Blasphemous
@@ -29946,3 +29937,35 @@ Stinger,{Stinger.*616},f,{23845},616
 Stinger,"{`"James Valkon`",616}",f,{23845},616
 Goomba,"{`"Salt Assault`"}",f,{23846},Salt Assault!
 Kim Jong Un,"{`"Stars and Strifes`"}",f,{23847},The Stars and Strifes
+Queen Maeve,"{`"Black Noir`"}",t,{13595},The Boys
+Queen Maeve,"{`"The Boys`"}",t,{13595},The Boys
+Dagger,"{`"Dagger ?\\((Marvel)? 616\\)`"}",f,{2435},616
+Wallace West,"{`"\\(DC( Comics)?\\)`"}",t,{1591},DC
+Wallace West,"{`"\\[DC( Comics)?\\]`"}",t,{1591},DC
+Bulldozer,"{`"Bulldozer ?\\((Marvel)? 616\\)`"}",f,{23849},616
+Marci Camp,{616},t,{23849},616
+Hydro Armor Mark III,{616},t,{23850},616
+Apocalypse,"{`"Apocalyps?e vs|vs\\.? Apocalyps?e`",`"Marvel comics? versions?`"}",f,{2392},616
+Dracula,"{`"Blade:? Trinity`"}",f,{23851},Blade: Trinity
+Donkey Kong,"{`"Mario( Bros\\.?)? Movie`"}",f,{23852},The Super Mario Bros. Movie
+Mecha Shark,"{`"Mega Shark vs Mecha Shark`"}",f,{23853},Mega Shark vs Mecha Shark
+Rodney Casares,"{`"Ex(-| )Heroes`"}",t,{23854},Ex-Heroes
+Midknight,"{`"Ex(-| )Heroes`"}",f,{23855},Ex-Heroes
+Banzai,"{`"Ex(-| )Heroes`"}",f,{23856},Ex-Heroes
+Ethan James,"{`"Power Rangers?`"}",f,{23857},Power Rangers
+Ethan James,"{`"Dino Thunder`"}",f,{23857},Power Rangers
+Ethan,"{`"Dino Thunder Rangers?`"}",f,{23857},Power Rangers
+Blue Dino Ranger,"{`"Dino Thunder Rangers?`"}",t,{23857},Power Rangers
+Kira Ford,"{`"Power Rangers?`"}",t,{23858},Power Rangers
+Kira Ford,"{`"Dino Thunder`"}",t,{23858},Power Rangers
+Kira,"{`"Dino Thunder Rangers?`"}",f,{23858},Power Rangers
+Yellow Dino Ranger,"{`"Dino Thunder Rangers?`"}",t,{23858},Power Rangers
+Savitar,"{`"(Fl)?arrow(-| )?verse`"}",f,{23859},CW Arrowverse
+Savitar,{(DC)?CW},f,{23859},CW Arrowverse
+Savitar,"{`"DC ?TV`"}",f,{23859},CW Arrowverse
+Dick Grayson,{Superwing},f,{23860},Superwing
+Bruce Wayne,{Super-Bat},f,{23861},Super-Bat
+Killer Croc,"{`"Earth One`"}",f,{23862},Earth One
+Bob Lee Swagger,{Shooter},t,{23863},Shooter
+Woltekamui,"{`"Ragna Crimson`"}",t,{23864},Ragna Crimson
+Dokuro-Chan,"{`"Bludgeoning Angel Dokuro-Chan`"}",t,{23865},Bludgeoning Angel Dokuro-Chan

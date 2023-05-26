@@ -14,17 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Black Flash';
-UPDATE character SET is_default=TRUE WHERE default_name='Queen Maeve';
-
 ########################################
-
-DELETE FROM character WHERE rt_id_array='{5973}';
-DELETE FROM character WHERE default_name='Luke' AND version='{"SW"}';
-UPDATE character SET rt_id_array='{322, 5973}' WHERE rt_id_array='{322}';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Batman (DC Comics: Earth One)', 'https://redd.it/13rj0ck'); SELECT * FROM respectthread WHERE link='https://redd.it/13rj0ck';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Batman' AND version='{"Earth One"}';
 
 ########################################
 
