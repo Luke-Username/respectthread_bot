@@ -29303,8 +29303,6 @@ Robin the Frog,"{`"Muppet Monster Adventure`"}",f,{23431},Muppet Monster Adventu
 Pumaman,"{`"Tony Farms`"}",t,{23432},""
 Choo-Choo Charles,{game},t,{23433},""
 Hugh Glass,"{`"The Revenant`"}",f,{23434},The Revenant
-Warrior of Light,"{`"Final Fantasy`"}",t,{23435},Final Fantasy
-Warrior of Light,{FF(14|XIV)},t,{23435},Final Fantasy
 Tomoyo Sakagami,{Clannad},t,{23436},Clannad
 Titan Pokémon,"{`"Pok(e|é)m(o|a)n Games`"}",t,{23437},""
 SCP-6345,"{`"Huesos Malos|Bad Bones`"}",t,{23438},""
@@ -29969,3 +29967,16 @@ Killer Croc,"{`"Earth One`"}",f,{23862},Earth One
 Bob Lee Swagger,{Shooter},t,{23863},Shooter
 Woltekamui,"{`"Ragna Crimson`"}",t,{23864},Ragna Crimson
 Dokuro-Chan,"{`"Bludgeoning Angel Dokuro-Chan`"}",t,{23865},Bludgeoning Angel Dokuro-Chan
+Warrior of Light,"{`"Final Fantasy`"}",f,{23435},Final Fantasy
+Warrior of Light,{FF(14|XIV)},f,{23435},Final Fantasy
+Batman,"{`"Bat(-| )?man ?\\(West\\)`"}",f,{77},Adam West/1966 TV Series
+Demogorgon,"{`"Forgotten Realms`"}",t,{23866},Forgotten Realms
+Demogorgon,"{`"Dungeons (&|and) Dragons`"}",t,{23866},Forgotten Realms
+Demogorgon,"{`"D ?(&|n) ?D`"}",t,{23866},Forgotten Realms
+Will Sawyer,{Skyscraper},f,{23867},Skyscraper
+Beyonder,"{`"Moon Girl and Devil Dinosaur`"}",f,{23868},Moon Girl and Devil Dinosaur
+Blitzo,"{`"Helluva Boss`"}",t,{23869},Helluva Boss
+Blitzo,"{`"I\\.M\\.P`"}",t,{23869},Helluva Boss
+Blitzo,{Moxxie},t,{23869},Helluva Boss
+Garfield,"{`"Garfield Originals`"}",f,{23870},Garfield Originals
+Nolt Marcus,"{`"Vampire Hunter D`"}",t,{23871},Vampire Hunter D
