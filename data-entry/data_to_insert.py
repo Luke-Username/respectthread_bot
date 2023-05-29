@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect SCP-1048, Builder Bear (SCP Foundation)', 'https://redd.it/13uhwe1')
+add_data(['SCP ?(-| )? ?1048'],
+'SCP-1048',
+False,
+True,
+[
+    ['SCP Foundation'], ['Builder Bear']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13uhwe1/respect_scp1048_builder_bear_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect William Birkin (Resident Evil 2 Remake)', 'Respect William Birkin (Resident Evil 2 Remake)')
+add_data(['William Birkin'],
+'William Birkin',
+False,
+True,
+[
+    ['Resident Evil'], ['RE ?\d']
+],
+'Resident Evil',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13utw8o/respect_william_birkin_resident_evil_2_remake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: The Priest! (Powerwolf: The Sacrament of Sin)', 'https://redd.it/13uw0io')
+add_data(['Priest'],
+'Priest',
+False,
+False,
+[
+    ['POWERWOLF', 'Sacrament of Sin']
+],
+'POWERWOLF - The Sacrament of Sin',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13uw0io/respect_the_priest_powerwolf_the_sacrament_of_sin/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

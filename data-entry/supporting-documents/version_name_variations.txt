@@ -2846,9 +2846,9 @@ The Ren & Stimpy Show
 
 Resident Evil
 	Version
-		'{"Resident Evil"}', r'{"RE ?\\d"}'
+		['Resident Evil'], ['RE ?\\d']
 	Specific
-		'{"R(esident)? ?E(vil)?:? Village"}'
+		['R(esident)? ?E(vil)?:? Village']
 	Displayed Version Name
 		"Resident Evil"
 
