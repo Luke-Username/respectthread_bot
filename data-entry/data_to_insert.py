@@ -152,6 +152,48 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Jim Gordon (DC Comics: Earth One)', 'https://redd.it/13v3d0m')
+add_data(['Jim Gordon'],
+'Jim Gordon',
+False,
+False,
+[
+    ['Earth One']
+],
+'Earth One',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13v3d0m/respect_jim_gordon_dc_comics_earth_one/
+
+########################################
+
+id = get_rt_id(cur, "Respect Payback (Amazon''s The Boys)", 'https://redd.it/13v401i')
+add_data(['Payback'],
+'Payback',
+True,
+False,
+[
+    ['The Boys']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13v401i/respect_payback_amazons_the_boys/
+
+add_data(['Mindstorm'],
+'Mindstorm',
+False,
+False,
+[
+    ['The Boys']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13v401i/respect_payback_amazons_the_boys/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
