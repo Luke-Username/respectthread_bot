@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Thing'],
+'Thing',
+False,
+False,
+[
+    ['vs\.? (The )?Fantastic (Four|4)|Fantastic (Four|4) vs', 'Invisible Woman', 'Human Torch']
+],
+'616',
+'{2072,22166}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/13vyqxy/the_fantastic_4_vs_a_level_20_dungeons_and/
+
+########################################
+
+add_data(['Adam Warlock'],
+'Adam Warlock',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/13vnpa7/namor_vs_adam_warlock_mcu/
+
+########################################
+
 id = get_rt_id(cur, 'Respect SCP-1048, Builder Bear (SCP Foundation)', 'https://redd.it/13uhwe1')
 add_data(['SCP ?(-| )? ?1048'],
 'SCP-1048',
@@ -191,6 +219,138 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/13v401i/respect_payback_amazons_the_boys/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cairax Murrain (Ex-Heroes)', 'https://redd.it/13v7obw')
+add_data(['Cairax Murrain'],
+'Cairax Murrain',
+False,
+True,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13v7obw/respect_cairax_murrain_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hu Feng (Grand Reign)', 'https://redd.it/13v86jj')
+add_data(['Hu Feng'],
+'Hu Feng',
+False,
+False,
+[
+    ['Grand Reign']
+],
+'Grand Reign',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13v86jj/respect_hu_feng_grand_reign/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sergeant Farryn (Grand Reign)', 'https://redd.it/13v883x')
+add_data(['Sergeant Farryn'],
+'Sergeant Farryn',
+False,
+True,
+[
+    ['Grand Reign']
+],
+'Grand Reign',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13v883x/respect_sergeant_farryn_grand_reign/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Stella Advard (Grand Reign)', 'https://redd.it/13v8uus')
+add_data(['Stella Advard'],
+'Stella Advard',
+False,
+True,
+[
+    ['Grand Reign']
+],
+'Grand Reign',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13v8uus/respect_stella_advard_grand_reign/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ryuuji Kusakabe (Grand Reign)', 'https://redd.it/13v9mfw')
+add_data(['Ryuuji Kusakabe'],
+'Ryuuji Kusakabe',
+False,
+True,
+[
+    ['Grand Reign']
+],
+'Grand Reign',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13v9mfw/respect_ryuuji_kusakabe_grand_reign/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Steve Gray, aka the Brain Rapist (The Incredible Burt Wonderstone)', 'https://redd.it/13voeae')
+add_data(['Steve Gray'],
+'Steve Gray',
+False,
+False,
+[
+    ['Burt Wonderstone']
+],
+'The Incredible Burt Wonderstone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13voeae/respect_steve_gray_aka_the_brain_rapist_the/
+
+add_data(['Brain Rapist'],
+'Brain Rapist',
+False,
+False,
+[
+    ['Burt Wonderstone']
+],
+'The Incredible Burt Wonderstone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13voeae/respect_steve_gray_aka_the_brain_rapist_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zeltrax (Power Rangers Dino Thunder)', 'https://redd.it/13vznd9')
+add_data(['Zeltrax'],
+'Zeltrax',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13vznd9/respect_zeltrax_power_rangers_dino_thunder/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mesogog (Power Rangers Dino Thunder)', 'https://redd.it/13vzngv')
+add_data(['Mesogog'],
+'Mesogog',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13vzngv/respect_mesogog_power_rangers_dino_thunder/
 
 ########################################
 
