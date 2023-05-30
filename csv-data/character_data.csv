@@ -10886,13 +10886,11 @@ Big Bertha,"{`"Great Lakes Avengers`"}",f,{11093},616
 Big Bertha,"{`"Black Widow`"}",f,{11093},616
 Big Bertha,{Ashley|Crawford},f,{11093},616
 Big Bertha,"{`"King ?pin`"}",f,{11093},616
-Lara Croft,{Survivor},t,{11094},Tomb Raider
-Lara Croft,"{`"Shadow of the Tomb Raider`"}",t,{11094},Tomb Raider
-Lara Croft,{Reboot(ed)?},t,{11094},Tomb Raider
 Tahu,{BIONICLE},t,{6370},BIONICLE
 Mr. 3,"{`"One Piece`"}",t,{11095},One Piece
 Codpiece,{DC},f,{11096},Post-Crisis
 Codpiece,{PC},f,{11096},Post-Crisis
+Lara Croft,{Survivor},t,"{11094,22643,22644}",Tomb Raider
 Codpiece,"{`"Earth(-| )(1|One)`"}",f,{11096},Post-Crisis
 Codpiece,"{`"Post(-| )?C(risis)?`"}",f,{11096},Post-Crisis
 Codpiece,"{`"New(-| )Earth`"}",f,{11096},Post-Crisis
@@ -29493,7 +29491,6 @@ Spoil,"{`"Undead Unluck`"}",f,{23569},Undead Unluck
 Spoil,"{`"UMA Spoil`"}",f,{23569},Undead Unluck
 Burn,"{`"Undead Unluck`"}",f,{23570},Undead Unluck
 Burn,"{`"UMA Burn`"}",f,{23570},Undead Unluck
-Lara Croft,"{`"Tomb? Raider`"}",t,"{11094,22643,22644}",Tomb Raider
 Gojo,"{`"vs\\.? Gojo`"}",f,{14809},Jujutsu Kaisen
 Gojo,"{`"Gojo vs`"}",f,{14809},Jujutsu Kaisen
 Baki,"{`"Baki ?\\(Baki`"}",f,{3446},Baki
@@ -29980,3 +29977,26 @@ Blitzo,"{`"I\\.M\\.P`"}",t,{23869},Helluva Boss
 Blitzo,{Moxxie},t,{23869},Helluva Boss
 Garfield,"{`"Garfield Originals`"}",f,{23870},Garfield Originals
 Nolt Marcus,"{`"Vampire Hunter D`"}",t,{23871},Vampire Hunter D
+Lara Croft,"{`"Shadow of the Tomb Raider`"}",t,"{11094,22643,22644}",Tomb Raider
+Lara Croft,{Reboot(ed)?},t,"{11094,22643,22644}",Tomb Raider
+Lara Croft,"{`"Tomb? Raider`"}",t,"{11094,22643,22644}",Tomb Raider
+Thing,"{`"vs\\.? (The )?Fantastic (Four|4)|Fantastic (Four|4) vs`",`"Invisible Woman`",`"Human Torch`"}",f,"{2072,22166}",616
+Adam Warlock,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Adam Warlock,{MCU},f,{},MCU
+SCP-1048,"{`"SCP Foundation`"}",t,{23872},""
+SCP-1048,"{`"Builder Bear`"}",t,{23872},""
+William Birkin,"{`"Resident Evil`"}",t,{23873},Resident Evil
+William Birkin,"{`"RE ?\\d`"}",t,{23873},Resident Evil
+Priest,"{POWERWOLF,`"Sacrament of Sin`"}",f,{23874},POWERWOLF - The Sacrament of Sin
+Jim Gordon,"{`"Earth One`"}",f,{23875},Earth One
+Payback,"{`"The Boys`"}",f,{23876},The Boys
+Mindstorm,"{`"The Boys`"}",f,{23876},The Boys
+Cairax Murrain,"{`"Ex(-| )Heroes`"}",t,{23877},Ex-Heroes
+Hu Feng,"{`"Grand Reign`"}",f,{23878},Grand Reign
+Sergeant Farryn,"{`"Grand Reign`"}",t,{23879},Grand Reign
+Stella Advard,"{`"Grand Reign`"}",t,{23880},Grand Reign
+Ryuuji Kusakabe,"{`"Grand Reign`"}",t,{23881},Grand Reign
+Steve Gray,"{`"Burt Wonderstone`"}",f,{23882},The Incredible Burt Wonderstone
+Brain Rapist,"{`"Burt Wonderstone`"}",f,{23882},The Incredible Burt Wonderstone
+Zeltrax,"{`"Power Rangers?`"}",t,{23883},Power Rangers
+Mesogog,"{`"Power Rangers?`"}",t,{23884},Power Rangers
