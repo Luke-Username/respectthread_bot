@@ -116,7 +116,7 @@ add_data(['Space ?Marines?'],
 False,
 False,
 [
-    ['Ultra ?marines?']
+    ['Ultra ?marines?'], ['Bolter|Chainsword']
 ],
 'Warhammer 40k',
 '{21139,6466}'
