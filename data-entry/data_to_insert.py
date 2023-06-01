@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2395, 'Respect Juggernaut! (Marvel, 616)', 'https://redd.it/13x7kbz')
+
+########################################
+
 add_data(['Space ?Marines?'],
 'Space Marine',
 False,
@@ -118,6 +122,182 @@ False,
 '{21139,6466}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/13x7jhp/in_a_fight_between_avatar_kyoshi_and_a_regular/jmg0ve1/?context=3
+
+########################################
+
+add_data(['Flashpoint Superman'],
+'Flashpoint Superman',
+False,
+True,
+[
+    ['DC']
+],
+'',
+'{22457}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/13xccn3/current_deku_my_hero_academia_vs_flashpoint/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Death (Have A Nice Death)', 'https://redd.it/13w6bvh')
+add_data(['Death'],
+'Death',
+False,
+False,
+[
+    ['Have A Nice Death']
+],
+'Have A Nice Death',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13w6bvh/respect_death_have_a_nice_death/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Uriel Ventris (Warhammer 40k)', 'https://redd.it/13wayx7')
+add_data(['Uriel Ventris'],
+'Uriel Ventris',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13wayx7/respect_uriel_ventris_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Marneus Calgar (Warhammer 40k)', 'https://redd.it/13x44fa')
+add_data(['Marneus Calgar'],
+'Marneus Calgar',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13x44fa/respect_marneus_calgar_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Ex-Virus (Ex-Heroes)', 'https://redd.it/13wueyi')
+add_data(['Ex-Virus'],
+'Ex-Virus',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13wueyi/respect_the_exvirus_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jervis Tetch, the Mad Hatter (DC Comics, Post Crisis)', 'https://redd.it/13wlm7m')
+add_data(['Mad Hatter'],
+'Mad Hatter',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13wlm7m/respect_jervis_tetch_the_mad_hatter_dc_comics/
+
+add_data(['Mad Hatter'],
+'Mad Hatter',
+False,
+False,
+[
+    ['Mad Hatter ?\(DC( Comics)?\)'], ['Mad Hatter ?\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13wlm7m/respect_jervis_tetch_the_mad_hatter_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Baron Blood (Marvel 616)', 'https://redd.it/13xhp4z')
+add_data(['Baron Blood'],
+'Baron Blood',
+False,
+False,
+[
+    ['\(Marvel\)'], ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13xhp4z/respect_baron_blood_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Darkoth the Death-Demon (Marvel, Earth-616)', 'https://redd.it/13xkk7w')
+add_data(['Darkoth'],
+'Darkoth',
+False,
+True,
+[
+    ['\(Marvel\)'], ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13xkk7w/respect_darkoth_the_deathdemon_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Reed Richards (Marvel, Earth X)', 'https://redd.it/13xhow1')
+add_data(['Reed Richards'],
+'Reed Richards',
+False,
+False,
+[
+    ['Earth X']
+],
+'Earth X',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13xhow1/respect_reed_richards_marvel_earth_x/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Night Man (Malibu Comics)', 'https://redd.it/13xhozu')
+add_data(['Night Man'],
+'Night Man',
+False,
+False,
+[
+    ['Malibu']
+],
+'Malibu Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/13xhozu/respect_night_man_malibu_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Tomatoes (Attack of the Killer Tomatoes)', 'https://redd.it/13xpm7q')
+add_data(['Tomatoes'],
+'Tomatoes',
+False,
+False,
+[
+    ['Attack of the Killer Tomatoes']
+],
+'Attack of the Killer Tomatoes',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
