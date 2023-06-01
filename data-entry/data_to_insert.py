@@ -107,6 +107,17 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Space ?Marines?'],
+'Space Marine',
+False,
+False,
+[
+    ['Ultra ?marines?']
+],
+'Warhammer 40k',
+'{21139,6466}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/13x7jhp/in_a_fight_between_avatar_kyoshi_and_a_regular/jmg0ve1/?context=3
 
 ########################################
 
