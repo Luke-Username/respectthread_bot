@@ -324,6 +324,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Spriggan, Yu Ominae (Spriggan, 2022)', 'https://redd.it/141ng7n')
+add_data(['Yu Ominae'],
+'Yu Ominae',
+False,
+True,
+[
+    ['Spriggan', '2022']
+],
+'Spriggan, 2022',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/141ng7n/respect_the_spriggan_yu_ominae_spriggan_2022/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
