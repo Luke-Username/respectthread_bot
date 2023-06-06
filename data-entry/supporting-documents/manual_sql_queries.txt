@@ -14,16 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Sentry' AND version='{"comics?"}';
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sentry', 'Sentry Gun', 0);
-
 ########################################
 
-UPDATE character SET rt_id_array='{1981, 21155}' WHERE rt_id_array='{1981}';
-
 ########################################
-
-UPDATE respectthread SET link='https://redd.it/13utw8o' WHERE id=23873;
 
 ########################################
 

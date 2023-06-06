@@ -9759,12 +9759,12 @@ Faith,{BTVS},f,{10867},Buffy the Vampire Slayer
 Pikachu,{Pok(e|é)mon},t,"{4156,4157,4158,4159,4160,4161,4162,4163,4164,4165,10868}",Pokémon
 Wasabi,"{`"Big Hero`"}",f,{10869},Big Hero 6
 Fred,"{`"Big Hero`"}",f,{10870},Big Hero 6
-Thor,{616},t,{1981},616
-Thor,{comics?},t,{1981},616
 Scott Lang,"{`"End ?game`"}",f,{},MCU
 King Ghidorah,{Legendary},f,{8614},MonsterVerse
 Thor,"{`"\\(Odin(-| )?force\\)`"}",f,{21155},Odin-Force
 Odin-Force Thor,{616},t,{21155},616
+Thor,{616},t,"{1981,21155}",616
+Thor,{comics?},t,"{1981,21155}",616
 Krombopulos Michael,"{`"Rick (&|and) Morty`"}",t,{10871},Rick and Morty
 Honey Lemon,"{`"Big Hero`"}",t,{10872},Big Hero 6
 Honey Lemon,{Disney},f,{10872},Disney's Big Hero 6
@@ -28653,7 +28653,6 @@ Monkey D. Dragon,"{`"One ?Piece?`"}",t,{23078},One Piece
 Artie,"{`"Adventures of Pete`"}",f,{23079},The Adventures of Pete & Pete
 Strong Bad,"{`"Homestar ?Runner`"}",t,{23080},Homestar Runner
 Scaler,"{`"Scaler ?\\(Scaler`"}",f,{9319},""
-Thor,"{`"\\(Marvel\\)`"}",f,{1981},Marvel
 Tyrannosaurus Rex,{Grimlock},f,{},Grimlock
 Michonne Hawthorne,"{`"Wa(lk|kl)ing Dead`"}",t,{23082},The Walking Dead
 Lor-Zod,"{`"Young Justice`"}",f,{23083},Young Justice
@@ -29666,7 +29665,6 @@ St. John family,"{`"Wa(lk|kl)ing Dead`"}",f,{23668},The Walking Dead
 Deebo,{Friday},f,{23669},Friday
 Thundersaurus Megazord,"{`"Power Rangers?`"}",t,{23670},Power Rangers
 Rokash Rampersad,{Ordeal},t,{23671},Ordeal
-Sentry,{comics?},f,"{23674,1998}",616
 Sentry,{void},f,"{23674,1998}",616
 Sentry,"{`"Death Seed`"}",f,"{23674,1998}",616
 Absalom,"{`"One ?Piece?`"}",f,{23675},One Piece
@@ -30020,3 +30018,28 @@ Darkoth,{616},t,{23891},616
 Reed Richards,"{`"Earth X`"}",f,{23892},Earth X
 Night Man,{Malibu},f,{23893},Malibu Comics
 Tomatoes,"{`"Attack of the Killer Tomatoes`"}",f,{23894},Attack of the Killer Tomatoes
+Thor,"{`"\\(Marvel\\)`"}",f,"{1981,21155}",Marvel
+Meta-Cooler,"{`"Dragon ?Ball`"}",t,{20387},Dragon Ball
+Meta-Cooler,{DB(Z|S)},t,{20387},Dragon Ball
+Alfred Pennyworth,"{`"Earth One`"}",f,{23895},Earth One
+Tentionmaru,"{`"Rock Hard Gladiators`"}",t,{23896},RHG
+Tentionmaru,{RHG},t,{23896},RHG
+Spider-Man,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{23896},Earths Mightiest Heroes
+Goetia,{Fate},f,{23897},Fate
+Goetia,"{`"Grande? Order`"}",f,{23897},Fate
+Goetia,"{`"F(ate )?/?GO`"}",f,{23897},Fate
+Godzilla,"{`"Hanna(-| )Barbera`"}",f,{23898},Hanna-Barbera
+Payakan,{Avatar},t,{23899},Avatar
+Abominations,"{`"Madness Combat`"}",f,{23900},Madness Combat
+Abominations,"{`"Project Nexus`"}",f,{23900},Madness Combat
+Cato Sicarius,{(WH)?40K},t,{23901},Warhammer 40k
+Cato Sicarius,{Warhammer},t,{23901},Warhammer 40k
+Abdiel,"{`"S(hin)? ?M(egami)? ?T(ensei)?`"}",f,{23902},Shin Megami Tensei
+Nahobino,"{`"S(hin)? ?M(egami)? ?T(ensei)?`"}",t,{23903},Shin Megami Tensei
+Jennika,"{`"Teenaged? Mutant Ninja Turtles?`",IDW}",t,{23904},IDW
+Jennika,"{TMNT,IDW}",t,{23904},IDW
+Goldar,"{`"Power Rangers?`"}",t,{23905},Power Rangers
+Blue Turbo Ranger,"{`"Power Rangers?`"}",t,{23906},Power Rangers
+Yu Ominae,"{Spriggan,2022}",t,{23907},"Spriggan, 2022"
+Predator A6718,"{`"Archie vs The Predator`"}",t,{23908},Archie vs The Predator
+Hatchan,"{`"One ?Piece?`"}",t,{23909},One Piece
