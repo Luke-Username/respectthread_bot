@@ -111,6 +111,8 @@ update_respectthread(cur, 21323, 'Respect Peacemaker (DC Post-Crisis)', 'https:/
 update_respectthread(cur, 2266, 'Respect Hobgoblin (Marvel 616)', 'https://redd.it/13yl07t')
 update_respectthread(cur, 244, 'Respect Clint Barton, Hawkeye! (Marvel Cinematic Universe)', 'https://redd.it/13xvu4c')
 update_respectthread(cur, 5430, 'Respect Luigi (Super Mario Bros.)', 'https://redd.it/1408n3p')
+update_respectthread(cur, 5738, 'Respect Yukari Yakumo (Touhou)', 'https://redd.it/142euq1')
+update_respectthread(cur, 1542, 'Respect KGBeast (DC Comics, Post-Crisis)', 'https://redd.it/142rvwd')
 
 ########################################
 
@@ -336,6 +338,36 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/141ng7n/respect_the_spriggan_yu_ominae_spriggan_2022/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Predator A6718 (Archie vs The Predator)', 'https://redd.it/141yg9g')
+add_data(['Predator A6718'],
+'Predator A6718',
+False,
+True,
+[
+    ['Archie vs The Predator']
+],
+'Archie vs The Predator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/141yg9g/respect_predator_a6718_archie_vs_the_predator/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hatchan "Hachi" (One Piece)', 'https://redd.it/141yjpl')
+add_data(['Hatchan'],
+'Hatchan',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/141yjpl/respect_hatchan_hachi_one_piece/
 
 ########################################
 
