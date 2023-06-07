@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Yamamoto'],
+'Yamamoto',
+False,
+False,
+[
+    ['Aizen']
+],
+'Bleach',
+'{3148}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/14390xw/who_is_the_best_chef_in_fiction/jn8i3p6/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
