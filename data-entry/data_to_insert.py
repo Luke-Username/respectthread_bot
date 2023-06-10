@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Meatgardener Venom! (Marvel)', 'https://redd.it/145m5r0')
+add_data(['Meatgardener Venom'],
+'Meatgardener Venom',
+False,
+True,
+[
+    ['23203']
+],
+'23203',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/145m5r0/respect_meatgardener_venom_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chrom (Fire Emblem Awakening)', 'https://redd.it/145ucpi')
+add_data(['Chrom'],
+'Chrom',
+False,
+False,
+[
+    ['Fire Emblem'], ['Awakening'], ['Robin|Lucina|Marth']
+],
+'Fire Emblem Awakening',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Minimum Tarnished (Elden Ring)', 'https://redd.it/146cxz5')
+add_data(['Tarnished'],
+'Tarnished',
+False,
+False,
+[
+    ['The Tarnished vs|vs\.? The Tarnished'], ['Elden (Ring|Lord)'], ['Tarnished ?\(ER\)'],
+    ['Can a Tarnished'], ['vs\.? Tarnished|Tarnished vs', 'Dragon ?borne?|LOTR']
+],
+'Elden Ring',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/146cxz5/respect_minimum_tarnished_elden_ring/
 
 ########################################
 
