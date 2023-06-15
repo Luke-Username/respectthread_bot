@@ -14,12 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Zargothrax (Keeper of the Celestial Flame of Abernethy Music Video)', 'https://redd.it/1495iny'); SELECT * FROM respectthread WHERE link='https://redd.it/1495iny';
-UPDATE character SET rt_id_array='{17421, ?}' WHERE default_name='Zargothrax';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Leon Kennedy (Resident Evil) (Remake Timeline)', 'https://redd.it/14961xe'); SELECT * FROM respectthread WHERE link='https://redd.it/14961xe';
-UPDATE character SET rt_id_array='{5372, ?}' WHERE rt_id_array='{5372}';
-
 ########################################
 
 ########################################
