@@ -107,6 +107,54 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4935, 'Respect Captain Harlock [Space Pirate Captain Harlock]', 'https://redd.it/14b2li5')
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-5683 (SCP Foundation)', 'https://redd.it/14axboy')
+add_data(['SCP ?(-| )? ?5683'],
+'SCP-5683',
+False,
+False,
+[
+    ['SCP Foundation']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14axboy/respect_scp5683_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Hulk (Hulk, 2003 Video Game Tie-in)', 'https://redd.it/14aw32s')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['2003', 'Tie(-| )in', 'games?']
+],
+'2003, Tie-in game',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Peter Parker, Octo-Spider (Marvel Animated Universe)', 'https://redd.it/14axxwf')
+add_data(['Octo(-| )Spider'],
+'Octo-Spider',
+False,
+False,
+[
+    ['Marvel Animated Universe']
+],
+'Marvel Animated Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14axxwf/respect_peter_parker_octospider_marvel_animated/
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
