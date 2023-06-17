@@ -108,6 +108,21 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 4935, 'Respect Captain Harlock [Space Pirate Captain Harlock]', 'https://redd.it/14b2li5')
+update_respectthread(cur, 5618, "Respect Heaven Ascension DIO (JoJo''s Bizarre Adventure: Eyes of Heaven)", 'https://redd.it/14bquia')
+
+########################################
+
+add_data(['Kaneki'],
+'Kaneki',
+False,
+False,
+[
+    ['Tokyo', 'Ghouls?']
+],
+'Tokyo Ghoul',
+'{4964}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/14bk515/james_heller_discovers_ghouls_in_tokyo_can_he/jog1wu4/?context=3
 
 ########################################
 
@@ -154,6 +169,50 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/14axxwf/respect_peter_parker_octospider_marvel_animated/
 
+########################################
+
+id = get_rt_id(cur, 'Respect: Peter Parker, Six-Armed Spider-Man (Marvel Animated Universe)', 'https://redd.it/14bqymb')
+add_data(['Six(-| )?Armed Spider(-| )?Man'],
+'Six-Armed Spider-Man',
+False,
+False,
+[
+    ['Marvel Animated Universe']
+],
+'Marvel Animated Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14bqymb/respect_peter_parker_sixarmed_spiderman_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Inquisitor (Star Wars: Visions - The Bandits of Golak)', 'https://redd.it/14bd71w')
+add_data(['The Inquisitor'],
+'The Inquisitor',
+False,
+False,
+[
+    ['Bandits of Golak']
+],
+'Star Wars: Visions - The Bandits of Golak',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14axxwf/respect_peter_parker_octospider_marvel_animated/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yaddle (Star Wars Canon)', 'https://redd.it/14berkm')
+add_data(['Yaddle'],
+'Yaddle',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14berkm/respect_yaddle_star_wars_canon/
 
 ########################################
 
