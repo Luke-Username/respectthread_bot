@@ -122,6 +122,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Zoom (Arrowverse)', 'https://redd.it/14g9hyv')
+add_data(['Zoom'],
+'Zoom',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse'], ['\(CW\)'], ['Zoom ?\(CW'], ['CW Zoom'], ['CW:.*Zoom']
+],
+'CW Arrowverse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14g9hyv/respect_zoom_arrowverse/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
