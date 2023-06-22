@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Wriggle Nightbug (Touhou)', 'https://redd.it/14g37d7')
+add_data(['Wriggle Nightbug'],
+'Wriggle Nightbug',
+False,
+True,
+[
+    ['Touhou']
+],
+'Touhou',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14g37d7/respect_wriggle_nightbug_touhou/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
