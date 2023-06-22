@@ -14,7 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{1131,1128,1133,6576,1130,20570}' WHERE rt_id_array='{1131,1128,1133,6576,1130}'
+UPDATE character SET is_default=FALSE WHERE default_name='Thor';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Jack Krauser (Resident Evil 4 Remake)', 'https://redd.it/14cqe6u'); SELECT * FROM respectthread WHERE link='https://redd.it/14cqe6u';
+UPDATE character SET rt_id_array='{5370, ?}' WHERE rt_id_array='{5370}';
 
 ########################################
 
