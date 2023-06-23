@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Super(-| )?girl'],
+'Supergirl',
+False,
+False,
+[
+    ['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe']
+],
+'DCEU',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14g37d7/respect_wriggle_nightbug_touhou/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Wriggle Nightbug (Touhou)', 'https://redd.it/14g37d7')
 add_data(['Wriggle Nightbug'],
 'Wriggle Nightbug',
@@ -134,6 +148,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/14g9hyv/respect_zoom_arrowverse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gella Nattai (Star Wars Canon)', 'https://redd.it/14govoh')
+add_data(['Gella Nattai'],
+'Gella Nattai',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14govoh/respect_gella_nattai_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rihan! (Hunter X Hunter)', 'https://redd.it/14go84m')
+add_data(['Rihan'],
+'Rihan',
+False,
+False,
+[
+    ['Hunter ?(x ?)?Hunter'], ['HxH']
+],
+'Hunter x Hunter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14go84m/respect_rihan_hunter_x_hunter/
 
 ########################################
 
