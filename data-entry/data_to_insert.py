@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Hancock'],
+'Hancock',
+False,
+False,
+[
+    ['DCEU', 'Superman'], ['Homelander']
+],
+'Hancock',
+'{457}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
