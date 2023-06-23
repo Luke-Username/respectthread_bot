@@ -30109,3 +30109,15 @@ Roger Goshaw,{616},t,{23952},616
 Thia Escardos,{Fate},t,{23953},Fate
 Ain & Binz,"{`"One ?Piece?`"}",t,{23954},One Piece
 Showa Godzilla,{Slick},f,{23955},Slick
+Supergirl,"{`"DC Extended Universe`"}",f,{},DCEU
+Supergirl,"{`"DC ?(E|C)U`"}",f,{},DCEU
+Supergirl,"{`"DC Cinematic Universe`"}",f,{},DCEU
+Wriggle Nightbug,{Touhou},t,{23956},Touhou
+Zoom,"{`"(Fl)?arrow(-| )?verse`"}",f,{23957},CW Arrowverse
+Zoom,"{`"\\(CW\\)`"}",f,{23957},CW Arrowverse
+Zoom,"{`"Zoom ?\\(CW`"}",f,{23957},CW Arrowverse
+Zoom,"{`"CW Zoom`"}",f,{23957},CW Arrowverse
+Zoom,{CW:.*Zoom},f,{23957},CW Arrowverse
+Gella Nattai,"{`"S(tar )?Wars`"}",t,{23958},Star Wars
+Rihan,"{`"Hunter ?(x ?)?Hunter`"}",f,{23959},Hunter x Hunter
+Rihan,{HxH},f,{23959},Hunter x Hunter
