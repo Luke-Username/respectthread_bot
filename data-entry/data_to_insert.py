@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1123, 'Respect Cheetah! (DC Animated Movie Universe)', 'https://redd.it/14i87fm')
+
+########################################
+
 add_data(['Hancock'],
 'Hancock',
 False,
@@ -118,6 +122,97 @@ False,
 '{457}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bahamut (Stranger of Paradise: Final Fantasy Origin)', 'https://redd.it/14hosgb')
+add_data(['Bahamut'],
+'Bahamut',
+False,
+False,
+[
+    ['Stranger of Paradise']
+],
+'Stranger of Paradise',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14hosgb/respect_bahamut_stranger_of_paradise_final/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jack Garland (Final Fantasy)', 'https://redd.it/14i23yz')
+add_data(['Jack Garland'],
+'Jack Garland',
+False,
+True,
+[
+    ['Final Fantasy'], ['FF\d?\d?'], ['FF\w\w?\w?']
+],
+'Final Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14i23yz/respect_jack_garland_final_fantasy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Willy Wonka (Charlie and the Chocolate Factory)', 'https://redd.it/14hy282')
+id2 = get_rt_id(cur, 'Respect Willy Wonka (Wonka Adverts)', 'https://redd.it/14hy2i5')
+add_data(['Willy Wonka'],
+'Willy Wonka',
+False,
+True,
+[
+    ['Chocolate Factory']
+],
+'Charlie and the Chocolate Factory',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14hy282/respect_willy_wonka_charlie_and_the_chocolate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Char-Ryl-Roy (Star Wars Canon)', 'https://redd.it/14i27th')
+add_data(['Char-Ryl-Roy'],
+'Char-Ryl-Roy',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14i27th/respect_charrylroy_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Orin Darhga (Star Wars Canon)', 'https://redd.it/14i3fpl')
+add_data(['Orin Darhga'],
+'Orin Darhga',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14i3fpl/respect_orin_darhga_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cippa Tarko (Star Wars Canon)', 'https://redd.it/14i6c10')
+add_data(['Cippa Tarko'],
+'Cippa Tarko',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14i6c10/respect_cippa_tarko_star_wars_canon/
 
 ########################################
 
