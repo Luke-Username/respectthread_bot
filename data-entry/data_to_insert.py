@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 1123, 'Respect Cheetah! (DC Animated Movie Universe)', 'https://redd.it/14i87fm')
+update_respectthread(cur, 1602, 'Respect Hartley Rathaway, The Pied Piper! (DC Comics, Pre-Flashpoint)', 'https://redd.it/14imu7r')
 
 ########################################
 
@@ -213,6 +214,113 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/14i6c10/respect_cippa_tarko_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Creighton Sun (Star Wars Canon)', 'https://redd.it/14i9ppw')
+add_data(['Creighton Sun'],
+'Creighton Sun',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14i9ppw/respect_creighton_sun_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aida Forte (Star Wars Canon)', 'https://redd.it/14itqcy')
+add_data(['Aida Forte'],
+'Aida Forte',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14itqcy/respect_aida_forte_star_wars_canon/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Silandra Sho (Star Wars Canon)', 'https://redd.it/14j5ijx')
+add_data(['Silandra Sho'],
+'Silandra Sho',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14j5ijx/respect_silandra_sho_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mr. Fox (Fantastic Mr. Fox) [1970 Book]', 'https://redd.it/14ixqgo')
+id2 = get_rt_id(cur, 'Respect Mr. Fox (Fantastic Mr. Fox) [2009 Movie]', 'https://redd.it/14ixqhr')
+add_data(['Fantastic Mr\.? Fox'],
+'Fantastic Mr. Fox',
+False,
+True,
+[
+    ['Fantastic Mr\.? Fox ?\(Fantastic Mr\.? Fox\)']
+],
+'',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14ixqgo/respect_mr_fox_fantastic_mr_fox_1970_book/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Michiru Kagemori! (BNA: Brand New Animal)', 'https://redd.it/14j0vzr')
+add_data(['Michiru Kagemori'],
+'Michiru Kagemori',
+False,
+True,
+[
+    ['Brand New Animal'], ['My Hero Academia'], ['\(My Hero\)'], ['(M|BN?)HA'], ['Boku no Hero']
+],
+'My Hero Academia',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14j0vzr/respect_michiru_kagemori_bna_brand_new_animal/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wanze (One Piece)', 'https://redd.it/14j7u7s')
+add_data(['Wanze'],
+'Wanze',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14j7u7s/respect_wanze_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kipo Oak! (Kipo and the Age of Wonderbeasts)', 'https://redd.it/14jr3sx')
+add_data(['Kipo Oak'],
+'Kipo Oak',
+False,
+True,
+[
+    ['Kipo and the Age of Wonderbeasts']
+],
+'Kipo and the Age of Wonderbeasts',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14jr3sx/respect_kipo_oak_kipo_and_the_age_of_wonderbeasts/
 
 ########################################
 
