@@ -22236,7 +22236,6 @@ Cao Cao,{DxD},f,{6145},High School DxD
 Wan Shailu,{Cosmere},t,{6147},The Cosmere
 Wan Shailu,"{`"Emperor'?s Soul`"}",t,{6147},The Cosmere
 Grignr,"{`"Eye of Argon`"}",t,{6149},The Eye of Argon
-Hugo,{Fablehaven},t,{6150},Fablehaven
 Grinch,{Seuss},t,{6161},Dr. Seuss
 Grinch,"{`"How The Grinch Stole Christmas`"}",t,{6161},Dr. Seuss
 Mephistopheles,{Faust},f,{6151},Faust
@@ -22250,6 +22249,7 @@ Dewgong,{Goh},f,{21657},Goh
 SCP-6772,"{`"Head Hunter`"}",t,{21658},""
 Spider-Woman,{1979},f,{21659},1979
 Archangel,{616},f,{2343},616
+Hugo,{Fablehaven},f,{6150},Fablehaven
 Dragon,"{`"Golden Legend`"}",f,{6157},Golden Legend
 Breeze,{Gone},f,{6158},Gone
 Brianna Berenson,{Gone},t,{6158},Gone
@@ -30121,3 +30121,24 @@ Zoom,{CW:.*Zoom},f,{23957},CW Arrowverse
 Gella Nattai,"{`"S(tar )?Wars`"}",t,{23958},Star Wars
 Rihan,"{`"Hunter ?(x ?)?Hunter`"}",f,{23959},Hunter x Hunter
 Rihan,{HxH},f,{23959},Hunter x Hunter
+Hancock,"{DCEU,Superman}",f,{457},Hancock
+Hancock,{Homelander},f,{457},Hancock
+Bahamut,"{`"Stranger of Paradise`"}",f,{23960},Stranger of Paradise
+Jack Garland,"{`"Final Fantasy`"}",t,{23961},Final Fantasy
+Jack Garland,"{`"FF\\d?\\d?`"}",t,{23961},Final Fantasy
+Jack Garland,"{`"FF\\w\\w?\\w?`"}",t,{23961},Final Fantasy
+Willy Wonka,"{`"Chocolate Factory`"}",t,"{23962,23963}",Charlie and the Chocolate Factory
+Char-Ryl-Roy,"{`"S(tar )?Wars`"}",t,{23964},Star Wars
+Orin Darhga,"{`"S(tar )?Wars`"}",t,{23965},Star Wars
+Cippa Tarko,"{`"S(tar )?Wars`"}",t,{23966},Star Wars
+Creighton Sun,"{`"S(tar )?Wars`"}",t,{23967},Star Wars
+Aida Forte,"{`"S(tar )?Wars`"}",t,{23968},Star Wars
+Silandra Sho,"{`"S(tar )?Wars`"}",t,{23969},Star Wars
+Fantastic Mr. Fox,"{`"Fantastic Mr\\.? Fox ?\\(Fantastic Mr\\.? Fox\\)`"}",t,"{23970,23971}",""
+Michiru Kagemori,"{`"Brand New Animal`"}",t,{23972},My Hero Academia
+Michiru Kagemori,"{`"My Hero Academia`"}",t,{23972},My Hero Academia
+Michiru Kagemori,"{`"\\(My Hero\\)`"}",t,{23972},My Hero Academia
+Michiru Kagemori,{(M|BN?)HA},t,{23972},My Hero Academia
+Michiru Kagemori,"{`"Boku no Hero`"}",t,{23972},My Hero Academia
+Wanze,"{`"One ?Piece?`"}",f,{23973},One Piece
+Kipo Oak,"{`"Kipo and the Age of Wonderbeasts`"}",t,{23974},Kipo and the Age of Wonderbeasts
