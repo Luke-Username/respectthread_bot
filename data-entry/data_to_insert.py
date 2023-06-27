@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 4682, 'Respect Legosi (Beastars)', 'https://redd.it/djfbik')
 update_respectthread(cur, 12060, 'Respect Tserriednich Hui Guo Rou! (Hunter X Hunter)', 'https://redd.it/14kek75')
+update_respectthread(cur, 1604, 'Respect James Jesse, The Trickster! (DC Comics, Pre-Flashpoint)', 'https://redd.it/14kmtvh')
 
 ########################################
 

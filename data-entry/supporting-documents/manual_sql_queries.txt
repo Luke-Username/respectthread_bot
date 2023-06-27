@@ -18,6 +18,9 @@ UPDATE character_name SET name='Saren Arterius' WHERE name='Saren';
 
 ########################################
 
+UPDATE character SET rt_id_array='{22144}' WHERE rt_id_array='{22144}';
+DELETE FROM respectthread WHERE id=22144;
+
 ########################################
 
 ########################################
