@@ -107,6 +107,68 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4682, 'Respect Legosi (Beastars)', 'https://redd.it/djfbik')
+update_respectthread(cur, 12060, 'Respect Tserriednich Hui Guo Rou! (Hunter X Hunter)', 'https://redd.it/14kek75')
+
+########################################
+
+add_data(['Insomniac Spide(r(-| )?Man|y)'],
+'Insomniac Spider-Man',
+False,
+True,
+[
+    ['1048']
+],
+'',
+'{15258}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/14k3jwi/avatar_aang_vs_insomnic_spidey/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Akko Kagari (Little Witch Academia: Chamber of Time)', 'https://redd.it/14jtwy7')
+add_data(['Akko'],
+'Akko',
+False,
+False,
+[
+    ['Chamber of Time']
+],
+'Little Witch Academia: Chamber of Time',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14jtwy7/respect_akko_kagari_little_witch_academia_chamber/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rooper Nitani (Star Wars Canon)', 'https://redd.it/14jxxd6')
+add_data(['Rooper Nitani'],
+'Rooper Nitani',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14jxxd6/respect_rooper_nitani_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kurumi Tokisaki! (Date A Live [Anime Series])', 'https://redd.it/14kbas0')
+add_data(['Kurumi'],
+'Kurumi',
+False,
+False,
+[
+    ['Date A Live'], ['Tokisaki']
+],
+'Date A Live',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14kbas0/respect_kurumi_tokisaki_date_a_live_anime_series/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
