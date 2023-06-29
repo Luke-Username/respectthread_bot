@@ -1448,7 +1448,7 @@ Heroes of Olympus
 		['Percy Jackson']
 		['Percy']
 	Displayed Version Name
-		"Heroes of Olympus"
+		"Percy Jackson"
 
 Highschool DxD
 	Version

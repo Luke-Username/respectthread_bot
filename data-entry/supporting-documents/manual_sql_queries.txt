@@ -23,6 +23,8 @@ DELETE FROM respectthread WHERE id=22144;
 
 ########################################
 
+UPDATE character SET displayed_version_name='Percy Jackson' WHERE displayed_version_name='Heroes of Olympus';
+
 ########################################
 
 ########################################

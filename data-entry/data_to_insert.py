@@ -110,6 +110,9 @@ cur = con.cursor()
 update_respectthread(cur, 4682, 'Respect Legosi (Beastars)', 'https://redd.it/djfbik')
 update_respectthread(cur, 12060, 'Respect Tserriednich Hui Guo Rou! (Hunter X Hunter)', 'https://redd.it/14kek75')
 update_respectthread(cur, 1604, 'Respect James Jesse, The Trickster! (DC Comics, Pre-Flashpoint)', 'https://redd.it/14kmtvh')
+update_respectthread(cur, 21540, 'Respect Amalthea: The Last Unicorn', 'https://redd.it/68thok')
+update_respectthread(cur, 91, 'Respect Sportacus! (LazyTown)', 'https://redd.it/14m5cuz')
+update_respectthread(cur, 90, 'Respect Robbie Rotten! (LazyTown)', 'https://redd.it/9akbw5')
 
 ########################################
 
@@ -124,6 +127,20 @@ True,
 '{15258}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/14k3jwi/avatar_aang_vs_insomnic_spidey/
+
+########################################
+
+add_data(['Hancock'],
+'Hancock',
+False,
+False,
+[
+    ['vs Hancock']
+],
+'',
+'{457}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/14ksm71/zohan_dont_mess_with_zohan_vs_hancock/
 
 ########################################
 
@@ -157,6 +174,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Keeve Trennis (Star Wars Canon)', 'https://redd.it/14lt4wy')
+add_data(['Keeve Trennis'],
+'Keeve Trennis',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14lt4wy/respect_keeve_trennis_star_wars_canon/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Kurumi Tokisaki! (Date A Live [Anime Series])', 'https://redd.it/14kbas0')
 add_data(['Kurumi'],
 'Kurumi',
@@ -169,6 +201,152 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/14kbas0/respect_kurumi_tokisaki_date_a_live_anime_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chōji Akimichi (Naruto)', 'https://redd.it/14kpuk1')
+add_data(['Ch(ō|o)ji'],
+'Chōji',
+False,
+False,
+[
+    ['Naruto'], ['Akimichi'], ['Konoha']
+],
+'Naruto',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Suburb Slasher (SCP Foundation)', 'https://redd.it/14kvep1')
+add_data(['Suburb Slasher'],
+'Suburb Slasher',
+False,
+True,
+[
+    ['SCP']
+],
+'SCP',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14kvep1/respect_the_suburb_slasher_scp_foundation/
+
+add_data(['SCP ?(-| )? ?5733 ?(-| )? ?1'],
+'SCP-5733-1',
+False,
+True,
+[
+    ['SCP Foundation']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14kvep1/respect_the_suburb_slasher_scp_foundation/
+
+add_data(['SCP ?(-| )? ?6733 ?(-| )? ?1'],
+'SCP-6733-1',
+False,
+True,
+[
+    ['SCP Foundation']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14kvep1/respect_the_suburb_slasher_scp_foundation/
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Misty''s Clauncher (Pokemon Anime)", 'https://redd.it/14l9sma')
+add_data(['Clauncher'],
+'Clauncher',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14l9sma/respect_mistys_clauncher_pokemon_anime/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cujo (Cujo)', 'https://redd.it/14lce7j')
+add_data(['Cujo'],
+'Cujo',
+False,
+False,
+[
+    ['Cujo ?\(Cujo\)'], ['Stephen Kings?'], ['movie'], ['Dogs?'], ['Cujo vs'], ['Pit ?bulls?'], ['Jason Voorhees'], ['Gr(e|a)y Wolf']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14lce7j/respect_cujo_cujo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tari! (Meta Runner)', 'https://redd.it/14ljvae')
+add_data(['Tari'],
+'Tari',
+False,
+False,
+[
+    ['Meta Runner']
+],
+'Meta Runner',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14ljvae/respect_tari_meta_runner/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Meg McCaffrey! (The Trials of Apollo)', 'https://redd.it/14m10kj')
+add_data(['Meg McCaffrey'],
+'Meg McCaffrey',
+False,
+True,
+[
+    ['Percy Jackson'], ['Riordan(-| )?(verse)?'], ['Trials of Apollo']
+],
+'Percy Jackson',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14m10kj/respect_meg_mccaffrey_the_trials_of_apollo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Spider-Carnage (Marvel Animated Universe)', 'https://redd.it/14m1xwp')
+add_data(['Spider(-| )?Carnage'],
+'Spider-Carnage',
+False,
+False,
+[
+    ['Animated']
+],
+'Marvel Animated Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14m1xwp/respect_spidercarnage_marvel_animated_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Joker (Mortal Kombat)', 'https://redd.it/14m542n')
+add_data(['Joker'],
+'Joker',
+False,
+False,
+[
+    ['Mortal Kombat']
+],
+'Mortal Kombat',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14m542n/respect_the_joker_mortal_kombat/
 
 ########################################
 
