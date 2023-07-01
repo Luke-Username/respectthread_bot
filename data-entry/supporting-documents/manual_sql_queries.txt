@@ -27,6 +27,8 @@ UPDATE character SET displayed_version_name='Percy Jackson' WHERE displayed_vers
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Stitch';
+
 ########################################
 
 ########################################

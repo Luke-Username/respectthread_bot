@@ -350,6 +350,21 @@ False,
 
 ########################################
 
+add_data(['Black Widow'],
+'Black Widow',
+False,
+False,
+[
+    ['vs Black Widow', 'Batman']
+],
+'616',
+'{1989}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/14mxtlt/cammy_white_vs_black_widow_at_night/
+
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
