@@ -113,6 +113,7 @@ update_respectthread(cur, 1604, 'Respect James Jesse, The Trickster! (DC Comics,
 update_respectthread(cur, 21540, 'Respect Amalthea: The Last Unicorn', 'https://redd.it/68thok')
 update_respectthread(cur, 91, 'Respect Sportacus! (LazyTown)', 'https://redd.it/14m5cuz')
 update_respectthread(cur, 90, 'Respect Robbie Rotten! (LazyTown)', 'https://redd.it/9akbw5')
+update_respectthread(cur, 1599, 'Respect Mick Rory, Heat Wave! (DC Comics, Pre-Flashpoint)', 'https://redd.it/14n1knb')
 
 ########################################
 
@@ -362,6 +363,96 @@ False,
 )
 #https://www.reddit.com/r/whowouldwin/comments/14mxtlt/cammy_white_vs_black_widow_at_night/
 
+########################################
+
+id = get_rt_id(cur, 'Respect Diluc (Genshin Impact)', 'https://redd.it/14ncj73')
+add_data(['Diluc'],
+'Diluc',
+False,
+True,
+[
+    ['Genshin']
+],
+'Genshin Impact',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14ncj73/respect_diluc_genshin_impact/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Aliens! (Pixels)', 'https://redd.it/14nktey')
+add_data(['Aliens'],
+'Aliens',
+False,
+False,
+[
+    ['Pixels']
+],
+'Pixels',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14nktey/respect_the_aliens_pixels/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Plok! (Plok!)', 'https://redd.it/14nkz5v')
+add_data(['Plok'],
+'Plok',
+False,
+True,
+[
+    ['Plok ?\(Plok\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14nktey/respect_the_aliens_pixels/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Snowguard (Marvel 616)', 'https://redd.it/14nyb3n')
+add_data(['Snowguard'],
+'Snowguard',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14nyb3n/respect_snowguard_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Penelope Spectra (Danny Phantom)', 'https://redd.it/14nyb4j')
+add_data(['Penelope Spectra'],
+'Penelope Spectra',
+False,
+True,
+[
+    ['Danny Phantom']
+],
+'Danny Phantom',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14nyb4j/respect_penelope_spectra_danny_phantom/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Batman (Batman Unlimited)', 'https://redd.it/14nyb5n')
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Batman Unlimited']
+],
+'Batman Unlimited',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14nyb5n/respect_batman_batman_unlimited/
 
 ########################################
 
