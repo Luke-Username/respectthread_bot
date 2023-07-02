@@ -14,24 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Saren Arterius' WHERE name='Saren';
+########################################
 
 ########################################
 
-UPDATE character SET rt_id_array='{22144}' WHERE rt_id_array='{22144}';
-DELETE FROM respectthread WHERE id=22144;
-
 ########################################
 
-UPDATE character SET displayed_version_name='Percy Jackson' WHERE displayed_version_name='Heroes of Olympus';
-
 ########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Stitch';
-
-########################################
-
-UPDATE character SET version='{"Records? of Ragnar?ok"}' WHERE version='{"Records? of Ragnarok"}';
 
 ########################################
 

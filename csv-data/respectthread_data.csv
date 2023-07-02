@@ -37,8 +37,10 @@ id,title,link
 54,Respect Kamen Rider Drive,https://redd.it/6ypkh8
 56,Respect Kazumi Sawatari and The Hokuto Trio/Crows (Kamen Rider Build),https://redd.it/a2j1jc
 57,Respect Takeshi Hongo (Kamen Rider The First/The Next),https://redd.it/65zhvr
+91,Respect Sportacus! (LazyTown),https://redd.it/14m5cuz
 59,Respect: Kamen Rider Kabuto,https://redd.it/27zsiu
 60,Respect Kamen Rider Mach (Kamen Rider Drive),https://redd.it/6yq6ba
+90,Respect Robbie Rotten! (LazyTown),https://redd.it/9akbw5
 62,Respect Mashin Chaser & The Roidmudes(KR Drive Series),https://redd.it/3ma7aq
 63,Respect the Namba Heavy Industries (Kamen Rider Build),https://redd.it/atzywm
 64,Respect Riderman (Kamen Rider V3),https://redd.it/6a47nz
@@ -66,8 +68,6 @@ id,title,link
 87,Respect Gregor Clegane (Game of Thrones),https://redd.it/5dqlfb
 88,Respect Kouga Saejima (Garo) (Slight NSFW),https://redd.it/a4tej9
 89,Respect The Biggles (Kidsongs TV Show),https://redd.it/6axyqh
-90,Respect Robbie Rotten (Lazy Town),https://redd.it/9akbw5
-91,Respect Sportacus (LazyTown),https://redd.it/4vnhvw
 92,Respect Merlin! (2008 TV series),https://redd.it/b3ql9r
 93,Respect Superhoodie (MisFits),https://redd.it/2m7zf0
 94,Respect Casey Bowman (Ninja),https://redd.it/7qpn8w
@@ -813,7 +813,6 @@ id,title,link
 863,Respect Mr. Gar (OK KO! Let's Be Heroes),https://redd.it/aue6cb
 864,Respect Radicles (OK KO! Let's Be Heroes),https://redd.it/aue52a
 865,Respect HIM! (Powerpuff Girls),https://redd.it/6rgb9x
-866,Respect Mojo Jojo! (Powerpuff Girls),https://redd.it/6rhskf
 867,[Respect] Mojo Jojo's Giant Robot (The Powerpuff Girls: Dance Pantsed),https://redd.it/8w1p4u
 868,"Respect Blossom, Bubbles, and Buttercup, the Powerpuff Girls! (Powerpuff Girls)",https://redd.it/6rl5ma
 869,Respect AndrAIa (ReBoot),https://redd.it/8h75jp
@@ -823,6 +822,7 @@ id,title,link
 873,Respect Hexadecimal (ReBoot),https://redd.it/8gprns
 874,Respect Megabyte (ReBoot),https://redd.it/8gpqyb
 875,Respect Pickle Rick (Rick & Morty),https://redd.it/8kuqzm
+866,Respect Mojo Jojo! (Powerpuff Girls),https://redd.it/14ogs0y
 877,"Respect Scary Terry, bitch! (Rick and Morty)",https://redd.it/6ykqsd
 878,Respect The Vindicators! (Rick and Morty),https://redd.it/b1iyfb
 879,"Respect Aku, the Shogun of Sorrow! (Samurai Jack)",https://redd.it/6fooct
@@ -1511,11 +1511,9 @@ id,title,link
 1596,"Respect Captain Cold (DC Comics, Post-Flashpoint)",https://redd.it/6g5xzg
 1597,"Respect August Heart, GODSPEED! (The Flash, DC Rebirth)",https://redd.it/8uzf0c
 1598,Respect Gorilla Grodd (DC Post-Crisis),https://redd.it/330686
-1599,Respect Heat Wave,https://redd.it/30ocnx
 1600,"Respect Thaddeus Thawne II/Inertia(Dc Comics,Post Crisis,Impulse)",https://redd.it/bogy83
 1601,Respect Mirror Master,https://redd.it/30o8cg
 1603,Respect The Top,https://redd.it/30ogjq
-1604,Respect The Trickster,https://redd.it/30odf5
 1605,Respect Weather Wizard,https://redd.it/30obeb
 1648,"Respect Hawkman (DC, Post-Flashpoint)",https://redd.it/mjbp8x
 1607,Respect Brick (DC Post-Crisis),https://redd.it/6390qf
@@ -1565,10 +1563,12 @@ id,title,link
 1654,Respect Triumph (DC -Post Crisis),https://redd.it/8epwgv
 1655,Respect Vibe (DC Comics),https://redd.it/63j6io
 1657,"Respect Amazo (DC, Post Crisis)",https://redd.it/53w9ld
+1604,"Respect James Jesse, The Trickster! (DC Comics, Pre-Flashpoint)",https://redd.it/14kmtvh
 1659,Respect Despero [Post-Crisis],https://redd.it/325dm1
 1660,Respect Maxwell Lord IV (pre-52),https://redd.it/36o8qq
 1661,"Respect Owlman (DC - Post Crisis, Antimatter)",https://redd.it/98ospr
 1662,"Respect Paragon (DC Comics, Pre-Flashpoint)",https://redd.it/boyr2y
+1599,"Respect Mick Rory, Heat Wave! (DC Comics, Pre-Flashpoint)",https://redd.it/14n1knb
 1656,"Respect Vixen (DC, Post Crisis)",https://redd.it/eepbhd
 1587,"Respect Professor Zoom (DC COMICS, NEW 52)",https://redd.it/eqww5q
 1653,Respect Shazam (DC New 52/Rebirth),https://redd.it/fdr0rv
@@ -3274,7 +3274,6 @@ id,title,link
 3412,Respect Roy Mustang (FMA:B),https://redd.it/2st13m
 3413,Respect Scar (Fullmetal Alchemist/Fullmetal Alchemist: Brotherhood),https://redd.it/2sd4x5
 3414,Respect Sloth the Indolent (Fullmetal Alchemist),https://redd.it/7dhku3
-3415,Respect Alex Louis Armstrong (Fullmetal Alchemist 2003),https://redd.it/7utjtj
 3417,Respect Dietlinde Eckhart (Fullmetal Alchemist: Conqueror of Shamballa),https://redd.it/7tw4e2
 3420,Respect King Bradley (Fullmetal Alchemist 2003),https://redd.it/bkov8u
 3421,Respect Lyra (Fullmetal Alchemist 2003),https://redd.it/aho6r1
@@ -3339,6 +3338,7 @@ id,title,link
 3486,Respect Yuuto Kiba! (Highschool DxD) (anime),https://redd.it/5l73vw
 3478,Respect Seras Victoria! (Hellsing),https://redd.it/126pkyd
 3476,Respect Alucard! (Hellsing),https://redd.it/126pl7w
+3415,Respect Alex Louis Armstrong (Fullmetal Alchemist 2003),https://redd.it/14oic8d
 3416,Respect Dante (Fullmetal Alchemist 2003),https://redd.it/g7p3ps
 3460,Respect Domon Kasshu (Mobile Fighter G Gundam),https://redd.it/hqmbqw
 3446,Respect Baki Hanma (Baki the Grappler),https://redd.it/kpq5hw
@@ -4026,13 +4026,13 @@ id,title,link
 4201,Respect Lana (Pokemon Anime),https://redd.it/bzd7fl
 4202,Respect Primarina (Pokemon Anime),https://redd.it/bxhdgo
 4203,Respect Sandy the Eevee (Pokemon Anime),https://redd.it/byyjct
-4204,Respect Arceus (Pokemon Anime),https://redd.it/5t907b
 4205,Respect Articuno (Pokemon Anime),https://redd.it/8co4ly
 4206,Respect Dialga (Pokemon Anime),https://redd.it/5sfdsi
 4207,Respect Entei (Pokemon Anime: Spell of the Unown),https://redd.it/7gdvcx
 4208,Respect the Genesect Army (Pokémon Anime),https://redd.it/asszn0
 4209,Respect Giratina (Pokemon Anime),https://redd.it/5ssvar
 4156,Respect Pikachu (Pokemon Anime),https://redd.it/zwlds8
+4204,Respect Arceus (Pokemon Anime),https://redd.it/14oi2sn
 4210,Respect Groudon (Pokemon Anime),https://redd.it/8rjvwk
 4211,Respect Hoopa (Pokemon Anime),https://redd.it/8ykogf
 4212,Respect Keldeo (Pokemon Anime: Kyurem Vs The Sword of Justice),https://redd.it/5q6r0z
@@ -4493,7 +4493,6 @@ id,title,link
 4679,Respect Ikuro Hashizawa (Baoh: The Visitor),https://redd.it/562fgr
 4680,"Respect Kazuo Kiriyama (Battle Royale, Manga/Movie)",https://redd.it/a1wiql
 4681,Respect Beast 9 (Beast 9),https://redd.it/48v99z
-4682,Respect Legosi (Beastars),https://redd.it/8bi9g3
 4683,"Respect Yafya, the Sublime Beastar! (Beastars)",https://redd.it/bics47
 4684,Respect Beet (Beet The Vandel Buster),https://redd.it/6642tp
 4695,Respect Douji Kodama (Black Joke) [NSFW],https://redd.it/t1lgkh
@@ -4513,6 +4512,7 @@ id,title,link
 4702,Respect BoBoBo! (Bobobo-Bobo-Bobo),https://redd.it/6tgf53
 4703,Respect Kumatetsu (The Boy and the Beast),https://redd.it/5vypc3
 4704,Respect Chun-woo Han (The Breaker/The Breaker: New Waves),https://redd.it/9y5xku
+4682,Respect Legosi (Beastars),https://redd.it/djfbik
 4685,Respect the Half-Pricer's Association (Ben-To),https://redd.it/npv6iw
 4705,Respect Dio (Casshern Sins),https://redd.it/4kvs53
 4706,Respect Imomushi (Arachnid/Caterpillar),https://redd.it/8xrisr
@@ -6894,7 +6894,6 @@ id,title,link
 22141,Respect Outlaw! (Marvel 616),https://redd.it/vk2x6t
 22142,Respect Anya Forger! (Spy x Family),https://redd.it/vk5d4h
 22143,Respect Bond! (Spy x Family),https://redd.it/vkdx11
-22144,"Respect Loid Forger, Agent Twilight! (Spy x Family)",https://redd.it/vkl4pl
 22145,Respect Pikkon (Dragon Ball Z),https://redd.it/vki1w1
 22146,Respect the Spinosaurus (Jurassic Park 3 in One Minute),https://redd.it/vkkphj
 22147,Respect the Giganotosaurus (Dino Crisis 2),https://redd.it/vkn6q0
@@ -7994,7 +7993,6 @@ id,title,link
 12057,Respect Kamen Rider Skull (Kamen Rider W),https://redd.it/ha84h4
 12058,Respect Vile! (Mega Man),https://redd.it/haa907
 12059,Respect The Matriarch and The Immortal! (Unleash the Archers),https://redd.it/haipdx
-12060,Respect Tserriednich (Hunter x Hunter),https://redd.it/haizhp
 12061,Respect Saibamen (Dragon Ball),https://redd.it/hajxgy
 12062,Respect Tenshinhan! (Dragon Ball/Z/Super),https://redd.it/hcem8y
 12063,Respect Liza Barrelvalt (Mad Bullet Underground),https://redd.it/hcfudo
@@ -12656,3 +12654,23 @@ id,title,link
 23972,Respect Michiru Kagemori! (BNA: Brand New Animal),https://redd.it/14j0vzr
 23973,Respect Wanze (One Piece),https://redd.it/14j7u7s
 23974,Respect Kipo Oak! (Kipo and the Age of Wonderbeasts),https://redd.it/14jr3sx
+12060,Respect Tserriednich Hui Guo Rou! (Hunter X Hunter),https://redd.it/14kek75
+23975,Respect Akko Kagari (Little Witch Academia: Chamber of Time),https://redd.it/14jtwy7
+23976,Respect Rooper Nitani (Star Wars Canon),https://redd.it/14jxxd6
+23977,Respect Gundarks (Star Wars) (Canon),https://redd.it/14onjft
+23978,Respect Keeve Trennis (Star Wars Canon),https://redd.it/14lt4wy
+23979,Respect Kurumi Tokisaki! (Date A Live [Anime Series]),https://redd.it/14kbas0
+23980,Respect Chōji Akimichi (Naruto),https://redd.it/14kpuk1
+23981,Respect the Suburb Slasher (SCP Foundation),https://redd.it/14kvep1
+23982,Respect Misty's Clauncher (Pokemon Anime),https://redd.it/14l9sma
+23983,Respect Cujo (Cujo),https://redd.it/14lce7j
+23984,Respect Tari! (Meta Runner),https://redd.it/14ljvae
+23985,Respect Meg McCaffrey! (The Trials of Apollo),https://redd.it/14m10kj
+23986,Respect: Spider-Carnage (Marvel Animated Universe),https://redd.it/14m1xwp
+23987,Respect The Joker (Mortal Kombat),https://redd.it/14m542n
+23988,Respect Diluc (Genshin Impact),https://redd.it/14ncj73
+23989,Respect the Aliens! (Pixels),https://redd.it/14nktey
+23990,Respect Plok! (Plok!),https://redd.it/14nkz5v
+23991,Respect Snowguard (Marvel 616),https://redd.it/14nyb3n
+23992,Respect Penelope Spectra (Danny Phantom),https://redd.it/14nyb4j
+23993,Respect Batman (Batman Unlimited),https://redd.it/14nyb5n

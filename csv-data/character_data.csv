@@ -5293,13 +5293,13 @@ The Iron Giant,"{`"Iron Giant`"}",t,{1212},1999
 Owlman,"{`"Crisis on (Two |2 )Earths`"}",f,{1213},Justice League: Crisis on Two Earths
 Owlman,{CO(T|2)E},f,{1213},Justice League: Crisis on Two Earths
 Gantu,"{`"Lilo (and|&) Stitch`"}",t,{1215},Lilo & Stitch
-Stitch,"{`"Lilo (and|&) Stitch`"}",t,{1216},Lilo & Stitch
 Capitaine Chantel DuBois,{Madagascar},t,{1217},Madagascar
 Nana,{Madagascar},f,{1218},Madagascar
 Old lady,{Madagascar},f,{1218},Madagascar
 Megamind,{Megamind},t,{1219},""
 Metro Man,{Megamind},t,{1220},Megamind
 Hulk,"{`"\\(Hulk Vs.?\\)`"}",f,{1210},(Hulk Vs.)
+Stitch,"{`"Lilo (and|&) Stitch`"}",f,{1216},Lilo & Stitch
 Tighten,{Megamind},f,{1220},Megamind
 Titan,{Megamind},f,{1220},Megamind
 Monster House,"{`"Monster House`"}",t,{1221},""
@@ -6075,10 +6075,6 @@ Danny,"{`"Golden Gash`"}",f,{7417},Zatch Bell!
 Danny,"{`"Konjiki no Gash`"}",f,{7417},Zatch Bell!
 Danny,"{`"Gash Bell`"}",f,{7417},Zatch Bell!
 Wolvie 2,{Marvel},t,{7418},Marvel
-Piper,"{`"Heroes of Olympus`"}",f,{7419},Heroes of Olympus
-Piper,"{`"Riordan(-| )?(verse)?`"}",f,{7419},Heroes of Olympus
-Piper McLean,"{`"Heroes of Olympus`"}",t,{7419},Heroes of Olympus
-Piper McLean,"{`"Riordan(-| )?(verse)?`"}",t,{7419},Heroes of Olympus
 Kenshi,"{`"Mortal Kombat`"}",f,"{5287,7420}",Mortal Kombat
 Kenshi,{MK},f,"{5287,7420}",Mortal Kombat
 Kenshi Takahashi,"{`"Mortal Kombat`"}",t,"{5287,7420}",Mortal Kombat
@@ -6122,9 +6118,9 @@ Sonia Bean,"{`"Magical Girl Raising Project`"}",t,{7431},Magical Girl Raising Pr
 Sonia,"{`"Magical Girl Raising Project`"}",f,{7431},Magical Girl Raising Project
 Cal Kestis,"{`"Star Wars`"}",t,{7432},Star Wars
 Cal Kestis,"{`"Fallen Order`"}",t,{7432},Star Wars
+Piper,"{`"Heroes of Olympus`"}",f,{7419},Percy Jackson
+Piper,"{`"Riordan(-| )?(verse)?`"}",f,{7419},Percy Jackson
 Cal Kestis,{JFO},t,{7432},Star Wars
-Frank Zhang,"{`"Heroes of Olympus`"}",t,{7433},Heroes of Olympus
-Frank Zhang,"{`"Riordan(-| )?(verse)?`"}",t,{7433},Heroes of Olympus
 Conan the Barbarian,{Howard},t,"{7434,2746}",""
 Skull Knight,{Berserk},t,{7435},Berserk
 Scorpion,"{`"Jeff Rovin`"}",f,{7436},Jeff Rovin
@@ -6187,6 +6183,8 @@ Undyne,{Undertale},t,{7462},Undertale
 Necrozma,{Pok(e|é)m(o|a)n},t,"{4226,7463}",Pokémon
 Menthuthuyoupi,"{`"Hunter x Hunter`"}",t,"{7450,22903}",Hunter x Hunter
 Menthuthuyoupi,{HxH},t,"{7450,22903}",Hunter x Hunter
+Frank Zhang,"{`"Heroes of Olympus`"}",t,{7433},Percy Jackson
+Frank Zhang,"{`"Riordan(-| )?(verse)?`"}",t,{7433},Percy Jackson
 Zelda,"{`"Spirit Tracks`"}",f,{7464},Spirit Tracks
 Jester Lavorre,"{`"Critical Role`"}",t,{7465},Critical Role
 Caduceus Clay,"{`"Critical Role`"}",t,{7466},Critical Role
@@ -9497,9 +9495,6 @@ Zia Rashid,"{`"Kane Chronicles`"}",t,{8567},The Kane Chronicles
 Zia,"{`"Kane Chronicles`"}",f,{8567},The Kane Chronicles
 Bes,"{`"Kane Chronicles`"}",f,{8568},The Kane Chronicles
 Set,"{`"Kane Chronicles`"}",f,{8569},The Kane Chronicles
-Tyson,"{`"Heroes of Olympus`"}",f,{8570},Heroes of Olympus
-Tyson,"{`"Riordan(-| )?(verse)?`"}",f,{8570},Heroes of Olympus
-Tyson,{Percy},f,{8570},Heroes of Olympus
 Jake Rivers,"{`"Trigger Warning`"}",f,{8571},Trigger Warning
 Thing,"{`"Fred and Barney Meet the Thing`"}",f,{8572},700974
 Thing,{700974},f,{8572},700974
@@ -9559,6 +9554,8 @@ Ida,{Tenya},f,{3937},My Hero Academia
 Ida,{Deku},f,{3937},My Hero Academia
 Captain Celebrity,"{`"My Hero Academia`"}",t,{3918},My Hero Academia
 Angel,{Foxverse},f,{8575},FOX
+Tyson,"{`"Heroes of Olympus`"}",f,{8570},Percy Jackson
+Tyson,"{`"Riordan(-| )?(verse)?`"}",f,{8570},Percy Jackson
 Captain Celebrity,"{`"\\(My Hero\\)`"}",t,{3918},My Hero Academia
 Captain Celebrity,{BN?HA},t,{3918},My Hero Academia
 Captain Celebrity,{MHA},t,{3918},My Hero Academia
@@ -9605,12 +9602,6 @@ Robin,{Batmanga},f,{8601},Batmanga
 Batman,{Batmanga},f,{8602},Batmanga
 Javik,"{`"Mass Effect`"}",t,{8603},Mass Effect
 Javik,{MEffect},t,{8603},Mass Effect
-Thalia,"{`"Heroes of Olympus`"}",t,{8604},Heroes of Olympus
-Thalia,"{`"Riordan(-| )?(verse)?`"}",t,{8604},Heroes of Olympus
-Thalia,{Percy},t,{8604},Heroes of Olympus
-Thalia Grace,"{`"Heroes of Olympus`"}",t,{8604},Heroes of Olympus
-Thalia Grace,"{`"Riordan(-| )?(verse)?`"}",t,{8604},Heroes of Olympus
-Thalia Grace,{Percy},t,{8604},Heroes of Olympus
 Waxillium,{Mistborn},t,{5890},Mistborn
 Wax,{Mistborn},f,{5890},Mistborn
 Soldier: 76,{Overwatch},t,{5328},Overwatch
@@ -9629,6 +9620,7 @@ Koichi Haimawari,{MHA},t,{8610},My Hero Academia
 Koichi Haimawari,"{`"Boku no Hero`"}",t,{8610},My Hero Academia
 Gran Torino,"{`"My Hero Academia`"}",f,{8611},My Hero Academia
 Gran Torino,"{`"\\(My Hero\\)`"}",f,{8611},My Hero Academia
+Thalia,"{`"Heroes of Olympus`"}",t,{8604},Percy Jackson
 Gran Torino,{BN?HA},f,{8611},My Hero Academia
 Gran Torino,{MHA},f,{8611},My Hero Academia
 Gran Torino,"{`"Boku no Hero`"}",f,{8611},My Hero Academia
@@ -12016,10 +12008,10 @@ Touma Kamijou,{Index(verse)?},t,{4450},Toaru Majutsu no Index
 Touma Kamijou,{TAMNI},t,{4450},Toaru Majutsu no Index
 Yondu,"{`"End ?game`"}",f,{13485},MCU
 Avengers,"{`"End ?game`"}",f,"{233,247,237,264,236,244,235,270,268,242,271,256}",MCU
-Jack The Ripper,"{`"Records? of Ragnarok`"}",f,{9366},Shuumatsu no Valkyrie
-Heracles,"{`"Records? of Ragnarok`"}",f,{9367},Shuumatsu no Valkyrie
 Thor,"{`"End ?game`"}",f,{264},MCU
 Godzilla,{TriStar},f,{14373},TriStar
+Jack The Ripper,"{`"Records? of Ragnar?ok`"}",f,{9366},Shuumatsu no Valkyrie
+Heracles,"{`"Records? of Ragnar?ok`"}",f,{9367},Shuumatsu no Valkyrie
 Matt Cordell,"{`"Maniac Cop`"}",t,{12134},Maniac Cop
 Maniac Cop,"{`"Maniac Cop`"}",t,{12134},Maniac Cop
 Ultimate Deathstrike,{1610},t,{12135},1610
@@ -13593,7 +13585,7 @@ Kratos,{GOW},t,{5094},God of War
 Ultimate Professor X,{1610},t,{12491},1610
 Charles Xavier,"{`"X(avier)? ?\\(1610`"}",f,{12491},1610
 Death,"{`"Final Destination`"}",f,{12472},Final Destination
-Percy Jackson,"{`"Heroes of Olympus`"}",t,"{5905,23655,23656}",Heroes of Olympus
+Percy Jackson,"{`"Heroes of Olympus`"}",t,"{5905,23655,23656}",Percy Jackson
 Charles Xavier,"{`"\\(Ultimates?\\)`"}",f,{12491},1610
 Rumbling,{Titans?},f,{12492},Attack on Titan
 Rumbling,"{`"Shingeki no Kyojin`"}",f,{12492},Attack on Titan
@@ -13850,8 +13842,8 @@ Aurora E. Juutilainen,"{`"World Witches`"}",t,{4561},Strike Witches
 Eila Ilmatar Juutilainen,"{`"Strike Witches`"}",t,{4562},Strike Witches
 Eila Ilmatar Juutilainen,"{`"World Witches`"}",t,{4562},Strike Witches
 Eila,"{`"Strike Witches`"}",f,{4562},Strike Witches
-Adam,"{`"Records? of Ragnarok`"}",f,{4539},Shuumatsu no Valkyrie
 Thor,"{`"Shuumatsu no Valkyrie`"}",f,{4543},Shuumatsu no Valkyrie
+Adam,"{`"Records? of Ragnar?ok`"}",f,{4539},Shuumatsu no Valkyrie
 Eila,"{`"World Witches`"}",f,{4562},Strike Witches
 Erica Hartmann,"{`"Strike Witches`"}",t,{4563},Strike Witches
 Erica Hartmann,"{`"World Witches`"}",t,{4563},Strike Witches
@@ -17761,11 +17753,6 @@ Fergus the Bear King,{Brave},t,{14875},Brave
 Sin-Eater,{Marvel},f,{14876},616
 Sin-Eater,{616},f,{14876},616
 Captain Tardigrade,{default},t,{14877},""
-Jason Grace,"{`"Heroes of Olympus`"}",t,{14878},Heroes of Olympus
-Jason Grace,"{`"Riordan(-| )?(verse)?`"}",t,{14878},Heroes of Olympus
-Jason,"{`"Heroes of Olympus`"}",f,{14878},Heroes of Olympus
-Jason,"{`"Riordan(-| )?(verse)?`"}",f,{14878},Heroes of Olympus
-Jason,{Percy},f,{14878},Heroes of Olympus
 Yamper,{Pok(e|é)m(o|a)n},t,{14879},Pokémon
 Dialga,{Pok(e|é)mon},t,"{4206,5361}",Pokémon
 Machamp,{Pok(e|é)m(o|a)n},t,"{4278,5362}",Pokémon
@@ -21074,12 +21061,6 @@ Marjoe Yellow,"{`"Outrace The Sky`"}",t,{5902},Outrace The Sky
 Kronos,"{`"Percy Jackson`"}",f,{5903},Percy Jackson
 Kronos,"{`"Heroe?s of Olympus`"}",f,{5903},Percy Jackson
 Kronos,"{`"Riordan(-| )?(verse)?`"}",f,{5903},Percy Jackson
-Nico,{Percy},f,{5904},Heroes of Olympus
-Nico,"{`"Heroe?s of Olympus`"}",f,{5904},Heroes of Olympus
-Nico,"{`"Riordan(-| )?(verse)?`"}",f,{5904},Heroes of Olympus
-Nico Di Angelo,{Percy},t,{5904},Heroes of Olympus
-Nico Di Angelo,"{`"Heroe?s of Olympus`"}",t,{5904},Heroes of Olympus
-Nico Di Angelo,"{`"Riordan(-| )?(verse)?`"}",t,{5904},Heroes of Olympus
 Amadeus,"{`"Practical Guide to Evil`"}",f,{5906},A Practical Guide to Evil
 Amadeus,{APGTE},f,{5906},A Practical Guide to Evil
 Catherine,"{`"Practical Guide to Evil`"}",f,{5907},A Practical Guide to Evil
@@ -21142,8 +21123,7 @@ SCP-5045,"{`"SCP Foundation`"}",t,{15911},""
 SCP-4866,"{`"SCP Foundation`"}",t,{15912},""
 Zoichi Kanoe,{BioMega},t,{15913},BioMega
 Scarlet King,{SCP},t,{5937},SCP
-Hazel Levesque,"{`"Heroe?s of Olympus`"}",f,{15914},Heroes of Olympus
-Hazel Levesque,"{`"Riordan(-| )?(verse)?`"}",f,{15914},Heroes of Olympus
+Nico,{Percy},f,{5904},Percy Jackson
 Quatach-Ichl,"{`"Mother of Learning`"}",t,{15915},Mother of Learning
 Magical Girls,"{`"Magical Girl Raising Project`"}",f,{15916},Magical Girl Raising Project
 Magical Girls,"{`"Mahou Shoujo Ikusei Keikaku`"}",f,{15916},Magical Girl Raising Project
@@ -23721,7 +23701,6 @@ Sonia,"{`"Sonic Underground`"}",f,{17611},Sonic Underground
 Sonia,"{`"Sonia the Hedgehog`"}",f,{17611},Sonic Underground
 Sonic,"{`"Sonic Underground`"}",f,{17612},Sonic Underground
 Kronk,"{`"Cas van de Pol`"}",f,{17613},Cas van de Pol
-Stitch,"{`"Cas van de Pol`"}",f,{17614},Cas van de Pol
 Jimmy Olsen,"{`"Super(-| )?Lad`"}",f,{17616},Super-Lad of Space
 Jimmy Olsen,"{`"Steel(-| )Man`"}",f,{17617},The Batman-Superman of Earth-X
 Jimmy Olsen,"{`"Batman(-| )Superman of Earth(-| )X`"}",f,{17617},The Batman-Superman of Earth-X
@@ -23763,6 +23742,7 @@ Chick Hicks,{Cars},t,{17644},Cars
 Sakunosuke Oda,"{`"Bungou? Stray Dogs`"}",f,{17645},Bungou Stray Dogs
 Odasaku,"{`"Bungou? Stray Dogs`"}",f,{17645},Bungou Stray Dogs
 Saigiku Jōno,"{`"Bungou? Stray Dogs`"}",t,{17646},Bungou Stray Dogs
+Stitch,"{`"Cas van de Pol`"}",f,{17614},Cas van de Pol
 Teruko Ōkura,"{`"Bungou? Stray Dogs`"}",t,{17647},Bungou Stray Dogs
 Ōchi Fukuchi,"{`"Bungou? Stray Dogs`"}",t,{17648},Bungou Stray Dogs
 Osamu Dazai,"{`"Bungou? Stray Dogs`"}",f,{17649},Bungou Stray Dogs
@@ -24547,9 +24527,7 @@ She-Venom,{2018},f,{20583},"Sony, 2018"
 Usui,"{`"Rurouni Kenshin`"}",f,{20584},Rurouni Kenshin
 Usui,{Uonuma},f,{20584},Rurouni Kenshin
 Sarco Plank,"{`"S(tar )?Wars`"}",f,{20585},Star Wars
-Annabeth,"{`"Annabeth Chase`"}",f,{20586},Heroes of Olympus
-Annabeth,{Percy},f,{20586},Heroes of Olympus
-Annabeth,"{`"Riordan(-| )?(verse)?`"}",f,{20586},Heroes of Olympus
+Annabeth,"{`"Annabeth Chase`"}",f,{20586},Percy Jackson
 Anime guy,"{`"Hippo Saga`"}",f,{20587},Hippo Saga
 Weeping Angel,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{20588},Doctor Who
 Weeping Angel,{Who(ni)?verse},t,{20588},Doctor Who
@@ -24615,6 +24593,7 @@ Jaws,"{`"Jaws ?\\(Jaws`"}",f,{20627},""
 Jaws,{Bruce},f,{20627},""
 Jaws,{1975},f,{20627},""
 Jaws,"{`"vs\\.? Jaws`"}",f,{20627},""
+Annabeth,{Percy},f,{20586},Percy Jackson
 Great Gazoo,{Flintstones},t,{20628},The Flintstones
 FDR,"{`"FDR:? American Badass`"}",f,{20629},FDR: American Badass
 Bunshichi Tanba,{Garouden},t,{20630},Garouden
@@ -25181,9 +25160,9 @@ Yuu Amanai,{Baki},t,{21117},Baki
 SCP-749,{Foundation},t,{21118},""
 Buddha,{Mah(ā|a)y(ā|a)na},t,"{21114,21300}",Mahāyāna
 Buddha,{Buddhism},t,"{21114,21300}",Mahāyāna
+Buddha,"{`"Records? of Ragnar?ok`"}",f,{},Record of Ragnarok
 Buddha,"{`"Composite Buddha`"}",t,"{21114,21300}",Mahāyāna
 Buddha,"{`"Journey To The West`"}",t,"{21114,21300}",Mahāyāna
-Buddha,"{`"Records? of Ragnarok`"}",f,{},Record of Ragnarok
 Dorian,{Baki},f,{3449},Baki
 Lion,"{`"Balloon Trip of Love`"}",f,{16804},The Legend of Zelda
 SCP-001,"{`"Gate Guardian`"}",f,{15332},""
@@ -25958,9 +25937,6 @@ Jagganoth,{KSBD},t,{21406},Kill Six Billion Demons
 Otto Suwen,"{`"Re:? ?Zero`"}",t,{21407},Re:Zero
 Charles Xavier,{FOX},f,{21408},FOX
 SCP-035,"{`"SCP Foundation`"}",f,{21409},""
-Zeus,"{`"Percy Jackson`"}",f,{21410},Heroes of Olympus
-Zeus,"{`"Heroe?s of Olympus`"}",f,{21410},Heroes of Olympus
-Zeus,"{`"Riordan(-| )?(verse)?`"}",f,{21410},Heroes of Olympus
 Ainsworth,"{`"Angelica Ainsworth`"}",f,{21411},Fate
 Ainsworth,{Fate},f,{21411},Fate
 Ainsworth,{Kaleid},f,{21411},Fate
@@ -26149,7 +26125,6 @@ Lieutenant,"{`"The Lieutenant`",Avatar}",f,{21539},Avatar: TLA
 Lieutenant,{Amon},f,{21539},Avatar: TLA
 Lieutenant,"{`"The Lieutenant`",Korra}",f,{21539},Avatar: TLA
 Lieutenant,"{`"The Lieutenant`",A?T?LOK}",f,{21539},Avatar: TLA
-The Last Unicorn,{Beagle},t,{21540},""
 Sans,{Glitchtale},f,{21541},Glitchtale
 Undyne,{Glitchtale},f,{21542},Glitchtale
 Gaster,{Glitchtale},f,{6671},Glitchtale
@@ -26169,6 +26144,7 @@ Huck,"{`"Mark Millar`"}",f,{21547},Image Comics
 Huck,"{`"Image Comics`"}",f,{21547},Image Comics
 Huck,"{`"Huck ?\\(Huck`"}",f,{21547},Image Comics
 Darkseid,{Snyder(verse)?},f,{21546},DCEU
+The Last Unicorn,{Beagle},t,{6175},""
 Flash,"{`"DC Cinematic Universe`"}",f,{21548},DCEU
 Flash,{DCCU},f,{21548},DCEU
 Doctor Octopus,"{`"Marvel Cinematic Universe`"}",f,{299},MCU
@@ -27304,7 +27280,6 @@ Anya Forger,"{`"Spy x Family`"}",t,{22142},Spy x Family
 Bond Forger,"{`"Spy x Family`"}",t,{22143},Spy x Family
 Bond,"{`"Spy x Family`"}",f,{22143},Spy x Family
 Loid Forger,"{`"Spy x Family`"}",t,{22144},Spy x Family
-Loid,"{`"Spy x Family`"}",f,{22144},Spy x Family
 Pikkon,"{`"Dragon ?Ball`"}",t,{22145},Dragon Ball
 Pikkon,{DB(Z|S)?},t,{22145},Dragon Ball
 Spinosaurus,"{`"Jurassic Park 3 in One Minute`"}",f,{22146},Jurassic Park 3 in One Minute
@@ -27525,11 +27500,6 @@ Vaccine Man,{OPM},t,{22271},One Punch Man
 Light Turner,"{`"Death Note`"}",t,{22272},Netflix's Death Note
 L,"{`"Netflix.*Death Note`"}",f,{22273},Netflix's Death Note
 Blackfire,"{`"\\(Teen Titans\\)`"}",f,{22274},Teen Titans
-Lu Bu,"{`"Records? of Ragnarok`"}",f,{4540},Shuumatsu no Valkyrie
-Poseidon,"{`"Records? of Ragnarok`"}",f,{4541},Shuumatsu no Valkyrie
-Sasaki Kojirō,"{`"Records? of Ragnarok`"}",f,{4542},Shuumatsu no Valkyrie
-Zeus,"{`"Records? of Ragnarok`"}",f,{4544},Shuumatsu no Valkyrie
-Sasaki,"{`"Records? of Ragnarok`"}",f,{4542},Shuumatsu no Valkyrie
 Megaman,"{`"Battle Network`"}",f,{4854},MegaMan NT Warrior
 Adam,"{`"Adam ?\\(ROR`"}",f,{4539},Shuumatsu no Valkyrie
 Hyperion,{Superman},f,"{2163,2164,2165,2166}",Marvel
@@ -27552,8 +27522,13 @@ Kamala Khan,{MCU},f,{22285},MCU
 Superhot,"{`"hot(-| )switch(ing)?`"}",f,{5732},""
 Superhot,"{`"vs\\.? Super ?hot`"}",f,{5732},""
 Superhot,"{`"\\(Super ?hot`"}",f,{5732},""
+Lu Bu,"{`"Records? of Ragnar?ok`"}",f,{4540},Shuumatsu no Valkyrie
 Thor,"{`"Nor(se|dic) Mythology`"}",f,{23298},Norse Mythology
-Thor,"{`"Records? of Ragnarok`"}",f,{4543},Shuumatsu no Valkyrie
+Poseidon,"{`"Records? of Ragnar?ok`"}",f,{4541},Shuumatsu no Valkyrie
+Sasaki Kojirō,"{`"Records? of Ragnar?ok`"}",f,{4542},Shuumatsu no Valkyrie
+Zeus,"{`"Records? of Ragnar?ok`"}",f,{4544},Shuumatsu no Valkyrie
+Sasaki,"{`"Records? of Ragnar?ok`"}",f,{4542},Shuumatsu no Valkyrie
+Thor,"{`"Records? of Ragnar?ok`"}",f,{4543},Shuumatsu no Valkyrie
 Aizawa,"{`"Squid Girl`"}",f,{},Squid Girl
 Wanda,"{`"Multiverse of Madness`"}",f,{270},MCU
 Thanos,"{`"Multiverse of Madness`"}",f,{263},MCU
@@ -28832,8 +28807,6 @@ Ginny,{Weasley},f,{20983},Harry Potter
 Ginny,{Harry},f,{20983},Harry Potter
 Ginny,{Ron},f,{20983},Harry Potter
 Ginny,{Hermione},f,{20983},Harry Potter
-Leo Valdez,"{`"Heroes of Olympus`"}",t,{7416},Heroes of Olympus
-Leo Valdez,"{`"Riordan(-| )?(verse)?`"}",t,{7416},Heroes of Olympus
 Robotnik,"{`"Sonic Movies?`"}",f,{8608},Sonic Movies
 Eggman,"{`"Sonic Movies?`"}",f,{8608},Sonic Movies
 Jacco,"{`"Dragon ?Ball`"}",f,{3296},Dragon Ball
@@ -29269,8 +29242,6 @@ Ranrok,"{`"Hogwarts Legacy`"}",f,{23419},Hogwarts Legacy
 Rev-9,{Terminator},t,{23420},Terminator
 Rev-9,"{`"Dark Fate`"}",t,{23420},Terminator
 Splinter,{Mirage},f,{23421},Mirage Comics
-Lityerses,"{`"Heroe?s of Olympus`"}",t,{23422},Heroes of Olympus
-Lityerses,"{`"Riordan(-| )?(verse)?`"}",t,{23422},Heroes of Olympus
 Shimada Death,"{`"Dai Dark`"}",t,{23423},Dai Dark
 Goddard,"{`"Jimmy Neutron`"}",f,{23424},Jimmy Neutron
 N-Men,"{`"Jimmy Neutron`"}",t,{23425},Jimmy Neutron
@@ -29636,7 +29607,6 @@ Escapade,"{`"Escapade ?\\(616`"}",f,{23652},616
 Escapade,"{Shela,Sexton}",f,{23652},616
 Kroc,"{`"Tiny Titans`"}",f,{23653},Tiny Titans
 Easter Ripper,"{`"Murder House`"}",t,{23654},Murder House
-Percy Jackson,"{`"Riordan(-| )?(verse)?`"}",t,"{5905,23655,23656}",Heroes of Olympus
 War Widow,{616},f,{23657},616
 Cid Kagenou,"{`"Eminence in Shadow`"}",t,"{23658,23659,23660}",The Eminence in Shadow
 Sonic,"{`"Sonic the Comic`"}",f,{23661},Sonic the Comic
@@ -29653,6 +29623,7 @@ St. John family,"{`"Wa(lk|kl)ing Dead`"}",f,{23668},The Walking Dead
 Deebo,{Friday},f,{23669},Friday
 Thundersaurus Megazord,"{`"Power Rangers?`"}",t,{23670},Power Rangers
 Rokash Rampersad,{Ordeal},t,{23671},Ordeal
+Percy Jackson,"{`"Riordan(-| )?(verse)?`"}",t,"{5905,23655,23656}",Percy Jackson
 Sentry,{void},f,"{23674,1998}",616
 Sentry,"{`"Death Seed`"}",f,"{23674,1998}",616
 Absalom,"{`"One ?Piece?`"}",f,{23675},One Piece
@@ -30142,3 +30113,68 @@ Michiru Kagemori,{(M|BN?)HA},t,{23972},My Hero Academia
 Michiru Kagemori,"{`"Boku no Hero`"}",t,{23972},My Hero Academia
 Wanze,"{`"One ?Piece?`"}",f,{23973},One Piece
 Kipo Oak,"{`"Kipo and the Age of Wonderbeasts`"}",t,{23974},Kipo and the Age of Wonderbeasts
+Loid,"{`"Spy x Family`"}",f,{22144},Spy x Family
+Piper McLean,"{`"Heroes of Olympus`"}",t,{7419},Percy Jackson
+Piper McLean,"{`"Riordan(-| )?(verse)?`"}",t,{7419},Percy Jackson
+Tyson,{Percy},f,{8570},Percy Jackson
+Thalia,"{`"Riordan(-| )?(verse)?`"}",t,{8604},Percy Jackson
+Thalia,{Percy},t,{8604},Percy Jackson
+Thalia Grace,"{`"Heroes of Olympus`"}",t,{8604},Percy Jackson
+Thalia Grace,"{`"Riordan(-| )?(verse)?`"}",t,{8604},Percy Jackson
+Thalia Grace,{Percy},t,{8604},Percy Jackson
+Jason Grace,"{`"Heroes of Olympus`"}",t,{14878},Percy Jackson
+Jason Grace,"{`"Riordan(-| )?(verse)?`"}",t,{14878},Percy Jackson
+Jason,"{`"Heroes of Olympus`"}",f,{14878},Percy Jackson
+Jason,"{`"Riordan(-| )?(verse)?`"}",f,{14878},Percy Jackson
+Jason,{Percy},f,{14878},Percy Jackson
+Nico,"{`"Heroe?s of Olympus`"}",f,{5904},Percy Jackson
+Nico,"{`"Riordan(-| )?(verse)?`"}",f,{5904},Percy Jackson
+Nico Di Angelo,{Percy},t,{5904},Percy Jackson
+Nico Di Angelo,"{`"Heroe?s of Olympus`"}",t,{5904},Percy Jackson
+Nico Di Angelo,"{`"Riordan(-| )?(verse)?`"}",t,{5904},Percy Jackson
+Hazel Levesque,"{`"Heroe?s of Olympus`"}",f,{15914},Percy Jackson
+Hazel Levesque,"{`"Riordan(-| )?(verse)?`"}",f,{15914},Percy Jackson
+Annabeth,"{`"Riordan(-| )?(verse)?`"}",f,{20586},Percy Jackson
+Zeus,"{`"Percy Jackson`"}",f,{21410},Percy Jackson
+Zeus,"{`"Heroe?s of Olympus`"}",f,{21410},Percy Jackson
+Zeus,"{`"Riordan(-| )?(verse)?`"}",f,{21410},Percy Jackson
+Leo Valdez,"{`"Heroes of Olympus`"}",t,{7416},Percy Jackson
+Leo Valdez,"{`"Riordan(-| )?(verse)?`"}",t,{7416},Percy Jackson
+Lityerses,"{`"Heroe?s of Olympus`"}",t,{23422},Percy Jackson
+Lityerses,"{`"Riordan(-| )?(verse)?`"}",t,{23422},Percy Jackson
+Insomniac Spider-Man,{1048},t,{15258},""
+Hancock,"{`"vs Hancock`"}",f,{457},""
+Akko,"{`"Chamber of Time`"}",f,{23975},Little Witch Academia: Chamber of Time
+Rooper Nitani,"{`"S(tar )?Wars`"}",t,{23976},Star Wars
+Gundarks,"{`"S(tar )?Wars`"}",t,{23977},Star Wars
+Keeve Trennis,"{`"S(tar )?Wars`"}",t,{23978},Star Wars
+Kurumi,"{`"Date A Live`"}",f,{23979},Date A Live
+Kurumi,{Tokisaki},f,{23979},Date A Live
+Chōji,{Naruto},f,{23980},Naruto
+Chōji,{Akimichi},f,{23980},Naruto
+Chōji,{Konoha},f,{23980},Naruto
+Suburb Slasher,{SCP},t,{23981},SCP
+SCP-5733-1,"{`"SCP Foundation`"}",t,{23981},""
+SCP-6733-1,"{`"SCP Foundation`"}",t,{23981},""
+Clauncher,{Pok(e|é)m(o|a)n},t,{23982},Pokémon
+Cujo,"{`"Cujo ?\\(Cujo\\)`"}",f,{23983},""
+Cujo,"{`"Stephen Kings?`"}",f,{23983},""
+Cujo,{movie},f,{23983},""
+Cujo,{Dogs?},f,{23983},""
+Cujo,"{`"Cujo vs`"}",f,{23983},""
+Cujo,"{`"Pit ?bulls?`"}",f,{23983},""
+Cujo,"{`"Jason Voorhees`"}",f,{23983},""
+Cujo,"{`"Gr(e|a)y Wolf`"}",f,{23983},""
+Tari,"{`"Meta Runner`"}",f,{23984},Meta Runner
+Meg McCaffrey,"{`"Percy Jackson`"}",t,{23985},Percy Jackson
+Meg McCaffrey,"{`"Riordan(-| )?(verse)?`"}",t,{23985},Percy Jackson
+Meg McCaffrey,"{`"Trials of Apollo`"}",t,{23985},Percy Jackson
+Spider-Carnage,{Animated},f,{23986},Marvel Animated Universe
+Joker,"{`"Mortal Kombat`"}",f,{23987},Mortal Kombat
+Black Widow,"{`"vs Black Widow`",Batman}",f,{1989},616
+Diluc,{Genshin},t,{23988},Genshin Impact
+Aliens,{Pixels},f,{23989},Pixels
+Plok,"{`"Plok ?\\(Plok\\)`"}",t,{23990},""
+Snowguard,{616},t,{23991},616
+Penelope Spectra,"{`"Danny Phantom`"}",t,{23992},Danny Phantom
+Batman,"{`"Batman Unlimited`"}",f,{23993},Batman Unlimited
