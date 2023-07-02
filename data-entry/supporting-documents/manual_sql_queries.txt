@@ -31,6 +31,8 @@ UPDATE character SET is_default=FALSE WHERE default_name='Stitch';
 
 ########################################
 
+UPDATE character SET version='{"Records? of Ragnar?ok"}' WHERE version='{"Records? of Ragnarok"}';
+
 ########################################
 
 ########################################

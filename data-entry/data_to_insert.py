@@ -114,6 +114,9 @@ update_respectthread(cur, 21540, 'Respect Amalthea: The Last Unicorn', 'https://
 update_respectthread(cur, 91, 'Respect Sportacus! (LazyTown)', 'https://redd.it/14m5cuz')
 update_respectthread(cur, 90, 'Respect Robbie Rotten! (LazyTown)', 'https://redd.it/9akbw5')
 update_respectthread(cur, 1599, 'Respect Mick Rory, Heat Wave! (DC Comics, Pre-Flashpoint)', 'https://redd.it/14n1knb')
+update_respectthread(cur, 866, 'Respect Mojo Jojo! (Powerpuff Girls)', 'https://redd.it/14ogs0y')
+update_respectthread(cur, 4204, 'Respect Arceus (Pokemon Anime)', 'https://redd.it/14oi2sn')
+update_respectthread(cur, 3415, 'Respect Alex Louis Armstrong (Fullmetal Alchemist 2003)', 'https://redd.it/14oic8d')
 
 ########################################
 
@@ -172,6 +175,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/14jxxd6/respect_rooper_nitani_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gundarks (Star Wars) (Canon)', 'https://redd.it/14onjft')
+add_data(['Gundarks'],
+'Gundarks',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14onjft/respect_gundarks_star_wars_canon/
 
 ########################################
 
