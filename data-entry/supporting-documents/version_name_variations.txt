@@ -3056,6 +3056,12 @@ Skulduggery Pleasant
 	Displayed Version Name
 		"Skulduggery Pleasant"
 
+Skullgirls
+	Version
+		['Skull ?girls(verse)?']
+	Displayed Version Name
+		"Skullgirls"
+
 Smallville
 	Version
 		['Smallville']

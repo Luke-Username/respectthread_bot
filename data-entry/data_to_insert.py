@@ -107,6 +107,179 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4427, 'Respect Mami Tomoe! (Puella Magi Madoka Magica)', 'https://redd.it/14pvn6n')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Reed Richards (Marvel, 616)', 'https://redd.it/b73oq7')
+add_data(['Reed Richards'],
+'Reed Richards',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/iridescence_stuff/comments/b73oq7/respect_reed_richards_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect You (What Gun for Home Protection Would Be a Very Bad Idea?)', 'https://redd.it/14pahrb')
+add_data(['You'],
+'You',
+False,
+False,
+[
+    ['What Gun for Home Protection Would Be a Very Bad Idea']
+],
+'What Gun for Home Protection Would Be a Very Bad Idea?',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14pahrb/respect_you_what_gun_for_home_protection_would_be/
+
+add_data(['\.950 JDJ'],
+'.950 JDJ',
+False,
+True,
+[
+    ['What Gun for Home Protection Would Be a Very Bad Idea'], ['Fat Mac']
+],
+'What Gun for Home Protection Would Be a Very Bad Idea?',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14pahrb/respect_you_what_gun_for_home_protection_would_be/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Freedom and the Unbreakables (Ex-Heroes)', 'https://redd.it/14prjfe')
+add_data(['Captain Freedom'],
+'Captain Freedom',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14prjfe/respect_captain_freedom_and_the_unbreakables/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Driver (Ex-Heroes)', 'https://redd.it/14px99o')
+add_data(['The Driver'],
+'The Driver',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14px99o/respect_the_driver_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Agent Smith (Ex-Heroes)', 'https://redd.it/14pu714')
+add_data(['Agent Smith'],
+'Agent Smith',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14pu714/respect_agent_smith_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Annie (Skullgirls)', 'https://redd.it/14prjka')
+add_data(['Annie'],
+'Annie',
+False,
+False,
+[
+    ['Skull ?girls(verse)?']
+],
+'Skullgirls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14prjka/respect_annie_skullgirls/
+
+########################################
+
+id = get_rt_id(cur, "Respect Tigger (Disney''s Winnie the Pooh)", 'https://redd.it/14pzqy3')
+add_data(['Tigger'],
+'Tigger',
+False,
+True,
+[
+    ['Winnie(-| )the(-| )Pooh']
+],
+'Winnie-the-Pooh',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14pzqy3/respect_tigger_disneys_winnie_the_pooh/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bandit Keith (Yu-Gi-Oh! Anime)', 'https://redd.it/14q73sy')
+add_data(['Bandit Keith'],
+'Bandit Keith',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14q73sy/respect_bandit_keith_yugioh_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ben Willis, the Fisherman (I Know What You Did Last Summer)', 'https://redd.it/14qg73v')
+add_data(['Ben Willis'],
+'Ben Willis',
+False,
+True,
+[
+    ['I Know What You Did Last Summer']
+],
+'I Know What You Did Last Summer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14qg73v/respect_ben_willis_the_fisherman_i_know_what_you/
+
+add_data(['Fisher ?man'],
+'Fisherman',
+False,
+False,
+[
+    ['I Know What You Did Last Summer']
+],
+'I Know What You Did Last Summer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14qg73v/respect_ben_willis_the_fisherman_i_know_what_you/
+
+add_data(['I Know What You Did Last Summer'],
+'I Know What You Did Last Summer',
+False,
+True,
+[
+    ['Fisher ?man']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14qg73v/respect_ben_willis_the_fisherman_i_know_what_you/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
