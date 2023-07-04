@@ -339,6 +339,23 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect \"Captain America\" (Avengers: Earth''s Mightiest Heroes)", 'https://redd.it/14qlwjb')
+add_data(['Captain America Skrull'],
+'Captain America Skrull',
+False,
+True,
+[
+    ['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH'],
+	["Earth''?s? Mightiest Heroes", 'Disney'],
+    ['EMH']
+],
+"Earth''s Mightiest Heroes",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14qlwjb/respect_captain_america_avengers_earths_mightiest/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
