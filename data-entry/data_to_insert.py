@@ -282,6 +282,63 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect General Wade Eiling (DC Animated Universe)', 'https://redd.it/14qhsrq')
+add_data(['General Wade Eiling'],
+'General Wade Eiling',
+False,
+False,
+[
+    ['DC Animated Universe'], ['DCAU'], ['Timmverse']
+],
+'DCAU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14qhsrq/respect_general_wade_eiling_dc_animated_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Abraham Lincoln (Batman The Brave and Bold)', 'https://redd.it/14qhxkt')
+add_data(['Abraham Lincoln'],
+'Abraham Lincoln',
+False,
+False,
+[
+    ['Brave (and|&) the Bold']
+],
+'The Brave and the Bold',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14qhxkt/respect_abraham_lincoln_batman_the_brave_and_bold/
+
+########################################
+
+id = get_rt_id(cur, 'Respect General Glory (DC Comics Pre-Flashpoint)', 'https://redd.it/14qi22i')
+add_data(['General Glory'],
+'General Glory',
+False,
+False,
+[
+    ['Pre(-| )?Flashpoint']
+],
+'Pre-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14qi22i/respect_general_glory_dc_comics_preflashpoint/
+
+add_data(['General Glory'],
+'General Glory',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14qi22i/respect_general_glory_dc_comics_preflashpoint/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
