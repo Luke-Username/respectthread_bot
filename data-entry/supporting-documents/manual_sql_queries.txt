@@ -27,7 +27,11 @@ UPDATE character SET version='{"Jojos?(verse)?"}' WHERE version='{"Jojo"}';
 
 ########################################
 
+UPDATE character SET version='{"\\(Evolve\\)"}' WHERE default_name='Behemoth' AND version='{"Evolve"}';
+
 ########################################
+
+UPDATE character_name SET name='Extremis (Soldiers?|Henchmen|Guys)' WHERE name='Extremis (Soldiers?|Henchmen)';
 
 ########################################
 

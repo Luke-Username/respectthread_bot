@@ -111,6 +111,49 @@ update_respectthread(cur, 4427, 'Respect Mami Tomoe! (Puella Magi Madoka Magica)
 
 ########################################
 
+add_data(['The Culture'],
+'The Culture',
+False,
+False,
+[
+    ['The Culture ?\((The )?Culture']
+],
+'',
+'{22640}'
+)
+#
+
+########################################
+
+add_data(['Killian'],
+'Killian',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{252}'
+)
+#https://www.reddit.com/r/respectthreads/comments/64dr6d/respect_aldrich_killian_the_mandarin_marvel/
+#https://www.reddit.com/r/whowouldwin/comments/14r8xyw/spiderman_fights_all_of_iron_mans_villains_who/jqqxr6n/?context=3
+
+########################################
+
+add_data(['Leonidas'],
+'Leonidas',
+False,
+False,
+[
+    ['300']
+],
+'300',
+'{16826}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/14qye8z/leonidas_vs_achilles/jqpnju2/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Reed Richards (Marvel, 616)', 'https://redd.it/b73oq7')
 add_data(['Reed Richards'],
 'Reed Richards',
