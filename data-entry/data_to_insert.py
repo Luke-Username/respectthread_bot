@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 4427, 'Respect Mami Tomoe! (Puella Magi Madoka Magica)', 'https://redd.it/14pvn6n')
+update_respectthread(cur, 5711, 'Respect Marie (Skullgirls)', 'https://redd.it/14rallx')
 
 ########################################
 
@@ -396,6 +397,111 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/14qlwjb/respect_captain_america_avengers_earths_mightiest/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dobby (Harry Potter films)', 'https://redd.it/14qt64m')
+add_data(['Dobby'],
+'Dobby',
+False,
+True,
+[
+    ['Harry Potter']
+],
+'Harry Potter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14qt64m/respect_dobby_harry_potter_films/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Nemesis (Dead by Daylight)', 'https://redd.it/14qx4tw')
+add_data(['Nemesis'],
+'Nemesis',
+False,
+True,
+[
+    ['Dead by Daylight'], ['DBD']
+],
+'Dead by Daylight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14qx4tw/respect_the_nemesis_dead_by_daylight/
+
+########################################
+
+id = get_rt_id(cur, 'Respect RJ, the Jungle Fury Wolf Ranger! (Power Rangers Jungle Fury)', 'https://redd.it/14r3cmp')
+add_data(['RJ'],
+'RJ',
+False,
+False,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14r3cmp/respect_rj_the_jungle_fury_wolf_ranger_power/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Flash Thompson, Captain Spider (Marvel, Earth-78127)', 'https://redd.it/14rf3fa')
+add_data(['Captain Spider'],
+'Captain Spider',
+False,
+False,
+[
+    ['78127']
+],
+'78127',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14rf3fa/respect_flash_thompson_captain_spider_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Flash Thompson, The Spider (Marvel, Earth-958)', 'https://redd.it/14rf4ap')
+add_data(['The Spider'],
+'The Spider',
+False,
+False,
+[
+    ['958']
+],
+'958',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14rf4ap/respect_flash_thompson_the_spider_marvel_earth958/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Flash Thompson, Spider-Man (Marvel, Earth-18139)', 'https://redd.it/14rf5bn')
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['18139']
+],
+'18139',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14rf5bn/respect_flash_thompson_spiderman_marvel_earth18139/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cicada I and Cicada II (Arrowverse)', 'https://redd.it/14rnitg')
+add_data(['Cicada'],
+'Cicada',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+],
+'CW Arrowverse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14rnitg/respect_cicada_i_and_cicada_ii_arrowverse/
 
 ########################################
 

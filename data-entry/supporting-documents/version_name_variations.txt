@@ -1374,7 +1374,7 @@ Harley Quinn (animated series)
 
 Harry Potter
 	Version
-		'{"Harry Potter"}'
+		['Harry Potter']
 	Acronyms
 		'{"HP"}'
 	If name == "Harry"
