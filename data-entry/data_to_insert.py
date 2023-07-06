@@ -109,6 +109,10 @@ cur = con.cursor()
 
 update_respectthread(cur, 4427, 'Respect Mami Tomoe! (Puella Magi Madoka Magica)', 'https://redd.it/14pvn6n')
 update_respectthread(cur, 5711, 'Respect Marie (Skullgirls)', 'https://redd.it/14rallx')
+update_respectthread(cur, 3619, "Respect Funny Valentine (Jojo''s Bizarre Adventure)", 'https://redd.it/14rxmht')
+update_respectthread(cur, 14829, 'Respect Dodoria (Dragon Ball Manga)', 'https://redd.it/14ry75w')
+update_respectthread(cur, 4228, 'Respect Raikou (Pokémon: The Legend of Thunder)', 'https://redd.it/14rycn3')
+update_respectthread(cur, 1605, 'Respect Mark Mardon, Weather Wizard! (DC Comics, Pre-Flashpoint)', 'https://redd.it/14sa3zt')
 
 ########################################
 
