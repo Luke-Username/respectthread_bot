@@ -14,6 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET version='{"Super Mario Bro(ther)?s\\.? Super Show"}' WHERE version='{"Super Mario Brothers Super Show"}';
+
 ########################################
 
 ########################################

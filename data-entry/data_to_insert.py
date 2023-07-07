@@ -107,6 +107,37 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 14828, 'Respect Zarbon (Dragon Ball Manga)', 'https://redd.it/14svv0x')
+
+########################################
+
+add_data(['Rudeus'],
+'Rudeus',
+False,
+False,
+[
+    ['Mushoku Tensei'], ['Jobless Reincarnation']
+],
+'Jobless Reincarnation',
+'{5853}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/14svo5g/rudeus_vs_gabimaru/jqzcuoc/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Turbo Megazord (Power Rangers Turbo)', 'https://redd.it/14snlhc')
+add_data(['Turbo Megazord'],
+'Turbo Megazord',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14snlhc/respect_the_turbo_megazord_power_rangers_turbo/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
