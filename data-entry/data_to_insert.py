@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 14828, 'Respect Zarbon (Dragon Ball Manga)', 'https://redd.it/14svv0x')
+update_respectthread(cur, 20476, 'Respect Jarrod/Dai Shi [Power Rangers Jungle Fury]', 'https://redd.it/14tfe2j')
 
 ########################################
 
@@ -137,6 +138,36 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/14snlhc/respect_the_turbo_megazord_power_rangers_turbo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mag Agent: Torture! (Madness Combat)', 'https://redd.it/14t8r01')
+add_data(['Mag Agent:? Torture'],
+'Mag Agent: Torture',
+False,
+True,
+[
+    ['Madness Combat']
+],
+'Madness Combat',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14t8r01/respect_mag_agent_torture_madness_combat/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mystery Inc. (Brian Levant films)', 'https://redd.it/14t90f9')
+add_data(['Mystery Inc(orporated)?'],
+'Mystery Inc.',
+False,
+False,
+[
+    ['Brian Levant']
+],
+'Brian Levant',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14t90f9/respect_mystery_inc_brian_levant_films/
 
 ########################################
 

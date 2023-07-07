@@ -15,8 +15,11 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 UPDATE character SET version='{"Super Mario Bro(ther)?s\\.? Super Show"}' WHERE version='{"Super Mario Brothers Super Show"}';
+UPDATE character SET version='{"\\(Teen Titans?( (series|cartoon))?\\)"}' WHERE version='{"\\(Teen Titans?\\)"}';
 
 ########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='Dobby';
 
 ########################################
 
