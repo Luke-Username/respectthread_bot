@@ -12004,7 +12004,6 @@ Monkey King,Monkey King,f
 Revenant,Revenant,f
 Cup ?head,Cuphead,f
 Yorihime,Yorihime,f
-Extremis (Soldiers?|Henchmen),Extremis Soldiers,f
 Izuku,Izuku,f
 Radiant Black,Radiant Black,f
 Janey Belle,Janey Belle,f
@@ -12079,6 +12078,7 @@ Dude,Dude,f
 Blue Shirt Guy,Blue Shirt Guy,f
 Xing Tian,Xing Tian,f
 Ming,Ming,f
+Extremis (Soldiers?|Henchmen|Guys),Extremis Soldiers,f
 Red Panda Spirit,Red Panda Spirit,f
 SCP ?(-| )? ?<4051,SCP-4051,f
 Kro,Kro,f
@@ -13811,3 +13811,21 @@ Diluc,Diluc,f
 Plok,Plok,f
 Snowguard,Snowguard,f
 Penelope Spectra,Penelope Spectra,f
+Killian,Killian,f
+You,You,f
+\\.950 JDJ,.950 JDJ,f
+Captain Freedom,Captain Freedom,f
+The Driver,The Driver,f
+Annie,Annie,f
+Tigger,Tigger,f
+Bandit Keith,Bandit Keith,f
+Ben Willis,Ben Willis,f
+Fisher ?man,Fisherman,f
+I Know What You Did Last Summer,I Know What You Did Last Summer,f
+General Wade Eiling,General Wade Eiling,f
+General Glory,General Glory,f
+Captain America Skrull,Captain America Skrull,f
+Dobby,Dobby,f
+RJ,RJ,f
+Captain Spider,Captain Spider,f
+Cicada,Cicada,f

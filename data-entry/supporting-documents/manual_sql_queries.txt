@@ -14,24 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Wolverines' AND version='{"FOX"}';
-DELETE FROM character WHERE default_name='Wolverine' AND version='{"FOX"}';
+########################################
 
 ########################################
 
-UPDATE character SET is_default=TRUE WHERE rt_id_array='{21630}';
-
 ########################################
 
-UPDATE character SET version='{"Jojos?(verse)?"}' WHERE version='{"Jojo"}';
-
 ########################################
-
-UPDATE character SET version='{"\\(Evolve\\)"}' WHERE default_name='Behemoth' AND version='{"Evolve"}';
-
-########################################
-
-UPDATE character_name SET name='Extremis (Soldiers?|Henchmen|Guys)' WHERE name='Extremis (Soldiers?|Henchmen)';
 
 ########################################
 

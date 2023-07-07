@@ -756,7 +756,6 @@ Victor Creed,"{`"X-Men films`"}",f,{157},FOX
 Victor Creed,{Foxverse},f,{157},FOX
 Wolverine,"{`"X-Men Cinematic Universe`"}",f,{158},FOX
 Wolverine,{XCU},f,{158},FOX
-Wolverine,{FOX},f,{158},FOX
 Wolverine,"{`"X-Men films`"}",f,{158},FOX
 Wolverine,{Foxverse},f,{158},FOX
 Deadpool,{Foxverse},f,{143},FOX
@@ -7077,9 +7076,7 @@ Modred,"{`"Modred The Mystic`"}",f,{2201},616
 Satana,{616},t,{2202},616
 Satana,{Marvel},t,{2202},616
 Satana,{comics?},t,{2202},616
-Satana,{Jojo},f,{3544},Jojo's Bizarre Adventure
 Satana,{JJBA},f,{3544},Jojo's Bizarre Adventure
-Wired Beck,{Jojo},t,{10829},Jojo's Bizarre Adventure
 Wired Beck,{JJBA},t,{10829},Jojo's Bizarre Adventure
 Dracula,"{`"Dracula ?\\(616`"}",f,{2205},616
 Dracula,"{`"Dracula \\[616`"}",f,{2205},616
@@ -7090,6 +7087,8 @@ Vishanti,{Marvel},t,{},616
 Blade,"{`"Blade ?\\(616`"}",f,{2204},616
 Blade,"{`"Blade ?\\(Marvel`"}",f,{2204},616
 Vishanti,{comics?},t,{},616
+Satana,{Jojos?(verse)?},f,{3544},Jojo's Bizarre Adventure
+Wired Beck,{Jojos?(verse)?},t,{10829},Jojo's Bizarre Adventure
 Killer Croc,"{`"\\(Arkham\\)`"}",f,"{5533,6381}",Batman: Arkham
 Willow Rosenberg,"{`"\\(Buffy\\)`"}",t,{7490},Buffy the Vampire Slayer
 Dan,"{`"\\(Dan vs\\)`"}",f,{1037},(Dan Vs.)
@@ -7195,17 +7194,13 @@ Janna,{LOL},t,{8135},League of Legends
 Saiki Kusuo,"{`"Saiki K`"}",t,{4732},The Disastrous Life of Saiki K.
 Dio Brando,{OVA},f,{8136},JJBA OVA
 Jotaro Kujo,{OVA},f,{8137},JJBA OVA
-Josuke Higashikata,{Jojo},t,{3577},Jojo's Bizarre Adventure
 Josuke Higashikata,{JJBA},t,{3577},Jojo's Bizarre Adventure
-Josuke,{Jojo},f,{3577},Jojo's Bizarre Adventure
 Josuke,{JJBA},f,{3577},Jojo's Bizarre Adventure
 Josuke,"{`"Diamond is Unbreakable`"}",f,{3577},Jojo's Bizarre Adventure
 Josuke,"{`"Part 4`"}",f,{3577},Jojo's Bizarre Adventure
 Eren Yeager,{SnK},t,{3055},Attack on Titan
 Blackmore,{JJBA},f,{3617},Jojo's Bizarre Adventure
-Ratt,{Jojo},f,{8138},Jojo's Bizarre Adventure
 Ratt,{JJBA},f,{8138},Jojo's Bizarre Adventure
-Gwess,{Jojo},t,{8139},Jojo's Bizarre Adventure
 Gwess,{JJBA},t,{8139},Jojo's Bizarre Adventure
 Gaoh Ryuki,{Kengan(verse)?},t,{8140},Kengan Asura
 Erioh Kure,{Kengan(verse)?},t,{8141},Kengan Asura
@@ -9427,7 +9422,6 @@ Silver Karasu,"{`"Ninja Slayer`"}",t,{3987},Ninja Slayer
 Superdemon,{DC},t,{8544},Earth 13
 Superdemon,"{`"Earth 13`"}",t,{8544},Earth 13
 David Shimizu,"{`"Sword Interval`"}",t,{8545},Sword Interval
-Hato Higashikata,{Jojo},t,{8546},Jojo's Bizarre Adventure
 Hato Higashikata,{JJBA},t,{8546},Jojo's Bizarre Adventure
 Mario,"{`"Super Mario Brothers Super Show`"}",f,{8547},Super Mario Brothers Super Show!
 Thunderer,{DC},f,{8548},Earth 7
@@ -9491,6 +9485,7 @@ Miranda,{MEffect},f,{8565},Mass Effect
 Miranda Lawson,"{`"Mass Effect`"}",t,{8565},Mass Effect
 Miranda Lawson,{MEffect},t,{8565},Mass Effect
 Bast,"{`"Kane Chronicles`"}",f,{8566},The Kane Chronicles
+Hato Higashikata,{Jojos?(verse)?},t,{8546},Jojo's Bizarre Adventure
 Zia Rashid,"{`"Kane Chronicles`"}",t,{8567},The Kane Chronicles
 Zia,"{`"Kane Chronicles`"}",f,{8567},The Kane Chronicles
 Bes,"{`"Kane Chronicles`"}",f,{8568},The Kane Chronicles
@@ -9946,7 +9941,6 @@ Jodie,"{`"Millar(-| )?(verse|world)`"}",f,{2594},Millarverse
 Jodie,"{`"American Jesus`"}",f,{2594},Millarverse
 Hit-Girl,"{`"Kick(-| )?Ass`"}",t,{2595},Kick-Ass
 Hit-Girl,"{`"Millar(-| )?(verse|world)`"}",t,{2595},Kick-Ass
-Nemesis,"{`"Millar(-| )?(verse|world)?`"}",f,{2596},Millarverse
 Black Dragon,"{`"Power Rangers?`"}",f,{2597},Power Rangers
 Black Dragon,"{`"BOOM!? Studios?`"}",f,{2597},Power Rangers
 Gravezord,"{`"Power Rangers?`"}",t,{12050},Power Rangers
@@ -13014,40 +13008,26 @@ Tarkus,{Jojos?(verse)?},f,{3531},Jojo's Bizarre Adventure
 Tarkus,{JJBA},f,{3531},Jojo's Bizarre Adventure
 Dio Brando,{Jojos?(verse)?},t,{3532},Jojo's Bizarre Adventure
 Dio Brando,{JJBA},t,{3532},Jojo's Bizarre Adventure
-Dio,{Jojo},t,{3532},Jojo's Bizarre Adventure
 Dio,{JJBA},t,{3532},Jojo's Bizarre Adventure
 Dio,"{`"The World`"}",t,{3532},Jojo's Bizarre Adventure
 Dio,"{`"Part \\d`"}",t,{3532},Jojo's Bizarre Adventure
-Jonathan Joestar,{Jojo},t,{3533},Jojo's Bizarre Adventure
 Jonathan Joestar,{JJBA},t,{3533},Jojo's Bizarre Adventure
-Jonathan,{Jojo},f,{3533},Jojo's Bizarre Adventure
 Jonathan,{JJBA},f,{3533},Jojo's Bizarre Adventure
-Speedwagon,{Jojo},t,{3534},Jojo's Bizarre Adventure
 Speedwagon,{JJBA},t,{3534},Jojo's Bizarre Adventure
-Straizo,{Jojo},t,{3535},Jojo's Bizarre Adventure
-Will A. Zeppeli,{Jojo},t,{3536},Jojo's Bizarre Adventure
 Will A. Zeppeli,{JJBA},t,{3536},Jojo's Bizarre Adventure
-Caesar Zeppeli,{Jojo},t,{3537},Jojo's Bizarre Adventure
 Caesar Zeppeli,{JJBA},t,{3537},Jojo's Bizarre Adventure
-Esidisi,{Jojo},t,{3538},Jojo's Bizarre Adventure
 Esidisi,{JJBA},t,{3538},Jojo's Bizarre Adventure
-Joseph Joestar,{Jojo},t,{3540},Jojo's Bizarre Adventure
 Joseph Joestar,{JJBA},t,{3540},Jojo's Bizarre Adventure
-Joseph,{Jojo},f,{3540},Jojo's Bizarre Adventure
 Joseph,{JJBA},f,{3540},Jojo's Bizarre Adventure
 Joseph,"{`"Battle Tendency`"}",f,{3540},Jojo's Bizarre Adventure
 Joseph,"{`"Stardust Crusaders`"}",f,{3540},Jojo's Bizarre Adventure
 Joseph,{Hamon},f,{3540},Jojo's Bizarre Adventure
 Joseph,{Stand},f,{3540},Jojo's Bizarre Adventure
 Joseph,"{`"Hermit Purple`"}",f,{3540},Jojo's Bizarre Adventure
-Kars,{Jojo},t,{3541},Jojo's Bizarre Adventure
 Kars,{JJBA},t,{3541},Jojo's Bizarre Adventure
 Kars,{Ultimate},t,{3541},Jojo's Bizarre Adventure
-Lisa Lisa,{Jojo},t,{3542},Jojo's Bizarre Adventure
 Lisa Lisa,{JJBA},t,{3542},Jojo's Bizarre Adventure
-Rudol Von Stroheim,{Jojo},t,{3543},Jojo's Bizarre Adventure
 Rudol Von Stroheim,{JJBA},t,{3543},Jojo's Bizarre Adventure
-Stroheim,{Jojo},f,{3543},Jojo's Bizarre Adventure
 Stroheim,{JJBA},f,{3543},Jojo's Bizarre Adventure
 Stroheim,{stands?},f,{3543},Jojo's Bizarre Adventure
 Santana,{Jojos?},f,{3544},Jojo's Bizarre Adventure
@@ -13067,6 +13047,7 @@ Alessi,{JJBA},f,{3546},Jojo's Bizarre Adventure
 Alessi,{Jotaro},f,{3546},Jojo's Bizarre Adventure
 Alessi,{Dio},f,{3546},Jojo's Bizarre Adventure
 Alessi,{Stands?},f,{3546},Jojo's Bizarre Adventure
+Dio,{Jojos?(verse)?},t,{3532},Jojo's Bizarre Adventure
 Alessi,"{`"Pillar M(e|a)n`"}",f,{3546},Jojo's Bizarre Adventure
 Alessi,{Sethan},f,{3546},Jojo's Bizarre Adventure
 Anubis,{Jojos?},f,{3547},Jojo's Bizarre Adventure
@@ -15623,8 +15604,6 @@ Stapler,"{`"Origami King`"}",f,{13031},Paper Mario
 Busto 2.0,"{`"Car Boys`"}",t,{13032},Car Boys
 Grey Trace,{Upgrade},t,{13033},Upgrade
 STEM,{Upgrade},t,{13033},Upgrade
-Nemesis,"{Remake,`"Resident Evil`"}",f,{13034},Resident Evil 3 Remake
-Nemesis,"{Remake,`"RE\\d?`"}",f,{13034},Resident Evil 3 Remake
 Sunstar,"{`"Second Coming`"}",f,{13036},Second Coming
 Jesus,"{`"\\(Second Coming`",comic}",f,{13036},Second Coming
 Ahsoka Tano,"{`"Star ?Wars`"}",t,{13037},Star Wars
@@ -19368,8 +19347,6 @@ Avengers,{IW},f,"{233,247,237,264,236,244,235,270,268,242,271,256}",MCU
 Cad Bane,"{`"Star Wars`"}",t,"{922,13613}",Star Wars
 Cad Bane,"{`"Clone Wars`"}",t,"{922,13613}",Star Wars
 San,{Mononoke},f,{8414},Princess Mononoke
-Nemesis,"{`"Resident Evil`"}",f,{5373},Resident Evil
-Nemesis,"{`"RE ?\\d`"}",f,{5373},Resident Evil
 Nemesis-T Type,"{`"Resident Evil`"}",t,{5373},Resident Evil
 Nemesis-T Type,"{`"RE ?\\d`"}",t,{5373},Resident Evil
 Risky Boots,{Shantae},t,{5374},Shantae
@@ -19400,6 +19377,8 @@ X1,"{`"Star ?Wars`"}",f,{5727},Star Wars
 X1,{SWars},f,{5727},Star Wars
 Leon,{Kennedy},f,"{5372,23916}",Resident Evil
 Leon,{Chris},f,"{5372,23916}",Resident Evil
+Nemesis,"{`"Resident Evil`"}",f,{5373},Resident Evil
+Nemesis,"{`"RE ?\\d`"}",f,{5373},Resident Evil
 Star Wars Chess,{default},t,{5726},""
 Chewbacca,{chess},f,{5726},Star Wars Chess
 C-3PO,{chess},f,{5726},Star Wars Chess
@@ -19751,7 +19730,6 @@ Goliath,"{`"Meteor Goliath`"}",f,{5592},Evolve
 Kraken,{Evolve},f,{5592},Evolve
 Kraken,"{`"Elder Kraken`"}",f,{5592},Evolve
 Wraith,{Evolve},f,{5592},Evolve
-Behemoth,{Evolve},f,{5592},Evolve
 Behemoth,"{`"Glacial Behemoth`"}",f,{5592},Evolve
 Gorgon,{Evolve},f,{5592},Evolve
 Captain Falcon,"{`"F(-| )?Zero`"}",t,{5593},F-Zero
@@ -19796,6 +19774,7 @@ Dark Emperor,"{`"Find Mii`"}",f,{5595},Find Mii
 Niko Bellic,"{`"GTA(\\d|\\w+)?`"}",t,{5604},GTA
 Dio,"{`"over Heaven|Heaven'?s? Ascension`"}",f,{5618},The World Over Heaven
 Jak,{Daxter},f,{5617},Jak and Daxter
+Behemoth,"{`"\\(Evolve\\)`"}",f,{5592},Evolve
 Emir Parkreiner,"{`"Suda ?51`"}",t,{5620},Killer7
 Dan Smith,"{`"Killer ?7`"}",f,{5620},Killer7
 Dan Smith,"{`"Suda ?51`"}",f,{5620},Killer7
@@ -21355,7 +21334,6 @@ Accord,{Worm},f,{16000},Worm
 Reed Richards,"{`"Fantastic Four:? The End`"}",f,{16001},Fantastic Four: The End
 Julian Chase,"{`"gen(:|;| )?LOCK`"}",t,{16002},gen:LOCK
 Julian,"{`"gen(:|;| )?LOCK`"}",f,{16002},gen:LOCK
-Nemesis,"{`"gen(:|;| )?LOCK`"}",f,{16003},gen:LOCK
 Cammie MacCloud,"{`"gen(:|;| )?LOCK`"}",t,{16004},gen:LOCK
 Cammie,"{`"gen(:|;| )?LOCK`"}",f,{16004},gen:LOCK
 Kazu Iida,"{`"gen(:|;| )?LOCK`"}",t,{16005},gen:LOCK
@@ -21384,6 +21362,7 @@ Ryoko Ōkami,"{`"(Ō|O)o?kami(-| )san`"}",t,{16017},Ōkami-san and Her Seven Com
 Ryoshi Morino,"{`"(Ō|O)o?kami(-| )san`"}",t,{16017},Ōkami-san and Her Seven Companions
 Tarō Urashima,"{`"(Ō|O)o?kami(-| )san`"}",f,{16017},Ōkami-san and Her Seven Companions
 Burger King,{default},t,{6329},""
+Nemesis,"{`"gen(:|;| )?LOCK`"}",f,{16003},gen:LOCK
 Ace Ventura,"{`"Pet Detective`"}",t,{16018},Ace Ventura: Pet Detective
 James Bond,{Moore},f,{16019},Roger Moore
 Mr. Hinx,"{`"James Bond`"}",f,{16020},James Bond
@@ -23399,7 +23378,6 @@ Zeus,"{`"New 52 Zeus`"}",f,{17373},New 52 / Rebirth
 Zeus,"{`"Zeus ?\\( ?Rebirth`"}",f,{17373},New 52 / Rebirth
 Zeus,"{`"Rebirth Zeus`"}",f,{17373},New 52 / Rebirth
 Zeus,"{`"Zeus ?\\( ?DC`"}",f,{17373},DC
-Nemesis,"{`"We'?re Federation Hooligans`"}",f,{17374},Mobile Suit Gundam: We're Federation Hooligans!!
 Yuji Arcana,{Gundam},t,{17374},Mobile Suit Gundam: We're Federation Hooligans!!
 Yuji Arcana,"{`"We'?re Federation Hooligans`"}",t,{17374},Mobile Suit Gundam: We're Federation Hooligans!!
 Hawk Reuser,{Gundam},t,{17374},Mobile Suit Gundam: We're Federation Hooligans!!
@@ -26315,7 +26293,6 @@ Mr. Fahrenheit,"{`"Freddie Mercury`"}",f,{6428},""
 Mr. Fahrenheit,"{`"stop me Now`"}",f,{6428},""
 Sakura Kasugano,{UDON},f,{21628},UDON
 Q,"{UDON,`"Street Fighter`"}",f,{21629},UDON
-Dhalsim,{UDON},f,{21630},UDON
 Blanka,{UDON},f,{21631},UDON
 Lee,"{`"Enter the Dragon`"}",f,{21632},Enter the Dragon
 Master Wei,{Avatar},f,{21633},Avatar: TLA
@@ -27743,7 +27720,6 @@ Hirudegarn,"{`"Dragon ?Ball`"}",t,{22460},Dragon Ball
 Hirudegarn,{DB(Z|S)},t,{22460},Dragon Ball
 Superman,"{`"Superman:? The Dark Side`"}",f,{22461},Superman: The Dark Side
 Wolverines,{Hugh|Jackman},f,{158},FOX
-Wolverines,{FOX},f,{158},FOX
 Wolverines,{Foxverse},f,{158},FOX
 Wolverines,"{`"X(-| )?Men (Movie|Film)s?`"}",f,{158},FOX
 Wolverines,"{`"X-?Men Cinematic Universe`"}",f,{158},FOX
@@ -27778,9 +27754,6 @@ Kid Miracleman,"{`"Ultimates?( Marvel)? Apocalyps?e`"}",t,{17471},1610
 Protege,"{`"Prot(e|é)g(e|é) ?\\(Marvel`"}",f,{2043},Marvel
 Percival King,"{`"Epithet Erased`"}",f,{21898},Epithet Erased
 Scratch,"{`"Molly McGee`"}",f,{22533},The Ghost and Molly McGee
-Nemesis,{Samaritan},f,{22534},Samaritan
-Nemesis,"{`"Joe Smith`"}",f,{22534},Samaritan
-Nemesis,{Sylvester|Stallone},f,{22534},Samaritan
 Perturabo,{(WH)?40K},t,{22535},Warhammer 40k
 Perturabo,{Warhammer},t,{22535},Warhammer 40k
 Sphelonious Donk,{SiIva(Gunner)?},t,{22536},SiIvaGunner
@@ -27821,6 +27794,8 @@ Feral Predator,{Prey},t,{22550},Prey
 Naru,{Prey},f,{22551},Prey
 Robotnik,{Fleetway},f,{},Fleetway
 Chaos Emeralds,{Fleetway},f,{},Fleetway
+Nemesis,{Samaritan},f,{22534},Samaritan
+Nemesis,"{`"Joe Smith`"}",f,{22534},Samaritan
 Kefka,"{`"Final Fantasy`"}",t,{22552},Final Fantasy
 Kefka,{FF},t,{22552},Final Fantasy
 Kefka,"{`"FF\\d\\d?`"}",t,{22552},Final Fantasy
@@ -28391,7 +28366,6 @@ Hero Association,"{`"My Hero Academia`"}",f,{},My Hero Academia
 Hero Association,"{`"\\(My Hero\\)`"}",f,{},My Hero Academia
 Hero Association,{(M|BN?)HA},f,{},My Hero Academia
 Hero Association,"{`"Boku no Hero`"}",f,{},My Hero Academia
-Nemesis,"{`"Nemesis ?\\(RE`"}",f,{5373},Resident Evil
 Cynthia,{Pok(e|é)m(o|a)n},f,{22887},Pokémon
 Kendra Sorenson,{Fablehaven},t,{22888},Fablehaven
 Jack Hanma,{Baki(verse)?},t,{22889},Baki
@@ -28406,6 +28380,7 @@ William,"{`"Inquisitor'?s Tale`"}",f,{22894},The Inquisitor's Tale
 Crane,"{`"Sting of Death`"}",f,{22895},The Sting of Death
 Rogu,"{`"American Dad`"}",f,{22896},American Dad!
 Velrog,{Fablehaven},f,{23571},Fablehaven
+Nemesis,"{`"Nemesis ?\\(RE`"}",f,{5373},Resident Evil
 Riful,{Claymore},f,{22897},Claymore
 Isley,{Claymore},f,{22900},Claymore
 Raki,{Claymore},f,{22901},Claymore
@@ -29724,7 +29699,6 @@ Charlie Bucket,"{`"Chili and the Chocolate Factory`"}",f,{23770},Chili and the C
 Terrako,"{`"Hyrule Warriors`"}",f,{23771},Hyrule Warriors
 Nate Sutter,"{`"Candy Shop War`"}",f,{23772},The Candy Shop War
 Robin Hood,{Akechi},f,{},Persona
-Nemesis,"{`"Albert Wesker`"}",f,{13034},Resident Evil 3 Remake
 War Devil,"{`"Chainsaw(-| )?Man`"}",f,{22363},Chainsaw Man
 Gr(iev|evi|eiv)ous,"{`"S(tar )?Wars`"}",f,{317},Star Wars
 Gr(iev|evi|eiv)ous,"{`"light ?sabers?`"}",f,{317},Star Wars
@@ -30178,3 +30152,65 @@ Plok,"{`"Plok ?\\(Plok\\)`"}",t,{23990},""
 Snowguard,{616},t,{23991},616
 Penelope Spectra,"{`"Danny Phantom`"}",t,{23992},Danny Phantom
 Batman,"{`"Batman Unlimited`"}",f,{23993},Batman Unlimited
+Dhalsim,{UDON},t,{21630},UDON
+Josuke Higashikata,{Jojos?(verse)?},t,{3577},Jojo's Bizarre Adventure
+Josuke,{Jojos?(verse)?},f,{3577},Jojo's Bizarre Adventure
+Ratt,{Jojos?(verse)?},f,{8138},Jojo's Bizarre Adventure
+Gwess,{Jojos?(verse)?},t,{8139},Jojo's Bizarre Adventure
+Jonathan Joestar,{Jojos?(verse)?},t,{3533},Jojo's Bizarre Adventure
+Jonathan,{Jojos?(verse)?},f,{3533},Jojo's Bizarre Adventure
+Speedwagon,{Jojos?(verse)?},t,{3534},Jojo's Bizarre Adventure
+Will A. Zeppeli,{Jojos?(verse)?},t,{3536},Jojo's Bizarre Adventure
+Caesar Zeppeli,{Jojos?(verse)?},t,{3537},Jojo's Bizarre Adventure
+Esidisi,{Jojos?(verse)?},t,{3538},Jojo's Bizarre Adventure
+Joseph Joestar,{Jojos?(verse)?},t,{3540},Jojo's Bizarre Adventure
+Joseph,{Jojos?(verse)?},f,{3540},Jojo's Bizarre Adventure
+Kars,{Jojos?(verse)?},t,{3541},Jojo's Bizarre Adventure
+Lisa Lisa,{Jojos?(verse)?},t,{3542},Jojo's Bizarre Adventure
+Rudol Von Stroheim,{Jojos?(verse)?},t,{3543},Jojo's Bizarre Adventure
+Stroheim,{Jojos?(verse)?},f,{3543},Jojo's Bizarre Adventure
+The Culture,"{`"The Culture ?\\((The )?Culture`"}",f,{22640},""
+Killian,"{`"Marvel Cinematic Universe`"}",f,{252},MCU
+Killian,{MCU},f,{252},MCU
+Leonidas,{300},f,{16826},300
+Reed Richards,{616},t,{23994},616
+You,"{`"What Gun for Home Protection Would Be a Very Bad Idea`"}",f,{23995},What Gun for Home Protection Would Be a Very Bad Idea?
+.950 JDJ,"{`"What Gun for Home Protection Would Be a Very Bad Idea`"}",t,{23995},What Gun for Home Protection Would Be a Very Bad Idea?
+.950 JDJ,"{`"Fat Mac`"}",t,{23995},What Gun for Home Protection Would Be a Very Bad Idea?
+Captain Freedom,"{`"Ex(-| )Heroes`"}",f,{23996},Ex-Heroes
+The Driver,"{`"Ex(-| )Heroes`"}",f,{23997},Ex-Heroes
+Agent Smith,"{`"Ex(-| )Heroes`"}",f,{23998},Ex-Heroes
+Annie,"{`"Skull ?girls(verse)?`"}",f,{23999},Skullgirls
+Tigger,"{`"Winnie(-| )the(-| )Pooh`"}",t,{24000},Winnie-the-Pooh
+Bandit Keith,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{24001},Yu-Gi-Oh!
+Ben Willis,"{`"I Know What You Did Last Summer`"}",t,{24002},I Know What You Did Last Summer
+Fisherman,"{`"I Know What You Did Last Summer`"}",f,{24002},I Know What You Did Last Summer
+I Know What You Did Last Summer,"{`"Fisher ?man`"}",t,{24002},""
+General Wade Eiling,"{`"DC Animated Universe`"}",f,{24003},DCAU
+General Wade Eiling,{DCAU},f,{24003},DCAU
+General Wade Eiling,{Timmverse},f,{24003},DCAU
+Abraham Lincoln,"{`"Brave (and|&) the Bold`"}",f,{24004},The Brave and the Bold
+General Glory,"{`"Pre(-| )?Flashpoint`"}",f,{24005},Pre-Flashpoint
+General Glory,"{`"\\(DC( Comics)?\\)`"}",t,{24005},DC
+General Glory,"{`"\\[DC( Comics)?\\]`"}",t,{24005},DC
+Captain America Skrull,"{`"Avengers:? Earths? Mightiest Heroes`"}",t,{24006},Earth's Mightiest Heroes
+Captain America Skrull,"{`"Avengers:? Earth's Mightiest Heroes`"}",t,{24006},Earth's Mightiest Heroes
+Captain America Skrull,"{`"A(vengers)?: ?EMH`"}",t,{24006},Earth's Mightiest Heroes
+Captain America Skrull,"{`"Earth'?s? Mightiest Heroes`",Disney}",t,{24006},Earth's Mightiest Heroes
+Captain America Skrull,{EMH},t,{24006},Earth's Mightiest Heroes
+Dobby,"{`"Harry Potter`"}",t,{24007},Harry Potter
+RJ,"{`"Power Rangers?`"}",f,{24009},Power Rangers
+Captain Spider,{78127},f,{24010},78127
+The Spider,{958},f,{24011},958
+Spider-Man,{18139},f,{24012},18139
+Cicada,"{`"(Fl)?arrow(-| )?verse`"}",f,{24013},CW Arrowverse
+Cicada,{(DC)?CW},f,{24013},CW Arrowverse
+Cicada,"{`"DC ?TV`"}",f,{24013},CW Arrowverse
+Nemesis,"{`"Millar(-| )?(verse|world)?`"}",f,{2596},Millarverse
+Nemesis,"{Remake,`"Resident Evil`"}",f,{13034},Resident Evil 3 Remake
+Nemesis,"{Remake,`"RE\\d?`"}",f,{13034},Resident Evil 3 Remake
+Nemesis,"{`"We'?re Federation Hooligans`"}",f,{17374},Mobile Suit Gundam: We're Federation Hooligans!!
+Nemesis,{Sylvester|Stallone},f,{22534},Samaritan
+Nemesis,"{`"Albert Wesker`"}",f,{13034},Resident Evil 3 Remake
+Nemesis,"{`"Dead by Daylight`"}",f,{24008},Dead by Daylight
+Nemesis,{DBD},f,{24008},Dead by Daylight
