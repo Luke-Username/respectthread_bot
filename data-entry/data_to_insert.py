@@ -112,6 +112,20 @@ update_respectthread(cur, 20476, 'Respect Jarrod/Dai Shi [Power Rangers Jungle F
 
 ########################################
 
+add_data(['Sannin'],
+'Sannin',
+False,
+False,
+[
+    ['Naruto'], ['(The|Three|3|Legendary) Sannin']
+],
+'Naruto',
+'{3951, 3977, 3969}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/14tr3i6/the_triumvirate_worm_vs_the_sannin_naruto/
+
+########################################
+
 add_data(['Rudeus'],
 'Rudeus',
 False,
@@ -168,6 +182,93 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/14t90f9/respect_mystery_inc_brian_levant_films/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Baku Madarame, The Lie Eater (Usogui)', 'https://redd.it/14tnmc5')
+add_data(['Madarame Baku|Baku Madarame'],
+'Madarame Baku',
+False,
+True,
+[
+    ['Usogui']
+],
+'Usogui',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14tnmc5/respect_baku_madarame_the_lie_eater_usogui/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dominic Hargan, the Jungle Fury Rhino Ranger! (Power Rangers Jungle Fury)', 'https://redd.it/14tosyy')
+add_data(['Jungle Fury Rhino Ranger'],
+'Jungle Fury Rhino Ranger',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14tosyy/respect_dominic_hargan_the_jungle_fury_rhino/
+
+add_data(['Dominic Hargan'],
+'Dominic Hargan',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14tosyy/respect_dominic_hargan_the_jungle_fury_rhino/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Daphne and Velma (Daphne and Velma)', 'https://redd.it/14tq1xu')
+add_data(['Daphne (&|and) Velma'],
+'Daphne & Velma',
+True,
+False,
+[
+    ['2018'], ['Daphne (&|and) Velma ?\(Daphne (&|and) Velma']
+],
+'2018',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14tq1xu/respect_daphne_and_velma_daphne_and_velma/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Baccarat, Dice, and Tanaka (One Piece)', 'https://redd.it/14tszps')
+add_data(['Baccarat'],
+'Baccarat',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14tszps/respect_baccarat_dice_and_tanaka_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Danielle "Danny" Tozer, AKA Dreadnought (Nemesis Series)', 'https://redd.it/14u8q08')
+add_data(['Dreadnought'],
+'Dreadnought',
+False,
+False,
+[
+    ['Nemesis Series']
+],
+'Nemesis Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14u8q08/respect_danielle_danny_tozer_aka_dreadnought/
 
 ########################################
 
