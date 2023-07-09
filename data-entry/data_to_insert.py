@@ -140,6 +140,20 @@ False,
 
 ########################################
 
+add_data(['Tensen'],
+'Tensen',
+True,
+False,
+[
+    ["Hell''?s Paradise"]
+],
+"Hell''s Paradise: Jigokuraku",
+'{21252}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/14v45th/could_joseph_joestar_pretty_much_solo_every/jras93m/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Turbo Megazord (Power Rangers Turbo)', 'https://redd.it/14snlhc')
 add_data(['Turbo Megazord'],
 'Turbo Megazord',
@@ -269,6 +283,48 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/14u8q08/respect_danielle_danny_tozer_aka_dreadnought/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aiolin and Morit Astarte (Star Wars Canon)', 'https://redd.it/14ukriw')
+add_data(['Aiolin'],
+'Aiolin',
+False,
+False,
+[
+    ['S(tar )?Wars'], ['Astarte']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14ukriw/respect_aiolin_and_morit_astarte_star_wars_canon/
+
+add_data(['Morit'],
+'Morit',
+False,
+False,
+[
+    ['S(tar )?Wars'], ['Astarte']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14ukriw/respect_aiolin_and_morit_astarte_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sir Zephyr (Reincarnation of a Suicidal Battle God)', 'https://redd.it/14v90d6')
+add_data(['Sir Zephyr'],
+'Sir Zephyr',
+False,
+False,
+[
+    ['Reincarnation of a Suicidal Battle God']
+],
+'Reincarnation of a Suicidal Battle God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14v90d6/respect_sir_zephyr_reincarnation_of_a_suicidal/
 
 ########################################
 
