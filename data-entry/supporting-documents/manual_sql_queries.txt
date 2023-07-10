@@ -23,6 +23,8 @@ UPDATE character SET is_default=FALSE WHERE default_name='Dobby';
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE rt_id_array='{3286}';
+
 ########################################
 
 ########################################
