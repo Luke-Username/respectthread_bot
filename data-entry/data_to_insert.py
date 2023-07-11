@@ -343,6 +343,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Chin (Hong Kong 97)', 'https://redd.it/14w9ure')
+add_data(['Chin'],
+'Chin',
+False,
+False,
+[
+    ['Hong Kong 97']
+],
+'Hong Kong 97',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14w9ure/respect_chin_hong_kong_97/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Sivana (DC, Earth S)', 'https://redd.it/14wwpch')
+add_data(['Captain Sivana'],
+'Captain Sivana',
+False,
+False,
+[
+    ['Earth S']
+],
+'Earth S',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
