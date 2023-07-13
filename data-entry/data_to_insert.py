@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 14828, 'Respect Zarbon (Dragon Ball Manga)', 'https://redd.it/14svv0x')
 update_respectthread(cur, 20476, 'Respect Jarrod/Dai Shi [Power Rangers Jungle Fury]', 'https://redd.it/14tfe2j')
+update_respectthread(cur, 1610, 'Respect Green Arrow (DC New 52/Rebirth)', 'https://redd.it/d13huv')
 
 ########################################
 
@@ -137,6 +138,20 @@ False,
 '{5853}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/14svo5g/rudeus_vs_gabimaru/jqzcuoc/?context=3
+
+########################################
+
+add_data(['Titan Hulk'],
+'Titan Hulk',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{23019}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/14xrd9y/devil_hulk_vs_titan_hulk/jrpfr5n/?context=3
 
 ########################################
 
@@ -370,6 +385,48 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, "Respect The Gigachad (Largetrap''s GigaChad Original Series)", 'https://redd.it/14x3ybl')
+add_data(['Giga ?Chad'],
+'GigaChad',
+False,
+False,
+[
+    ['Largetrap']
+],
+'Largetrap',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14x3ybl/respect_the_gigachad_largetraps_gigachad_original/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nite-Mite (DC, Rebirth)', 'https://redd.it/14xmjm2')
+add_data(['Nite(-| )Mite'],
+'Nite-Mite',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14xmjm2/respect_nitemite_dc_rebirth/
+
+add_data(['Nite(-| )Mite'],
+'Nite-Mite',
+False,
+True,
+[
+    ['Rebirth']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14xmjm2/respect_nitemite_dc_rebirth/
 
 ########################################
 
