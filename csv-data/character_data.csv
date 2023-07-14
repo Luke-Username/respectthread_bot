@@ -3731,7 +3731,6 @@ Star Butterfly,"{`"Star vs.? The Forces of Evil`"}",t,{1098},SVTFOE
 Star Butterfly,{SVTFOE},t,{1098},SVTFOE
 Street Sharks,"{`"Street Sharks`"}",t,{1099},1994
 Stripperella,{Stripperella},t,{1100},""
-Inspector Gadget,"{`"Super Mario Brothers Super Show`"}",f,{1101},Super Mario Brothers Super Show!
 Yoshi,"{`"Super Mario World cartoon`"}",f,{1102},Super Mario World TV series
 Santa Claus,"{`"(Super Santa)`"}",f,{1103},Super Santa
 Jailbot,{SuperJail},t,{1104},SuperJail!
@@ -7093,17 +7092,6 @@ Killer Croc,"{`"\\(Arkham\\)`"}",f,"{5533,6381}",Batman: Arkham
 Willow Rosenberg,"{`"\\(Buffy\\)`"}",t,{7490},Buffy the Vampire Slayer
 Dan,"{`"\\(Dan vs\\)`"}",f,{1037},(Dan Vs.)
 Nobu,"{`"\\(Daredevil\\)`"}",f,{1296},MCU
-Beast Boy,"{`"\\(Teen Titans?\\)`"}",f,{963},Teen Titans
-Brother Blood,"{`"\\(Teen Titans?\\)`"}",f,{964},Teen Titans
-Cyborg,"{`"\\(Teen Titans?\\)`"}",f,{965},Teen Titans
-Gizmo,"{`"\\(Teen Titans?\\)`"}",f,{967},Teen Titans
-Jinx,"{`"\\(Teen Titans?\\)`"}",f,{968},Teen Titans
-Raven,"{`"\\(Teen Titans?\\)`"}",f,{971},Teen Titans
-Red X,"{`"\\(Teen Titans?\\)`"}",f,{972},Teen Titans
-Robin,"{`"\\(Teen Titans?\\)`"}",f,{973},Teen Titans
-Slade,"{`"\\(Teen Titans?\\)`"}",f,{974},Teen Titans
-Starfire,"{`"\\(Teen Titans?\\)`"}",f,{976},Teen Titans
-Terra,"{`"\\(Teen Titans?\\)`"}",f,{978},Teen Titans
 Aqualad,"{`"Aqualad \\(Teen Titans\\)`"}",f,{962},Teen Titans
 Zatanna,"{`"\\(Young Justice`"}",f,{1024},Young Justice
 Superboy,"{`"\\(Young Justice`"}",f,{1019},Young Justice
@@ -7157,6 +7145,7 @@ Baby Yoda,{SW},t,{8118},Star Wars
 Baby Yoda,{Mandalorian},t,{8118},Star Wars
 Mugino Shizuri,"{`"To ?aru`"}",t,{8119},Toaru Majutsu no Index
 Mugino Shizuri,{Index},t,{8119},Toaru Majutsu no Index
+Beast Boy,"{`"\\(Teen Titans?( (series|cartoon))?\\)`"}",f,{963},Teen Titans
 Etzali,"{`"To ?aru`"}",t,{8120},Toaru Majutsu no Index
 Etzali,{Index},t,{8120},Toaru Majutsu no Index
 Esther Rosenthal,"{`"To ?aru`"}",t,{8121},Toaru Majutsu no Index
@@ -7274,7 +7263,6 @@ Jesus,{616},f,{8164},616
 Jesus,"{`"\\(Marvel\\)`"}",f,{8164},616
 Jesus,"{`"Marvel Universe`"}",f,{8164},616
 Gwenpool,{Marvel},t,{2445},""
-Koopastein,"{`"Super Mario Brothers Super Show`"}",t,{8165},Super Mario Brothers Super Show!
 Cyborg Overman,"{`"Earth(-| )(10|Ten)`"}",t,{8166},Earth-10
 The Duke of Oil,{PC},t,{8167},Post-Crisis
 The Duke of Oil,"{`"Post(-| )?C(risis)?`"}",t,{8167},Post-Crisis
@@ -9423,7 +9411,6 @@ Superdemon,{DC},t,{8544},Earth 13
 Superdemon,"{`"Earth 13`"}",t,{8544},Earth 13
 David Shimizu,"{`"Sword Interval`"}",t,{8545},Sword Interval
 Hato Higashikata,{JJBA},t,{8546},Jojo's Bizarre Adventure
-Mario,"{`"Super Mario Brothers Super Show`"}",f,{8547},Super Mario Brothers Super Show!
 Thunderer,{DC},f,{8548},Earth 7
 Thunderer,"{`"Earth 7`"}",f,{8548},Earth 7
 Googam,{616},t,{8549},616
@@ -9486,6 +9473,7 @@ Miranda Lawson,"{`"Mass Effect`"}",t,{8565},Mass Effect
 Miranda Lawson,{MEffect},t,{8565},Mass Effect
 Bast,"{`"Kane Chronicles`"}",f,{8566},The Kane Chronicles
 Hato Higashikata,{Jojos?(verse)?},t,{8546},Jojo's Bizarre Adventure
+Mario,"{`"Super Mario Bro(ther)?s\\.? Super Show`"}",f,{8547},Super Mario Brothers Super Show!
 Zia Rashid,"{`"Kane Chronicles`"}",t,{8567},The Kane Chronicles
 Zia,"{`"Kane Chronicles`"}",f,{8567},The Kane Chronicles
 Bes,"{`"Kane Chronicles`"}",f,{8568},The Kane Chronicles
@@ -10937,8 +10925,8 @@ Cyttorak,{Marvel},t,{11121},616
 Mecha Sonic,{SMBZ},f,{11122},Super Mario Bros. Z
 Mecha Sonic,"{`"Super Mario Bros.? Z`"}",f,{11122},Super Mario Bros. Z
 Mecha Sonic,"{`"Super Mario Brothers Z`"}",f,{11122},Super Mario Bros. Z
-Power-ups,"{`"Super Mario Brothers Super Show`"}",f,{11123},Super Mario Brothers Super Show!
 Power-ups,"{`"Super Mario Bros.? Super Show`"}",f,{11123},Super Mario Brothers Super Show!
+Power-ups,"{`"Super Mario Bro(ther)?s\\.? Super Show`"}",f,{11123},Super Mario Brothers Super Show!
 Fahai,"{`"Sorcerer and the White Snake`"}",t,{11124},The Sorcerer and the White Snake
 Norgal,"{`"Head Lopper`"}",t,{11125},Head Lopper
 Erin,"{`"Attack on Titan`"}",f,{3055},Attack on Titan
@@ -11337,7 +11325,6 @@ Martians,"{`"War of the Worlds`"}",f,{12103},The War of the Worlds
 Martians,{T?WOTW},f,{12103},The War of the Worlds
 Tripod,"{`"War of the Worlds`"}",f,{12103},The War of the Worlds
 Tripod,{T?WOTW},f,{12103},The War of the Worlds
-King Koopa,"{`"Super Mario Brothers Super Show`"}",f,{12104},Super Mario Brothers Super Show!
 King Koopa,"{`"Super Mario Bros.? Super Show`"}",f,{12104},Super Mario Brothers Super Show!
 Librarian,"{`"Luth(e|o)r Strode`"}",f,{12105},Luther Strode
 Kumoko,"{`"a Spider`"}",t,{12106},"So I'm a Spider, So What?"
@@ -11396,6 +11383,7 @@ Tatsuya Shiba,"{`"Mahouka Koukou no Rettousei`"}",t,{12129},The Irregular at Mag
 Sherlock Holmes,"{`"Sherlock( Holmes)? ?\\(DC`"}",f,{12130},DC
 Sherlock Holmes,"{`"Sherlock( Holmes)? ?\\(Earth(-| )(1|One)`"}",f,{12130},DC
 Sun Wukong,{RWBY},f,{1350},RWBY
+King Koopa,"{`"Super Mario Bro(ther)?s\\.? Super Show`"}",f,{12104},Super Mario Brothers Super Show!
 Sherlock Holmes,"{`"Sherlock( Holmes)? ?\\(Pre(-| )?Crisis`"}",f,{12130},DC
 Sherlock Holmes,"{`"Sherlock( Holmes)? ?\\(Silver(-| )?Age`"}",f,{12130},DC
 Sherlock Holmes,"{`"Sherlock( Holmes)? ?\\(Post(-| )?Crisis`"}",f,{12130},DC
@@ -11627,11 +11615,8 @@ Toffee,"{`"Star vs`"}",f,{9231},SVTFOE
 Toffee,{SVTFOE},f,{9231},SVTFOE
 Petey Piranha,{Mario},t,{9232},Mario
 King Boo,{Mario},t,{5428},Mario
-Luigi,"{`"Super Mario Brothers Super Show`"}",f,{9233},Super Mario Brothers Super Show!
 Luigi,"{`"Super Mario Bros.? Super Show`"}",f,{9233},Super Mario Brothers Super Show!
-Princess Toadstool,"{`"Super Mario Brothers Super Show`"}",f,{9234},Super Mario Brothers Super Show!
 Princess Toadstool,"{`"Super Mario Bros.? Super Show`"}",f,{9234},Super Mario Brothers Super Show!
-Toad,"{`"Super Mario Brothers Super Show`"}",f,{9235},Super Mario Brothers Super Show!
 Toad,"{`"Super Mario Bros.? Super Show`"}",f,{9235},Super Mario Brothers Super Show!
 Stitchpunks,{9},t,{9236},9
 Barbatos,{DC},f,{9237},DC
@@ -12440,8 +12425,6 @@ Broly,"{`"Dragon ?Ball`"}",t,"{3275,3274}",Dragon Ball
 Broly,{DB(Z|S)?},t,"{3275,3274}",Dragon Ball
 Gogeta,"{`"Dragon ?Ball`"}",t,{3285},Dragon Ball
 Gogeta,{DB(Z|S)?},t,{3285},Dragon Ball
-Gohan,"{`"Dragon ?Ball`"}",t,{3286},Dragon Ball
-Gohan,{DB(Z|S)?},t,{3286},Dragon Ball
 Gotenks,"{`"Dragon ?Ball`"}",t,{3292},Dragon Ball
 Gotenks,{DB(Z|S)?},t,{3292},Dragon Ball
 Great Saiyaman,"{`"Dragon ?Ball`"}",t,{3294},Dragon Ball
@@ -12462,10 +12445,12 @@ Goten,"{`"Dragon ?Ball`"}",f,{3291},Dragon Ball
 Goten,{DB(Z|S)?},f,{3291},Dragon Ball
 Trunks,"{`"Dragon ?Ball`"}",f,"{3284,22116}",Dragon Ball
 Trunks,{DB(Z|S)?},f,"{3284,22116}",Dragon Ball
+Gohan,"{`"Dragon ?Ball`"}",f,{3286},Dragon Ball
 Raditz,"{`"Dragon ?Ball`"}",t,"{3307,22789}",Dragon Ball
 Raditz,{DB(Z|S)?},t,"{3307,22789}",Dragon Ball
 Nappa,"{`"Dragon ?Ball`"}",t,"{3304,22828}",Dragon Ball
 Nappa,{DB(Z|S)?},t,"{3304,22828}",Dragon Ball
+Gohan,{DB(Z|S)?},f,{3286},Dragon Ball
 Mercenary Tao,"{`"Dragon ?Ball`"}",t,{3302},Dragon Ball
 Mercenary Tao,{DB(Z|S)?},t,{3302},Dragon Ball
 Frieza,"{`"Dragon ?Ball`"}",t,"{3281,3282}",Dragon Ball
@@ -27354,7 +27339,6 @@ Ben 10 Franklin,{MAD},t,{22192},""
 George Washington,{WildStorm},f,{22193},WildStorm
 H.M.E.R,"{`"Sym(-| )?Bionic Titan`"}",f,{22194},Sym-Bionic Titan
 H.M.E.R,"{`"General Steels?`"}",f,{22194},Sym-Bionic Titan
-General Washingtoad,"{`"Super Mario Brothers Super Show`"}",t,{22195},Super Mario Brothers Super Show!
 Goldlewis Dickinson,"{`"Guilty Gear`"}",t,{22196},Guilty Gear
 Nikaido,{Dorohedoro},f,{22197},Dorohedoro
 John Grimm,"{`"Doom ?\\(2005 film`"}",f,{22198},Doom [2005 Film]
@@ -27386,6 +27370,7 @@ Kitana,"{`"Mortal Kombat`"}",f,{5289},Mortal Kombat
 Kitana,{MKd*},f,{5289},Mortal Kombat
 Kitana,"{`"Skull?duggery Pleasant`"}",f,{5957},Skulduggery Pleasant
 Kitana,"{`"Kitana (Hillher|Kella)way`"}",f,{5957},Skulduggery Pleasant
+General Washingtoad,"{`"Super Mario Bro(ther)?s\\.? Super Show`"}",t,{22195},Super Mario Brothers Super Show!
 Hit-Monkey,"{`"Hit(-| )Monkey.*TV`"}",f,{},TV Series
 Kaguya,{Akatsuki},f,{3954},Naruto
 Kaguya,"{`"Ten Tails`"}",f,{3954},Naruto
@@ -30198,7 +30183,6 @@ Captain America Skrull,"{`"Avengers:? Earth's Mightiest Heroes`"}",t,{24006},Ear
 Captain America Skrull,"{`"A(vengers)?: ?EMH`"}",t,{24006},Earth's Mightiest Heroes
 Captain America Skrull,"{`"Earth'?s? Mightiest Heroes`",Disney}",t,{24006},Earth's Mightiest Heroes
 Captain America Skrull,{EMH},t,{24006},Earth's Mightiest Heroes
-Dobby,"{`"Harry Potter`"}",t,{24007},Harry Potter
 RJ,"{`"Power Rangers?`"}",f,{24009},Power Rangers
 Captain Spider,{78127},f,{24010},78127
 The Spider,{958},f,{24011},958
@@ -30214,3 +30198,47 @@ Nemesis,{Sylvester|Stallone},f,{22534},Samaritan
 Nemesis,"{`"Albert Wesker`"}",f,{13034},Resident Evil 3 Remake
 Nemesis,"{`"Dead by Daylight`"}",f,{24008},Dead by Daylight
 Nemesis,{DBD},f,{24008},Dead by Daylight
+Inspector Gadget,"{`"Super Mario Bro(ther)?s\\.? Super Show`"}",f,{1101},Super Mario Brothers Super Show!
+Koopastein,"{`"Super Mario Bro(ther)?s\\.? Super Show`"}",t,{8165},Super Mario Brothers Super Show!
+Luigi,"{`"Super Mario Bro(ther)?s\\.? Super Show`"}",f,{9233},Super Mario Brothers Super Show!
+Princess Toadstool,"{`"Super Mario Bro(ther)?s\\.? Super Show`"}",f,{9234},Super Mario Brothers Super Show!
+Toad,"{`"Super Mario Bro(ther)?s\\.? Super Show`"}",f,{9235},Super Mario Brothers Super Show!
+Brother Blood,"{`"\\(Teen Titans?( (series|cartoon))?\\)`"}",f,{964},Teen Titans
+Cyborg,"{`"\\(Teen Titans?( (series|cartoon))?\\)`"}",f,{965},Teen Titans
+Gizmo,"{`"\\(Teen Titans?( (series|cartoon))?\\)`"}",f,{967},Teen Titans
+Jinx,"{`"\\(Teen Titans?( (series|cartoon))?\\)`"}",f,{968},Teen Titans
+Raven,"{`"\\(Teen Titans?( (series|cartoon))?\\)`"}",f,{971},Teen Titans
+Red X,"{`"\\(Teen Titans?( (series|cartoon))?\\)`"}",f,{972},Teen Titans
+Robin,"{`"\\(Teen Titans?( (series|cartoon))?\\)`"}",f,{973},Teen Titans
+Slade,"{`"\\(Teen Titans?( (series|cartoon))?\\)`"}",f,{974},Teen Titans
+Starfire,"{`"\\(Teen Titans?( (series|cartoon))?\\)`"}",f,{976},Teen Titans
+Terra,"{`"\\(Teen Titans?( (series|cartoon))?\\)`"}",f,{978},Teen Titans
+Dobby,"{`"Harry Potter`"}",f,{24007},Harry Potter
+Sannin,{Naruto},f,"{3951,3977,3969}",Naruto
+Sannin,"{`"(The|Three|3|Legendary) Sannin`"}",f,"{3951,3977,3969}",Naruto
+Rudeus,"{`"Mushoku Tensei`"}",f,{5853},Jobless Reincarnation
+Rudeus,"{`"Jobless Reincarnation`"}",f,{5853},Jobless Reincarnation
+Titan Hulk,{616},t,{23019},616
+Tensen,"{`"Hell'?s Paradise`"}",f,{21252},Hell's Paradise: Jigokuraku
+Turbo Megazord,"{`"Power Rangers?`"}",t,{24014},Power Rangers
+Mag Agent: Torture,"{`"Madness Combat`"}",t,{24015},Madness Combat
+Mystery Inc.,"{`"Brian Levant`"}",f,{24016},Brian Levant
+Madarame Baku,{Usogui},t,{24017},Usogui
+Jungle Fury Rhino Ranger,"{`"Power Rangers`"}",t,{24018},Power Rangers
+Dominic Hargan,"{`"Power Rangers`"}",t,{24018},Power Rangers
+Daphne & Velma,{2018},f,{24019},2018
+Daphne & Velma,"{`"Daphne (&|and) Velma ?\\(Daphne (&|and) Velma`"}",f,{24019},2018
+Baccarat,"{`"One ?Piece?`"}",f,{24020},One Piece
+Dreadnought,"{`"Nemesis Series`"}",f,{24021},Nemesis Series
+Aiolin,"{`"S(tar )?Wars`"}",f,{24022},Star Wars
+Aiolin,{Astarte},f,{24022},Star Wars
+Morit,"{`"S(tar )?Wars`"}",f,{24022},Star Wars
+Morit,{Astarte},f,{24022},Star Wars
+Sir Zephyr,"{`"Reincarnation of a Suicidal Battle God`"}",f,{24023},Reincarnation of a Suicidal Battle God
+Frau Totenkinder,{Fables},t,{24024},Fables
+Chin,"{`"Hong Kong 97`"}",f,{24025},Hong Kong 97
+Captain Sivana,"{`"Earth S`"}",f,{24026},Earth S
+GigaChad,{Largetrap},f,{24027},Largetrap
+Nite-Mite,"{`"\\(DC( Comics)?\\)`"}",t,{24028},DC
+Nite-Mite,"{`"\\[DC( Comics)?\\]`"}",t,{24028},DC
+Nite-Mite,{Rebirth},t,{24028},Rebirth

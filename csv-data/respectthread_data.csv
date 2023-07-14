@@ -1518,7 +1518,6 @@ id,title,link
 1607,Respect Brick (DC Post-Crisis),https://redd.it/6390qf
 1608,"Respect Connor Hawke (DC Comics, Post Crisis)",https://redd.it/b68xl3
 1616,Respect Lucifer Morningstar! (DC/Vertigo),https://redd.it/pwlugz
-1610,Respect Green Arrow (DC New 52/Rebirth),https://redd.it/97lqc1
 1611,Respect Green Arrow (Oliver Queen PC),https://redd.it/2vow8r
 1620,"Respect Alan Scott, the Green Lantern (Post-Crisis)",https://redd.it/nm63hh
 1613,Respect Death of the Endless (Vertigo),https://redd.it/6fukvt
@@ -1570,6 +1569,7 @@ id,title,link
 1599,"Respect Mick Rory, Heat Wave! (DC Comics, Pre-Flashpoint)",https://redd.it/14n1knb
 1605,"Respect Mark Mardon, Weather Wizard! (DC Comics, Pre-Flashpoint)",https://redd.it/14sa3zt
 1656,"Respect Vixen (DC, Post Crisis)",https://redd.it/eepbhd
+1610,Respect Green Arrow (DC New 52/Rebirth),https://redd.it/d13huv
 1587,"Respect Professor Zoom (DC COMICS, NEW 52)",https://redd.it/eqww5q
 1653,Respect Shazam (DC New 52/Rebirth),https://redd.it/fdr0rv
 1591,"Respect Wallace West, Kid Flash! (NEW 52/REBIRTH)",https://redd.it/fgnh9c
@@ -7951,7 +7951,6 @@ id,title,link
 20473,Respect James Ironwood (RWBY),https://redd.it/q4nd0c
 20474,Respect Roman Torchwick and Neopolitan! (RWBY Chibi),https://redd.it/pjmj8z
 20475,"Respect Katana (DC, Future State)",https://redd.it/plqteg
-20476,Respect Jarrod/Dai Shi (Power Rangers Jungle Fury),https://redd.it/plvhj5
 20477,Respect Godzilla/Kentaro (Warning from G) [The Godzilla Comic],https://redd.it/pm1kgi
 20478,"Respect Uncle Sam (DC Comics, Earth 10)",https://redd.it/pmorqc
 20479,Respect Cassiopeia! (League of Legends),https://redd.it/pmsrgn
@@ -8025,6 +8024,7 @@ id,title,link
 12091,Respect Deathblow (Wildstorm),https://redd.it/cvb1vw
 12092,Respect Judd (Star Wars Legends),https://redd.it/dqi834
 20491,"Respect Jimmy Olsen, King of the Giant Ants (Dc Pre-Crisis)",https://redd.it/pvdhmm
+20476,Respect Jarrod/Dai Shi [Power Rangers Jungle Fury],https://redd.it/14tfe2j
 20492,"Respect Jimmy Olsen, Homo-Disastrous (Dc Pre-Crisis)",https://redd.it/pukw1x
 20493,"Respect Jimmy Olsen's Private Monster (Dc, Pre-Crisis)",https://redd.it/pvyaa5
 20494,"Respect Jimmy Olsen, The Non-Super Superman (Dc Pre-Crisis)",https://redd.it/ptxjdt
@@ -11002,7 +11002,6 @@ id,title,link
 14825,Respect Giran (Dragon Ball),https://redd.it/kri8uh
 14826,Respect Namu (Dragon Ball),https://redd.it/ktzl0r
 14827,Respect Cooler's Armored Squadron! (Dragon Ball Z: Cooler's Revenge),https://redd.it/kr6o3n
-14828,Respect Zarbon (Dragon Ball),https://redd.it/knchnu
 14830,"Respect Naidan Mönkhbat, The Hawk of Ordos (Kengan Omega)",https://redd.it/kngm4u
 14831,Respect Rex (Star Wars Canon),https://redd.it/knivbd
 14832,Respect Phil of the Future! (Phil of the Future),https://redd.it/knt372
@@ -11036,6 +11035,7 @@ id,title,link
 14814,"Respect Enkidu, the Chain of the Heavens! (Fate)",https://redd.it/tjohjx
 14822,Respect Jack the Drought (One Piece),https://redd.it/xwayc7
 14829,Respect Dodoria (Dragon Ball Manga),https://redd.it/14ry75w
+14828,Respect Zarbon (Dragon Ball Manga),https://redd.it/14svv0x
 14860,Respect Yajirobe (Dragon Ball Manga),https://redd.it/kpscew
 14861,Respect Kingdok (Bone),https://redd.it/kpw2pm
 14862,Respect Roque Ja (Bone),https://redd.it/kr2jau
@@ -12694,3 +12694,18 @@ id,title,link
 24011,"Respect Flash Thompson, The Spider (Marvel, Earth-958)",https://redd.it/14rf4ap
 24012,"Respect Flash Thompson, Spider-Man (Marvel, Earth-18139)",https://redd.it/14rf5bn
 24013,Respect Cicada I and Cicada II (Arrowverse),https://redd.it/14rnitg
+24014,Respect the Turbo Megazord (Power Rangers Turbo),https://redd.it/14snlhc
+24015,Respect Mag Agent: Torture! (Madness Combat),https://redd.it/14t8r01
+24016,Respect Mystery Inc. (Brian Levant films),https://redd.it/14t90f9
+24017,"Respect Baku Madarame, The Lie Eater (Usogui)",https://redd.it/14tnmc5
+24018,"Respect Dominic Hargan, the Jungle Fury Rhino Ranger! (Power Rangers Jungle Fury)",https://redd.it/14tosyy
+24019,Respect Daphne and Velma (Daphne and Velma),https://redd.it/14tq1xu
+24020,"Respect Baccarat, Dice, and Tanaka (One Piece)",https://redd.it/14tszps
+24021,"Respect Danielle `"Danny`" Tozer, AKA Dreadnought (Nemesis Series)",https://redd.it/14u8q08
+24022,Respect Aiolin and Morit Astarte (Star Wars Canon),https://redd.it/14ukriw
+24023,Respect Sir Zephyr (Reincarnation of a Suicidal Battle God),https://redd.it/14v90d6
+24024,"Respect Frau Totenkinder, The Black Forest Witch! (Fables)",https://redd.it/14vuw96
+24025,Respect Chin (Hong Kong 97),https://redd.it/14w9ure
+24026,"Respect Captain Sivana (DC, Earth S)",https://redd.it/14wwpch
+24027,Respect The Gigachad (Largetrap's GigaChad Original Series),https://redd.it/14x3ybl
+24028,"Respect Nite-Mite (DC, Rebirth)",https://redd.it/14xmjm2
