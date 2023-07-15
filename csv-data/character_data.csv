@@ -754,10 +754,6 @@ Victor Creed,{XCU},f,{157},FOX
 Victor Creed,{FOX},f,{157},FOX
 Victor Creed,"{`"X-Men films`"}",f,{157},FOX
 Victor Creed,{Foxverse},f,{157},FOX
-Wolverine,"{`"X-Men Cinematic Universe`"}",f,{158},FOX
-Wolverine,{XCU},f,{158},FOX
-Wolverine,"{`"X-Men films`"}",f,{158},FOX
-Wolverine,{Foxverse},f,{158},FOX
 Deadpool,{Foxverse},f,{143},FOX
 X23-23,{FOX},f,{159},FOX
 X23-23,{Foxverse},f,{159},FOX
@@ -774,6 +770,10 @@ X-23,{Logan},f,{159},FOX
 Laura,{FOX},f,{159},FOX
 Laura,{Foxverse},f,{159},FOX
 Laura,"{`"X-Men films`"}",f,{159},FOX
+Wolverine,"{`"X-Men Cinematic Universe`"}",f,"{158,24039}",FOX
+Wolverine,{XCU},f,"{158,24039}",FOX
+Wolverine,"{`"X-Men films`"}",f,"{158,24039}",FOX
+Wolverine,{Foxverse},f,"{158,24039}",FOX
 Laura,"{`"X-Men Cinematic Universe`"}",f,{159},FOX
 Laura,{XCU},f,{159},FOX
 Laura,{Logan},f,{159},FOX
@@ -8488,7 +8488,6 @@ Honey Badger,{Gabby|Gabrielle|Kinney},f,{2337},616
 Wolverine,{616},t,{2391},616
 Wolverine,{Marvel},t,{2391},616
 Wolverine,{comics?},t,{2391},616
-Wolverine,{Hugh|Jackman},f,{158},FOX
 Wolverine,"{`"Siberian Tiger`"}",f,{},Real Life
 X-23,{616},t,{2340},616
 X-23,{Marvel},t,{2340},616
@@ -8508,6 +8507,7 @@ X-Men,"{`"Days of Future Past`"}",f,{},FOX
 X-Men,"{`"film versions?`"}",f,{},FOX
 X-Men,{movies?},f,{},FOX
 Adam-X,{616},t,{2342},616
+Wolverine,{Hugh|Jackman},f,"{158,24039}",FOX
 Adam-X,{Marvel},t,{2342},616
 Adam-X,{comics?},t,{2342},616
 Armor,"{`"Armor ?\\(616`"}",f,{2344},616
@@ -16792,13 +16792,12 @@ Suruga Kanbaru,{(Bake)?Monogatari},t,{3913},Monogatari
 Tsubasa Hanekawa,{(Bake)?Monogatari},t,{3914},Monogatari
 Yozuru Kagenui,{(Bake)?Monogatari},t,{3915},Monogatari
 Yotsugi Ononoki,{(Bake)?Monogatari},t,{3915},Monogatari
-All Might,"{`"My Hero Academia`"}",t,{3917},My Hero Academia
-All Might,"{`"\\(My Hero\\)`"}",t,{3917},My Hero Academia
-All Might,{BN?HA},t,{3917},My Hero Academia
-All Might,{MHA},t,{3917},My Hero Academia
-All Might,"{`"Boku no Hero`"}",t,{3917},My Hero Academia
 Wolverine,"{`"Gulo Gulo`"}",f,{},""
 All For One,"{`"My Hero Academia`"}",f,{3916},My Hero Academia
+All Might,"{`"My Hero Academia`"}",t,"{3917,24029}",My Hero Academia
+All Might,"{`"\\(My Hero\\)`"}",t,"{3917,24029}",My Hero Academia
+All Might,{BN?HA},t,"{3917,24029}",My Hero Academia
+All Might,{MHA},t,"{3917,24029}",My Hero Academia
 Endeavor,"{`"\\(My Hero\\)`"}",f,{3920},My Hero Academia
 Endeavor,{BN?HA},f,{3920},My Hero Academia
 Endeavor,{MHA},f,{3920},My Hero Academia
@@ -26198,8 +26197,6 @@ Crona,"{`"Soul Eater`"}",f,{4546},Soul Eater
 Madoka Magica,{Goddess},f,{4428},""
 Iron Man,{RDJ},f,{247},MCU
 Iron Man,{Downey},f,{247},MCU
-Wolverine,{MCU},f,{158},FOX
-Wolverine,"{`"Marvel Cinematic Universe`"}",f,{158},FOX
 Doom Supreme,{14412},t,{21581},14412
 Doctor Doom,{14412},f,{21581},14412
 Miyamoto Usagi,"{`"Space Usagi`"}",f,{21582},Space Usagi
@@ -27201,7 +27198,6 @@ John Allerdyce,"{`"X(-| )?Men (movie|film)s?`"}",f,{155},FOX
 Sebastian Shaw,"{`"X(-| )?Men (movie|film)s?`"}",f,{156},FOX
 Sabretooth,"{`"X(-| )?Men (movie|film)s?`"}",f,{157},FOX
 Victor Creed,"{`"X(-| )?Men (movie|film)s?`"}",f,{157},FOX
-Wolverine,"{`"X(-| )?Men (movie|film)s?`"}",f,{158},FOX
 X23-23,"{`"X(-| )?Men (movie|film)s?`"}",f,{159},FOX
 X-23,"{`"X(-| )?Men (movie|film)s?`"}",f,{159},FOX
 Laura,"{`"X(-| )?Men (movie|film)s?`"}",f,{159},FOX
@@ -27242,6 +27238,7 @@ Anya Forger,"{`"Spy x Family`"}",t,{22142},Spy x Family
 Bond Forger,"{`"Spy x Family`"}",t,{22143},Spy x Family
 Bond,"{`"Spy x Family`"}",f,{22143},Spy x Family
 Loid Forger,"{`"Spy x Family`"}",t,{22144},Spy x Family
+Wolverine,"{`"X(-| )?Men (movie|film)s?`"}",f,"{158,24039}",FOX
 Pikkon,"{`"Dragon ?Ball`"}",t,{22145},Dragon Ball
 Pikkon,{DB(Z|S)?},t,{22145},Dragon Ball
 Spinosaurus,"{`"Jurassic Park 3 in One Minute`"}",f,{22146},Jurassic Park 3 in One Minute
@@ -27704,10 +27701,6 @@ Sensui Seven,{YYH},t,{22459},Yu Yu Hakusho
 Hirudegarn,"{`"Dragon ?Ball`"}",t,{22460},Dragon Ball
 Hirudegarn,{DB(Z|S)},t,{22460},Dragon Ball
 Superman,"{`"Superman:? The Dark Side`"}",f,{22461},Superman: The Dark Side
-Wolverines,{Hugh|Jackman},f,{158},FOX
-Wolverines,{Foxverse},f,{158},FOX
-Wolverines,"{`"X(-| )?Men (Movie|Film)s?`"}",f,{158},FOX
-Wolverines,"{`"X-?Men Cinematic Universe`"}",f,{158},FOX
 Predator,"{`"a Predator`",`"movie feats`"}",f,"{2799,13507}",""
 Cracker,"{`"One Piece`",Doflamingo}",f,{4064},One Piece
 Cracker,"{`"Cracker ?\\(One Piece`"}",f,{4064},One Piece
@@ -27717,6 +27710,10 @@ Ghost of Harry Dresden,"{`"Dresden( Files|verse)`"}",t,{22519},The Dresden Files
 Voolvif Monn,"{`"S(tar )?Wars`"}",t,{22520},Star Wars
 Kar Vastor,"{`"S(tar )?Wars`"}",t,{22521},Star Wars
 Molly McGee,{Ghost},t,{22522},The Ghost and Molly McGee
+Wolverines,{Hugh|Jackman},f,"{158,24039}",FOX
+Wolverines,{Foxverse},f,"{158,24039}",FOX
+Wolverines,"{`"X(-| )?Men (Movie|Film)s?`"}",f,"{158,24039}",FOX
+Wolverines,"{`"X-?Men Cinematic Universe`"}",f,"{158,24039}",FOX
 Planet Master,"{`"Pre(-| )?Flashpoint`"}",f,{22524},Pre-Flashpoint
 Duplicate Vegeta,"{`"Dragon ?Ball`"}",t,{22525},Dragon Ball
 Duplicate Vegeta,{DB(Z|S)},t,{22525},Dragon Ball
@@ -30034,7 +30031,6 @@ Matthea Cathley,"{`"S(tar )?Wars`"}",t,{23947},Star Wars
 Vildar Mac,"{`"S(tar )?Wars`"}",t,{23948},Star Wars
 Sula Badani,"{`"S(tar )?Wars`"}",t,{23949},Star Wars
 Kureha Shinogi,{Baki(verse)?},t,{23950},Baki
-Big Guy,"{`"Big Guy and Rusty`"}",f,{23951},Big Guy and Rusty the Boy Robot
 Roger Goshaw,{616},t,{23952},616
 Thia Escardos,{Fate},t,{23953},Fate
 Ain & Binz,"{`"One ?Piece?`"}",t,{23954},One Piece
@@ -30242,3 +30238,24 @@ GigaChad,{Largetrap},f,{24027},Largetrap
 Nite-Mite,"{`"\\(DC( Comics)?\\)`"}",t,{24028},DC
 Nite-Mite,"{`"\\[DC( Comics)?\\]`"}",t,{24028},DC
 Nite-Mite,{Rebirth},t,{24028},Rebirth
+All Might,"{`"Boku no Hero`"}",t,"{3917,24029}",My Hero Academia
+Big Guy,"{`"Big Guy and Rusty`"}",f,"{24030,23951}",Big Guy and Rusty the Boy Robot
+Unohana,{Bleach},f,{3159},Bleach
+Abyss,"{DC,Rebirth}",f,{24031},Rebirth
+Jim Gordon,"{`"(Post(-| ))Flash(-| )?point`"}",f,{24032},Post-Flashpoint
+Peter Palmer,"{616,Beta}",f,{24033},616 Beta
+Bloodwork,"{`"(Fl)?arrow(-| )?verse`"}",f,{24034},CW Arrowverse
+Bloodwork,{(DC)?CW},f,{24034},CW Arrowverse
+Bloodwork,"{`"DC ?TV`"}",f,{24034},CW Arrowverse
+Rusty the Boy Robot,"{`"Big Guy and Rusty`"}",t,{24035},""
+Yuzun,"{`"Dragon ?Ball`"}",f,{24036},Dragon Ball
+Yuzun,{DB(Z|S)},f,{24036},Dragon Ball
+Yorozu,"{`"Jujus?t?s?u Kaisen`"}",f,{24037},Jujutsu Kaisen
+Yorozu,{JJK},f,{24037},Jujutsu Kaisen
+Lily Tora-Asi,"{`"S(tar )?Wars`"}",t,{24038},Star Wars
+Pet Shop,"{`"I Get Stronger the More I Eat`"}",f,{24038},I Get Stronger the More I Eat
+Mr. Kim,"{`"I Get Stronger the More I Eat`"}",f,{24038},I Get Stronger the More I Eat
+Wolverine,{MCU},f,"{158,24039}",FOX
+Wolverine,"{`"Marvel Cinematic Universe`"}",f,"{158,24039}",FOX
+Wolverine,"{`"20th Century Fox`"}",f,"{158,24039}",FOX
+Wolverine,"{`"FOX Wolverine`"}",f,"{158,24039}",FOX
