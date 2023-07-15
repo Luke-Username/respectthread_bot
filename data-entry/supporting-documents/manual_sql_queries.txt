@@ -14,7 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('All Might Respect Thread', 'https://redd.it/czolbq'); SELECT * FROM respectthread WHERE link='https://redd.it/czolbq';
+UPDATE character SET rt_id_array='{3917, ?}' WHERE rt_id_array='{3917}';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect The Big Guy (Big Guy and Rusty the Boy Robot [Comic])', 'https://redd.it/14yn9hc'); SELECT * FROM respectthread WHERE link='https://redd.it/14yn9hc';
+UPDATE character SET rt_id_array='{?, 23951}' WHERE rt_id_array='{23951}';
 
 ########################################
 
@@ -25,6 +31,9 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Fox Wolverine Respect Thread', 'https://comicvine.gamespot.com/forums/gen-discussion-1/fox-wolverine-respect-thread-1836679/'); SELECT * FROM respectthread WHERE link='https://comicvine.gamespot.com/forums/gen-discussion-1/fox-wolverine-respect-thread-1836679/';
+UPDATE character SET rt_id_array='{158, ?}' WHERE rt_id_array='{158}'; --After Run
 
 ########################################
 

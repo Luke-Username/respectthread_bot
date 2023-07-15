@@ -107,6 +107,179 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Unohana'],
+'Unohana',
+False,
+False,
+[
+    ['Bleach']
+],
+'Bleach',
+'{3159}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/14zgh2s/aquakingdom_hearts_vs_unohanableach/
+
+########################################
+
+add_data(['Wolverine'],
+'Wolverine',
+False,
+False,
+[
+    ['20th Century Fox'], ['FOX Wolverine']
+],
+'FOX',
+'{158}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/150i5qr/wolverine_marvelxmen_runs_the_gauntlet_of/js39yvg/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Abyss (DC Comics, Rebirth)', 'https://redd.it/14yb03l')
+add_data(['Abyss'],
+'Abyss',
+False,
+False,
+[
+    ['DC', 'Rebirth']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14yb03l/respect_abyss_dc_comics_rebirth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jim Gordon, Batman (DC Comics, Post Flashpoint)', 'https://redd.it/14zfzq7')
+add_data(['Jim Gordon'],
+'Jim Gordon',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14zfzq7/respect_jim_gordon_batman_dc_comics_post/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Peter Palmer, The Amazing Spiderman! (Marvel, 616 Beta)', 'https://redd.it/14zuogg')
+add_data(['Peter Palmer'],
+'Peter Palmer',
+False,
+False,
+[
+    ['616', 'Beta']
+],
+'616 Beta',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14zuogg/respect_peter_palmer_the_amazing_spiderman_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bloodwork (Arrowverse)', 'https://redd.it/150bf2m')
+add_data(['Bloodwork'],
+'Bloodwork',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+],
+'CW Arrowverse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/150bf2m/respect_bloodwork_arrowverse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rusty the Boy Robot (Big Guy and Rusty the Boy Robot [Comic])', 'https://redd.it/14ynanq')
+add_data(['Rusty the Boy Robot'],
+'Rusty the Boy Robot',
+False,
+True,
+[
+    ['Big Guy and Rusty']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14ynanq/respect_rusty_the_boy_robot_big_guy_and_rusty_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yuzun (Dragon Ball Super - Manga)', 'https://redd.it/14z5xj0')
+add_data(['Yuzun'],
+'Yuzun',
+False,
+False,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yorozu! (Jujutsu Kaisen)', 'https://redd.it/14zk9ur')
+add_data(['Yorozu'],
+'Yorozu',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/14zk9ur/respect_yorozu_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lily Tora-Asi (Star Wars Canon)', 'https://redd.it/150l13l')
+add_data(['Lily Tora(-| )Asi'],
+'Lily Tora-Asi',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/150l13l/respect_lily_toraasi_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lily Tora-Asi (Star Wars Canon)', 'https://redd.it/150l13l')
+add_data(['Pet Shop'],
+'Pet Shop',
+False,
+False,
+[
+    ['I Get Stronger the More I Eat']
+],
+'I Get Stronger the More I Eat',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/150lsm6/respect_mr_kim_pet_shop_i_get_stronger_the_more_i/
+
+add_data(['Mr\.? Kim'],
+'Mr. Kim',
+False,
+False,
+[
+    ['I Get Stronger the More I Eat']
+],
+'I Get Stronger the More I Eat',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/150lsm6/respect_mr_kim_pet_shop_i_get_stronger_the_more_i/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
