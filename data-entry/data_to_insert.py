@@ -107,6 +107,47 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Raven'],
+'Raven',
+False,
+False,
+[
+    ['Raven from DC']
+],
+'DC',
+'{1832}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15289c0/death_battle_phoenix_jean_grey_vs_raven_from_dc/jscj33h/?context=3
+
+########################################
+
+add_data(['Big Hero 6'],
+'Big Hero 6',
+True,
+False,
+[
+    ['Big Hero 6 \(Disney\) vs'], ['vs\.? Big Hero 6'], ['Big Hero 6 \(Team\)'], [['Big Hero 6 Team']]
+],
+'Disney',
+'{10863, 10869, 10870, 10873, 10872, 10851}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1528f3g/big_hero_6_disney_vs_guardians_of_the_galaxy_mcu/jscft5i/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sise-Neg (Marvel, Earth-74113)', 'https://redd.it/151qxz3')
+add_data(['Sise(-| )Neg'],
+'Sise-Neg',
+False,
+True,
+[
+    ['74113']
+],
+'74113',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/151qxz3/respect_siseneg_marvel_earth74113/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
