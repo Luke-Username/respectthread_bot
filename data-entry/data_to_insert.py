@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Dom'],
+'Dom',
+False,
+False,
+[
+    ['Fast and (the )?Furious'], ['Fast & Furious']
+],
+'The Fast and the Furious',
+'{135}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/152wtkc/who_is_the_most_powerful_anime_character_that_the/jsg0dhq/?context=3
+
+########################################
+
 add_data(['Big Hero 6'],
 'Big Hero 6',
 True,
@@ -147,6 +161,37 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/151qxz3/respect_siseneg_marvel_earth74113/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Duff Killigan (Kim Possible)', 'https://redd.it/1534z9d')
+add_data(['Duff Killigan'],
+'Duff Killigan',
+False,
+True,
+[
+    ['Kim Possible']
+],
+'Kim Possible',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1534z9d/respect_duff_killigan_kim_possible/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hobie Brown, The Spider-Punk (Marvel Comics: Earth 138)', 'https://redd.it/1532gvs')
+add_data(['Spider(-| )Punk'],
+'Spider-Punk',
+False,
+True,
+[
+    ['Kim Possible']
+],
+'Kim Possible',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 

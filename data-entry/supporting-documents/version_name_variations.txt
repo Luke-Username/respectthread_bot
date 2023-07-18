@@ -1044,7 +1044,9 @@ Fargo (TV Series)
 
 Fast and Furious
 	Version
-		'{"Fast and (the )?Furious"}', '{"Fast & Furious"}'
+		['Fast and (the )?Furious'], ['Fast & Furious']
+	Acronyms
+		['F&F']
 	Displayed Version Name
 		"The Fast and the Furious"
 
