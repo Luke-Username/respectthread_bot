@@ -107,6 +107,25 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 23995, 'Protagonist (What Gun for Home Protection Would Be a Very Bad Idea?)', 'https://redd.it/1558euc')
+update_respectthread(cur, 12425, 'Respect Seth Brundle (The Fly, 1986)', 'https://redd.it/1558jx2')
+
+########################################
+
+add_data(['Brundlefly'],
+'Brundlefly',
+False,
+True,
+[
+    ['The Fly']
+],
+'The Fly',
+'{12425}'
+)
+#
+
+########################################
+
 add_data(['Raven'],
 'Raven',
 False,
@@ -164,6 +183,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Assassin Spider-Man (Marvel Comics: Earth 8351)', 'https://redd.it/153vm46')
+add_data(['Assassin Spider(-| )?Man'],
+'Assassin Spider-Man',
+False,
+True,
+[
+    ['8351']
+],
+'8351',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/153vm46/respect_assassin_spiderman_marvel_comics_earth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Peter Parker, The Punishing Spider (Marvel Comics: Earth 71928)', 'https://redd.it/1551bzc')
+add_data(['Punish(ing|er) Spider'],
+'Punishing Spider',
+False,
+True,
+[
+    ['71928']
+],
+'71928',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1551bzc/respect_peter_parker_the_punishing_spider_marvel/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Duff Killigan (Kim Possible)', 'https://redd.it/1534z9d')
 add_data(['Duff Killigan'],
 'Duff Killigan',
@@ -177,21 +226,80 @@ True,
 )
 #https://www.reddit.com/r/respectthreads/comments/1534z9d/respect_duff_killigan_kim_possible/
 
+########################################
+
+id = get_rt_id(cur, 'Respect Darth Vader (Death Battle)', 'https://redd.it/1544nu3')
+add_data(['Vader'],
+'Darth Vader',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1544nu3/respect_darth_vader_death_battle/
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Hobie Brown, The Spider-Punk (Marvel Comics: Earth 138)', 'https://redd.it/1532gvs')
-add_data(['Spider(-| )Punk'],
-'Spider-Punk',
+id = get_rt_id(cur, 'Respect Obito Uchiha! (DEATH BATTLE!)', 'https://redd.it/1544po8')
+add_data(['Obito'],
+'Uchiha',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1544po8/respect_obito_uchiha_death_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Q! (Q)', 'https://redd.it/1557x7d')
+add_data(['Q'],
+'Q',
+False,
+False,
+[
+    ['Q ?\(Q\)']
+],
+'Q',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1557x7d/respect_q_q/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ruby Gillman (DreamWorks'' Ruby Gillman, Teenage Kraken)", 'https://redd.it/155d0mr')
+add_data(['Ruby Gillman'],
+'Ruby Gillman',
 False,
 True,
 [
-    ['Kim Possible']
+    ['Teenage Kraken']
 ],
-'Kim Possible',
+'Ruby Gillman, Teenage Kraken',
 '{' + '{}'.format(id) + '}'
 )
-#
+#https://www.reddit.com/r/respectthreads/comments/155d0mr/respect_ruby_gillman_dreamworks_ruby_gillman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dargo Ktor, the Once and Future Thor (Marvel Comics, Earth-8710)', 'https://redd.it/155wufm')
+add_data(['Dargo Kth?or'],
+'Dargo Ktor',
+False,
+True,
+[
+    ['8710']
+],
+'8710',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/155wufm/respect_dargo_ktor_the_once_and_future_thor/
 
 ########################################
 
