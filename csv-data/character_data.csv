@@ -12396,10 +12396,6 @@ Bugs,"{`"Dolly Kill Kill`"}",f,{3258},Dolly Kill Kill
 Ikaruga Iruma,"{`"Dolly Kill Kill`"}",t,{3259},Dolly Kill Kill
 Marie,"{`"Dolly Kill Kill`"}",f,{3260},Dolly Kill Kill
 Kohaku,"{`"(Doctor|Dr.?) ?Stone`"}",f,{4737},Dr. Stone
-Ultra Instinct Goku,"{`"Dragon ?Ball`"}",t,{3290},Dragon Ball
-Ultra Instinct Goku,{DB(Z|S)?},t,{3290},Dragon Ball
-Goku,{M?UI},f,{3290},Ultra Instinct
-Goku,"{`"Ultra Instinct`"}",f,{3290},Ultra Instinct
 Android 16,"{`"Dragon ?Ball`"}",t,{3266},Dragon Ball
 Android 16,{DB(Z|S)?},t,{3266},Dragon Ball
 Android 18,"{`"Dragon ?Ball`"}",t,{3268},Dragon Ball
@@ -16026,7 +16022,6 @@ Superman,"{`"Super(-| )?man ?\\(Justice League`"}",f,{130},DCEU
 Hit,"{Buu,`"vs\\.? Hit`"}",f,{3295},Dragon Ball
 Hit,"{Buu,`"Hit vs`"}",f,{3295},Dragon Ball
 Scarlet Witch,{WandaVision},f,{270},MCU
-Goku,"{`"Base Goku`"}",t,"{3288,13282}",Dragon Ball
 Wanda,{WandaVision},f,{270},MCU
 Kushala,{Marvel},f,{22236},616
 America Chavez,"{`"Marvel Cinematic Universe`"}",f,{22237},MCU
@@ -16043,9 +16038,10 @@ Sun Wukong,"{`"Xi Xing Ji`"}",f,{22243},Xi Xing Ji
 Echidna,"{`"Re:? ?Zero`"}",f,{22244},Re:Zero
 Satella,"{`"Re:? ?Zero`"}",t,{22245},Re:Zero
 Izou,"{`"One ?Piece?`"}",f,{22246},One Piece
-Goku,"{`"SSJ\\d?`"}",t,"{3288,13282}",Dragon Ball
 Gojo,"{`"Jujus?t?s?u Kaisen`"}",f,{14809},Jujutsu Kaisen
 Gojo,{JJK},f,{14809},Jujutsu Kaisen
+Goku,"{`"Base Goku`"}",t,"{3288,3290,13282}",Dragon Ball
+Goku,"{`"SSJ\\d?`"}",t,"{3288,3290,13282}",Dragon Ball
 Saint-14,{Destiny},t,{5041},Destiny
 Sjur Eido,{Destiny},t,{5042},Destiny
 Warpriest,{Destiny},f,{5043},Destiny
@@ -25560,8 +25556,6 @@ John Walker,{199999},f,{},MCU
 Sticks the Badger,"{`"Sonic Boom`"}",t,{21259},Sonic the Hedgehog
 Gilbert Lawsons Avatar,{Community},t,{21260},Community
 Meguro Masaki,{Kengan(verse)?},t,{20997},Kengan Asura
-Goku,"{`"Dragon ?Ball`"}",t,"{3288,13282}",Dragon Ball
-Goku,{DB(Z|S)?},t,"{3288,13282}",Dragon Ball
 Godzilla,{Godzilla.*GTS|GTS.*Godzilla},f,{1051},Godzilla: The Series
 Godzilla,"{`"Godzilla:? The Series`"}",f,{1051},Godzilla: The Series
 Shedinja,{Pok(e|é)m(o|a)n},t,{21262},Pokémon
@@ -25584,6 +25578,8 @@ Finn,{Jake},f,"{606,20464}",Adventure Time
 Finn,"{`"Princess Bubblegum`"}",f,"{606,20464}",Adventure Time
 Jake,{Finn},f,"{613,20463}",Adventure Time
 Jake,"{`"Princess Bubblegum`"}",f,"{613,20463}",Adventure Time
+Goku,"{`"Dragon ?Ball`"}",t,"{3288,3290,13282}",Dragon Ball
+Goku,{DB(Z|S)?},t,"{3288,3290,13282}",Dragon Ball
 Spider-Man,"{`"Golden Spongecake`"}",f,{},51914
 Crimson,{Dreamwalker},f,{21272},Dreamwalker
 Katsumi Orochi,{Baki},t,{21273},Baki
@@ -30259,3 +30255,20 @@ Wolverine,{MCU},f,"{158,24039}",FOX
 Wolverine,"{`"Marvel Cinematic Universe`"}",f,"{158,24039}",FOX
 Wolverine,"{`"20th Century Fox`"}",f,"{158,24039}",FOX
 Wolverine,"{`"FOX Wolverine`"}",f,"{158,24039}",FOX
+Brundlefly,"{`"The Fly`"}",t,{12425},The Fly
+Raven,"{`"Raven from DC`"}",f,{1832},DC
+Dom,"{`"Fast and (the )?Furious`"}",f,{135},The Fast and the Furious
+Dom,"{`"Fast & Furious`"}",f,{135},The Fast and the Furious
+Big Hero 6,"{`"Big Hero 6 \\(Disney\\) vs`"}",f,"{10863,10869,10870,10873,10872,10851}",Disney
+Big Hero 6,"{`"vs\\.? Big Hero 6`"}",f,"{10863,10869,10870,10873,10872,10851}",Disney
+Big Hero 6,"{`"Big Hero 6 \\(Team\\)`"}",f,"{10863,10869,10870,10873,10872,10851}",Disney
+Big Hero 6,"{`"Big Hero 6 Team`"}",f,"{10863,10869,10870,10873,10872,10851}",Disney
+Sise-Neg,{74113},t,{24049},74113
+Assassin Spider-Man,{8351},t,{24050},8351
+Punishing Spider,{71928},t,{24051},71928
+Duff Killigan,"{`"Kim Possible`"}",t,{24052},Kim Possible
+Darth Vader,"{`"DEATH BATTLE`"}",f,{24053},DEATH BATTLE!
+Obito Uchiha,"{`"DEATH BATTLE`"}",f,{24054},DEATH BATTLE!
+Q,"{`"Q ?\\(Q\\)`"}",f,{24055},Q
+Ruby Gillman,"{`"Teenage Kraken`"}",t,{24056},"Ruby Gillman, Teenage Kraken"
+Dargo Ktor,{8710},t,{24057},8710

@@ -14,16 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Carnage', 'Don Carnage', -4);
-
 ########################################
 
-UPDATE character_name SET name='Dumbledores?' WHERE name='Dumbledore';
-
 ########################################
-
-DELETE FROM character WHERE rt_id_array='{3290}';
-UPDATE character SET rt_id_array='{3288,3290,13282}' WHERE rt_id_array='{3288,13282}';
 
 ########################################
 
