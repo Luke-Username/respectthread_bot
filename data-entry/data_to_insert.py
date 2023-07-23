@@ -107,6 +107,65 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 7608, 'Respect Absol (Pokémon: Jirachi: Wish Maker)', 'https://redd.it/1578z0q')
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Blue Border (Scott The Woz)', 'https://redd.it/1567h5a')
+add_data(['Blue Border'],
+'Blue Border',
+False,
+False,
+[
+    ['Scott The Woz']
+],
+'Scott The Woz',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1567h5a/respect_the_blue_border_scott_the_woz/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maxwell Hale (Ex-Heroes)', 'https://redd.it/156vmcy')
+add_data(['Maxwell Hale'],
+'Maxwell Hale',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/156vmcy/respect_maxwell_hale_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dr. Michihiko Zaizen, Dr. Pac-Man (Kamen Rider Ex-Aid)', 'https://redd.it/157aofc')
+add_data(['Dr\.? Pac(-| )?Man'],
+'Dr. Pac-Man',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/157aofc/respect_dr_michihiko_zaizen_dr_pacman_kamen_rider/
+
+add_data(['Michihiko Zaizen'],
+'Michihiko Zaizen',
+False,
+True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/157aofc/respect_dr_michihiko_zaizen_dr_pacman_kamen_rider/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

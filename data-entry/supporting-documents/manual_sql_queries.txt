@@ -14,6 +14,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Mr. Kim, Pet Shop! (I Get Stronger the More I Eat)', 'https://redd.it/150lsm6'); SELECT * FROM respectthread WHERE link='https://redd.it/150lsm6';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Pet Shop' AND displayed_version_name='I Get Stronger the More I Eat';
+
+INSERT INTO respectthread (title, link) VALUES ('(OPM) How powerful is an individual Black Sperm cell?', 'https://comicvine.gamespot.com/forums/gen-discussion-1/opm-how-powerful-is-an-individual-black-sperm-cell-2244740/'); SELECT * FROM respectthread WHERE link='https://comicvine.gamespot.com/forums/gen-discussion-1/opm-how-powerful-is-an-individual-black-sperm-cell-2244740/';
+UPDATE character SET rt_id_array='{4094, ?2}' WHERE rt_id_array='{4094}';
+
 ########################################
 
 ########################################
