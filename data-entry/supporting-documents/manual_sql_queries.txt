@@ -29,6 +29,8 @@ UPDATE character SET version='{"Elfi?en Lied"}' WHERE version='{"Elfen Lied"}';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sentry', 'Sentry Buster', 0);
+
 ########################################
 
 ########################################
