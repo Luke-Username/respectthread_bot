@@ -108,6 +108,21 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 7608, 'Respect Absol (Pokémon: Jirachi: Wish Maker)', 'https://redd.it/1578z0q')
+update_respectthread(cur, 2103, 'Respect Paladin (Marvel 616)', 'https://redd.it/157v6aw')
+
+########################################
+
+add_data(['The Thing'],
+'The Thing',
+False,
+False,
+[
+    ['The Thing ?\(Fantastic Four\)']
+],
+'616',
+'{2072,22166}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15860e2/homelander_the_boys_vs_the_thing_fantastic_four/
 
 ########################################
 
@@ -165,6 +180,150 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/157aofc/respect_dr_michihiko_zaizen_dr_pacman_kamen_rider/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Countess Belzebeth (DC Comics)', 'https://redd.it/1583k8v')
+add_data(['Belzebeth'],
+'Belzebeth',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1583k8v/respect_countess_belzebeth_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Man-Ape! (DC Comics, Pre-Crisis)', 'https://redd.it/1583lnx')
+add_data(['Man(-| )Ape'],
+'Man-Ape',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1583lnx/respect_manape_dc_comics_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Killa the Gorilla! (DC Comics, Post-Crisis)', 'https://redd.it/1583lu8')
+add_data(['Killa the Gorilla'],
+'Killa the Gorilla',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1583lu8/respect_killa_the_gorilla_dc_comics_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Corpse Girl (Ex-Heroes)', 'https://redd.it/157w9wc')
+add_data(['Corpse Girl'],
+'Corpse Girl',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/157w9wc/respect_corpse_girl_exheroes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alex Rex! (Keyman: The Hand of Judgement)', 'https://redd.it/1583kql')
+add_data(['Alex Rex'],
+'Alex Rex',
+False,
+False,
+[
+    ['Keyman'], ['Hand of Judgement']
+],
+'Keyman: The Hand of Judgement',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1583kql/respect_alex_rex_keyman_the_hand_of_judgement/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mother (The Sims 4)', 'https://redd.it/1583l6r')
+add_data(['The Mother'],
+'The Mother',
+False,
+False,
+[
+    ['The Sims']
+],
+'The Sims',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1583l6r/respect_the_mother_the_sims_4/
+
+add_data(['Mother Plant'],
+'Mother Plant',
+False,
+False,
+[
+    ['The Sims']
+],
+'The Sims',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1583l6r/respect_the_mother_the_sims_4/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Izuku Midoriya (Fortnite)', 'https://redd.it/1583mtu')
+add_data(['Midoriya'],
+'Izuku Midoriya',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1583mtu/respect_izuku_midoriya_fortnite/
+
+add_data(['Deku'],
+'Deku',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1583mtu/respect_izuku_midoriya_fortnite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Neymar Jr (Fortnite)', 'https://redd.it/1583n3p')
+add_data(['Neymar Jr'],
+'Neymar Jr',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1583n3p/respect_neymar_jr_fortnite/
 
 ########################################
 

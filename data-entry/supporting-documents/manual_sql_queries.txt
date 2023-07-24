@@ -20,7 +20,12 @@ UPDATE character SET rt_id_array='{?}' WHERE default_name='Pet Shop' AND display
 INSERT INTO respectthread (title, link) VALUES ('(OPM) How powerful is an individual Black Sperm cell?', 'https://comicvine.gamespot.com/forums/gen-discussion-1/opm-how-powerful-is-an-individual-black-sperm-cell-2244740/'); SELECT * FROM respectthread WHERE link='https://comicvine.gamespot.com/forums/gen-discussion-1/opm-how-powerful-is-an-individual-black-sperm-cell-2244740/';
 UPDATE character SET rt_id_array='{4094, ?2}' WHERE rt_id_array='{4094}';
 
+INSERT INTO respectthread (title, link) VALUES ('Respect The Boys (The Boys, Dynamite Entertainment)', 'https://redd.it/d32bq5'); SELECT * FROM respectthread WHERE link='https://redd.it/d32bq5';
+UPDATE character SET rt_id_array='{?3}' WHERE default_name='The Boys' AND displayed_version_name='Dynamite Entertainment';
+
 ########################################
+
+UPDATE character SET version='{"Elfi?en Lied"}' WHERE version='{"Elfen Lied"}';
 
 ########################################
 
