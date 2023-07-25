@@ -9088,8 +9088,6 @@ Roku,{A?TLA},f,{8443},Avatar: TLA
 Roku,{Korra},f,{8443},Avatar: TLA
 Roku,{A?T?LOK},f,{8443},Avatar: TLA
 The Seven,"{`"The Boys`"}",f,{8444},The Boys
-The Boys,{Comics?},f,{8444},Dynamite Entertainment
-The Boys,{Dynamite},f,{8444},Dynamite Entertainment
 Emma,"{`"Promised Neverland`"}",f,{4438},The Promised Neverland
 The Seven,"{`"The Boys`",TV}",f,{},"The Boys, 2019"
 The Seven,"{`"The Boys`",show}",f,{},"The Boys, 2019"
@@ -9133,6 +9131,8 @@ Gan,"{`"Dark Tower`"}",f,{},The Dark Tower
 Guardian,"{`"Guardian.*(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{8458},DC
 Kitana,"{`"Shaolin Monks`"}",f,{8454},Mortal Kombat: Shaolin Monks
 Kitana,{Malibu},f,{8455},Malibu Comics
+The Boys,{Comics?},f,{24060},Dynamite Entertainment
+The Boys,{Dynamite},f,{24060},Dynamite Entertainment
 Kratos Aurion,{Symphonia},t,{4953},Tales of Symphonia
 Kratos,{Symphonia},f,{4953},Tales of Symphonia
 Master Chief,{Halo},t,{5098},Halo
@@ -14156,7 +14156,6 @@ Shiki Granbell,"{`"Edens Zero`"}",t,{4745},Edens Zero
 Drew,{(ē|e)LDLIVE},f,{4746},ēlDLIVE
 Chuuta,{(ē|e)LDLIVE},f,{4746},ēlDLIVE
 Chuuta Kokonose,{(ē|e)LDLIVE},t,{4746},ēlDLIVE
-Lucy,"{`"Elfen Lied`"}",f,{4747},Elfen Lied
 Fury Flatliner,{Embalming},t,{4748},Embalming
 Angela Balzac,"{`"Expelled from Paradise`"}",t,{4749},Expelled from Paradise
 Assassin of Black,{Fate},t,{4750},Fate
@@ -14203,6 +14202,7 @@ Nonwasabi,{Goblin},t,{4768},Goblin Is Very Strong
 Wasabi,{Goblin},f,{4768},Goblin Is Very Strong
 Lenka Utsugi,"{`"God Eater`"}",t,{4770},God Eater
 M'Baku,{Endgame},f,{13484},MCU
+Lucy,"{`"Elfi?en Lied`"}",f,{4747},Elfen Lied
 King Ghidorah,{Anime},f,{4771},Godzilla Anime
 Monster Warrior Godzilla,"{`"The Godzilla Comic`"}",t,{4772},The Godzilla Comic
 Godzilla,"{`"The Godzilla Comic`"}",f,{4772},The Godzilla Comic
@@ -18353,8 +18353,6 @@ Bang,"{`"One(-| )Punch Man`"}",f,{4093},One Punch Man
 Bang,{OPM},f,{4093},One Punch Man
 Silver Fang,"{`"One(-| )Punch Man`"}",t,{4093},One Punch Man
 Silver Fang,{OPM},t,{4093},One Punch Man
-Black Sperm,"{`"One(-| )Punch Man`"}",t,{4094},One Punch Man
-Black Sperm,{OPM},t,{4094},One Punch Man
 Mizuki,"{`"One(-| )Punch Man`"}",f,{4096},One Punch Man
 Mizuki,{OPM},f,{4096},One Punch Man
 Mizuki,"{`"Meteoric Burst`"}",f,{4096},One Punch Man
@@ -18365,6 +18363,8 @@ Captain Mizuki,{OPM},t,{4096},One Punch Man
 Child Emperor,"{`"One(-| )Punch Man`"}",t,{4098},One Punch Man
 Child Emperor,{OPM},t,{4098},One Punch Man
 Boros,"{`"One(-| )Punch Man`"}",t,"{4095,23515}",One Punch Man
+Black Sperm,"{`"One(-| )Punch Man`"}",t,"{4094,24059}",One Punch Man
+Black Sperm,{OPM},t,"{4094,24059}",One Punch Man
 Demonic Fan,"{`"One(-| )Punch Man`"}",t,{4100},One Punch Man
 Demonic Fan,{OPM},t,{4100},One Punch Man
 Demonic Fan,"{`"S(-| )Class`"}",t,{4100},One Punch Man
@@ -24983,8 +24983,6 @@ Bullseye,"{MCU,`"Dark Avengers`"}",f,{12455},MCU
 Shigaraki,"{`"My Hero`"}",t,{13258},My Hero Academia
 Shigaraki,{(M|BN?)HA},t,{13258},My Hero Academia
 Shigaraki,"{`"Boku no Hero`"}",t,{13258},My Hero Academia
-Golden Sperm,"{`"One(-| )Punch Man`"}",t,{4094},One Punch Man
-Golden Sperm,{OPM},t,{4094},One Punch Man
 Scorpion,"{`"Scorpion ?\\(616`"}",f,{2302},616
 Minato,{Obito},f,{20429},Naruto
 Minato,{Kurama},f,{20429},Naruto
@@ -25000,6 +24998,8 @@ Spongebob,{Spongebob},t,{},Spongebob
 Kingpin,"{`"Marvel Cinematic Universe`"}",f,{21858},MCU
 Kingpin,{MCU},f,{21858},MCU
 Kingpin,{199999},f,{21858},MCU
+Golden Sperm,"{`"One(-| )Punch Man`"}",t,"{4094,24059}",One Punch Man
+Golden Sperm,{OPM},t,"{4094,24059}",One Punch Man
 Horrorterror,{Homestuck},t,{21103},Homestuck
 Venom,"{`"Spider(-| )?Man 3`"}",f,{303},Raimiverse Spider-Man
 Venom,{96283},f,{303},Raimiverse Spider-Man
@@ -30249,7 +30249,6 @@ Yuzun,{DB(Z|S)},f,{24036},Dragon Ball
 Yorozu,"{`"Jujus?t?s?u Kaisen`"}",f,{24037},Jujutsu Kaisen
 Yorozu,{JJK},f,{24037},Jujutsu Kaisen
 Lily Tora-Asi,"{`"S(tar )?Wars`"}",t,{24038},Star Wars
-Pet Shop,"{`"I Get Stronger the More I Eat`"}",f,{24038},I Get Stronger the More I Eat
 Mr. Kim,"{`"I Get Stronger the More I Eat`"}",f,{24038},I Get Stronger the More I Eat
 Wolverine,{MCU},f,"{158,24039}",FOX
 Wolverine,"{`"Marvel Cinematic Universe`"}",f,"{158,24039}",FOX
@@ -30272,3 +30271,37 @@ Obito Uchiha,"{`"DEATH BATTLE`"}",f,{24054},DEATH BATTLE!
 Q,"{`"Q ?\\(Q\\)`"}",f,{24055},Q
 Ruby Gillman,"{`"Teenage Kraken`"}",t,{24056},"Ruby Gillman, Teenage Kraken"
 Dargo Ktor,{8710},t,{24057},8710
+Pet Shop,"{`"I Get Stronger the More I Eat`"}",f,{24058},I Get Stronger the More I Eat
+The Thing,"{`"The Thing ?\\(Fantastic Four\\)`"}",f,"{2072,22166}",616
+Blue Border,"{`"Scott The Woz`"}",f,{24061},Scott The Woz
+Maxwell Hale,"{`"Ex(-| )Heroes`"}",f,{24062},Ex-Heroes
+Dr. Pac-Man,"{`"Kamen Rider`"}",f,{24063},Kamen Rider
+Michihiko Zaizen,"{`"Kamen Rider`"}",t,{24063},Kamen Rider
+Belzebeth,"{`"\\(DC( Comics)?\\)`"}",f,{24064},DC
+Belzebeth,"{`"\\[DC( Comics)?\\]`"}",f,{24064},DC
+Man-Ape,"{`"Pre(-| )?Crisis`"}",f,{24065},Pre-Crisis
+Killa the Gorilla,{PC},f,{24066},Post-Crisis
+Killa the Gorilla,"{`"Posts?(-| )?C(risis)?`"}",f,{24066},Post-Crisis
+Killa the Gorilla,"{`"New(-| )Earth`"}",f,{24066},Post-Crisis
+Corpse Girl,"{`"Ex(-| )Heroes`"}",f,{24067},Ex-Heroes
+Alex Rex,{Keyman},f,{24068},Keyman: The Hand of Judgement
+Alex Rex,"{`"Hand of Judgement`"}",f,{24068},Keyman: The Hand of Judgement
+The Mother,"{`"The Sims`"}",f,{24069},The Sims
+Mother Plant,"{`"The Sims`"}",f,{24069},The Sims
+Izuku Midoriya,{Fortnite},f,{24070},Fortnite
+Deku,{Fortnite},f,{24070},Fortnite
+Neymar Jr,{Fortnite},f,{24071},Fortnite
+Jeri,"{`"Aliens:? Stronghold`"}",f,{24072},Aliens: Stronghold
+Jeri,"{Aliens,comics}",f,{24072},Aliens: Stronghold
+Thor,{56337},f,{24073},56337
+Thor,"{`"God of Fists`"}",f,{24073},56337
+Avenger Prime,{Marvel},f,{24074},Marvel
+Doom Supreme,{Marvel},t,{24075},Marvel
+Shaq,{DC},f,{24076},DC
+Shaq,"{`"(Post(-| ))Flash(-| )?point`"}",f,{24076},Post-Flashpoint
+Belbe,"{`"Magic:? The Gathering`"}",f,{24077},Magic: The Gathering
+Belbe,{M:?TG},f,{24077},Magic: The Gathering
+Mario,"{`"Mario ?\\(Mario( Bros\\.?)? Movie`"}",f,{24078},The Super Mario Bros. Movie
+Mario,{Illumination},f,{24078},The Super Mario Bros. Movie
+Mario,"{`"Mario ?\\(Movie\\)`"}",f,{24078},The Super Mario Bros. Movie
+Mario,"{`"Chris Pratt`"}",f,{24078},The Super Mario Bros. Movie
