@@ -327,6 +327,123 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Jeri! (Aliens: Stronghold) [Dark Horse Comics]', 'https://redd.it/158qxon')
+add_data(['Jeri'],
+'Jeri',
+False,
+False,
+[
+    ['Aliens:? Stronghold'], ['Aliens', 'comics']
+],
+'Aliens: Stronghold',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/158qxon/respect_jeri_aliens_stronghold_dark_horse_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thor, God of Fists (Marvel Comics, Earth-56337)', 'https://redd.it/158uzgv')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['56337'], ['God of Fists']
+],
+'56337',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/158uzgv/respect_thor_god_of_fists_marvel_comics_earth56337/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Avenger Prime, Avenger of all Avengers (Marvel Comics)', 'https://redd.it/158uzr5')
+add_data(['Avenger Prime'],
+'Avenger Prime',
+False,
+False,
+[
+    ['Marvel']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/158uzr5/respect_avenger_prime_avenger_of_all_avengers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doom Supreme, the Doom Above All (Marvel Comics)', 'https://redd.it/158uzui')
+add_data(['Doom Supreme'],
+'Doom Supreme',
+False,
+True,
+[
+    ['Marvel']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Shaquille O''Neal (DC Comics, Post-Flashpoint)", 'https://redd.it/158x4p4')
+add_data(['Shaq(uille)?'],
+'Shaq',
+False,
+False,
+[
+    ['DC']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/158x4p4/respect_shaquille_oneal_dc_comics_postflashpoint/
+
+add_data(['Shaq(uille)?'],
+'Shaq',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/158x4p4/respect_shaquille_oneal_dc_comics_postflashpoint/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Belbe, Corrupted Observer! (Magic: The Gathering)', 'https://redd.it/1599szt')
+add_data(['Belbe'],
+'Belbe',
+False,
+False,
+[
+    ['Magic:? The Gathering'], ['M:?TG']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1599szt/respect_belbe_corrupted_observer_magic_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mario (The Super Mario Bros. Movie)', 'https://redd.it/159by8e')
+add_data(['Mario'],
+'Mario',
+False,
+False,
+[
+    ['Mario ?\(Mario( Bros\.?)? Movie'], ['Illumination'], ['Mario ?\(Movie\)'], ['Chris Pratt']
+],
+'The Super Mario Bros. Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/159by8e/respect_mario_the_super_mario_bros_movie/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
