@@ -107,6 +107,92 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['The Knight'],
+'The Knight',
+False,
+False,
+[
+    ['Cuphead']
+],
+'Hollow Knight',
+'{5612,16088}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15aihav/cuphead_vs_the_knight/jtkw3jt/?context=3
+
+########################################
+
+add_data(['Upper Moons'],
+'Upper Moons',
+True,
+True,
+[
+    ['Demon ?Slayer'], ['Kimetsu no Yaiba'], ['KnY']
+],
+'Demon Slayer',
+'{7544, 8343, 8341}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Xenk Yendar! (Dungeons & Dragons: Honor Among Thieves)', 'https://redd.it/159o1ln')
+add_data(['Xenk Yendar'],
+'Xenk Yendar',
+False,
+True,
+[
+    ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D'],
+    ['Honor Among Thieves']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/159o1ln/respect_xenk_yendar_dungeons_dragons_honor_among/
+
+add_data(['Xenk'],
+'Xenk',
+False,
+False,
+[
+    ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D'],
+    ['Honor Among Thieves']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/159o1ln/respect_xenk_yendar_dungeons_dragons_honor_among/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sofina (Dungeons & Dragons: Honor Among Thieves)', 'https://redd.it/159o1mo')
+add_data(['Sofina'],
+'Sofina',
+False,
+False,
+[
+    ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D'],
+    ['Honor Among Thieves']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/159o1mo/respect_sofina_dungeons_dragons_honor_among/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Talos the Untamed (Marvel, 616)', 'https://redd.it/159or58')
+add_data(['Talos the Untamed'],
+'Talos the Untamed',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/159or58/respect_talos_the_untamed_marvel_616/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
