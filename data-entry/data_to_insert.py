@@ -180,6 +180,106 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Doric (Dungeons & Dragons: Honor Among Thieves)', 'https://redd.it/15bg9jk')
+add_data(['Doric'],
+'Doric',
+False,
+False,
+[
+    ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D'],
+    ['Honor Among Thieves']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15bg9jk/respect_doric_dungeons_dragons_honor_among_thieves/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Simon Aumar (Dungeons & Dragons: Honor Among Thieves)', 'https://redd.it/15bg9kc')
+add_data(['Simon Aumar'],
+'Simon Aumar',
+False,
+True,
+[
+    ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D'],
+    ['Honor Among Thieves']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15bg9kc/respect_simon_aumar_dungeons_dragons_honor_among/
+
+add_data(['Simon'],
+'Simon',
+False,
+False,
+[
+    ['Honor Among Thieves']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15bg9kc/respect_simon_aumar_dungeons_dragons_honor_among/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Holga Kilgore (Dungeons & Dragons: Honor Among Thieves)', 'https://redd.it/15bg9lm')
+add_data(['Holga Kilgore'],
+'Holga Kilgore',
+False,
+True,
+[
+    ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D'],
+    ['Honor Among Thieves']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15bg9kc/respect_simon_aumar_dungeons_dragons_honor_among/
+
+add_data(['Holga'],
+'Holga',
+False,
+False,
+[
+    ['Honor Among Thieves']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15bg9lm/respect_holga_kilgore_dungeons_dragons_honor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Edgin Darvis (Dungeons & Dragons: Honor Among Thieves)', 'https://redd.it/15bg9mw')
+add_data(['Edgin Darvis'],
+'Edgin Darvis',
+False,
+True,
+[
+    ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D'],
+    ['Honor Among Thieves']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15bg9kc/respect_simon_aumar_dungeons_dragons_honor_among/
+
+add_data(['Edgin'],
+'Edgin',
+False,
+False,
+[
+    ['Honor Among Thieves']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15bg9mw/respect_edgin_darvis_dungeons_dragons_honor_among/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Talos the Untamed (Marvel, 616)', 'https://redd.it/159or58')
 add_data(['Talos the Untamed'],
 'Talos the Untamed',
@@ -192,6 +292,135 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/159or58/respect_talos_the_untamed_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jodio Joestar (Jojo''s Bizarre Adventure)", 'https://redd.it/15b6xug')
+add_data(['Jodio Joestar'],
+'Jodio Joestar',
+False,
+True,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15b6xug/respect_jodio_joestar_jojos_bizarre_adventure/
+
+add_data(['Jodio'],
+'Jodio',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15b6xug/respect_jodio_joestar_jojos_bizarre_adventure/
+
+########################################
+
+id = get_rt_id(cur, "Respect Dragona Joestar (Jojo''s Bizarre Adventure)", 'https://redd.it/15b6yav')
+add_data(['Jodio Joestar'],
+'Jodio Joestar',
+False,
+True,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15b6xug/respect_jodio_joestar_jojos_bizarre_adventure/
+
+add_data(['Dragona'],
+'Dragona',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15b6xug/respect_jodio_joestar_jojos_bizarre_adventure/
+
+########################################
+
+id = get_rt_id(cur, "Respect Paco Laburantes (Jojo''s Bizarre Adventure)", 'https://redd.it/15b6yq2')
+add_data(['Paco Laburantes'],
+'Paco Laburantes',
+False,
+True,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15b6xug/respect_jodio_joestar_jojos_bizarre_adventure/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Grotesqua! (DC Comics)', 'https://redd.it/15b8htd')
+add_data(['Grotesqua'],
+'Grotesqua',
+False,
+False,
+[
+    ['DC']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15b8htd/respect_grotesqua_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, "Respect Hurricane Polymar [Tatsunoko''s Hurricane Polymar]", 'https://redd.it/15bgao5')
+add_data(['Hurricane Polymar'],
+'Hurricane Polymar',
+False,
+True,
+[
+    ['Tatsunoko']
+],
+'Tatsunoko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15bgao5/respect_hurricane_polymar_tatsunokos_hurricane/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zu-Mebio-Da (Kamen Rider Kuuga) [2015 Manga]', 'https://redd.it/15c1vvm')
+add_data(['Zu(-| )Mebio(-| )Da'],
+'Zu-Mebio-Da',
+False,
+True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15c1vvm/respect_zumebioda_kamen_rider_kuuga_2015_manga/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zu-Mebio-Da (Kamen Rider Kuuga) [2015 Manga]', 'https://redd.it/15c1vvm')
+add_data(['Sam Flynn'],
+'Sam Flynn',
+False,
+True,
+[
+    ['TRON']
+],
+'TRON',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15c4mx2/respect_sam_flynn_tron_legacy/
 
 ########################################
 
