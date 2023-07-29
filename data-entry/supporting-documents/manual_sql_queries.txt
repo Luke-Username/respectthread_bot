@@ -19,6 +19,9 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Goku', 'Shun Gok
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Loid Forger, Agent Twilight! (Spy x Family)', 'https://redd.it/vkl4pl'); SELECT * FROM respectthread WHERE link='https://redd.it/vkl4pl';
+UPDATE character SET rt_id_array='{?}' WHERE rt_id_array='{22144}';
+
 ########################################
 
 ########################################

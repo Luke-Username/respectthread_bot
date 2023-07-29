@@ -409,6 +409,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Me-Bajisu-Ba (Kamen Rider Kuuga) [2015 Manga]', 'https://redd.it/15ck9e1')
+add_data(['Me(-| )Bajisu(-| )Ba'],
+'Me-Bajisu-Ba',
+False,
+True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15ck9e1/respect_mebajisuba_kamen_rider_kuuga_2015_manga/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Zu-Mebio-Da (Kamen Rider Kuuga) [2015 Manga]', 'https://redd.it/15c1vvm')
 add_data(['Sam Flynn'],
 'Sam Flynn',
