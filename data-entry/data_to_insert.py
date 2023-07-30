@@ -107,6 +107,25 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 21869, 'Respect The Numan Athletes (Numan Athletics)', 'https://redd.it/15da5hq')
+update_respectthread(cur, 1665, 'Respect Starbreaker (DC Pre-Flashpoint)', 'https://redd.it/15d0v5j')
+
+########################################
+
+add_data(['The Flash'],
+'The Flash',
+False,
+False,
+[
+    ['FTL', 'Vader']
+],
+'DC',
+'{1582,1583,1590,1589}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15d633z/ive_had_enough_of_yt_who_wins/
+
+########################################
+
 add_data(['The Knight'],
 'The Knight',
 False,
@@ -436,6 +455,36 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/15c4mx2/respect_sam_flynn_tron_legacy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tron Bonne! (Mega Man Legends)', 'https://redd.it/15d3dmd')
+add_data(['Tron Bonne'],
+'Tron Bonne',
+False,
+True,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15d3dmd/respect_tron_bonne_mega_man_legends/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Phile! (Killer)', 'https://redd.it/15daoaf')
+add_data(['The Phile'],
+'The Phile',
+False,
+False,
+[
+    ['Killer']
+],
+'Killer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15daoaf/respect_the_phile_killer/
 
 ########################################
 
