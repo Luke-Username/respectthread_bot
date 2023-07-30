@@ -13906,7 +13906,6 @@ Gou,{UnOrdinary},f,{4609},UnOrdinary
 Isen,{UnOrdinary},f,{4610},UnOrdinary
 John,{UnOrdinary},f,{4611},UnOrdinary
 Meili,{UnOrdinary},f,{4612},UnOrdinary
-Ventus,{UnOrdinary},f,{4612},UnOrdinary
 Rein,{UnOrdinary},f,{4613},UnOrdinary
 Remi,{UnOrdinary},f,{4614},UnOrdinary
 Seraphina,{UnOrdinary},f,{4615},UnOrdinary
@@ -13941,6 +13940,7 @@ Marshmallon,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4633},Yu-Gi-Oh!
 Sora Perse,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4634},Yu-Gi-Oh!
 Yuya Sakaki,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4635},Yu-Gi-Oh!
 Yuya,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4635},Yu-Gi-Oh!
+Ventus,{UnOrdinary},f,{4612},UnOrdinary
 Yuto,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4635},Yu-Gi-Oh!
 Yuto,{Duel},f,{4635},Yu-Gi-Oh!
 Yugo,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4635},Yu-Gi-Oh!
@@ -16325,9 +16325,6 @@ Vanitas,"{`"Kingdom Hearts`"}",t,{5164},Kingdom Hearts
 Vanitas,{KH},t,{5164},Kingdom Hearts
 Vanitas,{Sora},t,{5164},Kingdom Hearts
 Vanitas,{Ansem},t,{5164},Kingdom Hearts
-Ventus,"{`"Kingdom Hearts`"}",t,{5165},Kingdom Hearts
-Ventus,{KH},t,{5165},Kingdom Hearts
-Ventus,{Sora},t,{5165},Kingdom Hearts
 Young Xehanort,"{`"Kingdom Hearts`"}",t,{5166},Kingdom Hearts
 Xemnas,"{`"Kingdom Hearts`"}",t,{5167},Kingdom Hearts
 Xigbar,"{`"Kingdom Hearts`"}",t,{5168},Kingdom Hearts
@@ -16380,6 +16377,7 @@ Hunter,"{`"Left ?4 ?Dead(1|2)?`"}",f,{5204},Left 4 Dead
 Hunter,{L4D(1|2)?},f,{5204},Left 4 Dead
 Smoker,"{`"Left ?4 ?Dead(1|2)?`"}",f,{5204},Left 4 Dead
 Smoker,{L4D(1|2)?},f,{5204},Left 4 Dead
+Ventus,"{`"Kingdom Hearts`"}",f,{5165},Kingdom Hearts
 Witch,"{`"Left ?4 ?Dead(1|2)?`"}",f,{5204},Left 4 Dead
 Witch,{L4D(1|2)?},f,{5204},Left 4 Dead
 Boomer,"{`"Left ?4 ?Dead(1|2)?`"}",f,{5204},Left 4 Dead
@@ -27233,8 +27231,8 @@ Inez Temple,{616},t,{22141},616
 Anya Forger,"{`"Spy x Family`"}",t,{22142},Spy x Family
 Bond Forger,"{`"Spy x Family`"}",t,{22143},Spy x Family
 Bond,"{`"Spy x Family`"}",f,{22143},Spy x Family
-Loid Forger,"{`"Spy x Family`"}",t,{22144},Spy x Family
 Wolverine,"{`"X(-| )?Men (movie|film)s?`"}",f,"{158,24039}",FOX
+Loid Forger,"{`"Spy x Family`"}",t,{24079},Spy x Family
 Pikkon,"{`"Dragon ?Ball`"}",t,{22145},Dragon Ball
 Pikkon,{DB(Z|S)?},t,{22145},Dragon Ball
 Spinosaurus,"{`"Jurassic Park 3 in One Minute`"}",f,{22146},Jurassic Park 3 in One Minute
@@ -28689,6 +28687,9 @@ The Sixth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{23159},Doctor Who
 The Sixth Doctor,{Who(ni)?verse},t,{23159},Doctor Who
 Colox,"{`"Colox ?\\(Colox`"}",f,{23405},""
 Colox,{Indonesian?},f,{23405},""
+Grotesqua,{DC},f,{24090},DC
+Hurricane Polymar,{Tatsunoko},t,{24091},Tatsunoko
+Zu-Mebio-Da,"{`"Kamen Rider`"}",t,{24092},Kamen Rider
 Jock,"{`"Jock ?\\(Nerd and Jock`"}",f,{23160},Nerd and Jock
 Iron Man,"{`"God(-| )?buster`"}",f,{23161},Godbuster
 Chuck Norris,"{`"World of Warcraft`"}",f,{23163},World of Warcraft
@@ -30064,7 +30065,6 @@ Michiru Kagemori,{(M|BN?)HA},t,{23972},My Hero Academia
 Michiru Kagemori,"{`"Boku no Hero`"}",t,{23972},My Hero Academia
 Wanze,"{`"One ?Piece?`"}",f,{23973},One Piece
 Kipo Oak,"{`"Kipo and the Age of Wonderbeasts`"}",t,{23974},Kipo and the Age of Wonderbeasts
-Loid,"{`"Spy x Family`"}",f,{22144},Spy x Family
 Piper McLean,"{`"Heroes of Olympus`"}",t,{7419},Percy Jackson
 Piper McLean,"{`"Riordan(-| )?(verse)?`"}",t,{7419},Percy Jackson
 Tyson,{Percy},f,{8570},Percy Jackson
@@ -30305,3 +30305,48 @@ Mario,"{`"Mario ?\\(Mario( Bros\\.?)? Movie`"}",f,{24078},The Super Mario Bros. 
 Mario,{Illumination},f,{24078},The Super Mario Bros. Movie
 Mario,"{`"Mario ?\\(Movie\\)`"}",f,{24078},The Super Mario Bros. Movie
 Mario,"{`"Chris Pratt`"}",f,{24078},The Super Mario Bros. Movie
+Ventus,{KH},f,{5165},Kingdom Hearts
+Ventus,{Sora},f,{5165},Kingdom Hearts
+Loid,"{`"Spy x Family`"}",f,{24079},Spy x Family
+The Flash,"{FTL,Vader}",f,"{1582,1583,1590,1589}",DC
+The Knight,{Cuphead},f,"{5612,16088}",Hollow Knight
+Upper Moons,"{`"Demon ?Slayer`"}",t,"{7544,8343,8341}",Demon Slayer
+Upper Moons,"{`"Kimetsu no Yaiba`"}",t,"{7544,8343,8341}",Demon Slayer
+Upper Moons,{KnY},t,"{7544,8343,8341}",Demon Slayer
+Xenk Yendar,"{`"Dungeons (&|and) Dragons`"}",t,{24080},Dungeons & Dragons
+Xenk Yendar,"{`"D ?(&|n) ?D`"}",t,{24080},Dungeons & Dragons
+Xenk Yendar,"{`"Honor Among Thieves`"}",t,{24080},Dungeons & Dragons
+Xenk,"{`"Dungeons (&|and) Dragons`"}",f,{24080},Dungeons & Dragons
+Xenk,"{`"D ?(&|n) ?D`"}",f,{24080},Dungeons & Dragons
+Xenk,"{`"Honor Among Thieves`"}",f,{24080},Dungeons & Dragons
+Sofina,"{`"Dungeons (&|and) Dragons`"}",f,{24081},Dungeons & Dragons
+Sofina,"{`"D ?(&|n) ?D`"}",f,{24081},Dungeons & Dragons
+Sofina,"{`"Honor Among Thieves`"}",f,{24081},Dungeons & Dragons
+Doric,"{`"Dungeons (&|and) Dragons`"}",f,{24082},Dungeons & Dragons
+Doric,"{`"D ?(&|n) ?D`"}",f,{24082},Dungeons & Dragons
+Doric,"{`"Honor Among Thieves`"}",f,{24082},Dungeons & Dragons
+Simon Aumar,"{`"Dungeons (&|and) Dragons`"}",t,{24083},Dungeons & Dragons
+Simon Aumar,"{`"D ?(&|n) ?D`"}",t,{24083},Dungeons & Dragons
+Simon Aumar,"{`"Honor Among Thieves`"}",t,{24083},Dungeons & Dragons
+Simon,"{`"Honor Among Thieves`"}",f,{24083},Dungeons & Dragons
+Holga Kilgore,"{`"Dungeons (&|and) Dragons`"}",t,{24084},Dungeons & Dragons
+Holga Kilgore,"{`"D ?(&|n) ?D`"}",t,{24084},Dungeons & Dragons
+Holga Kilgore,"{`"Honor Among Thieves`"}",t,{24084},Dungeons & Dragons
+Holga,"{`"Honor Among Thieves`"}",f,{24084},Dungeons & Dragons
+Edgin Darvis,"{`"Dungeons (&|and) Dragons`"}",t,{24085},Dungeons & Dragons
+Edgin Darvis,"{`"D ?(&|n) ?D`"}",t,{24085},Dungeons & Dragons
+Edgin Darvis,"{`"Honor Among Thieves`"}",t,{24085},Dungeons & Dragons
+Edgin,"{`"Honor Among Thieves`"}",f,{24085},Dungeons & Dragons
+Talos the Untamed,{616},t,{24086},616
+Jodio Joestar,{Jojos?(verse)?},t,{24087},Jojo's Bizarre Adventure
+Jodio Joestar,{JJBA},t,{24087},Jojo's Bizarre Adventure
+Jodio,{Jojos?(verse)?},f,{24087},Jojo's Bizarre Adventure
+Jodio,{JJBA},f,{24087},Jojo's Bizarre Adventure
+Dragona,{Jojos?(verse)?},f,{24088},Jojo's Bizarre Adventure
+Dragona,{JJBA},f,{24088},Jojo's Bizarre Adventure
+Paco Laburantes,{Jojos?(verse)?},t,{24089},Jojo's Bizarre Adventure
+Paco Laburantes,{JJBA},t,{24089},Jojo's Bizarre Adventure
+Me-Bajisu-Ba,"{`"Kamen Rider`"}",t,{24093},Kamen Rider
+Sam Flynn,{TRON},t,{24092},TRON
+Tron Bonne,"{`"Mega ?Man`"}",t,{24094},Mega Man
+The Phile,{Killer},f,{24095},Killer
