@@ -107,6 +107,110 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13308, 'Respect Wong (Marvel Cinematic Universe)', 'https://redd.it/15eazy4')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Unnamed Pokemon Hunter (Pokemon Anime: Aim To Be A Pokemon Master)', 'https://redd.it/15dlqy2')
+add_data(['Pok(e|é)m(o|a)n Hunter'],
+'Pokémon',
+False,
+False,
+[
+    ['Aim To Be A Pokemon Master']
+],
+'Aim To Be A Pokemon Master',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15dlqy2/respect_unnamed_pokemon_hunter_pokemon_anime_aim/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Mask! (The Mask: Animated Series)', 'https://redd.it/15dxt8a')
+add_data(['The Mask'],
+'The Mask',
+False,
+False,
+[
+    ['Animated Series']
+],
+'Animated Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15dxt8a/respect_the_mask_the_mask_animated_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mikoto Kibitsu! (Peach Boy Riverside)', 'https://redd.it/15e60h7')
+add_data(['Mikoto Kibitsu'],
+'Mikoto Kibitsu',
+False,
+True,
+[
+    ['Peach Boy Riverside']
+],
+'Peach Boy Riverside',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15e60h7/respect_mikoto_kibitsu_peach_boy_riverside/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lily Chilman, the Jungle Fury Yellow Ranger! (Power Rangers Jungle Fury)', 'https://redd.it/15e9ojw')
+add_data(['Lily Chilman'],
+'Lily Chilman',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15e9ojw/respect_lily_chilman_the_jungle_fury_yellow/
+
+add_data(['Yellow Ranger'],
+'Yellow Ranger',
+False,
+False,
+[
+    ['Jungle Fury']
+],
+'Power Rangers Jungle Fury',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15e9ojw/respect_lily_chilman_the_jungle_fury_yellow/
+
+########################################
+
+id = get_rt_id(cur, "Respect Oroku Saki, the Green Ranger Shredder (Mighty Morphin'' Power Rangers/Teenage Mutant Ninja Turtles)", 'https://redd.it/15ec1mn')
+add_data(['Green Ranger Shredder'],
+'Green Ranger Shredder',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15ec1mn/respect_oroku_saki_the_green_ranger_shredder/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scott Wozniak (Scott The Woz)', 'https://redd.it/15eigps')
+add_data(['Scott the Woz'],
+'Scott the Woz',
+False,
+True,
+[
+    ['Scott The Woz vs']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15eigps/respect_scott_wozniak_scott_the_woz/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
