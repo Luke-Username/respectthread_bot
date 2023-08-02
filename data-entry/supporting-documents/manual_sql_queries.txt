@@ -14,16 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Barry', 'Barry Berkman', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Metal Bat', 'A Metal Bat', -2);
-
 ########################################
 
-UPDATE character_name SET name='C(th|t|h)u(tu)?lh?u' WHERE name='Cth?ulhu'; --https://redd.it/15ei24n
-
 ########################################
-
-DELETE FROM character_name WHERE name='Trini Kwan';
 
 ########################################
 
