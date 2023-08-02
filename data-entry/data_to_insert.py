@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 13308, 'Respect Wong (Marvel Cinematic Universe)', 'https://redd.it/15eazy4')
+update_respectthread(cur, 3327, 'Respect Shizuo Heiwajima (Durarara!!)', 'https://redd.it/15fmwhr')
 
 ########################################
 
@@ -210,6 +211,108 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/15eigps/respect_scott_wozniak_scott_the_woz/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ana Helstrom (Helstrom)', 'https://redd.it/15eptny')
+add_data(['Ana Helstrom'],
+'Ana Helstrom',
+False,
+True,
+[
+    ['\(Helstrom\)'], ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15eptny/respect_ana_helstrom_helstrom/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Arion, Lord of Atlantis (DC Pre-Flashpoint)', 'https://redd.it/15fe8gd')
+add_data(['Arion'],
+'Arion',
+False,
+False,
+[
+    ['Pre(-| )?Flashpoint']
+],
+'Pre-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15fe8gd/respect_arion_lord_of_atlantis_dc_preflashpoint/
+
+add_data(['Arion'],
+'Arion',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'], ['Arion the Immortal', 'DC']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15fe8gd/respect_arion_lord_of_atlantis_dc_preflashpoint/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Moses Magnum (Marvel 616)', 'https://redd.it/15fe8kz')
+add_data(['Moses Magnum'],
+'Moses Magnum',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15fe8kz/respect_moses_magnum_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Elphaba (Wicked: The Life and Times of the Wicked Witch of the West)', 'https://redd.it/15fe8il')
+add_data(['Elphaba'],
+'Elphaba',
+False,
+False,
+[
+    ['Life and Times of the Wicked Witch of the West']
+],
+'Wicked: The Life and Times of the Wicked Witch of the West',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Troll King (Troll)', 'https://redd.it/15fgdle')
+add_data(['Troll King'],
+'Troll King',
+False,
+False,
+[
+    ['\(Troll\)'], ['Netflix']
+],
+'Troll',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15fgdle/respect_the_troll_king_troll/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bad Mr. Frosty (ClayFighter)', 'https://redd.it/15fva7a')
+add_data(['Bad Mr\.? Frosty'],
+'Bad Mr. Frosty',
+False,
+True,
+[
+    ['ClayFighter']
+],
+'ClayFighter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15fva7a/respect_bad_mr_frosty_clayfighter/
 
 ########################################
 
