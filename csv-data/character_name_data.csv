@@ -725,8 +725,6 @@ Pikachus?,Pikachu,f
 Obi(-| )W(a|o)ns?,Obi-Wan Kenobi,f
 Avengers,Avengers,t
 General Gr(iev|evi|eiv)ous,General Grievous,f
-Xenomorphs,Xenomorphs,f
-Xenomorph,Xenomorphs,f
 Alien Queen,Xenomorphs,f
 Drone,Drone,f
 Facehugger,Facehugger,f
@@ -867,6 +865,7 @@ Ghost ?Rider,Ghost Rider,f
 Drones,Drones,f
 Jason Voo?rhee?s,Jason Voorhees,f
 Alphonse Elric,Alphonse Elric,f
+Xeno(m|n)orphs?,Xenomorphs,f
 Jasper,Jasper,f
 Ares,Ares,f
 Poseidon,Poseidon,f
@@ -3652,7 +3651,6 @@ Ogdru Hem,Ogdru Hem,f
 Yomyael,Yomyael,f
 Varvara,Varvara,f
 Allen the Alien,Allen the Alien,f
-Battle Beast,Battle Beast,f
 Best Tiger,Best Tiger,f
 Dinosaurus,Dinosaurus,f
 Invincible,Invincible,f
@@ -3751,6 +3749,7 @@ Bor,Bor,f
 Bor B(ú|u)rison,Bor Búrison,f
 Indo ?raptors?,Indoraptor,f
 Inklings,Inklings,f
+Battle ?Beast,Battle Beast,f
 Hong Meiling,Hong Meiling,f
 Javik,Javik,f
 Thalia,Thalia,f
@@ -13914,3 +13913,4 @@ Arion,Arion,f
 Moses Magnum,Moses Magnum,f
 Elphaba,Elphaba,f
 Bad Mr\\.? Frosty,Bad Mr. Frosty,f
+Revendread Slayer,Revendread Slayer,f

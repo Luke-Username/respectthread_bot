@@ -14,11 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Xeno(m|n)orphs?' WHERE name='Xenomorph';
-DELETE FROM character_name WHERE name='Xenomorphs';
-
-UPDATE character_name SET name='Battle ?Beast' WHERE name='Battle Beast';
-
 ########################################
 
 ########################################
