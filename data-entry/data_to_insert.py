@@ -107,6 +107,37 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 14395, 'Respect SCP-4233, The Sea Champion! (SCP Foundation)', 'https://redd.it/15ismvr')
+
+########################################
+
+add_data(['Jason'],
+'Jason',
+False,
+False,
+[
+    ['Friday the 13(th)?'], ['Camp Crystal Lake']
+],
+'Friday the 13th',
+'{434}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15j7865/goku_is_stripped_of_his_powers_and_sent_to_camp/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-7233, The Astroneer! (SCP Foundation)', 'https://redd.it/15jdewq')
+add_data(['SCP ?(-| )? ?7233'],
+'SCP-7233',
+False,
+True,
+[
+    ['Astroneer'], ['SCP Foundation']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15jdewq/respect_scp7233_the_astroneer_scp_foundation/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
