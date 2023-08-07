@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 14395, 'Respect SCP-4233, The Sea Champion! (SCP Foundation)', 'https://redd.it/15ismvr')
+update_respectthread(cur, 536, 'Respect Rama! (The Raid)', 'https://redd.it/15jl51j')
 
 ########################################
 
@@ -137,6 +138,66 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/15jdewq/respect_scp7233_the_astroneer_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lum (Urusei Yatsura)', 'https://redd.it/15jrzh7')
+add_data(['Lum'],
+'Lum',
+False,
+False,
+[
+    ['Urusei Yatsura']
+],
+'Urusei Yatsura',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15jrzh7/respect_lum_urusei_yatsura/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ataru Moroboshi (Urusei Yatsura)', 'https://redd.it/15jsbjg')
+add_data(['Ataru Moroboshi'],
+'Ataru Moroboshi',
+False,
+True,
+[
+    ['Urusei Yatsura']
+],
+'Urusei Yatsura',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15jsbjg/respect_ataru_moroboshi_urusei_yatsura/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Bright King, Anji (Rurouni Kenshin)', 'https://redd.it/15jt92b')
+add_data(['Anji'],
+'Anji',
+False,
+False,
+[
+    ['Rurouni Kenshin']
+],
+'Rurouni Kenshin',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15jt92b/respect_the_bright_king_anji_rurouni_kenshin/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vic and Blood (A Boy and His Dog)', 'https://redd.it/15jw4so')
+add_data(['Vic and Blood'],
+'Vic and Blood',
+True,
+False,
+[
+    ['Boy and His Dog']
+],
+'A Boy and His Dog',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15jw4so/respect_vic_and_blood_a_boy_and_his_dog/
 
 ########################################
 
