@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Ry(ū|u)u?ko Matoi' WHERE name='Ry(ū|u)u?ko';
+
 ########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='Portal Gun';
 
 ########################################
 

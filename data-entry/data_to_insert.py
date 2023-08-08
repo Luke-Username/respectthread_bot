@@ -126,6 +126,20 @@ False,
 
 ########################################
 
+add_data(['Ry(ū|u)u?ko'],
+'Ryuko',
+False,
+False,
+[
+    ['Kill la Kill'], ['KLK']
+],
+'Kill la Kill',
+'{3707}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15k76wz/team_miraculous_miraculous_ladybug_invade_renment/
+
+########################################
+
 id = get_rt_id(cur, 'Respect SCP-7233, The Astroneer! (SCP Foundation)', 'https://redd.it/15jdewq')
 add_data(['SCP ?(-| )? ?7233'],
 'SCP-7233',
