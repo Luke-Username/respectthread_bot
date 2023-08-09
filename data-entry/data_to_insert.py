@@ -215,6 +215,124 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Sol''s Hammer (Marvel, Earth-616)", 'https://redd.it/15kvwys')
+add_data(["Sol''s Hammer"],
+"Sol''s Hammer",
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15kvwys/respect_sols_hammer_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Silvermane (Marvel, 616)', 'https://redd.it/15lg7k4')
+add_data(['Silvermane'],
+'Silvermane',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Storm! (Marvel Anime)', 'https://redd.it/15lqer4')
+add_data(['Storm'],
+'Storm',
+False,
+False,
+[
+    ['Marvel Anime']
+],
+'Marvel Anime',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15lqer4/respect_storm_marvel_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Avar Kriss (Star Wars Canon)', 'https://redd.it/15l307j')
+add_data(['Avar Kriss'],
+'Avar Kriss',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15l307j/respect_avar_kriss_star_wars_canon/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Nanotech Monster (Godzilla: The Series)', 'https://redd.it/15l76il')
+add_data(['Nanotech Monster'],
+'Nanotech Monster',
+False,
+False,
+[
+    ['Godzilla:? The Series']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15l76il/respect_the_nanotech_monster_godzilla_the_series/
+
+add_data(['Nanotech Creature'],
+'Nanotech Creature',
+False,
+False,
+[
+    ['Godzilla:? The Series']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15l76il/respect_the_nanotech_monster_godzilla_the_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Keiji (Rooster Fighter)', 'https://redd.it/15mdlbm')
+add_data(['Keiji'],
+'Keiji',
+False,
+False,
+[
+    ['Rooster Fighter']
+],
+'Rooster Fighter',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nautilus (Ex-Heroes)', 'https://redd.it/15mrqje')
+add_data(['Nautilus'],
+'Nautilus',
+False,
+False,
+[
+    ['Ex(-| )Heroes']
+],
+'Ex-Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15mrqje/respect_nautilus_exheroes/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
