@@ -20041,10 +20041,6 @@ Aperture Science,{Portal},t,{5676},Portal
 GLaDOS,{Portal},t,{5676},Portal
 ATLAS and P-Body,{Portal},t,{5676},Portal
 Portal Turrets,{Portal},t,{5676},""
-Portal Gun,"{`"\\(Portal`"}",t,{5676},Portal
-Portal Gun,{Chell},t,{5676},Portal
-Portal Gun,{Rick},f,{},""
-Portal Gun,{Morty},f,{},""
 Chell,{Portal},t,{5676},Portal
 Edward Falcon,"{`"Power Stone`"}",t,{5677},Power Stone
 Prince of Persia,"{`"Sands of Time`"}",t,{5678},""
@@ -20104,6 +20100,10 @@ Parasoul,"{`"Skull ?girls`"}",t,{5712},Skullgirls
 Painwheel,"{`"Skull ?girls`"}",t,{5712},Skullgirls
 Ratchet,{Clank},f,"{5689,21294,21295}",Ratchet & Clank
 Little Mac,"{`"Punch(-| )Out`"}",t,{5686},Punch-Out!!
+Portal Gun,"{`"\\(Portal`"}",f,{5676},Portal
+Portal Gun,{Chell},f,{5676},Portal
+Portal Gun,{Rick},f,{},""
+Portal Gun,{Morty},f,{},""
 Valentine,"{`"Skull ?girls`"}",f,{5712},Skullgirls
 Double,"{`"Skull ?girls`"}",f,{5712},Skullgirls
 Squigly,"{`"Skull ?girls`"}",f,{5712},Skullgirls
@@ -30376,3 +30376,21 @@ Leonardo,"{`"Turtle Ranger`"}",f,{24119},Mighty Morphin' Power Rangers/Teenage M
 Donatello,"{`"Turtle Ranger`"}",f,{24120},Mighty Morphin' Power Rangers/Teenage Mutant Ninja Turtles
 Michelangelo,"{`"Turtle Ranger`"}",f,{24121},Mighty Morphin' Power Rangers/Teenage Mutant Ninja Turtles
 Revendread Slayer,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{24122},Yu-Gi-Oh!
+Jason,"{`"Friday the 13(th)?`"}",f,{434},Friday the 13th
+Jason,"{`"Camp Crystal Lake`"}",f,{434},Friday the 13th
+Ryuko,"{`"Kill la Kill`"}",f,{3707},Kill la Kill
+Ryuko,{KLK},f,{3707},Kill la Kill
+SCP-7233,{Astroneer},t,{24123},""
+SCP-7233,"{`"SCP Foundation`"}",t,{24123},""
+Lum,"{`"Urusei Yatsura`"}",f,{24124},Urusei Yatsura
+Ataru Moroboshi,"{`"Urusei Yatsura`"}",t,{24125},Urusei Yatsura
+Anji,"{`"Rurouni Kenshin`"}",f,{24126},Rurouni Kenshin
+Vic and Blood,"{`"Boy and His Dog`"}",f,{24127},A Boy and His Dog
+Sol's Hammer,{616},t,{24128},616
+Silvermane,{616},t,{24129},616
+Storm,"{`"Marvel Anime`"}",f,{24130},Marvel Anime
+Avar Kriss,"{`"S(tar )?Wars`"}",t,{24131},Star Wars
+Nanotech Monster,"{`"Godzilla:? The Series`"}",f,{24132},Godzilla: The Series
+Nanotech Creature,"{`"Godzilla:? The Series`"}",f,{24132},Godzilla: The Series
+Keiji,"{`"Rooster Fighter`"}",f,{24133},Rooster Fighter
+Nautilus,"{`"Ex(-| )Heroes`"}",f,{24134},Ex-Heroes
