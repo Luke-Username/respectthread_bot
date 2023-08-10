@@ -107,6 +107,9 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 7699, 'Respect Shuri (Marvel Cinematic Universe)', 'https://redd.it/15n0san')
+update_respectthread(cur, 5585, 'Respect Dustforce (Dustforce)', 'https://redd.it/15nalb8')
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
