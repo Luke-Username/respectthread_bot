@@ -109,6 +109,52 @@ cur = con.cursor()
 
 update_respectthread(cur, 7699, 'Respect Shuri (Marvel Cinematic Universe)', 'https://redd.it/15n0san')
 update_respectthread(cur, 5585, 'Respect Dustforce (Dustforce)', 'https://redd.it/15nalb8')
+update_respectthread(cur, 4935, 'Respect Captain Harlock [Space Pirate Captain Harlock]', 'https://redd.it/15pziz8')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mazinger ZERO [Shin Mazinger Zero] NSFW', 'https://redd.it/15ol2or')
+add_data(['Mazinger Z(ERO)?'],
+'Mazinger ZERO',
+False,
+True,
+[
+    ['Shin Mazinger Zero'], ['Mazinger Z']
+],
+'Shin Mazinger Zero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15ol2or/respect_mazinger_zero_shin_mazinger_zero_nsfw/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 73: the Dragon-Slayer (Marvel, Earth-616)', 'https://redd.it/15pf8sp')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Dragon(-| )Slayer'], ['Model 73']
+],
+'Dragon-Slayer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15pf8sp/respect_iron_man_model_73_the_dragonslayer_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Loden Greatstorm (Star Wars Canon)', 'https://redd.it/15phbf7')
+add_data(['Loden Greatstorm'],
+'Loden Greatstorm',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15phbf7/respect_loden_greatstorm_star_wars_canon/
 
 ########################################
 
