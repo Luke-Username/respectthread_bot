@@ -107,6 +107,79 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 8144, 'Respect Nakia (Marvel Cinematic Universe)', 'https://redd.it/15qrhdk')
+
+########################################
+
+add_data(['Gojos'],
+'Gojos',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK'], ['Infinity']
+],
+'Jujutsu Kaisen',
+'{14809}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15qt4in/could_a_timestop_bypass_gojos_infinity_jjk/
+
+add_data(['Gojo'],
+'Gojo',
+False,
+False,
+[
+    ['Infinity']
+],
+'Jujutsu Kaisen',
+'{14809}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15qt4in/could_a_timestop_bypass_gojos_infinity_jjk/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Model 4 War Machine (Marvel Comics, 616)', 'https://redd.it/15qcfz9')
+add_data(['War Machine'],
+'War Machine',
+False,
+False,
+[
+    ['Model 4']
+],
+'Model 4',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15qcfz9/respect_the_model_4_war_machine_marvel_comics_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kokken Sabi (Katanagatari/Kyotou Yasuri)', 'https://redd.it/15qgmbt')
+add_data(['Kokken Sabi'],
+'Kokken Sabi',
+False,
+True,
+[
+    ['Katanagatari'], ['Kyotou Yasuri']
+],
+'Katanagatari',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15qgmbt/respect_kokken_sabi_katanagatarikyotou_yasuri/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Stellan Gios (Star Wars Canon)', 'https://redd.it/15qil1d')
+add_data(['Stellan Gios'],
+'Stellan Gios',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15qil1d/respect_stellan_gios_star_wars_canon/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
