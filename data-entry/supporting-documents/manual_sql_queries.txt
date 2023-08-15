@@ -18,6 +18,8 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('vs.? Venom', 'vs
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Katarina';
+
 ########################################
 
 ########################################

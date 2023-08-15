@@ -111,6 +111,20 @@ update_respectthread(cur, 8144, 'Respect Nakia (Marvel Cinematic Universe)', 'ht
 
 ########################################
 
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Arkham Batman']
+],
+'Batman: Arkham',
+'{17381}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15rokx0/the_batman_cartoon_vs_arkham_batman_video_games/jw9ksnv/?context=3
+
+########################################
+
 add_data(['Gojos'],
 'Gojos',
 False,
@@ -152,6 +166,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Iron Man Model 6: Hydro Armor Mark 1 (Marvel, Earth-616)', 'https://redd.it/15rtok8')
+add_data(['Hydro Armor Mark (I|1)'],
+'Hydro Armor Mark I',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Kokken Sabi (Katanagatari/Kyotou Yasuri)', 'https://redd.it/15qgmbt')
 add_data(['Kokken Sabi'],
 'Kokken Sabi',
@@ -179,6 +208,76 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/15qil1d/respect_stellan_gios_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bilbo Baggins (The Hobbit/Lord of the Rings)', 'https://redd.it/15rxne6')
+add_data(['Bilbo Baggins'],
+'Bilbo Baggins',
+False,
+True,
+[
+    ['L(ord )?o(f )?t(he )?R(ings)?'], ['Hobbit']
+],
+'Lord of the Rings',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15rxne6/respect_bilbo_baggins_the_hobbitlord_of_the_rings/
+
+add_data(['Bilbo'],
+'Bilbo',
+False,
+True,
+[
+    ['L(ord )?o(f )?t(he )?R(ings)?'], ['Hobbit']
+],
+'Lord of the Rings',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15rxne6/respect_bilbo_baggins_the_hobbitlord_of_the_rings/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Artoria Caster! (Fate/Grand Order)', 'https://redd.it/15r6iom')
+add_data(['Artoria Caster'],
+'Artoria Caster',
+False,
+True,
+[
+    ['Fate(verse)?'], ['Grande? Order'], ['F(ate )?/?GO']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15r6iom/respect_artoria_caster_fategrand_order/
+
+add_data(['Artoria'],
+'Artoria',
+False,
+False,
+[
+    ['Artoria \(Caster\)']
+],
+'Caster',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15r6iom/respect_artoria_caster_fategrand_order/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nale, Herald of Justice (The Stormlight Archive)', 'https://redd.it/15r4jve')
+add_data(['Nale'],
+'Nale',
+False,
+False,
+[
+    ['Storm ?light']
+],
+'The Stormlight Archive',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15r4jve/respect_nale_herald_of_justice_the_stormlight/
 
 ########################################
 
