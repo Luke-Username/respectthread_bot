@@ -495,7 +495,6 @@ Misaki Shokuhou,Shokuhou Misaki,f
 Carol,Carol,f
 Corvus Glaive,Corvus Glaive,f
 Brock Rumlow,Crossbones,f
-Mikoto Misaka,Mikoto Misaka,f
 Dormammu,Dormammu,f
 Bucky Barnes,Winter Soldier,f
 Bucky,Bucky,f
@@ -581,6 +580,7 @@ Scarlett? Witch,Scarlet Witch,f
 Cap(tain)? Marvel,Captain Marvel,f
 Ca?pt((ai|ia)n)? Americas?,Captain America,f
 Hellboys?,Hellboy,f
+M(i|a)koto Misaka|Misaka M(i|a)koto,Mikoto Misaka,f
 Vulture,Vulture,f
 Yellowjacket,Yellowjacket,f
 Darren Cross,Yellowjacket,f
@@ -13928,3 +13928,12 @@ Nanotech Creature,Nanotech Creature,f
 Nautilus,Nautilus,f
 Mazinger Z(ERO)?,Mazinger ZERO,f
 Loden Greatstorm,Loden Greatstorm,f
+Gojos,Gojos,f
+Hydro Armor Mark (I|1),Hydro Armor Mark I,f
+Kokken Sabi,Kokken Sabi,f
+Stellan Gios,Stellan Gios,f
+Vernestra Rwoh,Vernestra Rwoh,f
+Bilbo Baggins,Bilbo Baggins,f
+Bilbo,Bilbo,f
+Artoria Caster,Artoria Caster,f
+Artoria,Artoria,f

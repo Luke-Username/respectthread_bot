@@ -7170,8 +7170,6 @@ Swain,{LOL},f,{8129},League of Legends
 Swain,{Noxus},f,{8129},League of Legends
 Sion,"{`"League of Legends`"}",f,{8130},League of Legends
 Sion,{LOL},f,{8130},League of Legends
-Katarina,"{`"League of Legends`"}",t,{8131},League of Legends
-Katarina,{LOL},t,{8131},League of Legends
 Warwick,"{`"League of Legends`"}",f,{8132},League of Legends
 Warwick,{LOL},f,{8132},League of Legends
 Draven,"{`"League of Legends`"}",f,{8133},League of Legends
@@ -7210,6 +7208,8 @@ Banshee,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
 Jubilee,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
 Skin,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
 M,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
+Katarina,"{`"League of Legends`"}",f,{8131},League of Legends
+Katarina,{LOL},f,{8131},League of Legends
 Buff,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
 Mondo,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
 Refrax,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
@@ -15323,8 +15323,6 @@ Nui,"{`"Kill La Kill`"}",f,{3704},Kill La Kill
 Nui,{KLK},f,{3704},Kill La Kill
 One-Stars,"{`"Kill La Kill`"}",f,{3705},Kill La Kill
 One-Stars,{KLK},f,{3705},Kill La Kill
-Ragyō Kiryūin,"{`"Kill La Kill`"}",t,{3706},Kill La Kill
-Ragyō Kiryūin,{KLK},t,{3706},Kill La Kill
 Ryūko Matoi,"{`"Kill La Kill`"}",t,{3707},Kill La Kill
 Ryūko Matoi,{KLK},t,{3707},Kill La Kill
 Tsumugu Kinagase,"{`"Kill La Kill`"}",t,{3708},Kill La Kill
@@ -15338,6 +15336,7 @@ Uzu,{KLK},f,{3709},Kill La Kill
 Baku Koshin,{Kingdom},t,{3710},Kingdom
 Genbou,{Kingdom},f,{3711},Kingdom
 Go Kei,{Kingdom},t,{3712},Kingdom
+Ragyō Kiryūin,"{`"Kill La Kill`"}",t,{},Kill La Kill
 Gouma Clan,{Kingdom},t,{3713},Kingdom
 Hyou,{Kingdom},f,{3714},Kingdom
 Kai Shi Bou,{Kingdom},t,{3715},Kingdom
@@ -30399,3 +30398,24 @@ Mazinger ZERO,"{`"Mazinger Z`"}",t,{24135},Shin Mazinger Zero
 Iron Man,"{`"Dragon(-| )Slayer`"}",f,{24136},Dragon-Slayer
 Iron Man,"{`"Model 73`"}",f,{24136},Dragon-Slayer
 Loden Greatstorm,"{`"S(tar )?Wars`"}",t,{24137},Star Wars
+Ragyō Kiryūin,{KLK},t,{},Kill La Kill
+Batman,"{`"Arkham Batman`"}",f,{17381},Batman: Arkham
+Gojos,"{`"Jujus?t?s?u Kaisen`"}",f,{14809},Jujutsu Kaisen
+Gojos,{JJK},f,{14809},Jujutsu Kaisen
+Gojos,{Infinity},f,{14809},Jujutsu Kaisen
+Gojo,{Infinity},f,{14809},Jujutsu Kaisen
+War Machine,"{`"Model 4`"}",f,{24138},Model 4
+Hydro Armor Mark I,{616},t,{24139},616
+Kokken Sabi,{Katanagatari},t,{24140},Katanagatari
+Kokken Sabi,"{`"Kyotou Yasuri`"}",t,{24140},Katanagatari
+Stellan Gios,"{`"S(tar )?Wars`"}",t,{24141},Star Wars
+Vernestra Rwoh,"{`"S(tar )?Wars`"}",t,{24142},Star Wars
+Bilbo Baggins,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{24143},Lord of the Rings
+Bilbo Baggins,{Hobbit},t,{24143},Lord of the Rings
+Bilbo,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{24143},Lord of the Rings
+Bilbo,{Hobbit},t,{24143},Lord of the Rings
+Artoria Caster,{Fate(verse)?},t,{24144},Fate
+Artoria Caster,"{`"Grande? Order`"}",t,{24144},Fate
+Artoria Caster,"{`"F(ate )?/?GO`"}",t,{24144},Fate
+Artoria,"{`"Artoria \\(Caster\\)`"}",f,{24144},Caster
+Nale,"{`"Storm ?light`"}",f,{24145},The Stormlight Archive

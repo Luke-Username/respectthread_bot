@@ -14,19 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('vs.? Venom', 'vs Venom Snake', -3);
+########################################
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Katarina';
-
 ########################################
-
-UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{3706}';
-
-########################################
-
-UPDATE character_name SET name='M(i|a)koto Misaka|Misaka M(i|a)koto' WHERE name='Mikoto Misaka';
 
 ########################################
 
