@@ -211,6 +211,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Vernestra Rwoh (Star Wars Canon)', 'https://redd.it/15tbdyr')
+add_data(['Vernestra Rwoh'],
+'Vernestra Rwoh',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15tbdyr/respect_vernestra_rwoh_star_wars_canon/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Bilbo Baggins (The Hobbit/Lord of the Rings)', 'https://redd.it/15rxne6')
 add_data(['Bilbo Baggins'],
 'Bilbo Baggins',
