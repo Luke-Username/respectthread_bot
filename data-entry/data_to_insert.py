@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Predator ?\(Prey\)']
+],
+'Prey',
+'{22550}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15uu57v/predator_prey_vs_chewbacca_star_wars/jwrkcmo/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Lusamine (Pokemon Anime)', 'https://redd.it/15us9ar')
 add_data(['Lusamine'],
 'Lusamine',
