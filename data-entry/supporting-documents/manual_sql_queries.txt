@@ -18,6 +18,9 @@ UPDATE character SET version='{"Wreck(-| )It(-| )Ralph"}' WHERE version='{"Wreck
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Usagiyama Rumi | Miruko | Rabbit Hero | Respect Thread', 'https://comicvine.gamespot.com/forums/gen-discussion-1/usagiyama-rumi-miruko-rabbit-hero-respect-thread-2233238/'); SELECT * FROM respectthread WHERE link='https://comicvine.gamespot.com/forums/gen-discussion-1/usagiyama-rumi-miruko-rabbit-hero-respect-thread-2233238/';
+UPDATE character SET rt_id_array='{8612, ?}' WHERE rt_id_array='{8612}';
+
 ########################################
 
 ########################################
