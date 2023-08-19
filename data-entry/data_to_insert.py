@@ -107,62 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Predator'],
-'Predator',
-False,
-False,
-[
-    ['Predator ?\(Prey\)']
-],
-'Prey',
-'{22550}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/15uu57v/predator_prey_vs_chewbacca_star_wars/jwrkcmo/?context=3
-
-########################################
-
-add_data(['Predators'],
-'Predators',
-False,
-False,
-[
-    ['first movie'], ['How many predators']
-],
-'',
-'{2799,13507}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/15uw4sh/how_many_predators_would_it_take_to_beat_lore/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Lusamine (Pokemon Anime)', 'https://redd.it/15us9ar')
-add_data(['Lusamine'],
-'Lusamine',
-False,
-True,
-[
-    ['Pok(e|é)m(o|a)n']
-],
-'Pokémon',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/15us9ar/respect_lusamine_pokemon_anime/
-
-########################################
-
-id = get_rt_id(cur, 'Respect the House (House, 1977)', 'https://redd.it/15veg94')
-add_data(['House'],
-'House',
-False,
-False,
-[
-    ['1977']
-],
-'1977',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/15veg94/respect_the_house_house_1977/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

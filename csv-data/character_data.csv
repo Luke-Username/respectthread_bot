@@ -5336,7 +5336,6 @@ Carl Fredricksen,{Up},t,{1237},Up
 EVE,{WALL-E},f,{1238},WALL-E
 Victor Quartermaine,{Wallace|Gromit},t,{1239},Wallace and Gromit
 Wonder Woman,{2009},f,{1240},2009 film
-Ralph,"{`"Wreck(-| )It Ralph`"}",f,{1241},Wreck-It Ralph
 Judy,{Zootopia},f,{1242},Zootopia
 Judy Hopps,{Zootopia},t,{1242},Zootopia
 asdf,{asdf},t,"{1243,1244,1245}",""
@@ -5360,6 +5359,7 @@ Interstellar Legion,"{`"College Humor`"}",f,{1258},College Humor
 Kim Jong Un,"{`"College Humor`"}",f,{1259},College Humor
 Mothman,"{`"Cyanide (and|&) Happiness`"}",f,{1260},Cyanide & Happiness
 Señor Cleanfist,"{`"Cyanide (and|&) Happiness`"}",t,{1261},Cyanide & Happiness
+Ralph,"{`"Wreck(-| )It(-| )Ralph`"}",f,{1241},Wreck-It Ralph
 Shark Rad,"{`"Cyanide (and|&) Happiness`"}",t,{1262},Cyanide & Happiness
 Ted Bear,"{`"Cyanide (and|&) Happiness`"}",t,{2931},Cyanide & Happiness
 Akuma,"{`"One Minute Melee`"}",f,{1264},One Minute Melee
@@ -9608,18 +9608,6 @@ Gran Torino,{BN?HA},f,{8611},My Hero Academia
 Gran Torino,{MHA},f,{8611},My Hero Academia
 Gran Torino,"{`"Boku no Hero`"}",f,{8611},My Hero Academia
 Gran Torino,"{`"Class ?1(-| )?a`"}",f,{8611},My Hero Academia
-Mirko,"{`"My Hero Academia`"}",f,{8612},My Hero Academia
-Mirko,"{`"\\(My Hero\\)`"}",f,{8612},My Hero Academia
-Mirko,{BN?HA},f,{8612},My Hero Academia
-Mirko,{MHA},f,{8612},My Hero Academia
-Mirko,"{`"Boku no Hero`"}",f,{8612},My Hero Academia
-Mirko,"{`"Class ?1(-| )?a`"}",f,{8612},My Hero Academia
-Rumi Usagiyama,"{`"My Hero Academia`"}",t,{8612},My Hero Academia
-Rumi Usagiyama,"{`"\\(My Hero\\)`"}",t,{8612},My Hero Academia
-Rumi Usagiyama,{BN?HA},t,{8612},My Hero Academia
-Rumi Usagiyama,{MHA},t,{8612},My Hero Academia
-Rumi Usagiyama,"{`"Boku no Hero`"}",t,{8612},My Hero Academia
-Rumi Usagiyama,"{`"Class ?1(-| )?a`"}",t,{8612},My Hero Academia
 Chargebolt,"{`"My Hero Academia`"}",f,{8613},My Hero Academia
 Chargebolt,"{`"\\(My Hero\\)`"}",f,{8613},My Hero Academia
 Chargebolt,{BN?HA},f,{8613},My Hero Academia
@@ -9670,6 +9658,7 @@ Trina,"{`"Big Hero`"}",f,{10860},Big Hero 6
 Hardlight,"{`"Big Hero`"}",f,{10861},Big Hero 6
 El Fuego,"{`"Big Hero`"}",f,{10862},Big Hero 6
 Baymax,"{`"Big Hero`"}",t,"{10863,2430}",Big Hero 6
+Mirko,"{`"My Hero Academia`"}",f,"{8612,24146}",My Hero Academia
 Algrim,{616},t,{1973},616
 Algrim,{comics?},t,{1973},616
 Laufey,{616},t,{1974},616
@@ -30419,3 +30408,19 @@ Artoria Caster,"{`"Grande? Order`"}",t,{24144},Fate
 Artoria Caster,"{`"F(ate )?/?GO`"}",t,{24144},Fate
 Artoria,"{`"Artoria \\(Caster\\)`"}",f,{24144},Caster
 Nale,"{`"Storm ?light`"}",f,{24145},The Stormlight Archive
+Mirko,"{`"\\(My Hero\\)`"}",f,"{8612,24146}",My Hero Academia
+Mirko,{BN?HA},f,"{8612,24146}",My Hero Academia
+Mirko,{MHA},f,"{8612,24146}",My Hero Academia
+Mirko,"{`"Boku no Hero`"}",f,"{8612,24146}",My Hero Academia
+Mirko,"{`"Class ?1(-| )?a`"}",f,"{8612,24146}",My Hero Academia
+Rumi Usagiyama,"{`"My Hero Academia`"}",t,"{8612,24146}",My Hero Academia
+Rumi Usagiyama,"{`"\\(My Hero\\)`"}",t,"{8612,24146}",My Hero Academia
+Rumi Usagiyama,{BN?HA},t,"{8612,24146}",My Hero Academia
+Rumi Usagiyama,{MHA},t,"{8612,24146}",My Hero Academia
+Rumi Usagiyama,"{`"Boku no Hero`"}",t,"{8612,24146}",My Hero Academia
+Rumi Usagiyama,"{`"Class ?1(-| )?a`"}",t,"{8612,24146}",My Hero Academia
+Predator,"{`"Predator ?\\(Prey\\)`"}",f,{22550},Prey
+Predators,"{`"first movie`"}",f,"{2799,13507}",""
+Predators,"{`"How many predators`"}",f,"{2799,13507}",""
+Lusamine,{Pok(e|é)m(o|a)n},t,{24147},Pokémon
+House,{1977},f,{24148},1977
