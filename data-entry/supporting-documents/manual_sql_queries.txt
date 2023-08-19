@@ -14,6 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Wolverine', 'A Wolverine', -2);
 
 ########################################
 
