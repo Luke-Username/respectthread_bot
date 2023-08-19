@@ -23,6 +23,8 @@ UPDATE character SET rt_id_array='{8612, ?}' WHERE rt_id_array='{8612}';
 
 ########################################
 
+UPDATE character_name SET name='Wolf Predators?|Predators? Wolfs?' WHERE name='Wolf Predator';
+
 ########################################
 
 ########################################
