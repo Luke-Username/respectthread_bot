@@ -107,6 +107,125 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 14396, 'Respect SCP-1233, The Moon Champion! (SCP Foundation)', 'https://redd.it/15vu9ki')
+
+########################################
+
+add_data(['The Flash'],
+'The Flash',
+False,
+False,
+[
+    ['version of The Flash']
+],
+'DC',
+'{1582,1583,1590,1589}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15wmc8v/which_version_of_the_flash_could_speedrunner/jx1nq6h/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Armor Model 17: Experimental Safe Armor (Marvel, 616)', 'https://redd.it/15vp857')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Experimental Safe Armor']
+],
+'Experimental Safe Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15vp857/respect_iron_man_armor_model_17_experimental_safe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 56: Fresh Start (Marvel, Earth-616)', 'https://redd.it/15x4bid')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 56']
+],
+'Model 56',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15x4bid/respect_iron_man_model_56_fresh_start_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 59 (Marvel, Earth-616)', 'https://redd.it/15x4cso')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 59']
+],
+'Model 59',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15x4bid/respect_iron_man_model_56_fresh_start_marvel/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 12, The Telepresence Armor! (Marvel Comics, Earth-616)', 'https://redd.it/15vyzk1')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 12'], ['Telepresence Armor']
+],
+'Model 56',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Charlie McGee (Firestarter, 2022)', 'https://redd.it/15wahu2')
+add_data(['Charlie McGee'],
+'Charlie McGee',
+False,
+False,
+[
+    ['2022']
+],
+'Firestarter, 2022',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15wahu2/respect_charlie_mcgee_firestarter_2022/
+
+add_data(['Charlie'],
+'Charlie',
+False,
+False,
+[
+    ['Firestarter', '2022']
+],
+'Firestarter, 2022',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15wahu2/respect_charlie_mcgee_firestarter_2022/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Giolla (One Piece)', 'https://redd.it/15wt92r')
+add_data(['Giolla'],
+'Giolla',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15wt92r/respect_giolla_one_piece/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
