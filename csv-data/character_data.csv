@@ -20697,8 +20697,6 @@ Lester,"{`"Heart of the Alien`"}",f,{15406},Another World
 Buddy,"{`"Buddy ?\\(Another World`"}",f,{15406},Another World
 Buddy,"{`"Heart of the Alien`"}",f,{15406},Another World
 Hiro Miyamoto,{Daikatana},t,{15407},Daikatana
-Impa,"{`"Hyrule Warriors`"}",f,{15408},Hyrule Warriors
-Impa,"{`"Age of Calamity`"}",f,{15408},Hyrule Warriors
 Geeko Nokomura,"{`"Chimamire Sukeban Chainsaw`"}",t,{15409},Chimamire Sukeban Chainsaw
 Conan 2099,{TRN767},t,{15410},Earth-TRN767
 Kyle Rayner,"{`"New(-| )?52`"}",f,{15411},New 52 / Rebirth
@@ -20725,6 +20723,8 @@ Kyle Rayner,"{`"Kyle Rayner ?\\(DC( Comics)?\\)`"}",t,"{1685,15411}",DC
 Kyle Rayner,"{`"Green Lantern ?\\(Kyle Rayner`"}",t,"{1685,15411}",DC
 Kyle Rayner,"{`"White Lantern`"}",t,"{1685,15411}",DC
 Tall Man,{Phantasm},f,{15416},Phantasm
+Impa,"{`"Hyrule Warriors`"}",f,"{15408,24149}",Hyrule Warriors
+Impa,"{`"Age of Calamity`"}",f,"{15408,24149}",Hyrule Warriors
 Flex Mentallo,{DC},t,"{1860,15275}",DC
 Mister Negative,{PS4},f,{15398},Insomniac's Spider-Man
 Mister Negative,{1048},f,{15398},Insomniac's Spider-Man
@@ -27100,8 +27100,6 @@ Saint Walker,"{`"Post(-| )Flash(-| )?point`"}",f,{22097},Flashpoint
 Captain Marvel,"{`"Freddy Freeman`"}",f,{},Freddy Freeman
 Fatality,{Yrra|Cynril},f,{22098},DC
 Fatality,"{`"Fatality ?\\(DC`"}",f,{22098},DC
-Esmeralda,{Disneys?},t,{22099},The Hunchback of Notre Dame
-Esmeralda,"{`"Hunchback of Notre Dame`"}",t,{22099},The Hunchback of Notre Dame
 Heron,"{`"Blood of Zeus`"}",f,{22100},Blood of Zeus
 Major Man,"{`"Power ?puff Girls`"}",f,{22101},Powerpuff Girls
 Major Man,{PPG},f,{22101},Powerpuff Girls
@@ -27128,6 +27126,8 @@ Gill,"{`"Street Fighters?`"}",f,{5402},Street Fighter
 Guile,"{`"Street Fighters?`"}",f,{5403},Street Fighter
 Hakan,"{`"Street Fighters?`"}",f,{5404},Street Fighter
 Ibuki,"{`"Street Fighters?`"}",f,{5405},Street Fighter
+Esmeralda,{Disneys?},f,{22099},The Hunchback of Notre Dame
+Esmeralda,"{`"Hunchback of Notre Dame`"}",f,{22099},The Hunchback of Notre Dame
 Juri,"{`"Street Fighters?`"}",t,{5406},Street Fighter
 M. Bison,"{`"Street Fighters?`"}",t,{5408},Street Fighter
 Oro,"{`"Street Fighters?`"}",f,{5409},Street Fighter
@@ -30424,3 +30424,17 @@ Predators,"{`"first movie`"}",f,"{2799,13507}",""
 Predators,"{`"How many predators`"}",f,"{2799,13507}",""
 Lusamine,{Pok(e|é)m(o|a)n},t,{24147},Pokémon
 House,{1977},f,{24148},1977
+The Flash,"{`"version of The Flash`"}",f,"{1582,1583,1590,1589}",DC
+Sonic,"{`"Composite Sonic`"}",f,"{8276,8277}",Sonic the Hedgehog
+Iron Man,"{`"Experimental Safe Armor`"}",f,{24150},Experimental Safe Armor
+Iron Man,"{`"Outer Atmospheric Armor`"}",f,{24151},Outer Atmospheric Armor
+Iron Man,"{`"Model 18`"}",f,{24151},Outer Atmospheric Armor
+Iron Man,"{`"Cold Iron Armor`"}",f,{24152},Cold Iron Armor
+Iron Man,"{`"Model 56`"}",f,{24153},Model 56
+Iron Man,"{`"Model 59`"}",f,{24154},Model 59
+Iron Man,"{`"Model 12`"}",f,{24155},Model 56
+Iron Man,"{`"Telepresence Armor`"}",f,{24155},Model 56
+Charlie McGee,{2022},f,{24156},"Firestarter, 2022"
+Charlie,"{Firestarter,2022}",f,{24156},"Firestarter, 2022"
+Giolla,"{`"One ?Piece?`"}",f,{24157},One Piece
+Burryaga,"{`"S(tar )?Wars`"}",t,{24158},Star Wars
