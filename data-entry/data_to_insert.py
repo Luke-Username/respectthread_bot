@@ -125,6 +125,20 @@ False,
 
 ########################################
 
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Composite Sonic']
+],
+'Sonic the Hedgehog',
+'{8276,8277}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/15xgbdk/five_forces_flash_rebirth_vs_composite_sonic/jx63ffe/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Iron Man Armor Model 17: Experimental Safe Armor (Marvel, 616)', 'https://redd.it/15vp857')
 add_data(['I(ro|or)n(-| )?Man'],
 'Iron Man',
@@ -137,6 +151,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/15vp857/respect_iron_man_armor_model_17_experimental_safe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Armor Model 18: Outer Atmospheric Armor (Marvel, 616)', 'https://redd.it/15xgcge')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Outer Atmospheric Armor'], ['Model 18']
+],
+'Outer Atmospheric Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15xgcge/respect_iron_man_armor_model_18_outer_atmospheric/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Iron Man Model 48: the Cold Iron Armor (Marvel, 616)', 'https://redd.it/15y4m23')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Cold Iron Armor']
+],
+'Cold Iron Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15y4m23/respect_the_iron_man_model_48_the_cold_iron_armor/
 
 ########################################
 
@@ -225,6 +269,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/15wt92r/respect_giolla_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Burryaga (Star Wars Canon)', 'https://redd.it/15xi97c')
+add_data(['Burryaga'],
+'Burryaga',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15xi97c/respect_burryaga_star_wars_canon/
 
 ########################################
 
