@@ -107,6 +107,99 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6018, 'Respect: Abaddon the Despoiler (Warhammer 40k)', 'https://redd.it/15zpi9r')
+update_respectthread(cur, 1284, 'Respect Tricky the Clown! (Madness Combat)', 'https://redd.it/160uhni')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Billy Turner, Scout (Marvel Comics, 616)', 'https://redd.it/15yoca5')
+add_data(['Billy Turner'],
+'Billy Turner',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15yoca5/respect_billy_turner_scout_marvel_comics_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Iron Man Model 5: The Space Armor, Mark I (Marvel, 616)', 'https://redd.it/15z2tf6')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 5'], ['Space Armor', 'Mark (I|1)']
+],
+'Model 5',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15z2tf6/respect_the_iron_man_model_5_the_space_armor_mark/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 45: the Deep Space Armor! (Marvel 616)', 'https://redd.it/15z6phx')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 45'], ['Deep Space Armor']
+],
+'Model 45',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/15z6phx/respect_iron_man_model_45_the_deep_space_armor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 39: the New Iron Man (Marvel, 616)', 'https://redd.it/1600oyh')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 39']
+],
+'Model 39',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1600oyh/respect_iron_man_model_39_the_new_iron_man_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man: Model 40 (Marvel, 616)', 'https://redd.it/1603l15')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 40']
+],
+'Model 40',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1603l15/respect_iron_man_model_40_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 7: the Stealth Armor, Mark I (Marvel, 616)', 'https://redd.it/160xzru')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 7'], ['Stealth Armor']
+],
+'Stealth Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/160xzru/respect_iron_man_model_7_the_stealth_armor_mark_i/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
