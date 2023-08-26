@@ -152,6 +152,33 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Iron Man''s Vehicle Armors (Marvel, 616)", 'https://redd.it/161tiuf')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Motorcycle Armor']
+],
+'Motorcycle Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/161tiuf/respect_iron_mans_vehicle_armors_marvel_616/
+
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Vespa Armor']
+],
+'Vespa Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/161tiuf/respect_iron_mans_vehicle_armors_marvel_616/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
