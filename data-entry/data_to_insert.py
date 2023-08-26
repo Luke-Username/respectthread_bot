@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Hawk(-| )?(eye|guy)s?'],
+'Hawkeye',
+False,
+False,
+[
+    ['Full ?metal Alchemist'], ['FMA:?B?']
+],
+'Fullmetal Alchemist',
+'{23550,9296}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/161imc3/alan_becker_vs_fmab/jxsbay3/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Number Five (Netflix''s Umbrella Academy)", 'https://redd.it/1614s95')
+add_data(['Number Five'],
+'Number Five',
+False,
+False,
+[
+    ['Umbrella Academy']
+],
+'The Umbrella Academy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1614s95/respect_number_five_netflixs_umbrella_academy/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
