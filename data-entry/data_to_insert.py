@@ -136,6 +136,22 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Keshi, the "God of Stationery shops" (Nocturne of the Heaven) [Nijisanji Kamigakari Campaign]', 'https://redd.it/161s713')
+add_data(['Keshi'],
+'Keshi',
+False,
+False,
+[
+    ['Nocturne of the Heaven'], ['NOTH'], ['Kamigakari'], ['Nijisanji'],
+    ['Murata']
+],
+'Nocturne of the Heaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/161s713/respect_keshi_the_god_of_stationery_shops/?
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
