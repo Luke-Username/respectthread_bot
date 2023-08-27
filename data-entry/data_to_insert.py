@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Iron Man Model 47 Armor (Marvel, 616)', 'https://redd.it/1628b93')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 47']
+],
+'Model 47',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1628b93/respect_iron_man_model_47_armor_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Spot (Spider-Man: Across The Spider-Verse)', 'https://redd.it/162c3g4')
+add_data(['Spot'],
+'Spot',
+False,
+False,
+[
+    ['Spider(-| )?Verse'], ['The Spot', 'ATSV']
+],
+'Into the Spider-Verse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/162c3g4/respect_the_spot_spiderman_across_the_spiderverse/
 
 ########################################
 
