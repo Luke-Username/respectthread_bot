@@ -5774,7 +5774,6 @@ Nova Prime,{Marvel},t,{2042},616
 Richard Rider,{616},t,{2042},616
 Richard Rider,{Marvel},t,{2042},616
 Nova,{616},f,{2042},616
-Nova,{Marvel},f,{2042},616
 Nova Corps,{616},t,{2042},""
 Nova Corps,{Marvel},t,{2042},""
 Protege,{691},f,{2043},Marvel
@@ -30457,3 +30456,21 @@ Keshi,{Nijisanji},f,{24166},Nocturne of the Heaven
 Keshi,{Murata},f,{24166},Nocturne of the Heaven
 Iron Man,"{`"Motorcycle Armor`"}",f,{24167},Motorcycle Armor
 Iron Man,"{`"Vespa Armor`"}",f,{24167},Vespa Armor
+Iron Man,"{`"Model 47`"}",f,{24168},Model 47
+Iron Man,"{`"Model 70`"}",f,{24168},Model 70
+Spot,"{`"Spider(-| )?Verse`"}",f,{24169},Into the Spider-Verse
+Spot,"{`"The Spot`",ATSV}",f,{24169},Into the Spider-Verse
+All For One,"{`"vs\\.? All For One`"}",f,{3916},My Hero Academia
+All For One,"{`"All For One vs`"}",f,{3916},My Hero Academia
+Sparrow Academy,"{`"Umbrella Academy`"}",t,{24170},The Umbrella Academy
+Guardians,"{`"Umbrella Academy`"}",f,{24171},The Umbrella Academy
+Firestorm,"{`"(Post(-| ))Flash(-| )?point`"}",f,{24172},Post-Flashpoint
+Firestorm,"{`"\\(DC( Comics)?\\)`"}",f,"{24172,1647}",DC
+Firestorm,"{`"\\[DC( Comics)?\\]`"}",f,"{24172,1647}",DC
+Firestorm,"{`"vs\\.? Firestorm`"}",f,"{24172,1647}",DC
+Firestorm,"{`"Firestorm vs`"}",f,"{24172,1647}",DC
+Firestorm,{Ronnie},f,"{24172,1647}",DC
+Firestorm,"{`"Human Torch`"}",f,"{24172,1647}",DC
+Robo-Yeti,{Godzilla},f,{24173},Godzilla: The Series
+Momoshiki,{Naruto},t,{24174},Naruto
+Momoshiki,{Boruto},t,{24174},Naruto
