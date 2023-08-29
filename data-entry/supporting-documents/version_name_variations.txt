@@ -3176,7 +3176,7 @@ Spawn
 
 Spider-Man: Into the Spider-verse
 	Version
-		'{"Spider(-| )?Verse"}', '{"ITSV"}'
+		['Spider(-| )?Verse'], ['ITSV']
 	Displayed Version Name
 		"Into the Spider-Verse"
 

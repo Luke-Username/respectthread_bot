@@ -137,6 +137,20 @@ False,
 
 ########################################
 
+add_data(['All For One'],
+'All For One',
+False,
+False,
+[
+    ['vs\.? All For One'], ['All For One vs']
+],
+'My Hero Academia',
+'{3916}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
