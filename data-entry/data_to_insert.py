@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 14781, 'Respect Bongo Bongo (The Legend of Zelda)', 'https://redd.it/162p72o')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Iron Man Model 47 Armor (Marvel, 616)', 'https://redd.it/1628b93')
 add_data(['I(ro|or)n(-| )?Man'],
 'Iron Man',
@@ -119,6 +123,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1628b93/respect_iron_man_model_47_armor_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 70 (Marvel 616)', 'https://redd.it/1628b93')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 70']
+],
+'Model 70',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
@@ -148,6 +167,94 @@ False,
 '{3916}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, "Respect the Sparrow Academy (Netflix''s Umbrella Academy)", 'https://redd.it/162xg8n')
+add_data(['Sparrow Academy'],
+'Sparrow Academy',
+True,
+True,
+[
+    ['Umbrella Academy']
+],
+'The Umbrella Academy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/162xg8n/respect_the_sparrow_academy_netflixs_umbrella/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Guardians (Netflix''s Umbrella Academy)", 'https://redd.it/162ykxm')
+add_data(['Guardians'],
+'Guardians',
+False,
+False,
+[
+    ['Umbrella Academy']
+],
+'The Umbrella Academy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/162ykxm/respect_the_guardians_netflixs_umbrella_academy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Firestorm, the Nuclear Man! (DC Comics, Post-Flashpoint)', 'https://redd.it/162xgrc')
+add_data(['Firestorm'],
+'Firestorm',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/162xgrc/respect_firestorm_the_nuclear_man_dc_comics/
+
+add_data(['Firestorm'],
+'Firestorm',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'],
+    ['vs\.? Firestorm'], ['Firestorm vs'], ['Ronnie'], ['Human Torch']
+],
+'DC',
+'{' + '{}, 1647'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/162xgrc/respect_firestorm_the_nuclear_man_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Robo-Yeti (Godzilla: The Series)', 'https://redd.it/163qh6r')
+add_data(['Robo(-| )Yeti'],
+'Robo-Yeti',
+False,
+False,
+[
+    ['Godzilla']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/163qh6r/respect_the_roboyeti_godzilla_the_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Momoshiki Otsutsuki (Boruto: Naruto Next Generations [Manga])', 'https://redd.it/1649zsw')
+add_data(['Momoshiki'],
+'Momoshiki',
+False,
+True,
+[
+    ['Naruto'], ['Boruto']
+],
+'Naruto',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1649zsw/respect_momoshiki_otsutsuki_boruto_naruto_next/
 
 ########################################
 
