@@ -3615,6 +3615,16 @@ Ultraman
 	Displayed Version Name
 		"Ultraman"
 
+Umbrella Academy
+
+	Netflix version
+		Version
+			['Umbrella Academy', 'Netflix']
+		Sometimes called
+			['Umbrella Academy']
+		Displayed Version Name
+			"The Umbrella Academy"
+
 Underdog
 	Version
 		'{"Underdog vs"}', r'{"\\(Underdog\\)"}', '{"Comics? Underdog"}'
