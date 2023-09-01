@@ -107,6 +107,53 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5976, 'Respect Jasnah Kholin (The Stormlight Archive)', 'https://redd.it/166ukvx')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Adiane (Gurren Lagann anime)', 'https://redd.it/166l4pl')
+add_data(['Adiane'],
+'Adiane',
+False,
+True,
+[
+    ['Gurren Lagann?']
+],
+'Gurren Lagann',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/166l4pl/respect_adiane_gurren_lagann_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lift (The Stormlight Archive)', 'https://redd.it/166m6d7')
+add_data(['Lift'],
+'Lift',
+False,
+False,
+[
+    ['Storm ?light']
+],
+'The Stormlight Archive',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/166m6d7/respect_lift_the_stormlight_archive/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Renarin Kholin (The Stormlight Archive)', 'https://redd.it/166t1zw')
+add_data(['Renarin Kholin'],
+'Renarin Kholin',
+False,
+True,
+[
+    ['Storm ?light']
+],
+'The Stormlight Archive',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/166t1zw/respect_renarin_kholin_the_stormlight_archive/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

@@ -1342,7 +1342,7 @@ Gundam
 
 Gurren Lagann
 	Version
-		'{"Gurren Lagann?"}', '{"S?TTGL"}'
+		['Gurren Lagann?'], ['S?TTGL']
 	Displayed Version Name
 		"Gurren Lagann"
 
@@ -3132,7 +3132,7 @@ The SpongeBob SquarePants Anime
 	
 The Stormlight Archive
 	Version
-		'{"Storm ?light"}'
+		['Storm ?light']
 	Displayed Version Name
 		"The Stormlight Archive"
 
