@@ -111,6 +111,34 @@ update_respectthread(cur, 5976, 'Respect Jasnah Kholin (The Stormlight Archive)'
 
 ########################################
 
+add_data(['Cyberm(e|a)n'],
+'Cybermen',
+False,
+True,
+[
+    ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
+],
+'Doctor Who',
+'{44, 45}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/167grbk/scp_foundation_runs_doctor_who_gauntlet/jyplo8y/?context=3
+
+########################################
+
+add_data(['The Doctor'],
+'The Doctor',
+False,
+False,
+[
+    ['(Doctor|Dr\.?) ?Who']
+],
+'Doctor Who',
+'{14419,23159,22631,23115,40,15401,23253}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/167grbk/scp_foundation_runs_doctor_who_gauntlet/jyplo8y/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Adiane (Gurren Lagann anime)', 'https://redd.it/166l4pl')
 add_data(['Adiane'],
 'Adiane',
@@ -153,6 +181,53 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/166t1zw/respect_renarin_kholin_the_stormlight_archive/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shallan Davar (The Stormlight Archive)', 'https://redd.it/167gk7q')
+add_data(['Shallan Davar'],
+'Shallan Davar',
+False,
+True,
+[
+    ['Storm ?light']
+],
+'The Stormlight Archive',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 15 “The Crossing” Armor (Earth - 616)', 'https://redd.it/167ct63')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 15']
+],
+'Model 15',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/167ct63/respect_iron_man_model_15_the_crossing_armor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sam Fisher (Splinter Cell, Games)', 'https://redd.it/167d9ez')
+id2 = get_rt_id(cur, 'Respect Sam Fisher (Splinter Cell, Comics)', 'https://redd.it/167dbbx')
+id3 = get_rt_id(cur, 'Respect Sam Fisher (Splinter Cell, Novels)', 'https://redd.it/167ddj2')
+add_data(['Sam Fisher'],
+'Sam Fisher',
+False,
+True,
+[
+    ['Splinter Cell']
+],
+'Splinter Cell',
+'{' + '{}, {}, {}'.format(id, id2, id3) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/167ddj2/respect_sam_fisher_splinter_cell_novels/
 
 ########################################
 

@@ -31,6 +31,8 @@ UPDATE character_name SET name='Fr(i|e)(e|i)za' WHERE name='Fr(i|e)eza';
 
 ########################################
 
+DELETE FROM character_name WHERE default_name='Cybermen';
+
 ########################################
 
 ########################################
