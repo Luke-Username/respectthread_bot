@@ -14,24 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO character_name (name, default_name) VALUES ('Ben Kenobi', 'Obi-Wan Kenobi');
+########################################
 
 ########################################
 
-UPDATE character_name SET name='Colossal Titans?' WHERE name='Colossal Titan';
-UPDATE character_name SET name='Dancing Titans?' WHERE name='Dancing Titan';
-UPDATE character_name SET name='Beast Titans?' WHERE name='Beast Titan';
-UPDATE character_name SET name='Armou?red Titans?' WHERE name='Armored Titan';
-UPDATE character_name SET name='Jaw Titans?' WHERE name='Jaw Titan';
-UPDATE character_name SET name='Female Titans?' WHERE name='Female Titan';
-
 ########################################
-
-UPDATE character_name SET name='Fr(i|e)(e|i)za' WHERE name='Fr(i|e)eza';
-
-########################################
-
-DELETE FROM character_name WHERE default_name='Cybermen';
 
 ########################################
 

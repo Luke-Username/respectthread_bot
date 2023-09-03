@@ -43,8 +43,6 @@ Heather,Heather,f
 Space Oil,Space Oil,f
 Sentient Oil,Space Oil,f
 Jenny,Jenny,f
-Cyberman,Cybermen,f
-Cybermen,Cybermen,f
 Terui Ryu,Kamen Rider Accel,f
 Ryu Terui,Kamen Rider Accel,f
 Kamen Rider Accel,Kamen Rider Accel,f
@@ -2920,8 +2918,6 @@ Prime(-| )Orks?,Prime-Orks,f
 Overclocked Bender,Overclocked Bender,f
 Nathaniel Angel,Nathaniel Angel,f
 IG(-| )?11,IG-11,f
-Female Titan,Female Titan,f
-Jaw Titan,Jaw Titan,f
 Task ?master,Taskmaster,f
 Ultimates? Task ?master,Ultimate Taskmaster,f
 Paulo Batista,Paulo Batista,f
@@ -3032,6 +3028,8 @@ Cara Dune,Cara Dune,f
 Carasynthia,Cara Dune,f
 Ax Tagrin,Ax Tagrin,f
 Morbio?us,Morbius,f
+Jaw Titans?,Jaw Titan,f
+Female Titans?,Female Titan,f
 Venamis,Darth Venamis,f
 Coleman Trebor,Coleman Trebor,f
 Mandalorian,Mandalorian,f
@@ -4939,10 +4937,6 @@ Gesicht,Gesicht,f
 Gerhardt,Gerhardt,f
 Photor,Photor,f
 Epsilon,Epsilon,f
-Armored Titan,Armored Titan,f
-Beast Titan,Beast Titan,f
-Colossal Titan,Colossal Titan,f
-Dancing Titan,Dancing Titan,f
 Kirin Jindosh,Kirin Jindosh,f
 Kamen Rider Skull,Kamen Rider Skull,f
 Vile,Vile,f
@@ -5048,6 +5042,9 @@ Hanno,Hanno,f
 Connor,Connor,f
 Tarrlok,Tarrlok,f
 C(ae|ea)sar,Caesar,f
+Dancing Titans?,Dancing Titan,f
+Beast Titans?,Beast Titan,f
+Armou?red Titans?,Armored Titan,f
 Ariki,Ariki,f
 Muzan,Muzan,f
 Kibutsuji,Kibutsuji,f
@@ -5368,7 +5365,6 @@ Roshi,Master Roshi,f
 Mercenary Tao,Mercenary Tao,f
 General Tao,Mercenary Tao,f
 Cyborg Tao,Mercenary Tao,f
-Fr(i|e)eza,Frieza,f
 Jaco,Jaco,f
 Anilaza,Anilaza,f
 Cabba,Cabba,f
@@ -5483,6 +5479,7 @@ Kaioh,Kaioh,f
 Kenshiro,Kenshiro,f
 Tao ?(B|P)ai ?(B|P)ai,Mercenary Tao,f
 "Jacc?o,? the Galactic Patrolman",Jaco the Galactic Patrolman,f
+Fr(i|e)(e|i)za,Frieza,f
 Raoh,Raoh,f
 Rei,Rei,f
 Shu,Shu,f
@@ -13951,3 +13948,15 @@ Momoshiki,Momoshiki,f
 The Saint,The Saint,f
 Swedes,Swedes,t
 Lila Pitts,Lila Pitts,f
+Ben Kenobi,Obi-Wan Kenobi,f
+Colossal Titans?,Colossal Titan,f
+Cyberm(e|a)n,Cybermen,f
+Soft (&|and) Wet,Soft & Wet,f
+Adiane,Adiane,f
+Lift,Lift,f
+Renarin Kholin,Renarin Kholin,f
+Shallan Davar,Shallan Davar,f
+Iron Patriot,Iron Patriot,f
+Sam Fisher,Sam Fisher,f
+Glitch,Glitch,f
+Kohane,Kohane,f

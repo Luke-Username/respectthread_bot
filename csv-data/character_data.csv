@@ -30485,3 +30485,29 @@ Hades,"{`"Shuumatsu no Valkyrie`"}",f,{24179},Shuumatsu no Valkyrie
 Hades,"{`"Records? of Ragnar?ok`"}",f,{24179},Shuumatsu no Valkyrie
 Swedes,"{`"Umbrella Academy`"}",f,{24180},The Umbrella Academy
 Lila Pitts,"{`"Umbrella Academy`"}",t,{24181},The Umbrella Academy
+Cybermen,"{`"(Doctor|Dr\\.?) ?Who`"}",t,"{44,45}",Doctor Who
+Cybermen,{Who(ni)?verse},t,"{44,45}",Doctor Who
+Mighty Mouse,{UFC},f,{},UFC
+Mighty Mouse,{Demetrious},f,{},UFC
+Soft & Wet,{Josuke},f,{3628},Jojo's Bizarre Adventure
+Soft & Wet,{Jojos?(verse)?},f,{3628},Jojo's Bizarre Adventure
+Soft & Wet,{JJBA},f,{3628},Jojo's Bizarre Adventure
+The Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
+Adiane,"{`"Gurren Lagann?`"}",t,{24182},Gurren Lagann
+Lift,"{`"Storm ?light`"}",f,{24183},The Stormlight Archive
+Renarin Kholin,"{`"Storm ?light`"}",t,{24184},The Stormlight Archive
+Shallan Davar,"{`"Storm ?light`"}",t,{24185},The Stormlight Archive
+Iron Man,"{`"Model 15`"}",f,{24186},Model 15
+War Machine,"{`"Model 11`"}",f,{24187},Model 11
+War Machine,{616},f,"{24138,24187}",616
+Iron Patriot,"{`"Norman Osborn`"}",f,{24188},Norman Osborn
+Sam Fisher,"{`"Splinter Cell`"}",t,"{24189,24190,24191}",Splinter Cell
+Mihawk,"{`"(Netflix('?s?)?|Live(-| )Action) ?One Piece`"}",f,{24192},Netflix's One Piece
+Kuro,"{`"(Netflix('?s?)?|Live(-| )Action) ?One Piece`"}",f,{24193},Netflix's One Piece
+Glitch,"{`"The clone trooper`"}",f,{24194},Star Wars
+Kohane,"{`"Nocturne of the Heaven`"}",f,{24195},Nocturne of the Heaven
+Kohane,{NOTH},f,{24195},Nocturne of the Heaven
+Kohane,{Kamigakari},f,{24195},Nocturne of the Heaven
+Kohane,{Nijisanji},f,{24195},Nocturne of the Heaven
+Kohane,"{`"Ono Kohane`"}",f,{24195},Nocturne of the Heaven
+BLU Heavy,"{`"Heavy is spy`"}",f,{24196},Heavy is spy
