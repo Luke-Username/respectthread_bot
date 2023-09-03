@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 5976, 'Respect Jasnah Kholin (The Stormlight Archive)', 'https://redd.it/166ukvx')
+update_respectthread(cur, 5975, 'Respect Adolin Kholin (The Stormlight Archive)', 'https://redd.it/1695176')
 
 ########################################
 
@@ -242,6 +243,48 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Iron Man Model 11: War Machine (Marvel, 616)', 'https://redd.it/1691kws')
+add_data(['War Machine'],
+'War Machine',
+False,
+False,
+[
+    ['Model 11']
+],
+'Model 11',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1691kws/respect_iron_man_model_11_war_machine_marvel_616/
+
+add_data(['War Machine'],
+'War Machine',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '24138, {}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1691kws/respect_iron_man_model_11_war_machine_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Norman Osborn, the Iron Patriot (Marvel Comics, 616)', 'https://redd.it/1698uqj')
+add_data(['Iron Patriot'],
+'Iron Patriot',
+False,
+False,
+[
+    ['Norman Osborn']
+],
+'Norman Osborn',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1698uqj/respect_norman_osborn_the_iron_patriot_marvel/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Sam Fisher (Splinter Cell, Games)', 'https://redd.it/167d9ez')
 id2 = get_rt_id(cur, 'Respect Sam Fisher (Splinter Cell, Comics)', 'https://redd.it/167dbbx')
 id3 = get_rt_id(cur, 'Respect Sam Fisher (Splinter Cell, Novels)', 'https://redd.it/167ddj2')
@@ -262,6 +305,21 @@ True,
 id = get_rt_id(cur, "Respect Dracule \"Hawk-Eye\" Mihawk (Netflix''s One Piece, Live Action)", 'https://redd.it/1689e8i')
 add_data(['Mihawk'],
 'Mihawk',
+False,
+False,
+[
+    ["(Netflix(''?s?)?|Live(-| )Action) ?One Piece"]
+],
+"Netflix''s One Piece",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1689e8i/respect_dracule_hawkeye_mihawk_netflixs_one_piece/
+
+########################################
+
+id = get_rt_id(cur, "Respect Captain Kuro (Netflix''s One Piece, Live Action)", 'https://redd.it/1691ilx')
+add_data(['Kuro'],
+'Kuro',
 False,
 False,
 [
@@ -301,6 +359,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/168j9vp/respect_kohane_nocturne_of_the_heaven_nijisanji/?
+
+########################################
+
+id = get_rt_id(cur, 'Respect the BLU Heavy (Heavy is spy)', 'https://redd.it/1695nzw')
+add_data(['BLU Heavy'],
+'BLU Heavy',
+False,
+False,
+[
+    ['Heavy is spy']
+],
+'Heavy is spy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1695nzw/respect_the_blu_heavy_heavy_is_spy/
 
 ########################################
 
