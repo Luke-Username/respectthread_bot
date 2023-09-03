@@ -125,6 +125,34 @@ True,
 
 ########################################
 
+add_data(['Mighty Mouse'],
+'Mighty Mouse',
+False,
+False,
+[
+    ['UFC'], ['Demetrious']
+],
+'UFC',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/168omof/mighty_mouse_vs_brian_shaw/jywtmtu/?context=3
+
+########################################
+
+add_data(['Soft (&|and) Wet'],
+'Soft & Wet',
+False,
+False,
+[
+    ['Josuke'], ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{3628}'
+)
+#
+
+########################################
+
 add_data(['The Doctor'],
 'The Doctor',
 False,
