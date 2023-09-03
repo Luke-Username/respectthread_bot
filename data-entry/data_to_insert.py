@@ -231,6 +231,51 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Dracule \"Hawk-Eye\" Mihawk (Netflix''s One Piece, Live Action)", 'https://redd.it/1689e8i')
+add_data(['Mihawk'],
+'Mihawk',
+False,
+False,
+[
+    ["(Netflix(''?s?)?|Live(-| )Action) ?One Piece"]
+],
+"Netflix''s One Piece",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1689e8i/respect_dracule_hawkeye_mihawk_netflixs_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Clone Trooper "Glitch" (Star Wars)', 'https://redd.it/168c44u')
+add_data(['Glitch'],
+'Glitch',
+False,
+False,
+[
+    ['The clone trooper']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/168c44u/respect_clone_trooper_glitch_star_wars/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kohane (Nocturne of the Heaven) [Nijisanji Kamigakari campaign]', 'https://redd.it/168j9vp')
+add_data(['Kohane'],
+'Kohane',
+False,
+False,
+[
+    ['Nocturne of the Heaven'], ['NOTH'], ['Kamigakari'], ['Nijisanji'], ['Ono Kohane']
+],
+'Nocturne of the Heaven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/168j9vp/respect_kohane_nocturne_of_the_heaven_nijisanji/?
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
