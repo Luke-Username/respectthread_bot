@@ -180,6 +180,44 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/169ezlv/respect_the_wwd_giganotosaurus_giga_jwd_vs_giga/
 
+
+
+
+
+
+
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Buggy the Clown (Netflix''s One Piece, Live Action)", 'https://redd.it/169tk7n')
+add_data(['Buggy'],
+'Buggy',
+False,
+False,
+[
+    ['(Netflix(''?s?)?|Live(-| )Action) ?One Piece']
+],
+"Netflix''s One Piece",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/169tk7n/respect_buggy_the_clown_netflixs_one_piece_live/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 43 - Stealth Armor Mk IV (Earth - 616)', 'https://redd.it/169xk02')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Stealth Armor Mk IV'], ['Model 43']
+],
+'Stealth Armor Mk IV',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/169xk02/respect_iron_man_model_43_stealth_armor_mk_iv/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

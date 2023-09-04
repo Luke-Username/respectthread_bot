@@ -2524,6 +2524,12 @@ One Piece
 	Displayed Version Name
 		"One Piece"
 
+	Netflix's One Piece
+		Version
+			["(Netflix(''?s?)?|Live(-| )Action) ?One Piece"]
+		Displayed Version Name
+			"Netflix''s One Piece"
+
 OneyPlays
 	Version
 		'{"Oney ?Plays"}'
