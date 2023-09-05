@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Mashle'],
+'Mashle',
+False,
+False,
+[
+    ['Mashle vs'], ['vs\.? Mashle']
+],
+'Mashle: Magic and Muscles',
+'{14512}'
+)
+#
+
+########################################
+
 add_data(['Belos'],
 'Belos',
 False,
