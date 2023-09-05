@@ -107,6 +107,63 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Yoyo'],
+'Yoyo',
+False,
+False,
+[
+    ["Hyun''?s Dojo"]
+],
+'RHG',
+'{17370}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Arlong (Netflix''s One Piece, Live Action)", 'https://redd.it/16apjxn')
+add_data(['Arlong'],
+'Arlong',
+False,
+False,
+[
+    ["(Netflix(''?s?)?|Live(-| )Action) ?One Piece"]
+],
+"Netflix''s One Piece",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spirit (Spirit: Stallion of the Cimarron)', 'https://redd.it/16aad5y')
+add_data(['Spirit'],
+'Spirit',
+False,
+False,
+[
+    ['Stallion of the Cimarron']
+],
+'Spirit: Stallion of the Cimarron',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16aad5y/respect_spirit_spirit_stallion_of_the_cimarron/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spirit (Spirit: Stallion of the Cimarron)', 'https://redd.it/16aad5y')
+add_data(['Dimitri'],
+'Dimitri',
+False,
+False,
+[
+    ['DEATH BATTLE', 'Fire Emblem']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16ar5k0/respect_dimitri_alexandre_blaiddyd_death_battle/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
