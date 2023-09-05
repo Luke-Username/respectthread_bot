@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Belos'],
+'Belos',
+False,
+False,
+[
+    ['Owl House']
+],
+'The Owl House',
+'{20613}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16aqz4t/could_the_doctor_doctor_who_stop_the_day_of_unity/jz9v2oh/?context=3
+
+########################################
+
 id = get_rt_id(cur, "Respect Arlong (Netflix''s One Piece, Live Action)", 'https://redd.it/16apjxn')
 add_data(['Arlong'],
 'Arlong',
