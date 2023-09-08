@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Deku', 'Deku Link', 0);
+
 ########################################
+
+UPDATE character SET version='{"Dynamite"}' WHERE default_name='Bionic Woman';
 
 ########################################
 

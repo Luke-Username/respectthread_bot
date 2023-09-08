@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3416, 'Respect Dante (Fullmetal Alchemist 2003)', 'https://redd.it/16bayip')
+update_respectthread(cur, 1965, 'Respect Norman Osborn, the Super-Adaptoid (Marvel Comics, 616)', 'https://redd.it/16cpwrn')
+update_respectthread(cur, 6554, 'Respect Billy Batson, Shazam (DC Extended Universe)', 'https://redd.it/16bmuk0')
+update_respectthread(cur, 6555, 'Respect the Shazam Family (DC Extended Universe)', 'https://redd.it/16bmxf5')
+update_respectthread(cur, 5977, 'Respect Kaladin Stormblessed (The Stormlight Archive)', 'https://redd.it/16dej6r')
+update_respectthread(cur, 5978, 'Respect Szeth-son-son-Vallano, Truthless of Shinovar (The Stormlight Archive)', 'https://redd.it/16dbwb8')
+update_respectthread(cur, 16016, "Respect Bumblebee! (Michael Bay''s Transformers)", 'https://redd.it/16copl7')
+update_respectthread(cur, 4766, 'Respect Major Motoko Kusagani (Ghost in the Shell Stand Alone Complex)', 'https://redd.it/16c26ss')
+update_respectthread(cur, 3980, 'Respect Evangelion Unit-00 (Neon Genesis Evangelion)', 'https://redd.it/16c19ag')
+update_respectthread(cur, 23500, 'Respect Evangelion Unit-02 (Neon Genesis Evangelion)', 'https://redd.it/16c18ew')
+update_respectthread(cur, 3983, 'Respect Evangelion Unit-01 (Neon Genesis Evangelion)', 'https://redd.it/16c1686')
+
+########################################
+
 add_data(['Yoyo'],
 'Yoyo',
 False,
@@ -149,6 +163,34 @@ False,
 
 ########################################
 
+add_data(['Steve Austin'],
+'Steve Austin',
+False,
+False,
+[
+    ['Bionic Man'], ['Dynamite Entertainment']
+],
+'Dynamite Comics',
+'{21266}'
+)
+#
+
+########################################
+
+add_data(['Rumbling'],
+'Rumbling',
+False,
+False,
+[
+    ['The Rumbling', 'Eren']
+],
+'Attack on Titan',
+'{12492}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, "Respect Arlong (Netflix''s One Piece, Live Action)", 'https://redd.it/16apjxn')
 add_data(['Arlong'],
 'Arlong',
@@ -179,7 +221,7 @@ False,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Spirit (Spirit: Stallion of the Cimarron)', 'https://redd.it/16aad5y')
+id = get_rt_id(cur, 'Respect Dimitri Alexandre Blaiddyd! (DEATH BATTLE!)', 'https://redd.it/16ar5k0')
 add_data(['Dimitri'],
 'Dimitri',
 False,
@@ -191,6 +233,156 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/16ar5k0/respect_dimitri_alexandre_blaiddyd_death_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 24: the Iron Secretary, MK I (Marvel Comics, 616)', 'https://redd.it/16bb2cc')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 24'], ['Iron Secretary']
+],
+'Model 24',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16bb2cc/respect_iron_man_model_24_the_iron_secretary_mk_i/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 65: the Ultronbuster! (Marvel, 616)', 'https://redd.it/16blx0l')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 65'], ['Ultronbuster']
+],
+'Ultronbuster',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 58: the Nano Iron Man Armor! (Marvel, 616)', 'https://redd.it/16blf1g')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 58']
+],
+'Model 58',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16blf1g/respect_iron_man_model_58_the_nano_iron_man_armor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Fusion of Superman, Batman and Green Lantern (DC, Rebirth)', 'https://redd.it/16bhpm6')
+add_data(['Fusion of Superman, Batman and Green Lantern'],
+'Fusion of Superman, Batman and Green Lantern',
+False,
+True,
+[
+    ['Rebirth']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16bhpm6/respect_the_fusion_of_superman_batman_and_green/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roxy Rocket (DC Comics)', 'https://redd.it/16d9qn4')
+add_data(['Roxy Rocket'],
+'Roxy Rocket',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16d9qn4/respect_roxy_rocket_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roxy Rocket (DCAU)', 'https://redd.it/16d9nnc')
+add_data(['Roxy Rocket'],
+'Roxy Rocket',
+False,
+False,
+[
+    ['DC Animated Universe'], ['DCAU'], ['Timmverse'], ['Animated DC']
+],
+'DCAU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16d9nnc/respect_roxy_rocket_dcau/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dalinar Kholin (The Stormlight Archive)', 'https://redd.it/16bv97c')
+add_data(['Dalinar Kholin'],
+'Dalinar Kholin',
+False,
+True,
+[
+    ['Storm ?light']
+],
+'The Stormlight Archive',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16bv97c/respect_dalinar_kholin_the_stormlight_archive/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Girl Gamer (De_dust2: Hacker''s Wrath Tribute)", 'https://redd.it/16d91ud')
+add_data(['Girl Gamer'],
+'Girl Gamer',
+False,
+False,
+[
+    ['De_dust2']
+],
+"De_dust2: Hacker''s Wrath Tribute",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect The Hacker (De_dust2: Hacker''s Wrath Tribute)", 'https://redd.it/16d91fp')
+add_data(['Hacker'],
+'Hacker',
+False,
+False,
+[
+    ['De_dust2']
+],
+"De_dust2: Hacker''s Wrath Tribute",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16d91fp/respect_the_hacker_de_dust2_hackers_wrath_tribute/
+
+########################################
+
+id = get_rt_id(cur, 'Respect General Rilldo (Dragon Ball GT)', 'https://redd.it/16c1dvj')
+add_data(['General Rilldo'],
+'General Rilldo',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16c1dvj/respect_general_rilldo_dragon_ball_gt/
 
 ########################################
 
