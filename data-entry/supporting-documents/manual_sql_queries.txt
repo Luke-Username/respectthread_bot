@@ -22,6 +22,8 @@ UPDATE character SET version='{"Dynamite"}' WHERE default_name='Bionic Woman';
 
 ########################################
 
+UPDATE character_name SET name='Ben (10s?|Ten(nyson)?s?)' WHERE name='Ben (10|Ten(nyson)?)';
+
 ########################################
 
 ########################################
