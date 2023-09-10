@@ -107,6 +107,76 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Gin Ichimaru (Bleach)', 'https://redd.it/csbw41')
+add_data(['Gin Ichimaru|Ichimaru Gin'],
+'Gin Ichimaru',
+False,
+True,
+[
+    ['Bleach']
+],
+'Bleach',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/csbw41/respect_gin_ichimaru_bleach/
+
+add_data(['Gin'],
+'Gin',
+False,
+False,
+[
+    ['Bleach']
+],
+'Bleach',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/csbw41/respect_gin_ichimaru_bleach/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Majima (Lycoris Recoil)', 'https://redd.it/16f9w8t')
+add_data(['Majima'],
+'Majima',
+False,
+False,
+[
+    ['Lycoris Recoil']
+],
+'Lycoris Recoil',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16f9w8t/respect_majima_lycoris_recoil/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Takina Inoue (Lycoris Recoil)', 'https://redd.it/16fbqb5')
+add_data(['Takina'],
+'Takina',
+False,
+False,
+[
+    ['Lycoris Recoil'], ['Takina Inoue']
+],
+'Lycoris Recoil',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chisato Nishikigi (Lycoris Recoil)', 'https://redd.it/16fbqeg')
+add_data(['Chisato'],
+'Chisato',
+False,
+False,
+[
+    ['Lycoris Recoil'], ['Chisato Nishikigi']
+],
+'Lycoris Recoil',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16fbqeg/respect_chisato_nishikigi_lycoris_recoil/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
