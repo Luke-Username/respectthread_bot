@@ -118,6 +118,7 @@ update_respectthread(cur, 4766, 'Respect Major Motoko Kusagani (Ghost in the She
 update_respectthread(cur, 3980, 'Respect Evangelion Unit-00 (Neon Genesis Evangelion)', 'https://redd.it/16c19ag')
 update_respectthread(cur, 23500, 'Respect Evangelion Unit-02 (Neon Genesis Evangelion)', 'https://redd.it/16c18ew')
 update_respectthread(cur, 3983, 'Respect Evangelion Unit-01 (Neon Genesis Evangelion)', 'https://redd.it/16c1686')
+update_respectthread(cur, 1133, 'Respect Violet Parr (The Incredibles)', 'https://redd.it/16dz9ov')
 
 ########################################
 
@@ -130,6 +131,20 @@ False,
 ],
 'RHG',
 '{17370}'
+)
+#
+
+########################################
+
+add_data(['Red Hood'],
+'Red Hood',
+False,
+False,
+[
+    ['Bat Family']
+],
+'DC',
+'{1497}'
 )
 #
 
@@ -206,6 +221,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Monkey D. Luffy (Netflix''s One Piece, Live Action)", 'https://redd.it/16edwrz')
+add_data(['Luffy'],
+'Luffy',
+False,
+False,
+[
+    ["(Netflix(''?s?)?|Live(-| )Action) ?One Piece"]
+],
+"Netflix''s One Piece",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16edwrz/respect_monkey_d_luffy_netflixs_one_piece_live/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Spirit (Spirit: Stallion of the Cimarron)', 'https://redd.it/16aad5y')
 add_data(['Spirit'],
 'Spirit',
@@ -251,6 +281,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Iron Man Model 23 - Ablative Armor (Earth - 616)', 'https://redd.it/16dritf')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 23'], ['Ablative Armor']
+],
+'Model 23',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16dritf/respect_iron_man_model_23_ablative_armor_earth_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 13: Modular Armor (Marvel, 616)', 'https://redd.it/16dritf')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 13'], ['Modular Armor']
+],
+'Model 13',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16e93mc/respect_iron_man_model_13_modular_armor_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 68: the Virtual Armor (Marvel, Earth-616)', 'https://redd.it/16eisbz')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 68'], ['Virtual Armor'], ['eScape Armor']
+],
+'Model 68',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16eisbz/respect_iron_man_model_68_the_virtual_armor/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Iron Man Model 65: the Ultronbuster! (Marvel, 616)', 'https://redd.it/16blx0l')
 add_data(['I(ro|or)n(-| )?Man'],
 'Iron Man',
@@ -293,6 +368,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/16bhpm6/respect_the_fusion_of_superman_batman_and_green/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Abraham Langstrom, Man-Bat (DC New 52)', 'https://redd.it/16eajvw')
+add_data(['Man(-| )?Bat'],
+'Man-Bat',
+False,
+False,
+[
+    ['Abraham Langstrom'], ['New(-| )?52'], ['Nu?-?52'], ['Post(-| )52'], ['Prime(-| )Earth']
+],
+'New 52',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16eajvw/respect_abraham_langstrom_manbat_dc_new_52/
 
 ########################################
 
