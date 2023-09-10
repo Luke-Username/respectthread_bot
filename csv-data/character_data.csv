@@ -6884,8 +6884,6 @@ Devil Dinosaur,{78411},t,{2172},Marvel
 Devil Dinosaur,{Marvel},t,{2172},Marvel
 Devil Dinosaur,{Inhumans?},t,{2172},Marvel
 Reader,{Inhumans?},f,{10827},616
-Iron Man,{616},t,"{2173,2174,2175,2176,2177,2178}",616
-Iron Man,{Marvel},t,"{2173,2174,2175,2176,2177,2178}",616
 Crimson Dynamo,{616},t,"{2179,2180}",616
 Crimson Dynamo,{Marvel},t,"{2179,2180}",616
 Crimson Dynamo,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{},Earth's Mightiest Heroes
@@ -13767,26 +13765,6 @@ Lu Bu,"{`"Shuumatsu no Valkyrie`"}",f,{4540},Shuumatsu no Valkyrie
 Poseidon,"{`"Shuumatsu no Valkyrie`"}",f,{4541},Shuumatsu no Valkyrie
 Sasaki Kojirō,"{`"Shuumatsu no Valkyrie`"}",f,{4542},Shuumatsu no Valkyrie
 Zeus,"{`"Shuumatsu no Valkyrie`"}",f,{4544},Shuumatsu no Valkyrie
-Black☆Star,"{`"Soul Eater`"}",t,{4545},Soul Eater
-Death the Kid,"{`"Soul Eater`"}",t,{4547},Soul Eater
-Death Scythes,"{`"Soul Eater`"}",f,{4548},Soul Eater
-Excalibur,"{`"Soul Eater`"}",f,{4549},Soul Eater
-Frankenstein,"{`"Soul Eater`"}",f,{4550},Soul Eater
-Free,"{`"Soul Eater`"}",f,{4551},Soul Eater
-Giriko,"{`"Soul Eater`"}",t,{4552},Soul Eater
-Asura,"{`"Soul Eater`"}",f,{4553},Soul Eater
-Kishin Asura,"{`"Soul Eater`"}",t,{4553},Soul Eater
-Maka,"{`"Soul Eater`"}",f,{4554},Soul Eater
-Maka Albarn,"{`"Soul Eater`"}",t,{4554},Soul Eater
-Medusa,"{`"Soul Eater`"}",f,{4555},Soul Eater
-Mifune,"{`"Soul Eater`"}",f,{4556},Soul Eater
-Mosquito,"{`"Soul Eater`"}",f,{4557},Soul Eater
-Sid Barett,"{`"Soul Eater`"}",t,{4558},Soul Eater
-Spartoi,"{`"Soul Eater`"}",f,{4559},Soul Eater
-Tsugumi,"{`"Soul Eater`"}",f,{4560},Soul Eater
-Anya,"{`"Soul Eater`"}",f,{4560},Soul Eater
-Meme,"{`"Soul Eater`"}",f,{4560},Soul Eater
-Ao,"{`"Soul Eater`"}",f,{4560},Soul Eater
 Aurora E. Juutilainen,"{`"Strike Witches`"}",t,{4561},Strike Witches
 Aurora E. Juutilainen,"{`"World Witches`"}",t,{4561},Strike Witches
 Eila Ilmatar Juutilainen,"{`"Strike Witches`"}",t,{4562},Strike Witches
@@ -13794,6 +13772,13 @@ Eila Ilmatar Juutilainen,"{`"World Witches`"}",t,{4562},Strike Witches
 Eila,"{`"Strike Witches`"}",f,{4562},Strike Witches
 Thor,"{`"Shuumatsu no Valkyrie`"}",f,{4543},Shuumatsu no Valkyrie
 Adam,"{`"Records? of Ragnar?ok`"}",f,{4539},Shuumatsu no Valkyrie
+Black☆Star,"{`"Soul ?Eater`"}",t,{4545},Soul Eater
+Death the Kid,"{`"Soul ?Eater`"}",t,{4547},Soul Eater
+Death Scythes,"{`"Soul ?Eater`"}",f,{4548},Soul Eater
+Excalibur,"{`"Soul ?Eater`"}",f,{4549},Soul Eater
+Frankenstein,"{`"Soul ?Eater`"}",f,{4550},Soul Eater
+Free,"{`"Soul ?Eater`"}",f,{4551},Soul Eater
+Giriko,"{`"Soul ?Eater`"}",t,{4552},Soul Eater
 Eila,"{`"World Witches`"}",f,{4562},Strike Witches
 Erica Hartmann,"{`"Strike Witches`"}",t,{4563},Strike Witches
 Erica Hartmann,"{`"World Witches`"}",t,{4563},Strike Witches
@@ -25555,7 +25540,6 @@ Glitchtrap,"{`"FNAF\\d?`"}",t,{21263},FNAF
 Bigfoot,"{`"Rob Zombie|Steve Niles|Richard Corben`"}",f,{21264},"Steve Niles, Richard Corben, Rob Zombie"
 Kickpuncher,{Community},f,{21265},Community
 Steve Austin,"{`"Steve Austin.*Dynamite Comics|Dynamite Comics.*Steve Austin`"}",f,{21266},Dynamite Comics
-Bionic Woman,"{`"Bionic Woman.*Dynamite Comics|Dynamite Comics.*Bionic Woman`"}",f,{21267},Dynamite Comics
 Foreskin Man,{comics?},t,{21268},""
 Superman X,"{`"Legion of Super Heroe?s`"}",f,{21269},Legion of Super Heroes
 Silverback gorilla,"{`"Real Life`"}",t,{},""
@@ -25565,6 +25549,7 @@ Jake,{Finn},f,"{613,20463}",Adventure Time
 Jake,"{`"Princess Bubblegum`"}",f,"{613,20463}",Adventure Time
 Goku,"{`"Dragon ?Ball`"}",t,"{3288,3290,13282}",Dragon Ball
 Goku,{DB(Z|S)?},t,"{3288,3290,13282}",Dragon Ball
+Bionic Woman,{Dynamite},f,{21267},Dynamite Comics
 Spider-Man,"{`"Golden Spongecake`"}",f,{},51914
 Crimson,{Dreamwalker},f,{21272},Dreamwalker
 Katsumi Orochi,{Baki},t,{21273},Baki
@@ -26174,7 +26159,6 @@ Dan Hibiki,{UDON},f,{21578},UDON
 Crash,"{`"Twin Sanity`"}",f,{5004},Twin Sanity
 Crash,"{Spyro,Sonic,Ty}",f,{5004},Twin Sanity
 Old Man Phoenix,{14412},t,{21579},14412
-Crona,"{`"Soul Eater`"}",f,{4546},Soul Eater
 Madoka Magica,{Goddess},f,{4428},""
 Iron Man,{RDJ},f,{247},MCU
 Iron Man,{Downey},f,{247},MCU
@@ -26219,6 +26203,7 @@ Batman,"{`"Arkham Knights?`"}",f,{17381},Batman: Arkham
 Old Woman Laura,{18366},t,{21860},18366
 Ghost Rider,{AoS},f,{16830},MCU
 Bheem,{RRR},f,{22664},RRR
+Crona,"{`"Soul ?Eater`"}",f,{4546},Soul Eater
 Godzilla,"{`"King of the Monsters`"}",f,{280},MonsterVerse
 Godzilla,"{`"Godzilla: King of Monsters`"}",f,{280},MonsterVerse
 Godzilla,{Legendary},f,{280},MonsterVerse
@@ -30457,7 +30442,6 @@ Keshi,{Murata},f,{24166},Nocturne of the Heaven
 Iron Man,"{`"Motorcycle Armor`"}",f,{24167},Motorcycle Armor
 Iron Man,"{`"Vespa Armor`"}",f,{24167},Vespa Armor
 Iron Man,"{`"Model 47`"}",f,{24168},Model 47
-Iron Man,"{`"Model 70`"}",f,{24168},Model 70
 Spot,"{`"Spider(-| )?Verse`"}",f,{24169},Into the Spider-Verse
 Spot,"{`"The Spot`",ATSV}",f,{24169},Into the Spider-Verse
 All For One,"{`"vs\\.? All For One`"}",f,{3916},My Hero Academia
@@ -30522,3 +30506,56 @@ JWD Giganotosaurus,"{`"Giga JWD Vs Giga WWD with meme thing`"}",f,{24200},Giga J
 WWD Giganotosaurus,"{`"Giga JWD Vs Giga WWD with meme thing`"}",f,{24201},Giga JWD Vs Giga WWD with meme thing
 Iron Man,"{`"Stealth Armor Mk IV`"}",f,{24203},Stealth Armor Mk IV
 Iron Man,"{`"Model 43`"}",f,{24203},Stealth Armor Mk IV
+Asura,"{`"Soul ?Eater`"}",f,{4553},Soul Eater
+Kishin Asura,"{`"Soul ?Eater`"}",t,{4553},Soul Eater
+Maka,"{`"Soul ?Eater`"}",f,{4554},Soul Eater
+Maka Albarn,"{`"Soul ?Eater`"}",t,{4554},Soul Eater
+Medusa,"{`"Soul ?Eater`"}",f,{4555},Soul Eater
+Mifune,"{`"Soul ?Eater`"}",f,{4556},Soul Eater
+Mosquito,"{`"Soul ?Eater`"}",f,{4557},Soul Eater
+Sid Barett,"{`"Soul ?Eater`"}",t,{4558},Soul Eater
+Spartoi,"{`"Soul ?Eater`"}",f,{4559},Soul Eater
+Tsugumi,"{`"Soul ?Eater`"}",f,{4560},Soul Eater
+Anya,"{`"Soul ?Eater`"}",f,{4560},Soul Eater
+Meme,"{`"Soul ?Eater`"}",f,{4560},Soul Eater
+Ao,"{`"Soul ?Eater`"}",f,{4560},Soul Eater
+Yoyo,"{`"Hyun'?s Dojo`"}",f,{17370},RHG
+Red Hood,"{`"Bat Family`"}",f,{1497},DC
+Mashle,"{`"Mashle vs`"}",f,{14512},Mashle: Magic and Muscles
+Mashle,"{`"vs\\.? Mashle`"}",f,{14512},Mashle: Magic and Muscles
+Belos,"{`"Owl House`"}",f,{20613},The Owl House
+Steve Austin,"{`"Bionic Man`"}",f,{21266},Dynamite Comics
+Steve Austin,"{`"Dynamite Entertainment`"}",f,{21266},Dynamite Comics
+Rumbling,"{`"The Rumbling`",Eren}",f,{12492},Attack on Titan
+Arlong,"{`"(Netflix('?s?)?|Live(-| )Action) ?One Piece`"}",f,{24204},Netflix's One Piece
+Luffy,"{`"(Netflix('?s?)?|Live(-| )Action) ?One Piece`"}",f,{24205},Netflix's One Piece
+Spirit,"{`"Stallion of the Cimarron`"}",f,{24206},Spirit: Stallion of the Cimarron
+Dimitri,"{`"DEATH BATTLE`",`"Fire Emblem`"}",f,{24207},DEATH BATTLE!
+Iron Man,"{`"Model 24`"}",f,{24208},Model 24
+Iron Man,"{`"Iron Secretary`"}",f,{24208},Model 24
+Iron Man,"{`"Model 23`"}",f,{24209},Model 23
+Iron Man,"{`"Ablative Armor`"}",f,{24209},Model 23
+Iron Man,"{`"Model 68`"}",f,{24210},Model 68
+Iron Man,"{`"Virtual Armor`"}",f,{24210},Model 68
+Iron Man,"{`"eScape Armor`"}",f,{24210},Model 68
+Iron Man,"{`"Model 65`"}",f,{24211},Ultronbuster
+Iron Man,{Ultronbuster},f,{24211},Ultronbuster
+Iron Man,"{`"Model 58`"}",f,{24212},Model 58
+"Fusion of Superman, Batman and Green Lantern",{Rebirth},t,{24213},Rebirth
+Man-Bat,"{`"Abraham Langstrom`"}",f,{24214},New 52
+Roxy Rocket,"{`"\\(DC( Comics)?\\)`"}",t,{24215},DC
+Roxy Rocket,"{`"\\[DC( Comics)?\\]`"}",t,{24215},DC
+Roxy Rocket,"{`"DC Animated Universe`"}",f,{24216},DCAU
+Roxy Rocket,{DCAU},f,{24216},DCAU
+Roxy Rocket,{Timmverse},f,{24216},DCAU
+Roxy Rocket,"{`"Animated DC`"}",f,{24216},DCAU
+Dalinar Kholin,"{`"Storm ?light`"}",t,{24217},The Stormlight Archive
+Girl Gamer,{De_dust2},f,{24218},De_dust2: Hacker's Wrath Tribute
+Hacker,{De_dust2},f,{24219},De_dust2: Hacker's Wrath Tribute
+General Rilldo,"{`"Dragon ?Ball`"}",t,{24220},Dragon Ball
+General Rilldo,{DB(Z|S)},t,{24220},Dragon Ball
+Iron Man,"{`"Model 70`"}",f,{24221},Model 70
+Iron Man,"{`"Model 13`"}",f,{24222},Model 13
+Iron Man,"{`"Modular Armor`"}",f,{24222},Model 13
+Iron Man,{616},t,"{2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}",616
+Iron Man,{Marvel},t,"{2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}",616
