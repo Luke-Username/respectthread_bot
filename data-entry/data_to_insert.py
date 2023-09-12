@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2177, 'Respect Iron Man Model 50: the Endo-Sym Armor (Marvel, Earth-616)', 'https://redd.it/16gwyiq')
+update_respectthread(cur, 923, 'Respect Embo (Star Wars Canon)', 'https://redd.it/16glcz3')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Gin Ichimaru (Bleach)', 'https://redd.it/csbw41')
 add_data(['Gin Ichimaru|Ichimaru Gin'],
 'Gin Ichimaru',
@@ -176,6 +181,171 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/16fbqeg/respect_chisato_nishikigi_lycoris_recoil/
+
+########################################
+
+id = get_rt_id(cur, 'Respect El Gusano Gigante (Godzilla: The Series)', 'https://redd.it/16fhu6w')
+add_data(['El Gusano Gigante'],
+'El Gusano Gigante',
+False,
+True,
+[
+    ['Godzilla']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16fhu6w/respect_el_gusano_gigante_godzilla_the_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mutant Bees (Godzilla: The Series)', 'https://redd.it/16fi4ms')
+add_data(['Mutant Bees?'],
+'Mutant Bees',
+False,
+False,
+[
+    ['Godzilla:? The Series']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16fi4ms/respect_the_mutant_bees_godzilla_the_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Tachyon Aliens (Godzilla: The Series)', 'https://redd.it/16fkdho')
+add_data(['Tachyon Aliens?'],
+'Tachyon Aliens',
+False,
+False,
+[
+    ['Godzilla']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16fi4ms/respect_the_mutant_bees_godzilla_the_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the King Cobra (Godzilla: The Series)', 'https://redd.it/16fy2zl')
+add_data(['King Cobra'],
+'King Cobra',
+False,
+False,
+[
+    ['Godzilla:? The Series']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16fy2zl/respect_the_king_cobra_godzilla_the_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Crustaceous Rex (Godzilla: The Series)', 'https://redd.it/16fycfx')
+add_data(['Crustaceous Rex'],
+'Crustaceous Rex',
+False,
+True,
+[
+    ['Godzilla']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16fycfx/respect_crustaceous_rex_godzilla_the_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Giant Bat (Godzilla: The Series)', 'https://redd.it/16fykg8')
+add_data(['Giant Bat'],
+'Giant Bat',
+False,
+False,
+[
+    ['Godzilla:? The Series']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16fykg8/respect_the_giant_bat_godzilla_the_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Skeetera (Godzilla: The Series)', 'https://redd.it/16fz6ug')
+add_data(['Skeetera'],
+'Skeetera',
+False,
+True,
+[
+    ['Godzilla']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16fz6ug/respect_skeetera_godzilla_the_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 16: the Renaissance Armor (Marvel, Earth-616)', 'https://redd.it/16g60n5')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 16'], ['Renaissance Armor']
+],
+'Renaissance Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16g60n5/respect_iron_man_model_16_the_renaissance_armor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Iron Man Safe/Sentient Armor (Marvel, Earth-616)', 'https://redd.it/16g62tl')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Sentient Armor'], ['The I(ro|or)n(-| )?Man Safe', '616']
+],
+'Sentient Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16g62tl/respect_the_iron_man_safesentient_armor_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Venom (Marvel Animated Universe)', 'https://redd.it/16gb1iu')
+add_data(['Venom'],
+'Venom',
+False,
+False,
+[
+    ['Marvel Animated Universe']
+],
+'Marvel Animated Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16gb1iu/respect_venom_marvel_animated_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Carnage (Marvel Animated Universe)', 'https://redd.it/16gb1tf')
+add_data(['Carnage'],
+'Carnage',
+False,
+False,
+[
+    ['Marvel Animated Universe']
+],
+'Marvel Animated Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16gb1tf/respect_carnage_marvel_animated_universe/
 
 ########################################
 
