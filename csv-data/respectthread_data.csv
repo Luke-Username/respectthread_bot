@@ -868,7 +868,6 @@ id,title,link
 918,Respect SpongeBob Squarepants,https://redd.it/64i97x
 919,Respect Squidward Tentacles [SpongeBob SquarePants,https://redd.it/568sfd
 921,Respect Bo-Katan (Star Wars composite),https://redd.it/cegra7
-923,Respect Embo (Star Wars: The Clone Wars),https://redd.it/8r8ul1
 924,Respect Mother Talzin (Star Wars: The Clone Wars),https://redd.it/8rhvv2
 925,Respect Pre Vizsla (Star Wars: The Clone Wars),https://redd.it/ao19dy
 926,Respect Savage Opress [Star Wars: The Clone Wars],https://redd.it/71tx8j
@@ -942,6 +941,7 @@ id,title,link
 997,Respect Lord Dominator (Wander Over Yonder),https://redd.it/aelh63
 998,Respect Lord Hater (Wander Over Yonder),https://redd.it/aelh27
 987,Respect Goultard (Wakfu),https://redd.it/zmdbpt
+923,Respect Embo (Star Wars Canon),https://redd.it/16glcz3
 999,Respect The Watchdogs (Wander Over Yonder),https://redd.it/aegi2m
 1000,Respect Arsenal (Young Justice),https://redd.it/7vru2a
 1001,Respect Aquagirl (Young Justice),https://redd.it/8o5ojo
@@ -2072,7 +2072,6 @@ id,title,link
 2174,Respect Iron Man Model 30: Extremis (Marvel),https://redd.it/65wzdf
 2175,Respect Iron Man Model 37: Bleeding Edge (Marvel),https://redd.it/65wzp8
 2176,Respect Iron Man Model 42 (Marvel),https://redd.it/65x01x
-2177,Respect Iron Man Model 50: Endo-Sym/Superior (Marvel),https://redd.it/65x0br
 2178,Respect Iron Man Model 51: All-New All-Different/Model Prime (Marvel),https://redd.it/65x0kf
 2179,[Respect] Crimson Dynamo XII (Marvel) (Earth-616),https://redd.it/atpyye
 2180,[Respect] Crimson Dynamo XIII (Marvel) (Earth-616),https://redd.it/atpzeu
@@ -2142,6 +2141,7 @@ id,title,link
 2247,"Respect Anya Corazon, Spider-Girl (Marvel: Earth-616)",https://redd.it/6g4fvn
 2204,Respect Blade! (Marvel 616),https://redd.it/vgp6eh
 2192,Respect Ronan: The Accuser (Marvel 616),https://redd.it/hqfmfm
+2177,"Respect Iron Man Model 50: the Endo-Sym Armor (Marvel, Earth-616)",https://redd.it/16gwyiq
 2272,"Respect Adrian Toomes, the Vulture! (Marvel, Earth-616)",https://redd.it/x547gi
 2250,Respect Spider-Ham (Marvel: Earth-8311),https://redd.it/57b4rq
 2251,Respect Spider-Man (Marvel Zombies),https://redd.it/cg6m4r
@@ -12884,3 +12884,18 @@ id,title,link
 24220,Respect General Rilldo (Dragon Ball GT),https://redd.it/16c1dvj
 24221,Respect Iron Man Model 70 (Marvel 616),https://redd.it/163s73g
 24222,"Respect Iron Man Model 13: Modular Armor (Marvel, 616)",https://redd.it/16e93mc
+24223,Respect Gin Ichimaru (Bleach),https://redd.it/csbw41
+24224,Respect Majima (Lycoris Recoil),https://redd.it/16f9w8t
+24225,Respect Takina Inoue (Lycoris Recoil),https://redd.it/16fbqb5
+24226,Respect Chisato Nishikigi (Lycoris Recoil),https://redd.it/16fbqeg
+24227,Respect El Gusano Gigante (Godzilla: The Series),https://redd.it/16fhu6w
+24228,Respect the Mutant Bees (Godzilla: The Series),https://redd.it/16fi4ms
+24229,Respect the Tachyon Aliens (Godzilla: The Series),https://redd.it/16fkdho
+24230,Respect the King Cobra (Godzilla: The Series),https://redd.it/16fy2zl
+24231,Respect Crustaceous Rex (Godzilla: The Series),https://redd.it/16fycfx
+24232,Respect the Giant Bat (Godzilla: The Series),https://redd.it/16fykg8
+24233,Respect Skeetera (Godzilla: The Series),https://redd.it/16fz6ug
+24234,"Respect Iron Man Model 16: the Renaissance Armor (Marvel, Earth-616)",https://redd.it/16g60n5
+24235,"Respect the Iron Man Safe/Sentient Armor (Marvel, Earth-616)",https://redd.it/16g62tl
+24236,Respect Venom (Marvel Animated Universe),https://redd.it/16gb1iu
+24237,Respect Carnage (Marvel Animated Universe),https://redd.it/16gb1tf
