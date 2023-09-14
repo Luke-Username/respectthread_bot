@@ -107,6 +107,77 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Chaise Long'],
+'Chaise Long',
+False,
+False,
+[
+    ['Simpsons']
+],
+'The Simpsons',
+'{896}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16i3465/jason_voorhees_friday_the_13th_vs_chaise_long_the/k0hcjox/?context=3
+
+########################################
+
+add_data(['Gappy'],
+'Gappy',
+False,
+False,
+[
+    ['Go Beyond'], ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{3628}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16ht39b/ainz_ooal_gown_vs_16_jojo_characters/k0fkhht/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ultimate War Machine (Marvel, 1610)', 'https://redd.it/16hrmjy')
+add_data(['Ultimates? War Machine'],
+'Ultimate War Machine',
+False,
+True,
+[
+    ['1610']
+],
+'1610',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16hrmjy/respect_ultimate_war_machine_marvel_1610/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bill Cipher. (Death Battle)', 'https://redd.it/16i06bl')
+add_data(['Bill C(i|y)phers?'],
+'Bill Cipher',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16i06bl/respect_bill_cipher_death_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zathura (Zathura: A Space Adventure)', 'https://redd.it/16iit2v')
+add_data(['Zathura'],
+'Zathura',
+False,
+True,
+[
+    ['A Space Adventure']
+],
+'Zathura: A Space Adventure',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16iit2v/respect_zathura_zathura_a_space_adventure/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{22162, 3264}' WHERE default_name='Vegito';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('V', 'V.S', 0);
 
 ########################################
 

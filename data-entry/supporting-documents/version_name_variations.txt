@@ -3050,7 +3050,7 @@ SiivaGunner
 
 The Simpsons
 	Version
-		'{"Simpsons"}'
+		['Simpsons']
 	Displayed Version Name
 		"The Simpsons"
 
