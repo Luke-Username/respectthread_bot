@@ -22,6 +22,8 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('V', 'V.S', 0);
 
 ########################################
 
+UPDATE character SET version='{"Asuras?"}' WHERE rt_id_array='{4996}'
+
 ########################################
 
 ########################################

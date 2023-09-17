@@ -121,6 +121,49 @@ False,
 
 ########################################
 
+add_data(['Toya Todoroki|Todoroki Toya'],
+'Toya Todoroki',
+False,
+True,
+[
+    ['My Hero Academia'], ['\(My Hero\)'], ['(M|BN?)HA'], ['Boku no Hero']
+],
+'My Hero Academia',
+'{17317}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16kl49f/kazuya_mishima_vs_toya_todoroki_tekken_vs_my_hero/k0wkv3t/?context=3
+
+########################################
+
+add_data(['Shadow'],
+'Shadow',
+False,
+False,
+[
+    ['Sega']
+],
+'Sonic the Hedgehog',
+'{5389}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16jvnkh/shadow_vs_vegeta_sega_vs_dragon_ball/k0s9sun/?context=3
+
+########################################
+
+add_data(['Black Manta'],
+'Black Manta',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'],
+    ['DC vs'], ['vs\.? DC\)']
+],
+'DC',
+'{1488}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16jgp3j/boba_fett_vs_black_manta_star_wars_vs_dc/k0plicu/?context=3
+
+########################################
+
 add_data(['Gappy'],
 'Gappy',
 False,
@@ -177,6 +220,78 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/16iit2v/respect_zathura_zathura_a_space_adventure/
+
+########################################
+
+id = get_rt_id(cur, '(Prototype) Respect Arthas Menethil, The Lich King [Warcraft Universe]', 'https://redd.it/92cebq')
+add_data(['Lich King'],
+'Lich King',
+False,
+False,
+[
+    ['Warcraft'], ['WOW']
+],
+'World of Warcraft',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16jozdr/darth_vader_vs_the_lich_king_star_wars_vs_warcraft/k0r46dp/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Singularity (Marvel Comics)', 'https://redd.it/16jjqy4')
+add_data(['Singularity'],
+'Singularity',
+False,
+False,
+[
+    ['\(Marvel( Comics)?\)']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16jjqy4/respect_singularity_marvel_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shen Xorn (Marvel Comics)', 'https://redd.it/16kd14t')
+add_data(['Xorn'],
+'Xorn',
+False,
+False,
+[
+    ['Marvel'], ['X(-| )?Men']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16kd14t/respect_shen_xorn_marvel_comics/
+
+add_data(['Shen Xorn'],
+'Shen Xorn',
+False,
+True,
+[
+    ['Marvel']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16kd14t/respect_shen_xorn_marvel_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Hellrider (Judas Priest Song)', 'https://redd.it/16ki40f')
+add_data(['Hellrider'],
+'Hellrider',
+False,
+False,
+[
+    ['Judas Priest']
+],
+'Judas Priest',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16ki40f/respect_the_hellrider_judas_priest_song/
 
 ########################################
 
