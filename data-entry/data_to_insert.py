@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2264, 'Respect Norman Osborn, the Green Goblin (Marvel Comics, 616)', 'https://redd.it/16l3771')
+update_respectthread(cur, 6603, 'Respect Haruto Soma, Kamen Rider Wizard [Kamen Rider Wizard]', 'https://redd.it/16m13wz')
+
+########################################
+
 add_data(['Chaise Long'],
 'Chaise Long',
 False,
@@ -292,6 +297,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/16ki40f/respect_the_hellrider_judas_priest_song/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Norman Osborn, the Gold Goblin (Marvel Comics, 616)', 'https://redd.it/16l37ba')
+add_data(['Gold Goblin'],
+'Gold Goblin',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16l37ba/respect_norman_osborn_the_gold_goblin_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-295, Cauterpillers (SCP Foundation)', 'https://redd.it/16l8yqa')
+add_data(['SCP ?(-| )? ?295'],
+'SCP-295',
+False,
+True,
+[
+    ['Cauterpillers']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16l8yqa/respect_scp295_cauterpillers_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Feng! (Undead Unluck)', 'https://redd.it/16ljjb9')
+add_data(['Feng'],
+'Feng',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16ljjb9/respect_feng_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cameron Winter (Godzilla: The Series)', 'https://redd.it/16m1h7z')
+add_data(['Cameron Winter'],
+'Cameron Winter',
+False,
+False,
+[
+    ['Godzilla:? The Series']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16m1h7z/respect_cameron_winter_godzilla_the_series/
 
 ########################################
 
