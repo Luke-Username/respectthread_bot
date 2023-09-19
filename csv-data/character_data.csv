@@ -12504,8 +12504,6 @@ Android Saga,"{`"Dragon ?Ball`"}",t,{3263},Dragon Ball
 Android Saga,{DB(Z|S)?},t,{3263},Dragon Ball
 Cell Saga,"{`"Dragon ?Ball`"}",t,{3263},Dragon Ball
 Cell Saga,{DB(Z|S)?},t,{3263},Dragon Ball
-Vegito,"{`"Dragon ?Ball`"}",t,{3264},Dragon Ball
-Vegito,{DB(Z|S)?},t,{3264},Dragon Ball
 Babidi,"{`"Dragon ?Ball`"}",t,{3264},Dragon Ball
 Babidi,{DB(Z|S)?},t,{3264},Dragon Ball
 Kibito,"{`"Dragon ?Ball`"}",t,{3264},Dragon Ball
@@ -12567,6 +12565,8 @@ Burter,"{`"Dragon ?Ball`"}",t,"{23618,3262}",Dragon Ball
 Burter,{DB(Z|S)?},t,"{23618,3262}",Dragon Ball
 Guldo,"{`"Dragon ?Ball`"}",t,"{23618,3262}",Dragon Ball
 Guldo,{DB(Z|S)?},t,"{23618,3262}",Dragon Ball
+Vegito,"{`"Dragon ?Ball`"}",t,"{22162,3264}",Dragon Ball
+Vegito,{DB(Z|S)?},t,"{22162,3264}",Dragon Ball
 Ezra,"{`"Fairy Tale`"}",f,{3331},Fairy Tail
 Ezra,{Natsu},f,{3331},Fairy Tail
 Gajeel Redfox,"{`"Fairy Tail`"}",t,{3332},Fairy Tail
@@ -14995,7 +14995,6 @@ Chakravartin,{Asura},t,{4992},Asura's Wrath
 Deus,{Asura},f,{4993},Asura's Wrath
 Oni,{Asura},f,{4994},Asura's Wrath
 Wyzen,{Asura},t,{4995},Asura's Wrath
-Yasha,{Asura},f,{4996},Asura's Wrath
 Elizabeth,{Booker},f,{4999},BioShock
 Elizabeth,"{`"Bio ?Shock`"}",f,{4999},BioShock
 Songbird,"{`"Bio ?Shock`"}",f,{5000},BioShock
@@ -15049,6 +15048,7 @@ Junko Enoshima,"{`"Dangan ?ronpa`"}",t,{5013},Danganronpa
 Junko,"{`"Dangan ?ronpa`"}",f,{5013},Danganronpa
 Keebo,"{`"Dangan ?ronpa`"}",f,{5014},Danganronpa
 K1-B0,"{`"Dangan ?ronpa`"}",t,{5014},Danganronpa
+Yasha,{Asuras?},f,{4996},Asura's Wrath
 Komaru,"{`"Dangan ?ronpa`"}",f,{5015},Danganronpa
 Komaru Naegi,"{`"Dangan ?ronpa`"}",t,{5015},Danganronpa
 Mondo Owada,"{`"Dangan ?ronpa`"}",t,{5016},Danganronpa
@@ -30579,3 +30579,30 @@ Iron Man,"{`"Sentient Armor`"}",f,{24235},Sentient Armor
 Iron Man,"{`"The I(ro|or)n(-| )?Man Safe`",616}",f,{24235},Sentient Armor
 Venom,"{`"Marvel Animated Universe`"}",f,{24236},Marvel Animated Universe
 Carnage,"{`"Marvel Animated Universe`"}",f,{24237},Marvel Animated Universe
+Chaise Long,{Simpsons},f,{896},The Simpsons
+Toya Todoroki,"{`"My Hero Academia`"}",t,{17317},My Hero Academia
+Toya Todoroki,"{`"\\(My Hero\\)`"}",t,{17317},My Hero Academia
+Toya Todoroki,{(M|BN?)HA},t,{17317},My Hero Academia
+Toya Todoroki,"{`"Boku no Hero`"}",t,{17317},My Hero Academia
+Shadow,{Sega},f,{5389},Sonic the Hedgehog
+Black Manta,"{`"\\(DC( Comics)?\\)`"}",t,{1488},DC
+Black Manta,"{`"\\[DC( Comics)?\\]`"}",t,{1488},DC
+Black Manta,"{`"DC vs`"}",t,{1488},DC
+Black Manta,"{`"vs\\.? DC\\)`"}",t,{1488},DC
+Gappy,"{`"Go Beyond`"}",f,{3628},Jojo's Bizarre Adventure
+Gappy,{Jojos?(verse)?},f,{3628},Jojo's Bizarre Adventure
+Gappy,{JJBA},f,{3628},Jojo's Bizarre Adventure
+Ultimate War Machine,{1610},t,{24238},1610
+Bill Cipher,"{`"DEATH BATTLE`"}",f,{24239},DEATH BATTLE!
+Zathura,"{`"A Space Adventure`"}",t,{24240},Zathura: A Space Adventure
+Lich King,{Warcraft},f,{24241},World of Warcraft
+Lich King,{WOW},f,{24241},World of Warcraft
+Singularity,"{`"\\(Marvel( Comics)?\\)`"}",f,{24242},Marvel
+Xorn,{Marvel},f,{24243},Marvel
+Xorn,"{`"X(-| )?Men`"}",f,{24243},Marvel
+Shen Xorn,{Marvel},t,{24243},Marvel
+Hellrider,"{`"Judas Priest`"}",f,{24244},Judas Priest
+Gold Goblin,{616},t,{24245},616
+SCP-295,{Cauterpillers},t,{24246},""
+Feng,"{`"Undead Unluck`"}",f,{24247},Undead Unluck
+Cameron Winter,"{`"Godzilla:? The Series`"}",f,{24248},Godzilla: The Series
