@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Backs! (Undead Unluck)', 'https://redd.it/16mgpfd')
+add_data(['Backs'],
+'Backs',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16mgpfd/respect_backs_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Monster! (The Monster)', 'https://redd.it/16mhjlj')
+add_data(['The Monster'],
+'The Monster',
+False,
+False,
+[
+    ['The Monster ?\(The Monster\)'], ['van Vogt']
+],
+'A. E. van Vogt',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16mhjlj/respect_the_monster_the_monster/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anton Vanko, The Crimson Dynamo (Marvel, 616)', 'https://redd.it/16mpvhp')
+add_data(['Crimson Dynamo'],
+'Crimson Dynamo',
+False,
+False,
+[
+    ['Anton Vanko']
+],
+'Anton Vanko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16mpvhp/respect_anton_vanko_the_crimson_dynamo_marvel_616/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
