@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Tomie'],
+'Tomie',
+False,
+False,
+[
+    ['Tomie ?\(Tomie\)']
+],
+'Tomie',
+'{23832}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16ojcxn/tomie_tomie_vs_hellboy_hellboy/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Backs! (Undead Unluck)', 'https://redd.it/16mgpfd')
 add_data(['Backs'],
 'Backs',
