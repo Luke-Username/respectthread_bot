@@ -122,6 +122,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Sean! (Undead Unluck)', 'https://redd.it/16n6pwe')
+add_data(['Sean'],
+'Sean',
+False,
+False,
+[
+    ['Undead Unluck'], ['Sean Datz']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16n6pwe/respect_sean_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tella! (Undead Unluck)', 'https://redd.it/16o0wuw')
+add_data(['Tella'],
+'Tella',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16o0wuw/respect_tella_undead_unluck/
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Monster! (The Monster)', 'https://redd.it/16mhjlj')
 add_data(['The Monster'],
 'The Monster',
@@ -149,6 +179,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/16mpvhp/respect_anton_vanko_the_crimson_dynamo_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 9: Neo-Classic (Marvel, 616)', 'https://redd.it/16ohlkk')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 9'], ['Neo(-| )?Classic']
+],
+'Model 9',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-6239, The Dream Child (SCP Foundation)', 'https://redd.it/16o0g3w')
+add_data(['SCP ?(-| )? ?6239'],
+'SCP-6239',
+False,
+True,
+[
+    ['Dream Child']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16o0g3w/respect_scp6239_the_dream_child_scp_foundation/
 
 ########################################
 
