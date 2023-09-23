@@ -121,6 +121,34 @@ False,
 
 ########################################
 
+add_data(["Wesker''?s?"],
+'Wesker',
+False,
+False,
+[
+    ['Resident Evil']
+],
+'Resident Evil',
+'{23832}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16ppat9/how_many_weskers_resident_evil_to_beat_soldier/k1tlwzx/?context=3
+
+########################################
+
+add_data(['Davy Jones'],
+'Davy Jones',
+False,
+False,
+[
+    ["Dutchman''?s?", 'Crew']
+],
+'Pirates of the Caribbean',
+'{6533}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16piihq/voldemort_and_death_eaters_vs_davy_jones_and/k1rcqgx/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Backs! (Undead Unluck)', 'https://redd.it/16mgpfd')
 add_data(['Backs'],
 'Backs',
@@ -133,6 +161,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/16mgpfd/respect_backs_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Creed! (Undead Unluck)', 'https://redd.it/16oztox')
+add_data(['Creed'],
+'Creed',
+False,
+False,
+[
+    ['Undead Unluck'], ['Creed Deckard']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16oztox/respect_creed_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yusai! (Undead Unluck)', 'https://redd.it/16pouog')
+add_data(['Yusai'],
+'Yusai',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16pouog/respect_yusai_undead_unluck/
 
 ########################################
 
@@ -211,6 +269,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Iron Man''s Temporal Armor (Marvel, 616)", 'https://redd.it/16pzlgx')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Temporal Armor']
+],
+'Temporal Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16pzlgx/respect_iron_mans_temporal_armor_marvel_616/
+
+########################################
+
 id = get_rt_id(cur, 'Respect SCP-6239, The Dream Child (SCP Foundation)', 'https://redd.it/16o0g3w')
 add_data(['SCP ?(-| )? ?6239'],
 'SCP-6239',
@@ -223,6 +296,66 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/16o0g3w/respect_scp6239_the_dream_child_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-776-ARC, A Slightly Unlucky Die (SCP Foundation)', 'https://redd.it/16oxvlc')
+add_data(['SCP ?(-| )? ?776 ?(-| )? ?ARC'],
+'SCP-776-ARC',
+False,
+True,
+[
+    ['Slightly Unlucky Die']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16oxvlc/respect_scp776arc_a_slightly_unlucky_die_scp/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wilford Warfstache! (Markiplier Canon)', 'https://redd.it/16pg58c')
+add_data(['Warfstache'],
+'Warfstache',
+False,
+True,
+[
+    ['Wilford'], ['Markiplier']
+],
+'Markiplier',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16pg58c/respect_wilford_warfstache_markiplier_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dethklok (Metalocalypse)', 'https://redd.it/16pqsn1')
+add_data(['Dethklok'],
+'Dethklok',
+False,
+True,
+[
+    ['Metalocalypse']
+],
+'Metalocalypse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16pqsn1/respect_dethklok_metalocalypse/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Arisen (Dragon''s Dogma)", 'https://redd.it/16q0u8p')
+add_data(['Arisen'],
+'Arisen',
+False,
+False,
+[
+    ["Dragon''?s Dogma"], ['Dragonborne?'], ['The Arisen'], ['Skyrim'], ['Dark Souls']
+],
+"Dragon''s Dogma",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16q0u8p/respect_the_arisen_dragons_dogma/
 
 ########################################
 
