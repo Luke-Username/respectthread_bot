@@ -107,6 +107,98 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 14809, 'Respect Satoru Gojo (Jujutsu Kaisen)', 'https://redd.it/16qr5qe')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Latla! (Undead Unluck)', 'https://redd.it/16qh6xy')
+add_data(['Latla'],
+'Latla',
+False,
+False,
+[
+    ['Latla Mirah'], ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rip! (Undead Unluck)', 'https://redd.it/16qw9lj')
+add_data(['Rip'],
+'Rip',
+False,
+False,
+[
+    ['Rip Tristan'], ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16qw9lj/respect_rip_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 1: the Original Armor (Marvel, 616)', 'https://redd.it/16qy7bf')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 1']
+],
+'Model 1',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16qy7bf/respect_iron_man_model_1_the_original_armor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Collector (The Collector)', 'https://redd.it/16qyn39')
+add_data(['The Collector'],
+'The Collector',
+False,
+False,
+[
+    ['The Collector ?\(The Collector'], ['The Collection'], ['Jigsaw']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16qyn39/respect_the_collector_the_collector/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doctor Stephen Strange (Doctor Strange: The Sorcerer Supreme)', 'https://redd.it/16qynzs')
+add_data(['(Doctor|Dr\.?|Stephen) ?Strange'],
+'Doctor Strange',
+False,
+False,
+[
+    ['Doctor Strange: The Sorcerer Supreme']
+],
+'Doctor Strange: The Sorcerer Supreme',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16qynzs/respect_doctor_stephen_strange_doctor_strange_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Batman (Burtonverse)', 'https://redd.it/16qyox9')
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Burtonverse']
+],
+'Burtonverse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16qyox9/respect_batman_burtonverse/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

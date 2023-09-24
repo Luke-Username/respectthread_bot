@@ -24,6 +24,10 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+--After Run
+SELECT * FROM respectthread WHERE link='https://redd.it/16qy7bf';
+UPDATE character SET rt_id_array='{?1, 2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}' WHERE rt_id_array='{2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}';
+
 ########################################
 
 ########################################
