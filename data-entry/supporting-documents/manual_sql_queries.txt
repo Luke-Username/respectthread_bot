@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"Gamera vs\\.? Guiron"}' WHERE default_name='Guiron';
-UPDATE character SET version='{"\\(Lucky Charms\\)"}' WHERE default_name='Lucky' AND version='{"Lucky Charms"}';
-
 ########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Hela';
 
 ########################################
 

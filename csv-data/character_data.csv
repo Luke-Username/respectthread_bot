@@ -803,7 +803,6 @@ Barnacle Boy,{Spongebob},t,{917},Spongebob
 Squidward,{Spongebob},t,{919},Spongebob
 Barugon,{Gamera},t,{163},Gamera
 Heisei Gamera,{Trilogy},t,{164},The Gamera Trilogy
-Guiron,{Gamera},t,{165},Gamera vs Guiron
 Gyaos,{Gamera},t,{166},Heisei Gamera Trilogy
 Iris,{Gamera},f,{167},Gamera
 Iris,{Heisei},f,{167},Gamera
@@ -841,6 +840,7 @@ Yukio,"{`"X(-| )?Men (movie|film)s?`"}",f,{161},FOX
 Deathstrike,"{`"X(-| )?Men (movie|film)s?`"}",f,{162},FOX
 Zilla,{1998},f,{14373},1998
 Godzilla,{1998},f,{14373},1998
+Guiron,"{`"Gamera vs\\.? Guiron`"}",t,{165},Gamera vs Guiron
 King Kong,"{`"King Kong vs. Godzilla`"}",f,{192},Godzilla
 King Kong,{KKvG},f,{192},Godzilla
 King Kong,"{`"King Kong Escapes`"}",f,{192},Godzilla
@@ -1489,12 +1489,6 @@ Ghost,"{Ant-Man,movie}",f,{6502},MCU
 Ghost,"{`"Ant man`",movie}",f,{6502},MCU
 Ghost,"{`"Ant-Man and the Wasp`"}",f,{6502},MCU
 Ghost,"{`"Ant Man and the Wasp`"}",f,{6502},MCU
-Hela,"{`"Marvel Cinematic Universe`"}",f,{245},MCU
-Hela,{MCU},f,{245},MCU
-Hela,{199999},f,{245},MCU
-Hela,{movie},f,{245},MCU
-Hela,{movies},f,{245},MCU
-Hela,{Ragnarok},f,{245},MCU
 Iron Monger,"{`"Marvel Cinematic Universe`"}",f,{248},MCU
 Iron Monger,{MCU},f,{248},MCU
 Iron Monger,{199999},f,{248},MCU
@@ -1537,6 +1531,9 @@ Soul Stone,{199999},f,{246},MCU
 Soul Stone,{movie},f,{246},MCU
 Soul Stone,{movies},f,{246},MCU
 Gems,"{`"Marvel Cinematic Universe`"}",f,{246},MCU
+Hela,"{`"Marvel Cinematic Universe`"}",f,{245},MCU
+Hela,{MCU},f,{245},MCU
+Hela,{199999},f,{245},MCU
 Gems,{MCU},f,{246},MCU
 Gems,{199999},f,{246},MCU
 Gems,"{`"Infinity War`"}",f,{246},MCU
@@ -9574,9 +9571,6 @@ Bor Búrison,{616},t,{8598},616
 Bor Búrison,{Odin(force)?},t,{8598},616
 Bor Búrison,"{`"Sky(-| )?father`"}",t,{8598},616
 Bor Búrison,{Thor},t,{8598},616
-Hela,"{`"\\(Thor\\)`"}",t,{8599},616
-Hela,{616},t,{8599},616
-Hela,{comics?},t,{8599},616
 Hong Meiling,{Touhou},t,{8600},Touhou
 Robin,{Batmanga},f,{8601},Batmanga
 Batman,{Batmanga},f,{8602},Batmanga
@@ -9601,6 +9595,9 @@ Koichi Haimawari,"{`"Boku no Hero`"}",t,{8610},My Hero Academia
 Gran Torino,"{`"My Hero Academia`"}",f,{8611},My Hero Academia
 Gran Torino,"{`"\\(My Hero\\)`"}",f,{8611},My Hero Academia
 Thalia,"{`"Heroes of Olympus`"}",t,{8604},Percy Jackson
+Hela,"{`"\\(Thor\\)`"}",f,{8599},616
+Hela,{616},f,{8599},616
+Hela,{comics?},f,{8599},616
 Gran Torino,{BN?HA},f,{8611},My Hero Academia
 Gran Torino,{MHA},f,{8611},My Hero Academia
 Gran Torino,"{`"Boku no Hero`"}",f,{8611},My Hero Academia
@@ -11655,7 +11652,6 @@ Takanuva,{BIONICLE},t,{9248},BIONICLE
 Happy,"{`"Fairy Tail`"}",f,{9249},Fairy Tail
 Happy,"{`"Fairy Tale`"}",f,{9249},Fairy Tail
 Sideshow Bob,{Simpsons},t,{9250},The Simpsons
-Lucky,"{`"Lucky Charms`"}",f,{6338},Lucky Charms
 Lucky the Leprechaun,"{`"Lucky Charms`"}",t,{6338},Lucky Charms
 Gina,"{`"Undead Unluck`"}",f,{9251},Undead Unluck
 Goro,{Malibu},f,{2603},Malibu Comics
@@ -11719,6 +11715,7 @@ Adriana Soria,{616},t,{9284},616
 Spider-Queen,{Marvel},f,{9284},616
 Spider-Queen,{616},f,{9284},616
 Kirby,{Kirby},t,{9283},""
+Lucky,"{`"\\(Lucky Charms\\)`"}",f,{6338},Lucky Charms
 Robbie Reyes,{Marvel},t,{2099},616
 Robbie Reyes,{616},t,{2099},616
 Ghost Rider,{Reyes},f,{2099},Robbie Reyes
@@ -30606,3 +30603,32 @@ Gold Goblin,{616},t,{24245},616
 SCP-295,{Cauterpillers},t,{24246},""
 Feng,"{`"Undead Unluck`"}",f,{24247},Undead Unluck
 Cameron Winter,"{`"Godzilla:? The Series`"}",f,{24248},Godzilla: The Series
+Hela,{movie},f,{245},MCU
+Hela,{movies},f,{245},MCU
+Hela,{Ragnarok},f,{245},MCU
+Tomie,"{`"Tomie ?\\(Tomie\\)`"}",f,{23832},Tomie
+Wesker,"{`"Resident Evil`"}",f,{23832},Resident Evil
+Davy Jones,"{Dutchman'?s?,Crew}",f,{6533},Pirates of the Caribbean
+Backs,"{`"Undead Unluck`"}",f,{24249},Undead Unluck
+Creed,"{`"Undead Unluck`"}",f,{24250},Undead Unluck
+Creed,"{`"Creed Deckard`"}",f,{24250},Undead Unluck
+Yusai,"{`"Undead Unluck`"}",f,{24251},Undead Unluck
+Sean,"{`"Undead Unluck`"}",f,{24252},Undead Unluck
+Sean,"{`"Sean Datz`"}",f,{24252},Undead Unluck
+Tella,"{`"Undead Unluck`"}",f,{24253},Undead Unluck
+The Monster,"{`"The Monster ?\\(The Monster\\)`"}",f,{24254},A. E. van Vogt
+The Monster,"{`"van Vogt`"}",f,{24254},A. E. van Vogt
+Crimson Dynamo,"{`"Anton Vanko`"}",f,{24255},Anton Vanko
+Iron Man,"{`"Model 9`"}",f,{24256},Model 9
+Iron Man,"{`"Neo(-| )?Classic`"}",f,{24256},Model 9
+Iron Man,"{`"Temporal Armor`"}",f,{24257},Temporal Armor
+SCP-6239,"{`"Dream Child`"}",t,{24258},""
+SCP-776-ARC,"{`"Slightly Unlucky Die`"}",t,{24259},""
+Warfstache,{Wilford},t,{24260},Markiplier
+Warfstache,{Markiplier},t,{24260},Markiplier
+Dethklok,{Metalocalypse},t,{24261},Metalocalypse
+Arisen,"{`"Dragon'?s Dogma`"}",f,{24262},Dragon's Dogma
+Arisen,{Dragonborne?},f,{24262},Dragon's Dogma
+Arisen,"{`"The Arisen`"}",f,{24262},Dragon's Dogma
+Arisen,{Skyrim},f,{24262},Dragon's Dogma
+Arisen,"{`"Dark Souls`"}",f,{24262},Dragon's Dogma
