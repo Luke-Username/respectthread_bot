@@ -111,6 +111,62 @@ update_respectthread(cur, 14809, 'Respect Satoru Gojo (Jujutsu Kaisen)', 'https:
 
 ########################################
 
+add_data(['D4C Love Train'],
+'D4C Love Train',
+False,
+True,
+[
+    ['Go Beyond'], ['Stands?'], ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{3619}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16raey8/which_wins_out_of_the_stands_i_consider_to_be_the/
+
+########################################
+
+add_data(['Soft (&|and) Wet'],
+'Soft & Wet',
+False,
+False,
+[
+    ['Go Beyond'], ['Stands?'], ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{3628}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16raey8/which_wins_out_of_the_stands_i_consider_to_be_the/
+
+########################################
+
+add_data(['Made in Heaven'],
+'Made in Heaven',
+False,
+False,
+[
+    ['Stands?'], ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{3604}'
+)
+#https://www.reddit.com/r/respectthreads/comments/64t2af/respect_enrico_pucci_jojos_bizarre_adventure_part/
+
+########################################
+
+add_data(['G\.E\.R'],
+'G.E.R.',
+False,
+False,
+[
+    ['Stands?'], ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{3591}'
+)
+#https://www.reddit.com/r/respectthreads/comments/6zy7b0/respect_giorno_giovanna_jojos_bizarre_adventure/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Latla! (Undead Unluck)', 'https://redd.it/16qh6xy')
 add_data(['Latla'],
 'Latla',
@@ -198,6 +254,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/16qyox9/respect_batman_burtonverse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect King Arthur[The 21st Century Guide to Mythology]', 'https://redd.it/16rdnwp')
+add_data(['King Arthur'],
+'King Arthur',
+False,
+False,
+[
+    ['21st Century Guide to Mythology']
+],
+'The 21st Century Guide to Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16rdnwp/respect_king_arthurthe_21st_century_guide_to/
 
 ########################################
 

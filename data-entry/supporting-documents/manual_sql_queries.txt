@@ -14,6 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET displayed_version_name='Jojo''s Bizarre Adventure' WHERE displayed_version_name='Jojos Bizarre Adventure';
+
 ########################################
 
 ########################################
