@@ -167,6 +167,20 @@ False,
 
 ########################################
 
+add_data(['Wishmaster'],
+'Wishmaster',
+False,
+False,
+[
+    ['Prismo']
+],
+"Prismo",
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16rw7xn/adult_finn_vs_the_star_marceline/k2bliot/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Latla! (Undead Unluck)', 'https://redd.it/16qh6xy')
 add_data(['Latla'],
 'Latla',
@@ -269,6 +283,93 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/16rdnwp/respect_king_arthurthe_21st_century_guide_to/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ash''s Pidgeot (Pokemon Anime)", 'https://redd.it/16rrivn')
+add_data(['Pidgeotto'],
+'Pidgeotto',
+False,
+False,
+[
+    ['Ash']
+],
+'Ash',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Pidgeot'],
+'Pidgeot',
+False,
+False,
+[
+    ['Ash']
+],
+'Ash',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superdupont (Superdupont)', 'https://redd.it/16sugk4')
+add_data(['Superdupont'],
+'Superdupont',
+False,
+True,
+[
+    ['Superdupont ?\(Superdupont\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16sugk4/respect_superdupont_superdupont/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thor Odinson, the Herald of Thunder (Marvel, Earth-616)', 'https://redd.it/16s577z')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Herald( King)? Thor'], ['Herald of Thunder'], ['Herald of Galactus Thor'], ['Cosmic King Thor']
+],
+'Herald',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yetrigar (Marvel Comics, Earth-616)', 'https://redd.it/16ssg1u')
+add_data(['Yetrigar'],
+'Yetrigar',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16ssg1u/respect_yetrigar_marvel_comics_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alpha (The killer Sloth from Slotherhouse)', 'https://redd.it/16sz6w0')
+add_data(['Alpha'],
+'Alpha',
+False,
+False,
+[
+    ['Slotherhouse'], ['Killer Sloth']
+],
+'Slotherhouse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16sz6w0/respect_alpha_the_killer_sloth_from_slotherhouse/
 
 ########################################
 
