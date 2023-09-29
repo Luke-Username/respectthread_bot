@@ -167,6 +167,21 @@ False,
 
 ########################################
 
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Bat(-| )?mans? ?\(The Batman\)']
+],
+'The Batman, 2022',
+'{22590}'
+)
+#https://www.reddit.com/r/respectthreads/comments/xd7nvf/respect_batman_the_batman_2022/
+#https://www.reddit.com/r/whowouldwin/comments/16umzbb/batman_burtonverse_vs_batman_nolan_vs_batman_the/k2ly75l/?context=3
+
+########################################
+
 add_data(['Wishmaster'],
 'Wishmaster',
 False,
@@ -370,6 +385,150 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/16sz6w0/respect_alpha_the_killer_sloth_from_slotherhouse/
+
+########################################
+
+id = get_rt_id(cur, "Respect Casey Jones, Ranger X! (Mighty Morphin'' Power Rangers/Teenage Mutant Ninja Turtles)", 'https://redd.it/16tqfra')
+add_data(['Casey Jones'],
+'Casey Jones',
+False,
+False,
+[
+    ['Ranger X']
+],
+'Ranger X',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16tqfra/respect_casey_jones_ranger_x_mighty_morphin_power/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Darkiplier! (Markiplier Canon)', 'https://redd.it/16u0ajv')
+add_data(['Darkiplier'],
+'Darkiplier',
+False,
+True,
+[
+    ['Markiplier']
+],
+'Markiplier',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16u0ajv/respect_darkiplier_markiplier_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Barbara! (Markiplier Animated – The Legend of Barbara)', 'https://redd.it/16u5gdt')
+add_data(['Barbara'],
+'Barbara',
+False,
+False,
+[
+    ['Markiplier']
+],
+'Markiplier',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16u5gdt/respect_barbara_markiplier_animated_the_legend_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Antisepticeye! (Jacksepticeye Canon)', 'https://redd.it/16umyz7')
+add_data(['Antisepticeye'],
+'Antisepticeye',
+False,
+True,
+[
+    ['Jacksepticeye']
+],
+'Jacksepticeye',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16umyz7/respect_antisepticeye_jacksepticeye_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Matt Murdock, Daredevil Noir (Marvel, 90214)', 'https://redd.it/16uz0f7')
+add_data(['Daredevil Noir'],
+'Daredevil Noir',
+False,
+True,
+[
+    ['90214']
+],
+'90214',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16uz0f7/respect_matt_murdock_daredevil_noir_marvel_90214/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tommy! (Life of Luxury)', 'https://redd.it/16v24pn')
+add_data(['Tommy'],
+'Tommy',
+False,
+False,
+[
+    ['Life of Luxury']
+],
+'Life of Luxury',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16v24pn/respect_tommy_life_of_luxury/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fionna and Cake (Adventure Time)', 'https://redd.it/16vdpt6')
+add_data(['Fionna'],
+'Fionna',
+False,
+False,
+[
+    ['Adventure Time'], ['Fionna the Human']
+],
+'Adventure Time',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16vdpt6/respect_fionna_and_cake_adventure_time/
+
+add_data(['Cake the Cat'],
+'Cake the Cat',
+False,
+True,
+[
+    ['Adventure Time']
+],
+'Adventure Time',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16vdpt6/respect_fionna_and_cake_adventure_time/
+
+add_data(['Fionna and Cake'],
+'Fionna and Cake',
+True,
+True,
+[
+    ['Adventure Time']
+],
+'Adventure Time',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/16vdpt6/respect_fionna_and_cake_adventure_time/
+
+########################################
+
+id = get_rt_id(cur, 'Ethan Hunt Respect Thread [In progress] ', 'https://comicvine.gamespot.com/forums/gen-discussion-1/ethan-hunt-respect-thread-in-progress-1968660/')
+add_data(['Ethan Hunt'],
+'Ethan Hunt',
+False,
+True,
+[
+    ['Mission:? Impossible']
+],
+'Mission: Impossible',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/16vlevr/james_bond_replaces_ethan_hunt_in_mission/k2roojy/?context=3
 
 ########################################
 

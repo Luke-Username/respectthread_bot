@@ -23,7 +23,12 @@ UPDATE character SET rt_id_array='{?, 21155}' WHERE default_name='Rune King Thor
 
 ########################################
 
+UPDATE character SET version='{"Asuras?"}' WHERE default_name='Deus' AND version='{"Asura"}';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dio', 'James Dio', -6);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Invisible Woman', 'Average Invisible Woman', -8);
 
 ########################################
 
