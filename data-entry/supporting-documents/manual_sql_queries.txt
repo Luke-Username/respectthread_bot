@@ -14,29 +14,15 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET displayed_version_name='Jojo''s Bizarre Adventure' WHERE displayed_version_name='Jojos Bizarre Adventure';
-
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Rune King Thor (Marvel, Earth-616)', 'https://redd.it/16s58kb'); SELECT * FROM respectthread WHERE link='https://redd.it/16s58kb';
-UPDATE character SET rt_id_array='{?, 21155}' WHERE default_name='Rune King Thor';
-
 ########################################
-
-UPDATE character SET version='{"Asuras?"}' WHERE default_name='Deus' AND version='{"Asura"}';
-
-########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dio', 'James Dio', -6);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Invisible Woman', 'Average Invisible Woman', -8);
 
 ########################################
 
 ########################################
 
---After Run
-SELECT * FROM respectthread WHERE link='https://redd.it/16qy7bf';
-UPDATE character SET rt_id_array='{?1, 2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}' WHERE rt_id_array='{2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}';
+########################################
 
 ########################################
 

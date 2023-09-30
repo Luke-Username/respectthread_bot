@@ -14989,7 +14989,6 @@ Asura,{Beerus},f,{4990},Asura's Wrath
 Asura,"{`"Doom(-| )?slayer`"}",f,{4990},Asura's Wrath
 Augus,{Asura},f,{4991},Asura's Wrath
 Chakravartin,{Asura},t,{4992},Asura's Wrath
-Deus,{Asura},f,{4993},Asura's Wrath
 Oni,{Asura},f,{4994},Asura's Wrath
 Wyzen,{Asura},t,{4995},Asura's Wrath
 Elizabeth,{Booker},f,{4999},BioShock
@@ -15046,6 +15045,7 @@ Junko,"{`"Dangan ?ronpa`"}",f,{5013},Danganronpa
 Keebo,"{`"Dangan ?ronpa`"}",f,{5014},Danganronpa
 K1-B0,"{`"Dangan ?ronpa`"}",t,{5014},Danganronpa
 Yasha,{Asuras?},f,{4996},Asura's Wrath
+Deus,{Asuras?},f,{4993},Asura's Wrath
 Komaru,"{`"Dangan ?ronpa`"}",f,{5015},Danganronpa
 Komaru Naegi,"{`"Dangan ?ronpa`"}",t,{5015},Danganronpa
 Mondo Owada,"{`"Dangan ?ronpa`"}",t,{5016},Danganronpa
@@ -25189,8 +25189,6 @@ Speed-o'-Sound Sonic,{OPM},t,{4114},One Punch Man
 Morbius,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Morbius,{MCU},f,{},MCU
 Crash Nebula,"{`"Fairly Odd ?parents`"}",f,{21143},Fairly OddParents
-Donovan,{Jojos?(verse)?},f,{21144},Jojos Bizarre Adventure
-Donovan,{JJBA},f,{21144},Jojos Bizarre Adventure
 Dakkon,"{`"Magic:? The Gathering`"}",t,{21145},Magic: The Gathering
 Dakkon,{M:?TG},t,{21145},Magic: The Gathering
 Dakkon,"{`"Dakkon Blackblade`"}",t,{21145},Magic: The Gathering
@@ -25208,6 +25206,8 @@ Swordsman,"{`"Swordsman ?\\(Marvel Cinematic Universe`"}",f,{21148},MCU
 Sonic,"{`"Movie Sonic|Sonic Movie`"}",f,"{8607,17670}",2020 film
 Man-Bat,"{`"\\(DC( Comics)?\\)`"}",t,"{21129,22548}",DC
 Man-Bat,"{`"\\[DC( Comics)?\\]`"}",t,"{21129,22548}",DC
+Donovan,{Jojos?(verse)?},f,{21144},Jojo's Bizarre Adventure
+Donovan,{JJBA},f,{21144},Jojo's Bizarre Adventure
 Swordsman,"{`"Swordsman ?\\(MCU`"}",f,{21148},MCU
 Swordsman,"{Duquesne,`"Marvel Cinematic Universe`"}",f,{21148},MCU
 Swordsman,"{Duquesne,MCU}",f,{21148},MCU
@@ -25234,7 +25234,6 @@ Billy Chapman,"{`"Deadly Night`"}",t,{21152},"Silent Night, Deadly Night"
 Santa,"{`"Christmas Chronicles`"}",f,{21153},The Christmas Chronicles
 Snowman,"{`"The Christmas Light`"}",f,{21154},The Christmas Light
 Garfield,"{`"Spider(-| )?Mans?`"}",f,{},Spider-Man
-Rune King Thor,{616},t,{21155},616
 King Thor,{Marvel},t,"{7512,21155}",Marvel
 King Thor,{14412},f,{7512},14412
 Spider-Man,"{`"Spider(-| )?Mans? (film|movie)s?`"}",f,"{302,113,261}",Live-Action
@@ -25259,6 +25258,7 @@ Yamamoto,{Bleach},f,{3148},Bleach
 Black Canary,"{`"\\(DC( Comics)?\\)`"}",t,{1563},DC
 Huntress,"{`"\\(DC( Comics)?\\)`"}",f,{1564},DC
 Pied Piper,"{`"\\(DC( Comics)?\\)`"}",f,{1602},""
+Rune King Thor,{616},t,"{24263,21155}",616
 Daredevil,"{`"Daredevil.+TV(-| )Show`"}",f,{1289},MCU
 Daredevil,"{`"TV(-| )Show.+Daredevil`"}",f,{1289},MCU
 Spider-Man,"{`"No way home`"}",f,{261},MCU
@@ -26354,8 +26354,6 @@ Alternate World Ash,{Pok(e|é)m(o|a)n},t,{21697},Pokémon
 Alternate World Team Rocket,{Pok(e|é)m(o|a)n},t,{21698},Pokémon
 Lara Croft,{2001},f,{21699},Lara Croft: Tomb Raider
 Lara Croft,"{`"Lara Croft: Tomb Raider`"}",f,{21699},Lara Croft: Tomb Raider
-Thunder McQueen,{Jojos?(verse)?},t,{21700},Jojos Bizarre Adventure
-Thunder McQueen,{JJBA},t,{21700},Jojos Bizarre Adventure
 Thundarr the Barbarian,{default},t,{21701},""
 Man Ray,{SpongeBob},f,{21702},SpongeBob
 Man Ray,{Patrick},f,{21702},SpongeBob
@@ -26558,8 +26556,6 @@ Kuroko,"{`"To ?aru`"}",f,{10797},Toaru Majutsu no Index
 Kuroko,{Index(verse)?},f,{10797},Toaru Majutsu no Index
 Kuroko,{TAMNI},f,{10797},Toaru Majutsu no Index
 Kuroko,{Raildex},f,{10797},Toaru Majutsu no Index
-Wonder Of U,{Jojos?(verse)?},t,{16353},Jojos Bizarre Adventure
-Wonder Of U,{JJBA},t,{16353},Jojos Bizarre Adventure
 Hobbs,"{`"Fast (&|and) Furious`"}",f,{136},The Fast and the Furious
 Hobbs,{Shaw},f,{136},The Fast and the Furious
 Hobbs,{F&F},f,{136},The Fast and the Furious
@@ -26567,14 +26563,16 @@ Shaw,"{`"Fast (&|and) Furious`"}",f,{134},The Fast and the Furious
 Shaw,{F&F},f,{134},The Fast and the Furious
 Shaw,{Hobbs},f,{134},The Fast and the Furious
 Emiya,"{`"Counter Guardian`"}",f,{6247},Fate
-Scary Monsters,{Jojos?(verse)?},f,{3618},Jojos Bizarre Adventure
-Scary Monsters,{JJBA},f,{3618},Jojos Bizarre Adventure
 Heptadd,{Chaotic},t,{21801},Chaotic
 Akuma,{Tekken},f,{21802},Tekken
 Necromorph,"{`"Alien:? Prototype`"}",f,{21803},Alien: Prototype
 Barbra Streisand,"{`"South Park`"}",f,{21804},South Park
 The Flash,"{`"\\(DC( Comics)?\\)`"}",f,"{1582,1583,1590,1589}",DC
 The Flash,"{`"\\[DC( Comics)?\\]`"}",f,"{1582,1583,1590,1589}",DC
+Wonder Of U,{Jojos?(verse)?},t,{16353},Jojo's Bizarre Adventure
+Wonder Of U,{JJBA},t,{16353},Jojo's Bizarre Adventure
+Scary Monsters,{Jojos?(verse)?},f,{3618},Jojo's Bizarre Adventure
+Scary Monsters,{JJBA},f,{3618},Jojo's Bizarre Adventure
 Crimson Hawk Ranger,"{`"Power Rangers?`"}",t,{21805},Power Rangers
 Ryu,"{`"Power Rangers?`",`"Legacy Wars`"}",f,{21805},Power Rangers
 Mario & Sonic at the Olympic Games,{characters?},t,{21806},""
@@ -27865,9 +27863,6 @@ Pedro,"{`"Tower of God`"}",f,{22612},Tower of God
 Kojika Hanamaki,"{`"Ningen Series`"}",t,{22613},Ningen Series
 Seiya,"{`"Cautious Hero`"}",f,"{20565,22609,22628}",Cautious Hero
 The Doctor,{TARDIS},f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
-Polpo,{Jojos?(verse)?},f,{22614},Jojos Bizarre Adventure
-Polpo,{JJBA},f,{22614},Jojos Bizarre Adventure
-Polpo,"{`"Black Sabbath`"}",f,{22614},Jojos Bizarre Adventure
 Dagon,"{`"Jujus?t?s?u Kaisen`"}",f,{22615},Jujutsu Kaisen
 Dagon,{JJK},f,{22615},Jujutsu Kaisen
 Hunter,"{`"Fossil Fighters`"}",f,{22616},Fossil Fighters
@@ -27933,6 +27928,7 @@ The Beast,"{`"Live Action`"}",f,{22649},"Beauty and the Beast, 2017"
 Beast,"{`"Beast ?\\(2017`"}",f,{22649},"Beauty and the Beast, 2017"
 Hawkman,"{`"DC Extended Universe`"}",f,{},DCEU
 Hawkman,"{`"DC ?(E|C)U`"}",f,{},DCEU
+Polpo,{Jojos?(verse)?},f,{22614},Jojo's Bizarre Adventure
 Beast,"{2017,`"Live Action`"}",f,{22649},"Beauty and the Beast, 2017"
 SCP-UBU,"{`"SCP Foundation`"}",f,{22650},""
 Mark,"{Invincible,Nolan}",f,"{1961,17671}",Invincible
@@ -30554,8 +30550,6 @@ General Rilldo,{DB(Z|S)},t,{24220},Dragon Ball
 Iron Man,"{`"Model 70`"}",f,{24221},Model 70
 Iron Man,"{`"Model 13`"}",f,{24222},Model 13
 Iron Man,"{`"Modular Armor`"}",f,{24222},Model 13
-Iron Man,{616},t,"{2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}",616
-Iron Man,{Marvel},t,"{2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}",616
 Gin Ichimaru,{Bleach},t,{24223},Bleach
 Gin,{Bleach},f,{24223},Bleach
 Majima,"{`"Lycoris Recoil`"}",f,{24224},Lycoris Recoil
@@ -30632,3 +30626,51 @@ Arisen,{Dragonborne?},f,{24262},Dragon's Dogma
 Arisen,"{`"The Arisen`"}",f,{24262},Dragon's Dogma
 Arisen,{Skyrim},f,{24262},Dragon's Dogma
 Arisen,"{`"Dark Souls`"}",f,{24262},Dragon's Dogma
+Thunder McQueen,{Jojos?(verse)?},t,{21700},Jojo's Bizarre Adventure
+Thunder McQueen,{JJBA},t,{21700},Jojo's Bizarre Adventure
+Polpo,{JJBA},f,{22614},Jojo's Bizarre Adventure
+Polpo,"{`"Black Sabbath`"}",f,{22614},Jojo's Bizarre Adventure
+D4C Love Train,"{`"Go Beyond`"}",t,{3619},Jojo's Bizarre Adventure
+D4C Love Train,{Stands?},t,{3619},Jojo's Bizarre Adventure
+D4C Love Train,{Jojos?(verse)?},t,{3619},Jojo's Bizarre Adventure
+D4C Love Train,{JJBA},t,{3619},Jojo's Bizarre Adventure
+Soft & Wet,"{`"Go Beyond`"}",f,{3628},Jojo's Bizarre Adventure
+Soft & Wet,{Stands?},f,{3628},Jojo's Bizarre Adventure
+Made in Heaven,{Stands?},f,{3604},Jojo's Bizarre Adventure
+Made in Heaven,{Jojos?(verse)?},f,{3604},Jojo's Bizarre Adventure
+Made in Heaven,{JJBA},f,{3604},Jojo's Bizarre Adventure
+G.E.R.,{Stands?},f,{3591},Jojo's Bizarre Adventure
+G.E.R.,{Jojos?(verse)?},f,{3591},Jojo's Bizarre Adventure
+G.E.R.,{JJBA},f,{3591},Jojo's Bizarre Adventure
+Batman,"{`"Bat(-| )?mans? ?\\(The Batman\\)`"}",f,{22590},"The Batman, 2022"
+Wishmaster,{Prismo},f,{},Prismo
+Latla,"{`"Latla Mirah`"}",f,{24284},Undead Unluck
+Latla,"{`"Undead Unluck`"}",f,{24284},Undead Unluck
+Rip,"{`"Rip Tristan`"}",f,{24285},Undead Unluck
+Rip,"{`"Undead Unluck`"}",f,{24285},Undead Unluck
+Iron Man,"{`"Model 1`"}",f,{24286},Model 1
+The Collector,"{`"The Collector ?\\(The Collector`"}",f,{24287},""
+The Collector,"{`"The Collection`"}",f,{24287},""
+The Collector,{Jigsaw},f,{24287},""
+Doctor Strange,"{`"Doctor Strange: The Sorcerer Supreme`"}",f,{24288},Doctor Strange: The Sorcerer Supreme
+Batman,{Burtonverse},f,{24289},Burtonverse
+King Arthur,"{`"21st Century Guide to Mythology`"}",f,{24290},The 21st Century Guide to Mythology
+Pidgeotto,{Ash},f,{24291},Ash
+Pidgeot,{Ash},f,{24291},Ash
+Superdupont,"{`"Superdupont ?\\(Superdupont\\)`"}",t,{24292},""
+Thor,"{`"Herald( King)? Thor`"}",f,{24293},Herald
+Thor,"{`"Herald of Thunder`"}",f,{24293},Herald
+Thor,"{`"Herald of Galactus Thor`"}",f,{24293},Herald
+Thor,"{`"Cosmic King Thor`"}",f,{24293},Herald
+Yetrigar,{616},t,{24294},616
+Alpha,{Slotherhouse},f,{24295},Slotherhouse
+Alpha,"{`"Killer Sloth`"}",f,{24295},Slotherhouse
+Casey Jones,"{`"Ranger X`"}",f,{24296},Ranger X
+Darkiplier,{Markiplier},t,{24297},Markiplier
+Barbara,{Markiplier},f,{24298},Markiplier
+Antisepticeye,{Jacksepticeye},t,{24299},Jacksepticeye
+Daredevil Noir,{90214},t,{24300},90214
+Tommy,"{`"Life of Luxury`"}",f,{24301},Life of Luxury
+Ethan Hunt,"{`"Mission:? Impossible`"}",t,{24302},Mission: Impossible
+Iron Man,{616},t,"{24286,2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}",616
+Iron Man,{Marvel},t,"{24286,2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}",616
