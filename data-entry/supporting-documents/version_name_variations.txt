@@ -819,7 +819,7 @@ Discworld
 
 Dishonored
 	Version
-		'{"Dishonou?red"}'
+		['Dishonou?red']
 	Displayed Version Name
 		"Dishonored"
 
@@ -1365,6 +1365,12 @@ Halo
 		'{"Halo(verse)?"}'
 	Displayed Version Name
 		"Halo"
+
+Hammer Horror
+	Version
+		['Hammer (Horror|Version)']
+	Displayed Version Name
+		"Hammer Horror"
 
 Harley Quinn (animated series)
 	Version

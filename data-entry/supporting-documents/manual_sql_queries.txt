@@ -14,11 +14,22 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+DELETE FROM character_name WHERE name='Payday Gang';
+UPDATE character_name SET name='Payday( 2)? (Gang|Crew)' WHERE name='Payday( 2)? Gang';
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Featuring the Payday Gang!', 'https://redd.it/16qh3nx'); SELECT * FROM respectthread WHERE link='https://redd.it/16qh3nx';
+UPDATE character SET rt_id_array='{23156, ?}' WHERE default_name='Payday Gang';
+
 ########################################
+
+UPDATE character_name SET is_team=TRUE WHERE name='Power Rangers';
+
+########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/16x7cb3';
+UPDATE character SET rt_id_array='{?, 1832}' WHERE rt_id_array='{1832}' AND displayed_version_name='DC'; --After run
 
 ########################################
 
