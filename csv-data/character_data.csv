@@ -8136,12 +8136,6 @@ Rose Wilson,"{`"Post(-| )?C(risis)?`"}",f,{1831},Pre-Flashpoint
 Rose Wilson,"{`"New(-| )Earth`"}",f,{1831},Pre-Flashpoint
 Rose Wilson,"{`"Teen Titans`"}",f,{1831},Pre-Flashpoint
 Rose Wilson,"{`"Pre(-| )?Flashpoint`"}",f,{1831},Pre-Flashpoint
-Raven,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{1832},DC
-Raven,{PC},f,{1832},DC
-Raven,"{`"Earth(-| )(1|One)`"}",f,{1832},DC
-Raven,"{`"Post(-| )?C(risis)?`"}",f,{1832},DC
-Raven,"{`"New(-| )Earth`"}",f,{1832},DC
-Raven,{Zatanna},f,{1832},DC
 Starfire,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{1833},DC
 Starfire,{PC},f,{1833},DC
 Starfire,"{`"Earth(-| )(1|One)`"}",f,{1833},DC
@@ -8164,6 +8158,7 @@ Blackfire,{PC},f,{1835},Pre-Flashpoint
 Blackfire,"{`"Earth(-| )(1|One)`"}",f,{1835},Pre-Flashpoint
 Blackfire,"{`"Post(-| )?C(risis)?`"}",f,{1835},Pre-Flashpoint
 Toxin,{Marvel},f,{2318},616
+Raven,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,"{24317,1832}",DC
 Blackfire,"{`"New(-| )Earth`"}",f,{1835},Pre-Flashpoint
 Trigon,{DC},t,{1836},DC
 Trigon,{PC},t,{1836},DC
@@ -28637,7 +28632,6 @@ Iku Nagae,{Touhou},t,{23152},Touhou
 Chaos,"{`"E\\.?V\\.?I\\.?L\\.? Heroes`"}",f,{23153},E.V.I.L. Heroes
 Tae Yul,{Swordsman},f,{23154},The Swordsman
 Jin Mu-Won,"{`"Legend of the Northern Blade`"}",t,{23155},Legend of the Northern Blade
-Payday Gang,"{`"\\(Payday\\)`"}",t,{23156},Payday
 Dallas,"{`"\\(Payday\\)`"}",f,{23156},Payday
 Bain,"{`"\\(Payday\\)`"}",f,{23156},Payday
 Punisher,{MAX!Punisher},f,{2226},Punisher MAX
@@ -30220,7 +30214,6 @@ Wolverine,"{`"Marvel Cinematic Universe`"}",f,"{158,24039}",FOX
 Wolverine,"{`"20th Century Fox`"}",f,"{158,24039}",FOX
 Wolverine,"{`"FOX Wolverine`"}",f,"{158,24039}",FOX
 Brundlefly,"{`"The Fly`"}",t,{12425},The Fly
-Raven,"{`"Raven from DC`"}",f,{1832},DC
 Dom,"{`"Fast and (the )?Furious`"}",f,{135},The Fast and the Furious
 Dom,"{`"Fast & Furious`"}",f,{135},The Fast and the Furious
 Big Hero 6,"{`"Big Hero 6 \\(Disney\\) vs`"}",f,"{10863,10869,10870,10873,10872,10851}",Disney
@@ -30246,6 +30239,7 @@ Belzebeth,"{`"\\(DC( Comics)?\\)`"}",f,{24064},DC
 Belzebeth,"{`"\\[DC( Comics)?\\]`"}",f,{24064},DC
 Man-Ape,"{`"Pre(-| )?Crisis`"}",f,{24065},Pre-Crisis
 Killa the Gorilla,{PC},f,{24066},Post-Crisis
+Raven,"{`"Raven from DC`"}",f,"{24317,1832}",DC
 Killa the Gorilla,"{`"Posts?(-| )?C(risis)?`"}",f,{24066},Post-Crisis
 Killa the Gorilla,"{`"New(-| )Earth`"}",f,{24066},Post-Crisis
 Corpse Girl,"{`"Ex(-| )Heroes`"}",f,{24067},Ex-Heroes
@@ -30674,3 +30668,40 @@ Tommy,"{`"Life of Luxury`"}",f,{24301},Life of Luxury
 Ethan Hunt,"{`"Mission:? Impossible`"}",t,{24302},Mission: Impossible
 Iron Man,{616},t,"{24286,2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}",616
 Iron Man,{Marvel},t,"{24286,2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}",616
+Payday Gang,"{`"\\(Payday\\)`"}",t,"{23156,24303}",Payday
+Slenderman,"{`"Victor Surge`"}",t,{6211},""
+Alastor Moody,"{`"Harry Potter`"}",t,{5822},Harry Potter
+Beatles,"{John,Paul,George,Ringo}",f,{23623},The Beatles
+Godzilla,"{`"Godzilla vs\\.? (Mighty Morphin('|g)? )?Power Rangers`"}",f,{24305},Godzilla vs Mighty Morphin' Power Rangers
+Power Rangers,"{`"Godzilla vs\\.? (Mighty Morphin('|g)? )?Power Rangers`"}",f,{24306},Godzilla vs Mighty Morphin' Power Rangers
+Gigan,"{`"Godzilla vs\\.? (Mighty Morphin('|g)? )?Power Rangers`"}",f,{24307},Godzilla vs Mighty Morphin' Power Rangers
+Iron Man,"{`"Model NIL`"}",f,{24307},Black King
+Iron Man,"{`"Black King`"}",f,{24307},Black King
+Angel,"{`"Tower of God`"}",f,{24308},Tower of God
+Billie Lurk,{Dishonou?red},t,{24309},Dishonored
+Malikai,{Soulfire},f,{24310},Soulfire
+Sombra,{Talon},f,{24311},Overwatch
+Stairs,"{`"Search and Rescue Woods`"}",f,{24312},Search and Rescue Woods
+Staircases,"{`"Search and Rescue Woods`"}",f,{24312},Search and Rescue Woods
+Varan,{Godzilla},f,{24313},Godzilla
+Mummies,"{`"Hammer (Horror|Version)`"}",f,{24314},Hammer Horror
+Lord Ruthven,"{`"The Vampyre`"}",t,{24315},The Vampyre
+SCP-165,"{`"Hungry Sands of Tule`"}",t,{24316},""
+Raven,"{`"(Post(-| ))Flash(-| )?point`"}",f,{24317},Post-Flashpoint
+Scarab,"{`"Adventure Time`"}",f,{24318},Adventure Time
+Siren Head,"{`"Trevor Henderson`"}",t,{24319},Trevor Henderson
+Cassowary,{MatromX},f,{24320},MatromX
+Anaconda,{MatromX},f,{24321},MatromX
+Pteranodon,{MatromX},f,{24322},MatromX
+Harpy Eagle,{MatromX},f,{24323},MatromX
+Incineroar,{Ash},f,{24324},Ash
+Larvitar,{Ash},f,{24325},Ash
+Dracula,"{`"Dead and Loving It`"}",f,{24326},Dead and Loving It
+Haunted Gigan Suit,"{`"Final Wars`"}",t,{24327},""
+Xipe Totec,{Valdevia},t,{24328},The Valdevia
+Xipe Totec,"{`"Eduardo Vald(é|e)s(-| )Hevia`"}",t,{24328},The Valdevia
+Raven,{PC},f,"{24317,1832}",DC
+Raven,"{`"Earth(-| )(1|One)`"}",f,"{24317,1832}",DC
+Raven,"{`"Post(-| )?C(risis)?`"}",f,"{24317,1832}",DC
+Raven,"{`"New(-| )Earth`"}",f,"{24317,1832}",DC
+Raven,{Zatanna},f,"{24317,1832}",DC

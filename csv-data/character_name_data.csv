@@ -1095,7 +1095,6 @@ Two(-| )?Face,Two-Face,f
 Red X,Red X,f
 Talia al Ghul,Talia al Ghul,f
 Speedy,Speedy,f
-Power Rangers,Power Rangers,f
 Jason (Lee )?Scott,Red Ranger,f
 Red Ranger,Red Ranger,f
 Tyrannosaurus ?Zord,Tyrannosaurus Zord,f
@@ -1151,6 +1150,7 @@ Arliss Loveless,Dr. Arliss Loveless,f
 Eborsisk,The Eborsisk,f
 Wicked Witch of the West,Wicked Witch of the West,f
 Harvey Dent,Harvey Dent,f
+Power Rangers,Power Rangers,t
 Guilala,Guilala,f
 Zohan,Zohan Dvir,f
 Zombeavers,Zombeavers,f
@@ -10344,7 +10344,6 @@ One(-| )Finger Death Punch,One Finger Death Punch,f
 Konoko,Konoko,f
 Chris( L)? Walker,Chris Walker,f
 Pac(-| )?Man,Pac-Man,f
-Payday( 2)? Gang,Payday Gang,f
 Play(-| )?Station All(-| )?Stars,PlayStation All-Stars,f
 PSASBR,PlayStation All-Stars,f
 Polaris Snocross,Polaris Snocross,f
@@ -10385,6 +10384,7 @@ Superman Two,Superman Two,f
 Earl,Earl,f
 Star Wolf,Star Wolf,t
 Metal Gear RAYs?,Metal Gear RAY,f
+Payday( 2)? (Gang|Crew),Payday Gang,f
 Rayman,Rayman,f
 Kusagari,Last Kusagari,f
 Allison Holiday,Allison Holiday,f
@@ -13171,7 +13171,6 @@ Mule,Mule,f
 Iku Nagae,Iku Nagae,f
 Tae Yul,Tae Yul,f
 Jin Mu(-| )Won,Jin Mu-Won,f
-Payday Gang,Payday Gang,t
 Dallas,Dallas,f
 Bain,Bain,f
 Fin Fang Foombuster,Fin Fang Foombuster,f
@@ -14021,3 +14020,20 @@ Antisepticeye,Antisepticeye,f
 Daredevil Noir,Daredevil Noir,f
 Tommy,Tommy,f
 Ethan Hunt,Ethan Hunt,f
+"Alastor( `"Mad(-| )?Eye`")? Moody",Alastor Moody,f
+Beatles,Beatles,f
+Billie Lurk,Billie Lurk,f
+Malikai,Malikai,f
+Stairs,Stairs,f
+Staircases?,Staircases,f
+Varan,Varan,f
+Mummies,Mummies,t
+Lord Ruthven,Lord Ruthven,f
+SCP ?(-| )? ?165,SCP-165,f
+Scarab,Scarab,f
+Siren Head,Siren Head,f
+Cassowary,Cassowary,f
+Pteranodon,Pteranodon,f
+Harpy Eagle,Harpy Eagle,f
+Haunted Gigan( Final Wars)? Suit,Haunted Gigan Suit,f
+Xipe Totec,Xipe Totec,f

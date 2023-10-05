@@ -275,6 +275,7 @@ id,title,link
 309,Respect Chewbacca (Star Wars Canon),https://redd.it/bl07du
 310,Respect Chirrut Îmwe! (Star Wars),https://redd.it/aidvbx
 311,Respect Count Dooku (Star Wars),https://redd.it/6l184l
+324,Respect Mace Windu (Star Wars Canon),https://redd.it/16yisty
 316,Respect FN-2199 (Star Wars: The Force Awakens),https://redd.it/7qhuy3
 317,Respect General Grievous (Star Wars Canon),https://redd.it/b489p3
 318,Respect Jango Fett (Star Wars),https://redd.it/af0t7h
@@ -282,7 +283,6 @@ id,title,link
 321,Respect Kit Fisto (Star Wars Canon),https://redd.it/86ugf8
 322,Respect Luke Skywalker (Star Wars),https://redd.it/apava1
 323,Respect Luminara Unduli (Star Wars Canon),https://redd.it/80zpqe
-324,Respect Mace Windu (Star Wars Canon),https://redd.it/845ye9
 325,Respect Obi-Wan Kenobi (Star Wars),https://redd.it/5nkclp
 326,Respect Plo Koon (Star Wars Canon),https://redd.it/88k5dr
 327,Respect Yoda (Star Wars Canon),https://redd.it/865eaw
@@ -5372,7 +5372,6 @@ id,title,link
 5605,Respect Trevor Phillips (GTA V),https://redd.it/3drn1d
 5613,Respect Jacket! (Hotline Miami),https://redd.it/pdzjg9
 5609,Respect Sol Badguy (Guilty Gear Franchise),https://redd.it/b11tuj
-5610,Respect Henry Stickmin (Henry Stickmin),https://redd.it/9gohun
 5611,Respect Agent 47 (Hitman),https://redd.it/4vpwog
 5612,Respect The Knight (Hollow Knight),https://redd.it/b4lxy5
 5614,Respect Sharkjira (Hungry Shark Evolution),https://redd.it/c34qyv
@@ -5394,6 +5393,7 @@ id,title,link
 5607,Respect Raven (Gravity Rush),https://redd.it/11pf44b
 5618,Respect Heaven Ascension DIO (JoJo's Bizarre Adventure: Eyes of Heaven),https://redd.it/14bquia
 5585,Respect Dustforce (Dustforce),https://redd.it/15nalb8
+5610,Respect Henry Stickmin (Henry Stickmin Series),https://redd.it/16vtf8y
 5626,Respect Starfy! (The Legendary Starfy),https://redd.it/74s4nd
 5627,Respect Carnom (LEGO Marvel),https://redd.it/ca7kz7
 5628,Respect Stan Lee! (LEGO Marvel),https://redd.it/b27ntj
@@ -5955,7 +5955,6 @@ id,title,link
 6207,Respect Tool (Shipbreakers),https://redd.it/6qetvl
 6209,"Respect Arc Raratoia (Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chū | Skeleton Knight in Another World)",https://redd.it/cd2142
 6210,"Respect Ferufivisurotte (Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chū | Skeleton Knight in Another World)",https://redd.it/cdh3fl
-6211,Respect Slenderman,https://redd.it/2q1k13
 6212,"Respect Rozan, aka Godzilla (A Space Godzilla)",https://redd.it/brkei6
 6213,Respect Malacandra! (The Space Trilogy),https://redd.it/ak60yi
 6214,[Respect] Elijah Patmos (The Story of Elijah Patmos: Race X Godhood),https://redd.it/6dycua
@@ -6011,6 +6010,7 @@ id,title,link
 6252,"Respect Gilgamesh, the King of Heroes! (Fate)",https://redd.it/trgl81
 6247,Respect Archer! (Fate),https://redd.it/tz3j7e
 6251,Respect Shirou Emiya! (Fate),https://redd.it/u0wsg8
+6211,Respect Slender Man! (Victor Surge),https://redd.it/16wrjv8
 6267,Respect Avenger (Fate/Hollow Ataraxia),https://redd.it/46vl27
 6269,Respect Metatron (Tokyo Babel),https://redd.it/5v4a09
 6270,Respect Oshiba Hagane (Tokyo Babel),https://redd.it/5si1w8
@@ -9236,9 +9236,8 @@ id,title,link
 13054,Respect Eve (Black Cat),https://redd.it/ijy08t
 13055,Respect Sven Vollfied (Black Cat),https://redd.it/ikltup
 13056,Respect Hugo Hercules (Hugo Hercules),https://redd.it/ikpep5
-13057,Respect Charles Calvin (Henry Stickmin Games),https://redd.it/ilanyo
 21644,Respect Hansa Cervantes! (Fate/Strange Fake),https://redd.it/tk7q7v
-13058,Respect Ellie Rose (Henry Stickmin Games),https://redd.it/ilwuq8
+13057,Respect Charles Calvin (Henry Stickmin Series),https://redd.it/1701av9
 13059,Respect Strigoi (The Strain) (NSFW),https://redd.it/ilb7lc
 13060,Respect Mr. Quinlan (The Strain),https://redd.it/ilslia
 13061,Respect The Master (The Strain),https://redd.it/ilsntm
@@ -9313,6 +9312,7 @@ id,title,link
 13082,"Respect Beatrice (Re:Zero, Anime)",https://redd.it/w2spbr
 13094,Respect Chucky (Child's Play),https://redd.it/10atv2w
 13121,"Respect Ophiuchus the emperor, A.K.A GODFIELD (Lumpy Touch)",https://redd.it/11dfb1l
+13058,Respect Ellie Rose (Henry Stickmin Series),https://redd.it/170k741
 13135,Respect Peepers! (616),https://redd.it/igqi6e
 13136,Respect Mortimer 'Toad' Toynbee! (616),https://redd.it/icrhd1
 13137,Respect Magma-Tron (3Below: Tales of Arcadia),https://redd.it/ibeked
@@ -9505,8 +9505,6 @@ id,title,link
 13316,Respect Ghost (Iron Man: Armored Adventures),https://redd.it/iv91kr
 13317,Respect Madame Masque (Iron Man: Armored Adventures),https://redd.it/ityexz
 13318,Respect Mandarin (Iron Man: Armored Adventures),https://redd.it/itc92e
-13319,Respect Right Hand Man (Henry Stickmin Games),https://redd.it/isv8hl
-13320,Respect The Center for Chaos Containment (Henry Stickmin Games),https://redd.it/ixbxel
 13321,Respect Princess Morbucks (The Powerpuff Girls),https://redd.it/iwcfmz
 13322,Respect Count Bleck (Super Paper Mario),https://redd.it/iyntp9
 13323,Respect the Pixls (Super Paper Mario),https://redd.it/iynofc
@@ -9546,6 +9544,7 @@ id,title,link
 21662,Respect Karin Kanzuki! (Udon Comics Street Fighter),https://redd.it/tnj4hc
 13280,"Respect Wally West, The Flash (Death Battle)",https://redd.it/y60jmy
 13308,Respect Wong (Marvel Cinematic Universe),https://redd.it/15eazy4
+13320,Respect The Center for Chaos Containment (Henry Stickmin Series),https://redd.it/170k84b
 3274,"Respect Broly, the Legendary Super Saiyan (Dragon Ball Z Movies)",https://redd.it/rb179j
 21079,Respect Mephiles the Dark! (Sonic the Hedgehog),https://redd.it/raih21
 21080,Respect Siegward of Catarina (Dark Souls III),https://redd.it/ral88m
@@ -12944,3 +12943,29 @@ id,title,link
 24300,"Respect Matt Murdock, Daredevil Noir (Marvel, 90214)",https://redd.it/16uz0f7
 24301,Respect Tommy! (Life of Luxury),https://redd.it/16v24pn
 24302,Ethan Hunt Respect Thread [In progress] ,https://comicvine.gamespot.com/forums/gen-discussion-1/ethan-hunt-respect-thread-in-progress-1968660/
+24303,Featuring the Payday Gang!,https://redd.it/16qh3nx
+13319,Respect Right Hand Man (Henry Stickmin Series),https://redd.it/1701aae
+24305,Respect Godzilla (Godzilla vs Mighty Morphin' Power Rangers),https://redd.it/16vznwe
+24306,Respect the Mighty Morphin' Power Rangers! (Godzilla vs. The Mighty Morphin' Power Rangers),https://redd.it/16vznzz
+24307,Respect Gigan! (Godzilla vs. The Mighty Morphin' Power Rangers),https://redd.it/16vzoyf
+24308,Respect Angel! (Tower of God),https://redd.it/16wdpfi
+24309,Respect Billie Lurk! (Dishonored),https://redd.it/16wf29n
+24310,Respect Malikai (Soulfire),https://redd.it/16wf4c4
+24311,Respect Sombra (Overwatch),https://redd.it/16wo722
+24312,Respect the Staircases ! (Search and Rescue Woods),https://redd.it/16wrkp6
+24313,"Respect Varan (Godzilla, Composite)",https://redd.it/16wvvey
+24314,Respect the Mummies (Hammer Horror),https://redd.it/16x1khn
+24315,Respect Lord Ruthven (The Vampyre),https://redd.it/16x5iyc
+24316,"Respect SCP-165, The Creeping, Hungry Sands of Tule (SCP Foundation)",https://redd.it/16x61sb
+24317,"Respect Raven (DC, Post-Flashpoint)",https://redd.it/16x7cb3
+24318,Respect Scarab! (Adventure Time),https://redd.it/16xzs1m
+24319,Respect Siren Head! (Trevor Henderson Mythos),https://redd.it/16yeyd8
+24320,Respect the Cassowary (MatromX),https://redd.it/16yims3
+24321,Respect the Anaconda (MatromX),https://redd.it/16yiujj
+24322,Respect the Pteranodon (MatromX),https://redd.it/170qktb
+24323,Respect the Harpy Eagle (MatromX),https://redd.it/170qu2b
+24324,Respect Ash's Incineroar (Pokemon Anime),https://redd.it/16zn39z
+24325,"Respect `"Ash's`" Larvitar (Pokemon Anime)",https://redd.it/170hmv2
+24326,Respect Dracula (Dracula: Dead and Loving It),https://redd.it/16zw8g4
+24327,Respect the Haunted Gigan Suit (The haunted gigan final wars suit),https://redd.it/1705xb9
+24328,Respect Xipe Totec (The Valdevia Canon),https://redd.it/17060kd
