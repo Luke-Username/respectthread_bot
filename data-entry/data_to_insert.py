@@ -107,6 +107,31 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Wilson Fisk, the Kingpin (Insomniac Spider-Man)', 'https://redd.it/171amy6')
+add_data(['King ?pin'],
+'Kingpin',
+False,
+False,
+[
+    ['Insomniac(verse)?s?', 'Spider(-| )?Man'], ['Spider(-| )?Man', 'PS4']
+],
+"Insomniac''s Spider-Man",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/171amy6/respect_wilson_fisk_the_kingpin_insomniac/
+
+add_data(['Wilson Fisk'],
+'Wilson Fisk',
+False,
+False,
+[
+    ['Insomniac(verse)?s?'], ['Spider(-| )?Man', 'PS4']
+],
+"Insomniac''s Spider-Man",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/171amy6/respect_wilson_fisk_the_kingpin_insomniac/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
