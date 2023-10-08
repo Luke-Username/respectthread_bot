@@ -134,6 +134,81 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Woodcrawlers! (Gemini Home Entertainment)', 'https://redd.it/171uflq')
+add_data(['Woodcrawlers?'],
+'Woodcrawlers',
+False,
+True,
+[
+    ['Gemini Home Entertainment']
+],
+'Gemini Home Entertainment',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/171uflq/respect_the_woodcrawlers_gemini_home_entertainment/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Buelsar Elliot, the Mad Dog! (Tower of God)', 'https://redd.it/172e52a')
+add_data(['Buelsar Elliot'],
+'Buelsar Elliot',
+False,
+True,
+[
+    ['Tower of God']
+],
+'Tower of God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/172e52a/respect_buelsar_elliot_the_mad_dog_tower_of_god/
+
+########################################
+
+id = get_rt_id(cur, "Respect Iron Man''s \"Scratch\" Armor (Marvel, 616)", 'https://redd.it/172k1p2')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Scratch Armor'], ['"Scratch" Armor']
+],
+'Scratch Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/172k1p2/respect_iron_mans_scratch_armor_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Entity (Stagtown)', 'https://redd.it/172q0ni')
+add_data(['The Entity'],
+'The Entity',
+False,
+False,
+[
+    ['Stagtown']
+],
+'Stagtown',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/172q0ni/respect_the_entity_stagtown/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Gentleman''s Raticate (Pokemon Anime)", 'https://redd.it/1731vuh')
+add_data(["Gentleman''?s Raticate"],
+"Gentleman''s Raticate",
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1731vuh/respect_the_gentlemans_raticate_pokemon_anime/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
