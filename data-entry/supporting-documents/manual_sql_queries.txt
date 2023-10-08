@@ -14,8 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Anti(-| )Spirals?' WHERE name='Anti(-| )Spiral';
-
 ########################################
 
 ########################################
