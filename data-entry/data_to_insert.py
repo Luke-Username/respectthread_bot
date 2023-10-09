@@ -107,6 +107,78 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Daniel Hatchid! (Tower of God)', 'https://redd.it/1739et9')
+add_data(['Daniel Hatchid'],
+'Daniel Hatchid',
+False,
+True,
+[
+    ['Tower of God']
+],
+'Tower of God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1739et9/respect_daniel_hatchid_tower_of_god/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-ZH-002, Taiwanese Unicorn (SCP Foundation)', 'https://redd.it/173hy0l')
+add_data(['SCP ?(-| )? ?ZH ?(-| )? ?002'],
+'SCP-ZH-002',
+False,
+True,
+[
+    ['Taiwanese Unicorn']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/173hy0l/respect_scpzh002_taiwanese_unicorn_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alex Mercer! (DEATH BATTLE!)', 'https://redd.it/173k069')
+add_data(['Alex Mercer'],
+'Alex Mercer',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/173k069/respect_alex_mercer_death_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cole MacGrath! (DEATH BATTLE!)', 'https://redd.it/173k0xj')
+add_data(['Cole Ma?c?Grath'],
+'Cole MacGrath',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/173k0xj/respect_cole_macgrath_death_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Roots (The Seed from the Sepulcher)', 'https://redd.it/173q7q4')
+add_data(['The Roots'],
+'The Roots',
+False,
+False,
+[
+    ['Seed from the Sepulcher']
+],
+'The Seed from the Sepulcher',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/173q7q4/respect_the_roots_the_seed_from_the_sepulcher/
 
 ########################################
 
