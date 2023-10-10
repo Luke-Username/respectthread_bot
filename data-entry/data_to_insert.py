@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Santa Clause?'],
+'Santa Claus',
+False,
+False,
+[
+    ['CSM']
+],
+'Chainsaw Man',
+'{15324}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/174nffz/mahitojjk_vs_santa_clauscsm/k4a6ixa/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Daniel Hatchid! (Tower of God)', 'https://redd.it/1739et9')
 add_data(['Daniel Hatchid'],
 'Daniel Hatchid',
@@ -134,6 +148,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/173hy0l/respect_scpzh002_taiwanese_unicorn_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect CRP-5550, Pencilneck! (The CRP Institute)', 'https://redd.it/1744ig8')
+add_data(['SCP ?(-| )? ?5550'],
+'CRP-5550',
+False,
+True,
+[
+    ['Pencilneck']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
@@ -179,6 +208,81 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/173q7q4/respect_the_roots_the_seed_from_the_sepulcher/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Powerpuff Girls (Cancelled CW Pilot Script)', 'https://redd.it/1741vs6')
+add_data(['Power ?puff Girls'],
+'Powerpuff Girls',
+True,
+False,
+[
+    ['CW', 'Script']
+],
+'CW Script',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1741vs6/respect_the_powerpuff_girls_cancelled_cw_pilot/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jeff the Killer! (Jeff the Killer 2011)', 'https://redd.it/1743rzy')
+add_data(['Jeff the Killer'],
+'Jeff the Killer',
+False,
+True,
+[
+    ['2011']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 25: the Iron Secretary Mark II (Marvel, Earth-616)', 'https://redd.it/1746va8')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 25']
+],
+'Model 25',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1746va8/respect_iron_man_model_25_the_iron_secretary_mark/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Concavenator (M e d i c b a g)', 'https://redd.it/174d0we')
+add_data(['Concavenator'],
+'Concavenator',
+False,
+False,
+[
+    ['M e d i c b a g']
+],
+'M e d i c b a g',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/174d0we/respect_the_concavenator_m_e_d_i_c_b_a_g/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Alioramus (M e d i c b a g)', 'https://redd.it/174dbbh')
+add_data(['Alioramus'],
+'Alioramus',
+False,
+False,
+[
+    ['M e d i c b a g']
+],
+'M e d i c b a g',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/174dbbh/respect_the_alioramus_m_e_d_i_c_b_a_g/
 
 ########################################
 
