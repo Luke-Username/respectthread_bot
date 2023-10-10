@@ -121,6 +121,32 @@ False,
 
 ########################################
 
+add_data(['C\.?A\.?S\.? Superman'],
+'Cosmic Armor',
+False,
+True,
+[
+    ['DC']
+],
+'DC',
+'{1777}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/174g63n/cas_superman_vs_beyonder_who_would_win/
+
+add_data(['Beyonder'],
+'Beyonder',
+False,
+False,
+[
+    ['C\.?A\.?S\.? Superman']
+],
+'Marvel',
+'{2108,2107}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/174g63n/cas_superman_vs_beyonder_who_would_win/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Daniel Hatchid! (Tower of God)', 'https://redd.it/1739et9')
 add_data(['Daniel Hatchid'],
 'Daniel Hatchid',
