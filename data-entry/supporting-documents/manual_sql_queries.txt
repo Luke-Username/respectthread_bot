@@ -19,6 +19,8 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Two(-| )?Face', 
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Guiron';
+
 ########################################
 
 ########################################
