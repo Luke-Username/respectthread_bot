@@ -840,7 +840,7 @@ Yukio,"{`"X(-| )?Men (movie|film)s?`"}",f,{161},FOX
 Deathstrike,"{`"X(-| )?Men (movie|film)s?`"}",f,{162},FOX
 Zilla,{1998},f,{14373},1998
 Godzilla,{1998},f,{14373},1998
-Guiron,"{`"Gamera vs\\.? Guiron`"}",t,{165},Gamera vs Guiron
+Guiron,"{`"Gamera vs\\.? Guiron`"}",f,{165},Gamera vs Guiron
 King Kong,"{`"King Kong vs. Godzilla`"}",f,{192},Godzilla
 King Kong,{KKvG},f,{192},Godzilla
 King Kong,"{`"King Kong Escapes`"}",f,{192},Godzilla
@@ -30519,7 +30519,6 @@ Luffy,"{`"(Netflix('?s?)?|Live(-| )Action) ?One Piece`"}",f,{24205},Netflix's On
 Spirit,"{`"Stallion of the Cimarron`"}",f,{24206},Spirit: Stallion of the Cimarron
 Dimitri,"{`"DEATH BATTLE`",`"Fire Emblem`"}",f,{24207},DEATH BATTLE!
 Iron Man,"{`"Model 24`"}",f,{24208},Model 24
-Iron Man,"{`"Iron Secretary`"}",f,{24208},Model 24
 Iron Man,"{`"Model 23`"}",f,{24209},Model 23
 Iron Man,"{`"Ablative Armor`"}",f,{24209},Model 23
 Iron Man,"{`"Model 68`"}",f,{24210},Model 68
@@ -30567,6 +30566,7 @@ Carnage,"{`"Marvel Animated Universe`"}",f,{24237},Marvel Animated Universe
 Chaise Long,{Simpsons},f,{896},The Simpsons
 Toya Todoroki,"{`"My Hero Academia`"}",t,{17317},My Hero Academia
 Toya Todoroki,"{`"\\(My Hero\\)`"}",t,{17317},My Hero Academia
+Iron Man,"{`"Iron Secretary`"}",f,"{24208,24365}",Iron Secretary
 Toya Todoroki,{(M|BN?)HA},t,{17317},My Hero Academia
 Toya Todoroki,"{`"Boku no Hero`"}",t,{17317},My Hero Academia
 Shadow,{Sega},f,{5389},Sonic the Hedgehog
@@ -30714,3 +30714,16 @@ Buelsar Elliot,"{`"Tower of God`"}",t,{24361},Tower of God
 Iron Man,"{`"Scratch Armor`"}",f,{24362},Scratch Armor
 The Entity,{Stagtown},f,{24363},Stagtown
 Gentleman's Raticate,{Pok(e|é)m(o|a)n},t,{24364},Pokémon
+Santa Claus,{CSM},f,{15324},Chainsaw Man
+Beyonder,"{`"C\\.?A\\.?S\\.? Superman`"}",f,"{2108,2107}",Marvel
+Daniel Hatchid,"{`"Tower of God`"}",t,{24366},Tower of God
+SCP-ZH-002,"{`"Taiwanese Unicorn`"}",t,{24367},""
+CRP-5550,{Pencilneck},t,{24368},""
+Alex Mercer,"{`"DEATH BATTLE`"}",f,{24369},DEATH BATTLE!
+Cole MacGrath,"{`"DEATH BATTLE`"}",f,{24370},DEATH BATTLE!
+The Roots,"{`"Seed from the Sepulcher`"}",f,{24371},The Seed from the Sepulcher
+Powerpuff Girls,"{CW,Script}",f,{24372},CW Script
+Jeff the Killer,{2011},t,{24373},""
+Iron Man,"{`"Model 25`"}",f,{24365},Model 25
+Concavenator,"{`"M e d i c b a g`"}",f,{24374},M e d i c b a g
+Alioramus,"{`"M e d i c b a g`"}",f,{24375},M e d i c b a g
