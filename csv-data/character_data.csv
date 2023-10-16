@@ -30666,8 +30666,6 @@ Antisepticeye,{Jacksepticeye},t,{24299},Jacksepticeye
 Daredevil Noir,{90214},t,{24300},90214
 Tommy,"{`"Life of Luxury`"}",f,{24301},Life of Luxury
 Ethan Hunt,"{`"Mission:? Impossible`"}",t,{24302},Mission: Impossible
-Iron Man,{616},t,"{24286,2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}",616
-Iron Man,{Marvel},t,"{24286,2173,24155,24222,24208,2174,2175,2176,2177,2178,24221}",616
 Payday Gang,"{`"\\(Payday\\)`"}",t,"{23156,24303}",Payday
 Slenderman,"{`"Victor Surge`"}",t,{6211},""
 Alastor Moody,"{`"Harry Potter`"}",t,{5822},Harry Potter
@@ -30744,3 +30742,14 @@ RPC-398,"{`"Spooky Scary Skeletons`"}",t,{24386},""
 Marvelous Man,"{`"Guardians of Justice`"}",f,{24387},The Guardians of Justice
 Jason Voorhees,"{`"Robot Chicken`"}",f,{24388},Robot Chicken
 Nazi Frankenstein's Monster,{Marvel|616},t,{24389},616
+Iron Man,{616},t,"{2173,24286,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
+Iron Man,{Marvel},t,"{2173,24286,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
+Princess Audrey,{Descendants},t,{24390},Descendants
+Cats,{Bayonetta},f,{24391},Bayonetta
+Smile Room,"{`"Trevor Henderson`"}",t,{24392},Trevor Henderson
+Long Horse,"{`"Trevor Henderson`"}",f,{24393},Trevor Henderson
+Upside-Down Face Man,"{`"Trevor Henderson`"}",t,{24394},Trevor Henderson
+Upside-Down Man,"{`"Trevor Henderson`"}",f,{24394},Trevor Henderson
+Night Detective,"{`"Outcast Comics`"}",f,{24395},Outcast Comics
+Shrewster,"{`"Godzilla:? The Series`"}",t,{24396},Godzilla: The Series
+John Jonah Jameson,{616},t,{24397},616
