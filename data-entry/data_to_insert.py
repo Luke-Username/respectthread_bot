@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Rudeus'],
+'Rudeus',
+False,
+False,
+[
+    ['Adult Rudeus']
+],
+'Jobless Reincarnation',
+'{5853}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/179ytx9/lemillion_mha_vs_young_adult_rudeus/k59asvp/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
