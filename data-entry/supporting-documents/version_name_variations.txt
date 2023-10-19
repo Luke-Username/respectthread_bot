@@ -312,7 +312,7 @@ Ben 10
 
 Berserk
 	Version
-		'{"Ber(s|z)erk"}'
+		['Ber(s|z)erk']
 	Displayed Version Name
 		"Berserk"
 
