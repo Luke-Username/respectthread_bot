@@ -32,7 +32,6 @@ id,title,link
 48,Respect Haruka Mizusawa (Kamen Rider Amazons),https://redd.it/9atncl
 50,Respect Chase (Kamen Rider Drive),https://redd.it/6yqg1s
 55,"Respect Kouta Kazuraba, Kamen Rider Gaim (Kamen Rider Gaim)",https://redd.it/pjm9ap
-52,Respect Emu Hojo (Kamen Rider Ex-Aid),https://redd.it/93ixvp
 53,Respect Tenjuro Banno/Gold Drive(KR Drive Series Finale),https://redd.it/3nhlxp
 54,Respect Kamen Rider Drive,https://redd.it/6ypkh8
 56,Respect Kazumi Sawatari and The Hokuto Trio/Crows (Kamen Rider Build),https://redd.it/a2j1jc
@@ -56,6 +55,7 @@ id,title,link
 74,Respect Braun Strowman (WWE),https://redd.it/8493k8
 75,"Respect the `"Hardcore Legend`" Mick Foley! (Three Faces of Foley) (WWF/E)",https://redd.it/a820ur
 76,"Respect The Deadman, The Undertaker! (WWE)",https://redd.it/6243eo
+52,"Respect Emu Hojo, Kamen Rider Ex-Aid (Kamen Rider Ex-Aid)",https://redd.it/17d8g1l
 78,Respect Bibleman (Bibleman),https://redd.it/4kwa5e
 79,Respect Black Lightning (Black Lightning),https://redd.it/8ha30b
 80,Respect Thunder (Black Lightning),https://redd.it/8ha36n
@@ -870,7 +870,6 @@ id,title,link
 924,Respect Mother Talzin (Star Wars: The Clone Wars),https://redd.it/8rhvv2
 925,Respect Pre Vizsla (Star Wars: The Clone Wars),https://redd.it/ao19dy
 926,Respect Savage Opress [Star Wars: The Clone Wars],https://redd.it/71tx8j
-927,Respect the Grand Inquisitor (Star Wars Canon),https://redd.it/bpg4s6
 928,Respect Kanan Jarrus/Caleb Dume (Star Wars Canon),https://redd.it/8716uz
 929,Respect Alexandrite (Steven Universe),https://redd.it/4z98te
 930,"Respect Amethyst, Crystal Gem",https://redd.it/30m4ro
@@ -941,6 +940,7 @@ id,title,link
 998,Respect Lord Hater (Wander Over Yonder),https://redd.it/aelh27
 987,Respect Goultard (Wakfu),https://redd.it/zmdbpt
 923,Respect Embo (Star Wars Canon),https://redd.it/16glcz3
+927,Respect the Grand Inquisitor (Star Wars Canon),https://redd.it/17edl3m
 999,Respect The Watchdogs (Wander Over Yonder),https://redd.it/aegi2m
 1000,Respect Arsenal (Young Justice),https://redd.it/7vru2a
 1001,Respect Aquagirl (Young Justice),https://redd.it/8o5ojo
@@ -6930,7 +6930,6 @@ id,title,link
 15351,Respect William Shakespeare! (Fate),https://redd.it/qjhyv2
 14813,"Respect Ereshkigal, the Queen of Kur! (Fate)",https://redd.it/qk0oie
 456,Respect Michael Myers (Halloween),https://redd.it/qjpnfy
-20196,Respect Sylvie Laufeydottir (Marvel Cinematic Universe),https://redd.it/pwxpku
 20197,"Respect T’Challa, Star-Lord (Marvel Cinematic Universe: What If...?)",https://redd.it/q3xeb5
 20198,Respect Party Thor (Marvel Cinematic Universe: What If...?),https://redd.it/q3xeva
 20199,Respect Hawkeye (Marvel Cinematic Universe: What If...?),https://redd.it/py6gvd
@@ -6986,6 +6985,7 @@ id,title,link
 20250,Respect Passionlip! (Fate),https://redd.it/pn7jmj
 20251,Respect Meltryllis! (Fate),https://redd.it/pn7k6g
 6019,Respect: Angron (Warhammer 40k),https://redd.it/119lsn3
+20196,Respect Sylvie Laufeydottir (Marvel Cinematic Universe),https://redd.it/px6ftx
 3418,Respect Frank Archer (Fullmetal Alchemist 2003),https://redd.it/g89xy8
 3419,Respect Hohenheim of Light (Fullmetal Alchemist 2003),https://redd.it/ga5932
 103,Respect Superman (Smallville),https://redd.it/gaun96
@@ -13014,3 +13014,13 @@ id,title,link
 24401,Respect Lula Talisola (Star Wars Canon),https://redd.it/179pqv4
 24402,"Respect Kraven the Hunter (Insomniac's Spider-Man 2, Earth-1048)",https://redd.it/17aqyzh
 24403,Respect Carrie White (Carrie [2002 TV Film]),https://redd.it/17arsvu
+24404,Respect Bulletproof (Image Comics),https://redd.it/pwxpku
+24405,"Respect Zombie Reed Richards (Marvel, 2149)",https://redd.it/17ce4f7
+24406,Respect Felicia (Felicia vs Mika (Sprite Animation)),https://redd.it/17cuo09
+24407,"Respect the Maimed Lord, Vecna (Dungeons and Dragons, 5th Edition)",https://redd.it/17d3ld5
+24408,"Respect Parado, Kamen Rider Para-DX (Kamen Rider Ex-Aid)",https://redd.it/17d8g39
+24409,"Respect Masamune Dan, Kamen Rider Cronus (Kamen Rider Ex-Aid)",https://redd.it/17duo5w
+24410,Respect Gamedeus (Kamen Rider Ex-Aid),https://redd.it/17duo9l
+24411,Respect Dancing Pumpkin Man (YouTube),https://redd.it/17dk44v
+24412,Respect Frieren! (Frieren: Beyond Journey's End),https://redd.it/17e7ixf
+24413,"Respect Godzillasaurus (Godzilla Franchise, Composite)",https://redd.it/17emqbg

@@ -1313,12 +1313,6 @@ The Ancient One,{MCU},f,{232},MCU
 The Ancient One,{199999},f,{232},MCU
 The Ancient One,{movie},f,{232},MCU
 The Ancient One,{movies},f,{232},MCU
-Black Panther,"{`"Marvel Cinematic Universe`"}",f,{234},MCU
-Black Panther,{MCU},f,{234},MCU
-Black Panther,{199999},f,{234},MCU
-Black Panther,{movie},f,{234},MCU
-Black Panther,{movies},f,{234},MCU
-Black Panther,"{`"Civil War`"}",f,{234},MCU
 Hulk,"{`"Marvel Cinematic Universe`"}",f,{236},MCU
 Hulk,{MCU},f,{236},MCU
 Yakko Warner,{Animaniacs},t,{636},Animaniacs
@@ -1330,6 +1324,12 @@ Black Widow,{199999},f,{235},MCU
 Black Widow,{movie},f,{235},MCU
 Black Widow,{movies},f,{235},MCU
 Black Widow,"{`"Civil War`"}",f,{235},MCU
+Black Panther,"{`"Marvel Cinematic Universe`"}",f,{234},MCU
+Black Panther,{MCU},f,{234},MCU
+Black Panther,{199999},f,{234},MCU
+Black Panther,{movie},f,{234},MCU
+Black Panther,{movies},f,{234},MCU
+Black Panther,"{`"Civil War`"}",f,{234},MCU
 Hulk,{199999},f,{236},MCU
 Kuru-Kuru Hime,"{`"Mahou Shoujo Ikusei Keikaku`"}",t,{10790},Magical Girl Raising Project
 Hulk,{Ragnarok},f,{236},MCU
@@ -3187,13 +3187,10 @@ Talzin,"{`"Star Wars`"}",t,{924},Star Wars
 Talzin,"{`"Clone Wars`"}",t,{924},Star Wars
 Pre Vizsla,"{`"Star Wars`"}",t,{925},Star Wars
 Pre Vizsla,"{`"Clone Wars`"}",t,{925},Star Wars
-Black Panther,"{`"Earth's Mightiest Heroes`"}",f,{648},Earth's Mightiest Heroes
 Savage Opress,"{`"Star Wars`"}",t,{926},Star Wars
 Savage Opress,"{`"Clone Wars`"}",t,{926},Star Wars
 Grand Inquisitor,"{`"Star Wars`"}",t,{927},Star Wars
 Grand Inquisitor,{SWR},t,{927},Star Wars
-Black Panther,"{`"Earths? Mightiest Heroes`"}",f,{648},Earth's Mightiest Heroes
-Black Panther,{EMH},f,{648},Earth's Mightiest Heroes
 Justice Guild of America,"{`"DC Animated Universe`"}",t,{762},DCAU
 Justice Guild of America,{DCAU},t,{762},DCAU
 Tom Turbine,"{`"DC Animated Universe`"}",t,{762},DCAU
@@ -3258,6 +3255,8 @@ Peridot,{Steven},t,{942},Steven Universe
 Peridot,{SU},t,{942},Steven Universe
 Peridot,"{`"Crystal Gems?`"}",t,{942},Steven Universe
 Robot Shooty Thing,{Steven},t,{943},Steven Universe
+Black Panther,"{`"Earths? Mightiest Heroes`"}",f,{648},Earth's Mightiest Heroes
+Black Panther,{EMH},f,{648},Earth's Mightiest Heroes
 Robot Shooty Thing,{SU},t,{943},Steven Universe
 Robot Shooty Thing,"{`"Crystal Gems?`"}",t,{943},Steven Universe
 Ruby,{Steven},f,{944},Steven Universe
@@ -11517,9 +11516,6 @@ Kaldera,{Marvel},t,{2011},616
 T'Challa,{616},t,{2019},616
 T'Challa,{comics?},t,{2019},616
 T'Challa,{Marvel},t,{2019},616
-Black Panther,{616},t,{2019},616
-Black Panther,{comics?},t,{2019},616
-Black Panther,{Marvel},t,{2019},616
 Mayday Parker,{982},t,{2530},982
 Mayday Parker,{Marvel},t,{2530},982
 Mayday Parker,{comics?},t,{2530},982
@@ -11576,6 +11572,8 @@ Hekapoo,{SVTFOE},t,{9226},SVTFOE
 Rhombulus,"{`"Star vs`"}",t,{9226},SVTFOE
 Rhombulus,{SVTFOE},t,{9226},SVTFOE
 Black Dwarf,{199999},f,{6514},MCU
+Black Panther,{616},f,{2019},616
+Black Panther,{comics?},f,{2019},616
 Omnitraxus,"{`"Star vs`"}",t,{9226},SVTFOE
 Omnitraxus,{SVTFOE},t,{9226},SVTFOE
 Lekmet,"{`"Star vs`"}",t,{9226},SVTFOE
@@ -13895,9 +13893,6 @@ Victor Lila Frankenstein,"{`"Yozakura Quartet`"}",t,{4627},Yozakura Quartet
 Egyptian God Slime,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4628},Yu-Gi-Oh!
 Jaden Yuki,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4629},Yu-Gi-Oh!
 Yubel,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4629},Yu-Gi-Oh!
-Joey Wheeler,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4630},Yu-Gi-Oh!
-Jonouchi Katsuya,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4630},Yu-Gi-Oh!
-Joey,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4630},Yu-Gi-Oh!
 Kurosaki Shun,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4631},Yu-Gi-Oh!
 Shun,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4631},Yu-Gi-Oh!
 Marik,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4632},Yu-Gi-Oh!
@@ -13906,6 +13901,7 @@ Sora Perse,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4634},Yu-Gi-Oh!
 Yuya Sakaki,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4635},Yu-Gi-Oh!
 Yuya,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4635},Yu-Gi-Oh!
 Ventus,{UnOrdinary},f,{4612},UnOrdinary
+Joey Wheeler,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23501},Yu-Gi-Oh!
 Yuto,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4635},Yu-Gi-Oh!
 Yuto,{Duel},f,{4635},Yu-Gi-Oh!
 Yugo,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4635},Yu-Gi-Oh!
@@ -19398,9 +19394,7 @@ Duck Hunt,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",t,{5445},""
 Duck Hunt,{SSBB},t,{5445},""
 Fox McCloud,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",f,{5446},Super Smash Bros
 Fox McCloud,{SSBB},f,{5446},Super Smash Bros
-Fox,{Smash},f,{5446},Super Smash Bros
 Fox,{SSBB},f,{5446},Super Smash Bros
-Fox,{Melee},f,{5446},Super Smash Bros
 Halberd,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",f,{5447},Super Smash Bros
 Halberd,{SSBB},f,{5447},Super Smash Bros
 King K. Rool,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",f,{5448},Super Smash Bros
@@ -21703,8 +21697,6 @@ Captain Ultra,"{`"Griffin Gogol`"}",f,{16376},616
 Gorilla Girl,{616},t,{16377},616
 Gorilla Girl,{Marvel},t,{16377},616
 Gorilla Girl,"{`"Fahnbullah Eddy`"}",t,{16377},616
-Black Panther,"{`"Black Panther'?s? Hulk(-| )?buster`"}",f,{16378},Hulkbuster
-Black Panther,"{`"Wakandan? Hulk(-| )?buster`"}",f,{16378},Hulkbuster
 Thorbuster,{616},t,{16379},616
 Thorbuster,{Marvel},t,{16379},616
 Unincredible Hulk,{616},t,{16380},616
@@ -24122,7 +24114,6 @@ Peacemaker,"{`"Peace ?maker ?\\((The )?Suicide Squad`"}",f,{20353},DCEU
 Peacemaker,"{`"John Cena`"}",f,{20353},DCEU
 Peacemaker,"{`"Suicide Squad`",comics?}",f,{},DC
 Peacemaker,"{`"Peace ?maker ?\\(D\\.?C`"}",f,{},DC
-Black Panther,"{`"Stars (and|&) Stripes`"}",f,{20354},Stars and Stripes
 Shura,"{`"One ?Piece?`"}",f,{20355},One Piece
 Ohm,"{`"One ?Piece?`"}",f,{20356},One Piece
 Killer,"{`"Killer ?\\(One ?Piece?`"}",f,{20357},One Piece
@@ -24184,6 +24175,7 @@ Shadow,"{`"Sonic X`"}",f,{20399},Sonic X
 Sonic,"{`"Sonic ?\\(Sonic X`"}",f,{20400},Sonic X
 Sonic the Hedgehog,"{`"Sonic X`"}",f,{20400},Sonic X
 Emerl,"{`"Sonic X`"}",f,{20401},Sonic X
+Black Panther,"{`"Stars (and|&) Stripes`"}",f,{20354},Stars and Stripes
 Sam Speed,"{`"Sonic X`"}",t,{20402},Sonic X
 Tails,"{`"Sonic X`"}",f,{20403},Sonic X
 Knuckles,"{`"Sonic X`"}",f,{20404},Sonic X
@@ -24334,8 +24326,6 @@ Utahraptor,"{`"Dinosaur King`"}",f,{20514},Dinosaur King
 Gaz Digzy,{Ballmastrz},t,{20515},Ballmastrz: 9009
 Homer Simpson,"{`"The Simpsons`"}",t,{20516},The Simpsons
 Lobo,"{`"Man of Tomorrow`"}",f,{20517},Superman: Man of Tomorrow
-Bulletproof,"{`"Bulletproof ?\\(Image`"}",f,{20196},Image Comics
-Bulletproof,"{`"Zandale Randolph`"}",f,{20196},Image Comics
 Inazuma,"{`"Rock(-| )Paper(-| )Scissors`"}",f,{20518},Ultimate Rock-Paper-Scissors
 General Fong,{Avatar},t,{20519},Avatar: TLA
 General Fong,{A?TLA},t,{20519},Avatar: TLA
@@ -25730,7 +25720,6 @@ Cú Chulainn,"{`"Stay/? ?k?Night`"}",f,{14811},Fate
 Cú Chulainn,{F/?SN},f,{14811},Fate
 Top,"{`"Top \\(DC\\)`"}",f,{1603},DC
 Popeye,{Popeyes?.*chicken|chicken.*Popeyes?},f,{},""
-Black Panther,"{`"Fantastic Four`",1994}",f,{21347},"Fantastic Four, 1994"
 Lolong Donaire,{Kengan(verse)?},t,{21348},Kengan Asura
 Steve,"{`"Minecraft Anime`"}",f,{21349},Minecraft Anime
 Cocytus,{Overlord},f,{21350},Overlord
@@ -25748,6 +25737,7 @@ Artoria Pendragon,{Zero},t,"{6256,21412}",Fate
 Godzilla,"{`"Godzilla vs\\.? Kong`"}",f,{280},MonsterVerse
 Sun Wukong,"{`"Overly Sarcastic Productions`"}",t,{21352},Overly Sarcastic Productions
 Crusch Karsten,"{`"Re(:|-)? ?Zero`"}",t,{21339},Re:Zero
+Black Panther,"{`"Fantastic Four`",1994}",f,{21347},"Fantastic Four, 1994"
 Ultron,"{`"A(vengers)?: ?EMH`"}",f,{21353},Earths Mightiest Heroes
 Ultron,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{21353},Earths Mightiest Heroes
 Alabaster,{Torrington},f,{21354},Percy Jackson
@@ -30771,3 +30761,23 @@ Kraven the Hunter,{Insomniac(verse)?s?},f,{24402},Insomniac's Spider-Man
 Kraven the Hunter,"{`"Spider(-| )?Man`",PS4}",f,{24402},Insomniac's Spider-Man
 Kraven the Hunter,{1048},f,{24402},Insomniac's Spider-Man
 Carrie,{2022},f,{24403},2022
+Black Panther,"{`"Earth's Mightiest Heroes`"}",f,{648},Earth's Mightiest Heroes
+Black Panther,{Marvel},f,{2019},616
+Black Panther,"{`"Black Panther'?s? Hulk(-| )?buster`"}",f,{16378},Hulkbuster
+Black Panther,"{`"Wakandan? Hulk(-| )?buster`"}",f,{16378},Hulkbuster
+Jonouchi Katsuya,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23501},Yu-Gi-Oh!
+Joey,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23501},Yu-Gi-Oh!
+Bulletproof,"{`"Bulletproof ?\\(Image`"}",f,{24404},Image Comics
+Bulletproof,"{`"Zandale Randolph`"}",f,{24404},Image Comics
+Zombie Reed Richards,{2149},t,{24405},2149
+Felicia,"{`"Felicia vs\\.? Mika`",Sprite|Animation}",f,{24406},Felicia vs Mika
+Vecna,"{`"Dungeons (&|and) Dragons`"}",t,{24407},Dungeons & Dragons
+Vecna,"{`"D ?(&|n) ?D`"}",t,{24407},Dungeons & Dragons
+Vecna,"{`"Stranger Things`"}",f,{},Stranger Things
+Kamen Rider Para-DX,"{`"Ex(-| )Aid`"}",t,{24408},""
+Kamen Rider Cronus,"{`"Ex(-| )Aid`"}",t,{24409},""
+Gamedeus,"{`"Ex(-| )Aid`"}",t,{24410},""
+Gamedeus,"{`"Kamen Rider`"}",t,{24410},""
+Dancing Pumpkin Man,"{`"Pumpkin Dance`"}",t,{24411},""
+Frieren,"{`"Beyond Journeys?`"}",f,{24412},Frieren: Beyond Journey's End
+Godzillasaurus,{Godzilla},t,{24413},Godzilla
