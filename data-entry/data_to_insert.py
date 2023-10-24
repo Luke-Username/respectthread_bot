@@ -183,6 +183,63 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Captain Uma (Descendants)', 'https://redd.it/178ljtg')
+add_data(['Capt(ain)\.? Uma'],
+'Captain Uma',
+False,
+True,
+[
+    ['Descendants']
+],
+'Descendants',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/17fjb73/good_matchups_for_the_descendants_trilogy/k6a5xtb/?context=3
+
+add_data(['Uma'],
+'Uma',
+False,
+False,
+[
+    ['Descendants']
+],
+'Descendants',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/17fjb73/good_matchups_for_the_descendants_trilogy/k6a5xtb/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lady Mal Bertha (Descendants)', 'https://redd.it/17952tn')
+add_data(['Mal'],
+'Mal',
+False,
+False,
+[
+    ['Descendants'], ['Mal Bertha']
+],
+'Descendants',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Descendants (Descendants)', 'https://redd.it/179sb9n')
+add_data(['The Descendants'],
+'The Descendants',
+True,
+False,
+[
+    ['\(Descendants\)']
+],
+'Descendants',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/CasualRespectThreads/comments/179sb9n/respect_the_descendants_descendants/?share_id=uTA5Ipj4CTfolRj4o_Q4W
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
