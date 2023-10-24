@@ -14,13 +14,27 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Black ?Panther', 'K-2 Black Panther', -4);
+
+UPDATE character SET is_default=FALSE WHERE default_name='Black Panther';
 
 ########################################
 
-########################################
+UPDATE character SET rt_id_array='{23501}' WHERE rt_id_array='{4630}';
 
 ########################################
+
+UPDATE respectthread SET link='https://redd.it/px6ftx' WHERE id=20196;
+
+########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Bulletproof (Image Comics)', 'https://redd.it/pwxpku'); SELECT * FROM respectthread WHERE link='https://redd.it/pwxpku';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Bulletproof' AND displayed_version_name='Image Comics';
+
+########################################
+
+DELETE FROM character WHERE default_name='Fox' AND version='{"Smash"}';
+DELETE FROM character WHERE default_name='Fox' AND version='{"Smash"}';
 
 ########################################
 

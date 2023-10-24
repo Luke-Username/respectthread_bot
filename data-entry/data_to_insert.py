@@ -107,6 +107,155 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 52, 'Respect Emu Hojo, Kamen Rider Ex-Aid (Kamen Rider Ex-Aid)', 'https://redd.it/17d8g1l')
+update_respectthread(cur, 927, 'Respect the Grand Inquisitor (Star Wars Canon)', 'https://redd.it/17edl3m')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zombie Reed Richards (Marvel, 2149)', 'https://redd.it/17ce4f7')
+add_data(['Zombie Reed Richards'],
+'Zombie Reed Richards',
+False,
+True,
+[
+    ['2149']
+],
+'2149',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17ce4f7/respect_zombie_reed_richards_marvel_2149/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Felicia (Felicia vs Mika (Sprite Animation))', 'https://redd.it/17cuo09')
+add_data(['Felicia'],
+'Felicia',
+False,
+False,
+[
+    ['Felicia vs\.? Mika', 'Sprite|Animation']
+],
+'Felicia vs Mika',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17cuo09/respect_felicia_felicia_vs_mika_sprite_animation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Maimed Lord, Vecna (Dungeons and Dragons, 5th Edition)', 'https://redd.it/17d3ld5')
+add_data(['Vecna'],
+'Vecna',
+False,
+True,
+[
+    ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17d3ld5/respect_the_maimed_lord_vecna_dungeons_and/
+
+add_data(['Vecna'],
+'Vecna',
+False,
+False,
+[
+    ['Stranger Things']
+],
+'Stranger Things',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17d3ld5/respect_the_maimed_lord_vecna_dungeons_and/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Parado, Kamen Rider Para-DX (Kamen Rider Ex-Aid)', 'https://redd.it/17d8g39')
+add_data(['Kamen Rider Para(-| )DX'],
+'Kamen Rider Para-DX',
+False,
+True,
+[
+    ['Ex(-| )Aid']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17d8g39/respect_parado_kamen_rider_paradx_kamen_rider/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Masamune Dan, Kamen Rider Cronus (Kamen Rider Ex-Aid)', 'https://redd.it/17duo5w')
+add_data(['Kamen Rider Cronus'],
+'Kamen Rider Cronus',
+False,
+True,
+[
+    ['Ex(-| )Aid']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17duo5w/respect_masamune_dan_kamen_rider_cronus_kamen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gamedeus (Kamen Rider Ex-Aid)', 'https://redd.it/17duo9l')
+add_data(['Gamedeus'],
+'Gamedeus',
+False,
+True,
+[
+    ['Ex(-| )Aid'], ['Kamen Rider']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17duo9l/respect_gamedeus_kamen_rider_exaid/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dancing Pumpkin Man (YouTube)', 'https://redd.it/17dk44v')
+add_data(['Dancing Pumpkin Man'],
+'Dancing Pumpkin Man',
+False,
+True,
+[
+    ['Pumpkin Dance']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17dk44v/respect_dancing_pumpkin_man_youtube/
+
+########################################
+
+id = get_rt_id(cur, "Respect Frieren! (Frieren: Beyond Journey''s End)", 'https://redd.it/17e7ixf')
+add_data(['Frieren'],
+'Frieren',
+False,
+False,
+[
+    ["Beyond Journeys?"]
+],
+"Frieren: Beyond Journey''s End",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17e7ixf/respect_frieren_frieren_beyond_journeys_end/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzillasaurus (Godzilla Franchise, Composite)', 'https://redd.it/17emqbg')
+add_data(['Godzillasaurus'],
+'Godzillasaurus',
+False,
+True,
+[
+    ['Godzilla']
+],
+'Godzilla',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17emqbg/respect_godzillasaurus_godzilla_franchise/
 
 ########################################
 
