@@ -107,6 +107,80 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6017, 'Respect Vampire hunter D: [Vampire Hunter D Series]', 'https://redd.it/17f9swo')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alraune, Whisperer of Dementia (Bayonetta)', 'https://redd.it/17f18xj')
+add_data(['Alraune'],
+'Alraune',
+False,
+False,
+[
+    ['Bayonetta']
+],
+'Bayonetta',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Taiga Hanaya, Kamen Rider Snipe (Kamen Rider Ex-Aid)', 'https://redd.it/17f6nxf')
+add_data(['Kamen Rider Snipe'],
+'Kamen Rider Snipe',
+False,
+True,
+[
+    ['Ex(-| )Aid']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17f6nxf/respect_taiga_hanaya_kamen_rider_snipe_kamen/
+
+add_data(['Taiga Hanaya'],
+'Taiga Hanaya',
+False,
+True,
+[
+    ['Ex(-| )Aid'], ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17f6nxf/respect_taiga_hanaya_kamen_rider_snipe_kamen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nico Saiba (Kamen Rider Ex-Aid)', 'https://redd.it/17f6nyi')
+add_data(['Nico Saiba'],
+'Nico Saiba',
+False,
+True,
+[
+    ['Ex(-| )Aid'], ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17f6nyi/respect_nico_saiba_kamen_rider_exaid/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ninjak (Valiant Entertainment)', 'https://redd.it/17fcata')
+add_data(['Ninjak'],
+'Ninjak',
+False,
+True,
+[
+    ['Valiant']
+],
+'Valiant',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17fcata/respect_ninjak_valiant_entertainment/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
