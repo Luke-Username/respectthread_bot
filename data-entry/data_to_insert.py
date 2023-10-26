@@ -153,6 +153,33 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Hiiro Kagami, Kamen Rider Brave (Kamen Rider Ex-Aid)', 'https://redd.it/17gblp9')
+add_data(['Kamen Rider Brave'],
+'Kamen Rider Brave',
+False,
+True,
+[
+    ['Ex(-| )Aid']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17f6nxf/respect_taiga_hanaya_kamen_rider_snipe_kamen/
+
+add_data(['Hiiro Kagami'],
+'Hiiro Kagami',
+False,
+True,
+[
+    ['Ex(-| )Aid'], ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17gblp9/respect_hiiro_kagami_kamen_rider_brave_kamen/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Nico Saiba (Kamen Rider Ex-Aid)', 'https://redd.it/17f6nyi')
 add_data(['Nico Saiba'],
 'Nico Saiba',
@@ -165,6 +192,48 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/17f6nyi/respect_nico_saiba_kamen_rider_exaid/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kiriya Kujo, Kamen Rider Lazer (Kamen Rider Ex-Aid)', 'https://redd.it/17gblqi')
+add_data(['Kamen Rider Lazer'],
+'Kamen Rider Lazer',
+False,
+True,
+[
+    ['Ex(-| )Aid']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17f6nxf/respect_taiga_hanaya_kamen_rider_snipe_kamen/
+
+add_data(['Kiriya Kujo'],
+'Kiriya Kujo',
+False,
+True,
+[
+    ['Ex(-| )Aid'], ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17gblqi/respect_kiriya_kujo_kamen_rider_lazer_kamen_rider/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Dread King, Dregoth (Dungeons and Dragons, 2nd edition)', 'https://redd.it/17gizqe')
+add_data(['Dregoth'],
+'Dregoth',
+False,
+True,
+[
+    ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17gizqe/respect_the_dread_king_dregoth_dungeons_and/
 
 ########################################
 
