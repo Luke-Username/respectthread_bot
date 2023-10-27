@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Officer Roger Mortis (Dead Heat)', 'https://redd.it/17hp0s2')
+add_data(['Roger Mortis'],
+'Roger Mortis',
+False,
+False,
+[
+    ['Dead Heat']
+],
+'Dead Heat',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17hp0s2/respect_officer_roger_mortis_dead_heat/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Medusa! (Conan the Adventurer)', 'https://redd.it/17httlx')
+add_data(['Medusa'],
+'Medusa',
+False,
+False,
+[
+    ['Conan the Adventurer']
+],
+'Conan the Adventurer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17httlx/respect_medusa_conan_the_adventurer/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
