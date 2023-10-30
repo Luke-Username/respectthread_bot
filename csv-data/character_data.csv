@@ -8297,10 +8297,6 @@ Brainiac 5,"{`"DC Animated Universe`"}",f,{8340},DCAU
 Brainiac 5,"{`"Animated DC`"}",f,{8340},DCAU
 Brainiac 5,{DCAU},f,{8340},DCAU
 Brainiac 5,{Timmverse},f,{8340},DCAU
-Brainiac,"{`"DC Animated Universe`"}",f,{752},DCAU
-Brainiac,"{`"Animated DC`"}",f,{752},DCAU
-Brainiac,{DCAU},f,{752},DCAU
-Brainiac,{Timmverse},f,{752},DCAU
 Akaza,"{`"Demon ?Slayer`"}",t,{8341},Demon Slayer
 Akaza,"{`"Kimetsu no Yaiba`"}",t,{8341},Demon Slayer
 Yoriichi,"{`"Demon ?Slayer`"}",t,{8342},Demon Slayer
@@ -8357,6 +8353,8 @@ Cheetah,"{`"New(-| )?52`"}",f,{1846},New 52
 Cheetah,{Nu?-?52},f,{1846},New 52
 Cheetah,"{`"Post(-| )52`"}",f,{1846},New 52
 Cheetah,"{`"Prime(-| )Earth`"}",f,{1846},New 52
+Brainiac,"{`"DC Animated Universe`"}",f,{24424},DCAU
+Brainiac,"{`"Animated DC`"}",f,{24424},DCAU
 Cheetah,{Rebirth},f,{1846},New 52
 Cheetah,"{`"Cheetah (\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{1846},DC
 Circe,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",f,{1847},DC
@@ -30801,3 +30799,27 @@ Uma,{Descendants},f,{24421},Descendants
 Mal,{Descendants},f,{24422},Descendants
 Mal,"{`"Mal Bertha`"}",f,{24422},Descendants
 The Descendants,"{`"\\(Descendants\\)`"}",f,{24423},Descendants
+Brainiac,{DCAU},f,{24424},DCAU
+Brainiac,{Timmverse},f,{24424},DCAU
+Roger Mortis,"{`"Dead Heat`"}",f,{24425},Dead Heat
+Medusa,"{`"Conan the Adventurer`"}",f,{24426},Conan the Adventurer
+Rouge the Bat,"{`"Speed Smackdown`"}",f,{24427},Speed Smackdown
+Catwoman,"{`"Speed Smackdown`"}",f,{24428},Speed Smackdown
+Mort,{Discworld},f,{24429},Discworld
+Red Death,"{`"Masque of the Red Death`"}",f,{24430},Masque of the Red Death
+Chihiro Rokuhira,"{`"Kagura ?bachi`"}",t,{24431},Kagurabachi
+Ruin,"{`"Undead Unluck`"}",f,{24432},Undead Unluck
+Super X,{Heisei},f,{24433},Godzilla
+Super X,{Godzilla},f,{24433},Godzilla
+Godzilla Junior,{Heisei},t,{24434},Godzilla
+Der Golem,"{`"How He Came into the World`"}",t,{24435},""
+IG-88,"{`"S(tar )?Wars`"}",t,{24436},Star Wars
+The Damned Thing,"{`"The Damned Thing ?\\(The Damned Thing\\)`"}",t,{24437},""
+The Damned Thing,{1893},t,{24437},""
+Garlic Jr,"{`"Dragon ?Ball`"}",t,{24438},Dragon Ball
+Garlic Jr,{DB(Z|S)},t,{24438},Dragon Ball
+Red Ronin,{616},f,{24439},616
+Red Ronin,"{`"\\(Marvel\\)`"}",f,{24439},616
+Golden Boy,"{`"The Boys`"}",f,{24440},The Boys
+Golden Boy,"{`"Gen V`"}",f,{24440},The Boys
+Lasser Glass,{Oculus},f,{24441},Oculus
