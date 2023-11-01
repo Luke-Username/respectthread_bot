@@ -107,6 +107,301 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6142, 'Respect Count Dracula (Dracula, Novel)', 'https://redd.it/17kl1r4')
+update_respectthread(cur, 16432, 'Respect Jason Voorhees! (Never Hike Alone)', 'https://redd.it/17ksi4i')
+
+########################################
+
+add_data(['God Gundam'],
+'God Gundam',
+False,
+True,
+[
+    ['Domon Kasshu']
+],
+'',
+'{3460}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/17k9sda/how_the_hell_can_a_team_of_op_gundams_take_down/k76ab26/?context=3
+
+########################################
+
+add_data(['Quasimodo'],
+'Quasimodo',
+False,
+False,
+[
+    ['(DiMeo|Soprano) crime family'], ['Nostradamus']
+],
+'',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/17kdm1m/could_the_dimeo_crime_family_survive_jurassic/k772mhm/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Michael Badilino, Vengeance! (Marvel Comics, Earth-616)', 'https://redd.it/17jvne5')
+add_data(['Vengeance'],
+'Vengeance',
+False,
+False,
+[
+    ['Michael Badilino', '616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17jvne5/respect_michael_badilino_vengeance_marvel_comics/
+
+########################################
+
+id = get_rt_id(cur, "Respect William Afton (Five Nights at Freddy''s Movie)", 'https://redd.it/17jwqr0')
+add_data(['William Afton'],
+'William Afton',
+False,
+False,
+[
+    ['Five Nights at Fredd(ys?|ies)', '(movie|film)'], ['FNAF\d?', '(movie|film)']
+],
+'FNAF Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17jwqr0/respect_william_afton_five_nights_at_freddys_movie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rorschach (2009 Watchmen Movie)', 'https://redd.it/17k2nu3')
+add_data(['Rorschach'],
+'Rorschach',
+False,
+False,
+[
+    ['Watchmen (movie|film)s?'], ['Watchmen', '2009']
+],
+'Watchmen, 2009',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17k2nu3/respect_rorschach_2009_watchmen_movie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Michael Myers (Robot Chicken)', 'https://redd.it/17k2rf5')
+add_data(['Mich(ae|ea)l Me?yers'],
+'Michael Myers',
+False,
+False,
+[
+    ['Robot Chicken']
+],
+'Robot Chicken',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17k2rf5/respect_michael_myers_robot_chicken/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Monique Dupre (Godzilla: The Series)', 'https://redd.it/17k4fn1')
+add_data(['Monique Dupr(é|e)'],
+'Monique Dupré',
+False,
+True,
+[
+    ['Godzilla:? The Series']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17k4fn1/respect_monique_dupre_godzilla_the_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nick Tatopoulos (Godzilla: The Series)', 'https://redd.it/17k4u2k')
+add_data(['Nick Tatopoulos'],
+'Nick Tatopoulos',
+False,
+False,
+[
+    ['Godzilla:? The Series']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect H.E.A.T. (Godzilla: The Series)', 'https://redd.it/17k51qb')
+add_data(['H\.E\.A\.T\.?'],
+'H.E.A.T.',
+False,
+False,
+[
+    ['Godzilla:? The Series']
+],
+'Godzilla: The Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17k51qb/respect_heat_godzilla_the_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tualon Yaluna (Star Wars Canon)', 'https://redd.it/17k6vut')
+add_data(['Tualon Yaluna'],
+'Tualon Yaluna',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17k6vut/respect_tualon_yaluna_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mystery Inc. (Scooby-Doo, 1998-2001 Movies)', 'https://redd.it/17kfozy')
+add_data(['Mystery Inc(orporated)?'],
+'Mystery Inc.',
+True,
+False,
+[
+    ['Scooby(-| )?Doo', '1998']
+],
+'Scooby-Doo, 1998',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17kfozy/respect_mystery_inc_scoobydoo_19982001_movies/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Corey Cunningham (Halloween Ends)', 'https://redd.it/17kkql6')
+add_data(['Corey Cunningham'],
+'Corey Cunningham',
+False,
+True,
+[
+    ['Halloween']
+],
+'Halloween',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17kkql6/respect_corey_cunningham_halloween_ends/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Living Dead (George A. Romero''s Dead series)", 'https://redd.it/17kktev')
+add_data(['Night of the Living Dead'],
+'Night of the Living Dead',
+False,
+True,
+[
+    ['Romero']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Dawn of the Dead'],
+'Dawn of the Dead',
+False,
+True,
+[
+    ['1978']
+],
+'1978',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Dawn of the Dead'],
+'Dawn of the Dead',
+False,
+False,
+[
+    ['2004']
+],
+'2004',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Dredge (Dead by Daylight)', 'https://redd.it/17ko8pz')
+add_data(['Dredge'],
+'Dredge',
+False,
+False,
+[
+    ['Dead by Daylight'], ['DBD']
+],
+'Dead by Daylight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17ko8pz/respect_the_dredge_dead_by_daylight/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (If Godzilla was in Mortal Kombat...)', 'https://redd.it/17kqjma')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['If Godzilla was in Mortal Kombat']
+],
+'If Godzilla was in Mortal Kombat...',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17kqjma/respect_godzilla_if_godzilla_was_in_mortal_kombat/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Smile Entity (Smile)', 'https://redd.it/17krcp5')
+add_data(['Smile Entity'],
+'Smile Entity',
+False,
+False,
+[
+    ['The Smile entity']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17krcp5/respect_the_smile_entity_smile/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Mighty Morphin' Turtle Rangers (Mighty Morphin'' Power Rangers/Teenage Mutant Ninja Turtles)", 'https://redd.it/17kuq7n')
+add_data(["Mighty Morphing?''? Turtle Rangers"],
+"Mighty Morphin'' Turtle Rangers",
+True,
+True,
+[
+    ['The Smile entity']
+],
+"Mighty Morphin'' Power Rangers/Teenage Mutant Ninja Turtles",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17kuq7n/respect_the_mighty_morphin_turtle_rangers_mighty/
+
+########################################
+
+id = get_rt_id(cur, 'The Deer (Adventure Time)', 'https://redd.it/17kzsds')
+add_data(['The Deer'],
+'The Deer',
+False,
+False,
+[
+    ['Adventure Time']
+],
+'Adventure Time',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
