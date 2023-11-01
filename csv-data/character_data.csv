@@ -30823,3 +30823,27 @@ Red Ronin,"{`"\\(Marvel\\)`"}",f,{24439},616
 Golden Boy,"{`"The Boys`"}",f,{24440},The Boys
 Golden Boy,"{`"Gen V`"}",f,{24440},The Boys
 Lasser Glass,{Oculus},f,{24441},Oculus
+God Gundam,"{`"Domon Kasshu`"}",t,{3460},""
+Quasimodo,"{`"(DiMeo|Soprano) crime family`"}",f,{},""
+Quasimodo,{Nostradamus},f,{},""
+Vengeance,"{`"Michael Badilino`",616}",f,{24456},616
+William Afton,"{`"Five Nights at Fredd(ys?|ies)`",(movie|film)}",f,{24457},FNAF Movie
+William Afton,"{`"FNAF\\d?`",(movie|film)}",f,{24457},FNAF Movie
+Rorschach,"{`"Watchmen (movie|film)s?`"}",f,{24458},"Watchmen, 2009"
+Rorschach,"{Watchmen,2009}",f,{24458},"Watchmen, 2009"
+Michael Myers,"{`"Robot Chicken`"}",f,{24459},Robot Chicken
+Monique Dupré,"{`"Godzilla:? The Series`"}",t,{24460},Godzilla: The Series
+Nick Tatopoulos,"{`"Godzilla:? The Series`"}",f,{24461},Godzilla: The Series
+H.E.A.T.,"{`"Godzilla:? The Series`"}",f,{24462},Godzilla: The Series
+Tualon Yaluna,"{`"S(tar )?Wars`"}",t,{24463},Star Wars
+Mystery Inc.,"{`"Scooby(-| )?Doo`",1998}",f,{24464},"Scooby-Doo, 1998"
+Corey Cunningham,{Halloween},t,{24465},Halloween
+Night of the Living Dead,{Romero},t,{24466},""
+Dawn of the Dead,{1978},t,{24466},1978
+Dawn of the Dead,{2004},f,{24466},2004
+Dredge,"{`"Dead by Daylight`"}",f,{24467},Dead by Daylight
+Dredge,{DBD},f,{24467},Dead by Daylight
+Godzilla,"{`"If Godzilla was in Mortal Kombat`"}",f,{24468},If Godzilla was in Mortal Kombat...
+Smile Entity,"{`"The Smile entity`"}",f,{24469},""
+Mighty Morphin' Turtle Rangers,"{`"The Smile entity`"}",t,{24470},Mighty Morphin' Power Rangers/Teenage Mutant Ninja Turtles
+The Deer,"{`"Adventure Time`"}",f,{24471},Adventure Time
