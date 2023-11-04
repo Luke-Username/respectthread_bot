@@ -9687,7 +9687,6 @@ Song-Joo,"{`"Promised Neverland`"}",f,{4443},The Promised Neverland
 That Guy,"{`"Promised Neverland`"}",f,{4444},The Promised Neverland
 Wild Demons,"{`"Promised Neverland`"}",f,{4445},The Promised Neverland
 Baymax,{movies?},f,{10863},Disney's Big Hero 6
-Godzilla,{IDW},f,"{1926,21973}",IDW
 Scott Lang,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Scott Lang,{MCU},f,{},MCU
 Scott Lang,{199999},f,{},MCU
@@ -9708,6 +9707,7 @@ Thor,"{`"Jane Foster`"}",f,{1980},Jane Foster
 Thor,{616},f,"{1981,21155}",616
 Scott Lang,"{`"End ?game`"}",f,{},MCU
 King Ghidorah,{Legendary},f,{8614},MonsterVerse
+Godzilla,{IDW},f,"{1926,21973,24473}",IDW
 Odin-Force Thor,{616},t,{21155},616
 Thor,{comics?},f,"{1981,21155}",616
 Thor,"{`"\\(Odin(-| )?force\\)`"}",f,{21155},Odin-Force
@@ -25506,8 +25506,6 @@ John Walker,{199999},f,{},MCU
 Sticks the Badger,"{`"Sonic Boom`"}",t,{21259},Sonic the Hedgehog
 Gilbert Lawsons Avatar,{Community},t,{21260},Community
 Meguro Masaki,{Kengan(verse)?},t,{20997},Kengan Asura
-Godzilla,{Godzilla.*GTS|GTS.*Godzilla},f,{1051},Godzilla: The Series
-Godzilla,"{`"Godzilla:? The Series`"}",f,{1051},Godzilla: The Series
 Shedinja,{Pok(e|é)m(o|a)n},t,{21262},Pokémon
 William Afton,"{`"Five Nights at Fredd(ys?|ies)`"}",t,{21263},FNAF
 William Afton,"{`"FNAF\\d?`"}",t,{21263},FNAF
@@ -25530,6 +25528,8 @@ Jake,"{`"Princess Bubblegum`"}",f,"{613,20463}",Adventure Time
 Goku,"{`"Dragon ?Ball`"}",t,"{3288,3290,13282}",Dragon Ball
 Goku,{DB(Z|S)?},t,"{3288,3290,13282}",Dragon Ball
 Bionic Woman,{Dynamite},f,{21267},Dynamite Comics
+Godzilla,{Godzilla.*GTS|GTS.*Godzilla},f,{24472},Godzilla: The Series
+Godzilla,"{`"Godzilla:? The Series`"}",f,{24472},Godzilla: The Series
 Spider-Man,"{`"Golden Spongecake`"}",f,{},51914
 Crimson,{Dreamwalker},f,{21272},Dreamwalker
 Katsumi Orochi,{Baki},t,{21273},Baki
@@ -27165,8 +27165,6 @@ Pieck Finger,"{`"Shingeki no Kyojin`"}",t,{22133},Attack on Titan
 Pieck Finger,{AOT},t,{22133},Attack on Titan
 Pieck Finger,{SnK},t,{22133},Attack on Titan
 Allosaurus,"{`"Dino Crisis`"}",f,{22134},Dino Crisis
-Spamton,{Deltarune},t,{22135},Deltarune
-Spamton,"{`"Spamton NEO`"}",t,{22135},Deltarune
 Bio-Broly,"{`"Dragon ?Ball`"}",t,{22136},Dragon Ball
 Godbert,{Manderville},t,{22137},Final Fantasy
 Godbert,{FFXIV},t,{22137},Final Fantasy
@@ -27181,6 +27179,7 @@ Inez Temple,{616},t,{22141},616
 Anya Forger,"{`"Spy x Family`"}",t,{22142},Spy x Family
 Bond Forger,"{`"Spy x Family`"}",t,{22143},Spy x Family
 Bond,"{`"Spy x Family`"}",f,{22143},Spy x Family
+Spamton,{Deltarune},t,{},Deltarune
 Wolverine,"{`"X(-| )?Men (movie|film)s?`"}",f,"{158,24039}",FOX
 Loid Forger,"{`"Spy x Family`"}",t,{24079},Spy x Family
 Pikkon,"{`"Dragon ?Ball`"}",t,{22145},Dragon Ball
@@ -30847,3 +30846,19 @@ Godzilla,"{`"If Godzilla was in Mortal Kombat`"}",f,{24468},If Godzilla was in M
 Smile Entity,"{`"The Smile entity`"}",f,{24469},""
 Mighty Morphin' Turtle Rangers,"{`"The Smile entity`"}",t,{24470},Mighty Morphin' Power Rangers/Teenage Mutant Ninja Turtles
 The Deer,"{`"Adventure Time`"}",f,{24471},Adventure Time
+Spamton,"{`"Spamton NEO`"}",t,{},Deltarune
+Gigan,{Gemstone},f,{24474},Gemstone Creative Label
+Godzilla,{Gemstone},f,{24475},Gemstone Creative Label
+Mothra Leo,{Rebirth},f,{24476},Rebirth Of Mothra
+Swine-Things,"{`"House on the Borderland`"}",f,{24477},The House on the Borderland
+Tiny Box Tim,{Markiplier},t,{24478},Markiplier Animated
+Trish,"{`"Devil May Cry`"}",f,{24479},Devil May Cry
+Trish,"{`"DMC\\d?`"}",f,{24479},Devil May Cry
+Sam Riordan,"{`"The Boys`"}",t,{24480},The Boys
+Sam Riordan,"{`"Gen V`"}",t,{24480},The Boys
+Scooby-Doo,"{`"Velma Meets the Original Velma`"}",f,{24481},Velma Meets the Original Velma
+Ma'alefa'ak,"{`"\\(DC( Comics)?\\)`"}",t,{24482},DC
+Ma'alefa'ak,"{`"\\[DC( Comics)?\\]`"}",t,{24482},DC
+Ma'alefa'ak,{PC},f,{24482},Post-Crisis
+Ma'alefa'ak,"{`"Posts?(-| )?C(risis)?`"}",f,{24482},Post-Crisis
+Ma'alefa'ak,"{`"New(-| )Earth`"}",f,{24482},Post-Crisis
