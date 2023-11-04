@@ -781,7 +781,7 @@ DevilArtemis
 
 Devil May Cry
 	Version
-		'{"Devil May Cry"}', r'{"DMC\\d?"}'
+		['Devil May Cry'], ['DMC\d?']
 	Displayed Version Name
 		"Devil May Cry"
 
