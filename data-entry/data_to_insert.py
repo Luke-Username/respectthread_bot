@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Jordan Li (Amazon’s The Boys: Gen V)', 'https://redd.it/17pnrhe')
+add_data(['Jordan Li'],
+'Jordan Li',
+False,
+True,
+[
+    ['The Boys'], ['Gen V']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17pnrhe/respect_jordan_li_amazons_the_boys_gen_v/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
