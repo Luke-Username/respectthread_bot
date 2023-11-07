@@ -14,19 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"Michael ?\\(Legion\\)"}' WHERE default_name='Michael' AND version='{"Legion"}';
-
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Sam Flynn! (TRON: Legacy)', 'https://redd.it/15c4mx2'); SELECT * FROM respectthread WHERE link='https://redd.it/15c4mx2';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Sam Flynn';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Mr. Mxyzptlk (Superman and Batman: World''s Funnest)', 'https://redd.it/17p4w0v'); SELECT * FROM respectthread WHERE link='https://redd.it/17p4w0v';
-UPDATE character SET rt_id_array='{1813, ?2}' WHERE rt_id_array='{1813}';
-
 ########################################
-
-UPDATE character_name SET default_name='Eddie Brock' WHERE name='Eddie Brock';
 
 ########################################
 

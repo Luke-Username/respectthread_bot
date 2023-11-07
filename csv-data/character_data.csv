@@ -1945,7 +1945,6 @@ Zuko,"{`"live(-| )action`"}",f,{490},The Last Airbender movie
 Bruce Leroy,"{`"The Last Dragon`"}",t,{491},The Last Dragon
 Sho'Nuff,"{`"The Last Dragon`"}",t,{492},The Last Dragon
 Lavalantulas,{Lavantula},t,{493},""
-Michael,{Legion},f,{494},Legion
 Abby,"{`"Let Me In`"}",f,{495},Let Me In
 Goro Majima,"{`"Like a Dragon`"}",f,{496},Like a Dragon
 Goro Majima,{movies?},f,{496},Like a Dragon
@@ -1985,6 +1984,7 @@ Stanley Ipkiss,{movies?},f,{508},1994
 Stanley Ipkiss,{films?},f,{508},1994
 Stanley Ipkiss,{1994},f,{508},1994
 Randall Boggs,"{`"Monster'?s,? Inc`"}",t,{1222},"Monsters, Inc."
+Michael,"{`"Michael ?\\(Legion\\)`"}",f,{494},Legion
 Inmate 93X666,"{`"Jungle Jail`"}",t,{6510},Jungle Jail
 Batman,"{`"Batman Ninja`"}",f,{6511},Batman Ninja
 Super Bike,"{`"Fairly Oddparents`"}",t,{6512},Fairly Oddparents
@@ -7927,10 +7927,6 @@ Mongul,{PC},f,{1812},Earth-One
 Mongul,"{`"Earth(-| )(1|One)`"}",f,{1812},Earth-One
 Mongul,"{`"Pre(-| )?Crisis`"}",f,{1812},Earth-One
 Mongul,"{`"Silver(-| )?Age`"}",f,{1812},Earth-One
-Mister Mxyzptlk,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{1813},DC
-Mister Mxyzptlk,{PC},t,{1813},DC
-Mister Mxyzptlk,"{`"Post(-| )?C(risis)?`"}",t,{1813},DC
-Mister Mxyzptlk,"{`"New(-| )Earth`"}",t,{1813},DC
 Dana Dearden,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{1814},DC
 Dana Dearden,{PC},t,{1814},DC
 Dana Dearden,"{`"Post(-| )?C(risis)?`"}",t,{1814},DC
@@ -30293,7 +30289,6 @@ Dragona,{JJBA},f,{24088},Jojo's Bizarre Adventure
 Paco Laburantes,{Jojos?(verse)?},t,{24089},Jojo's Bizarre Adventure
 Paco Laburantes,{JJBA},t,{24089},Jojo's Bizarre Adventure
 Me-Bajisu-Ba,"{`"Kamen Rider`"}",t,{24093},Kamen Rider
-Sam Flynn,{TRON},t,{24092},TRON
 Tron Bonne,"{`"Mega ?Man`"}",t,{24094},Mega Man
 The Phile,{Killer},f,{24095},Killer
 Dragona Joestar,{Jojos?(verse)?},t,{24088},Jojo's Bizarre Adventure
@@ -30862,3 +30857,15 @@ Ma'alefa'ak,"{`"\\[DC( Comics)?\\]`"}",t,{24482},DC
 Ma'alefa'ak,{PC},f,{24482},Post-Crisis
 Ma'alefa'ak,"{`"Posts?(-| )?C(risis)?`"}",f,{24482},Post-Crisis
 Ma'alefa'ak,"{`"New(-| )Earth`"}",f,{24482},Post-Crisis
+Sam Flynn,{TRON},t,{24483},TRON
+Mister Mxyzptlk,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1813,24484}",DC
+Mister Mxyzptlk,{PC},t,"{1813,24484}",DC
+Mister Mxyzptlk,"{`"Post(-| )?C(risis)?`"}",t,"{1813,24484}",DC
+Mister Mxyzptlk,"{`"New(-| )Earth`"}",t,"{1813,24484}",DC
+Buddha,"{`"Shuumatsu no Valkyrie`"}",f,{},Shuumatsu no Valkyrie
+Dylan Brock,{616},t,{24485},616
+Eddie Brock,"{`"King in Black`"}",f,{24486},King in Black
+Body Slammer,"{`"Tom (and|&) Jerry`"}",f,{24487},Tom and Jerry
+Maximums,{PC},f,{24488},Post-Crisis
+Maximums,"{`"Posts?(-| )?C(risis)?`"}",f,{24488},Post-Crisis
+Maximums,"{`"New(-| )Earth`"}",f,{24488},Post-Crisis
