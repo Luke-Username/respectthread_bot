@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 22404, 'Respect Avatar Yangchen (Avatar: The Last Airbender)', 'https://redd.it/17qn8zv')
+update_respectthread(cur, 5529, 'Respect Banjo and Kazooie (Banjo-Kazooie)', 'https://redd.it/17qk1dm')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Jordan Li (Amazon’s The Boys: Gen V)', 'https://redd.it/17pnrhe')
 add_data(['Jordan Li'],
 'Jordan Li',
@@ -120,6 +125,66 @@ True,
 )
 #https://www.reddit.com/r/respectthreads/comments/17pnrhe/respect_jordan_li_amazons_the_boys_gen_v/
 
+########################################
+
+id = get_rt_id(cur, 'Respect Andre Anderson (Amazon’s The Boys: Gen V)', 'https://redd.it/17qtsgy')
+add_data(['Andre Anderson'],
+'Andre Anderson',
+False,
+True,
+[
+    ['The Boys'], ['Gen V']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17qtsgy/respect_andre_anderson_amazons_the_boys_gen_v/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dan Hibiki (Street Fighter)', 'https://redd.it/17res5v')
+add_data(['Dan Hibiki'],
+'Dan Hibiki',
+False,
+True,
+[
+    ['Street Fighter']
+],
+'Street Fighter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17res5v/respect_dan_hibiki_street_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Professor E. Gadd (Super Mario)', 'https://redd.it/17re2lf')
+add_data(['E\.? Gadd'],
+'E. Gadd',
+False,
+True,
+[
+    ['Mario']
+],
+'Mario',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17re2lf/respect_professor_e_gadd_super_mario/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jordan Li (Amazon’s The Boys: Gen V)', 'https://redd.it/17pnrhe')
+add_data(['Gremlins?'],
+'Gremlins',
+False,
+False,
+[
+    ['\d* Gremlins'], ['movie'], ['multiply'], ['Mogwais?'], ['1984'], ['the first Gremlins'],
+    ['Gremlins 2'], ['vs Gremlins'], ['the ocean']
+],
+'',
+'{7553}'
+)
+#
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
