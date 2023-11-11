@@ -109,6 +109,72 @@ cur = con.cursor()
 
 update_respectthread(cur, 22404, 'Respect Avatar Yangchen (Avatar: The Last Airbender)', 'https://redd.it/17qn8zv')
 update_respectthread(cur, 5529, 'Respect Banjo and Kazooie (Banjo-Kazooie)', 'https://redd.it/17qk1dm')
+update_respectthread(cur, 574, 'Respect Superman (Donnerverse)', 'https://redd.it/17s4ch3')
+update_respectthread(cur, 575, 'Respect Superman (Superman Returns)', 'https://redd.it/17s4ci1')
+
+########################################
+
+add_data(['Wizard'],
+'Wizard',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{6603}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/17s99o8/every_main_kamen_rider_vs_endgame_final_battle/k8oaejh/?context=3
+
+
+add_data(['Gaim'],
+'Gaim',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{55}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/17s99o8/every_main_kamen_rider_vs_endgame_final_battle/k8oaejh/?context=3
+
+
+add_data(['W'],
+'W',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{17340}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/17s99o8/every_main_kamen_rider_vs_endgame_final_battle/k8oaejh/?context=3
+
+add_data(['Kuuga'],
+'Kuuga',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{8202}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/17s99o8/every_main_kamen_rider_vs_endgame_final_battle/k8oaejh/?context=3
+
+add_data(['Kabuto'],
+'Kabuto',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{59}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/17s99o8/every_main_kamen_rider_vs_endgame_final_battle/k8oaejh/?context=3
 
 ########################################
 
@@ -172,7 +238,6 @@ True,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Jordan Li (Amazon’s The Boys: Gen V)', 'https://redd.it/17pnrhe')
 add_data(['Gremlins?'],
 'Gremlins',
 False,
@@ -185,6 +250,82 @@ False,
 '{7553}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dullahans (Idling to Rule the Gods)', 'https://redd.it/17s0av4')
+add_data(['Dullahans?'],
+'Dullahans',
+False,
+False,
+[
+    ['Idling to Rule the Gods']
+],
+'Idling to Rule the Gods',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17s0av4/respect_dullahans_idling_to_rule_the_gods/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Laima (Idling to Rule the Gods)', 'https://redd.it/17s12go')
+add_data(['Laima'],
+'Laima',
+False,
+False,
+[
+    ['Idling to Rule the Gods']
+],
+'Idling to Rule the Gods',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maximus the Mad! (Marvel 616)', 'https://redd.it/17s2r7u')
+add_data(['Maximus the Mad'],
+'Maximus the Mad',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17s2r7u/respect_maximus_the_mad_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Kool-Aid Man (Not Death Battle!)', 'https://redd.it/17sbuay')
+add_data(['Kool(-| )?Aid Man'],
+'Kool-Aid Man',
+False,
+False,
+[
+    ['Not Death Battle']
+],
+'Not Death Battle!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Akutabe! (Azazel-san)', 'https://redd.it/17sf67b')
+add_data(['Akutabe'],
+'Akutabe',
+False,
+True,
+[
+    ['Azazel']
+],
+'Azazel-san',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17sf67b/respect_akutabe_azazelsan/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
