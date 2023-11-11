@@ -527,8 +527,6 @@ id,title,link
 571,Respect Babydoll (Sucker Punch),https://redd.it/6xqnqp
 572,Respect Kahuna (Superbabies: Baby Geniuses 2),https://redd.it/66s5ry
 573,Respect Dragonfly (Superhero Movie),https://redd.it/5rdprw
-574,Respect Superman (Christopher Reeve),https://redd.it/bdlt0i
-575,Respect Superman! (Superman returns),https://redd.it/4qoag1
 576,Respect the Mario Bros. (Super Mario Bros. Movie),https://redd.it/6t61r0
 577,Respect Swamp Thing (Movies),https://redd.it/5sxli3
 579,Respect Chocolate Mousse (Top Secret!),https://redd.it/9y81dm
@@ -551,6 +549,8 @@ id,title,link
 557,Respect Miho (Sin City) [Movies],https://redd.it/129p955
 536,Respect Rama! (The Raid),https://redd.it/15jl51j
 544,Respect RoboCop (RoboCop I-III),https://redd.it/175i6hw
+574,Respect Superman (Donnerverse),https://redd.it/17s4ch3
+575,Respect Superman (Superman Returns),https://redd.it/17s4ci1
 593,Respect V.I. Warshawski (V.I. Warshawski),https://redd.it/5zm71p
 594,Respect Mount Wilshire (Volcano),https://redd.it/aihqpu
 595,"Respect Wesley Gibson! [Wanted, 2008 Film]",https://redd.it/5bcpq8
@@ -5297,7 +5297,6 @@ id,title,link
 5526,Respect Giovanni Auditore (Assassin's Creed),https://redd.it/5mu573
 5527,Respect Baldi and his friends (Baldi's Basics),https://redd.it/8t0q3k
 5528,Respect Balloon Fighter (Balloon Fight),https://redd.it/ajlxwz
-5529,Respect Banjo and Kazooie! (Banjo-Kazooie),https://redd.it/5biazv
 5530,"Respect Charles Barkley! (Barkley, Shut Up and Jam: Gaiden)",https://redd.it/bpu53a
 5531,Respect The Kid (Bastion),https://redd.it/3odagy
 5533,Respect Killer Croc [Arkhamverse],https://redd.it/54hfzx
@@ -5313,6 +5312,7 @@ id,title,link
 5497,Respect The Terrarian! (Terraria),https://redd.it/t3t8sp
 22540,Respect the Lord God (Pearl of Great Price),https://redd.it/x2w7cd
 22541,Respect Captain Falcon (DEATH BATTLE!),https://redd.it/x2wqc1
+5529,Respect Banjo and Kazooie (Banjo-Kazooie),https://redd.it/17qk1dm
 5541,Respect Lady Maria of the Astral Clocktower! (Bloodborne),https://redd.it/75yc2o
 5542,Respect Bomberman! [Bomberman],https://redd.it/3eefxn
 5543,Respect Eddie Riggs! (Brütal Legend),https://redd.it/511waq
@@ -10498,9 +10498,9 @@ id,title,link
 22401,Respect Doomsday! (Superman: Doomsday),https://redd.it/wg3sbx
 22402,Respect Superman! (Superman: Doomsday),https://redd.it/wg79o7
 22403,Respect Prophet Elisha (Holy Bible),https://redd.it/wgg3ft
-22404,Respect Avatar Yangchen (Avatar: The Last Airbender),https://redd.it/wgzuv7
 22405,Respect Judge Dredd! (2000AD),https://redd.it/wh8x07
 21323,Respect Peacemaker (DC Post-Crisis),https://redd.it/13yl067
+22404,Respect Avatar Yangchen (Avatar: The Last Airbender),https://redd.it/17qn8zv
 2538,"Respect Ultimate Thing (Marvel, 1610)",https://redd.it/ok5kn9
 17466,Respect The Underminer (The Incredibles),https://redd.it/oax7pf
 17467,"Respect The Avengers! (Marvel, What If The Avengers defeated everybody?)",https://redd.it/okh1o1
@@ -13085,3 +13085,12 @@ id,title,link
 24486,"Respect Eddie Brock, the King in Black (Marvel, Earth-616)",https://redd.it/17o1j6s
 24487,Respect The Body Slammers (Tom and Jerry),https://redd.it/17o6svh
 24488,"Respect the Maximums (DC Comics, Post-Crisis)",https://redd.it/17ocf40
+24489,Respect Jordan Li (Amazon’s The Boys: Gen V),https://redd.it/17pnrhe
+24490,Respect Andre Anderson (Amazon’s The Boys: Gen V),https://redd.it/17qtsgy
+24491,Respect Dan Hibiki (Street Fighter),https://redd.it/17res5v
+24492,Respect Professor E. Gadd (Super Mario),https://redd.it/17re2lf
+24493,Respect Dullahans (Idling to Rule the Gods),https://redd.it/17s0av4
+24494,Respect Laima (Idling to Rule the Gods),https://redd.it/17s12go
+24495,Respect Maximus the Mad! (Marvel 616),https://redd.it/17s2r7u
+24496,Respect the Kool-Aid Man (Not Death Battle!),https://redd.it/17sbuay
+24497,Respect Akutabe! (Azazel-san),https://redd.it/17sf67b
