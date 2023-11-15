@@ -14,8 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{1837}' WHERE default_name='Doctor Manhattan' AND displayed_version_name='DC';
-
 ########################################
 
 ########################################
