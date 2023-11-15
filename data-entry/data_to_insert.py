@@ -107,6 +107,83 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1837, 'Respect Doctor Manhattan (Watchmen, DC Comics)', 'https://redd.it/17v8da5')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Peppino Spaghetti (Pizza Tower)', 'https://redd.it/17tmxsf')
+add_data(['Peppino Spaghetti'],
+'Peppino Spaghetti',
+False,
+True,
+[
+    ['Pizza Tower']
+],
+'Pizza Tower',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17tmxsf/respect_peppino_spaghetti_pizza_tower/
+
+########################################
+
+id = get_rt_id(cur, 'Respect RoboCop (Dark Horse Comics)', 'https://redd.it/17uf9py')
+add_data(['Robocop'],
+'Robocop',
+False,
+False,
+[
+    ['Dark(-| )?Horse']
+],
+'Dark Horse Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17uf9py/respect_robocop_dark_horse_comics/
+
+########################################
+
+id = get_rt_id(cur, "The Red Skull''s New World Order (Marvel Comics)", 'https://redd.it/17urzwd')
+add_data(['New World Order'],
+'New World Order',
+False,
+False,
+[
+    ['Red Skull']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17urzwd/the_red_skulls_new_world_order_marvel_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thomas Wayne, Batman! (DC Comics, Flashpoint Universe)', 'https://redd.it/17v1z7f')
+add_data(['Thomas Wayne'],
+'Thomas Wayne',
+False,
+False,
+[
+    ['Batman'], ['Flashpoint']
+],
+'Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17v1z7f/respect_thomas_wayne_batman_dc_comics_flashpoint/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Drake (Pokemon Anime)', 'https://redd.it/17vafrl')
+add_data(['Drake'],
+'Drake',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17vafrl/respect_drake_pokemon_anime/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
