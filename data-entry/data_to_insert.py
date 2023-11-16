@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Predator (South China Sea)', 'https://redd.it/17w0flg')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['South China Sea']
+],
+'South China Sea',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17w0flg/respect_the_predator_south_china_sea/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Duncan Warner! (The Los Amigos Fiasco)', 'https://redd.it/17wjtjo')
+add_data(['Duncan Warner'],
+'Duncan Warner',
+False,
+False,
+[
+    ['Los Amigos Fiasco']
+],
+'The Los Amigos Fiasco',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/17wjtjo/respect_duncan_warner_the_los_amigos_fiasco/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
