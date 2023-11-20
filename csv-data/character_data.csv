@@ -13860,7 +13860,6 @@ Blyke,{UnOrdinary},t,{4607},UnOrdinary
 Gavin,{UnOrdinary},f,{4608},UnOrdinary
 Gou,{UnOrdinary},f,{4609},UnOrdinary
 Isen,{UnOrdinary},f,{4610},UnOrdinary
-John,{UnOrdinary},f,{4611},UnOrdinary
 Meili,{UnOrdinary},f,{4612},UnOrdinary
 Rein,{UnOrdinary},f,{4613},UnOrdinary
 Remi,{UnOrdinary},f,{4614},UnOrdinary
@@ -30857,10 +30856,6 @@ Ma'alefa'ak,{PC},f,{24482},Post-Crisis
 Ma'alefa'ak,"{`"Posts?(-| )?C(risis)?`"}",f,{24482},Post-Crisis
 Ma'alefa'ak,"{`"New(-| )Earth`"}",f,{24482},Post-Crisis
 Sam Flynn,{TRON},t,{24483},TRON
-Mister Mxyzptlk,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1813,24484}",DC
-Mister Mxyzptlk,{PC},t,"{1813,24484}",DC
-Mister Mxyzptlk,"{`"Post(-| )?C(risis)?`"}",t,"{1813,24484}",DC
-Mister Mxyzptlk,"{`"New(-| )Earth`"}",t,"{1813,24484}",DC
 Buddha,"{`"Shuumatsu no Valkyrie`"}",f,{},Shuumatsu no Valkyrie
 Dylan Brock,{616},t,{24485},616
 Eddie Brock,"{`"King in Black`"}",f,{24486},King in Black
@@ -30899,3 +30894,12 @@ Robocop,"{`"Dark(-| )?Horse`"}",f,{24499},Dark Horse Comics
 New World Order,"{`"Red Skull`"}",f,{24500},Marvel
 Thomas Wayne,{Batman},f,{24501},Flashpoint
 Drake,{Pok(e|é)m(o|a)n},f,{24502},Pokémon
+Mister Mxyzptlk,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{24503,1813,24484}",DC
+Mister Mxyzptlk,{PC},t,"{24503,1813,24484}",DC
+Mister Mxyzptlk,"{`"Post(-| )?C(risis)?`"}",t,"{24503,1813,24484}",DC
+Mister Mxyzptlk,"{`"New(-| )Earth`"}",t,"{24503,1813,24484}",DC
+Rick,"{`"Rick vs\\.? Stewie`"}",f,{876},Rick and Morty
+Rick,"{`"Stewie vs\\.? Rick `"}",f,{876},Rick and Morty
+Predator,"{`"South China Sea`"}",f,{24504},South China Sea
+Duncan Warner,"{`"Los Amigos Fiasco`"}",f,{24505},The Los Amigos Fiasco
+Azusa Aizawa,"{`"Killing Slimes`"}",t,{24506},I've Been Killing Slimes for 300 Years and Maxed Out My Level

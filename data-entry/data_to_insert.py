@@ -107,67 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 1959, 'Respect Best Tiger (Image Comics)', 'https://redd.it/17ylfix')
-
-########################################
-
-add_data(['Rick'],
-'Rick',
-False,
-False,
-[
-    ['Rick vs\.? Stewie'], ['Stewie vs\.? Rick ']
-],
-'Rick and Morty',
-'{876}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/17yqb19/how_is_rick_vs_stewie_even_a_debate/
-
-########################################
-
-id = get_rt_id(cur, 'Respect The Predator (South China Sea)', 'https://redd.it/17w0flg')
-add_data(['Predator'],
-'Predator',
-False,
-False,
-[
-    ['South China Sea']
-],
-'South China Sea',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/17w0flg/respect_the_predator_south_china_sea/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Duncan Warner! (The Los Amigos Fiasco)', 'https://redd.it/17wjtjo')
-add_data(['Duncan Warner'],
-'Duncan Warner',
-False,
-False,
-[
-    ['Los Amigos Fiasco']
-],
-'The Los Amigos Fiasco',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/17wjtjo/respect_duncan_warner_the_los_amigos_fiasco/
-
-########################################
-
-id = get_rt_id(cur, "Respect Azusa Aizawa! (I''ve Been Killing Slimes for 300 Years and Maxed Out My Level [Anime])", 'https://redd.it/17xp435')
-add_data(['Azusa Aizawa'],
-'Azusa Aizawa',
-False,
-True,
-[
-    ['Killing Slimes']
-],
-"I''ve Been Killing Slimes for 300 Years and Maxed Out My Level",
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/17xp435/respect_azusa_aizawa_ive_been_killing_slimes_for/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
