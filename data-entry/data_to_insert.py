@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Chase (Fighting Foodons)', 'https://redd.it/181n67l')
+add_data(['Chase'],
+'Chase',
+False,
+False,
+[
+    ['Fighting Foodons']
+],
+'Fighting Foodons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/181n67l/respect_chase_fighting_foodons/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
