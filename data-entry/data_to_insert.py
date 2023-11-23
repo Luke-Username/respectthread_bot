@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Seiya'],
+'Seiya',
+False,
+False,
+[
+    ['Seiya \(Saint Seiya\)']
+],
+'Saint Seiya',
+'{4493,13142}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1820kwq/goku_dragon_ball_vs_seiya_saint_seya/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Chase (Fighting Foodons)', 'https://redd.it/181n67l')
 add_data(['Chase'],
 'Chase',
