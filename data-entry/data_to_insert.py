@@ -136,6 +136,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Jungle Cat (Generator Rex)', 'https://redd.it/182vi3z')
+add_data(['Jungle Cat'],
+'Jungle Cat',
+False,
+False,
+[
+    ['Generator Rex']
+],
+'Generator Rex',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/182vi3z/respect_jungle_cat_generator_rex/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
