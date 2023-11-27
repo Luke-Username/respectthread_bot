@@ -107,6 +107,25 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 21232, 'Respect Light Yagami (Death Note)', 'https://redd.it/18321nl')
+update_respectthread(cur, 1958, 'Respect Battle Beast (Image Comics)', 'https://redd.it/1847jk9')
+
+########################################
+
+add_data(['Edelgard'],
+'Edelgard',
+False,
+False,
+[
+    ['Fire Emblem']
+],
+'Fire Emblem',
+'{13333}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1854v59/stark_frieren_vs_edelgard_isekai_maou/kazcj23/?context=3
+
+########################################
+
 add_data(['Seiya'],
 'Seiya',
 False,
@@ -148,6 +167,120 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/182vi3z/respect_jungle_cat_generator_rex/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Four Lords (Resident Evil Village)', 'https://redd.it/183byya')
+add_data(['(Lady|Alcina) Dimitrescu'],
+'Lady Dimitrescu',
+False,
+True,
+[
+    ['Resident Evil']
+],
+'Resident Evil',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/183byya/respect_the_four_lords_resident_evil_village/
+
+add_data(['Four Lords'],
+'Four Lords',
+True,
+False,
+[
+    ['Resident Evil']
+],
+'Resident Evil',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/183byya/respect_the_four_lords_resident_evil_village/
+
+add_data(['(Lord|Karl) Heisenberg'],
+'Lord Heisenberg',
+False,
+True,
+[
+    ['Resident Evil']
+],
+'Resident Evil',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/183byya/respect_the_four_lords_resident_evil_village/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ronald McDonald (Deep Fried Fury)', 'https://redd.it/1842enn')
+add_data(['Ronald McDonald'],
+'Ronald McDonald',
+False,
+False,
+[
+    ['Deep Fried Fury']
+],
+'Deep Fried Fury',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1842enn/respect_ronald_mcdonald_deep_fried_fury/
+
+########################################
+
+id = get_rt_id(cur, "Respect \"Mad Jack\" Jack O'' Lantern (Marvel, 616)", 'https://redd.it/1849nm1')
+add_data(['Mad Jack'],
+'Mad Jack',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1849nm1/respect_mad_jack_jack_o_lantern_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dinodroid No. 1 (Dragon Ball Super - Manga)', 'https://redd.it/184p97a')
+add_data(['Dinodroid 1'],
+'Dinodroid 1',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/184p97a/respect_dinodroid_no_1_dragon_ball_super_manga/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Doctor! (Doctor Who: Full Fathom Five)', 'https://redd.it/184tmmj')
+add_data(['The Doctor'],
+'The Doctor',
+False,
+False,
+[
+    ['Full Fathom Five']
+],
+'Doctor Who: Full Fathom Five',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/184tmmj/respect_the_doctor_doctor_who_full_fathom_five/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gorgon, the Queen of Demonic Beasts (Fate Franchise)', 'https://redd.it/184vcpw')
+add_data(['Gorgon'],
+'Gorgon',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/184vcpw/respect_gorgon_the_queen_of_demonic_beasts_fate/
 
 ########################################
 
