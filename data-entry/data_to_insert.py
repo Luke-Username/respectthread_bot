@@ -284,6 +284,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Kiichi Miyazawa (Tough)', 'https://redd.it/1862bo6')
+add_data(['Kiichi Miyazawa'],
+'Kiichi Miyazawa',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1862bo6/respect_kiichi_miyazawa_tough/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

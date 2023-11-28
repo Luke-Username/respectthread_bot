@@ -18,6 +18,9 @@ UPDATE character_name SET name='Edelgard von Hresvelg' WHERE name='Edelgard';
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Hyakkimaru! (Dororo, 2019 Anime)', 'https://redd.it/185b5c5'); SELECT * FROM respectthread WHERE link='https://redd.it/185b5c5';
+UPDATE character SET rt_id_array='{4735, ?1}' WHERE rt_id_array='{4735}';
+
 ########################################
 
 ########################################
