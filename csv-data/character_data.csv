@@ -14094,7 +14094,6 @@ Shiro Ashiya,"{`"Devil is a Part(-| )Timer`"}",t,{4730},The Devil is a Part-Time
 Nono,{Diebuster},f,{4731},Diebuster
 John Kyosuke,"{`"Dog Soldier`"}",t,{4733},Dog Soldier
 Yuu Bakuryusai,"{`"Doukyuusei no Macho(-| )kun`"}",t,{4734},Doukyuusei no Macho-kun
-Hyakkimaru,{Dororo},t,{4735},Dororo
 Kili,"{`"Double Arts`"}",f,{4736},Double Arts
 Sister Elraine,"{`"Double Arts`"}",t,{4736},Double Arts
 Kohaku,{Stone},f,{4737},Dr. Stone
@@ -14156,6 +14155,7 @@ Wasabi,{Goblin},f,{4768},Goblin Is Very Strong
 Lenka Utsugi,"{`"God Eater`"}",t,{4770},God Eater
 M'Baku,{Endgame},f,{13484},MCU
 Lucy,"{`"Elfi?en Lied`"}",f,{4747},Elfen Lied
+Hyakkimaru,{Dororo},t,"{4735,24511}",Dororo
 King Ghidorah,{Anime},f,{4771},Godzilla Anime
 Monster Warrior Godzilla,"{`"The Godzilla Comic`"}",t,{4772},The Godzilla Comic
 Godzilla,"{`"The Godzilla Comic`"}",f,{4772},The Godzilla Comic
@@ -30910,3 +30910,16 @@ Melville,"{`"Magical Girl Raising Project`"}",f,{24507},Magical Girl Raising Pro
 Violet Evergarden,"{`"Violet Evergarden ?\\(Violet Evergarden\\)`"}",t,{24508},""
 Hazel and Cha-Cha,"{`"The Umbrella Academy`"}",t,{24509},The Umbrella Academy
 Predators,"{`"Predator Turnabout`"}",f,{24510},Predator Turnabout
+Edelgard,"{`"Fire Emblem`"}",f,{13333},Fire Emblem
+Seiya,"{`"Seiya \\(Saint Seiya\\)`"}",f,"{4493,13142}",Saint Seiya
+Chase,"{`"Fighting Foodons`"}",f,{24521},Fighting Foodons
+Jungle Cat,"{`"Generator Rex`"}",f,{24522},Generator Rex
+Four Lords,"{`"Resident Evil`"}",f,{24523},Resident Evil
+Lord Heisenberg,"{`"Resident Evil`"}",t,{24523},Resident Evil
+Ronald McDonald,"{`"Deep Fried Fury`"}",f,{24524},Deep Fried Fury
+Mad Jack,{616},f,{24525},616
+Dinodroid 1,"{`"Dragon ?Ball`"}",t,{24526},Dragon Ball
+Dinodroid 1,{DB(Z|S)},t,{24526},Dragon Ball
+The Doctor,"{`"Full Fathom Five`"}",f,{24527},Doctor Who: Full Fathom Five
+Gorgon,{Fate},f,{24528},Fate
+Kiichi Miyazawa,{Tough},t,{24529},Tough
