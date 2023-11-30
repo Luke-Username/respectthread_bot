@@ -1735,7 +1735,7 @@ Keijo!!!!!!!!
 	Displayed Version Name
 		"Keijo!!!!!!!!"
 
-Kengan Asura
+Kengan Asura / Kengan Omega
 	Version
 		['Kengan(verse)?']
 	Displayed Version Name

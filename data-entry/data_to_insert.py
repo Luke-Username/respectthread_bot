@@ -107,6 +107,61 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Akali, the Rogue Assassin (League of Legends)', 'https://redd.it/186c8j1')
+add_data(['Akali'],
+'Akali',
+False,
+False,
+[
+    ['League'], ['LOL']
+],
+'League of Legends',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/186c8j1/respect_akali_the_rogue_assassin_league_of_legends/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shen "The Connector" Wulong (Kengan Omega)', 'https://redd.it/186un5h')
+add_data(['The Connector'],
+'The Connector',
+False,
+False,
+[
+    ['Kengan(verse)?']
+],
+'Kengan Asura',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Shen'],
+'Shen',
+False,
+False,
+[
+    ['Kengan(verse)?']
+],
+'Kengan Asura',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Captain Hook! (Disney''s Peter Pan)", 'https://redd.it/186xdja')
+add_data(['Captain Hook'],
+'Captain Hook',
+False,
+False,
+[
+    ['Disneys?'], ['Peter Pan']
+],
+"Disney''s Peter Pan",
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
