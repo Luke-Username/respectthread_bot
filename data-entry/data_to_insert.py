@@ -164,6 +164,81 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Morholt (Arthurian Mythology)', 'https://redd.it/187o7zq')
+add_data(['Morholt'],
+'Morholt',
+False,
+True,
+[
+    ['Arthurian']
+],
+'Arthurian Myth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/187o7zq/respect_morholt_arthurian_mythology/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Composite Superman! (Post Crisis DC)', 'https://redd.it/187pdsw')
+add_data(['Composite Superman'],
+'Composite Superman',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dr. Henry Killinger (The Venture Bros) (NSFW)', 'https://redd.it/187zcv1')
+add_data(['(Dr\.?|Henry) Killinger'],
+'Dr. Henry Killinger',
+False,
+True,
+[
+    ['Venture (Bros|Brothers)']
+],
+'Venture Bros.',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/187zcv1/respect_dr_henry_killinger_the_venture_bros_nsfw/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tam Posla and the Gundravian Hookspores (Star Wars Canon)', 'https://redd.it/1882mfh')
+add_data(['Tam Posla'],
+'Tam Posla',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1882mfh/respect_tam_posla_and_the_gundravian_hookspores/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shen, the Eye of Twilight (League of Legends)', 'https://redd.it/1887kab')
+add_data(['Shen'],
+'Shen',
+False,
+False,
+[
+    ['Eye of Twilight'], ['League ?of ?Legends?']
+],
+'League of Legends',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1887kab/respect_shen_the_eye_of_twilight_league_of_legends/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

@@ -27,6 +27,8 @@ UPDATE character SET rt_id_array='{23112, ?}' WHERE default_name='Cell Max';
 
 ########################################
 
+UPDATE character SET version='{"real life tiger"}' WHERE default_name='Tiger' AND version='{"real life"}';
+
 ########################################
 
 ########################################

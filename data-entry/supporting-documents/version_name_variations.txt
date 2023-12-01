@@ -1829,11 +1829,11 @@ Kuroko no Basque / Kuroko's Basketball
 
 League of Legends
 	Version
-		'{"League ?of ?Legends?"}', '{"LOL"}'
+		['League ?of ?Legends?'], ['LOL']
 	Sometimes Called
-		'{"League"}'
+		['League']
 	Other
-		'{"Noxus"}' (location in lore)
+		['Noxus'] (location in lore)
 	Displayed Version Name
 		"League of Legends"
 
@@ -3665,7 +3665,7 @@ The VelociPastor
 
 Venture Bros.
 	Version
-		'{"Venture (Bros|Brothers)"}'
+		['Venture (Bros|Brothers)']
 	Displayed Version Name
 		"Venture Bros."
 
