@@ -107,6 +107,52 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 522, 'Respect Gipsy Danger! (Pacific Rim)', 'https://redd.it/18al6w2')
+
+########################################
+
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Minus One'], ['-1\.0']
+],
+'Minus One',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18apgu8/godzilla_from_10_shows_up_a_few_years_earlier_and/kbz9cjv/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yuugi Hoshiguma (Touhou)', 'https://redd.it/18akhal')
+add_data(['Yuugi Hoshiguma'],
+'Yuugi Hoshiguma',
+False,
+True,
+[
+    ['Touhou']
+],
+'Touhou',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18akhal/respect_yuugi_hoshiguma_touhou/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 26: the Gamma Killer (Marvel Comics, 616)', 'https://redd.it/18alhgt')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Gamma Killer'], ['Model 26']
+],
+'Gamma Killer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18alhgt/respect_iron_man_model_26_the_gamma_killer_marvel/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
