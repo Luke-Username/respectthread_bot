@@ -3404,7 +3404,6 @@ Robin,"{`"Teen Titans original`"}",f,{973},Teen Titans
 Robin,"{`"Teen Titans Cartoon`"}",f,{973},Teen Titans
 Robin,"{`"Teen Titans`",2003|2006}",f,{973},Teen Titans
 Invisible Man,{Wells},f,{16451},H. G. Wells
-Tiger,"{`"real life`"}",f,{6356},""
 Slade,"{`"Teen Titans (the )?animated`"}",f,{974},Teen Titans
 Slade,"{`"from Teen Titans`"}",f,{974},Teen Titans
 Slade,"{`"Teen Titans`",`"TV Show`"}",f,{974},Teen Titans
@@ -3573,7 +3572,6 @@ Rocket,"{`"(Young Justice)`"}",f,{1016},Young Justice
 Red Arrow,"{`"\\[Young Justice`"}",f,{1014},Young Justice
 Black Canary,"{`"Black Canary from Young Justice`"}",f,{22611},Young Justice
 Rocket,"{`"Young Justice`",`"season d`"}",f,{1016},Young Justice
-Deathstroke,"{`"Arkham(-| )?verse`"}",f,{10795},Batman: Arkham
 Rocket,"{`"Young Justice`",`"TV (shows?|series|versions?)`"}",f,{1016},Young Justice
 Rocket,"{`"Young Justice`",`"cartoon network`"}",f,{1016},Young Justice
 Rocket,"{`"from Young Justice`"}",f,{1016},Young Justice
@@ -3611,6 +3609,7 @@ Sphere,"{`"Young Justice`"}",f,{1017},Young Justice
 Static,"{`"(Young Justice)`"}",f,{1018},Young Justice
 Deathstroke,"{`"Arkham Origins`"}",f,{10795},Batman: Arkham
 Superboy,"{`"Young Justice`",`"season d`"}",f,{1019},Young Justice
+Deathstroke,{Arkham.?verse},f,{10795},Batman: Arkham
 Superboy,"{`"Young Justice`",`"TV (shows?|series|versions?)`"}",f,{1019},Young Justice
 Superboy,"{`"Young Justice`",`"cartoon network`"}",f,{1019},Young Justice
 Superboy,"{`"from Young Justice`"}",f,{1019},Young Justice
@@ -14785,7 +14784,6 @@ The Anchor,"{`"The Anchor ?\\(The Anchor`"}",f,{14473},BOOM! Studios
 The Anchor,"{`"BOOM!? Studios?`"}",f,{14473},BOOM! Studios
 Bowsette,"{`"Bowsette Saga`"}",t,{14474},Bowsette Saga
 Chompy,{Bowsette},f,{14475},Bowsette Saga
-Mr. Freeze,"{`"Arkham(-| )?verse`"}",f,{14476},Batman: Arkham
 Mr. Freeze,"{`"Arkham series`"}",f,{14476},Batman: Arkham
 Mr. Freeze,"{`"Batman: Arkham`"}",f,{14476},Batman: Arkham
 Mr. Freeze,"{`"Arkham City`"}",f,{14476},Batman: Arkham
@@ -14810,6 +14808,7 @@ Superman,"{`"Super(-| )?man ?\\[Man of Steel`"}",f,{130},DCEU
 Superman,"{`"Man of Steel Super(-| )?man`"}",f,{130},DCEU
 Superman,{2013},f,{130},DCEU
 Superman,{Cavill?},f,{130},DCEU
+Mr. Freeze,{Arkham.?verse},f,{14476},Batman: Arkham
 Yondu,{199999},f,{13485},MCU
 Poison Ivy,"{`"Bat(-| )?man`",1997}",f,{14486},"Batman & Robin, 1997"
 Hera,"{`"Greek myth?(olog(y|ical))?`"}",f,{5807},Greek Mythology
@@ -17157,8 +17156,7 @@ North,"{`"Red vs.? Blue`"}",f,{13302},Red vs. Blue
 North,{RvB},f,{13302},Red vs. Blue
 South,"{`"Red vs.? Blue`"}",f,{13303},Red vs. Blue
 South,{RvB},f,{13303},Red vs. Blue
-Pamela Voorhees,"{`"Friday the 13th`"}",t,{13304},Friday the 13th
-Pamela,"{`"Friday the 13th`"}",f,{13304},Friday the 13th
+Pamela Voorhees,"{`"Friday the 13th`"}",t,"{13304,24532}",Friday the 13th
 Tina Shepard,"{`"Friday the 13th`"}",t,{13305},Friday the 13th
 Blob,{1955},f,{13306},1988
 Blob,{1972},f,{13306},1988
@@ -22687,7 +22685,6 @@ Miss Militia,"{`"Brockton Bay`"}",t,{16573},Worm
 "Ben 10,000",{Omnitrix},t,"{16574,16575}",Ben 10
 Grigori,"{`"Dragon'?s Dogma`"}",f,{16576},Dragon's Dogma
 Time Traveler,"{`"Self Cover`"}",f,{16577},Self Cover
-Joker,"{`"Arkham(-| )?verse`"}",f,{16578},Batman: Arkham
 Joker,"{`"\\(Arkham\\)`"}",f,{16578},Batman: Arkham
 Joker,"{`"Arkham (games?|series)`"}",f,{16578},Batman: Arkham
 Joker,"{`"Batman: Arkham`"}",f,{16578},Batman: Arkham
@@ -22722,6 +22719,7 @@ Monk Maz Koshia,{T?LOZ},t,{16591},Breath of the Wild
 Monk Maz Koshia,"{`"Breath of the Wild`"}",t,{16591},Breath of the Wild
 Monk Maz Koshia,{BOTW},t,{16591},Breath of the Wild
 Ninjabread Man,{default},t,{16592},""
+Joker,{Arkham.?verse},f,{16578},Batman: Arkham
 Space Marine,{(WH)?40K},f,"{21139,6466}",Warhammer 40k
 Space Marine,{Warhammer},f,"{21139,6466}",Warhammer 40k
 Balan,{Wonderworld},f,{16593},Balan Wonderworld
@@ -22963,11 +22961,9 @@ Roy,{FE},f,{16810},Fire Emblem
 Marth,"{`"Fire Emblem`"}",t,{16811},Fire Emblem
 Marth,{FE},t,{16811},Fire Emblem
 Orcane,"{`"Rivals of Aether`"}",t,{16812},Rivals of Aether
-Arkham Knight,"{`"Arkham(-| )?verse`"}",t,{16813},Batman: Arkham
 Arkham Knight,"{`"\\(Arkham\\)`"}",t,{16813},Batman: Arkham
 Arkham Knight,"{`"Arkham (games?|series)`"}",t,{16813},Batman: Arkham
 Arkham Knight,"{`"Batman: Arkham`"}",t,{16813},Batman: Arkham
-Batmobile,"{`"Arkham(-| )?verse`"}",f,{16814},Batman: Arkham
 Batmobile,"{`"\\(Arkham\\)`"}",f,{16814},Batman: Arkham
 Batmobile,"{`"Arkham (games?|series)`"}",f,{16814},Batman: Arkham
 Batmobile,"{`"Batman: Arkham`"}",f,{16814},Batman: Arkham
@@ -23015,6 +23011,7 @@ Mzingo,"{`"Lion King`"}",t,{16836},The Lion King
 Vulture,"{`"Lion King`"}",f,{16836},The Lion King
 Vultures,"{`"Lion King`"}",f,{16836},The Lion King
 Batmobile,"{`"Arkham Knights?`"}",f,{16814},Batman: Arkham
+Arkham Knight,{Arkham.?verse},t,{16813},Batman: Arkham
 Skinks,"{`"Lion (King|Guard)`"}",f,{16837},The Lion King
 Outsiders,"{`"Lion (King|Guard)`"}",f,{16838},The Lion King
 Zira,"{`"Lion (King|Guard)`"}",f,{16838},The Lion King
@@ -23327,13 +23324,6 @@ Darth Plagueis,{EU},t,{17379},Star Wars
 Darth Plagueis,{Legends},t,{17379},Star Wars
 Darth Plagueis,{SW},t,{17379},Star Wars
 Kappa Mikey,"{`"Mikey Simon`"}",t,{17380},""
-Batman,"{`"Bat(-| )?man ?\\(Arkham`"}",f,{17381},Batman: Arkham
-Batman,"{`"Arkham(-| )?verse`"}",f,{17381},Batman: Arkham
-Batman,"{`"\\(Arkham\\)`"}",f,{17381},Batman: Arkham
-Batman,"{`"Arkham (games?|series)`"}",f,{17381},Batman: Arkham
-Batman,"{`"Batman: Arkham`"}",f,{17381},Batman: Arkham
-Batman,"{`"Arkham City`"}",f,{17381},Batman: Arkham
-Batman,"{`"Arkham Origins`"}",f,{17381},Batman: Arkham
 Sozin,{Avatar},t,{17382},Avatar: TLA
 Sozin,{A?TLA},t,{17382},Avatar: TLA
 Sozin,"{`"Air(-| )bender`"}",t,{17382},Avatar: TLA
@@ -23384,6 +23374,7 @@ Sthomas,"{`"Slush Invaders`"}",t,{17403},Slush Invaders
 Ares,"{`"DC Extended Universe`"}",f,{17404},DCEU
 Ares,"{`"DC ?(E|C)U`"}",f,{17404},DCEU
 Ares,"{`"DC Cinematic Universe`"}",f,{17404},DCEU
+Batman,"{`"Bat(-| )?man ?\\(Arkham`"}",f,"{17381,24531}",Batman: Arkham
 Giant Twilight Sparkle,{default},t,{17405},""
 Mauler Twins,{Invincible},t,{17406},Invincible
 Hot Rod,"{`"Last Knight`"}",f,{17407},Transformers Films
@@ -26173,11 +26164,11 @@ Electro,{Insomniacs?},f,{15398},Insomniac's Spider-Man
 Rhino,{Insomniacs?},f,{15398},Insomniac's Spider-Man
 Mister Negative,{Insomniacs?},f,{15398},Insomniac's Spider-Man
 Peter Parker,{Insomniacs?},f,{15258},Insomniac's Spider-Man
-Batman,"{`"Arkham Knights?`"}",f,{17381},Batman: Arkham
 Old Woman Laura,{18366},t,{21860},18366
 Ghost Rider,{AoS},f,{16830},MCU
 Bheem,{RRR},f,{22664},RRR
 Crona,"{`"Soul ?Eater`"}",f,{4546},Soul Eater
+Batman,"{`"Arkham Knights?`"}",f,"{17381,24531}",Batman: Arkham
 Godzilla,"{`"King of the Monsters`"}",f,{280},MonsterVerse
 Godzilla,"{`"Godzilla: King of Monsters`"}",f,{280},MonsterVerse
 Godzilla,{Legendary},f,{280},MonsterVerse
@@ -28073,7 +28064,6 @@ Titania,"{`"Marvel Cinematic Universe`"}",f,{22745},MCU
 Titania,{MCU},f,{22745},MCU
 Scrappy-Doo,"{`"Scooby-Doo and Scrappy(-| )Doo`",Game}",f,{22746},Scooby-Doo and Scrappy-Doo
 Afro Samurai,{default},t,{4663},""
-Chainsaw Man,"{`"vs\\.? Chainsaw(-| )?Man`"}",f,{4709},""
 Doctor Strange,{MoM.*Strange},f,{13351},MCU
 Doctor Strange,{Strange.*MoM},f,{13351},MCU
 Maniac Harry,"{`"Maniac of New York`"}",t,{22747},Maniac of New York
@@ -28124,12 +28114,12 @@ Doctor Fate,"{`"DC Extended Universe`"}",f,{23081},DCEU
 Doctor Fate,"{`"DC ?(E|C)U`"}",f,{23081},DCEU
 Doctor Fate,"{`"DC Cinematic Universe`"}",f,{23081},DCEU
 Thor,"{IDW,Ragnar(ö|o)k}",f,{22753},"IDW, Ragnarök"
+Chainsaw Man,"{`"vs\\.? Chainsaw(-| )?Man`"}",t,{4709},""
 Ash Williams,{Fortnite},f,{22786},Fortnite
 SCP-6750-1,"{`"Sam Hain`"}",f,{22787},""
 Darkhold,{616},t,{22788},616
 Darkhold,"{`"Marvel Cinematic Universe`"}",f,{22788},MCU
 Darkhold,{MCU},f,{22788},MCU
-Chainsaw Man,"{`"Chainsaw(-| )?Man vs`"}",f,{4709},""
 Falcon,"{`"Falcon ?\\((Marvel)? ?616`"}",f,{17672},616
 Naoya,"{`"Jujus?t?s?u Kaisen`"}",f,{22790},Jujutsu Kaisen
 Naoya,{JJK},f,{22790},Jujutsu Kaisen
@@ -28162,6 +28152,7 @@ Meno,"{`"Sasuke Retsuden`"}",f,{22809},Sasuke Retsuden
 Negative Superman,"{`"Pre(-| )?Crisis`"}",t,{22810},Pre-Crisis
 Thor,{BattleTech},f,{},BattleTech
 Thor,"{`"Mighty Hulk`"}",f,{22805},Mighty Hulk
+Chainsaw Man,"{`"Chainsaw(-| )?Man vs`"}",t,{4709},""
 General Zod,{Avruskin},f,{22523},Avruskin
 Avengers,"{`"2012 Avengers`"}",f,"{233,247,237,264,236,244,235,270,268,242,271,256}",MCU
 Homer,{Simpsons},f,{20516},The Simpsons
@@ -28562,9 +28553,8 @@ The First Bizz?arr?o,"{`"Pre(-| )?Crisis`"}",f,{23109},Pre-Crisis
 Bizarro Superboy,"{`"Pre(-| )?Crisis`"}",f,{23109},Pre-Crisis
 Black Adam,"{`"Kid Super Power Hour`"}",f,{23110},The Kid Super Power Hour with Shazam!
 Cyclops,"{`"Marvel Anime`"}",f,{23111},Marvel Anime
-Cell Max,"{`"Dragon ?Ball`"}",t,{23112},Dragon Ball
-Cell Max,{DB(Z|S)},t,{23112},Dragon Ball
 Fat Cobra,{616},t,{23323},616
+Cell Max,"{`"Dragon ?Ball`"}",t,"{23112,24530}",Dragon Ball
 Grimm,"{`"American McGees?`"}",f,{23113},American McGee
 Krang,"{`"Rise of the`",Turtles}",f,{23114},Rise of the Teenage Mutant Ninja Turtles
 Krang,"{`"Rise of the`",TMNT}",f,{23114},Rise of the Teenage Mutant Ninja Turtles
@@ -30339,7 +30329,6 @@ Iron Man,"{`"Dragon(-| )Slayer`"}",f,{24136},Dragon-Slayer
 Iron Man,"{`"Model 73`"}",f,{24136},Dragon-Slayer
 Loden Greatstorm,"{`"S(tar )?Wars`"}",t,{24137},Star Wars
 Ragyō Kiryūin,{KLK},t,{},Kill La Kill
-Batman,"{`"Arkham Batman`"}",f,{17381},Batman: Arkham
 Gojos,"{`"Jujus?t?s?u Kaisen`"}",f,{14809},Jujutsu Kaisen
 Gojos,{JJK},f,{14809},Jujutsu Kaisen
 Gojos,{Infinity},f,{14809},Jujutsu Kaisen
@@ -30351,6 +30340,7 @@ Kokken Sabi,"{`"Kyotou Yasuri`"}",t,{24140},Katanagatari
 Stellan Gios,"{`"S(tar )?Wars`"}",t,{24141},Star Wars
 Vernestra Rwoh,"{`"S(tar )?Wars`"}",t,{24142},Star Wars
 Bilbo Baggins,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{24143},Lord of the Rings
+Batman,"{`"Arkham Batman`"}",f,"{17381,24531}",Batman: Arkham
 Bilbo Baggins,{Hobbit},t,{24143},Lord of the Rings
 Bilbo,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{24143},Lord of the Rings
 Bilbo,{Hobbit},t,{24143},Lord of the Rings
@@ -30708,7 +30698,6 @@ Alioramus,"{`"M e d i c b a g`"}",f,{24375},M e d i c b a g
 Bucky O'Hare,{comics},t,"{24376,24377,24378}",""
 Bucky O'Hare,"{`"Toad Wars`"}",t,"{24376,24377,24378}",""
 Shades,"{`"Shadows for Silence in the Forests of Hell`"}",f,{24379},Shadows for Silence in the Forests of Hell
-Scarecrow,"{`"Arkham(-| )?verse`"}",f,{24380},Batman: Arkham
 Scarecrow,"{`"\\(Arkham\\)`"}",f,{24380},Batman: Arkham
 Scarecrow,"{`"Arkham (ga(m|n)es?|series)`"}",f,{24380},Batman: Arkham
 Scarecrow,"{`"Batman: Arkham`"}",f,{24380},Batman: Arkham
@@ -30923,3 +30912,43 @@ Dinodroid 1,{DB(Z|S)},t,{24526},Dragon Ball
 The Doctor,"{`"Full Fathom Five`"}",f,{24527},Doctor Who: Full Fathom Five
 Gorgon,{Fate},f,{24528},Fate
 Kiichi Miyazawa,{Tough},t,{24529},Tough
+Cell Max,{DB(Z|S)},t,"{23112,24530}",Dragon Ball
+Tiger,"{`"real life tiger`"}",f,{6356},""
+Batmobile,{Arkham.?verse},f,{16814},Batman: Arkham
+Scarecrow,{Arkham.?verse},f,{24380},Batman: Arkham
+Batman,"{`"\\(Arkham\\)`"}",f,"{17381,24531}",Batman: Arkham
+Batman,"{`"Arkham (games?|series)`"}",f,"{17381,24531}",Batman: Arkham
+Batman,"{`"Batman: Arkham`"}",f,"{17381,24531}",Batman: Arkham
+Batman,"{`"Arkham City`"}",f,"{17381,24531}",Batman: Arkham
+Batman,"{`"Arkham Origins`"}",f,"{17381,24531}",Batman: Arkham
+Batman,{Arkham.?verse},f,"{17381,24531}",Batman: Arkham
+Pamela,"{`"Friday the 13th`"}",f,"{13304,24532}",Friday the 13th
+Akali,{League},f,{24533},League of Legends
+Akali,{LOL},f,{24533},League of Legends
+Hulk,"{`"Joss Whedons?`"}",f,{236},MCU
+The Connector,{Kengan(verse)?},f,{24534},Kengan Asura
+Shen,{Kengan(verse)?},f,{24534},Kengan Asura
+Captain Hook,{Disneys?},f,{24535},Disney's Peter Pan
+Captain Hook,"{`"Peter Pan`"}",f,{24535},Disney's Peter Pan
+Morholt,{Arthurian},t,{24536},Arthurian Myth
+Composite Superman,"{`"Posts?(-| )?C(risis)?`"}",f,{24537},Post-Crisis
+Dr. Henry Killinger,"{`"Venture (Bros|Brothers)`"}",t,{24538},Venture Bros.
+Tam Posla,"{`"S(tar )?Wars`"}",t,{24539},Star Wars
+Shen,"{`"Eye of Twilight`"}",f,{24540},League of Legends
+Shen,"{`"League ?of ?Legends?`"}",f,{24540},League of Legends
+Tinker Bell,{Disneys?},f,{8207},Disney
+Tinker Bell,"{`"Pixie dust`"}",f,{8207},Disney
+Seiko Miyazawa,{Tough},t,{24541},Tough
+Saint George,"{`"Faerie Queene`"}",t,{24542},The Faerie Queene
+Francisca Francesca,"{`"Magical Girl Raising Project`"}",t,{24543},Magical Girl Raising Project
+Francisca Francesca,"{`"Mahou Shoujo Ikusei Keikaku`"}",t,{24543},Magical Girl Raising Project
+Predator,"{`"Hunters And Hunted`"}",f,{24545},The Predator: Hunters And Hunted
+Seventh Doctor,"{`"Barbara Benedetti`"}",f,{24546},Seattle International Films
+Seventh Doctor,"{`"Seattle International Films`"}",f,{24546},Seattle International Films
+The Doctor,"{`"Barbara Benedetti`"}",f,{24546},Seattle International Films
+The Doctor,"{`"Seattle International Films`"}",f,{24546},Seattle International Films
+The Thing,"{`"A Tropical Horror`"}",f,{24547},A Tropical Horror
+Cartoon Cat,"{`"Trevor Henderson`"}",t,{24548},Trevor Henderson
+Jodah,"{`"Magic:? The Gathering`"}",f,{24544},Magic: The Gathering
+Jodah,{M:?TG},f,{24544},Magic: The Gathering
+Jodah,{Planeswalk(er)?s?},f,{24544},Magic: The Gathering

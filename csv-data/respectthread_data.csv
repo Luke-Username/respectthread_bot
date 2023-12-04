@@ -629,7 +629,6 @@ id,title,link
 615,Respect the Lich (Adventure Time),https://redd.it/yitv18
 607,Respect Fionna and Cake (Adventure Time),https://redd.it/16vdpt6
 639,Respect Avatar Kyoshi (Avatar: The Last Airbender),https://redd.it/i2lkav
-673,Respect Big Chill (Ben 10),https://redd.it/3kwtzp
 675,Respect Brainstorm (Ben 10) [Classic],https://redd.it/aijh7y
 676,[Respect] The Broken Omnitrix Aliens (Ben 10),https://redd.it/71t1tc
 677,Respect Bullfrag (Ben 10),https://redd.it/7gkgp0
@@ -647,7 +646,6 @@ id,title,link
 692,Respect Ripjaws (Ben 10),https://redd.it/b00g83
 693,[Respect] Sploot & Mot Snikrep (Ben 10),https://redd.it/8w9gr6
 694,[Respect] Technorg (Ben 10),https://redd.it/70off2
-697,Respect Vilgax (Ben 10),https://redd.it/72k98n
 698,Respect Walkatrout (Ben 10),https://redd.it/66kgqt
 699,Respect Way Big (Ben 10),https://redd.it/cbqbvp
 701,Respect The Worst (Ben 10),https://redd.it/66xgn4
@@ -693,6 +691,7 @@ id,title,link
 674,Respect Blitzwolfer (Ben 10),https://redd.it/p4ulvi
 742,Respect Dark Danny (Danny Phantom),https://redd.it/atcgol
 743,Respect Ember McLain! [Danny Phantom],https://redd.it/4fewju
+697,Respect Vilgax (Ben 10),https://redd.it/189yhv0
 745,Respect Ace the Bat-Hound (DCAU),https://redd.it/bwwwuf
 746,Respect AMAZO (DC ANIMATED UNIVERSE),https://redd.it/7k4amx
 747,"[Respect] Anthony Romulus, the Werewolf (DCAU)",https://redd.it/7ar7m3
@@ -705,6 +704,7 @@ id,title,link
 754,Respect Captain Marvel (DC Animated Universe),https://redd.it/brizs9
 755,Respect Curaré (Batman Beyond/DC Animated Universe),https://redd.it/9dmh17
 744,Respect Vlad Masters (Danny Phantom),https://redd.it/n76ik4
+673,Respect Big Chill (Ben 10),https://redd.it/189yn8w
 695,Respect Toepick (Ben 10),https://redd.it/ol39wb
 696,Respect Upgrade! (Ben 10),https://redd.it/os5afp
 719,Respect Captain Planet (Captain Planet and the Planeteers),https://redd.it/epq7qq
@@ -1715,7 +1715,6 @@ id,title,link
 1810,Respect Manchester Black (DC Post Crisis),https://redd.it/734qiq
 1811,Respect Maxima,https://redd.it/2awrrx
 1812,Respect Mongul (DC: Earth-One),https://redd.it/b6p53o
-1813,Respect Mr Mxyzptlk (1987 - Flashpoint),https://redd.it/2vjc0m
 1814,Respect Obsession/Superwoman [DC Comics],https://redd.it/73zyvo
 1815,Respect the Super-Ants (DC Pre-Crisis),https://redd.it/bfiequ
 1816,Respect the Ugly Superman (DC Pre-Crisis),https://redd.it/ccewtn
@@ -1737,6 +1736,7 @@ id,title,link
 1832,Respect: Raven,https://redd.it/2t8obo
 1833,Respect: Starfire,https://redd.it/2t8luq
 1756,Respect Superman (Post-Crisis),https://redd.it/ljsibk
+1813,"Respect Mr. Mxyzptlk (DC Comics, Post-Crisis)",https://redd.it/189vh2h
 1748,"Respect Metamorpho (DC, Post Crisis)",https://redd.it/fosjjf
 1834,Respect Arthur Light (pre-52),https://redd.it/2xkc1r
 1835,Respect Blackfire (DC Pre-Flashpoint),https://redd.it/350ouj
@@ -3154,7 +3154,6 @@ id,title,link
 3289,Respect Goku (Namek),https://redd.it/35vjkg
 3290,Respect ULTRA INSTINCT GOKU (DB SUPER),https://redd.it/885kd9
 3291,Respect Goten (Dragonball Z),https://redd.it/43lqmg
-3292,Respect Gotenks (Dragonball Z,https://redd.it/43fag5
 3293,Respect Grand Priest (Dragonball Super),https://redd.it/7kdzpk
 3294,Respect The Great Saiyaman and Saiyagirl,https://redd.it/9c4frh
 3295,Respect Hit! (Dragon Ball Super),https://redd.it/4nhm6x
@@ -3162,6 +3161,7 @@ id,title,link
 3318,Respect Zamasu (Dragon Ball Super Anime),https://redd.it/vfdtne
 3298,Respect Jiren (Dragonball Super),https://redd.it/7c8lte
 3299,Respect Lavenda (Dragon Ball Super),https://redd.it/5xnuoi
+3292,Respect Gotenks (Dragon Ball Manga),https://redd.it/188cqks
 3302,Respect Mercenary Tao (Dragon Ball),https://redd.it/4xldm2
 3305,Respect the Neko Majins! [Neko Majin],https://redd.it/5pe4re
 3306,Respect Piccolo (Dragon Ball),https://redd.it/4yl1og
@@ -7270,8 +7270,6 @@ id,title,link
 8203,Respect Kamen Rider Barlckxs (Kamen Rider Zi-O: Over Quartzer),https://redd.it/f0zrjs
 8204,Respect Kamen Rider Zonjis (Kamen Rider Zi-O: Over Quartzer),https://redd.it/f102hb
 8205,Respect Kamen Rider Zamonas (Kamen Rider Zi-O: Over Quartzer),https://redd.it/f1073y
-8206,Respect Peter Pan (Peter Pan 1953 Animated Film),https://redd.it/etwmq9
-8207,Respect Tinkerbell (Peter Pan 1953 Animated Film),https://redd.it/etwnd1
 8210,Respect Jianzhu The Gravedigger (Avatar: The Rise of Kyoshi),https://redd.it/eudzs3
 8211,Respect Thanos (Verbalase),https://redd.it/eufsiu
 8212,Mighty Mouse (Terrytoons),https://redd.it/eui1nu
@@ -7303,6 +7301,7 @@ id,title,link
 8173,"Respect Metallo, the Man with the Kryptonite Heart! (DC, Post-Crisis)",https://redd.it/u9u5al
 8237,Respect Yuichiro Kurono (Fire Force Manga),https://redd.it/uksbpy
 8208,Respect God! (Bruce Almighty),https://redd.it/uw3ond
+8207,Respect Tinker Bell! (Disney's Peter Pan),https://redd.it/188isnv
 8240,Respect Joker! (Fire Force),https://redd.it/exwtn6
 8241,"Respect Takeru `"Juggernaut`" Noto! (Fire Force)",https://redd.it/exxe9j
 8242,Respect Ogun Montgomery! (Fire Force),https://redd.it/exxea5
@@ -13116,3 +13115,23 @@ id,title,link
 24527,Respect the Doctor! (Doctor Who: Full Fathom Five),https://redd.it/184tmmj
 24528,"Respect Gorgon, the Queen of Demonic Beasts (Fate Franchise)",https://redd.it/184vcpw
 24529,Respect Kiichi Miyazawa (Tough),https://redd.it/1862bo6
+24530,Respect Cell Max (Dragon Ball Super - Manga),https://redd.it/186qr51
+24531,Arkham Batman Respect Thread,https://comicvine.gamespot.com/forums/batman-286/arkham-batman-respect-thread-1888370/
+24532,Respect the spirit of Pamela Voorhees (Friday the 13th),https://redd.it/188hp0s
+8206,Respect Peter Pan! (Disney's Peter Pan),https://redd.it/188iusw
+24533,"Respect Akali, the Rogue Assassin (League of Legends)",https://redd.it/186c8j1
+24534,"Respect Shen `"The Connector`" Wulong (Kengan Omega)",https://redd.it/186un5h
+24535,Respect Captain Hook! (Disney's Peter Pan),https://redd.it/186xdja
+24536,Respect Morholt (Arthurian Mythology),https://redd.it/187o7zq
+24537,Respect: Composite Superman! (Post Crisis DC),https://redd.it/187pdsw
+24538,Respect Dr. Henry Killinger (The Venture Bros) (NSFW),https://redd.it/187zcv1
+24539,Respect Tam Posla and the Gundravian Hookspores (Star Wars Canon),https://redd.it/1882mfh
+24540,"Respect Shen, the Eye of Twilight (League of Legends)",https://redd.it/1887kab
+24541,Respect Seiko Miyazawa (Tough),https://redd.it/1895pcv
+24542,"Respect the Redcrosse Knight, Saint George (The Faerie Queene)",https://redd.it/189f5u6
+24543,Respect Francisca Francesca (Magical Girl Raising Project),https://redd.it/189knb0
+24544,"Respect Jodah, the Archmage Eternal (Magic: The Gathering)",https://redd.it/189youi
+24545,Respect The Predator (The Predator: Hunters And Hunted),https://redd.it/18a1yqp
+24546,Respect Barbara Benedetti's Seventh Doctor! (Seattle International Films),https://redd.it/18a80rh
+24547,Respect the Thing! (A Tropical Horror),https://redd.it/18a849g
+24548,Respect Cartoon Cat! (Trevor Henderson Mythos),https://redd.it/18a876w

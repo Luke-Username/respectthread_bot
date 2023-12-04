@@ -445,7 +445,6 @@ Steve Rogers,Captain America,f
 Karl Ruprecht Kroenen,Karl Ruprecht Kroenen,f
 Liz Sherman,Liz Sherman,f
 Nuada,Prince Nuada,f
-Indominus,Indominus Rex,f
 Shokuhou Misaki,Shokuhou Misaki,f
 Spinosaurus,Spinosaurus,f
 Owen,Owen,f
@@ -579,6 +578,7 @@ Cap(tain)? Marvel,Captain Marvel,f
 Ca?pt((ai|ia)n)? Americas?,Captain America,f
 Hellboys?,Hellboy,f
 M(i|a)koto Misaka|Misaka M(i|a)koto,Mikoto Misaka,f
+Indomi(n|t)us,Indominus Rex,f
 Vulture,Vulture,f
 Yellowjacket,Yellowjacket,f
 Darren Cross,Yellowjacket,f
@@ -14149,3 +14149,16 @@ Four Lords,Four Lords,t
 Mad Jack,Mad Jack,f
 Dinodroid 1,Dinodroid 1,f
 Kiichi Miyazawa,Kiichi Miyazawa,f
+Akali,Akali,f
+The Connector,The Connector,f
+Captain Hook,Captain Hook,f
+Morholt,Morholt,f
+(Dr\\.?|Henry) Killinger,Dr. Henry Killinger,f
+Tam Posla,Tam Posla,f
+Tinker Bell,Tinker Bell,f
+Seiko Miyazawa,Seiko Miyazawa,f
+Saint George,Saint George,f
+Francisca Francesca,Francisca Francesca,f
+Jodah,Jodah,f
+(Seven|7)th Doctor,Seventh Doctor,f
+Cartoon Cat,Cartoon Cat,f
