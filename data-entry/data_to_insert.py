@@ -107,6 +107,15 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3292, 'Respect Gotenks (Dragon Ball Manga)', 'https://redd.it/188cqks')
+update_respectthread(cur, 8207, "Respect Tinker Bell! (Disney''s Peter Pan)", 'https://redd.it/188isnv')
+update_respectthread(cur, 8206, "Respect Peter Pan! (Disney''s Peter Pan)", 'https://redd.it/188iusw')
+update_respectthread(cur, 1813, "Respect Mr. Mxyzptlk (DC Comics, Post-Crisis)", 'https://redd.it/189vh2h')
+update_respectthread(cur, 697, 'Respect Vilgax (Ben 10)', 'https://redd.it/189yhv0')
+update_respectthread(cur, 673, 'Respect Big Chill (Ben 10)', 'https://redd.it/189yn8w')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Akali, the Rogue Assassin (League of Legends)', 'https://redd.it/186c8j1')
 add_data(['Akali'],
 'Akali',
@@ -119,6 +128,20 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/186c8j1/respect_akali_the_rogue_assassin_league_of_legends/
+
+########################################
+
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['Joss Whedons?']
+],
+'MCU',
+'{236}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18a36nt/hulk_avengers_vs_jordan_kent_cw/kbv4l1p/?context=3
 
 ########################################
 
@@ -236,6 +259,153 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1887kab/respect_shen_the_eye_of_twilight_league_of_legends/
+
+########################################
+
+add_data(['Tinker Bell'],
+'Tinker Bell',
+False,
+False,
+[
+    ['Disneys?'], ['Pixie dust']
+],
+'Disney',
+'{8207}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Seiko Miyazawa (Tough)', 'https://redd.it/1895pcv')
+add_data(['Seiko Miyazawa'],
+'Seiko Miyazawa',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1887kab/respect_shen_the_eye_of_twilight_league_of_legends/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Redcrosse Knight, Saint George (The Faerie Queene)', 'https://redd.it/189f5u6')
+add_data(['Saint George'],
+'Saint George',
+False,
+True,
+[
+    ['Faerie Queene']
+],
+'The Faerie Queene',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/189f5u6/respect_the_redcrosse_knight_saint_george_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Francisca Francesca (Magical Girl Raising Project)', 'https://redd.it/189knb0')
+add_data(['Francisca Francesca'],
+'Francisca Francesca',
+False,
+True,
+[
+    ['Magical Girl Raising Project'], ['Mahou Shoujo Ikusei Keikaku']
+],
+'Magical Girl Raising Project',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/189knb0/respect_francisca_francesca_magical_girl_raising/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jodah, the Archmage Eternal (Magic: The Gathering)', 'https://redd.it/189youi')
+add_data(['Jodah'],
+'Jodah',
+False,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG'],
+    ['Planeswalk(er)?s?']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predator (The Predator: Hunters And Hunted)', 'https://redd.it/18a1yqp')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Hunters And Hunted']
+],
+'The Predator: Hunters And Hunted',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18a1yqp/respect_the_predator_the_predator_hunters_and/
+
+########################################
+
+id = get_rt_id(cur, "Respect Barbara Benedetti''s Seventh Doctor! (Seattle International Films)", 'https://redd.it/18a80rh')
+add_data(['(Seven|7)th Doctor'],
+'Seventh Doctor',
+False,
+False,
+[
+    ['Barbara Benedetti'], ['Seattle International Films']
+],
+'Seattle International Films',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18a80rh/respect_barbara_benedettis_seventh_doctor_seattle/
+
+add_data(['The Doctor'],
+'The Doctor',
+False,
+False,
+[
+    ['Barbara Benedetti'], ['Seattle International Films']
+],
+'Seattle International Films',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18a80rh/respect_barbara_benedettis_seventh_doctor_seattle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Thing! (A Tropical Horror)', 'https://redd.it/18a849g')
+add_data(['The Thing'],
+'The Thing',
+False,
+False,
+[
+    ['A Tropical Horror']
+],
+'A Tropical Horror',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18a849g/respect_the_thing_a_tropical_horror/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cartoon Cat! (Trevor Henderson Mythos)', 'https://redd.it/18a876w')
+add_data(['Cartoon Cat'],
+'Cartoon Cat',
+False,
+True,
+[
+    ['Trevor Henderson']
+],
+'Trevor Henderson',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18a876w/respect_cartoon_cat_trevor_henderson_mythos/
 
 ########################################
 

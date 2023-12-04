@@ -263,7 +263,7 @@ Bastard!!
 
 Batman: Arkham
 	Version
-		['Arkham(-| )?verse'], ['\(Arkham\)'], ['Arkham (ga(m|n)es?|series)'], ['Batman: Arkham'],
+		['Arkham.?verse'], ['\(Arkham\)'], ['Arkham (ga(m|n)es?|series)'], ['Batman: Arkham'],
 		'{"Arkham City"}', '{"Arkham Origins"}', '{"Arkham Knight"}'
 	Displayed Version Name
 		"Batman: Arkham"
