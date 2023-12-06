@@ -111,6 +111,21 @@ update_respectthread(cur, 522, 'Respect Gipsy Danger! (Pacific Rim)', 'https://r
 update_respectthread(cur, 595, 'Respect Wesley Gibson! (Wanted)', 'https://redd.it/18avn9s')
 update_respectthread(cur, 2532, 'Respect Ultimate Hawkeye (Marvel, 1610)', 'https://redd.it/18b478v')
 update_respectthread(cur, 12144, 'Respect Hanno of Arwad, the White Knight (A Practical Guide to Evil)', 'https://redd.it/18bx6y1')
+update_respectthread(cur, 2053, 'Respect Wilson Fisk, the Kingpin (Marvel Comics, Earth 616)', 'https://redd.it/18c6pfy')
+
+########################################
+
+add_data(['Sakura'],
+'Sakura',
+False,
+False,
+[
+    ['Sanji', 'Sakura vs|vs\.? Sakura'], ['Base Sakura'], ['Jutsu']
+],
+'Naruto',
+'{3971}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18cb5gp/sanji_vs_sakura/kc9gl03/?context=3
 
 ########################################
 
@@ -222,6 +237,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/18alhgt/respect_iron_man_model_26_the_gamma_killer_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Board James (Board James, Cinemassacre)', 'https://redd.it/18c6n3s')
+add_data(['Board James'],
+'Board James',
+False,
+True,
+[
+    ['Cinemassacre']
+],
+'Cinemassacre',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Grendel (The Guy Who Cried Grendel)', 'https://redd.it/18c6n7z')
+add_data(['Grendel'],
+'Grendel',
+False,
+False,
+[
+    ['Guy Who Cried Grendel']
+],
+'The Guy Who Cried Grendel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18c6n7z/respect_grendel_the_guy_who_cried_grendel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Darkness Devil! (Chainsaw Man)', 'https://redd.it/18c7roj')
+add_data(['Darkness Devil'],
+'Darkness Devil',
+False,
+True,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18c7roj/respect_the_darkness_devil_chainsaw_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kiryu Miyazawa (Tough)', 'https://redd.it/18cetpd')
+add_data(['Kiryuu? Miyazawa'],
+'Kiryu Miyazawa',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18cetpd/respect_kiryu_miyazawa_tough/
 
 ########################################
 
