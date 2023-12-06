@@ -108,6 +108,9 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 522, 'Respect Gipsy Danger! (Pacific Rim)', 'https://redd.it/18al6w2')
+update_respectthread(cur, 595, 'Respect Wesley Gibson! (Wanted)', 'https://redd.it/18avn9s')
+update_respectthread(cur, 2532, 'Respect Ultimate Hawkeye (Marvel, 1610)', 'https://redd.it/18b478v')
+update_respectthread(cur, 12144, 'Respect Hanno of Arwad, the White Knight (A Practical Guide to Evil)', 'https://redd.it/18bx6y1')
 
 ########################################
 
@@ -149,6 +152,73 @@ False,
     ['Gamma Killer'], ['Model 26']
 ],
 'Gamma Killer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18alhgt/respect_iron_man_model_26_the_gamma_killer_marvel/
+
+########################################
+
+add_data(['Bishamon'],
+'Bishamon',
+False,
+False,
+[
+    ['Noragami']
+],
+'Noragami',
+'{3994}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18alhgt/respect_iron_man_model_26_the_gamma_killer_marvel/
+
+add_data(['Bishamonten'],
+'Bishamonten',
+False,
+False,
+[
+    ['Noragami']
+],
+'Noragami',
+'{3994}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18alhgt/respect_iron_man_model_26_the_gamma_killer_marvel/
+
+########################################
+
+add_data(['Ebisu'],
+'Ebisu',
+False,
+False,
+[
+    ['Noragami']
+],
+'Noragami',
+'{3995}'
+)
+#
+
+add_data(['Yato'],
+'Yato',
+False,
+False,
+[
+    ['Noragami']
+],
+'Noragami',
+'{3996}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Man in the Suit (Unknowingly/Godzilla Analog Horror)', 'https://redd.it/18bloxy')
+add_data(['Man in the Suit'],
+'Man in the Suit',
+False,
+False,
+[
+    ['Unknowingly'], ['Godzilla Analog Horror']
+],
+'Unknowingly/Godzilla Analog Horror',
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/18alhgt/respect_iron_man_model_26_the_gamma_killer_marvel/
