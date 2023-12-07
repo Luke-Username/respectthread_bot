@@ -115,6 +115,20 @@ update_respectthread(cur, 2053, 'Respect Wilson Fisk, the Kingpin (Marvel Comics
 
 ########################################
 
+add_data(['Ultraman'],
+'Ultraman',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{3971}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18csihh/goku_variants_vs_superman_variants/kcclvjz/?context=3
+
+########################################
+
 add_data(['Sakura'],
 'Sakura',
 False,
@@ -297,6 +311,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/18cetpd/respect_kiryu_miyazawa_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Google! (Markiplier Canon)', 'https://redd.it/18cjdez')
+add_data(['Google'],
+'Google',
+False,
+False,
+[
+    ['Markiplier']
+],
+'Markiplier',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18cjdez/respect_google_markiplier_canon/
 
 ########################################
 
