@@ -2020,9 +2020,6 @@ Captain Jack Sparrow,"{`"Pirates of the Caribbean`"}",t,{525},Pirates of the Car
 Captain Jack Sparrow,{POTC},t,{525},Pirates of the Caribbean
 Will Turner,"{`"Pirates of the Caribbean`"}",t,{526},Pirates of the Caribbean
 Will Turner,{POTC},t,{526},Pirates of the Caribbean
-Max Steel,{2016},f,{509},2016
-Max Steel,{movies?},f,{509},2016
-Max Steel,{films?},f,{509},2016
 Meteor Man,"{`"The Meteor Man`"}",t,{510},The Meteor Man
 Meteor Man,{movie},t,{510},The Meteor Man
 Bane,{Nolan},f,{519},Nolanverse
@@ -2043,8 +2040,11 @@ Kyoshi,{Avatar},t,{639},Avatar: TLA
 Kyoshi,{A?TLA},t,{639},Avatar: TLA
 Bane,"{`"Dark K?night`"}",f,{519},The Dark Night
 Godzilla,{2014},f,{280},MonsterVerse
+Max Steel,{2016},t,{509},2016
 Hank,"{`"Madness Combat`"}",f,{23044},Madness Combat
 Hank J. Wimbleton,"{`"Madness Combat`"}",t,{23044},Madness Combat
+Max Steel,{movies?},t,{509},2016
+Max Steel,{films?},t,{509},2016
 Mystery Men,"{`"Blue Raja`"}",t,{517},1999
 Mystery Men,"{`"Invisible Boy`"}",t,{517},1999
 Mystery Men,{Spleen},t,{517},1999
@@ -30952,3 +30952,24 @@ Cartoon Cat,"{`"Trevor Henderson`"}",t,{24548},Trevor Henderson
 Jodah,"{`"Magic:? The Gathering`"}",f,{24544},Magic: The Gathering
 Jodah,{M:?TG},f,{24544},Magic: The Gathering
 Jodah,{Planeswalk(er)?s?},f,{24544},Magic: The Gathering
+Ultraman,"{`"Posts?(-| )?C(risis)?`"}",f,{3971},Post-Crisis
+Ultraman,"{`"New(-| )Earth`"}",f,{3971},Post-Crisis
+Sakura,"{Sanji,`"Sakura vs|vs\\.? Sakura`"}",f,{3971},Naruto
+Sakura,"{`"Base Sakura`"}",f,{3971},Naruto
+Sakura,{Jutsu},f,{3971},Naruto
+Godzilla,"{`"Minus One`"}",f,{},Minus One
+Godzilla,"{`"-1\\.0`"}",f,{},Minus One
+Yuugi Hoshiguma,{Touhou},t,{24549},Touhou
+Iron Man,"{`"Gamma Killer`"}",f,{24550},Gamma Killer
+Iron Man,"{`"Model 26`"}",f,{24550},Gamma Killer
+Bishamon,{Noragami},f,{3994},Noragami
+Bishamonten,{Noragami},f,{3994},Noragami
+Ebisu,{Noragami},f,{3995},Noragami
+Yato,{Noragami},f,{3996},Noragami
+Man in the Suit,{Unknowingly},f,{24551},Unknowingly/Godzilla Analog Horror
+Man in the Suit,"{`"Godzilla Analog Horror`"}",f,{24551},Unknowingly/Godzilla Analog Horror
+Board James,{Cinemassacre},t,{24552},Cinemassacre
+Grendel,"{`"Guy Who Cried Grendel`"}",f,{24553},The Guy Who Cried Grendel
+Darkness Devil,"{`"Chainsaw(-| )?Man`"}",t,{24554},Chainsaw Man
+Kiryu Miyazawa,{Tough},t,{24555},Tough
+Google,{Markiplier},f,{24556},Markiplier

@@ -483,7 +483,6 @@ id,title,link
 519,Respect Bane (Nolanverse),https://redd.it/7hj7rq
 520,Respect Okja (Okja),https://redd.it/6p6c4x
 521,Respect Gabriel Yulaw (The One),https://redd.it/9y9gif
-522,Respect Gipsy Danger (Pacific Rim),https://redd.it/5v9ihy
 523,Respect Andy (Pee-Wee's Big Adventure),https://redd.it/60qd3o
 524,Respect Elliot (Pete's Dragon),https://redd.it/61w61r
 526,Respect Will Turner (Pirates of the Caribbean),https://redd.it/8u6pqw
@@ -551,9 +550,9 @@ id,title,link
 544,Respect RoboCop (RoboCop I-III),https://redd.it/175i6hw
 574,Respect Superman (Donnerverse),https://redd.it/17s4ch3
 575,Respect Superman (Superman Returns),https://redd.it/17s4ci1
+522,Respect Gipsy Danger! (Pacific Rim),https://redd.it/18al6w2
 593,Respect V.I. Warshawski (V.I. Warshawski),https://redd.it/5zm71p
 594,Respect Mount Wilshire (Volcano),https://redd.it/aihqpu
-595,"Respect Wesley Gibson! [Wanted, 2008 Film]",https://redd.it/5bcpq8
 596,Respect the Tripod (War of the Worlds [2005 Movie]),https://redd.it/7fq8n4
 597,Respect Wendy Wu! (Wendy Wu: Homecoming Warrior),https://redd.it/605dqh
 598,Respect the Eborsisk (Willow),https://redd.it/brtu32
@@ -629,6 +628,7 @@ id,title,link
 615,Respect the Lich (Adventure Time),https://redd.it/yitv18
 607,Respect Fionna and Cake (Adventure Time),https://redd.it/16vdpt6
 639,Respect Avatar Kyoshi (Avatar: The Last Airbender),https://redd.it/i2lkav
+595,Respect Wesley Gibson! (Wanted),https://redd.it/18avn9s
 675,Respect Brainstorm (Ben 10) [Classic],https://redd.it/aijh7y
 676,[Respect] The Broken Omnitrix Aliens (Ben 10),https://redd.it/71t1tc
 677,Respect Bullfrag (Ben 10),https://redd.it/7gkgp0
@@ -1948,7 +1948,6 @@ id,title,link
 2050,"Respect Bullseye, The World's Greatest Assassin (Marvel 616)",https://redd.it/5jckn0
 2051,Respect Daredevil: The Man Without Fear!,https://redd.it/3boq2j
 2052,Respect Elektra Natchios (Marvel 616),https://redd.it/8zykup
-2053,Respect Kingpin (Marvel: Earth-616),https://redd.it/6stsml
 2054,Respect Lady Bullseye (Marvel 616),https://redd.it/bn9psp
 2055,Respect Stick (Marvel 616),https://redd.it/8cgjge
 2056,Respect Typhoid Mary! (Marvel),https://redd.it/6qqfm3
@@ -1982,6 +1981,7 @@ id,title,link
 20415,Respect Baiken! (Guilty Gear),https://redd.it/vbdxsv
 20413,Respect Slayer! (Guilty Gear),https://redd.it/vbj0dd
 20412,Respect I-No! (Guilty Gear),https://redd.it/vbj2g5
+2053,"Respect Wilson Fisk, the Kingpin (Marvel Comics, Earth 616)",https://redd.it/18c6pfy
 2084,Respect Galactus [Marvel Earth-616],https://redd.it/3risls
 2085,Respect Golden Oldie (Marvel),https://redd.it/94x150
 2086,"Respect Lifebringer Galactus! (Marvel Comics, 616)",https://redd.it/998mf7
@@ -2413,7 +2413,6 @@ id,title,link
 2529,"Respect J-2 (Marvel, Earth 982",https://redd.it/9e2bvt
 2518,"Respect Todd Ziller, American Kaiju (Marvel, 616)",https://redd.it/odp76k
 2531,Respect Wild Thing (Marvel Comics MC2/Earth-982),https://redd.it/bera5w
-2532,Ultimate Hawkeye (Marvel Comics),https://redd.it/5xdpxw
 2533,"Respect The Punisher (Ultimate Marvel, 1610)",https://redd.it/8mew1k
 2537,"Respect Ultimate Reed Richards, The Maker (Marvel, 1610)",https://redd.it/p0sybs
 2539,"Respect Ultimate Black Widow (Marvel, Earth 1610)",https://redd.it/ax6zvb
@@ -2463,6 +2462,7 @@ id,title,link
 2585,"Respect Mister Fantastic (Marvel, Earth-1720)",https://redd.it/c1q7n8
 2586,Respect Nighthawk (Earth-31916) (Marvel),https://redd.it/3x6qk0
 2587,"Respect Old Man Hawkeye (Marvel, 807128)",https://redd.it/bevrel
+2532,"Respect Ultimate Hawkeye (Marvel, 1610)",https://redd.it/18b478v
 2544,"Respect Ultimate Quicksilver (Marvel, Earth 1610)",https://redd.it/ebnwhe
 2515,Respect Taskmaster (Marvel 616),https://redd.it/f0gsgg
 2570,Respect Akhenaten (Marvel Comics),https://redd.it/b42vlj
@@ -8598,7 +8598,6 @@ id,title,link
 12141,Respect Leon's Charizard (Pokemon Anime),https://redd.it/h7jts5
 12142,Respect Lancelot du Lac (Arthurian Myth),https://redd.it/h7qgbc
 12143,Respect Yoko Littner! (Tengen Toppa Gurren Lagann),https://redd.it/h7rgj7
-12144,"Respect Hanno of Arwad, the White Knight (A Practical Guide to Evil)",https://redd.it/h7w0ub
 12145,Respect Mega Man X! (Mega Man),https://redd.it/h84v7t
 12146,Respect Connor! (Detroit: Become Human),https://redd.it/h85exz
 12147,Respect Tombstone (Spider-Man: Into the Spider-Verse),https://redd.it/h873m7
@@ -8627,6 +8626,7 @@ id,title,link
 16451,Respect the Invisible Man (1897 Novel),https://redd.it/g7ilkm
 16452,Respect Nanami Yasuri [Katanagatari LN/Kyotou Yasuri],https://redd.it/m28772
 16453,Respect Omni-Man (Invincible),https://redd.it/n70nig
+12144,"Respect Hanno of Arwad, the White Knight (A Practical Guide to Evil)",https://redd.it/18bx6y1
 21567,Respect Dementors (Harry Potter and the Methods of Rationality),https://redd.it/tdq9p7
 21568,Respect Opa-Opa (Fantasy Zone),https://redd.it/tdxhey
 21569,Respect Hector Hammond (Green Lantern movie),https://redd.it/te80xp
@@ -13135,3 +13135,11 @@ id,title,link
 24546,Respect Barbara Benedetti's Seventh Doctor! (Seattle International Films),https://redd.it/18a80rh
 24547,Respect the Thing! (A Tropical Horror),https://redd.it/18a849g
 24548,Respect Cartoon Cat! (Trevor Henderson Mythos),https://redd.it/18a876w
+24549,Respect Yuugi Hoshiguma (Touhou),https://redd.it/18akhal
+24550,"Respect Iron Man Model 26: the Gamma Killer (Marvel Comics, 616)",https://redd.it/18alhgt
+24551,Respect The Man in the Suit (Unknowingly/Godzilla Analog Horror),https://redd.it/18bloxy
+24552,"Respect Board James (Board James, Cinemassacre)",https://redd.it/18c6n3s
+24553,Respect Grendel (The Guy Who Cried Grendel),https://redd.it/18c6n7z
+24554,Respect the Darkness Devil! (Chainsaw Man),https://redd.it/18c7roj
+24555,Respect Kiryu Miyazawa (Tough),https://redd.it/18cetpd
+24556,Respect Google! (Markiplier Canon),https://redd.it/18cjdez
