@@ -18,6 +18,8 @@ UPDATE character SET rt_id_array='{5367}' WHERE default_name='Wesker' AND versio
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Mob', 'Mob of', 0);
+
 ########################################
 
 ########################################

@@ -107,6 +107,70 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 90, 'Respect Robbie Rotten! (LazyTown)', 'https://redd.it/14m5e1u')
+update_respectthread(cur, 13504, 'Respect Flandre Scarlet (Touhou)', 'https://redd.it/18cwt5a')
+update_respectthread(cur, 414, 'Respect the Man with No Name (Dollars Trilogy)', 'https://redd.it/18dmtqd')
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Doctor (Death Battle)', 'https://redd.it/18d5apy')
+add_data(['The Doctor'],
+'The Doctor',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18d5apy/respect_the_doctor_death_battle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Robert Trefusis (Marvel 1602)', 'https://redd.it/18d9mwo')
+add_data(['Robert Trefusis'],
+'Robert Trefusis',
+False,
+False,
+[
+    ['1602']
+],
+'1602',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18d9mwo/respect_robert_trefusis_marvel_1602/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sir Isaac Newton (Marvel 616)', 'https://redd.it/18ehzvj')
+add_data(['Isaac Newton'],
+'Isaac Newton',
+False,
+False,
+[
+    ['Marvel'], ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18ehzvj/respect_sir_isaac_newton_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Red Harlow (Red Dead Revolver)', 'https://redd.it/18egvos')
+add_data(['Red Harlow'],
+'Red Harlow',
+False,
+True,
+[
+    ['Red Dead Revolver']
+],
+'Red Dead Revolver',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18egvos/respect_red_harlow_red_dead_revolver/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
