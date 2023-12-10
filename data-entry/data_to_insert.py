@@ -110,6 +110,21 @@ cur = con.cursor()
 update_respectthread(cur, 90, 'Respect Robbie Rotten! (LazyTown)', 'https://redd.it/14m5e1u')
 update_respectthread(cur, 13504, 'Respect Flandre Scarlet (Touhou)', 'https://redd.it/18cwt5a')
 update_respectthread(cur, 414, 'Respect the Man with No Name (Dollars Trilogy)', 'https://redd.it/18dmtqd')
+update_respectthread(cur, 20196, 'Respect Sylvie Laufeydottir (Marvel Cinematic Universe)', 'https://redd.it/18ewrs5')
+
+########################################
+
+add_data(['Shere?( |-)Khan'],
+'Shere Khan',
+False,
+False,
+[
+    ['2016']
+],
+'The Jungle Book, 2016',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18edtqi/cocaine_bear_vs_shere_khan_who_would_win/kcrtc8n/?context=3
 
 ########################################
 
