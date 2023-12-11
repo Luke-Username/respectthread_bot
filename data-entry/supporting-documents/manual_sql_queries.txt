@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{5367}' WHERE default_name='Wesker' AND version='{"Resident Evil"}';
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Mob', 'Mob of', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Shaggy', 'Shaggy clothes', 0);
 
 ########################################
 

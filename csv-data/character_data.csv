@@ -30565,7 +30565,6 @@ Hela,{movie},f,{245},MCU
 Hela,{movies},f,{245},MCU
 Hela,{Ragnarok},f,{245},MCU
 Tomie,"{`"Tomie ?\\(Tomie\\)`"}",f,{23832},Tomie
-Wesker,"{`"Resident Evil`"}",f,{23832},Resident Evil
 Davy Jones,"{Dutchman'?s?,Crew}",f,{6533},Pirates of the Caribbean
 Backs,"{`"Undead Unluck`"}",f,{24249},Undead Unluck
 Creed,"{`"Undead Unluck`"}",f,{24250},Undead Unluck
@@ -30973,3 +30972,10 @@ Grendel,"{`"Guy Who Cried Grendel`"}",f,{24553},The Guy Who Cried Grendel
 Darkness Devil,"{`"Chainsaw(-| )?Man`"}",t,{24554},Chainsaw Man
 Kiryu Miyazawa,{Tough},t,{24555},Tough
 Google,{Markiplier},f,{24556},Markiplier
+Wesker,"{`"Resident Evil`"}",f,{5367},Resident Evil
+Shere Khan,{2016},f,{},"The Jungle Book, 2016"
+The Doctor,"{`"DEATH BATTLE`"}",f,{24557},DEATH BATTLE!
+Robert Trefusis,{1602},f,{24558},1602
+Isaac Newton,{Marvel},f,{24559},616
+Isaac Newton,{616},f,{24559},616
+Red Harlow,"{`"Red Dead Revolver`"}",t,{24560},Red Dead Revolver
