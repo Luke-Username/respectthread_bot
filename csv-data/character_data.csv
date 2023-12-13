@@ -25190,7 +25190,6 @@ Marquis of Death,{Marvel},t,{2584},Marvel
 Terminator,"{`"Terminator ?\\(Terminator\\)`"}",f,"{329,330,331,332}",""
 Terminator,"{`"or The Terminator`"}",f,"{329,330,331,332}",""
 Terminator,"{`"Terminator vs`"}",f,"{329,330,331,332}",""
-Grinch,"{`"Jim Carrey`"}",f,{},""
 Batman,"{`"Live(-| )Action`"}",f,{},Live Action
 Alucard,"{`"Castle(-| )?vania`",Show}",f,{1252},Netflix's Castlevania
 Mr. Freeze,"{`"(Mister|Mr)\\.? Freeze ?\\(Batman and Robin`"}",f,{},Batman and Robin
@@ -25227,6 +25226,7 @@ Black Canary,"{`"\\(DC( Comics)?\\)`"}",t,{1563},DC
 Huntress,"{`"\\(DC( Comics)?\\)`"}",f,{1564},DC
 Pied Piper,"{`"\\(DC( Comics)?\\)`"}",f,{1602},""
 Rune King Thor,{616},t,"{24263,21155}",616
+Grinch,"{`"Jim Carrey`"}",f,{6161},""
 Daredevil,"{`"Daredevil.+TV(-| )Show`"}",f,{1289},MCU
 Daredevil,"{`"TV(-| )Show.+Daredevil`"}",f,{1289},MCU
 Spider-Man,"{`"No way home`"}",f,{261},MCU
@@ -30979,3 +30979,6 @@ Robert Trefusis,{1602},f,{24558},1602
 Isaac Newton,{Marvel},f,{24559},616
 Isaac Newton,{616},f,{24559},616
 Red Harlow,"{`"Red Dead Revolver`"}",t,{24560},Red Dead Revolver
+Invincible,"{`"Robert Kirkman`"}",f,"{1961,17671}",Image Comics
+Predator,"{`"Stalking Shadows`"}",f,{24561},Predator: Stalking Shadows
+Predators,"{`"Stalking Shadows`"}",f,{24561},Predator: Stalking Shadows

@@ -14,15 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{6161}' WHERE default_name='Grinch' AND version='{"Jim Carrey"}';
-
 ########################################
 
-UPDATE character_name SET name='Meruems?' WHERE name='Meruem';
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Sabretooth', 'The Sabretooth', -4);
 
 ########################################
 
