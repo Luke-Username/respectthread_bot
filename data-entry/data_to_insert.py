@@ -107,6 +107,45 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Invincible'],
+'Invincible',
+False,
+False,
+[
+    ['Robert Kirkman']
+],
+'Image Comics',
+'{1961,17671}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18ha9fx/how_many_invincibles_would_it_take_to_beat/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (Predator: Stalking Shadows)', 'https://redd.it/18gsp1e')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Stalking Shadows']
+],
+'Predator: Stalking Shadows',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18gsp1e/respect_the_predators_predator_stalking_shadows/
+
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Stalking Shadows']
+],
+'Predator: Stalking Shadows',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18gsp1e/respect_the_predators_predator_stalking_shadows/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
