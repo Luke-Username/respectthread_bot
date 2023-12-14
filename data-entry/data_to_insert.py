@@ -107,6 +107,51 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1839, 'Respect Walter Kovacs, Rorschach (Watchmen, DC Comics)', 'https://redd.it/18hkqhp')
+
+########################################
+
+add_data(['Immortal'],
+'Immortal',
+False,
+False,
+[
+    ['Mauler Twins']
+],
+'Invincible',
+'{16851,16852}'
+)
+#https://www.reddit.com/r/respectthreads/comments/d2kwip/respect_sully_monsters_inc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Giant Robot Karen (Glorb Music Videos)', 'https://redd.it/18hrls5')
+add_data(['Giant Robot Karen'],
+'Giant Robot Karen',
+False,
+False,
+[
+    ['Glorb']
+],
+'Glorb',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18hrls5/respect_giant_robot_karen_glorb_music_videos/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman (Superman: Veritas)', 'https://redd.it/18hrqry')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Superman:? Veritas']
+],
+'Superman: Veritas',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18hrqry/respect_superman_superman_veritas/
 
 ########################################
 
