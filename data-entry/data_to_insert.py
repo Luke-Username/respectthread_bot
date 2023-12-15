@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 1839, 'Respect Walter Kovacs, Rorschach (Watchmen, DC Comics)', 'https://redd.it/18hkqhp')
+update_respectthread(cur, 4665, 'Respect Satou (Ajin: Demi-Human)', 'https://redd.it/d1wd6b')
 
 ########################################
 
@@ -146,12 +147,42 @@ add_data(['Super(-| )?man'],
 False,
 False,
 [
-    ['Superman:? Veritas']
+    ['Superman: Veritas']
 ],
 'Superman: Veritas',
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/18hrqry/respect_superman_superman_veritas/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman (Superman Veritas)', 'https://redd.it/18ie7s3')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Superman Veritas']
+],
+'Superman Veritas',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18ie7s3/respect_superman_superman_veritas/
+
+########################################
+
+id = get_rt_id(cur, "Respect Miles Morales, the Spider-Man! (Marvel''s Spider-Man / Earth-1048)", 'https://redd.it/18imvwc')
+add_data(['Miles? Morales'],
+'Miles Morales',
+False,
+False,
+[
+    ['Insomniac(verse)?s?'], ['Spider(-| )?Man', 'PS4'], ['1048']
+],
+"Insomniac''s Spider-Man",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18imvwc/respect_miles_morales_the_spiderman_marvels/
 
 ########################################
 
