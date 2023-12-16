@@ -18,6 +18,8 @@ UPDATE character SET is_default=FALSE WHERE default_name='Haunter';
 
 ########################################
 
+UPDATE character_name SET name='Hell ?boys?' WHERE name='Hellboys?';
+
 ########################################
 
 ########################################
