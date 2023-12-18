@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 1839, 'Respect Walter Kovacs, Rorschach (Watchmen, DC Comics)', 'https://redd.it/18hkqhp')
 update_respectthread(cur, 4665, 'Respect Satou (Ajin: Demi-Human)', 'https://redd.it/d1wd6b')
+update_respectthread(cur, 5202, 'Respect Zed, the Master of Shadows (League of Legends)', 'https://redd.it/18kqlq4')
 
 ########################################
 
@@ -198,6 +199,81 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/18j19gl/respect_toranos_the_utgardthor_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Emblem Rings (Fire Emblem Engage)', 'https://redd.it/18jrv14')
+add_data(['Emblem Rings'],
+'Emblem Rings',
+True,
+False,
+[
+    ['Fire Emblem']
+],
+"Fire Emblem",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18jrv14/respect_the_emblem_rings_fire_emblem_engage/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alear (Fire Emblem Engage)', 'https://redd.it/18jrx3z')
+add_data(['Alear'],
+'Alear',
+False,
+False,
+[
+    ['Fire Emblem'], ['FE'], ['Engage']
+],
+"Fire Emblem",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18jrx3z/respect_alear_fire_emblem_engage/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Voodoo Child (Jimi Hendrix)', 'https://redd.it/18k23wa')
+add_data(['Voodoo Child'],
+'Voodoo Child',
+False,
+False,
+[
+    ['Jimi Hendrix']
+],
+"Jimi Hendrix",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18k23wa/respect_the_voodoo_child_jimi_hendrix/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sans (Cartoon Fight Club)', 'https://redd.it/18k4sxx')
+add_data(['Sans'],
+'Sans',
+False,
+False,
+[
+    ['Cartoon Fight Club']
+],
+"Cartoon Fight Club",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Fourteenth Doctor (Doctor Who)', 'https://redd.it/18kr467')
+add_data(['(Fourteen|14)th Doctor'],
+'Fourteenth Doctor',
+False,
+True,
+[
+    ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
+],
+"Doctor Who",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18kr467/respect_the_fourteenth_doctor_doctor_who/
 
 ########################################
 

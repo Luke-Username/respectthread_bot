@@ -22,6 +22,9 @@ UPDATE character_name SET name='Hell ?boys?' WHERE name='Hellboys?';
 
 ########################################
 
+SELECT FROM respectthread WHERE link='https://redd.it/18kr467'; 
+UPDATE character SET rt_id_array='{14419,23159,22631,23115,40,15401,23253, ?}' WHERE rt_id_array='{14419,23159,22631,23115,40,15401,23253};' --After run
+
 ########################################
 
 ########################################
