@@ -18583,7 +18583,6 @@ Primeape,{Pok(e|é)mon},t,{4167},Pokémon
 Quilava,{Pok(e|é)mon},t,{4168},Pokémon
 Cyndaquil,{Pok(e|é)mon},t,{4168},Pokémon
 Raticate,{Pok(e|é)mon},t,{4169},Pokémon
-Haunter,{Pok(e|é)mon},t,{4169},Pokémon
 Beedrill,{Pok(e|é)mon},t,{4169},Pokémon
 Larvitar,{Pok(e|é)mon},t,{4169},Pokémon
 Garchomp,{Pok(e|é)mon},t,{4170},Pokémon
@@ -18896,7 +18895,6 @@ Ariados,{J},f,{4349},Pokémon Hunter J
 Sabrina,{Pok(e|é)m(o|a)n},f,{4350},Pokémon
 Kadabra,{Sabrina},f,{4350},Sabrina
 Abra,{Sabrina},f,{4350},Sabrina
-Haunter,{Sabrina},f,{4350},Sabrina
 Santa,"{`"Santa ?\\(Pok(e|é)m(o|a)n`"}",f,{4351},Pokémon
 Santa Claus,"{`"Santa Clause? ?\\(Pok(e|é)m(o|a)n`"}",f,{4351},Pokémon
 Jynx,{Santa},f,{4351},Santa Claus
@@ -27829,7 +27827,7 @@ Harley Quinn,"{`"Harley Quinn? ?\\[Harley Quinn\\]`"}",f,{8348},"Harley Quinn an
 Pedro,"{`"Tower of God`"}",f,{22612},Tower of God
 Kojika Hanamaki,"{`"Ningen Series`"}",t,{22613},Ningen Series
 Seiya,"{`"Cautious Hero`"}",f,"{20565,22609,22628}",Cautious Hero
-The Doctor,{TARDIS},f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
+The Doctor,{TARDIS},f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Dagon,"{`"Jujus?t?s?u Kaisen`"}",f,{22615},Jujutsu Kaisen
 Dagon,{JJK},f,{22615},Jujutsu Kaisen
 Hunter,"{`"Fossil Fighters`"}",f,{22616},Fossil Fighters
@@ -27924,7 +27922,7 @@ Steve Smith,"{`"American Dad`"}",f,{22662},American Dad!
 Steve Smith,{Stan},f,{22662},American Dad!
 Avery Bullock,"{`"American Dad`"}",t,{22663},American Dad!
 Director Bullock,"{`"American Dad`"}",t,{22663},American Dad!
-The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
+The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Princess Snake,{DB(Z|S)},f,{22665},Dragon Ball
 John Doe,{Embalming},f,{22666},Embalming
 Francine Smith,"{`"American Dad`"}",t,{22667},American Dad!
@@ -28828,9 +28826,6 @@ Sam,"{`"Until Dawn`"}",f,{23252},Until Dawn
 Thirteenth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{23253},Doctor Who
 Thirteenth Doctor,{Who(ni)?verse},t,{23253},Doctor Who
 Mother Malkin,"{`"Wardstone Chronicles`"}",t,{23254},Wardstone Chronicles
-The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
-Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
-Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
 Scarecrow,{PC},f,{1558},Post-Crisis
 Scarecrow,"{`"Post(-| )?C(risis)?`"}",f,{1558},Post-Crisis
 Scarecrow,"{`"New(-| )Earth`"}",f,{1558},Post-Crisis
@@ -28878,8 +28873,10 @@ Frey Holland,{Forspoken},t,{23280},Forspoken
 Steve Fox,{Tekken},f,{23281},Tekken
 Kate Bishop,{MCU},f,"{23282,21522}",MCU
 Vlad,{Lancer},f,{21029},Fate
+The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Hulkbuster,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Hulkbuster,"{`"Comics? Hulk ?buster`"}",f,"{22877,23147,22927,23257,22735,22803,23842}",616
+Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Tomie,{(tomie_)?Kawakami},f,{23832},Junji Ito
 Tomie,"{`"Junji Ito`"}",f,{23832},Junji Ito
 Tomie,"{`"Tomie vs|vs\\.? Tomie`"}",f,{23832},Junji Ito
@@ -29049,7 +29046,6 @@ Christina,"{`"Princess Connect`"}",f,{23386},Princess Connect! Re:Dive
 The Emperor,{(WH)?40K},f,{6023},Warhammer 40k
 Godfield,"{`"Lumpy Touch`"}",t,{13121},Lumpy Touch
 Ophiuchus the emperor,"{`"Lumpy Touch`"}",f,{13121},Lumpy Touch
-The Doctor,"{`"Time Lords?`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
 Nagao Kagetora,{Fate},t,{23387},Fate
 Pidge,"{`"Voltron Force`"}",f,{23388},Voltron Force
 Ghiblib the Christmas Demon,"{`"Royalty Free Christmas Songs`"}",t,{23389},Royalty Free Christmas Songs
@@ -29070,6 +29066,7 @@ Leonardo,"{`"Mirage (Comics|Studios)`"}",f,{23391},Mirage Comics
 Raphael,"{`"Mirage (Comics|Studios)`"}",f,{23392},Mirage Comics
 Donatello,"{`"Mirage (Comics|Studios)`"}",f,{23393},Mirage Comics
 Michelangelo,"{`"Mirage (Comics|Studios)`"}",f,{23394},Mirage Comics
+The Doctor,"{`"Time Lords?`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Koraidon,{Pok(e|é)m(o|a)n},t,{23395},Pokémon
 Miraidon,{Pok(e|é)m(o|a)n},t,{23395},Pokémon
 Rogue,"{`"X(-| )?Men:? The Animated Series`"}",f,{23396},"X-Men, 1992"
@@ -30433,7 +30430,6 @@ Mighty Mouse,{Demetrious},f,{},UFC
 Soft & Wet,{Josuke},f,{3628},Jojo's Bizarre Adventure
 Soft & Wet,{Jojos?(verse)?},f,{3628},Jojo's Bizarre Adventure
 Soft & Wet,{JJBA},f,{3628},Jojo's Bizarre Adventure
-The Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253}",Doctor Who
 Adiane,"{`"Gurren Lagann?`"}",t,{24182},Gurren Lagann
 Lift,"{`"Storm ?light`"}",f,{24183},The Stormlight Archive
 Renarin Kholin,"{`"Storm ?light`"}",t,{24184},The Stormlight Archive
@@ -30982,3 +30978,23 @@ Red Harlow,"{`"Red Dead Revolver`"}",t,{24560},Red Dead Revolver
 Invincible,"{`"Robert Kirkman`"}",f,"{1961,17671}",Image Comics
 Predator,"{`"Stalking Shadows`"}",f,{24561},Predator: Stalking Shadows
 Predators,"{`"Stalking Shadows`"}",f,{24561},Predator: Stalking Shadows
+Haunter,{Pok(e|é)mon},f,{4169},Pokémon
+Haunter,{Sabrina},f,{4350},Sabrina
+Immortal,"{`"Mauler Twins`"}",f,"{16851,16852}",Invincible
+Giant Robot Karen,{Glorb},f,{24562},Glorb
+Superman,"{`"Superman: Veritas`"}",f,{24563},Superman: Veritas
+Superman,"{`"Superman Veritas`"}",f,{24564},Superman Veritas
+Miles Morales,{Insomniac(verse)?s?},f,{24565},Insomniac's Spider-Man
+Miles Morales,"{`"Spider(-| )?Man`",PS4}",f,{24565},Insomniac's Spider-Man
+Miles Morales,{1048},f,{24565},Insomniac's Spider-Man
+Toranos,{616},t,{24566},616
+Emblem Rings,"{`"Fire Emblem`"}",f,{24567},Fire Emblem
+Alear,"{`"Fire Emblem`"}",f,{24568},Fire Emblem
+Alear,{FE},f,{24568},Fire Emblem
+Alear,{Engage},f,{24568},Fire Emblem
+Voodoo Child,"{`"Jimi Hendrix`"}",f,{24569},Jimi Hendrix
+Sans,"{`"Cartoon Fight Club`"}",f,{24570},Cartoon Fight Club
+Fourteenth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{24571},Doctor Who
+Fourteenth Doctor,{Who(ni)?verse},t,{24571},Doctor Who
+Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
+The Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
