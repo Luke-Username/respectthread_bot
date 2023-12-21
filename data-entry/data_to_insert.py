@@ -107,6 +107,134 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Sans'],
+'Sans',
+False,
+False,
+[
+    ['Sans,']
+],
+'Undertale',
+'{5501,5498}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18npes4/musical_chairs_except/kecbyiv/?context=3
+
+########################################
+
+add_data(['Control Devil'],
+'Control Devil',
+False,
+True,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{15328}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18me9xh/everyone_in_the_world_gets_the_powers_of_the/ke3p5er/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Godzilla: Here There Be Dragons)', 'https://redd.it/18m9l7i')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Here There Be Dragons']
+],
+'Godzilla: Here There Be Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18m9l7i/respect_godzilla_godzilla_here_there_be_dragons/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Fest Godzilla Short Films)', 'https://redd.it/18mg2x2')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Fest Godzilla']
+],
+'Fest Godzilla',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18mg2x2/respect_godzilla_fest_godzilla_short_films/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Trent Fernandez-Mercer, the White Dino Ranger (Power Rangers Dino Thunder)', 'https://redd.it/18mf2v8')
+add_data(['White Dino( Thunder)? Ranger'],
+'White Dino Ranger',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Trent'],
+'Trent',
+False,
+False,
+[
+    ['(White|Dino) (Thunder)?Ranger']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18mf2v8/respect_trent_fernandezmercer_the_white_dino/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Murray (Gunbrella)', 'https://redd.it/18mr28x')
+add_data(['Murray'],
+'Murray',
+False,
+False,
+[
+    ['Gunbrella']
+],
+'Gunbrella',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18mr28x/respect_murray_gunbrella/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jennifer Walters, She-Hulk (Fantastic Four: World''s Greatest Heroes)", 'https://redd.it/18n2hd0')
+add_data(['She(-| )?Hulk'],
+'She-Hulk',
+False,
+False,
+[
+    ['Fantastic Four: World''s Greatest Heroes']
+],
+"Fantastic Four: World''s Greatest Heroes",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gamma 1 & Gamma 2 (Dragon Ball Super - Manga)', 'https://redd.it/18n3bge')
+add_data(['Gamma 1 (&|and)( Gamma)? 2'],
+'Gamma 1 & Gamma 2',
+True,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)']
+],
+"Dragon Ball",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18n3bge/respect_gamma_1_gamma_2_dragon_ball_super_manga/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
