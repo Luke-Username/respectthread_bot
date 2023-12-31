@@ -2116,7 +2116,6 @@ Ricky Conlan,{Rockyverse},t,{546},Creed
 Robert the Tire,{Rubber},t,{548},Rubber
 The Tire,{Rubber},f,{548},Rubber
 Jack Frost,"{`"Santa Clause 3`"}",f,{549},The Santa Clause
-Santa Clause,"{`"Santas Slay`"}",f,{550},Santa's Slay
 Sharkboy and Lavagirl,"{`"Sharkboy and Lavagirl`"}",t,{551},""
 Sharkboy,"{`"Sharkboy and Lavagirl`"}",t,{551},""
 Lavagirl,"{`"Sharkboy and Lavagirl`"}",t,{551},""
@@ -2172,6 +2171,7 @@ Underdog,{2007},f,{582},2007
 Sailor Mercury,"{`"Sailor Moon`"}",t,{4417},Sailor Moon
 Sailor Moon,"{`"Pretty Guardian Sailor Moon`"}",t,{4418},""
 3g4,{DC},f,{20967},Post-Crisis
+Santa Claus,"{`"Santas Slay`"}",f,{550},Santa's Slay
 Yuri Boyka,{Undisputed},t,{585},Undisputed
 Gill-man,"{`"the Creature`"}",t,{586},Creature from the Black Lagoon
 Gill-man,"{`"Black Lagoon`"}",t,{586},Creature from the Black Lagoon
@@ -11415,7 +11415,6 @@ Tigra,{Marvel},t,{2001},616
 Tigra,{Greer},t,{2001},616
 Vision,{616},f,{2002},616
 Vision,{Marvel},f,{2002},616
-Vision,"{`"The Vision`"}",f,{2002},616
 Vision,"{`"Martian Manhunter`"}",f,{2002},616
 Wonder Man,{616},t,{2003},616
 Wonder Man,{Marvel},t,{2003},616
@@ -14414,7 +14413,6 @@ Meisa Ichikawa,{Coppelion},f,{14341},Coppelion
 Bah Mou,{Blust},f,{14342},Blust!
 Kogarashi Fuyuzora,"{`"Yuuna and the Haunted Hot Springs`"}",t,{14343},Yuuna and the Haunted Hot Springs
 Kogarashi Fuyuzora,"{`"Yuragi(-| )sou no Yuuna(-| )san`"}",t,{14343},Yuuna and the Haunted Hot Springs
-Exodia,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{14344},Yu-Gi-Oh!
 Goku,{SSJ?4},f,{},Dragon Ball GT
 Goku,"{`"Super Saiyan 4`"}",f,{},Dragon Ball GT
 Arima Tsuchimikado,"{`"Twin Star Exorcists`"}",t,{14345},Twin Star Exorcists
@@ -30998,3 +30996,45 @@ Fourteenth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{24571},Doctor Who
 Fourteenth Doctor,{Who(ni)?verse},t,{24571},Doctor Who
 Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 The Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
+Exodia,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,"{14344,24572}",Yu-Gi-Oh!
+Jack,"{`"Nightmare Before Christmas`"}",f,{6581},The Nightmare Before Christmas
+Raj,{RRR},f,{22656},RRR
+Sans,"{`"Sans,`"}",f,"{5501,5498}",Undertale
+Control Devil,"{`"Chainsaw(-| )?Man`"}",t,{15328},Chainsaw Man
+Godzilla,"{`"Here There Be Dragons`"}",f,{24573},Godzilla: Here There Be Dragons
+Godzilla,"{`"Fest Godzilla`"}",f,{24574},Fest Godzilla
+White Dino Ranger,"{`"Power Rangers?`"}",t,{24575},Power Rangers
+Trent,"{`"(White|Dino) (Thunder)?Ranger`"}",f,{24575},Power Rangers
+Murray,{Gunbrella},f,{24576},Gunbrella
+She-Hulk,"{`"Fantastic Four: Worlds Greatest Heroes`"}",f,{24577},Fantastic Four: World's Greatest Heroes
+Gamma 1 & Gamma 2,"{`"Dragon ?Ball`"}",t,{24578},Dragon Ball
+Gamma 1 & Gamma 2,{DB(Z|S)},t,{24578},Dragon Ball
+Santa Claus,{Markiplier},f,{24579},Markiplier
+Santa Claus,"{`"Regular Show`"}",f,{24580},Regular Show
+Lunky,{Markiplier},f,{24581},Markiplier
+Zeo Megazord,"{`"Power Rangers?`"}",t,"{24582,24583}",Power Rangers
+Minh Kwan,"{`"Power Rangers?`"}",t,{24584},Power Rangers
+SCP ?(-| )? ?6289,"{`"THE WIZARD`"}",t,{24585},""
+SCP ?(-| )? ?4666,"{`"Yule Man`"}",t,{24586},""
+Bvak Bevzenko,"{`"Terra Formars`"}",t,{24587},Terra Formars
+Miyamoto Musashi,{Marvel},f,{24588},Marvel
+Halbergoi,"{`"Doubutsu Sentai Zyuohger`"}",f,{24589},Doubutsu Sentai Zyuohger
+Gaburio,"{`"Doubutsu Sentai Zyuohger`"}",f,{24590},Doubutsu Sentai Zyuohger
+Proto-Clown,{Tick},f,{24591},The Tick
+Ken,"{Barbie,2023}",f,{24592},"Barbie, 2023"
+Ken,"{`"Barbie Movie`"}",f,{24592},"Barbie, 2023"
+Shogo Sasaki,"{`"Final Fantasy`"}",f,{24593},Final Fantasy
+Shogo Sasaki,"{`"Lost Stranger`"}",f,{24593},Final Fantasy
+Magus Sisters,"{`"Final Fantasy`"}",t,{24594},Final Fantasy
+Magus Sisters,"{`"Lost Stranger`"}",t,{24594},Final Fantasy
+Son-O Miyazawa,{Tough},t,{24595},Tough
+Gill,"{`"Ice(-| )Head Gill`"}",f,{24596},Ice-Head Gill
+Gill,"{`"Gill Sol`"}",f,{24596},Ice-Head Gill
+Akira Tendou,"{`"Zom(bie)? 100`"}",t,{24597},Zom 100: Bucket List of the Dead
+Zombie Bucket List Gang,"{`"Zom(bie)? 100`"}",t,{24598},Zom 100: Bucket List of the Dead
+Shizuka Mikazuki,"{`"Zom(bie)? 100`"}",f,{24598},Zom 100: Bucket List of the Dead
+Beatrix Amerhauser,"{`"Zom(bie)? 100`"}",t,{24598},Zom 100: Bucket List of the Dead
+P-3,"{`"Atomic Heart`"}",f,{24599},Atomic Heart
+P3,"{`"Atomic Heart`"}",f,{24599},Atomic Heart
+Predators,"{`"Predator:? If It Bleeds`"}",f,{24600},Predator: If It Bleeds
+Predator,"{`"Predator:? If It Bleeds`"}",f,{24600},Predator: If It Bleeds
