@@ -121,6 +121,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Godzilla (Scott Cienen Novels)', 'https://redd.it/18uyeoz')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Scott Cienen']
+],
+'Scott Cienen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18uyeoz/respect_godzilla_scott_cienen_novels/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Seraphim! (Blood of Zeus)', 'https://redd.it/18uz9ba')
+add_data(['Seraphim'],
+'Seraphim',
+False,
+False,
+[
+    ['Blood of Zeus']
+],
+'Blood of Zeus',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18uz9ba/respect_seraphim_blood_of_zeus/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Orions (Independents'' Day)", 'https://redd.it/18uz9y0')
+add_data(['Orions'],
+'Orions',
+False,
+False,
+[
+    ["Independents'' Day"]
+],
+"Independents'' Day",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18uz9y0/respect_the_orions_independents_day/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
