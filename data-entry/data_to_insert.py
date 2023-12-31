@@ -107,6 +107,42 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13262, 'Respect Slappy the Dummy (Goosebumps, Composite)', 'https://redd.it/18ogcrh')
+update_respectthread(cur, 4636, 'Respect Bakura (Yu-Gi-Oh! Anime)', 'https://redd.it/18osa91')
+update_respectthread(cur, 4632, 'Respect Marik Ishtar (Yu-Gi-Oh! Anime)', 'https://redd.it/18pbv0a')
+update_respectthread(cur, 7582, 'Robot Santa Claus (Futurama)', 'https://redd.it/18qioyf')
+update_respectthread(cur, 20520, 'Respect Kelsang The Living Typhoon (Avatar: The Kyoshi Novels)', 'https://redd.it/18qp9vc')
+
+########################################
+
+add_data(['Jack'],
+'Jack',
+False,
+False,
+[
+    ['Nightmare Before Christmas']
+],
+'The Nightmare Before Christmas',
+'{6581}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18qg7i0/can_the_grinch_steal_halloween_from_halloween/keuodph/?context=3
+
+########################################
+
+add_data(['Raj'],
+'Raj',
+False,
+False,
+[
+    ['RRR']
+],
+'RRR',
+'{22656}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18p449v/raj_and_bheem_rrr_vs_predator/keljt2k/?context=3
+
+########################################
+
 add_data(['Sans'],
 'Sans',
 False,
@@ -234,6 +270,370 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/18n3bge/respect_gamma_1_gamma_2_dragon_ball_super_manga/
+
+########################################
+
+id = get_rt_id(cur, 'Santa Claus! (Markiplier Canon)', 'https://redd.it/18qmyxw')
+add_data(['Santa Clause?'],
+'Santa Claus',
+False,
+False,
+[
+    ['Markiplier']
+],
+"Markiplier",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18qmyxw/santa_claus_markiplier_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Santa Claus (Regular Show)', 'https://redd.it/18qy80m')
+add_data(['Santa Clause?'],
+'Santa Claus',
+False,
+False,
+[
+    ['Regular Show']
+],
+"Regular Show",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18qy80m/respect_santa_claus_regular_show/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lunky! (Markiplier Canon)', 'https://redd.it/18o2dfs')
+add_data(['Lunky'],
+'Lunky',
+False,
+False,
+[
+    ['Markiplier']
+],
+"Markiplier",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18o2dfs/respect_lunky_markiplier_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Zeo Megazord (Power Rangers Zeo)', 'https://redd.it/18onqzp')
+id2 = get_rt_id(cur, 'Respect the Super Zeo Megazord (Power Rangers Zeo)', 'https://redd.it/18onwzu')
+add_data(['Zeo Megazord'],
+'Zeo Megazord',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+"Power Rangers",
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18onqzp/respect_the_zeo_megazord_power_rangers_zeo/
+
+########################################
+
+id = get_rt_id(cur, "Respect Minh Kwan (Mighty Morphin'' Power Rangers: Once & Always)", 'https://redd.it/18op6bv')
+add_data(['Minh Kwan'],
+'Minh Kwan',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+"Power Rangers",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18op6bv/respect_minh_kwan_mighty_morphin_power_rangers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-6289, THE WIZARD. (SCP Foundation)', 'https://redd.it/18osmbc')
+add_data(['SCP-6289'],
+'SCP ?(-| )? ?6289',
+False,
+True,
+[
+    ['THE WIZARD']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-4666, The Yule Man (SCP Foundation)', 'https://redd.it/18pyu9g')
+add_data(['SCP-4666'],
+'SCP ?(-| )? ?4666',
+False,
+True,
+[
+    ['Yule Man']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18pyu9g/respect_scp4666_the_yule_man_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bvak Bevzenko (Terra Formars Gaiden: Asimov)', 'https://redd.it/18oxy6t')
+add_data(['Bvak Bevzenko'],
+'Bvak Bevzenko',
+False,
+True,
+[
+    ['Terra Formars']
+],
+'Terra Formars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18oxy6t/respect_bvak_bevzenko_terra_formars_gaiden_asimov/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Musashi Miyamoto, the Ghost Ronin (Marvel Comics)', 'https://redd.it/18p0m56')
+add_data(['Miyamoto Musashi|Musashi Miyamoto'],
+'Miyamoto Musashi',
+False,
+False,
+[
+    ['Marvel']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18p0m56/respect_musashi_miyamoto_the_ghost_ronin_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Halbergoi (Doubutsu Sentai Zyuohger)', 'https://redd.it/18p0z4q')
+add_data(['Halbergoi'],
+'Halbergoi',
+False,
+False,
+[
+    ['Doubutsu Sentai Zyuohger']
+],
+'Doubutsu Sentai Zyuohger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18p0z4q/respect_halbergoi_doubutsu_sentai_zyuohger/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gaburio (Doubutsu Sentai Zyuohger)', 'https://redd.it/18p13u2')
+add_data(['Gaburio'],
+'Gaburio',
+False,
+False,
+[
+    ['Doubutsu Sentai Zyuohger']
+],
+'Doubutsu Sentai Zyuohger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18p13u2/respect_gaburio_doubutsu_sentai_zyuohger/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Proto-Clown (The Tick)', 'https://redd.it/18p17ez')
+add_data(['Proto(-| )Clown'],
+'Proto-Clown',
+False,
+False,
+[
+    ['Tick']
+],
+'The Tick',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ken! (Barbie (2023))', 'https://redd.it/18p3hpc')
+add_data(['Ken'],
+'Ken',
+False,
+False,
+[
+    ['Barbie', '2023'], ['Barbie Movie']
+],
+'Barbie, 2023',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18p3hpc/respect_ken_barbie_2023/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shogo Sasaki! (Final Fantasy: Lost Stranger)', 'https://redd.it/18qqj8r')
+add_data(['Shogo Sasaki'],
+'Shogo Sasaki',
+False,
+False,
+[
+    ['Final Fantasy'], ['Lost Stranger']
+],
+'Final Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18qqj8r/respect_shogo_sasaki_final_fantasy_lost_stranger/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Magus Sisters! (Final Fantasy: Lost Stranger)', 'https://redd.it/18rdjo0')
+add_data(['Magus Sisters'],
+'Magus Sisters',
+False,
+True,
+[
+    ['Final Fantasy'], ['Lost Stranger']
+],
+'Final Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18rdjo0/respect_the_magus_sisters_final_fantasy_lost/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Son-O Miyazawa (Tough)', 'https://redd.it/18rervv')
+add_data(['Son(-| )O Miyazawa'],
+'Son-O Miyazawa',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18rervv/respect_sono_miyazawa_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gill! (Ice-Head Gill)', 'https://redd.it/18sa61l')
+add_data(['Gill'],
+'Gill',
+False,
+False,
+[
+    ['Ice(-| )Head Gill'], ['Gill Sol']
+],
+'Ice-Head Gill',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18sa61l/respect_gill_icehead_gill/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Akira Tendo (Zom 100: Bucket List of the Dead)', 'https://redd.it/18skdjs')
+add_data(['Akira Tendou?'],
+'Akira Tendou',
+False,
+True,
+[
+    ['Zom(bie)? 100']
+],
+'Zom 100: Bucket List of the Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18skdjs/respect_akira_tendo_zom_100_bucket_list_of_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Zombie Bucket List Gang (Zom 100: Bucket List of the Dead)', 'https://redd.it/18skecr')
+add_data(['Zombie Bucket List Gang'],
+'Zombie Bucket List Gang',
+True,
+True,
+[
+    ['Zom(bie)? 100']
+],
+'Zom 100: Bucket List of the Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18skecr/respect_the_zombie_bucket_list_gang_zom_100/
+
+add_data(['Shizuka Mikazuki'],
+'Shizuka Mikazuki',
+False,
+False,
+[
+    ['Zom(bie)? 100']
+],
+'Zom 100: Bucket List of the Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18skecr/respect_the_zombie_bucket_list_gang_zom_100/
+
+add_data(['Beatrix Amerhauser'],
+'Beatrix Amerhauser',
+False,
+True,
+[
+    ['Zom(bie)? 100']
+],
+'Zom 100: Bucket List of the Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18skecr/respect_the_zombie_bucket_list_gang_zom_100/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "P-3" Major Sergey Nechayev (Atomic Heart)', 'https://redd.it/18t52jl')
+add_data(['P-3'],
+'P-3',
+False,
+False,
+[
+    ['Atomic Heart']
+],
+'Atomic Heart',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['P3'],
+'P3',
+False,
+False,
+[
+    ['Atomic Heart']
+],
+'Atomic Heart',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (Predator If It Bleeds)', 'https://redd.it/18tt33b')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Predator:? If It Bleeds']
+],
+'Predator: If It Bleeds',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18tt33b/respect_the_predators_predator_if_it_bleeds/
+
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Predator:? If It Bleeds']
+],
+'Predator: If It Bleeds',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18tt33b/respect_the_predators_predator_if_it_bleeds/
 
 ########################################
 
