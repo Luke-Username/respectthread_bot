@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Jigsaws'],
+'Jigsaws',
+False,
+False,
+[
+    ['Saw'], ['Traps?']
+],
+'Saw',
+'{13138}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18q7qi2/could_harry_and_marv_survive_jigsaws_christmas/
+
+########################################
+
 add_data(['Sans'],
 'Sans',
 False,
