@@ -166,6 +166,115 @@ False,
 
 ########################################
 
+add_data(['Evie of the Isle'],
+'Evie of the Isle',
+False,
+True,
+[
+    ["Descendants"]
+],
+"Descendants",
+'{24423}'
+)
+#
+
+########################################
+
+add_data(['Harry Hook'],
+'Harry Hook',
+False,
+False,
+[
+    ["Descendants"]
+],
+"Descendants",
+'{24423}'
+)
+#
+
+########################################
+
+add_data(['Carlos de Vil'],
+'Carlos de Vil',
+False,
+True,
+[
+    ["Descendants"]
+],
+"Descendants",
+'{24423}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Necronomicon (H.P. Lovecraft)', 'https://redd.it/18vb92s')
+add_data(['Necronomicon'],
+'Necronomicon',
+False,
+True,
+[
+    ['Lovecraft']
+],
+'Lovecraft',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Necronomicon'],
+'Necronomicon',
+False,
+False,
+[
+    ['Evil Dead'], ['ex(-| )mortis']
+],
+'Evil Dead',
+'{}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Millennium Items (Yu-Gi-Oh! Anime)', 'https://redd.it/18vctte')
+add_data(['Millennium Items'],
+'Millennium Items',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18vctte/respect_the_millennium_items_yugioh_anime/
+
+add_data(['Millennium Eye'],
+'Millennium Eye',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18vctte/respect_the_millennium_items_yugioh_anime/
+
+add_data(['Millennium Necklace'],
+'Millennium Necklace',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18vctte/respect_the_millennium_items_yugioh_anime/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
