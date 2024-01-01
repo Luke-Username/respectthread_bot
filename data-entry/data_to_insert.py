@@ -107,6 +107,78 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Goliath'],
+'Goliath',
+False,
+False,
+[
+    ["Gargoyle''s"]
+],
+'Gargoyles',
+'{783}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/178awu7/bruce_wayne_dc_vs_goliath_gargoyles/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Demon! (The Drowned Man)', 'https://redd.it/18vpquj')
+add_data(['The Demon'],
+'The Demon',
+False,
+False,
+[
+    ['The Drowned Man']
+],
+'The Drowned Man',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect John Carver! (Thanksgiving)', 'https://redd.it/18vv58l')
+add_data(['John Carver'],
+'John Carver',
+False,
+False,
+[
+    ['Thanksgiving']
+],
+'Thanksgiving',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18vv58l/respect_john_carver_thanksgiving/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla! (Godzilla vs Justice League vs Kong)', 'https://redd.it/18vvv7o')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Justice League vs Godzilla vs Kong'], ['Godzilla vs Justice League vs Kong']
+],
+'Justice League vs Godzilla vs Kong',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18vvv7o/respect_godzilla_godzilla_vs_justice_league_vs/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mitsuhide Kuroda (Tough)', 'https://redd.it/18w3e4d')
+add_data(['Mitsuhide Kuroda'],
+'Mitsuhide Kuroda',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18w3e4d/respect_mitsuhide_kuroda_tough/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
