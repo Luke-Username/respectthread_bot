@@ -121,6 +121,68 @@ False,
 
 ########################################
 
+add_data(['Ben'],
+'Ben',
+False,
+False,
+[
+    ['Ben Florian'], ['Descendants']
+],
+'Descendants',
+'{24423}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18v3o02/respect_captain_gutt_ice_age/kfyr9pr/?context=3
+
+add_data(['Jay'],
+'Jay',
+False,
+False,
+[
+    ['Prince Sultan Jay'], ['Descendants']
+],
+'Descendants',
+'{24423}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18v3o02/respect_captain_gutt_ice_age/kfyr9pr/?context=3
+
+add_data(['Gil'],
+'Gil',
+False,
+False,
+[
+    ['Gil(bert)? LeGume'], ['Gil ?\(Descendants\)']
+],
+'Descendants',
+'{24423}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18v3o02/respect_captain_gutt_ice_age/kfyr9pr/?context=3
+
+add_data(['Lonnie'],
+'Lonnie',
+False,
+False,
+[
+    ['Li Lonnie'], ['Descendants']
+],
+'Descendants',
+'{24423}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18v3o02/respect_captain_gutt_ice_age/kfyr9pr/?context=3
+
+add_data(['Chad Charming'],
+'Chad Charming',
+False,
+True,
+[
+    ['Descendants']
+],
+'Descendants',
+'{24423}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18v3o02/respect_captain_gutt_ice_age/kfyr9pr/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Demon! (The Drowned Man)', 'https://redd.it/18vpquj')
 add_data(['The Demon'],
 'The Demon',
@@ -178,6 +240,66 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/18w3e4d/respect_mitsuhide_kuroda_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect War Machine Model 3: the Initiative Armor (Marvel, Earth-616)', 'https://redd.it/18we9g7')
+add_data(['War Machine'],
+'War Machine',
+False,
+False,
+[
+    ['Model 3'], ['Initiative Armor']
+],
+'Model 3',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18we9g7/respect_war_machine_model_3_the_initiative_armor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nayuta! (Chainsaw Man)', 'https://redd.it/18wenw4')
+add_data(['Nayuta'],
+'Nayuta',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18wenw4/respect_nayuta_chainsaw_man/
+
+########################################
+
+id = get_rt_id(cur, 'Barem (Chainsaw Man)', 'https://redd.it/18wf46n')
+add_data(['Barem'],
+'Barem',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man'], ['Barem Bridge']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18wf46n/barem_chainsaw_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Naz (Dragon Ball AF, Young Jijii)', 'https://redd.it/18wj2mt')
+add_data(['Naz'],
+'Naz',
+False,
+False,
+[
+    ['Dragon Ball AF']
+],
+'Dragon Ball AF',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18wj2mt/respect_naz_dragon_ball_af_young_jijii/
 
 ########################################
 
