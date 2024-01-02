@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Could Sonic (defeat|beat)']
+],
+'Sonic the Hedgehog',
+'{8276,8277}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18x00c0/could_sonic_defeat_omni_man/kg11zsj/?context=3
+
+########################################
+
 add_data(['Ben'],
 'Ben',
 False,
@@ -243,6 +257,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Onihei (Tough)', 'https://redd.it/18wx9tv')
+add_data(['Onihei'],
+'Onihei',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18wx9tv/respect_onihei_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kanako Yasaka (Touhou)', 'https://redd.it/18wqdw0')
+add_data(['Kanako Yasaka'],
+'Kanako Yasaka',
+False,
+True,
+[
+    ['Touhou']
+],
+'Touhou',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18wqdw0/respect_kanako_yasaka_touhou/
+
+########################################
+
 id = get_rt_id(cur, 'Respect War Machine Model 3: the Initiative Armor (Marvel, Earth-616)', 'https://redd.it/18we9g7')
 add_data(['War Machine'],
 'War Machine',
@@ -255,6 +299,33 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/18we9g7/respect_war_machine_model_3_the_initiative_armor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Princess Petra, AKA Spinstress (Marvel Comics, Earth-423)', 'https://redd.it/18wrnra')
+add_data(['Petra'],
+'Petra',
+False,
+False,
+[
+    ['423', 'Marvel']
+],
+'423',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18wrnra/respect_princess_petra_aka_spinstress_marvel/
+
+add_data(['Spinstress'],
+'Spinstress',
+False,
+False,
+[
+    ['423'], ['Marvel']
+],
+'423',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18wrnra/respect_princess_petra_aka_spinstress_marvel/
 
 ########################################
 
@@ -300,6 +371,171 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/18wj2mt/respect_naz_dragon_ball_af_young_jijii/
+
+########################################
+
+id = get_rt_id(cur, "Respect the cast! (2022''s Bullet Train)", 'https://redd.it/18wj2mt')
+add_data(['Cast'],
+'Cast',
+True,
+False,
+[
+    ['Bullet Train', '2022'], ['The Cast of Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/CasualRespectThreads/comments/18sz6zd/respect_the_cast_2022s_bullet_train/
+#https://www.reddit.com/r/whowouldwin/comments/18wprnu/decoy_john_lark_mission_impossible_vs_the_white/kfz4t34/?context=3
+
+add_data(['White Death'],
+'White Death',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+add_data(['Lemon'],
+'Lemon',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Tangerine'],
+'Tangerine',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Yuichi Kimura'],
+'Yuichi Kimura',
+False,
+True,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Shigeru Kimura'],
+'Shigeru Kimura',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Roshan Reznikov'],
+'Roshan Reznikov',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/CasualRespectThreads/comments/18sz6zd/respect_the_cast_2022s_bullet_train/
+
+add_data(['Wolf'],
+'Wolf',
+False,
+False,
+[
+    ['Wolf ?\(Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['The Hornet'],
+'The Hornet',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Boomslang'],
+'Boomslang',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+add_data(['Carver'],
+'Carver',
+False,
+False,
+[
+    ['Carver ?\(Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Water Bottle'],
+'Water Bottle',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/search?q=Wolf+bullet+train&restrict_sr=on&sort=relevance&t=all
+
+########################################
+
+id = get_rt_id(cur, "Respect the Shalka Doctor! (Doctor Who: Scream of the Shalka)", 'https://redd.it/18x10pp')
+add_data(['Shalka Doctor'],
+'Shalka Doctor',
+False,
+True,
+[
+    ['Doctor Who'], ['Scream of the Shalka']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18x10pp/respect_the_shalka_doctor_doctor_who_scream_of/
 
 ########################################
 
