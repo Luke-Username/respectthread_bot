@@ -107,6 +107,133 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1807, 'Respect Lex Luthor (DC Comics, Post-Crisis)', 'https://redd.it/18xqo80')
+
+########################################
+
+add_data(['Wolverine'],
+'Wolverine',
+False,
+False,
+[
+    ['Days of Future Past'], ['DOFP']
+],
+'FOX',
+'{158,24039}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18xsspr/the_terminator_terminator_joins_wolverine_in/kg6at0t/?context=3
+
+add_data(['Magneto'],
+'Magneto',
+False,
+False,
+[
+    ['Days of Future Past'], ['DOFP']
+],
+'FOX',
+'{152}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18xsspr/the_terminator_terminator_joins_wolverine_in/kg6at0t/?context=3
+
+add_data(['Mystique'],
+'Mystique',
+False,
+False,
+[
+    ['Days of Future Past'], ['DOFP']
+],
+'FOX',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/18xsspr/the_terminator_terminator_joins_wolverine_in/kg6at0t/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predator (Marvels Wolverine Vs Predator)', 'https://redd.it/18x2i1z')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Wolverine Vs\.? Predator'], ['Predator vs\.? Wolverine']
+],
+'Predator vs. Wolverine',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18x2i1z/respect_the_predator_marvels_wolverine_vs_predator/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Sand King (Epithet Erased)', 'https://redd.it/18x8ph3')
+add_data(['Sand King'],
+'Sand King',
+False,
+False,
+[
+    ['Epithet Erased']
+],
+'Epithet Erased',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18x8ph3/respect_the_sand_king_epithet_erased/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Metallo (DC Comics, Post-Flashpoint)', 'https://redd.it/18xk3xt')
+add_data(['Metallo'],
+'Metallo',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18xk3xt/respect_metallo_dc_comics_postflashpoint/
+
+add_data(['Metallo'],
+'Metallo',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18xk3xt/respect_metallo_dc_comics_postflashpoint/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Goku (Dragon Ball Kakumei)', 'https://redd.it/18xr0tl')
+add_data(['Goku'],
+'Goku',
+False,
+False,
+[
+    ['Dragon Ball Kakumei']
+],
+'Dragon Ball Kakumei',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18xr0tl/respect_goku_dragon_ball_kakumei/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yoshiki Takaishi (Tough)', 'https://redd.it/18xuitb')
+add_data(['Yoshiki Takaishi'],
+'Yoshiki Takaishi',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18xuitb/respect_yoshiki_takaishi_tough/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
