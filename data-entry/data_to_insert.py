@@ -236,6 +236,64 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Jhin, the Virtuoso (League of Legends)', 'https://redd.it/18ycbm9')
+add_data(['Jhin'],
+'Jhin',
+False,
+False,
+[
+    ['League ?of ?Legends?'], ['LOL']
+],
+'League of Legends',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18ycbm9/respect_jhin_the_virtuoso_league_of_legends/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Scarred Hunter (Undead Unluck)', 'https://redd.it/18ydln0')
+add_data(['Scarred Hunter'],
+'Scarred Hunter',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18ydln0/respect_the_scarred_hunter_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Condiment King (DC Comics, Post-Crisis)', 'https://redd.it/18z8o5w')
+add_data(['Condiment King'],
+'Condiment King',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18z8o5w/respect_the_condiment_king_dc_comics_postcrisis/
+
+add_data(['Condiment King'],
+'Condiment King',
+False,
+True,
+[
+    ['\(DC\)']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/18z8o5w/respect_the_condiment_king_dc_comics_postcrisis/
+
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
