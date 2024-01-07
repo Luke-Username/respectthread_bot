@@ -1815,7 +1815,7 @@ KonoSuba
 
 Kung Fu Panda
 	Version
-		['Kung(-| )?Fu Panda']
+		['K(u|i)ng(-| )?Fu Panda']
 	Displayed Version Name
 		"Kung Fu Panda"
 
