@@ -3793,23 +3793,6 @@ Wonder Woman,"{`"Gods and Monsters`"}",f,{1138},Justice League: Gods and Monster
 Damian Wayne,"{`"Post(-| )Crisis`"}",t,{1495},Post-Crisis / New 52
 Kubo,"{`"Kubo and the Two Strings`"}",f,{1140},Kubo and the Two Strings
 Elastigirl,{Incredibles},t,"{1128,20570}",The Incredibles
-Boar,"{`"Kung(-| )?Fu Panda`"}",f,{1142},Kung Fu Panda
-Furious Five,"{`"Kung(-| )?Fu Panda`"}",t,"{1143,1152}",Kung Fu Panda
-Tigress,"{`"Kung(-| )?Fu Panda`"}",f,{1152},Kung Fu Panda
-Monkey,"{`"Kung(-| )?Fu Panda`"}",f,{1143},Kung Fu Panda
-Mantis,"{`"Kung(-| )?Fu Panda`"}",f,{1143},Kung Fu Panda
-Crane,"{`"Kung(-| )?Fu Panda`"}",f,{1143},Kung Fu Panda
-Kai,"{`"Kung(-| )?Fu Panda`"}",f,{1144},Kung Fu Panda
-Ke-Pa,"{`"Kung(-| )?Fu Panda`"}",f,{1145},Kung Fu Panda
-Kung Fu Council,"{`"Kung(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
-Master Croc,"{`"Kung(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
-Storming Ox,"{`"Kung(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
-Thundering Rhino,"{`"Kung(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
-Master Shifu,"{`"Kung(-| )?Fu Panda`"}",t,{1148},Kung Fu Panda
-Master Oogway,"{`"Kung(-| )?Fu Panda`"}",t,{1149},Kung Fu Panda
-Po,"{`"Kung(-| )?Fu Panda`"}",f,{1150},Kung Fu Panda
-Tai Lung,"{`"Kung(-| )?Fu Panda`"}",t,{1151},Kung Fu Panda
-Wu Sisters,"{`"Kung(-| )?Fu Panda`"}",t,{1153},Kung Fu Panda
 Maui,{Moana},t,{1154},Moana
 Moana,{Moana},t,{1155},Moana
 Tamatoa,{Moana},t,{1156},Moana
@@ -3817,10 +3800,10 @@ Drix,"{`"Osmosis Jones`"}",f,{1157},Osmosis Jones
 Osmosis Jones,"{`"Osmosis Jones`"}",t,{1158},""
 Thrax,"{`"Osmosis Jones`"}",t,{1159},Osmosis Jones
 Monkey,{Kubo},f,{1141},Kubo and the Two Strings
-Lord Shen,"{`"Kung(-| )?Fu Panda`"}",t,"{1147,22684}",Kung Fu Panda
 Mr. Incredible,{Incredibles},t,"{1131,20570}",The Incredibles
 Violet,{Incredibles},f,"{1133,20570}",The Incredibles
 Jack-Jack,{Incredibles},f,"{1130,20570}",The Incredibles
+Boar,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1142},Kung Fu Panda
 Easter Bunny,"{`"Rise of the Guardians`"}",f,{1160},Rise of the Guardians
 Jack Frost,"{`"Rise of the Guardians`"}",f,{1161},Rise of the Guardians
 Santa Claus,"{`"Rise of the Guardians`"}",f,{1162},Rise of the Guardians
@@ -8651,6 +8634,7 @@ Legion,"{`"Franklin Richards`"}",f,{2370},616
 Legion,"{`"Nate Grey`"}",f,{2370},616
 Wraith Madoka,"{`"Madoka Magica`"}",t,{4436},Madoka Magica
 Don,"{`"Promised Neverland`"}",f,{4437},The Promised Neverland
+Quicksilver,{Fox(verse)?},f,{12149},FOX
 Longshot,"{`"Longshot vs`"}",f,{2371},Marvel Mojoverse
 Longshot,"{`"vs.? Longshot`"}",f,{2371},Marvel Mojoverse
 Longshot,{Marvel},f,{2371},Marvel Mojoverse
@@ -8687,16 +8671,6 @@ Quicksilver,{616},t,{2381},616
 Quicksilver,{Marvel},t,{2381},616
 Pietro Maximoff,{616},t,{2381},616
 Pietro Maximoff,{Marvel},t,{2381},616
-Quicksilver,{Fox(verse)?},f,{},FOX
-Quicksilver,"{`"X(-| )?Men Movies?`"}",f,{},FOX
-Quicksilver,"{`"X-?Men:? Apocalypse`"}",f,{},FOX
-Quicksilver,"{`"Days of Future Past`"}",f,{},FOX
-Quicksilver,{DOFP},f,{},FOX
-Peter Maximoff,{Fox(verse)?},f,{},FOX
-Peter Maximoff,"{`"X(-| )?Men Movies?`"}",f,{},FOX
-Peter Maximoff,"{`"X-?Men:? Apocalypse`"}",f,{},FOX
-Peter Maximoff,"{`"Days of Future Past`"}",f,{},FOX
-Peter Maximoff,{DOFP},f,{},FOX
 Siryn,{616},t,{2383},616
 Siryn,{Marvel},t,{2383},616
 Stacy X,{616},t,{2384},616
@@ -8705,7 +8679,16 @@ Strong Guy,{616},f,{2385},616
 Strong Guy,{Marvel},f,{2385},616
 Strong Guy,"{`"X(-| )?Factor`"}",f,{2385},616
 Strong Guy,"{`"X(-| )?Men`"}",f,{2385},616
+Quicksilver,"{`"X(-| )?Men Movies?`"}",f,{12149},FOX
 David Haller,"{`"David Haller ?\\(Legion\\)`"}",f,{13583},FX
+Quicksilver,"{`"X-?Men:? Apocalypse`"}",f,{12149},FOX
+Quicksilver,"{`"Days of Future Past`"}",f,{12149},FOX
+Quicksilver,{DOFP},f,{12149},FOX
+Peter Maximoff,{Fox(verse)?},f,{12149},FOX
+Peter Maximoff,"{`"X(-| )?Men Movies?`"}",f,{12149},FOX
+Peter Maximoff,"{`"X-?Men:? Apocalypse`"}",f,{12149},FOX
+Peter Maximoff,"{`"Days of Future Past`"}",f,{12149},FOX
+Peter Maximoff,{DOFP},f,{12149},FOX
 Detective Chimp,{PC},f,{1857},Pre New 52
 Detective Chimp,"{`"Earth(-| )(1|One)`"}",f,{1857},Pre New 52
 Detective Chimp,"{`"Post(-| )?C(risis)?`"}",f,{1857},Pre New 52
@@ -11254,7 +11237,6 @@ We3,{Vertigo},t,{12081},Vertigo
 We3,{Morrison},t,{12081},Vertigo
 Murder Falcon,{Image},t,{12082},Image Comics
 Bruce Lee,{Malibu},f,{12083},Malibu Comics
-Lei Kung,"{`"Kung(-| )?Fu Panda`"}",f,{12084},Kung Fu Panda
 Murder,"{`"Hoax Hunters`"}",f,{12085},Hoax Hunters
 Frankenstein Jr.,"{`"Future Quest`"}",f,{12086},Future Quest
 Acidic Jew,{Image},t,{12087},Image Comics
@@ -11289,6 +11271,7 @@ Jake,{Animorphs},f,{12099},Animorphs
 Cassie,{Animorphs},f,{12100},Animorphs
 Ax,{Animorphs},f,{12101},Animorphs
 Aximili-Esgarrouth-Isthill,{Animorphs},t,{12101},Animorphs
+Lei Kung,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{12084},Kung Fu Panda
 Michael Wilson,"{`"Metal Wolf Chaos`"}",t,{12102},Metal Wolf Chaos
 Martians,"{`"War of the Worlds`"}",f,{12103},The War of the Worlds
 Martians,{T?WOTW},f,{12103},The War of the Worlds
@@ -11985,7 +11968,6 @@ Tarrlok,{A?TLA},t,{12148},Avatar: TLA
 Tarrlok,"{`"Air(-| )bender`"}",t,{12148},Avatar: TLA
 Tarrlok,{Korra},t,{12148},Avatar: TLA
 Tarrlok,{A?T?LOK},t,{12148},Avatar: TLA
-Quicksilver,"{`"X(-| )?Men (Movie|Film)s?`"}",t,{12149},FOX
 Ariki,{Fox(verse)?},f,{12150},FOX
 Ariki,"{`"X(-| )?Men (Movie|Film)s?`"}",f,{12150},FOX
 Ariki,"{`"Dark Phoenix`"}",f,{12150},FOX
@@ -12025,6 +12007,7 @@ Vita Slatter,{Crowded},t,{12166},Crowded
 Roy Mustang,"{`"Full ?metal`"}",t,"{12167,3412,9295}",Fullmetal Alchemist
 Roy Mustang,{FMA},t,"{12167,3412,9295}",Fullmetal Alchemist
 Anastasia,{Fate},f,{21107},Fate
+Quicksilver,"{`"X(-| )?Men (Movie|Film)s?`"}",t,{12149},FOX
 Erin,{SnK},f,{3055},Attack on Titan
 Female Titan,"{`"Attack on Titan`"}",t,{3056},Attack on Titan
 Female Titan,"{`"Shingeki no Kyojin`"}",t,{3056},Attack on Titan
@@ -27490,7 +27473,6 @@ Crocodile,"{`"Resident Evil`",Netflix}",f,{22372},Resident Evil Netflix
 Bert Wesker,"{`"Resident Evil`",Netflix}",f,{22373},Resident Evil Netflix
 Marcus Holloway,"{`"Watch(_| )?Dogs_?2?`"}",t,{22374},Watch_Dogs
 Ryu,"{`"DEATH BATTLE!`"}",f,{22375},DEATH BATTLE!
-Fenghuang,"{`"Kung(-| )?Fu Panda`"}",f,{22376},Kung Fu Panda
 Mummy Lobster,"{`"Two Best Friends`"}",f,{22377},Two Best Friends Funtime Adventures
 Dee-Dee,{Dexter'?s?},f,{22378},Dexter's Laboratory
 Sigrun Gard,{Dresden(verse)?},t,{22379},The Dresden Files
@@ -27533,6 +27515,7 @@ Demonreach,{Dresden(verse)?},t,{22400},The Dresden Files
 Doomsday,"{`"Doomsday.*Superman ?: ?Doomsday`"}",f,{22401},Superman: Doomsday
 Superman,"{`"Super(-| )?man.*Superman ?: ?Doomsday`"}",f,{22402},Superman: Doomsday
 Elisha,{Bible},f,{22403},Bible
+Fenghuang,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{22376},Kung Fu Panda
 Zim,"{GIR,Alien}",f,{6526},Invader Zim
 Hancock,"{`"Hancock ?\\(Film`"}",f,{457},Hancock
 Ghost Shark,{(Film|Movie)s?},f,{22409},""
@@ -27944,7 +27927,6 @@ William de Mornay,{Primeval},t,{22681},Primeval
 Megopteran,{Primeval},t,{22682},Primeval
 Kite,"{`"Hunter ?(x ?)?Hunter`"}",f,{22683},Hunter x Hunter
 Kite,{HxH},f,{22683},Hunter x Hunter
-Shen,"{`"Kung(-| )?Fu Panda`"}",f,"{1147,22684}",Kung Fu Panda
 Stan Smith,"{`"American Dad`"}",t,{22685},American Dad!
 Stan,"{`"American Dad`"}",f,{22685},American Dad!
 SCP-073,"{`"SCP Foundation`"}",t,{22686},""
@@ -27987,6 +27969,7 @@ Ulti,"{`"One ?Piece?`"}",f,{22709},One Piece
 Ulti,"{OP,Pirates?}",f,{22709},One Piece
 Wuxian,"{`"Luo Xiaohei`"}",f,{22710},The Legend of Luo Xiaohei
 Thor,"{Toaru,`"Almighty Thor`"}",f,{15253},Toaru Majutsu no Index
+Shen,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,"{1147,22684}",Kung Fu Panda
 Gate Guardian,{SCP},f,{15332},SCP
 Cain,"{SCP,MTF}",f,{22686},SCP
 Shaggy,{MultiVersus},f,{22711},MultiVersus
@@ -31094,3 +31077,57 @@ Carver,"{`"Carver ?\\(Bullet Train`"}",f,{24616},Bullet Train
 Water Bottle,"{`"Bullet Train`"}",f,{24616},Bullet Train
 Shalka Doctor,"{`"Doctor Who`"}",t,{24617},Doctor Who
 Shalka Doctor,"{`"Scream of the Shalka`"}",t,{24617},Doctor Who
+Furious Five,"{`"K(u|i)ng(-| )?Fu Panda`"}",t,"{1143,1152}",Kung Fu Panda
+Tigress,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1152},Kung Fu Panda
+Monkey,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1143},Kung Fu Panda
+Mantis,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1143},Kung Fu Panda
+Crane,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1143},Kung Fu Panda
+Kai,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1144},Kung Fu Panda
+Ke-Pa,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1145},Kung Fu Panda
+Kung Fu Council,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
+Master Croc,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
+Storming Ox,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
+Thundering Rhino,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1146},Kung Fu Panda
+Master Shifu,"{`"K(u|i)ng(-| )?Fu Panda`"}",t,{1148},Kung Fu Panda
+Master Oogway,"{`"K(u|i)ng(-| )?Fu Panda`"}",t,{1149},Kung Fu Panda
+Po,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1150},Kung Fu Panda
+Tai Lung,"{`"K(u|i)ng(-| )?Fu Panda`"}",t,{1151},Kung Fu Panda
+Wu Sisters,"{`"K(u|i)ng(-| )?Fu Panda`"}",t,{1153},Kung Fu Panda
+Lord Shen,"{`"K(u|i)ng(-| )?Fu Panda`"}",t,"{1147,22684}",Kung Fu Panda
+Wolverine,"{`"Days of Future Past`"}",f,"{158,24039}",FOX
+Wolverine,{DOFP},f,"{158,24039}",FOX
+Magneto,"{`"Days of Future Past`"}",f,{152},FOX
+Magneto,{DOFP},f,{152},FOX
+Mystique,"{`"Days of Future Past`"}",f,{},FOX
+Mystique,{DOFP},f,{},FOX
+Predator,"{`"Wolverine Vs\\.? Predator`"}",f,{24618},Predator vs. Wolverine
+Predator,"{`"Predator vs\\.? Wolverine`"}",f,{24618},Predator vs. Wolverine
+Sand King,"{`"Epithet Erased`"}",f,{24619},Epithet Erased
+Metallo,"{`"(Post(-| ))Flash(-| )?point`"}",f,{24620},Post-Flashpoint
+Metallo,"{`"\\(DC( Comics)?\\)`"}",t,{24620},DC
+Metallo,"{`"\\[DC( Comics)?\\]`"}",t,{24620},DC
+Goku,"{`"Dragon Ball Kakumei`"}",f,{24621},Dragon Ball Kakumei
+Yoshiki Takaishi,{Tough},f,{24622},Tough
+Jhin,"{`"League ?of ?Legends?`"}",f,{24623},League of Legends
+Jhin,{LOL},f,{24623},League of Legends
+Scarred Hunter,"{`"Undead Unluck`"}",f,{24624},Undead Unluck
+Condiment King,{PC},f,{24625},Post-Crisis
+Condiment King,"{`"Posts?(-| )?C(risis)?`"}",f,{24625},Post-Crisis
+Condiment King,"{`"New(-| )Earth`"}",f,{24625},Post-Crisis
+Condiment King,"{`"\\(DC\\)`"}",t,{24625},DC
+Satono Nishida,{Touhou},t,{24626},Touhou
+Mai Teireida,{Touhou},t,{24626},Touhou
+Okina Matara,{Touhou},t,{24627},Touhou
+Plutonium Man,{DC},f,{24628},DC
+Plutonium Man,"{`"\\(DC( Comics)?\\)`"}",f,{24629},DC
+Plutonium Man,"{`"\\[DC( Comics)?\\]`"}",f,{24629},DC
+Uranium,"{`"Uranium ?\\(DC( Comics)?\\)`"}",f,{24630},DC
+Uranium,"{`"Uranium ?\\[DC( Comics)?\\]`"}",f,{24630},DC
+The Ambassadors,"{`"Image Comics`"}",f,{24631},Image Comics
+Enjin,"{`"Undead Unluck`"}",f,{24632},Undead Unluck
+Enjin,"{`"Enjin Banba`"}",f,{24632},Undead Unluck
+Chopman,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{24633},Yu-Gi-Oh!
+Guren,{Naruto},f,{24634},Naruto
+Connor,"{`"Buffy the Vampire Slayer`"}",f,{24635},Buffy the Vampire Slayer
+Connor,"{`"\\(Buffy\\)`"}",f,{24635},Buffy the Vampire Slayer
+Connor,{Buffyverse},f,{24635},Buffy the Vampire Slayer

@@ -14,16 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Gandalfs?' WHERE name='Gandalf';
-
 ########################################
 
-UPDATE character SET version='{"K(u|i)ng(-| )?Fu Panda"}' WHERE version='{"Kung(-| )?Fu Panda"}';
-
 ########################################
-
-UPDATE character SET rt_id_array='{12149}' WHERE default_name='Quicksilver' AND displayed_version_name='FOX';
-UPDATE character SET rt_id_array='{12149}' WHERE default_name='Peter Maximoff' AND displayed_version_name='FOX';
 
 ########################################
 
