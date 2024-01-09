@@ -291,6 +291,167 @@ True,
 )
 #https://www.reddit.com/r/respectthreads/comments/18z8o5w/respect_the_condiment_king_dc_comics_postcrisis/
 
+########################################
+
+id = get_rt_id(cur, 'Respect Satono Nishida and Mai Teireida (Touhou)', 'https://redd.it/1903799')
+add_data(['Satono Nishida'],
+'Satono Nishida',
+False,
+True,
+[
+    ['Touhou']
+],
+'Touhou',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Mai Teireida'],
+'Mai Teireida',
+False,
+True,
+[
+    ['Touhou']
+],
+'Touhou',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Okina Matara (Touhou)', 'https://redd.it/192fzz4')
+add_data(['Okina Matara'],
+'Okina Matara',
+False,
+True,
+[
+    ['Touhou']
+],
+'Touhou',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/192fzz4/respect_okina_matara_touhou/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Plutonium Man (DC Comics)', 'https://redd.it/190anal')
+add_data(['Plutonium Man'],
+'Plutonium Man',
+False,
+False,
+[
+    ['DC']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/190anal/respect_the_plutonium_man_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Manta, the Flaming Fiend (DC Comics)', 'https://redd.it/190b5kh')
+add_data(['Plutonium Man'],
+'Plutonium Man',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/190b5kh/respect_manta_the_flaming_fiend_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Uranium (DC Comics)', 'https://redd.it/190br20')
+add_data(['Uranium'],
+'Uranium',
+False,
+False,
+[
+    ['Uranium ?\(DC( Comics)?\)'], ['Uranium ?\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/190br20/respect_uranium_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Ambassadors (Image Comics)', 'https://redd.it/191tjs2')
+add_data(['The Ambassadors'],
+'The Ambassadors',
+True,
+False,
+[
+    ['Image Comics']
+],
+'Image Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/191tjs2/respect_the_ambassadors_image_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Enjin! (Undead Unluck)', 'https://redd.it/191nglt')
+add_data(['Enjin'],
+'Enjin',
+False,
+False,
+[
+    ['Undead Unluck'], ['Enjin Banba']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/191nglt/respect_enjin_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Chopman! (Yu-Gi-Oh!)', 'https://redd.it/190cgjx')
+add_data(['Chopman'],
+'Chopman',
+False,
+False,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/190cgjx/respect_the_chopman_yugioh/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Guren! (Naruto [Anime])', 'https://redd.it/1912kjv')
+add_data(['Guren'],
+'Guren',
+False,
+False,
+[
+    ['Naruto']
+],
+'Naruto',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Connor (Buffyverse)', 'https://redd.it/19176uq')
+add_data(['Connor'],
+'Connor',
+False,
+False,
+[
+    ['Buffy the Vampire Slayer'], ['\(Buffy\)'], ['Buffyverse']
+],
+'Buffy the Vampire Slayer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/19176uq/respect_connor_buffyverse/
 
 ########################################
 
