@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='William B(i|e)rkin' WHERE name='William Birkin';
+
 ########################################
+
+UPDATE character SET rt_id_array='{22587}' WHERE default_name='Bizarro-Girl' AND displayed_version_name='Pre-Crisis';
 
 ########################################
 
@@ -29,6 +33,10 @@ UPDATE character_name SET name='' WHERE...
 ########################################
 
 ########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/192rea2';
+UPDATE character SET rt_id_array='{?, 22588}' WHERE default_name='Solomon Grundy' AND displayed_version_name='DC'; --After run
+
 
 ########################################
 
