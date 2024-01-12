@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Echo'],
+'Echo',
+False,
+False,
+[
+    ['Maya', 'MCU']
+],
+'MCU',
+'{21147}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/194whd7/echo_vs_iron_fist_mcu/khis55l/?context=3
+
+########################################
+
 add_data(['Earth Godzilla'],
 'Earth Godzilla',
 False,
@@ -192,6 +206,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Renekton, the Butcher of the Sands (League of Legends)', 'https://redd.it/194paj2')
+add_data(['Renekton'],
+'Renekton',
+False,
+True,
+[
+    ['League'], ['LOL']
+],
+'League of Legends',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/194paj2/respect_renekton_the_butcher_of_the_sands_league/
 
 ########################################
 
