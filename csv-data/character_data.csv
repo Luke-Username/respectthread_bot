@@ -27756,10 +27756,6 @@ Bizarro-Girl,"{`"\\[DC( Comics)?\\]`"}",t,{22587},DC
 Bizarro-Girl,{PC},f,{22587},Post-Crisis
 Bizarro-Girl,"{`"Posts?(-| )?C(risis)?`"}",f,{22587},Post-Crisis
 Bizarro-Girl,"{`"New(-| )Earth`"}",f,{22587},Post-Crisis
-Solomon Grundy,"{`"\\(DC( Comics)?\\)`"}",t,{22588},DC
-Solomon Grundy,"{`"\\[DC( Comics)?\\]`"}",t,{22588},DC
-Bizarro-Girl,"{`"Pre(-| )?Crisis`"}",f,{22588},Pre-Crisis
-Bizarro-Girl,{Earth-One},f,{22588},Pre-Crisis
 Katana Man,"{`"Chainsaw(-| )?Man`"}",f,{22589},Chainsaw Man
 Petelgeuse Romanee-Conti,"{`"Re(:|-)? ?Zero`"}",t,{13078},Re:Zero
 White Whale,"{`"Re(:|-)? ?Zero`"}",f,{13079},Re:Zero
@@ -27808,7 +27804,11 @@ Harley Quinn,"{`"Harley Quinn? ?\\[Harley Quinn\\]`"}",f,{8348},"Harley Quinn an
 Pedro,"{`"Tower of God`"}",f,{22612},Tower of God
 Kojika Hanamaki,"{`"Ningen Series`"}",t,{22613},Ningen Series
 Seiya,"{`"Cautious Hero`"}",f,"{20565,22609,22628}",Cautious Hero
+Bizarro-Girl,"{`"Pre(-| )?Crisis`"}",f,{22587},Pre-Crisis
 The Doctor,{TARDIS},f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
+Bizarro-Girl,{Earth-One},f,{22587},Pre-Crisis
+Solomon Grundy,"{`"\\(DC( Comics)?\\)`"}",t,"{24636,22588}",DC
+Solomon Grundy,"{`"\\[DC( Comics)?\\]`"}",t,"{24636,22588}",DC
 Dagon,"{`"Jujus?t?s?u Kaisen`"}",f,{22615},Jujutsu Kaisen
 Dagon,{JJK},f,{22615},Jujutsu Kaisen
 Hunter,"{`"Fossil Fighters`"}",f,{22616},Fossil Fighters
@@ -31131,3 +31131,25 @@ Guren,{Naruto},f,{24634},Naruto
 Connor,"{`"Buffy the Vampire Slayer`"}",f,{24635},Buffy the Vampire Slayer
 Connor,"{`"\\(Buffy\\)`"}",f,{24635},Buffy the Vampire Slayer
 Connor,{Buffyverse},f,{24635},Buffy the Vampire Slayer
+Echo,"{Maya,MCU}",f,{21147},MCU
+Earth Godzilla,"{`"Planet of the Monsters`"}",t,{21133},Planet of the Monsters
+Big Three,"{`"Marvel Cinematic Universe`"}",f,"{264,237,247}",MCU
+Big Three,{MCU},f,"{264,237,247}",MCU
+Big Three,{Endgame},f,"{264,237,247}",MCU
+Solomon Grundy,{Earth-Two},f,{24636},Earth-Two
+Kick-Ass,"{`"\\(Kick-Ass\\)`"}",f,{24637},""
+Kick-Ass,"{`"Kick-Ass vs`"}",f,{24637},""
+Kick-Ass,"{`"vs\\. Kick-Ass`"}",f,{24637},""
+Kick-Ass,"{`"Image Comics`"}",f,{24637},""
+Kick-Ass,"{`"Kick-Ass universe`"}",f,{24637},""
+Kick-Ass,"{`"Toxic Mega( |-)Cunts`"}",f,{24637},""
+Kick-Ass,{Dave},f,{24637},""
+Kick-Ass,{Millar(verse)?},f,{24637},""
+Kiyomasa Samon,{Tough},t,{24638},Tough
+Nasus,{League},f,{24639},League of Legends
+Nasus,{LOL},f,{24639},League of Legends
+Nasus,{Syndra},f,{24639},League of Legends
+Nasus,"{`"World ?Breaker Nasus`"}",f,{24639},League of Legends
+Renekton,{League},t,{24640},League of Legends
+Renekton,{LOL},t,{24640},League of Legends
+HeeHoo,"{`"Unus Annus`"}",f,{24641},Unus Annus
