@@ -107,6 +107,92 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Yujiro'],
+'Yujiro',
+False,
+True,
+[
+    ['Yujiro vs'], ['vs\.? Yujiro']
+],
+'Baki',
+'{3452}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/195l025/yujiro_vs_heihachi_vs_akuma/khng4o2/?context=3
+
+########################################
+
+add_data(['Geto'],
+'Geto',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{23195}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/195l025/yujiro_vs_heihachi_vs_akuma/khng4o2/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Renfield (Renfield)', 'https://redd.it/195s50s')
+add_data(['Renfield'],
+'Renfield',
+False,
+False,
+[
+    ['Renfield'], ['2023']
+],
+'2023',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dracula (Renfield)', 'https://redd.it/195s5bq')
+add_data(['Dracula'],
+'Dracula',
+False,
+False,
+[
+    ['Renfield', '2023']
+],
+'Renfield, 2023',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/195s5bq/respect_dracula_renfield/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Unnamed Knight (The Elder Scrolls Online: High Isle Launch Cinematic)', 'https://redd.it/195zo49')
+add_data(['Unnamed Knight'],
+'Unnamed Knight',
+False,
+False,
+[
+    ['Elder Scrolls? Online']
+],
+'Elder Scrolls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/195zo49/respect_the_unnamed_knight_the_elder_scrolls/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hades! (Greek Mythology)', 'https://redd.it/1962ad3')
+add_data(['Hades'],
+'Hades',
+False,
+False,
+[
+    ['Greek myth?(olog(y|ical))?'], ['\(Mythology\)']
+],
+'Greek Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1962ad3/respect_hades_greek_mythology/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

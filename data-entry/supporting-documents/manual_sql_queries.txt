@@ -14,6 +14,10 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Yogiri Takatou – The End of Everything (Instant Death Light Novel)', 'https://redd.it/19591um'); SELECT * FROM respectthread WHERE link='https://redd.it/19591um';
+UPDATE character SET rt_id_array='{?, 4878}' WHERE default_name='Yogiri Takatou';
+UPDATE character SET displayed_version_name='Instant Death' WHERE default_name='Yogiri Takatou';
+
 ########################################
 
 ########################################
