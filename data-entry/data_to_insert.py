@@ -107,6 +107,15 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1943, "Respect Mulan Kato (Kevin Smith''s Green Hornet)", 'https://redd.it/196ok59')
+update_respectthread(cur, 1942, "Respect Hayashi Kato (Kevin Smith''s Green Hornet)", 'https://redd.it/196olbc')
+update_respectthread(cur, 1940, "Respect Britt Reid Jr., The New Green Hornet (Kevin Smith''s Green Hornet)", 'https://redd.it/196omqx')
+update_respectthread(cur, 1944, "Respect Redhand, The Last Red Hand Assassin (Kevin Smith''s Green Hornet)", 'https://redd.it/196oynv')
+update_respectthread(cur, 1939, "Respect Hirohito Juuma, The Black Hornet (Kevin Smith''s Green Hornet)", 'https://redd.it/196p2t4')
+update_respectthread(cur, 1941, "The Hornet Family''s Vehicles (Kevin Smith''s Green Hornet)", 'https://redd.it/196p58m')
+
+########################################
+
 add_data(['Yujiro'],
 'Yujiro',
 False,
@@ -192,6 +201,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1962ad3/respect_hades_greek_mythology/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dragonflyman (The Wrong Earth)', 'https://redd.it/196h2m3')
+add_data(['Dragonflyman'],
+'Dragonflyman',
+False,
+True,
+[
+    ['Wrong Earth']
+],
+'The Wrong Earth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/196h3wz/respect_dragonfly_the_wrong_earth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Future Gohan (Hyourinjutsu Dragon Ball What If)', 'https://redd.it/196m9kw')
+add_data(['Future Gohan'],
+'Future Gohan',
+False,
+False,
+[
+    ['Hyourinjutsu']
+],
+'Hyourinjutsu',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/196m9kw/respect_future_gohan_hyourinjutsu_dragon_ball/
+
+########################################
+
+id = get_rt_id(cur, "Respect Britt Reid Sr., The First Green Hornet (Kevin Smith''s Green Hornet)", 'https://redd.it/196ow3z')
+add_data(['Britt Reid Sr'],
+'Britt Reid Sr.',
+False,
+False,
+[
+    ['Green Hornet'], ['Kevin Smith']
+],
+'Green Hornet',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/196ow3z/respect_britt_reid_sr_the_first_green_hornet/
 
 ########################################
 
