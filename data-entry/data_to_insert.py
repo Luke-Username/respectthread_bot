@@ -107,8 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 808, 'Respect Avatar Korra (The Legend of Korra)', 'https://redd.it/197pwo3')
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
