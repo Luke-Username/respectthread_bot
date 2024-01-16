@@ -14355,7 +14355,6 @@ Shiro,{NGNL},f,{4873},No Game No Life
 Takeo Gouda,"{`"Ore Monogatari`"}",t,{4874},Ore Monogatari!!
 Tail Red,"{`"Twin(-| )?tail`"}",f,{4875},"Ore, Twintail ni Narimasu"
 Susano Orbatos,{Orion},t,{4877},Orion
-Yogiri Takatou,"{`"Instant Death`"}",t,{4878},The Other World Doesn't Stand a Chance Against the Power of Instant Death
 Outlaw Star,"{`"Outlaw Star`"}",f,{4879},Outlaw Star
 Gene Starwind,"{`"Outlaw Star`"}",t,{4879},Outlaw Star
 Aisha Clan-Clan,"{`"Outlaw Star`"}",t,{4879},Outlaw Star
@@ -31153,3 +31152,18 @@ Nasus,"{`"World ?Breaker Nasus`"}",f,{24639},League of Legends
 Renekton,{League},t,{24640},League of Legends
 Renekton,{LOL},t,{24640},League of Legends
 HeeHoo,"{`"Unus Annus`"}",f,{24641},Unus Annus
+Yogiri Takatou,"{`"Instant Death`"}",t,"{24642,4878}",Instant Death
+Yujiro,"{`"Yujiro vs`"}",t,{3452},Baki
+Yujiro,"{`"vs\\.? Yujiro`"}",t,{3452},Baki
+Geto,"{`"Jujus?t?s?u Kaisen`"}",f,{23195},Jujutsu Kaisen
+Geto,{JJK},f,{23195},Jujutsu Kaisen
+Renfield,{Renfield},f,{24643},2023
+Renfield,{2023},f,{24643},2023
+Dracula,"{Renfield,2023}",f,{24644},"Renfield, 2023"
+Unnamed Knight,"{`"Elder Scrolls? Online`"}",f,{24645},Elder Scrolls
+Hades,"{`"Greek myth?(olog(y|ical))?`"}",f,{24646},Greek Mythology
+Hades,"{`"\\(Mythology\\)`"}",f,{24646},Greek Mythology
+Dragonflyman,"{`"Wrong Earth`"}",t,{24647},The Wrong Earth
+Future Gohan,{Hyourinjutsu},f,{24648},Hyourinjutsu
+Britt Reid Sr.,"{`"Green Hornet`"}",f,{24649},Green Hornet
+Britt Reid Sr.,"{`"Kevin Smith`"}",f,{24649},Green Hornet
