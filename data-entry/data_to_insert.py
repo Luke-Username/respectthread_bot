@@ -107,6 +107,112 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5196, 'Respect Pantheon, the Unbreakable Spear (League of Legends)', 'https://redd.it/19bew8s')
+
+########################################
+
+add_data(['Naruto'],
+'Naruto',
+False,
+False,
+[
+    ['Smiths', 'Rick (&|and) Morty']
+],
+'Rick and Morty',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/199eto2/strongest_character_all_of_the_smiths_from_rick/kidrh6x/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Xerath, the Magus Ascendant (League of Legends)', 'https://redd.it/199hmqo')
+add_data(['Xerath'],
+'Xerath',
+False,
+True,
+[
+    ['League'], ['LOL'], ['Syndra']
+],
+'League of Legends',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/199hmqo/respect_xerath_the_magus_ascendant_league_of/
+
+########################################
+
+id = get_rt_id(cur, "Respect Dr. Michael Morbius, Cinema''s Most Tragically Memed-Upon Superhero! (SCP Explained)", 'https://redd.it/19bba15')
+add_data(['Morbio?us'],
+'Morbius',
+False,
+False,
+[
+    ['SCP Explained']
+],
+'SCP Explained',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/199hmqo/respect_xerath_the_magus_ascendant_league_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Host! (Cyndago)', 'https://redd.it/19bbdg4')
+add_data(['The Host'],
+'The Host',
+False,
+False,
+[
+    ['Cyndago']
+],
+'Cyndago',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/19bbdg4/respect_the_host_cyndago/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Fifth Doctor (Doctor Who)', 'https://redd.it/19c7mye')
+add_data(['(Fif|5)th Doctor'],
+'The Fifth Doctor',
+False,
+True,
+[
+    ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/19c7mye/respect_the_fifth_doctor_doctor_who/
+
+########################################
+
+id = get_rt_id(cur, "Respect Spider-Man 2099 (Sony''s Spider-Verse)", 'https://redd.it/19cb8k4')
+add_data(['Spider(-| )?Man 2099'],
+'Spider-Man 2099',
+False,
+False,
+[
+    ['Spider(-| )?Verse'], ['ITSV']
+],
+'Into the Spider-Verse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/19cb8k4/respect_spiderman_2099_sonys_spiderverse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wesley Gibson! (Wanted)', 'https://redd.it/19cgnco')
+add_data(['Wesley Gibson'],
+'Wesley Gibson',
+False,
+True,
+[
+    ['Wanted']
+],
+'Wanted',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/19cgnco/respect_wesley_gibson_wanted/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

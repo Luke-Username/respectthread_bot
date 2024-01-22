@@ -2880,7 +2880,7 @@ Re:Zero
 
 Rick and Morty
 	Version
-		'{"Rick (&|and) Morty"}'
+		['Rick (&|and) Morty']
 	Other
 		'{"C-?137"}'
 		'{"Morty"}' (This is sometimes sufficient)
