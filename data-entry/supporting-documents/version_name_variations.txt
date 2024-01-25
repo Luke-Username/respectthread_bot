@@ -3434,7 +3434,7 @@ Tangled
 
 Team Fortress 2
 	Version
-		'{"TF2"}', '{"Team Fortress"}'
+		['TF2'], ['Team Fortress']
 	Displayed Version Name
 		"TF2"
 

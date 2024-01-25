@@ -109,6 +109,125 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Minus 1']
+],
+'Minus One',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/19dquk9/godzilla_minus_1_arrives_in_the_dceu_can_he_be/kj89fv9/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Kiba (Tough)', 'https://redd.it/19d669a')
+add_data(['Iron Kiba'],
+'Iron Kiba',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Edgar C. Garcia (Tough)', 'https://redd.it/19eu2xr')
+add_data(['Edgar C\.? Garcia'],
+'Edgar C. Garcia',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/19eu2xr/respect_edgar_c_garcia_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Galhad Suanpahkti (Tough)', 'https://redd.it/19dxete')
+add_data(['Galhad Suanpahkti'],
+'Galhad Suanpahkti',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/19dxete/respect_galhad_suanpahkti_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Astronomy Club (A Trip to the Moon)', 'https://redd.it/19d9t4j')
+add_data(['Astronomy Club'],
+'Astronomy Club',
+True,
+False,
+[
+    ['A Trip to the Moon']
+],
+'A Trip to the Moon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/19d9t4j/respect_the_astronomy_club_a_trip_to_the_moon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Perceval the Welshman (Arthurian Mythology)', 'https://redd.it/19ffjkq')
+add_data(['Perceval the Welshman'],
+'Perceval the Welshman',
+False,
+True,
+[
+    ['Arthurian']
+],
+'Arthurian Myth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/19ffjkq/respect_perceval_the_welshman_arthurian_mythology/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Australium! (Team Fortress 2)', 'https://redd.it/19dxm6b')
+add_data(['Australium'],
+'Australium',
+False,
+True,
+[
+    ['TF2'], ['Team Fortress']
+],
+'TF2',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/19dxm6b/respect_australium_team_fortress_2/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spacegodzilla (Pipeworks Godzilla Games)', 'https://redd.it/19dvsmd')
+add_data(['Space ?godzilla'],
+'Spacegodzilla',
+False,
+False,
+[
+    ['Pipeworks'], ['Games']
+],
+'Games',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/19dvsmd/respect_spacegodzilla_pipeworks_godzilla_games/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
