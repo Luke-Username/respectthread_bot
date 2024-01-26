@@ -138,6 +138,20 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Gordon Grancie (Tough)', 'https://redd.it/19fkp2c')
+add_data(['Gordon Grancie'],
+'Gordon Grancie',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+
+########################################
+
 id = get_rt_id(cur, 'Respect Edgar C. Garcia (Tough)', 'https://redd.it/19eu2xr')
 add_data(['Edgar C\.? Garcia'],
 'Edgar C. Garcia',
