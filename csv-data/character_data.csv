@@ -27804,10 +27804,10 @@ Pedro,"{`"Tower of God`"}",f,{22612},Tower of God
 Kojika Hanamaki,"{`"Ningen Series`"}",t,{22613},Ningen Series
 Seiya,"{`"Cautious Hero`"}",f,"{20565,22609,22628}",Cautious Hero
 Bizarro-Girl,"{`"Pre(-| )?Crisis`"}",f,{22587},Pre-Crisis
-The Doctor,{TARDIS},f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Bizarro-Girl,{Earth-One},f,{22587},Pre-Crisis
 Solomon Grundy,"{`"\\(DC( Comics)?\\)`"}",t,"{24636,22588}",DC
 Solomon Grundy,"{`"\\[DC( Comics)?\\]`"}",t,"{24636,22588}",DC
+The Doctor,{TARDIS},f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Dagon,"{`"Jujus?t?s?u Kaisen`"}",f,{22615},Jujutsu Kaisen
 Dagon,{JJK},f,{22615},Jujutsu Kaisen
 Hunter,"{`"Fossil Fighters`"}",f,{22616},Fossil Fighters
@@ -27902,7 +27902,7 @@ Steve Smith,"{`"American Dad`"}",f,{22662},American Dad!
 Steve Smith,{Stan},f,{22662},American Dad!
 Avery Bullock,"{`"American Dad`"}",t,{22663},American Dad!
 Director Bullock,"{`"American Dad`"}",t,{22663},American Dad!
-The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
+The Doctor,"{`"The Doctor vs|vs\\.? The Doctor`",Rick}",f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Princess Snake,{DB(Z|S)},f,{22665},Dragon Ball
 John Doe,{Embalming},f,{22666},Embalming
 Francine Smith,"{`"American Dad`"}",t,{22667},American Dad!
@@ -28853,13 +28853,13 @@ Frey Holland,{Forspoken},t,{23280},Forspoken
 Steve Fox,{Tekken},f,{23281},Tekken
 Kate Bishop,{MCU},f,"{23282,21522}",MCU
 Vlad,{Lancer},f,{21029},Fate
-The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Hulkbuster,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Hulkbuster,"{`"Comics? Hulk ?buster`"}",f,"{22877,23147,22927,23257,22735,22803,23842}",616
-Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
+The Doctor,"{`"The Doctor.*(Doctor|Dr\\.?) ?Who`"}",f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Tomie,{(tomie_)?Kawakami},f,{23832},Junji Ito
 Tomie,"{`"Junji Ito`"}",f,{23832},Junji Ito
 Tomie,"{`"Tomie vs|vs\\.? Tomie`"}",f,{23832},Junji Ito
+Doctor,"{`"Bloodlusted Doctor`",`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Piranha,"{`"Piranha.*The Bad Guys`"}",f,{22168},The Bad Guys
 Daisy,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",f,{69},Agents of SHIELD/MCU
 Coulson,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",f,{23283},MCU
@@ -29046,7 +29046,7 @@ Leonardo,"{`"Mirage (Comics|Studios)`"}",f,{23391},Mirage Comics
 Raphael,"{`"Mirage (Comics|Studios)`"}",f,{23392},Mirage Comics
 Donatello,"{`"Mirage (Comics|Studios)`"}",f,{23393},Mirage Comics
 Michelangelo,"{`"Mirage (Comics|Studios)`"}",f,{23394},Mirage Comics
-The Doctor,"{`"Time Lords?`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
+The Doctor,"{`"Time Lords?`"}",f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Koraidon,{Pok(e|é)m(o|a)n},t,{23395},Pokémon
 Miraidon,{Pok(e|é)m(o|a)n},t,{23395},Pokémon
 Rogue,"{`"X(-| )?Men:? The Animated Series`"}",f,{23396},"X-Men, 1992"
@@ -30976,8 +30976,6 @@ Voodoo Child,"{`"Jimi Hendrix`"}",f,{24569},Jimi Hendrix
 Sans,"{`"Cartoon Fight Club`"}",f,{24570},Cartoon Fight Club
 Fourteenth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{24571},Doctor Who
 Fourteenth Doctor,{Who(ni)?verse},t,{24571},Doctor Who
-Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
-The Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Exodia,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,"{14344,24572}",Yu-Gi-Oh!
 Jack,"{`"Nightmare Before Christmas`"}",f,{6581},The Nightmare Before Christmas
 Raj,{RRR},f,{22656},RRR
@@ -31167,3 +31165,26 @@ Dragonflyman,"{`"Wrong Earth`"}",t,{24647},The Wrong Earth
 Future Gohan,{Hyourinjutsu},f,{24648},Hyourinjutsu
 Britt Reid Sr.,"{`"Green Hornet`"}",f,{24649},Green Hornet
 Britt Reid Sr.,"{`"Kevin Smith`"}",f,{24649},Green Hornet
+Naruto,"{Smiths,`"Rick (&|and) Morty`"}",f,{},Rick and Morty
+Xerath,{League},t,{24650},League of Legends
+Xerath,{LOL},t,{24650},League of Legends
+Xerath,{Syndra},t,{24650},League of Legends
+Morbius,"{`"SCP Explained`"}",f,{24651},SCP Explained
+The Host,{Cyndago},f,{24652},Cyndago
+The Fifth Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",t,{24653},Doctor Who
+The Fifth Doctor,{Who(ni)?verse},t,{24653},Doctor Who
+Spider-Man 2099,"{`"Spider(-| )?Verse`"}",f,{24654},Into the Spider-Verse
+Spider-Man 2099,{ITSV},f,{24654},Into the Spider-Verse
+Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
+The Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
+Godzilla,"{`"Minus 1`"}",f,{},Minus One
+Iron Kiba,{Tough},t,{24656},Tough
+Gordon Grancie,{Tough},t,{24657},Tough
+Edgar C. Garcia,{Tough},t,{24658},Tough
+Galhad Suanpahkti,{Tough},t,{24659},Tough
+Astronomy Club,"{`"A Trip to the Moon`"}",f,{24660},A Trip to the Moon
+Perceval the Welshman,{Arthurian},t,{24661},Arthurian Myth
+Australium,{TF2},t,{24662},TF2
+Australium,"{`"Team Fortress`"}",t,{24662},TF2
+Spacegodzilla,{Pipeworks},f,{24663},Games
+Spacegodzilla,{Games},f,{24663},Games
