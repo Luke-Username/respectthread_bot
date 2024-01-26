@@ -107,6 +107,45 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Metro'],
+'Metro',
+False,
+False,
+[
+    ['Red Steel']
+],
+'Red Steel',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1abocpl/who_would_win_in_a_brawl_batman_or_metro_dc_vs/kjots8e/?context=3
+
+add_data(['Franken ?stein'],
+'Frankenstein',
+False,
+False,
+[
+    ['Metro', 'Red Steel']
+],
+'Red Steel',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1abocpl/who_would_win_in_a_brawl_batman_or_metro_dc_vs/kjots8e/?context=3
+
+########################################
+
+id = get_rt_id(cur, '[Respect] Sharkasaurus (Sharkasaurus)', 'https://redd.it/1abndlz')
+add_data(['Sharkasaurus'],
+'Sharkasaurus',
+False,
+True,
+[
+    ['\(Sharkasaurus\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
