@@ -133,7 +133,22 @@ False,
 
 ########################################
 
+add_data(['Anderson'],
+'Anderson',
+False,
+False,
+[
+    ['Hellsing']
+],
+'Hellsing',
+'{3475}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, '[Respect] Sharkasaurus (Sharkasaurus)', 'https://redd.it/1abndlz')
+id2 = get_rt_id(cur, '[Respect] Sharkosaurus (Sharkosaurus Rampage)', 'https://redd.it/1acwgob')
 add_data(['Sharkasaurus'],
 'Sharkasaurus',
 False,
@@ -142,9 +157,39 @@ True,
     ['\(Sharkasaurus\)']
 ],
 '',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1acwgob/respect_sharkosaurus_sharkosaurus_rampage/
+
+########################################
+
+id = get_rt_id(cur, 'Respect J. Jonah Jameson (Marvel, 616)', 'https://redd.it/1aceud0')
+add_data(['J\.? ?Jonah\.? Jameson'],
+'J. Jonah Jameson',
+False,
+True,
+[
+    ['616']
+],
+'616',
 '{' + '{}'.format(id) + '}'
 )
-#
+#https://www.reddit.com/r/respectthreads/comments/1aceud0/respect_j_jonah_jameson_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Trilopods (Godzilla: Rulers of Earth)', 'https://redd.it/1abx96f')
+add_data(['Trilopods?'],
+'Trilopods',
+False,
+True,
+[
+    ['Godzilla:? Rulers of Earth']
+],
+'Godzilla: Rulers of Earth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1abx96f/respect_the_trilopods_godzilla_rulers_of_earth/
 
 ########################################
 

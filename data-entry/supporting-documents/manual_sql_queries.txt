@@ -22,6 +22,8 @@ UPDATE character SET version='{"Beauty and the Beast", "2017"}' WHERE default_na
 
 ########################################
 
+UPDATE character SET displayed_version_name='Hazbin Hotel' WHERE default_name='Alastor' AND displayed_version_name='Jackie Chan Adventures';
+
 ########################################
 
 ########################################
