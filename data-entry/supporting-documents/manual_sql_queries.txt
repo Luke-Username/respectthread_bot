@@ -14,15 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"D(i|y)sneys?"}' WHERE version='{"Disney"}';
-
 ########################################
 
-UPDATE character SET version='{"Beauty and the Beast", "2017"}' WHERE default_name='The Beast' AND version='{"2017"}';
-
 ########################################
-
-UPDATE character SET displayed_version_name='Hazbin Hotel' WHERE default_name='Alastor' AND displayed_version_name='Jackie Chan Adventures';
 
 ########################################
 
