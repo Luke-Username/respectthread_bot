@@ -107,6 +107,96 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 23, 'Respect Gorilla Grodd (CW, The Flash)', 'https://redd.it/1aepfqq')
+update_respectthread(cur, 2285, 'Respect Hammerhead (Marvel, 616)', 'https://redd.it/1aeyqbr')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Imu, Supreme Ruler of the World (One Piece)', 'https://redd.it/1ad55f5')
+add_data(['Imu'],
+'Imu',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ad55f5/respect_imu_supreme_ruler_of_the_world_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Knight of the Burning Dragon (Arthurian Mythology)', 'https://redd.it/1addpoh')
+add_data(['Knight of the Burning Dragon'],
+'Knight of the Burning Dragon',
+False,
+False,
+[
+    ['Arthurian']
+],
+'Arthurian Myth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1addpoh/respect_the_knight_of_the_burning_dragon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Atalanta (Greek Mythology)', 'https://redd.it/1adkih0')
+add_data(['Atalanta'],
+'Atalanta',
+False,
+False,
+[
+    ['Greek']
+],
+'Greek Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1adkih0/respect_atalanta_greek_mythology/
+
+add_data(['Atalante'],
+'Atalante',
+False,
+False,
+[
+    ['Greek']
+],
+'Greek Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1adkih0/respect_atalanta_greek_mythology/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chosho (Tough)', 'https://redd.it/1ae795m')
+add_data(['Chosho'],
+'Chosho',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ae795m/respect_chosho_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Minoru Suzuki (Tough)', 'https://redd.it/1aetmzb')
+add_data(['Minoru Suzuki'],
+'Minoru Suzuki',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1aetmzb/respect_minoru_suzuki_tough/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

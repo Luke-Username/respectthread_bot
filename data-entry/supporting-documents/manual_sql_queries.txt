@@ -14,6 +14,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM name_conflict WHERE name='Starkiller';
+DELETE FROM name_conflict WHERE name='Star killer';
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Star ?killer', 'Star Killer-base', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Star ?killer', 'Starkiller Base', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Star ?killer', 'Star killer Base', 0);
+
 ########################################
 
 ########################################
