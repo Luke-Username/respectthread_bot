@@ -107,6 +107,83 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 808, 'Respect Avatar Korra (The Legend of Korra)', 'https://redd.it/1afi5zj')
+
+########################################
+
+id = get_rt_id(cur, "Respect Flint Abrahams (Cabela''s Dangerous Hunts 2009)", 'https://redd.it/1af7pwd')
+add_data(['Flint Abrahams'],
+'Flint Abrahams',
+False,
+True,
+[
+    ['Cabela''?s Dangerous Hunts']
+],
+"Cabela''s Dangerous Hunts",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1af7pwd/respect_flint_abrahams_cabelas_dangerous_hunts/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Peter Griffin (Fortnite)', 'https://redd.it/1affi1b')
+add_data(['Peter Griffin'],
+'Peter Griffin',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1affi1b/respect_peter_griffin_fortnite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Black Mariah (Marvel, 616)', 'https://redd.it/1afl751')
+add_data(['Black Mariah'],
+'Black Mariah',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1afl751/respect_black_mariah_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Oil Man (Mega Man)', 'https://redd.it/1afoq0l')
+add_data(['Oil Man'],
+'Oil Man',
+False,
+False,
+[
+    ['Mega ?Man']
+],
+'Mega Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1afoq0l/respect_oil_man_mega_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sanae Kikuta (Tough)', 'https://redd.it/1afpboz')
+add_data(['Sanae Kikuta'],
+'Sanae Kikuta',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1afpboz/respect_sanae_kikuta_tough/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
