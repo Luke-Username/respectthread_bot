@@ -3650,7 +3650,6 @@ Cubix,"{`"Robots For Everyone`"}",t,{4720},""
 Roger,"{`"American Dad`"}",f,{1026},American Dad!
 Dave the Barbarian,"{`"Dave the Barbarian`"}",t,{1040},""
 Fang,"{`"Dave the Barbarian`"}",f,{1041},Dave the Barbarian
-Ajax the Gorilla,{Disney},t,{1042},""
 Mickey's Mechanical Man,{Mickey},t,{1043},""
 El Tigre,"{`"El Tigre`"}",t,{1044},""
 Gaia Everfree,"{`"Equestria Girls`"}",t,{1045},Equestria Girls
@@ -3694,6 +3693,7 @@ Mega Man,"{`"Cartoon Promo`"}",f,{1071},Cartoon Promo
 Megas XLR,"{`"Megas XLR`"}",t,{1072},""
 Nathan Explosion,{Metalocalypse},t,{1073},Metalocalypse
 Wonder Girl,"{`"\\[Young Justice`"}",f,{1023},Young Justice
+Ajax the Gorilla,{D(i|y)sneys?},t,{1042},""
 Mickey Mouse,"{`"Mickey Mouse Works`"}",f,{1075},Mickey Mouse Works
 Rikochet,"{`"Mucha Lucha`"}",f,{1078},¡Mucha Lucha!
 Jenny Wakeman,"{`"My Life As A Teenage Robot`"}",t,{1079},My Life As A Teenage Robot
@@ -3978,7 +3978,6 @@ Scorpion,"{`"Defenders of the Realm`"}",f,{6617},Mortal Kombat: Defenders of the
 Scorpion,"{`"The Journey Begins`"}",f,{6618},Mortal Kombat: The Journey Begins
 Uncle,"{`"Jackie Chan Adventures`"}",f,{6619},Jackie Chan Adventures
 Uncle,{JCA},f,{6619},Jackie Chan Adventures
-Alastor,"{`"Hazbin Hotel`"}",f,{6621},Jackie Chan Adventures
 Robo-Samurai,"{`"Samurai Jack`"}",f,{6622},Samurai Jack
 Elestomp,"{`"Power Rangers?`"}",t,{6628},Power Rangers
 Michael Jordan,{ProStars},f,{6629},ProStars
@@ -3994,6 +3993,7 @@ Damian Wayne,"{`"Prime(-| )Earth`"}",t,{1495},Post-Crisis / New 52
 Damian Wayne,{Rebirth},t,{1495},Post-Crisis / New 52
 Damian Wayne,"{`"DC Animated Film Universe`"}",f,{1126},DC Animated Movie Universe
 Dagger,"{`"Dagger.*Marvel Cinematic Universe`"}",f,{6600},MCU
+Alastor,"{`"Hazbin Hotel`"}",f,{6621},Hazbin Hotel
 Damian Wayne,{DCAFU},f,{1126},DC Animated Movie Universe
 Damian Wayne,"{`"DC Animated Movies?`"}",f,{1126},DC Animated Movie Universe
 Damian Wayne,{DCAMU},f,{1126},DC Animated Movie Universe
@@ -4962,7 +4962,6 @@ Bleez,"{`"Post(-| )52`"}",f,{},New 52
 Bleez,"{`"Prime(-| )Earth`"}",f,{},New 52
 Bleez,{Rebirth},f,{},New 52
 Boomstick,"{`"DEATH BATTLE`"}",f,{10798},DEATH BATTLE!
-Hades,{Disney},f,{10799},"Hercules, 1997"
 Hades,"{`"\\(Hercules\\)`"}",f,{10799},"Hercules, 1997"
 Dex-Starr,"{`"New(-| )?52`"}",f,{},New 52
 Dex-Starr,{Nu?-?52},f,{},New 52
@@ -5019,6 +5018,7 @@ Star Sapphire,"{`"Prime(-| )Earth`"}",f,{},New 52
 Star Sapphire,{Rebirth},f,{},New 52
 Black Lantern Corps,{PC},f,{1674},Post-Crisis
 Dex-Starr,{DC},t,{8279},DC
+Hades,{D(i|y)sneys?},f,{10799},"Hercules, 1997"
 Riki-Oh,{Saiga},t,{4906},""
 Black Lantern Corps,"{`"Post(-| )?C(risis)?`"}",f,{1674},Post-Crisis
 Black Lantern Corps,"{`"New(-| )Earth`"}",f,{1674},Post-Crisis
@@ -5235,7 +5235,6 @@ Gaston,"{`"Beauty (and |& )the Beast`"}",f,{1188},Beauty and the Beast
 Gaston,{BATB},f,{1188},Beauty and the Beast
 Bolt the Super Dog,{Bolt},t,{1190},Bolt
 Hate-Monger,{616},t,{2028},616
-Bolt,{Disney},f,{1190},Bolt
 Jimbo,"{`"Boss Baby`"}",f,{1191},Boss Baby
 Finn Mcmissile,{Cars},t,{1192},Cars
 Max,"{`"Cats Don't Dance`"}",f,{1193},Cats Don't Dance
@@ -5243,13 +5242,9 @@ Chuck Steel,"{`"Chuck Steel`"}",t,{1194},""
 Dante,"{`"Dante's Inferno`",`"An Animated Epic`"}",f,{1195},Dante's Inferno: An Animated Epic
 Gru,"{`"Despicable Me`"}",t,{1196},Despicable Me
 Vector,"{`"Despicable Me`"}",f,{1197},Despicable Me
-John Henry,{Disney},f,{1198},Disney's American Legends
-Paul Bunyan,{Disney},f,{1199},Disney's American Legends
-Hercules,{Disney},f,{1200},Disney
 Darkwolf,"{`"Fire and Ice`"}",t,{1202},Fire and Ice
 Duncan Rosenblatt,{Firebreather},t,{1203},Firebreather
 Dex Dogtective,"{`"Food ?fight`"}",t,{1204},Foodfight
-Lumpjaw,{Disney},t,{1206},Fun and Fancy Free
 Lumpjaw,"{`"Fun and Fancy Free`"}",t,{1206},Fun and Fancy Free
 Garzooka,{Garfield},t,{1207},Garfield's Pet Force
 The Happily Ever After Agency,{Hoodwinked},t,{1208},Hoodwinked!
@@ -5276,6 +5271,7 @@ Megamind,{Megamind},t,{1219},""
 Metro Man,{Megamind},t,{1220},Megamind
 Hulk,"{`"\\(Hulk Vs.?\\)`"}",f,{1210},(Hulk Vs.)
 Stitch,"{`"Lilo (and|&) Stitch`"}",f,{1216},Lilo & Stitch
+Bolt,{D(i|y)sneys?},f,{1190},Bolt
 Tighten,{Megamind},f,{1220},Megamind
 Titan,{Megamind},f,{1220},Megamind
 Monster House,"{`"Monster House`"}",t,{1221},""
@@ -5305,7 +5301,6 @@ Rudolph,"{Rankin,Bass}",f,{1229},Rankin/Bass
 Maruti,"{`"Return of Hanuman`"}",f,{1230},Return of Hanuman
 Scary Godmother,{Spooktacular},f,{1231},Scary Godmother: Halloween Spooktacular
 Scary Godmother,"{`"Revenge of Jimmy`"}",f,{1231},Scary Godmother: Halloween Spooktacular
-Maleficent,{Disney},t,{1232},Disney
 Smash,"{`"(Smash and Grab)`"}",f,{1233},Smash and Grab
 Hate-Monger,{comics?},t,{2028},616
 Hate-Monger,{Marvel},t,{2028},616
@@ -5338,6 +5333,7 @@ Kim Jong Un,"{`"College Humor`"}",f,{1259},College Humor
 Mothman,"{`"Cyanide (and|&) Happiness`"}",f,{1260},Cyanide & Happiness
 Señor Cleanfist,"{`"Cyanide (and|&) Happiness`"}",t,{1261},Cyanide & Happiness
 Ralph,"{`"Wreck(-| )It(-| )Ralph`"}",f,{1241},Wreck-It Ralph
+Maleficent,{D(i|y)sneys?},t,{1232},Disney
 Shark Rad,"{`"Cyanide (and|&) Happiness`"}",t,{1262},Cyanide & Happiness
 Ted Bear,"{`"Cyanide (and|&) Happiness`"}",t,{2931},Cyanide & Happiness
 Akuma,"{`"One Minute Melee`"}",f,{1264},One Minute Melee
@@ -6241,7 +6237,6 @@ Red,"{`"Subspace Emissary`"}",f,{7503},The Subspace Emissary's Worlds Conquest
 Kirby,"{`"Subspace Emissary`"}",f,{7504},The Subspace Emissary's Worlds Conquest
 Pichu,"{`"Subspace Emissary`"}",f,{7505},The Subspace Emissary's Worlds Conquest
 Pikachu,"{`"Subspace Emissary`"}",f,{7506},The Subspace Emissary's Worlds Conquest
-Tabuu,"{`"Subspace Emissary`"}",f,{7507},The Subspace Emissary's Worlds Conquest
 Song,"{`"Epic Kill`"}",f,{7508},Epic Kill
 Permafrost,"{`"Static Shock`"}",f,{7509},DCAU
 Permafrost,"{`"DC Animated Universe`"}",f,{7509},DCAU
@@ -8185,9 +8180,7 @@ Monads,{Xee?lee},f,{8327},Xeelee Sequence
 Xeelee,{Xeelee},t,{8328},""
 Raizo,"{`"Ghost in the Shell`"}",f,{8329},Ghost in the Shell
 Jasmine,{Aladdin},f,{8330},Aladdin
-Jasmine,{Disney},f,{8330},Aladdin
 Princess Jasmine,{Aladdin},t,{8330},Aladdin
-Princess Jasmine,{Disney},t,{8330},Aladdin
 Princess Peach,"{`"Great Mission to Rescue Princess Peach`"}",f,{8330},The Great Mission to Rescue Princess Peach!
 Princess Peach,"{`"Peach(-| )Hime Kyushutsu Dai Sakusen`"}",f,{8330},The Great Mission to Rescue Princess Peach!
 King Koopa,"{`"Great Mission to Rescue Princess Peach`"}",f,{8331},The Great Mission to Rescue Princess Peach!
@@ -8202,6 +8195,8 @@ Garviel Loken,{(WH)?40K},t,{8332},Warhammer 40k
 Garviel Loken,{Warhammer},t,{8332},Warhammer 40k
 Captain Marvel,"{`"Earth(-| )S`"}",f,{8333},Earth-S
 Shooter,"{`"Luther Strode`"}",f,{8334},Luther Strode
+Jasmine,{D(i|y)sneys?},f,{8330},Aladdin
+Princess Jasmine,{D(i|y)sneys?},t,{8330},Aladdin
 Doctor Manhattan,{DC},t,{1837},DC
 Fatal Five,"{`"Justice League vs. the Fatal Five`"}",f,{8335},Justice League vs. the Fatal Five
 Fatal Five,{DCAU},f,{8335},Justice League vs. the Fatal Five
@@ -9277,8 +9272,6 @@ Ravage,{2099},f,{8157},2099
 Spider-Man 2099,{2099},t,{2256},""
 Thor 2099,{2099},t,{2470},""
 Adaptoid,"{`"New Enforcers?`"}",f,{1963},"New Enforcers, 616"
-MST-3K,{Marvel},t,{1964},616
-MST-3K,{616},t,{1964},616
 Osborn,{Adaptoid},f,{1965},Super-Adaptoid
 Norman Osborn,{Adaptoid},f,{1965},Super-Adaptoid
 Super-Adaptoid,{616},t,{1966},616
@@ -9295,6 +9288,8 @@ Invincible,"{`"\\(Invincible\\)`"}",f,"{1961,17671}",Image Comics
 Invincible,"{`"Image Comics?`"}",f,"{1961,17671}",Image Comics
 Invincible,"{`"\\(Image\\)`"}",f,"{1961,17671}",Image Comics
 Yelena Belova,"{`"Super Adaptoid`"}",t,{1968},Super Adaptoid
+MST-3K,{Marvel},f,{1964},616
+MST-3K,{616},f,{1964},616
 Space Racer,{Viltrumites?},t,{8530},Invincible
 Space Racer,{Viltrum},t,{8530},Invincible
 Roboute Guilliman,{(WH)?40K},t,{6032},Warhammer 40k
@@ -9602,7 +9597,6 @@ Momo,{Creati},f,{3940},My Hero Academia
 Hiro,"{`"Big Hero`"}",f,{10851},Disney's Big Hero 6
 Hiro,{Baymax},f,{10851},Disney's Big Hero 6
 Hiro,{Toothless},f,{10851},Disney's Big Hero 6
-Hiro,{Disney},f,{10851},Disney's Big Hero 6
 Momakase,"{`"Big Hero`"}",t,{10852},Big Hero 6
 Noodle Burger Boy,"{`"Big Hero`"}",t,{10853},Big Hero 6
 Yarael Poof,"{`"Star Wars`"}",t,{10854},Star Wars
@@ -9622,6 +9616,7 @@ Hardlight,"{`"Big Hero`"}",f,{10861},Big Hero 6
 El Fuego,"{`"Big Hero`"}",f,{10862},Big Hero 6
 Baymax,"{`"Big Hero`"}",t,"{10863,2430}",Big Hero 6
 Mirko,"{`"My Hero Academia`"}",f,"{8612,24146}",My Hero Academia
+Hiro,{D(i|y)sneys?},f,{10851},Disney's Big Hero 6
 Algrim,{616},t,{1973},616
 Algrim,{comics?},t,{1973},616
 Laufey,{616},t,{1974},616
@@ -9640,7 +9635,6 @@ Loki,{Nordic},f,{},Norse mythology
 Loki,{Norse},f,{},Norse mythology
 Magni Thorson,{3515},t,{1976},3515
 Magni Thorson,{comics?},t,{1976},3515
-Baymax,{Disney},f,{10863},Disney's Big Hero 6
 Kato,"{`"((The )*Green Hornet)`"}",f,{453},"The Green Hornet, 2011"
 Puddlegulp,{616},t,{1977},616
 Ragnarok,"{`"Ragnarok \\(Marvel`"}",f,{1978},616
@@ -9686,13 +9680,12 @@ Scott Lang,"{`"End ?game`"}",f,{},MCU
 King Ghidorah,{Legendary},f,{8614},MonsterVerse
 Godzilla,{IDW},f,"{1926,21973,24473}",IDW
 Odin-Force Thor,{616},t,{21155},616
+Baymax,{D(i|y)sneys?},f,{10863},Disney's Big Hero 6
 Thor,{comics?},f,"{1981,21155}",616
 Thor,"{`"\\(Odin(-| )?force\\)`"}",f,{21155},Odin-Force
 Krombopulos Michael,"{`"Rick (&|and) Morty`"}",t,{10871},Rick and Morty
 Honey Lemon,"{`"Big Hero`"}",t,{10872},Big Hero 6
-Honey Lemon,{Disney},f,{10872},Disney's Big Hero 6
 Go Go Tomago,"{`"Big Hero`"}",t,{10873},Big Hero 6
-Go Go Tomago,{Disney},f,{10873},Disney's Big Hero 6
 Blade Wolf,"{`"Metal Gear`"}",t,{10874},Metal Gear
 Blade Wolf,{MGRR?},t,{10874},Metal Gear
 Ieroh Itou,{Red},t,{10876},Red: Living On the Edge
@@ -9754,6 +9747,8 @@ Cyclops,{1610},f,{2550},1610
 Ultimate Cyclops,{1610},t,{2550},1610
 Gambit,"{`"Gambit ?\\( ?Ultimates?`"}",f,{2551},1610
 Thor,"{`"Thor ?\\( ?Ultimates?`"}",f,{2546},1610
+Honey Lemon,{D(i|y)sneys?},f,{10872},Disney's Big Hero 6
+Go Go Tomago,{D(i|y)sneys?},f,{10873},Disney's Big Hero 6
 Frankenstein,"{`"Mary Shelley`"}",t,"{7691,10892}",Mary Shelley
 Gambit,{1610},f,{2551},1610
 Ultimate Gambit,{1610},t,{2551},1610
@@ -9949,7 +9944,6 @@ Ramona,"{`"Scott Pilgrim`"}",f,{2616},Scott Pilgrim
 Ramona,"{`"League of Evil Exes`"}",f,{2616},Scott Pilgrim
 Ramona,"{`"(7|Seven) Evil Exes`"}",f,{2616},Scott Pilgrim
 Ramona Flowers,"{`"Scott Pilgrim`"}",t,{2616},Scott Pilgrim
-Scott Pilgrim,"{`"Scott Pilgrim`"}",t,{2617},Scott Pilgrim
 Antoine D'Coolette,{Archie},t,{2618},Archie Comics
 Bean the Dynamite,{Archie},f,{2619},Archie Comics
 Bunnie D'Coolette,{Archie},t,{2620},Archie Comics
@@ -9962,6 +9956,7 @@ Witchcarters,{Archie},t,{2631},Archie Comics
 Sally Acorn,{Archie},t,{2626},Archie Comics
 Rotor the Walrus,{Archie},t,{2627},Archie Comics
 Scourge the Hedgehog,{Archie},t,{2628},Archie Comics
+Scott Pilgrim,"{`"Scott Pilgrim`"}",t,"{2617,24673,24674}",Scott Pilgrim
 Scourge,{Archie},f,{2628},Archie Comics
 Scourge,{Sonic},f,{2628},Archie Comics
 Sonic,{Archie},f,{2629},Archie Comics
@@ -14650,20 +14645,20 @@ Rhino,{T?ASM},f,{14430},The Amazing Spider-Man
 Aoi Todo,"{`"Jujutsu Kaisen`"}",t,{14431},Jujutsu Kaisen
 Duck Dodgers,{default},t,{14432},""
 Baloo,{1967},t,{14433},"The Jungle Book, 1967"
-Baloo,{Disney},t,{14433},"The Jungle Book, 1967"
 Baloo,{animat(ion|ed)},t,{14433},"The Jungle Book, 1967"
 Baloo,{film|movie},t,{14433},"The Jungle Book, 1967"
 Shere Khan,{1967},t,{14434},"The Jungle Book, 1967"
-Shere Khan,{Disney},t,{14434},"The Jungle Book, 1967"
 Shere Khan,{animat(ion|ed)},t,{14434},"The Jungle Book, 1967"
 Shere Khan,{film|movie},t,{14434},"The Jungle Book, 1967"
 Merida,{Brave},t,{14435},Brave
-Merida,{Disney},t,{14435},Brave
 Merida,{Pixar},t,{14435},Brave
 Phil Urich,{616},t,{14436},616
 Goblin King,"{`"Goblin King ?\\(616`"}",f,{14436},616
 Goblin King,"{`"Goblin King ?\\(Marvel`"}",f,{14436},616
 James Bond,{Lazenby},f,{14437},George Lazenby
+Baloo,{D(i|y)sneys?},t,{14433},"The Jungle Book, 1967"
+Shere Khan,{D(i|y)sneys?},t,{14434},"The Jungle Book, 1967"
+Merida,{D(i|y)sneys?},t,{14435},Brave
 James Bond,{1969},f,{14437},George Lazenby
 James Bond,"{`"On Her Majesty'?s Secret Service`"}",f,{14437},George Lazenby
 Rational Man With A Shotgun,"{`"Jeremy Kayes`"}",t,{2967},""
@@ -14753,7 +14748,6 @@ Albert Wesker,"{`"(Resident Evil|RE):? Afterlife`"}",f,{14468},Resident Evil Fil
 Albert Wesker,"{`"(Resident Evil|RE):? Retribution`"}",f,{14468},Resident Evil Films
 Albert Wesker,"{`"(Resident Evil|RE):? The Final Chapter`"}",f,{14468},Resident Evil Films
 Hornet,"{`"Hollow Knight`"}",f,{14469},Hollow Knight
-Tarzan,{Disney},f,{14470},Disney
 Tarzan,{1999},f,{14470},Disney
 Tarzan,{cartoon},f,{14470},Disney
 Heatblast,"{`"Ben (10|Ten(nyson)?)`"}",f,{14471},Ben 10
@@ -14789,6 +14783,7 @@ Superman,"{`"Man of Steel Super(-| )?man`"}",f,{130},DCEU
 Superman,{2013},f,{130},DCEU
 Superman,{Cavill?},f,{130},DCEU
 Mr. Freeze,{Arkham.?verse},f,{14476},Batman: Arkham
+Tarzan,{D(i|y)sneys?},f,{14470},Disney
 Yondu,{199999},f,{13485},MCU
 Poison Ivy,"{`"Bat(-| )?man`",1997}",f,{14486},"Batman & Robin, 1997"
 Hera,"{`"Greek myth?(olog(y|ical))?`"}",f,{5807},Greek Mythology
@@ -17583,7 +17578,6 @@ Jiraiya,{mythology},f,{14842},Folklore
 Jiraiya,{Japanese},f,{14842},Folklore
 Jiraiya,"{`"folk ?(lore|tale)`"}",f,{14842},Folklore
 Chernabog,"{`"Bald Mountain`"}",f,{14843},Disney
-Chernabog,{Disney},f,{14843},Disney
 Chernabog,{1940},f,{14843},Disney
 Chernabog,{Fantasia},f,{14843},Disney
 Chernabog,"{`"Kingdom Hearts`"}",f,{14843},Disney
@@ -19401,10 +19395,6 @@ Ridley,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",f,{5458},Super Smash Bros
 Ridley,{SSBB},f,{5458},Super Smash Bros
 Ridley,"{`"\\(Smash`"}",f,{5458},Super Smash Bros
 Jean,"{`"Dark Phoenix`"}",f,{2368},616
-Tabuu,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",t,{5460},Super Smash Bros
-Tabuu,{SSBB},t,{5460},Super Smash Bros
-Tabuu,"{`"\\(Smash`"}",t,{5460},Super Smash Bros
-Tabuu,{Brawl},t,{5460},Super Smash Bros
 Wii Fit Trainer,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",t,{5461},Super Smash Bros
 Wii Fit Trainer,{SSBB},t,{5461},Super Smash Bros
 Wii Fit Trainer,"{`"\\(Smash`"}",t,{5461},Super Smash Bros
@@ -26994,7 +26984,6 @@ Ellen Ripley,{Aliens?},t,{22087},Alien
 Dominic Ash,{DIE},f,{22088},DIE
 Angela Ash,{DIE},f,{22088},DIE
 Matt,"{`"Grief Knight`"}",f,{22088},DIE
-Quasimodo,{Disney},t,{22089},The Hunchback of Notre Dame
 Quasimodo,"{`"Hunchback of Notre Dame`"}",t,{22089},The Hunchback of Notre Dame
 Quasimodo,{1996},t,{22089},The Hunchback of Notre Dame
 Thunderbird,{Gifted},f,{22090},The Gifted
@@ -27028,7 +27017,6 @@ Fatality,"{`"Fatality ?\\(DC`"}",f,{22098},DC
 Heron,"{`"Blood of Zeus`"}",f,{22100},Blood of Zeus
 Major Man,"{`"Power ?puff Girls`"}",f,{22101},Powerpuff Girls
 Major Man,{PPG},f,{22101},Powerpuff Girls
-Phoebus,{Disney},f,{22102},The Hunchback of Notre Dame
 Phoebus,"{`"Hunchback of Notre Dame`"}",f,{22102},The Hunchback of Notre Dame
 Corinthian,"{`"\\(Sandman\\)`"}",f,{21327},Post-Crisis
 Chen Zhen,"{`"Fist Of Fury`"}",t,{22103},Fist Of Fury
@@ -27053,6 +27041,8 @@ Hakan,"{`"Street Fighters?`"}",f,{5404},Street Fighter
 Ibuki,"{`"Street Fighters?`"}",f,{5405},Street Fighter
 Esmeralda,{Disneys?},f,{22099},The Hunchback of Notre Dame
 Esmeralda,"{`"Hunchback of Notre Dame`"}",f,{22099},The Hunchback of Notre Dame
+Quasimodo,{D(i|y)sneys?},t,{22089},The Hunchback of Notre Dame
+Phoebus,{D(i|y)sneys?},f,{22102},The Hunchback of Notre Dame
 Juri,"{`"Street Fighters?`"}",t,{5406},Street Fighter
 M. Bison,"{`"Street Fighters?`"}",t,{5408},Street Fighter
 Oro,"{`"Street Fighters?`"}",f,{5409},Street Fighter
@@ -27868,12 +27858,12 @@ Cosmic Iron Man,{616},t,{22646},616
 Diablo,"{`"Primal Rage`"}",f,{22647},Primal Rage
 Scorching Jailer,{Avatar},f,{22648},Avatar: TLA
 Scorching Jailer,{A?TLA},f,{22648},Avatar: TLA
-The Beast,{2017},f,{22649},"Beauty and the Beast, 2017"
 The Beast,"{`"Live Action`"}",f,{22649},"Beauty and the Beast, 2017"
 Beast,"{`"Beast ?\\(2017`"}",f,{22649},"Beauty and the Beast, 2017"
 Hawkman,"{`"DC Extended Universe`"}",f,{},DCEU
 Hawkman,"{`"DC ?(E|C)U`"}",f,{},DCEU
 Polpo,{Jojos?(verse)?},f,{22614},Jojo's Bizarre Adventure
+The Beast,"{`"Beauty and the Beast`",2017}",f,{22649},"Beauty and the Beast, 2017"
 Beast,"{2017,`"Live Action`"}",f,{22649},"Beauty and the Beast, 2017"
 SCP-UBU,"{`"SCP Foundation`"}",f,{22650},""
 Mark,"{Invincible,Nolan}",f,"{1961,17671}",Invincible
@@ -31188,3 +31178,34 @@ Australium,{TF2},t,{24662},TF2
 Australium,"{`"Team Fortress`"}",t,{24662},TF2
 Spacegodzilla,{Pipeworks},f,{24663},Games
 Spacegodzilla,{Games},f,{24663},Games
+John Henry,{D(i|y)sneys?},f,{1198},Disney's American Legends
+Paul Bunyan,{D(i|y)sneys?},f,{1199},Disney's American Legends
+Hercules,{D(i|y)sneys?},f,{1200},Disney
+Lumpjaw,{D(i|y)sneys?},t,{1206},Fun and Fancy Free
+Chernabog,{D(i|y)sneys?},f,{14843},Disney
+Metro,"{`"Red Steel`"}",f,{},Red Steel
+Frankenstein,"{Metro,`"Red Steel`"}",f,{},Red Steel
+Anderson,{Hellsing},f,{3475},Hellsing
+Sharkasaurus,"{`"\\(Sharkasaurus\\)`"}",t,"{24664,24665}",""
+J. Jonah Jameson,{616},t,{24666},616
+Trilopods,"{`"Godzilla:? Rulers of Earth`"}",t,{24667},Godzilla: Rulers of Earth
+Imu,"{`"One ?Piece?`"}",f,{24668},One Piece
+Knight of the Burning Dragon,{Arthurian},f,{24669},Arthurian Myth
+Atalanta,{Greek},f,{24670},Greek Mythology
+Atalante,{Greek},f,{24670},Greek Mythology
+Chosho,{Tough},f,{24671},Tough
+Minoru Suzuki,{Tough},f,{24672},Tough
+Tabuu,"{`"Subspace Emissary`"}",f,{7507},The Subspace Emissary's Worlds Conquest
+Tabuu,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",f,{5460},Super Smash Bros
+Tabuu,{SSBB},f,{5460},Super Smash Bros
+Tabuu,"{`"\\(Smash`"}",f,{5460},Super Smash Bros
+Tabuu,{Brawl},f,{5460},Super Smash Bros
+King,"{`"King from One Punch Man`"}",f,{4113},One Punch Man
+King,"{`"One Punch Man`",scare|luck}",f,{4113},One Punch Man
+Flint Abrahams,"{`"Cabela?s Dangerous Hunts`"}",t,{24675},Cabela's Dangerous Hunts
+Peter Griffin,{Fortnite},f,{24676},Fortnite
+Black Mariah,{616},f,{24677},616
+Oil Man,"{`"Mega ?Man`"}",f,{24678},Mega Man
+Sanae Kikuta,{Tough},f,{24679},Tough
+Spiders,"{`"Spider Earth`",Creepypasta}",f,{24680},Spider Earth
+Robo-Mecha Wobbuffet,{Pok(e|é)m(o|a)n},t,{24681},Pokémon

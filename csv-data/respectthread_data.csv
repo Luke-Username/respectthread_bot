@@ -6,7 +6,6 @@ id,title,link
 18,"Respect Leonard Snart, AKA Captain Cold (Flarrowverse)",https://redd.it/65moej
 19,Respect The Flash (CW),https://redd.it/4nmwbe
 20,Respect Girder (CW Flash series),https://redd.it/6idk5w
-23,Respect Gorilla Grodd(CW Flash series),https://redd.it/6sk2re
 24,Respect King Shark (CW Flash),https://redd.it/6u57em
 25,Respect Reverse Flash (CW),https://redd.it/4nmwit
 26,Respect Solovar (CW Flash series),https://redd.it/6p3evo
@@ -39,6 +38,7 @@ id,title,link
 91,Respect Sportacus! (LazyTown),https://redd.it/14m5cuz
 59,Respect: Kamen Rider Kabuto,https://redd.it/27zsiu
 60,Respect Kamen Rider Mach (Kamen Rider Drive),https://redd.it/6yq6ba
+23,"Respect Gorilla Grodd (CW, The Flash)",https://redd.it/1aepfqq
 62,Respect Mashin Chaser & The Roidmudes(KR Drive Series),https://redd.it/3ma7aq
 63,Respect the Namba Heavy Industries (Kamen Rider Build),https://redd.it/atzywm
 64,Respect Riderman (Kamen Rider V3),https://redd.it/6a47nz
@@ -741,7 +741,7 @@ id,title,link
 815,Respect The Red Lotus (The Legend of Korra),https://redd.it/piqixk
 792,Respect Bill Cipher (Gravity Falls),https://redd.it/4qr9b8
 794,Respect the Gnomes (Gravity Falls),https://redd.it/mfvzow
-808,Respect Avatar Korra (The Legend of Korra),https://redd.it/197pwo3
+808,Respect Avatar Korra (The Legend of Korra),https://redd.it/1afi5zj
 800,Respect Eris (The Grim Adventures of Billy and Mandy),https://redd.it/b3ip1p
 801,Respect The Grim Reaper (The Grim Adventures of Billy & Mandy),https://redd.it/5xbsku
 802,"Respect Hoss Delgado, the Spectral Exterminator! [Grim Adventures of Billy and Mandy]",https://redd.it/3z1g25
@@ -2164,7 +2164,6 @@ id,title,link
 2281,"Respect the Chameleon! (Marvel, 616)",https://redd.it/4i438v
 2282,"Respect Clash (Amazing Spider-Man: Learning to Crawl, Marvel 616)",https://redd.it/4vqdbh
 2284,"[Respect] The Enforcers (Marvel, 616)",https://redd.it/5aeeqn
-2285,"Respect Hammerhead (Marvel, 616)",https://redd.it/6w1bls
 2286,Respect the Human Fly (Marvel),https://redd.it/5gdoee
 2287,Respect Hydro-Man: Marvel 616,https://redd.it/4kdcrc
 2288,Respect the Hypno-Hustler (Marvel Comics: Earth-616),https://redd.it/97050g
@@ -2212,6 +2211,7 @@ id,title,link
 2249,"Respect Gwen Stacy, the spectacular Spider-Woman (Marvel) (Earth-65) [A.K.A. Spider-Gwen]",https://redd.it/m2ca8y
 2262,"Respect the Superior Spider-Man (Marvel, 616)",https://redd.it/hjyl0s
 2264,"Respect Norman Osborn, the Green Goblin (Marvel Comics, 616)",https://redd.it/16l3771
+2285,"Respect Hammerhead (Marvel, 616)",https://redd.it/1aeyqbr
 2291,Respect the Lizard (Marvel 616)!,https://redd.it/ip8t4e
 2295,"Respect Morlun! (Marvel, 616)",https://redd.it/k6zz0q
 2331,Respect Moonstone! (Karla Sofen) (Marvel 616),https://redd.it/6kqv59
@@ -2488,7 +2488,6 @@ id,title,link
 2614,Respect Knives Chau! (Scott Pilgrim),https://redd.it/6bk42i
 2615,Respect the League of Evil Exes! (Scott Pilgrim),https://redd.it/6bk3wi
 2616,Respect Ramona Flowers! (Scott Pilgrim),https://redd.it/6bk3zw
-2617,Respect Scott Pilgrim! (Scott Pilgrim),https://redd.it/6bk45d
 2618,Respect Antoine D'Coolette (Sonic the Hedgehog),https://redd.it/7ipi1c
 2619,Respect Bean the Dynamite (Archie Sonic),https://redd.it/8lwjzc
 2620,Respect Bunnie D'Coolette (Sonic the Hedgehog),https://redd.it/7hu91w
@@ -2538,6 +2537,7 @@ id,title,link
 2595,Respect Hit-Girl! (Kick-Ass),https://redd.it/wuqvw9
 22538,Respect Red (Genndy Tartakovsky's Primal),https://redd.it/x2tj7n
 2647,Respect Darth Momin (updated 2021) (Star Wars Canon),https://redd.it/lo5mg8
+2617,Respect Scott Pilgrim! (Scott Pilgrim),https://redd.it/1ageeyi
 2629,"Respect Sonic the Hedgehog! (Archie Comics, Pre-Super Genesis Wave)",https://redd.it/k4dyu3
 2666,Respect Krang (Teenage Mutant Ninja Turtles) [IDW],https://redd.it/83nj0a
 2667,Respect Leatherhead (Teenage Mutant Ninja Turtles) [IDW],https://redd.it/83zvca
@@ -13250,3 +13250,21 @@ id,title,link
 24661,Respect Perceval the Welshman (Arthurian Mythology),https://redd.it/19ffjkq
 24662,Respect Australium! (Team Fortress 2),https://redd.it/19dxm6b
 24663,Respect Spacegodzilla (Pipeworks Godzilla Games),https://redd.it/19dvsmd
+24664,[Respect] Sharkasaurus (Sharkasaurus),https://redd.it/1abndlz
+24665,[Respect] Sharkosaurus (Sharkosaurus Rampage),https://redd.it/1acwgob
+24666,"Respect J. Jonah Jameson (Marvel, 616)",https://redd.it/1aceud0
+24667,Respect the Trilopods (Godzilla: Rulers of Earth),https://redd.it/1abx96f
+24668,"Respect Imu, Supreme Ruler of the World (One Piece)",https://redd.it/1ad55f5
+24669,Respect the Knight of the Burning Dragon (Arthurian Mythology),https://redd.it/1addpoh
+24670,Respect Atalanta (Greek Mythology),https://redd.it/1adkih0
+24671,Respect Chosho (Tough),https://redd.it/1ae795m
+24672,Respect Minoru Suzuki (Tough),https://redd.it/1aetmzb
+24673,Respect Scott Pilgrim! (Scott Pilgrim vs. The World),https://redd.it/1agefgt
+24674,Respect Scott Pilgrim! (Scott Pilgrim Takes Off),https://redd.it/1ageg04
+24675,Respect Flint Abrahams (Cabela's Dangerous Hunts 2009),https://redd.it/1af7pwd
+24676,Respect Peter Griffin (Fortnite),https://redd.it/1affi1b
+24677,"Respect Black Mariah (Marvel, 616)",https://redd.it/1afl751
+24678,Respect Oil Man (Mega Man),https://redd.it/1afoq0l
+24679,Respect Sanae Kikuta (Tough),https://redd.it/1afpboz
+24680,Respect the Spiders! (Spider Earth),https://redd.it/1afzdl9
+24681,Respect the Robo-Mecha Wobbuffet (Pokemon Anime),https://redd.it/1agbo5p
