@@ -108,6 +108,22 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 808, 'Respect Avatar Korra (The Legend of Korra)', 'https://redd.it/1afi5zj')
+update_respectthread(cur, 2617, 'Respect Scott Pilgrim! (Scott Pilgrim)', 'https://redd.it/1ageeyi')
+
+########################################
+
+add_data(['King'],
+'King',
+False,
+False,
+[
+    ['King from One Punch Man'], ['One Punch Man', 'scare|luck']
+],
+"One Punch Man",
+'{4113}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ah0f5f/king_from_one_punch_man/
+#https://www.reddit.com/r/whowouldwin/comments/1agfclc/who_is_the_strongest_character_that_king_from_one/
 
 ########################################
 
@@ -183,6 +199,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1afpboz/respect_sanae_kikuta_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Spiders! (Spider Earth)', 'https://redd.it/1afzdl9')
+add_data(['Spiders'],
+'Spiders',
+False,
+False,
+[
+    ['Spider Earth', 'Creepypasta']
+],
+'Spider Earth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1afzdl9/respect_the_spiders_spider_earth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Robo-Mecha Wobbuffet (Pokemon Anime)', 'https://redd.it/1agbo5p')
+add_data(['Robo-Mecha Wobbuffet'],
+'Robo-Mecha Wobbuffet',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1agbo5p/respect_the_robomecha_wobbuffet_pokemon_anime/
 
 ########################################
 
