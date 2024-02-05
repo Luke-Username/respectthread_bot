@@ -107,6 +107,98 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2616, 'Respect Ramona Flowers! (Scott Pilgrim)', 'https://redd.it/1ai2vaq')
+update_respectthread(cur, 2614, 'Respect Knives Chau! (Scott Pilgrim Franchise, Composite)', 'https://redd.it/1aix71a')
+update_respectthread(cur, 3687, 'Respect Mikazuchi Rei, "The Lightning God" (Kengan)', 'https://redd.it/1ajd79i')
+
+########################################
+
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['From The Series']
+],
+'Godzilla: The Series',
+'{24472}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ah6od4/how_will_civilizations_act_against_a_massively/kolmlp3/?context=3
+
+########################################
+
+add_data(['Jim Gordon'],
+'Jim Gordon',
+False,
+False,
+[
+    ['Jim Gordon,? Batman']
+],
+'Post-Flashpoint',
+'{24032}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ajhn3e/spiderham_vs_jim_gordon_batman/kp10ogc/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Playable Characters! (Scott Pilgrim vs. The World: The Game)', 'https://redd.it/1ah6las')
+add_data(['Playable Characters'],
+'Playable Characters',
+True,
+False,
+[
+    ['Scott Pilgrim']
+],
+'Scott Pilgrim',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ah6las/respect_the_playable_characters_scott_pilgrim_vs/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Koichi Yamano, Babel II [Babel II original manga]', 'https://redd.it/1ahzbt9')
+add_data(['Koichi Yamano'],
+'Koichi Yamano',
+False,
+False,
+[
+    ['Babel (II|2)']
+],
+'Babel II',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ahzbt9/respect_koichi_yamano_babel_ii_babel_ii_original/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vegeta, the Super Saiyan God (Hyourinjutsu Dragon Ball What If)', 'https://redd.it/1aji9de')
+add_data(['Vegeta'],
+'Vegeta',
+False,
+False,
+[
+    ['Hyourinjutsu']
+],
+'Hyourinjutsu',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1aji9de/respect_vegeta_the_super_saiyan_god_hyourinjutsu/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Marcio "Jet" Naito (Tough)', 'https://redd.it/1ajkfco')
+add_data(['Marcio "Jet" Naito'],
+'Marcio "Jet" Naito',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ajkfco/respect_marcio_jet_naito_tough/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

@@ -14,7 +14,15 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Ramona Flowers! (Scott Pilgrim vs. The World)', 'https://redd.it/1ai2y18'); SELECT * FROM respectthread WHERE link='https://redd.it/1ai2y18';
+INSERT INTO respectthread (title, link) VALUES ('Respect Ramona Flowers! (Scott Pilgrim Takes Off)', 'https://redd.it/1ai35k2'); SELECT * FROM respectthread WHERE link='https://redd.it/1ai35k2';
+UPDATE character SET rt_id_array='{2616, 2?, 3?}' WHERE rt_id_array='{2616}';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect the League of Evil Exes! (Scott Pilgrim vs. The World)', 'https://redd.it/1ajnr28'); SELECT * FROM respectthread WHERE link='https://redd.it/1ajnr28';
+INSERT INTO respectthread (title, link) VALUES ('Respect the League of Evil Exes! (Scott Pilgrim vs. The World: The Game)', 'https://redd.it/1ajnytn'); SELECT * FROM respectthread WHERE link='https://redd.it/1ajnytn';
+UPDATE character SET rt_id_array='{2615, 2?, 3?}' WHERE rt_id_array='{2615}';
 
 ########################################
 
