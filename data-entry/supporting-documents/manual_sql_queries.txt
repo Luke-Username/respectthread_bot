@@ -22,13 +22,21 @@ UPDATE character SET rt_id_array='{2616, 2?, 3?}' WHERE rt_id_array='{2616}';
 
 INSERT INTO respectthread (title, link) VALUES ('Respect the League of Evil Exes! (Scott Pilgrim vs. The World)', 'https://redd.it/1ajnr28'); SELECT * FROM respectthread WHERE link='https://redd.it/1ajnr28';
 INSERT INTO respectthread (title, link) VALUES ('Respect the League of Evil Exes! (Scott Pilgrim vs. The World: The Game)', 'https://redd.it/1ajnytn'); SELECT * FROM respectthread WHERE link='https://redd.it/1ajnytn';
-UPDATE character SET rt_id_array='{2615, 2?, 3?}' WHERE rt_id_array='{2615}';
+INSERT INTO respectthread (title, link) VALUES ('Respect the League of Evil Exes! (Scott Pilgrim Takes Off)', 'https://redd.it/1akez3d'); SELECT * FROM respectthread WHERE link='https://redd.it/1akez3d';
+UPDATE character SET rt_id_array='{2615, 2?, 3?, 4?}' WHERE rt_id_array='{2615}';
 
 ########################################
 
-########################################
+UPDATE character SET is_default=FALSE WHERE default_name='Red Goblin';
 
 ########################################
+
+DELETE FROM character WHERE default_name='Kai' AND rt_id_array='{1142}';
+
+########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Alice Liddell (Alice: Asylum)', 'https://redd.it/1al2zx9'); SELECT * FROM respectthread WHERE link='https://redd.it/1al2zx9';
+UPDATE character SET rt_id_array='{5521, 2?}' WHERE rt_id_array='{5521}';
 
 ########################################
 

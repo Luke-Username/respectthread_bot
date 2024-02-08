@@ -107,6 +107,7 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2615, 'Respect the League of Evil Exes! (Scott Pilgrim)', 'https://redd.it/1akf3dp')
 update_respectthread(cur, 2616, 'Respect Ramona Flowers! (Scott Pilgrim)', 'https://redd.it/1ai2vaq')
 update_respectthread(cur, 2614, 'Respect Knives Chau! (Scott Pilgrim Franchise, Composite)', 'https://redd.it/1aix71a')
 update_respectthread(cur, 3687, 'Respect Mikazuchi Rei, "The Lightning God" (Kengan)', 'https://redd.it/1ajd79i')
@@ -198,6 +199,51 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1ajkfco/respect_marcio_jet_naito_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Albert (Marvel, 616)', 'https://redd.it/1ak1d2b')
+add_data(['Albert'],
+'Albert',
+False,
+False,
+[
+    ['Albert ?\(616\)']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ak1d2b/respect_albert_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Seal! (Undead Unluck)', 'https://redd.it/1al6trs')
+add_data(['Seal'],
+'Seal',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1al6trs/respect_seal_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (Predator Eyes Of The Demon)', 'https://redd.it/1aljoy5')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Eyes Of The Demon']
+],
+'Predator: Eyes Of The Demon',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
