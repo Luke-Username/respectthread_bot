@@ -40,6 +40,8 @@ UPDATE character SET rt_id_array='{5521, 2?}' WHERE rt_id_array='{5521}';
 
 ########################################
 
+UPDATE character_name SET name='Krill?ins?' WHERE name='Krillin';
+
 ########################################
 
 ########################################
