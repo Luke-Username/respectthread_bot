@@ -9933,17 +9933,6 @@ Roll,"{`"Novas Aventuras De Megaman`"}",f,{2611},Novas Aventuras De Megaman
 Envy Adams,"{`"Scott Pilgrim`"}",t,{2613},Scott Pilgrim
 Knives,"{`"Scott Pilgrim`"}",f,{2614},Scott Pilgrim
 Knives Chau,"{`"Scott Pilgrim`"}",t,{2614},Scott Pilgrim
-League of Evil Exes,"{`"Scott Pilgrim`"}",t,{2615},Scott Pilgrim
-Matthew Patel,"{`"Scott Pilgrim`"}",t,{2615},Scott Pilgrim
-Lucas Lee,"{`"Scott Pilgrim`"}",t,{2615},Scott Pilgrim
-Todd Ingram,"{`"Scott Pilgrim`"}",t,{2615},Scott Pilgrim
-Roxanne,"{`"Scott Pilgrim`"}",f,{2615},Scott Pilgrim
-Katayanagi,"{`"Scott Pilgrim`"}",t,{2615},Scott Pilgrim
-Gideon Graves,"{`"Scott Pilgrim`"}",t,{2615},Scott Pilgrim
-Ramona,"{`"Scott Pilgrim`"}",f,{2616},Scott Pilgrim
-Ramona,"{`"League of Evil Exes`"}",f,{2616},Scott Pilgrim
-Ramona,"{`"(7|Seven) Evil Exes`"}",f,{2616},Scott Pilgrim
-Ramona Flowers,"{`"Scott Pilgrim`"}",t,{2616},Scott Pilgrim
 Antoine D'Coolette,{Archie},t,{2618},Archie Comics
 Bean the Dynamite,{Archie},f,{2619},Archie Comics
 Bunnie D'Coolette,{Archie},t,{2620},Archie Comics
@@ -9957,6 +9946,11 @@ Sally Acorn,{Archie},t,{2626},Archie Comics
 Rotor the Walrus,{Archie},t,{2627},Archie Comics
 Scourge the Hedgehog,{Archie},t,{2628},Archie Comics
 Scott Pilgrim,"{`"Scott Pilgrim`"}",t,"{2617,24673,24674}",Scott Pilgrim
+Ramona,"{`"Scott Pilgrim`"}",f,"{2616,24682,24683}",Scott Pilgrim
+League of Evil Exes,"{`"Scott Pilgrim`"}",t,"{2615,24684,24685,24686}",Scott Pilgrim
+Matthew Patel,"{`"Scott Pilgrim`"}",t,"{2615,24684,24685,24686}",Scott Pilgrim
+Lucas Lee,"{`"Scott Pilgrim`"}",t,"{2615,24684,24685,24686}",Scott Pilgrim
+Todd Ingram,"{`"Scott Pilgrim`"}",t,"{2615,24684,24685,24686}",Scott Pilgrim
 Scourge,{Archie},f,{2628},Archie Comics
 Scourge,{Sonic},f,{2628},Archie Comics
 Sonic,{Archie},f,{2629},Archie Comics
@@ -19517,10 +19511,6 @@ Hat Kid,"{`"Hat in Time`"}",t,{5517},A Hat in Time
 Abobo,"{`"Big Adventure`"}",f,{5518},Abobo's Big Adventure
 Shelly de Killer,"{`"Ace Attorney`"}",t,{5519},Ace Attorney
 Linn Kurosawa,{1994},t,{5520},"Alien vs. Predator, 1994"
-Alice Liddell,"{`"American McGees?`"}",f,{5521},American McGee
-Alice Liddell,"{`"Madness Returns`"}",f,{5521},American McGee
-Alice,"{`"American McGees?`"}",f,{5521},American McGee
-Alice,"{`"Madness Returns`"}",f,{5521},American McGee
 Freaky Monkey Five,"{`"Ape Escape`"}",t,{5522},Ape Escape
 Monkey White,"{`"Ape Escape`"}",f,{5522},Ape Escape
 Monkey Blue,"{`"Ape Escape`"}",f,{5522},Ape Escape
@@ -19532,6 +19522,9 @@ Sayaka,"{`"Ape Escape`"}",f,{5523},Ape Escape
 Kei,"{`"Ape Escape`"}",f,{5523},Ape Escape
 Yumi,"{`"Ape Escape`"}",f,{5523},Ape Escape
 Sans,{Undertales?},f,"{5501,5498}",Undertale
+Alice Liddell,"{`"American McGees?`"}",f,"{5521,24687}",American McGee
+Alice Liddell,"{`"Madness Returns`"}",f,"{5521,24687}",American McGee
+Alice,"{`"American McGees?`"}",f,"{5521,24687}",American McGee
 Joey,"{`"Arcade America`"}",f,{5524},Arcade America
 Ezio,"{Assassin,Creed}",t,{5525},Assassin's Creed
 Ezio,"{`"AC\\d`"}",t,{5525},Assassin's Creed
@@ -27126,7 +27119,6 @@ Art of Witchcraft,"{`"American Dad`"}",f,{22138},American Dad!
 Heisuke Mashimo,"{`"Sakamoto Days`"}",t,{22139},Sakamoto Days
 Composite Superman,{Amalgamax},f,{1797},Pre-Crisis
 Composite Superman,{Xan},f,{1797},Pre-Crisis
-Kai,"{Po,Panda}",f,{1142},Kung Fu Panda
 Car,"{`"Is Your Car Safe.*Aircraft?`"}",f,{22140},Is Your Car Safe From Supermaneuverable Air-Defense Fighter Aircraft?
 Inez Temple,{616},t,{22141},616
 Anya Forger,"{`"Spy x Family`"}",t,{22142},Spy x Family
@@ -29705,7 +29697,6 @@ Aisha,"{`"Power Rangers?`"}",f,{23826},Power Rangers
 Rocky DeSantos,"{`"Power Rangers?`"}",t,{23827},Power Rangers
 Katherine,"{`"Katherine Hillard`"}",f,{23828},Power Rangers
 Katherine,"{`"Power Rangers?`"}",f,{23828},Power Rangers
-Red Goblin,{616},t,{23829},616
 Gorilla Grodd,"{`"DC Animated Universe`"}",f,{23830},DCAU
 Gorilla Grodd,{DCAU},f,{23830},DCAU
 Gorilla Grodd,{Timmverse},f,{23830},DCAU
@@ -31209,3 +31200,20 @@ Oil Man,"{`"Mega ?Man`"}",f,{24678},Mega Man
 Sanae Kikuta,{Tough},f,{24679},Tough
 Spiders,"{`"Spider Earth`",Creepypasta}",f,{24680},Spider Earth
 Robo-Mecha Wobbuffet,{Pok(e|é)m(o|a)n},t,{24681},Pokémon
+Ramona,"{`"League of Evil Exes`"}",f,"{2616,24682,24683}",Scott Pilgrim
+Ramona,"{`"(7|Seven) Evil Exes`"}",f,"{2616,24682,24683}",Scott Pilgrim
+Ramona Flowers,"{`"Scott Pilgrim`"}",t,"{2616,24682,24683}",Scott Pilgrim
+Roxanne,"{`"Scott Pilgrim`"}",f,"{2615,24684,24685,24686}",Scott Pilgrim
+Katayanagi,"{`"Scott Pilgrim`"}",t,"{2615,24684,24685,24686}",Scott Pilgrim
+Gideon Graves,"{`"Scott Pilgrim`"}",t,"{2615,24684,24685,24686}",Scott Pilgrim
+Red Goblin,{616},f,{23829},616
+Alice,"{`"Madness Returns`"}",f,"{5521,24687}",American McGee
+Godzilla,"{`"From The Series`"}",f,{24472},Godzilla: The Series
+Jim Gordon,"{`"Jim Gordon,? Batman`"}",f,{24032},Post-Flashpoint
+Playable Characters,"{`"Scott Pilgrim`"}",f,{24688},Scott Pilgrim
+Koichi Yamano,"{`"Babel (II|2)`"}",f,{24689},Babel II
+Vegeta,{Hyourinjutsu},f,{24690},Hyourinjutsu
+"Marcio `"Jet`" Naito",{Tough},t,{24691},Tough
+Albert,"{`"Albert ?\\(616\\)`"}",f,{24692},616
+Seal,"{`"Undead Unluck`"}",f,{24693},Undead Unluck
+Predators,"{`"Eyes Of The Demon`"}",f,{24694},Predator: Eyes Of The Demon
