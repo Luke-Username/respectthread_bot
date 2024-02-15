@@ -575,10 +575,10 @@ Cross ?bones,Crossbones,f
 Bruce Banner,Bruce Banner,f
 Scarlett? Witch,Scarlet Witch,f
 Cap(tain)? Marvel,Captain Marvel,f
-Ca?pt((ai|ia)n)? Americas?,Captain America,f
 M(i|a)koto Misaka|Misaka M(i|a)koto,Mikoto Misaka,f
 Indomi(n|t)us,Indominus Rex,f
 Hell ?boys?,Hellboy,f
+Ca?pt\.?((ai|ia)n)? Americas?,Captain America,f
 Vulture,Vulture,f
 Yellowjacket,Yellowjacket,f
 Darren Cross,Yellowjacket,f
@@ -13354,7 +13354,6 @@ Seal of Orichalcos,Seal of Orichalcos,f
 Legendary Dragons,Legendary Dragons,t
 Timaeus,Timaeus,f
 Luka,Luka,f
-SCP ?(-| )? ?343,SCP ?(-| )? ?343,f
 Calamity Trio,Calamity Trio,t
 Falyce,Falyce,f
 Hecate,Hecate,f
@@ -14296,3 +14295,10 @@ Koichi Yamano,Koichi Yamano,f
 "Marcio `"Jet`" Naito","Marcio `"Jet`" Naito",f
 Albert,Albert,f
 Seal,Seal,f
+SCP ?(-| )? ?343,SCP-343,f
+Kakarot,Kakarot,f
+Roberta,Roberta,f
+Barry Witherspoon,Barry Witherspoon,f
+Major Fatman,Major Fatman,f
+Wahlberg,Wahlberg,f
+Jack Xaver,Jack Xaver,f

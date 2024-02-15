@@ -14,25 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{}' WHERE rt_id_array='{3286}';
-UPDATE character SET rt_id_array='{3288,3313,3306,9352,12062,9349}' WHERE rt_id_array='{3288,3286,3313,3306,9352,12062,9349}';
+########################################
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Zeruel';
-
 ########################################
 
-UPDATE character_name SET default_name='SCP-343' WHERE default_name='SCP ?(-| )? ?343';
-UPDATE character SET default_name='SCP-343' WHERE default_name='SCP ?(-| )? ?343';
-
 ########################################
-
-UPDATE character_name SET name='Ca?pt\.?((ai|ia)n)? Americas?' WHERE name='Ca?pt((ai|ia)n)? Americas?';
-
-########################################
-
-DELETE FROM respectthread WHERE id=4697;
 
 ########################################
 

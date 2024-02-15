@@ -12380,12 +12380,12 @@ Goten,"{`"Dragon ?Ball`"}",f,{3291},Dragon Ball
 Goten,{DB(Z|S)?},f,{3291},Dragon Ball
 Trunks,"{`"Dragon ?Ball`"}",f,"{3284,22116}",Dragon Ball
 Trunks,{DB(Z|S)?},f,"{3284,22116}",Dragon Ball
-Gohan,"{`"Dragon ?Ball`"}",f,{3286},Dragon Ball
 Raditz,"{`"Dragon ?Ball`"}",t,"{3307,22789}",Dragon Ball
 Raditz,{DB(Z|S)?},t,"{3307,22789}",Dragon Ball
 Nappa,"{`"Dragon ?Ball`"}",t,"{3304,22828}",Dragon Ball
 Nappa,{DB(Z|S)?},t,"{3304,22828}",Dragon Ball
-Gohan,{DB(Z|S)?},f,{3286},Dragon Ball
+Gohan,"{`"Dragon ?Ball`"}",f,{},Dragon Ball
+Gohan,{DB(Z|S)?},f,{},Dragon Ball
 Mercenary Tao,"{`"Dragon ?Ball`"}",t,{3302},Dragon Ball
 Mercenary Tao,{DB(Z|S)?},t,{3302},Dragon Ball
 Frieza,"{`"Dragon ?Ball`"}",t,"{3281,3282}",Dragon Ball
@@ -17909,8 +17909,6 @@ Shinji Ikari,{Eva(ngelion)?},t,{3983},Neon Genesis Evangelion
 Shinji Ikari,{NGE},t,{3983},Neon Genesis Evangelion
 Shinji,{Eva(ngelion)?},f,{3983},Neon Genesis Evangelion
 Shinji,{NGE},f,{3983},Neon Genesis Evangelion
-Zeruel,{Eva(ngelion)?},t,"{3984,3985}",Neon Genesis Evangelion
-Zeruel,{NGE},t,"{3984,3985}",Neon Genesis Evangelion
 Ninja Slayer,"{`"Ninja Slayer From Animation`"}",t,{3986},Ninja Slayer From Animation
 Yamoto Koki,"{`"Ninja Slayer From Animation`"}",t,{3988},Ninja Slayer From Animation
 Dr. Aris,{Noblesse},t,{3989},Noblesse
@@ -26897,8 +26895,6 @@ Mickey Mouse,"{`"Three Musketeers`"}",f,{22054},"Mickey, Donald, Goofy: The Thre
 Niko Bellic,"{`"Grand Theft Auto`"}",t,{5604},GTA
 Love Machine,"{`"Summer Wars`"}",f,{4945},Summer Wars
 Spider-Men,"{Tobey|M(a|c)guire,Andrew|Garfield,Tom|Holland}",f,"{302,113,261}",Live-Action
-Z-Fighters,"{`"Dragon Ball`"}",t,"{3288,3286,3313,3306,9352,12062,9349}",Dragon Ball
-Z-Fighters,{DB(Z|S)?},t,"{3288,3286,3313,3306,9352,12062,9349}",Dragon Ball
 Lucifer Morningstar,"{`"Lucifer Morningstar ?\\(TV`"}",f,{},Lucifer 2018
 Livewire,"{`"DC Animated Universe`"}",f,{22055},DCAU
 Livewire,{Timmverse},f,{22055},DCAU
@@ -29039,7 +29035,6 @@ Timaeus,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23398},Yu-Gi-Oh!
 Timaeus,{Yugis?},f,{23398},Yu-Gi-Oh!
 Luka,{Bayonetta},f,{23399},Bayonetta
 Luka,"{`"Luka Redgrave`"}",f,{23399},Bayonetta
-SCP ?(-| )? ?343,{God},t,{23400},""
 Evelyn Wang,"{`"Everything Everywhere All At Once`"}",t,{22371},Everything Everywhere All At Once
 Teenage Mutant Ninja Turtles,{Mirage},f,"{23401,23391,23392,23393,23394}",Mirage Comics
 Xeranthemum,{Suggs(verse)?},f,"{23402,5992}",Suggsverse
@@ -29095,6 +29090,7 @@ Dragorin,"{`"Posts?(-| )?C(risis)?`"}",f,{23428},Post-Crisis
 Dragorin,"{`"New(-| )Earth`"}",f,{23428},Post-Crisis
 Dragorin,"{`"\\(DC( Comics)?\\)`"}",f,{23428},DC
 Dragorin,"{`"\\[DC( Comics)?\\]`"}",f,{23428},DC
+SCP-343,{God},t,{23400},""
 Shriek,"{`"DC Animated Universe`"}",f,{23429},DCAU
 Shriek,{DCAU},f,{23429},DCAU
 I.M. Meen,"{`"Animation Magic`"}",t,{23430},Animation Magic
@@ -31217,3 +31213,18 @@ Vegeta,{Hyourinjutsu},f,{24690},Hyourinjutsu
 Albert,"{`"Albert ?\\(616\\)`"}",f,{24692},616
 Seal,"{`"Undead Unluck`"}",f,{24693},Undead Unluck
 Predators,"{`"Eyes Of The Demon`"}",f,{24694},Predator: Eyes Of The Demon
+Z-Fighters,"{`"Dragon Ball`"}",t,"{3288,3313,3306,9352,12062,9349}",Dragon Ball
+Z-Fighters,{DB(Z|S)?},t,"{3288,3313,3306,9352,12062,9349}",Dragon Ball
+Zeruel,{Eva(ngelion)?},f,"{3984,3985}",Neon Genesis Evangelion
+Zeruel,{NGE},f,"{3984,3985}",Neon Genesis Evangelion
+Kakarot,"{`"Dragon ?Ball`"}",f,"{3288,3290,13282}",Dragon Ball
+Kakarot,{DB(Z|S)},f,"{3288,3290,13282}",Dragon Ball
+Roberta,"{`"Black Lagoon`"}",f,{24695},Black Lagoon
+Monica Rambeau,"{`"Marvel Cinematic Universe`"}",f,{24696},MCU
+Monica Rambeau,{MCU},f,{24696},MCU
+Bumi,"{`"Legend of Korra`"}",f,{24697},The Legend of Korra
+Barry Witherspoon,{616},f,{24698},616
+Major Fatman,{Spriggan},f,{24699},Spriggan
+Wahlberg,{Mashle},f,{24700},Mashle: Magic and Muscles
+Jack Xaver,"{`"Local Man`"}",f,{24701},Local Man
+Freddy Krueger,"{`"Black Flame`"}",f,{24702},Black Flame
