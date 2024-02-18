@@ -107,6 +107,63 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Invincible'],
+'Invincible',
+False,
+False,
+[
+    ['Invincible from Image Comics']
+],
+'Image Comics',
+'{1961,17671}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1asj4qx/starfire_dc_vs_invincible/kqqpru9/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lizzie Prince, Trinity! (DC Comics, Post-Flashpoint)', 'https://redd.it/1arvfjd')
+add_data(['Lizzie Prince'],
+'Lizzie Prince',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1arvfjd/respect_lizzie_prince_trinity_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, "Respect Dwayne LaFontant, The Verminator (DreamWorks'' Over The Hedge)", 'https://redd.it/1arzh9f')
+add_data(['Verminator'],
+'Verminator',
+False,
+True,
+[
+    ['Over The Hedge'], ['Dream ?Works'], ['Dwayne LaFontant']
+],
+'Over The Hedge',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1arzh9f/respect_dwayne_lafontant_the_verminator/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Metalhead (IDW TMNT)', 'https://redd.it/1at7f70')
+add_data(['Metalhead'],
+'Metalhead',
+False,
+False,
+[
+    ['Teenaged? Mutant Ninja Turtles?', 'IDW'], ['TMNT', 'IDW']
+],
+'IDW',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1at7f70/respect_metalhead_idw_tmnt/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
