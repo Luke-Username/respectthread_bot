@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 14865, 'Respect City Hunter (Predator 2)', 'https://redd.it/1auwrxa')
+
+########################################
+
 add_data(['Invincible'],
 'Invincible',
 False,
@@ -133,6 +137,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1arvfjd/respect_lizzie_prince_trinity_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Christopher Kent, Superman! (Pre-Flashpoint Earth 16)', 'https://redd.it/1au0v4y')
+add_data(['Christopher Kent'],
+'Christopher Kent',
+False,
+False,
+[
+    ['Pre(-| )?Flashpoint'], ['Earth 16']
+],
+'Pre-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
@@ -163,6 +182,82 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1at7f70/respect_metalhead_idw_tmnt/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ken Usato (The Wrong Way to Use Healing Magic (Manga))', 'https://redd.it/1at7f70')
+add_data(['Ken Usato'],
+'Ken Usato',
+False,
+False,
+[
+    ['The Wrong Way to Use Healing Magic']
+],
+'The Wrong Way to Use Healing Magic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1au4cj0/respect_ken_usato_the_wrong_way_to_use_healing/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Blurin (The Wrong Way to Use Healing Magic (Manga))', 'https://redd.it/1au4cjr')
+add_data(['Blurin'],
+'Blurin',
+False,
+False,
+[
+    ['The Wrong Way to Use Healing Magic']
+],
+'The Wrong Way to Use Healing Magic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nea (The Wrong Way to Use Healing Magic (Manga))', 'https://redd.it/1au4ckz')
+add_data(['Nea'],
+'Nea',
+False,
+False,
+[
+    ['The Wrong Way to Use Healing Magic']
+],
+'The Wrong Way to Use Healing Magic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1au4ckz/respect_nea_the_wrong_way_to_use_healing_magic/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Chatchka (Cabela''s Survival: Shadows of Katmai)", 'https://redd.it/1aubdiv')
+add_data(['Chatchka'],
+'Chatchka',
+False,
+False,
+[
+    ['Cabelas?']
+],
+"Cabela''s",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anton Chigurh (No Country For Old Men)', 'https://redd.it/1avjj3h')
+add_data(['Anton Chigurh'],
+'Anton Chigurh',
+False,
+True,
+[
+    ['No Country For Old Men']
+],
+'No Country For Old Men',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1avjj3h/respect_anton_chigurh_no_country_for_old_men/
 
 ########################################
 
