@@ -107,6 +107,98 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 21811, 'Respect Mahito! (Jujutsu Kaisen)', 'https://redd.it/1ayjuxi')
+update_respectthread(cur, 2947, 'Respect Klonoa (Klonoa)', 'https://redd.it/1awgfi2')
+update_respectthread(cur, 21471, 'Respect Rapid Rabbit and Honey Trap! (Superwomen in Love!)', 'https://redd.it/1ax4p8t')
+update_respectthread(cur, 218, 'Respect The Indominus Rex (Jurassic World)', 'https://redd.it/1axu0az')
+
+########################################
+
+add_data(['Sanji'],
+'Sanji',
+False,
+False,
+[
+    ['Soma', 'Yukihira']
+],
+'Shokugeki no Sanji',
+'{22629}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1axufad/soma_yukihira_or_sanji_from_one_piece/krqewet/?context=3
+
+########################################
+
+add_data(['Thor Odinson'],
+'Thor Odinson',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{1981,21155}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ayet96/thor_odinson_vs_thanos_the_titan_vs_apocalypse/kruat8r/?context=3
+
+########################################
+
+add_data(['Black ?Panther'],
+'Black Panther',
+False,
+False,
+[
+    ['heart(-| )shaped herb']
+],
+'616',
+'{2019}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ryomen Sukuna, the King of Curses! (Jujutsu Kaisen)', 'https://redd.it/1awdpjn')
+add_data(['Sukuna'],
+'Sukuna',
+False,
+True,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK'], ['Ryomen']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1awdpjn/respect_ryomen_sukuna_the_king_of_curses_jujutsu/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rose (The Wrong Way to Use Healing Magic (Manga))', 'https://redd.it/1ax9zru')
+add_data(['Rose'],
+'Rose',
+False,
+False,
+[
+    ['The Wrong Way to Use Healing Magic']
+],
+'The Wrong Way to Use Healing Magic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ax9zru/respect_rose_the_wrong_way_to_use_healing_magic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rexy (Jurassic Park)', 'https://redd.it/1ay0yru')
+add_data(['Rexy'],
+'Rexy',
+False,
+False,
+[
+    ['Jurassic Park']
+],
+'Jurassic Park',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ay0yru/respect_rexy_jurassic_park/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

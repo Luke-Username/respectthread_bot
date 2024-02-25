@@ -14,7 +14,14 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='En(-| )Sabah(-| )Nur' WHERE name='En Sabah Nur';
+DELETE FROM character_name WHERE name='Black Panther';
+DELETE FROM character_name WHERE name='Blackpanther';
+
 ########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='Klonoa';
+UPDATE character SET displayed_version_name='' WHERE default_name='Klonoa';
 
 ########################################
 
