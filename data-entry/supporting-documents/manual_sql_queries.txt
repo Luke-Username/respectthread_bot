@@ -19,6 +19,8 @@ UPDATE character SET rt_id_array='{?, 14497}' WHERE rt_id_array='{14497}';
 
 ########################################
 
+DELETE FROM character WHERE default_name='Jones' AND displayed_version_name='The Matrix';
+
 ########################################
 
 ########################################
