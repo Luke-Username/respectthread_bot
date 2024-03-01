@@ -107,6 +107,65 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 14497, 'Respect the Science Ninja Team [Science Ninja Team Gatchaman II and Fighter]', 'https://redd.it/1b2qtjy')
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Cocaine Bear (Cocaine Bear)', 'https://redd.it/1b1whph')
+add_data(['Cocaine Bear'],
+'Cocaine Bear',
+False,
+True,
+[
+    ['Cocaine Bear ?\(Cocaine Bear\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b1whph/respect_the_cocaine_bear_cocaine_bear/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doofy Gilmore, The Killer (Scary Movie)', 'https://redd.it/1b2mmsg')
+add_data(['Doofy Gilmore'],
+'Doofy Gilmore',
+False,
+True,
+[
+    ['Scary Movie']
+],
+'Scary Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b2mmsg/respect_doofy_gilmore_the_killer_scary_movie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Harry Warden, The Miner (My Bloody Valentine 1981)', 'https://redd.it/1b3uljl')
+add_data(['Harry Warden'],
+'Harry Warden',
+False,
+True,
+[
+    ['My Bloody Valentine'], ['The Miner']
+],
+'My Bloody Valentine',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['The Miner'],
+'The Miner',
+False,
+False,
+[
+    ['My Bloody Valentine'], ['The Miner']
+],
+'My Bloody Valentine',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b3uljl/respect_harry_warden_the_miner_my_bloody/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
