@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 14497, 'Respect the Science Ninja Team [Science Ninja Team Gatchaman II and Fighter]', 'https://redd.it/1b2qtjy')
+update_respectthread(cur, 6112, 'Respect Victoria Dallon! (Worm/Ward)', 'https://redd.it/1b51h8h')
 
 ########################################
 
@@ -165,6 +166,53 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1b3uljl/respect_harry_warden_the_miner_my_bloody/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alexander (Mystic Blade', 'https://redd.it/1b4f6ui')
+add_data(['Alexander'],
+'Alexander',
+False,
+False,
+[
+    ['Mystic Blade']
+],
+'Mystic Blade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b4f6ui/respect_alexander_mystic_blade/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Phantom Killer (The Town That Dreaded Sundown 1976)', 'https://redd.it/1b4hutx')
+add_data(['Phantom Killer'],
+'Phantom Killer',
+False,
+False,
+[
+    ['The Town That Dreaded Sundown']
+],
+'The Town That Dreaded Sundown',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b4hutx/respect_the_phantom_killer_the_town_that_dreaded/
+
+########################################
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kim Soo-hyun (I Saw the Devil)', 'https://redd.it/1b52584')
+add_data(['Kim Soo(-| )hyun'],
+'Kim Soo-hyun',
+False,
+False,
+[
+    ['I Saw the Devil']
+],
+'I Saw the Devil',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b52584/respect_kim_soohyun_i_saw_the_devil/
 
 ########################################
 
