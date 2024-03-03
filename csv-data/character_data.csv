@@ -1258,7 +1258,6 @@ Warriors Three,{199999},f,{272},MCU
 Warriors Three,{movie},f,{272},MCU
 Warriors Three,{movies},f,{272},MCU
 Warriors Three,{Ragnarok},f,{272},MCU
-Jones,{Agent},f,{275},The Matrix
 Agent Johnson,{Matrix},t,{275},The Matrix
 Trinity,{Matrix},f,{279},The Matrix
 Tim,"{`"Monty Python`"}",f,{286},Monty Python and the Holy Grail
@@ -15060,12 +15059,7 @@ Maya,"{`"Border ?lands?`"}",f,{14493},Borderlands
 Tyreen Calypso,"{`"Border ?lands?`"}",t,{14494},Borderlands
 Racer X,"{`"Speed Racer`"}",f,{14495},Speed Racer
 Kanade Kasugai,"{`"Shoujo Kishidan x Knight Tale`"}",t,{14496},Shoujo Kishidan x Knight Tale
-Science Ninja Team Gatchaman,"{`"Science Ninja Team Gatchaman`"}",t,{14497},""
-Ken the Eagle,"{`"Science Ninja Team Gatchaman`"}",t,{14497},Science Ninja Team Gatchaman
-Joe the Condor,"{`"Science Ninja Team Gatchaman`"}",t,{14497},Science Ninja Team Gatchaman
-Jun the Swan,"{`"Science Ninja Team Gatchaman`"}",t,{14497},Science Ninja Team Gatchaman
-Jinpei the Swallow,"{`"Science Ninja Team Gatchaman`"}",t,{14497},Science Ninja Team Gatchaman
-Ryu the Owl,"{`"Science Ninja Team Gatchaman`"}",t,{14497},Science Ninja Team Gatchaman
+Science Ninja Team Gatchaman,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",""
 Sahara Sanjūrō,"{`"Sahara the Flower Samurai`"}",t,{14498},Sahara the Flower Samurai
 Sahara Sanjūrō,"{`"Hanazamurai no Sahara`"}",t,{14498},Sahara the Flower Samurai
 Richard Hawk,"{`"Metal Wolf`"}",t,{14499},Metal Wolf Chaos
@@ -31260,3 +31254,17 @@ Godzilla,"{`"Godzilla vs\\.? Destoroyah`"}",f,{},Godzilla vs. Destoroyah
 Joseph Rambo,{616},f,{24715},616
 Rentaro,"{`"100 Girlfriends`"}",f,{24716},100 ?(Girlfriends|Kanojo)
 Gigantosaurus,"{`"Ninja Gaiden`"}",f,{24716},Ninja Gaiden
+Ken the Eagle,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",Science Ninja Team Gatchaman
+Joe the Condor,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",Science Ninja Team Gatchaman
+Jun the Swan,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",Science Ninja Team Gatchaman
+Jinpei the Swallow,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",Science Ninja Team Gatchaman
+Ryu the Owl,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",Science Ninja Team Gatchaman
+Cocaine Bear,"{`"Cocaine Bear ?\\(Cocaine Bear\\)`"}",t,{24718},""
+Doofy Gilmore,"{`"Scary Movie`"}",t,{24719},Scary Movie
+Harry Warden,"{`"My Bloody Valentine`"}",t,{24720},My Bloody Valentine
+Harry Warden,"{`"The Miner`"}",t,{24720},My Bloody Valentine
+The Miner,"{`"My Bloody Valentine`"}",f,{24720},My Bloody Valentine
+The Miner,"{`"The Miner`"}",f,{24720},My Bloody Valentine
+Alexander,"{`"Mystic Blade`"}",f,{24721},Mystic Blade
+Phantom Killer,"{`"The Town That Dreaded Sundown`"}",f,{24722},The Town That Dreaded Sundown
+Kim Soo-hyun,"{`"I Saw the Devil`"}",f,{24723},I Saw the Devil
