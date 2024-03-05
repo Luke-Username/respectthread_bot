@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Organization (The Cabin in the Woods)', 'https://redd.it/1b6fc5u')
+add_data(['Cabin in the Woods'],
+'Cabin in the Woods',
+False,
+True,
+[
+    ['2012']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b6fc5u/respect_the_organization_the_cabin_in_the_woods/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Fouke Monster (The Legend of Boggy Creek)', 'https://redd.it/1b7c4r1')
+add_data(['Fouke Monster'],
+'Fouke Monster',
+False,
+False,
+[
+    ['Legend of Boggy Creek']
+],
+'The Legend of Boggy Creek',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b7c4r1/respect_the_fouke_monster_the_legend_of_boggy/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
