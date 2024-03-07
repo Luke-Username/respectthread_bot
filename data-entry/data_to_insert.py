@@ -137,6 +137,108 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Christopher Chance, The Human Target (DC/Vertigo)', 'https://redd.it/1b8a41i')
+add_data(['Christopher Chance'],
+'Christopher Chance',
+False,
+True,
+[
+    ['DC'], ['Vertigo']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b8a41i/respect_christopher_chance_the_human_target/
+
+add_data(['Human Target'],
+'Human Target',
+False,
+False,
+[
+    ['Vertigo']
+],
+'Vertigo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b8a41i/respect_christopher_chance_the_human_target/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miles Warren, aka Carrion! (Marvel, 616)', 'https://redd.it/1b7kxjp')
+add_data(['Miles Warren'],
+'Miles Warren',
+False,
+False,
+[
+    ['Carrion']
+],
+'Carrion',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b7kxjp/respect_miles_warren_aka_carrion_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Brian Robeson (Hatchet Novels)', 'https://redd.it/1b7q6ac')
+add_data(['Brian Robeson'],
+'Brian Robeson',
+False,
+True,
+[
+    ['Hatchet']
+],
+'Hatchet',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b7q6ac/respect_brian_robeson_hatchet_novels/
+
+########################################
+
+id = get_rt_id(cur, 'Respect You [Enemy Approaching (Extended Version) - Undertale]', 'https://redd.it/1b7vr3c')
+add_data(['You'],
+'You',
+False,
+False,
+[
+    ['Enemy Approaching', 'Extended Version', 'Undertale']
+],
+'Enemy Approaching (Extended Version) - Undertale',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b7vr3c/respect_you_enemy_approaching_extended_version/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Noble Dragon (Discworld - Guards! Guards!)', 'https://redd.it/1b81gft')
+add_data(['Noble Dragon'],
+'Noble Dragon',
+False,
+False,
+[
+    ['Discworld'], ['Guards! Guards!']
+],
+'Discworld',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b81gft/respect_the_noble_dragon_discworld_guards_guards/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Unknown (Glasgow Wonka Experience)', 'https://redd.it/1b85y6m')
+add_data(['The Unknown'],
+'The Unknown',
+False,
+False,
+[
+    ['Glasgow Wonka Experience']
+],
+'Glasgow Wonka Experience',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b85y6m/respect_the_unknown_glasgow_wonka_experience/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
