@@ -14,11 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Garfield';
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('C(th|t|h)u(tu)?lh?u', 'Eye of Cthulhu', -7);
 
 ########################################
 

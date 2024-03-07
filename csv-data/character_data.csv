@@ -9174,10 +9174,6 @@ Gyaos,"{`"Dark ?Horse`"}",f,{1916},Dark Horse Comics
 Señor Gusano,"{`"Dark ?Horse`"}",t,{1917},Dark Horse Comics
 Viras,"{`"Dark ?Horse`"}",f,{1918},Dark Horse Comics
 Zigra,"{`"Dark ?Horse`"}",f,{1919},Dark Horse Comics
-Garfield,{comics?},t,{2764},Comics
-Garfield,"{`"\\[Garfield\\]`"}",t,{2764},Comics
-Garfield,"{`"\\(Garfield\\)`"}",t,{2764},Comics
-Garfield,"{`"vs.? Garfield`"}",t,{2764},Comics
 Odie,{Garfield},t,{2765},Garfield
 Blood Hunt,{Graveyard},f,{1936},Graveyard Comics
 Killing Spree,{Graveyard},f,{1937},Graveyard Comics
@@ -9229,6 +9225,7 @@ Johann Kraus,"{`"Hell ?boy`"}",t,{1955},Hellboy
 Johann Kraus,{B.?R.?P.?D},t,{1955},Hellboy
 Johann Kraus,{Mignola(verse)?},t,{1955},Hellboy
 Composite He-Man,{DC},t,"{1909,21878}",""
+Garfield,{comics?},f,{2764},Comics
 Johann Kraus,{comics?},t,{1955},Hellboy
 Johann Kraus,"{`"Dark ?Horse`"}",t,{1955},Hellboy
 Landis Pope,"{`"Hell ?boy`"}",t,{1956},Hellboy
@@ -15724,7 +15721,6 @@ Deathstroke,"{`"\\(Titans\\) ?Death(-| )?stroke`"}",f,{13118},Titans
 Deathstroke,"{`"Titans Slade`"}",f,{13118},Titans
 Deathlok,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",f,{13119},MCU
 Another Zero-One,"{`"Agents of S\\.?H\\.?I\\.?E\\.?L\\.?D`"}",t,{13120},Kamen Rider
-Garfield,"{`"Lumpy Touch`"}",f,{13121},Lumpy Touch
 Grim Knight,{Rebirth},t,{13122},Rebirth
 Chain Sumeragi,"{`"Kekkai Sensen`"}",t,{13123},Kekkai Sensen
 Chain Sumeragi,"{`"Blood Blockade Battlefront`"}",t,{13123},Kekkai Sensen
@@ -15768,6 +15764,7 @@ Equuleus Shōko,"{`"Saintia Sh(o|ō)u?`"}",t,{13141},Saint Seiya
 Pegasus Seiya,{Seiya},t,"{4493,13142}",Saint Seiya
 Saint Seiya,"{`"Saint Seiya vs`"}",f,"{4493,13142}",Saint Seiya
 Speed-o'-Sound Sonic,"{`"One(-| )Punch Man`"}",t,{4114},One Punch Man
+Garfield,"{`"Lumpy Touch`"}",f,{13121},Lumpy Touch
 Saint Seiya,"{`"vs\\.? Saint Seiya`"}",f,"{4493,13142}",Saint Seiya
 Leopold Vermillion,"{`"Black ?Clover`"}",t,{13143},Black Clover
 Great Gazoo,{Charlton},f,{13144},Charlton Comics
@@ -22327,7 +22324,6 @@ Enoby,"{`"My Immortal`"}",t,{6312},My Immortal
 Setsuna Kiyoura,"{`"Naruto Genkyouien`"}",f,{6313},Naruto Genkyouien
 Poe R.R. Acti,"{`"One Foot - Another Multiverse SI`"}",t,{6314},One Foot - Another Multiverse SI
 Ranma Saotome,"{`"Right Moments`"}",f,{6315},Right Moments
-Garfield,"{`"Shakespeare ?Hemmingway`"}",f,{6316},ShakespeareHemmingway
 The SI,"{`"Sleeping With the Girls`"}",f,{6318},Sleeping With the Girls
 Walker,"{`"Sleeping With the Girls`"}",f,{6318},Sleeping With the Girls
 Mongolian Lunch Lady,"{`"Sonic High School`"}",t,{6319},Sonic High School
@@ -25152,7 +25148,6 @@ Boogeyman,"{`"Rise of the Guardians`"}",f,{21151},Rise of the Guardians
 Billy Chapman,"{`"Deadly Night`"}",t,{21152},"Silent Night, Deadly Night"
 Santa,"{`"Christmas Chronicles`"}",f,{21153},The Christmas Chronicles
 Snowman,"{`"The Christmas Light`"}",f,{21154},The Christmas Light
-Garfield,"{`"Spider(-| )?Mans?`"}",f,{},Spider-Man
 King Thor,{Marvel},t,"{7512,21155}",Marvel
 King Thor,{14412},f,{7512},14412
 Spider-Man,"{`"Spider(-| )?Mans? (film|movie)s?`"}",f,"{302,113,261}",Live-Action
@@ -25179,6 +25174,7 @@ Huntress,"{`"\\(DC( Comics)?\\)`"}",f,{1564},DC
 Pied Piper,"{`"\\(DC( Comics)?\\)`"}",f,{1602},""
 Rune King Thor,{616},t,"{24263,21155}",616
 Grinch,"{`"Jim Carrey`"}",f,{6161},""
+Garfield,"{`"Spider(-| )?Mans?`"}",f,{},Spider-Man
 Daredevil,"{`"Daredevil.+TV(-| )Show`"}",f,{1289},MCU
 Daredevil,"{`"TV(-| )Show.+Daredevil`"}",f,{1289},MCU
 Spider-Man,"{`"No way home`"}",f,{261},MCU
@@ -29100,7 +29096,6 @@ Godwynn,{NOTH},f,{23439},Nocturne of the Heaven
 Godwynn,{Kamigakari},f,{23439},Nocturne of the Heaven
 Godwynn,{Nijisanji},f,{23439},Nocturne of the Heaven
 St. George,"{`"Ex(-| )Heroes`"}",f,{23440},Ex-Heroes
-Garfield,"{`"Animation Picture Company`"}",f,{23441},The Animation Picture Company
 Saiko Bichitaru,{SMG4},t,{23442},SMG4 Bloopers
 Saiko Bichitaru,{SuperMarioGlitchy4},t,{23442},SMG4 Bloopers
 Billy,"{`"Undead Unluck`"}",f,{23443},Undead Unluck
@@ -29141,6 +29136,7 @@ Blue-Eyes White Dragon,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23464},Yu-Gi-Oh!
 Blue-Eyes,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23464},Yu-Gi-Oh!
 Rallen,{Spectrobes},f,{23465},Spectrobes
 Isaac,{Netflix},f,"{6574,23466}",Netflix's Castlevania
+Garfield,"{`"Animation Picture Company`"}",f,{23441},The Animation Picture Company
 Whitebeard,{Kaido},f,{4089},One Piece
 Wolverine,"{`"\\(Animal\\)`"}",f,{},Animal
 Zeus,"{`"Zeus, DC`"}",f,{17373},DC
@@ -29350,7 +29346,6 @@ Emily,"{`"Until Dawn`"}",f,{23611},Until Dawn
 Chuck Liddell,{Duralast},f,{23612},Duralast Commercials
 Chuck Liddell,{Commercials?},f,{23612},Duralast Commercials
 Demitri Maximoff,{Darkstalkers},t,{23613},Darkstalkers
-Garfield,"{`"Fist of the B0rf star`"}",f,{23614},Fist of the B0rf star
 Garfielf,"{`"Fist of the B0rf star`"}",f,{23614},Fist of the B0rf star
 Doomed,"{`"(Post(-| ))Flash(-| )?point`",Reiser}",f,{23615},Post-Flashpoint
 Captain Nemo,"{`"League of Extraordinary Gentlemen`"}",f,{23616},The League of Extraordinary Gentlemen
@@ -29649,7 +29644,6 @@ Zatanna,{Rebirth},f,{1710},Post-Crisis / New 52
 Zatanna,{PC},f,{1710},Post-Crisis / New 52
 Zatanna,"{`"Post(-| )?C(risis)?`"}",f,{1710},Post-Crisis / New 52
 Zatanna,"{`"New(-| )Earth`"}",f,{1710},Post-Crisis / New 52
-Garfield,"{`"live(-| )action`"}",f,{23815},Live-Action
 Zatanna,"{`"(DC( Comics)?)`"}",f,"{1710,23813}",DC
 Gregor Eisenhorn,{(WH)?40K},t,{23816},Warhammer 40k
 Gregor Eisenhorn,{Warhammer},t,{23816},Warhammer 40k
@@ -29762,7 +29756,6 @@ Beyonder,"{`"Moon Girl and Devil Dinosaur`"}",f,{23868},Moon Girl and Devil Dino
 Blitzo,"{`"Helluva Boss`"}",t,{23869},Helluva Boss
 Blitzo,"{`"I\\.M\\.P`"}",t,{23869},Helluva Boss
 Blitzo,{Moxxie},t,{23869},Helluva Boss
-Garfield,"{`"Garfield Originals`"}",f,{23870},Garfield Originals
 Nolt Marcus,"{`"Vampire Hunter D`"}",t,{23871},Vampire Hunter D
 Lara Croft,"{`"Shadow of the Tomb Raider`"}",t,"{11094,22643,22644}",Tomb Raider
 Lara Croft,{Reboot(ed)?},t,"{11094,22643,22644}",Tomb Raider
@@ -31268,3 +31261,21 @@ The Miner,"{`"The Miner`"}",f,{24720},My Bloody Valentine
 Alexander,"{`"Mystic Blade`"}",f,{24721},Mystic Blade
 Phantom Killer,"{`"The Town That Dreaded Sundown`"}",f,{24722},The Town That Dreaded Sundown
 Kim Soo-hyun,"{`"I Saw the Devil`"}",f,{24723},I Saw the Devil
+Garfield,"{`"\\[Garfield\\]`"}",f,{2764},Comics
+Garfield,"{`"\\(Garfield\\)`"}",f,{2764},Comics
+Garfield,"{`"vs.? Garfield`"}",f,{2764},Comics
+Garfield,"{`"Shakespeare ?Hemmingway`"}",f,{6316},ShakespeareHemmingway
+Garfield,"{`"Fist of the B0rf star`"}",f,{23614},Fist of the B0rf star
+Garfield,"{`"live(-| )action`"}",f,{23815},Live-Action
+Garfield,"{`"Garfield Originals`"}",f,{23870},Garfield Originals
+Cabin in the Woods,{2012},t,{24724},""
+Fouke Monster,"{`"Legend of Boggy Creek`"}",f,{24725},The Legend of Boggy Creek
+Christopher Chance,{DC},t,{24726},DC
+Christopher Chance,{Vertigo},t,{24726},DC
+Human Target,{Vertigo},f,{24726},Vertigo
+Miles Warren,{Carrion},f,{24727},Carrion
+Brian Robeson,{Hatchet},t,{24728},Hatchet
+You,"{`"Enemy Approaching`",`"Extended Version`",Undertale}",f,{24729},Enemy Approaching (Extended Version) - Undertale
+Noble Dragon,{Discworld},f,{24730},Discworld
+Noble Dragon,"{`"Guards! Guards!`"}",f,{24730},Discworld
+The Unknown,"{`"Glasgow Wonka Experience`"}",f,{24731},Glasgow Wonka Experience
