@@ -107,6 +107,106 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Fire Lord'],
+'Fire Lord',
+False,
+False,
+[
+    ['Herald'], ['Galactus']
+],
+'616',
+'{2082}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1b95syh/natsu_dragneel_vs_14_fire_users/kttnvqz/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Queen Anna of Arendelle (Frozen)', 'https://redd.it/1b667wx')
+add_data(['Anna'],
+'Anna',
+False,
+False,
+[
+    ['\(Frozen\)']
+],
+'Frozen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1b9o5iy/anna_frozen_vs_moana_moana/ktwx87u/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Solomon Grundy! (DC Comics, Post-Crisis)', 'https://redd.it/1b92m7s')
+add_data(['Solomon Grundy'],
+'Solomon Grundy',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b92m7s/respect_solomon_grundy_dc_comics_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shinegreymon ! (digimon Savers)', 'https://redd.it/1b93021')
+add_data(['ShineGreymon'],
+'ShineGreymon',
+False,
+False,
+[
+    ['Digimon']
+],
+'Digimon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b93021/respect_shinegreymon_digimon_savers/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (AVP Rift War)', 'https://redd.it/1b9do6z')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Rift War']
+],
+'Aliens vs. Predators: Rift War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b9do6z/respect_the_predators_avp_rift_war/
+
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Rift War']
+],
+'Aliens vs. Predators: Rift War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b9do6z/respect_the_predators_avp_rift_war/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Karr Nuq Sin! (Star Wars Canon)', 'https://redd.it/1b9g4iq')
+add_data(['Karr Nuq Sin'],
+'Karr Nuq Sin',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1b9g4iq/respect_karr_nuq_sin_star_wars_canon/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
