@@ -19547,8 +19547,6 @@ Solar Lance,"{`"Children of a Dead Earth`"}",f,{5552},Children of a Dead Earth
 Crono,"{`"Chrono Trigger`"}",f,{5553},Chrono Trigger
 Crono,{Marle},f,{5553},Chrono Trigger
 Crono,{Lucca},f,{5553},Chrono Trigger
-Lavos,"{`"Chrono Trigger`"}",t,{5553},Chrono Trigger
-Lavos,{core},t,{5553},Chrono Trigger
 Marle,"{`"Chrono Trigger`"}",t,{5553},Chrono Trigger
 Lucca,"{`"Chrono Trigger`"}",f,{5553},Chrono Trigger
 Robo,"{`"Chrono Trigger`"}",f,{5553},Chrono Trigger
@@ -27771,10 +27769,10 @@ Pedro,"{`"Tower of God`"}",f,{22612},Tower of God
 Kojika Hanamaki,"{`"Ningen Series`"}",t,{22613},Ningen Series
 Seiya,"{`"Cautious Hero`"}",f,"{20565,22609,22628}",Cautious Hero
 Bizarro-Girl,"{`"Pre(-| )?Crisis`"}",f,{22587},Pre-Crisis
+Solomon Grundy,"{`"\\(DC( Comics)?\\)`"}",t,"{24733,24636,22588}",DC
 Bizarro-Girl,{Earth-One},f,{22587},Pre-Crisis
-Solomon Grundy,"{`"\\(DC( Comics)?\\)`"}",t,"{24636,22588}",DC
-Solomon Grundy,"{`"\\[DC( Comics)?\\]`"}",t,"{24636,22588}",DC
 The Doctor,{TARDIS},f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
+Solomon Grundy,"{`"\\[DC( Comics)?\\]`"}",t,"{24733,24636,22588}",DC
 Dagon,"{`"Jujus?t?s?u Kaisen`"}",f,{22615},Jujutsu Kaisen
 Dagon,{JJK},f,{22615},Jujutsu Kaisen
 Hunter,"{`"Fossil Fighters`"}",f,{22616},Fossil Fighters
@@ -31279,3 +31277,23 @@ You,"{`"Enemy Approaching`",`"Extended Version`",Undertale}",f,{24729},Enemy App
 Noble Dragon,{Discworld},f,{24730},Discworld
 Noble Dragon,"{`"Guards! Guards!`"}",f,{24730},Discworld
 The Unknown,"{`"Glasgow Wonka Experience`"}",f,{24731},Glasgow Wonka Experience
+Lavos,"{`"Chrono Trigger`"}",f,{5553},Chrono Trigger
+Lavos,{core},f,{5553},Chrono Trigger
+Fire Lord,{Herald},f,{2082},616
+Fire Lord,{Galactus},f,{2082},616
+Loki,{Warframe},f,{},Warframe
+Lavos,{Warframe},f,{},Warframe
+Anna,"{`"\\(Frozen\\)`"}",f,{24732},Frozen
+The Juggernaut,"{`"republic juggernaut`"}",f,{},Republic
+Hulk,"{`"Incredible Hulk`",2008}",f,{236},MCU
+Solomon Grundy,{PC},f,{24733},Post-Crisis
+Solomon Grundy,"{`"Posts?(-| )?C(risis)?`"}",f,{24733},Post-Crisis
+Solomon Grundy,"{`"New(-| )Earth`"}",f,{24733},Post-Crisis
+ShineGreymon,{Digimon},f,{24734},Digimon
+Predator,"{`"Rift War`"}",f,{24735},Aliens vs. Predators: Rift War
+Predators,"{`"Rift War`"}",f,{24735},Aliens vs. Predators: Rift War
+Karr Nuq Sin,"{`"S(tar )?Wars`"}",t,{24736},Star Wars
+Bumblebee,"{`"Rise of the Beasts`"}",f,{24737},Rise of the Beasts
+Rodin,{Bayonetta},f,{24738},Bayonetta
+Failsafe,"{`"Failsafe ?\\(DC\\)`"}",f,{24739},DC
+Failsafe,"{`"Failsafe vs`",Batman}",f,{24739},DC
