@@ -14,7 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Lavos';
+
 ########################################
+
+UPDATE character_name SET name='J\.? ?Jonah\.? Jameson' WHERE name='J\\.? ?Jonah\\.? Jameson'; --https://www.reddit.com/r/whowouldwin/comments/1bc3wjj/composite_616_j_jonah_jameson_vs_the_2012_mcu/kudbgr4/?context=3
 
 ########################################
 

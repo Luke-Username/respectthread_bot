@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2053, 'Respect Wilson Fisk, the Kingpin (Marvel Comics, Earth 616)', 'https://redd.it/1bbmc1h')
+
+########################################
+
 add_data(['Fire Lord'],
 'Fire Lord',
 False,
@@ -118,6 +122,32 @@ False,
 '{2082}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1b95syh/natsu_dragneel_vs_14_fire_users/kttnvqz/?context=3
+
+########################################
+
+add_data(['Loki'],
+'Loki',
+False,
+False,
+[
+    ['Warframe']
+],
+'Warframe',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1baxht0/what_is_the_weakest_warframe_that_can_still_beat/ku749lz/?context=3
+
+add_data(['Lavos'],
+'Lavos',
+False,
+False,
+[
+    ['Warframe']
+],
+'Warframe',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1baxht0/what_is_the_weakest_warframe_that_can_still_beat/ku749lz/?context=3
 
 ########################################
 
@@ -133,6 +163,34 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1b9o5iy/anna_frozen_vs_moana_moana/ktwx87u/?context=3
+
+########################################
+
+add_data(['The Juggernaut'],
+'The Juggernaut',
+False,
+False,
+[
+    ['republic juggernaut']
+],
+'Republic',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1bc2fb0/an_atat_vs_a_republic_juggernaut/kuczesf/?context=3
+
+########################################
+
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['Incredible Hulk', '2008']
+],
+'MCU',
+'{236}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1bc54od/saxton_hale_vs_basic_hulk_incredible_hulk_2008/kudi45v/?context=3
 
 ########################################
 
@@ -206,6 +264,53 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1b9g4iq/respect_karr_nuq_sin_star_wars_canon/
+
+########################################
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bumblebee (Transformers Movie Reboot Universe)', 'https://redd.it/1baya6s')
+add_data(['Bumblebee'],
+'Bumblebee',
+False,
+False,
+[
+    ['Rise of the Beasts']
+],
+'Rise of the Beasts',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1baya6s/respect_bumblebee_transformers_movie_reboot/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rodin, the Infinite One (Bayonetta)', 'https://redd.it/1bb9bfl')
+add_data(['Rodin'],
+'Rodin',
+False,
+False,
+[
+    ['Bayonetta']
+],
+'Bayonetta',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bb9bfl/respect_rodin_the_infinite_one_bayonetta/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Failsafe! (DC Comics)', 'https://redd.it/1bbbxnt')
+add_data(['Failsafe'],
+'Failsafe',
+False,
+False,
+[
+    ['Failsafe ?\(DC\)'], ['Failsafe vs', 'Batman']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bbbxnt/respect_failsafe_dc_comics/
 
 ########################################
 
