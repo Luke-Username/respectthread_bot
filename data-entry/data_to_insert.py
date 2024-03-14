@@ -121,6 +121,32 @@ False,
 )
 #
 
+########################################
+
+id = get_rt_id(cur, 'Respect Niccolai Tepes, The Mad Monk (DC, Post Crisis)', 'https://redd.it/1beny54')
+add_data(['Niccolai Tepes'],
+'Niccolai Tepes',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Niccolai Tepes'],
+'Niccolai Tepes',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1beny54/respect_niccolai_tepes_the_mad_monk_dc_post_crisis/
 
 ########################################
 
@@ -181,6 +207,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1bd06mk/respect_uma_beast_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wedding Dress Grumer! (Bakuage Sentai BoonBoomger)', 'https://redd.it/1bdf6mi')
+add_data(['Wedding Dress Grumer'],
+'Wedding Dress Grumer',
+False,
+True,
+[
+    ['Bakuage Sentai BoonBoomger']
+],
+'Bakuage Sentai BoonBoomger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bdf6mi/respect_wedding_dress_grumer_bakuage_sentai/
 
 ########################################
 

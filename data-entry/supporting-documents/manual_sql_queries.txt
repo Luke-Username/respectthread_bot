@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Raoh! (Fist of the North Star [1986])', 'https://redd.it/1bdm9xb'); SELECT * FROM respectthread WHERE link='https://redd.it/1bdm9xb';
+UPDATE character SET rt_id_array='{?, 3388}' WHERE rt_id_array='{3388}';
+
 ########################################
 
 ########################################
