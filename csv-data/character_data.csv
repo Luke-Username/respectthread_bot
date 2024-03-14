@@ -12648,10 +12648,6 @@ Kenshiro,"{`"Fist of the North Star`"}",t,{3387},Fist of the North Star
 Kenshiro,{FOTNS},t,{3387},Fist of the North Star
 Kenshiro,"{`"Hokuto no Ken`"}",t,{3387},Fist of the North Star
 Kenshiro,{HnK},t,{3387},Fist of the North Star
-Raoh,"{`"Fist of the North Star`"}",t,{3388},Fist of the North Star
-Raoh,{FOTNS},t,{3388},Fist of the North Star
-Raoh,"{`"Hokuto no Ken`"}",t,{3388},Fist of the North Star
-Raoh,{HnK},t,{3388},Fist of the North Star
 Rei,"{`"Fist of the North Star`"}",f,{3389},Fist of the North Star
 Rei,{FOTNS},f,{3389},Fist of the North Star
 Rei,"{`"Hokuto no Ken`"}",f,{3389},Fist of the North Star
@@ -31297,3 +31293,21 @@ Bumblebee,"{`"Rise of the Beasts`"}",f,{24737},Rise of the Beasts
 Rodin,{Bayonetta},f,{24738},Bayonetta
 Failsafe,"{`"Failsafe ?\\(DC\\)`"}",f,{24739},DC
 Failsafe,"{`"Failsafe vs`",Batman}",f,{24739},DC
+Raoh,"{`"Fist of the North Star`"}",t,"{24740,3388}",Fist of the North Star
+Raoh,{FOTNS},t,"{24740,3388}",Fist of the North Star
+Raoh,"{`"Hokuto no Ken`"}",t,"{24740,3388}",Fist of the North Star
+Raoh,{HnK},t,"{24740,3388}",Fist of the North Star
+Killer Moth,"{`"\\(DC\\)`"}",f,{24741},DC
+Killer Moth,"{`"\\[DC\\]`"}",f,{24741},DC
+Killer Moth,"{`"Posts?(-| )?C(risis)?`"}",f,{24741},DC
+Killer Moth,"{`"New(-| )Earth`"}",f,{24741},DC
+Niccolai Tepes,"{`"\\(DC( Comics)?\\)`"}",t,{24742},DC
+Niccolai Tepes,"{`"\\[DC( Comics)?\\]`"}",t,{24742},DC
+Niccolai Tepes,"{`"Posts?(-| )?C(risis)?`"}",f,{24742},Post-Crisis
+Niccolai Tepes,"{`"New(-| )Earth`"}",f,{24742},Post-Crisis
+Sledge,"{`"\\(Sledge Vs.\\)`"}",f,{24743},Sledge Vs.
+Sledge,{Einarr|Laukkanen},f,{24743},Sledge Vs.
+Grizzly,{Grizzly.*1976},f,{24744},"Grizzly, 1976"
+Freak,"{`"Freak ?\\(616\\)`"}",f,{24745},616
+UMA Beast,"{`"Undead Unluck`"}",f,{24746},Undead Unluck
+Wedding Dress Grumer,"{`"Bakuage Sentai BoonBoomger`"}",t,{24747},Bakuage Sentai BoonBoomger
