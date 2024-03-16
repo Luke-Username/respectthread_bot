@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Imperialdramon ! (digimon Adventure 02)', 'https://redd.it/1bf1bny')
+add_data(['Imperialdramon'],
+'Imperialdramon',
+False,
+True,
+[
+    ['Digimon']
+],
+'Digimon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bf1bny/respect_imperialdramon_digimon_adventure_02/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
