@@ -122,6 +122,75 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the King of Games, Yugi Muto! (Yu-Gi-Oh! Manga)', 'https://redd.it/1bgioew')
+add_data(['Yugi Muto'],
+'Yugi Muto',
+False,
+True,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bgioew/respect_the_king_of_games_yugi_muto_yugioh_manga/
+
+########################################
+
+id = get_rt_id(cur, 'Respect King Edward of Andalasia (Enchanted)', 'https://redd.it/1bgy8ph')
+add_data(['King Edward'],
+'King Edward',
+False,
+False,
+[
+    ['Enchanted'], ['Andalasia']
+],
+'Enchanted',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Prince Edward'],
+'Prince Edward',
+False,
+False,
+[
+    ['Enchanted'], ['Andalasia']
+],
+'Enchanted',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bgy8ph/respect_king_edward_of_andalasia_enchanted/
+
+########################################
+
+id = get_rt_id(cur, "Respect: Hunter''s Moon! (Marvel, 616)", 'https://redd.it/1bh27r6')
+add_data(["Hunter''s Moon"],
+"Hunter''s Moon",
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Yehya Badr'],
+'Yehya Badr',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bh27r6/respect_hunters_moon_marvel_616/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
