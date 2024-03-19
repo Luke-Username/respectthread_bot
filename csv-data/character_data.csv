@@ -23978,8 +23978,6 @@ Hat,"{`"Manchester Black`"}",f,{20339},Post-Crisis
 Hat,"{`"The Elite`"}",f,{20339},Post-Crisis
 Javelin,"{`"Javelin ?\\(DC`"}",f,{20340},DC
 Javelin,"{`"Javelin ?\\(Posts?(-| )?C(risis)?`"}",f,{20340},DC
-Bloodsport,"{`"Bloodsport ?\\(DC`"}",f,{20341},DC
-Bloodsport,"{`"Bloodsport ?\\(Posts?(-| )?C(risis)?`"}",f,{20341},DC
 Mother Box,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{20342},DC
 Mother Box,"{`"Pre(-| )?Flashpoint`"}",f,{20342},Pre-Flashpoint
 Mother Box,"{`"DC Extended Universe`"}",f,{},DCEU
@@ -24034,6 +24032,8 @@ Bloodsport,"{`"Idris Elba`"}",f,{20352},DCEU
 Peacemaker,"{`"DC Extended Universe`"}",f,{20353},DCEU
 Peacemaker,"{`"DC ?(E|C)U`"}",f,{20353},DCEU
 Mother Box,{Snyder(verse)?},f,{},DCEU
+Bloodsport,"{`"Bloodsport ?\\(DC`"}",f,{},DC
+Bloodsport,"{`"Bloodsport ?\\(Posts?(-| )?C(risis)?`"}",f,{},DC
 Peacemaker,"{`"DC Cinematic Universe`"}",f,{20353},DCEU
 Peacemaker,"{`"Peace ?maker ?\\((The )?Suicide Squad`"}",f,{20353},DCEU
 Peacemaker,"{`"John Cena`"}",f,{20353},DCEU
@@ -31311,3 +31311,10 @@ Grizzly,{Grizzly.*1976},f,{24744},"Grizzly, 1976"
 Freak,"{`"Freak ?\\(616\\)`"}",f,{24745},616
 UMA Beast,"{`"Undead Unluck`"}",f,{24746},Undead Unluck
 Wedding Dress Grumer,"{`"Bakuage Sentai BoonBoomger`"}",t,{24747},Bakuage Sentai BoonBoomger
+Imperialdramon,{Digimon},t,{24748},Digimon
+King Edward,{Enchanted},f,{24750},Enchanted
+King Edward,{Andalasia},f,{24750},Enchanted
+Prince Edward,{Enchanted},f,{24750},Enchanted
+Prince Edward,{Andalasia},f,{24750},Enchanted
+Hunter's Moon,{616},f,{24751},616
+Yehya Badr,{616},f,{24751},616
