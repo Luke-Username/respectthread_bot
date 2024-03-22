@@ -107,6 +107,169 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Predators (AVP Ultimate Prey)', 'https://redd.it/1biyma7')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Ultimate Prey']
+],
+'Aliens vs. Predators: Ultimate Prey',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1biyma7/respect_the_predators_avp_ultimate_prey/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Predator (Marvel Comics Vs. Predator Variant Covers)', 'https://redd.it/1bkh47u')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Marvel', 'Variant Covers']
+],
+'Marvel Variant Covers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bkh47u/respect_the_predator_marvel_comics_vs_predator/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Gollywomp (Predator: Strange Roux) [Dark Horse Comics]', 'https://redd.it/1bkidoi')
+add_data(['Gollywomp'],
+'Gollywomp',
+False,
+False,
+[
+    ['Predator']
+],
+'Predator: Strange Roux',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bkidoi/respect_the_gollywomp_predator_strange_roux_dark/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gagagigo (Yu-Gi-Oh! Trading Card Game)', 'https://redd.it/1bj2ovr')
+add_data(['Gagagigo'],
+'Gagagigo',
+False,
+False,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bj2ovr/respect_gagagigo_yugioh_trading_card_game/
+
+########################################
+
+id = get_rt_id(cur, 'Respect God (Yu-Gi-Oh! Trading Card Game)', 'https://redd.it/1bkgmtz')
+add_data(['God'],
+'God',
+False,
+False,
+[
+    ['God ?\(Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Menat (Street Fighter)', 'https://redd.it/1bjo2su')
+add_data(['Menat'],
+'Menat',
+False,
+False,
+[
+    ['Street Fighter']
+],
+'Street Fighter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bjo2su/respect_menat_street_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Soujiki Grumer!(Bakuage Sentai BoonBoomger)', 'https://redd.it/1bk5oy8')
+add_data(['Soujiki Grumer'],
+'Soujiki Grumer',
+False,
+True,
+[
+    ['Bakuage Sentai BoonBoomger']
+],
+'Bakuage Sentai BoonBoomger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bk5oy8/respect_soujiki_grumerbakuage_sentai_boonboomger/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spawner (Ward)', 'https://redd.it/1bkgv3b')
+add_data(['Spawner'],
+'Spawner',
+False,
+False,
+[
+    ['Ward']
+],
+'Ward',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bkgv3b/respect_spawner_ward/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Brute Giant Panda (Killing Bites)', 'https://redd.it/1bkhoq6')
+add_data(['Brute Giant Panda'],
+'Brute Giant Panda',
+False,
+False,
+[
+    ['Killing Bites']
+],
+'Killing Bites',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bkhoq6/respect_brute_giant_panda_killing_bites/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gudrun and her Kong (Kong of Skull Island) [BOOM! Studios]', 'https://redd.it/1bkk5zu')
+add_data(['Gudrun'],
+'Gudrun',
+False,
+False,
+[
+    ['Kong of Skull Island']
+],
+'Kong of Skull Island',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bkk5zu/respect_gudrun_and_her_kong_kong_of_skull_island/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Big Baby (DC, Earth 8)', 'https://redd.it/1bkkw9t')
+add_data(['Big Baby'],
+'Big Baby',
+False,
+False,
+[
+    ['DC', 'Earth 8']
+],
+'Earth 8',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bkkw9t/respect_big_baby_dc_earth_8/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
