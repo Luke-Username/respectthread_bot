@@ -30257,8 +30257,6 @@ Nanotech Monster,"{`"Godzilla:? The Series`"}",f,{24132},Godzilla: The Series
 Nanotech Creature,"{`"Godzilla:? The Series`"}",f,{24132},Godzilla: The Series
 Keiji,"{`"Rooster Fighter`"}",f,{24133},Rooster Fighter
 Nautilus,"{`"Ex(-| )Heroes`"}",f,{24134},Ex-Heroes
-Mazinger ZERO,"{`"Shin Mazinger Zero`"}",t,{24135},Shin Mazinger Zero
-Mazinger ZERO,"{`"Mazinger Z`"}",t,{24135},Shin Mazinger Zero
 Iron Man,"{`"Dragon(-| )Slayer`"}",f,{24136},Dragon-Slayer
 Iron Man,"{`"Model 73`"}",f,{24136},Dragon-Slayer
 Loden Greatstorm,"{`"S(tar )?Wars`"}",t,{24137},Star Wars
@@ -30275,6 +30273,7 @@ Stellan Gios,"{`"S(tar )?Wars`"}",t,{24141},Star Wars
 Vernestra Rwoh,"{`"S(tar )?Wars`"}",t,{24142},Star Wars
 Bilbo Baggins,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{24143},Lord of the Rings
 Batman,"{`"Arkham Batman`"}",f,"{17381,24531}",Batman: Arkham
+Mazinger ZERO,"{`"Shin Mazinger Zero`"}",t,"{24752,24135}",Shin Mazinger Zero
 Bilbo Baggins,{Hobbit},t,{24143},Lord of the Rings
 Bilbo,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{24143},Lord of the Rings
 Bilbo,{Hobbit},t,{24143},Lord of the Rings
@@ -30690,7 +30689,6 @@ Kamen Rider Cronus,"{`"Ex(-| )Aid`"}",t,{24409},""
 Gamedeus,"{`"Ex(-| )Aid`"}",t,{24410},""
 Gamedeus,"{`"Kamen Rider`"}",t,{24410},""
 Dancing Pumpkin Man,"{`"Pumpkin Dance`"}",t,{24411},""
-Frieren,"{`"Beyond Journeys?`"}",f,{24412},Frieren: Beyond Journey's End
 Godzillasaurus,{Godzilla},t,{24413},Godzilla
 Alraune,{Bayonetta},f,{24414},Bayonetta
 Kamen Rider Snipe,"{`"Ex(-| )Aid`"}",t,{24415},""
@@ -31318,3 +31316,26 @@ Prince Edward,{Enchanted},f,{24750},Enchanted
 Prince Edward,{Andalasia},f,{24750},Enchanted
 Hunter's Moon,{616},f,{24751},616
 Yehya Badr,{616},f,{24751},616
+Mazinger ZERO,"{`"Mazinger Z`"}",t,"{24752,24135}",Shin Mazinger Zero
+Frieren,"{`"Beyond Journeys?`"}",t,{24412},Frieren: Beyond Journey's End
+Predators,"{`"Ultimate Prey`"}",f,{24753},Aliens vs. Predators: Ultimate Prey
+Predator,"{Marvel,`"Variant Covers`"}",f,{24754},Marvel Variant Covers
+Gollywomp,{Predator},f,{24755},Predator: Strange Roux
+Gagagigo,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{24756},Yu-Gi-Oh!
+God,"{`"God ?\\(Yu(-| )?Gi(-| )?Oh`"}",f,{24757},Yu-Gi-Oh!
+Menat,"{`"Street Fighter`"}",f,{24758},Street Fighter
+Soujiki Grumer,"{`"Bakuage Sentai BoonBoomger`"}",t,{24759},Bakuage Sentai BoonBoomger
+Spawner,{Ward},f,{24760},Ward
+Brute Giant Panda,"{`"Killing Bites`"}",f,{24761},Killing Bites
+Gudrun,"{`"Kong of Skull Island`"}",f,{24762},Kong of Skull Island
+Big Baby,"{DC,`"Earth 8`"}",f,{24763},Earth 8
+Mister Sinister,"{`"Mister Sinister ?\\(DC( Comics)?\\)`"}",f,{24764},DC
+Charles Deckard,{Legendary},t,{24765},Legendary
+Thonius Slyte,{(WH)?40K},t,{24766},Warhammer 40k
+Thonius Slyte,{Warhammer},t,{24766},Warhammer 40k
+Cidolfus Orlandeau,"{`"Final Fantasy`"}",t,{24767},Final Fantasy
+Thunder God Cid,"{`"Final Fantasy`"}",t,{24767},Final Fantasy
+Great Mazinger,"{`"Great Mazinger ?\\(Great Mazinger\\)`"}",t,{24768},""
+Grendizer,"{`"UFO Robot Grendizer`"}",t,{24769},UFO Robot Grendizer
+Gojirasaurus quayi,"{`"Prehistoric Tournament Battle`"}",f,{24770},Prehistoric Tournament Battle
+Thanos simonattoi,"{`"Prehistoric Tournament Battle`"}",f,{24771},Prehistoric Tournament Battle
