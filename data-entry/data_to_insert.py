@@ -388,6 +388,22 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/1bmvuxp/respect_gojirasaurus_quayi_prehistoric_tournament/
 
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thanos simonattoi (Prehistoric Tournament Battle)', 'https://redd.it/1bmvv1b')
+add_data(['Thanos simonattoi'],
+'Thanos simonattoi',
+False,
+False,
+[
+    ['Prehistoric Tournament Battle']
+],
+'Prehistoric Tournament Battle',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
