@@ -272,6 +272,124 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Mister Sinister! (DC Comics)', 'https://redd.it/1bn5vc1')
+add_data(['(Mister|Mr\.?) Sinister'],
+'Mister Sinister',
+False,
+False,
+[
+    ['Mister Sinister ?\(DC( Comics)?\)']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bn5vc1/respect_mister_sinister_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Charles Deckard (Legendary)', 'https://redd.it/1blq5xt')
+add_data(['Charles Deckard'],
+'Charles Deckard',
+False,
+True,
+[
+    ['Legendary']
+],
+'Legendary',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1blq5xt/respect_charles_deckard_legendary/
+
+########################################
+
+id = get_rt_id(cur, "Respect ''Thonius Slyte'' (Warhammer 40k)", 'https://redd.it/1bl8ifk')
+add_data(['Thonius Slyte'],
+'Thonius Slyte',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bl8ifk/respect_thonius_slyte_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cidolfus Orlandeau "Thunder God Cid" (Final Fantasy Tactics)', 'https://redd.it/1blujc6')
+add_data(['Cidolfus Orlandeau'],
+'Cidolfus Orlandeau',
+False,
+True,
+[
+    ['Final Fantasy']
+],
+'Final Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1blujc6/respect_cidolfus_orlandeau_thunder_god_cid_final/
+
+add_data(['Thunder God Cid'],
+'Thunder God Cid',
+False,
+True,
+[
+    ['Final Fantasy']
+],
+'Final Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1blujc6/respect_cidolfus_orlandeau_thunder_god_cid_final/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Great Mazinger (Great Mazinger) [Anime]', 'https://redd.it/1bluqi1')
+add_data(['Great Mazinger'],
+'Great Mazinger',
+False,
+True,
+[
+    ['Great Mazinger ?\(Great Mazinger\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bluqi1/respect_great_mazinger_great_mazinger_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Grendizer (UFO Robot Grendizer) [Anime]', 'https://redd.it/1bmp74d')
+add_data(['Grendizer'],
+'Grendizer',
+False,
+True,
+[
+    ['UFO Robot Grendizer']
+],
+'UFO Robot Grendizer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bmp74d/respect_grendizer_ufo_robot_grendizer_anime/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gojirasaurus quayi (Prehistoric Tournament Battle)', 'https://redd.it/1bmvuxp')
+add_data(['Gojirasaurus quayi'],
+'Gojirasaurus quayi',
+False,
+False,
+[
+    ['Prehistoric Tournament Battle']
+],
+'Prehistoric Tournament Battle',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bmvuxp/respect_gojirasaurus_quayi_prehistoric_tournament/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

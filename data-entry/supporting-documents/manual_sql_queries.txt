@@ -19,6 +19,8 @@ UPDATE character SET rt_id_array='{?, 24135}' WHERE rt_id_array='{24135}';
 
 ########################################
 
+UPDATE character SET is_default=TRUE WHERE default_name='Frieren';
+
 ########################################
 
 ########################################
