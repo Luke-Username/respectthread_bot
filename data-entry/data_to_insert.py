@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Endbringers'],
+'Endbringers',
+False,
+False,
+[
+    ['Worm'], ['The Endbringers'], ['Contessa']
+],
+'Worm',
+'{6058, 6086, 6102, 6085, 6109}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1bpkyiq/the_entire_cast_of_jojos_bizzare_adventure_versus/kwwgxr4/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zeus (The God Of High School)', 'https://redd.it/1bp9jpo')
+add_data(['Zeus'],
+'Zeus',
+False,
+False,
+[
+    ['God of High ?School']
+],
+'The God Of High School',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bp9jpo/respect_zeus_the_god_of_high_school/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

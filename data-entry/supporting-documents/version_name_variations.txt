@@ -1221,9 +1221,9 @@ Ghosts 'n Goblins
 
 The God of High School
 	Version
-		'{"God of High ?School"}'
+		['God of High ?School']
 	Acronyms
-		r'{"G\\.?O\\.?H"}'
+		['G\.?O\.?H']
 	Displayed Version Name
 		"The God of High School"
 
