@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4702, 'Respect Bobobo-bo Bo-bobo! (Bobobo-bo Bo-bobo)', 'https://redd.it/1bpucf2')
+update_respectthread(cur, 6060, 'Respect Bonesaw (Worm/Ward)', 'https://redd.it/1bpzljp')
+
+########################################
+
 add_data(['Endbringers'],
 'Endbringers',
 False,
@@ -133,6 +138,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1bp9jpo/respect_zeus_the_god_of_high_school/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bruno Horgan, The Mysterious Melter! [Marvel, 616]', 'https://redd.it/1bq4up0')
+add_data(['Bruno Horgan'],
+'Bruno Horgan',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bq4up0/respect_bruno_horgan_the_mysterious_melter_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Atomo Bleep-Bleep (Mickey Mouse Comics)', 'https://redd.it/1bqg55g')
+add_data(['Atomo Bleep(-| )Bleep'],
+'Atomo Bleep-Bleep',
+False,
+True,
+[
+    ['Mickey Mouse']
+],
+'Mickey Mouse Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bqg55g/respect_atomo_bleepbleep_mickey_mouse_comics/
 
 ########################################
 
