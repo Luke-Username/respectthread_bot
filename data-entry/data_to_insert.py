@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 4702, 'Respect Bobobo-bo Bo-bobo! (Bobobo-bo Bo-bobo)', 'https://redd.it/1bpucf2')
 update_respectthread(cur, 6060, 'Respect Bonesaw (Worm/Ward)', 'https://redd.it/1bpzljp')
+update_respectthread(cur, 6621, 'Respect Alastor (Hazbin Hotel)', 'https://redd.it/1br8u1f')
 
 ########################################
 
@@ -123,6 +124,20 @@ False,
 '{6058, 6086, 6102, 6085, 6109}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1bpkyiq/the_entire_cast_of_jojos_bizzare_adventure_versus/kwwgxr4/?context=3
+
+########################################
+
+add_data(['King Hassan'],
+'King Hassan',
+False,
+False,
+[
+    ['Fate ?verse'], ['Grande? Order']
+],
+'Fate',
+'{14515}'
+)
+#https://www.reddit.com/r/respectthreads/comments/pz7vfj/respect_hassanisabbah_the_old_man_of_the_mountain/
 
 ########################################
 
@@ -156,6 +171,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Mark I Sentinels (Marvel, Earth 616)', 'https://redd.it/1br8xp0')
+add_data(['Mark I Sentinel'],
+'Mark I Sentinel',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1br8xp0/respect_the_mark_i_sentinels_marvel_earth_616/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Atomo Bleep-Bleep (Mickey Mouse Comics)', 'https://redd.it/1bqg55g')
 add_data(['Atomo Bleep(-| )Bleep'],
 'Atomo Bleep-Bleep',
@@ -168,6 +198,78 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1bqg55g/respect_atomo_bleepbleep_mickey_mouse_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miguel (Jujutsu Kaisen)', 'https://redd.it/1bqtwoe')
+add_data(['Miguel'],
+'Miguel',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bqtwoe/respect_miguel_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Angel Dust (Hazbin Hotel)', 'https://redd.it/1bqugsp')
+add_data(['Angel Dust'],
+'Angel Dust',
+False,
+False,
+[
+    ['Hazbin Hotel']
+],
+'Hazbin Hotel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bqugsp/respect_angel_dust_hazbin_hotel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Charlie Morningstar (Hazbin Hotel)', 'https://redd.it/1bqyw2g')
+add_data(['Charlie Morningstar'],
+'Charlie Morningstar',
+False,
+True,
+[
+    ['Hazbin Hotel']
+],
+'Hazbin Hotel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bqyw2g/respect_charlie_morningstar_hazbin_hotel/
+
+add_data(['Charlie'],
+'Charlie',
+False,
+False,
+[
+    ['Hazbin Hotel']
+],
+'Hazbin Hotel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bqyw2g/respect_charlie_morningstar_hazbin_hotel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Adam (Hazbin Hotel)', 'https://redd.it/1br2ag6')
+add_data(['Adam'],
+'Adam',
+False,
+False,
+[
+    ['Hazbin Hotel']
+],
+'Hazbin Hotel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1br2ag6/respect_adam_hazbin_hotel/
 
 ########################################
 
