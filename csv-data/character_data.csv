@@ -18301,8 +18301,6 @@ S-class,{OPM},f,{4113},One Punch Man
 Pig God,"{`"One(-| )Punch Man`"}",t,{4113},One Punch Man
 Pig God,{OPM},t,{4113},One Punch Man
 Pig God,"{`"Puri Prisoner`"}",t,{4113},One Punch Man
-King,"{`"King ?\\(One(-| )Punch Man`"}",f,{4113},One Punch Man
-King,"{`"King ?\\(OPM`"}",f,{4113},One Punch Man
 Metal Knight,"{`"One(-| )Punch Man`"}",t,{4113},One Punch Man
 Metal Knight,{OPM},t,{4113},One Punch Man
 Bofoi,"{`"One(-| )Punch Man`"}",t,{4113},One Punch Man
@@ -18314,7 +18312,6 @@ Suiryu,{OPM},t,{4116},One Punch Man
 Tank Top Master,"{`"One(-| )Punch Man`"}",t,{7572},One Punch Man
 Tank Top Master,{OPM},t,{7572},One Punch Man
 TTM,"{`"One(-| )Punch Man`"}",f,{7572},One Punch Man
-King,"{`"S(-| )Class`",heroe?s?}",f,{4113},One Punch Man
 Blast,"{`"Blast ?\\(One(-| )Punch Man`"}",f,{22160},One Punch Man
 Blast,"{`"Blast ?\\(OPM`"}",f,{22160},One Punch Man
 Puri-Puri Prisoner,"{`"One(-| )Punch Man`"}",t,"{4111,23773}",One Punch Man
@@ -18324,6 +18321,9 @@ Deep Sea King,{OPM},t,"{4099,23797}",One Punch Man
 DSK,{OPM},t,"{4099,23797}",One Punch Man
 Krauser,"{`"RE ?\\d`"}",f,"{5370,23931}",Resident Evil
 Jack Krauser,"{`"Resident Evil`"}",t,"{5370,23931}",Resident Evil
+King,"{`"King ?\\(One(-| )Punch Man`"}",f,{24786},One Punch Man
+King,"{`"King ?\\(OPM`"}",f,{24786},One Punch Man
+King,"{`"S(-| )Class`",heroe?s?}",f,{24786},One Punch Man
 TTM,{OPM},f,{7572},One Punch Man
 Tatsumaki,"{`"One(-| )Punch Man`"}",t,{4117},One Punch Man
 Tatsumaki,{OPM},t,{4117},One Punch Man
@@ -31165,8 +31165,6 @@ Tabuu,"{`"Smash (Bro(ther)?s?|Ultimate)`"}",f,{5460},Super Smash Bros
 Tabuu,{SSBB},f,{5460},Super Smash Bros
 Tabuu,"{`"\\(Smash`"}",f,{5460},Super Smash Bros
 Tabuu,{Brawl},f,{5460},Super Smash Bros
-King,"{`"King from One Punch Man`"}",f,{4113},One Punch Man
-King,"{`"One Punch Man`",scare|luck}",f,{4113},One Punch Man
 Flint Abrahams,"{`"Cabela?s Dangerous Hunts`"}",t,{24675},Cabela's Dangerous Hunts
 Peter Griffin,{Fortnite},f,{24676},Fortnite
 Black Mariah,{616},f,{24677},616
@@ -31360,3 +31358,34 @@ Angel Dust,"{`"Hazbin Hotel`"}",f,{24783},Hazbin Hotel
 Charlie Morningstar,"{`"Hazbin Hotel`"}",t,{24784},Hazbin Hotel
 Charlie,"{`"Hazbin Hotel`"}",f,{24784},Hazbin Hotel
 Adam,"{`"Hazbin Hotel`"}",f,{24785},Hazbin Hotel
+King,"{`"King from One Punch Man`"}",f,{24786},One Punch Man
+King,"{`"One Punch Man`",scare|luck}",f,{24786},One Punch Man
+Hattori Hanzo,{Tenkaichi},f,{24787},Tenkaichi
+Sasaki Kojirō,{Tenkaichi},f,{24788},Tenkaichi
+Broly,{Hyourinjutsu},f,{24789},Hyourinjutsu
+Baby,{Hyourinjutsu},f,{24790},Hyourinjutsu
+Goku Black,{Hyourinjutsu},f,{24791},Hyourinjutsu
+Baby Vegito Black,{Hyourinjutsu},f,{24792},Hyourinjutsu
+Ballister,{Nimona},f,{24793},Nimona
+Ballister,"{`"Ballister Boldheart`"}",f,{24793},Nimona
+Ballister,{BALLiSTAR12},f,{24793},Nimona
+Blue Beetle,"{`"DC Extended Universe`"}",f,{24794},DCEU
+Blue Beetle,"{`"DC ?(E|C)U`"}",f,{24794},DCEU
+Blue Beetle,"{`"DC Cinematic Universe`"}",f,{24794},DCEU
+OMAC,"{`"DC Extended Universe`"}",f,{24795},DCEU
+OMAC,"{`"DC ?(E|C)U`"}",f,{24795},DCEU
+OMAC,"{`"DC Cinematic Universe`"}",f,{24795},DCEU
+God-Man,"{`"Tom the Dancing Bug`"}",f,{24796},Tom the Dancing Bug
+God-Man,{comic},f,{24796},Tom the Dancing Bug
+John Wick,"{`"John Wick AI script`"}",f,{24797},John Wick AI script
+Marty Rantzen,"{`"Slaughter High`"}",t,{24798},Slaughter High
+Kevin and Marcus Copeland,"{`"White Chicks`"}",t,{24799},White Chicks
+The White Chicks,{iTk15I5GZsA},f,{24799},""
+Bocchi,"{`"Hitori Gotoh`"}",t,{24800},Bocchi the Rock!
+Bocchi,"{`"Bocchi ?\\(Bocchi the Rock`"}",t,{24800},Bocchi the Rock!
+Eagles,{Birdemic},f,{24801},Birdemic
+Harry Mason,"{`"Ax 'Em`"}",f,{24802},Ax 'Em
+Squidward's House,{Spongebob},t,{24803},Spongebob
+Forbush Man,{665},t,{24804},665
+The Singer,"{SiIvaGunner,Sonic}",f,{24805},SiIvaGunner
+Octoboss,"{`"Image Comics`"}",f,{24806},Image Comics

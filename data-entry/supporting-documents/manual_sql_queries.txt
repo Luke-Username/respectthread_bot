@@ -16,9 +16,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect The Strongest Man on Earth, King! (One-Punch Man)', 'https://redd.it/1bt8xu1'); SELECT * FROM respectthread WHERE link='https://redd.it/1bt8xu1';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='King' AND displayed_version_name='One Punch Man';
-
 ########################################
 
 ########################################
