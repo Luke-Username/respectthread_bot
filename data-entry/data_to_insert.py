@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Super(-| )?man from Superman (&|and) Lois'], ['Superman ?\(Superman (&|and) Lois\)']
+],
+'Superman & Lois',
+'{}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
