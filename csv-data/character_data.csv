@@ -1853,7 +1853,6 @@ Motoko Kusanagi,{SAC},f,{4766},GITS: Stand Alone Complex
 Ghost Rider,{2007},f,{441},2007 movie
 Ghost Rider,"{`"Movie Ghost Rider`"}",f,{441},2007 movie
 Ghost Rider,"{`"Ghost Rider Movie`"}",f,{441},2007 movie
-Snake Eyes,"{`"G.*I.* *Joe`",movies*}",f,{442},G.I. Joe Movies
 Storm Shadow,"{`"G.*I.* *Joe`",movies*}",f,{443},G.I. Joe Movies
 The Giant Claw,"{`"The Giant Claw`"}",t,{444},""
 Maximus,{Gladiator},f,{445},Gladiator
@@ -31389,3 +31388,29 @@ Squidward's House,{Spongebob},t,{24803},Spongebob
 Forbush Man,{665},t,{24804},665
 The Singer,"{SiIvaGunner,Sonic}",f,{24805},SiIvaGunner
 Octoboss,"{`"Image Comics`"}",f,{24806},Image Comics
+Superman,"{`"Nicholas Cage`",`"Superman Lives`"}",f,{15969},Kevin Smith's Superman Lives
+King Shark,"{`"Suicide Squad`",`"comics? versions?`"}",t,{1752},DC
+Deadshot,"{`"Suicide Squad`",`"comics? versions?`"}",t,{1751},DC
+BJ Blazkowicz,{Wolfenstein},t,"{24807,24808}",Wolfenstein
+Ryan Sentry,{616},t,{24809},616
+Melvin Potter,{616},t,{24810},616
+Green Goblin,"{`"Spectacular Spider(-| )?Man`"}",f,{24811},Spectacular Spider-Man
+Shadow Moon,"{`"Kamen Rider`"}",f,{24812},Kamen Rider
+Shadow Moon,"{`"Nobuhiko Akizuki`"}",f,{24812},Kamen Rider
+Hauzer,"{`"Red Earth`"}",f,{24813},Red Earth
+Superman,"{`"Super(-| )?man from Superman (&|and) Lois`"}",f,{},Superman & Lois
+Superman,"{`"Superman ?\\(Superman (&|and) Lois\\)`"}",f,{},Superman & Lois
+Snake Eyes,"{`"G\\.?I\\.? Joe`",Movies?}",f,{442},G.I. Joe Movies
+Aura,"{`"Aura ?\\(Frieren\\)`"}",f,{24814},Frieren: Beyond Journey's End
+Aura,"{`"Aura the Guillotine`"}",f,{24814},Frieren: Beyond Journey's End
+B.J. Blazkowicz,{Wolfenstein},t,"{24807,24815,24816,24817,24808}",Wolfenstein
+Raya,"{`"Raya (and|&) the Last Dragon`"}",f,{24818},Raya and the Last Dragon
+X-50,"{`"Aaron Stack`",616}",f,{24819},616
+Troglor,"{`"Smiling Friends`"}",f,{24820},Smiling Friends
+James,"{`"Smiling Friends`"}",f,{24821},Smiling Friends
+Anti-Pops,"{`"Regular Show`"}",t,{24822},Regular Show
+Angstrom Levy,"{`"Image Comics`"}",t,{24823},Image Comics
+Psy-Crow,"{`"Earthworm Jim`"}",t,{24824},Earthworm Jim
+Mizu,"{`"Blue Eye Samurai`"}",f,{24825},Blue Eye Samurai
+Soldier-169,{FIGHTERS},f,{24826},FIGHTERS
+Namaari,{Raya},t,{24827},Raya and the Last Dragon
