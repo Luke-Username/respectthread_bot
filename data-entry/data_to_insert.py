@@ -178,7 +178,7 @@ add_data(['Raya'],
 False,
 False,
 [
-    ['Raya and the Last Dragon']
+    ['Raya (and|&) the Last Dragon']
 ],
 'Raya and the Last Dragon',
 '{' + '{}'.format(id) + '}'
@@ -274,6 +274,51 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1bwiqha/respect_psycrow_earthworm_jim/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mizu (Blue Eye Samurai)', 'https://redd.it/1bwmc90')
+add_data(['Mizu'],
+'Mizu',
+False,
+False,
+[
+    ['Blue Eye Samurai']
+],
+'Blue Eye Samurai',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bwmc90/respect_mizu_blue_eye_samurai/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Soldier-169 (FIGHTERS)', 'https://redd.it/1bwp008')
+add_data(['Soldier-169'],
+'Soldier-169',
+False,
+False,
+[
+    ['FIGHTERS']
+],
+'FIGHTERS',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bwp008/respect_soldier169_fighters/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Namaari (Raya and the Last Dragon)', 'https://redd.it/1bwppnv')
+add_data(['Namaari'],
+'Namaari',
+False,
+True,
+[
+    ['Raya']
+],
+'Raya and the Last Dragon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bwppnv/respect_namaari_raya_and_the_last_dragon/
 
 ########################################
 
