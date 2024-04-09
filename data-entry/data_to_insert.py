@@ -107,6 +107,337 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 22331, 'Respect Mr. Justice, The Number One Ultra (FIGHTERS)', 'https://redd.it/1bwzfou')
+update_respectthread(cur, 22284, 'Respect King Rocker, Biggy (FIGHTERS)', 'https://redd.it/1bxr62o')
+
+########################################
+
+id = get_rt_id(cur, "Respect Ravenor''s Rogues Gallery (Warhammer 40k)", 'https://redd.it/1bx2b7s')
+add_data(["Ravenor''s Rogues Gallery"],
+"Ravenor''s Rogues Gallery",
+True,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx2b7s/respect_ravenors_rogues_gallery_warhammer_40k/
+
+add_data(['Toros Revoke'],
+'Toros Revoke',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx2b7s/respect_ravenors_rogues_gallery_warhammer_40k/
+
+add_data(['Lucius Worna'],
+'Lucius Worna',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx2b7s/respect_ravenors_rogues_gallery_warhammer_40k/
+
+add_data(['Zygmunt Molotch'],
+'Zygmunt Molotch',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx2b7s/respect_ravenors_rogues_gallery_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla! (Epic Rap Battles of History)', 'https://redd.it/1bx684e')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Epic Rap Battles of History'], ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx684e/respect_godzilla_epic_rap_battles_of_history/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Goku! (Epic Rap Battles of History)', 'https://redd.it/1bx6h7g')
+add_data(['Goku'],
+'Goku',
+False,
+False,
+[
+    ['Epic Rap Battles of History'], ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx6h7g/respect_goku_epic_rap_battles_of_history/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman! (Epic Rap Battles of History)', 'https://redd.it/1bx6h85')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Epic Rap Battles of History'], ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx6h85/respect_superman_epic_rap_battles_of_history/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Count Dracula! (Epic Rap Battles of History)', 'https://redd.it/1bx6pqb')
+add_data(['Dracula'],
+'Dracula',
+False,
+False,
+[
+    ['Epic Rap Battles of History'], ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx6pqb/respect_count_dracula_epic_rap_battles_of_history/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thanos! (Epic Rap Battles of History)', 'https://redd.it/1bx6t0a')
+add_data(['Thanos'],
+'Thanos',
+False,
+False,
+[
+    ['Epic Rap Battles of History'], ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx6t0a/respect_thanos_epic_rap_battles_of_history/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Harry Potter! (Epic Rap Battles of History)', 'https://redd.it/1bx70mz')
+add_data(['Harry Potter'],
+'Harry Potter',
+False,
+False,
+[
+    ['Epic Rap Battles of History'], ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx70mz/respect_harry_potter_epic_rap_battles_of_history/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Luke Skywalker! (Epic Rap Battles of History)', 'https://redd.it/1bx70ql')
+add_data(['Luke Skywall?ker'],
+'Luke Skywalker',
+False,
+False,
+[
+    ['Epic Rap Battles of History'], ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx70ql/respect_luke_skywalker_epic_rap_battles_of_history/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thor! (Epic Rap Battles of History)', 'https://redd.it/1bx74q1')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Epic Rap Battles of History'], ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx74q1/respect_thor_epic_rap_battles_of_history/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Darth Vader! (Epic Rap Battles of History)', 'https://redd.it/1bx7a69')
+add_data(['Vader'],
+'Darth Vader',
+False,
+False,
+[
+    ['Epic Rap Battles of History'], ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Adolf Hitler! (Epic Rap Battles of History)', 'https://redd.it/1bx7f6w')
+add_data(['Hitler'],
+'Hitler',
+False,
+False,
+[
+    ['Epic Rap Battles of History'], ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bx7f6w/respect_adolf_hitler_epic_rap_battles_of_history/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chappie (Chappie)', 'https://redd.it/1bxg61f')
+add_data(['Chappie'],
+'Chappie',
+False,
+True,
+[
+    ['Chappie "\(Chappie\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bxg61f/respect_chappie_chappie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Panther of the Evil Forest (Arthurian Mythology)', 'https://redd.it/1bxii05')
+add_data(['Panther of the Evil Forest'],
+'Panther of the Evil Forest',
+False,
+False,
+[
+    ['Arthurian']
+],
+'Arthurian Myth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bxii05/respect_the_panther_of_the_evil_forest_arthurian/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Protagonist (Cruelty Squad)', 'https://redd.it/1bybubb')
+add_data(['Protagonist'],
+'Protagonist',
+False,
+False,
+[
+    ['Cruelty Squad']
+],
+'Cruelty Squad',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bybubb/respect_the_protagonist_cruelty_squad/
+
+add_data(['M\.?T\.? Foxtrot'],
+'MT Foxtrot',
+False,
+False,
+[
+    ['Cruelty Squad']
+],
+'Cruelty Squad',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bybubb/respect_the_protagonist_cruelty_squad/
+
+add_data(['Empty Fuck'],
+'Empty Fuck',
+False,
+False,
+[
+    ['Cruelty Squad']
+],
+'Cruelty Squad',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bybubb/respect_the_protagonist_cruelty_squad/
+
+add_data(['John Cruelty'],
+'John Cruelty',
+False,
+False,
+[
+    ['Cruelty Squad']
+],
+'Cruelty Squad',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bybubb/respect_the_protagonist_cruelty_squad/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jesus Christ (Ethereal Snake)', 'https://redd.it/1byd63i')
+add_data(['Jesus'],
+'Jesus',
+False,
+False,
+[
+    ['Ethereal Snake']
+],
+'Ethereal Snake',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1byd63i/respect_jesus_christ_ethereal_snake/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tokei Grumer (Bakuage Sentai BoonBoomger)', 'https://redd.it/1byzr5x')
+add_data(['Tokei Grumer'],
+'Tokei Grumer',
+False,
+True,
+[
+    ['Bakuage Sentai BoonBoomger']
+],
+'Bakuage Sentai BoonBoomger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1byzr5x/respect_tokei_grumer_bakuage_sentai_boonboomger/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Gyarados Submarine (Pokemon)', 'https://redd.it/1bz41nq')
+add_data(['Gyarados Submarine'],
+'Gyarados Submarine',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1bz41nq/respect_the_gyarados_submarine_pokemon/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

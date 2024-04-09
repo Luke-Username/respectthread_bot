@@ -993,6 +993,15 @@ Elder Scrolls
 	Displayed Version Name
 		"ēlDLIVE"
 
+
+Epic Rap Battles of History
+	Version
+		['Epic Rap Battles of History']
+	Acronyms
+		['ERB']
+	Displayed Version Name
+		"Epic Rap Battles of History"
+
 (F)
 
 Fairly Oddparents
