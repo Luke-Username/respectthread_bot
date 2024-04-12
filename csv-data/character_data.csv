@@ -1950,8 +1950,6 @@ Lyon Gaultier,{Lionheart},t,{497},Lionheart
 Audrey,"{`"Little Shop of Horrors`"}",f,{498},Little Shop of Horrors
 Audrey II,"{`"Little Shop of Horrors`"}",t,{498},Little Shop of Horrors
 J.J McQuade,"{`"Lone Wolf McQuade`"}",t,{499},Lone Wolf McQuade
-Legolas,"{`"Lord of the Rings`"}",t,{500},Lord of the Rings
-Legolas,{LOTR},t,{500},Lord of the Rings
 David,"{`"The Lost Boys`"}",f,{501},The Lost Boys
 Ava,"{`"The Machine`"}",f,{502},The Machine
 1 Man,{Manborg},f,{503},Manborg
@@ -1983,6 +1981,8 @@ Stanley Ipkiss,{films?},f,{508},1994
 Stanley Ipkiss,{1994},f,{508},1994
 Randall Boggs,"{`"Monster'?s,? Inc`"}",t,{1222},"Monsters, Inc."
 Michael,"{`"Michael ?\\(Legion\\)`"}",f,{494},Legion
+Legolas,"{`"Lord of the Rings`"}",t,"{24862,500}",Lord of the Rings
+Legolas,{LOTR},t,"{24862,500}",Lord of the Rings
 Inmate 93X666,"{`"Jungle Jail`"}",t,{6510},Jungle Jail
 Batman,"{`"Batman Ninja`"}",f,{6511},Batman Ninja
 Super Bike,"{`"Fairly Oddparents`"}",t,{6512},Fairly Oddparents
@@ -31414,3 +31414,59 @@ Psy-Crow,"{`"Earthworm Jim`"}",t,{24824},Earthworm Jim
 Mizu,"{`"Blue Eye Samurai`"}",f,{24825},Blue Eye Samurai
 Soldier-169,{FIGHTERS},f,{24826},FIGHTERS
 Namaari,{Raya},t,{24827},Raya and the Last Dragon
+Ravenor's Rogues Gallery,{(WH)?40K},t,{24845},Warhammer 40k
+Ravenor's Rogues Gallery,{Warhammer},t,{24845},Warhammer 40k
+Toros Revoke,{(WH)?40K},t,{24845},Warhammer 40k
+Toros Revoke,{Warhammer},t,{24845},Warhammer 40k
+Lucius Worna,{(WH)?40K},t,{24845},Warhammer 40k
+Lucius Worna,{Warhammer},t,{24845},Warhammer 40k
+Zygmunt Molotch,{(WH)?40K},t,{24845},Warhammer 40k
+Zygmunt Molotch,{Warhammer},t,{24845},Warhammer 40k
+Godzilla,"{`"Epic Rap Battles of History`"}",f,{24846},Epic Rap Battles of History
+Godzilla,{ERB},f,{24846},Epic Rap Battles of History
+Goku,"{`"Epic Rap Battles of History`"}",f,{24847},Epic Rap Battles of History
+Goku,{ERB},f,{24847},Epic Rap Battles of History
+Superman,"{`"Epic Rap Battles of History`"}",f,{24848},Epic Rap Battles of History
+Superman,{ERB},f,{24848},Epic Rap Battles of History
+Dracula,"{`"Epic Rap Battles of History`"}",f,{24849},Epic Rap Battles of History
+Dracula,{ERB},f,{24849},Epic Rap Battles of History
+Thanos,"{`"Epic Rap Battles of History`"}",f,{24850},Epic Rap Battles of History
+Thanos,{ERB},f,{24850},Epic Rap Battles of History
+Harry Potter,"{`"Epic Rap Battles of History`"}",f,{24851},Epic Rap Battles of History
+Harry Potter,{ERB},f,{24851},Epic Rap Battles of History
+Luke Skywalker,"{`"Epic Rap Battles of History`"}",f,{24852},Epic Rap Battles of History
+Luke Skywalker,{ERB},f,{24852},Epic Rap Battles of History
+Thor,"{`"Epic Rap Battles of History`"}",f,{24853},Epic Rap Battles of History
+Thor,{ERB},f,{24853},Epic Rap Battles of History
+Darth Vader,"{`"Epic Rap Battles of History`"}",f,{24854},Epic Rap Battles of History
+Darth Vader,{ERB},f,{24854},Epic Rap Battles of History
+Hitler,"{`"Epic Rap Battles of History`"}",f,{24855},Epic Rap Battles of History
+Hitler,{ERB},f,{24855},Epic Rap Battles of History
+Chappie,"{`"Chappie ?\\(Chappie\\)`"}",t,{24856},""
+Panther of the Evil Forest,{Arthurian},f,{24857},Arthurian Myth
+Protagonist,"{`"Cruelty Squad`"}",f,{24858},Cruelty Squad
+MT Foxtrot,"{`"Cruelty Squad`"}",f,{24858},Cruelty Squad
+Empty Fuck,"{`"Cruelty Squad`"}",f,{24858},Cruelty Squad
+John Cruelty,"{`"Cruelty Squad`"}",f,{24858},Cruelty Squad
+Jesus,"{`"Ethereal Snake`"}",f,{24859},Ethereal Snake
+Tokei Grumer,"{`"Bakuage Sentai BoonBoomger`"}",t,{24860},Bakuage Sentai BoonBoomger
+Gyarados Submarine,{Pok(e|é)m(o|a)n},f,{24861},Pokémon
+All-Hunt Grount,"{`"One ?Piece?`"}",f,{24863},One Piece
+Ezekiel Sims,"{`"Madame Web`"}",f,{24864},Madame Web
+Batman,"{`"Hex Timeline`"}",f,{24865},Hex Timeline
+Batman,"{`"Batman of New York`"}",f,{24865},Hex Timeline
+Grayven,{PC},f,{24866},Post-Crisis
+Grayven,"{`"Posts?(-| )?C(risis)?`"}",f,{24866},Post-Crisis
+Grayven,"{`"New(-| )Earth`"}",f,{24866},Post-Crisis
+Grayven,"{`"\\(DC( Comics)?\\)`"}",t,{24866},DC
+Grayven,"{`"\\[DC( Comics)?\\]`"}",t,{24866},DC
+SCP-3125,"{`"The Escapee`"}",t,{24867},""
+Lawrence III's Airship,{Pok(e|é)m(o|a)n},t,{24868},Pokémon
+Mecha-Meowthinator,{Pok(e|é)m(o|a)n},t,{24869},Pokémon
+Oko,"{`"Magic:? The Gathering`"}",f,{24870},Magic: The Gathering
+Oko,{M:?TG},f,{24870},Magic: The Gathering
+Oko,{Planeswalk(er)?s?},f,{24870},Magic: The Gathering
+Sisu,{Raya},f,{24871},Raya and the Last Dragon
+Sisudatu,{Raya},t,{24871},Raya and the Last Dragon
+Sisudatu,{Dragon},t,{24871},Raya and the Last Dragon
+E.T.,"{`"LEGO Dimensions`"}",f,{24872},LEGO Dimensions
