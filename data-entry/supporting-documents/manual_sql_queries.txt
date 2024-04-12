@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Legolas, Prince of the Woodland Realm (Lord of the Rings)', 'https://redd.it/1c1fvsj'); SELECT * FROM respectthread WHERE link='https://redd.it/1c1fvsj';
+UPDATE character SET rt_id_array='{?, 500}' WHERE rt_id_array='{500}';
+
 ########################################
 
 ########################################
