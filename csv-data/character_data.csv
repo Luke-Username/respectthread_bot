@@ -3744,7 +3744,6 @@ Taranee Cook,{W.I.T.C.H},t,{1114},W.I.T.C.H.
 Cornelia Hale,{W.I.T.C.H},t,{1114},W.I.T.C.H.
 Hay Lin,{W.I.T.C.H},t,{1114},W.I.T.C.H.
 Emma Frost,"{`"Wolverine and the X-Men`"}",f,{1115},Wolverine and the X-Men
-Wolverine,"{`"Wolverine and the X-Men`"}",f,{1116},Wolverine and the X-Men
 Xavier,"{`"Renegade Angel`"}",f,{1117},Xavier: Renegade Angel
 Chase Young,"{`"Xiaolin Showdown`"}",t,{1118},Xiaolin Showdown
 Clay,"{`"Xiaolin Showdown`"}",f,{1119},Xiaolin Showdown
@@ -3756,6 +3755,7 @@ Batwing,"{`"DC Animated Film Universe`"}",f,{1121},DC Animated Movie Universe
 Batwing,{DCAFU},f,{1121},DC Animated Movie Universe
 Batwing,"{`"DC Animated Movies?`"}",f,{1121},DC Animated Movie Universe
 Batwing,{DCAMU},f,{1121},DC Animated Movie Universe
+Wolverine,"{`"Wolverine and the X-Men`"}",f,{1116},Wolverine and the X-Men
 Black Manta,"{`"DC Animated Film Universe`"}",f,{1122},DC Animated Movie Universe
 Black Manta,{DCAFU},f,{1122},DC Animated Movie Universe
 Black Manta,"{`"DC Animated Movies?`"}",f,{1122},DC Animated Movie Universe
@@ -8441,10 +8441,6 @@ Daken,{Marvel},t,{2336},616
 Gabby Kinney,{616},t,{2337},616
 Gabby Kinney,{Marvel},t,{2337},616
 Honey Badger,{Gabby|Gabrielle|Kinney},f,{2337},616
-Wolverine,{616},t,{2391},616
-Wolverine,{Marvel},t,{2391},616
-Wolverine,{comics?},t,{2391},616
-Wolverine,"{`"Siberian Tiger`"}",f,{},Real Life
 X-23,{616},t,{2340},616
 X-23,{Marvel},t,{2340},616
 X-23,{comics?},t,{2340},616
@@ -8463,7 +8459,7 @@ X-Men,"{`"Days of Future Past`"}",f,{},FOX
 X-Men,"{`"film versions?`"}",f,{},FOX
 X-Men,{movies?},f,{},FOX
 Adam-X,{616},t,{2342},616
-Wolverine,{Hugh|Jackman},f,"{158,24039}",FOX
+Wolverine,{616},f,{2391},616
 Adam-X,{Marvel},t,{2342},616
 Adam-X,{comics?},t,{2342},616
 Armor,"{`"Armor ?\\(616`"}",f,{2344},616
@@ -9768,10 +9764,6 @@ Ultimate Rogue,{1610},t,{2557},1610
 Storm,"{`"Storm ?\\( ?Ultimates?`"}",f,{2558},1610
 Storm,"{`"Storm ?\\( ?1610`"}",f,{2558},1610
 Ultimate Storm,{1610},t,{2558},1610
-Wolverine,"{`"Wolverine ?\\( ?Ultimates?`"}",f,{2559},1610
-Wolverine,"{`"Wolverine ?\\( ?1610`"}",f,{2559},1610
-Wolverine,"{`"1610 versions`"}",f,{2559},1610
-Wolverine,"{`"1610 for both`"}",f,{2559},1610
 Ultimate Wolverine,{1610},t,{2559},1610
 Bombshell,{1610},f,{2560},1610
 Bombshell,{Ultimates?},f,{2560},1610
@@ -15908,8 +15900,6 @@ Iron Man,"{`"Marvel Zombies`"}",f,{},2149
 Iron Man,{2149},f,{},2149
 Luke Cage,"{`"Marvel Zombies`"}",f,{},2149
 Luke Cage,{2149},f,{},2149
-Wolverine,"{`"Marvel Zombies`"}",f,{},2149
-Wolverine,{2149},f,{},2149
 Buddha,"{Fate,Serv(a|e)nts?}",f,{21164},Fate
 Star,"{`"Star ?\\(Marvel`"}",f,{21165},616
 Star,"{`"Star ?\\(616`"}",f,{21165},616
@@ -15927,6 +15917,7 @@ Superman,"{`"Super(-| )?man ?\\(Justice League`"}",f,{130},DCEU
 Hit,"{Buu,`"vs\\.? Hit`"}",f,{3295},Dragon Ball
 Hit,"{Buu,`"Hit vs`"}",f,{3295},Dragon Ball
 Scarlet Witch,{WandaVision},f,{270},MCU
+Wolverine,"{`"Marvel Zombies`"}",f,{},2149
 Wanda,{WandaVision},f,{270},MCU
 Kushala,{Marvel},f,{22236},616
 America Chavez,"{`"Marvel Cinematic Universe`"}",f,{22237},MCU
@@ -15943,6 +15934,7 @@ Sun Wukong,"{`"Xi Xing Ji`"}",f,{22243},Xi Xing Ji
 Echidna,"{`"Re:? ?Zero`"}",f,{22244},Re:Zero
 Satella,"{`"Re:? ?Zero`"}",t,{22245},Re:Zero
 Izou,"{`"One ?Piece?`"}",f,{22246},One Piece
+Wolverine,{2149},f,{},2149
 Gojo,"{`"Jujus?t?s?u Kaisen`"}",f,{14809},Jujutsu Kaisen
 Gojo,{JJK},f,{14809},Jujutsu Kaisen
 Goku,"{`"Base Goku`"}",t,"{3288,3290,13282}",Dragon Ball
@@ -16691,12 +16683,12 @@ Suruga Kanbaru,{(Bake)?Monogatari},t,{3913},Monogatari
 Tsubasa Hanekawa,{(Bake)?Monogatari},t,{3914},Monogatari
 Yozuru Kagenui,{(Bake)?Monogatari},t,{3915},Monogatari
 Yotsugi Ononoki,{(Bake)?Monogatari},t,{3915},Monogatari
-Wolverine,"{`"Gulo Gulo`"}",f,{},""
 All For One,"{`"My Hero Academia`"}",f,{3916},My Hero Academia
 All Might,"{`"My Hero Academia`"}",t,"{3917,24029}",My Hero Academia
 All Might,"{`"\\(My Hero\\)`"}",t,"{3917,24029}",My Hero Academia
 All Might,{BN?HA},t,"{3917,24029}",My Hero Academia
 All Might,{MHA},t,"{3917,24029}",My Hero Academia
+Wolverine,"{`"Gulo Gulo`"}",f,{},""
 Endeavor,"{`"\\(My Hero\\)`"}",f,{3920},My Hero Academia
 Endeavor,{BN?HA},f,{3920},My Hero Academia
 Endeavor,{MHA},f,{3920},My Hero Academia
@@ -20483,8 +20475,6 @@ Villain,{VillainVerse},f,{15357},VillainVerse
 Pumpkinhead,{movies?},t,{15358},""
 Dark Magician,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{15359},Yu-Gi-Oh!
 Drake,"{`"Drake of the 99 Dragons`"}",f,{15360},Drake of the 99 Dragons
-Wolverine,"{`"Marvel Anime`"}",f,{15361},Marvel Anime
-Wolverine,{Madhouse},f,{15361},Marvel Anime
 Baker Family,"{`"Resident Evil`"}",t,{5369},Resident Evil
 Baker Family,"{`"RE ?\\d`"}",t,{5369},Resident Evil
 Marguerite,"{`"Resident Evil`"}",f,{5369},Resident Evil
@@ -20523,6 +20513,8 @@ Groot,"{`"Monster from Planet X`"}",f,{15370},The Monster from Planet X
 Rattlesnake Jake,{Rango},t,{15371},Rango
 Courier,"{`"Courier ?\\(Marvel`"}",f,{15372},616
 Courier,"{`"Courier ?\\(616`"}",f,{15372},616
+Wolverine,"{`"Marvel Anime`"}",f,{15361},Marvel Anime
+Wolverine,{Madhouse},f,{15361},Marvel Anime
 Grey King,{Marvel},f,{15373},616
 Grey King,{616},f,{15373},616
 Xaos,"{`"X(-| )Men`"}",f,{15373},Cerebro's X-Men
@@ -23169,8 +23161,6 @@ Iron Man,{50810},f,{17329},Marvel Mega Morphs
 Iron Man,"{`"Marvel Mega Morphs`"}",f,{17329},Marvel Mega Morphs
 Ghost Rider,{50810},f,{17330},Marvel Mega Morphs
 Ghost Rider,"{`"Marvel Mega Morphs`"}",f,{17330},Marvel Mega Morphs
-Wolverine,{50810},f,{17331},Marvel Mega Morphs
-Wolverine,"{`"Marvel Mega Morphs`"}",f,{17331},Marvel Mega Morphs
 Hulk,{50810},f,{17332},Marvel Mega Morphs
 Hulk,"{`"Marvel Mega Morphs`"}",f,{17332},Marvel Mega Morphs
 Jackal,"{`"Fist of the North Star`"}",f,{17333},Fist of the North Star
@@ -27103,8 +27093,8 @@ Anya Forger,"{`"Spy x Family`"}",t,{22142},Spy x Family
 Bond Forger,"{`"Spy x Family`"}",t,{22143},Spy x Family
 Bond,"{`"Spy x Family`"}",f,{22143},Spy x Family
 Spamton,{Deltarune},t,{},Deltarune
-Wolverine,"{`"X(-| )?Men (movie|film)s?`"}",f,"{158,24039}",FOX
 Loid Forger,"{`"Spy x Family`"}",t,{24079},Spy x Family
+Wolverine,"{`"X(-| )?Men (movie|film)s?`"}",f,"{158,24039}",FOX
 Pikkon,"{`"Dragon ?Ball`"}",t,{22145},Dragon Ball
 Pikkon,{DB(Z|S)?},t,{22145},Dragon Ball
 Spinosaurus,"{`"Jurassic Park 3 in One Minute`"}",f,{22146},Jurassic Park 3 in One Minute
@@ -29131,7 +29121,6 @@ Rallen,{Spectrobes},f,{23465},Spectrobes
 Isaac,{Netflix},f,"{6574,23466}",Netflix's Castlevania
 Garfield,"{`"Animation Picture Company`"}",f,{23441},The Animation Picture Company
 Whitebeard,{Kaido},f,{4089},One Piece
-Wolverine,"{`"\\(Animal\\)`"}",f,{},Animal
 Zeus,"{`"Zeus, DC`"}",f,{17373},DC
 Caleb,{Blood},f,{23484},Blood
 Tot Musica,"{`"One ?Piece?`"}",t,{23485},One Piece
@@ -30113,10 +30102,6 @@ Yorozu,"{`"Jujus?t?s?u Kaisen`"}",f,{24037},Jujutsu Kaisen
 Yorozu,{JJK},f,{24037},Jujutsu Kaisen
 Lily Tora-Asi,"{`"S(tar )?Wars`"}",t,{24038},Star Wars
 Mr. Kim,"{`"I Get Stronger the More I Eat`"}",f,{24038},I Get Stronger the More I Eat
-Wolverine,{MCU},f,"{158,24039}",FOX
-Wolverine,"{`"Marvel Cinematic Universe`"}",f,"{158,24039}",FOX
-Wolverine,"{`"20th Century Fox`"}",f,"{158,24039}",FOX
-Wolverine,"{`"FOX Wolverine`"}",f,"{158,24039}",FOX
 Brundlefly,"{`"The Fly`"}",t,{12425},The Fly
 Dom,"{`"Fast and (the )?Furious`"}",f,{135},The Fast and the Furious
 Dom,"{`"Fast & Furious`"}",f,{135},The Fast and the Furious
@@ -30144,6 +30129,7 @@ Belzebeth,"{`"\\[DC( Comics)?\\]`"}",f,{24064},DC
 Man-Ape,"{`"Pre(-| )?Crisis`"}",f,{24065},Pre-Crisis
 Killa the Gorilla,{PC},f,{24066},Post-Crisis
 Raven,"{`"Raven from DC`"}",f,"{24317,1832}",DC
+Wolverine,"{`"20th Century Fox`"}",f,"{158,24039}",FOX
 Killa the Gorilla,"{`"Posts?(-| )?C(risis)?`"}",f,{24066},Post-Crisis
 Killa the Gorilla,"{`"New(-| )Earth`"}",f,{24066},Post-Crisis
 Corpse Girl,"{`"Ex(-| )Heroes`"}",f,{24067},Ex-Heroes
@@ -31045,8 +31031,6 @@ Po,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{1150},Kung Fu Panda
 Tai Lung,"{`"K(u|i)ng(-| )?Fu Panda`"}",t,{1151},Kung Fu Panda
 Wu Sisters,"{`"K(u|i)ng(-| )?Fu Panda`"}",t,{1153},Kung Fu Panda
 Lord Shen,"{`"K(u|i)ng(-| )?Fu Panda`"}",t,"{1147,22684}",Kung Fu Panda
-Wolverine,"{`"Days of Future Past`"}",f,"{158,24039}",FOX
-Wolverine,{DOFP},f,"{158,24039}",FOX
 Magneto,"{`"Days of Future Past`"}",f,{152},FOX
 Magneto,{DOFP},f,{152},FOX
 Mystique,"{`"Days of Future Past`"}",f,{},FOX
@@ -31470,3 +31454,19 @@ Sisu,{Raya},f,{24871},Raya and the Last Dragon
 Sisudatu,{Raya},t,{24871},Raya and the Last Dragon
 Sisudatu,{Dragon},t,{24871},Raya and the Last Dragon
 E.T.,"{`"LEGO Dimensions`"}",f,{24872},LEGO Dimensions
+Wolverine,{Marvel},f,{2391},616
+Wolverine,{comics?},f,{2391},616
+Wolverine,{Hugh|Jackman},f,"{158,24039}",FOX
+Wolverine,"{`"Siberian Tiger`"}",f,{},Real Life
+Wolverine,"{`"Wolverine ?\\( ?Ultimates?`"}",f,{2559},1610
+Wolverine,"{`"Wolverine ?\\( ?1610`"}",f,{2559},1610
+Wolverine,"{`"1610 versions`"}",f,{2559},1610
+Wolverine,"{`"1610 for both`"}",f,{2559},1610
+Wolverine,{50810},f,{17331},Marvel Mega Morphs
+Wolverine,"{`"Marvel Mega Morphs`"}",f,{17331},Marvel Mega Morphs
+Wolverine,"{`"\\(Animal\\)`"}",f,{},Animal
+Wolverine,"{`"FOX Wolverine`"}",f,"{158,24039}",FOX
+Wolverine,{MCU},f,"{158,24039}",FOX
+Wolverine,"{`"Marvel Cinematic Universe`"}",f,"{158,24039}",FOX
+Wolverine,"{`"Days of Future Past`"}",f,"{158,24039}",FOX
+Wolverine,{DOFP},f,"{158,24039}",FOX
