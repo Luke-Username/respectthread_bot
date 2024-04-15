@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Lucifer Morningstar'],
+'Lucifer Morningstar',
+False,
+False,
+[
+    ['Hazbin Hotel']
+],
+'Hazbin Hotel',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1c3baad/lucifer_morningstar_hazbin_hotel_vs_superman/kzfo5s0/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
