@@ -27368,11 +27368,6 @@ SCP-6599,"{`"SCP Foundation`"}",t,{22344},""
 Knights of the Cross,{Dresden(verse)?},f,{22345},The Dresden Files
 Doctor Cockroach,"{`"Monsters vs?\\.? Aliens`"}",t,{22346},Monsters vs. Aliens
 Giovanni Potage,"{`"Epithet Erased`"}",t,{22347},Epithet Erased
-Robot,{Robot.*Invincible},f,"{21553,22348}",Invincible
-Robot,"{Invincible,Guardians}",f,"{21553,22348}",Invincible
-Robot,"{`"Robot vs`",`"Omni(-| )?Man`",Invincible}",f,"{21553,22348}",Invincible
-Robot,"{`"Invincible ?verse`"}",f,"{21553,22348}",Invincible
-Robot,"{Invincible,Friends}",f,"{21553,22348}",Invincible
 Creature from the Black Lagoon,{Universal},t,{},""
 Cyborg,"{`"D(octo)?r\\.? Fate`",Doom}",f,"{1646,1828}",DC
 Hiccup,"{dragon,rider}",f,{6572},How to Train Your Dragon
@@ -27401,6 +27396,11 @@ Black Maria,"{`"One ?Piece?`"}",t,{22361},One Piece
 Boom Boom,{616},f,{22362},616
 Boom Boom,"{`"Tabitha Smith`"}",f,{22362},616
 Spider-Man,{NWH},f,{261},MCU
+Robot,{Robot.*Invincible},f,"{24873,21553,22348}",Invincible
+Robot,"{Invincible,Guardians}",f,"{24873,21553,22348}",Invincible
+Robot,"{`"Robot vs`",`"Omni(-| )?Man`",Invincible}",f,"{24873,21553,22348}",Invincible
+Robot,"{`"Invincible ?verse`"}",f,"{24873,21553,22348}",Invincible
+Robot,"{Invincible,Friends}",f,"{24873,21553,22348}",Invincible
 Green Goblin,"{`"TASM\\d?`"}",f,{111},The Amazing Spider-Man
 Lizard,"{`"TASM\\d?`"}",f,{112},The Amazing Spider-Man
 Spider-Man,"{`"TASM\\d?`"}",f,{113},The Amazing Spider-Man
@@ -28896,7 +28896,6 @@ Rom,{Hasbro},f,{23329},IDW
 Rom,{K'atsema},f,{23329},IDW
 White,"{`"Tower of God`"}",f,{23330},Tower of God
 White,{Hoaqin},f,{23330},Tower of God
-Gabriel,{ULTRAKILL},f,{23331},ULTRAKILL
 Lobo,"{`"DC Animated Universe`"}",f,{23332},DCAU
 Lobo,{DCAU},f,{23332},DCAU
 Viola,{Bayonetta},f,{23333},Bayonetta
@@ -28942,6 +28941,7 @@ Piccolo,"{`"D(ragon)? ?B(all)? ?Z:? Abridged`"}",f,{23350},TeamFourStar
 Jack Horner,"{`"Puss i?n Boots`"}",f,{23351},Puss in Boots
 Jack Horner,"{`"The Last Wish`"}",f,{23351},Puss in Boots
 Loki,"{`"LEGO Marvel`"}",f,{23352},LEGO Marvel
+Gabriel,"{`"ULTRA ?KILL`"}",f,{23331},ULTRAKILL
 Sansfield,"{`"Bad Monday Simulator`"}",t,{23353},Bad Monday Simulator
 Nermal,"{`"Bad Monday Simulator`"}",f,{23354},Bad Monday Simulator
 ORT,"{`"TYPE(-| )?MOON`"}",f,{23355},Nasuverse
@@ -29190,7 +29190,6 @@ Batman,"{`"Scooby(-| )?Doo`"}",f,{23518},Scooby-Doo
 Pukin,"{`"Magical Girl Raising Project`"}",f,{23519},Magical Girl Raising Project
 Pukin,"{`"Mahou Shoujo Ikusei Keikaku`"}",f,{23519},Magical Girl Raising Project
 Menma Uzumaki,{Naruto},t,{23520},Naruto
-Minos Prime,{ULTRAKILL},t,{23521},ULTRAKILL
 Chaos,"{`"Primal Rage`"}",f,{23522},Primal Rage
 Jon,"{`"Fist of the B(0|o)rf Star`"}",f,{23523},Fist of the B0rf Star
 Calvin and Hobbes,"{`"Fist of the B(0|o)rf Star`"}",t,{23524},Fist of the B0rf Star
@@ -29253,6 +29252,7 @@ Ar-Val,"{`"Pre(-| )?Crisis`"}",f,{23566},Pre-Crisis
 Boba Fett,"{`"Robot Chicken`"}",f,{23567},Robot Chicken
 Hulkbuster,"{`"MCU\\)`"}",f,{},MCU
 Hulkbuster,{616},f,"{22877,23147,22927,23257,22735,22803,23842}",616
+Minos Prime,"{`"ULTRA ?KILL`"}",t,{23521},ULTRAKILL
 Autumn,"{`"Undead Unluck`"}",f,{23568},Undead Unluck
 Autumn,"{`"UMA Autumn`"}",f,{23568},Undead Unluck
 Spoil,"{`"Undead Unluck`"}",f,{23569},Undead Unluck
@@ -29281,7 +29281,6 @@ Harry Potter,"{`"A Very Potter Musical`"}",f,{23581},A Very Potter Musical
 Predator,"{`"Mortal Kombat`"}",f,{23582},Mortal Kombat
 Parasite,"{`"The New Adventures of Superman`"}",f,{23583},The New Adventures of Superman
 Morrigan Aensland,{Darkstalkers},t,{23584},Darkstalkers
-V1,{ULTRAKILL},f,{23585},ULTRAKILL
 SuperDoom,"{`"New(-| )?52`"}",f,{23586},New 52
 SuperDoom,{Nu?-?52},f,{23586},New 52
 SuperDoom,"{`"Post(-| )52`"}",f,{23586},New 52
@@ -29319,6 +29318,7 @@ Superhand,"{`"Rooster ?Teeth`"}",t,{23605},Rooster Teeth
 Captain Hammer,{Backyardigans},f,{23606},Backyardigans
 Weather Woman,{Backyardigans},f,{23606},Backyardigans
 Dr. Shrinky,{Backyardigans},t,{23607},Backyardigans
+V1,"{`"ULTRA ?KILL`"}",f,{23585},ULTRAKILL
 Yucky Man,{Backyardigans},f,{23607},Backyardigans
 Chumbot,{Spongebob},t,{23608},Spongebob
 Spraymond the Skunk,"{`"Nickelodeon Clickamajigs`"}",t,{23609},Nickelodeon Clickamajigs
@@ -31470,3 +31470,15 @@ Wolverine,{MCU},f,"{158,24039}",FOX
 Wolverine,"{`"Marvel Cinematic Universe`"}",f,"{158,24039}",FOX
 Wolverine,"{`"Days of Future Past`"}",f,"{158,24039}",FOX
 Wolverine,{DOFP},f,"{158,24039}",FOX
+Lucifer Morningstar,"{`"Hazbin Hotel`"}",f,{},Hazbin Hotel
+Vulpix,{Pok(e|é)m(o|a)n},t,{24874},Pokémon
+Vulpix,{Brock},t,{24874},Pokémon
+Grid,"{`"Grid ?\\(DC( Comics)?\\)`"}",f,{24875},DC
+Grid,"{DC,Cyborg}",f,{24875},DC
+Jesse Rentier,"{`"Evil West`"}",t,{24876},Evil West
+Voldemort,"{`"Methods of Rationality`"}",f,{24877},Harry Potter and the Methods of Rationality
+Genovesans,"{`"Ranger's Apprentice`"}",t,{24878},Ranger's Apprentice
+Bruce Lee,"{`"Epic Rap Battles of History`"}",f,{24879},Epic Rap Battles of History
+Bruce Lee,{ERB},f,{24879},Epic Rap Battles of History
+Chuck Norris,"{`"Epic Rap Battles of History`"}",f,{24880},Epic Rap Battles of History
+Chuck Norris,{ERB},f,{24880},Epic Rap Battles of History
