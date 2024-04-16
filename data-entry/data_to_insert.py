@@ -107,6 +107,129 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5454, 'Respect Master Hand (Super Smash Bros.)', 'https://redd.it/1c3ek0m')
+
+########################################
+
+add_data(['Lucifer Morningstar'],
+'Lucifer Morningstar',
+False,
+False,
+[
+    ['Hazbin Hotel']
+],
+'Hazbin Hotel',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1c3baad/lucifer_morningstar_hazbin_hotel_vs_superman/kzfo5s0/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Brock''s Vulpix (Pokemon Anime)", 'https://redd.it/1c2cigc')
+add_data(['Vulpix'],
+'Vulpix',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n'], ['Brock']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c2cigc/respect_brocks_vulpix_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Grid (DC Comics, Post-Flashpoint)', 'https://redd.it/1c31sfe')
+add_data(['Grid'],
+'Grid',
+False,
+False,
+[
+    ['Grid ?\(DC( Comics)?\)'], ['DC', 'Cyborg']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jesse Rentier (Evil West)', 'https://redd.it/1c40odc')
+add_data(['Jesse Rentier'],
+'Jesse Rentier',
+False,
+True,
+[
+    ['Evil West']
+],
+'Evil West',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c40odc/respect_jesse_rentier_evil_west/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Quirinus Quirrell, Voldemort (Harry Potter and the Methods of Rationality)', 'https://redd.it/1c43gdy')
+add_data(['Volder?mort'],
+'Voldemort',
+False,
+False,
+[
+    ['Methods of Rationality']
+],
+'Harry Potter and the Methods of Rationality',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c43gdy/respect_quirinus_quirrell_voldemort_harry_potter/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Genovesans (Ranger''s Apprentice)", 'https://redd.it/1c4xfd4')
+add_data(['Genovesans?'],
+'Genovesans',
+False,
+True,
+[
+    ["Ranger''s Apprentice"]
+],
+"Ranger''s Apprentice",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bruce Lee! (Epic Rap Battles of History)', 'https://redd.it/1c59j8k')
+add_data(['Bruce Lee'],
+'Bruce Lee',
+False,
+False,
+[
+    ['Epic Rap Battles of History'],
+    ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c59j8k/respect_bruce_lee_epic_rap_battles_of_history/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chuck Norris! (Epic Rap Battles of History)', 'https://redd.it/1c59j94')
+add_data(['Chuck Norris'],
+'Chuck Norris',
+False,
+False,
+[
+    ['Epic Rap Battles of History'],
+    ['ERB']
+],
+'Epic Rap Battles of History',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c59j94/respect_chuck_norris_epic_rap_battles_of_history/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
