@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+
+id = get_rt_id(cur, 'Respect Godzilla (Always: Sunset on Third Street 2)', 'https://redd.it/1c5heji')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Sunset on Third Street']
+],
+'Always: Sunset on Third Street',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c5heji/respect_godzilla_always_sunset_on_third_street_2/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
