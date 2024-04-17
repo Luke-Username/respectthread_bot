@@ -123,6 +123,36 @@ False,
 
 ########################################
 
+add_data(['Vecna'],
+'Vecna',
+False,
+False,
+[
+    ['Stranger Things']
+],
+'Stranger Things',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1c5p3wi/who_in_the_mcu_would_be_most_susceptible_to/kzvkwf7/?context=3
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Iron Monger Armor MK I (Marvel, 616)', 'https://redd.it/1c6gyx9')
+add_data(['Iron Monger'],
+'Iron Monger',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c6gyx9/respect_iron_monger_armor_mk_i_marvel_616/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
