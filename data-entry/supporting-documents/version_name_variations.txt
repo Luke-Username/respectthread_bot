@@ -993,7 +993,6 @@ Elder Scrolls
 	Displayed Version Name
 		"ēlDLIVE"
 
-
 Epic Rap Battles of History
 	Version
 		['Epic Rap Battles of History']
@@ -1148,6 +1147,12 @@ Friday the 13th
 		'{"F13"}'
 	Displayed Version Name
 		"Friday the 13th"
+
+Frieren: Beyond Journey's End
+	Version
+		['Frieren'], ['Beyond Journeys?']
+	Displayed Version Name
+		"Frieren: Beyond Journey''s End"
 
 Fullmetal Alchemist
 	Version

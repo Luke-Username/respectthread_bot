@@ -153,6 +153,22 @@ True,
 
 ########################################
 
+
+id = get_rt_id(cur, 'Respect Macht of The Golden Lands/El Dorado (Frieren)', 'https://redd.it/1c78me0')
+add_data(['El Dorado'],
+'El Dorado',
+False,
+False,
+[
+    ['Frieren'], ['Beyond Journeys?']
+],
+"Frieren: Beyond Journey''s End",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c78me0/respect_macht_of_the_golden_landsel_dorado_frieren/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
