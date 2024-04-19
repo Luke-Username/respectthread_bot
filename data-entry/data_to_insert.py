@@ -107,66 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-
-id = get_rt_id(cur, 'Respect Godzilla (Always: Sunset on Third Street 2)', 'https://redd.it/1c5heji')
-add_data(['Godzilla'],
-'Godzilla',
-False,
-False,
-[
-    ['Sunset on Third Street']
-],
-'Always: Sunset on Third Street',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1c5heji/respect_godzilla_always_sunset_on_third_street_2/
-
-########################################
-
-add_data(['Vecna'],
-'Vecna',
-False,
-False,
-[
-    ['Stranger Things']
-],
-'Stranger Things',
-'{}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/1c5p3wi/who_in_the_mcu_would_be_most_susceptible_to/kzvkwf7/?context=3
-
-########################################
-
-
-id = get_rt_id(cur, 'Respect Iron Monger Armor MK I (Marvel, 616)', 'https://redd.it/1c6gyx9')
-add_data(['Iron Monger'],
-'Iron Monger',
-False,
-True,
-[
-    ['616']
-],
-'616',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1c6gyx9/respect_iron_monger_armor_mk_i_marvel_616/
-
-########################################
-
-
-id = get_rt_id(cur, 'Respect Macht of The Golden Lands/El Dorado (Frieren)', 'https://redd.it/1c78me0')
-add_data(['El Dorado'],
-'El Dorado',
-False,
-False,
-[
-    ['Frieren'], ['Beyond Journeys?']
-],
-"Frieren: Beyond Journey''s End",
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1c78me0/respect_macht_of_the_golden_landsel_dorado_frieren/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

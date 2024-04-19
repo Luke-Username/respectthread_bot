@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET default_name='Han Chun-Woo' WHERE default_name='Han Chun(-| )woo';
-UPDATE character SET default_name='Han Chun-Woo' WHERE default_name='Han Chun(-| )woo';
-
 ########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dante', 'Silvio Dante', -7);
 
 ########################################
 
