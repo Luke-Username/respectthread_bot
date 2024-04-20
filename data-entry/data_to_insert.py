@@ -107,6 +107,81 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5444, 'Respect Crazy Hand (Super Smash Bros.)', 'https://redd.it/1c8w4ew')
+
+########################################
+
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['Hulk Hogan', 'Ultimate Warrior']
+],
+'Hulk Hogan',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1c8msv1/hulk_hogan_andre_the_giant_and_the_ultimate/l0fimfz/?context=3
+
+########################################
+
+add_data(['David'],
+'David',
+False,
+False,
+[
+    ['Edgerunners']
+],
+'Cyberpunk',
+'{23075}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1c81q8o/forcesub_yoda_star_wars_gets_access_to_endgame/l0bmcud/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect NiGHTS (NiGHTS)', 'https://redd.it/1c85rl1')
+add_data(['NiGHTS'],
+'NiGHTS',
+False,
+False,
+[
+    ['NiGHTS ?\(NiGHTS\)'], ['NiGHTS into Dreams']
+],
+'NiGHTS into Dreams',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c85rl1/respect_nights_nights/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Venom, the Lethal Protector! (SCP Explained)', 'https://redd.it/1c8g3hc')
+add_data(['Venom'],
+'Venom',
+False,
+False,
+[
+    ['SCP Explained']
+],
+'SCP Explained',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c8g3hc/respect_venom_the_lethal_protector_scp_explained/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Markiplier, the Greatest Gamer in the World! (SCP Explained)', 'https://redd.it/1c8g3it')
+add_data(['Markiplier'],
+'Markiplier',
+False,
+False,
+[
+    ['SCP Explained']
+],
+'SCP Explained',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c8g3it/respect_markiplier_the_greatest_gamer_in_the/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
