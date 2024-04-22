@@ -184,6 +184,52 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Robotic Bayleef (Pokemon Anime)', 'https://redd.it/1c9j79c')
+add_data(['Robotic Bayleef'],
+'Robotic Bayleef',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c9j79c/respect_robotic_bayleef_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zhen, the Dragon Warrior! (Kung Fu Panda)', 'https://redd.it/1c9nshg')
+add_data(['Zhen'],
+'Zhen',
+False,
+False,
+[
+    ['K(u|i)ng(-| )?Fu Panda'],
+    ['Dragon Warrior']
+],
+'Kung Fu Panda',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1c9nshg/respect_zhen_the_dragon_warrior_kung_fu_panda/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fubzilla (Holo no Graffiti) [Hololive]', 'https://redd.it/1ca2tzp')
+add_data(['Fubzilla'],
+'Fubzilla',
+False,
+False,
+[
+    ['Holo no Graffiti']
+],
+'Holo no Graffiti',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ca2tzp/respect_fubzilla_holo_no_graffiti_hololive/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
