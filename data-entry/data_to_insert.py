@@ -107,19 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Chuck (Pokemon Anime)', 'https://redd.it/1caauqk')
-add_data(['Chuck'],
-'Chuck',
-False,
-False,
-[
-    ['Chuck ?\(Pok(e|é)m(o|a)n\)']
-],
-'Pokémon',
-'{' + '{}'.format(id) + '}'
-)
-#
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

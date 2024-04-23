@@ -1206,7 +1206,6 @@ Thanos,{movie},f,{263},MCU
 Thanos,{movies},f,{263},MCU
 Thanos,"{`"Infinity War`"}",f,{263},MCU
 Thanos,{IW},f,{263},MCU
-Dante,"{`"Full ?metal`"}",f,{3416},Fullmetal Alchemist
 Thanos,{EG},f,{263},MCU
 Yon-Rogg,"{`"Marvel Cinematic`"}",f,{6505},MCU
 Yon-Rogg,{MCU},f,{6505},MCU
@@ -1268,6 +1267,7 @@ Team Shaolin,"{`"Shaolin Soccer`"}",t,"{294,295}",Shaolin Soccer
 The Commander,"{`"Sky High`"}",f,{296},Sky High
 Sky High,"{`"Sky High`"}",t,"{298,297,296}",Sky High
 Harry Osborn,"{`"Amazing Spider(-| )?Mans?`"}",f,{301},Raimiverse Spider-Man
+Dante,"{`"Full ?metal`"}",f,{3416},Fullmetal Alchemist
 Terminatrix,{Terminator},t,{328},Terminator
 Terminatrix,{T-3},t,{328},Terminator
 Terminatrix,{T3},t,{328},Terminator
@@ -1285,7 +1285,6 @@ Chicken Boo,{Animaniacs},t,{632},Animaniacs
 Katie Ka-Boom,{Animaniacs},t,{633},Animaniacs
 Slappy Squirrel,{Animaniacs},t,{634},Animaniacs
 Wakko Warner,{Animaniacs},t,{635},Animaniacs
-Dante,{FMA:?B?},f,{3416},Fullmetal Alchemist
 Captain America,"{`"Marvel Cinematic Universe`"}",f,{237},MCU
 Captain America,{MCU},f,{237},MCU
 Kuru-Kuru Hime,"{`"Magical Girl Raising Project`"}",t,{10790},Magical Girl Raising Project
@@ -1329,6 +1328,7 @@ Black Panther,{199999},f,{234},MCU
 Black Panther,{movie},f,{234},MCU
 Black Panther,{movies},f,{234},MCU
 Black Panther,"{`"Civil War`"}",f,{234},MCU
+Dante,{FMA:?B?},f,{3416},Fullmetal Alchemist
 Hulk,{199999},f,{236},MCU
 Kuru-Kuru Hime,"{`"Mahou Shoujo Ikusei Keikaku`"}",t,{10790},Magical Girl Raising Project
 Hulk,{Ragnarok},f,{236},MCU
@@ -2073,8 +2073,6 @@ Lizzie,{Rampage},f,{537},Rampage
 Wolverines,"{`"Red Dawn`",2012}",f,{538},"Red Dawn, 2012"
 Alice,"{`"Resident Evil`",films?}",f,{540},Resident Evil Films
 Alice,"{`"Resident Evil`",movies?}",f,{540},Resident Evil Films
-Alice,"{RE,films?}",f,{540},Resident Evil Films
-Alice,"{RE,movies?}",f,{540},Resident Evil Films
 Alice,"{`"(Resident Evil|RE):? Apocalypse`"}",f,{540},Resident Evil Films
 Alice,"{`"(Resident Evil|RE):? Extinction`"}",f,{540},Resident Evil Films
 Alice,"{`"(Resident Evil|RE):? Afterlife`"}",f,{540},Resident Evil Films
@@ -5237,7 +5235,6 @@ Jimbo,"{`"Boss Baby`"}",f,{1191},Boss Baby
 Finn Mcmissile,{Cars},t,{1192},Cars
 Max,"{`"Cats Don't Dance`"}",f,{1193},Cats Don't Dance
 Chuck Steel,"{`"Chuck Steel`"}",t,{1194},""
-Dante,"{`"Dante's Inferno`",`"An Animated Epic`"}",f,{1195},Dante's Inferno: An Animated Epic
 Gru,"{`"Despicable Me`"}",t,{1196},Despicable Me
 Vector,"{`"Despicable Me`"}",f,{1197},Despicable Me
 Darkwolf,"{`"Fire and Ice`"}",t,{1202},Fire and Ice
@@ -5270,6 +5267,7 @@ Metro Man,{Megamind},t,{1220},Megamind
 Hulk,"{`"\\(Hulk Vs.?\\)`"}",f,{1210},(Hulk Vs.)
 Stitch,"{`"Lilo (and|&) Stitch`"}",f,{1216},Lilo & Stitch
 Bolt,{D(i|y)sneys?},f,{1190},Bolt
+Dante,"{`"Dante's Inferno`",`"An Animated Epic`"}",f,{1195},Dante's Inferno: An Animated Epic
 Tighten,{Megamind},f,{1220},Megamind
 Titan,{Megamind},f,{1220},Megamind
 Monster House,"{`"Monster House`"}",t,{1221},""
@@ -15940,12 +15938,6 @@ Goku,"{`"SSJ\\d?`"}",t,"{3288,3290,13282}",Dragon Ball
 Saint-14,{Destiny},t,{5041},Destiny
 Sjur Eido,{Destiny},t,{5042},Destiny
 Warpriest,{Destiny},f,{5043},Destiny
-Dante,"{`"Devil May Cry`"}",t,{5044},Devil May Cry
-Dante,"{`"DMC\\d?`"}",t,{5044},Devil May Cry
-Dante,"{`"Pre(-| )Reboot`"}",t,{5044},Devil May Cry
-Dante,"{`"(excluding|not) the reboot`"}",t,{5044},Devil May Cry
-Dante,"{`"DMC:? ?Devil May Cry`"}",f,{5045},Devil May Cry Reboot
-Dante,{Reboot},f,{5045},Devil May Cry Reboot
 Lady,"{`"Lady ?\\(DMC`"}",f,{5046},Devil May Cry
 Lady,"{`"Lady ?\\(Devil May Cry`"}",f,{5046},Devil May Cry
 Lady,{Dante},f,{5046},Devil May Cry
@@ -15998,6 +15990,12 @@ Sebastian Castellanos,"{`"Evil Within`"}",t,{5068},The Evil Within
 Sebastian,"{`"Evil Within`"}",f,{5068},The Evil Within
 Giygas,"{`"Earth(-| )?bound`"}",t,{},EarthBound
 Giygas,{Mother},t,{},EarthBound
+Dante,"{`"Devil May Cry`"}",f,{5044},Devil May Cry
+Dante,"{`"DMC\\d?`"}",f,{5044},Devil May Cry
+Dante,"{`"Pre(-| )Reboot`"}",f,{5044},Devil May Cry
+Dante,"{`"(excluding|not) the reboot`"}",f,{5044},Devil May Cry
+Dante,"{`"DMC:? ?Devil May Cry`"}",f,{5045},Devil May Cry Reboot
+Dante,{Reboot},f,{5045},Devil May Cry Reboot
 Stefano Valentini,"{`"Evil Within`"}",t,{5069},The Evil Within
 Stefano,"{`"Evil Within`"}",f,{5069},The Evil Within
 Courier Six,{Fallout},t,{5070},Fallout
@@ -20675,7 +20673,6 @@ Reva,"{`"S(tar )?Wars`"}",f,{22447},Star Wars
 Reva,{SW},f,{22447},Star Wars
 Reva,"{`"Third Sister`"}",f,{22447},Star Wars
 Knull,{616},t,"{22680,2313}",616
-Dante,"{`"Dante'?s Infern(o|al)`"}",f,{},Dante's Inferno
 Black Goku,{SSJ9K},f,{},SSJ9K
 Phineas and Ferb,{default},t,{23018},""
 Starship Hulk,{616},f,{23019},616
@@ -20695,6 +20692,7 @@ Citizen Cold,{Flashpoint},t,{23024},Flashpoint
 Priscilla,{Claymore},f,{23025},Claymore
 Teresa,{Claymore},f,{23026},Claymore
 Garrett,{Garrett.*Thief},f,{23027},Thief
+Dante,"{`"Dante'?s Infern(o|al)`"}",f,{},Dante's Inferno
 Preston J. Cole,{Halo},t,{5813},Halo
 Rtas 'Vadum,{Halo},t,{5814},Halo
 Tem'Bhetek,{Halo},t,{5815},Halo
@@ -25752,7 +25750,6 @@ Ness,{Magicant},f,{5056},EarthBound
 Turtle,"{`"Turtle ?\\[DC`"}",f,{20333},DC
 Freddy,"{`"Elm St(reet)?`"}",f,"{16415,16416}",A Nightmare on Elm Street
 Demon Freddy,"{`"Elm St(reet)?`"}",f,{2762},A Nightmare on Elm Street
-Mysterio,{616},t,{21404},616
 Zorro,"{`"Don Vega`"}",f,{21405},Don Vega
 Jagganoth,"{`"Kill Six Billion Demons`"}",t,{21406},Kill Six Billion Demons
 Jagganoth,{KSBD},t,{21406},Kill Six Billion Demons
@@ -25791,6 +25788,7 @@ Star Fox,"{`"Star Fox vs|vs\\.? Star Fox`"}",t,{16780},""
 Prue Halliwell,{Charmed},t,{82},Charmed
 Shredder,"{`"Teenaged? Mutant Ninja Turtles?`"}",f,"{9373,20422,981,2673,2677,16443}",TMNT
 Shredder,{TMNT},f,"{9373,20422,981,2673,2677,16443}",TMNT
+Mysterio,{616},t,"{24890,21404}",616
 Dracula,"{`"Van Helsing`",2004}",f,{},"Van Helsing, 2004"
 Shrike,{Hyperion},f,{5840},Hyperion Cantos
 Red King,{616},f,{21421},616
@@ -27496,7 +27494,6 @@ Donut,"{`"Kung( |-)?Fu Hustle`"}",f,{228},Kung Fu Hustle
 Sing,"{`"Kung( |-)?Fu Hustle`"}",f,{229},Kung Fu Hustle
 Coolie,"{`"Kung( |-)?Fu Hustle`"}",f,{228},Kung Fu Hustle
 Buddha,"{`"World of Darkness`"}",f,{},World of Darkness
-Dante,"{`"S(hin)? ?M(egami)? ?T(ensei)?`"}",f,{},Shin Megami Tensei
 Kars,"{`"spin(-| )off`"}",f,{6168},Jorge Joestar
 Dio,"{`"spin(-| )off`",Kars}",f,{6167},Jorge Joestar
 Detective,"{`"Disco Elysium`"}",f,{22429},Disco Elysium
@@ -27528,6 +27525,7 @@ Beatrice Flowerchild,{Fate},t,{22442},Fate
 Cheetah,"{`"Batman Unlimited`"}",f,{22443},Batman Unlimited
 Karrin Murphy,{Dresden(verse)?},t,{22444},The Dresden Files
 Trapstr,{616},f,{22445},616
+Dante,"{`"S(hin)? ?M(egami)? ?T(ensei)?`"}",f,{},Shin Megami Tensei
 Carol Danvers,{MCU},f,{6500},MCU
 Man-Bat,"{`"DC Animated Universe`"}",f,{764},DCAU
 Man-Bat,"{`"Animated DC`"}",f,{764},DCAU
@@ -28326,8 +28324,6 @@ Block Man,"{`"Mega ?Man`"}",f,{22997},Mega Man
 Cut Man,"{`"Mega ?Man`"}",f,{22998},Mega Man
 Acid Man,"{`"Mega ?Man`"}",f,{22999},Mega Man
 Blast Man,"{`"Mega ?Man`"}",f,{23000},Mega Man
-Dante,"{`"Devil May Cry Comics`"}",f,{23001},Devil May Cry Comics
-Dante,{Dreamwave},f,{23001},Devil May Cry Comics
 Fami,"{`"Chainsaw(-| )?Man`"}",f,{23002},Chainsaw Man
 Liquid Snake,"{`"Metal ?Gear`"}",t,{23003},Metal Gear
 Liquid Snake,"{`"MGS(\\d|\\w+)?`"}",t,{23003},Metal Gear
@@ -28352,6 +28348,8 @@ Ryoko Mitsurugi,"{`"Real Bout High School`"}",t,{23015},Samurai Girl: Real Bout 
 Shizuma Kusanagi,"{`"Samurai Girl`"}",t,{23016},Samurai Girl: Real Bout High School
 Shizuma Kusanagi,"{`"Real Bout High School`"}",t,{23016},Samurai Girl: Real Bout High School
 Skye,"{`"Darkened Skye`"}",f,{23017},Darkened Skye
+Dante,"{`"Devil May Cry Comics`"}",f,{23001},Devil May Cry Comics
+Dante,{Dreamwave},f,{23001},Devil May Cry Comics
 Thor,"{`"Thor ?\\(GoW`"}",f,{22966},God of War
 Thor,"{`"God of War Thor`"}",f,{22966},God of War
 Thor,"{`"God of War`",Pantheons?}",f,{22966},God of War
@@ -29009,7 +29007,6 @@ Evelyn Wang,"{`"Everything Everywhere All At Once`"}",t,{22371},Everything Every
 Teenage Mutant Ninja Turtles,{Mirage},f,"{23401,23391,23392,23393,23394}",Mirage Comics
 Xeranthemum,{Suggs(verse)?},f,"{23402,5992}",Suggsverse
 Calamity Trio,{Amphibia},t,"{22017,22016,22028}",Amphibia
-Dante,"{`"Dante's Inferno`",Movie,Game}",f,"{23406,1195}","Dante's Inferno, EA"
 Falyce,"{`"Pre(-| )Zero Hour`"}",t,{23407},Pre-Zero Hour
 Falyce,"{`"\\(DC( Comics)?\\)`"}",t,{23407},DC
 Falyce,"{`"\\[DC( Comics)?\\]`"}",t,{23407},DC
@@ -29061,6 +29058,7 @@ Dragorin,"{`"New(-| )Earth`"}",f,{23428},Post-Crisis
 Dragorin,"{`"\\(DC( Comics)?\\)`"}",f,{23428},DC
 Dragorin,"{`"\\[DC( Comics)?\\]`"}",f,{23428},DC
 SCP-343,{God},t,{23400},""
+Dante,"{`"Dante's Inferno`",Movie,Game}",f,"{23406,1195}","Dante's Inferno, EA"
 Shriek,"{`"DC Animated Universe`"}",f,{23429},DCAU
 Shriek,{DCAU},f,{23429},DCAU
 I.M. Meen,"{`"Animation Magic`"}",t,{23430},Animation Magic
@@ -29589,7 +29587,6 @@ DSK,{Saitama},t,"{4099,23797}",One Punch Man
 DSK,{Tatsumaki},t,"{4099,23797}",One Punch Man
 DSK,{Genos},t,"{4099,23797}",One Punch Man
 Domino,"{`"Deadpool 2`"}",f,{145},FOX X-Men
-Dante,"{`"Dante Alighieri`"}",f,{},Dante Alighieri
 Batman,"{`"The Batman`",Reeves}",f,{22590},"The Batman, 2022"
 PAL,"{Mitchell?s?,Machines?}",f,{23798},The Mitchells vs. the Machines
 PAL,"{`"PAL Max`"}",f,{23798},The Mitchells vs. the Machines
@@ -29625,6 +29622,7 @@ Zatanna,{PC},f,{1710},Post-Crisis / New 52
 Zatanna,"{`"Post(-| )?C(risis)?`"}",f,{1710},Post-Crisis / New 52
 Zatanna,"{`"New(-| )Earth`"}",f,{1710},Post-Crisis / New 52
 Zatanna,"{`"(DC( Comics)?)`"}",f,"{1710,23813}",DC
+Dante,"{`"Dante Alighieri`"}",f,{},Dante Alighieri
 Gregor Eisenhorn,{(WH)?40K},t,{23816},Warhammer 40k
 Gregor Eisenhorn,{Warhammer},t,{23816},Warhammer 40k
 Belinda White,"{`"Candy Shop War`"}",f,{23817},The Candy Shop War
@@ -31496,3 +31494,4 @@ Robotic Bayleef,{Pok(e|é)m(o|a)n},f,{24887},Pokémon
 Zhen,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{24888},Kung Fu Panda
 Zhen,"{`"Dragon Warrior`"}",f,{24888},Kung Fu Panda
 Fubzilla,"{`"Holo no Graffiti`"}",f,{24889},Holo no Graffiti
+Chuck,"{`"Chuck ?\\(Pok(e|é)m(o|a)n\\)`"}",f,{24891},Pokémon
