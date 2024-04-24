@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Mighty Thor'],
+'Mighty Thor',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{22599}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1cbh6wm/black_manta_dceu_vs_mighty_thor_mcu/l0yxq1i/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
