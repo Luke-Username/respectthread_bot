@@ -150,6 +150,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Ojamas! (Yu-Gi-Oh! Trading Card Game)', 'https://redd.it/1cdciy5')
+add_data(['Ojamas?'],
+'Ojamas',
+False,
+False,
+[
+    ['Yu(-| )?Gi(-| )?Oh']
+],
+'Yu-Gi-Oh!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cdciy5/respect_the_ojamas_yugioh_trading_card_game/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ajna (Indivisible)', 'https://redd.it/1cdlstb')
+add_data(['Ajna'],
+'Ajna',
+False,
+False,
+[
+    ['Indivisible']
+],
+'Indivisible',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cdlstb/respect_ajna_indivisible/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
