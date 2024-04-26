@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Gojo'],
+'Gojo',
+False,
+False,
+[
+    ['Makima']
+],
+'Jujutsu Kaisen',
+'{14809}'
+)
+#
+
+########################################
+
 add_data(['Mighty Thor'],
 'Mighty Thor',
 False,
