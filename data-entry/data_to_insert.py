@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 24381, '[NSFW] Respect Exentera (Vitiators)', 'https://redd.it/1cdrod4')
+
+########################################
+
 add_data(['Gojo'],
 'Gojo',
 False,
