@@ -184,6 +184,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Infinata! (Rocket Robin Hood)', 'https://redd.it/1ce1sju')
+add_data(['Infinata'],
+'Infinata',
+False,
+False,
+[
+    ['Rocket Robin Hood']
+],
+'Rocket Robin Hood',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ce1sju/respect_infinata_rocket_robin_hood/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
