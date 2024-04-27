@@ -31226,7 +31226,6 @@ Doofy Gilmore,"{`"Scary Movie`"}",t,{24719},Scary Movie
 Harry Warden,"{`"My Bloody Valentine`"}",t,{24720},My Bloody Valentine
 Harry Warden,"{`"The Miner`"}",t,{24720},My Bloody Valentine
 The Miner,"{`"My Bloody Valentine`"}",f,{24720},My Bloody Valentine
-The Miner,"{`"The Miner`"}",f,{24720},My Bloody Valentine
 Alexander,"{`"Mystic Blade`"}",f,{24721},Mystic Blade
 Phantom Killer,"{`"The Town That Dreaded Sundown`"}",f,{24722},The Town That Dreaded Sundown
 Kim Soo-hyun,"{`"I Saw the Devil`"}",f,{24723},I Saw the Devil
@@ -31495,3 +31494,8 @@ Zhen,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{24888},Kung Fu Panda
 Zhen,"{`"Dragon Warrior`"}",f,{24888},Kung Fu Panda
 Fubzilla,"{`"Holo no Graffiti`"}",f,{24889},Holo no Graffiti
 Chuck,"{`"Chuck ?\\(Pok(e|é)m(o|a)n\\)`"}",f,{24891},Pokémon
+Gojo,{Makima},f,{14809},Jujutsu Kaisen
+The Moose,{Chappie},f,{24892},Chappie
+Ojamas,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{24893},Yu-Gi-Oh!
+Ajna,{Indivisible},f,{24894},Indivisible
+Infinata,"{`"Rocket Robin Hood`"}",f,{24895},Rocket Robin Hood

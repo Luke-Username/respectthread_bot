@@ -14,8 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='The Miner' AND version='{"The Miner"}';
-
 ########################################
 
 ########################################
