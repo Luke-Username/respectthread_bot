@@ -180,6 +180,22 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ryo Saeba! (City Hunter)[Manga]', 'https://redd.it/1cg9agp')
+id2 = get_rt_id(cur, 'Respect Ryo Saeba (City Hunter)[Anime]', 'https://redd.it/1cg9e2p')
+add_data(['Ryo Saeba'],
+'Ryo Saeba',
+False,
+True,
+[
+    ['City Hunter']
+],
+'City Hunter',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cg9agp/respect_ryo_saeba_city_huntermanga/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
