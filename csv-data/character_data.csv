@@ -20778,9 +20778,6 @@ Satan,{Jesus},f,{5837},Bible
 Colonel Fedmahn Kassad,"{`"Hyperion Cantos`"}",t,{5838},Hyperion Cantos
 Rhadamanth Nemes,"{`"Hyperion Cantos`"}",t,{5839},Hyperion Cantos
 The Shrike,{Hyperion},t,{5840},Hyperion Cantos
-Durza,{Inheritance},t,{5841},Eragon
-Durza,{Eragon},t,{5841},Eragon
-Durza,{Shade},t,{5841},Eragon
 Eragon,{Inheritance},t,{5842},""
 Garzhvog,{Inheritance},t,{5843},Eragon
 Garzhvog,{Eragon},t,{5843},Eragon
@@ -20833,6 +20830,9 @@ Smaug,{Hobbit},t,"{5866,465}",Lord of the Rings
 Tom Bombadil,"{`"L(ord )?o(f )?t(he )?R(ings)?`"}",t,{5867},Lord of the Rings
 Akane,"{`"Magical Girl Raising Project`"}",f,{5868},Magical Girl Raising Project
 Akane,"{`"Mahou Shoujo Ikusei Keikaku`"}",f,{5868},Magical Girl Raising Project
+Durza,{Inheritance},f,{5841},Eragon
+Durza,{Eragon},f,{5841},Eragon
+Durza,{Shade},f,{5841},Eragon
 Cherna Mouse,"{`"Magical Girl Raising Project`"}",t,{5869},Magical Girl Raising Project
 Cherna Mouse,"{`"Mahou Shoujo Ikusei Keikaku`"}",t,{5869},Magical Girl Raising Project
 Filuru,"{`"Magical Girl Raising Project`"}",t,{5870},Magical Girl Raising Project
@@ -27713,8 +27713,6 @@ Ram,"{`"Re(:|-)? ?Zero`"}",f,{13266},Re:Zero
 Emilia,"{`"Re(:|-)? ?Zero`"}",f,{13268},Re:Zero
 Puck,"{`"Re(:|-)? ?Zero`"}",f,{13269},Re:Zero
 Rem,"{`"Re(:|-)? ?Zero`"}",f,{13270},Re:Zero
-Roswaal,"{`"Re(:|-)? ?Zero`"}",t,{13271},Re:Zero
-Roswaal L Mathers,"{`"Re(:|-)? ?Zero`"}",t,{13271},Re:Zero
 Batman,"{`"Bat(-| )?mans?.*2022`"}",f,{22590},"The Batman, 2022"
 Batman,"{`"The Batman`",2022}",f,{22590},"The Batman, 2022"
 Vi,{Arcane},f,{5201},League of Legends
@@ -31499,3 +31497,12 @@ The Moose,{Chappie},f,{24892},Chappie
 Ojamas,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{24893},Yu-Gi-Oh!
 Ajna,{Indivisible},f,{24894},Indivisible
 Infinata,"{`"Rocket Robin Hood`"}",f,{24895},Rocket Robin Hood
+Annie,"{`"Attack on Titan`"}",f,{3056},Attack on Titan
+Annie,"{`"Shingeki no Kyojin`"}",f,{3056},Attack on Titan
+Annie,"{AOT,Eren|Levi|Mikasa}",f,{3056},Attack on Titan
+Stardust Crusaders,"{`"The Stardust Crusaders`"}",f,"{3560,3540,3567,3559}",Jojo's Bizarre Adventure
+Stardust Crusaders,"{`"Stardust Crusaders vs`"}",f,"{3560,3540,3567,3559}",Jojo's Bizarre Adventure
+Markiplier,"{`"Absolute Comics`"}",f,{24896},Absolute Comics
+Chameleon,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{24897},Kung Fu Panda
+Death Bear,"{`"Regular Show`"}",f,{24898},Regular Show
+Ryo Saeba,"{`"City Hunter`"}",t,"{24899,24900}",City Hunter
