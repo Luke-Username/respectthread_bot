@@ -25,6 +25,8 @@ UPDATE character SET rt_id_array='{}' WHERE default_name='Superman' AND displaye
 
 ########################################
 
+UPDATE character SET version='{"Burton(verse)?"}' WHERE version='{"Burtonverse"}';
+
 ########################################
 
 ########################################
