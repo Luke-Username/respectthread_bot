@@ -3329,6 +3329,12 @@ SuperJail!
 	Displayed Version Name
 		"SuperJail!"
 
+Superman & Lois
+	Version
+		['Superman (&|and) Lois']
+	Displayed Version Name
+		"Superman & Lois"
+
 Superman: Secret Identity
 	Version
 		'{"Superman:? Secret Identity"}', r'{"\\(Secret Identity\\)"}'
@@ -3650,6 +3656,12 @@ Umbrella Academy
 			['Umbrella Academy']
 		Displayed Version Name
 			"The Umbrella Academy"
+
+Undead Unluck
+	Version
+		['Undead Unluck']
+	Displayed Version Name
+		"Undead Unluck"
 
 Underdog
 	Version
