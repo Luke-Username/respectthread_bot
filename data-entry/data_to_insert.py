@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect E.T. (E.T. the Extraterrestrial)', 'https://redd.it/1ck1uqm')
+add_data(['E\.T'],
+'E.T.',
+False,
+False,
+[
+    ['Extra-?Terrestrial'], ['E\.T vs', 'movies?'], ['vs\.? E\.T', 'movies?|Telekinetics'], ['phone home'], ['alien'], ['Spielberg']
+],
+'E.T. the Extraterrestrial',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ck1uqm/respect_et_et_the_extraterrestrial/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
