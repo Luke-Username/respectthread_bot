@@ -14,25 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Imhotep' AND version='{21504}';
-UPDATE character SET rt_id_array='{21504, 6589}' WHERE default_name='Imhotep';
-UPDATE character SET is_default=TRUE WHERE default_name='Imhotep';
+########################################
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Superman (CW, Earth TUD25)', 'https://redd.it/1cgsvbo'); SELECT * FROM respectthread WHERE link='https://redd.it/1cgsvbo';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Superman' AND displayed_version_name='Superman & Lois';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Gigantosaurus (Ninja Gaiden 3)', 'https://redd.it/1b1a5o0'); SELECT * FROM respectthread WHERE link='https://redd.it/1b1a5o0';
-UPDATE character SET rt_id_array='{?2}' WHERE default_name='Gigantosaurus';
-
 ########################################
-
-UPDATE character SET version='{"Burton(verse)?"}' WHERE version='{"Burtonverse"}';
-
-########################################
-
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Matilda', 'Empress Matilda', -8);
 
 ########################################
 

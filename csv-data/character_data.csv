@@ -3904,7 +3904,6 @@ Fishlegs,{DreamWorks},t,{6588},How to Train Your Dragon
 Meatlug,"{`"How to Train Your Dragon`"}",t,{6588},How to Train Your Dragon
 Meatlug,{HTTYD},t,{6588},How to Train Your Dragon
 Meatlug,{DreamWorks},t,{6588},How to Train Your Dragon
-Imhotep,"{`"The Mummy`"}",f,{6589},The Mummy
 13 Ghosts,"{`"Scooby(-| )?Doo`"}",f,{6590},Scooby-Doo
 13 Ghosts of Scooby-Doo,"{`"Scooby(-| )?Doo`"}",t,{6590},""
 Maldor The Malevolent,"{`"Scooby(-| )?Doo`"}",t,{6590},Scooby-Doo
@@ -19804,7 +19803,6 @@ Emperor Mateus,"{`"Final Fantasy`"}",t,{21502},Final Fantasy
 Emperor Mateus,{FF(II|2)},t,{21502},Final Fantasy
 Ginormica,"{`"Monsters vs?\\.? Aliens`"}",t,{21503},Monsters vs. Aliens
 Susan,"{`"Monsters vs?\\.? Aliens`"}",f,{21503},Monsters vs. Aliens
-Imhotep,{1932},f,{21504},"The Mummy, 1932"
 Ahmanet,{2017},f,{21505},The Mummy
 Ahmanet,"{`"The Mummy`"}",f,{21505},The Mummy
 Rachel,"{`"Rachel Woodruff`"}",f,{21506},Beyonders
@@ -30527,7 +30525,6 @@ The Collector,"{`"The Collector ?\\(The Collector`"}",f,{24287},""
 The Collector,"{`"The Collection`"}",f,{24287},""
 The Collector,{Jigsaw},f,{24287},""
 Doctor Strange,"{`"Doctor Strange: The Sorcerer Supreme`"}",f,{24288},Doctor Strange: The Sorcerer Supreme
-Batman,{Burtonverse},f,{24289},Burtonverse
 King Arthur,"{`"21st Century Guide to Mythology`"}",f,{24290},The 21st Century Guide to Mythology
 Pidgeotto,{Ash},f,{24291},Ash
 Pidgeot,{Ash},f,{24291},Ash
@@ -31213,7 +31210,6 @@ Godzilla,"{`"Burning Godzilla`"}",f,{},Godzilla vs. Destoroyah
 Godzilla,"{`"Godzilla vs\\.? Destoroyah`"}",f,{},Godzilla vs. Destoroyah
 Joseph Rambo,{616},f,{24715},616
 Rentaro,"{`"100 Girlfriends`"}",f,{24716},100 ?(Girlfriends|Kanojo)
-Gigantosaurus,"{`"Ninja Gaiden`"}",f,{24716},Ninja Gaiden
 Ken the Eagle,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",Science Ninja Team Gatchaman
 Joe the Condor,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",Science Ninja Team Gatchaman
 Jun the Swan,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",Science Ninja Team Gatchaman
@@ -31233,6 +31229,7 @@ Garfield,"{`"vs.? Garfield`"}",f,{2764},Comics
 Garfield,"{`"Shakespeare ?Hemmingway`"}",f,{6316},ShakespeareHemmingway
 Garfield,"{`"Fist of the B0rf star`"}",f,{23614},Fist of the B0rf star
 Garfield,"{`"live(-| )action`"}",f,{23815},Live-Action
+Gigantosaurus,"{`"Ninja Gaiden`"}",f,{24902},Ninja Gaiden
 Garfield,"{`"Garfield Originals`"}",f,{23870},Garfield Originals
 Cabin in the Woods,{2012},t,{24724},""
 Fouke Monster,"{`"Legend of Boggy Creek`"}",f,{24725},The Legend of Boggy Creek
@@ -31375,8 +31372,6 @@ Green Goblin,"{`"Spectacular Spider(-| )?Man`"}",f,{24811},Spectacular Spider-Ma
 Shadow Moon,"{`"Kamen Rider`"}",f,{24812},Kamen Rider
 Shadow Moon,"{`"Nobuhiko Akizuki`"}",f,{24812},Kamen Rider
 Hauzer,"{`"Red Earth`"}",f,{24813},Red Earth
-Superman,"{`"Super(-| )?man from Superman (&|and) Lois`"}",f,{},Superman & Lois
-Superman,"{`"Superman ?\\(Superman (&|and) Lois\\)`"}",f,{},Superman & Lois
 Snake Eyes,"{`"G\\.?I\\.? Joe`",Movies?}",f,{442},G.I. Joe Movies
 Aura,"{`"Aura ?\\(Frieren\\)`"}",f,{24814},Frieren: Beyond Journey's End
 Aura,"{`"Aura the Guillotine`"}",f,{24814},Frieren: Beyond Journey's End
@@ -31506,3 +31501,25 @@ Markiplier,"{`"Absolute Comics`"}",f,{24896},Absolute Comics
 Chameleon,"{`"K(u|i)ng(-| )?Fu Panda`"}",f,{24897},Kung Fu Panda
 Death Bear,"{`"Regular Show`"}",f,{24898},Regular Show
 Ryo Saeba,"{`"City Hunter`"}",t,"{24899,24900}",City Hunter
+Imhotep,"{`"The Mummy`"}",t,"{21504,6589}",The Mummy
+Superman,"{`"Super(-| )?man from Superman (&|and) Lois`"}",f,{24901},Superman & Lois
+Superman,"{`"Superman ?\\(Superman (&|and) Lois\\)`"}",f,{24901},Superman & Lois
+Batman,{Burton(verse)?},f,{24289},Burtonverse
+Dominic,"{Rangers,`"Jungle Fury`"}",f,{24018},Power Rangers Jungle Fury
+Lily,"{Rangers,`"Jungle Fury`"}",f,{24099},Power Rangers Jungle Fury
+Alaskan Bull Worm,{Spongebob},t,{24903},Spongebob
+Juiz d'Arc,"{`"Undead Unluck`"}",f,{24904},Undead Unluck
+Void Volks,"{`"Undead Unluck`"}",t,{24905},Undead Unluck
+Red,"{`"NES Godzilla Creepypastak`"}",f,{24906},NES Godzilla Creepypasta
+Phil Hawkins,"{`"Undead Unluck`"}",f,{24907},Undead Unluck
+Steel,{TUD2(2|5)},f,{24908},Superman & Lois
+Steel,"{`"Steel ?\\(Superman (&|and) Lois\\)`"}",f,{24908},Superman & Lois
+Molly Millions,{Sprawl},f,{24909},Sprawl Trilogy
+Rei Suwa,"{`"Buddy Daddies`"}",t,{24910},Buddy Daddies
+Eve,"{`"Birdie Wing`"}",f,{24911},Birdie Wing
+Vahram,"{`"Prince of Persia`"}",f,{24912},Prince of Persia
+Baragon,{Godzilla},t,{24913},Godzilla
+Zane Lofton,"{`"Slayers X|Terminal Aftermath|Vengance of the Slayer`"}",t,{24914},Slayers X: Terminal Aftermath: Vengance of the Slayer
+Hatsune Miku,{VOCALOID},t,{24915},""
+Iskat Akaris,"{`"S(tar )?Wars`"}",t,{24916},Star Wars
+Thirteenth Sister,"{`"S(tar )?Wars`"}",f,{24916},Star Wars
