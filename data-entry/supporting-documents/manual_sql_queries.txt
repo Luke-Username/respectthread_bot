@@ -32,6 +32,8 @@ UPDATE character SET version='{"Burton(verse)?"}' WHERE version='{"Burtonverse"}
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Matilda', 'Empress Matilda', -8);
+
 ########################################
 
 ########################################

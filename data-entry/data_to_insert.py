@@ -163,6 +163,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Void Volks! (Undead Unluck)', 'https://redd.it/1cj6nqi')
+add_data(['Void Volks'],
+'Void Volks',
+False,
+True,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cj6nqi/respect_void_volks_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Red (NES Godzilla Creepypasta)', 'https://redd.it/1cja7y6')
+add_data(['Red'],
+'Red',
+False,
+False,
+[
+    ['NES Godzilla Creepypastak']
+],
+'NES Godzilla Creepypasta',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cja7y6/respect_red_nes_godzilla_creepypasta/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Phil Hawkins! (Undead Unluck)', 'https://redd.it/1cifxx2')
 add_data(['Phil Hawkins'],
 'Phil Hawkins',
@@ -280,6 +310,48 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1ciha85/respect_zane_lofton_slayers_x_terminal_aftermath/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hatsune Miku! (VOCALOID)', 'https://redd.it/1cio0n6')
+add_data(['Hatsune Miku'],
+'Hatsune Miku',
+False,
+True,
+[
+    ['VOCALOID']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cio0n6/respect_hatsune_miku_vocaloid/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iskat Akaris, the Thirteenth Sister (Star Wars Canon)', 'https://redd.it/1civxyk')
+add_data(['Iskat Akaris'],
+'Iskat Akaris',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1civxyk/respect_iskat_akaris_the_thirteenth_sister_star/
+
+add_data(['Thirteenth Sister'],
+'Thirteenth Sister',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1civxyk/respect_iskat_akaris_the_thirteenth_sister_star/
 
 ########################################
 
