@@ -18,6 +18,8 @@ DELETE FROM character_name WHERE name='E\\.T';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Riddick', 'Riddick Bowe', 0);
+
 ########################################
 
 ########################################
