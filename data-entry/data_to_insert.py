@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Iron Fist'],
+'Iron Fist',
+False,
+False,
+[
+    ['APS'], ['Active Protection System']
+],
+'Active Protection System',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1clh3ww/the_bradley_war/l2tfxnh/?context=3
+
+########################################
+
+add_data(['Storm'],
+'Storm',
+False,
+False,
+[
+    ['Storm ?\(Marvel 616']
+],
+'616',
+'{2386}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1clhfxf/depowered_cyclops_vs_depowered_storm_marvel_616/l2ti9z4/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect E.T. (E.T. the Extraterrestrial)', 'https://redd.it/1ck1uqm')
 add_data(['E\.T'],
 'E.T.',
@@ -119,6 +147,183 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1ck1uqm/respect_et_et_the_extraterrestrial/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Godzilla: War For Humanity)', 'https://redd.it/1ckfmrv')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['War For Humanity']
+],
+'Godzilla: War For Humanity',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ckfmrv/respect_godzilla_godzilla_war_for_humanity/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zoospora (Godzilla: War For Humanity)', 'https://redd.it/1ckfph8')
+add_data(['Zoospora'],
+'Zoospora',
+False,
+False,
+[
+    ['War For Humanity'], ['Godzilla']
+],
+'Godzilla: War For Humanity',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ckfph8/respect_zoospora_godzilla_war_for_humanity/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Old "Creeper" Jackson, The Crippled Gardner (DC Comics, Pre-Crisis Earth-Two)', 'https://redd.it/1ckicey')
+add_data(['Old "Creeper" Jackson'],
+'Old "Creeper" Jackson',
+False,
+False,
+[
+    ['Pre(-| )?Crisis', 'Earth(-| )?Two']
+],
+'Pre-Crisis Earth-Two',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ckicey/respect_old_creeper_jackson_the_crippled_gardner/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ginko Tsukitsuba (Samurai in Another World)', 'https://redd.it/1cksw5p')
+add_data(['Ginko Tsukitsuba|Tsukitsuba Ginko'],
+'Ginko Tsukitsuba',
+False,
+True,
+[
+    ['Samurai in Another World']
+],
+'Samurai in Another World',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cksw5p/respect_ginko_tsukitsuba_samurai_in_another_world/
+
+add_data(['Ginko'],
+'Ginko',
+False,
+False,
+[
+    ['Samurai in Another World']
+],
+'Samurai in Another World',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cksw5p/respect_ginko_tsukitsuba_samurai_in_another_world/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Prime (Malibu Comics)', 'https://redd.it/1cktk2x')
+add_data(['Prime'],
+'Prime',
+False,
+False,
+[
+    ['Malibu Comics'], ['Kevin Green']
+],
+'Malibu Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cktk2x/respect_prime_malibu_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect God! (Undead Unluck)', 'https://redd.it/1ckw6fv')
+add_data(['God'],
+'God',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ckw6fv/respect_god_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chikara Shigeno (Undead Unluck)', 'https://redd.it/1cme04f')
+add_data(['Chikara Shigeno'],
+'Chikara Shigeno',
+False,
+True,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cme04f/respect_chikara_shigeno_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect First Commander Mick (Scoob and Shag)', 'https://redd.it/1clgspj')
+add_data(['Commander Mick'],
+'Commander Mick',
+False,
+False,
+[
+    ['Scoob and Shag']
+],
+'Scoob and Shag',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1clgspj/respect_first_commander_mick_scoob_and_shag/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shag (Scoob and Shag)', 'https://redd.it/1cm82qq')
+add_data(['Shag'],
+'Shag',
+False,
+False,
+[
+    ['Shag ?\(Scoob and Shag']
+],
+'Scoob and Shag',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cm82qq/respect_shag_scoob_and_shag/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Riley (Pokemon Anime)', 'https://redd.it/1cljyoa')
+add_data(['Riley'],
+'Riley',
+False,
+False,
+[
+    ['Riley ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cljyoa/respect_riley_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nubs (Star Wars Canon)', 'https://redd.it/1cm4jyd')
+add_data(['Nubs'],
+'Nubs',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cm4jyd/respect_nubs_star_wars_canon/
 
 ########################################
 
