@@ -107,6 +107,259 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Gojo'],
+'Gojo',
+False,
+False,
+[
+    ['Sukuna']
+],
+'Jujutsu Kaisen',
+'{14809}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1cq9j2q/whos_winning_this_team_1_zoro_megumi_sukuna_gohan/l3q6qql/?context=3
+
+########################################
+
+add_data(['Blitzø'],
+'Blitzø',
+False,
+True,
+[
+    ['Helluva Boss']
+],
+'Helluva Boss',
+'{23869}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1cq9j2q/whos_winning_this_team_1_zoro_megumi_sukuna_gohan/l3q6qql/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aggron (Pokemon Anime)', 'https://redd.it/1cn4ew8')
+add_data(['Aggron'],
+'Aggron',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cn4ew8/respect_aggron_pokemon_anime/
+########################################
+
+id = get_rt_id(cur, 'Respect Deoxys (Pokemon Anime)', 'https://redd.it/1cnu9jy')
+add_data(['Deoxys'],
+'Deoxys',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cn4ew8/respect_aggron_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Edward Carnby (Alone in the Dark)', 'https://redd.it/1cnxmv0')
+id2 = get_rt_id(cur, 'Respect Edward Carnby (Alone in the Dark: The New Nightmare)', 'https://redd.it/1cn60r1')
+id3 = get_rt_id(cur, 'Respect Edward Carnby (Alone in the Dark, film series)', 'https://redd.it/1cn60u1')
+id4 = get_rt_id(cur, 'Respect Edward Carnby (Alone in the Dark, 2024 Remake)', 'https://redd.it/1cn60pq')
+add_data(['Edward Carnby'],
+'Edward Carnby',
+False,
+True,
+[
+    ['Alone in the Dark']
+],
+'Alone in the Dark',
+'{' + '{}, {}, {}, {}'.format(id, id2, id3, id4) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cn60pq/respect_edward_carnby_alone_in_the_dark_2024/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tatiana! (Undead Unluck)', 'https://redd.it/1cn74pi')
+add_data(['Tatiana'],
+'Tatiana',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cn74pi/respect_tatiana_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Top! (Undead Unluck)', 'https://redd.it/1copvd0')
+add_data(['Top'],
+'Top',
+False,
+False,
+[
+    ['Undead Unluck'], ['Top Bull Sparx']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1copvd0/respect_top_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Isshin! (Undead Unluck)', 'https://redd.it/1coq0c1')
+add_data(['Isshin'],
+'Isshin',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1coq0c1/respect_isshin_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (AVP: Rage War Trilogy)', 'https://redd.it/1cnn0aj')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Rage War Trilogy']
+],
+'Rage War Trilogy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cnn0aj/respect_the_predators_avp_rage_war_trilogy/
+
+########################################
+
+id = get_rt_id(cur, "Respect Prince Phillip (Disney''s Sleeping Beauty)", 'https://redd.it/1cnrl9i')
+add_data(['Prince Phillip'],
+'Prince Phillip',
+False,
+False,
+[
+    ['Sleeping Beauty']
+],
+"Disney''s Sleeping Beauty",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cnrl9i/respect_prince_phillip_disneys_sleeping_beauty/
+
+########################################
+
+id = get_rt_id(cur, "Respect M''Baku, Man-Ape (Marvel, 616)", 'https://redd.it/1co5c4f')
+add_data(["M''Baku"],
+"M''Baku",
+False,
+True,
+[
+    ['616'], ['Man-Ape', 'Comics?']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1co5c4f/respect_mbaku_manape_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Phineas Mason, the Tinkerer (Marvel Comics, 616)', 'https://redd.it/1cqfjzd')
+add_data(['Tinkerer'],
+'Tinkerer',
+False,
+False,
+[
+    ['Tinkerer ?\(Marvel\)'], ['Tinkerer ?\(616\)']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cqfjzd/respect_phineas_mason_the_tinkerer_marvel_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Timber Wolf (DC, Pre-Flashpoint)', 'https://redd.it/1cok0q8')
+add_data(['Timber Wolf'],
+'Timber Wolf',
+False,
+False,
+[
+    ['Pre(-| )?Flashpoint']
+],
+'Pre-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cok0q8/respect_timber_wolf_dc_preflashpoint/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rena Rouge (Miraculous Ladybug)', 'https://redd.it/1cp4fvf')
+add_data(['Rena Rouge'],
+'Rena Rouge',
+False,
+True,
+[
+    ['Miraculous']
+],
+'Miraculous Ladybug',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cp4fvf/respect_rena_rouge_miraculous_ladybug/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sakuya Izayoi (minusT Animations)', 'https://redd.it/1cph52z')
+add_data(['Sakuya( Izayoi)?'],
+'Sakuya Izayoi',
+False,
+False,
+[
+    ['minusT']
+],
+'minusT',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cph52z/respect_sakuya_izayoi_minust_animations/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Youmu Konpaku (minusT Animations)', 'https://redd.it/1cph53s')
+add_data(['Youmu Konpaku'],
+'Youmu Konpaku',
+False,
+False,
+[
+    ['minusT']
+],
+'minusT',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cph53s/respect_youmu_konpaku_minust_animations/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Beverly Sutphin (Serial Mom)', 'https://redd.it/1cqaqzd')
+add_data(['Beverly Sutphin'],
+'Beverly Sutphin',
+False,
+True,
+[
+    ['Serial Mom']
+],
+'Serial Mom',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cqaqzd/respect_beverly_sutphin_serial_mom/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
