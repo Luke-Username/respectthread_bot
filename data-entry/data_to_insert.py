@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Robin'],
+'Robin',
+False,
+False,
+[
+    ['Robin ?\(One Piece\)']
+],
+'One Piece',
+'{4051}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1cqugmc/hardest_fictional_heist_which_nami_and_robin_one/l3udcxm/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
