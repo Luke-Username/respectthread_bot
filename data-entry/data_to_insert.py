@@ -121,6 +121,82 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Dark Enerjak! (Archie''s Sonic the Hedgehog)", 'https://redd.it/1cqqm8i')
+add_data(['Dark Enerjak'],
+'Dark Enerjak',
+False,
+True,
+[
+    ['Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cqqm8i/respect_dark_enerjak_archies_sonic_the_hedgehog/
+
+########################################
+
+id = get_rt_id(cur, "Respect Matilda the Armadillo! (Archie''s Sonic the Hedgehog)", 'https://redd.it/1crcl6a')
+add_data(['Matilda the Armadillo'],
+'Matilda the Armadillo',
+False,
+True,
+[
+    ['Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1crcl6a/respect_matilda_the_armadillo_archies_sonic_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ichico! (Undead Unluck)', 'https://redd.it/1crckrd')
+add_data(['Ichico'],
+'Ichico',
+False,
+False,
+[
+    ['Undead Unluck'], ['Ichico Nemuri']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1crckrd/respect_ichico_undead_unluck/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nico! (Undead Unluck)', 'https://redd.it/1crdoel')
+add_data(['Nico'],
+'Nico',
+False,
+False,
+[
+    ['Undead Unluck'], ['Nico Vorgeil']
+],
+'Undead Unluck',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Timberwolf (DC Post Zero-Hour)', 'https://redd.it/1cr43sk')
+add_data(['Timber ?Wolf'],
+'Timber Wolf',
+False,
+False,
+[
+    ['Post Zero-Hour']
+],
+'Post Zero-Hour',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
