@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2281, 'Respect Dmitri Smerdyakov, the Chameleon (Marvel, 616)', 'https://redd.it/1ctc474')
+
+########################################
+
 add_data(['Robin'],
 'Robin',
 False,
@@ -194,6 +198,168 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wei Shi Lindon(Cradle)', 'https://comicvine.gamespot.com/forums/gen-discussion-1/respect-wei-shi-lindon-cradle-2270586/')
+add_data(['Wei Shi Lindon'],
+'Wei Shi Lindon',
+False,
+True,
+[
+    ['Cradle']
+],
+'Cradle',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1crvy0b/mori_jin_vs_wei_shi_lindon_god_of_highschool_vs/l40rdfp/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gastrodon (Pokemon Anime)', 'https://redd.it/1crs6z2')
+add_data(['Gastrodon'],
+'Gastrodon',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1crs6z2/respect_gastrodon_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predator (Marvel Comics)', 'https://redd.it/1crs95y')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Predator ?\(Marvel( Comics)?\)']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1crs95y/respect_the_predator_marvel_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Great Apes of the Savage Lands (Marvel, 616)', 'https://redd.it/1cubwu5')
+add_data(['Great Apes of the Savage Lands?'],
+'Great Apes of the Savage Lands',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cubwu5/respect_the_great_apes_of_the_savage_lands_marvel/
+
+########################################
+
+add_data(['Chameleon'],
+'Chameleon',
+False,
+False,
+[
+    ['Chameleon ?\(616\)'], ['616', 'Dmitri Smerdyakov'], ['Chameleon ?\(Spider-Man\)'], ['Chameleon ?\(Marvel'],
+    ['\(Marvel\)The Chameleon']
+],
+'616',
+'{2281}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ctc474/respect_dmitri_smerdyakov_the_chameleon_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, "Respect Knuckles the Echidna! (Archie''s Sonic the Hedgehog, Pre-Super Genesis Wave)", 'https://redd.it/1cs4fky')
+add_data(['Knuckles'],
+'Knuckles',
+False,
+False,
+[
+    ['Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1cs4fky/respect_knuckles_the_echidna_archies_sonic_the/
+
+########################################
+
+id = get_rt_id(cur, 'Hello, Respect Mr. Frog (Smiling Friends)', 'https://redd.it/1ct39td')
+add_data(['Mr\.? Frog'],
+'Mr. Frog',
+False,
+False,
+[
+    ['Smiling Friends']
+],
+'Smiling Friends',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ct39td/hello_respect_mr_frog_smiling_friends/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zagor, the Warlock of Firetop Mountain (Fighting Fantasy)', 'https://redd.it/1ctc48r')
+add_data(['Zagor'],
+'Zagor',
+False,
+False,
+[
+    ['Fighting Fantasy']
+],
+'Fighting Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ctc48r/respect_zagor_the_warlock_of_firetop_mountain/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Clover! (Undertale Yellow)', 'https://redd.it/1ctp6er')
+add_data(['Clover'],
+'Clover',
+False,
+False,
+[
+    ['Undertale Yellow']
+],
+'Undertale Yellow',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ctp6er/respect_clover_undertale_yellow/
+
+########################################
+
+id = get_rt_id(cur, "[NSFW] Respect the 1st and 2nd Generation of Eighth Wonders, Athena and Clara Haruka! (Don''t Meddle With My Daughter)", 'https://redd.it/1ctvm9f')
+add_data(['Athena Haruka'],
+'Athena Haruka',
+False,
+False,
+[
+    ["Don''t Meddle With My Daughter"]
+],
+"Don''t Meddle With My Daughter",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ctvm9f/nsfw_respect_the_1st_and_2nd_generation_of_eighth/
+
+add_data(['Clara Haruka'],
+'Clara Haruka',
+False,
+False,
+[
+    ["Don''t Meddle With My Daughter"]
+],
+"Don''t Meddle With My Daughter",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ctvm9f/nsfw_respect_the_1st_and_2nd_generation_of_eighth/
 
 ########################################
 
