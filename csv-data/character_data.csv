@@ -5023,7 +5023,6 @@ Black Lantern Corps,"{`"Post(-| )52`"}",f,{},New 52
 Black Lantern Corps,"{`"Prime(-| )Earth`"}",f,{},New 52
 Black Lantern Corps,{Rebirth},f,{},New 52
 Arm-Fall-Off-Boy,{DC},t,{1693},DC
-Karate Kid,{DC},f,{1694},DC
 Mordru,{DC},t,{1695},DC
 Mordru,"{`"pre(-| )N(ew ?)?52`"}",t,{1695},DC
 Mordru,"{`"pre(-| )?52`"}",t,{1695},DC
@@ -5080,6 +5079,7 @@ Nightmare Nurse,"{`"Justice League Dark`"}",f,{1706},New 52
 Nightmare Nurse,"{`"(DC( Comics)?)`"}",t,{1706},DC
 Lobo,"{`"\\(DC( Comics)?\\)`"}",t,"{1698,1699,1700}",DC
 Frankenstein,"{`"\\(DC( Comics)?\\)`"}",f,"{1703,1724}",DC
+Karate Kid,{DC},f,"{1694,24961}",DC
 Phantom Stranger,"{`"New(-| )?52`"}",f,{1708},New 52
 Phantom Stranger,{Nu?-?52},f,{1708},New 52
 Phantom Stranger,"{`"Post(-| )52`"}",f,{1708},New 52
@@ -31587,3 +31587,18 @@ Zagor,"{`"Fighting Fantasy`"}",f,{24958},Fighting Fantasy
 Clover,"{`"Undertale Yellow`"}",f,{24959},Undertale Yellow
 Athena Haruka,"{`"Don't Meddle With My Daughter`"}",f,{24960},Don't Meddle With My Daughter
 Clara Haruka,"{`"Don't Meddle With My Daughter`"}",f,{24960},Don't Meddle With My Daughter
+Elsa,{Freeze},f,{1205},Frozen
+Elsa,{Moana},f,{1205},Frozen
+Rapunzel,{Elsa},f,{1179},Tangled
+Arsenal,"{`"Arsenal ?\\(CW`"}",f,{24962},CW Arrowverse
+Arsenal,"{`"CW Arsenal`"}",f,{24962},CW Arrowverse
+Arsenal,"{CW,`"Team Arrow`"}",f,{24962},CW Arrowverse
+Arsenal,"{`"CW Hero team`"}",f,{24962},CW Arrowverse
+UMA Spring,"{`"Undead Unluck`"}",f,{24963},Undead Unluck
+UMA Language,"{`"Undead Unluck`"}",f,{24964},Undead Unluck
+Mui,"{`"Undead Unluck`"}",f,{24965},Undead Unluck
+Superior Master Rules,"{`"Undead Unluck`"}",f,{24966},Undead Unluck
+Deadpool,"{`"Deadpool ?\\((Video )?Game\\)`"}",f,{24967},2013
+Deadpool,"{`"Deadpool \\(2013\\)`"}",f,{24967},2013
+General Zaroff,"{`"The Most Dangerous Game`"}",t,{24968},The Most Dangerous Game
+Mecha Sonic,"{`"Sonic the Hedgehog`"}",t,{24969},Sonic the Hedgehog
