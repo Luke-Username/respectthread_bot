@@ -14,7 +14,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='R(a|e)punzel' WHERE name='Rapunzel';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Karate Kid (DC Pre-Flashpoint)', 'https://redd.it/1cx3k15'); SELECT * FROM respectthread WHERE link='https://redd.it/1cx3k15';
+UPDATE character SET rt_id_array='{1694, 2?}' WHERE rt_id_array='{1694}';
 
 ########################################
 
