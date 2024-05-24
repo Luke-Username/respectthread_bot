@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Odio, the Lord of Dark (Live A Live)', 'https://redd.it/1czlubs')
+add_data(['Odio'],
+'Odio',
+False,
+False,
+[
+    ['Live A Live']
+],
+'Live A Live',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1czlubs/respect_odio_the_lord_of_dark_live_a_live/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
