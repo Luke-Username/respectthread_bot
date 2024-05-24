@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1172, 'Respect Puss in Boots... if you dare! (Dreamworks)', 'https://redd.it/1czn1sz')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Odio, the Lord of Dark (Live A Live)', 'https://redd.it/1czlubs')
 add_data(['Odio'],
 'Odio',
