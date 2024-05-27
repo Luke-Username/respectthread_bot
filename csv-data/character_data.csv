@@ -27022,9 +27022,9 @@ Curator,{Amphibia},f,{22112},Amphibia
 Curator,"{`"Curator Ponds`"}",f,{22112},Amphibia
 Mr. Ponds,{Amphibia},f,{22112},Amphibia
 Mr. Ponds,{Curator},f,{22112},Amphibia
-Curator,"{`"X(-| )?Men`",1992}",f,{22113},"X-Men, 1992"
 Knights of Ren,"{`"S(tar )?Wars`"}",t,{22114},Star Wars
 Lostbelt Olympians,{Fate},t,{22115},Fate
+Curator,"{`"X(-| )?Men`",1992}",f,{22113},X-Men: The Animated Series
 Animatronic,"{`"Five Nights at Fredd(ys?|ies)`"}",f,"{21242,21243}",FNAF
 Freddy Fazbear,"{`"Five Nights at Fredd(ys?|ies)`"}",t,"{21242,21243}",FNAF
 Freddy,"{`"Five Nights at Fredd(ys?|ies)`"}",f,"{21242,21243}",FNAF
@@ -28454,8 +28454,6 @@ Mew,{Rayquaza},f,"{4222,23098}",Pokémon
 Mew,{Kirby},f,"{4222,23098}",Pokémon
 Mew,{Yoda},f,"{4222,23098}",Pokémon
 Rumbling,"{`"Can.*The Rumbling`"}",f,{12492},Attack on Titan
-Silver Samurai,"{`"X(-| )?Men:? The Animated Series`"}",f,{23099},"X-Men, 1992"
-Silver Samurai,"{`"X(-| )?Men`",1992}",f,{23099},"X-Men, 1992"
 Rohan Kishibe,"{`"Thus Spoke Rohan Kishibe`",`"TV Drama`"}",f,{23100},Thus Spoke Rohan Kishibe TV Drama
 Shard,"{`"Sonic the Hedgehog`"}",f,{23101},Sonic the Hedgehog
 Shard,"{`"Metal Sonic`"}",f,{23101},Sonic the Hedgehog
@@ -28475,6 +28473,8 @@ Black Adam,"{`"Kid Super Power Hour`"}",f,{23110},The Kid Super Power Hour with 
 Cyclops,"{`"Marvel Anime`"}",f,{23111},Marvel Anime
 Fat Cobra,{616},t,{23323},616
 Cell Max,"{`"Dragon ?Ball`"}",t,"{23112,24530}",Dragon Ball
+Silver Samurai,"{`"X(-| )?Men:? The Animated Series`"}",f,{23099},X-Men: The Animated Series
+Silver Samurai,"{`"X(-| )?Men`",1992}",f,{23099},X-Men: The Animated Series
 Grimm,"{`"American McGees?`"}",f,{23113},American McGee
 Krang,"{`"Rise of the`",Turtles}",f,{23114},Rise of the Teenage Mutant Ninja Turtles
 Krang,"{`"Rise of the`",TMNT}",f,{23114},Rise of the Teenage Mutant Ninja Turtles
@@ -28991,8 +28991,6 @@ Michelangelo,"{`"Mirage (Comics|Studios)`"}",f,{23394},Mirage Comics
 The Doctor,"{`"Time Lords?`"}",f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Koraidon,{Pok(e|é)m(o|a)n},t,{23395},Pokémon
 Miraidon,{Pok(e|é)m(o|a)n},t,{23395},Pokémon
-Rogue,"{`"X(-| )?Men:? The Animated Series`"}",f,{23396},"X-Men, 1992"
-Rogue,"{`"X(-| )?Men`",1992}",f,{23396},"X-Men, 1992"
 Seal of Orichalcos,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23397},Yu-Gi-Oh!
 Legendary Dragons,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23398},Yu-Gi-Oh!
 Timaeus,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23398},Yu-Gi-Oh!
@@ -29055,6 +29053,8 @@ Dragorin,"{`"\\(DC( Comics)?\\)`"}",f,{23428},DC
 Dragorin,"{`"\\[DC( Comics)?\\]`"}",f,{23428},DC
 SCP-343,{God},t,{23400},""
 Dante,"{`"Dante's Inferno`",Movie,Game}",f,"{23406,1195}","Dante's Inferno, EA"
+Rogue,"{`"X(-| )?Men:? The Animated Series`"}",f,{23396},X-Men: The Animated Series
+Rogue,"{`"X(-| )?Men`",1992}",f,{23396},X-Men: The Animated Series
 Shriek,"{`"DC Animated Universe`"}",f,{23429},DCAU
 Shriek,{DCAU},f,{23429},DCAU
 I.M. Meen,"{`"Animation Magic`"}",t,{23430},Animation Magic
@@ -31603,3 +31603,9 @@ Deadpool,"{`"Deadpool \\(2013\\)`"}",f,{24967},2013
 General Zaroff,"{`"The Most Dangerous Game`"}",t,{24968},The Most Dangerous Game
 Mecha Sonic,"{`"Sonic the Hedgehog`"}",t,{24969},Sonic the Hedgehog
 Odio,"{`"Live A Live`"}",f,{24970},Live A Live
+X-Men,"{1992,1997}",f,{24971},X-Men: The Animated Series
+X-Men,"{`"X(-| )?Men:? The animated series`"}",f,{24971},X-Men: The Animated Series
+X-Men,"{`"X(-| )?Men '97`"}",f,{24971},X-Men: The Animated Series
+Sauna Grumer,"{`"Bakauge Sentai BoonBoomger`"}",f,{24972},Bakauge Sentai BoonBoomger
+Kameo,"{`"Elements of Power`"}",f,{24973},Kameo: Elements of Power
+Kameo,"{`"Elemental Sprites?`"}",f,{24973},Kameo: Elements of Power

@@ -16,8 +16,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET displayed_version_name='X-Men: The Animated Series' WHERE displayed_version_name='X-Men, 1992';
-
 ########################################
 
 ########################################

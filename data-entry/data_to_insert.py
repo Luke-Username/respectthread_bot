@@ -107,69 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 1172, 'Respect Puss in Boots... if you dare! (Dreamworks)', 'https://redd.it/1czn1sz')
-update_respectthread(cur, 6259, 'Respect Arcueid Brunestud! (Tsukihime)', 'https://redd.it/1d1fhgy')
-
-########################################
-
-id = get_rt_id(cur, 'Respect Odio, the Lord of Dark (Live A Live)', 'https://redd.it/1czlubs')
-add_data(['Odio'],
-'Odio',
-False,
-False,
-[
-    ['Live A Live']
-],
-'Live A Live',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1czlubs/respect_odio_the_lord_of_dark_live_a_live/
-
-########################################
-
-id = get_rt_id(cur, 'X-Men the animated series feats.', 'https://www.reddit.com/r/whowouldwin/comments/1d1lxuu/mark_grayson_invincible_tv_series_vs_xmen_xmen_97/l5usks3/?context=3')
-add_data(['X(-| )?Men'],
-'X-Men',
-True,
-False,
-[
-    ['1992', '1997'], ['X(-| )?Men:? The animated series'], ["X(-| )?Men ''97"]
-],
-'X-Men: The Animated Series',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/1d1lxuu/mark_grayson_invincible_tv_series_vs_xmen_xmen_97/l5usks3/?context=3
-
-########################################
-
-id = get_rt_id(cur, 'Respect Sauna Grumer (Bakauge Sentai BoonBoomger)', 'https://redd.it/1d07i4y')
-add_data(['Sauna Grumer'],
-'Sauna Grumer',
-False,
-False,
-[
-    ['Bakauge Sentai BoonBoomger']
-],
-'Bakauge Sentai BoonBoomger',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1d07i4y/respect_sauna_grumer_bakauge_sentai_boonboomger/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Kameo (Kameo: Elements of Power)', 'https://redd.it/1d1wlug')
-add_data(['Kameo'],
-'Kameo',
-False,
-False,
-[
-    ['Elements of Power'], ['Elemental Sprites?']
-],
-'Kameo: Elements of Power',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1d1wlug/respect_kameo_kameo_elements_of_power/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
