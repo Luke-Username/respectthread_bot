@@ -14,10 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bengal', 'Bay of Bengal', -7);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Indomi(n|t)us', 'Era Indominus', -4);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Indomi(n|t)us', 'Era of Indominus', -7);
-
 ########################################
 
 UPDATE character SET displayed_version_name='X-Men: The Animated Series' WHERE displayed_version_name='X-Men, 1992';
