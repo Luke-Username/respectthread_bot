@@ -20,6 +20,8 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Indomi(n|t)us', 
 
 ########################################
 
+UPDATE character SET displayed_version_name='X-Men: The Animated Series' WHERE displayed_version_name='X-Men, 1992';
+
 ########################################
 
 ########################################
