@@ -137,6 +137,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, '[NSFW] Respect Ryuuka! (Monster Wrestling: Interspecies Combat Girls)', 'https://redd.it/1d2h6e3')
+add_data(['Ryuuka'],
+'Ryuuka',
+False,
+False,
+[
+    ['Monster Wrestling']
+],
+'Monster Wrestling: Interspecies Combat Girls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d2h6e3/nsfw_respect_ryuuka_monster_wrestling/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Original Guardians of the Globe (Invincible)', 'https://redd.it/1d2sp5w')
+add_data(['Guardians of the Globe'],
+'Guardians of the Globe',
+True,
+True,
+[
+    ['Invincible']
+],
+'Invincible',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d2sp5w/respect_the_original_guardians_of_the_globe/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
