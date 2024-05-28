@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect The Infected Argentinosaurus (Genndy Tartakovsky''s Primal)", 'https://redd.it/d2kwip')
+add_data(['Infected Argentinosaurus'],
+'Infected Argentinosaurus',
+False,
+True,
+[
+    ['Primal']
+],
+'Primal',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1azyhmv/respect_the_infected_argentinosaurus_genndy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Master Shake (Aqua Teen Hunger Force)', 'https://redd.it/1d21cl9')
+add_data(['Master Shake'],
+'Master Shake',
+False,
+False,
+[
+    ['Aqua Teen Hunger Force']
+],
+'Aqua Teen Hunger Force',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d21cl9/respect_master_shake_aqua_teen_hunger_force/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
