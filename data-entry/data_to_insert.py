@@ -167,6 +167,35 @@ True,
 
 ########################################
 
+add_data(['Jean'],
+'Jean',
+False,
+False,
+[
+    ['Merged Jean', 'Phoenix']
+],
+'616',
+'{2368}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Otomo (Marvel, 616)', 'https://redd.it/1d2zoto')
+add_data(['Otomo'],
+'Otomo',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d2zoto/respect_otomo_marvel_616/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
