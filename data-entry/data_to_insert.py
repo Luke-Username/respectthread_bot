@@ -196,6 +196,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Morty (Pokemon Anime)', 'https://redd.it/1d481mn')
+add_data(['Morty'],
+'Morty',
+False,
+False,
+[
+    ['Morty ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d481mn/respect_morty_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fang Runin (The Poppy War Trilogy)', 'https://redd.it/1d48r79')
+add_data(['Fang Runin'],
+'Fang Runin',
+False,
+True,
+[
+    ['The Poppy War']
+],
+'The Poppy War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d48r79/respect_fang_runin_the_poppy_war_trilogy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Nightmare Knight and the Disaster Masters! (Cucumber Quest)', 'https://redd.it/1d4cpj8')
+add_data(['Nightmare Knight'],
+'Nightmare Knight',
+False,
+False,
+[
+    ['Cucumber Quest']
+],
+'Cucumber Quest',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d4cpj8/respect_the_nightmare_knight_and_the_disaster/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
