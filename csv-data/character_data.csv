@@ -9858,8 +9858,6 @@ Jodie Christianson,"{`"Millar(-| )?(verse|world)`"}",t,{2594},Millarverse
 Jodie Christianson,"{`"American Jesus`"}",t,{2594},Millarverse
 Jodie,"{`"Millar(-| )?(verse|world)`"}",f,{2594},Millarverse
 Jodie,"{`"American Jesus`"}",f,{2594},Millarverse
-Hit-Girl,"{`"Kick(-| )?Ass`"}",t,{2595},Kick-Ass
-Hit-Girl,"{`"Millar(-| )?(verse|world)`"}",t,{2595},Kick-Ass
 Black Dragon,"{`"Power Rangers?`"}",f,{2597},Power Rangers
 Black Dragon,"{`"BOOM!? Studios?`"}",f,{2597},Power Rangers
 Gravezord,"{`"Power Rangers?`"}",t,{12050},Power Rangers
@@ -9874,6 +9872,7 @@ Trek,"{`"Power Rangers?`"}",f,{2600},Power Rangers
 Trek,"{`"BOOM!? Studios?`"}",f,{2600},Power Rangers
 Ranger Slayer,"{`"Power Rangers?`"}",t,{12051},Power Rangers
 CAS,{Lucifer},f,{1777},DC
+Hit-Girl,"{`"Kick(-| )?Ass`"}",t,"{2595,24981}",Kick-Ass
 Ranger Slayer,"{`"BOOM!? Studios?`"}",t,{12051},Power Rangers
 Abacus,"{`"Mortal Kombat`"}",f,{12052},Mortal Kombat
 Abacus,{Malibu},f,{12052},Mortal Kombat
@@ -12363,12 +12362,12 @@ Goten,"{`"Dragon ?Ball`"}",f,{3291},Dragon Ball
 Goten,{DB(Z|S)?},f,{3291},Dragon Ball
 Trunks,"{`"Dragon ?Ball`"}",f,"{3284,22116}",Dragon Ball
 Trunks,{DB(Z|S)?},f,"{3284,22116}",Dragon Ball
+Gohan,"{`"Dragon ?Ball`"}",f,{3286},Dragon Ball
 Raditz,"{`"Dragon ?Ball`"}",t,"{3307,22789}",Dragon Ball
 Raditz,{DB(Z|S)?},t,"{3307,22789}",Dragon Ball
 Nappa,"{`"Dragon ?Ball`"}",t,"{3304,22828}",Dragon Ball
 Nappa,{DB(Z|S)?},t,"{3304,22828}",Dragon Ball
-Gohan,"{`"Dragon ?Ball`"}",f,{},Dragon Ball
-Gohan,{DB(Z|S)?},f,{},Dragon Ball
+Gohan,{DB(Z|S)?},f,{3286},Dragon Ball
 Mercenary Tao,"{`"Dragon ?Ball`"}",t,{3302},Dragon Ball
 Mercenary Tao,{DB(Z|S)?},t,{3302},Dragon Ball
 Frieza,"{`"Dragon ?Ball`"}",t,"{3281,3282}",Dragon Ball
@@ -31618,3 +31617,30 @@ Otomo,{616},f,{24977},616
 Morty,"{`"Morty ?\\(Pok(e|é)m(o|a)n`"}",f,{24978},Pokémon
 Fang Runin,"{`"The Poppy War`"}",t,{24979},The Poppy War
 Nightmare Knight,"{`"Cucumber Quest`"}",f,{24980},Cucumber Quest
+Hit-Girl,"{`"Millar(-| )?(verse|world)`"}",t,"{2595,24981}",Kick-Ass
+Perry,{Doofenshmirtz},f,{17636},Phineas and Ferb
+Betelgeuse,{Beetlejuice},f,{24982},Beetlejuice
+Justice League,"{`"Justice League vs Godzilla vs Kong`"}",f,{24983},Justice League vs Godzilla vs Kong
+Justice League,"{`"Godzilla vs Justice League vs Kong`"}",f,{24983},Justice League vs Godzilla vs Kong
+Kong,"{`"Justice League vs Godzilla vs Kong`"}",f,{24984},Justice League vs Godzilla vs Kong
+Kong,"{`"Godzilla vs Justice League vs Kong`"}",f,{24984},Justice League vs Godzilla vs Kong
+Titans,"{`"Justice League vs Godzilla vs Kong`"}",f,{24985},Justice League vs Godzilla vs Kong
+Titans,"{`"Godzilla vs Justice League vs Kong`"}",f,{24985},Justice League vs Godzilla vs Kong
+Forest Devil,"{`"Pride at Nghasa`"}",f,{24986},Predator: The Pride at Nghasa
+Four-Armed Predator,"{`"Surviving Life`"}",t,{24987},Predators: Surviving Life
+Smash Mason,"{`"Aliens|Hive Wars`"}",f,{24988},Aliens: Hive Wars
+Gold,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{24989},Pokémon Adventures
+Agatha,{Pok(e|é)m(o|a)n},f,{24990},Pokémon
+Tyson,"{`"Tyson ?\\(Pok(e|é)m(o|a)n`"}",f,{24991},Pokémon
+Kiyo,"{`"Kiyo ?\\(Pok(e|é)m(o|a)n`"}",f,{24992},Pokémon
+Claire Kent,"{`"Pre(-| )?Crisis`"}",f,{24993},Pre-Crisis
+Super-Sister,"{`"Pre(-| )?Crisis`"}",f,{24993},Pre-Crisis
+Speedrunner Link,"{`"Something ?Series`"}",t,{24994},Something Series
+Speedrunner Link,"{`"Terminal ?Montage`"}",t,{24994},Something Series
+Mother Russia,"{`"Kick(-| )?Ass`"}",f,{24995},Kick-Ass
+Wammawink,{Centaurworld},t,{24996},Centaurworld
+The Fox,{Tunic},f,{24997},Tunic
+Taboo,{Wereworld},f,{24998},Wereworld
+Ghost Godzilla,"{`"Kaiju War Chronicles Multimedia`"}",f,{24999},Kaiju War Chronicles Multimedia
+Jennifer Check,"{`"Jennifer's Body`"}",f,{25000},Jennifer's Body
+Jennifer,"{`"Jennifer ?\\(Jennifer's Body`"}",f,{25000},Jennifer's Body

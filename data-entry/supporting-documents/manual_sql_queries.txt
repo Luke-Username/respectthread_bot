@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{3286}' WHERE default_name='Gohan' AND displayed_version_name='Dragon Ball';
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Hit-Girl! (Kick Ass [Movies])', 'https://redd.it/1d6dqag'); SELECT * FROM respectthread WHERE link='https://redd.it/1d6dqag';
-UPDATE character SET rt_id_array='{2595, ?1}' WHERE rt_id_array='{2595}';
 
 ########################################
 
