@@ -1757,7 +1757,7 @@ Kengan Asura / Kengan Omega
 
 Kick-Ass
 	Version
-		'{"Kick(-| )?Ass"}', '{"Millar(-| )?(verse|world)"}'
+		['Kick(-| )?Ass'], ['Millar(-| )?(verse|world)']
 	Displayed Version Name
 		"Kick-Ass"
 
