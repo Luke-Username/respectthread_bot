@@ -30541,7 +30541,7 @@ Barbara,{Markiplier},f,{24298},Markiplier
 Antisepticeye,{Jacksepticeye},t,{24299},Jacksepticeye
 Daredevil Noir,{90214},t,{24300},90214
 Tommy,"{`"Life of Luxury`"}",f,{24301},Life of Luxury
-Ethan Hunt,"{`"Mission:? Impossible`"}",t,{24302},Mission: Impossible
+Ethan Hunt,"{`"Mission:? Impossible`"}",t,"{25001,24302,25002,25003}",Mission: Impossible
 Payday Gang,"{`"\\(Payday\\)`"}",t,"{23156,24303}",Payday
 Slenderman,"{`"Victor Surge`"}",t,{6211},""
 Alastor Moody,"{`"Harry Potter`"}",t,{5822},Harry Potter
@@ -31644,3 +31644,15 @@ Taboo,{Wereworld},f,{24998},Wereworld
 Ghost Godzilla,"{`"Kaiju War Chronicles Multimedia`"}",f,{24999},Kaiju War Chronicles Multimedia
 Jennifer Check,"{`"Jennifer's Body`"}",f,{25000},Jennifer's Body
 Jennifer,"{`"Jennifer ?\\(Jennifer's Body`"}",f,{25000},Jennifer's Body
+Starmie,{Pok(e|é)m(o|a)n},t,{25004},Pokémon
+Machine Man,"{`"Machine Man ?\\(Marvel`"}",f,"{25005,25006}",616
+Machine Man,"{`"Machine Man ?\\(616`"}",f,"{25005,25006}",616
+Tiamat,"{`"Monster(-| )?verse`"}",f,{25007},MonsterVerse
+Tiamat,"{`"Godzilla x Kong`"}",f,{25007},MonsterVerse
+Suko,"{`"Monster(-| )?verse`"}",f,{25008},MonsterVerse
+Suko,"{`"Godzilla x Kong`"}",f,{25008},MonsterVerse
+Drownviper,"{`"Monster(-| )?verse`"}",f,{25009},MonsterVerse
+Drownviper,"{`"Godzilla x Kong`"}",f,{25009},MonsterVerse
+Goreburster,"{`"Aliens:? Kidnapped`"}",f,{25010},Aliens: Kidnapped
+Percy Jackson,"{`"Percy Jackson (Movie|Film)s?`"}",f,{25011},Films
+Skulker,"{`"Danny Phantom`"}",f,{25012},Danny Phantom
