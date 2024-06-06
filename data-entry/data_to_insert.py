@@ -107,6 +107,96 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5657, 'Respect Destroyman (No More Heroes)', 'https://redd.it/1d8otdw')
+
+########################################
+
+add_data(['Amon'],
+'Amon',
+False,
+False,
+[
+    ['Legend of Korra']
+],
+'Avatar: TLOK',
+'{807}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1d9663t/amon_legend_of_korra_vs_adora_shera_and_the/l7b3i9t/?context=3
+
+########################################
+
+add_data(['Bad Batch'],
+'Bad Batch',
+False,
+False,
+[
+    ['The Bad Batch']
+],
+'Star Wars',
+'{22384}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1d9837y/xmen_vs_bad_batch_read_op/l7czzdy/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect FU (No More Heroes 3)', 'https://redd.it/1d8otf9')
+add_data(['FU'],
+'FU',
+False,
+False,
+[
+    ['No More Heroes']
+],
+'No More Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d8otf9/respect_fu_no_more_heroes_3/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Esther (Orphan)', 'https://redd.it/1d8owjd')
+add_data(['Esther'],
+'Esther',
+False,
+False,
+[
+    ['Orphan']
+],
+'Orphan',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d8owjd/respect_esther_orphan/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Morty (Morty Kombat)', 'https://redd.it/1d92drs')
+add_data(['Morty'],
+'Morty',
+False,
+False,
+[
+    ['Morty Kombat']
+],
+'Morty Kombat',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d92drs/respect_morty_morty_kombat/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pryce (Pokemon Anime)', 'https://redd.it/1d9hs53')
+add_data(['Pryce'],
+'Pryce',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d9hs53/respect_pryce_pokemon_anime/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
