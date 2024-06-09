@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 5657, 'Respect Destroyman (No More Heroes)', 'https://redd.it/1d8otdw')
+update_respectthread(cur, 294, 'Respect Team Shaolin! (Shaolin Soccer)', 'https://redd.it/1db8wit')
 
 ########################################
 
@@ -136,6 +137,20 @@ False,
 '{22384}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1d9837y/xmen_vs_bad_batch_read_op/l7czzdy/?context=3
+
+########################################
+
+add_data(['Sanosuke'],
+'Sanosuke',
+False,
+False,
+[
+    ['Rurouni Kenshin']
+],
+'Rurouni Kenshin',
+'{4463}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1da92ds/sanosuke_rurouni_kenshin_vs_hanayama_baki/l7imp3r/?context=3
 
 ########################################
 
@@ -196,6 +211,111 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1d9hs53/respect_pryce_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Altan Trengsin (The Poppy War Trilogy)', 'https://redd.it/1d9l35x')
+add_data(['Altan Trengsin'],
+'Altan Trengsin',
+False,
+True,
+[
+    ['The Poppy War']
+],
+'The Poppy War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d9l35x/respect_altan_trengsin_the_poppy_war_trilogy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Toothless the Dancing Dragon (Cas van de Pol)', 'https://redd.it/1d9om62')
+add_data(['Toothless'],
+'Toothless',
+False,
+False,
+[
+    ['Cas van de Pol']
+],
+'Cas van de Pol',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d9om62/respect_toothless_the_dancing_dragon_cas_van_de/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ray Steam (Steamboy)', 'https://redd.it/1d9ougx')
+add_data(['Ray Steam'],
+'Ray Steam',
+False,
+False,
+[
+    ['Steamboy']
+],
+'Steamboy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d9ougx/respect_ray_steam_steamboy/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Angela (Dashcam)', 'https://redd.it/1d9rvo3')
+add_data(['Angela'],
+'Angela',
+False,
+False,
+[
+    ['Angela.*Dashcam']
+],
+'Dashcam',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d9rvo3/respect_angela_dashcam/
+
+########################################
+
+id = get_rt_id(cur, 'Respect William "Black" Macbeth and the King of Despair (Kekkai Sensen)', 'https://redd.it/1d9z119')
+add_data(['William "Black" Macbeth'],
+'William "Black" Macbeth',
+False,
+False,
+[
+    ['Kekkai Sensen']
+],
+'Kekkai Sensen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1d9z119/respect_william_black_macbeth_and_the_king_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lily (Pokemon Anime)', 'https://redd.it/1daa84a')
+add_data(['Lily'],
+'Lily',
+False,
+False,
+[
+    ['Lily ?\(Pok(e|é)m(o|a)n\)']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1daa84a/respect_lily_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Overlook Hotel! (The Shining, Films)', 'https://redd.it/1db8jlm')
+add_data(['Overlook Hotel'],
+'Overlook Hotel',
+False,
+True,
+[
+    ['The Shining']
+],
+'The Shining',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1db8jlm/respect_the_overlook_hotel_the_shining_films/
 
 ########################################
 

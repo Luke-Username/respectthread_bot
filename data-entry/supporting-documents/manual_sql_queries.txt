@@ -21,9 +21,16 @@ UPDATE character SET is_default=FALSE WHERE defaut_name='Pabu';
 INSERT INTO respectthread (title, link) VALUES ('Respect Godzilla (Godzilla Minus One)', 'https://redd.it/1d8v8cv'); SELECT * FROM respectthread WHERE link='https://redd.it/1d8v8cv';
 UPDATE character SET rt_id_array='{?1}' WHERE default_name='Godzilla' AND displayed_version_name='Minus One';
 
-########################################
+INSERT INTO respectthread (title, link) VALUES ('Batman Mega Respect Thread Hub', 'https://redd.it/859osl'); SELECT * FROM respectthread WHERE link='https://redd.it/859osl';
+UPDATE character SET rt_id_array='{?1}' WHERE rt_id_array='{1493,1494}';
 
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Eggman', 'Eggman Nega', 0);
+
+########################################
+
+UPDATE character_name SET name='Furious (Five|5)' WHERE name='Furious Five';
 
 ########################################
 
