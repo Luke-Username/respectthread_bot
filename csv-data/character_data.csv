@@ -1197,8 +1197,8 @@ Batman,"{`"New 52`"}",f,{1493},New 52
 Batman,{N-?52},f,{1493},New 52
 Yondu,{691},f,{2049},691
 Smith,"{`"Agent Smith`"}",f,"{276,275}",The Matrix
-Batman,{Comics},t,"{1493,1494}",DC
 Morpheus,{Matrix},f,{277},The Matrix
+Batman,{Comics},t,"{25014,1493,1494}",DC
 Thanos,"{`"Marvel Cinematic`"}",f,{263},MCU
 Thanos,{MCU},f,{263},MCU
 Thanos,{199999},f,{263},MCU
@@ -2929,10 +2929,6 @@ Snow Kaguya,"{`"Sailor Moon`"}",t,{4419},Sailor Moon
 Tuxedo Mask,"{`"Sailor Moon`"}",t,{4420},Sailor Moon
 Elisa Celjska,"{`"Madoka Magica`"}",t,{4421},Madoka Magica
 3g4,{PC},f,{20967},Post-Crisis
-Pabu,{Avatar},t,{816},Avatar: TLOK
-Pabu,{A?TLA},t,{816},Avatar: TLOK
-Pabu,{Korra},t,{816},Avatar: TLOK
-Pabu,{A?T?LOK},t,{816},Avatar: TLOK
 Ace Bunny,{Loonatics},t,{817},Loonatics
 Danger Duck,{Loonatics},t,{818},Loonatics
 Lexi Bunny,{Loonatics},t,{819},Loonatics
@@ -2940,6 +2936,10 @@ Loonatics,{Loonatics},t,{820},Loonatics
 Massive,{Loonatics},f,{821},Loonatics
 Rev Runner,{Loonatics},t,{822},Loonatics
 Slam Tasmanian,{Loonatics},t,{823},Loonatics
+Pabu,{Avatar},f,{816},Avatar: TLOK
+Pabu,{A?TLA},f,{816},Avatar: TLOK
+Pabu,{Korra},f,{816},Avatar: TLOK
+Pabu,{A?T?LOK},f,{816},Avatar: TLOK
 Tech E. Coyote,{Loonatics},t,{824},Loonatics
 Alien Robots,"{`"The Incredible Hulk`",1982}",f,{825},Earth-8107
 Alien Robots,"{`"Spider-?Man (&|and) His Amazing Friends`"}",f,{825},Earth-8107
@@ -30862,8 +30862,6 @@ Ultraman,"{`"New(-| )Earth`"}",f,{3971},Post-Crisis
 Sakura,"{Sanji,`"Sakura vs|vs\\.? Sakura`"}",f,{3971},Naruto
 Sakura,"{`"Base Sakura`"}",f,{3971},Naruto
 Sakura,{Jutsu},f,{3971},Naruto
-Godzilla,"{`"Minus One`"}",f,{},Minus One
-Godzilla,"{`"-1\\.0`"}",f,{},Minus One
 Yuugi Hoshiguma,{Touhou},t,{24549},Touhou
 Iron Man,"{`"Gamma Killer`"}",f,{24550},Gamma Killer
 Iron Man,"{`"Model 26`"}",f,{24550},Gamma Killer
@@ -31105,7 +31103,6 @@ Spider-Man 2099,"{`"Spider(-| )?Verse`"}",f,{24654},Into the Spider-Verse
 Spider-Man 2099,{ITSV},f,{24654},Into the Spider-Verse
 Doctor,"{`"Doctor ?\\(Doctor Who\\)`"}",f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 The Doctor,"{`"(Doctor|Dr\\.?) ?Who`"}",f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
-Godzilla,"{`"Minus 1`"}",f,{},Minus One
 Iron Kiba,{Tough},t,{24656},Tough
 Gordon Grancie,{Tough},t,{24657},Tough
 Edgar C. Garcia,{Tough},t,{24658},Tough
@@ -31166,6 +31163,7 @@ Z-Fighters,"{`"Dragon Ball`"}",t,"{3288,3313,3306,9352,12062,9349}",Dragon Ball
 Z-Fighters,{DB(Z|S)?},t,"{3288,3313,3306,9352,12062,9349}",Dragon Ball
 Zeruel,{Eva(ngelion)?},f,"{3984,3985}",Neon Genesis Evangelion
 Zeruel,{NGE},f,"{3984,3985}",Neon Genesis Evangelion
+Godzilla,"{`"Minus 1`"}",f,{25013},Minus One
 Kakarot,"{`"Dragon ?Ball`"}",f,"{3288,3290,13282}",Dragon Ball
 Kakarot,{DB(Z|S)},f,"{3288,3290,13282}",Dragon Ball
 Roberta,"{`"Black Lagoon`"}",f,{24695},Black Lagoon
@@ -31656,3 +31654,19 @@ Drownviper,"{`"Godzilla x Kong`"}",f,{25009},MonsterVerse
 Goreburster,"{`"Aliens:? Kidnapped`"}",f,{25010},Aliens: Kidnapped
 Percy Jackson,"{`"Percy Jackson (Movie|Film)s?`"}",f,{25011},Films
 Skulker,"{`"Danny Phantom`"}",f,{25012},Danny Phantom
+Godzilla,"{`"Minus One`"}",f,{25013},Minus One
+Godzilla,"{`"-1\\.0`"}",f,{25013},Minus One
+Amon,"{`"Legend of Korra`"}",f,{807},Avatar: TLOK
+Bad Batch,"{`"The Bad Batch`"}",f,{22384},Star Wars
+Sanosuke,"{`"Rurouni Kenshin`"}",f,{4463},Rurouni Kenshin
+FU,"{`"No More Heroes`"}",f,{25015},No More Heroes
+Esther,{Orphan},f,{25016},Orphan
+Morty,"{`"Morty Kombat`"}",f,{25017},Morty Kombat
+Pryce,{Pok(e|é)m(o|a)n},f,{25018},Pokémon
+Altan Trengsin,"{`"The Poppy War`"}",t,{25019},The Poppy War
+Toothless,"{`"Cas van de Pol`"}",f,{25020},Cas van de Pol
+Ray Steam,{Steamboy},f,{25021},Steamboy
+Angela,{Angela.*Dashcam},f,{25022},Dashcam
+"William `"Black`" Macbeth","{`"Kekkai Sensen`"}",f,{25023},Kekkai Sensen
+Lily,"{`"Lily ?\\(Pok(e|é)m(o|a)n\\)`"}",f,{25024},Pokémon
+Overlook Hotel,"{`"The Shining`"}",t,{25025},The Shining
