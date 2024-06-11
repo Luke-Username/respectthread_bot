@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Kai'],
+'Kai',
+False,
+False,
+[
+    ['Kai the Collector']
+],
+'Kung Fu Panda',
+'{1144}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ddbiqq/kai_the_collector_kung_fu_pands_3_vs_master_yoda/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Tank Girl! (Tank Girl, 1995 Movie)', 'https://redd.it/1dcph1n')
 add_data(['Tank Girl'],
 'Tank Girl',
