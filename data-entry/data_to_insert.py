@@ -107,6 +107,48 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Reva'],
+'Reva',
+False,
+False,
+[
+    ['Obi(-| )Wan'], ['Kenobi']
+],
+'Star Wars',
+'{22447}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ddctvp/mae_the_acolyte_vs_reva_obiwan_kenobi/l83u6i4/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tank Girl! (Tank Girl, 1995 Movie)', 'https://redd.it/1dcph1n')
+add_data(['Tank Girl'],
+'Tank Girl',
+False,
+False,
+[
+    ['1995'], ['Tank Girl.*(Film|Movie)']
+],
+'1995',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dcph1n/respect_tank_girl_tank_girl_1995_movie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Super Mom! (Coca-Cola Commercials)', 'https://redd.it/1dcw9kz')
+add_data(['Super Mom'],
+'Super Mom',
+False,
+False,
+[
+    ['Coca(-| )Cola'], ['Coke']
+],
+'Coca-Cola',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dcw9kz/respect_super_mom_cocacola_commercials/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
