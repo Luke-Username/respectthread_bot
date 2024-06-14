@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Goku'],
+'Goku',
+False,
+False,
+[
+    ['Aang', 'Goku.*Live Action'], ['Goku.*Dragonball.*Live Action']
+],
+'Dragonball Evolution',
+'{418}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1deonfc/goku_dragonball_vs_aang_avatar_but_its_the_live/
+
+########################################
+
 add_data(['Kai'],
 'Kai',
 False,
