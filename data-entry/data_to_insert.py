@@ -179,6 +179,126 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Kavik (Avatar: The Yangchen Novels)', 'https://redd.it/1ddlqi8')
+add_data(['Kavik'],
+'Kavik',
+False,
+False,
+[
+    ['Yangchen'], ['Avatar']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ddlqi8/respect_kavik_avatar_the_yangchen_novels/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jujinta (Avatar: The Yangchen Novels)', 'https://redd.it/1degxpx')
+add_data(['Jujinta'],
+'Jujinta',
+False,
+False,
+[
+    ['Yangchen'], ['Avatar']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1degxpx/respect_jujinta_avatar_the_yangchen_novels/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Meatwad (Aqua Teen Hunger Force)', 'https://redd.it/1ddn1l0')
+add_data(['Meatwad'],
+'Meatwad',
+False,
+False,
+[
+    ['Aqua Teen Hunger Force'], ['ATHF']
+],
+'Aqua Teen Hunger Force',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ddn1l0/respect_meatwad_aqua_teen_hunger_force/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shan Zhu (Fog Hill of Five Elements)', 'https://redd.it/1ddu4hu')
+add_data(['Shan Zhu'],
+'Shan Zhu',
+False,
+False,
+[
+    ['Fog Hill of Five Elements']
+],
+'Fog Hill of Five Elements',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ddu4hu/respect_shan_zhu_fog_hill_of_five_elements/
+
+########################################
+
+id = get_rt_id(cur, "Respect Brock''s Geodude (Pokemon Anime)", 'https://redd.it/1deyoxc')
+add_data(['Geodude'],
+'Geodude',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n'], ['Brock']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1deyoxc/respect_brocks_geodude_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect Misty''s Goldeen (Pokemon Anime)", 'https://redd.it/1dfosjn')
+add_data(['Goldeen'],
+'Goldeen',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n'], ['Misty']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dfosjn/respect_mistys_goldeen_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Santa Claus (SCP Foundation) [The Alpha-9 Holiday Special]', 'https://redd.it/1dfag69')
+add_data(['Santa Clause?'],
+'Santa Claus',
+False,
+False,
+[
+    ['Alpha-9 Holiday Special']
+],
+'The Alpha-9 Holiday Special',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dfag69/respect_santa_claus_scp_foundation_the_alpha9/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Optimus Prime (Image Comics, Energon Universe)', 'https://redd.it/1dfbl8a')
+add_data(['Optimus Prime'],
+'Optimus Prime',
+False,
+False,
+[
+    ['Energon']
+],
+'Energon Universe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

@@ -162,6 +162,12 @@ A Practical Guide to Evil
 	Displayed Version Name
 		"A Practical Guide to Evil"
 
+Aqua Teen Hunger Force
+	Version
+		['Aqua Teen Hunger Force'], ['ATHF']
+	Displayed Version Name
+		"Aqua Teen Hunger Force"
+
 Archer
 	Version
 		'{"Archer"}'
