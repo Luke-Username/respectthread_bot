@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 12106, "Respect Kumoko! (So I''m a Spider, So What? [Manga])", 'https://redd.it/1dg4t9o')
+
+########################################
+
 add_data(['Reva'],
 'Reva',
 False,
