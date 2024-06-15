@@ -13923,12 +13923,6 @@ Tsumiki Miniwa,"{`"Place to Place`"}",t,{4661},Acchi Kocchi
 Phoenix Wright,"{`"Ace Attorney`"}",t,{4662},Ace Attorney
 Maki Aikawa,"{`"Air Master`"}",t,{4664},Air Master
 Satō,{Ajin},f,{4665},Ajin
-Tetsuo,{Akira},f,{4666},Akira
-Tetsuo,{manga},f,{4666},Akira
-Tetsuo,{Mob},f,{4666},Akira
-Tetsuo Shima,{Akira},t,{4666},Akira
-Tetsuo Shima,{manga},t,{4666},Akira
-Tetsuo Shima,{Mob},t,{4666},Akira
 Akumetsu,"{`"Akumetsu ?\\(Akumetsu`"}",f,{4667},""
 Keiji Kiriya,"{`"All you need is kill`"}",t,{4668},All you need is kill
 Keiji,"{`"All you need is kill`"}",f,{4668},All you need is kill
@@ -13968,6 +13962,7 @@ Mirai Kuriyama,"{`"Kyoukai no Kanata`"}",t,{4688},Beyond the Boundary
 Mirai Kuriyama,"{`"Beyond the Boundary`"}",t,{4688},Beyond the Boundary
 Roger Smith,"{`"Big(-| )O`"}",f,{4689},The Big O
 Big O,"{`"The Big(-| )O`"}",t,{4689},The Big O
+Tetsuo,{Akira},f,"{4666,25026}",Akira
 Kanoe Zōichi,"{`"Big(-| )O`"}",t,{4690},The Big O
 Enju Aihara,"{`"Black Bullet`"}",t,{4691},Black Bullet
 Sebastian,"{`"Black Butler`"}",f,{4692},Black Butler
@@ -26981,7 +26976,6 @@ Caveman from Krypton,"{`"Pre(-| )?Crisis`"}",t,{22106},Pre-Crisis
 Necro,"{`"Street Fighters?`"}",f,{8353},Street Fighter
 Effie,"{`"Street Fighters?`"}",f,{8353},Street Fighter
 Q,"{`"Street Fighters?`"}",f,{13035},Street Fighter
-Akuma,"{`"Street Fighters?`"}",t,{5393},Street Fighter
 Balrog,"{`"Street Fighters?`"}",f,{5394},Street Fighter
 Blanka,"{`"Street Fighters?`"}",t,{5395},Street Fighter
 Cammy,"{`"Street Fighters?`"}",t,{5396},Street Fighter
@@ -26997,6 +26991,7 @@ Esmeralda,{Disneys?},f,{22099},The Hunchback of Notre Dame
 Esmeralda,"{`"Hunchback of Notre Dame`"}",f,{22099},The Hunchback of Notre Dame
 Quasimodo,{D(i|y)sneys?},t,{22089},The Hunchback of Notre Dame
 Phoebus,{D(i|y)sneys?},f,{22102},The Hunchback of Notre Dame
+Akuma,"{`"Street Fighters?`"}",t,"{5393,25027}",Street Fighter
 Juri,"{`"Street Fighters?`"}",t,{5406},Street Fighter
 M. Bison,"{`"Street Fighters?`"}",t,{5408},Street Fighter
 Oro,"{`"Street Fighters?`"}",f,{5409},Street Fighter
@@ -31670,3 +31665,30 @@ Angela,{Angela.*Dashcam},f,{25022},Dashcam
 "William `"Black`" Macbeth","{`"Kekkai Sensen`"}",f,{25023},Kekkai Sensen
 Lily,"{`"Lily ?\\(Pok(e|é)m(o|a)n\\)`"}",f,{25024},Pokémon
 Overlook Hotel,"{`"The Shining`"}",t,{25025},The Shining
+Tetsuo,{manga},f,"{4666,25026}",Akira
+Tetsuo,{Mob},f,"{4666,25026}",Akira
+Tetsuo Shima,{Akira},t,"{4666,25026}",Akira
+Tetsuo Shima,{manga},t,"{4666,25026}",Akira
+Tetsuo Shima,{Mob},t,"{4666,25026}",Akira
+Reva,"{`"Obi(-| )Wan`"}",f,{22447},Star Wars
+Reva,{Kenobi},f,{22447},Star Wars
+Goku,"{Aang,`"Goku.*Live Action`"}",f,{418},Dragonball Evolution
+Goku,"{`"Goku.*Dragonball.*Live Action`"}",f,{418},Dragonball Evolution
+Kai,"{`"Kai the Collector`"}",f,{1144},Kung Fu Panda
+Tank Girl,{1995},f,{25028},1995
+Tank Girl,"{`"Tank Girl.*(Film|Movie)`"}",f,{25028},1995
+Super Mom,"{`"Coca(-| )Cola`"}",f,{25029},Coca-Cola
+Super Mom,{Coke},f,{25029},Coca-Cola
+Kavik,{Yangchen},f,{25030},Avatar: TLA
+Kavik,{Avatar},f,{25030},Avatar: TLA
+Jujinta,{Yangchen},f,{25031},Avatar: TLA
+Jujinta,{Avatar},f,{25031},Avatar: TLA
+Meatwad,"{`"Aqua Teen Hunger Force`"}",f,{25032},Aqua Teen Hunger Force
+Meatwad,{ATHF},f,{25032},Aqua Teen Hunger Force
+Shan Zhu,"{`"Fog Hill of Five Elements`"}",f,{25033},Fog Hill of Five Elements
+Geodude,{Pok(e|é)m(o|a)n},t,{25034},Pokémon
+Geodude,{Brock},t,{25034},Pokémon
+Goldeen,{Pok(e|é)m(o|a)n},t,{25035},Pokémon
+Goldeen,{Misty},t,{25035},Pokémon
+Santa Claus,"{`"Alpha-9 Holiday Special`"}",f,{25036},The Alpha-9 Holiday Special
+Optimus Prime,{Energon},f,{25037},Energon Universe
