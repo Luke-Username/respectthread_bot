@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Kobo Kanaeru (Hololive)', 'https://redd.it/1dgd4vt')
+add_data(['Kobo Kanaeru'],
+'Kobo Kanaeru',
+False,
+True,
+[
+    ['Hololive']
+],
+'Hololive',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dgd4vt/respect_kobo_kanaeru_hololive/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shiva (Brahmāstra)', 'https://redd.it/1dgdtfi')
+add_data(['Shiva'],
+'Shiva',
+False,
+False,
+[
+    ['Brahm(ā|a)stra']
+],
+'Brahmāstra',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dgdtfi/respect_shiva_brahm%C4%81stra/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anish Shetty (Brahmāstra)', 'https://redd.it/1dgdugz')
+add_data(['Anish Shetty'],
+'Anish Shetty',
+False,
+False,
+[
+    ['Brahm(ā|a)stra']
+],
+'Brahmāstra',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dgdugz/respect_anish_shetty_brahm%C4%81stra/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
