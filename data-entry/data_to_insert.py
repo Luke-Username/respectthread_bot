@@ -152,6 +152,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Misty''s Corsola (Pokemon Anime)", 'https://redd.it/1dgqhmi')
+add_data(['Corsola'],
+'Corsola',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n'], ['Misty']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dgqhmi/respect_mistys_corsola_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect Brock''s Crobat (Pokemon Anime)", 'https://redd.it/1dhew4z')
+add_data(['Crobat'],
+'Crobat',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n'], ['Brock']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dhew4z/respect_brocks_crobat_pokemon_anime/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
