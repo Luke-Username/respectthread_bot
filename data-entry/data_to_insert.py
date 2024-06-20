@@ -107,6 +107,91 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Almond! (Cucumber Quest)', 'https://redd.it/1dj8uto')
+add_data(['Almond'],
+'Almond',
+False,
+False,
+[
+    ['Cucumber Quest']
+],
+'Cucumber Quest',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dj8uto/respect_almond_cucumber_quest/
+
+########################################
+
+id = get_rt_id(cur, "Respect Misty''s Togepi (Pokemon Anime)", 'https://redd.it/1djlcuy')
+add_data(['Togepi'],
+'Togepi',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n'], ['Misty']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1djlcuy/respect_mistys_togepi_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect Misty''s Politoed (Pokemon Anime)", 'https://redd.it/1dkbrh7')
+add_data(['Politoed'],
+'Politoed',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n'], ['Misty']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Poliwhirl'],
+'Poliwhirl',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n'], ['Misty']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dkbrh7/respect_mistys_politoed_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Swarm (Moonfall)', 'https://redd.it/1djqu2a')
+add_data(['Swarm'],
+'Swarm',
+False,
+False,
+[
+    ['Moonfall']
+],
+'Moonfall',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1djqu2a/respect_the_swarm_moonfall/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Moon! (Moonfall)', 'https://redd.it/1djqudj')
+add_data(['Moon'],
+'Moon',
+False,
+False,
+[
+    ['Moonfall']
+],
+'Moonfall',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1djqu2a/respect_the_swarm_moonfall/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
