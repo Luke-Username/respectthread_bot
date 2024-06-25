@@ -107,6 +107,27 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3306, 'Respect Piccolo (Dragon Ball [Manga])', 'https://redd.it/1dkpsye')
+update_respectthread(cur, 293, 'Respect Team Evil! (Shaolin Soccer)', 'https://redd.it/1dlajov')
+update_respectthread(cur, 13090, 'Respect Porky Minch (Mother Series)', 'https://redd.it/1dngz6i')
+update_respectthread(cur, 2415, 'Respect Kenuichio Harada the Silver Samurai! (Marvel 616)', 'https://redd.it/1dn96gl')
+
+########################################
+
+add_data(['Garou'],
+'Garou',
+False,
+False,
+[
+    ['World of Darkness']
+],
+'World of Darkness',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1dm39fu/average_spacemarine_vs_average_garou_warhammer/l9uhxoc/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Almond! (Cucumber Quest)', 'https://redd.it/1dj8uto')
 add_data(['Almond'],
 'Almond',
@@ -137,6 +158,33 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Brock''s Steelix (Pokemon Anime)", 'https://redd.it/1dluuwu')
+add_data(['Steelix'],
+'Steelix',
+False,
+False,
+[
+    ['Brock']
+],
+'Brock',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dluuwu/respect_brocks_steelix_pokemon_anime/
+
+add_data(['Onix'],
+'Onix',
+False,
+False,
+[
+    ['Brock']
+],
+'Brock',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dluuwu/respect_brocks_steelix_pokemon_anime/
+
+########################################
+
 id = get_rt_id(cur, "Respect Misty''s Politoed (Pokemon Anime)", 'https://redd.it/1dkbrh7')
 add_data(['Politoed'],
 'Politoed',
@@ -161,6 +209,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1dkbrh7/respect_mistys_politoed_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Misty (Pokemon Anime)', 'https://redd.it/1dmnaxv')
+add_data(['Misty'],
+'Misty',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dmnaxv/respect_misty_pokemon_anime/
 
 ########################################
 
@@ -191,6 +254,292 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1djqu2a/respect_the_swarm_moonfall/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Merlin the Magician (Arthurian Mythology)', 'https://redd.it/1dkrd0i')
+add_data(['Merlin'],
+'Merlin',
+False,
+True,
+[
+    ['Arthurian'], ['King Arthur']
+],
+'Arthurian Myth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dkrd0i/respect_merlin_the_magician_arthurian_mythology/
+
+add_data(['Merlin'],
+'Merlin',
+False,
+False,
+[
+    ['\(Fate( Series)?\)']
+],
+'Fate',
+'{14407}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tariq Isbili, the Grey Pilgrim (A Practical Guide to Evil)', 'https://redd.it/1dkxuud')
+add_data(['Tariq Isbili'],
+'Tariq Isbili',
+False,
+True,
+[
+    ['Practical Guide to Evil']
+],
+'A Practical Guide to Evil',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dkxuud/respect_tariq_isbili_the_grey_pilgrim_a_practical/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ryo Saeba! (Netflix''s City Hunter)", 'https://redd.it/1dl8eyu')
+add_data(['Ryo Saeba'],
+'Ryo Saeba',
+False,
+False,
+[
+    ['Netflix']
+],
+"Netflix''s City Hunter",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dl8eyu/respect_ryo_saeba_netflixs_city_hunter/
+
+
+########################################
+
+id = get_rt_id(cur, '[NSFW] Respect Bellezza! (Monster Wrestling: Interspecies Combat Girls)', 'https://redd.it/1dlmawb')
+add_data(['Bellezza'],
+'Bellezza',
+True,
+False,
+[
+    ['Monster Wrestling']
+],
+'Monster Wrestling: Interspecies Combat Girls',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dlmawb/nsfw_respect_bellezza_monster_wrestling/
+
+########################################
+
+id = get_rt_id(cur, "Respect Blaze the Cat! (Archie''s Sonic the Hedgehog)", 'https://redd.it/1dln7k1')
+add_data(['Blaze the Cat'],
+'Blaze the Cat',
+False,
+False,
+[
+    ['Archie']
+],
+'Archie Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dln7k1/respect_blaze_the_cat_archies_sonic_the_hedgehog/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Midnighter (DC, Post-Flashpoint)', 'https://redd.it/1dm9nbl')
+add_data(['Midnighter'],
+'Midnighter',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dm9nbl/respect_the_midnighter_dc_postflashpoint/
+
+add_data(['Midnighter'],
+'Midnighter',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dm9nbl/respect_the_midnighter_dc_postflashpoint/
+
+add_data(['Midnighter'],
+'Midnighter',
+False,
+False,
+[
+    ['Wildstorm']
+],
+'Wildstorm',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dm9nbl/respect_the_midnighter_dc_postflashpoint/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Daryl the Wendigo (B.P.R.D.)', 'https://redd.it/1dma5im')
+add_data(['Daryl the Wendigo'],
+'Daryl the Wendigo',
+False,
+True,
+[
+    ['B\.?P\.?R\.?D']
+],
+'B.P.R.D.',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dma5im/respect_daryl_the_wendigo_bprd/
+
+add_data(['Daryl Tynon'],
+'Daryl Tynon',
+False,
+False,
+[
+    ['B\.?P\.?R\.?D']
+],
+'B.P.R.D.',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dma5im/respect_daryl_the_wendigo_bprd/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Genichi Sojo (Kagurabachi)', 'https://redd.it/1dnfzn1')
+add_data(['Genichi Sojo'],
+'Genichi Sojo',
+False,
+True,
+[
+    ['Kagurabachi']
+],
+'Kagurabachi',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dnfzn1/respect_genichi_sojo_kagurabachi/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Salsa (Mother 3)', 'https://redd.it/1dngp30')
+add_data(['Salsa'],
+'Salsa',
+False,
+False,
+[
+    ['Mother 3']
+],
+'EarthBound',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dngp30/respect_salsa_mother_3/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fassad (Mother 3)', 'https://redd.it/1dngrux')
+add_data(['Fassad'],
+'Fassad',
+False,
+False,
+[
+    ['Mother 3']
+],
+'EarthBound',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Masked Man (Mother 3)', 'https://redd.it/1dngsvx')
+add_data(['Masked Man'],
+'Masked Man',
+False,
+False,
+[
+    ['Mother 3']
+],
+'EarthBound',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Flint (Mother 3)', 'https://redd.it/1dnh39m')
+add_data(['Flint'],
+'Flint',
+False,
+False,
+[
+    ['Mother 3']
+],
+'EarthBound',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dnh39m/respect_flint_mother_3/
+
+########################################
+
+add_data(['Porky'],
+'Porky',
+False,
+False,
+[
+    ['Porky Minch'], ['Mother']
+],
+'EarthBound',
+'{13090}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lucas, Kumatora, Duster, and Boney (Mother 3)', 'https://redd.it/1dnguqy')
+add_data(['Duster'],
+'Duster',
+False,
+False,
+[
+    ['Mother 3'], ['Earth(-| )?bound']
+],
+'EarthBound',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Boney'],
+'Boney',
+False,
+False,
+[
+    ['Mother 3'], ['Earth(-| )?bound']
+],
+'EarthBound',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dnguqy/respect_lucas_kumatora_duster_and_boney_mother_3/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rikki Barnes (Marvel 616, Heroes Reborn)', 'https://redd.it/1dklf83')
+add_data(['Rikki Barnes'],
+'Rikki Barnes',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dklf83/respect_rikki_barnes_marvel_616_heroes_reborn/
 
 ########################################
 
