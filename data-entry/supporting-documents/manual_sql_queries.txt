@@ -14,13 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
---After run
-SELECT * FROM respectthread WHERE link='https://redd.it/1dnguqy';
-UPDATE character SET rt_id_array='{?}' WHERE rt_id_array='{5054}';
-
-SELECT * FROM respectthread WHERE link='https://redd.it/1dnguqy';
-UPDATE character SET rt_id_array='{14873, ?2}' WHERE rt_id_array='{14873}';
-
 ########################################
 
 ########################################

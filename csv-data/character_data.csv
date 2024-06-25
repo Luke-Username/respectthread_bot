@@ -15946,8 +15946,6 @@ Diddy,{Kong},f,{5050},Donkey Kong
 Diddy Kong,"{`"Donkey Kong`"}",t,{5050},Donkey Kong
 Donkey Kong,{default},t,{5051},""
 King K. Rool,"{`"Donkey Kong`"}",t,{5052},Donkey Kong
-Kumatora,"{`"Earth(-| )?bound`"}",t,{5054},EarthBound
-Kumatora,{Mother},t,{5054},EarthBound
 Chosen Four,"{`"Earth(-| )?bound`"}",t,{5056},EarthBound
 Chosen Four,{Mother},t,{5056},EarthBound
 Paula,"{`"Earth(-| )?bound`"}",f,{5056},EarthBound
@@ -15989,6 +15987,8 @@ Dante,"{`"Pre(-| )Reboot`"}",f,{5044},Devil May Cry
 Dante,"{`"(excluding|not) the reboot`"}",f,{5044},Devil May Cry
 Dante,"{`"DMC:? ?Devil May Cry`"}",f,{5045},Devil May Cry Reboot
 Dante,{Reboot},f,{5045},Devil May Cry Reboot
+Kumatora,"{`"Earth(-| )?bound`"}",t,{25067},EarthBound
+Kumatora,{Mother},t,{25067},EarthBound
 Stefano Valentini,"{`"Evil Within`"}",t,{5069},The Evil Within
 Stefano,"{`"Evil Within`"}",f,{5069},The Evil Within
 Courier Six,{Fallout},t,{5070},Fallout
@@ -17584,8 +17584,6 @@ Joker,{Burton},f,{14869},"Batman, 1989"
 Lorne Malvo,{Fargo},t,{14870},Fargo
 Casca,{Ber(s|z)erk},t,{14871},Berserk
 Behemoth,"{`"Monster(-| )?verse`"}",f,{14872},MonsterVerse
-Lucas,"{`"Earth(-| )?bound`"}",f,{14873},EarthBound
-Lucas,"{`"Mother 3`"}",f,{14873},EarthBound
 Mor'du,{Brave},t,{14874},Brave
 Fergus,{Brave},f,{14875},Brave
 Fergus,"{`"Bear King`"}",f,{14875},Brave
@@ -17595,6 +17593,8 @@ Sin-Eater,{Marvel},f,{14876},616
 Sin-Eater,{616},f,{14876},616
 Captain Tardigrade,{default},t,{14877},""
 Yamper,{Pok(e|é)m(o|a)n},t,{14879},Pokémon
+Lucas,"{`"Earth(-| )?bound`"}",f,"{14873,25067}",EarthBound
+Lucas,"{`"Mother 3`"}",f,"{14873,25067}",EarthBound
 Dialga,{Pok(e|é)mon},t,"{4206,5361}",Pokémon
 Machamp,{Pok(e|é)m(o|a)n},t,"{4278,5362}",Pokémon
 Xurkitree,{Pok(e|é)m(o|a)n},t,"{4300,5366}",Pokémon
@@ -31707,3 +31707,41 @@ Psyduck,{Misty},t,{25046},Pokémon
 Psyduck,{Pok(e|é)m(o|a)n},t,{25046},Pokémon
 Skar King,"{`"Monster(-| )?verse`"}",t,{25047},MonsterVerse
 Skar King,"{`"Godzilla x Kong`"}",t,{25047},MonsterVerse
+Garou,"{`"World of Darkness`"}",f,{},World of Darkness
+Almond,"{`"Cucumber Quest`"}",f,{25048},Cucumber Quest
+Togepi,{Pok(e|é)m(o|a)n},t,{25049},Pokémon
+Togepi,{Misty},t,{25049},Pokémon
+Steelix,{Brock},f,{25050},Brock
+Onix,{Brock},f,{25050},Brock
+Politoed,{Pok(e|é)m(o|a)n},t,{25051},Pokémon
+Politoed,{Misty},t,{25051},Pokémon
+Poliwhirl,{Pok(e|é)m(o|a)n},t,{25051},Pokémon
+Poliwhirl,{Misty},t,{25051},Pokémon
+Misty,{Pok(e|é)m(o|a)n},f,{25052},Pokémon
+Swarm,{Moonfall},f,{25053},Moonfall
+Moon,{Moonfall},f,{25054},Moonfall
+Merlin,{Arthurian},t,{25055},Arthurian Myth
+Merlin,"{`"King Arthur`"}",t,{25055},Arthurian Myth
+Merlin,"{`"\\(Fate( Series)?\\)`"}",f,{14407},Fate
+Tariq Isbili,"{`"Practical Guide to Evil`"}",t,{25056},A Practical Guide to Evil
+Ryo Saeba,{Netflix},f,{25057},Netflix's City Hunter
+Bellezza,"{`"Monster Wrestling`"}",f,{25058},Monster Wrestling: Interspecies Combat Girls
+Blaze the Cat,{Archie},f,{25059},Archie Comics
+Midnighter,"{`"\\(DC( Comics)?\\)`"}",t,{25060},DC
+Midnighter,"{`"\\[DC( Comics)?\\]`"}",t,{25060},DC
+Midnighter,"{`"(Post(-| ))Flash(-| )?point`"}",f,{25060},Post-Flashpoint
+Midnighter,{Wildstorm},f,{25060},Wildstorm
+Daryl the Wendigo,"{`"B\\.?P\\.?R\\.?D`"}",t,{25061},B.P.R.D.
+Daryl Tynon,"{`"B\\.?P\\.?R\\.?D`"}",f,{25061},B.P.R.D.
+Genichi Sojo,{Kagurabachi},t,{25062},Kagurabachi
+Salsa,"{`"Mother 3`"}",f,{25063},EarthBound
+Fassad,"{`"Mother 3`"}",f,{25064},EarthBound
+Masked Man,"{`"Mother 3`"}",f,{25065},EarthBound
+Flint,"{`"Mother 3`"}",f,{25066},EarthBound
+Porky,"{`"Porky Minch`"}",f,{13090},EarthBound
+Porky,{Mother},f,{13090},EarthBound
+Duster,"{`"Mother 3`"}",f,{25067},EarthBound
+Duster,"{`"Earth(-| )?bound`"}",f,{25067},EarthBound
+Boney,"{`"Mother 3`"}",f,{25067},EarthBound
+Boney,"{`"Earth(-| )?bound`"}",f,{25067},EarthBound
+Rikki Barnes,{616},t,{25068},616
