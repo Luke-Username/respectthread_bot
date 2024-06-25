@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect James''s Victreebel (Pokemon Anime)", 'https://redd.it/1do5rsl')
+id2 = get_rt_id(cur, "Respect James''s Other Victreebel (Pokemon Anime)", 'https://redd.it/1do5s4a')
+add_data(['Victreebel'],
+'Victreebel',
+False,
+False,
+[
+    ['James'], ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1do5rsl/respect_jamess_victreebel_pokemon_anime/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
