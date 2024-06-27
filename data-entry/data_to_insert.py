@@ -107,6 +107,35 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Vincent/Jackson (Pokemon Anime)', 'https://redd.it/1dpr3j7')
+add_data(['Vincent'],
+'Vincent',
+False,
+False,
+[
+    ['Vincent.*Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dpr3j7/respect_vincentjackson_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Malekith the Accursed! (Marvel Comics, Earth-616)', 'https://redd.it/1dpxr5z')
+add_data(['Malekith'],
+'Malekith',
+False,
+True,
+[
+    ['Marvel'], ['616']
+    ['Malekith the Accursed']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dpxr5z/respect_malekith_the_accursed_marvel_comics/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
