@@ -126,7 +126,7 @@ id = get_rt_id(cur, 'Respect Malekith the Accursed! (Marvel Comics, Earth-616)',
 add_data(['Malekith'],
 'Malekith',
 False,
-True,
+False,
 [
     ['Marvel'], ['616']
     ['Malekith the Accursed']
