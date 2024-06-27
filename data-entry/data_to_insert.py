@@ -123,6 +123,66 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect The Pokemon Poacher Brothers'' Mecha (Pokemon Anime)", 'https://redd.it/1dp7h97')
+add_data(['Pokemon Poacher Brothers'],
+'Pokemon Poacher Brothers',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dp7h97/respect_the_pokemon_poacher_brothers_mecha/
+
+########################################
+
+id = get_rt_id(cur, "Respect Marie Moreau (Amazon''s Gen V)", 'https://redd.it/1dou4y2')
+add_data(['Marie Moreau'],
+'Marie Moreau',
+False,
+True,
+[
+    ['The Boys'], ['Gen V']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dou4y2/respect_marie_moreau_amazons_gen_v/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cropsy (The Burning)', 'https://redd.it/1dolhjr')
+add_data(['Cropsy'],
+'Cropsy',
+False,
+False,
+[
+    ['The Burning']
+],
+'The Burning',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1dolhjr/respect_cropsy_the_burning/
+
+########################################
+
+id = get_rt_id(cur, 'Respect John Schafer (Predator Comics)', 'https://redd.it/1doyznw')
+add_data(['John Schae?fer'],
+'John Schaefer',
+False,
+False,
+[
+    ['Predator']
+],
+'Predator',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
