@@ -12284,10 +12284,6 @@ Numemon,{Digimon},t,{3239},Digimon
 Omnimon,{Digimon},t,{3240},Digimon
 Piedmon,{Digimon},t,{3241},Digimon
 Puppetmon,{Digimon},t,{3242},Digimon
-Agumon,{Digimon},t,{3243},Digimon
-Greymon,{Digimon},t,{3243},Digimon
-MetalGreymon,{Digimon},t,{3243},Digimon
-WarGreymon,{Digimon},t,{3243},Digimon
 D-Reaper,{Digimon},t,{3244},Digimon
 Terriermon,{Digimon},t,{3245},Digimon
 Gargomon,{Digimon},t,{3245},Digimon
@@ -31783,3 +31779,48 @@ Fung Sheng Wu Chi,"{`"Master of the Flying Guillotine`"}",t,{25102},Master of th
 Local Heroes,"{`"Kid Cosmic`"}",f,{25103},Kid Cosmic
 Kid Cosmic,{Stones},t,{25103},""
 Fantos,"{`"Kid Cosmic`"}",f,{25103},Kid Cosmic
+Agumon,{Digimon},t,"{3243,25104}",Digimon
+Greymon,{Digimon},t,"{3243,25104}",Digimon
+MetalGreymon,{Digimon},t,"{3243,25104}",Digimon
+WarGreymon,{Digimon},t,"{3243,25104}",Digimon
+Crypt Keeper,"{`"Tales from the Crypt`"}",t,{25105},Tales from the Crypt
+Khonshu,{616},f,{25106},616
+Khonshu,{Marvel},f,{25106},616
+Khonshu,{Khonshu.*comics},f,{25106},616
+Khonshu,"{`"Marvel Cinematic Universe`"}",f,{25106},MCU
+Khonshu,{MCU},f,{25106},MCU
+Ultimate Spider-Man,{6160},f,{25107},6160
+Iron Man,"{`"Silver Centurion`"}",f,{25108},Silver Centurion
+Iron Man,"{`"Model 8`"}",f,{25108},Silver Centurion
+Wild Cat Size,{Jojos?(verse)?},f,{25109},Jojo's Bizarre Adventure
+Wild Cat Size,{JJBA},f,{25109},Jojo's Bizarre Adventure
+Usagi Alohaoe,{Jojos?(verse)?},t,{25110},Jojo's Bizarre Adventure
+Usagi Alohaoe,{JJBA},t,{25110},Jojo's Bizarre Adventure
+Charming Man,{Jojos?(verse)?},f,{25111},Jojo's Bizarre Adventure
+Charming Man,{JJBA},f,{25111},Jojo's Bizarre Adventure
+Kei Uzuki,"{`"Sakamoto Days`"}",t,{25112},Sakamoto Days
+Rion Akao,"{`"Sakamoto Days`"}",t,{25113},Sakamoto Days
+Akira Akao,"{`"Sakamoto Days`"}",t,{25114},Sakamoto Days
+Satoda,"{`"Sakamoto Days`"}",f,{25115},Sakamoto Days
+Satoda,"{`"Etsuko Satoda`"}",f,{25115},Sakamoto Days
+Abigail,"{`"Abigail Lazar`"}",f,{25116},2024
+Abigail,"{`"Abigail ?\\(Abigail\\)`"}",f,{25116},2024
+Abigail,"{`"Abigail ?\\(2024\\)`"}",f,{25116},2024
+Abigail,"{vampire,2024}",f,{25116},2024
+Seven Great Monsters,"{`"Ocean Hunter`"}",f,{25117},The Ocean Hunter
+Chris & Torel,"{`"Ocean Hunter`"}",f,{25118},The Ocean Hunter
+Vigilante,"{`"Vigilante ?\\(DC Extended Universe`"}",f,{25119},DCEU
+Vigilante,"{`"DC ?(E|C)U`"}",f,{25119},DCEU
+Peacemaker,"{`"Mortal Kombat`"}",f,{25120},Mortal Kombat
+Superior Man,"{`"Red Son`"}",f,{25120},Red Son
+Liberty Prime,{Fallout},f,{25121},Fallout
+Wonder Woman,"{`"DC Animated Film Universe`"}",f,{25122},DC Animated Movie Universe
+Wonder Woman,{DCA(F|M)U},f,{25122},DC Animated Movie Universe
+Wonder Woman,"{`"DC Animated Movies?`"}",f,{25122},DC Animated Movie Universe
+"Franklin Harlock, Jr.","{`"Gun Frontier`"}",t,{25123},Gun Frontier
+Christopher Chance,"{`"DC Comics`"}",t,{25124},DC
+Harrison,"{`"Harrison ?\\(Pok(e|é)m(o|a)n\\)`"}",f,{25125},Pokémon
+Guchuko,{Potemayo},f,{25126},Potemayo
+Krites,{Critters},f,{25127},Critters
+Super Predator Trio,{2010},t,{25128},"Predators, 2010"
+Berserker Predator,{2010},t,{25128},"Predators, 2010"
