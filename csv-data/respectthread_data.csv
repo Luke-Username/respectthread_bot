@@ -524,7 +524,6 @@ id,title,link
 570,Respect the Sasquatch (Suburban Sasquatch),https://redd.it/8amsnx
 571,Respect Babydoll (Sucker Punch),https://redd.it/6xqnqp
 572,Respect Kahuna (Superbabies: Baby Geniuses 2),https://redd.it/66s5ry
-573,Respect Dragonfly (Superhero Movie),https://redd.it/5rdprw
 576,Respect the Mario Bros. (Super Mario Bros. Movie),https://redd.it/6t61r0
 577,Respect Swamp Thing (Movies),https://redd.it/5sxli3
 579,Respect Chocolate Mousse (Top Secret!),https://redd.it/9y81dm
@@ -550,6 +549,7 @@ id,title,link
 574,Respect Superman (Donnerverse),https://redd.it/17s4ch3
 575,Respect Superman (Superman Returns),https://redd.it/17s4ci1
 522,Respect Gipsy Danger! (Pacific Rim),https://redd.it/18al6w2
+573,Respect Dragonfly (Superhero Movie),https://redd.it/1dyj8mh
 593,Respect V.I. Warshawski (V.I. Warshawski),https://redd.it/5zm71p
 594,Respect Mount Wilshire (Volcano),https://redd.it/aihqpu
 596,Respect the Tripod (War of the Worlds [2005 Movie]),https://redd.it/7fq8n4
@@ -2632,7 +2632,6 @@ id,title,link
 2760,Respect: Fantomah (Complete Works of Fletcher Hanks),https://redd.it/4uxqkq
 2761,Respect: Stardust the Super-Wizard (Complete works of Fletcher Hanks),https://redd.it/4uxqg6
 2763,Respect Jason Fox! (Foxtrot),https://redd.it/604eid
-2764,Respect Garfield (Garfield comic strip),https://redd.it/a7551f
 2765,Respect Odie (Garfield comic strip),https://redd.it/a92186
 2766,Respect King Kong (Gold Key/Monster Comics),https://redd.it/5dojkt
 2768,Respect Emmy (Harrow County),https://redd.it/9skb3i
@@ -2697,6 +2696,7 @@ id,title,link
 2802,Respect Marko! (Saga),https://redd.it/qw3s36
 2803,Respect The Will! (Saga),https://redd.it/qw3s4i
 2807,Respect Shirtless Bear Fighter (Image Comics)!,https://redd.it/s8ial0
+2764,Respect Garfield! (Garfield Newspaper Comic Strip),https://redd.it/1dychpy
 2782,"Respect Le Chevalier Noir, Arpin Lusene! (Donald Duck Comics Universe)",https://redd.it/d7jym3
 2819,Respect the Umbrella Academy (Dark Horse Comics),https://redd.it/ivat8v
 2833,Respect Ingrid Gottoli (Blackwidow Apocalypse),https://redd.it/8h7c8o
@@ -13694,3 +13694,17 @@ id,title,link
 25126,Respect Guchuko (Potemayo Anime),https://redd.it/1dxa52l
 25127,Respect the Krites (Critters),https://redd.it/1dxb9hm
 25128,Respect the Super Predator trio (Predators 2010),https://redd.it/1dxkudq
+25129,Respect Haruma (Sakamoto Days),https://redd.it/1dxzh5f
+25130,Respect Kumanomi (Sakamoto Days),https://redd.it/1dxzh6d
+25131,Respect Hyo (Sakamoto Days),https://redd.it/1dz98cf
+25132,Respect Kamihate! (Sakamoto Days),https://redd.it/1dz98ad
+25133,Respect Yotsumura (Sakamoto Days),https://redd.it/1dyk1mf
+25134,Respect Kindaka (Sakamoto Days),https://redd.it/1dyk1is
+25135,Respect Chirico (Armored Trooper VOTOMS),https://redd.it/1dyckqv
+25136,Respect Hatchiyack (Dragon Ball: Plan to Eradicate the Super Saiyans),https://redd.it/1dz0sub
+25137,Respect Max Schreck (Shadow of the Vampire),https://redd.it/1dz2t5h
+25138,Respect Manny Calavera (Grim Fandango),https://redd.it/1dz3su4
+25139,Respect Glottis (Grim Fandango),https://redd.it/1dz3swm
+25140,Respect The Super Sinnoh Slinger Mark 1A (Pokemon Anime),https://redd.it/1dz9dtl
+25141,"The Fists of Khonshu (Marvel, 616)",https://redd.it/1dzf2uf
+25142,Respect Monkey and Trip (Enslaved: Odyssey to the West),https://redd.it/1dzgnqa
