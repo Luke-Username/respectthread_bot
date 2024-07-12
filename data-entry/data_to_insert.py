@@ -256,6 +256,20 @@ False,
 
 ########################################
 
+add_data(['Daredevil'],
+'Daredevil',
+False,
+False,
+[
+    ['Ben Afflecks?']
+],
+'Daredevil film 2003',
+'{115}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1e14h5x/ben_afflecks_daredevil_vs_george_clooneys_batman/lcri8wy/?context=3
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
