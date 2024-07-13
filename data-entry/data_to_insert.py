@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Destroyah'],
+'Destroyah',
+False,
+False,
+[
+    ['Destroyah \(Godzilla']
+],
+'Godzilla',
+'{6496}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1e1xq29/doomsday_dc_comics_vs_destroyah_godzilla/lcxb2h3/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
