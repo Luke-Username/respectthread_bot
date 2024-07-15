@@ -14,6 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Orcas?', 'Orca Dropship', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Orcas?', 'Orca Dropships', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bat(-| )?mans?', 'Baseball Bat Man', -9);
+
+
 ########################################
 
 ########################################
