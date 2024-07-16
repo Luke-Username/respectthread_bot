@@ -121,6 +121,78 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Sergeant Natsumi Tsujimoto (Taiho Shichauzo OVA)', 'https://redd.it/1e249my')
+add_data(['Natsumi Tsujimoto'],
+'Natsumi Tsujimoto',
+False,
+True,
+[
+    ['Taiho Shichauzo'], ["You''re Under Arrest"]
+],
+"You''re Under Arrest",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1e249my/respect_sergeant_natsumi_tsujimoto_taiho/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Danny the Street (DC Comics, Post Crisis)', 'https://redd.it/1e2c6hi')
+add_data(['Danny the Street'],
+'Danny the Street',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Danny the Street'],
+'Danny the Street',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1e2c6hi/respect_danny_the_street_dc_comics_post_crisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Higan! (Ninja Kamui)', 'https://redd.it/1e3la60')
+add_data(['Higan'],
+'Higan',
+False,
+False,
+[
+    ['Ninja Kamui']
+],
+'Ninja Kamui',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1e3la60/respect_higan_ninja_kamui/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sienna Shaw (Terrifier)', 'https://redd.it/1e3nndk')
+add_data(['Sienna Shaw'],
+'Sienna Shaw',
+False,
+True,
+[
+    ['Terrifier']
+],
+'Terrifier',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1e3nndk/respect_sienna_shaw_terrifier/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
