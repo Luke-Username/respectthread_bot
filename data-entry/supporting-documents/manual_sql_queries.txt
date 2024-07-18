@@ -19,6 +19,8 @@ INSERT INTO character_name (name, default_name, is_team) VALUES ('Queen Chrysali
 
 ########################################
 
+UPDATE character SET displayed_version_name='100 Girlfriends' WHERE rt_id_array='{24716}';
+
 ########################################
 
 ########################################
