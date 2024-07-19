@@ -107,7 +107,19 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 435, 'Respect Roy Burns (Friday the 13th: A New Beginning)', 'https://redd.it/1e5j35a')
+########################################
+
+add_data(['Rouge'],
+'Rouge',
+False,
+False,
+[
+    ['Rouge ?\(X(-| )?Men\)']
+],
+'616',
+'{2382}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1e78j20/rouge_xmen_maybe_with_gambit_vs_homelander_the/ldyempz/?context=3
 
 ########################################
 
@@ -153,6 +165,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1e5zj0l/respect_the_predators_dcdark_horse_comics/
+
+########################################
+
+id = get_rt_id(cur, "Respect Victoria Neuman (Amazon''s The Boys)", 'https://redd.it/1e727rx')
+add_data(['Victoria Neuman'],
+'Victoria Neuman',
+False,
+True,
+[
+    ['The Boys']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1e727rx/respect_victoria_neuman_amazons_the_boys/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shagong! (Ultraman Arc)', 'https://redd.it/1e72ses')
+add_data(['Shagong'],
+'Shagong',
+False,
+False,
+[
+    ['Ultraman']
+],
+'Ultraman Arc',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1e72ses/respect_shagong_ultraman_arc/
 
 ########################################
 
