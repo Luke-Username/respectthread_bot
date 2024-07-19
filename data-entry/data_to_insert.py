@@ -111,6 +111,20 @@ update_respectthread(cur, 435, 'Respect Roy Burns (Friday the 13th: A New Beginn
 
 ########################################
 
+add_data(['Dante Alighieri'],
+'Dante Alighieri',
+False,
+False,
+[
+    ["EA.*Dante''s Inferno"], ["Dante''s Inferno.*EA"]
+],
+"Dante''s Inferno, EA",
+'{23406,1195}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1e6b6c9/death_darksiders_vs_dante_alighieri_dantes_inferno/ldu6htd/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Samara Morgan (The Ring)', 'https://redd.it/1e5gya4')
 add_data(['Samara Morgan'],
 'Samara Morgan',
