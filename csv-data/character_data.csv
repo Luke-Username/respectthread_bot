@@ -31195,7 +31195,6 @@ Burning Godzilla,{Destoroyah},t,{},Godzilla vs. Destoroyah
 Godzilla,"{`"Burning Godzilla`"}",f,{},Godzilla vs. Destoroyah
 Godzilla,"{`"Godzilla vs\\.? Destoroyah`"}",f,{},Godzilla vs. Destoroyah
 Joseph Rambo,{616},f,{24715},616
-Rentaro,"{`"100 Girlfriends`"}",f,{24716},100 ?(Girlfriends|Kanojo)
 Ken the Eagle,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",Science Ninja Team Gatchaman
 Joe the Condor,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",Science Ninja Team Gatchaman
 Jun the Swan,"{`"Science Ninja Team Gatchaman`"}",t,"{24717,14497}",Science Ninja Team Gatchaman
@@ -31214,6 +31213,7 @@ Garfield,"{`"Fist of the B0rf star`"}",f,{23614},Fist of the B0rf star
 Garfield,"{`"live(-| )action`"}",f,{23815},Live-Action
 Gigantosaurus,"{`"Ninja Gaiden`"}",f,{24902},Ninja Gaiden
 Harry Warden,"{`"My Bloody Valentine`"}",t,"{24720,25150}",My Bloody Valentine
+Rentaro,"{`"100 Girlfriends`"}",f,{24716},100 Girlfriends
 Garfield,"{`"Garfield Originals`"}",f,{23870},Garfield Originals
 Cabin in the Woods,{2012},t,{24724},""
 Fouke Monster,"{`"Legend of Boggy Creek`"}",f,{24725},The Legend of Boggy Creek
@@ -31870,3 +31870,9 @@ Danny the Street,"{`"Posts?(-| )?C(risis)?`"}",f,{25152},Post-Crisis
 Danny the Street,"{`"New(-| )Earth`"}",f,{25152},Post-Crisis
 Higan,"{`"Ninja Kamui`"}",f,{25153},Ninja Kamui
 Sienna Shaw,{Terrifier},t,{25154},Terrifier
+Dante Alighieri,"{`"EA.*Dante's Inferno`"}",f,"{23406,1195}","Dante's Inferno, EA"
+Dante Alighieri,"{`"Dante's Inferno.*EA`"}",f,"{23406,1195}","Dante's Inferno, EA"
+Samara Morgan,"{`"The Ring`"}",t,{25158},The Ring
+Granny,"{`"Granny Crotony`"}",f,{25159},Armed & Delirious
+Granny,"{`"Armed (&|and) Delirious`"}",f,{25159},Armed & Delirious
+Predators,"{DC,`"Dark Horse`"}",f,{25160},DC/Dark Horse Comics

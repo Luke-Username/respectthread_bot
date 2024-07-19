@@ -107,67 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 435, 'Respect Roy Burns (Friday the 13th: A New Beginning)', 'https://redd.it/1e5j35a')
-
-########################################
-
-add_data(['Dante Alighieri'],
-'Dante Alighieri',
-False,
-False,
-[
-    ["EA.*Dante''s Inferno"], ["Dante''s Inferno.*EA"]
-],
-"Dante''s Inferno, EA",
-'{23406,1195}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/1e6b6c9/death_darksiders_vs_dante_alighieri_dantes_inferno/ldu6htd/?context=3
-
-########################################
-
-id = get_rt_id(cur, 'Respect Samara Morgan (The Ring)', 'https://redd.it/1e5gya4')
-add_data(['Samara Morgan'],
-'Samara Morgan',
-False,
-True,
-[
-    ['The Ring']
-],
-'The Ring',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1e5gya4/respect_samara_morgan_the_ring/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Granny (Armed and Delirious)', 'https://redd.it/1e5wpox')
-add_data(['Granny'],
-'Granny',
-False,
-False,
-[
-    ['Granny Crotony'], ['Armed (&|and) Delirious']
-],
-'Armed & Delirious',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-########################################
-
-id = get_rt_id(cur, 'Respect the Predators (DC/Dark Horse Comics Crossovers)', 'https://redd.it/1e5zj0l')
-add_data(['Predators'],
-'Predators',
-False,
-False,
-[
-    ['DC', 'Dark Horse']
-],
-'DC/Dark Horse Comics',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1e5zj0l/respect_the_predators_dcdark_horse_comics/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
