@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET default_name='Chrysalis' WHERE name='Chrysalis';
-INSERT INTO character_name (name, default_name, is_team) VALUES ('Queen Chrysalis', 'Queen Chrysalis', FALSE);
-
 ########################################
-
-UPDATE character SET displayed_version_name='100 Girlfriends' WHERE rt_id_array='{24716}';
 
 ########################################
 
