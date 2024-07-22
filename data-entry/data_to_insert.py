@@ -107,6 +107,9 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13258, 'Respect Tomura Shigaraki, The Symbol of Fear! (My Hero Academia)', 'https://redd.it/1e7cilt')
+update_respectthread(cur, 2765, 'Respect Odie! (Garfield Newspaper Comic Strip)', 'https://redd.it/1e7ywzs')
+
 ########################################
 
 add_data(['Rouge'],
@@ -120,6 +123,20 @@ False,
 '{2382}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1e78j20/rouge_xmen_maybe_with_gambit_vs_homelander_the/ldyempz/?context=3
+
+########################################
+
+add_data(['Quicksilver'],
+'Quicksilver',
+False,
+False,
+[
+    ['Dante']
+],
+'Devil May Cry',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1e8519b/who_would_win_dante_or_mario_and_luigi/le4s7r3/?context=3
 
 
 ########################################
@@ -151,6 +168,52 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1e72ses/respect_shagong_ultraman_arc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ruby (Pokemon Adventures)', 'https://redd.it/1e8l102')
+add_data(['Ruby'],
+'Ruby',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1e8l102/respect_ruby_pokemon_adventures/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman (Dark Horse/DC Comics, Alien vs Predator Crossovers)', 'https://redd.it/1e8ok1y')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Aliens? vs\.? Predator']
+],
+'Aliens vs. Predator',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (AVP Dark Horse)', 'https://redd.it/1e8yqmj')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Aliens? vs\.? Predator|AVP', 'Dark Horse']
+],
+'Aliens vs. Predator, Dark Horse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1e8yqmj/respect_the_predators_avp_dark_horse/
+
 
 ########################################
 
