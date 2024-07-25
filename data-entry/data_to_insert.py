@@ -121,6 +121,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Maternal Wraith (I Heard It Too)', 'https://redd.it/1e9ekqu')
+add_data(['Maternal Wraith'],
+'Maternal Wraith',
+False,
+True,
+[
+    ['I Heard It Too']
+],
+'I Heard It Too',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1e9ekqu/respect_the_maternal_wraith_i_heard_it_too/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Monstrous Visitor (Pleasant Inn)', 'https://redd.it/1eabc8t')
+add_data(['Monstrous Visitor'],
+'Monstrous Visitor',
+False,
+False,
+[
+    ['Pleasant Inn']
+],
+'Pleasant Inn',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eabc8t/respect_the_monstrous_visitor_pleasant_inn/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Leodo! (Ultraman Arc)', 'https://redd.it/1ebjhbr')
+add_data(['Leodo'],
+'Leodo',
+False,
+False,
+[
+    ['Ultraman']
+],
+'Ultraman Arc',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ebjhbr/respect_leodo_ultraman_arc/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
