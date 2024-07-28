@@ -13831,13 +13831,13 @@ Jaden Yuki,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4629},Yu-Gi-Oh!
 Yubel,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4629},Yu-Gi-Oh!
 Kurosaki Shun,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4631},Yu-Gi-Oh!
 Shun,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4631},Yu-Gi-Oh!
-Marik,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4632},Yu-Gi-Oh!
 Marshmallon,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4633},Yu-Gi-Oh!
 Sora Perse,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4634},Yu-Gi-Oh!
 Yuya Sakaki,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{4635},Yu-Gi-Oh!
 Yuya,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4635},Yu-Gi-Oh!
 Ventus,{UnOrdinary},f,{4612},UnOrdinary
 Joey Wheeler,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23501},Yu-Gi-Oh!
+Marik,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4632},Yu-Gi-Oh!
 Yuto,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4635},Yu-Gi-Oh!
 Yuto,{Duel},f,{4635},Yu-Gi-Oh!
 Yugo,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{4635},Yu-Gi-Oh!
@@ -19433,8 +19433,6 @@ Papyrus,{Undertale},t,{5498},Undertale
 Papyrus,{Sans},t,{5498},Undertale
 Mettaton,{Undertale},t,{5498},Undertale
 Asgore,{Undertale},t,{5498},Undertale
-Flowey,{Undertale},t,{5498},Undertale
-Flowey,{Photoshop},t,{5498},Undertale
 Asriel,{Undertale},t,{5498},Undertale
 Delta Heroes,{Deltarune},t,{5499},Deltarune
 Kris,{Deltarune},f,{5499},Deltarune
@@ -19485,6 +19483,8 @@ Sans,{Undertales?},f,"{5501,5498}",Undertale
 Alice Liddell,"{`"American McGees?`"}",f,"{5521,24687}",American McGee
 Alice Liddell,"{`"Madness Returns`"}",f,"{5521,24687}",American McGee
 Alice,"{`"American McGees?`"}",f,"{5521,24687}",American McGee
+Flowey,{Undertale},t,{25167},Undertale
+Flowey,{Photoshop},t,{25167},Undertale
 Joey,"{`"Arcade America`"}",f,{5524},Arcade America
 Ezio,"{Assassin,Creed}",t,{5525},Assassin's Creed
 Ezio,"{`"AC\\d`"}",t,{5525},Assassin's Creed
@@ -31875,7 +31875,6 @@ Dante Alighieri,"{`"Dante's Inferno.*EA`"}",f,"{23406,1195}","Dante's Inferno, E
 Samara Morgan,"{`"The Ring`"}",t,{25158},The Ring
 Granny,"{`"Granny Crotony`"}",f,{25159},Armed & Delirious
 Granny,"{`"Armed (&|and) Delirious`"}",f,{25159},Armed & Delirious
-Predators,"{DC,`"Dark Horse`"}",f,{25160},DC/Dark Horse Comics
 Rouge,"{`"Rouge ?\\(X(-| )?Men\\)`"}",f,{2382},616
 Quicksilver,{Dante},f,{},Devil May Cry
 Victoria Neuman,"{`"The Boys`"}",t,{25161},The Boys
@@ -31883,3 +31882,26 @@ Shagong,{Ultraman},f,{25162},Ultraman Arc
 Ruby,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{25163},Pokémon Adventures
 Superman,"{`"Aliens? vs\\.? Predator`"}",f,{25164},Aliens vs. Predator
 Predators,"{`"Aliens? vs\\.? Predator|AVP`",`"Dark Horse`"}",f,{25165},"Aliens vs. Predator, Dark Horse"
+Predators,"{DC,`"Dark Horse`"}",f,"{25166,25160}",DC/Dark Horse Comics
+Marik,{YGO},f,{4632},Yu-Gi-Oh!
+Odin,"{`"Prose Edda`"}",f,{23549},Norse Mythology
+Odin,"{`"Poetic Edda`"}",f,{23549},Norse Mythology
+Odin,"{`"Gesta Danorum`"}",f,{23549},Norse Mythology
+Maternal Wraith,"{`"I Heard It Too`"}",t,{25168},I Heard It Too
+Monstrous Visitor,"{`"Pleasant Inn`"}",f,{25169},Pleasant Inn
+Leodo,{Ultraman},f,{25170},Ultraman Arc
+Elvira,"{`"Mistress of the Dark`"}",f,{25171},"Elvira, Mistress of the Dark"
+Elvira,{Film|Movie},f,{25171},"Elvira, Mistress of the Dark"
+Maui,{Mythology},f,{25172},Polynesian Mythology
+Maui,{Polynesian},f,{25172},Polynesian Mythology
+Xa-Du,"{`"\\(DC( Comics)?\\)`"}",f,{25173},DC
+Xa-Du,"{`"\\[DC( Comics)?\\]`"}",f,{25173},DC
+Xa-Du,"{`"(Post(-| ))Flash(-| )?point`"}",f,{25173},Post-Flashpoint
+Gotham Bad Blood,{Predator},f,{25174},Batman versus Predator
+See-Through Slasher,{Predator},t,{25175},Batman versus Predator
+Shroud,"{`"Shroud ?\\(616\\)`"}",f,{25176},616
+Maximillain Coleridge,{616},t,{25176},616
+Kai Brightstar,"{`"S(tar )?Wars`"}",t,{25177},Star Wars
+Flowey,"{`"Undertale Yellow`"}",f,{25178},Undertale Yellow
+Flowey,"{`"Flowey is Not a Good Life Coach`"}",f,{25179},Flowey is Not a Good Life Coach
+Hongou Hina,"{`"STAR:? Strike It Rich`"}",t,{25180},STAR: Strike It Rich
