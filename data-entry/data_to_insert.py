@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Odin'],
+'Odin',
+False,
+False,
+[
+    ['Prose Edda'], ['Poetic Edda'], ['Gesta Danorum']
+],
+'Norse Mythology',
+'{23549}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1edqfim/zeus_vs_odin/lf9wl9l/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Maternal Wraith (I Heard It Too)', 'https://redd.it/1e9ekqu')
 add_data(['Maternal Wraith'],
 'Maternal Wraith',
@@ -163,6 +177,180 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1ebjhbr/respect_leodo_ultraman_arc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Elvira (Elvira, Mistress of the Dark)', 'https://redd.it/1ecf6i2')
+add_data(['Elvira'],
+'Elvira',
+False,
+False,
+[
+    ['Mistress of the Dark'], ['Film|Movie']
+],
+'Elvira, Mistress of the Dark',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ecf6i2/respect_elvira_elvira_mistress_of_the_dark/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maui (Polynesian Mythology)', 'https://redd.it/1eco4g3')
+add_data(['Maui'],
+'Maui',
+False,
+False,
+[
+    ['Mythology'], ['Polynesian']
+],
+'Polynesian Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Xa-Du, the Phantom King (DC Comics, Post-Flashpoint)', 'https://redd.it/1ecp1ah')
+add_data(['Xa(-| )Du'],
+'Xa-Du',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ecp1ah/respect_xadu_the_phantom_king_dc_comics/
+
+add_data(['Xa(-| )Du'],
+'Xa-Du',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ecp1ah/respect_xadu_the_phantom_king_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Gotham Bad Blood (DC/Dark Horse Comics, Batman versus Predator II)', 'https://redd.it/1edi0hy')
+add_data(['Gotham Bad Blood'],
+'Gotham Bad Blood',
+False,
+False,
+[
+    ['Predator']
+],
+'Batman versus Predator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1edi0hy/respect_the_gotham_bad_blood_dcdark_horse_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the See-Through Slasher! (DC/Dark Horse Comics, Batman versus Predator)', 'https://redd.it/1edhjxu')
+add_data(['See(-| )Through Slasher'],
+'See-Through Slasher',
+False,
+True,
+[
+    ['Predator']
+],
+'Batman versus Predator',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1edhjxu/respect_the_seethrough_slasher_dcdark_horse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Shroud (Marvel, 616)', 'https://redd.it/1edcadp')
+add_data(['Shroud'],
+'Shroud',
+False,
+False,
+[
+    ['Shroud ?\(616\)']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Maximillain Coleridge'],
+'Maximillain Coleridge',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1edcadp/respect_shroud_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kai Brightstar (Star Wars Canon)', 'https://redd.it/1ed11yu')
+add_data(['Kai Brightstar'],
+'Kai Brightstar',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ed11yu/respect_kai_brightstar_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Flowey! (Undertale Yellow)', 'https://redd.it/1ee187s')
+add_data(['Flowey'],
+'Flowey',
+False,
+False,
+[
+    ['Undertale Yellow']
+],
+'Undertale Yellow',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ee187s/respect_flowey_undertale_yellow/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Flowey! (Flowey is Not a Good Life Coach)', 'https://redd.it/1ee18dp')
+add_data(['Flowey'],
+'Flowey',
+False,
+False,
+[
+    ['Flowey is Not a Good Life Coach']
+],
+'Flowey is Not a Good Life Coach',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ee18dp/respect_flowey_flowey_is_not_a_good_life_coach/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Revolution Princess, Hongou Hina! (STAR: Strike It Rich)', 'https://redd.it/1ee3sgd')
+add_data(['Hongou Hina'],
+'Hongou Hina',
+False,
+True,
+[
+    ['STAR:? Strike It Rich']
+],
+'STAR: Strike It Rich',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ee3sgd/respect_the_revolution_princess_hongou_hina_star/
 
 ########################################
 
