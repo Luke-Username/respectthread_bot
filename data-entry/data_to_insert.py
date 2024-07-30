@@ -107,6 +107,64 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Lucy MacLean (Fallout [TV Series])', 'https://redd.it/1ee6drs')
+add_data(['Lucy MacLean'],
+'Lucy MacLean',
+False,
+True,
+[
+    ['Fallout']
+],
+'Fallout',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ee6drs/respect_lucy_maclean_fallout_tv_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Psycho Sisters, Sena Riku and Sena Riko! (STAR: Strike It Rich)', 'https://redd.it/1een0mh')
+add_data(['Psycho Sisters'],
+'Psycho Sisters',
+True,
+False,
+[
+    ['STAR:? Strike It Rich']
+],
+'STAR: Strike It Rich',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1een0mh/respect_the_psycho_sisters_sena_riku_and_sena/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: The Midnight Mission! (Marvel, 616)', 'https://redd.it/1efc5b3')
+add_data(['Midnight Mission'],
+'Midnight Mission',
+True,
+False,
+[
+    ['616'], ['Moon Knight']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Black (Pokémon Adventures)', 'https://redd.it/1efefe6')
+add_data(['Black'],
+'Black',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1efefe6/respect_black_pok%C3%A9mon_adventures/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
