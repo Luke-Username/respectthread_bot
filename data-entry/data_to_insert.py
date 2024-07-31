@@ -167,6 +167,20 @@ False,
 
 ########################################
 
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Mario and Sonic'], ['Mario', 'Olympic Games']
+],
+'Sonic the Hedgehog',
+'{8276,8277}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1egcm6c/every_mario_and_sonic_character_all_participates/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
