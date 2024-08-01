@@ -167,6 +167,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect White (Pokémon Adventures)', 'https://redd.it/1egaaed')
+add_data(['White'],
+'White',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1egaaed/respect_white_pok%C3%A9mon_adventures/
+
+########################################
+
+id = get_rt_id(cur, 'Respect N (Pokémon Adventures)', 'https://redd.it/1eh3o71')
+add_data(['N'],
+'N',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eh3o71/respect_n_pok%C3%A9mon_adventures/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Archie (Pokemon Adventures)', 'https://redd.it/1ehe6un')
+add_data(['Archie'],
+'Archie',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ehe6un/respect_archie_pokemon_adventures/
+
+########################################
+
 add_data(['Sonic'],
 'Sonic',
 False,
@@ -178,6 +223,164 @@ False,
 '{8276,8277}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1egcm6c/every_mario_and_sonic_character_all_participates/
+
+########################################
+
+add_data(['The Doctor'],
+'The Doctor',
+False,
+False,
+[
+    ['Rick Sanchez']
+],
+'Doctor Who',
+'{14419,24653,23159,22631,23115,40,15401,23253,24571}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1egl6o3/how_would_rick_sanchez_deal_with_these_really/lfsv3az/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Po Bidau Tiara, The Po Bidau Princess! (Tower of God)', 'https://redd.it/1eg1j1s')
+add_data(['Po Bidau Tiara'],
+'Po Bidau Tiara',
+False,
+True,
+[
+    ['Tower of God']
+],
+'Tower of God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eg1j1s/respect_po_bidau_tiara_the_po_bidau_princess/
+
+########################################
+
+id = get_rt_id(cur, 'Respect "Boss-Boss" Kalyaan (Avatar: The Yangchen Novels)', 'https://redd.it/1egmf1t')
+add_data(['Kalyaan'],
+'Kalyaan',
+False,
+False,
+[
+    ['Yangchen'], ['Avatar']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1egmf1t/respect_bossboss_kalyaan_avatar_the_yangchen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Keerat (Slaxx)', 'https://redd.it/1egoi5t')
+add_data(['Keerat'],
+'Keerat',
+False,
+False,
+[
+    ['Slaxx']
+],
+'Slaxx',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1egoi5t/respect_keerat_slaxx/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Meta Knight (Kirby: Right Back at Ya!)', 'https://redd.it/1egr26f')
+add_data(['Meta Knight'],
+'Meta Knight',
+False,
+False,
+[
+    ['Right Back at Ya']
+],
+'Kirby: Right Back at Ya!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1egr26f/respect_meta_knight_kirby_right_back_at_ya/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Monogelos/Digelos! (Ultraman Arc)', 'https://redd.it/1eh19h3')
+add_data(['Monogelos'],
+'Monogelos',
+False,
+False,
+[
+    ['Ultraman']
+],
+'Ultraman Arc',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eh19h3/respect_monogelosdigelos_ultraman_arc/
+
+add_data(['Digelos'],
+'Digelos',
+False,
+False,
+[
+    ['Ultraman']
+],
+'Ultraman Arc',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eh19h3/respect_monogelosdigelos_ultraman_arc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Carter Grayson, the Red Lightspeed Ranger (Power Rangers Lightspeed Rescue)', 'https://redd.it/1ehe48o')
+add_data(['Carter Grayson'],
+'Carter Grayson',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Red Lightspeed Ranger'],
+'Red Lightspeed Ranger',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ehe48o/respect_carter_grayson_the_red_lightspeed_ranger/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mr. No Legs (Mr. No Legs)', 'https://redd.it/1ehe4wf')
+add_data(['Mr\.? No Legs'],
+'Mr. No Legs',
+False,
+True,
+[
+    ['Mr. No Legs ?\(Mr. No Legs\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ehe4wf/respect_mr_no_legs_mr_no_legs/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Knight (Dead By Daylight)', 'https://redd.it/1eher12')
+add_data(['Knight'],
+'Knight',
+False,
+False,
+[
+    ['Dead By Daylight']
+],
+'Dead By Daylight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eher12/respect_the_knight_dead_by_daylight/
 
 ########################################
 
