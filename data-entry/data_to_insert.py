@@ -384,6 +384,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Chuck D. Head (Decap Attack)', 'https://redd.it/1ehjylz')
+add_data(['Chuck D\.? Head'],
+'Chuck D. Head',
+False,
+True,
+[
+    ['Decap Attack']
+],
+'Decap Attack',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ehjylz/respect_chuck_d_head_decap_attack/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Reaver/Soul Reaver (Legacy of Kain)', 'https://redd.it/1ehmrba')
+add_data(['Soul Reaver'],
+'Soul Reaver',
+False,
+True,
+[
+    ['Legacy of Kain']
+],
+'Legacy of Kain',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ehmrba/respect_the_reaversoul_reaver_legacy_of_kain/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
