@@ -12829,8 +12829,6 @@ Kurapika,"{`"Hunter ?(x ?)?Hunter`"}",t,{3519},Hunter x Hunter
 Kurapika,{HxH},t,{3519},Hunter x Hunter
 Meruem,"{`"Hunter ?(x ?)?Hunter`"}",t,{3520},Hunter x Hunter
 Meruem,{HxH},t,{3520},Hunter x Hunter
-Neferpitou,"{`"Hunter ?(x ?)?Hunter`"}",t,{3521},Hunter x Hunter
-Neferpitou,{HxH},t,{3521},Hunter x Hunter
 Phantom Troupe,"{`"Hunter ?(x ?)?Hunter`"}",t,{3522},Hunter x Hunter
 Phantom Troupe,{HxH},t,{3522},Hunter x Hunter
 Chrollo Lucilfer,"{`"Hunter ?(x ?)?Hunter`"}",t,{3522},Hunter x Hunter
@@ -28659,6 +28657,7 @@ Nanako,{Tsukihime},f,{23218},Tsukihime
 La'gaan,"{`"Young Justice`"}",f,{23220},Young Justice
 Anguirus,"{`"Godzilla Singular Point`"}",f,{23221},Godzilla Singular Point
 Rick Taylor,"{`"Wanpaku Graffiti`"}",f,{23222},Splatterhouse: Wanpaku Graffiti
+Neferpitou,{HxH},t,{},Hunter x Hunter
 Pied Piper,{Shrek},f,{23223},Shrek
 Titans,"{`"Crash Bandicoot`"}",f,{23224},Crash Bandicoot
 Mantis,"{`"Marvel Cinematic Universe`"}",f,{23225},MCU
@@ -31905,3 +31904,27 @@ Kai Brightstar,"{`"S(tar )?Wars`"}",t,{25177},Star Wars
 Flowey,"{`"Undertale Yellow`"}",f,{25178},Undertale Yellow
 Flowey,"{`"Flowey is Not a Good Life Coach`"}",f,{25179},Flowey is Not a Good Life Coach
 Hongou Hina,"{`"STAR:? Strike It Rich`"}",t,{25180},STAR: Strike It Rich
+Neferpitou,"{`"Hunter ?(x ?)?Hunter`"}",t,{},Hunter x Hunter
+Lucy MacLean,{Fallout},t,{25181},Fallout
+Psycho Sisters,"{`"STAR:? Strike It Rich`"}",f,{25182},STAR: Strike It Rich
+Midnight Mission,{616},f,{25183},616
+Midnight Mission,"{`"Moon Knight`"}",f,{25183},616
+Black,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{25184},Pokémon Adventures
+White,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{25185},Pokémon Adventures
+N,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{25186},Pokémon Adventures
+Archie,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{25187},Pokémon Adventures
+Sonic,"{`"Mario and Sonic`"}",f,"{8276,8277}",Sonic the Hedgehog
+Sonic,"{Mario,`"Olympic Games`"}",f,"{8276,8277}",Sonic the Hedgehog
+The Doctor,"{`"Rick Sanchez`"}",f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
+Po Bidau Tiara,"{`"Tower of God`"}",t,{25188},Tower of God
+Kalyaan,{Yangchen},f,{25189},Avatar: TLA
+Kalyaan,{Avatar},f,{25189},Avatar: TLA
+Keerat,{Slaxx},f,{25190},Slaxx
+Monogelos,{Ultraman},f,{25192},Ultraman Arc
+Digelos,{Ultraman},f,{25192},Ultraman Arc
+Carter Grayson,"{`"Power Rangers`"}",t,{25193},Power Rangers
+Red Lightspeed Ranger,"{`"Power Rangers`"}",t,{25193},Power Rangers
+Mr. No Legs,"{`"Mr. No Legs ?\\(Mr. No Legs\\)`"}",t,{25194},""
+Knight,"{`"Dead By Daylight`"}",f,{25195},Dead By Daylight
+Chuck D. Head,"{`"Decap Attack`"}",t,{25196},Decap Attack
+Soul Reaver,"{`"Legacy of Kain`"}",t,{25197},Legacy of Kain
