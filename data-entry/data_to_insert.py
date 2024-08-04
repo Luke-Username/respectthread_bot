@@ -107,6 +107,209 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5821, 'Respect Harry Potter!', 'https://redd.it/3pwwx2')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chad Lee, the Blue Lightspeed Ranger (Power Rangers Lightspeed Rescue)', 'https://redd.it/1ei8wsc')
+add_data(['Chad Lee'],
+'Chad Lee',
+False,
+False,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ei8wsc/respect_chad_lee_the_blue_lightspeed_ranger_power/
+
+add_data(['Blue Lightspeed Ranger'],
+'Blue Lightspeed Ranger',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ei8wsc/respect_chad_lee_the_blue_lightspeed_ranger_power/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Supertrain Megazord (Power Rangers Lightspeed Rescue)', 'https://redd.it/1ej2gf2')
+add_data(['Supertrain Megazord'],
+'Supertrain Megazord',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ej2gf2/respect_the_supertrain_megazord_power_rangers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Lightspeed Megazord (Power Rangers Lightspeed Rescue)', 'https://redd.it/1ei8wv9')
+add_data(['Lightspeed Megazord'],
+'Lightspeed Megazord',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ei8wv9/respect_the_lightspeed_megazord_power_rangers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Joel Rawlings, the Green Lightspeed Rescue (Power Rangers Lightspeed Rescue)', 'https://redd.it/1ej2ge1')
+add_data(['Joel Rawlings'],
+'Joel Rawlings',
+False,
+False,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ei8wsc/respect_chad_lee_the_blue_lightspeed_ranger_power/
+
+add_data(['Green Lightspeed Rescue'],
+'Green Lightspeed Rescue',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ej2ge1/respect_joel_rawlings_the_green_lightspeed_rescue/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Edwin (Klown Kamp Massacre)', 'https://redd.it/1eicmom')
+add_data(['Edwin'],
+'Edwin',
+False,
+False,
+[
+    ['Klown Kamp Massacre']
+],
+'Klown Kamp Massacre',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eicmom/respect_edwin_klown_kamp_massacre/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-409, Contagious Crystal (SCP Foundation)', 'https://redd.it/1eikq7c')
+add_data(['SCP ?(-| )? ?409'],
+'SCP-409',
+False,
+True,
+[
+    ['Contagious Crystal']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eikq7c/respect_scp409_contagious_crystal_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jinora (The Legend of Korra)', 'https://redd.it/1eitxyu')
+add_data(['Jinora'],
+'Jinora',
+False,
+False,
+[
+    ['Korra'], ['Avatar']
+],
+'Avatar: TLA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eitxyu/respect_jinora_the_legend_of_korra/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Arnold Wesker, the Ventriloquist (DC Comics, Post Crisis)', 'https://redd.it/1ej5x59')
+add_data(['Arnold Wesker'],
+'Arnold Wesker',
+False,
+False,
+[
+    ['DC'], ['Ventriloquist']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ej5x59/respect_arnold_wesker_the_ventriloquist_dc_comics/
+
+add_data(['Arnold Wesker'],
+'Arnold Wesker',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ej5x59/respect_arnold_wesker_the_ventriloquist_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Luna Snow! (Marvel 616)', 'https://redd.it/1ejpz67')
+add_data(['Luna Snow'],
+'Luna Snow',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ejpz67/respect_luna_snow_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect S.C.A.T. (Night Trap)', 'https://redd.it/1ejvx9q')
+add_data(['S\.C\.A\.T'],
+'S.C.A.T.',
+False,
+False,
+[
+    ['Night Trap']
+],
+'Night Trap',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ejvx9q/respect_scat_night_trap/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ceroba Ketsukane! (Undertale Yellow)', 'https://redd.it/1ek0tr7')
+add_data(['Ceroba Ketsukane'],
+'Ceroba Ketsukane',
+False,
+True,
+[
+    ['Undertale Yellow']
+],
+'Undertale Yellow',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ek0tr7/respect_ceroba_ketsukane_undertale_yellow/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
