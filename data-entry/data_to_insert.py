@@ -111,6 +111,20 @@ update_respectthread(cur, 5821, 'Respect Harry Potter!', 'https://redd.it/3pwwx2
 
 ########################################
 
+add_data(['Wolverine'],
+'Wolverine',
+False,
+False,
+[
+    ['Fox X(-| )?men']
+],
+'FOX',
+'{158}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1el9bk7/who_would_win_at_arm_wrestling_chewbacca_or/lgq6bgv/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Chad Lee, the Blue Lightspeed Ranger (Power Rangers Lightspeed Rescue)', 'https://redd.it/1ei8wsc')
 add_data(['Chad Lee'],
 'Chad Lee',
@@ -135,6 +149,33 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1ei8wsc/respect_chad_lee_the_blue_lightspeed_ranger_power/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kelsey Winslow, the Yellow Lightspeed Ranger (Power Rangers Lightspeed Rescue)', 'https://redd.it/1ekono0')
+add_data(['Kelsey Winslow'],
+'Kelsey Winslow',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ei8wsc/respect_chad_lee_the_blue_lightspeed_ranger_power/
+
+add_data(['Yellow Lightspeed Ranger'],
+'Yellow Lightspeed Ranger',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ekono0/respect_kelsey_winslow_the_yellow_lightspeed/
 
 ########################################
 
@@ -168,6 +209,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Omega Megazord (Power Rangers Lightspeed Rescue)', 'https://redd.it/1ekonpw')
+add_data(['Omega Megazord'],
+'Omega Megazord',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ekonpw/respect_the_omega_megazord_power_rangers/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Joel Rawlings, the Green Lightspeed Rescue (Power Rangers Lightspeed Rescue)', 'https://redd.it/1ej2ge1')
 add_data(['Joel Rawlings'],
 'Joel Rawlings',
@@ -192,6 +248,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1ej2ge1/respect_joel_rawlings_the_green_lightspeed_rescue/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Darts Grumer! (Bakuage Sentai BoonBoomger)', 'https://redd.it/1el966h')
+add_data(['Darts Grumer'],
+'Darts Grumer',
+False,
+True,
+[
+    ['Bakuage Sentai BoonBoomger']
+],
+'Bakuage Sentai BoonBoomger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1el966h/respect_darts_grumer_bakuage_sentai_boonboomger/
 
 ########################################
 
@@ -264,6 +335,60 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1ej5x59/respect_arnold_wesker_the_ventriloquist_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wade Eiling, The General (DC Post Crisis)', 'https://redd.it/1ek6g8l')
+add_data(['Wade Eiling'],
+'General Wade Eiling',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Wade Eiling'],
+'General Wade Eiling',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Shaggy Man (DC Post Crisis)', 'https://redd.it/1ek6inb')
+add_data(['Shaggy Man'],
+'Shaggy Man',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'], ['Doomsday'], ['Wonder Woman', 'Superman']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Shaggy Man'],
+'Shaggy Man',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ek6inb/respect_the_shaggy_man_dc_post_crisis/
 
 ########################################
 
