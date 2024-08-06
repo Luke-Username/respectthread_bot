@@ -20070,10 +20070,6 @@ Geralt of Rivia,{TV},f,{},Netflix
 Bloody Mary,"{`"Wolf Among Us`"}",f,{5760},The Wolf Among Us
 Bloody Mary,{TWAU},f,{5760},The Wolf Among Us
 Gunslinger Joe,{Wolfenstein},t,{5761},Wolfenstein
-Neku Sakuraba,"{`"World Ends With You`"}",t,{5762},The World Ends With You
-Neku Sakuraba,{TWEWY},t,{5762},The World Ends With You
-Neku,"{`"World Ends With You`"}",f,{5762},The World Ends With You
-Neku,{TWEWY},f,{5762},The World Ends With You
 Sho Minamoto,"{`"World Ends With You`"}",t,{5763},The World Ends With You
 Sho Minamoto,{TWEWY},t,{5763},The World Ends With You
 Yooka-Laylee,{default},t,{5764},""
@@ -31928,3 +31924,40 @@ Mr. No Legs,"{`"Mr. No Legs ?\\(Mr. No Legs\\)`"}",t,{25194},""
 Knight,"{`"Dead By Daylight`"}",f,{25195},Dead By Daylight
 Chuck D. Head,"{`"Decap Attack`"}",t,{25196},Decap Attack
 Soul Reaver,"{`"Legacy of Kain`"}",t,{25197},Legacy of Kain
+Neku Sakuraba,"{`"World Ends With You`"}",t,"{5762,25198}",The World Ends With You
+Neku Sakuraba,{TWEWY},t,"{5762,25198}",The World Ends With You
+Neku,"{`"World Ends With You`"}",f,"{5762,25198}",The World Ends With You
+Neku,{TWEWY},f,"{5762,25198}",The World Ends With You
+Wolverine,"{`"Fox X(-| )?men`"}",f,{158},FOX
+Chad Lee,"{`"Power Rangers?`"}",f,{25199},Power Rangers
+Blue Lightspeed Ranger,"{`"Power Rangers?`"}",t,{25199},Power Rangers
+Kelsey Winslow,"{`"Power Rangers?`"}",t,{25200},Power Rangers
+Yellow Lightspeed Ranger,"{`"Power Rangers?`"}",t,{25200},Power Rangers
+Supertrain Megazord,"{`"Power Rangers?`"}",t,{25201},Power Rangers
+Lightspeed Megazord,"{`"Power Rangers?`"}",t,{25202},Power Rangers
+Omega Megazord,"{`"Power Rangers?`"}",t,{25203},Power Rangers
+Joel Rawlings,"{`"Power Rangers?`"}",f,{25204},Power Rangers
+Green Lightspeed Rescue,"{`"Power Rangers?`"}",t,{25204},Power Rangers
+Darts Grumer,"{`"Bakuage Sentai BoonBoomger`"}",t,{25205},Bakuage Sentai BoonBoomger
+Edwin,"{`"Klown Kamp Massacre`"}",f,{25206},Klown Kamp Massacre
+SCP-409,"{`"Contagious Crystal`"}",t,{25207},""
+Arnold Wesker,{DC},f,{25209},DC
+Arnold Wesker,{Ventriloquist},f,{25209},DC
+Arnold Wesker,{PC},f,{25209},Post-Crisis
+Arnold Wesker,"{`"Posts?(-| )?C(risis)?`"}",f,{25209},Post-Crisis
+Arnold Wesker,"{`"New(-| )Earth`"}",f,{25209},Post-Crisis
+General Wade Eiling,"{`"\\(DC( Comics)?\\)`"}",t,{25210},DC
+General Wade Eiling,"{`"\\[DC( Comics)?\\]`"}",t,{25210},DC
+General Wade Eiling,{PC},f,{25210},Post-Crisis
+General Wade Eiling,"{`"Posts?(-| )?C(risis)?`"}",f,{25210},Post-Crisis
+General Wade Eiling,"{`"New(-| )Earth`"}",f,{25210},Post-Crisis
+Shaggy Man,"{`"\\(DC( Comics)?\\)`"}",f,{25211},DC
+Shaggy Man,"{`"\\[DC( Comics)?\\]`"}",f,{25211},DC
+Shaggy Man,{Doomsday},f,{25211},DC
+Shaggy Man,"{`"Wonder Woman`",Superman}",f,{25211},DC
+Shaggy Man,{PC},f,{25211},Post-Crisis
+Shaggy Man,"{`"Posts?(-| )?C(risis)?`"}",f,{25211},Post-Crisis
+Shaggy Man,"{`"New(-| )Earth`"}",f,{25211},Post-Crisis
+Luna Snow,{616},t,{25212},616
+S.C.A.T.,"{`"Night Trap`"}",f,{25213},Night Trap
+Ceroba Ketsukane,"{`"Undertale Yellow`"}",t,{25214},Undertale Yellow
