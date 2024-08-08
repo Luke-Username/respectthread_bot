@@ -107,6 +107,95 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 15995, 'Respect Max Rockatansky (Mad Max)', 'https://redd.it/1emafdu')
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Lifeforce Megazord (Power Rangers Lightspeed Rescue)', 'https://redd.it/1empm10')
+add_data(['Lifeforce Megazord'],
+'Lifeforce Megazord',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1empm10/respect_the_lifeforce_megazord_power_rangers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dana Mitchell, the Pink Lightspeed Ranger (Power Rangers Lightspeed Rescue)', 'https://redd.it/1emplzb')
+add_data(['Dana Mitchell'],
+'Dana Mitchell',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Pink Lightspeed Ranger'],
+'Pink Lightspeed Ranger',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1emplzb/respect_dana_mitchell_the_pink_lightspeed_ranger/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kara Zor-El, Supergirl! (My Adventures with Superman)', 'https://redd.it/1elp74v')
+add_data(['Super(-| )?girl'],
+'Supergirl',
+False,
+False,
+[
+    ['My Adventures with Superman']
+],
+'My Adventures with Superman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1elp74v/respect_kara_zorel_supergirl_my_adventures_with/ 
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ethan Avery, Damage! (My Adventures with Superman)', 'https://redd.it/1elp6gb')
+add_data(['Damage'],
+'Damage',
+False,
+False,
+[
+    ['My Adventures with Superman']
+],
+'My Adventures with Superman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1elp6gb/respect_ethan_avery_damage_my_adventures_with/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Joseph Martin, Atomic Skull! (My Adventures with Superman)', 'https://redd.it/1elp4w2')
+add_data(['Atomic Skull'],
+'Atomic Skull',
+False,
+False,
+[
+    ['My Adventures with Superman']
+],
+'My Adventures with Superman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1elp4w2/respect_joseph_martin_atomic_skull_my_adventures/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
