@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=TRUE WHERE rt_id_array='{3286}';
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Tactimon ! (digimon Xros Wars)', 'https://redd.it/1eozhay'); SELECT * FROM respectthread WHERE link='https://redd.it/1eozhay';
-UPDATE character SET rt_id_array='{?, 3255}' WHERE rt_id_array='{3255}';
 
 ########################################
 

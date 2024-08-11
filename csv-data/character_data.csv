@@ -12305,7 +12305,6 @@ Zeromaru,{Digimon},f,{3251},Digimon
 Ballistamon,{Digimon},t,{3252},Digimon
 Blastmon,{Digimon},t,{3253},Digimon
 Dorulumon,{Digimon},t,{3254},Digimon
-Tactimon,{Digimon},t,{3255},Digimon
 NEO,{Digimon},f,{3256},Digimon
 VictoryGreymon,{Digimon},t,{3257},Digimon
 Z'dGarurumon,{Digimon},t,{3257},Digimon
@@ -12358,12 +12357,13 @@ Goten,"{`"Dragon ?Ball`"}",f,{3291},Dragon Ball
 Goten,{DB(Z|S)?},f,{3291},Dragon Ball
 Trunks,"{`"Dragon ?Ball`"}",f,"{3284,22116}",Dragon Ball
 Trunks,{DB(Z|S)?},f,"{3284,22116}",Dragon Ball
-Gohan,"{`"Dragon ?Ball`"}",f,{3286},Dragon Ball
+Tactimon,{Digimon},t,"{25215,3255}",Digimon
 Raditz,"{`"Dragon ?Ball`"}",t,"{3307,22789}",Dragon Ball
 Raditz,{DB(Z|S)?},t,"{3307,22789}",Dragon Ball
 Nappa,"{`"Dragon ?Ball`"}",t,"{3304,22828}",Dragon Ball
 Nappa,{DB(Z|S)?},t,"{3304,22828}",Dragon Ball
-Gohan,{DB(Z|S)?},f,{3286},Dragon Ball
+Gohan,"{`"Dragon ?Ball`"}",t,{3286},Dragon Ball
+Gohan,{DB(Z|S)?},t,{3286},Dragon Ball
 Mercenary Tao,"{`"Dragon ?Ball`"}",t,{3302},Dragon Ball
 Mercenary Tao,{DB(Z|S)?},t,{3302},Dragon Ball
 Frieza,"{`"Dragon ?Ball`"}",t,"{3281,3282}",Dragon Ball
@@ -31961,3 +31961,27 @@ Shaggy Man,"{`"New(-| )Earth`"}",f,{25211},Post-Crisis
 Luna Snow,{616},t,{25212},616
 S.C.A.T.,"{`"Night Trap`"}",f,{25213},Night Trap
 Ceroba Ketsukane,"{`"Undertale Yellow`"}",t,{25214},Undertale Yellow
+Jonas Taylor,"{`"The Meg`"}",f,{25216},The Meg
+Nicolas Cage Superman,"{`"DC Extended Universe`"}",t,{25217},DCEU
+Nicolas Cage Superman,"{`"DC ?(E|C)U`"}",t,{25217},DCEU
+Nicolas Cage Superman,"{`"DC Cinematic Universe`"}",t,{25217},DCEU
+Lifeforce Megazord,"{`"Power Rangers?`"}",t,{25218},Power Rangers
+Dana Mitchell,"{`"Power Rangers?`"}",t,{25219},Power Rangers
+Pink Lightspeed Ranger,"{`"Power Rangers?`"}",t,{25219},Power Rangers
+Ryan Mitchell,"{`"Power Rangers?`"}",f,{25220},Power Rangers
+Titanium Ranger,"{`"Power Rangers?`"}",t,{25220},Power Rangers
+Olympius,"{`"Power Rangers?`"}",f,{25221},Power Rangers
+Supergirl,"{`"My Adventures with Superman`"}",f,{25222},My Adventures with Superman
+Damage,"{`"My Adventures with Superman`"}",f,{25223},My Adventures with Superman
+Atomic Skull,"{`"My Adventures with Superman`"}",f,{25224},My Adventures with Superman
+Blade,"{`"Susan Storm`",`"Plastic Man`",Team}",f,{2204},616
+Guilliman,{Warhammer},t,{6032},Warhammer 40k
+Atom,"{`"Atom.*\\(Pluto\\)`"}",f,{25225},Pluto
+Heracles,"{`"Heracles.*\\(Pluto\\)`"}",f,{25226},Pluto
+Epsilon,"{`"Epsilon.*\\(Pluto\\)`"}",f,{25227},Pluto
+Pluto,"{`"Pluto.*\\(Pluto\\)`"}",f,{25228},Pluto
+Seven Strongest Robots,"{`"Seven Strongest Robots.*\\(Pluto\\)`"}",f,{25229},Pluto
+Nigel,{Rio},f,{25230},Rio
+Geiger,"{`"Ghost Machine`"}",f,{25231},Ghost Machine
+Junkyard Joe,"{`"Ghost Machine`"}",t,{25232},Ghost Machine
+Nezutron,{Ultraman},f,{25233},Ultraman

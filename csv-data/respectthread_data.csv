@@ -208,7 +208,6 @@ id,title,link
 233,Respect the Avengers (Marvel Cinematic Universe),https://redd.it/p3px68
 241,Respect Ego (Marvel Cinematic Universe),https://redd.it/bpx3v8
 183,Respect Godzilla (Millennium Era),https://redd.it/r9f8e5
-251,Respect Loki (Marvel Cinematic Universe),https://redd.it/t3waun
 184,Respect Godzilla (Shin Godzilla),https://redd.it/zs4px7
 180,"Respect Godzilla, The King of the Monsters (Godzilla, 1954)",https://redd.it/10o986s
 244,"Respect Clint Barton, Hawkeye! (Marvel Cinematic Universe)",https://redd.it/13xvu4c
@@ -219,6 +218,7 @@ id,title,link
 252,"Respect Aldrich Killian, The Mandarin (Marvel Cinematic Universe)",https://redd.it/64dr6d
 253,Respect Miscellaneous Animals of the MCU (Marvel Cinematic Universe),https://redd.it/8mmfvw
 254,Respect Nebula (Marvel Cinematic Universe),https://redd.it/6t4405
+251,Respect Loki (Marvel Cinematic Universe),https://redd.it/1eoe3ur
 257,Respect Ronan The Accuser (Marvel Cinematic Universe),https://redd.it/5z0zm8
 258,Respect The Revengers (Marvel Cinematic Universe/Thor: Ragnarok),https://redd.it/9rwjk3
 259,Respect Sif (Marvel Cinematic Universe),https://redd.it/7lxx9e
@@ -7329,6 +7329,7 @@ id,title,link
 8277,Respect Modern Sonic! (Sonic the Hedgehog),https://redd.it/f3vxko
 8278,Respect the Stone King (Batman: The Stone King),https://redd.it/f4gbml
 8279,Respect Dex-Starr (Post-Crisis),https://redd.it/eou1f3
+15995,Respect Max Rockatansky (Mad Max),https://redd.it/1emafdu
 8275,Respect Tangle the Lemur! (Sonic the Hedgehog (IDW Comics)),https://redd.it/l3rbz0
 8263,Respect Neo (Dog Ningen),https://redd.it/lvpgg3
 15963,Respect Lady Shiva (Batman: Soul of the Dragon),https://redd.it/lod89p
@@ -7361,7 +7362,6 @@ id,title,link
 15992,"Respect The Anti-Hulk (Marvel, Earth 928)",https://redd.it/ly2dy6
 15993,Respect Speed (Marvel 616),https://redd.it/lsgser
 15994,Respect the Hulk (Planet Hulk)!,https://redd.it/lsdhkm
-15995,Respect Max Rockatansky (Mad Max films),https://redd.it/ltgyiw
 15996,Respect the Entity (It Follows),https://redd.it/ltspe9
 15998,Respect Shiroyanagi Akira (Battle in 5 Seconds),https://redd.it/lunw2m
 15999,Respect Mojo the Lifebringer [Marvel],https://redd.it/luoz2l
@@ -13777,3 +13777,22 @@ id,title,link
 25212,Respect Luna Snow! (Marvel 616),https://redd.it/1ejpz67
 25213,Respect S.C.A.T. (Night Trap),https://redd.it/1ejvx9q
 25214,Respect Ceroba Ketsukane! (Undertale Yellow),https://redd.it/1ek0tr7
+25215,Respect Tactimon ! (digimon Xros Wars),https://redd.it/1eozhay
+25216,Respect Jonas Taylor (The Meg),https://redd.it/1ephbyr
+25217,Respect Nicolas Cage Superman (DCEU),https://redd.it/1eovy5f
+25218,Respect the Lifeforce Megazord (Power Rangers Lightspeed Rescue),https://redd.it/1empm10
+25219,"Respect Dana Mitchell, the Pink Lightspeed Ranger (Power Rangers Lightspeed Rescue)",https://redd.it/1emplzb
+25220,"Respect Ryan Mitchell, the Titanium Ranger (Power Rangers Lightspeed Rescue)",https://redd.it/1enj13s
+25221,Respect Olympius (Power Rangers Lightspeed Rescue),https://redd.it/1enj14q
+25222,"Respect Kara Zor-El, Supergirl! (My Adventures with Superman)",https://redd.it/1elp74v
+25223,"Respect Ethan Avery, Damage! (My Adventures with Superman)",https://redd.it/1elp6gb
+25224,"Respect Joseph Martin, Atomic Skull! (My Adventures with Superman)",https://redd.it/1elp4w2
+25225,Respect Atom (Pluto),https://redd.it/1en8fqe
+25226,Respect Heracles (Pluto),https://redd.it/1en8fr4
+25227,Respect Epsilon (Pluto),https://redd.it/1en8fsa
+25228,Respect Pluto (Pluto),https://redd.it/1eo3ec9
+25229,Respect The Seven Strongest Robots (Pluto),https://redd.it/1eo3edn
+25230,Respect Nigel the Cockatoo (Rio),https://redd.it/1enby0o
+25231,"Respect Geiger (Image Comics, Ghost Machine)",https://redd.it/1eoasbn
+25232,"Respect Junkyard Joe (Image Comics, Ghost Machine)",https://redd.it/1eoxrp9
+25233,Respect Nezutron! (Ultraman Arc),https://redd.it/1epl2yt
