@@ -107,6 +107,74 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Maxie (Pokemon Adventures)', 'https://redd.it/1eqoyas')
+add_data(['Maxie'],
+'Maxie',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eqoyas/respect_maxie_pokemon_adventures/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tyler Blu Gunderson (Rio)', 'https://redd.it/1er37kl')
+add_data(['Blu'],
+'Blu',
+False,
+False,
+[
+    ['Rio']
+],
+'Rio',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1er37kl/respect_tyler_blu_gunderson_rio/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Moxxie and Millie! (Helluva Boss)', 'https://redd.it/1er4r1l')
+add_data(['Millie'],
+'Millie',
+False,
+False,
+[
+    ['Helluva Boss'], ['Blitz(ø|o)']
+],
+'Helluva Boss',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1er4r1l/respect_moxxie_and_millie_helluva_boss/
+
+add_data(['Moxxie'],
+'Moxxie',
+False,
+False,
+[
+    ['Helluva Boss'], ['Blitz(ø|o)']
+],
+'Helluva Boss',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1er4r1l/respect_moxxie_and_millie_helluva_boss/
+
+
+add_data(['Moxxie,?( and)? Millie|Millie,?( and)? Moxxie'],
+'Moxxie and Millie',
+True,
+True,
+[
+    ['Helluva Boss'], ['Blitz(ø|o)']
+],
+'Helluva Boss',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1er4r1l/respect_moxxie_and_millie_helluva_boss/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
