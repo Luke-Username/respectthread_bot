@@ -177,6 +177,169 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Livyjira! (Ultraman Arc)', 'https://redd.it/1esjs5u')
+add_data(['Livyjira'],
+'Livyjira',
+False,
+True,
+[
+    ['Ultraman']
+],
+'Ultraman Arc',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1esjs5u/respect_livyjira_ultraman_arc/
+
+########################################
+
+id1 = get_rt_id(cur, 'Respect Hank, The Ranger! (Dungeons & Dragons [TV series])', 'https://redd.it/1err5yk')
+add_data(['Hank'],
+'Hank',
+False,
+False,
+[
+    ['Dungeons (&|and) Dragons', 'Cartoon|TV Series|198(3|0s)|The Ranger'], ['D ?(&|n) ?D', 'Cartoon|TV Series|198(3|0s)|The Ranger']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id1) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1err5yk/respect_hank_the_ranger_dungeons_dragons_tv_series/
+
+########################################
+
+id2 = get_rt_id(cur, 'Respect Diana, The Acrobat! (Dungeons & Dragons [TV series])', 'https://redd.it/1err65e')
+add_data(['Diana'],
+'Diana',
+False,
+False,
+[
+    ['Dungeons (&|and) Dragons', 'Cartoon|TV Series|198(3|0s)|The Acrobat'], ['D ?(&|n) ?D', 'Cartoon|TV Series|198(3|0s)|The Acrobat']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1err65e/respect_diana_the_acrobat_dungeons_dragons_tv/
+
+########################################
+
+id3 = get_rt_id(cur, 'Respect Presto, The Magician! (Dungeons & Dragons [TV series])', 'https://redd.it/1err6kr')
+add_data(['Presto'],
+'Presto',
+False,
+False,
+[
+    ['Dungeons (&|and) Dragons', 'Cartoon|TV Series|198(3|0s)|The Magician'], ['D ?(&|n) ?D', 'Cartoon|TV Series|198(3|0s)|The Magician']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id3) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1err6kr/respect_presto_the_magician_dungeons_dragons_tv/
+
+########################################
+
+id4 = get_rt_id(cur, 'Respect Eric, The Cavalier! (Dungeons & Dragons [TV series])', 'https://redd.it/1err6t6')
+add_data(['Presto'],
+'Presto',
+False,
+False,
+[
+    ['Dungeons (&|and) Dragons', 'Cartoon|TV Series|198(3|0s)|The Cavalier'], ['D ?(&|n) ?D', 'Cartoon|TV Series|198(3|0s)|The Cavalier']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id4) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1err6t6/respect_eric_the_cavalier_dungeons_dragons_tv/
+
+########################################
+
+id5 = get_rt_id(cur, 'Respect Bobby, The Barbarian! (Dungeons & Dragons [TV series])', 'https://redd.it/1err7a7')
+add_data(['Bobby'],
+'Bobby',
+False,
+False,
+[
+    ['Dungeons (&|and) Dragons', 'Cartoon|TV Series|198(3|0s)|The Barbarian'], ['D ?(&|n) ?D', 'Cartoon|TV Series|198(3|0s)|The Barbarian']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id5) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1err7a7/respect_bobby_the_barbarian_dungeons_dragons_tv/
+
+########################################
+
+id6 = get_rt_id(cur, 'Respect Sheila, The Thief! (Dungeons & Dragons [TV series])', 'https://redd.it/1err7ua')
+add_data(['Sheila'],
+'Sheila',
+False,
+False,
+[
+    ['Dungeons (&|and) Dragons', 'Cartoon|TV Series|198(3|0s)|The Thief'], ['D ?(&|n) ?D', 'Cartoon|TV Series|198(3|0s)|The Thief']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id6) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1err7ua/respect_sheila_the_thief_dungeons_dragons_tv/
+
+########################################
+
+id7 = get_rt_id(cur, 'Respect The Heroes! (Dungeons & Dragons [TV series])', 'https://redd.it/1erra0u')
+add_data(['The Heroes'],
+'The Heroes',
+True,
+False,
+[
+    ['Dungeons (&|and) Dragons', 'Cartoon|TV Series|198(3|0s)'], ['D ?(&|n) ?D', 'Cartoon|TV Series|198(3|0s)']
+],
+'Dungeons & Dragons',
+'{' + '{}, {}, {}, {}, {}, {}, {}'.format(id7, id1, id2, id3, id4, id5, id6) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1erra0u/respect_the_heroes_dungeons_dragons_tv_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Venger, The Force of Evil! (Dungeons & Dragons [TV series])', 'https://redd.it/1errksh')
+add_data(['Venger'],
+'Venger',
+False,
+False,
+[
+    ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D'], ['The Force of Evil']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1errksh/respect_venger_the_force_of_evil_dungeons_dragons/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Cassandra Cain, Batgirl! (DC Pre-Flashpoint)', 'https://redd.it/1es1c2t')
+add_data(['Cassandra Cain'],
+'Cassandra Cain',
+False,
+False,
+[
+    ['Pre(-| )?Flashpoint']
+],
+'Pre-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Cassandra Cain'],
+'Cassandra Cain',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}, 1503, 1502'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1es1c2t/respect_cassandra_cain_batgirl_dc_preflashpoint/
+
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
