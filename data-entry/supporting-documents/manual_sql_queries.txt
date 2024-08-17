@@ -19,9 +19,15 @@ UPDATE character_name SET name='Armando Salt?azar' WHERE name='Armando Salazar';
 
 ########################################
 
-########################################
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Doomsday', 'Doomsday Device', 0);
 
 ########################################
+
+DELETE FROM character_name WHERE name='Deadpool';
+
+########################################
+
+UPDATE character SET rt_id_array='{2456,25075}' WHERE rt_id_array='{25075,2456}';
 
 ########################################
 

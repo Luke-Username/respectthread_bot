@@ -107,6 +107,25 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6189, 'Respect Thor, The Thunderer (Neil Gaiman''s Norse Mythology)', 'https://redd.it/1etnbui')
+update_respectthread(cur, 2456, 'Respect: Moon Knight (Marvel, 616) - [Classic]', 'https://redd.it/1ets8w2')
+
+########################################
+
+add_data(['Dead(-| )?pool'],
+'Deadpool',
+False,
+False,
+[
+    ['Deadpool 2013']
+],
+'2013',
+'{24967}'
+)
+#https://www.reddit.com/r/respectthread_bot/comments/1eu544y/deadpool_deadpool_2013/lihwkui/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Maxie (Pokemon Adventures)', 'https://redd.it/1eqoyas')
 add_data(['Maxie'],
 'Maxie',
@@ -174,6 +193,36 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1er4r1l/respect_moxxie_and_millie_helluva_boss/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Stantler (Pokemon Anime)', 'https://redd.it/1esuly5')
+add_data(['Stantler'],
+'Stantler',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1esuly5/respect_stantler_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Elements (Elemental)', 'https://redd.it/1etm546')
+add_data(['The Elements'],
+'The Elements',
+True,
+False,
+[
+    ['The Elements ?\(Elemental\)']
+],
+'Elemental',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1etm546/respect_the_elements_elemental/
 
 ########################################
 
