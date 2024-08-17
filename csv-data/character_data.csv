@@ -10557,8 +10557,8 @@ Daisy Johnson,{comics?},t,{2463},616
 Sabra,{616},t,{11088},616
 Sabra,{Marvel},t,{11088},616
 Savage Steel,{616},t,{2464},616
-Moon Knight,{616},t,"{25075,2456}",616
-Moon Knight,{Marvel},t,"{25075,2456}",616
+Moon Knight,{616},t,"{2456,25075}",616
+Moon Knight,{Marvel},t,"{2456,25075}",616
 Savage Steel,{Marvel},t,{2464},616
 Slapstick,{616},f,{2465},616
 Slapstick,{Marvel},f,{2465},616
@@ -31985,3 +31985,35 @@ Nigel,{Rio},f,{25230},Rio
 Geiger,"{`"Ghost Machine`"}",f,{25231},Ghost Machine
 Junkyard Joe,"{`"Ghost Machine`"}",t,{25232},Ghost Machine
 Nezutron,{Ultraman},f,{25233},Ultraman
+Deadpool,"{`"Deadpool 2013`"}",f,{24967},2013
+Maxie,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{25234},Pokémon Adventures
+Blu,{Rio},f,{25235},Rio
+Millie,"{`"Helluva Boss`"}",f,{25236},Helluva Boss
+Millie,{Blitz(ø|o)},f,{25236},Helluva Boss
+Moxxie,"{`"Helluva Boss`"}",f,{25236},Helluva Boss
+Moxxie,{Blitz(ø|o)},f,{25236},Helluva Boss
+Moxxie and Millie,"{`"Helluva Boss`"}",t,{25236},Helluva Boss
+Moxxie and Millie,{Blitz(ø|o)},t,{25236},Helluva Boss
+Livyjira,{Ultraman},t,{25237},Ultraman Arc
+Hank,"{`"Dungeons (&|and) Dragons`",`"Cartoon|TV Series|198(3|0s)|The Ranger`"}",f,{25238},Dungeons & Dragons
+Hank,"{`"D ?(&|n) ?D`",`"Cartoon|TV Series|198(3|0s)|The Ranger`"}",f,{25238},Dungeons & Dragons
+Diana,"{`"Dungeons (&|and) Dragons`",`"Cartoon|TV Series|198(3|0s)|The Acrobat`"}",f,{25239},Dungeons & Dragons
+Diana,"{`"D ?(&|n) ?D`",`"Cartoon|TV Series|198(3|0s)|The Acrobat`"}",f,{25239},Dungeons & Dragons
+Presto,"{`"Dungeons (&|and) Dragons`",`"Cartoon|TV Series|198(3|0s)|The Magician`"}",f,{25240},Dungeons & Dragons
+Presto,"{`"D ?(&|n) ?D`",`"Cartoon|TV Series|198(3|0s)|The Magician`"}",f,{25240},Dungeons & Dragons
+Presto,"{`"Dungeons (&|and) Dragons`",`"Cartoon|TV Series|198(3|0s)|The Cavalier`"}",f,{25241},Dungeons & Dragons
+Presto,"{`"D ?(&|n) ?D`",`"Cartoon|TV Series|198(3|0s)|The Cavalier`"}",f,{25241},Dungeons & Dragons
+Bobby,"{`"Dungeons (&|and) Dragons`",`"Cartoon|TV Series|198(3|0s)|The Barbarian`"}",f,{25242},Dungeons & Dragons
+Bobby,"{`"D ?(&|n) ?D`",`"Cartoon|TV Series|198(3|0s)|The Barbarian`"}",f,{25242},Dungeons & Dragons
+Sheila,"{`"Dungeons (&|and) Dragons`",`"Cartoon|TV Series|198(3|0s)|The Thief`"}",f,{25243},Dungeons & Dragons
+Sheila,"{`"D ?(&|n) ?D`",`"Cartoon|TV Series|198(3|0s)|The Thief`"}",f,{25243},Dungeons & Dragons
+The Heroes,"{`"Dungeons (&|and) Dragons`",`"Cartoon|TV Series|198(3|0s)`"}",f,"{25244,25238,25239,25240,25241,25242,25243}",Dungeons & Dragons
+The Heroes,"{`"D ?(&|n) ?D`",`"Cartoon|TV Series|198(3|0s)`"}",f,"{25244,25238,25239,25240,25241,25242,25243}",Dungeons & Dragons
+Venger,"{`"Dungeons (&|and) Dragons`"}",f,{25245},Dungeons & Dragons
+Venger,"{`"D ?(&|n) ?D`"}",f,{25245},Dungeons & Dragons
+Venger,"{`"The Force of Evil`"}",f,{25245},Dungeons & Dragons
+Cassandra Cain,"{`"Pre(-| )?Flashpoint`"}",f,{25246},Pre-Flashpoint
+Cassandra Cain,"{`"\\(DC( Comics)?\\)`"}",t,"{25246,1503,1502}",DC
+Cassandra Cain,"{`"\\[DC( Comics)?\\]`"}",t,"{25246,1503,1502}",DC
+Stantler,{Pok(e|é)m(o|a)n},t,{25247},Pokémon
+The Elements,"{`"The Elements ?\\(Elemental\\)`"}",f,{25248},Elemental
