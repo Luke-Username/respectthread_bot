@@ -182,6 +182,80 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Batman (Batman: Caped Crusader)', 'https://redd.it/1evduga')
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Batman:? Caped Crusader']
+],
+'Batman: Caped Crusader',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Batman (The Dark Knight Returns Animated Movies)', 'https://redd.it/1ewhu56')
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Dark Knight Returns', 'Animated|2013']
+],
+'The Dark Knight Returns Animated',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ewhu56/respect_batman_the_dark_knight_returns_animated/
+
+########################################
+
+add_data(['Jesus'],
+'Jesus',
+False,
+False,
+[
+    ['Jesus.*Walking Dead']
+],
+'The Walking Dead',
+'{20601}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ewl4y1/jack_reacher_reacher_vs_jesus_the_walking_dead/lizteo9/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ayisha Ashirov (Marvel, 616)', 'https://redd.it/1ewizju')
+add_data(['Ayisha Ashirov'],
+'Ayisha Ashirov',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ewizju/respect_ayisha_ashirov_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Akogi Grumer! (Bakuage Sentai BoonBoomger)', 'https://redd.it/1evqynn')
+add_data(['Akogi Grumer'],
+'Akogi Grumer',
+False,
+True,
+[
+    ['Bakuage Sentai BoonBoomger']
+],
+'Bakuage Sentai BoonBoomger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1evqynn/respect_akogi_grumer_bakuage_sentai_boonboomger/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
