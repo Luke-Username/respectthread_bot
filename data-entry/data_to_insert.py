@@ -107,6 +107,91 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Space ?Marines?'],
+'Space Marine',
+False,
+False,
+[
+    ['vs\.? a Space Marine']
+],
+'Warhammer 40k',
+'{21139}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1exdbtc/captain_america_can_now_fly_who_can_be_beat_that/lj7ts0d/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Vampires (Legacy of Kain)', 'https://redd.it/1exqcko')
+add_data(['Vampires'],
+'Vampires',
+False,
+False,
+[
+    ['Legacy of Kain']
+],
+'Legacy of Kain',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1exqcko/respect_the_vampires_legacy_of_kain/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Harvey Dent (Batman: the Telltale Series)', 'https://redd.it/1ex59ei')
+add_data(['Harvey Dent'],
+'Harvey Dent',
+False,
+False,
+[
+    ['Batman:? The Telltale'], ["Telltale''?s? Batman"]
+],
+'Batman: the Telltale Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ex59ei/respect_harvey_dent_batman_the_telltale_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Oswald Cobblepot, AKA the Penguin (Batman: the Telltale Series)', 'https://redd.it/1exja8v')
+add_data(['Oswald Cobblepot'],
+'Oswald Cobblepot',
+False,
+False,
+[
+    ['Batman:? The Telltale'], ["Telltale''?s? Batman"]
+],
+'Batman: the Telltale Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1exja8v/respect_oswald_cobblepot_aka_the_penguin_batman/
+
+########################################
+
+add_data(['Penguin'],
+'Penguin',
+False,
+False,
+[
+    ['Batman:? The Telltale'], ["Telltale''?s? Batman"]
+],
+'Batman: the Telltale Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1exja8v/respect_oswald_cobblepot_aka_the_penguin_batman/
+
+########################################
+
+add_data(['Lady Arkham'],
+'Lady Arkham',
+False,
+False,
+[
+    ['Batman:? The Telltale'], ["Telltale''?s? Batman"]
+],
+'Batman: the Telltale Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eycm5f/respect_lady_arkham_batman_the_telltale_series/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
