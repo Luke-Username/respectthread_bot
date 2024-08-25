@@ -1817,7 +1817,7 @@ Kirby
 
 Kirby Anime
 	Version
-		'{"Anime"}', '{"Right Back at Ya"}'
+		['Anime'], ['Right Back at Ya']
 	Displayed Version Name
 		"Kirby Anime"
 

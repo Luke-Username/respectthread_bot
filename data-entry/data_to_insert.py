@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 8441, 'Respect Albus Percival Wulfric Brian Dumbledore (Harry Potter Films)', 'https://redd.it/1eyqih1')
+
+########################################
+
 add_data(['Space ?Marines?'],
 'Space Marine',
 False,
@@ -180,6 +184,7 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Lady Arkham (Batman: the Telltale Series)', 'https://redd.it/1eycm5f')
 add_data(['Lady Arkham'],
 'Lady Arkham',
 False,
@@ -191,6 +196,156 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1eycm5f/respect_lady_arkham_batman_the_telltale_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Giant-Size Thor (Marvel, Earth-616)', 'https://redd.it/1eylk0e')
+add_data(['Giant-Size Thor'],
+'Giant-Size Thor',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eylk0e/respect_the_giantsize_thor_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Joseph Chamberlain, Brimstone! (DC, Rebirth)', 'https://redd.it/1eynh38')
+add_data(['Brimstone'],
+'Brimstone',
+False,
+False,
+[
+    ['Brimstone ?\(Rebirth']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eynh38/respect_joseph_chamberlain_brimstone_dc_rebirth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fawkes the Phoenix (Harry Potter Films)', 'https://redd.it/1eypcdn')
+add_data(['Fawkes'],
+'Fawkes',
+False,
+False,
+[
+    ['Harry Potter'], ['Fawkes the Phoenix']
+],
+'Harry Potter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eypcdn/respect_fawkes_the_phoenix_harry_potter_films/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Behemoth Mastodon (Behemoth: A Legend of the Mound-Builders)', 'https://redd.it/1eyy9fw')
+add_data(['Behemoth Mastodon'],
+'Behemoth Mastodon',
+False,
+False,
+[
+    ['Behemoth:? A Legend of the Mound(-| )Builders']
+],
+'Behemoth: A Legend of the Mound-Builders',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1eyy9fw/respect_the_behemoth_mastodon_behemoth_a_legend/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Witch (The Witch (2015))', 'https://redd.it/1ezd7jo')
+add_data(['The Witch'],
+'The Witch',
+False,
+False,
+[
+    ['The Witch ?\(2015\)']
+],
+'2015',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ezd7jo/respect_the_witch_the_witch_2015/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hanuman (Mahabharata)', 'https://redd.it/1f069zx')
+add_data(['Hanuman'],
+'Hanuman',
+False,
+True,
+[
+    ['Mahabharata'], ['Hindu(ism)?'], ['mythology']
+],
+'Mahabharata',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/search?q=Hanuman&restrict_sr=on&sort=relevance&t=all
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maractus (Pokemon Anime)', 'https://redd.it/1f0l5nf')
+add_data(['Maractus'],
+'Maractus',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f0l5nf/respect_maractus_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect King Dedede (Kirby: Right Back at Ya!)', 'https://redd.it/1f0uguw')
+add_data(['Dedede'],
+'King Dedede',
+False,
+False,
+[
+    ['Anime'], ['Right Back at Ya']
+],
+'Kirby Anime',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f0uguw/respect_king_dedede_kirby_right_back_at_ya/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maxime Le Mal, Cockroach Man (Despicable Me)', 'https://redd.it/1f0zevy')
+add_data(['Maxime Le Mal'],
+'Maxime Le Mal',
+False,
+True,
+[
+    ['Despicable Me']
+],
+'Despicable Me',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f0zevy/respect_maxime_le_mal_cockroach_man_despicable_me/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Youngblooded Hunter (AVP Evolution)', 'https://redd.it/1f18xbi')
+add_data(['Youngblooded Hunter'],
+'Youngblooded Hunter',
+False,
+False,
+[
+    ['AVP:? Evolution'], ['Predator']
+],
+'AVP: Evolution',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
