@@ -105,6 +105,9 @@ con = psycopg2.connect(
 )
 cur = con.cursor()
 
+########################################
+
+update_respectthread(cur, 531, 'Respect The Last Engineer (Prometheus)', 'https://redd.it/1f4gdcw')
 
 ########################################
 
@@ -195,6 +198,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1f3y7w7/respect_evil_bratt_despicable_me/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Eligos (Ash vs Evil Dead)', 'https://redd.it/1f5211l')
+add_data(['Eligos'],
+'Eligos',
+False,
+False,
+[
+    ['Ash vs Evil Dead']
+],
+'Ash vs Evil Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f5211l/respect_eligos_ash_vs_evil_dead/
 
 ########################################
 
