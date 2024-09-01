@@ -24959,12 +24959,12 @@ Spiders-Man,{11580},t,{21115},11580
 Amao,{Croczilla},f,{21116},Croczilla
 Yuu Amanai,{Baki},t,{21117},Baki
 SCP-749,{Foundation},t,{21118},""
-Buddha,{Mah(ā|a)y(ā|a)na},t,"{21114,21300}",Mahāyāna
-Buddha,{Buddhism},t,"{21114,21300}",Mahāyāna
 Buddha,"{`"Records? of Ragnar?ok`"}",f,{},Record of Ragnarok
-Buddha,"{`"Composite Buddha`"}",t,"{21114,21300}",Mahāyāna
-Buddha,"{`"Journey To The West`"}",t,"{21114,21300}",Mahāyāna
 Dorian,{Baki},f,{3449},Baki
+Buddha,{Mah(ā|a)y(ā|a)na},t,{},Mahāyāna
+Buddha,{Buddhism},t,{},Mahāyāna
+Buddha,"{`"Composite Buddha`"}",t,{},Mahāyāna
+Buddha,"{`"Journey To The West`"}",t,{},Mahāyāna
 Lion,"{`"Balloon Trip of Love`"}",f,{16804},The Legend of Zelda
 SCP-001,"{`"Gate Guardian`"}",f,{15332},""
 StarCraft Marine,"{`"SC\\d?`"}",t,{},""
@@ -32059,3 +32059,9 @@ Victor Zsasz,{Batman.*Telltale|Telltale.*Batman},f,{25273},Batman: the Telltale 
 Blockbuster,{Batman.*Telltale|Telltale.*Batman},f,{25274},Batman: the Telltale Series
 Evil Bratt,"{`"Despicable Me`"}",t,{25275},Despicable Me
 Eligos,"{`"Ash vs Evil Dead`"}",f,{25276},Ash vs Evil Dead
+Black Widow,"{`"vs Hawkeye`"}",f,{1989},616
+The Ring Tape,{Samara},t,{25158},""
+Incitatus,"{`"David Lapham`",Caligula}",f,{25277},David Lapham's Caligula
+Isca,{Marvel},f,{25278},616
+Isca,{616},f,{25278},616
+Isca the Unbeaten,{616},t,{25278},616
