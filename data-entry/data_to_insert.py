@@ -107,6 +107,75 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Black Widow'],
+'Black Widow',
+False,
+False,
+[
+    ['vs Hawkeye']
+],
+'616',
+'{1989}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1f5se56/black_widow_vs_hawkeye_marksman_competition/
+
+########################################
+
+add_data(['The Ring Tape'],
+'The Ring Tape',
+False,
+True,
+[
+    ['Samara']
+],
+'',
+'{25158}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1f6940t/harry_potter_watches_the_ring_tape_can_he_survive/lkyrqay/?context=3
+
+########################################
+
+id = get_rt_id(cur, "[NSFW] Respect Incitatus! (David Lapham''s Caligula)", 'https://redd.it/1f56fyh')
+add_data(['Incitatus'],
+'Incitatus',
+False,
+False,
+[
+    ["David Lapham", "Caligula"]
+],
+"David Lapham''s Caligula",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f56fyh/nsfw_respect_incitatus_david_laphams_caligula/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Isca the Unbeaten! (Marvel 616)', 'https://redd.it/1f5zgjo')
+add_data(['Isca'],
+'Isca',
+False,
+False,
+[
+    ['Marvel'], ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Isca the Unbeaten'],
+'Isca the Unbeaten',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f5zgjo/respect_isca_the_unbeaten_marvel_616/
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
