@@ -107,6 +107,117 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "[NSFW] Respect Emperor Caligula! (David Lapham''s Caligula)", 'https://redd.it/1f6fpye')
+add_data(['Caligula'],
+'Caligula',
+False,
+False,
+[
+    ['David Lapham']
+],
+"David Lapham''s Caligula",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f6fpye/nsfw_respect_emperor_caligula_david_laphams/
+
+########################################
+
+id = get_rt_id(cur, "[NSFW] Respect Verraxis! (David Lapham''s Caligula: Heart of Rome)", 'https://redd.it/1f6uqcv')
+add_data(['Verraxis'],
+'Verraxis',
+False,
+False,
+[
+    ['David Lapham']
+],
+"David Lapham''s Caligula",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f6uqcv/nsfw_respect_verraxis_david_laphams_caligula/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Percy de Rolo! (The Legend of Vox Machina)', 'https://redd.it/1f6gfk0')
+add_data(['Perc(y|ival) de Rolo'],
+'Percy de Rolo',
+False,
+True,
+[
+    ['Vox Machina'], ['Critical Role']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f6gfk0/respect_percy_de_rolo_the_legend_of_vox_machina/
+
+add_data(['Percival'],
+'Percival',
+False,
+False,
+[
+    ['Vox Machina'], ['Critical Role']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f6gfk0/respect_percy_de_rolo_the_legend_of_vox_machina/
+
+
+add_data(['Percy'],
+'Percy',
+False,
+False,
+[
+    ['Vox Machina'], ['Critical Role']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f6gfk0/respect_percy_de_rolo_the_legend_of_vox_machina/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Grog Strongjaw! (The Legend of Vox Machina)', 'https://redd.it/1f6l15w')
+add_data(['Grog Strongjaw'],
+'Grog Strongjaw',
+False,
+True,
+[
+    ['Vox Machina'], ['Critical Role']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Grog'],
+'Grog',
+False,
+False,
+[
+    ['Vox Machina'], ['Critical Role']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (Predator Hunting Grounds)', 'https://redd.it/1f6pbdk')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Predator:? Hunting Grounds']
+],
+'Predator: Hunting Grounds',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f6pbdk/respect_the_predators_predator_hunting_grounds/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
