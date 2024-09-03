@@ -202,6 +202,32 @@ False,
 )
 #
 
+########################################
+
+id = get_rt_id(cur, 'Respect Pike Trickfoot! (The Legend of Vox Machina)', 'https://redd.it/1f7b0td')
+add_data(['Pike Trickfoot'],
+'Pike Trickfoot',
+False,
+True,
+[
+    ['Vox Machina'], ['Critical Role']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Pike'],
+'Pike',
+False,
+False,
+[
+    ['Vox Machina'], ['Critical Role']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
@@ -217,6 +243,96 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1f6pbdk/respect_the_predators_predator_hunting_grounds/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wally (Pokemon Adventures)', 'https://redd.it/1f7axek')
+add_data(['Wally'],
+'Wally',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f7axek/respect_wally_pokemon_adventures/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Emerald (Pokemon Adventures)', 'https://redd.it/1f7axhc')
+add_data(['Emerald'],
+'Emerald',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f7axhc/respect_emerald_pokemon_adventures/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Diabolico (Power Rangers Lightspeed Rescue)', 'https://redd.it/1f7axg1')
+add_data(['Diabolico'],
+'Diabolico',
+False,
+True,
+[
+    ['Power Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f7axg1/respect_diabolico_power_rangers_lightspeed_rescue/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the MetalBeast (Project: MetalBeast)', 'https://redd.it/1f7f8e4')
+add_data(['MetalBeast'],
+'MetalBeast',
+False,
+False,
+[
+    ['Project:? MetalBeast']
+],
+'Project: MetalBeast',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f7f8e4/respect_the_metalbeast_project_metalbeast/
+
+########################################
+
+id = get_rt_id(cur, "Respect Fetch (Five Nights at Freddy''s: Fazbear Frights)", 'https://redd.it/1f7f8fm')
+add_data(['Fetch'],
+'Fetch',
+False,
+False,
+[
+    ['Five Nights at Fredd(ys?|ies)'], ['FNAF\d?']
+],
+'FNAF',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f7f8fm/respect_fetch_five_nights_at_freddys_fazbear/
+
+########################################
+
+id = get_rt_id(cur, 'Shin Getter Robo (shin Getter Robo vs Neo Getter Robo OVA)', 'https://redd.it/1f7pi6b')
+add_data(['Shin Getter Robo'],
+'Shin Getter Robo',
+False,
+False,
+[
+    ['Neo Getter Robo']
+],
+'Shin Getter Robo vs Neo Getter Robo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f7pi6b/shin_getter_robo_shin_getter_robo_vs_neo_getter/
 
 ########################################
 
