@@ -107,6 +107,23 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 23332, 'Respect Lobo (DC Animated Universe)', 'https://redd.it/1f81g5j')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Atom Eve! (Invincible)', 'https://redd.it/1f80ycy')
+add_data(['Atom Eve'],
+'Atom Eve',
+False,
+True,
+[
+    ['Invincible']
+],
+'Invincible',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f80ycy/respect_atom_eve_invincible/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
