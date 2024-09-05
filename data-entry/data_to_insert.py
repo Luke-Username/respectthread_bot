@@ -126,6 +126,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Naughty Bear (Naughty Bear)', 'https://redd.it/1f8t7nx')
+add_data(['Naughty Bear'],
+'Naughty Bear',
+False,
+True,
+[
+    ['Naughty Bear \(Naughty Bear\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f8t7nx/respect_naughty_bear_naughty_bear/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scarlet & Herb Overkill (Despicable Me)', 'https://redd.it/1f90i75')
+add_data(['Scarlet'],
+'Scarlet',
+False,
+False,
+[
+    ['Scarlet Overkill'], ['Scarlet ?\(Minions'], ['Despicable Me']
+],
+'Despicable Me',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f90i75/respect_scarlet_herb_overkill_despicable_me/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
