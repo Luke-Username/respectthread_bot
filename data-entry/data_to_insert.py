@@ -156,6 +156,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Scanlan Shorthalt! (The Legend of Vox Machina)', 'https://redd.it/1f9oy86')
+add_data(['Scanlan'],
+'Scanlan',
+False,
+False,
+[
+    ['Scanlan Shorthalt'], ['Critical Role'], ['Vox Machina']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1f9oy86/respect_scanlan_shorthalt_the_legend_of_vox/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Remy LeBeau, the Gambit (Deadpool and Wolverine)', 'https://redd.it/1fa5jnx')
+add_data(['Gambit'],
+'Gambit',
+False,
+False,
+[
+    ['\(Deadpool (and|&) Wolverine\)']
+],
+'Deadpool & Wolverine',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fa5jnx/respect_remy_lebeau_the_gambit_deadpool_and/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wolverine (Deadpool and Wolverine)', 'https://redd.it/1fa792n')
+add_data(['Wolverine'],
+'Wolverine',
+False,
+False,
+[
+    ['\(Deadpool (and|&) Wolverine\)'], ['Deadpool (and|&) Wolverine', 'MCu']
+],
+'Deadpool & Wolverine',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fa792n/respect_wolverine_deadpool_and_wolverine/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
