@@ -32089,3 +32089,14 @@ MetalBeast,"{`"Project:? MetalBeast`"}",f,{25288},Project: MetalBeast
 Fetch,"{`"Five Nights at Fredd(ys?|ies)`"}",f,{25289},FNAF
 Fetch,"{`"FNAF\\d?`"}",f,{25289},FNAF
 Shin Getter Robo,"{`"Neo Getter Robo`"}",f,{25290},Shin Getter Robo vs Neo Getter Robo
+Atom Eve,{Invincible},t,{25291},Invincible
+Naughty Bear,"{`"Naughty Bear \\(Naughty Bear\\)`"}",t,{25292},""
+Scarlet,"{`"Scarlet Overkill`"}",f,{25293},Despicable Me
+Scarlet,"{`"Scarlet ?\\(Minions`"}",f,{25293},Despicable Me
+Scarlet,"{`"Despicable Me`"}",f,{25293},Despicable Me
+Scanlan,"{`"Scanlan Shorthalt`"}",f,{25294},Critical Role
+Scanlan,"{`"Critical Role`"}",f,{25294},Critical Role
+Scanlan,"{`"Vox Machina`"}",f,{25294},Critical Role
+Gambit,"{`"\\(Deadpool (and|&) Wolverine\\)`"}",f,{25295},Deadpool & Wolverine
+Wolverine,"{`"\\(Deadpool (and|&) Wolverine\\)`"}",f,{25296},Deadpool & Wolverine
+Wolverine,"{`"Deadpool (and|&) Wolverine`",MCu}",f,{25296},Deadpool & Wolverine
