@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Stitches (Stitches)', 'https://redd.it/1faiwwy')
+add_data(['Stitches'],
+'Stitches',
+False,
+False,
+[
+    ['Stitches,? the Clown'], ['Stitches ?\(Stitches\)']
+],
+'2012',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1faiwwy/respect_stitches_stitches/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
