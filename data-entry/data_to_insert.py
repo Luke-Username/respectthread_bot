@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Mario'],
+'Mario',
+False,
+False,
+[
+    ['SMG4'], ['SuperMarioGlitchy4']
+],
+'SMG4 Bloopers',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1fbufca/smg4_mario_vs_awakenedminecraft_icon_tthe_secound/lm3abmu/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Stitches (Stitches)', 'https://redd.it/1faiwwy')
 add_data(['Stitches'],
 'Stitches',
@@ -119,6 +133,48 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1faiwwy/respect_stitches_stitches/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Keyleth of the Air Ashari! (The Legend of Vox Machina)', 'https://redd.it/1fbcxod')
+add_data(['Keyleth'],
+'Keyleth',
+False,
+False,
+[
+    ['Critical Role'], ['Vox Machina'], ['Air Ashari']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fbcxod/respect_keyleth_of_the_air_ashari_the_legend_of/
+
+########################################
+
+id = get_rt_id(cur, "Respect Vax''ildan! (The Legend of Vox Machina)", 'https://redd.it/1fbirau')
+add_data(["Vax''ildan"],
+"Vax''ildan",
+False,
+True,
+[
+    ['Critical Role'], ['Vox Machina']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fbirau/respect_vaxildan_the_legend_of_vox_machina/
+
+add_data(['Vax'],
+'Vax',
+False,
+False,
+[
+    ['Critical Role'], ['Vox Machina']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fbirau/respect_vaxildan_the_legend_of_vox_machina/
 
 ########################################
 

@@ -578,7 +578,7 @@ Creepypasta
 
 Critical Role
 	Version
-		'{"Critical Role"}'
+		['Critical Role'], ['Vox Machina']
 	Displayed Version Name
 		"Critical Role"
 
