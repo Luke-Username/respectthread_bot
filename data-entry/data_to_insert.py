@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['The Deep'],
+'The Deep',
+False,
+False,
+[
+    ['(who|can) The Deep']
+],
+'The Boys, 2019',
+'{21316}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1fcgiqt/who_is_the_strongest_person_who_the_deep_could/lm8m8on/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Stitches (Stitches)', 'https://redd.it/1faiwwy')
 add_data(['Stitches'],
 'Stitches',
@@ -175,6 +189,33 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1fbirau/respect_vaxildan_the_legend_of_vox_machina/
+
+########################################
+
+id = get_rt_id(cur, "Respect Vex''ahlia! (The Legend of Vox Machina)", 'https://redd.it/1fc15fk')
+add_data(["Vex''ahlia"],
+"Vex''ahlia",
+False,
+True,
+[
+    ['Critical Role'], ['Vox Machina']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fbirau/respect_vaxildan_the_legend_of_vox_machina/
+
+add_data(['Vex'],
+'Vex',
+False,
+False,
+[
+    ['Critical Role'], ['Vox Machina']
+],
+'Critical Role',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fc15fk/respect_vexahlia_the_legend_of_vox_machina/
 
 ########################################
 
