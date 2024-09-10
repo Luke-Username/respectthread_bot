@@ -219,6 +219,52 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Calvin (Life)', 'https://redd.it/1fd45tw')
+add_data(['Calvin'],
+'Calvin',
+False,
+False,
+[
+    ['Calvin ?\((From )?Life( 2017)?\)'], ['Calvin the Alien'], ['Life', '2017'], ['From \*Life\*'],
+    ['(film|movie)*Life'], ['Life*(film|movie)'], ['Life', 'Mar(s|tian)']
+],
+'Life',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fd45tw/respect_calvin_life/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Reed Richards, Doctor Doom (Marvel, 6160)', 'https://redd.it/1fd5jtk')
+add_data(['Reed Richards'],
+'Reed Richards',
+False,
+False,
+[
+    ['Reed Richards,? Doctor Doom', '6160']
+],
+'Doctor Doom, 6160',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fd5jtk/respect_reed_richards_doctor_doom_marvel_6160/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mirror Ramus (The Bugle Call)', 'https://redd.it/1fdgnwl')
+add_data(['Mirror Ramus'],
+'Mirror Ramus',
+False,
+False,
+[
+    ['Bugle Call']
+],
+'The Bugle Call',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fdgnwl/respect_the_mirror_ramus_the_bugle_call/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
