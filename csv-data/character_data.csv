@@ -2039,10 +2039,10 @@ Kyoshi,{A?TLA},t,{639},Avatar: TLA
 Bane,"{`"Dark K?night`"}",f,{519},The Dark Night
 Godzilla,{2014},f,{280},MonsterVerse
 Max Steel,{2016},t,{509},2016
-Hank,"{`"Madness Combat`"}",f,{23044},Madness Combat
-Hank J. Wimbleton,"{`"Madness Combat`"}",t,{23044},Madness Combat
 Max Steel,{movies?},t,{509},2016
 Max Steel,{films?},t,{509},2016
+Hank,"{`"Madness Combat`"}",f,{},Madness Combat
+Hank J. Wimbleton,"{`"Madness Combat`"}",t,{},Madness Combat
 Mystery Men,"{`"Blue Raja`"}",t,{517},1999
 Mystery Men,"{`"Invisible Boy`"}",t,{517},1999
 Mystery Men,{Spleen},t,{517},1999
@@ -32100,3 +32100,28 @@ Scanlan,"{`"Vox Machina`"}",f,{25294},Critical Role
 Gambit,"{`"\\(Deadpool (and|&) Wolverine\\)`"}",f,{25295},Deadpool & Wolverine
 Wolverine,"{`"\\(Deadpool (and|&) Wolverine\\)`"}",f,{25296},Deadpool & Wolverine
 Wolverine,"{`"Deadpool (and|&) Wolverine`",MCu}",f,{25296},Deadpool & Wolverine
+Mario,{SMG4},f,{},SMG4 Bloopers
+Mario,{SuperMarioGlitchy4},f,{},SMG4 Bloopers
+The Deep,"{`"(who|can) The Deep`"}",f,{21316},"The Boys, 2019"
+Stitches,"{`"Stitches,? the Clown`"}",f,{25297},2012
+Stitches,"{`"Stitches ?\\(Stitches\\)`"}",f,{25297},2012
+Keyleth,"{`"Critical Role`"}",f,{25298},Critical Role
+Keyleth,"{`"Vox Machina`"}",f,{25298},Critical Role
+Keyleth,"{`"Air Ashari`"}",f,{25298},Critical Role
+Vax'ildan,"{`"Critical Role`"}",t,{25299},Critical Role
+Vax'ildan,"{`"Vox Machina`"}",t,{25299},Critical Role
+Vax,"{`"Critical Role`"}",f,{25299},Critical Role
+Vax,"{`"Vox Machina`"}",f,{25299},Critical Role
+Vex'ahlia,"{`"Critical Role`"}",t,{25300},Critical Role
+Vex'ahlia,"{`"Vox Machina`"}",t,{25300},Critical Role
+Vex,"{`"Critical Role`"}",f,{25300},Critical Role
+Vex,"{`"Vox Machina`"}",f,{25300},Critical Role
+Calvin,"{`"Calvin ?\\((From )?Life( 2017)?\\)`"}",f,{25301},Life
+Calvin,"{`"Calvin the Alien`"}",f,{25301},Life
+Calvin,"{Life,2017}",f,{25301},Life
+Calvin,"{`"From \\*Life\\*`"}",f,{25301},Life
+Calvin,{(film|movie)*Life},f,{25301},Life
+Calvin,{Life*(film|movie)},f,{25301},Life
+Calvin,"{Life,Mar(s|tian)}",f,{25301},Life
+Reed Richards,"{`"Reed Richards,? Doctor Doom`",6160}",f,{25302},"Doctor Doom, 6160"
+Mirror Ramus,"{`"Bugle Call`"}",f,{25303},The Bugle Call
