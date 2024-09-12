@@ -137,6 +137,33 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Inutade (Dungeon Meshi)', 'https://redd.it/1feo6cj')
+add_data(['Inutade'],
+'Inutade',
+False,
+False,
+[
+    ['Delicious in Dungeon'], ['Dungeon Meshi']
+],
+'Delicious in Dungeon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1feo6cj/respect_inutade_dungeon_meshi/
+
+add_data(['Tade'],
+'Tade',
+False,
+False,
+[
+    ['Delicious in Dungeon'], ['Dungeon Meshi']
+],
+'Delicious in Dungeon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1feo6cj/respect_inutade_dungeon_meshi/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
