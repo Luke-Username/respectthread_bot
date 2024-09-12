@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Circle of Nine (Legacy of Kain)', 'https://redd.it/1fec74u')
+add_data(['Circle of Nine'],
+'Circle of Nine',
+False,
+False,
+[
+    ['Legacy of Kain']
+],
+'Legacy of Kain',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fec74u/respect_the_circle_of_nine_legacy_of_kain/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Juzo Ogami (Kill Blue)', 'https://redd.it/1felbdy')
+add_data(['Juzo Ogami'],
+'Juzo Ogami',
+False,
+True,
+[
+    ['Kill Blue']
+],
+'Kill Blue',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1felbdy/respect_juzo_ogami_kill_blue/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
