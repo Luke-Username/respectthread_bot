@@ -164,6 +164,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Universa! (Image Comics)', 'https://redd.it/1ff0yfs')
+add_data(['Universa'],
+'Universa',
+False,
+False,
+[
+    ['Image Comics'], ['Invincible']
+],
+'Invincible',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ff0yfs/respect_universa_image_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Screw-On Head (The Amazing Screw-On Head)', 'https://redd.it/1ff1h7z')
+add_data(['Screw(-| )On Head'],
+'Screw-On Head',
+False,
+False,
+[
+    ['Amazing(-| )Screw-On Head']
+],
+'The Amazing Screw-On Head',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Vicious 6 (Despicable Me)', 'https://redd.it/1ff7gl9')
+add_data(['Vicious 6'],
+'Vicious 6',
+True,
+False,
+[
+    ['Despicable Me'], ['Minions']
+],
+'Despicable Me',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
