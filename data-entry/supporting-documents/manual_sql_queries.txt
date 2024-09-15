@@ -18,6 +18,8 @@ UPDATE character SET is_default=FALSE WHERE rt_id_array='{282}';
 
 ########################################
 
+UPDATE character_name SET name='Bett?elgeuse' WHERE name='Betelgeuse';
+
 ########################################
 
 ########################################

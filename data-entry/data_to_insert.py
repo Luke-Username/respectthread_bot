@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6303, 'Respect Littlepip! (Fallout: Equestria)', 'https://redd.it/1fh8kfi')
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Circle of Nine (Legacy of Kain)', 'https://redd.it/1fec74u')
 add_data(['Circle of Nine'],
 'Circle of Nine',
@@ -206,6 +210,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Culex (Super Mario RPG)', 'https://redd.it/1ffyw84')
+add_data(['Culex'],
+'Culex',
+False,
+False,
+[
+    ['Mario']
+],
+'Super Mario RPG',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ffyw84/respect_culex_super_mario_rpg/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kakugo Kusakabe (Tough)', 'https://redd.it/1fgn5xk')
+add_data(['Kakugo Kusakabe'],
+'Kakugo Kusakabe',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fgn5xk/respect_kakugo_kusakabe_tough/
 
 ########################################
 
