@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 6303, 'Respect Littlepip! (Fallout: Equestria)', 'https://redd.it/1fh8kfi')
+update_respectthread(cur, 5500, 'Respect Frisk (Undertale)', 'https://redd.it/1fhbg7q')
 
 ########################################
 
@@ -240,6 +241,66 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1fgn5xk/respect_kakugo_kusakabe_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Phantom Joe (Tough)', 'https://redd.it/1fhevqd')
+add_data(['Phantom Joe'],
+'Phantom Joe',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fhevqd/respect_phantom_joe_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anxiety (Inside Out)', 'https://redd.it/1fhecsj')
+add_data(['Anxiety'],
+'Anxiety',
+False,
+False,
+[
+    ['Inside Out']
+],
+'Inside Out',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fhecsj/respect_anxiety_inside_out/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Self-Slitted Maiden of a Thousand Souls (Dark Gathering)', 'https://redd.it/1fhdo3v')
+add_data(['Self(-| )Slitted Maiden of a Thousand Souls'],
+'Self-Slitted Maiden of a Thousand Souls',
+False,
+True,
+[
+    ['Dark Gathering']
+],
+'Dark Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fhdo3v/respect_the_selfslitted_maiden_of_a_thousand/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The High Priest of the Evil Sutra (Dark Gathering)', 'https://redd.it/1fhd7fk')
+add_data(['High Priest of the Evil Sutra'],
+'High Priest of the Evil Sutra',
+False,
+True,
+[
+    ['Dark Gathering']
+],
+'Dark Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fhd7fk/respect_the_high_priest_of_the_evil_sutra_dark/
 
 ########################################
 
