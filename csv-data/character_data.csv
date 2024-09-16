@@ -962,10 +962,10 @@ Dagahra,"{`"Rebirth of Mothra`"}",t,{174},Rebirth of Mothra
 M11,{Godzilla},f,{195},Godzilla
 M11,{GVKG},f,{195},Godzilla
 Ozaki,{Godzilla},f,{210},Godzilla: Final Wars
-MUTO,{Legendary},t,{282},MonsterVerse
-MUTO,"{`"King of the Monsters`"}",t,{282},MonsterVerse
-MUTO,"{`"Godzilla: King of Monsters`"}",t,{282},MonsterVerse
-MUTO,{KOTM},t,{282},MonsterVerse
+MUTO,{Legendary},f,{282},MonsterVerse
+MUTO,"{`"King of the Monsters`"}",f,{282},MonsterVerse
+MUTO,"{`"Godzilla: King of Monsters`"}",f,{282},MonsterVerse
+MUTO,{KOTM},f,{282},MonsterVerse
 Ozaki,"{`"Final Wars`"}",f,{210},Godzilla: Final Wars
 Shinichi,{Godzilla},f,{210},Godzilla: Final Wars
 Shinichi,"{`"Final Wars`"}",f,{210},Godzilla: Final Wars
@@ -26081,7 +26081,6 @@ Godzilla,"{`"King of the Monsters`"}",f,{280},MonsterVerse
 Godzilla,"{`"Godzilla: King of Monsters`"}",f,{280},MonsterVerse
 Godzilla,{Legendary},f,{280},MonsterVerse
 Godzilla,"{`"Monster(-| )?verse`"}",f,{280},MonsterVerse
-MUTO,"{Godzilla,2019}",t,{282},MonsterVerse
 Shinomura,{Godzilla},t,{1934},MonsterVerse
 Shinomura,{Awakening},t,{1934},MonsterVerse
 Shinomura,{Legendary},t,{1934},MonsterVerse
@@ -26090,7 +26089,6 @@ Skullcrawlers,{Kong},t,{283},MonsterVerse
 Skullcrawlers,{Legendary},t,{283},MonsterVerse
 Kong,{2017},f,{281},MonsterVerse
 Kong,{Legendary},f,{281},MonsterVerse
-MUTO,"{`"Monster(-| )?verse`"}",t,{282},MonsterVerse
 Rodan,{KOTM},f,{6530},MonsterVerse
 Rodan,{2019},f,{6530},MonsterVerse
 Rodan,{Legendary},f,{6530},MonsterVerse
@@ -32125,3 +32123,22 @@ Calvin,{Life*(film|movie)},f,{25301},Life
 Calvin,"{Life,Mar(s|tian)}",f,{25301},Life
 Reed Richards,"{`"Reed Richards,? Doctor Doom`",6160}",f,{25302},"Doctor Doom, 6160"
 Mirror Ramus,"{`"Bugle Call`"}",f,{25303},The Bugle Call
+MUTO,"{Godzilla,2019}",f,{282},MonsterVerse
+MUTO,"{`"Monster(-| )?verse`"}",f,{282},MonsterVerse
+Circle of Nine,"{`"Legacy of Kain`"}",f,{25304},Legacy of Kain
+Juzo Ogami,"{`"Kill Blue`"}",t,{25305},Kill Blue
+Inutade,"{`"Delicious in Dungeon`"}",f,{25306},Delicious in Dungeon
+Inutade,"{`"Dungeon Meshi`"}",f,{25306},Delicious in Dungeon
+Tade,"{`"Delicious in Dungeon`"}",f,{25306},Delicious in Dungeon
+Tade,"{`"Dungeon Meshi`"}",f,{25306},Delicious in Dungeon
+Universa,"{`"Image Comics`"}",f,{25307},Invincible
+Universa,{Invincible},f,{25307},Invincible
+Screw-On Head,"{`"Amazing(-| )Screw-On Head`"}",f,{25308},The Amazing Screw-On Head
+Vicious 6,"{`"Despicable Me`"}",f,{25309},Despicable Me
+Vicious 6,{Minions},f,{25309},Despicable Me
+Culex,{Mario},f,{25310},Super Mario RPG
+Kakugo Kusakabe,{Tough},t,{25311},Tough
+Phantom Joe,{Tough},f,{25312},Tough
+Anxiety,"{`"Inside Out`"}",f,{25313},Inside Out
+Self-Slitted Maiden of a Thousand Souls,"{`"Dark Gathering`"}",t,{25314},Dark Gathering
+High Priest of the Evil Sutra,"{`"Dark Gathering`"}",t,{25315},Dark Gathering
