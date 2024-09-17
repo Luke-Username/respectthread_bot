@@ -107,6 +107,65 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect AiAi (Super Monkey Ball)', 'https://redd.it/1fi1b1k')
+add_data(['AiAi'],
+'AiAi',
+False,
+False,
+[
+    ['Super Monkey Ball']
+],
+'Super Monkey Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fi1b1k/respect_aiai_super_monkey_ball/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Imprisoned Demon Sergeant who Died for his Country (Dark Gathering)', 'https://redd.it/1fi5i4t')
+add_data(['Imprisoned Demon Sergeant who Died for his Country'],
+'Imprisoned Demon Sergeant who Died for his Country',
+False,
+True,
+[
+    ['Dark Gathering']
+],
+'Dark Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fi5i4t/respect_the_imprisoned_demon_sergeant_who_died/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Narrator (The Stanley Parable)', 'https://redd.it/1ficeb1')
+add_data(['Narrator'],
+'Narrator',
+False,
+False,
+[
+    ['Stanley Parable']
+],
+'The Stanley Parable',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Son Goku (The Golden Warrior vs. The Man of Steel)', 'https://redd.it/1fifgxy')
+add_data(['Goku'],
+'Goku',
+False,
+False,
+[
+    ['The Golden Warrior vs\.? The Man of Steel']
+],
+'The Golden Warrior vs. The Man of Steel',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
