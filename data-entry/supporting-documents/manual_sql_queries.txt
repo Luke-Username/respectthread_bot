@@ -19,6 +19,8 @@ UPDATE character SET rt_id_array='{3243, ? ,25104}' WHERE rt_id_array='{3243,251
 
 ########################################
 
+UPDATE character_name SET name='Spider(-| )?Man (of )?2099' WHERE name='Spider(-| )?Man 2099';
+
 ########################################
 
 ########################################

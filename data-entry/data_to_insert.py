@@ -137,6 +137,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Rappacious Bleached Head (Dark Gathering)', 'https://redd.it/1fj08ce')
+add_data(['Rappacious Bleached Head'],
+'Rappacious Bleached Head',
+False,
+True,
+[
+    ['Dark Gathering']
+],
+'Dark Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fj08ce/respect_the_rappacious_bleached_head_dark/
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Narrator (The Stanley Parable)', 'https://redd.it/1ficeb1')
 add_data(['Narrator'],
 'Narrator',
