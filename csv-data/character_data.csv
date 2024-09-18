@@ -31770,10 +31770,6 @@ Fung Sheng Wu Chi,"{`"Master of the Flying Guillotine`"}",t,{25102},Master of th
 Local Heroes,"{`"Kid Cosmic`"}",f,{25103},Kid Cosmic
 Kid Cosmic,{Stones},t,{25103},""
 Fantos,"{`"Kid Cosmic`"}",f,{25103},Kid Cosmic
-Agumon,{Digimon},t,"{3243,25104}",Digimon
-Greymon,{Digimon},t,"{3243,25104}",Digimon
-MetalGreymon,{Digimon},t,"{3243,25104}",Digimon
-WarGreymon,{Digimon},t,"{3243,25104}",Digimon
 Crypt Keeper,"{`"Tales from the Crypt`"}",t,{25105},Tales from the Crypt
 Khonshu,{616},f,{25106},616
 Khonshu,{Marvel},f,{25106},616
@@ -31834,6 +31830,7 @@ Max Schreck,"{`"Shadow of the Vampire`"}",f,{25137},Shadow of the Vampire
 Manny,"{`"Manny Calavera`"}",f,{25138},Grim Fandango
 Manny,"{`"Grim Fandango`"}",f,{25138},Grim Fandango
 Glottis,"{`"Grim Fandango`"}",f,{25139},Grim Fandango
+Agumon,{Digimon},t,"{3243,25316,25104}",Digimon
 Super Sinnoh Slinger Mark 1A,{Pok(e|é)m(o|a)n},t,{25140},Pokémon
 Fists of Khonshu,{616},t,{25141},616
 Monkey and Trip,{Enslaved},f,{25142},Enslaved: Odyssey to the West
@@ -32142,3 +32139,11 @@ Phantom Joe,{Tough},f,{25312},Tough
 Anxiety,"{`"Inside Out`"}",f,{25313},Inside Out
 Self-Slitted Maiden of a Thousand Souls,"{`"Dark Gathering`"}",t,{25314},Dark Gathering
 High Priest of the Evil Sutra,"{`"Dark Gathering`"}",t,{25315},Dark Gathering
+Greymon,{Digimon},t,"{3243,25316,25104}",Digimon
+MetalGreymon,{Digimon},t,"{3243,25316,25104}",Digimon
+WarGreymon,{Digimon},t,"{3243,25316,25104}",Digimon
+AiAi,"{`"Super Monkey Ball`"}",f,{25317},Super Monkey Ball
+Imprisoned Demon Sergeant who Died for his Country,"{`"Dark Gathering`"}",t,{25318},Dark Gathering
+Rappacious Bleached Head,"{`"Dark Gathering`"}",t,{25319},Dark Gathering
+Narrator,"{`"Stanley Parable`"}",f,{25320},The Stanley Parable
+Goku,"{`"The Golden Warrior vs\\.? The Man of Steel`"}",f,{25321},The Golden Warrior vs. The Man of Steel
