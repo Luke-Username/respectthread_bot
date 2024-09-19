@@ -107,6 +107,94 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Mizore Shirayuki! (Rosario + Vampire)', 'https://redd.it/1fjrx3m')
+add_data(['Mizore'],
+'Mizore',
+False,
+False,
+[
+    ['Mizore Shirayuki'], ['Rosario']
+],
+'Rosario + Vampire',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fjrx3m/respect_mizore_shirayuki_rosario_vampire/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doctor Psycho (Harley Quinn)', 'https://redd.it/1fjylti')
+add_data(['Doctor Psycho'],
+'Doctor Psycho',
+False,
+False,
+[
+    ['Doctor Psycho ?\(Harley Quinn\)']
+],
+'Harley Quinn',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fjylti/respect_doctor_psycho_harley_quinn/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doctor Demonicus (Marvel, 616)', 'https://redd.it/1fk10n3')
+add_data(['Doctor Demonicus'],
+'Doctor Demonicus',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fk10n3/respect_doctor_demonicus_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Son Goku! (Sonic vs Goku) [Webcomic]', 'https://redd.it/1fk3620')
+add_data(['Goku'],
+'Goku',
+False,
+False,
+[
+    ['Sonic vs\.? Goku.*Webcomic']
+],
+'Sonic vs Goku Webcomic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sonic the Hedgehog! (Sonic vs Goku) [Webcomic]', 'https://redd.it/1fk37ab')
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Sonic vs\.? Goku.*Webcomic']
+],
+'Sonic vs Goku Webcomic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fk37ab/respect_sonic_the_hedgehog_sonic_vs_goku_webcomic/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rex (Dogs of War)', 'https://redd.it/1fk70lj')
+add_data(['Rex'],
+'Rex',
+False,
+False,
+[
+    ['Dogs of War']
+],
+'Dogs of War',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fk70lj/respect_rex_dogs_of_war/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
