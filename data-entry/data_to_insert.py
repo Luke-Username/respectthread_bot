@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4462, 'Respect The Wandering Samurai, Kenshin Himura (Rurouni Kenshin) [Manga]', 'https://redd.it/1fl5usn')
+
+########################################
+
+add_data(['Custodian'],
+'Custodian',
+False,
+False,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{23647}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1fkxhz1/emperors_guard_battle_20_imperial_guards_star/
+
+########################################
+
+add_data(['Moria'],
+'Moria',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{4044}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1fl3nov/whos_zombie_army_would_win_in_a_three_way_battle/lo04j0d/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Mizore Shirayuki! (Rosario + Vampire)', 'https://redd.it/1fjrx3m')
 add_data(['Mizore'],
 'Mizore',
@@ -194,6 +226,81 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1fk70lj/respect_rex_dogs_of_war/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Dragon (Dra+Koi)', 'https://redd.it/1fkklks')
+add_data(['Dragon'],
+'Dragon',
+False,
+False,
+[
+    ['Dra+Koi']
+],
+'Dra+Koi',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fkklks/respect_the_dragon_drakoi/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Dragon Slayer (Dra+Koi)', 'https://redd.it/1fkklly')
+add_data(['Dragon Slayer'],
+'Dragon Slayer',
+False,
+False,
+[
+    ['Dra+Koi']
+],
+'Dra+Koi',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fkklly/respect_the_dragon_slayer_drakoi/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Otogiri, the Soul Sucking Orian (Dark Gathering)', 'https://redd.it/1fkl6sz')
+add_data(['Otogiri'],
+'Otogiri',
+False,
+False,
+[
+    ['Dark Gathering']
+],
+'Dark Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fkl6sz/respect_otogiri_the_soul_sucking_orian_dark/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Julian (Centuria)', 'https://redd.it/1fkro02')
+add_data(['Julian'],
+'Julian',
+False,
+False,
+[
+    ['Centuria']
+],
+'Centuria',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fkro02/respect_julian_centuria/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Richter Belmont! (Castlevania Nocturne)', 'https://redd.it/1fkvnei')
+add_data(['Richter Belmont'],
+'Richter Belmont',
+False,
+False,
+[
+    ['Nocturne']
+],
+'Castlevania Nocturne',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fkvnei/respect_richter_belmont_castlevania_nocturne/
 
 ########################################
 
