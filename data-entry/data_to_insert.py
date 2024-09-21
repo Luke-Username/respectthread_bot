@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 4462, 'Respect The Wandering Samurai, Kenshin Himura (Rurouni Kenshin) [Manga]', 'https://redd.it/1fl5usn')
+update_respectthread(cur, 1197, 'Respect Vector! (Despicable Me)', 'https://redd.it/1flzdq8')
 
 ########################################
 
@@ -330,6 +331,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1flhg8e/respect_superman_the_golden_warrior_vs_the_man_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bonk (Bonk)', 'https://redd.it/1flwxln')
+add_data(['Bonk'],
+'Bonk',
+False,
+False,
+[
+    ['Bonk ?\(Bonk\)']
+],
+'Bonk',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1flwxln/respect_bonk_bonk/
 
 ########################################
 
