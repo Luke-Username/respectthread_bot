@@ -111,6 +111,20 @@ update_respectthread(cur, 4462, 'Respect The Wandering Samurai, Kenshin Himura (
 
 ########################################
 
+add_data(['Beetlejuice'],
+'Beetlejuice',
+False,
+False,
+[
+    ['vs Beetlejuice']
+],
+'Beetlejuice',
+'{23647}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1flkj0o/alucard_hellsing_ultimate_vs_beetlejuice/
+
+########################################
+
 add_data(['Custodian'],
 'Custodian',
 False,
@@ -301,6 +315,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1fkvnei/respect_richter_belmont_castlevania_nocturne/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman (The Golden Warrior vs. The Man of Steel)', 'https://redd.it/1flhg8e')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['The Golden Warrior vs\.? The Man of Steel']
+],
+'The Golden Warrior vs. The Man of Steel',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1flhg8e/respect_superman_the_golden_warrior_vs_the_man_of/
 
 ########################################
 
