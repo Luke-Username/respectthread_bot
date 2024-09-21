@@ -107,6 +107,64 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Black Asura of the Eclipse (Dark Gathering)', 'https://redd.it/1fm15zw')
+add_data(['Black Asura of the Eclipse'],
+'Black Asura of the Eclipse',
+False,
+True,
+[
+    ['Dark Gathering']
+],
+'Dark Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fm15zw/respect_the_black_asura_of_the_eclipse_dark/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Manji (Blade of the Immortal)', 'https://redd.it/1fm1cii')
+add_data(['Manji'],
+'Manji',
+False,
+False,
+[
+    ['Blade of the Immortal']
+],
+'Blade of the Immortal',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fm1cii/respect_manji_blade_of_the_immortal/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kanzan Hishida (Tough)', 'https://redd.it/1fm5wll')
+add_data(['Kanzan Hishida'],
+'Kanzan Hishida',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fm5wll/respect_kanzan_hishida_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predator Dark (AVP 2010)', 'https://redd.it/1fm9793')
+add_data(['Dark'],
+'Dark',
+False,
+False,
+[
+    ['Dark ?\(Aliens vs\.? Predator', '2010']
+],
+'Aliens vs. Predator, 2010',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fm9793/respect_the_predator_dark_avp_2010/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
