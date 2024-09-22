@@ -196,6 +196,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Taikan Kimura (Tough)', 'https://redd.it/1fmyyar')
+add_data(['Taikan Kimura'],
+'Taikan Kimura',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fmyyar/respect_taikan_kimura_tough/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
