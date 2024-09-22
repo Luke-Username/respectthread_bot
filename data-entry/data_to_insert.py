@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Balthazar Bratt'],
+'Balthazar Bratt',
+False,
+True,
+[
+    ['Despicable Me']
+],
+'Despicable Me',
+'{25275}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1fmtxyn/scott_pilgrim_vs_balthazar_bratt_despicable_me/lod2wqc/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Black Asura of the Eclipse (Dark Gathering)', 'https://redd.it/1fm15zw')
 add_data(['Black Asura of the Eclipse'],
 'Black Asura of the Eclipse',
@@ -164,6 +178,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1fm9793/respect_the_predator_dark_avp_2010/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shimo, the Ancient Titan! (Godzilla x Kong: The New Empire) [MonsterVerse]', 'https://redd.it/1flxap4')
+add_data(['Shimo'],
+'Shimo',
+False,
+False,
+[
+    ['MonsterVerse'], ['Godzilla x Kong'], ['Skar King']
+],
+'MonsterVerse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1flxap4/respect_shimo_the_ancient_titan_godzilla_x_kong/
 
 ########################################
 
