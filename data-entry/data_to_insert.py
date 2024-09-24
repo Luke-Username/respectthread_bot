@@ -107,6 +107,12 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 20564, 'Respect El Macho! (Despicable Me)', 'https://redd.it/1fngt0u')
+update_respectthread(cur, 5633, 'Respect Sackboy (LittleBigPlanet)', 'https://redd.it/1fnhsee')
+update_respectthread(cur, 4463, 'Respect The Brawler, Sanosuke Sagara (Rurouni Kenshin) [Manga]', 'https://redd.it/1fo1goq')
+
+########################################
+
 add_data(['Balthazar Bratt'],
 'Balthazar Bratt',
 False,
@@ -208,6 +214,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1fmyyar/respect_taikan_kimura_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kaisergreymon (Digimon Frontier)', 'https://redd.it/1fnrpl7')
+add_data(['Kaiser ?greymon'],
+'KaiserGreymon',
+False,
+True,
+[
+    ['Digimon']
+],
+'Digimon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fnrpl7/respect_kaisergreymon_digimon_frontier/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Taira no Masakado (Dark Gathering)', 'https://redd.it/1fo8aq5')
+add_data(['Taira no Masakado'],
+'Taira no Masakado',
+False,
+False,
+[
+    ['Dark Gathering']
+],
+'Dark Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fo8aq5/respect_taira_no_masakado_dark_gathering/
 
 ########################################
 
