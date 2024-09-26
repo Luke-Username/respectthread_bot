@@ -107,6 +107,68 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5053, 'Respect Giygas (Mother/EarthBound)', 'https://redd.it/1fp3nfh')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thor Odinson (Twilight of the Gods)', 'https://redd.it/1fonxca')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Twilight of the Gods']
+],
+'Twilight of the Gods',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fonxca/respect_thor_odinson_twilight_of_the_gods/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Taisai Seikun (Dark Gathering)', 'https://redd.it/1fp4681')
+add_data(['Taisai Seikun'],
+'Taisai Seikun',
+False,
+False,
+[
+    ['Dark Gathering']
+],
+'Dark Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fp4681/respect_taisai_seikun_dark_gathering/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shunsou Yokoyama (Tough)', 'https://redd.it/1fp55bm')
+add_data(['Shunsou Yokoyama'],
+'Shunsou Yokoyama',
+False,
+True,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fp55bm/respect_shunsou_yokoyama_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Emperor Vilgax, Conqueror of All Worlds! (Character Scramble) (Season 18)', 'https://redd.it/1fphex6')
+add_data(['Vilgax'],
+'Vilgax',
+False,
+False,
+[
+    ['Character Scramble']
+],
+'Character Scramble',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fphex6/respect_emperor_vilgax_conqueror_of_all_worlds/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
