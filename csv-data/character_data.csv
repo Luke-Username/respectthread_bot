@@ -19426,11 +19426,7 @@ Skeletron Prime,{Terraria},t,{5496},Terraria
 The Twins,{Terraria},f,{5496},Terraria
 Terrarian,{Terraria},t,{5497},Terraria
 Undertale Bosses,{default},t,{5498},""
-Toriel,{Undertale},t,{5498},Undertale
-Papyrus,{Undertale},t,{5498},Undertale
-Papyrus,{Sans},t,{5498},Undertale
 Mettaton,{Undertale},t,{5498},Undertale
-Asgore,{Undertale},t,{5498},Undertale
 Asriel,{Undertale},t,{5498},Undertale
 Delta Heroes,{Deltarune},t,{5499},Deltarune
 Kris,{Deltarune},f,{5499},Deltarune
@@ -19483,6 +19479,10 @@ Alice Liddell,"{`"Madness Returns`"}",f,"{5521,24687}",American McGee
 Alice,"{`"American McGees?`"}",f,"{5521,24687}",American McGee
 Flowey,{Undertale},t,{25167},Undertale
 Flowey,{Photoshop},t,{25167},Undertale
+Toriel,{Undertale},t,{25343},Undertale
+Papyrus,{Undertale},t,{25344},Undertale
+Papyrus,{Sans},t,{25344},Undertale
+Asgore,{Undertale},t,{25345},Undertale
 Joey,"{`"Arcade America`"}",f,{5524},Arcade America
 Ezio,"{Assassin,Creed}",t,{5525},Assassin's Creed
 Ezio,"{`"AC\\d`"}",t,{5525},Assassin's Creed
@@ -27708,7 +27708,6 @@ Gorr,"{`"Marvel Cinematic Universe`"}",f,{22597},MCU
 Gorr,{MCU},f,{22597},MCU
 Jane Foster,"{`"Marvel Cinematic Universe`"}",f,{22599},MCU
 Jane Foster,{MCU},f,{22599},MCU
-Rex Splode,{Invincible},t,{22600},Invincible
 Sprig Plantar,{Amphibia},t,{22601},Amphibia
 Blue Beetle,"{`"Brave (and|&) the Bold`"}",f,{22602},The Brave and the Bold
 Plastic Man,"{`"Brave (and|&) the Bold`"}",f,{22603},The Brave and the Bold
@@ -27729,6 +27728,7 @@ Seiya,"{`"Cautious Hero`"}",f,"{20565,22609,22628}",Cautious Hero
 Bizarro-Girl,"{`"Pre(-| )?Crisis`"}",f,{22587},Pre-Crisis
 Solomon Grundy,"{`"\\(DC( Comics)?\\)`"}",t,"{24733,24636,22588}",DC
 Bizarro-Girl,{Earth-One},f,{22587},Pre-Crisis
+Rex Splode,{Invincible},t,"{25346,22600}",Invincible
 The Doctor,{TARDIS},f,"{14419,24653,23159,22631,23115,40,15401,23253,24571}",Doctor Who
 Solomon Grundy,"{`"\\[DC( Comics)?\\]`"}",t,"{24733,24636,22588}",DC
 Dagon,"{`"Jujus?t?s?u Kaisen`"}",f,{22615},Jujutsu Kaisen
@@ -32176,3 +32176,13 @@ Shimo,"{`"Skar King`"}",f,{25339},MonsterVerse
 Taikan Kimura,{Tough},f,{25340},Tough
 KaiserGreymon,{Digimon},t,{25341},Digimon
 Taira no Masakado,"{`"Dark Gathering`"}",f,{25342},Dark Gathering
+Thor,"{`"Twilight of the Gods`"}",f,{25347},Twilight of the Gods
+Taisai Seikun,"{`"Dark Gathering`"}",f,{25348},Dark Gathering
+Shunsou Yokoyama,{Tough},t,{25349},Tough
+Vilgax,"{`"Character Scramble`"}",f,{25350},Character Scramble
+Hiko Seijūrō XIII,"{`"Rurouni Kenshin`"}",t,{25351},Rurouni Kenshin
+Hiko Seijūrō XIII,"{`"Samurai X`"}",t,{25351},Rurouni Kenshin
+Buzan Shimomura,{Tough},f,{25352},Tough
+Piraka,{Bionicle},t,{25353},Bionicle
+Vezon,{Bionicle},f,{25354},Bionicle
+Vezon,{Olmak},f,{25354},Bionicle

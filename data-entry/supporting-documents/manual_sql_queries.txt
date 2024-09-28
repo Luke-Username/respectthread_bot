@@ -14,18 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Toriel (Undertale)', 'https://redd.it/1fopy2m'); SELECT * FROM respectthread WHERE link='https://redd.it/1fopy2m';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Toriel' AND displayed_version_name='Undertale';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Papyrus (Undertale)', 'https://redd.it/1fpsf9b'); SELECT * FROM respectthread WHERE link='https://redd.it/1fpsf9b';
-UPDATE character SET rt_id_array='{?2}' WHERE default_name='Papyrus' AND displayed_version_name='Undertale';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Asgore Dreemurr (Undertale)', 'https://redd.it/1fq8xmw'); SELECT * FROM respectthread WHERE link='https://redd.it/1fq8xmw';
-UPDATE character SET rt_id_array='{?3}' WHERE default_name='Asgore' AND displayed_version_name='Undertale';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Rex Splode! (Image Comics)', 'https://redd.it/1fqj7g6'); SELECT * FROM respectthread WHERE link='https://redd.it/1fqj7g6';
-UPDATE character SET rt_id_array='{?4, 22600}' WHERE default_name='Rex Splode' AND displayed_version_name='Invincible';
-
 ########################################
 
 ########################################
