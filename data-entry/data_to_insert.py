@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 5053, 'Respect Giygas (Mother/EarthBound)', 'https://redd.it/1fp3nfh')
+update_respectthread(cur, 7462, 'Respect Undyne (Undertale)', 'https://redd.it/1frcf6t')
 
 ########################################
 
@@ -168,6 +169,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1fphex6/respect_emperor_vilgax_conqueror_of_all_worlds/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Master of the Hiten Mitsurugi-ryū, Hiko Seijūrō XIII (Rurouni Kenshin) [Manga]', 'https://redd.it/1fr4fdq')
+add_data(['Hiko Seij(ū|u)r(ō|o) XIII'],
+'Hiko Seijūrō XIII',
+False,
+True,
+[
+    ['Rurouni Kenshin'], ['Samurai X']
+],
+'Rurouni Kenshin',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fr4fdq/respect_the_master_of_the_hiten_mitsurugiry%C5%AB_hiko/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Buzan Shimomura (Tough)', 'https://redd.it/1frheow')
+add_data(['Buzan Shimomura'],
+'Buzan Shimomura',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1frheow/respect_buzan_shimomura_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Piraka (Bionicle)', 'https://redd.it/1frkn6u')
+add_data(['Piraka'],
+'Piraka',
+True,
+True,
+[
+    ['Bionicle']
+],
+'Bionicle',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1frkn6u/respect_the_piraka_bionicle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vezon (Bionicle)', 'https://redd.it/1frkn8f')
+add_data(['Vezon'],
+'Vezon',
+False,
+False,
+[
+    ['Bionicle'], ['Olmak']
+],
+'Bionicle',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1frkn8f/respect_vezon_bionicle/
 
 ########################################
 
