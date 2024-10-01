@@ -107,6 +107,114 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 12490, 'Respect Yuji Itadori! (Jujutsu Kaisen)', 'https://redd.it/1fs37f9')
+update_respectthread(cur, 5501, 'respect sans (undertale)', 'https://redd.it/1ftkmll')
+
+########################################
+
+id = get_rt_id(cur, 'Respect New Getter Robo ( New Getter Robo OVA)', 'https://redd.it/1frrvv1')
+add_data(['New Getter Robo'],
+'New Getter Robo',
+False,
+True,
+[
+    ['OVA']
+],
+'OVA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1frrvv1/respect_new_getter_robo_new_getter_robo_ova/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Panda! (Jujutsu Kaisen)', 'https://redd.it/1fsuupd')
+add_data(['Panda'],
+'Panda',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fsuupd/respect_panda_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kusakabe! (Jujutsu Kaisen)', 'https://redd.it/1fsuuqj')
+add_data(['Kusakabe'],
+'Kusakabe',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['Atsuka Kusakabe']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fsuuqj/respect_kusakabe_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bob (Messiah)', 'https://redd.it/1fsumib')
+add_data(['Bob'],
+'Bob',
+False,
+False,
+[
+    ['Messiah']
+],
+'Messiah',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fsumib/respect_bob_messiah/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Natural! (Marvel, 616)', 'https://redd.it/1ftbyp6')
+add_data(['Natural'],
+'Natural',
+False,
+False,
+[
+    ['Natural ?\((Marvel )?,?616\)']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ftbyp6/respect_the_natural_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sissel (Ghost Trick: Phantom Detective)', 'https://redd.it/1ftkmmn')
+add_data(['Sissel'],
+'Sissel',
+False,
+False,
+[
+    ['Ghost Trick']
+],
+'Ghost Trick',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ftkmmn/respect_sissel_ghost_trick_phantom_detective/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Gang (The 13 Ghosts of Scooby-Doo)', 'https://redd.it/1ftkmnf')
+add_data(['Scooby(-| )(Doo(-| ))?Gang'],
+'Scooby Gang',
+True,
+False,
+[
+    ['13 Ghosts of Scooby(-| )Doo']
+],
+'13 Ghosts of Scooby-Doo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ftkmnf/respect_the_gang_the_13_ghosts_of_scoobydoo/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
