@@ -19426,7 +19426,6 @@ Skeletron Prime,{Terraria},t,{5496},Terraria
 The Twins,{Terraria},f,{5496},Terraria
 Terrarian,{Terraria},t,{5497},Terraria
 Undertale Bosses,{default},t,{5498},""
-Mettaton,{Undertale},t,{5498},Undertale
 Asriel,{Undertale},t,{5498},Undertale
 Delta Heroes,{Deltarune},t,{5499},Deltarune
 Kris,{Deltarune},f,{5499},Deltarune
@@ -19483,6 +19482,7 @@ Toriel,{Undertale},t,{25343},Undertale
 Papyrus,{Undertale},t,{25344},Undertale
 Papyrus,{Sans},t,{25344},Undertale
 Asgore,{Undertale},t,{25345},Undertale
+Mettaton,{Undertale},t,{25355},Undertale
 Joey,"{`"Arcade America`"}",f,{5524},Arcade America
 Ezio,"{Assassin,Creed}",t,{5525},Assassin's Creed
 Ezio,"{`"AC\\d`"}",t,{5525},Assassin's Creed
@@ -32186,3 +32186,38 @@ Buzan Shimomura,{Tough},f,{25352},Tough
 Piraka,{Bionicle},t,{25353},Bionicle
 Vezon,{Bionicle},f,{25354},Bionicle
 Vezon,{Olmak},f,{25354},Bionicle
+New Getter Robo,{OVA},t,{25356},OVA
+Panda,"{`"Jujus?t?s?u Kaisen`"}",f,{25357},Jujutsu Kaisen
+Kusakabe,"{`"Jujus?t?s?u Kaisen`"}",f,{25358},Jujutsu Kaisen
+Kusakabe,"{`"Atsuka Kusakabe`"}",f,{25358},Jujutsu Kaisen
+Bob,{Messiah},f,{25359},Messiah
+Natural,"{`"Natural ?\\((Marvel )?,?616\\)`"}",f,{25360},616
+Sissel,"{`"Ghost Trick`"}",f,{25361},Ghost Trick
+Scooby Gang,"{`"13 Ghosts of Scooby(-| )Doo`"}",f,{25362},13 Ghosts of Scooby-Doo
+Yayoi Hozuki,"{`"Dark Gathering`"}",t,{25363},Dark Gathering
+Jonathan Teatime,{Discworld},t,{25364},Discworld
+Mr. Teatime,{Discworld},t,{25364},Discworld
+Demon Spawn,"{`"Ash vs\\.? Evil Dead`"}",f,{25365},Ash vs Evil Dead
+Possessed Delta,"{`"Ash vs\\.? Evil Dead`"}",t,{25366},Ash vs Evil Dead
+Miwa,"{`"Jujus?t?s?u Kaisen`"}",f,{25367},Jujutsu Kaisen
+Miwa,{JJK},f,{25367},Jujutsu Kaisen
+Miwa,{Kobeni},f,{25367},Jujutsu Kaisen
+Mechamaru,"{`"Jujus?t?s?u Kaisen`"}",t,{25368},Jujutsu Kaisen
+Mechamaru,{JJK},t,{25368},Jujutsu Kaisen
+Kokichi Muta,"{`"Jujus?t?s?u Kaisen`"}",t,{25368},Jujutsu Kaisen
+Kokichi Muta,{JJK},t,{25368},Jujutsu Kaisen
+Uraume,"{`"Jujus?t?s?u Kaisen`"}",f,{25369},Jujutsu Kaisen
+Uraume,{JJK},f,{25369},Jujutsu Kaisen
+Hakari,"{`"Jujus?t?s?u Kaisen`"}",f,{25370},Jujutsu Kaisen
+Hakari,{JJK},f,{25370},Jujutsu Kaisen
+Hakari,"{`"Kinji Hakari`"}",f,{25370},Jujutsu Kaisen
+Higuruma,"{`"Jujus?t?s?u Kaisen`"}",f,{25371},Jujutsu Kaisen
+Higuruma,{JJK},f,{25371},Jujutsu Kaisen
+Higuruma,"{`"Hiromi Higuruma`"}",f,{25371},Jujutsu Kaisen
+Takaba,"{`"Jujus?t?s?u Kaisen`"}",f,{25372},Jujutsu Kaisen
+Takaba,{JJK},f,{25372},Jujutsu Kaisen
+Takaba,"{`"Fumihiko Takaba`"}",f,{25372},Jujutsu Kaisen
+Robotman,"{`"\\(DC( Comics)?\\)`"}",t,{25373},DC
+Robotman,"{`"\\[DC( Comics)?\\]`"}",t,{25373},DC
+Robotman,"{`"Doom Patrol`"}",t,{25373},DC
+Robotman,"{`"Cliff(ord)? Steele`"}",t,{25373},DC
