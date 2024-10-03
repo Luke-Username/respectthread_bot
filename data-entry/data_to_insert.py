@@ -107,6 +107,209 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Yayoi Hozuki (Dark Gathering)', 'https://redd.it/1ftncw1')
+add_data(['Yayoi Hozuki'],
+'Yayoi Hozuki',
+False,
+True,
+[
+    ['Dark Gathering']
+],
+'Dark Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ftncw1/respect_yayoi_hozuki_dark_gathering/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jonathan Teatime (Discworld)', 'https://redd.it/1ftq9xi')
+add_data(['Jonathan Teatime'],
+'Jonathan Teatime',
+False,
+True,
+[
+    ['Discworld']
+],
+'Discworld',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ftq9xi/respect_jonathan_teatime_discworld/
+
+add_data(['Mr\.? Teatime'],
+'Mr. Teatime',
+False,
+True,
+[
+    ['Discworld']
+],
+'Discworld',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ftq9xi/respect_jonathan_teatime_discworld/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Demon Spawn (Ash vs. Evil Dead)', 'https://redd.it/1ftxr8r')
+add_data(['Demon Spawn'],
+'Demon Spawn',
+False,
+False,
+[
+    ['Ash vs\.? Evil Dead']
+],
+'Ash vs Evil Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ftxr8r/respect_the_demon_spawn_ash_vs_evil_dead/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Possessed Delta (Ash vs Evil Dead)', 'https://redd.it/1fuiwe2')
+add_data(['Possessed Delta'],
+'Possessed Delta',
+False,
+True,
+[
+    ['Ash vs\.? Evil Dead']
+],
+'Ash vs Evil Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fuiwe2/respect_the_possessed_delta_ash_vs_evil_dead/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miwa (Jujutsu Kaisen)', 'https://redd.it/1fujjb0')
+add_data(['Miwa'],
+'Miwa',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK'], ['Kobeni']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fujjb0/respect_miwa_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mechamaru! (Jujutsu Kaisen)', 'https://redd.it/1fujjip')
+add_data(['Mechamaru'],
+'Mechamaru',
+False,
+True,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fujjip/respect_mechamaru_jujutsu_kaisen/
+
+add_data(['Kokichi Muta'],
+'Kokichi Muta',
+False,
+True,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fujjip/respect_mechamaru_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Uraume, the Frozen Star! (Jujutsu Kaisen)', 'https://redd.it/1ful3u1')
+add_data(['Uraume'],
+'Uraume',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ful3u1/respect_uraume_the_frozen_star_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hakari! (Jujutsu Kaisen)', 'https://redd.it/1ful44b')
+add_data(['Hakari'],
+'Hakari',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK'], ['Kinji Hakari']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ful44b/respect_hakari_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Higuruma! (Jujutsu Kaisen)', 'https://redd.it/1fuww2w')
+add_data(['Higuruma'],
+'Higuruma',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK'], ['Hiromi Higuruma']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fuww2w/respect_higuruma_jujutsu_kaisen/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Takaba! (Jujutsu Kaisen)', 'https://redd.it/1fuww3o')
+add_data(['Takaba'],
+'Takaba',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK'], ['Fumihiko Takaba']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fuww3o/respect_takaba_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cliff Steele, The Robotman (DC)', 'https://redd.it/1futcx3')
+add_data(['Robotman'],
+'Robotman',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'], ['Doom Patrol'], ['Cliff(ord)? Steele']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1futcx3/respect_cliff_steele_the_robotman_dc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alexandria (Worm)', 'https://redd.it/1fuzjxy')
+add_data(['Alexandria'],
+'Alexandria',
+False,
+False,
+[
+    ['Worm']
+],
+'Worm',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fuzjxy/respect_alexandria_worm/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
