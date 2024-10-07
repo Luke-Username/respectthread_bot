@@ -401,6 +401,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ash Williams (Army of Darkness Roleplaying Game Corebook)', 'https://redd.it/1fyc865')
+add_data(['Ash Williams'],
+'Ash Williams',
+False,
+False,
+[
+    ['Army of Darkness', 'Corebook']
+],
+'Army of Darkness Corebook',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fyc865/respect_ash_williams_army_of_darkness_roleplaying/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Necronomicon (Army of Darkness Roleplaying Game Corebook)', 'https://redd.it/1fyc9cw')
+add_data(['Necronomicon'],
+'Necronomicon',
+False,
+False,
+[
+    ['Army of Darkness', 'Corebook']
+],
+'Army of Darkness Corebook',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fyc9cw/respect_the_necronomicon_army_of_darkness/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Weird Baby Ash Demon Clone (Ash vs Evil Dead)', 'https://redd.it/1fyiarc')
+add_data(['Weird Baby Ash Demon Clone'],
+'Weird Baby Ash Demon Clone',
+False,
+True,
+[
+    ['Ash vs Evil Dead']
+],
+'Ash vs Evil Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fyiarc/respect_the_weird_baby_ash_demon_clone_ash_vs/
+
+########################################
+
 id = get_rt_id(cur, 'Respect White Fox! (Scissor Seven)', 'https://redd.it/1fwtzrc')
 add_data(['White Fox'],
 'White Fox',
