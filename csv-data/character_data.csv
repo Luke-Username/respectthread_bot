@@ -32221,3 +32221,48 @@ Robotman,"{`"\\(DC( Comics)?\\)`"}",t,{25373},DC
 Robotman,"{`"\\[DC( Comics)?\\]`"}",t,{25373},DC
 Robotman,"{`"Doom Patrol`"}",t,{25373},DC
 Robotman,"{`"Cliff(ord)? Steele`"}",t,{25373},DC
+Owlman,"{`"\\(DC( Comics)?\\)`"}",t,{1661},DC
+Owlman,"{`"\\[DC( Comics)?\\]`"}",t,{1661},DC
+Power,"{`"Chainsaw(-| )?Man`",Denji}",f,{15966},Chainsaw Man
+Prowler,{616},f,{25375},616
+Prowler,"{Marvel,Comics?}",f,{25375},616
+Leeches,"{`"Vaults of Yoh(-| )Vombis`"}",f,{25375},The Vaults of Yoh-Vombis
+Keitaro Gentoga,"{`"Dark Gathering`"}",t,{25375},Dark Gathering
+Kugisaki,"{`"Jujus?t?s?u Kaisen`"}",f,{25376},Jujutsu Kaisen
+Kugisaki,{JJK},f,{25376},Jujutsu Kaisen
+Nobara,"{`"Jujus?t?s?u Kaisen`"}",f,{25376},Jujutsu Kaisen
+Nobara,{JJK},f,{25376},Jujutsu Kaisen
+Nobara,{Hammer},f,{25376},Jujutsu Kaisen
+Nobara Kugisaki,"{`"Jujus?t?s?u Kaisen`"}",t,{25376},Jujutsu Kaisen
+Nobara Kugisaki,{JJK},t,{25376},Jujutsu Kaisen
+Maki,"{`"Jujus?t?s?u Kaisen`"}",f,{25377},Jujutsu Kaisen
+Maki,{JJK},f,{25377},Jujutsu Kaisen
+Maki Zen'in,"{`"Jujus?t?s?u Kaisen`"}",t,{25377},Jujutsu Kaisen
+Maki Zen'in,{JJK},t,{25377},Jujutsu Kaisen
+Degenerate,"{`"Degenerate ?\\(DC( Comics)?\\)`"}",f,{25378},DC
+Beast Girl,"{`"\\(DC( Comics)?\\)`"}",f,{25379},DC
+Beast Girl,"{`"\\[DC( Comics)?\\]`"}",f,{25379},DC
+Lotion the Cat,"{`"\\(DC( Comics)?\\)`"}",t,{25380},DC
+Lotion the Cat,"{`"\\[DC( Comics)?\\]`"}",t,{25380},DC
+Lucius Reynolds,"{`"\\(DC( Comics)?\\)`"}",t,{25381},DC
+Lucius Reynolds,"{`"\\[DC( Comics)?\\]`"}",t,{25381},DC
+Terry None,"{`"\\(DC( Comics)?\\)`"}",t,{25382},DC
+Terry None,"{`"\\[DC( Comics)?\\]`"}",t,{25382},DC
+Arcadia,"{`"Captain Harlock`"}",f,{25383},Captain Harlock
+Baal,"{`"Ash vs\\.? Evil Dead`"}",f,{25384},Ash vs Evil Dead
+Necronomicon,"{`"Evil Dead`",THQ}",f,{25385},Evil Dead THQ Games
+Ash Williams,"{`"Evil Dead`",THQ}",f,{25386},Evil Dead THQ Games
+Ash Williams,"{`"Dead by Daylight`"}",f,{25387},Dead by Daylight
+Ash Williams,{DBD},f,{25387},Dead by Daylight
+Ash Williams,"{`"Army of Darkness`",Corebook}",f,{25388},Army of Darkness Corebook
+Necronomicon,"{`"Army of Darkness`",Corebook}",f,{25389},Army of Darkness Corebook
+Weird Baby Ash Demon Clone,"{`"Ash vs Evil Dead`"}",t,{25390},Ash vs Evil Dead
+White Fox,"{`"Scissor Seven`"}",f,{25391},Scissor Seven
+Orson Randall,{616},t,{25392},616
+Cassandra Nova,"{`"Marvel Cinematic Universe`"}",f,{25393},MCU
+Cassandra Nova,{MCU},f,{25393},MCU
+The Mitchells,"{`"The Mitchells vs\\.? the Machines`"}",f,{25394},The Mitchells vs. the Machines
+Sora,"{`"Kingdom Hearts Pilot Animatic`"}",f,{25395},Kingdom Hearts Pilot Animatic
+Donald,"{`"Kingdom Hearts Pilot Animatic`"}",f,{25395},Kingdom Hearts Pilot Animatic
+Goofy,"{`"Kingdom Hearts Pilot Animatic`"}",f,{25395},Kingdom Hearts Pilot Animatic
+Deadpool,"{`"2018|Deadpool.*Animated Series`",Cancelled|Glover}",f,{25396},Cancelled Cartoon 2018
