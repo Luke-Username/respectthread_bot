@@ -107,6 +107,315 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5625, 'Respect Kain, The Scion of Balance (Legacy of Kain)', 'https://redd.it/1fx3l4j')
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Leeches (The Vaults of Yoh-Vombis)', 'https://redd.it/1fv7qh5')
+add_data(['Leeches'],
+'Leeches',
+False,
+False,
+[
+    ['Vaults of Yoh(-| )Vombis']
+],
+'The Vaults of Yoh-Vombis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fv7qh5/respect_the_leeches_the_vaults_of_yohvombis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Keitaro Gentoga (Dark Gathering)', 'https://redd.it/1fv7qh5')
+add_data(['Keitaro Gentoga'],
+'Keitaro Gentoga',
+False,
+True,
+[
+    ['Dark Gathering']
+],
+'Dark Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fv7x17/respect_keitaro_gentoga_dark_gathering/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nobara Kugisaki! (Jujutsu Kaisen)', 'https://redd.it/1fv89sw')
+add_data(['Kugisaki'],
+'Kugisaki',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fv89sw/respect_nobara_kugisaki_jujutsu_kaisen/
+
+add_data(['Nobara'],
+'Nobara',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK'], ['Hammer']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fv89sw/respect_nobara_kugisaki_jujutsu_kaisen/
+
+add_data(['Nobara Kugisaki'],
+'Nobara Kugisaki',
+False,
+True,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fv89sw/respect_nobara_kugisaki_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, "Respect Maki Zen''in! (Jujutsu Kaisen)", 'https://redd.it/1fxhiv2')
+add_data(['Maki'],
+'Maki',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fxhiv2/respect_maki_zenin_jujutsu_kaisen/
+
+add_data(["Maki Zen''?in"],
+"Maki Zen''in",
+False,
+True,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fxhiv2/respect_maki_zenin_jujutsu_kaisen/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Degenerate (DC)', 'https://redd.it/1fvlb59')
+add_data(['Degenerate'],
+'Degenerate',
+False,
+False,
+[
+    ['Degenerate ?\(DC( Comics)?\)']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fvlb59/respect_the_degenerate_dc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Beast Girl (DC)', 'https://redd.it/1fvwvzj')
+add_data(['Beast Girl'],
+'Beast Girl',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fvwvzj/respect_beast_girl_dc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lotion the Cat (DC)', 'https://redd.it/1fwyn1p')
+add_data(['Lotion the Cat'],
+'Lotion the Cat',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fwyn1p/respect_lotion_the_cat_dc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lucius Reynolds (DC)', 'https://redd.it/1fwrik9')
+add_data(['Lucius Reynolds'],
+'Lucius Reynolds',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fwrik9/respect_lucius_reynolds_dc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Terry None (DC)', 'https://redd.it/1fwogcf')
+add_data(['Terry None'],
+'Terry None',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fwogcf/respect_terry_none_dc/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Arcadia [Captain Harlock]', 'https://redd.it/1fvlikt')
+add_data(['Arcadia'],
+'Arcadia',
+False,
+False,
+[
+    ['Captain Harlock']
+],
+'Captain Harlock',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fvlikt/respect_the_arcadia_captain_harlock/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Baal (Ash vs Evil Dead)', 'https://redd.it/1fvxx9s')
+add_data(['Baal'],
+'Baal',
+False,
+False,
+[
+    ['Ash vs\.? Evil Dead']
+],
+'Ash vs Evil Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fvxx9s/respect_baal_ash_vs_evil_dead/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Necronomicon (Evil Dead THQ Games)', 'https://redd.it/1fxskzb')
+add_data(['Necronomicon'],
+'Necronomicon',
+False,
+False,
+[
+    ['Evil Dead', 'THQ']
+],
+'Evil Dead THQ Games',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fxskzb/respect_the_necronomicon_evil_dead_thq_games/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ash Williams (Evil Dead THQ Games)', 'https://redd.it/1fxs5iu')
+add_data(['Ash Williams'],
+'Ash Williams',
+False,
+False,
+[
+    ['Evil Dead', 'THQ']
+],
+'Evil Dead THQ Games',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fxs5iu/respect_ash_williams_evil_dead_thq_games/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ash Williams (Dead by Daylight)', 'https://redd.it/1fx22je')
+add_data(['Ash Williams'],
+'Ash Williams',
+False,
+False,
+[
+    ['Dead by Daylight'], ['DBD']
+],
+'Dead by Daylight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fx22je/respect_ash_williams_dead_by_daylight/
+
+########################################
+
+id = get_rt_id(cur, 'Respect White Fox! (Scissor Seven)', 'https://redd.it/1fwtzrc')
+add_data(['White Fox'],
+'White Fox',
+False,
+False,
+[
+    ['Scissor Seven']
+],
+'Scissor Seven',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fwtzrc/respect_white_fox_scissor_seven/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Orson Randall, Iron Fist (Marvel, 616)', 'https://redd.it/1fwsobj')
+add_data(['Orson Randall'],
+'Orson Randall',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fwsobj/respect_orson_randall_iron_fist_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cassandra Nova (Marvel Cinematic Universe)', 'https://redd.it/1fw0sai')
+add_data(['Cassandra Nova'],
+'Cassandra Nova',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fw0sai/respect_cassandra_nova_marvel_cinematic_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mitchells! (The Mitchells vs. the Machines)', 'https://redd.it/1fvzngu')
+add_data(['The Mitchells'],
+'The Mitchells',
+True,
+False,
+[
+    ['The Mitchells vs\.? the Machines']
+],
+'The Mitchells vs. the Machines',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fvzngu/respect_the_mitchells_the_mitchells_vs_the/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
