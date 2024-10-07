@@ -107,46 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-########################################
-
-add_data(['Prowler'],
-'Prowler',
-False,
-False,
-[
-    ['Prowler vs', 'Comics']
-],
-'616',
-'{25375}'
-)
-#https://www.reddit.com/r/respectthreads/comments/afg1ck/respect_prowler_marvel_earth_616/
-
-
-add_data(['Prowler'],
-'Prowler',
-False,
-False,
-[
-    ['Doom Eternal']
-],
-'616',
-'{}'
-)
-#https://www.reddit.com/r/respectthreads/comments/afg1ck/respect_prowler_marvel_earth_616/
-
-
-add_data(['Owl Man'],
-'Owl Man',
-False,
-False,
-[
-    ['DC( Comics)?']
-],
-'DC',
-'{1661}'
-)
-#https://www.reddit.com/r/respectthreads/comments/98ospr/respect_owlman_dc_post_crisis_antimatter/
-
 
 
 ########################################
