@@ -111,6 +111,21 @@ update_respectthread(cur, 5625, 'Respect Kain, The Scion of Balance (Legacy of K
 
 ########################################
 
+add_data(['Owlman'],
+'Owlman',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{1661}'
+)
+#https://www.reddit.com/r/respectthreads/comments/98ospr/respect_owlman_dc_post_crisis_antimatter/
+
+
+########################################
+
 add_data(['Power'],
 'Power',
 False,
@@ -122,6 +137,21 @@ False,
 '{15966}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1fy57oy/josuke_higashikata_jojos_bizarre_adventure/lqreodn/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Prowler (Marvel, Earth 616)', 'https://redd.it/1fv7qh5')
+add_data(['Prowler'],
+'Prowler',
+False,
+False,
+[
+    ['616'], ['Marvel', 'Comics?']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/afg1ck/respect_prowler_marvel_earth_616/
 
 ########################################
 
@@ -429,6 +459,60 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1fvzngu/respect_the_mitchells_the_mitchells_vs_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sora, Donald, and Goofy (Kingdom Hearts Pilot Animatic)', 'https://redd.it/1fy872m')
+add_data(['Sora'],
+'Sora',
+False,
+False,
+[
+    ['Kingdom Hearts Pilot Animatic']
+],
+'Kingdom Hearts Pilot Animatic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fy872m/respect_sora_donald_and_goofy_kingdom_hearts/
+
+add_data(['Donald'],
+'Donald',
+False,
+False,
+[
+    ['Kingdom Hearts Pilot Animatic']
+],
+'Kingdom Hearts Pilot Animatic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fy872m/respect_sora_donald_and_goofy_kingdom_hearts/
+
+add_data(['Goofy'],
+'Goofy',
+False,
+False,
+[
+    ['Kingdom Hearts Pilot Animatic']
+],
+'Kingdom Hearts Pilot Animatic',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fy872m/respect_sora_donald_and_goofy_kingdom_hearts/
+
+########################################
+
+id = get_rt_id(cur, "Respect Deadpool (''Deadpool: The Animated Series'' Cancelled Cartoon)", 'https://redd.it/1fy874s')
+add_data(['Dead(-| )?pool'],
+'Deadpool',
+False,
+False,
+[
+    ['2018|Deadpool.*Animated Series', 'Cancelled|Glover']
+],
+'Cancelled Cartoon 2018',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fy874s/respect_deadpool_deadpool_the_animated_series/
 
 ########################################
 
