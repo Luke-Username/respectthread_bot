@@ -111,6 +111,20 @@ update_respectthread(cur, 5625, 'Respect Kain, The Scion of Balance (Legacy of K
 
 ########################################
 
+add_data(['Power'],
+'Power',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man', 'Denji']
+],
+'Chainsaw Man',
+'{15966}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1fy57oy/josuke_higashikata_jojos_bizarre_adventure/lqreodn/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Leeches (The Vaults of Yoh-Vombis)', 'https://redd.it/1fv7qh5')
 add_data(['Leeches'],
 'Leeches',
