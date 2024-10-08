@@ -107,7 +107,48 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Knight Maximus (Fallout TV series)', 'https://redd.it/1fytgee')
+add_data(['Maximus'],
+'Maximus',
+False,
+False,
+[
+    ['Fallout']
+],
+'Fallout',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fytgee/respect_knight_maximus_fallout_tv_series/
 
+########################################
+
+id = get_rt_id(cur, 'Respect the Ghoul (Fallout TV series)', 'https://redd.it/1fytgh7')
+add_data(['The Ghoul'],
+'The Ghoul',
+False,
+False,
+[
+    ['Fallout']
+],
+'Fallout',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fytgh7/respect_the_ghoul_fallout_tv_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Clayface (Harley Quinn)', 'https://redd.it/1fyurr7')
+add_data(['Clayface'],
+'Clayface',
+False,
+False,
+[
+    ['Clayface ?\(Harley Quinn\)']
+],
+'Harley Quinn',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
