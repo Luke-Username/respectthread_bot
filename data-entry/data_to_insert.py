@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 25375, 'Respect Prowler (Marvel, Earth 616)', 'https://redd.it/afg1ck')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Knight Maximus (Fallout TV series)', 'https://redd.it/1fytgee')
 add_data(['Maximus'],
 'Maximus',
@@ -149,6 +153,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Demons (Evil Dead: The Game)', 'https://redd.it/1fyziiw')
+add_data(['Demons'],
+'Demons',
+False,
+False,
+[
+    ['Evil Dead:? The Game']
+],
+'Evil Dead: The Game',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fyziiw/respect_the_demons_evil_dead_the_game/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Survivors (Evil Dead: The Game)', 'https://redd.it/1fyzild')
+add_data(['Survivors'],
+'Survivors',
+False,
+False,
+[
+    ['Evil Dead:? The Game']
+],
+'Evil Dead: The Game',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1fyzild/respect_the_survivors_evil_dead_the_game/
 
 ########################################
 
