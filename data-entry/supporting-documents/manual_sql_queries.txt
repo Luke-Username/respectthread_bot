@@ -14,9 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect The Leeches (The Vaults of Yoh-Vombis)', 'https://redd.it/1fv7qh5'); SELECT * FROM respectthread WHERE link='https://redd.it/1fv7qh5';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Leeches' AND displayed_version_name='The Vaults of Yoh-Vombis';
-
 ########################################
 
 ########################################
