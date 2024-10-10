@@ -199,6 +199,12 @@ asdfmovie
 		# If character name == "asdf":
 			default = "asdf"
 
+Ash vs Evil Dead
+	Version
+		['Ash vs\.? Evil Dead']
+	Displayed Version Name
+		"Ash vs Evil Dead"
+
 Assassin's Creed
 	Version
 		['Assassin', 'Creed'], ['AC\d']
