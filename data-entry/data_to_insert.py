@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Samara'],
+'Samara',
+False,
+False,
+[
+    ['The Ring']
+],
+"The Ring",
+'{25158}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1g0n19v/kevin_mcallister_vs_samara_the_ring/
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Great God Cay, the Brontosaurus (Beyond the Great South Wall)', 'https://redd.it/1fzjlke')
 add_data(['Brontosaurus'],
 'Brontosaurus',
