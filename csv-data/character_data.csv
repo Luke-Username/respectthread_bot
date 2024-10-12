@@ -32226,7 +32226,6 @@ Owlman,"{`"\\[DC( Comics)?\\]`"}",t,{1661},DC
 Power,"{`"Chainsaw(-| )?Man`",Denji}",f,{15966},Chainsaw Man
 Prowler,{616},f,{25375},616
 Prowler,"{Marvel,Comics?}",f,{25375},616
-Leeches,"{`"Vaults of Yoh(-| )Vombis`"}",f,{25375},The Vaults of Yoh-Vombis
 Keitaro Gentoga,"{`"Dark Gathering`"}",t,{25375},Dark Gathering
 Kugisaki,"{`"Jujus?t?s?u Kaisen`"}",f,{25376},Jujutsu Kaisen
 Kugisaki,{JJK},f,{25376},Jujutsu Kaisen
@@ -32269,3 +32268,47 @@ Deadpool,"{`"2018|Deadpool.*Animated Series`",Cancelled|Glover}",f,{25396},Cance
 Prowler,"{`"Prowler vs`",Comics}",f,{25375},616
 Prowler,"{`"Doom Eternal`"}",f,{},616
 Owl Man,"{`"DC( Comics)?`"}",f,{1661},DC
+Maximus,{Fallout},f,{25397},Fallout
+The Ghoul,{Fallout},f,{25398},Fallout
+Clayface,"{`"Clayface ?\\(Harley Quinn\\)`"}",f,{25399},Harley Quinn
+Demons,"{`"Evil Dead:? The Game`"}",f,{25400},Evil Dead: The Game
+Survivors,"{`"Evil Dead:? The Game`"}",f,{25401},Evil Dead: The Game
+Leeches,"{`"Vaults of Yoh(-| )Vombis`"}",f,{25402},The Vaults of Yoh-Vombis
+Chucky,"{Monokuma,`"Chucky vs|vs\\.? Chucky`"}",f,{13094},Child's Play
+Samara,"{`"The Ring`"}",f,{25158},The Ring
+Percy Jackson,"{`"Perc(y|eus) Jackson ?\\((The)? ?(Movie|Film)s?\\)`"}",f,{25011},Films
+Brontosaurus,"{`"Beyond the Great South Wall`"}",f,{25403},Beyond the Great South Wall
+Cay,"{`"Beyond the Great South Wall`"}",f,{25403},Beyond the Great South Wall
+Butcher,"{`"Emesis Blue`"}",f,{25404},Emesis Blue
+Stalingrad,"{`"Emesis Blue`"}",f,{25405},Emesis Blue
+Detective,"{`"Emesis Blue`"}",f,{25406},Emesis Blue
+Jacques Murnau,"{`"Emesis Blue`"}",f,{25406},Emesis Blue
+Soldier,"{`"Emesis Blue`"}",f,{25407},Emesis Blue
+Dr. Fritz Ludwig,"{`"Emesis Blue`"}",f,{25408},Emesis Blue
+Headless Horseman,"{`"Legend of Sleepy Hollow`"}",f,{25409},The Legend of Sleepy Hollow
+Ruby Knowby,"{`"Ash vs\\.? Evil Dead`"}",t,{25410},Ash vs Evil Dead
+Ash Williams,"{`"Evil Dead:? The Musical`"}",f,{25411},Evil Dead: The Musical
+Necronomicon,"{`"Evil Dead:? The Musical`"}",f,{25412},Evil Dead: The Musical
+Demon that Possessed Marcus,"{`"Ash vs\\.? Evil Dead`"}",f,{25413},Ash vs Evil Dead
+Senro Grumer,"{`"Bakauge Sentai BoonBoomger`"}",f,{25414},Bakauge Sentai BoonBoomger
+Weezing,{James},f,{25415},James
+Han,"{`"Han.*Kung Fu Panda`"}",f,{25416},Kung Fu Panda
+Han,"{`"Han the Pangolin`"}",f,{25416},Kung Fu Panda
+Kino,"{`"Kino's Journey`"}",f,{25417},Kino's Journey
+Monster,"{`"Partridge Creek`"}",f,{25418},"The Monster of `"Partridge Creek`""
+Lester Lowe,"{`"Cycle of the Werewolf`"}",f,{25419},Cycle of the Werewolf
+Loki,"{`"Norse Mythology`"}",f,{25420},Norse Mythology
+Loki,"{`"Loki.*\\(Mythology\\)`"}",f,{25420},Norse Mythology
+Naturom Demonto,"{`"Evil Dead`"}",t,{25421},Evil Dead
+Evil Ash,{Dynamite},f,{25422},Dynamite Entertainment
+Minions,"{`"Despicable Me`"}",f,{25423},Despicable Me
+Minions,"{Kevin,Stuart}",f,{25423},Despicable Me
+Minions,"{`"evil boss`"}",f,{25423},Despicable Me
+Minions,{Gru},f,{25423},Despicable Me
+Minions,"{`"The Minions vs`"}",f,{25423},Despicable Me
+Minions,"{`"Can The Minions`"}",f,{25423},Despicable Me
+Minions,"{`"How many minions`",movies?}",f,{25423},Despicable Me
+Minions,"{`"Minions ?\\(Minions\\)`"}",f,{25423},Despicable Me
+John Aman,{616},t,{25424},616
+Prince of Orphans,{616},t,{25424},616
+SCP-253,"{`"Cancer Plague`"}",t,{25425},""
