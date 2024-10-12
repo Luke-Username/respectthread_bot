@@ -135,6 +135,20 @@ False,
 
 ########################################
 
+add_data(['Perc(y|eus) Jackson'],
+'Percy Jackson',
+False,
+False,
+[
+    ['Perc(y|eus) Jackson ?\((The)? ?(Movie|Film)s?\)']
+],
+"Films",
+'{25011}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1g1lq61/goku_dragonball_evolution_vs_percy_jackson_the/
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Great God Cay, the Brontosaurus (Beyond the Great South Wall)', 'https://redd.it/1fzjlke')
 add_data(['Brontosaurus'],
 'Brontosaurus',
@@ -423,6 +437,108 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1g0hlio/respect_reverend_lester_lowe_the_werewolf_cycle/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Loki! (Norse Mythology)', 'https://redd.it/1g16gds')
+add_data(['Loki'],
+'Loki',
+False,
+False,
+[
+    ['Norse Mythology'], ['Loki.*\(Mythology\)']
+],
+'Norse Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g16gds/respect_loki_norse_mythology/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Naturom Demonto (Evil Dead, 2013)', 'https://redd.it/1g1b4zw')
+add_data(['Naturom Demonto'],
+'Naturom Demonto',
+False,
+True,
+[
+    ['Evil Dead']
+],
+'Evil Dead',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g1b4zw/respect_the_naturom_demonto_evil_dead_2013/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Evil Ash! (Dynamite Entertainment)', 'https://redd.it/1g1h9m3')
+add_data(['Evil Ash'],
+'Evil Ash',
+False,
+False,
+[
+    ['Dynamite']
+],
+'Dynamite Entertainment',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g1h9m3/respect_evil_ash_dynamite_entertainment/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Minions (Despicable Me)', 'https://redd.it/1g1ihxe')
+add_data(['Minions'],
+'Minions',
+False,
+False,
+[
+    ['Despicable Me'], ['Kevin', 'Stuart'], ['evil boss'], ['Gru'], ['The Minions vs'], ['Can The Minions'], ['How many minions', 'movies?'], ['Minions ?\(Minions\)']
+],
+'Despicable Me',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g1ihxe/respect_the_minions_despicable_me/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: John Aman, The Prince of Orphans ! (Marvel, 616)', 'https://redd.it/1g1k536')
+add_data(['John Aman'],
+'John Aman',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g1k536/respect_john_aman_the_prince_of_orphans_marvel_616/
+
+add_data(['Prince of Orphans'],
+'Prince of Orphans',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g1k536/respect_john_aman_the_prince_of_orphans_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-253, The Cancer Plague (SCP Foundation)', 'https://redd.it/1g1f754')
+add_data(['SCP ?(-| )? ?253'],
+'SCP-253',
+False,
+True,
+[
+    ['Cancer Plague']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g1f754/respect_scp253_the_cancer_plague_scp_foundation/
 
 ########################################
 
