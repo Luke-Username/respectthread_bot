@@ -17,8 +17,6 @@ const getContainer = async (query) => {
 };
 
 const getCurrentPostData = () => {
-  console.log('clicked');
-
   let postTitle = document
     .querySelector('p.title')
     .querySelector('a.title.may-blank.loggedin')
@@ -46,10 +44,16 @@ const addCopyToClipboardButton = (titleContainer) => {
   const clipboardButtonExists = titleContainer?.getElementsByClassName('clipboard-button')[0];
   if (clipboardButtonExists) return;
 
+  // Add button
   const clipboardButton = document.createElement('button');
-  clipboardButton.innerText = 'B';
   clipboardButton.className = 'clipboard-button';
   clipboardButton.title = 'Copy post title, author, and URL to clipboard';
+
+  // Add icon for button
+  const copyIcon = document.createElement('img');
+  copyIcon.className = 'clipboard-button-icon'
+  copyIcon.src = chrome.runtime.getURL('clipboard-semi-transparent.svg');
+  clipboardButton.appendChild(copyIcon);
 
   const currentUrl = window.location.href;
   if (currentUrl.includes('reddit.com/r/respectthreads/comments/')) {

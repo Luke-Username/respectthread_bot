@@ -13,7 +13,17 @@
         "https://www.reddit.com/r/respectthreads/comments/*",
         "https://old.reddit.com/r/respectthreads/comments/*"
       ],
+      "css": ["content.css"],
       "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://www.reddit.com/*",
+        "https://old.reddit.com/*"
+      ],
+      "resources": ["clipboard-semi-transparent.svg"]
     }
   ],
   "background": {
