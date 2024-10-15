@@ -107,6 +107,189 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Po'],
+'Po',
+False,
+False,
+[
+    ['Dragon Warrior']
+],
+'Kung Fu Panda',
+'{1150}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1g2za7o/regular_sonic_vs_po_the_dragon_warrior/lrryulm/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Naturom Demonto (Evil Dead Rise)', 'https://redd.it/1g25fn0')
+add_data(['Naturom Demonto'],
+'Naturom Demonto',
+False,
+True,
+[
+    ['Evil Dead Rise']
+],
+'Evil Dead Rise',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g25fn0/respect_the_naturom_demonto_evil_dead_rise/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ash Williams (Evil Dead 2, Space Goat Publishing)', 'https://redd.it/1g3hkwy')
+add_data(['Ash Williams'],
+'Ash Williams',
+False,
+False,
+[
+    ['Evil Dead', 'Space Goat']
+],
+'Space Goat Productions',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g3hkwy/respect_ash_williams_evil_dead_2_space_goat/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jessie''s Arbok (Pokemon Anime)", 'https://redd.it/1g27zli')
+add_data(['Arbok'],
+'Arbok',
+False,
+False,
+[
+    ['Jessies?']
+],
+'Jessie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g27zli/respect_jessies_arbok_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kiva (VERSUS)', 'https://redd.it/1g29o3a')
+add_data(['Kiva'],
+'Kiva',
+False,
+False,
+[
+    ['VERSUS']
+],
+'VERSUS',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g29o3a/respect_kiva_versus/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-427, Lovecraftian Locket (SCP Foundation)', 'https://redd.it/1g2ggv2')
+add_data(['SCP ?(-| )? ?427'],
+'SCP-427',
+False,
+True,
+[
+    ['Lovecraftian Locket']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g2ggv2/respect_scp427_lovecraftian_locket_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Silent Hills (P.T.)', 'https://redd.it/1g2s6m0')
+add_data(['Silent Hills?'],
+'Silent Hill',
+False,
+False,
+[
+    ['P\.?T\.?']
+],
+'P.T.',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g2s6m0/respect_silent_hills_pt/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Unnamed Predator (AVP 1999/2000)', 'https://redd.it/1g2uoxz')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Aliens Versus Predator', '1999'], ['AVP', '1999']
+],
+'Aliens Versus Predator, 1999',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g2uoxz/respect_the_unnamed_predator_avp_19992000/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Children of Loki! (Norse Mythology)', 'https://redd.it/1g446hw')
+add_data(['Children of Loki'],
+'Children of Loki',
+True,
+False,
+[
+    ['myth?(ical|olog(y|ical))'], ['Four Horsemen of the Apocalypse'], ['Norse Myth']
+],
+'Norse Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['J(ö|o)rmungandr'],
+'Jörmungandr',
+False,
+True,
+[
+    ['myth?(ical|olog(y|ical))'], ['Norse (Myth|Serpent|God|Pantheon)'], ['The World Snake'], ["Loki''s boys"]
+],
+'Norse Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['J(ö|o)rmungandr'],
+'Jörmungandr',
+False,
+False,
+[
+    ['God of War'], ['G\.?O\.?W\.? ?(Ragnarok|Versions?)'], ['Atreus']
+],
+'God of War',
+'{}'
+)
+#
+
+
+add_data(['J(ö|o)rmungandr'],
+'Jörmungandr',
+False,
+False,
+[
+    ['Worm']
+],
+'Worm',
+'{}'
+)
+#
+
+
+add_data(['Hel'],
+'Hel',
+False,
+False,
+[
+    ['myth?(ical|olog(y|ical))'], ['Norse (Myth|Serpent|God(dess)?|Pantheon)'], ["Loki''s boys"]
+],
+'Norse Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

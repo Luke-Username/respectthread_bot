@@ -14,7 +14,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Silent Hills?' WHERE name='Silent Hill';
+
 ########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/1g446hw';
+UPDATE character SET rt_id_array='{6192, ?}' WHERE rt_id_array='{6192}'; --After run
 
 ########################################
 
