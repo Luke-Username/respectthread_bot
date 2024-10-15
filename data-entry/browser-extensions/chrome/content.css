@@ -1,0 +1,9 @@
+button.clipboard-button {
+  padding: 0px;
+}
+
+img.clipboard-button-icon {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
