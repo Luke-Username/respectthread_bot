@@ -1,0 +1,25 @@
+{
+  "name": "Copy Respect Thread Titles to Clipboard",
+  "version": "0.1.0",
+  "description": "While preparing new Respect Thread data, add a button on Old Reddit to copy an RT's title and URL to clipboard",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs",
+    "clipboardWrite"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.reddit.com/r/respectthreads/comments/*",
+        "https://old.reddit.com/r/respectthreads/comments/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Copy Respect Thread Titles to Clipboard"
+  }
+}
