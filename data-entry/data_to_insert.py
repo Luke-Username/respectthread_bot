@@ -151,6 +151,82 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ash Williams (Dark Horse Comics)', 'https://redd.it/1g4a0mh')
+add_data(['Ash Williams'],
+'Ash Williams',
+False,
+False,
+[
+    ['Dark(-| )?Horse']
+],
+'Dark Horse Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g4a0mh/respect_ash_williams_dark_horse_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ash Williams (Evil Dead, video game composite)', 'https://redd.it/1g4n39s')
+add_data(['Ash Williams'],
+'Ash Williams',
+False,
+False,
+[
+    ['Evil Dead', '(video)?games?']
+],
+'Evil Dead Games',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g4n39s/respect_ash_williams_evil_dead_video_game/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Necronomicon (Evil Dead, video game composite)', 'https://redd.it/1g4ns9b')
+add_data(['Necronomicon'],
+'Necronomicon',
+False,
+False,
+[
+    ['Evil Dead', '(video)?games?']
+],
+'Evil Dead Games',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g4ns9b/respect_the_necronomicon_evil_dead_video_game/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Necronomicon Ex Mortis! (Dynamite Entertainment)', 'https://redd.it/1g4ajbx')
+add_data(['Necronomicon'],
+'Necronomicon',
+False,
+False,
+[
+    ['Dynamite Entertainment']
+],
+'Dynamite Entertainment',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g4ajbx/respect_necronomicon_ex_mortis_dynamite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Necronomicon (Dark Horse Comics)', 'https://redd.it/1g4a0pi')
+add_data(['Necronomicon'],
+'Necronomicon',
+False,
+False,
+[
+    ['Dark(-| )?Horse']
+],
+'Dark Horse Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g4a0pi/respect_the_necronomicon_dark_horse_comics/
+
+########################################
+
 id = get_rt_id(cur, "Respect Jessie''s Arbok (Pokemon Anime)", 'https://redd.it/1g27zli')
 add_data(['Arbok'],
 'Arbok',

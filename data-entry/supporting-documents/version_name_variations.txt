@@ -640,7 +640,7 @@ Dan Vs.
 
 Dark Horse Comics
 	Version
-		'{"Dark(-| )?Horse"}'
+		['Dark(-| )?Horse']
 	Displayed Version Name
 		"Dark Horse Comics"
 
