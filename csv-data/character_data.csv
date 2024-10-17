@@ -22077,8 +22077,6 @@ Takashima Yūna,"{`"is a Hero`"}",t,{6191},Nogi Wakaba is a Hero
 Kōri Chikage,"{`"is a Hero`"}",t,{6191},Nogi Wakaba is a Hero
 Doi Tamako,"{`"is a Hero`"}",t,{6191},Nogi Wakaba is a Hero
 Iyojima Anzu,"{`"is a Hero`"}",t,{6191},Nogi Wakaba is a Hero
-Fenrir,{Nor(se|dic)},t,{6192},Norse Mythology
-Fenrir,{myth?(ical|olog(y|ical))?},t,{6192},Norse Mythology
 Fenrir,"{`"Thor:? Ragnarok`"}",f,{},MCU
 Fenrir,{MCU},f,{},MCU
 Fenrir,"{`"Marvel Cinematic Universe`"}",f,{},MCU
@@ -22110,6 +22108,7 @@ Ferufivisurotte,"{`"Skeleton Knight in Another World`"}",t,{6210},Skeleton Knigh
 Ferufivisurotte,"{`"Gaikotsu Kishi(-| )sama`"}",t,{6210},Skeleton Knight in Another World
 Slenderman,{default},t,{6211},""
 Thor,{Gaiman},f,{6189},Neil Gaiman
+Fenrir,{Nor(se|dic)},t,"{6192,25439}",Norse Mythology
 Malacandra,"{`"Space Trilogy`"}",t,{6213},The Space Trilogy
 Malacandra,"{`"Silent Planet`"}",t,{6213},The Space Trilogy
 Elijah Patmos,"{`"Race X Godhood`"}",t,{6214},The Story of Elijah Patmos: Race X Godhood
@@ -32312,3 +32311,34 @@ Minions,"{`"Minions ?\\(Minions\\)`"}",f,{25423},Despicable Me
 John Aman,{616},t,{25424},616
 Prince of Orphans,{616},t,{25424},616
 SCP-253,"{`"Cancer Plague`"}",t,{25425},""
+Po,"{`"Dragon Warrior`"}",f,{1150},Kung Fu Panda
+Naturom Demonto,"{`"Evil Dead Rise`"}",t,{25426},Evil Dead Rise
+Deadites,"{`"Dynamite Entertainment`"}",f,{25427},Dynamite Entertainment
+Ash Williams,"{`"Evil Dead`",`"Space Goat`"}",f,{25428},Space Goat Productions
+Ash Williams,"{`"Dark(-| )?Horse`"}",f,{25429},Dark Horse Comics
+Ash Williams,"{`"Evil Dead`",(video)?games?}",f,{25430},Evil Dead Games
+Necronomicon,"{`"Evil Dead`",(video)?games?}",f,{25431},Evil Dead Games
+Necronomicon,"{`"Dynamite Entertainment`"}",f,{25432},Dynamite Entertainment
+Necronomicon,"{`"Dark(-| )?Horse`"}",f,{25433},Dark Horse Comics
+Arbok,{Jessies?},f,{25434},Jessie
+Kiva,{VERSUS},f,{25435},VERSUS
+SCP-427,"{`"Lovecraftian Locket`"}",t,{25436},""
+Silent Hill,"{`"P\\.?T\\.?`"}",f,{25437},P.T.
+Predator,"{`"Aliens Versus Predator`",1999}",f,{25438},"Aliens Versus Predator, 1999"
+Predator,"{AVP,1999}",f,{25438},"Aliens Versus Predator, 1999"
+Children of Loki,{myth?(ical|olog(y|ical))},f,{25439},Norse Mythology
+Children of Loki,"{`"Four Horsemen of the Apocalypse`"}",f,{25439},Norse Mythology
+Children of Loki,"{`"Norse Myth`"}",f,{25439},Norse Mythology
+Jörmungandr,{myth?(ical|olog(y|ical))},t,{25439},Norse Mythology
+Jörmungandr,"{`"Norse (Myth|Serpent|God|Pantheon)`"}",t,{25439},Norse Mythology
+Jörmungandr,"{`"The World Snake`"}",t,{25439},Norse Mythology
+Jörmungandr,"{`"Loki's boys`"}",t,{25439},Norse Mythology
+Jörmungandr,"{`"God of War`"}",f,{},God of War
+Jörmungandr,"{`"G\\.?O\\.?W\\.? ?(Ragnarok|Versions?)`"}",f,{},God of War
+Jörmungandr,{Atreus},f,{},God of War
+Jörmungandr,{Worm},f,{},Worm
+Hel,{myth?(ical|olog(y|ical))},f,{25439},Norse Mythology
+Hel,"{`"Norse (Myth|Serpent|God(dess)?|Pantheon)`"}",f,{25439},Norse Mythology
+Hel,"{`"Loki's boys`"}",f,{25439},Norse Mythology
+King Shark,"{`"King Shark ?\\(Harley Quinn`"}",f,{25440},Harley Quinn
+Fenrir,{myth?(ical|olog(y|ical))?},t,"{6192,25439}",Norse Mythology
