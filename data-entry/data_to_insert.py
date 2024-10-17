@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Akame'],
+'Akame',
+False,
+False,
+[
+    ['Who Would Win', 'Akame or']
+],
+'Akame Ga Kill!',
+'{3002}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1g5p8kp/who_would_win_akame_or_korra/lscmz1f/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
