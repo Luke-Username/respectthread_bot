@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 425, 'Respect Ash Williams (The Evil Dead Trilogy)', 'https://redd.it/1g51ig9')
+
+########################################
+
 add_data(['Po'],
 'Po',
 False,
@@ -133,6 +137,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1g25fn0/respect_the_naturom_demonto_evil_dead_rise/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Deadites! (Dynamite Entertainment)', 'https://redd.it/1g53tvm')
+add_data(['Deadites?'],
+'Deadites',
+False,
+False,
+[
+    ['Dynamite Entertainment']
+],
+'Dynamite Entertainment',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g53tvm/respect_the_deadites_dynamite_entertainment/
 
 ########################################
 
@@ -362,6 +381,21 @@ False,
     ['myth?(ical|olog(y|ical))'], ['Norse (Myth|Serpent|God(dess)?|Pantheon)'], ["Loki''s boys"]
 ],
 'Norse Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect King Shark (Harley Quinn)', 'https://redd.it/1g5bw08')
+add_data(['King Shark'],
+'King Shark',
+False,
+False,
+[
+    ['King Shark ?\(Harley Quinn']
+],
+'Harley Quinn',
 '{' + '{}'.format(id) + '}'
 )
 #
