@@ -121,6 +121,89 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ash Williams! (Dynamite Entertainment)', 'https://redd.it/1g5w77w')
+add_data(['Ash Williams'],
+'Ash Williams',
+False,
+False,
+[
+    ['Dynamite Entertainment']
+],
+'Dynamite Entertainment',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Izu Oujin (Souboutei Must Be Destroyed)', 'https://redd.it/1g5y6sz')
+add_data(['Izu Oujin'],
+'Izu Oujin',
+False,
+False,
+[
+    ['Souboutei']
+],
+'Souboutei Must Be Destroyed',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g5y6sz/respect_izu_oujin_souboutei_must_be_destroyed/
+
+########################################
+
+id = get_rt_id(cur, "Respect Wonder Woman''s Robot Plane! (DC Comics, Pre-Crisis Earth-Two)", 'https://redd.it/1g6a95v')
+add_data(["Robot Plane"],
+"Robot Plane",
+False,
+False,
+[
+    ['Wonder Woman']
+],
+'Earth-Two',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g6a95v/respect_wonder_womans_robot_plane_dc_comics/
+
+add_data(["Amazon Plane"],
+"Amazon Plane",
+False,
+False,
+[
+    ['Wonder Woman']
+],
+'Earth-Two',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g6a95v/respect_wonder_womans_robot_plane_dc_comics/
+
+add_data(["Invisible Plane"],
+"Invisible Plane",
+False,
+False,
+[
+    ['Wonder Woman']
+],
+'Earth-Two',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g6a95v/respect_wonder_womans_robot_plane_dc_comics/
+
+
+add_data(["Invisible Jet"],
+"Invisible Jet",
+False,
+False,
+[
+    ['Wonder Woman']
+],
+'Earth-Two',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g6a95v/respect_wonder_womans_robot_plane_dc_comics/
+
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
