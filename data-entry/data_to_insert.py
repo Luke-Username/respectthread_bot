@@ -201,6 +201,65 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/1g6a95v/respect_wonder_womans_robot_plane_dc_comics/
 
+########################################
+
+id = get_rt_id(cur, 'Respect Death (Castlevania)', 'https://redd.it/1g6jy2m')
+add_data(['Death'],
+'Death',
+False,
+False,
+[
+    ['Death ?\(Castle(-| )?vania']
+],
+'Castlevania',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g6jy2m/respect_death_castlevania/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dr. Herbert West, Re-Animator! (Dynamite Entertainment)', 'https://redd.it/1g6npg2')
+add_data(['Herbert West'],
+'Herbert West',
+False,
+False,
+[
+    ['Dynamite']
+],
+'Dynamite Entertainment',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g6npg2/respect_dr_herbert_west_reanimator_dynamite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Madalans (VERSUS)', 'https://redd.it/1g6rs09')
+add_data(['Madalans'],
+'Madalans',
+False,
+False,
+[
+    ['VERSUS']
+],
+'VERSUS',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g6rs09/respect_the_madalans_versus/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jachi (VERSUS)', 'https://redd.it/1g6rs1v')
+add_data(['Jachi'],
+'Jachi',
+False,
+False,
+[
+    ['VERSUS']
+],
+'VERSUS',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g6rs1v/respect_jachi_versus/
 
 ########################################
 
