@@ -142,12 +142,27 @@ add_data(['Izu Oujin'],
 False,
 False,
 [
-    ['Souboutei']
+    ['S(ō|o)u?b(ō|o)u?tei']
 ],
-'Souboutei Must Be Destroyed',
+'Sōbōtei Must Be Destroyed',
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1g5y6sz/respect_izu_oujin_souboutei_must_be_destroyed/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Seiichi Takoha (Souboutei Must Be Destroyed)', 'https://redd.it/1g8r9q1')
+add_data(['Seiichi Takoha'],
+'Seiichi Takoha',
+False,
+True,
+[
+    ['S(ō|o)u?b(ō|o)u?tei']
+],
+'Sōbōtei Must Be Destroyed',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g8r9q1/respect_seiichi_takoha_souboutei_must_be_destroyed/
 
 ########################################
 
@@ -200,6 +215,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1g6a95v/respect_wonder_womans_robot_plane_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Golden Age Wonder Woman! (DC Comics, Pre-Crisis Earth-Two)', 'https://redd.it/1g82vsq')
+add_data(["Wonder ?Woman"],
+'Wonder Woman',
+False,
+False,
+[
+    ['Golden Age'], ['Pre(-| )?Crisis'], ['Earth(-| )Two']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g82vsq/respect_the_golden_age_wonder_woman_dc_comics/
 
 ########################################
 
@@ -260,6 +290,63 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1g6rs1v/respect_jachi_versus/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ash Williams (RetroRealms: Ash vs Evil Dead)', 'https://redd.it/1g7edhf')
+add_data(['Ash Williams'],
+'Ash Williams',
+False,
+False,
+[
+    ['RetroRealms']
+],
+'RetroRealms',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sy Borgman (Harley Quinn)', 'https://redd.it/1g9dq80')
+add_data(['Sy Borgman'],
+'Sy Borgman',
+False,
+False,
+[
+    ['Harley Quinn', 'HBO|DC TV']
+],
+'Harley Quinn',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g9dq80/respect_sy_borgman_harley_quinn/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aeon Calcos / Lizardman (Soulcalibur)', 'https://redd.it/1g9e4g0')
+add_data(['Lizardman'],
+'Lizardman',
+False,
+False,
+[
+    ['Soul ?calibur']
+],
+'Soulcalibur',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Aeon Calcos'],
+'Aeon Calcos',
+False,
+False,
+[
+    ['Soul ?calibur']
+],
+'Soulcalibur',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g9e4g0/respect_aeon_calcos_lizardman_soulcalibur/
 
 ########################################
 
