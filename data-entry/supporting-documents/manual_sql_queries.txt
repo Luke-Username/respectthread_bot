@@ -14,13 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-
-UPDATE character_name SET name='Cut ?Man' WHERE character_name='Cut Man';
-
 ########################################
-
-SELECT * FROM respectthread WHERE link='https://redd.it/1g82vsq';
-UPDATE character SET rt_id_array='{1852,1853, ?}' WHERE rt_id_array='{1852,1853}'; --After run
 
 ########################################
 

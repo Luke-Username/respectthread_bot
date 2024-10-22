@@ -8386,7 +8386,7 @@ Green Lantern,"{`"Earth(-| )(6|Six)`"}",f,{1687},Earth 6
 Green Lantern,"{`"Len Lewis`"}",f,{1687},Earth 6
 Superman,"{`"Earth(-| )(6|Six)`"}",f,{1787},Earth 6
 Shooting Star,"{`"Shooting Star ?\\(616`"}",f,{2324},616
-Wonder Woman,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1852,1853}",DC
+Wonder Woman,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1852,1853,25445}",DC
 Cyborg,{Batman},f,"{1646,1828}",DC
 Mario Bros,"{`"Great Mission to Rescue Princess Peach`"}",f,{8271},The Great Mission to Rescue Princess Peach!
 Mario,"{`"Great Mission to Rescue Princess Peach`"}",f,{8271},The Great Mission to Rescue Princess Peach!
@@ -32342,3 +32342,22 @@ Hel,"{`"Norse (Myth|Serpent|God(dess)?|Pantheon)`"}",f,{25439},Norse Mythology
 Hel,"{`"Loki's boys`"}",f,{25439},Norse Mythology
 King Shark,"{`"King Shark ?\\(Harley Quinn`"}",f,{25440},Harley Quinn
 Fenrir,{myth?(ical|olog(y|ical))?},t,"{6192,25439}",Norse Mythology
+Akame,"{`"Who Would Win`",`"Akame or`"}",f,{3002},Akame Ga Kill!
+Ash Williams,"{`"Dynamite Entertainment`"}",f,{25441},Dynamite Entertainment
+Izu Oujin,{S(ō|o)u?b(ō|o)u?tei},f,{25442},Sōbōtei Must Be Destroyed
+Seiichi Takoha,{S(ō|o)u?b(ō|o)u?tei},t,{25443},Sōbōtei Must Be Destroyed
+Robot Plane,"{`"Wonder Woman`"}",f,{25444},Earth-Two
+Amazon Plane,"{`"Wonder Woman`"}",f,{25444},Earth-Two
+Invisible Plane,"{`"Wonder Woman`"}",f,{25444},Earth-Two
+Invisible Jet,"{`"Wonder Woman`"}",f,{25444},Earth-Two
+Wonder Woman,"{`"Golden Age`"}",f,{25445},Pre-Crisis
+Wonder Woman,"{`"Pre(-| )?Crisis`"}",f,{25445},Pre-Crisis
+Wonder Woman,"{`"Earth(-| )Two`"}",f,{25445},Pre-Crisis
+Death,"{`"Death ?\\(Castle(-| )?vania`"}",f,{25446},Castlevania
+Herbert West,{Dynamite},f,{25447},Dynamite Entertainment
+Madalans,{VERSUS},f,{25448},VERSUS
+Jachi,{VERSUS},f,{25449},VERSUS
+Ash Williams,{RetroRealms},f,{25450},RetroRealms
+Sy Borgman,"{`"Harley Quinn`",`"HBO|DC TV`"}",f,{25451},Harley Quinn
+Lizardman,"{`"Soul ?calibur`"}",f,{25452},Soulcalibur
+Aeon Calcos,"{`"Soul ?calibur`"}",f,{25452},Soulcalibur
