@@ -107,6 +107,128 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 197, 'Respect Mechagodzilla (Godzilla Franchise, Showa Continuity)', 'https://redd.it/1g9gvub')
+
+########################################
+
+add_data(['Scare ?crow'],
+'Scarecrow',
+False,
+False,
+[
+    ['Batman', 'Scar(es?|ing']
+],
+'DC',
+'{1557,1558}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1g9t8tw/who_can_become_the_next_pumpkin_king/lt8kvnm/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sakamaki Deido (Souboutei Must Be Destroyed)', 'https://redd.it/1g9o92u')
+add_data(['(Sakamaki Deido|Deido Sakamaki)'],
+'Sakamaki Deido',
+False,
+True,
+[
+    ['S(ō|o)u? ?b(ō|o)u? ?tei']
+],
+'Sōbōtei Must Be Destroyed',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g9qmae/respect_souboutei_souboutei_must_be_destroyed/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Souboutei! (Souboutei Must Be Destroyed)', 'https://redd.it/1g9qmae')
+add_data(['S(ō|o)u? ?b(ō|o)u? ?tei'],
+'Sōbōtei',
+False,
+True,
+[
+    ['S(ō|o)u? ?b(ō|o)u? ?tei Must Be Destroyed'], ['Kowasubeshi']
+],
+'Sōbōtei Must Be Destroyed',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g9qmae/respect_souboutei_souboutei_must_be_destroyed/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Prince (AVP2)', 'https://redd.it/1g9pljc')
+add_data(['Prince'],
+'Prince',
+False,
+False,
+[
+    ['Aliens versus Predator 2'], ['AVP2']
+],
+'Aliens versus Predator 2',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1g9pljc/respect_prince_avp2/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Deep Ones (H.P. Lovecraft)', 'https://redd.it/1gb2zbu')
+add_data(['The Deep Ones'],
+'The Deep Ones',
+False,
+False,
+[
+    ['Lovecraft']
+],
+'Lovecraft',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gb2zbu/respect_the_deep_ones_hp_lovecraft/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doc Savage, the Man of Bronze! (DC Comics, First Wave)', 'https://redd.it/1gb36rv')
+add_data(['Doc Savage'],
+'Doc Savage',
+False,
+False,
+[
+    ['First Wave']
+],
+'First Wave',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gb36rv/respect_doc_savage_the_man_of_bronze_dc_comics/
+#https://dc.fandom.com/wiki/First_Wave
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Necronomicon (RetroRealms: Ash vs Evil Dead)', 'https://redd.it/1gbdk21')
+add_data(['Necronomicon'],
+'Necronomicon',
+False,
+False,
+[
+    ['RetroRealms']
+],
+'RetroRealms',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gbdk21/respect_the_necronomicon_retrorealms_ash_vs_evil/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Electric Guitar Grumer! (Bakuage Sentai BoonBoomger)', 'https://redd.it/1gb3kgn')
+add_data(['Electric Guitar Grumer'],
+'Electric Guitar Grumer',
+False,
+True,
+[
+    ['Bakuage Sentai BoonBoomger']
+],
+'Bakuage Sentai BoonBoomger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gb3kgn/respect_electric_guitar_grumer_bakuage_sentai/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

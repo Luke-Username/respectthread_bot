@@ -3156,6 +3156,12 @@ Soul Eater
 	Displayed Version Name
 		"Soul Eater"
 
+Souboutei Must Be Destroyed / Sōbōtei Kowasubeshi
+	Version
+		['S(ō|o)u? ?b(ō|o)u? ?tei']
+	Displayed Version Name
+		"Sōbōtei Must Be Destroyed"
+
 The Spectacular Spider-Man
 	Version
 		'{"Spectacular Spider(-| )?Man"}'
