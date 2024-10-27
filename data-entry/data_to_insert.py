@@ -231,6 +231,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Berserker! (Fate/Lost Einherjar)', 'https://redd.it/1gbxxt4')
+add_data(['Ragnar Lodbrok'],
+'Ragnar Lodbrok',
+False,
+False,
+[
+    ['Fate'], ['Lost Einherjar']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gbxxt4/respect_berserker_fatelost_einherjar/
+
+########################################
+
+id = get_rt_id(cur, "Respect Spooky (Spooky''s Jump Scare Mansion)", 'https://redd.it/1gc6k1n')
+add_data(['Spooky'],
+'Spooky',
+False,
+False,
+[
+    ["Spooky''?s Jump Scare Mansion"]
+],
+"Spooky''s Jump Scare Mansion",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gc6k1n/respect_spooky_spookys_jump_scare_mansion/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
