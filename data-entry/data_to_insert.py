@@ -107,6 +107,68 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6601, 'Respect Detective Valiant (Who Framed Roger Rabbit)', 'https://redd.it/1gdhpnb')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tenkyu! (Sakamoto Days)', 'https://redd.it/1gdh53a')
+add_data(['Tenkyu'],
+'Tenkyu',
+False,
+False,
+[
+    ['Sakamoto Days']
+],
+'Sakamoto Days',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gdh53a/respect_tenkyu_sakamoto_days/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Raven Beak (Metroid Dread)', 'https://redd.it/1ge21yf')
+add_data(['Raven Beak'],
+'Raven Beak',
+False,
+True,
+[
+    ['Metroid']
+],
+'Metroid',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ge21yf/respect_raven_beak_metroid_dread/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Caster! (Fate/Lost Einherjar)', 'https://redd.it/1ge41l8')
+add_data(['Baba Yaga'],
+'Baba Yaga',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ge41l8/respect_caster_fatelost_einherjar/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rider! (Fate/Lost Einherjar)', 'https://redd.it/1ge6qzc')
+add_data(['Sinfj(ö|o)tli'],
+'Sinfjötli',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ge6qzc/respect_rider_fatelost_einherjar/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
