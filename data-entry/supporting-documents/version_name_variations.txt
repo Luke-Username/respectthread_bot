@@ -825,7 +825,7 @@ The Disastrous Life of Saiki K.
 
 Discworld
 	Version
-		'{"Dis(c|k) ?world"}'
+		['Dis(c|k) ?world']
 	Displayed Version Name
 		"Discworld"
 
