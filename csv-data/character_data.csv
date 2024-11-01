@@ -30936,8 +30936,6 @@ Evie of the Isle,{Descendants},t,{24423},Descendants
 Harry Hook,{Descendants},f,{24423},Descendants
 Carlos de Vil,{Descendants},t,{24423},Descendants
 Necronomicon,{Lovecraft},t,{24604},Lovecraft
-Necronomicon,"{`"Evil Dead`"}",f,{},Evil Dead
-Necronomicon,"{`"ex(-| )mortis`"}",f,{},Evil Dead
 Millennium Items,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{24605},Yu-Gi-Oh!
 Millennium Eye,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{24605},Yu-Gi-Oh!
 Millennium Necklace,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{24605},Yu-Gi-Oh!
@@ -30949,6 +30947,8 @@ Jay,"{`"Prince Sultan Jay`"}",f,{24423},Descendants
 Jay,{Descendants},f,{24423},Descendants
 Gil,"{`"Gil(bert)? LeGume`"}",f,{24423},Descendants
 Gil,"{`"Gil ?\\(Descendants\\)`"}",f,{24423},Descendants
+Necronomicon,"{`"Evil Dead`"}",f,{25466},Evil Dead
+Necronomicon,"{`"ex(-| )mortis`"}",f,{25466},Evil Dead
 Lonnie,"{`"Li Lonnie`"}",f,{24423},Descendants
 Lonnie,{Descendants},f,{24423},Descendants
 Chad Charming,{Descendants},t,{24423},Descendants
@@ -32377,3 +32377,14 @@ Tenkyu,"{`"Sakamoto Days`"}",f,{25462},Sakamoto Days
 Raven Beak,{Metroid},t,{25463},Metroid
 Baba Yaga,{Fate},f,{25464},Fate
 Sinfjötli,{Fate},f,{25465},Fate
+Thing,"{Xenomorph,`"The Thing`",`"shape ?shift(ing)?`"}",f,{14803},John Carpenter
+Garrett Hopper,"{`"Drunk Bullet`"}",f,{25467},Drunk Bullet
+Aslaug,"{`"Aslaug ?\\(Fate`"}",f,{25468},Fate
+Aslaug,"{`"Lost Einherjar`"}",f,{25468},Fate
+Susan Sto Helit,"{`"Dis(c|k) ?world`"}",t,{25469},Discworld
+Deadites,"{`"Evil Dead`"}",t,{25470},Evil Dead
+Addams Family,{1991},f,{25471},1991
+Bentley Wittman,{616},t,{25472},616
+Wizard,"{`"Frightful Four`",616|Marvel}",f,{25472},616
+Tinkerer,"{`"Spider(-| )?Man:? Miles Morales`"}",f,{25473},Insomniac's Spider-Man
+Tinkerer,"{Insomniacs?,`"Spider(-| )?Man`"}",f,{25473},Insomniac's Spider-Man
