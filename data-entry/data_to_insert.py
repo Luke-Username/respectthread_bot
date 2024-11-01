@@ -199,6 +199,50 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/1gghwz3/respect_the_addams_family_the_addams_family_1991/
 
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bentley Wittman, The Wizard (Marvel Comics, 616)', 'https://redd.it/1gh4czb')
+add_data(['Bentley Wittman'],
+'Bentley Wittman',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gh4czb/respect_bentley_wittman_the_wizard_marvel_comics/
+
+add_data(['Wizard'],
+'Wizard',
+False,
+False,
+[
+    ['Frightful Four', '616|Marvel']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gh4czb/respect_bentley_wittman_the_wizard_marvel_comics/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Phin Mason, the Tinkerer (Spider-Man: Miles Morales)', 'https://redd.it/1gh4d0e')
+add_data(['Tinkerer'],
+'Tinkerer',
+False,
+False,
+[
+    ['Spider(-| )?Man:? Miles Morales'], ['Insomniacs?', 'Spider(-| )?Man']
+],
+"Insomniac''s Spider-Man",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gh4d0e/respect_phin_mason_the_tinkerer_spiderman_miles/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
