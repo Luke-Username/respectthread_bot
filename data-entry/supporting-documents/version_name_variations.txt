@@ -1534,7 +1534,7 @@ Howl's Moving Castle
 
 How to Train Your Dragon
 	Version
-		'{"How to Train Your Dragon"}', '{"HTTYD"}', '{"DreamWorks"}'
+		['How ?to ?Train ?Your ?Dragon'], ['HTTYD'], ['DreamWorks']
 	Displayed Version Name
 		"How to Train Your Dragon"
 
