@@ -285,6 +285,81 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Mad-Man (Primal)', 'https://redd.it/1glhpc9')
+add_data(['Mad(-| )?Man'],
+'Mad-Man',
+False,
+False,
+[
+    ['Primal']
+],
+'Primal',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1glhpc9/respect_the_madman_primal/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lord Darlington (Primal)', 'https://redd.it/1glhpos')
+add_data(['Lord Darlington'],
+'Lord Darlington',
+False,
+False,
+[
+    ['Primal']
+],
+'Primal',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1glhpos/respect_lord_darlington_primal/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Bull Shark (Maneater)', 'https://redd.it/1gk96t0')
+add_data(['Shark'],
+'Shark',
+False,
+False,
+[
+    ['Maneater']
+],
+'Maneater',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gk96t0/respect_the_bull_shark_maneater/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roxanne (Pokemon Anime)', 'https://redd.it/1glbjcr')
+add_data(['Roxanne'],
+'Roxanne',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1glbjcr/respect_roxanne_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wiccan (Marvel Cinematic Universe)', 'https://redd.it/1gln4d4')
+add_data(['Wiccan'],
+'Wiccan',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
