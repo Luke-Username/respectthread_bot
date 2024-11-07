@@ -6996,7 +6996,6 @@ Superman,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{7632,1761,1756}",DC
 Superboy-Prime,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{1763},""
 Bizarro,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1764,1793}",DC
 Thara Ak-Var,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{1765},DC
-Brainiac,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{1795},DC
 Professor Zoom,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1587,7686}",DC
 Reverse-Flash,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1587,7686,8176}",DC
 Jason,"{`"Jason \\((DC )?Rebirth`"}",f,{7707},Rebirth
@@ -7053,6 +7052,7 @@ Blade,"{`"Blade ?\\(Marvel`"}",f,{2204},616
 Vishanti,{comics?},t,{},616
 Satana,{Jojos?(verse)?},f,{3544},Jojo's Bizarre Adventure
 Wired Beck,{Jojos?(verse)?},t,{10829},Jojo's Bizarre Adventure
+Brainiac,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1795,25474}",DC
 Killer Croc,"{`"\\(Arkham\\)`"}",f,"{5533,6381}",Batman: Arkham
 Willow Rosenberg,"{`"\\(Buffy\\)`"}",t,{7490},Buffy the Vampire Slayer
 Dan,"{`"\\(Dan vs\\)`"}",f,{1037},(Dan Vs.)
@@ -32388,3 +32388,25 @@ Bentley Wittman,{616},t,{25472},616
 Wizard,"{`"Frightful Four`",616|Marvel}",f,{25472},616
 Tinkerer,"{`"Spider(-| )?Man:? Miles Morales`"}",f,{25473},Insomniac's Spider-Man
 Tinkerer,"{Insomniacs?,`"Spider(-| )?Man`"}",f,{25473},Insomniac's Spider-Man
+Grimmel,"{`"How ?to ?Train ?Your ?Dragon`"}",f,{25475},How to Train Your Dragon
+Grimmel,{HTTYD},f,{25475},How to Train Your Dragon
+Grimmel,{DreamWorks},f,{25475},How to Train Your Dragon
+Deathgrippers,"{`"How ?to ?Train ?Your ?Dragon`"}",f,{25475},How to Train Your Dragon
+Deathgrippers,{HTTYD},f,{25475},How to Train Your Dragon
+Deathgrippers,{DreamWorks},f,{25475},How to Train Your Dragon
+Piraka,"{`"Bionicle Heroes`"}",f,{25476},Bionicle Heroes
+Toa,"{`"Bionicle Heroes`"}",f,{25477},Bionicle Heroes
+Vezon,"{`"Bionicle Heroes`"}",f,{25478},Bionicle Heroes
+Starscream,"{`"Transformers One`"}",f,{25479},Transformers One
+Airachnid,"{`"Transformers One`"}",f,{25480},Transformers One
+Alpha Trion,"{`"Transformers One`"}",f,{25481},Transformers One
+Sentinel Prime,"{`"Transformers One`"}",f,{25482},Transformers One
+Hill People,"{`"Hills Have Eyes`"}",f,{25483},The Hills Have Eyes
+Mother,"{`"Mother ?\\(mother!\\)`"}",f,{25484},mother!
+Krog,{Primal},f,{25485},Primal
+Mad-Man,{Primal},f,{25486},Primal
+Lord Darlington,{Primal},f,{25487},Primal
+Shark,{Maneater},f,{25488},Maneater
+Roxanne,{Pok(e|é)m(o|a)n},f,{25489},Pokémon
+Wiccan,"{`"Marvel Cinematic Universe`"}",f,{25490},MCU
+Wiccan,{MCU},f,{25490},MCU
