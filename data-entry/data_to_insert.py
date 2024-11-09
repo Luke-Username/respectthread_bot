@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['A Minion'],
+'A Minion',
+False,
+False,
+[
+    ['Despicable Me']
+],
+'Despicable Me',
+'{25423}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Batman! (Batman: The Telltale Series)', 'https://redd.it/1gm2yvg')
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Telltale Batman'], ['Batman.*Telltale Series']
+],
+'Batman: the Telltale Series',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
