@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Zeus'],
+'Zeus',
+False,
+False,
+[
+    ['DC Zeus']
+],
+'DC',
+'{17373}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1godldp/marvel_odin_vs_dc_zeus/lwi366t/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
