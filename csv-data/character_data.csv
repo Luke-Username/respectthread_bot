@@ -1119,7 +1119,6 @@ Agent Thompson,{Matrix},t,{275},The Matrix
 King Arthur,"{`"Monty Python`"}",f,{285},Monty Python and the Holy Grail
 King Arthur,{Spamalot},f,{285},Monty Python and the Holy Grail
 Mewtwo,"{`"Detective Pikachu`"}",f,{287},Detective Pikachu
-Sing,"{`"Shaolin Soccer`"}",f,{295},Shaolin Soccer
 Team Evil,"{`"Shaolin Soccer`"}",f,{293},Shaolin Soccer
 Warren Peace,"{`"Sky High`"}",t,{297},Sky High
 T-850,{Terminator},t,{330},Terminator
@@ -1144,6 +1143,7 @@ The Revengers,{movies},f,"{258,264,251,267,236}",MCU
 The Revengers,{Ragnarok},f,"{258,264,251,267,236}",MCU
 Surtur,"{`"Marvel Cinematic`"}",f,{262},MCU
 Surtur,{MCU},f,{262},MCU
+Sing,"{`"Shaolin Soccer`"}",f,"{295,294}",Shaolin Soccer
 Surtur,{199999},f,{262},MCU
 Surtur,{movie},f,{262},MCU
 Surtur,{movies},f,{262},MCU
@@ -1219,7 +1219,6 @@ Neo,{Matrix},f,{278},The Matrix
 Rabbit,"{`"Monty Python`"}",f,{6507},Monty Python and the Holy Grail
 Rabbit,{Spamalot},f,{6507},Monty Python and the Holy Grail
 Pikachu,"{`"Detective Pikachu`"}",f,{289},Detective Pikachu
-Sing,"{`"Mighty Steel Leg`"}",f,{295},Shaolin Soccer
 Super,"{`"Shaolin Soccer`"}",f,{293},Shaolin Soccer
 Will,"{`"Sky High`"}",f,{298},Sky High
 Harry Osborn,{Garfield},f,{301},Raimiverse Spider-Man
@@ -1268,6 +1267,7 @@ The Commander,"{`"Sky High`"}",f,{296},Sky High
 Sky High,"{`"Sky High`"}",t,"{298,297,296}",Sky High
 Harry Osborn,"{`"Amazing Spider(-| )?Mans?`"}",f,{301},Raimiverse Spider-Man
 Dante,"{`"Full ?metal`"}",f,{3416},Fullmetal Alchemist
+Sing,"{`"Mighty Steel Leg`"}",f,"{295,294}",Shaolin Soccer
 Terminatrix,{Terminator},t,{328},Terminator
 Terminatrix,{T-3},t,{328},Terminator
 Terminatrix,{T3},t,{328},Terminator
@@ -32410,3 +32410,17 @@ Shark,{Maneater},f,{25488},Maneater
 Roxanne,{Pok(e|é)m(o|a)n},f,{25489},Pokémon
 Wiccan,"{`"Marvel Cinematic Universe`"}",f,{25490},MCU
 Wiccan,{MCU},f,{25490},MCU
+A Minion,"{`"Despicable Me`"}",f,{25423},Despicable Me
+Batman,"{`"Telltale Batman`"}",f,{25491},Batman: the Telltale Series
+Batman,"{`"Batman.*Telltale Series`"}",f,{25491},Batman: the Telltale Series
+Beatriz da Costa,"{`"(Post(-| ))Flash(-| )?point`"}",f,{25492},Post-Flashpoint
+Beatriz da Costa,"{`"\\(DC( Comics)?\\)`"}",t,{25492},DC
+Beatriz da Costa,"{`"\\[DC( Comics)?\\]`"}",t,{25492},DC
+Tora Olafsdotter,"{`"(Post(-| ))Flash(-| )?point`"}",f,{25493},Post-Flashpoint
+Tora Olafsdotter,"{`"\\(DC( Comics)?\\)`"}",t,{25493},DC
+Tora Olafsdotter,"{`"\\[DC( Comics)?\\]`"}",t,{25493},DC
+Vamdemon,{Digimon},t,{25495},Digimon
+Viking Chieftain,{Primal},f,{25496},Primal
+Superman,"{`"Superman Hot Cocoa Mix`"}",f,{25497},Superman Hot Cocoa Mix
+Roz,"{`"The Wild Robot`"}",f,{25498},The Wild Robot
+Iron Star,"{`"20th Century Men`"}",f,{25499},20th Century Men
