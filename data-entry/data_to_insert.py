@@ -107,6 +107,48 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Mark'],
+'Mark',
+False,
+False,
+[
+    ['Mark ?\(Invincible']
+],
+'Invincible',
+'{1961,17671}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1gu15ot/goku_dragon_ball_daima_vs_mark_invincible/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Mutant Leader (The Dark Knight Returns Animated Movie)', 'https://redd.it/1gu6rbs')
+add_data(['Mutant Leader'],
+'Mutant Leader',
+False,
+False,
+[
+    ['Dark Knight Returns', 'Animated|2013']
+],
+'The Dark Knight Returns Animated',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gu6rbs/respect_the_mutant_leader_the_dark_knight_returns/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Elder God (Legacy of Kain)', 'https://redd.it/1gu6s31')
+add_data(['Elder God'],
+'Elder God',
+False,
+False,
+[
+    ['Legacy of Kain']
+],
+'Legacy of Kain',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gu6s31/respect_the_elder_god_legacy_of_kain/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
