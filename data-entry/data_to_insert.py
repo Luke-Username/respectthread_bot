@@ -107,52 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 2293, 'Respect Mister Negative! (Marvel, Earth-616)', 'https://redd.it/1gs0mm6')
-
-########################################
-
-add_data(['Zeus'],
-'Zeus',
-False,
-False,
-[
-    ['DC Zeus']
-],
-'DC',
-'{17373}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/1godldp/marvel_odin_vs_dc_zeus/lwi366t/?context=3
-
-########################################
-
-id = get_rt_id(cur, "Respect Misokatsun (Dragon Ball Z: The World''s Strongest)", 'https://redd.it/1gshw05')
-add_data(['Misokatsun'],
-'Misokatsun',
-False,
-False,
-[
-    ['Dragon ?Ball']
-],
-'Dragon Ball',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-########################################
-
-id = get_rt_id(cur, 'Respect The Predators (AVP Extinction)', 'https://redd.it/1gsvs4v')
-add_data(['Predators'],
-'Predators',
-False,
-False,
-[
-    ['(Aliens Versus Predator|AVP):? Extinction']
-],
-'Aliens Versus Predator: Extinction',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1gsvs4v/respect_the_predators_avp_extinction/
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
