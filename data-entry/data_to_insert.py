@@ -151,6 +151,83 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Exar Kun (Star Wars)', 'https://redd.it/39vbpd')
+add_data(['Exar Kun'],
+'Exar Kun',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1gvkbhn/exar_kun_star_wars_vs_billy_adventure_time/ly2fx1a/?context=3
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Witch (Into the Woods (Film))', 'https://redd.it/1gubw94')
+add_data(['Witch'],
+'Witch',
+False,
+False,
+[
+    ['Witch.*Into the Woods'], ['Into the Woods', '2014'], ['Into the Woods.*(movie|film)']
+],
+'Into the Woods',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, '[NSFW] Respect the Heretic Slayer Knight! (The Knight Who Murders Yuri Ruiners)', 'https://redd.it/1guur28')
+add_data(['Knight'],
+'Knight',
+False,
+False,
+[
+    ['Knight Who M.rders Yuri Ruiners'], ['Heretic Slayer Series']
+],
+'The Knight Who Murders Yuri Ruiners',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1guur28/nsfw_respect_the_heretic_slayer_knight_the_knight/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Metal Sonic (Death Battle)', 'https://redd.it/1gvwkvk')
+add_data(['Metal Sonic'],
+'Metal Sonic',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gvwkvk/respect_metal_sonic_death_battle/
+
+########################################
+
+id = get_rt_id(cur, "Respect Doctor Doom (The Avengers: Earth''s Mightiest Heroes)", 'https://redd.it/1gw4fn2')
+add_data(['Victor Von Doom'],
+'Doctor Doom',
+False,
+False,
+[
+    ['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH'],
+	["Earth''?s? Mightiest Heroes", 'Disney']
+],
+"Earth''s Mightiest Heroes",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
