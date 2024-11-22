@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Daune'],
+'Daune',
+False,
+False,
+[
+    ['Unsounded']
+],
+'Unsounded',
+'{2984}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1gxc384/drizzt_dnd_vs_daune_unsounded/
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Mutant Leader (The Dark Knight Returns Animated Movie)', 'https://redd.it/1gu6rbs')
 add_data(['Mutant Leader'],
 'Mutant Leader',
@@ -225,6 +239,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jack (Bioshock)', 'https://redd.it/1gx81zb')
+add_data(['Jack'],
+'Jack',
+False,
+False,
+[
+    ['Jack.*Bio ?Shock']
+],
+'BioShock',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gx81zb/respect_jack_bioshock/
 
 ########################################
 
