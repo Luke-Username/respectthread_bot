@@ -255,6 +255,148 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/1gx81zb/respect_jack_bioshock/
 
+
+########################################
+
+id = get_rt_id(cur, 'Respect P/Pinocchio (Lies of P)', 'https://redd.it/1gxl8a9')
+add_data(['P'],
+'P',
+False,
+False,
+[
+    ['P.*Lies of P']
+],
+'Lies of P',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Pinocchio'],
+'Pinocchio',
+False,
+False,
+[
+    ['Lies of P']
+],
+'Lies of P',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gxl8a9/respect_ppinocchio_lies_of_p/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (Marvels Predator vs Black Panther)', 'https://redd.it/1gyyhoc')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Predator vs Black Panther']
+],
+'Predator vs Black Panther',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gyyhoc/respect_the_predators_marvels_predator_vs_black/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rexy (Night at the Museum)', 'https://redd.it/1gz34ul')
+add_data(['Rexy'],
+'Rexy',
+False,
+False,
+[
+    ['Night at the Museum']
+],
+'Night at the Museum',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gz34ul/respect_rexy_night_at_the_museum/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Larry Daley (Night at the Museum)', 'https://redd.it/1gz5kt7')
+add_data(['Larry Daley'],
+'Larry Daley',
+False,
+False,
+[
+    ['Night at the Museum']
+],
+'Night at the Museum',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gz5kt7/respect_larry_daley_night_at_the_museum/
+
+add_data(['Larry'],
+'Larry',
+False,
+False,
+[
+    ['Night at the Museum']
+],
+'Night at the Museum',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gz5kt7/respect_larry_daley_night_at_the_museum/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 72: the Mysterium Armor (Marvel, Earth-616)', 'https://redd.it/1gz4z3z')
+add_data(['Mysterium Armor'],
+'Mysterium Armor',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gz4z3z/respect_iron_man_model_72_the_mysterium_armor/
+
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 72']
+],
+'Mysterium Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gz4z3z/respect_iron_man_model_72_the_mysterium_armor/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 73: the Sentinel Buster (Marvel, Earth-616)', 'https://redd.it/1gz503s')
+add_data(['Sentinel Buster'],
+'Sentinel Buster',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gz4z3z/respect_iron_man_model_72_the_mysterium_armor/
+
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 73']
+],
+'Sentinel Buster',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
