@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13507, 'Respect The Predators (Dark Horse)', 'https://redd.it/1dyersj')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kristoff & Sven (Frozen)', 'https://redd.it/1bfe363')
+add_data(['Kristoff'],
+'Kristoff',
+False,
+False,
+[
+    ['Frozen'], ['Kristoff Bjorgman']
+],
+'Frozen',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hans Westergaard (Frozen)', 'https://redd.it/1b4jtot')
+add_data(['Hans'],
+'Hans',
+False,
+False,
+[
+    ['Hans ?\(Frozen'], ['Westergaard']
+],
+'Frozen',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1byn3qo/kristoff_bjorgman_frozen_vs_hans_westergaard/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
