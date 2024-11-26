@@ -298,7 +298,6 @@ Hell Bros,"{`"Kamen Rider`"}",f,{63},Kamen Rider Build
 Riderman,"{`"Kamen Rider`"}",t,{64},Kamen Rider V3
 Black Bolt,{MCU},f,{65},Inhumans/MCU
 Eli Morrow,{MCU},f,{66},Agents of SHIELD/MCU
-Hive,{MCU},f,{67},Agents of SHIELD/MCU
 Alveus,{MCU},t,{67},Agents of SHIELD/MCU
 Agent Peggy Carter,{MCU},f,{68},Marvel Cinematic Universe
 Quake,{MCU},f,{69},Agents of SHIELD
@@ -32441,3 +32440,17 @@ Doctor Doom,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{25508},Earth's Mighti
 Doctor Doom,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{25508},Earth's Mightiest Heroes
 Doctor Doom,"{`"A(vengers)?: ?EMH`"}",f,{25508},Earth's Mightiest Heroes
 Doctor Doom,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{25508},Earth's Mightiest Heroes
+Jack,"{`"Jack.*Bio ?Shock`"}",f,{25509},BioShock
+P,"{`"P.*Lies of P`"}",f,{25510},Lies of P
+Pinocchio,"{`"Lies of P`"}",f,{25510},Lies of P
+Predators,"{`"Predator vs Black Panther`"}",f,{25511},Predator vs Black Panther
+Rexy,"{`"Night at the Museum`"}",f,{25512},Night at the Museum
+Larry Daley,"{`"Night at the Museum`"}",f,{25513},Night at the Museum
+Larry,"{`"Night at the Museum`"}",f,{25513},Night at the Museum
+Mysterium Armor,{616},t,{25514},616
+Iron Man,"{`"Model 72`"}",f,{25514},Mysterium Armor
+Sentinel Buster,{616},f,{25515},616
+Desire of The Endless,{DC},t,{25516},DC
+Desire of The Endless,{Sandman},t,{25516},DC
+Desire,"{`"Desire ?\\(The Sandman`"}",f,{25516},DC
+Desire,"{Endless,Sandman}",f,{25516},DC
