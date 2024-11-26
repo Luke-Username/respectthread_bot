@@ -370,7 +370,7 @@ BIONICLE
 
 BioShock
 	Version
-		'{"Bio ?Shock"}'
+		['Bio ?Shock']
 	Specific
 		'{"Infinite"}', '{"Columbia"}', '{"Booker"}'
 	Displayed Version Name
