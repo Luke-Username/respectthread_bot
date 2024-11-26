@@ -399,6 +399,33 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Desire of The Endless (DC Comics, The Sandman)', 'https://redd.it/1gzwhlv')
+add_data(['Desire of The Endless'],
+'Desire of The Endless',
+False,
+True,
+[
+    ['DC'], ['Sandman']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1gzwhlv/respect_desire_of_the_endless_dc_comics_the/
+
+add_data(['Desire'],
+'Desire',
+False,
+False,
+[
+    ['Desire ?\(The Sandman'], ['Endless', 'Sandman']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1618dql/desire_the_sandman_vs_slaanesh_warhammer/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
