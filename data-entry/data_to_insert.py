@@ -111,6 +111,34 @@ update_respectthread(cur, 13507, 'Respect The Predators (Dark Horse)', 'https://
 
 ########################################
 
+add_data(['Steve'],
+'Steve',
+False,
+False,
+[
+    ['Steve.*Netherite']
+],
+'Minecraft',
+'{5647}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1gzc4z6/who_wins_robloxian_vs_steve/lz6zfbv/?context=3
+
+########################################
+
+add_data(['Constantine'],
+'Constantine',
+False,
+False,
+[
+    ['Constantine ?\(DC( Comics)?\)']
+],
+'DC',
+'{22129,1704}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1h0zydw/who_would_caine_world_of_darkness_or_constantine/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Kristoff & Sven (Frozen)', 'https://redd.it/1bfe363')
 add_data(['Kristoff'],
 'Kristoff',
