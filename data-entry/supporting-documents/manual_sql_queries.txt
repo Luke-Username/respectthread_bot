@@ -14,9 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{5647}' WHERE rt_id_array='{5648,5647}';
-UPDATE character SET rt_id_array='{24982}' WHERE default_name='Beetlejuice' AND displayed_version_name='Beetlejuice'; --https://www.reddit.com/r/whowouldwin/comments/1h1kgs9/dio_brando_jojos_bizarre_adventure_vs_beetlejuice/lzc6rkg/?context=3
-
 ########################################
 
 ########################################

@@ -25473,18 +25473,18 @@ Translucent,{Amazon},f,{21303},"The Boys, 2019"
 Kamen Rider Shin,"{`"Shin Kamen Rider`"}",t,{21304},""
 Nase Maser,"{`"A Hero'?s Shadow`"}",t,{21305},A Hero's Shadow
 Minnal Murali,{default},t,{21306},""
-Steve,{Minecraft},f,"{5648,5647}",Minecraft
-Steve,"{`"creative (mode|Steve)`"}",f,"{5648,5647}",Minecraft
 The Flash,"{Goku,`"Bat(-| )?mans?`",`"Super(-| )?man`"}",f,"{1582,1583,1590,1589}",DC
 Rogue,{Absorbs?},f,{2382},616
 Rogue,{Rogue.*616},f,{2382},616
 Rogue,{Rogue.*Marvel},f,{2382},616
 Rogue,"{`"Rogue.*X(-| )?Men`"}",f,{2382},616
 Rogue,"{`"Wonder Man`"}",f,{2382},616
+Steve,{Minecraft},f,{5647},Minecraft
 Rocksteady,"{Bebop,IDW}",t,{21277},IDW
 Scarecrow,"{Batman,`"Animated Series`"}",f,{},DCAU
 Scarecrow,{B:?TAS},f,{},DCAU
 Bebop,"{Rocksteady,IDW}",f,{21277},IDW
+Steve,"{`"creative (mode|Steve)`"}",f,{5647},Minecraft
 Artoria Pendragon,"{`"Lion King`"}",f,{21307},Fate
 Artoria Pendragon,"{`"Grande? Order`"}",f,{21307},Fate
 Artoria Pendragon,"{`"F(ate )?/?GO`"}",f,{21307},Fate
@@ -27143,7 +27143,6 @@ Tyrannosaurus rex Bull,"{`"Jurassic Park`"}",f,{22177},Jurassic Park
 Elijah,{Prophet},f,{22178},Prophet
 Taiyo Asano,"{`"Yozakura Family`"}",t,{22179},Mission: Yozakura Family
 Alucard,"{`"Castle(-| )?vania`"}",f,"{14492,1252}",Castlevania
-Steve,"{`"Steve with commands?`"}",f,"{5648,5647}",Minecraft
 Europa,{Fate},f,{22180},Fate
 Sun-Hee,"{`"The Boys`"}",f,{22181},The Boys
 Dorothy Wayneright,"{`"Big(-| )O`"}",t,{22182},The Big O
@@ -27197,6 +27196,7 @@ Kitana,{MKd*},f,{5289},Mortal Kombat
 Kitana,"{`"Skull?duggery Pleasant`"}",f,{5957},Skulduggery Pleasant
 Kitana,"{`"Kitana (Hillher|Kella)way`"}",f,{5957},Skulduggery Pleasant
 General Washingtoad,"{`"Super Mario Bro(ther)?s\\.? Super Show`"}",t,{22195},Super Mario Brothers Super Show!
+Steve,"{`"Steve with commands?`"}",f,{5647},Minecraft
 Hit-Monkey,"{`"Hit(-| )Monkey.*TV`"}",f,{},TV Series
 Kaguya,{Akatsuki},f,{3954},Naruto
 Kaguya,"{`"Ten Tails`"}",f,{3954},Naruto
@@ -32145,7 +32145,6 @@ Imprisoned Demon Sergeant who Died for his Country,"{`"Dark Gathering`"}",t,{253
 Rappacious Bleached Head,"{`"Dark Gathering`"}",t,{25319},Dark Gathering
 Narrator,"{`"Stanley Parable`"}",f,{25320},The Stanley Parable
 Goku,"{`"The Golden Warrior vs\\.? The Man of Steel`"}",f,{25321},The Golden Warrior vs. The Man of Steel
-Beetlejuice,"{`"vs Beetlejuice`"}",f,{23647},Beetlejuice
 Custodian,{(WH)?40K},f,{23647},Warhammer 40k
 Custodian,{Warhammer},f,{23647},Warhammer 40k
 Moria,"{`"One ?Piece?`"}",f,{4044},One Piece
@@ -32454,3 +32453,13 @@ Desire of The Endless,{DC},t,{25516},DC
 Desire of The Endless,{Sandman},t,{25516},DC
 Desire,"{`"Desire ?\\(The Sandman`"}",f,{25516},DC
 Desire,"{Endless,Sandman}",f,{25516},DC
+Beetlejuice,"{`"vs Beetlejuice`"}",f,{24982},Beetlejuice
+Steve,{Steve.*Netherite},f,{5647},Minecraft
+Constantine,"{`"Constantine ?\\(DC( Comics)?\\)`"}",f,"{22129,1704}",DC
+Kristoff,{Frozen},f,{25517},Frozen
+Kristoff,"{`"Kristoff Bjorgman`"}",f,{25517},Frozen
+Hans,"{`"Hans ?\\(Frozen`"}",f,{25518},Frozen
+Hans,{Westergaard},f,{25518},Frozen
+The Jester,"{`"The Jester ?\\(The Jester\\)`"}",f,{25519},The Jester
+Carpet Grumer,"{`"Bakauge Sentai BoonBoomger`"}",f,{25520},Bakauge Sentai BoonBoomger
+Cinderella,"{`"Cinderella.*Into the Woods`"}",f,{25521},Into the Woods
