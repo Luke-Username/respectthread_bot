@@ -169,6 +169,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Jester (The Jester)', 'https://redd.it/1h1jnde')
+add_data(['The Jester'],
+'The Jester',
+False,
+False,
+[
+    ['The Jester ?\(The Jester\)']
+],
+'The Jester',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h1jnde/respect_the_jester_the_jester/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
