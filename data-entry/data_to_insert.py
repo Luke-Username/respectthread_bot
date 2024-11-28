@@ -184,6 +184,37 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Carpet Grumer! (Bakauge Sentai BoonBoomger)', 'https://redd.it/1h1tejf')
+add_data(['Carpet Grumer'],
+'Carpet Grumer',
+False,
+False,
+[
+    ['Bakauge Sentai BoonBoomger']
+],
+'Bakauge Sentai BoonBoomger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h1tejf/respect_carpet_grumer_bakauge_sentai_boonboomger/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cinderella (Into the Woods (Film))', 'https://redd.it/1h22qu0')
+add_data(['Cinderella'],
+'Cinderella',
+False,
+False,
+[
+    ['Cinderella.*Into the Woods']
+],
+'Into the Woods',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
