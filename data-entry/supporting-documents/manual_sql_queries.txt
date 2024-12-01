@@ -18,7 +18,14 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Mob', 'Italian M
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect: Moon Knight (Marvel, 616) - [Modern]', 'https://redd.it/1h3exrq'); SELECT * FROM respectthread WHERE link='https://redd.it/1h3exrq';
+UPDATE character SET rt_id_array='{?,2456,25075}' WHERE rt_id_array='{2456,25075}';
+
 ########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/1h3ppu7';
+UPDATE character SET rt_id_array='{2173,24286, ?,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}' WHERE rt_id_array='{2173,24286,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}';
+--After run
 
 ########################################
 
