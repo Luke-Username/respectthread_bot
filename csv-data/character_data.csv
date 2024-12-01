@@ -10556,8 +10556,8 @@ Daisy Johnson,{comics?},t,{2463},616
 Sabra,{616},t,{11088},616
 Sabra,{Marvel},t,{11088},616
 Savage Steel,{616},t,{2464},616
-Moon Knight,{616},t,"{2456,25075}",616
-Moon Knight,{Marvel},t,"{2456,25075}",616
+Moon Knight,{616},t,"{25522,2456,25075}",616
+Moon Knight,{Marvel},t,"{25522,2456,25075}",616
 Savage Steel,{Marvel},t,{2464},616
 Slapstick,{616},f,{2465},616
 Slapstick,{Marvel},f,{2465},616
@@ -30597,8 +30597,6 @@ RPC-398,"{`"Spooky Scary Skeletons`"}",t,{24386},""
 Marvelous Man,"{`"Guardians of Justice`"}",f,{24387},The Guardians of Justice
 Jason Voorhees,"{`"Robot Chicken`"}",f,{24388},Robot Chicken
 Nazi Frankenstein's Monster,{Marvel|616},t,{24389},616
-Iron Man,{616},t,"{2173,24286,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
-Iron Man,{Marvel},t,"{2173,24286,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
 Princess Audrey,{Descendants},t,{24390},Descendants
 Cats,{Bayonetta},f,{24391},Bayonetta
 Smile Room,"{`"Trevor Henderson`"}",t,{24392},Trevor Henderson
@@ -30615,6 +30613,8 @@ Kuroto Dan,"{`"Kamen Rider`"}",t,{24398},Kamen Rider
 Dr. Jekyll and Mr. Hyde,"{`"616 versions?`"}",f,{},616
 Dr. Jekyll and Mr. Hyde,"{`"M(iste)?r\\.? Hyde ?\\(616\\)`"}",f,{},616
 Dr. Jekyll and Mr. Hyde,{Doyle},f,{},Doyle
+Iron Man,{616},t,"{2173,24286,25525,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
+Iron Man,{Marvel},t,"{2173,24286,25525,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
 Dr. Jekyll and Mr. Hyde,"{`"\\(Movie\\) Mr\\.? Hyde`"}",f,{},Movie
 Dr. Jekyll and Mr. Hyde,"{`"League of Extraordinary Gentlemen`"}",f,{},The League of Extraordinary Gentlemen
 Dr. Jekyll and Mr. Hyde,"{`"The London Assignment`"}",f,{},Van Helsing: The London Assignment
@@ -32463,3 +32463,9 @@ Hans,{Westergaard},f,{25518},Frozen
 The Jester,"{`"The Jester ?\\(The Jester\\)`"}",f,{25519},The Jester
 Carpet Grumer,"{`"Bakauge Sentai BoonBoomger`"}",f,{25520},Bakauge Sentai BoonBoomger
 Cinderella,"{`"Cinderella.*Into the Woods`"}",f,{25521},Into the Woods
+Deathstroke,"{`"\\(Teen Titans\\)`"}",f,{974},Teen Titans
+Predators,"{`"Alien vs\\.? Predator:? Unleashed`"}",f,{25523},Alien vs Predator: Unleashed
+Two-Toed Tom,"{`"Beware Two-Toed Tom`"}",t,{25524},Beware Two-Toed Tom
+Iron Man,"{`"Model 4`"}",f,{25525},Classic Armor
+Iron Man,"{`"Classic Armor`"}",f,{25525},Classic Armor
+Emperor Zombie,"{`"Screw(-| )On Head`"}",f,{25526},Amazing Screw-On Head
