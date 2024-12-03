@@ -32469,3 +32469,29 @@ Two-Toed Tom,"{`"Beware Two-Toed Tom`"}",t,{25524},Beware Two-Toed Tom
 Iron Man,"{`"Model 4`"}",f,{25525},Classic Armor
 Iron Man,"{`"Classic Armor`"}",f,{25525},Classic Armor
 Emperor Zombie,"{`"Screw(-| )On Head`"}",f,{25526},Amazing Screw-On Head
+Reed Richards,"{`"1610.*Reed Richards`"}",f,{2537},1610
+Megatron,"{`"Transformers One`"}",f,{25527},Transformers One
+Garth One-Eye,"{`"Magic:? The Gathering`"}",t,{25528},Magic: The Gathering
+Garth One-Eye,{M:?TG},t,{25528},Magic: The Gathering
+CJ,"{`"Grand Theft Auto`"}",f,{25529},GTA
+CJ,"{GTA,`"San Andreas`"}",f,{25529},GTA
+CJ,"{`"GTA:? SA`"}",f,{25529},GTA
+CJ,"{`"CJ ?\\[GTA\\]`"}",f,{25529},GTA
+CJ,"{`"CJ ?\\(GTA\\)`"}",f,{25529},GTA
+Carl Johnson,"{`"Grand Theft Auto`"}",f,{25529},GTA
+Carl Johnson,{GTA},f,{25529},GTA
+Sheena,{Manifold},f,{25530},Manifold Series
+Crackers,{Manifold},f,{25531},Manifold Series
+Bill Rizer,{Contra},t,{25532},Contra
+Wasp,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{25533},Earths Mightiest Heroes
+Wasp,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{25533},Earths Mightiest Heroes
+Wasp,"{`"A(vengers)?: ?EMH`"}",f,{25533},Earths Mightiest Heroes
+Wasp,"{`"Earth'?s? Mightiest Heroes`",Disney}",f,{25533},Earths Mightiest Heroes
+Venom,{Insomniac(verse)?s?},f,{25534},Insomniacs Spider-Man
+Venom,"{`"Spider(-| )?Man`",PS4}",f,{25534},Insomniacs Spider-Man
+Venom,{1048},f,{25534},Insomniacs Spider-Man
+Brightbill,"{`"Wild Robot`"}",f,{25535},The Wild Robot
+Astro Bot,"{`"Play ?Station`"}",t,{25536},""
+Astro Bot,{Sony},t,{25536},""
+Astro Bot,"{`"PS(\\d)`"}",t,{25536},""
+Brightbill,"{`"Hunter'?s Planet`"}",f,{25535},Aliens vs. Predator: Hunter's Planet
