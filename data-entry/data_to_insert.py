@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Reed Richards'],
+'Reed Richards',
+False,
+False,
+[
+    ['1610.*Reed Richards']
+],
+'1610',
+'{2537}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1h4kpnw/ultimate_earth_fight/m03uk0r/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
