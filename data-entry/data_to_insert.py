@@ -121,6 +121,183 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Megatron (Transformers One)', 'https://redd.it/1h45mjx')
+add_data(['Megatron'],
+'Megatron',
+False,
+False,
+[
+    ['Transformers One']
+],
+'Transformers One',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h45mjx/respect_megatron_transformers_one/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Garth One-Eye (Magic: The Gathering)', 'https://redd.it/1h461jc')
+add_data(['Garth One-Eye'],
+'Garth One-Eye',
+False,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h461jc/respect_garth_oneeye_magic_the_gathering/
+
+########################################
+
+id = get_rt_id(cur, "Respect Carl ''CJ'' Johnson (Grand Theft Auto: San Andreas)", 'https://redd.it/1h4un12')
+add_data(['CJ'],
+'CJ',
+False,
+False,
+[
+    ['Grand Theft Auto'], ['GTA', 'San Andreas'], ['GTA:? SA'], ['CJ ?\[GTA\]'], ['CJ ?\(GTA\)']
+],
+'GTA',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Carl Johnson'],
+'Carl Johnson',
+False,
+False,
+[
+    ['Grand Theft Auto'], ['GTA']
+],
+'GTA',
+'{' + '{}'.format(id) + '}'
+)
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Sheena (Manifold Series)', 'https://redd.it/1h4vnh6')
+add_data(['Sheena'],
+'Sheena',
+False,
+False,
+[
+    ['Manifold']
+],
+'Manifold Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h4vnh6/respect_the_sheena_manifold_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Crackers (Manifold Series)', 'https://redd.it/1h5nvc0')
+add_data(['Crackers'],
+'Crackers',
+False,
+False,
+[
+    ['Manifold']
+],
+'Manifold Series',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bill Rizer (Contra)', 'https://redd.it/1h4yntk')
+add_data(['Bill Rizer'],
+'Bill Rizer',
+False,
+True,
+[
+    ['Contra']
+],
+'Contra',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h4yntk/respect_bill_rizer_contra/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Wasp (The Avengers: Earth''s Mightiest Heroes)", 'https://redd.it/1h51xx0')
+add_data(['Wasp'],
+'Wasp',
+False,
+False,
+[
+    ['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH'],
+	["Earth''?s? Mightiest Heroes", 'Disney']
+],
+'Earth''s Mightiest Heroes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h51xx0/respect_the_wasp_the_avengers_earths_mightiest/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Venom (Insomniac Spider-Man/Earth-1048)', 'https://redd.it/1h5o930')
+add_data(['Venom'],
+'Venom',
+False,
+False,
+[
+    ['Insomniac(verse)?s?'], ['Spider(-| )?Man', 'PS4'], ['1048']
+],
+'Insomniac''s Spider-Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h5o930/respect_venom_insomniac_spidermanearth1048/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gosling 0186, aka Brightbill (The Wild Robot (Film))', 'https://redd.it/1h5l1u1')
+add_data(['Brightbill'],
+'Brightbill',
+False,
+False,
+[
+    ['Wild Robot']
+],
+'The Wild Robot',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h5l1u1/respect_gosling_0186_aka_brightbill_the_wild/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Astro Bot (Astro Bot)', 'https://redd.it/1h5nydn')
+add_data(['Astro Bots?'],
+'Astro Bot',
+False,
+True,
+[
+    ['Play ?Station'], ['Sony'], ['PS(\d)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h5nydn/respect_astro_bot_astro_bot/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gosling 0186, aka Brightbill (The Wild Robot (Film))', 'https://redd.it/1h5l1u1')
+add_data(['Brightbill'],
+'Brightbill',
+False,
+False,
+[
+    ["Hunter''?s Planet"]
+],
+"Aliens vs. Predator: Hunter''s Planet",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h5y0ly/respect_the_predators_avp_hunters_planet/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
