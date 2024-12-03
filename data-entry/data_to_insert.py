@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Predators (AVP Hunters Planet)', 'https://redd.it/1h5y0ly')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ["Hunter''?s Planet"]
+],
+"Aliens vs. Predator: Hunter''s Planet",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h5y0ly/respect_the_predators_avp_hunters_planet/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
