@@ -14,6 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UDPATE character_name SET name='Mich(ae|ea)l Me?y(er|re)s' WHERE name='Mich(ae|ea)l Me?yers';
+
 ########################################
 
 ########################################
