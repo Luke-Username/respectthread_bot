@@ -479,7 +479,7 @@ False,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Alchemy (The Designs of Homicide)', 'https://redd.it/1h8do4m')
+id = get_rt_id(cur, 'Respect Alchemy (The Design of Homicide)', 'https://redd.it/1h8fdbg')
 add_data(['Alchemy'],
 'Alchemy',
 False,
