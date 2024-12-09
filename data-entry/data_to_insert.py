@@ -199,6 +199,21 @@ False,
 )
 #
 
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 19: the S.K.I.N. Armor (Marvel, 616)', 'https://redd.it/1h9mvvj')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['S\.?K\.?I\.?N\.? Armor'], ['Model 19']
+],
+'S.K.I.N. Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h9mvvj/respect_iron_man_model_19_the_skin_armor_marvel/
+
 
 ########################################
 
@@ -491,6 +506,190 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1h8do4m/respect_alchemy_the_designs_of_homicide/
+
+########################################
+
+id = get_rt_id(cur, 'Captain Wafner (Overlord)', 'https://redd.it/1h8lxxy')
+add_data(['Captain Wafner'],
+'Captain Wafner',
+False,
+True,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Wafner'],
+'Wafner',
+False,
+False,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fang the Hunter (Sonic the Hedgehog)', 'https://redd.it/1h8ss3t')
+add_data(['Fang'],
+'Fang',
+False,
+False,
+[
+    ['Sonic the Hedgehog'], ['Fang the Hunter'], ['Team Sonic', 'Games?']
+],
+'Sonic the Hedgehog',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h8ss3t/respect_fang_the_hunter_sonic_the_hedgehog/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bark the Polar Bear (Sonic the Hedgehog)', 'https://redd.it/1h8ss91')
+add_data(['Bark'],
+'Bark',
+False,
+False,
+[
+    ['Sonic the Hedgehog'], ['Bark the Polar Bear'], ['Team Sonic', 'Games?']
+],
+'Sonic the Hedgehog',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bean the Dynamite (Sonic the Hedgehog)', 'https://redd.it/1h8ssdy')
+add_data(['Bean'],
+'Bean',
+False,
+False,
+[
+    ['Sonic the Hedgehog'], ['Bean the Dynamite'], ['Team Sonic', 'Games?']
+],
+'Sonic the Hedgehog',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predator (AVP Atari Jaguar Game)', 'https://redd.it/1h981kb')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Atari Jaguar']
+],
+'Atari Jaguar',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dart, Pouncer & Ruffrunner (How to Train Your Dragon)', 'https://redd.it/1h9ejmk')
+add_data(['Dart'],
+'Dart',
+False,
+False,
+[
+    ['Dart.*How ?to ?Train ?Your ?Dragon'], ['Dart.*HTTYD']
+],
+'How to Train Your Dragon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Pouncer'],
+'Pouncer',
+False,
+False,
+[
+    ['Pouncer.*How ?to ?Train ?Your ?Dragon'], ['Pouncer.*HTTYD']
+],
+'How to Train Your Dragon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Ruffrunner'],
+'Ruffrunner',
+False,
+False,
+[
+    ['Ruffrunner.*How ?to ?Train ?Your ?Dragon'], ['Ruffrunner.*HTTYD']
+],
+'How to Train Your Dragon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zephyr & Nuffink (How to Train Your Dragon)', 'https://redd.it/1h9fqjz')
+add_data(['Zephyr'],
+'Zephyr',
+False,
+False,
+[
+    ['Zephyr.*How ?to ?Train ?Your ?Dragon'], ['Zephyr.*HTTYD']
+],
+'How to Train Your Dragon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Nuffink'],
+'Nuffink',
+False,
+False,
+[
+    ['Nuffink.*How ?to ?Train ?Your ?Dragon'], ['Nuffink.*HTTYD']
+],
+'How to Train Your Dragon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anger Foot (Anger Foot)', 'https://redd.it/1h9gnp4')
+add_data(['Anger Foot'],
+'Anger Foot',
+False,
+True,
+[
+    ['Anger Foot ?\(Anger Foot\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Unnamed Monster From Looks Like We Got a Live One Here, Boys', 'https://redd.it/1h9pclj')
+add_data(['Monster'],
+'Monster',
+False,
+False,
+[
+    ['Looks Like We Got a Live One Here,? Boys']
+],
+'Looks Like We Got a Live One Here, Boys',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1h9pclj/respect_the_unnamed_monster_from_looks_like_we/
 
 ########################################
 
