@@ -32495,3 +32495,75 @@ Astro Bot,"{`"Play ?Station`"}",t,{25536},""
 Astro Bot,{Sony},t,{25536},""
 Astro Bot,"{`"PS(\\d)`"}",t,{25536},""
 Brightbill,"{`"Hunter'?s Planet`"}",f,{25535},Aliens vs. Predator: Hunter's Planet
+Predators,"{`"Hunter'?s Planet`"}",f,{25537},Aliens vs. Predator: Hunter's Planet
+Godzilla,"{`"Singular Point`"}",f,{25538},Godzilla Singular Point
+Jet Jaguar,"{Godzilla,`"Singular Point`"}",f,{25539},Godzilla Singular Point
+Gaijin,{Manifold},f,{25540},Manifold Series
+The Blues,{Manifold},f,{25541},Manifold Series
+Iron Man,"{`"Hypervelocity Armor`"}",f,{25542},Hypervelocity Armor
+Iron Man,"{`"Model 28`"}",f,{25542},Hypervelocity Armor
+Iron Man,"{`"S\\.?K\\.?I\\.?N\\.? Armor`"}",f,{25543},S.K.I.N. Armor
+Iron Man,"{`"Model 19`"}",f,{25543},S.K.I.N. Armor
+Arachnoid,"{`"Arachnoid Creepypasta|Creepypasta Arachnoid`"}",f,{25544},Creepypasta
+Arachnoid,"{Creepypasta,Dorkpool}",f,{25544},Creepypasta
+Aquitar Rangers,"{`"Alien Rangers`"}",t,{25545},Mighty Morphin' Alien Rangers
+Rescue Megazord,"{`"Power Rangers?`"}",t,{25546},Power Rangers Turbo
+Hulk,"{`"Hulk ?\\(Hulk vs\\.? Wolverine\\)`"}",f,{25547},Hulk vs Wolverine
+Joker,"{`"Dark Knight Returns`",Animated|2013}",f,{25548},The Dark Knight Returns Animated
+Cheetah,{(Hu)?man.*Cheetah},f,{25549},Cheetah.org
+Cheetah,"{`"(beat|or|vs\\.?) a cheetah`"}",f,{25549},Cheetah.org
+Cheetah,"{`"cat family`"}",f,{25549},Cheetah.org
+Cheetah,"{`"fully grown? cheetah`"}",f,{25549},Cheetah.org
+Cheetah,"{`"(which|these|land) animals?`"}",f,{25549},Cheetah.org
+Cheetah,"{`"or Cheetah`",run}",f,{25549},Cheetah.org
+Cheetah,"{`"Male Cheetah`"}",f,{25549},Cheetah.org
+Cheetah,"{`"Snow leopard`"}",f,{25549},Cheetah.org
+Cheetah,"{`"speed of a cheetah`"}",f,{25549},Cheetah.org
+Cheetah,"{`"Both (are )?males?`"}",f,{25549},Cheetah.org
+Cheetah,"{`"Cheetah vs`",race}",f,{25549},Cheetah.org
+Cheetah,"{`"big cats?`"}",f,{25549},Cheetah.org
+Cheetah,{Kangal},f,{25549},Cheetah.org
+Cheetahs,{Human.*Cheetahs},f,{25549},Cheetah.org
+Cheetahs,"{`"\\d+ Cheetahs`",vs}",f,{25549},Cheetah.org
+Cheetahs,"{`"cat family`"}",f,{25549},Cheetah.org
+Cheetahs,"{`"fully grown? cheetahs`"}",f,{25549},Cheetah.org
+Cheetahs,"{`"(which|these|land) animals?`"}",f,{25549},Cheetah.org
+Cheetahs,"{`"or Cheetahs`",run}",f,{25549},Cheetah.org
+Cheetahs,"{`"Male Cheetahs`"}",f,{25549},Cheetah.org
+Cheetahs,"{`"big cats?`"}",f,{25549},Cheetah.org
+Cheetahs,{Kangal},f,{25549},Cheetah.org
+Brandon,{Pok(e|é)m(o|a)n},f,{25550},Pokémon
+Regis,{Pok(e|é)m(o|a)n},f,{25551},Pokémon
+Regi Trio,{Pok(e|é)m(o|a)n},t,{25551},Pokémon
+Regirock,{Pok(e|é)m(o|a)n},t,{25551},Pokémon
+Regice,{Pok(e|é)m(o|a)n},t,{25551},Pokémon
+Registeel,{Pok(e|é)m(o|a)n},t,{25551},Pokémon
+Regigigas,{Pok(e|é)m(o|a)n},t,{25551},Pokémon
+Regieleki,{Pok(e|é)m(o|a)n},t,{25551},Pokémon
+Kamau,{Primal},f,{25552},Primal
+Billy,"{`"Black Christmas`"}",f,{25553},Black Christmas
+Alchemy,"{`"Designs of Homicide`"}",f,{25554},The Designs of Homicide
+Captain Wafner,{Overlord},t,{25555},Overlord
+Wafner,{Overlord},f,{25555},Overlord
+Fang,"{`"Sonic the Hedgehog`"}",f,{25556},Sonic the Hedgehog
+Fang,"{`"Fang the Hunter`"}",f,{25556},Sonic the Hedgehog
+Fang,"{`"Team Sonic`",Games?}",f,{25556},Sonic the Hedgehog
+Bark,"{`"Sonic the Hedgehog`"}",f,{25557},Sonic the Hedgehog
+Bark,"{`"Bark the Polar Bear`"}",f,{25557},Sonic the Hedgehog
+Bark,"{`"Team Sonic`",Games?}",f,{25557},Sonic the Hedgehog
+Bean,"{`"Sonic the Hedgehog`"}",f,{25558},Sonic the Hedgehog
+Bean,"{`"Bean the Dynamite`"}",f,{25558},Sonic the Hedgehog
+Bean,"{`"Team Sonic`",Games?}",f,{25558},Sonic the Hedgehog
+Predator,"{`"Atari Jaguar`"}",f,{25559},Atari Jaguar
+Dart,"{`"Dart.*How ?to ?Train ?Your ?Dragon`"}",f,{25560},How to Train Your Dragon
+Dart,{Dart.*HTTYD},f,{25560},How to Train Your Dragon
+Pouncer,"{`"Pouncer.*How ?to ?Train ?Your ?Dragon`"}",f,{25560},How to Train Your Dragon
+Pouncer,{Pouncer.*HTTYD},f,{25560},How to Train Your Dragon
+Ruffrunner,"{`"Ruffrunner.*How ?to ?Train ?Your ?Dragon`"}",f,{25560},How to Train Your Dragon
+Ruffrunner,{Ruffrunner.*HTTYD},f,{25560},How to Train Your Dragon
+Zephyr,"{`"Zephyr.*How ?to ?Train ?Your ?Dragon`"}",f,{25561},How to Train Your Dragon
+Zephyr,{Zephyr.*HTTYD},f,{25561},How to Train Your Dragon
+Nuffink,"{`"Nuffink.*How ?to ?Train ?Your ?Dragon`"}",f,{25561},How to Train Your Dragon
+Nuffink,{Nuffink.*HTTYD},f,{25561},How to Train Your Dragon
+Anger Foot,"{`"Anger Foot ?\\(Anger Foot\\)`"}",t,{25562},""
+Monster,"{`"Looks Like We Got a Live One Here,? Boys`"}",f,{25563},"Looks Like We Got a Live One Here, Boys"
