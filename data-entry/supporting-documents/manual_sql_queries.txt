@@ -14,15 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET displayed_version_name='Post-Crisis' WHERE default_name='Bloodsport' AND version='{"Bloodsport ?\(Posts?(-| )?C(risis)?"}';
-UPDATE character SET version='{"\(Popeye\)"}' WHERE default_name='Popeye' AND version='{"Popeye"}';
-
 ########################################
 
 ########################################
-
-SELECT * FROM respectthread WHERE link='https://redd.it/1hafqx4';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Bloodsport' AND version='{"Bloodsport ?\(DC"}'; --After run
 
 ########################################
 

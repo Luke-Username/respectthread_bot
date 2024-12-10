@@ -3700,7 +3700,6 @@ Phil Matibag,{Nutshack},t,{1083},The Nutshack
 Phil,{Nutshack},f,{1083},The Nutshack
 Tito Dick,{Nutshack},t,{1084},The Nutshack
 Tito,{Nutshack},f,{1084},The Nutshack
-Popeye,{Popeye},t,{1085},""
 Randy Cunningham,"{`"9th Grade Ninja`"}",t,{1086},Randy Cunningham: 9th Grade Ninja
 Robotboy,{Robotboy},t,{1087},""
 Bitch Pudding,"{`"Robot Chicken`"}",t,{1088},Robot Chicken
@@ -3753,6 +3752,7 @@ Batwing,{DCAFU},f,{1121},DC Animated Movie Universe
 Batwing,"{`"DC Animated Movies?`"}",f,{1121},DC Animated Movie Universe
 Batwing,{DCAMU},f,{1121},DC Animated Movie Universe
 Wolverine,"{`"Wolverine and the X-Men`"}",f,{1116},Wolverine and the X-Men
+Popeye,"{`"\\(Popeye\\)`"}",t,{1085},""
 Black Manta,"{`"DC Animated Film Universe`"}",f,{1122},DC Animated Movie Universe
 Black Manta,{DCAFU},f,{1122},DC Animated Movie Universe
 Black Manta,"{`"DC Animated Movies?`"}",f,{1122},DC Animated Movie Universe
@@ -23996,8 +23996,8 @@ Bloodsport,"{`"Idris Elba`"}",f,{20352},DCEU
 Peacemaker,"{`"DC Extended Universe`"}",f,{20353},DCEU
 Peacemaker,"{`"DC ?(E|C)U`"}",f,{20353},DCEU
 Mother Box,{Snyder(verse)?},f,{},DCEU
-Bloodsport,"{`"Bloodsport ?\\(DC`"}",f,{},DC
-Bloodsport,"{`"Bloodsport ?\\(Posts?(-| )?C(risis)?`"}",f,{},DC
+Bloodsport,"{`"Bloodsport ?\\(DC`"}",f,{25566},DC
+Bloodsport,"{`"Bloodsport ?\\(Posts?(-| )?C(risis)?`"}",f,{},Post-Crisis
 Peacemaker,"{`"DC Cinematic Universe`"}",f,{20353},DCEU
 Peacemaker,"{`"Peace ?maker ?\\((The )?Suicide Squad`"}",f,{20353},DCEU
 Peacemaker,"{`"John Cena`"}",f,{20353},DCEU
@@ -32567,3 +32567,11 @@ Nuffink,"{`"Nuffink.*How ?to ?Train ?Your ?Dragon`"}",f,{25561},How to Train You
 Nuffink,{Nuffink.*HTTYD},f,{25561},How to Train Your Dragon
 Anger Foot,"{`"Anger Foot ?\\(Anger Foot\\)`"}",t,{25562},""
 Monster,"{`"Looks Like We Got a Live One Here,? Boys`"}",f,{25563},"Looks Like We Got a Live One Here, Boys"
+Pop Eye,{cartoon},f,{1085},""
+Pop Eye,{Sailor},f,{1085},""
+Pop Eye,{Bluto},f,{1085},""
+Pop Eye,{Spinach},f,{1085},""
+Kai,"{`"Gravity Circuit`"}",f,{25564},Gravity Circuit
+Michael,{Manifold},f,{25565},Manifold Series
+Bloodsport,{Rebirth},f,{25566},Rebirth
+Tyrannosaurus Rex,"{`"Scientifically Accurate T rex vs Spino`"}",f,{25567},Scientifically Accurate T rex vs Spino
