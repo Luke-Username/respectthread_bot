@@ -107,6 +107,63 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Power'],
+'Power',
+False,
+False,
+[
+    ['CSM']
+],
+'Chainsaw Man',
+'{15966}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hdsh7z/power_csm_vs_jinx_arcane_vs_azula_atla/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Skull Merchant (Dead by Daylight)', 'https://redd.it/1hddbk8')
+add_data(['Skull Merchant'],
+'Skull Merchant',
+False,
+True,
+[
+    ['Dead by Daylight']
+],
+'Dead by Daylight',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Grey (Snowpiercer)', 'https://redd.it/1hddfde')
+add_data(['Grey'],
+'Grey',
+False,
+False,
+[
+    ['Snowpiercer']
+],
+'Snowpiercer',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hddfde/respect_grey_snowpiercer/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Barillian Bugs (Power Rangers in Space)', 'https://redd.it/1hdhppt')
+add_data(['Barillian Bugs?'],
+'Barillian Bugs',
+False,
+True,
+[
+    ['Power Rangers in Space']
+],
+'Power Rangers in Space',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hdhppt/respect_the_barillian_bugs_power_rangers_in_space/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
