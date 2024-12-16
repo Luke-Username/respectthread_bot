@@ -107,6 +107,24 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6264, 'Respect Featherine Augustus Aurora, the Witch of Theater! (Umineko: When They Cry [Manga])', 'https://redd.it/1heszwg')
+
+########################################
+
+add_data(['Featherine'],
+'Featherine',
+False,
+True,
+[
+    ['Umineko']
+],
+'Umineko',
+'{6264}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1heszwg/respect_featherine_augustus_aurora_the_witch_of/
+
+########################################
+
 add_data(['Power'],
 'Power',
 False,
@@ -163,6 +181,135 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1hdhppt/respect_the_barillian_bugs_power_rangers_in_space/
+
+########################################
+
+add_data(['Jack Frost'],
+'Jack Frost',
+False,
+False,
+[
+    ['Jack Frost.*Killer Snowman']
+],
+'The Mutant Killer Snowman',
+'{13084}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1heujyw/the_gingerdead_man_vs_jack_frost_the_killer/m26ka8f/?context=3
+
+########################################
+
+add_data(['Momo'],
+'Momo',
+False,
+False,
+[
+    ['Dandadan']
+],
+'Dandadan',
+'{22080}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1heut1v/dandadan_team_vs_jujutsu_kaisen_team/m26fo7w/?context=3
+
+########################################
+
+add_data(['Aira'],
+'Aira',
+False,
+False,
+[
+    ['Dandadan']
+],
+'Dandadan',
+'{22079}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Link (The Legend of Zelda: Count of the Black Shadows)', 'https://redd.it/1he4kq0')
+add_data(['Link'],
+'Link',
+False,
+False,
+[
+    ['Count of the Black Shadows']
+],
+'Count of the Black Shadows',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Erlang Shen (Chinese Mythology)', 'https://redd.it/1henxw6')
+add_data(['Erlang Shen'],
+'Erlang Shen',
+False,
+True,
+[
+    ['myth?(ical|olog(y|ical))?']
+],
+'Chinese Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1henxw6/respect_erlang_shen_chinese_mythology/
+
+add_data(['Erlang Shen'],
+'Erlang Shen',
+False,
+False,
+[
+    ['Black Myth:? Wukong']
+],
+'Black Myth: Wukong',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1henxw6/respect_erlang_shen_chinese_mythology/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kya (Kya: Dark Lineage)', 'https://redd.it/1her9fo')
+add_data(['Kya'],
+'Kya',
+False,
+False,
+[
+    ['Dark Lineage']
+],
+'Kya: Dark Lineage',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1her9fo/respect_kya_kya_dark_lineage/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Carnivores Triassic Gojirasaurus (M e d i c b a g)', 'https://redd.it/1hf2mgo')
+add_data(['Carnivores Triassic Gojirasaurus'],
+'Carnivores Triassic Gojirasaurus',
+False,
+False,
+[
+    ['M e d i c b a g']
+],
+'M e d i c b a g',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hf2mgo/respect_the_carnivores_triassic_gojirasaurus_m_e/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Entity 94, "The Tour Guide" (The Backrooms, Fandom)', 'https://redd.it/1hfb6qj')
+add_data(['Entity 94'],
+'Entity 94',
+False,
+False,
+[
+    ['The Backrooms']
+],
+'The Backrooms',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hfb6qj/respect_entity_94_the_tour_guide_the_backrooms/
 
 ########################################
 

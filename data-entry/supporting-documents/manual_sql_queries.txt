@@ -18,6 +18,9 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Indomi(n|t)us', 
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect: The Mechs and Pilots (Into the Breach)', 'https://redd.it/i5woza'); SELECT * FROM respectthread WHERE link='https://redd.it/i5woza';
+UPDATE character SET rt_id_array='{?}' WHERE displayed_version_name='Into the Breach';
+
 ########################################
 
 ########################################
