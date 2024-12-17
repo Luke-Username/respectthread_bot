@@ -111,6 +111,20 @@ update_respectthread(cur, 2178, 'Respect Iron Man Model 51: Model Prime (Marvel,
 
 ########################################
 
+add_data(['Kuzan'],
+'Kuzan',
+False,
+False,
+[
+    ['One ?Piece'], ['Straw ?Hats?'], ['Donquixote'], ['Luffy'], ['Freeze|Froze']
+],
+'One Piece',
+'{4015}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Guybrush Threepwood (Monkey Island)', 'https://redd.it/1hfkpob')
 add_data(['Guybrush( Ulysses)? Threepwood'],
 'Guybrush Threepwood',
