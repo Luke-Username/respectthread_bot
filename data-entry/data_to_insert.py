@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Dracula'],
+'Dracula',
+False,
+False,
+[
+    ['Anime Castlevania'], ['Castlevania Anime']
+],
+"Netflix''s Castlevania",
+'{1253}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hghwiz/alexander_anderson_hellsing_versus_dracula/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
