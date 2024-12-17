@@ -107,6 +107,52 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2178, 'Respect Iron Man Model 51: Model Prime (Marvel, 616)', 'https://redd.it/1hflyar')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Guybrush Threepwood (Monkey Island)', 'https://redd.it/1hfkpob')
+add_data(['Guybrush( Ulysses)? Threepwood'],
+'Guybrush Threepwood',
+False,
+True,
+[
+    ['Monkey Island']
+],
+'Monkey Island',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hfkpob/respect_guybrush_threepwood_monkey_island/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Henry Sword (Pokemon Adventures)', 'https://redd.it/1hg977b')
+add_data(['Henry Sword'],
+'Henry Sword',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hg977b/respect_henry_sword_pokemon_adventures/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Casey Shield (Pokemon Adventures)', 'https://redd.it/1hg977y')
+add_data(['Casey Shield'],
+'Casey Shield',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hg977y/respect_casey_shield_pokemon_adventures/
 
 ########################################
 
