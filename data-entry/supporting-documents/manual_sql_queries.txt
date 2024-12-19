@@ -20,6 +20,8 @@ UPDATE character SET version='{"Backrooms"}' WHERE default_name='Entity 94' AND 
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Akechi';
+
 ########################################
 
 ########################################

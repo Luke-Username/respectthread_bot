@@ -180,6 +180,47 @@ False,
 
 ########################################
 
+add_data(['Goro Akechi'],
+'Goro Akechi',
+False,
+True,
+[
+    ['Persona']
+],
+'Persona',
+'{5354}'
+)
+#
+
+########################################
+
+add_data(['Akechi'],
+'Akechi',
+False,
+False,
+[
+    ['Onimusha']
+],
+'Onimusha',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hh9mcy/geralt_of_rivia_the_witcher_vs_samanosuke_akechi/m2q7auf/?context=3
+
+
+add_data(['Samanosuke Akechi'],
+'Samanosuke Akechi',
+False,
+True,
+[
+    ['Onimusha']
+],
+'Onimusha',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hh9mcy/geralt_of_rivia_the_witcher_vs_samanosuke_akechi/m2q7auf/?context=3
+ 
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
