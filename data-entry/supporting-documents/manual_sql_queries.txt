@@ -16,11 +16,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"Backrooms"}' WHERE default_name='Entity 94' AND version='{"The Backrooms"}';
-
 ########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Akechi';
 
 ########################################
 
