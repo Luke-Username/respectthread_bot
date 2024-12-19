@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Reinhard'],
+'Reinhard',
+False,
+False,
+[
+    ['Re(:|-)? ?Zero']
+],
+"Re:Zero",
+'{13083}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hhpp97/senator_armstrong_vs_reinhard_rezero/
+
+########################################
+
 add_data(['Dracula'],
 'Dracula',
 False,
@@ -118,6 +132,51 @@ False,
 '{1253}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1hghwiz/alexander_anderson_hellsing_versus_dracula/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Corporal Ford (Overlord)', 'https://redd.it/1hgl5pm')
+add_data(['Corporal Ford'],
+'Corporal Ford',
+False,
+False,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hgl5pm/respect_corporal_ford_overlord/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Edward Boyce (Overlord)', 'https://redd.it/1hgl67a')
+add_data(['Edward Boyce'],
+'Edward Boyce',
+False,
+False,
+[
+    ['Overlord']
+],
+'Overlord',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hgl67a/respect_edward_boyce_overlord/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Xykon (Order of the Stick)', 'https://redd.it/1hh1lzq')
+add_data(['Xykon'],
+'Xykon',
+False,
+False,
+[
+    ['Order of the Stick'], ['OOTS']
+],
+'Order of the Stick',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hh1lzq/respect_xykon_order_of_the_stick/
 
 ########################################
 
