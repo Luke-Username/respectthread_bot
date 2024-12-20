@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Solider Boy'],
+'Solider Boy',
+False,
+False,
+[
+    ['The Boys']
+],
+'The Boys',
+'{22191}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hip552/solider_boy_the_boys_vs_adam_smasher_cyberpunk/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Zoe Laveau (Marvel 616)', 'https://redd.it/1hidmkm')
 add_data(['Zoe Laveau'],
 'Zoe Laveau',
@@ -163,6 +177,48 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1hidb17/respect_jega_rdomnai_halo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Zergling! (Starcraft)', 'https://redd.it/1hiq963')
+add_data(['Zerglings?'],
+'Zergling',
+False,
+True,
+[
+    ['Star ?Craft']
+],
+'StarCraft',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hiq963/respect_the_zergling_starcraft/
+
+add_data(['Zergs?'],
+'Zerg',
+False,
+False,
+[
+    ['Star ?Craft'], ['Overmind|hivemind'], ['The Zerg'], ['Tyranids?'], ['Zerg (Swarm|Rush)'], ['Legacy of the Void'], ['LotV']
+],
+'StarCraft',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hiq963/respect_the_zergling_starcraft/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Rabid Grannies (Rabid Grannies)', 'https://redd.it/1hiuvct')
+add_data(['Rabid Grannies'],
+'Rabid Grannies',
+False,
+True,
+[
+    ['Remington']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hiuvct/respect_the_rabid_grannies_rabid_grannies/
 
 ########################################
 
