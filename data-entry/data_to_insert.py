@@ -107,6 +107,63 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Cassandra Nova'],
+'Cassandra Nova',
+False,
+False,
+[
+    ['Movie versions']
+],
+'MCU',
+'{25393}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hiihes/darth_vader_vs_cassandra_nova/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zoe Laveau (Marvel 616)', 'https://redd.it/1hidmkm')
+add_data(['Zoe Laveau'],
+'Zoe Laveau',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Optimus Primal (Transformers: Rise of the Beasts)', 'https://redd.it/1hidhm6')
+add_data(['Optimus Primal'],
+'Optimus Primal',
+False,
+False,
+[
+    ['Rise of the Beasts']
+],
+'Transformers: Rise of the Beasts',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hidhm6/respect_optimus_primal_transformers_rise_of_the/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jega ''Rdomnai (Halo)", 'https://redd.it/1hidb17')
+add_data(["Jega ''?Rdomnai"],
+"Jega ''Rdomnai",
+False,
+True,
+[
+    ['Halo']
+],
+'Halo',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hidb17/respect_jega_rdomnai_halo/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
