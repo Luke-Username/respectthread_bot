@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Shocker'],
+'Shocker',
+False,
+False,
+[
+    ['Shocker vs', 'Doc Ock']
+],
+'616',
+'{2276}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hkap3l/shocker_vs_doc_ock/
+
+########################################
+
 add_data(['Cassandra Nova'],
 'Cassandra Nova',
 False,
@@ -219,6 +233,268 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1hiuvct/respect_the_rabid_grannies_rabid_grannies/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Slime (Loop Hero)', 'https://redd.it/1hj6p42')
+add_data(['Slime'],
+'Slime',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hj6p42/respect_slime_loop_hero/
+
+add_data(['Slimes'],
+'Slimes',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hj6p42/respect_slime_loop_hero/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ratwolf (Loop Hero)', 'https://redd.it/1hj6s05')
+add_data(['Ratwolf'],
+'Ratwolf',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hj6p42/respect_slime_loop_hero/
+
+add_data(['Ratwolves'],
+'Ratwolves',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Skeletons (Loop Hero)', 'https://redd.it/1hj74ze')
+add_data(['Skeleton'],
+'Skeleton',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hj6p42/respect_slime_loop_hero/
+
+add_data(['Skeletons'],
+'Skeletons',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mimic (Loop Hero)', 'https://redd.it/1hj7ga6')
+add_data(['Mimic'],
+'Mimic',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hj6p42/respect_slime_loop_hero/
+
+add_data(['Mimics'],
+'Mimics',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Common Enemies (Loop Hero)', 'https://redd.it/1hj7hre')
+add_data(['Common Enemies'],
+'Common Enemies',
+True,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hj6p42/respect_slime_loop_hero/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spider (Loop Hero)', 'https://redd.it/1hjvlnh')
+add_data(['Spider'],
+'Spider',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Spiders'],
+'Spiders',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Blood Clot (Loop Hero)', 'https://redd.it/1hjvnow')
+add_data(['Blood Clot'],
+'Blood Clot',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Blood Clots'],
+'Blood Clots',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vampires (Loop Hero)', 'https://redd.it/1hjvvvp')
+add_data(['Vampire'],
+'Vampire',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Vampires'],
+'Vampires',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Watchers (Loop Hero)', 'https://redd.it/1hjw0qq')
+add_data(['Watcher'],
+'Watcher',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Watchers'],
+'Watchers',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tome (Loop Hero)', 'https://redd.it/1hjw4ip')
+add_data(['Tome'],
+'Tome',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Tomes'],
+'Tomes',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
