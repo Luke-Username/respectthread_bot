@@ -498,6 +498,144 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Goblins (Loop Hero)', 'https://redd.it/1hklcvd')
+add_data(['Goblin'],
+'Goblin',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Goblins'],
+'Goblins',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bandit (Loop Hero)', 'https://redd.it/1hkliwc')
+add_data(['Bandit'],
+'Bandit',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Bandits'],
+'Bandits',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Harpy (Loop Hero)', 'https://redd.it/1hklmev')
+add_data(['Harpy'],
+'Harpy',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Harpies'],
+'Harpies',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gargoyle (Loop Hero)', 'https://redd.it/1hklpet')
+add_data(['Gargoyle'],
+'Gargoyle',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Gargoyles'],
+'Gargoyles',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hklpet/respect_gargoyle_loop_hero/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Living Armor (Loop Hero)', 'https://redd.it/1hklyak')
+add_data(['Living Armou?r'],
+'Living Armor',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Loona! (Helluva Boss)', 'https://redd.it/1hkjbth')
+add_data(['Loona'],
+'Loona',
+False,
+False,
+[
+    ['Helluva Boss']
+],
+'Helluva Boss',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hkjbth/respect_loona_helluva_boss/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
