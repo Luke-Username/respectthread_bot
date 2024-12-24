@@ -32668,3 +32668,18 @@ Gargoyle,"{`"Loop Hero`"}",f,{25612},Loop Hero
 Gargoyles,"{`"Loop Hero`"}",f,{25612},Loop Hero
 Living Armor,"{`"Loop Hero`"}",f,{25613},Loop Hero
 Loona,"{`"Helluva Boss`"}",f,{25614},Helluva Boss
+Strix,"{`"Strix ?\\(DC`"}",f,{25615},DC
+Strix,"{`"Strix ?\\(Mary Turner\\)`"}",f,{25615},DC
+Strix,"{`"(Post(-| ))Flash(-| )?point`"}",f,{25615},Post-Flashpoint
+William Cobb,"{`"\\(DC( Comics)?\\)`"}",t,{25616},DC
+William Cobb,"{`"\\[DC( Comics)?\\]`"}",t,{25616},DC
+Talon,"{`"Talon ?\\(DC( Comics)?\\)`"}",f,{25616},DC
+Talon,"{`"Talon ?\\[DC( Comics)?\\]`"}",f,{25616},DC
+Court of Owls,"{`"\\(DC( Comics)?\\)`"}",t,"{25617,1560}",DC
+Court of Owls,"{`"\\[DC( Comics)?\\]`"}",t,"{25617,1560}",DC
+Court of Owls,"{`"(Post(-| ))Flash(-| )?point`"}",f,"{25617,1560}",Post-Flashpoint
+Daredevil,"{`"God without Fear`"}",f,{25618},God without Fear
+G'uranthic Guardian,{616},t,{25619},616
+Beast,"{Amnesia,Bunker}",f,{25620},Amnesia
+Madam Bo,"{`"Mortal Kombat`"}",t,{25621},Mortal Kombat
+William Cobb,"{`"(Post(-| ))Flash(-| )?point`"}",f,{25616},Post-Flashpoint
