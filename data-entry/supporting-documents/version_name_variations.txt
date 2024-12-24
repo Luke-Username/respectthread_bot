@@ -2297,9 +2297,9 @@ The Monument Mythos
 
 Mortal Kombat
 	Version
-		'{"Mortal Kombat"}', r'{"MK\\d*"}'
+		['Mortal Kombat'], ['MK\\d*']
 	Sometimes Called
-		'{"Komposite"}'
+		['Komposite']
 	Displayed Version Name
 		"Mortal Kombat"
 
