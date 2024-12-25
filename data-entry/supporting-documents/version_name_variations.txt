@@ -2737,7 +2737,7 @@ Powerpuff Girls
 
 Power Rangers
 	Version
-		['Power Rangers?']
+		['Power ?Rangers?']
 	Specific
 		['BOOM!? Studios?']
 	Acronyms

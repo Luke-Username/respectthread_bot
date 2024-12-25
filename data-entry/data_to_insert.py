@@ -108,6 +108,48 @@ cur = con.cursor()
 ########################################
 
 
+id = get_rt_id(cur, 'Respect Andros, the Red Space Ranger (Power Rangers in Space)', 'https://redd.it/1hlq3in')
+add_data(['Andros'],
+'Andros',
+False,
+False,
+[
+    ['(Power|Space) ?Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Red Space Ranger'],
+'Red Space Ranger',
+False,
+True,
+[
+    ['(Power|Space) ?Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Gomi Bako Grumer (Bakuage Sentai BoonBoomger)', 'https://redd.it/1hm0a2s')
+add_data(['Gomi Bako Grumer'],
+'Gomi Bako Grumer',
+False,
+False,
+[
+    ['Bakuage Sentai BoonBoomger']
+],
+'Bakuage Sentai BoonBoomger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hm0a2s/respect_gomi_bako_grumer_bakuage_sentai/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
