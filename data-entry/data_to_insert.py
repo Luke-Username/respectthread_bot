@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Atreides'],
+'Atreides',
+False,
+False,
+[
+    ['Fremen'], ['Dune']
+],
+'Dune',
+'{6144}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hm4geb/fremen_and_atreides_had_access_to_toyota_hilux/
+
+########################################
+
 
 id = get_rt_id(cur, 'Respect Andros, the Red Space Ranger (Power Rangers in Space)', 'https://redd.it/1hlq3in')
 add_data(['Andros'],
