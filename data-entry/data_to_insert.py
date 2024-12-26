@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 788, 'Respect Breach (Generator Rex)', 'https://redd.it/1hma6iu')
+
+########################################
+
 add_data(['Atreides'],
 'Atreides',
 False,
@@ -118,6 +122,20 @@ False,
 '{6144}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1hm4geb/fremen_and_atreides_had_access_to_toyota_hilux/
+
+########################################
+
+add_data(['Fuuko'],
+'Fuuko',
+False,
+False,
+[
+    ['Undead Unluck']
+],
+'Undead Unluck',
+'{22336}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hmpr01/fuuko_undead_unluck_vs_qrow_rwby/
 
 ########################################
 
@@ -163,6 +181,33 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1hm0a2s/respect_gomi_bako_grumer_bakuage_sentai/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Phantom Ranger (Power Rangers)', 'https://redd.it/1hm5yd0')
+add_data(['Phantom Ranger'],
+'Phantom Ranger',
+False,
+False,
+[
+    ['Power ?Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Phantom Rangers'],
+'Phantom Rangers',
+False,
+False,
+[
+    ['Power ?Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hm5yd0/respect_the_phantom_ranger_power_rangers/
 
 ########################################
 
