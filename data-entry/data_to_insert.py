@@ -111,6 +111,47 @@ update_respectthread(cur, 788, 'Respect Breach (Generator Rex)', 'https://redd.i
 
 ########################################
 
+add_data(['Gojo'],
+'Gojo',
+False,
+False,
+[
+    ['Hollow Purple']
+],
+'Jujutsu Kaisen',
+'{14809}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hlwd7u/how_far_does_gojo_get_in_the_bleach_gauntlet/m3xhepz/?context=3
+
+########################################
+
+add_data(['Wanda'],
+'Wanda',
+False,
+False,
+[
+    ['Zatanna', 'Jean']
+],
+'616',
+'{1997}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hncjh4/how_would_fans_rank_these_fictional_women_based/
+
+add_data(['Jean'],
+'Jean',
+False,
+False,
+[
+    ['Zatanna', 'Wanda']
+],
+'616',
+'{2368}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hncjh4/how_would_fans_rank_these_fictional_women_based/
+
+
+########################################
+
 add_data(['Atreides'],
 'Atreides',
 False,
@@ -208,6 +249,81 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1hm5yd0/respect_the_phantom_ranger_power_rangers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Astro Megazord (Power Rangers In Space)', 'https://redd.it/1hn1vw6')
+add_data(['Astro Megazord'],
+'Astro Megazord',
+False,
+True,
+[
+    ['Power ?Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hn1vw6/respect_the_astro_megazord_power_rangers_in_space/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mega Voyager (Power Rangers In Space)', 'https://redd.it/1hn1vx2')
+add_data(['Mega Voyager'],
+'Mega Voyager',
+False,
+True,
+[
+    ['Power ?Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hn1vx2/respect_the_mega_voyager_power_rangers_in_space/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Kong of the Planet of the Apes (Kong on the Planet of the Apes)', 'https://redd.it/1hmqx52')
+add_data(['Kong'],
+'Kong',
+False,
+False,
+[
+    ['Kong on the Planet of the Apes']
+],
+'Kong on the Planet of the Apes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hmqx52/respect_the_kong_of_the_planet_of_the_apes_kong/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ultimate Dazzler (Marvel, Earth-1610)', 'https://redd.it/1hn0xh3')
+add_data(['Dazzler'],
+'Dazzler',
+False,
+False,
+[
+    ['Ultimates? Dazzler']
+],
+'1610',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hn0xh3/respect_ultimate_dazzler_marvel_earth1610/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman (The Dark Knight Returns Animated)', 'https://redd.it/1hn8xzq')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Dark Knight Returns Animated']
+],
+'The Dark Knight Returns Animated',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hn8xzq/respect_superman_the_dark_knight_returns_animated/
 
 ########################################
 
