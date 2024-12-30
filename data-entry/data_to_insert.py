@@ -125,6 +125,34 @@ False,
 
 ########################################
 
+add_data(['Kingpin'],
+'Kingpin',
+False,
+False,
+[
+    ['Bullseye', 'Elektra']
+],
+'616',
+'{2053}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hpl9lc/could_kingpin_overthrow_the_court_of_owls/
+
+########################################
+
+add_data(['Bullseye'],
+'Bullseye',
+False,
+False,
+[
+    ['Bullseye.*Lady Bullseye', 'Kingpin']
+],
+'616',
+'{2050}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hpl9lc/could_kingpin_overthrow_the_court_of_owls/
+
+########################################
+
 add_data(['Wanda'],
 'Wanda',
 False,
