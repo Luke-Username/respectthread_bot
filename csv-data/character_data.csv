@@ -32699,3 +32699,23 @@ Mega Voyager,"{`"Power ?Rangers?`"}",t,{25626},Power Rangers
 Kong,"{`"Kong on the Planet of the Apes`"}",f,{25627},Kong on the Planet of the Apes
 Dazzler,"{`"Ultimates? Dazzler`"}",f,{25628},1610
 Superman,"{`"Dark Knight Returns Animated`"}",f,{25629},The Dark Knight Returns Animated
+King Kong,"{`"King Kong of Skull Island`"}",f,{25630},King Kong of Skull Island
+King Kong,{DeVito},f,{25630},King Kong of Skull Island
+Kingpin,"{Bullseye,Elektra}",f,{2053},616
+Bullseye,"{`"Bullseye.*Lady Bullseye`",Kingpin}",f,{2050},616
+Predators,"{`"Aliens vs\\.? Predator`",2004}",f,{25631},"Aliens vs. Predator, 2004"
+Cassie Chan,"{`"Power ?Rangers?`"}",f,{25632},Power Rangers
+Cassie Chan,{Turbo},f,{25632},Power Rangers
+Cassie Chan,{Space},f,{25632},Power Rangers
+Pink Turbo Ranger,{Cassie},f,{25632},Cassie Chan
+T.J. Johnson,"{`"Power ?Rangers?`"}",f,{25633},Power Rangers
+T.J. Johnson,{Turbo},f,{25633},Power Rangers
+T.J. Johnson,{Space},f,{25633},Power Rangers
+Red Turbo Ranger,"{`"T\\.?J\\.?`"}",f,{25633},T.J. Johnson
+Carlos Vallerte,"{`"Power ?Rangers?`"}",t,{25634},Power Rangers
+Carlos Vallerte,{Turbo},t,{25634},Power Rangers
+Carlos Vallerte,{Space},t,{25634},Power Rangers
+Green Turbo Ranger,{Carlos},f,{25634},Carlos Vallerte
+Carlos,"{`"Power ?Rangers?`",Turbo}",f,{25634},Power Rangers
+Grand Duke Aldura,"{`"The Knight and the Corpse`"}",f,{25635},The Knight and the Corpse
+Monstro,"{`"Albino Gorilla`"}",f,{25636},Albino Gorilla
