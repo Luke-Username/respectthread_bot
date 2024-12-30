@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Taylor( Anne)? Hebert'],
+'Taylor Hebert',
+False,
+True,
+[
+    ['Worm']
+],
+'Worm',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Zhane (Power Rangers In Space)', 'https://redd.it/1hp4kmc')
 add_data(['Zhane'],
 'Zhane',

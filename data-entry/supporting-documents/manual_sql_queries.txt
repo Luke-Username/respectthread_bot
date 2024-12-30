@@ -18,6 +18,8 @@ UPDATE character SET is_default=FALSE WHERE default_name='STEM';
 
 ########################################
 
+UPDATE character_name SET name='Taylor( Anne)? Hebert' WHERE name='Taylor Hebert';
+
 ########################################
 
 ########################################
