@@ -107,21 +107,22 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 788, 'Respect Breach (Generator Rex)', 'https://redd.it/1hma6iu')
+update_respectthread(cur, 24732, 'Respect Anna (Frozen ❄️)', 'https://redd.it/1hnisz5')
 
 ########################################
 
-add_data(['Gojo'],
-'Gojo',
+id = get_rt_id(cur, "Respect King Kong (DeVito ArtWorks'' King Kong of Skull Island)", 'https://redd.it/1hnh98v')
+add_data(['King Kong'],
+'King Kong',
 False,
 False,
 [
-    ['Hollow Purple']
+    ['King Kong of Skull Island'], ['DeVito']
 ],
-'Jujutsu Kaisen',
-'{14809}'
+'King Kong of Skull Island',
+'{' + '{}'.format(id) + '}'
 )
-#https://www.reddit.com/r/whowouldwin/comments/1hlwd7u/how_far_does_gojo_get_in_the_bleach_gauntlet/m3xhepz/?context=3
+#https://www.reddit.com/r/respectthreads/comments/1hnh98v/respect_king_kong_devito_artworks_king_kong_of/
 
 ########################################
 
@@ -153,205 +154,139 @@ False,
 
 ########################################
 
-add_data(['Wanda'],
-'Wanda',
+id = get_rt_id(cur, 'Respect The Predators (AVP 2004 Film Novelization)', 'https://redd.it/1hnms3f')
+add_data(['Predators'],
+'Predators',
 False,
 False,
 [
-    ['Zatanna', 'Jean']
+    ['Aliens vs\.? Predator', '2004']
 ],
-'616',
-'{1997}'
+'Aliens vs. Predator, 2004',
+'{' + '{}'.format(id) + '}'
 )
-#https://www.reddit.com/r/whowouldwin/comments/1hncjh4/how_would_fans_rank_these_fictional_women_based/
-
-add_data(['Jean'],
-'Jean',
-False,
-False,
-[
-    ['Zatanna', 'Wanda']
-],
-'616',
-'{2368}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/1hncjh4/how_would_fans_rank_these_fictional_women_based/
-
+#https://www.reddit.com/r/respectthreads/comments/1hnms3f/respect_the_predators_avp_2004_film_novelization/
 
 ########################################
 
-add_data(['Atreides'],
-'Atreides',
+id = get_rt_id(cur, 'Respect Cassie Chan (Power Rangers)', 'https://redd.it/1hnnpag')
+add_data(['Cassie Chan'],
+'Cassie Chan',
 False,
 False,
 [
-    ['Fremen'], ['Dune']
-],
-'Dune',
-'{6144}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/1hm4geb/fremen_and_atreides_had_access_to_toyota_hilux/
-
-########################################
-
-add_data(['Fuuko'],
-'Fuuko',
-False,
-False,
-[
-    ['Undead Unluck']
-],
-'Undead Unluck',
-'{22336}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/1hmpr01/fuuko_undead_unluck_vs_qrow_rwby/
-
-########################################
-
-
-id = get_rt_id(cur, 'Respect Andros, the Red Space Ranger (Power Rangers in Space)', 'https://redd.it/1hlq3in')
-add_data(['Andros'],
-'Andros',
-False,
-False,
-[
-    ['(Power|Space) ?Rangers?']
+    ['Power ?Rangers?'], ['Turbo'], ['Space']
 ],
 'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hnnpag/respect_cassie_chan_power_rangers/
+
+add_data(['Pink Turbo Ranger'],
+'Pink Turbo Ranger',
+False,
+False,
+[
+    ['Cassie']
+],
+'Cassie Chan',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hnnpag/respect_cassie_chan_power_rangers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect T.J. Johnson (Power Rangers)', 'https://redd.it/1ho7qua')
+add_data(['T\.?J\.? Johnson'],
+'T.J. Johnson',
+False,
+False,
+[
+    ['Power ?Rangers?'], ['Turbo'], ['Space']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hnnpag/respect_cassie_chan_power_rangers/
+
+add_data(['Red Turbo Ranger'],
+'Red Turbo Ranger',
+False,
+False,
+[
+    ['T\.?J\.?']
+],
+'T.J. Johnson',
 '{' + '{}'.format(id) + '}'
 )
 #
 
-add_data(['Red Space Ranger'],
-'Red Space Ranger',
+########################################
+
+id = get_rt_id(cur, 'Respect Carlos Vallerte (Power Rangers)', 'https://redd.it/1hojeb4')
+add_data(['Carlos Vallerte'],
+'Carlos Vallerte',
 False,
 True,
 [
-    ['(Power|Space) ?Rangers?']
+    ['Power ?Rangers?'], ['Turbo'], ['Space']
 ],
 'Power Rangers',
 '{' + '{}'.format(id) + '}'
 )
-#
+#https://www.reddit.com/r/respectthreads/comments/1hnnpag/respect_cassie_chan_power_rangers/
 
-
-########################################
-
-
-id = get_rt_id(cur, 'Respect Gomi Bako Grumer (Bakuage Sentai BoonBoomger)', 'https://redd.it/1hm0a2s')
-add_data(['Gomi Bako Grumer'],
-'Gomi Bako Grumer',
+add_data(['Green Turbo Ranger'],
+'Green Turbo Ranger',
 False,
 False,
 [
-    ['Bakuage Sentai BoonBoomger']
+    ['Carlos']
 ],
-'Bakuage Sentai BoonBoomger',
+'Carlos Vallerte',
 '{' + '{}'.format(id) + '}'
 )
-#https://www.reddit.com/r/respectthreads/comments/1hm0a2s/respect_gomi_bako_grumer_bakuage_sentai/
 
-########################################
-
-id = get_rt_id(cur, 'Respect the Phantom Ranger (Power Rangers)', 'https://redd.it/1hm5yd0')
-add_data(['Phantom Ranger'],
-'Phantom Ranger',
+add_data(['Carlos'],
+'Carlos',
 False,
 False,
 [
-    ['Power ?Rangers?']
+    ['Power ?Rangers?', 'Turbo']
 ],
 'Power Rangers',
 '{' + '{}'.format(id) + '}'
 )
-#
-
-add_data(['Phantom Rangers'],
-'Phantom Rangers',
-False,
-False,
-[
-    ['Power ?Rangers?']
-],
-'Power Rangers',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1hm5yd0/respect_the_phantom_ranger_power_rangers/
 
 ########################################
 
-id = get_rt_id(cur, 'Respect the Astro Megazord (Power Rangers In Space)', 'https://redd.it/1hn1vw6')
-add_data(['Astro Megazord'],
-'Astro Megazord',
+id = get_rt_id(cur, 'Respect Grand Duke Aldura (The Knight and the Corpse)', 'https://redd.it/1hnrxlx')
+add_data(['Grand Duke Aldura'],
+'Grand Duke Aldura',
 False,
-True,
+False,
 [
-    ['Power ?Rangers?']
+    ['The Knight and the Corpse']
 ],
-'Power Rangers',
+'The Knight and the Corpse',
 '{' + '{}'.format(id) + '}'
 )
-#https://www.reddit.com/r/respectthreads/comments/1hn1vw6/respect_the_astro_megazord_power_rangers_in_space/
+#https://www.reddit.com/r/respectthreads/comments/1hnrxlx/respect_grand_duke_aldura_the_knight_and_the/
 
 ########################################
 
-id = get_rt_id(cur, 'Respect the Mega Voyager (Power Rangers In Space)', 'https://redd.it/1hn1vx2')
-add_data(['Mega Voyager'],
-'Mega Voyager',
-False,
-True,
-[
-    ['Power ?Rangers?']
-],
-'Power Rangers',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1hn1vx2/respect_the_mega_voyager_power_rangers_in_space/
-
-########################################
-
-id = get_rt_id(cur, 'Respect The Kong of the Planet of the Apes (Kong on the Planet of the Apes)', 'https://redd.it/1hmqx52')
-add_data(['Kong'],
-'Kong',
+id = get_rt_id(cur, 'Respect Monstro the Albino Gorilla! (Marvel)', 'https://redd.it/1hopipk')
+add_data(['Monstro'],
+'Monstro',
 False,
 False,
 [
-    ['Kong on the Planet of the Apes']
+    ['Albino Gorilla']
 ],
-'Kong on the Planet of the Apes',
+'Albino Gorilla',
 '{' + '{}'.format(id) + '}'
 )
-#https://www.reddit.com/r/respectthreads/comments/1hmqx52/respect_the_kong_of_the_planet_of_the_apes_kong/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Ultimate Dazzler (Marvel, Earth-1610)', 'https://redd.it/1hn0xh3')
-add_data(['Dazzler'],
-'Dazzler',
-False,
-False,
-[
-    ['Ultimates? Dazzler']
-],
-'1610',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1hn0xh3/respect_ultimate_dazzler_marvel_earth1610/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Superman (The Dark Knight Returns Animated)', 'https://redd.it/1hn8xzq')
-add_data(['Super(-| )?man'],
-'Superman',
-False,
-False,
-[
-    ['Dark Knight Returns Animated']
-],
-'The Dark Knight Returns Animated',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1hn8xzq/respect_superman_the_dark_knight_returns_animated/
+#https://www.reddit.com/r/respectthreads/comments/1hopipk/respect_monstro_the_albino_gorilla_marvel/
 
 ########################################
 

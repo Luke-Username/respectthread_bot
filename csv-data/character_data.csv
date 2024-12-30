@@ -29592,8 +29592,8 @@ Zatanna,{Rebirth},f,{1710},Post-Crisis / New 52
 Zatanna,{PC},f,{1710},Post-Crisis / New 52
 Zatanna,"{`"Post(-| )?C(risis)?`"}",f,{1710},Post-Crisis / New 52
 Zatanna,"{`"New(-| )Earth`"}",f,{1710},Post-Crisis / New 52
-Zatanna,"{`"(DC( Comics)?)`"}",f,"{1710,23813}",DC
 Dante,"{`"Dante Alighieri`"}",f,{},Dante Alighieri
+Zatanna,"{`"(DC( Comics)?)`"}",t,"{1710,23813}",DC
 Gregor Eisenhorn,{(WH)?40K},t,{23816},Warhammer 40k
 Gregor Eisenhorn,{Warhammer},t,{23816},Warhammer 40k
 Belinda White,"{`"Candy Shop War`"}",f,{23817},The Candy Shop War
@@ -32683,3 +32683,19 @@ G'uranthic Guardian,{616},t,{25619},616
 Beast,"{Amnesia,Bunker}",f,{25620},Amnesia
 Madam Bo,"{`"Mortal Kombat`"}",t,{25621},Mortal Kombat
 William Cobb,"{`"(Post(-| ))Flash(-| )?point`"}",f,{25616},Post-Flashpoint
+Gojo,"{`"Hollow Purple`"}",f,{14809},Jujutsu Kaisen
+Wanda,"{Zatanna,Jean}",f,{1997},616
+Jean,"{Zatanna,Wanda}",f,{2368},616
+Atreides,{Fremen},f,{6144},Dune
+Atreides,{Dune},f,{6144},Dune
+Fuuko,"{`"Undead Unluck`"}",f,{22336},Undead Unluck
+Andros,"{`"(Power|Space) ?Rangers?`"}",f,{25622},Power Rangers
+Red Space Ranger,"{`"(Power|Space) ?Rangers?`"}",t,{25622},Power Rangers
+Gomi Bako Grumer,"{`"Bakuage Sentai BoonBoomger`"}",f,{25623},Bakuage Sentai BoonBoomger
+Phantom Ranger,"{`"Power ?Rangers?`"}",f,{25624},Power Rangers
+Phantom Rangers,"{`"Power ?Rangers?`"}",f,{25624},Power Rangers
+Astro Megazord,"{`"Power ?Rangers?`"}",t,{25625},Power Rangers
+Mega Voyager,"{`"Power ?Rangers?`"}",t,{25626},Power Rangers
+Kong,"{`"Kong on the Planet of the Apes`"}",f,{25627},Kong on the Planet of the Apes
+Dazzler,"{`"Ultimates? Dazzler`"}",f,{25628},1610
+Superman,"{`"Dark Knight Returns Animated`"}",f,{25629},The Dark Knight Returns Animated
