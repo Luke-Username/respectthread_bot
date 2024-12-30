@@ -107,6 +107,119 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Zhane (Power Rangers In Space)', 'https://redd.it/1hp4kmc')
+add_data(['Zhane'],
+'Zhane',
+False,
+False,
+[
+    ['Power ?Rangers?'], ['Silver', 'Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ashley Hammond (Power Rangers)', 'https://redd.it/1hp4kla')
+add_data(['Ashley Hammond'],
+'Ashley Hammond',
+False,
+True,
+[
+    ['Power ?Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Ashley'],
+'Ashley',
+False,
+False,
+[
+    ['Power ?Rangers?'], ['Turbo', 'Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Theo Bell! (Vampire: the Masquerade)', 'https://redd.it/1hp99yg')
+add_data(['Theo Bell'],
+'Theo Bell',
+False,
+False,
+[
+    ['Vampire:? the Masquerade'], ['VTM']
+],
+'Vampire: the Masquerade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hp99yg/respect_theo_bell_vampire_the_masquerade/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Moby Dick (Moby-Dick)', 'https://redd.it/1hpaq5t')
+add_data(['Moby( |-)Dick'],
+'Moby Dick',
+False,
+True,
+[
+    ['Moby Dick ?\(Moby( |-)Dick\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Moby( |-)Dick'],
+'Moby Dick',
+False,
+False,
+[
+    ['In The Heart of the Sea']
+],
+'In The Heart of the Sea',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Queequeg (Moby-Dick)', 'https://redd.it/1hpaqj4')
+add_data(['Queequeg'],
+'Queequeg',
+False,
+True,
+[
+    ['Moby( |-)Dick']
+],
+'Moby-Dick',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect the Kaftar (Cabela''s Dangerous Hunts 2011)", 'https://redd.it/1hpbcco')
+add_data(['Kaftar'],
+'Kaftar',
+False,
+False,
+[
+    ["Cabela''?s Dangerous Hunts", "2011"]
+],
+'Cabela''s Dangerous Hunts, 2011',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hpbcco/respect_the_kaftar_cabelas_dangerous_hunts_2011/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
