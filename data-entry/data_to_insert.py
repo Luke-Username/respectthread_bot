@@ -251,6 +251,300 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Firearm! (Malibu Comics/Ultraverse)', 'https://redd.it/1hpxsf8')
+add_data(['Firearm'],
+'Firearm',
+False,
+False,
+[
+    ['Ultraverse']
+],
+'Ultraverse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hpxsf8/respect_firearm_malibu_comicsultraverse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect WolfCop! (WolfCop)', 'https://redd.it/1hpxtai')
+add_data(['WolfCop'],
+'WolfCop',
+False,
+False,
+[
+    ['Lou Garou']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Godzilla: Skate or Die)', 'https://redd.it/1hpy0fe')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Skate or Die']
+],
+'Godzilla: Skate or Die',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Master of the Forest - (Metro Exodus)', 'https://redd.it/1hq13qd')
+add_data(['Master of the Forest'],
+'Master of the Forest',
+False,
+False,
+[
+    ['Metro']
+],
+'Metro',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thor (The Incredible Hulk Returns)', 'https://redd.it/1hq141b')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['The Incredible Hulk Returns']
+],
+'The Incredible Hulk Returns',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hq141b/respect_thor_the_incredible_hulk_returns/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doctor Strange - (Doctor Strange 1978 film)', 'https://redd.it/1hq18mj')
+add_data(['(Doctor|Dr\.?|Stephen) ?Strange'],
+'Doctor Strange',
+False,
+False,
+[
+    ['(Doctor|Dr\.?|Stephen) ?Strange ?\(1978\)'], ['(Doctor|Dr\.?|Stephen) ?Strange 1978 film']
+],
+'1978',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hq141b/respect_thor_the_incredible_hulk_returns/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gamera (Kaiju War Chronicles Multimedia #11)', 'https://redd.it/1hqj1mo')
+add_data(['Gamera'],
+'Gamera',
+False,
+False,
+[
+    ['Kaiju War Chronicles Multimedia #11']
+],
+'Kaiju War Chronicles Multimedia #11',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hqj1mo/respect_gamera_kaiju_war_chronicles_multimedia_11/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aziraphale (Good Omens)', 'https://redd.it/1hqnty5')
+add_data(['Azira?phale'],
+'Aziraphale',
+False,
+False,
+[
+    ['Good Omens']
+],
+'Good Omens',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hqnty5/respect_aziraphale_good_omens/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Crowley (Good Omens)', 'https://redd.it/1hqntz5')
+add_data(['Crowley'],
+'Crowley',
+False,
+False,
+[
+    ['Good Omens']
+],
+'Good Omens',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hqntz5/respect_crowley_good_omens/
+
+add_data(['Crowly'],
+'Crowly',
+False,
+False,
+[
+    ['Good Omens']
+],
+'Good Omens',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hqntz5/respect_crowley_good_omens/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Adam Young (Good Omens)', 'https://redd.it/1hqntzu')
+add_data(['Adam Young'],
+'Adam Young',
+False,
+False,
+[
+    ['Good Omens']
+],
+'Good Omens',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hqntzu/respect_adam_young_good_omens/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Machine Corps (Spriggan 1998)', 'https://redd.it/1hqttjz')
+add_data(['Machine Corps'],
+'Machine Corps',
+True,
+False,
+[
+    ['Spriggan', '1998']
+],
+'Spriggan, 1998',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Wish Tokens! (The Fairly Oddparents: Nick Zone: Token Wishes)', 'https://redd.it/1hqw1lx')
+add_data(['Wish Tokens?'],
+'Wish Tokens',
+False,
+False,
+[
+    ['Fairly Odd ?parents']
+],
+'Fairly Oddparents',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Token Wishes'],
+'Token Wishes',
+False,
+False,
+[
+    ['Fairly Odd ?parents']
+],
+'Fairly Oddparents',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Esteban The Wishing Star! (The Adventures of Puss in Boots)', 'https://redd.it/1hqw774')
+add_data(['Esteban'],
+'Esteban',
+False,
+False,
+[
+    ['Adventures of Puss in Boots']
+],
+'The Adventures of Puss in Boots',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hqw774/respect_esteban_the_wishing_star_the_adventures/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sanji! (One Piece [Live Action Series])', 'https://redd.it/1hqwdao')
+add_data(['Sanji'],
+'Sanji',
+False,
+False,
+[
+    ["(Netflix(''?s?)?|Live(-| )Action) ?One Piece"]
+],
+"Netflix''s One Piece",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the God-Lizard Tyrannosaurus rex (Tyrannosaurus Rex by Image Comics)', 'https://redd.it/1hqwdzg')
+add_data(['Tyrannosaurus'],
+'Tyrannosaurus Rex',
+False,
+False,
+[
+    ['Image Comics']
+],
+'Image Comics',
+'{' + '{}'.format(id) + '}'
+)
+
+########################################
+
+id = get_rt_id(cur, 'Respect Redcoat (Image Comics, Ghost Machine)', 'https://redd.it/1hr4cne')
+add_data(['Redcoat'],
+'Redcoat',
+False,
+False,
+[
+    ['Image Comics'], ['Ghost Machine']
+],
+'Image Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hr4cne/respect_redcoat_image_comics_ghost_machine/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roundhouse (DC Comics, Post-Flashpoint)', 'https://redd.it/1hr60wn')
+add_data(['Roundhouse'],
+'Roundhouse',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hr60wn/respect_roundhouse_dc_comics_postflashpoint/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Banana Splits (The Banana Splits Movie)', 'https://redd.it/1hrtz36')
+add_data(['Banana Splits'],
+'Banana Splits',
+False,
+False,
+[
+    ['The Banana Splits Movie']
+],
+'The Banana Splits Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hrtz36/respect_the_banana_splits_the_banana_splits_movie/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
