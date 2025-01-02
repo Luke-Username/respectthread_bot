@@ -15463,7 +15463,6 @@ Stapler,"{`"\\(Paper Mario`"}",f,{13031},Paper Mario
 Stapler,"{`"Origami King`"}",f,{13031},Paper Mario
 Busto 2.0,"{`"Car Boys`"}",t,{13032},Car Boys
 Grey Trace,{Upgrade},t,{13033},Upgrade
-STEM,{Upgrade},t,{13033},Upgrade
 Sunstar,"{`"Second Coming`"}",f,{13036},Second Coming
 Jesus,"{`"\\(Second Coming`",comic}",f,{13036},Second Coming
 Ahsoka Tano,"{`"Star ?Wars`"}",t,{13037},Star Wars
@@ -15492,6 +15491,7 @@ Colossus,"{`"Deadpool 2`"}",f,"{13050,13051}",Deadpool - FOX
 Colossus,"{`"Colossus and Thing ?\\(FOX`"}",f,"{13050,13051}",Deadpool - FOX
 Colossus,"{`"Colossus ?\\(MCU/FOX`"}",f,"{13050,13051}",Deadpool - FOX
 Colossus,"{FOX,Deadpool}",f,"{13050,13051}",Deadpool - FOX
+STEM,{Upgrade},f,{13033},Upgrade
 General Zod,{Donner},f,{13052},Superman II
 General Zod,"{`"Superman II`"}",f,{13052},Superman II
 Merlyn,{Otherworld},f,{13053},Otherworld
@@ -17437,7 +17437,6 @@ Doc Rocket,{Youngblood},t,{14801},Extreme Universe
 Thing,"{`"John Carpenters?`"}",f,{14803},John Carpenter
 Thing,{1982},f,{14803},John Carpenter
 Thing,"{`"Thing ?\\(The Thing`"}",f,{14803},John Carpenter
-Thing,"{`"The Thing\\)`"}",f,{14803},John Carpenter
 Porcupine,{616},f,{14804},616
 Porcupine,{Marvel},f,{14804},616
 Roger Gocking,{616},t,{14804},616
@@ -22328,7 +22327,6 @@ Combined Human,{bill?(ion)?},f,"{6372,6390,6388}",""
 Human-Man,{combined?},f,"{6372,6390,6388}",""
 Human-Man,{fus(ed|ion)},f,"{6372,6390,6388}",""
 Every Human,{combined?},f,"{6372,6390,6388}",Combined
-Every Human,{fus(ed|ion)},f,"{6372,6390,6388}",Combined
 Human Race,"{combined?,`"(into one)|(bill?(ion)?)`"}",f,"{6372,6390,6388}",Combined
 Human Race,{fus(ed|ion)},f,"{6372,6390,6388}",Combined
 Human,"{bil(lion)?,combined?}",f,"{6372,6390,6388}",Combined
@@ -22360,6 +22358,7 @@ Eddie Hall,{Beast},t,{6391},""
 Satoru Iwata,{Nintendo},t,{6392},Nintendo
 Legacy,"{`"Sentinels of the Multiverse`"}",f,{6393},Sentinels of the Multiverse
 Tachyon,"{`"Sentinels of the Multiverse`"}",f,{6394},Sentinels of the Multiverse
+Every Human,"{`"(Every Human fus(ed|ion))|(fus(ed|ion) of.*Every Human)`"}",f,"{6372,6390,6388}",Combined
 Seymour,{Sandsverse},f,{6395},Sandsverse
 Babyboy,{Sandsverse},f,{6395},Sandsverse
 Simo Häyhä,"{`"White Death`"}",t,{6396},""
@@ -32719,3 +32718,39 @@ Green Turbo Ranger,{Carlos},f,{25634},Carlos Vallerte
 Carlos,"{`"Power ?Rangers?`",Turbo}",f,{25634},Power Rangers
 Grand Duke Aldura,"{`"The Knight and the Corpse`"}",f,{25635},The Knight and the Corpse
 Monstro,"{`"Albino Gorilla`"}",f,{25636},Albino Gorilla
+Annasui,{Jojos?(verse)?},f,{3612},Jojo's Bizarre Adventure
+Annasui,{JJBA},f,{3612},Jojo's Bizarre Adventure
+Taylor Hebert,{Worm},t,{6105},Worm
+Zhane,"{`"Power ?Rangers?`"}",f,{25661},Power Rangers
+Zhane,"{Silver,Rangers?}",f,{25661},Power Rangers
+Ashley Hammond,"{`"Power ?Rangers?`"}",t,{25662},Power Rangers
+Ashley,"{`"Power ?Rangers?`"}",f,{25662},Power Rangers
+Ashley,"{Turbo,Rangers?}",f,{25662},Power Rangers
+Theo Bell,"{`"Vampire:? the Masquerade`"}",f,{25663},Vampire: the Masquerade
+Theo Bell,{VTM},f,{25663},Vampire: the Masquerade
+Moby Dick,"{`"Moby Dick ?\\(Moby( |-)Dick\\)`"}",t,{25664},""
+Moby Dick,"{`"In The Heart of the Sea`"}",f,{25664},In The Heart of the Sea
+Queequeg,"{`"Moby( |-)Dick`"}",t,{25665},Moby-Dick
+Kaftar,"{`"Cabela'?s Dangerous Hunts`",2011}",f,{25666},"Cabelas Dangerous Hunts, 2011"
+Firearm,{Ultraverse},f,{25667},Ultraverse
+WolfCop,"{`"Lou Garou`"}",f,{25668},""
+Godzilla,"{`"Skate or Die`"}",f,{25669},Godzilla: Skate or Die
+Master of the Forest,{Metro},f,{25670},Metro
+Thor,"{`"The Incredible Hulk Returns`"}",f,{25671},The Incredible Hulk Returns
+Doctor Strange,"{`"(Doctor|Dr\\.?|Stephen) ?Strange ?\\(1978\\)`"}",f,{25672},1978
+Doctor Strange,"{`"(Doctor|Dr\\.?|Stephen) ?Strange 1978 film`"}",f,{25672},1978
+Gamera,"{`"Kaiju War Chronicles Multimedia #11`"}",f,{25673},Kaiju War Chronicles Multimedia #11
+Aziraphale,"{`"Good Omens`"}",f,{25674},Good Omens
+Crowley,"{`"Good Omens`"}",f,{25675},Good Omens
+Crowly,"{`"Good Omens`"}",f,{25675},Good Omens
+Adam Young,"{`"Good Omens`"}",f,{25676},Good Omens
+Machine Corps,"{Spriggan,1998}",f,{25677},"Spriggan, 1998"
+Wish Tokens,"{`"Fairly Odd ?parents`"}",f,{25678},Fairly Oddparents
+Token Wishes,"{`"Fairly Odd ?parents`"}",f,{25678},Fairly Oddparents
+Esteban,"{`"Adventures of Puss in Boots`"}",f,{25679},The Adventures of Puss in Boots
+Sanji,"{`"(Netflix('?s?)?|Live(-| )Action) ?One Piece`"}",f,{25680},Netflix's One Piece
+Tyrannosaurus Rex,"{`"Image Comics`"}",f,{25681},Image Comics
+Redcoat,"{`"Image Comics`"}",f,{25682},Image Comics
+Redcoat,"{`"Ghost Machine`"}",f,{25682},Image Comics
+Roundhouse,"{`"(Post(-| ))Flash(-| )?point`"}",f,{25683},Post-Flashpoint
+Banana Splits,"{`"The Banana Splits Movie`"}",f,{25684},The Banana Splits Movie

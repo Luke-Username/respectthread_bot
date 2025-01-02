@@ -14,19 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='STEM';
+########################################
 
 ########################################
 
-UPDATE character_name SET name='Taylor( Anne)? Hebert' WHERE name='Taylor Hebert';
-
 ########################################
-
-DELETE FROM character WHERE default_name='Thing' AND version='{"The Thing\\)"}';
-
-########################################
-
-UPDATE character SET version='{"(Every Human fus(ed|ion))|(fus(ed|ion) of.*Every Human)"}' WHERE default_name='Every Human' AND version='{"fus(ed|ion)"}';
 
 ########################################
 
