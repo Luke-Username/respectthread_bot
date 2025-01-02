@@ -107,6 +107,21 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Ann?asui'],
+'Annasui',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{3612}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hr7fsf/deadpool_and_wolverine_mcufox_vs_anasui_and/m4vg78a/?context=3
+
+
+########################################
+
 add_data(['Taylor( Anne)? Hebert'],
 'Taylor Hebert',
 False,
