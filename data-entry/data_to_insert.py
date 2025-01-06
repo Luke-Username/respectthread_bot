@@ -107,6 +107,171 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3775, 'Respect Kirby (Kirby: Right Back at Ya!)', 'https://redd.it/1hsos28')
+
+########################################
+
+add_data(['Mario'],
+'Mario',
+False,
+False,
+[
+    ['The Super Mario Bros\.? Movie']
+],
+'The Super Mario Bros. Movie',
+'{24078}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ht08ja/jonathan_joestar_jojos_bizarre_adventure_vs_mario/m59lvn2/?context=3
+
+########################################
+
+add_data(['Blade'],
+'Blade',
+False,
+False,
+[
+    ['Round.*Blade ?\(comics\)']
+],
+'616',
+'{2204}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1huqkq2/hellboy_runs_a_gauntlet/m5nbdbg/?context=3
+
+########################################
+
+add_data(['Constantine'],
+'Constantine',
+False,
+False,
+[
+    ['Constantine ?\(comics\)']
+],
+'616',
+'{22129,1704}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1huqkq2/hellboy_runs_a_gauntlet/m5nbdbg/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Baron Zemo (The Avengers: Earth''s Mightiest Heroes)", 'https://redd.it/1hs4red')
+add_data(['Baron Zemo'],
+'Baron Zemo',
+False,
+False,
+[
+    ['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH']
+],
+"Earth''s Mightiest Heroes",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Bully (Easy Street)', 'https://redd.it/1hs7ymm')
+add_data(['Bully'],
+'Bully',
+False,
+False,
+[
+    ['Easy Street']
+],
+'Easy Street',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hs7ymm/respect_the_bully_easy_street/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Singularity (Dead by Daylight)', 'https://redd.it/1hsq7v3')
+add_data(['Singularity'],
+'Singularity',
+False,
+False,
+[
+    ['Dead by Daylight']
+],
+'Dead by Daylight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hsq7v3/respect_the_singularity_dead_by_daylight/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ecliptor (Power Rangers In Space)', 'https://redd.it/1hte3as')
+add_data(['Ecliptor'],
+'Ecliptor',
+False,
+False,
+[
+    ['Rangers?'], ['In Space']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bernkastel, the Witch of Miracles! (Umineko: When They Cry [Manga])', 'https://redd.it/1htfe25')
+add_data(['Bernkastel'],
+'Bernkastel',
+False,
+True,
+[
+    ['Umineko'], ['Lambdadelta'], ['Frederica'], ['Higurashi'], ['Witch'], ['Miracles?'], ['Lucifer'], ['Dragon Ball'], ['Battler']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1htfe25/respect_bernkastel_the_witch_of_miracles_umineko/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lambdadelta, the Witch of Certainty! (Umineko: When They Cry [Manga])', 'https://redd.it/1hv70e4')
+add_data(['Bernkastel'],
+'Bernkastel',
+False,
+True,
+[
+    ['Umineko'], ['Bernkastel'], ['Higurashi'], ['Witch'], ['Certainty'], ['Lucifer'], ['Dragon Ball'], ['Battler']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hv70e4/respect_lambdadelta_the_witch_of_certainty/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (NECA Toyline)', 'https://redd.it/1hudfeq')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['NECA']
+],
+'NECA',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hudfeq/respect_the_predators_neca_toyline/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Tramp (Charlie Chaplin Films)', 'https://redd.it/1hul3tc')
+add_data(['Tramp'],
+'Tramp',
+False,
+False,
+[
+    ['Charlie Chaplin']
+],
+'Charlie Chaplin',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hul3tc/respect_the_tramp_charlie_chaplin_films/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
