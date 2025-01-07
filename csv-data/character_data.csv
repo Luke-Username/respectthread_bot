@@ -22446,7 +22446,6 @@ Great White,{sharks?},t,{6351},""
 Honey Badger,"{`"real life`"}",t,{6352},""
 Killer Whales,"{`"real life`"}",t,{6353},""
 Orca,"{`"real life`"}",t,{6353},""
-Tyrannosaurus Rex,"{`"real life`"}",t,{6357},""
 Chromavoid,{Skullkip},t,{6458},""
 O-Utsu Inazuma,{CynicalWeeaboo},t,{6459},""
 Meadowlark,{Cleverly_Clearly},f,{6460},""
@@ -22495,6 +22494,7 @@ Liliana Vess,{Planeswalkers?},t,{6476},Magic: The Gathering
 Lion,"{`"real life`"}",f,{6354},""
 Crocodile,"{`"real life`"}",f,{6355},""
 Weird Al,{Yankovic},t,"{6457,22829}",""
+Tyrannosaurus Rex,"{`"real life`"}",t,"{6357,25685}",""
 Liliana,"{`"Magic:? The Gathering`"}",f,{6476},Magic: The Gathering
 Liliana,{M:?TG},f,{6476},Magic: The Gathering
 Liliana,{Planeswalkers?},f,{6476},Magic: The Gathering
@@ -32754,3 +32754,26 @@ Redcoat,"{`"Image Comics`"}",f,{25682},Image Comics
 Redcoat,"{`"Ghost Machine`"}",f,{25682},Image Comics
 Roundhouse,"{`"(Post(-| ))Flash(-| )?point`"}",f,{25683},Post-Flashpoint
 Banana Splits,"{`"The Banana Splits Movie`"}",f,{25684},The Banana Splits Movie
+Mario,"{`"The Super Mario Bros\\.? Movie`"}",f,{24078},The Super Mario Bros. Movie
+Blade,"{`"Round.*Blade ?\\(comics\\)`"}",f,{2204},616
+Constantine,"{`"Constantine ?\\(comics\\)`"}",f,"{22129,1704}",616
+Baron Zemo,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{25686},Earth's Mightiest Heroes
+Baron Zemo,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{25686},Earth's Mightiest Heroes
+Baron Zemo,"{`"A(vengers)?: ?EMH`"}",f,{25686},Earth's Mightiest Heroes
+Bully,"{`"Easy Street`"}",f,{25687},Easy Street
+Singularity,"{`"Dead by Daylight`"}",f,{25688},Dead by Daylight
+Ecliptor,{Rangers?},f,{25689},Power Rangers
+Ecliptor,"{`"In Space`"}",f,{25689},Power Rangers
+Bernkastel,{Umineko},t,{25690},Umineko
+Bernkastel,{Lambdadelta},t,{25690},Umineko
+Bernkastel,{Frederica},t,{25690},Umineko
+Bernkastel,{Higurashi},t,{25690},Umineko
+Bernkastel,{Witch},t,{25690},Umineko
+Bernkastel,{Miracles?},t,{25690},Umineko
+Bernkastel,{Lucifer},t,{25690},Umineko
+Bernkastel,"{`"Dragon Ball`"}",t,{25690},Umineko
+Bernkastel,{Battler},t,{25690},Umineko
+Bernkastel,{Bernkastel},t,{25691},Umineko
+Bernkastel,{Certainty},t,{25691},Umineko
+Predators,{NECA},f,{25692},NECA
+Tramp,"{`"Charlie Chaplin`"}",f,{25693},Charlie Chaplin
