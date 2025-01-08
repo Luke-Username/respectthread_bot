@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Mercen(a|e)ry Tao' WHERE name='Mercenary Tao';
+UPDATE character SET is_default=TRUE WHERE default_name='Adeptus Custodes';
+
 ########################################
 
 ########################################

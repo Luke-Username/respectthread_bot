@@ -107,6 +107,50 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 809, 'Respect Bolin (The Legend of Korra)', 'https://redd.it/1hveobm')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Erika, the Detective! (Umineko: When They Cry [Manga])', 'https://redd.it/1hvsa41')
+add_data(['Erika'],
+'Erika',
+False,
+False,
+[
+    ['Umineko']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hvsa41/respect_erika_the_detective_umineko_when_they_cry/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ai Ohto! (Wonder Egg Priority)', 'https://redd.it/1hvv0he')
+add_data(['Ai Ohto'],
+'Ai Ohto',
+False,
+True,
+[
+    ['Wonder Egg Priority']
+],
+'Wonder Egg Priority',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hvv0he/respect_ai_ohto_wonder_egg_priority/
+
+add_data(['Ai'],
+'Ai',
+False,
+False,
+[
+    ['Wonder Egg Priority']
+],
+'Wonder Egg Priority',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hvv0he/respect_ai_ohto_wonder_egg_priority/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
