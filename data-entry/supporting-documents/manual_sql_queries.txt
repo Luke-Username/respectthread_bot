@@ -19,7 +19,13 @@ UPDATE character SET is_default=TRUE WHERE default_name='Adeptus Custodes';
 
 ########################################
 
+UPDATE character_name SET name='Har?grids?' WHERE name='Hagrid';
+
 ########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/1hwlw3s';
+UPDATE character SET rt_id_array='{2173,24286, ?,25525,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}' WHERE rt_id_array='{2173,24286,25525,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}';
+--After run
 
 ########################################
 

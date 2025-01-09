@@ -153,6 +153,108 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Iron Man Model 2 (Marvel, Earth-616)', 'https://redd.it/1hwlw3s')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 2']
+],
+'Model 2',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hwlw3s/respect_iron_man_model_2_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dlanor! (Umineko: When They Cry [Manga])', 'https://redd.it/1hwn952')
+add_data(['Dlanor'],
+'Dlanor',
+False,
+False,
+[
+    ['Umineko'], ['Dlanor A\.? Knox']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hwn952/respect_dlanor_umineko_when_they_cry_manga/
+
+add_data(['Dlanor A\.? Knox'],
+'Dlanor A. Knox',
+False,
+True,
+[
+    ['Umineko']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hwn952/respect_dlanor_umineko_when_they_cry_manga/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Willard H. Wright! (Umineko: When They Cry [Manga])', 'https://redd.it/1hxd4br')
+add_data(['Willard H\.? Wright'],
+'Willard H. Wright',
+False,
+True,
+[
+    ['Umineko']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Lelith Hesperax (Warhammer 40k)', 'https://redd.it/1hwqomh')
+add_data(['Lelith Hesperax'],
+'Lelith Hesperax',
+False,
+True,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hwqomh/respect_lelith_hesperax_warhammer_40k/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Takarabako Grumer! (Bakuage Sentai BoonBoomger)', 'https://redd.it/1hx4yn1')
+add_data(['Takarabako Grumer'],
+'Takarabako Grumer',
+False,
+True,
+[
+    ['Bakuage Sentai BoonBoomger']
+],
+'Bakuage Sentai BoonBoomger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hx4yn1/respect_takarabako_grumer_bakuage_sentai/
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-001-EX, A Good Boy (SCP Foundation)', 'https://redd.it/1hxgnm2')
+add_data(['SCP ?(-| )? ?001 ?(-| )? ?EX'],
+'SCP-001-EX',
+False,
+True,
+[
+    ['Good Boy']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hxgnm2/respect_scp001ex_a_good_boy_scp_foundation/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
