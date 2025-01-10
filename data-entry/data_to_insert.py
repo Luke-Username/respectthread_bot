@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 809, 'Respect Bolin (The Legend of Korra)', 'https://redd.it/1hveobm')
+update_respectthread(cur, 1961, 'Respect Invincible! (Image Comics)', 'https://redd.it/1hxtdnb')
 
 ########################################
 
