@@ -29,6 +29,10 @@ UPDATE character SET rt_id_array='{2173,24286, ?,25525,24256,24155,24222,24234,2
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Matilda';
+UPDATE character SET is_default=FALSE WHERE default_name='Orga';
+
+
 ########################################
 
 ########################################

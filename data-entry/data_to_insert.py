@@ -256,6 +256,51 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Goody and Stacy (Vamps)', 'https://redd.it/1hynz2v')
+add_data(['Goody (and|&) Stacy'],
+'Goody and Stacy',
+True,
+False,
+[
+    ['Vamps']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hxgnm2/respect_scp001ex_a_good_boy_scp_foundation/
+
+########################################
+
+id = get_rt_id(cur, 'Respect EVA! (Umineko: When They Cry [Manga])', 'https://redd.it/1hzbn8a')
+add_data(['EVA'],
+'EVA',
+False,
+False,
+[
+    ['Umineko']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hzbn8a/respect_eva_umineko_when_they_cry_manga/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kurata Akihiro (Digmon Savers)', 'https://redd.it/1hzs3kq')
+add_data(['(Kurata Akihiro|Akihiro Kurata)'],
+'Kurata Akihiro',
+False,
+True,
+[
+    ['Digimon']
+],
+'Digimon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
