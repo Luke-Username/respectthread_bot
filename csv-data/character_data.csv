@@ -926,7 +926,6 @@ SpaceGodzilla,{Godzilla},t,{211},Godzilla
 Kiryu,{Godzilla},f,{193},Godzilla
 Millennium Mechagodzilla,{Godzilla},t,{193},Godzilla
 Megaguirus,{Godzilla},t,{199},Godzilla
-Orga,{Godzilla},t,{208},Godzilla
 Ebirah,"{`"Final Wars`"}",f,{176},Godzilla
 Ebirah,"{`"Final War`"}",f,{176},Godzilla
 Ebirah,{Godzilla},f,{176},Godzilla
@@ -965,6 +964,7 @@ MUTO,{Legendary},f,{282},MonsterVerse
 MUTO,"{`"King of the Monsters`"}",f,{282},MonsterVerse
 MUTO,"{`"Godzilla: King of Monsters`"}",f,{282},MonsterVerse
 MUTO,{KOTM},f,{282},MonsterVerse
+Orga,{Godzilla},f,{208},Godzilla
 Ozaki,"{`"Final Wars`"}",f,{210},Godzilla: Final Wars
 Shinichi,{Godzilla},f,{210},Godzilla: Final Wars
 Shinichi,"{`"Final Wars`"}",f,{210},Godzilla: Final Wars
@@ -6344,10 +6344,10 @@ Kurogane Ikki,"{`"Chivalry of a Failed Knight`"}",t,{7562},Chivalry of a Failed 
 Kurogane Ikki,"{`"Rakudai Kishi no Cavalry`"}",t,{7562},Chivalry of a Failed Knight
 M35 Mako,"{`"Mass Effect`"}",t,{7563},Mass Effect
 M35 Mako,{MEd?},t,{7563},Mass Effect
-Matilda,{1996},t,{7564},1996
-Matilda,"{`"Live(-| )Action`"}",t,{7564},1996
 Skullmageddon,"{`"Double Dragon`"}",t,{7565},Double Dragon
+Matilda,{1996},f,{7564},1996
 Gremlins,"{`"\\(Gremlins\\)`"}",f,{7553},""
+Matilda,"{`"Live(-| )Action`"}",f,{7564},1996
 Jack Cooper,"{`"Titan ?fall`"}",t,{7566},Titanfall
 BT-7274,"{`"Titan ?fall`"}",t,{7566},Titanfall
 Mr. X,"{`"Resident Evil`"}",f,{7567},Resident Evil
@@ -29355,8 +29355,8 @@ God,"{`"Prince of Egypt`"}",f,{23644},The Prince of Egypt
 Moses,"{`"Prince of Egypt`"}",f,{23644},The Prince of Egypt
 Jesus,"{`"Jesus'? Betrayal`",`"What Really Went Down`"}",f,{23645},Jesus' Betrayal : What Really Went Down
 Spawn,"{`"Mortal Kombat`"}",f,{23646},Mortal Kombat
-Adeptus Custodes,{(WH)?40K},f,{23647},Warhammer 40k
-Adeptus Custodes,{Warhammer},f,{23647},Warhammer 40k
+Adeptus Custodes,{(WH)?40K},t,{23647},Warhammer 40k
+Adeptus Custodes,{Warhammer},t,{23647},Warhammer 40k
 Doomsday,"{`"vs.? Doomsday`"}",t,"{1801,23625}",DC
 Doomsday,"{`", ?Doomsday`"}",t,"{1801,23625}",DC
 Doomsday,"{`"Composite Doomsday`"}",t,"{1801,23625}",DC
@@ -30607,8 +30607,8 @@ Kuroto Dan,"{`"Kamen Rider`"}",t,{24398},Kamen Rider
 Dr. Jekyll and Mr. Hyde,"{`"616 versions?`"}",f,{},616
 Dr. Jekyll and Mr. Hyde,"{`"M(iste)?r\\.? Hyde ?\\(616\\)`"}",f,{},616
 Dr. Jekyll and Mr. Hyde,{Doyle},f,{},Doyle
-Iron Man,{616},t,"{2173,24286,25525,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
-Iron Man,{Marvel},t,"{2173,24286,25525,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
+Iron Man,{616},t,"{2173,24286,25696,25525,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
+Iron Man,{Marvel},t,"{2173,24286,25696,25525,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
 Dr. Jekyll and Mr. Hyde,"{`"\\(Movie\\) Mr\\.? Hyde`"}",f,{},Movie
 Dr. Jekyll and Mr. Hyde,"{`"League of Extraordinary Gentlemen`"}",f,{},The League of Extraordinary Gentlemen
 Dr. Jekyll and Mr. Hyde,"{`"The London Assignment`"}",f,{},Van Helsing: The London Assignment
@@ -32777,3 +32777,18 @@ Bernkastel,{Bernkastel},t,{25691},Umineko
 Bernkastel,{Certainty},t,{25691},Umineko
 Predators,{NECA},f,{25692},NECA
 Tramp,"{`"Charlie Chaplin`"}",f,{25693},Charlie Chaplin
+Erika,{Umineko},f,{25694},Umineko
+Ai Ohto,"{`"Wonder Egg Priority`"}",t,{25695},Wonder Egg Priority
+Ai,"{`"Wonder Egg Priority`"}",f,{25695},Wonder Egg Priority
+Iron Man,"{`"Model 2`"}",f,{25696},Model 2
+Dlanor,{Umineko},f,{25697},Umineko
+Dlanor,"{`"Dlanor A\\.? Knox`"}",f,{25697},Umineko
+Dlanor A. Knox,{Umineko},t,{25697},Umineko
+Willard H. Wright,{Umineko},t,{25698},Umineko
+Lelith Hesperax,{(WH)?40K},t,{25699},Warhammer 40k
+Lelith Hesperax,{Warhammer},t,{25699},Warhammer 40k
+Takarabako Grumer,"{`"Bakuage Sentai BoonBoomger`"}",t,{25700},Bakuage Sentai BoonBoomger
+SCP-001-EX,"{`"Good Boy`"}",t,{25701},""
+Goody and Stacy,{Vamps},f,{25702},""
+EVA,{Umineko},f,{25703},Umineko
+Kurata Akihiro,{Digimon},t,{25704},Digimon

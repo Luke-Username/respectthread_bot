@@ -3381,7 +3381,6 @@ Ron Weasley,Ron Weasley,f
 Ron,Ron,f
 Hermione,Hermione Granger,f
 Luna Lovegood,Luna Lovegood,f
-Hagrid,Hagrid,f
 Ashford,Ashford,f
 Xee?lee Night ?fighters?,Xeelee Nightfighter,f
 Photino Birds?,Photino Birds,f
@@ -3448,6 +3447,7 @@ M(iste)?r\.? Mxy,Mister Mxyzptlk,f
 Lex Luth(o|e)r,Lex Luthor,f
 Rorsc?har?ch,Rorschach,f
 Vampire,Vampire,f
+Har?grids?,Hagrid,f
 Scream Symbiote,Scream Symbiote,f
 Riot,Riot,f
 Phage,Phage,f
@@ -5355,7 +5355,6 @@ Saiyaman (and|&) Saiyagirl,Saiyaman and Saiyagirl,t
 Raditz,Raditz,f
 Turles,Turles,f
 Roshi,Master Roshi,f
-Mercenary Tao,Mercenary Tao,f
 General Tao,Mercenary Tao,f
 Cyborg Tao,Mercenary Tao,f
 Jaco,Jaco,f
@@ -5473,6 +5472,7 @@ Kenshiro,Kenshiro,f
 Tao ?(B|P)ai ?(B|P)ai,Mercenary Tao,f
 "Jacc?o,? the Galactic Patrolman",Jaco the Galactic Patrolman,f
 Fr(i|e)(e|i)za,Frieza,f
+Mercen(a|e)ry Tao,Mercenary Tao,f
 Raoh,Raoh,f
 Rei,Rei,f
 Shu,Shu,f
@@ -15034,3 +15034,14 @@ Baron Zemo,Baron Zemo,f
 Bully,Bully,f
 Ecliptor,Ecliptor,f
 Bernkastel,Bernkastel,f
+Ai Ohto,Ai Ohto,f
+Ai,Ai,f
+Dlanor,Dlanor,f
+Dlanor A\\.? Knox,Dlanor A. Knox,f
+Willard H\\.? Wright,Willard H. Wright,f
+Lelith Hesperax,Lelith Hesperax,f
+Takarabako Grumer,Takarabako Grumer,f
+SCP ?(-| )? ?001 ?(-| )? ?EX,SCP-001-EX,f
+Goody (and|&) Stacy,Goody and Stacy,t
+EVA,EVA,f
+(Kurata Akihiro|Akihiro Kurata),Kurata Akihiro,f
