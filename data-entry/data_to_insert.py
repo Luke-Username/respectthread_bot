@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Monika (Mad Father)', 'https://redd.it/1i0sd2r')
+add_data(['Monika'],
+'Monika',
+False,
+False,
+[
+    ['Mad Father']
+],
+'Mad Father',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1i0sd2r/respect_monika_mad_father/
+
+########################################
+
+id = get_rt_id(cur, "Respect Sho''s Raichu (Pokemon Anime)", 'https://redd.it/1i2eix5')
+add_data(['Raichu'],
+'Raichu',
+False,
+False,
+[
+    ['Sho']
+],
+'Sho',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dark Matter (Pokemon Super Mystery Dungeon)', 'https://redd.it/1i2nnbv')
+add_data(['Dark Matter'],
+'Dark Matter',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1i2nnbv/respect_dark_matter_pokemon_super_mystery_dungeon/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
