@@ -152,6 +152,52 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Aaron Davis, The Iron Spider (Marvel, 616)', 'https://redd.it/1i2r1lb')
+add_data(['Aaron Davis'],
+'Aaron Davis',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wulfric (Pokemon Anime)', 'https://redd.it/1i39fl1')
+add_data(['Wulfric'],
+'Wulfric',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tony Stark, Iron Man (Iron Man: The Animated Series)', 'https://redd.it/1i3valr')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Iron Man:? The Animated Series']
+],
+'Iron Man: The Animated Series',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
