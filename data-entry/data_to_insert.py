@@ -198,6 +198,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect James Rhodes, War Machine (Iron Man: The Animated Series)', 'https://redd.it/1i4g04c')
+add_data(['War Machine'],
+'War Machine',
+False,
+False,
+[
+    ['Iron Man:? The Animated Series']
+],
+'Iron Man: The Animated Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1i4g04c/respect_james_rhodes_war_machine_iron_man_the/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
