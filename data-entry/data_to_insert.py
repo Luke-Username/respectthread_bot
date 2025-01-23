@@ -107,6 +107,78 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Storm'],
+'Storm',
+False,
+False,
+[
+    ['Storm ?\((x(-| )?men marvel|marvel x(-| )?men)']
+],
+'616',
+'{2386}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1i6xjg7/storm_x_men_marvel_vs_thor_god_of_war_ragnarok_vs/m8mdcx3/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Virgilia! (Umineko: When They Cry [Manga])', 'https://redd.it/1i6oa5p')
+add_data(['Virgilia'],
+'Virgilia',
+False,
+False,
+[
+    ['Umineko']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1i6oa5p/respect_virgilia_umineko_when_they_cry_manga/
+
+########################################
+
+id = get_rt_id(cur, 'Respect G.I. Robot (DCU)', 'https://redd.it/1i720xo')
+add_data(['G\.?I\.? Robot'],
+'G.I. Robot',
+False,
+False,
+[
+    ['DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Blasto! (Blasto (1998))', 'https://redd.it/1i7srne')
+add_data(['Captain Blasto'],
+'Captain Blasto',
+False,
+True,
+[
+    ['Blasto']
+],
+'Blasto',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1i7srne/respect_captain_blasto_blasto_1998/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Soccer Ball Grumer (Bakauge Sentai BoonBoomger)', 'https://redd.it/1i7xeyw')
+add_data(['Soccer Ball Grumer'],
+'Soccer Ball Grumer',
+False,
+False,
+[
+    ['Bakauge Sentai BoonBoomger']
+],
+'Bakauge Sentai BoonBoomger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1i7xeyw/respect_soccer_ball_grumer_bakauge_sentai/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
