@@ -109,6 +109,96 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect Lavender (Grimm''s Hollow)", 'https://redd.it/1i8hwo2')
+add_data(['Lavender'],
+'Lavender',
+False,
+False,
+[
+    ["Grimm''?s Hollow"]
+],
+"Grimm''s Hollow",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Weasel (DCU)', 'https://redd.it/1i85pr9')
+add_data(['Weasel'],
+'Weasel',
+False,
+False,
+[
+    ['DCU'], ['Creature Commandos']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1i85pr9/respect_weasel_dcu/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rick Flag Sr (DCU)', 'https://redd.it/1i85rwq')
+add_data(['Rick Flag Sr'],
+'Rick Flag Sr.',
+False,
+False,
+[
+    ['DCU'], ['Creature Commandos']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Bride (DCU)', 'https://redd.it/1i85y7l')
+add_data(['The Bride'],
+'The Bride',
+False,
+False,
+[
+    ['DCU'], ['Creature Commandos']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1i85y7l/respect_the_bride_dcu/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Doctor Phosphorus (DCU)', 'https://redd.it/1i89vfu')
+add_data(['Doctor Phosphorus'],
+'Doctor Phosphorus',
+False,
+False,
+[
+    ['DCU'], ['Creature Commandos']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Creature Commandos (DCU)', 'https://redd.it/1i8hyv5')
+add_data(['Creature Commandos'],
+'Creature Commandos',
+True,
+True,
+[
+    ['DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
