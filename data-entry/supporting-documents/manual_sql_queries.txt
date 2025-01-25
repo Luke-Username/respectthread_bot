@@ -14,6 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Paul Buny(a|o)n' WHERE name='Paul Bunyan';
+
 ########################################
 
 ########################################

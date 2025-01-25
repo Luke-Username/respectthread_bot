@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Vendetta (Making Fiends)', 'https://redd.it/1i90j0f')
+add_data(['Vendetta'],
+'Vendetta',
+False,
+False,
+[
+    ['Making Fiends']
+],
+'Making Fiends',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1i90j0f/respect_vendetta_making_fiends/
 
 ########################################
 
