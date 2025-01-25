@@ -122,6 +122,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Gunko (One Piece)', 'https://redd.it/1i9ru91')
+add_data(['Gunko'],
+'Gunko',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1i9ru91/respect_gunko_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Loki, the Accursed Prince! (One Piece)', 'https://redd.it/1i9rzo7')
+add_data(['Loki'],
+'Loki',
+False,
+False,
+[
+    ['Loki ?\(One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
