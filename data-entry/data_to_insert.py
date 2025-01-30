@@ -107,6 +107,12 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 359, 'Respect Beast the One! (Ultraman Series)', 'https://redd.it/1ib51sq')
+
+update_respectthread(cur, 23654, 'Respect The Easter Ripper (Murder House)', 'https://redd.it/1ibnxbd')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Vendetta (Making Fiends)', 'https://redd.it/1i90j0f')
 add_data(['Vendetta'],
 'Vendetta',
@@ -149,6 +155,110 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Trixie (Night at The Museum)', 'https://redd.it/1ian08z')
+add_data(['Trixie'],
+'Trixie',
+False,
+False,
+[
+    ['Night at The Museum']
+],
+'Night at The Museum',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ian08z/respect_trixie_night_at_the_museum/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tablet of Ahkmenrah (Night at the Museum)', 'https://redd.it/1iar21g')
+add_data(['Tablet of Ahkmenrah'],
+'Tablet of Ahkmenrah',
+False,
+True,
+[
+    ['Night at The Museum']
+],
+'Night at The Museum',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bertha (Pokemon Anime)', 'https://redd.it/1iay32g')
+add_data(['Bertha'],
+'Bertha',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iay32g/respect_bertha_pokemon_anime/
+
+########################################
+
+add_data(['Beast the One'],
+'Beast the One',
+False,
+False,
+[
+    ['Ultraman']
+],
+'Ultraman',
+'{359}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ib51sq/respect_beast_the_one_ultraman_series/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bozo the Iron Man (Quality Comics/DC Earth-Quality)', 'https://redd.it/1icfx3l')
+add_data(['Bozo the Iron Man'],
+'Bozo the Iron Man',
+False,
+True,
+[
+    ['Quality']
+],
+'DC Earth-Quality',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Feixiao (Honkai: Star Rail)', 'https://redd.it/1icsf19')
+add_data(['Feixiao'],
+'Feixiao',
+False,
+False,
+[
+    ['Honkai'], ['Star Rail']
+],
+'Honkai: Star Rail',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Turok, Son of Stone (Valiant Comics)', 'https://redd.it/1ictqo5')
+add_data(['Turok'],
+'Turok',
+False,
+False,
+[
+    ['Valiant Comics']
+],
+'Valiant Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ictqo5/respect_turok_son_of_stone_valiant_comics/
 
 ########################################
 
