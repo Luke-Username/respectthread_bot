@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Paul Buny(a|o)n' WHERE name='Paul Bunyan';
-
 ########################################
-
-DELETE FROM character WHERE default_name='Metallo' AND version='{"(\\(|\\[)DC( Comics)?(\\)|\\])"}';
-UPDATE character SET rt_id_array='{8173, 24620}' WHERE default_name='Metallo' AND displayed_version_name='DC';
 
 ########################################
 

@@ -7274,7 +7274,6 @@ Bat-Hulk,"{`"Pre(-| )?Crisis`"}",t,{8172},DC
 Metallo,{PC},f,{8173},Post-Crisis
 Metallo,"{`"Post(-| )?C(risis)?`"}",f,{8173},Post-Crisis
 Metallo,"{`"New(-| )Earth`"}",f,{8173},Post-Crisis
-Metallo,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{8173},DC
 Mister Miracle,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{8174},DC
 Mister Miracle,"{`"New(-| )?52`"}",f,{},New 52
 Mister Miracle,{Nu?-?52},f,{},New 52
@@ -31001,12 +31000,12 @@ Predator,"{`"Wolverine Vs\\.? Predator`"}",f,{24618},Predator vs. Wolverine
 Predator,"{`"Predator vs\\.? Wolverine`"}",f,{24618},Predator vs. Wolverine
 Sand King,"{`"Epithet Erased`"}",f,{24619},Epithet Erased
 Metallo,"{`"(Post(-| ))Flash(-| )?point`"}",f,{24620},Post-Flashpoint
-Metallo,"{`"\\(DC( Comics)?\\)`"}",t,{24620},DC
-Metallo,"{`"\\[DC( Comics)?\\]`"}",t,{24620},DC
 Goku,"{`"Dragon Ball Kakumei`"}",f,{24621},Dragon Ball Kakumei
 Yoshiki Takaishi,{Tough},f,{24622},Tough
 Jhin,"{`"League ?of ?Legends?`"}",f,{24623},League of Legends
 Jhin,{LOL},f,{24623},League of Legends
+Metallo,"{`"\\(DC( Comics)?\\)`"}",t,"{8173,24620}",DC
+Metallo,"{`"\\[DC( Comics)?\\]`"}",t,"{8173,24620}",DC
 Scarred Hunter,"{`"Undead Unluck`"}",f,{24624},Undead Unluck
 Condiment King,{PC},f,{24625},Post-Crisis
 Condiment King,"{`"Posts?(-| )?C(risis)?`"}",f,{24625},Post-Crisis
@@ -32814,3 +32813,14 @@ The Bride,"{`"Creature Commandos`"}",f,{25719},DCU
 Doctor Phosphorus,{DCU},f,{25720},DCU
 Doctor Phosphorus,"{`"Creature Commandos`"}",f,{25720},DCU
 Creature Commandos,{DCU},t,{25721},DCU
+Vendetta,"{`"Making Fiends`"}",f,{25722},Making Fiends
+Gunko,"{`"One ?Piece?`"}",f,{25723},One Piece
+Loki,"{`"Loki ?\\(One ?Piece?`"}",f,{25724},One Piece
+Trixie,"{`"Night at The Museum`"}",f,{25725},Night at The Museum
+Tablet of Ahkmenrah,"{`"Night at The Museum`"}",t,{25726},Night at The Museum
+Bertha,{Pok(e|é)m(o|a)n},f,{25727},Pokémon
+Beast the One,{Ultraman},f,{359},Ultraman
+Bozo the Iron Man,{Quality},t,{25728},DC Earth-Quality
+Feixiao,{Honkai},f,{25729},Honkai: Star Rail
+Feixiao,"{`"Star Rail`"}",f,{25729},Honkai: Star Rail
+Turok,"{`"Valiant Comics`"}",f,{25730},Valiant Comics
