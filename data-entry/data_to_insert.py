@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['AM'],
+'AM',
+False,
+False,
+[
+    ['GLaDOS', 'Hal']
+],
+'I Have No Mouth And Must Scream',
+'{16570}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1idxf79/glados_am_and_the_hal_9000_all_get_placed_into/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sully (Monsters, Inc.)', 'https://redd.it/d2kwip')
+add_data(['Sully'],
+'Sully',
+False,
+False,
+[
+    ['Monsters,? Inc']
+],
+'Monsters, Inc.',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Lord Traumerei''s Shinheuhs (Tower of God)", 'https://redd.it/1ie9f5t')
+add_data(['Shinheuhs'],
+'Shinheuhs',
+False,
+False,
+[
+    ['Tower of God']
+],
+'Tower of God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ie9f5t/respect_lord_traumereis_shinheuhs_tower_of_god/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
