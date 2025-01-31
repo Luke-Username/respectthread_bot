@@ -119,21 +119,6 @@ False,
 )
 #https://www.reddit.com/r/whowouldwin/comments/1idxf79/glados_am_and_the_hal_9000_all_get_placed_into/
 
-########################################
-
-id = get_rt_id(cur, 'Respect Sully (Monsters, Inc.)', 'https://redd.it/d2kwip')
-add_data(['Sully'],
-'Sully',
-False,
-False,
-[
-    ['Monsters,? Inc']
-],
-'Monsters, Inc.',
-'{' + '{}'.format(id) + '}'
-)
-#
-
 
 ########################################
 
