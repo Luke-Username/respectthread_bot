@@ -107,6 +107,38 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4643, 'Respect Yusuke Urameshi! (Yu Yu Hakusho)', 'https://redd.it/1igjix8')
+
+########################################
+
+add_data(['Percy'],
+'Percy',
+False,
+False,
+[
+    ['Percy.*PJO']
+],
+'Percy Jackson',
+'{5905,23655,23656}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1iert22/kratosgow_versus_percy_pjo/maa4p98/?context=3
+
+########################################
+
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Sonic ?\(Composite\)']
+],
+'Sonic the Hedgehog',
+'{8276,8277}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1igfg81/goku_composite_sonic_composite_vs_superman_prime/maodtq2/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Vendetta (Making Fiends)', 'https://redd.it/1i90j0f')
 add_data(['Vendetta'],
 'Vendetta',
@@ -149,6 +181,206 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Lulu (Jojo''s Bizarre Adventure)", 'https://redd.it/1ieg1ph')
+add_data(['Lulu'],
+'Lulu',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bobby Jean (Jojo’s Bizarre Adventure)', 'https://redd.it/1ieg22p')
+add_data(['Bobby Jean'],
+'Bobby Jean',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lavos (Chrono Trigger)', 'https://redd.it/1if6kio')
+add_data(['Lavos'],
+'Lavos',
+False,
+False,
+[
+    ['Chrono'], ['planet', 'universe']
+],
+'Chrono Trigger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1if6kio/respect_lavos_chrono_trigger/
+#https://www.reddit.com/r/whowouldwin/comments/a5c6hu/lavos_ends_up_landing_and_burrowing_into_the_core/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maximum Ride (Maximum Ride Novels)', 'https://redd.it/1if8cml')
+add_data(['Maximum Ride'],
+'Maximum Ride',
+False,
+True,
+[
+    ['Maximum Ride ?\(Maximum Ride\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1if8cml/respect_maximum_ride_maximum_ride_novels/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scarlet Koito (Pokemon Adventures)', 'https://redd.it/1if8t2w')
+add_data(['Scarlet Koito'],
+'Scarlet Koito',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Akira Kurusu (2xBone)', 'https://redd.it/1ifc0jm')
+add_data(['Akira Kurusu'],
+'Akira Kurusu',
+False,
+False,
+[
+    ['2xBone']
+],
+'2xBone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ifc0jm/respect_akira_kurusu_2xbone/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Gundam Aerial/Aerial Rebuild (Witch From Mercury)', 'https://redd.it/1ifjc72')
+add_data(['Gundam Aerial'],
+'Gundam Aerial',
+False,
+True,
+[
+    ['Witch From Mercury']
+],
+'Witch From Mercury',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ifjc72/respect_the_gundam_aerialaerial_rebuild_witch/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lo Po Bia Traumerei, Family Head of the Lo Po Bia Family (Tower of God)', 'https://redd.it/1ifyb0n')
+add_data(['Gundam Aerial'],
+'Gundam Aerial',
+False,
+True,
+[
+    ['Witch From Mercury']
+],
+'Witch From Mercury',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lo Po Bia Traumerei, Family Head of the Lo Po Bia Family (Tower of God)', 'https://redd.it/1ifyb0n')
+add_data(['Lo Po Bia (Traumerei|Family Head|FH)'],
+'Lo Po Bia Traumerei',
+False,
+True,
+[
+    ['Tower of God']
+],
+'Tower of God',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ifyb0n/respect_lo_po_bia_traumerei_family_head_of_the_lo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Iron Spider Armor (Marvel, 616)', 'https://redd.it/1ig1lzm')
+add_data(['Iron Spider Armou?r'],
+'Iron Spider Armor',
+False,
+True,
+[
+    ['616'], ['comics']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ig1lzm/respect_the_iron_spider_armor_marvel_616/
+
+add_data(['Iron Spider Armou?r'],
+'Iron Spider Armor',
+False,
+False,
+[
+    ['Infinity War'], ['IW'],
+	['End ?game'], ['EG'],
+	['Homecoming'], ['Far From Home'], ['No Way Home'], ['NWH']
+    ['Marvel Cinematic Universe'], ['MCU'], ['NWH']
+],
+'MCU',
+'{}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ig1lzm/respect_the_iron_spider_armor_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Crucified Predator (Predators 2010)', 'https://redd.it/1igqk5z')
+add_data(['Crucified Predator'],
+'Crucified Predator',
+False,
+False,
+[
+    ['2010']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1igqk5z/respect_the_crucified_predator_predators_2010/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Daimajin (Showa, Daimajin Trilogy)', 'https://redd.it/1igr2tn')
+add_data(['Crucified Predator'],
+'Crucified Predator',
+False,
+False,
+[
+    ['2010']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 
 ########################################
 
