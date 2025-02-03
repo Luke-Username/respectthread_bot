@@ -1764,7 +1764,6 @@ Chev Chelios,{Crank},t,{407},Crank
 Prince Jai,"{`"Curse Of The Golden Flower`"}",t,{408},Curse Of The Golden Flower
 I.S.A.A.C.,"{`"Cyborg Soldier`"}",f,{409},Cyborg Soldier
 Intuitive Synthetic Autonomous Assault Commando,"{`"Cyborg Soldier`"}",t,{409},Cyborg Soldier
-Daimajin,{Daimajin},t,{410},""
 Roland Deschain,{film},f,{411},The Dark Tower - Film
 Roland Deschain,{films},f,{411},The Dark Tower - Film
 Roland Deschain,{movie},f,{411},The Dark Tower - Film
@@ -1783,6 +1782,7 @@ Man in Black,{2017},f,{412},The Dark Tower - Film
 Dinoshark,{Dinoshark},t,{413},""
 The Man with No Name,{Dollars},t,{414},Dollars Trilogy
 Multiplex,"{`"Post(-| )52`"}",f,{},New 52
+Daimajin,{Daimajin},t,"{410,25731}",""
 The Man with No Name,"{Good,Bad,Ugly}",t,{414},Dollars Trilogy
 Aaron Brand,"{`"Double Down`"}",t,{415},Double Down
 Dracula,{1931},f,{416},1931
@@ -32824,3 +32824,31 @@ Bozo the Iron Man,{Quality},t,{25728},DC Earth-Quality
 Feixiao,{Honkai},f,{25729},Honkai: Star Rail
 Feixiao,"{`"Star Rail`"}",f,{25729},Honkai: Star Rail
 Turok,"{`"Valiant Comics`"}",f,{25730},Valiant Comics
+Percy,{Percy.*PJO},f,"{5905,23655,23656}",Percy Jackson
+Sonic,"{`"Sonic ?\\(Composite\\)`"}",f,"{8276,8277}",Sonic the Hedgehog
+AM,"{GLaDOS,Hal}",f,{16570},I Have No Mouth And Must Scream
+Shinheuhs,"{`"Tower of God`"}",f,{25742},Tower of God
+Lulu,{Jojos?(verse)?},f,{25743},Jojo's Bizarre Adventure
+Lulu,{JJBA},f,{25743},Jojo's Bizarre Adventure
+Bobby Jean,{Jojos?(verse)?},f,{25744},Jojo's Bizarre Adventure
+Bobby Jean,{JJBA},f,{25744},Jojo's Bizarre Adventure
+Lavos,{Chrono},f,{25745},Chrono Trigger
+Lavos,"{planet,universe}",f,{25745},Chrono Trigger
+Maximum Ride,"{`"Maximum Ride ?\\(Maximum Ride\\)`"}",t,{25746},""
+Scarlet Koito,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{25747},Pokémon Adventures
+Akira Kurusu,{2xBone},f,{25748},2xBone
+Gundam Aerial,"{`"Witch From Mercury`"}",t,{25749},Witch From Mercury
+Lo Po Bia Traumerei,"{`"Tower of God`"}",t,{25750},Tower of God
+Iron Spider Armor,{616},t,{25751},616
+Iron Spider Armor,{comics},t,{25751},616
+Iron Spider Armor,"{`"Infinity War`"}",f,{},MCU
+Iron Spider Armor,{IW},f,{},MCU
+Iron Spider Armor,"{`"End ?game`"}",f,{},MCU
+Iron Spider Armor,{EG},f,{},MCU
+Iron Spider Armor,{Homecoming},f,{},MCU
+Iron Spider Armor,"{`"Far From Home`"}",f,{},MCU
+Iron Spider Armor,"{`"No Way Home`"}",f,{},MCU
+Iron Spider Armor,{NWH},f,{},MCU
+Iron Spider Armor,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Iron Spider Armor,{MCU},f,{},MCU
+Crucified Predator,{2010},f,{25752},""
