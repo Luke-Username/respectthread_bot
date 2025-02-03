@@ -13,7 +13,7 @@ UPDATE character SET rt_id_array='' WHERE...
 UPDATE character_name SET name='' WHERE...
 
 ########################################
-UPDATE character_name SET name='Paul Buny(a|o)n' WHERE name='Paul Bunyan';
+
 UPDATE character_name SET default_name='Akira Kurusu' WHERE name='Akira Kurusu';
 
 ########################################

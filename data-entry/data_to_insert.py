@@ -139,38 +139,6 @@ False,
 
 ########################################
 
-update_respectthread(cur, 4643, 'Respect Yusuke Urameshi! (Yu Yu Hakusho)', 'https://redd.it/1igjix8')
-
-########################################
-
-add_data(['Percy'],
-'Percy',
-False,
-False,
-[
-    ['Percy.*PJO']
-],
-'Percy Jackson',
-'{5905,23655,23656}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/1iert22/kratosgow_versus_percy_pjo/maa4p98/?context=3
-
-########################################
-
-add_data(['Sonic'],
-'Sonic',
-False,
-False,
-[
-    ['Sonic ?\(Composite\)']
-],
-'Sonic the Hedgehog',
-'{8276,8277}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/1igfg81/goku_composite_sonic_composite_vs_superman_prime/maodtq2/?context=3
-
-########################################
-
 add_data(['AM'],
 'AM',
 False,
@@ -182,20 +150,6 @@ False,
 '{16570}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1idxf79/glados_am_and_the_hal_9000_all_get_placed_into/
-
-########################################
-
-add_data(['AM'],
-'AM',
-False,
-False,
-[
-    ['GLaDOS', 'Hal']
-],
-'I Have No Mouth And Must Scream',
-'{16570}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1i90j0f/respect_vendetta_making_fiends/
 
 ########################################
 
@@ -230,7 +184,7 @@ False,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Bobby Jean (Jojo’s Bizarre Adventure)', 'https://redd.it/1ieg22p')
+id = get_rt_id(cur, "Respect Bobby Jean (Jojo''s Bizarre Adventure)", 'https://redd.it/1ieg22p')
 add_data(['Bobby Jean'],
 'Bobby Jean',
 False,
@@ -322,21 +276,6 @@ True,
 ########################################
 
 id = get_rt_id(cur, 'Respect Lo Po Bia Traumerei, Family Head of the Lo Po Bia Family (Tower of God)', 'https://redd.it/1ifyb0n')
-add_data(['Gundam Aerial'],
-'Gundam Aerial',
-False,
-True,
-[
-    ['Witch From Mercury']
-],
-'Witch From Mercury',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-########################################
-
-id = get_rt_id(cur, 'Respect Lo Po Bia Traumerei, Family Head of the Lo Po Bia Family (Tower of God)', 'https://redd.it/1ifyb0n')
 add_data(['Lo Po Bia (Traumerei|Family Head|FH)'],
 'Lo Po Bia Traumerei',
 False,
@@ -393,24 +332,6 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1igqk5z/respect_the_crucified_predator_predators_2010/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Daimajin (Showa, Daimajin Trilogy)', 'https://redd.it/1igr2tn')
-add_data(['Crucified Predator'],
-'Crucified Predator',
-False,
-False,
-[
-    ['2010']
-],
-'',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-########################################
-
 
 ########################################
 
