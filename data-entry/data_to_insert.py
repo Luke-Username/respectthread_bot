@@ -139,48 +139,78 @@ False,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Vendetta (Making Fiends)', 'https://redd.it/1i90j0f')
-add_data(['Vendetta'],
-'Vendetta',
+update_respectthread(cur, 4643, 'Respect Yusuke Urameshi! (Yu Yu Hakusho)', 'https://redd.it/1igjix8')
+
+########################################
+
+add_data(['Percy'],
+'Percy',
 False,
 False,
 [
-    ['Making Fiends']
+    ['Percy.*PJO']
 ],
-'Making Fiends',
-'{' + '{}'.format(id) + '}'
+'Percy Jackson',
+'{5905,23655,23656}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1iert22/kratosgow_versus_percy_pjo/maa4p98/?context=3
+
+########################################
+
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Sonic ?\(Composite\)']
+],
+'Sonic the Hedgehog',
+'{8276,8277}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1igfg81/goku_composite_sonic_composite_vs_superman_prime/maodtq2/?context=3
+
+########################################
+
+add_data(['AM'],
+'AM',
+False,
+False,
+[
+    ['GLaDOS', 'Hal']
+],
+'I Have No Mouth And Must Scream',
+'{16570}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1idxf79/glados_am_and_the_hal_9000_all_get_placed_into/
+
+########################################
+
+add_data(['AM'],
+'AM',
+False,
+False,
+[
+    ['GLaDOS', 'Hal']
+],
+'I Have No Mouth And Must Scream',
+'{16570}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1i90j0f/respect_vendetta_making_fiends/
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Gunko (One Piece)', 'https://redd.it/1i9ru91')
-add_data(['Gunko'],
-'Gunko',
+id = get_rt_id(cur, "Respect Lord Traumerei''s Shinheuhs (Tower of God)", 'https://redd.it/1ie9f5t')
+add_data(['Shinheuhs'],
+'Shinheuhs',
 False,
 False,
 [
-    ['One ?Piece?']
+    ['Tower of God']
 ],
-'One Piece',
+'Tower of God',
 '{' + '{}'.format(id) + '}'
 )
-#https://www.reddit.com/r/respectthreads/comments/1i9ru91/respect_gunko_one_piece/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Loki, the Accursed Prince! (One Piece)', 'https://redd.it/1i9rzo7')
-add_data(['Loki'],
-'Loki',
-False,
-False,
-[
-    ['Loki ?\(One ?Piece?']
-],
-'One Piece',
-'{' + '{}'.format(id) + '}'
-)
-#
+#https://www.reddit.com/r/respectthreads/comments/1ie9f5t/respect_lord_traumereis_shinheuhs_tower_of_god/
 
 
 ########################################
