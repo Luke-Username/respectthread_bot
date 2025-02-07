@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Gojo'],
+'Gojo',
+False,
+False,
+[
+    ['Domain Expansion']
+],
+'Jujutsu Kaisen',
+'{14809}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ijipr4/could_goku_just_straight_up_tank_gojos_domain/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
