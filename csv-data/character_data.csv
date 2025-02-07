@@ -7134,8 +7134,6 @@ Swain,{LOL},f,{8129},League of Legends
 Swain,{Noxus},f,{8129},League of Legends
 Sion,"{`"League of Legends`"}",f,{8130},League of Legends
 Sion,{LOL},f,{8130},League of Legends
-Warwick,"{`"League of Legends`"}",f,{8132},League of Legends
-Warwick,{LOL},f,{8132},League of Legends
 Draven,"{`"League of Legends`"}",f,{8133},League of Legends
 Draven,{LOL},f,{8133},League of Legends
 Aatrox,"{`"League of Legends`"}",t,{8134},League of Legends
@@ -7174,6 +7172,8 @@ Skin,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
 M,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
 Katarina,"{`"League of Legends`"}",f,{8131},League of Legends
 Katarina,{LOL},f,{8131},League of Legends
+Warwick,"{`"League of Legends`"}",f,"{8132,25755}",League of Legends
+Warwick,{LOL},f,"{8132,25755}",League of Legends
 Buff,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
 Mondo,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
 Refrax,"{`"Generation X`",1996}",f,{8146},"Generation X, 1996"
@@ -32852,3 +32852,11 @@ Iron Spider Armor,{NWH},f,{},MCU
 Iron Spider Armor,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Iron Spider Armor,{MCU},f,{},MCU
 Crucified Predator,{2010},f,{25752},""
+Gojo,"{`"Domain Expansion`"}",f,{14809},Jujutsu Kaisen
+Ultimate Nullifier,{616},t,{25753},616
+Trickster,"{`"Sarah Jane`"}",f,{25754},Doctor Who
+Trickster,"{`"(Doctor|Dr\\.?) ?Who`"}",f,{25754},Doctor Who
+Trickster,{Who(ni)?verse},f,{25754},Doctor Who
+Warwick,{Arcane},f,"{8132,25755}",League of Legends
+You,"{`"Fighting Fantasy`",`"Freeway Fighter`"}",f,"{8132,25756}",Fighting Fantasy: Freeway Fighter
+Iron Patriot Armor Model 2,{616},t,"{8132,25757}",616

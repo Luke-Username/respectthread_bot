@@ -14,18 +14,11 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='D(octo)?r\\.? Phosphorus' WHERE name='Doctor Phosphorus';
-UPDATE character_name SET name='Kanan Jarrus' WHERE name='Kanan'
-
 ########################################
 
 ########################################
 
 ########################################
-
---After run
-SELECT * FROM respectthread WHERE link='https://redd.it/1ii95s2';
-UPDATE character SET rt_id_array='{8132, ?}' WHERE rt_id_array='{8132}';
 
 ########################################
 
