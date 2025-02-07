@@ -121,6 +121,81 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Ultimate Nullifier (Marvel, 616)', 'https://redd.it/1igsw51')
+add_data(['Ultimate Nullifier'],
+'Ultimate Nullifier',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1igsw51/respect_the_ultimate_nullifier_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Trickster (The Sarah Jane Adventures)', 'https://redd.it/1ihi5mk')
+add_data(['Trickster'],
+'Trickster',
+False,
+False,
+[
+    ['Sarah Jane'], ['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ihi5mk/respect_the_trickster_the_sarah_jane_adventures/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Warwick (Arcane)', 'https://redd.it/1ii95s2')
+add_data(['Warwick'],
+'Warwick',
+False,
+False,
+[
+    ['Arcane']
+],
+'League of Legends',
+'{' + '8132, {}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect You (Fighting Fantasy: Freeway Fighter)', 'https://redd.it/1iipjf4')
+add_data(['You'],
+'You',
+False,
+False,
+[
+    ['Fighting Fantasy', 'Freeway Fighter']
+],
+'Fighting Fantasy: Freeway Fighter',
+'{' + '8132, {}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iipjf4/respect_you_fighting_fantasy_freeway_fighter/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Iron Patriot Armor Model 2 (Marvel 616)', 'https://redd.it/1ijhozl')
+add_data(['Iron Patriot Armor Model 2'],
+'Iron Patriot Armor Model 2',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '8132, {}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ijhozl/respect_the_iron_patriot_armor_model_2_marvel_616/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
