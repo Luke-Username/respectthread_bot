@@ -107,6 +107,141 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3573, "Respect Vanilla Ice (Jojo''s Bizarre Adventure)", 'https://redd.it/1ik8oow')
+update_respectthread(cur, 5397, 'Respect Crimson Viper! (Street Fighter)', 'https://redd.it/1ikn4w6')
+
+########################################
+
+add_data(['Bill'],
+'Bill',
+False,
+False,
+[
+    ['King of the Hill'], ['Hank Hill']
+],
+'King of the Hill',
+'{21734}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ilu3o1/hank_hill_and_dale_vs_bill_and_boomhauer/mc0vfbm/?context=3
+
+add_data(['Bill Dauterive'],
+'Bill Dauterive',
+False,
+True,
+[
+    ['King of the Hill'], ['Hank Hill']
+],
+'King of the Hill',
+'{21734}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ilu3o1/hank_hill_and_dale_vs_bill_and_boomhauer/mc0vfbm/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Nukesaku (Jojo''s Bizarre Adventure)", 'https://redd.it/1ikl3r0')
+add_data(['Nukesaku'],
+'Nukesaku',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ikl3r0/respect_nukesaku_jojos_bizarre_adventure/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Able (Character Scramble) (Season 17)', 'https://redd.it/1ikt46a')
+add_data(['Able'],
+'Able',
+False,
+False,
+[
+    ['Character Scramble']
+],
+'Character Scramble',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ikt46a/respect_able_character_scramble_season_17/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lucam (Pokemon ReBurst)', 'https://redd.it/1il5fqx')
+add_data(['Lucam'],
+'Lucam',
+False,
+False,
+[
+    ['(Pok(e|é)m(o|a)n)|monsters) ReBurst']
+],
+'Pocket Monsters RéBURST',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Migs Mayfeld (Star Wars Canon)', 'https://redd.it/1il7fzy')
+add_data(['Migs Mayfeld'],
+'Migs Mayfeld',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1il7fzy/respect_migs_mayfeld_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jack of Hearts (Marvel Comics, Earth-616)', 'https://redd.it/1ilkl23')
+add_data(['Jack of Hearts'],
+'Jack of Hearts',
+False,
+False,
+[
+    ['616'], ['Marvel']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ilkl23/respect_jack_of_hearts_marvel_comics_earth616/
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Cole Rainsford (Cabela''s Dangerous Hunts 2011)", 'https://redd.it/1ilwf8d')
+add_data(['Cole Rainsford'],
+'Cole Rainsford',
+False,
+False,
+[
+    ["Dangerous Hunts"]
+],
+"Cabela''s Dangerous Hunts",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ilwf8d/respect_cole_rainsford_cabelas_dangerous_hunts/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Boothill (Honkai: Star Rail)', 'https://redd.it/1im6p2u')
+add_data(['Boothill'],
+'Boothill',
+False,
+False,
+[
+    ['Honkai']
+],
+'Honkai: Star Rail',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
