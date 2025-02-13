@@ -107,6 +107,126 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Tricky'],
+'Tricky',
+False,
+False,
+[
+    ['Hank', 'Accelerant']
+],
+'Madness Combat',
+'{1284}'
+)
+#
+
+add_data(['Hank'],
+'Hank',
+False,
+False,
+[
+    ['Tricky', 'Accelerant']
+],
+'Madness Combat',
+'{23044}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ine2mi/goku_vs_shaggy_matt_tricky_accelerant_hank_bob/mca7lo6/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Orla Jareni (Star Wars Canon)', 'https://redd.it/1ing0ca')
+add_data(['Orla Jareni'],
+'Orla Jareni',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shovel-Man (Wizards with Guns)', 'https://redd.it/1iobc37')
+add_data(['Shovel(-| )Man'],
+'Shovel-Man',
+False,
+False,
+[
+    ['Wizards with Guns']
+],
+'Wizards with Guns',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iobc37/respect_shovelman_wizards_with_guns/
+
+########################################
+
+id = get_rt_id(cur, "Respect Beatrice''s Demons! (Umineko: When They Cry [Manga])", 'https://redd.it/1io7436')
+add_data(["Beatrice''?s Demons"],
+"Beatrice''s Demons",
+True,
+False,
+[
+    ['Umineko']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1io7436/respect_beatrices_demons_umineko_when_they_cry/
+
+add_data(['Ronove'],
+'Ronove',
+False,
+False,
+[
+    ['Umineko'], ['Beatrice']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1io7436/respect_beatrices_demons_umineko_when_they_cry/
+
+add_data(['Gaap'],
+'Gaap',
+False,
+False,
+[
+    ['Umineko'], ['Beatrice']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1io7436/respect_beatrices_demons_umineko_when_they_cry/
+
+add_data(['(Seven|7) Sisters of Purgatory'],
+'Seven Sisters of Purgatory',
+True,
+False,
+[
+    ['Umineko'], ['Beatrice']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1io7436/respect_beatrices_demons_umineko_when_they_cry/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Chiester Imperial Guard Corps (Umineko: When They Cry [Manga])', 'https://redd.it/1io7u64')
+add_data(['Chiesters?'],
+'Chiesters',
+True,
+False,
+[
+    ['Umineko']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
