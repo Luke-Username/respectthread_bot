@@ -227,6 +227,123 @@ False,
 )
 #
 
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hulk (Marvel Rivals)', 'https://redd.it/1ipdlif')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['Marvel Rivals']
+],
+'Marvel Rivals',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Professor Hugo Strange (DC Comics, Post-Crisis)', 'https://redd.it/1ionl93')
+add_data(['Hugo Strange'],
+'Hugo Strange',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Hugo Strange'],
+'Hugo Strange',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+add_data(['Hugo Strange'],
+'Hugo Strange',
+False,
+False,
+[
+    ['Arkham.?verse'], ['\(Arkham\)'], ['Arkham (ga(m|n)es?|series)'], ['Batman: Arkham']
+],
+'Post-Crisis',
+'{}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ares (Fortnite)', 'https://redd.it/1ip65zp')
+add_data(['Ares'],
+'Ares',
+False,
+False,
+[
+    ['Ares.*Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shaq! (Fortnite)', 'https://redd.it/1ipt4ay')
+add_data(['Shaq'],
+'Shaq',
+False,
+False,
+[
+    ['Shaq.*Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Peelverine (Fortnite)', 'https://redd.it/1iptxhm')
+add_data(['Peelverine'],
+'Peelverine',
+False,
+True,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Megalo Don (Fortnite)', 'https://redd.it/1ipvadj')
+add_data(['Megalo Don'],
+'Megalo Don',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
