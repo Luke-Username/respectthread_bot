@@ -32870,3 +32870,29 @@ Jack of Hearts,{616},f,{25762},616
 Jack of Hearts,{Marvel},f,{25762},616
 Cole Rainsford,"{`"Dangerous Hunts`"}",f,{25763},Cabela's Dangerous Hunts
 Boothill,{Honkai},f,{25764},Honkai: Star Rail
+Tricky,"{Hank,Accelerant}",f,{1284},Madness Combat
+Hank,"{Tricky,Accelerant}",f,{23044},Madness Combat
+Orla Jareni,"{`"S(tar )?Wars`"}",t,{25765},Star Wars
+Shovel-Man,"{`"Wizards with Guns`"}",f,{25766},Wizards with Guns
+Beatrice's Demons,{Umineko},f,{25767},Umineko
+Ronove,{Umineko},f,{25767},Umineko
+Ronove,{Beatrice},f,{25767},Umineko
+Gaap,{Umineko},f,{25767},Umineko
+Gaap,{Beatrice},f,{25767},Umineko
+Seven Sisters of Purgatory,{Umineko},f,{25767},Umineko
+Seven Sisters of Purgatory,{Beatrice},f,{25767},Umineko
+Chiesters,{Umineko},f,{25768},Umineko
+Hulk,"{`"Marvel Rivals`"}",f,{25769},Marvel Rivals
+Hugo Strange,"{`"\\(DC( Comics)?\\)`"}",t,{25770},DC
+Hugo Strange,"{`"\\[DC( Comics)?\\]`"}",t,{25770},DC
+Hugo Strange,{PC},f,{25770},Post-Crisis
+Hugo Strange,"{`"Posts?(-| )?C(risis)?`"}",f,{25770},Post-Crisis
+Hugo Strange,"{`"New(-| )Earth`"}",f,{25770},Post-Crisis
+Hugo Strange,{Arkham.?verse},f,{},Post-Crisis
+Hugo Strange,"{`"\\(Arkham\\)`"}",f,{},Post-Crisis
+Hugo Strange,"{`"Arkham (ga(m|n)es?|series)`"}",f,{},Post-Crisis
+Hugo Strange,"{`"Batman: Arkham`"}",f,{},Post-Crisis
+Ares,{Ares.*Fortnite},f,{25771},Fortnite
+Shaq,{Shaq.*Fortnite},f,{25772},Fortnite
+Peelverine,{Fortnite},t,{25773},Fortnite
+Megalo Don,{Fortnite},f,{25774},Fortnite
