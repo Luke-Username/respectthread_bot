@@ -14,7 +14,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character WHERE default_name='Bernkastel' AND rt_id_array='{25691}';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect the Ushiromiya Family! (Umineko: When They Cry [Manga])', 'https://redd.it/1iq40rj'); SELECT * FROM respectthread WHERE link='https://redd.it/1iq40rj';
+UPDATE character SET rt_id_array='{6266, ?}' WHERE rt_id_array='{6266}'; --After run
 
 ########################################
 

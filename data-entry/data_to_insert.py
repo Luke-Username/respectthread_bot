@@ -107,6 +107,74 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Lambdadelta'],
+'Lambdadelta',
+False,
+True,
+[
+    ['Umineko'], ['Bernkastel'], ['Certainty']
+],
+'Umineko',
+'{25691}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1hv70e4/respect_lambdadelta_the_witch_of_certainty/
+#https://www.reddit.com/r/whowouldwin/comments/1ippunh/bernkastel_vs_raven/
+
+########################################
+
+add_data(['Kyrie Ushiromiya'],
+'Kyrie Ushiromiya',
+False,
+True,
+[
+    ['Umineko']
+],
+'Umineko',
+'{6266}'
+)
+#
+
+add_data(['Maria Ushiromiya'],
+'Maria Ushiromiya',
+False,
+True,
+[
+    ['Umineko']
+],
+'Umineko',
+'{6266}'
+)
+#
+
+add_data(['Ange Ushiromiya'],
+'Ange Ushiromiya',
+False,
+True,
+[
+    ['Umineko']
+],
+'Umineko',
+'{6266}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect DA MEKLORD (Warhammer 40k)', 'https://redd.it/1iq94va')
+add_data(['Da Meklord'],
+'Da Meklord',
+False,
+False,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iq94va/respect_da_meklord_warhammer_40k/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
