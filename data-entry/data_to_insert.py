@@ -175,6 +175,81 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Ashen Combine (Marvel Comics)', 'https://redd.it/1iqu7ju')
+add_data(['Ashen Combine'],
+'Ashen Combine',
+True,
+True,
+[
+    ['Marvel'], ['2023']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 64: the Crop Top Armor (Marvel, Earth-616)', 'https://redd.it/1ir54s0')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Crop Top Armor'], ['Model 64']
+],
+'Crop Top Armor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ir54s0/respect_iron_man_model_64_the_crop_top_armor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tigra (Marvel Mangaverse)', 'https://redd.it/1ir7y9g')
+add_data(['Tigra'],
+'Tigra',
+False,
+False,
+[
+    ['Mangaverse'], ['2301']
+],
+'Marvel Mangaverse',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ir7y9g/respect_tigra_marvel_mangaverse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tigra (Marvel Mangaverse)', 'https://redd.it/1ir7y9g')
+add_data(['Tigra'],
+'Tigra',
+False,
+False,
+[
+    ['Mangaverse'], ['2301']
+],
+'Marvel Mangaverse',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Moana''s crewmen (Moana 2)", 'https://redd.it/1iqw001')
+add_data(["Moana''s crew(men)?"],
+"Moana''s crew",
+True,
+True,
+[
+    ['Moana 2']
+],
+'Moana',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iqw001/respect_moanas_crewmen_moana_2/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
