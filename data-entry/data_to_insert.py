@@ -220,15 +220,15 @@ False,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Tigra (Marvel Mangaverse)', 'https://redd.it/1ir7y9g')
-add_data(['Tigra'],
-'Tigra',
+id = get_rt_id(cur, 'Respect Dao, Master of all Ninja Warriors (How to become a Teenage Ninja)', 'https://redd.it/1irakcl')
+add_data(['Dao'],
+'Dao',
 False,
 False,
 [
-    ['Mangaverse'], ['2301']
+    ['How to become a Teenage Ninja']
 ],
-'Marvel Mangaverse',
+'How to become a Teenage Ninja',
 '{' + '{}'.format(id) + '}'
 )
 #
