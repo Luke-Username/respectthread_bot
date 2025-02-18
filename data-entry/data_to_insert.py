@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Matangi, the Demigoddess of Bats (Moana)', 'https://redd.it/1isf6rj')
+add_data(['Matangi'],
+'Matangi',
+False,
+False,
+[
+    ['Moana']
+],
+'Moana',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1isf6rj/respect_matangi_the_demigoddess_of_bats_moana/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
