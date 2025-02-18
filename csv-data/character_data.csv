@@ -22206,9 +22206,6 @@ Kiri Nanaya,"{`"Nasu(-| )?verse`"}",f,{6260},Tsukihime
 Kiri Nanaya,{Tsukihime},f,{6260},Tsukihime
 Kiri Nanaya,"{`"Kagetsu Tohya`"}",f,{6260},Tsukihime
 Beatrice,{Umineko},f,{6262},Umineko
-Battler,{Umineko},f,{6263},Umineko
-Battler Ushiromiya,{Umineko},t,{6263},Umineko
-Ushiromiya Family,{Umineko},t,{6266},Umineko
 Avenger,"{`"Hollow Ataraxia`"}",f,{6267},Fate/Hollow Ataraxia
 Metatron,"{`"Tokyo Babel`"}",f,{6269},Tokyo Babel
 Oshiba Hagane,"{`"Tokyo Babel`"}",t,{6270},Tokyo Babel
@@ -22229,6 +22226,9 @@ Saber,{Artoria},f,"{6256,21412}",Fate
 Saber,{Pendragon},f,"{6256,21412}",Fate
 Emiya Shirou,"{`"Stay ?k?Night`"}",t,{6251},Fate
 Emiya Shirou,{F/?SN},t,{6251},Fate
+Battler,{Umineko},f,"{6263,25775}",Umineko
+Battler Ushiromiya,{Umineko},t,"{6263,25775}",Umineko
+Ushiromiya Family,{Umineko},t,"{6266,25783}",Umineko
 Mina Ashido,"{`"Character Scramble`"}",f,{6279},Character Scramble
 Supermooks,"{`"Character Scramble`"}",f,{6280},Character Scramble
 Cicero,{Fargo},f,{6281},Fargo
@@ -32772,8 +32772,6 @@ Bernkastel,{Miracles?},t,{25690},Umineko
 Bernkastel,{Lucifer},t,{25690},Umineko
 Bernkastel,"{`"Dragon Ball`"}",t,{25690},Umineko
 Bernkastel,{Battler},t,{25690},Umineko
-Bernkastel,{Bernkastel},t,{25691},Umineko
-Bernkastel,{Certainty},t,{25691},Umineko
 Predators,{NECA},f,{25692},NECA
 Tramp,"{`"Charlie Chaplin`"}",f,{25693},Charlie Chaplin
 Erika,{Umineko},f,{25694},Umineko
@@ -32896,3 +32894,27 @@ Ares,{Ares.*Fortnite},f,{25771},Fortnite
 Shaq,{Shaq.*Fortnite},f,{25772},Fortnite
 Peelverine,{Fortnite},t,{25773},Fortnite
 Megalo Don,{Fortnite},f,{25774},Fortnite
+Lambdadelta,{Umineko},t,{25691},Umineko
+Lambdadelta,{Bernkastel},t,{25691},Umineko
+Lambdadelta,{Certainty},t,{25691},Umineko
+Sonic,{Genos},f,{4114},One Punch Man
+Sonic,"{`"One(-| )Punch Man`"}",f,{4114},One Punch Man
+Sonic,{OPM},f,{4114},One Punch Man
+Wolverine,"{`"Spider(-| )?Mans?`"}",f,{2391},616
+Wolverine,"{`"Black Panther`"}",f,{2391},616
+Black Panther,"{`"Spider(-| )?Mans?`"}",f,{2019},616
+Black Panther,{Wolverine},f,{2019},616
+Da Meklord,{(WH)?40K},f,{25776},Warhammer 40k
+Da Meklord,{Warhammer},f,{25776},Warhammer 40k
+Ashen Combine,{Marvel},t,{25777},Marvel
+Ashen Combine,{2023},t,{25777},Marvel
+Iron Man,"{`"Crop Top Armor`"}",f,{25778},Crop Top Armor
+Iron Man,"{`"Model 64`"}",f,{25778},Crop Top Armor
+Tigra,{Mangaverse},f,{25779},Marvel Mangaverse
+Tigra,{2301},f,{25779},Marvel Mangaverse
+Dao,"{`"How to become a Teenage Ninja`"}",f,{25780},How to become a Teenage Ninja
+Moana's crew,"{`"Moana 2`"}",t,{25781},Moana
+Shogun X,{Fortnite},f,{25782},Fortnite
+Kyrie Ushiromiya,{Umineko},t,"{6266,25783}",Umineko
+Maria Ushiromiya,{Umineko},t,"{6266,25783}",Umineko
+Ange Ushiromiya,{Umineko},t,"{6266,25783}",Umineko
