@@ -122,6 +122,49 @@ True,
 
 ########################################
 
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Genos'], ['One(-| )Punch Man'], ['OPM']
+],
+'One Punch Man',
+'{4114}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1is6rdz/genos_and_sonic_vs_marineford/mde5h17/?context=3
+
+########################################
+
+add_data(['Wolverine'],
+'Wolverine',
+False,
+False,
+[
+    ['Spider(-| )?Mans?'], ['Black Panther']
+],
+'616',
+'{2391}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1is36t7/joe_biden_vs_donald_trump_vs_barack_obama/mddf3z4/?context=3
+
+########################################
+
+add_data(['Black ?Panther'],
+'Black Panther',
+False,
+False,
+[
+    ['Spider(-| )?Mans?'], ['Wolverine']
+],
+'616',
+'{2019}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1is36t7/joe_biden_vs_donald_trump_vs_barack_obama/mddf3z4/?context=3
+
+
+########################################
+
 add_data(['Kyrie Ushiromiya'],
 'Kyrie Ushiromiya',
 False,
@@ -247,6 +290,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1iqw001/respect_moanas_crewmen_moana_2/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shogun X (Fortnite)', 'https://redd.it/1is55z1')
+add_data(['Shogun X'],
+'Shogun X',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1is55z1/respect_shogun_x_fortnite/
 
 ########################################
 
