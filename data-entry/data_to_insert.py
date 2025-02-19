@@ -122,6 +122,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Alucard (Hellsing Ultimate Abridged)', 'https://redd.it/1it0od8')
+add_data(['Alucard'],
+'Alucard',
+False,
+False,
+[
+    ['Abridged']
+],
+'Hellsing Ultimate Abridged',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
