@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1154, 'Respect Maui! (Moana)', 'https://redd.it/1ityysb')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Matangi, the Demigoddess of Bats (Moana)', 'https://redd.it/1isf6rj')
 add_data(['Matangi'],
 'Matangi',
@@ -134,6 +138,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect William Gravel, Combat Magician (Avatar Press)', 'https://redd.it/1itw33f')
+add_data(['William Gravel'],
+'William Gravel',
+False,
+True,
+[
+    ['Avatar Press'], ['Combat Magician']
+],
+'Avatar Press',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cotton Weary (Scream)', 'https://redd.it/1ity5p2')
+add_data(['Cotton Weary'],
+'Cotton Weary',
+False,
+False,
+[
+    ['Scream']
+],
+'Scream',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ity5p2/respect_cotton_weary_scream/
 
 ########################################
 
