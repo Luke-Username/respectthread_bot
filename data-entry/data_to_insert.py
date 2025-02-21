@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 1154, 'Respect Maui! (Moana)', 'https://redd.it/1ityysb')
+update_respectthread(cur, 6512, 'Respect Super Bike (Fairly Oddparents)', 'https://redd.it/1iuoja0')
 
 ########################################
 
@@ -168,6 +169,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1ity5p2/respect_cotton_weary_scream/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Samurai Slasher (Samurai Slasher)', 'https://redd.it/1iu73z8')
+add_data(['Samurai Slasher'],
+'Samurai Slasher',
+False,
+True,
+[
+    ['Samurai Slasher ?\(Samurai Slasher\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iu73z8/respect_the_samurai_slasher_samurai_slasher/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Calamity (No.1 Sentai Gozyuger)', 'https://redd.it/1iuhnzx')
+add_data(['The Calamity'],
+'The Calamity',
+False,
+False,
+[
+    ['No\.? ?1 Sentai Gozyuger']
+],
+'No.1 Sentai Gozyuger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iuhnzx/respect_the_calamity_no1_sentai_gozyuger/
 
 ########################################
 
