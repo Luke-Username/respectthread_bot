@@ -157,6 +157,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect John Horus (Avatar Press)', 'https://redd.it/1ius7b2')
+add_data(['John Horus'],
+'John Horus',
+False,
+False,
+[
+    ['Avatar Press'], ['Black Summer']
+],
+'Avatar Press',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ius7b2/respect_john_horus_avatar_press/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Cotton Weary (Scream)', 'https://redd.it/1ity5p2')
 add_data(['Cotton Weary'],
 'Cotton Weary',
@@ -169,6 +184,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1ity5p2/respect_cotton_weary_scream/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chad Meeks-Martin (Scream)', 'https://redd.it/1iuql0q')
+add_data(['Chad Meeks(-| )Martin'],
+'Chad Meeks-Martin',
+False,
+False,
+[
+    ['Scream']
+],
+'Scream',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iuql0q/respect_chad_meeksmartin_scream/
 
 ########################################
 
@@ -199,6 +229,48 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1iuhnzx/respect_the_calamity_no1_sentai_gozyuger/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Parasite ( DC, Post-Crisis, Rudy Jones)', 'https://redd.it/aej1zj')
+add_data(['Parasite'],
+'Parasite',
+False,
+False,
+[
+    ['Parasite ?\(.*Posts?(-| )?C(risis)?.*\)'], ['Posts?(-| )?C(risis)?', 'Injustice League']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/lnxusj/amazo_vs_parasite_dc_postcrisis_earth/
+
+add_data(['Parasite'],
+'Parasite',
+False,
+False,
+[
+    ['Rudy Jones']
+],
+'Rudy Jones',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/lnxusj/amazo_vs_parasite_dc_postcrisis_earth/
+
+
+add_data(['Parasite'],
+'Parasite',
+False,
+False,
+[
+    ['Parasite ?\(DC( Comics)?\)'], ['Parasite ?\[DC( Comics)?\]'], ['Supermans?', 'rogues? gallery'], ['\(DC( Comics)?\)', 'Amazo']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/lnxusj/amazo_vs_parasite_dc_postcrisis_earth/
+#https://www.reddit.com/r/whowouldwin/comments/lgdmit/amazo_dc_vs_super_buu_dbz/ 
+#https://www.reddit.com/r/whowouldwin/comments/fho7k4/thor_runs_a_superman_gauntlet/
 
 ########################################
 
