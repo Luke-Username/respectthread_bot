@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 24890, 'Respect Mysterio! (Marvel Comics)', 'https://redd.it/1ivwb95')
+update_respectthread(cur, 6120, 'Respect King Arthur (Arthurian Legend)', 'https://redd.it/1iwti78')
 
 ########################################
 
@@ -225,6 +226,21 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1iwbjyf/respect_nidoqueen_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Gunbuster (Gunbuster: Aim for the Top!)', 'https://redd.it/1iwkox6')
+add_data(['Gunbuster'],
+'Gunbuster',
+False,
+True,
+[
+    ['Aim for the Top'], ['Top o Nerae']
+],
+'Gunbuster: Aim for the Top!',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iwkox6/respect_the_gunbuster_gunbuster_aim_for_the_top/
 
 ########################################
 
