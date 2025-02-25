@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Captain America (Marvel Apes, Earth-8101)', 'https://redd.it/1ixx8ou')
+add_data(['Ca?pt\.?((ai|ia)n)? Americas?'],
+'Captain America',
+False,
+False,
+[
+    ['Marvel Apes']
+],
+'Marvel Apes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ixx8ou/respect_captain_america_marvel_apes_earth8101/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
