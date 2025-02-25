@@ -2579,6 +2579,14 @@ One Punch Man
 	Displayed Version Name
 		"One Punch Man"
 
+Order of the Stick
+	Version
+		['Order of the Stick']
+	Acronyms
+		['OOTS']
+	Displayed Version Name
+		"Order of the Stick"
+
 Origin (manga)
 	Version
 		r'{"\\(Origin\\)"}'

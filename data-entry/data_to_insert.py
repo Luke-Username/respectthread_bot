@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 24890, 'Respect Mysterio! (Marvel Comics)', 'https://redd.it/1ivwb95')
 update_respectthread(cur, 6120, 'Respect King Arthur (Arthurian Legend)', 'https://redd.it/1iwti78')
+update_respectthread(cur, 10829, 'Respect Wired Beck (Jojo’s Bizarre Adventure)', 'https://redd.it/1ix1bi6')
 
 ########################################
 
@@ -241,6 +242,66 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1iwkox6/respect_the_gunbuster_gunbuster_aim_for_the_top/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jack Beans (A Calculated Man, Aftershock Comics)', 'https://redd.it/1ix0ryq')
+add_data(['Jack Beans'],
+'Jack Beans',
+False,
+False,
+[
+    ['Calculated Man']
+],
+'A Calculated Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ix0ryq/respect_jack_beans_a_calculated_man_aftershock/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sabine (Order of the Stick)', 'https://redd.it/1ix6zet')
+add_data(['Sabine'],
+'Sabine',
+False,
+False,
+[
+    ['Order of the Stick'], ['OOTS']
+],
+'Order of the Stick',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ix6zet/respect_sabine_order_of_the_stick/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hell (Hell and Back)', 'https://redd.it/1ixa4w3')
+add_data(['Hell'],
+'Hell',
+False,
+False,
+[
+    ['Hell ?\(Hell and Back']
+],
+'Hell and Back',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ixa4w3/respect_hell_hell_and_back/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sam Carpenter (Scream)', 'https://redd.it/1ixesrc')
+add_data(['Sam Carpenter'],
+'Sam Carpenter',
+False,
+False,
+[
+    ['Scream']
+],
+'Scream',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ixesrc/respect_sam_carpenter_scream/
 
 ########################################
 
