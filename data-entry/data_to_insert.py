@@ -182,6 +182,66 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Dan the Unharmable (Avatar Press)', 'https://redd.it/1iy0y1c')
+add_data(['Dan the Unharmable'],
+'Dan the Unharmable',
+False,
+False,
+[
+    ['Avatar Press']
+],
+'Avatar Press',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iy0y1c/respect_dan_the_unharmable_avatar_press/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Agent Stone! (Sonic the Hedgehog (Paramount))', 'https://redd.it/1iy2b7v')
+add_data(['Agent Stone'],
+'Agent Stone',
+False,
+False,
+[
+    ['Sonic'], ['Paramount']
+],
+'Sonic the Hedgehog, Paramount',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gerald Robotnik! (Sonic the Hedgehog (Paramount))', 'https://redd.it/1iy2cx1')
+add_data(['Gerald Robotnik'],
+'Gerald Robotnik',
+False,
+False,
+[
+    ['Sonic|STH\d?', '(Movie|Film)s?'], ['Paramount']
+],
+'Sonic the Hedgehog, Paramount',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shadow the Hedgehog! (Sonic the Hedgehog (Paramount))', 'https://redd.it/1iy2n9x')
+add_data(['Shadow'],
+'Shadow',
+False,
+False,
+[
+    ['Sonic 3|STH\d?', '(Movie|Film)s?'], ['Paramount']
+],
+'Sonic the Hedgehog, Paramount',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iy2n9x/respect_shadow_the_hedgehog_sonic_the_hedgehog/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
