@@ -32945,3 +32945,16 @@ Nidoking,{Pok(e|é)m(o|a)n},t,{25798},Pokémon
 Nidoqueen,{Pok(e|é)m(o|a)n},t,{25799},Pokémon
 Gunbuster,"{`"Aim for the Top`"}",t,{25800},Gunbuster: Aim for the Top!
 Gunbuster,"{`"Top o Nerae`"}",t,{25800},Gunbuster: Aim for the Top!
+Captain America,"{`"Marvel Apes`"}",f,{25801},Marvel Apes
+Jack Beans,"{`"Calculated Man`"}",f,{25802},A Calculated Man
+Sabine,"{`"Order of the Stick`"}",f,{25803},Order of the Stick
+Sabine,{OOTS},f,{25803},Order of the Stick
+Hell,"{`"Hell ?\\(Hell and Back`"}",f,{25804},Hell and Back
+Sam Carpenter,{Scream},f,{25805},Scream
+Dan the Unharmable,"{`"Avatar Press`"}",f,{25806},Avatar Press
+Agent Stone,{Sonic},f,{25807},"Sonic the Hedgehog, Paramount"
+Agent Stone,{Paramount},f,{25807},"Sonic the Hedgehog, Paramount"
+Gerald Robotnik,"{`"Sonic|STH\\d?`",(Movie|Film)s?}",f,{25808},"Sonic the Hedgehog, Paramount"
+Gerald Robotnik,{Paramount},f,{25808},"Sonic the Hedgehog, Paramount"
+Shadow,"{`"Sonic 3|STH\\d?`",(Movie|Film)s?}",f,{25809},"Sonic the Hedgehog, Paramount"
+Shadow,{Paramount},f,{25809},"Sonic the Hedgehog, Paramount"
