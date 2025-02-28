@@ -107,6 +107,123 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3543, "Respect Rudol von Stroheim (Jojo''s Bizarre Adventure)", 'https://redd.it/1iyar8b')
+
+########################################
+
+id = get_rt_id(cur, 'Respect G.I. Robot (Batman The Brave and The Bold)', 'https://redd.it/1iyst1t')
+add_data(['G\\.?I\\.? Robot'],
+'G.I. Robot',
+False,
+False,
+[
+    ['Brave (and|&) the Bold']
+],
+'The Brave and The Bold',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iyst1t/respect_gi_robot_batman_the_brave_and_the_bold/
+
+########################################
+
+id = get_rt_id(cur, 'Respect G.I. Robot, "Mac" (DC comics)', 'https://redd.it/1izxnp8')
+add_data(['G\\.?I\\.? Robot'],
+'G.I. Robot',
+False,
+False,
+[
+    ['Mac']
+],
+'Mac',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+id2 = get_rt_id(cur, 'Respect G.I Robot, J.A.K.E (DC Comics, New Earth)', 'https://redd.it/1iyuesb')
+add_data(['G\\.?I\\.? Robot'],
+'G.I. Robot',
+False,
+False,
+[
+    ['J\.?A\.?K\.?E']
+],
+'J.A.K.E.',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+
+id2 = get_rt_id(cur, 'Respect G.I Robot, J.A.K.E (DC Comics, New Earth)', 'https://redd.it/1iyuesb')
+add_data(['G\\.?I\\.? Robot'],
+'G.I. Robot',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth'],
+	['Earth(-| )(1|One)']
+],
+'Post-Crisis',
+'{' + '{}'.format(id, id2) + '}'
+)
+#
+
+add_data(['G\\.?I\\.? Robot'],
+'G.I. Robot',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1iyuesb/respect_gi_robot_jake_dc_comics_new_earth/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Te Fiti, the Goddess of Life (Moana)', 'https://redd.it/1izdfvy')
+add_data(['Te Fiti'],
+'Te Fiti',
+False,
+False,
+[
+    ['Moana']
+],
+'Moana',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Nalo, the God of Storms (Moana)', 'https://redd.it/1j0814t')
+add_data(['Nalo'],
+'Nalo',
+False,
+False,
+[
+    ['Moana']
+],
+'Moana',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Werewolves (Dog Soldiers)', 'https://redd.it/1izwyo9')
+add_data(['Nalo'],
+'Nalo',
+False,
+False,
+[
+    ['Moana']
+],
+'Moana',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

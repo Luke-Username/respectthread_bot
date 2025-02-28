@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Karl Fairburne (Zombie Army)', 'https://redd.it/1iywz8m'); SELECT * FROM respectthread WHERE link='https://redd.it/1iywz8m';
+UPDATE character SET rt_id_array='{5715, ?}' WHERE rt_id_array='{5715}';
+
 ########################################
 
 ########################################
