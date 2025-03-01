@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 3543, "Respect Rudol von Stroheim (Jojo''s Bizarre Adventure)", 'https://redd.it/1iyar8b')
+update_respectthread(cur, 5715, 'Respect Karl Fairburne (Sniper Elite)', 'https://redd.it/1j094ye')
 
 ########################################
 
@@ -212,17 +213,77 @@ False,
 ########################################
 
 id = get_rt_id(cur, 'Respect the Werewolves (Dog Soldiers)', 'https://redd.it/1izwyo9')
-add_data(['Nalo'],
-'Nalo',
+add_data(['Werewolves'],
+'Werewolves',
 False,
 False,
 [
-    ['Moana']
+    ['Dog Soldiers']
 ],
-'Moana',
+'Dog Soldiers',
 '{' + '{}'.format(id2) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Longan Dragon Cookie (CookieRun: OvenBreak)', 'https://redd.it/1j0bfqm')
+add_data(['Longan Dragon Cookie'],
+'Longan Dragon Cookie',
+False,
+True,
+[
+    ['Cookie ?Run']
+],
+'CookieRun',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Stormbringer Cookie (Cookie Run: Kingdom)', 'https://redd.it/1j0er03')
+add_data(['Stormbringer Cookie'],
+'Stormbringer Cookie',
+False,
+True,
+[
+    ['Cookie ?Run']
+],
+'CookieRun',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Three Generals (Pokemon ReBurst)', 'https://redd.it/1j0kcl2')
+add_data(['Three Generals'],
+'Three Generals',
+True,
+False,
+[
+    ['Pok(e|é)m(o|a)n ReBurst']
+],
+'Pokémon RéBURST',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Seven Warriors (Pokemon ReBurst)', 'https://redd.it/1j0kgml')
+add_data(['Seven Warriors'],
+'Seven Warriors',
+True,
+False,
+[
+    ['Pok(e|é)m(o|a)n ReBurst']
+],
+'Pokémon RéBURST',
+'{' + '{}'.format(id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j0kgml/respect_the_seven_warriors_pokemon_reburst/
 
 ########################################
 
