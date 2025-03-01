@@ -287,6 +287,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Hariru (Pokemon ReBurst)', 'https://redd.it/1j0y59l')
+add_data(['Hariru'],
+'Hariru',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n ReBurst']
+],
+'Pokémon RéBURST',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Majin Kuu! (Dragon Ball Daima)', 'https://redd.it/1j0on2z')
+add_data(['Majin Kuu'],
+'Majin Kuu',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)'], ['Daima']
+],
+'Dragon Ball',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Majin Duu! (Dragon Ball Daima)', 'https://redd.it/1j0on49')
+add_data(['Majin Duu'],
+'Majin Duu',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)'], ['Daima']
+],
+'Dragon Ball',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
