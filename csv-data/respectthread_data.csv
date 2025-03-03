@@ -1083,7 +1083,6 @@ id,title,link
 1150,"Respect Po, the Dragon Warrior! (Kung Fu Panda)",https://redd.it/450rci
 1152,Respect Tigress (Kung Fu Panda),https://redd.it/3ytr4h
 1153,[Respect] The Wu Sisters (Kung Fu Panda),https://redd.it/be399a
-1156,[Respect] Tamatoa (Disney's Moana),https://redd.it/6o57e3
 1157,Respect Drix (Osmosis Jones),https://redd.it/9jgmh6
 1158,Respect Osmosis Jones (Osmosis Jones),https://redd.it/9j3hgf
 1159,Respect Thrax (Osmosis Jones),https://redd.it/9jzkzr
@@ -1097,6 +1096,7 @@ id,title,link
 1133,Respect Violet Parr (The Incredibles),https://redd.it/16dz9ov
 1155,Respect Moana Waialiki! (Moana),https://redd.it/1cy740i
 1154,Respect Maui! (Moana),https://redd.it/1ityysb
+1156,Respect shiny Tamatoa (Moana),https://redd.it/1j1kdbt
 1128,Respect Elastigirl (The Incredibles),https://redd.it/fygdwf
 1164,Respect Crystal and Amber! (Scooby-Doo and the Alien Invaders),https://redd.it/bpmaa8
 1165,Respect the Loch Ness Monster (Scooby Doo and the Loch Ness Monster),https://redd.it/bxn5hv
@@ -3399,9 +3399,9 @@ id,title,link
 3514,Respect Gon Freecss (Hunter x Hunter),https://redd.it/cyj8yz
 3529,Respect Leonhard Saijou (The Irregular at Magic High School anime),https://redd.it/pnaybs
 3544,Respect Santana (Jojo's Bizarre Adventure),https://redd.it/rt9y5v
-3543,Respect Rudol von Stroheim (Jojo's Bizarre Adventure),https://redd.it/tiuj5c
 3555,Respect Hol Horse (Jojo's Bizarre Adventure),https://redd.it/w5sg04
 3520,"Respect Meruem, King of the Ants! (Hunter X Hunter) [Composite]",https://redd.it/z03jt2
+3543,Respect Rudol von Stroheim (Jojo's Bizarre Adventure),https://redd.it/1iyar8b
 3561,Respect Mannish Boy! [Jojo's Bizarre Adventure],https://redd.it/4a6pdv
 3562,Respect Mariah! [Jojo's Bizarre Adventure],https://redd.it/4ae29v
 3563,Respect Midler! [Jojo's Bizarre Adventure],https://redd.it/4a8mfa
@@ -5462,7 +5462,6 @@ id,title,link
 5712,Respect the Skullgirls Universe,https://redd.it/81x8bj
 5713,Respect Wei Shen (Sleeping Dogs),https://redd.it/2o0xy1
 5714,"Respect Jormungandr, the World Serpent! (SMITE)",https://redd.it/b00jnh
-5715,Respect Karl Fairburne (Sniper Elite),https://redd.it/3rznmz
 5716,Respect: Emerel (Sonic Battle),https://redd.it/49m6w0
 5717,Respect the Soulcalibur Universe (Original Timeline),https://redd.it/9rgkmr
 5719,[Respect] The Spartan (Spartan: Total Warrior),https://redd.it/4629vf
@@ -5533,6 +5532,7 @@ id,title,link
 5738,Respect Yukari Yakumo (Touhou),https://redd.it/142euq1
 5711,Respect Marie (Skullgirls),https://redd.it/14rallx
 5718,Respect Ulala (Space Channel 5),https://redd.it/mbmjcj
+5715,Respect Karl Fairburne (Sniper Elite),https://redd.it/1j094ye
 5725,Respect the Arwing (Star Fox),https://redd.it/nbq5a1
 5710,Respect Pyramid Head (Silent Hill),https://redd.it/oaac1j
 5791,Respect Rider (Fate/Zero),https://redd.it/2jgxti
@@ -14338,3 +14338,27 @@ id,title,link
 25807,Respect Agent Stone! (Sonic the Hedgehog (Paramount)),https://redd.it/1iy2b7v
 25808,Respect Gerald Robotnik! (Sonic the Hedgehog (Paramount)),https://redd.it/1iy2cx1
 25809,Respect Shadow the Hedgehog! (Sonic the Hedgehog (Paramount)),https://redd.it/1iy2n9x
+25810,Respect Karl Fairburne (Zombie Army),https://redd.it/1iywz8m
+25811,Respect Robo (Chrono Trigger),https://redd.it/1j0xj1f
+25812,Respect G.I. Robot (Batman The Brave and The Bold),https://redd.it/1iyst1t
+25813,"Respect G.I. Robot, `"Joe`" (DC comics)",https://redd.it/1j21vvk
+25814,"Respect G.I. Robot, `"Mac`" (DC comics)",https://redd.it/1izxnp8
+25815,"Respect G.I Robot, J.A.K.E (DC Comics, New Earth)",https://redd.it/1iyuesb
+25816,"Respect Te Fiti, the Goddess of Life (Moana)",https://redd.it/1izdfvy
+25817,"Nalo, the God of Storms (Moana)",https://redd.it/1j0814t
+25818,Respect the Werewolves (Dog Soldiers),https://redd.it/1izwyo9
+25819,Respect Longan Dragon Cookie (CookieRun: OvenBreak),https://redd.it/1j0bfqm
+25820,Respect Stormbringer Cookie (Cookie Run: Kingdom),https://redd.it/1j0er03
+25821,Respect Karuta (Pokemon ReBurst),https://redd.it/1j1dw4u
+25822,Respect Rug (Pokemon ReBurst),https://redd.it/1j1dwv3
+25823,Respect Fraud (Pokemon ReBurst),https://redd.it/1j2j9k3
+25824,Respect The Three Generals (Pokemon ReBurst),https://redd.it/1j0kcl2
+25825,Respect The Seven Warriors (Pokemon ReBurst),https://redd.it/1j0kgml
+25826,Respect Hariru (Pokemon ReBurst),https://redd.it/1j0y59l
+25827,Respect Majin Kuu! (Dragon Ball Daima),https://redd.it/1j0on2z
+25828,Respect Majin Duu! (Dragon Ball Daima),https://redd.it/1j0on49
+25829,"Respect Owen Ward, the Jack O'Lantern (Marvel, 616)",https://redd.it/1j1uvjz
+25830,"Respect Bruce Bananner, the Hulk (Marvel Apes, Earth 8101)",https://redd.it/1j255ze
+25831,"Respect The Hulk (Marvel Comics, Earth 6160)",https://redd.it/1j27n5d
+25832,Respect Spawn! (DEATH BATTLE!),https://redd.it/1j26seg
+25833,"Respect the Thing (Return of the Thing, screenplay)",https://redd.it/1j2knuw

@@ -14,21 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Karl Fairburne (Zombie Army)', 'https://redd.it/1iywz8m'); SELECT * FROM respectthread WHERE link='https://redd.it/1iywz8m';
-UPDATE character SET rt_id_array='{5715, ?}' WHERE rt_id_array='{5715}';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Robo (Chrono Trigger)', 'https://redd.it/1j0xj1f'); SELECT * FROM respectthread WHERE link='https://redd.it/1j0xj1f';
-UPDATE character SET rt_id_array='{?2}' WHERE default_name='Robo' AND rt_id_array='{5553}';
-
-
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Castlevania', 'Castlevania 2017', 0);
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Mario', 'Devil Mario', -6);
-
 ########################################
-
-UPDATE character_name SET name='Mas?ter ?Chiefs?' WHERE name='Mas?ter Chiefs?';
 
 ########################################
 

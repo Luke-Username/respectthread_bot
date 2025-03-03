@@ -19511,7 +19511,6 @@ Crono,{Marle},f,{5553},Chrono Trigger
 Crono,{Lucca},f,{5553},Chrono Trigger
 Marle,"{`"Chrono Trigger`"}",t,{5553},Chrono Trigger
 Lucca,"{`"Chrono Trigger`"}",f,{5553},Chrono Trigger
-Robo,"{`"Chrono Trigger`"}",f,{5553},Chrono Trigger
 Frog,"{`"Chrono Trigger`"}",f,{5553},Chrono Trigger
 Ayla,"{`"Chrono Trigger`"}",f,{5553},Chrono Trigger
 Magus,"{`"Chrono Trigger`"}",f,{5553},Chrono Trigger
@@ -19541,6 +19540,7 @@ Aiba,"{`"Cyber Sleuth`"}",f,{5573},Digimon Story: Cyber Sleuth
 Takumi Aiba,{Digimon},t,{5573},Digimon Story: Cyber Sleuth
 Takumi Aiba,"{`"Cyber Sleuth`"}",t,{5573},Digimon Story: Cyber Sleuth
 Captain Jack Hardgrave,{Dino},t,{5574},Dino D-Day
+Robo,"{`"Chrono Trigger`"}",f,{25811},Chrono Trigger
 Laharl,{Disgaea},t,{5575},Disgaea
 Mickey,"{`"Epic Mickey`"}",f,{5576},Epic Mickey
 Mickey Mouse,"{`"Epic Mickey`"}",f,{5576},Epic Mickey
@@ -19970,8 +19970,6 @@ Robo-Fortune,"{`"Skull ?girls`"}",t,{5712},Skullgirls
 Fukua,"{`"Skull ?girls`"}",t,{5712},Skullgirls
 Wei Shen,"{`"Sleeping Dogs`"}",t,{5713},Sleeping Dogs
 Jörmungandr,{SMITE},f,{5714},SMITE
-Karl,"{`"Sniper Elite`"}",f,{5715},Sniper Elite
-Karl Fairburne,"{`"Sniper Elite`"}",t,{5715},Sniper Elite
 Soulcalibur,{default},t,{5717},""
 Ulala,"{`"Space Channel`"}",f,{5718},Space Channel 5
 Ulala,{Sega},f,{5718},Space Channel 5
@@ -20022,7 +20020,9 @@ Terran,"{`"SC\\d?`"}",f,{},StarCraft
 Superhot,"{`"Super ?hot (Guy|Protag(onist)?|player|campaign|vs)`"}",f,{5732},""
 Superhot,{time},f,{5732},""
 Rick Taylor,{Splatterhouse},t,"{5720,23214}",Splatterhouse
+Karl,"{`"Sniper Elite`"}",f,"{5715,25810}",Sniper Elite
 Supreme Commander,"{`"(Supreme Commander)`"}",f,{5733},""
+Karl Fairburne,"{`"Sniper Elite`"}",t,"{5715,25810}",Sniper Elite
 Nightmare Gabe,{VGCW},f,{5749},Video Game Championship Wrestling
 The Visitor,"{`"flash ?game`"}",f,{5750},""
 The Visitor,"{alien,eat(en)?}",f,{5750},""
@@ -32958,3 +32958,35 @@ Gerald Robotnik,"{`"Sonic|STH\\d?`",(Movie|Film)s?}",f,{25808},"Sonic the Hedgeh
 Gerald Robotnik,{Paramount},f,{25808},"Sonic the Hedgehog, Paramount"
 Shadow,"{`"Sonic 3|STH\\d?`",(Movie|Film)s?}",f,{25809},"Sonic the Hedgehog, Paramount"
 Shadow,{Paramount},f,{25809},"Sonic the Hedgehog, Paramount"
+G.I. Robot,"{`"Brave (and|&) the Bold`"}",f,{25812},The Brave and The Bold
+G.I. Robot,{Joe},f,{25813},Joe
+G.I. Robot,{Mac},f,{25814},Mac
+G.I. Robot,"{`"J\\.?A\\.?K\\.?E`"}",f,{25815},J.A.K.E.
+G.I. Robot,{PC},f,{25813},Post-Crisis
+G.I. Robot,"{`"Posts?(-| )?C(risis)?`"}",f,{25813},Post-Crisis
+G.I. Robot,"{`"New(-| )Earth`"}",f,{25813},Post-Crisis
+G.I. Robot,"{`"Earth(-| )(1|One)`"}",f,{25813},Post-Crisis
+G.I. Robot,"{`"\\(DC( Comics)?\\)`"}",t,{25813},DC
+G.I. Robot,"{`"\\[DC( Comics)?\\]`"}",t,{25813},DC
+Te Fiti,{Moana},f,{25814},Moana
+Nalo,{Moana},f,{25814},Moana
+Werewolves,"{`"Dog Soldiers`"}",f,{25814},Dog Soldiers
+Longan Dragon Cookie,"{`"Cookie ?Run`"}",t,{25814},CookieRun
+Stormbringer Cookie,"{`"Cookie ?Run`"}",t,{25814},CookieRun
+Karuta,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
+Rug,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
+Fraud,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
+Three Generals,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
+Seven Warriors,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
+Hariru,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
+Majin Kuu,"{`"Dragon ?Ball`"}",t,{25814},Dragon Ball
+Majin Kuu,{DB(Z|S)},t,{25814},Dragon Ball
+Majin Kuu,{Daima},t,{25814},Dragon Ball
+Majin Duu,"{`"Dragon ?Ball`"}",t,{25814},Dragon Ball
+Majin Duu,{DB(Z|S)},t,{25814},Dragon Ball
+Majin Duu,{Daima},t,{25814},Dragon Ball
+Jack O'Lantern,"{`"Owen Ward`"}",f,{25814},Owen Ward
+Hulk,"{`"Marvel Apes`"}",f,{25814},Marvel Apes
+Hulk,{6160},f,{25814},6160
+Spawn,"{`"DEATH BATTLE`"}",f,{25814},DEATH BATTLE!
+Thing,"{`"Return of the Thing`"}",f,{25814},Return of the Thing
