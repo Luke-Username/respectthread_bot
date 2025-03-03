@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 3543, "Respect Rudol von Stroheim (Jojo''s Bizarre Adventure)", 'https://redd.it/1iyar8b')
 update_respectthread(cur, 5715, 'Respect Karl Fairburne (Sniper Elite)', 'https://redd.it/1j094ye')
+update_respectthread(cur, 1156, 'Respect shiny Tamatoa (Moana)', 'https://redd.it/1j1kdbt')
 
 ########################################
 
@@ -127,7 +128,20 @@ False,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect G.I. Robot, "Mac" (DC comics)', 'https://redd.it/1izxnp8')
+id = get_rt_id(cur, 'Respect G.I. Robot, "Joe" (DC comics)', 'https://redd.it/1j21vvk')
+add_data(['G\\.?I\\.? Robot'],
+'G.I. Robot',
+False,
+False,
+[
+    ['Joe']
+],
+'Joe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+id2 = get_rt_id(cur, 'Respect G.I. Robot, "Mac" (DC comics)', 'https://redd.it/1izxnp8')
 add_data(['G\\.?I\\.? Robot'],
 'G.I. Robot',
 False,
@@ -140,7 +154,7 @@ False,
 )
 #
 
-id2 = get_rt_id(cur, 'Respect G.I Robot, J.A.K.E (DC Comics, New Earth)', 'https://redd.it/1iyuesb')
+id3 = get_rt_id(cur, 'Respect G.I Robot, J.A.K.E (DC Comics, New Earth)', 'https://redd.it/1iyuesb')
 add_data(['G\\.?I\\.? Robot'],
 'G.I. Robot',
 False,
@@ -149,12 +163,10 @@ False,
     ['J\.?A\.?K\.?E']
 ],
 'J.A.K.E.',
-'{' + '{}'.format(id2) + '}'
+'{' + '{}'.format(id3) + '}'
 )
 #
 
-
-id2 = get_rt_id(cur, 'Respect G.I Robot, J.A.K.E (DC Comics, New Earth)', 'https://redd.it/1iyuesb')
 add_data(['G\\.?I\\.? Robot'],
 'G.I. Robot',
 False,
@@ -164,7 +176,7 @@ False,
 	['Earth(-| )(1|One)']
 ],
 'Post-Crisis',
-'{' + '{}'.format(id, id2) + '}'
+'{' + '{}'.format(id, id2, id3) + '}'
 )
 #
 
@@ -176,7 +188,7 @@ True,
     ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
 ],
 'DC',
-'{' + '{}'.format(id, id2) + '}'
+'{' + '{}'.format(id, id2, id3) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1iyuesb/respect_gi_robot_jake_dc_comics_new_earth/
 
@@ -257,13 +269,58 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Karuta (Pokemon ReBurst)', 'https://redd.it/1j1dw4u')
+add_data(['Karuta'],
+'Karuta',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n R(e|é)Burst']
+],
+'Pokémon RéBURST',
+'{' + '{}'.format(id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j1dw4u/respect_karuta_pokemon_reburst/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rug (Pokemon ReBurst)', 'https://redd.it/1j1dwv3')
+add_data(['Rug'],
+'Rug',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n R(e|é)Burst']
+],
+'Pokémon RéBURST',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fraud (Pokemon ReBurst)', 'https://redd.it/1j2j9k3')
+add_data(['Fraud'],
+'Fraud',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n R(e|é)Burst']
+],
+'Pokémon RéBURST',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Three Generals (Pokemon ReBurst)', 'https://redd.it/1j0kcl2')
 add_data(['Three Generals'],
 'Three Generals',
 True,
 False,
 [
-    ['Pok(e|é)m(o|a)n ReBurst']
+    ['Pok(e|é)m(o|a)n R(e|é)Burst']
 ],
 'Pokémon RéBURST',
 '{' + '{}'.format(id2) + '}'
@@ -278,7 +335,7 @@ add_data(['Seven Warriors'],
 True,
 False,
 [
-    ['Pok(e|é)m(o|a)n ReBurst']
+    ['Pok(e|é)m(o|a)n R(e|é)Burst']
 ],
 'Pokémon RéBURST',
 '{' + '{}'.format(id2) + '}'
@@ -293,7 +350,7 @@ add_data(['Hariru'],
 False,
 False,
 [
-    ['Pok(e|é)m(o|a)n ReBurst']
+    ['Pok(e|é)m(o|a)n R(e|é)Burst']
 ],
 'Pokémon RéBURST',
 '{' + '{}'.format(id2) + '}'
@@ -329,6 +386,81 @@ True,
 '{' + '{}'.format(id2) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, "Respect Owen Ward, the Jack O''Lantern (Marvel, 616)", 'https://redd.it/1j1uvjz')
+add_data(["Jack O''-?Lantern"],
+"Jack O''Lantern",
+False,
+False,
+[
+    ['Owen Ward']
+],
+'Owen Ward',
+'{' + '{}'.format(id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j1uvjz/respect_owen_ward_the_jack_olantern_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bruce Bananner, the Hulk (Marvel Apes, Earth 8101)', 'https://redd.it/1j255ze')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['Marvel Apes']
+],
+'Marvel Apes',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Hulk (Marvel Comics, Earth 6160)', 'https://redd.it/1j27n5d')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['6160']
+],
+'6160',
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spawn! (DEATH BATTLE!)', 'https://redd.it/1j26seg')
+add_data(['Spawn'],
+'Spawn',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+"DEATH BATTLE!",
+'{' + '{}'.format(id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Thing (Return of the Thing, screenplay)', 'https://redd.it/1j2knuw')
+add_data(['Thing'],
+'Thing',
+False,
+False,
+[
+    ['Return of the Thing']
+],
+"Return of the Thing",
+'{' + '{}'.format(id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j2knuw/respect_the_thing_return_of_the_thing_screenplay/
 
 ########################################
 

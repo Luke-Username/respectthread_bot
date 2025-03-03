@@ -24,8 +24,11 @@ UPDATE character SET rt_id_array='{?2}' WHERE default_name='Robo' AND rt_id_arra
 ########################################
 
 INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Castlevania', 'Castlevania 2017', 0);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Mario', 'Devil Mario', -6);
 
 ########################################
+
+UPDATE character_name SET name='Mas?ter ?Chiefs?' WHERE name='Mas?ter Chiefs?';
 
 ########################################
 
