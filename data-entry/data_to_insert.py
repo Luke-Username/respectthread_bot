@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Black Battler! (Umineko: When They Cry [Manga])', 'https://redd.it/1j336o7')
+add_data(['Black Battler'],
+'Black Battler',
+False,
+True,
+[
+    ['Umineko'], ['When they Cry']
+],
+'Umineko',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j336o7/respect_black_battler_umineko_when_they_cry_manga/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sam Temple (Gone)', 'https://redd.it/1j33afi')
+add_data(['Sam Temple'],
+'Sam Temple',
+False,
+False,
+[
+    ['Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j33afi/respect_sam_temple_gone/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Himeji Onizuka (Tough)', 'https://redd.it/1j3d7pd')
+add_data(['Himeji Onizuka'],
+'Himeji Onizuka',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j3d7pd/respect_himeji_onizuka_tough/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
