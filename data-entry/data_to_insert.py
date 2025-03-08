@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4403, 'Respect Ryouga (Pokemon ReBurst)', 'https://redd.it/1j5ohy6')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Black Battler! (Umineko: When They Cry [Manga])', 'https://redd.it/1j336o7')
 add_data(['Black Battler'],
 'Black Battler',
@@ -167,6 +171,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Todar (Tough)', 'https://redd.it/1j50h6i')
+add_data(['Todar'],
+'Todar',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j50h6i/respect_todar_tough/
+
+########################################
+
+id = get_rt_id(cur, 'Respect D-51 (Tough)', 'https://redd.it/1j5ts2n')
+add_data(['D-51'],
+'D-51',
+False,
+False,
+[
+    ['Tough']
+],
+'Tough',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j5ts2n/respect_d51_tough/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Sam Strong (Beneath the Trees Where Nobody Sees)', 'https://redd.it/1j47ktn')
 add_data(['Sam Strong'],
 'Sam Strong',
@@ -176,6 +210,76 @@ False,
     ['Beneath the Trees Where Nobody Sees']
 ],
 'Beneath the Trees Where Nobody Sees',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Great Doughnut Ball King (CookieRun: Ovenbreak)', 'https://redd.it/1j5mngv')
+add_data(['Great Doughnut Ball King'],
+'Great Doughnut Ball King',
+False,
+True,
+[
+    ['Cookie ?Run']
+],
+'CookieRun',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j5mngv/respect_great_doughnut_ball_king_cookierun/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Adrian Chase, The Vigilante! (DC Comics, Post Crisis)', 'https://redd.it/1j5pzg9')
+add_data(['Adrian Chase'],
+'Adrian Chase',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Adrian Chase'],
+'Adrian Chase',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'], ['Vigilante']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+add_data(['Adrian Chase'],
+'Adrian Chase',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse'], ['(DC)?CW'], ['DC ?TV']
+],
+'CW Arrowverse',
+'{}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Treasure Hunt No.1 (No.1 Gozyuger)', 'https://redd.it/1j5rpdy')
+add_data(['Treasure Hunt No\.? ?1'],
+'Treasure Hunt No.1',
+False,
+True,
+[
+    ['Gozyuger']
+],
+'No.1 Gozyuger',
 '{' + '{}'.format(id) + '}'
 )
 #
