@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 4403, 'Respect Ryouga (Pokemon ReBurst)', 'https://redd.it/1j5ohy6')
+update_respectthread(cur, 8117, 'Respect Din Djarin, the Mandalorian (Star Wars)', 'https://redd.it/1j6fhjv')
 
 ########################################
 
@@ -283,6 +284,153 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shin Soru (The Ability to Shift Anything is Convenient, Even in Another World! [Web Novel])', 'https://redd.it/1j6jl5b')
+add_data(['Shin Soru'],
+'Shin Soru',
+False,
+False,
+[
+    ['Ability to Shift Anything is Convenient']
+],
+'The Ability to Shift Anything is Convenient, Even in Another World!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Armored All Might (My Hero Academia)', 'https://redd.it/1j6qy3z')
+add_data(['Armored All Might'],
+'Armored All Might',
+False,
+True,
+[
+    ['My Hero Academia'], ['\(My Hero\)'], ['(M|BN?)HA'], ['Boku no Hero'], ['Class ?1(-| )?a']
+],
+'My Hero Academia',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Original Gray Hulk! (Marvel, 616)', 'https://redd.it/1j6s4aa')
+add_data(['Gray Hulk'],
+'Gray Hulk',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j6s4aa/respect_the_original_gray_hulk_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Meltan and Melmetal (Pokémon)', 'https://redd.it/1j6xcf8')
+add_data(['Meltan'],
+'Meltan',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j6xcf8/respect_meltan_and_melmetal_pok%C3%A9mon/
+
+add_data(['Melmetal'],
+'Melmetal',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j6xcf8/respect_meltan_and_melmetal_pok%C3%A9mon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Firefly (Honkai: Star Rail)', 'https://redd.it/1j774rr')
+add_data(['Firefly'],
+'Firefly',
+False,
+False,
+[
+    ['Honkai']
+],
+'Honkai: Star Rail',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tianhai Divine Empress! (Ze Tian Ji | Way of Choices)', 'https://redd.it/1j7m9r9')
+add_data(['Tianhai Divine Empress'],
+'Tianhai Divine Empress',
+False,
+True,
+[
+    ['Ze Tian Ji'], ['Way of Choices']
+],
+'Ze Tian Ji | Way of Choices',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pyotr! (Hunter: the Parenting)', 'https://redd.it/1j7mh9g')
+add_data(['Pyotr'],
+'Pyotr',
+False,
+False,
+[
+    ['Hunter:? the Parenting']
+],
+'Hunter: the Parenting',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j7mh9g/respect_pyotr_hunter_the_parenting/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Caine Soren (Gone)', 'https://redd.it/1j7pkcc')
+add_data(['Caine Soren'],
+'Caine Soren',
+False,
+True,
+[
+    ['Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j7pkcc/respect_caine_soren_gone/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Popular No.1 (No.1 Sentai Gozyuger)', 'https://redd.it/1j99ph5')
+add_data(['Popular No\.? ?1'],
+'Popular No.1',
+False,
+False,
+[
+    ['Sentai Gozyuger']
+],
+'No.1 Sentai Gozyuger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1j99ph5/respect_popular_no1_no1_sentai_gozyuger/
 
 ########################################
 

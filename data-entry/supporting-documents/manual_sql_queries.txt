@@ -19,6 +19,8 @@ UPDATE character SET rt_id_array='{6262, ?}' WHERE rt_id_array='{6262}';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Doom', 'Doom Slayer', 0);
+
 ########################################
 
 ########################################
