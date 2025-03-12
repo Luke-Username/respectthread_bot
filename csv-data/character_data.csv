@@ -22205,7 +22205,6 @@ Kiri Nanaya,"{`"TYPE(-| )?MOON`"}",f,{6260},Tsukihime
 Kiri Nanaya,"{`"Nasu(-| )?verse`"}",f,{6260},Tsukihime
 Kiri Nanaya,{Tsukihime},f,{6260},Tsukihime
 Kiri Nanaya,"{`"Kagetsu Tohya`"}",f,{6260},Tsukihime
-Beatrice,{Umineko},f,{6262},Umineko
 Avenger,"{`"Hollow Ataraxia`"}",f,{6267},Fate/Hollow Ataraxia
 Metatron,"{`"Tokyo Babel`"}",f,{6269},Tokyo Babel
 Oshiba Hagane,"{`"Tokyo Babel`"}",t,{6270},Tokyo Babel
@@ -22229,6 +22228,7 @@ Emiya Shirou,{F/?SN},t,{6251},Fate
 Battler,{Umineko},f,"{6263,25775}",Umineko
 Battler Ushiromiya,{Umineko},t,"{6263,25775}",Umineko
 Ushiromiya Family,{Umineko},t,"{6266,25783}",Umineko
+Beatrice,{Umineko},f,"{6262,25834}",Umineko
 Mina Ashido,"{`"Character Scramble`"}",f,{6279},Character Scramble
 Supermooks,"{`"Character Scramble`"}",f,{6280},Character Scramble
 Cicero,{Fargo},f,{6281},Fargo
@@ -32928,6 +32928,9 @@ Cotton Weary,{Scream},f,{25788},Scream
 Chad Meeks-Martin,{Scream},f,{25789},Scream
 Samurai Slasher,"{`"Samurai Slasher ?\\(Samurai Slasher\\)`"}",t,{25790},""
 The Calamity,"{`"No\\.? ?1 Sentai Gozyuger`"}",f,{25791},No.1 Sentai Gozyuger
+Jim Snuka,{Tough},f,{25838},Tough
+Todar,{Tough},f,{25839},Tough
+D-51,{Tough},f,{25840},Tough
 Parasite,"{`"Parasite ?\\(.*Posts?(-| )?C(risis)?.*\\)`"}",f,{25792},Post-Crisis
 Parasite,"{`"Posts?(-| )?C(risis)?`",`"Injustice League`"}",f,{25792},Post-Crisis
 Parasite,"{`"Rudy Jones`"}",f,{25792},Rudy Jones
@@ -32990,3 +32993,34 @@ Hulk,"{`"Marvel Apes`"}",f,{25814},Marvel Apes
 Hulk,{6160},f,{25814},6160
 Spawn,"{`"DEATH BATTLE`"}",f,{25814},DEATH BATTLE!
 Thing,"{`"Return of the Thing`"}",f,{25814},Return of the Thing
+Black Battler,{Umineko},t,{25835},Umineko
+Black Battler,"{`"When they Cry`"}",t,{25835},Umineko
+Sam Temple,{Gone},f,{25836},Gone
+Himeji Onizuka,{Tough},f,{25837},Tough
+Sam Strong,"{`"Beneath the Trees Where Nobody Sees`"}",f,{25841},Beneath the Trees Where Nobody Sees
+Great Doughnut Ball King,"{`"Cookie ?Run`"}",t,{25842},CookieRun
+Adrian Chase,{PC},f,{25843},Post-Crisis
+Adrian Chase,"{`"Posts?(-| )?C(risis)?`"}",f,{25843},Post-Crisis
+Adrian Chase,"{`"New(-| )Earth`"}",f,{25843},Post-Crisis
+Adrian Chase,"{`"\\(DC( Comics)?\\)`"}",t,{25843},DC
+Adrian Chase,"{`"\\[DC( Comics)?\\]`"}",t,{25843},DC
+Adrian Chase,{Vigilante},t,{25843},DC
+Adrian Chase,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
+Adrian Chase,{(DC)?CW},f,{},CW Arrowverse
+Adrian Chase,"{`"DC ?TV`"}",f,{},CW Arrowverse
+Treasure Hunt No.1,{Gozyuger},t,{25844},No.1 Gozyuger
+Shin Soru,"{`"Ability to Shift Anything is Convenient`"}",f,{25846},"The Ability to Shift Anything is Convenient, Even in Another World!"
+Armored All Might,"{`"My Hero Academia`"}",t,{25847},My Hero Academia
+Armored All Might,"{`"\\(My Hero\\)`"}",t,{25847},My Hero Academia
+Armored All Might,{(M|BN?)HA},t,{25847},My Hero Academia
+Armored All Might,"{`"Boku no Hero`"}",t,{25847},My Hero Academia
+Armored All Might,"{`"Class ?1(-| )?a`"}",t,{25847},My Hero Academia
+Gray Hulk,{616},t,{25848},616
+Meltan,{Pok(e|é)m(o|a)n},t,{25849},Pokémon
+Melmetal,{Pok(e|é)m(o|a)n},t,{25849},Pokémon
+Firefly,{Honkai},f,{25850},Honkai: Star Rail
+Tianhai Divine Empress,"{`"Ze Tian Ji`"}",t,{25851},Ze Tian Ji | Way of Choices
+Tianhai Divine Empress,"{`"Way of Choices`"}",t,{25851},Ze Tian Ji | Way of Choices
+Pyotr,"{`"Hunter:? the Parenting`"}",f,{25852},Hunter: the Parenting
+Caine Soren,{Gone},t,{25853},Gone
+Popular No.1,"{`"Sentai Gozyuger`"}",f,{25854},No.1 Sentai Gozyuger
