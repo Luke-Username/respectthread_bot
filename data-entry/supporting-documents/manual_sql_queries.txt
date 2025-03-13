@@ -14,25 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{25828}' WHERE default_name='Majin Duu';
-UPDATE character SET rt_id_array='{25816}' WHERE default_name='Te Fiti';
-UPDATE character SET rt_id_array='{25817}' WHERE default_name='Nalo';
-UPDATE character SET rt_id_array='{25818}' WHERE default_name='Werewolves' AND displayed_version_name='Dog Soldiers';
-UPDATE character SET rt_id_array='{25819}' WHERE default_name='Longan Dragon Cookie';
-UPDATE character SET rt_id_array='{25820}' WHERE default_name='Stormbringer Cookie';
-UPDATE character SET rt_id_array='{25821}' WHERE default_name='Karuta' AND displayed_version_name='Pokémon RéBURST';
-UPDATE character SET rt_id_array='{25822}' WHERE default_name='Rug' AND displayed_version_name='Pokémon RéBURST';
-UPDATE character SET rt_id_array='{25823}' WHERE default_name='Fraud' AND displayed_version_name='Pokémon RéBURST';
-UPDATE character SET rt_id_array='{25824}' WHERE default_name='Three Generals' AND displayed_version_name='Pokémon RéBURST';
-UPDATE character SET rt_id_array='{25825}' WHERE default_name='Seven Warriors' AND displayed_version_name='Pokémon RéBURST';
-UPDATE character SET rt_id_array='{25826}' WHERE default_name='Hariru' AND displayed_version_name='Pokémon RéBURST';
-UPDATE character SET rt_id_array='{25827}' WHERE default_name='Majin Kuu';
-UPDATE character SET rt_id_array='{25829}' WHERE default_name='Jack O''Lantern' AND displayed_version_name='Owen Ward';
-UPDATE character SET rt_id_array='{25830}' WHERE default_name='Hulk' AND displayed_version_name='Marvel Apes';
-UPDATE character SET rt_id_array='{25831}' WHERE default_name='Hulk' AND displayed_version_name='6160';
-UPDATE character SET rt_id_array='{25832}' WHERE default_name='Spawn' AND displayed_version_name='DEATH BATTLE!';
-UPDATE character SET rt_id_array='{25833}' WHERE default_name='Thing' AND displayed_version_name='Return of the Thing';
-
 ########################################
 
 ########################################

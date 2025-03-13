@@ -32971,32 +32971,29 @@ G.I. Robot,"{`"New(-| )Earth`"}",f,{25813},Post-Crisis
 G.I. Robot,"{`"Earth(-| )(1|One)`"}",f,{25813},Post-Crisis
 G.I. Robot,"{`"\\(DC( Comics)?\\)`"}",t,{25813},DC
 G.I. Robot,"{`"\\[DC( Comics)?\\]`"}",t,{25813},DC
-Te Fiti,{Moana},f,{25814},Moana
-Nalo,{Moana},f,{25814},Moana
-Werewolves,"{`"Dog Soldiers`"}",f,{25814},Dog Soldiers
-Longan Dragon Cookie,"{`"Cookie ?Run`"}",t,{25814},CookieRun
-Stormbringer Cookie,"{`"Cookie ?Run`"}",t,{25814},CookieRun
-Karuta,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
-Rug,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
-Fraud,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
-Three Generals,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
-Seven Warriors,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
-Hariru,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25814},Pokémon RéBURST
-Majin Kuu,"{`"Dragon ?Ball`"}",t,{25814},Dragon Ball
-Majin Kuu,{DB(Z|S)},t,{25814},Dragon Ball
-Majin Kuu,{Daima},t,{25814},Dragon Ball
-Majin Duu,"{`"Dragon ?Ball`"}",t,{25814},Dragon Ball
-Majin Duu,{DB(Z|S)},t,{25814},Dragon Ball
-Majin Duu,{Daima},t,{25814},Dragon Ball
-Jack O'Lantern,"{`"Owen Ward`"}",f,{25814},Owen Ward
-Hulk,"{`"Marvel Apes`"}",f,{25814},Marvel Apes
-Hulk,{6160},f,{25814},6160
-Spawn,"{`"DEATH BATTLE`"}",f,{25814},DEATH BATTLE!
-Thing,"{`"Return of the Thing`"}",f,{25814},Return of the Thing
 Black Battler,{Umineko},t,{25835},Umineko
 Black Battler,"{`"When they Cry`"}",t,{25835},Umineko
 Sam Temple,{Gone},f,{25836},Gone
 Himeji Onizuka,{Tough},f,{25837},Tough
+Te Fiti,{Moana},f,{25816},Moana
+Nalo,{Moana},f,{25817},Moana
+Werewolves,"{`"Dog Soldiers`"}",f,{25818},Dog Soldiers
+Longan Dragon Cookie,"{`"Cookie ?Run`"}",t,{25819},CookieRun
+Stormbringer Cookie,"{`"Cookie ?Run`"}",t,{25820},CookieRun
+Karuta,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25821},Pokémon RéBURST
+Rug,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25822},Pokémon RéBURST
+Fraud,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25823},Pokémon RéBURST
+Three Generals,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25824},Pokémon RéBURST
+Seven Warriors,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25825},Pokémon RéBURST
+Hariru,"{`"Pok(e|é)m(o|a)n R(e|é)Burst`"}",f,{25826},Pokémon RéBURST
+Majin Kuu,"{`"Dragon ?Ball`"}",t,{25827},Dragon Ball
+Majin Kuu,{DB(Z|S)},t,{25827},Dragon Ball
+Majin Kuu,{Daima},t,{25827},Dragon Ball
+Jack O'Lantern,"{`"Owen Ward`"}",f,{25829},Owen Ward
+Hulk,"{`"Marvel Apes`"}",f,{25830},Marvel Apes
+Hulk,{6160},f,{25831},6160
+Spawn,"{`"DEATH BATTLE`"}",f,{25832},DEATH BATTLE!
+Thing,"{`"Return of the Thing`"}",f,{25833},Return of the Thing
 Sam Strong,"{`"Beneath the Trees Where Nobody Sees`"}",f,{25841},Beneath the Trees Where Nobody Sees
 Great Doughnut Ball King,"{`"Cookie ?Run`"}",t,{25842},CookieRun
 Adrian Chase,{PC},f,{25843},Post-Crisis
@@ -33024,3 +33021,13 @@ Tianhai Divine Empress,"{`"Way of Choices`"}",t,{25851},Ze Tian Ji | Way of Choi
 Pyotr,"{`"Hunter:? the Parenting`"}",f,{25852},Hunter: the Parenting
 Caine Soren,{Gone},t,{25853},Gone
 Popular No.1,"{`"Sentai Gozyuger`"}",f,{25854},No.1 Sentai Gozyuger
+Majin Duu,"{`"Dragon ?Ball`"}",t,{25828},Dragon Ball
+Majin Duu,{DB(Z|S)},t,{25828},Dragon Ball
+Majin Duu,{Daima},t,{25828},Dragon Ball
+Belial,"{`"Basket Case`"}",f,{25855},Basket Case
+Flippy,"{`"Dog Man`"}",f,{25856},Dog Man
+Petey,"{`"Dog Man`"}",f,{25857},Dog Man
+Dog Man,"{`"Dog Man.*Movie|Film`"}",f,{25858},2025
+Dog Man,{2025},f,{25858},2025
+Powerpuff Girls,"{`"Cancelled CW( Pilot)? Script`"}",f,{25859},Cancelled CW Pilot Script
+Anissa,{Invincible},f,{25860},Invincible
