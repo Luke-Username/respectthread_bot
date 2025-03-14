@@ -107,6 +107,34 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Elphaba (Wicked) [2024]', 'https://redd.it/1jaucbm')
+add_data(['Elphaba'],
+'Elphaba',
+False,
+False,
+[
+    ['Wicked', '2024']
+],
+'Wicked, 2024',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jaucbm/respect_elphaba_wicked_2024/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Conquest (Invincible)', 'https://redd.it/1jaxyir')
+add_data(['Conquest'],
+'Conquest',
+False,
+False,
+[
+    ['Invincible']
+],
+'Invincible',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
