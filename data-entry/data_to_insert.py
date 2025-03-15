@@ -137,6 +137,65 @@ False,
 
 ########################################
 
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['2008 (film|movie)s?']
+],
+'MCU',
+'{247}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1jbwf1f/200_men_in_iron_man_armor_from_the_2008_film_iron/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Balder Odinson (Marvel, 616)', 'https://redd.it/1jb6xro')
+add_data(['Balder Odinson'],
+'Balder Odinson',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jb6xro/respect_balder_odinson_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sidney Prescott (Scream)', 'https://redd.it/1jb8fd4')
+add_data(['Sidney Prescott'],
+'Sidney Prescott',
+False,
+True,
+[
+    ['Scream']
+],
+'Scream',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Revan (Star Wars)', 'https://redd.it/1jbisdf')
+add_data(['Revan'],
+'Revan',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jbisdf/respect_revan_star_wars/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
