@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3233, 'Respect BlackWargreymon (Digimon Adventure)', 'https://redd.it/1jcbpxb')
+update_respectthread(cur, 13273, 'Respect Asami Sato (The Legend of Korra)', 'https://redd.it/1jcxlk7')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Elphaba (Wicked) [2024]', 'https://redd.it/1jaucbm')
 add_data(['Elphaba'],
 'Elphaba',
@@ -193,6 +198,81 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1jbisdf/respect_revan_star_wars/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ryker Ruel (Standstill, Image Comics)', 'https://redd.it/1jck4vc')
+add_data(['Ryker Ruel'],
+'Ryker Ruel',
+False,
+True,
+[
+    ['Standstill']
+],
+'Standstill',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jck4vc/respect_ryker_ruel_standstill_image_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Afterthought (DC Comics)', 'https://redd.it/1jcmycx')
+add_data(['Afterthought'],
+'Afterthought',
+False,
+False,
+[
+    ['DC', 'Suicide Squad'], ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jcmycx/respect_afterthought_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Asha (Wish)', 'https://redd.it/1jd8wro')
+add_data(['Asha'],
+'Asha',
+False,
+False,
+[
+    ['Wish']
+],
+'Wish',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jd8wro/respect_asha_wish/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Star (Wish)', 'https://redd.it/1jd8xih')
+add_data(['Star'],
+'Star',
+False,
+False,
+[
+    ['Wish', 'Asha'], ['Star ?\(Wish\)']
+],
+'Wish',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jd8xih/respect_star_wish/
+
+########################################
+
+id = get_rt_id(cur, 'Respect King Magnifico (Wish)', 'https://redd.it/1jd8xsq')
+add_data(['King Magnifico'],
+'King Magnifico',
+False,
+True,
+[
+    ['Wish']
+],
+'Wish',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jd8xsq/respect_king_magnifico_wish/
 
 ########################################
 

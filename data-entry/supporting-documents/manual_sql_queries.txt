@@ -19,7 +19,12 @@ UPDATE character SET rt_id_array='{?}' WHERE default_name='Luisa';
 
 ########################################
 
+UPDATE character_name SET name='Darks(ei|ie)ds?' WHERE name='Darkseids?';
+
 ########################################
+
+UPDATE character SET version='{"Dark Knight"}' WHERE version='{"Dark Night"}';
+UPDATE character SET displayed_version_name='The Dark Knight' WHERE displayed_version_name='The Dark Night';
 
 ########################################
 
