@@ -107,6 +107,30 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Sypha'],
+'Sypha',
+False,
+False,
+[
+    ['Castle(-| )?vania']
+],
+'Castlevania',
+'{1255}'
+)
+#
+
+add_data(['Sypha Belnades'],
+'Sypha Belnades',
+False,
+False,
+[
+    ['Castle(-| )?vania']
+],
+'Castlevania',
+'{1255}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1jdfybz/victoria_dallon_worm_vs_sypha_belnades_castlevania/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
