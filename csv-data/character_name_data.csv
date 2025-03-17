@@ -1117,7 +1117,6 @@ Monster,Monster,f
 R'?tas '?Vadum,Rtas 'Vadum,f
 Black Knight Ghost,Black Knight Ghost,f
 Pterodactyl Ghost,Pterodactyl Ghost,f
-Darkseids?,Darkseid,f
 "10,?000 Volt Ghost","10,000 Volt Ghost",f
 Captain Cutler,Captain Cutler,f
 Tar Monster,Tar Monster,f
@@ -1146,6 +1145,7 @@ Wicked Witch of the West,Wicked Witch of the West,f
 Harvey Dent,Harvey Dent,f
 Power Rangers,Power Rangers,t
 Aragor?n,Aragorn,f
+Darks(ei|ie)ds?,Darkseid,f
 Guilala,Guilala,f
 Zohan,Zohan Dvir,f
 Zombeavers,Zombeavers,f
@@ -15155,3 +15155,10 @@ Belial,Belial,f
 Petey,Petey,f
 Dog Man,Dog Man,f
 Anissa,Anissa,f
+Balder Odinson,Balder Odinson,f
+Sidney Prescott,Sidney Prescott,f
+Revan,Revan,f
+Ryker Ruel,Ryker Ruel,f
+Afterthought,Afterthought,f
+Asha,Asha,f
+King Magnifico,King Magnifico,f

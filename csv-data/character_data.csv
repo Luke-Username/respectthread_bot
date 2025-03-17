@@ -2035,9 +2035,9 @@ Mystery Men,"{`"Mr.? Furious`"}",t,{517},1999
 Mystery Men,{Shoveler},t,{517},1999
 Kyoshi,{Avatar},t,{639},Avatar: TLA
 Kyoshi,{A?TLA},t,{639},Avatar: TLA
-Bane,"{`"Dark K?night`"}",f,{519},The Dark Night
 Godzilla,{2014},f,{280},MonsterVerse
 Max Steel,{2016},t,{509},2016
+Bane,"{`"Dark K?night`"}",f,{519},The Dark Knight
 Max Steel,{movies?},t,{509},2016
 Max Steel,{films?},t,{509},2016
 Hank,"{`"Madness Combat`"}",f,{},Madness Combat
@@ -2241,19 +2241,13 @@ Polaris,"{`"The Gifted`"}",f,{6543},FOX
 Polaris,{FOX},f,{6543},FOX
 Polaris,{Foxverse},f,{6543},FOX
 Pumpkin Rapper,"{`"Power Rangers`"}",t,{6544},Power Rangers
-Rogue Gallery,"{`"Dark Night`"}",f,{6545},The Dark Knight
 Rogue Gallery,{Nolan},f,{6545},Nolanverse
 Rogue Gallery,{Nolanverse},f,{6545},Nolanverse
-Rogues,"{`"Dark Night`"}",f,{6545},The Dark Knight
 Rogues,{Nolan},f,{6545},Nolanverse
 Rogues,{Nolanverse},f,{6545},Nolanverse
-Ra's al Ghul,"{`"Dark Night`"}",f,{6545},The Dark Knight
 Ra's al Ghul,{Nolan},f,{6545},Nolanverse
 Ra's al Ghul,{Nolanverse},f,{6545},Nolanverse
-Joker,"{`"Dark Night`"}",f,{6545},The Dark Knight
-Two-Face,"{`"Dark Night`"}",f,{6545},The Dark Knight
 Multiplex,"{`"Prime(-| )Earth`"}",f,{},New 52
-Talia al Ghul,"{`"Dark Night`"}",f,{6545},The Dark Knight
 Talia al Ghul,{Nolan},f,{6545},Nolanverse
 Talia al Ghul,{Nolanverse},f,{6545},Nolanverse
 Joker,{Nolan},f,{6545},Nolanverse
@@ -2292,9 +2286,11 @@ Kronk,"{`"Emperors New Groove`"}",t,{1201},The Emperor's New Groove
 Scrappy-Doo,{2002},f,{1091},"Scooby-Doo, 2002 Live Action"
 Scrappy-Doo,"{`"live(-| )action`"}",f,{1091},"Scooby-Doo, 2002 Live Action"
 Demons,"{Scooby,2002}",f,{1091},Live Action Scooby-Doo
-Scarecrow,"{`"Dark Night`"}",f,{6545},The Dark Knight
 Scarecrow,{Nolan},f,{6545},Nolanverse
 Scarecrow,{Nolanverse},f,{6545},Nolanverse
+Rogue Gallery,"{`"Dark Knight`"}",f,{6545},The Dark Knight
+Rogues,"{`"Dark Knight`"}",f,{6545},The Dark Knight
+Ra's al Ghul,"{`"Dark Knight`"}",f,{6545},The Dark Knight
 Demons,"{Scooby,`"live(-| )action`"}",f,{1091},Live Action Scooby-Doo
 Monster,"{`"Scooby(-| )Doo 2`"}",f,{6549},Live Action Scooby-Doo
 Monster,"{`"Monsters Unleashed`"}",f,{6549},Live Action Scooby-Doo
@@ -25237,8 +25233,6 @@ Isabela,{Encanto},f,{21201},Encanto
 Isabela,{Madrigal},f,{21201},Encanto
 Bruno,{Encanto},f,{21201},Encanto
 Bruno,{Madrigal},f,{21201},Encanto
-Luisa,{Encanto},f,{21201},Encanto
-Luisa,{Madrigal},f,{21201},Encanto
 Fat Bastard,"{`"Austin Powers`"}",f,{21202},Austin Powers
 Fat Bastard,"{`"Mike Myers`"}",f,{21202},Austin Powers
 Fat Bastard,{Goldmember},f,{21202},Austin Powers
@@ -25286,6 +25280,8 @@ Peter Parker,{PS4},f,{15258},Insomniac's Spider-Man
 Kong,"{`"Kong ?\\(Skull Island`"}",f,{281},MonsterVerse
 Kong,"{`"Kong:? Skull Island`"}",f,{281},MonsterVerse
 Humungousaur,{Omnitrix},t,{16404},Ben 10
+Luisa,{Encanto},f,{25861},Encanto
+Luisa,{Madrigal},f,{25861},Encanto
 Yaza,"{`"Pok(e|é)m(o|a)n ReBurst`"}",f,{21223},Pokémon
 Gilgamesh,"{`"Epic of Gilgamesh`"}",t,{6148},The Epic of Gilgamesh
 Gilgamesh,{poems?},t,{6148},The Epic of Gilgamesh
@@ -33031,3 +33027,21 @@ Dog Man,"{`"Dog Man.*Movie|Film`"}",f,{25858},2025
 Dog Man,{2025},f,{25858},2025
 Powerpuff Girls,"{`"Cancelled CW( Pilot)? Script`"}",f,{25859},Cancelled CW Pilot Script
 Anissa,{Invincible},f,{25860},Invincible
+Joker,"{`"Dark Knight`"}",f,{6545},The Dark Knight
+Two-Face,"{`"Dark Knight`"}",f,{6545},The Dark Knight
+Talia al Ghul,"{`"Dark Knight`"}",f,{6545},The Dark Knight
+Scarecrow,"{`"Dark Knight`"}",f,{6545},The Dark Knight
+Elphaba,"{Wicked,2024}",f,{25862},"Wicked, 2024"
+Conquest,{Invincible},f,{25863},Invincible
+Iron Man,"{`"2008 (film|movie)s?`"}",f,{247},MCU
+Balder Odinson,{616},t,{25864},616
+Sidney Prescott,{Scream},t,{25865},Scream
+Revan,"{`"S(tar )?Wars`"}",f,{25866},Star Wars
+Ryker Ruel,{Standstill},t,{25867},Standstill
+Afterthought,"{DC,`"Suicide Squad`"}",f,{25868},DC
+Afterthought,"{`"\\(DC( Comics)?\\)`"}",f,{25868},DC
+Afterthought,"{`"\\[DC( Comics)?\\]`"}",f,{25868},DC
+Asha,{Wish},f,{25869},Wish
+Star,"{Wish,Asha}",f,{25870},Wish
+Star,"{`"Star ?\\(Wish\\)`"}",f,{25870},Wish
+King Magnifico,{Wish},t,{25871},Wish
