@@ -133,6 +133,37 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Grim Ghost (Atlas Comics)', 'https://redd.it/1jdfmxd')
+add_data(['Grim Ghost'],
+'Grim Ghost',
+False,
+False,
+[
+    ['(Atlas|Seaboard) Comics']
+],
+'Atlas Comics',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jdfmxd/respect_the_grim_ghost_atlas_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 29: Extremis (Marvel, Earth-616 [Pre-Fresh Start])', 'https://redd.it/1jdryjc')
+id2 = get_rt_id(cur, 'Respect Iron Man Model 29: Extremis (Marvel, Earth-616 [Post-Fresh Start])', 'https://redd.it/1jdryls')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 29'], ['Extremis']
+],
+'Extremis',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jdryls/respect_iron_man_model_29_extremis_marvel/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
