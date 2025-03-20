@@ -14,41 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-SELECT * FROM respectthread WHERE link='https://redd.it/1jdryjc';
-SELECT * FROM respectthread WHERE link='SELECT * FROM respectthread WHERE link='https://redd.it/1jdryjc';';
-UPDATE character SET rt_id_array='{2173,24286,25696,25525,24256,24155,24222,24234,24208,24365,?1,?2,2174,2175,2176,24161,2177,2178,24221,24235}' WHERE rt_id_array='{2173,24286,25696,25525,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}';
---After run
-
 ########################################
-
-
-UPDATE character SET rt_id_array='{1644}' WHERE default_name='Captain Atom' AND version='{"PC"}';
-UPDATE character SET is_default=FALSE WHERE default_name='Captain Atom' AND version='{"PC"}';
-UPDATE character SET displayed_version_name='Post-Crisis' WHERE default_name='Captain Atom' AND version='{"PC"}';
-
-UPDATE character SET rt_id_array='{1644}' WHERE default_name='Captain Atom' AND version='{"Post(-| )?C(risis)?"}';
-UPDATE character SET is_default=FALSE WHERE default_name='Captain Atom' AND version='{"Post(-| )?C(risis)?"}';
-UPDATE character SET displayed_version_name='Post-Crisis' WHERE default_name='Captain Atom' AND version='{"Post(-| )?C(risis)?"}';
-
-UPDATE character SET rt_id_array='{1644}' WHERE default_name='Captain Atom' AND version='{"New(-| )Earth"}';
-UPDATE character SET is_default=FALSE WHERE default_name='Captain Atom' AND version='{"New(-| )Earth"}';
-UPDATE character SET displayed_version_name='Post-Crisis' WHERE default_name='Captain Atom' AND version='{"New(-| )Earth"}';
-
-UPDATE character SET rt_id_array='{1645}' WHERE default_name='Captain Atom' AND version='{"New(-| )?52"}';
-UPDATE character SET is_default=FALSE WHERE default_name='Captain Atom' AND version='{"New(-| )?52"}';
-UPDATE character SET displayed_version_name='New 52' WHERE default_name='Captain Atom' AND version='{"New(-| )?52"}';
-
-UPDATE character SET rt_id_array='{1645}' WHERE default_name='Captain Atom' AND version='{"N-?52"}';
-UPDATE character SET is_default=FALSE WHERE default_name='Captain Atom' AND version='{"N-?52"}';
-UPDATE character SET displayed_version_name='New 52' WHERE default_name='Captain Atom' AND version='{"N-?52"}';
-
-UPDATE character SET rt_id_array='{1645}' WHERE default_name='Captain Atom' AND version='{"Prime(-| )Earth"}';
-UPDATE character SET is_default=FALSE WHERE default_name='Captain Atom' AND version='{"Prime(-| )Earth"}';
-UPDATE character SET displayed_version_name='New 52' WHERE default_name='Captain Atom' AND version='{"Prime(-| )Earth"}';
-
-UPDATE character SET rt_id_array='{1645}' WHERE default_name='Captain Atom' AND version='{"Rebirth"}';
-UPDATE character SET is_default=FALSE WHERE default_name='Captain Atom' AND version='{"Rebirth"}';
-UPDATE character SET displayed_version_name='New 52' WHERE default_name='Captain Atom' AND version='{"Rebirth"}';
 
 ########################################
 

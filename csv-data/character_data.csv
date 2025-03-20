@@ -4665,19 +4665,17 @@ Blue Beetle,{Ted},f,{1642},Ted Kord
 Booster Gold,{PC},t,{1643},DC
 Booster Gold,"{`"Post(-| )?C(risis)?`"}",t,{1643},DC
 Booster Gold,"{`"New(-| )Earth`"}",t,{1643},DC
-Captain Atom,{PC},t,"{1645,1644}",DC
-Captain Atom,"{`"Post(-| )?C(risis)?`"}",t,"{1645,1644}",DC
-Captain Atom,"{`"New(-| )Earth`"}",t,"{1645,1644}",DC
-Captain Atom,"{`"New(-| )?52`"}",t,"{1645,1644}",DC
-Captain Atom,{N-?52},t,"{1645,1644}",DC
+Captain Atom,{PC},f,{1644},Post-Crisis
+Captain Atom,"{`"Post(-| )?C(risis)?`"}",f,{1644},Post-Crisis
+Captain Atom,"{`"New(-| )Earth`"}",f,{1644},Post-Crisis
+Captain Atom,"{`"New(-| )?52`"}",f,{1645},New 52
+Captain Atom,{N-?52},f,{1645},New 52
 Darla Dudley,"{Shazam,2019}",f,{6555},DCEU
 Darla Dudley,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Darla Dudley,{DCEU},f,{6555},DCEU
 Darla Dudley,"{`"DC Cinematic Universe`"}",f,{6555},DCEU
 Darla Dudley,{DCCU},f,{6555},DCEU
 Captain Atom,"{`"Post(-| )52`"}",t,"{1645,1644}",DC
-Captain Atom,"{`"Prime(-| )Earth`"}",t,"{1645,1644}",DC
-Captain Atom,{Rebirth},t,"{1645,1644}",DC
 Cyborg,"{`"New(-| )?52`"}",f,{1646},New 52 / Rebirth
 Cyborg,{N-?52},f,{1646},New 52 / Rebirth
 Cyborg,"{`"Post(-| )52`"}",f,{1646},New 52 / Rebirth
@@ -4737,6 +4735,8 @@ Shazam,{N-?52},f,{1653},New 52
 Firestorm,{PC},f,{1647},DC
 Firestorm,"{`"Post(-| )?C(risis)?`"}",f,{1647},DC
 Firestorm,"{`"New(-| )Earth`"}",f,{1647},DC
+Captain Atom,"{`"Prime(-| )Earth`"}",f,{1645},New 52
+Captain Atom,{Rebirth},f,{1645},New 52
 Chunky Chicken,"{`"Power Rangers?`"}",t,{6556},Power Rangers
 Despero,"{`"New(-| )?52`"}",f,{},New 52
 Despero,{N-?52},f,{},New 52
@@ -30602,8 +30602,8 @@ Kuroto Dan,"{`"Kamen Rider`"}",t,{24398},Kamen Rider
 Dr. Jekyll and Mr. Hyde,"{`"616 versions?`"}",f,{},616
 Dr. Jekyll and Mr. Hyde,"{`"M(iste)?r\\.? Hyde ?\\(616\\)`"}",f,{},616
 Dr. Jekyll and Mr. Hyde,{Doyle},f,{},Doyle
-Iron Man,{616},t,"{2173,24286,25696,25525,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
-Iron Man,{Marvel},t,"{2173,24286,25696,25525,24256,24155,24222,24234,24208,24365,2174,2175,2176,24161,2177,2178,24221,24235}",616
+Iron Man,{616},t,"{2173,24286,25696,25525,24256,24155,24222,24234,24208,24365,25873,25874,2174,2175,2176,24161,2177,2178,24221,24235}",616
+Iron Man,{Marvel},t,"{2173,24286,25696,25525,24256,24155,24222,24234,24208,24365,25873,25874,2174,2175,2176,24161,2177,2178,24221,24235}",616
 Dr. Jekyll and Mr. Hyde,"{`"\\(Movie\\) Mr\\.? Hyde`"}",f,{},Movie
 Dr. Jekyll and Mr. Hyde,"{`"League of Extraordinary Gentlemen`"}",f,{},The League of Extraordinary Gentlemen
 Dr. Jekyll and Mr. Hyde,"{`"The London Assignment`"}",f,{},Van Helsing: The London Assignment
@@ -32927,6 +32927,7 @@ The Calamity,"{`"No\\.? ?1 Sentai Gozyuger`"}",f,{25791},No.1 Sentai Gozyuger
 Jim Snuka,{Tough},f,{25838},Tough
 Todar,{Tough},f,{25839},Tough
 D-51,{Tough},f,{25840},Tough
+Piggsy,{Manhunt},f,{25876},Manhunt
 Parasite,"{`"Parasite ?\\(.*Posts?(-| )?C(risis)?.*\\)`"}",f,{25792},Post-Crisis
 Parasite,"{`"Posts?(-| )?C(risis)?`",`"Injustice League`"}",f,{25792},Post-Crisis
 Parasite,"{`"Rudy Jones`"}",f,{25792},Rudy Jones
@@ -33045,3 +33046,21 @@ Asha,{Wish},f,{25869},Wish
 Star,"{Wish,Asha}",f,{25870},Wish
 Star,"{`"Star ?\\(Wish\\)`"}",f,{25870},Wish
 King Magnifico,{Wish},t,{25871},Wish
+Sypha,"{`"Castle(-| )?vania`"}",f,{1255},Castlevania
+Sypha Belnades,"{`"Castle(-| )?vania`"}",f,{1255},Castlevania
+Grim Ghost,"{`"(Atlas|Seaboard) Comics`"}",f,{25872},Atlas Comics
+Iron Man,"{`"Model 29`"}",f,"{25873,25874}",Extremis
+Iron Man,{Extremis},f,"{25873,25874}",Extremis
+Batman,"{`"Heath Ledgers?`"}",f,{6531},Nolanverse
+Joker,"{`"Heath Ledgers?`"}",f,{6531},Nolanverse
+Captain Atom,"{`"Pre(-| )?Crisis`"}",f,{25875},Pre-Crisis
+Captain Atom,"{`"Silver(-| )?Age`"}",f,{25875},Pre-Crisis
+Captain Atom,"{`"Earth(-| )(1|One)`"}",f,{25875},Pre-Crisis
+Captain Atom,"{`"\\(DC( Comics)?\\)`"}",f,"{1645,1644,25875}",DC
+Captain Atom,"{`"\\[DC( Comics)?\\]`"}",f,"{1645,1644,25875}",DC
+Ghostface,"{`"Dead By Daylight`"}",f,{25877},Dead By Daylight
+Ghostface,{DBD},f,{25877},Dead By Daylight
+Brawly,{Pok(e|é)m(o|a)n},f,{25878},Pokémon
+Meap,{Phineas|(F|Ph)erb},f,{25879},Phineas and Ferb
+Tyrannosaurus Rex,{Primeval},f,{25880},Primeval
+Evil Queen,"{`"Snow White`"}",f,{25881},Snow White and the Seven Dwarfs
