@@ -2653,7 +2653,7 @@ Peter Pan
 
 Phineas and Ferb
 	Version
-		'{"Phineas|Ferb"}'
+		['Phineas|(F|Ph)erb']
 	Displayed Version Name
 		"Phineas and Ferb"
 
