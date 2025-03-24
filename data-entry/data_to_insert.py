@@ -107,6 +107,257 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13479, 'Respect Ghostface (Scream 1996)', 'https://redd.it/1jfv4is')
+
+########################################
+
+
+add_data(['Homura'],
+'Homura',
+False,
+False,
+[
+    ['Time Stop', 'Gojo']
+],
+'Madoka Magica',
+'{4422}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1jhj63a/who_would_win_gojo_or_homura/mjcqt15/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kreia (Star Wars)', 'https://redd.it/1jibrjb')
+add_data(['Kreia'],
+'Kreia',
+False,
+False,
+[
+    ['S(tar )?Wars'], ['Yoda'], ['KOTOR'], ['Force Sensitive'], ['Darth'], ['Knights of the Old Republic'], ['Luke']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Darth Traya'],
+'Darth Traya',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Darkrai (Pokemon Anime: The Rise of Darkrai)', 'https://redd.it/1jhysyf')
+add_data(['Darkrai'],
+'Darkrai',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jhysyf/respect_darkrai_pokemon_anime_the_rise_of_darkrai/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Snow White (The Huntsman)', 'https://redd.it/1jh5ti6')
+add_data(['Snow White'],
+'Snow White',
+False,
+False,
+[
+    ['The Huntsman']
+],
+'The Huntsman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jh5ti6/respect_snow_white_the_huntsman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Szlachta! (Vampire: the Masquerade)', 'https://redd.it/1jh5f9r')
+add_data(['Szlachta'],
+'Szlachta',
+False,
+False,
+[
+    ['Vampire:? The Masquerade']
+],
+'Vampire: the Masquerade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jh5f9r/respect_the_szlachta_vampire_the_masquerade/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Skelesaurs (Extreme Dinosaurs)', 'https://redd.it/1jggjhj')
+add_data(['Skelesaurs'],
+'Skelesaurs',
+True,
+False,
+[
+    ['Extreme Dinosaurs']
+],
+'Extreme Dinosaurs',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jggjhj/respect_the_skelesaurs_extreme_dinosaurs/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Party (Super Mario RPG)', 'https://redd.it/1jgfvs4')
+add_data(['Party'],
+'Party',
+True,
+False,
+[
+    ['Mario RPG']
+],
+'Super Mario RPG',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Mario'],
+'Mario',
+False,
+False,
+[
+    ['Mario.*Mario RPG']
+],
+'Super Mario RPG',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Mallow'],
+'Mallow',
+False,
+False,
+[
+    ['Mario RPG']
+],
+'Super Mario RPG',
+'{' + '{}'.format(id) + '}'
+)
+
+add_data(['Geno'],
+'Geno',
+False,
+False,
+[
+    ['Mario RPG']
+],
+'Super Mario RPG',
+'{' + '{}'.format(id) + '}'
+)
+
+add_data(['Bowser'],
+'Bowser',
+False,
+False,
+[
+    ['Mario RPG']
+],
+'Super Mario RPG',
+'{' + '{}'.format(id) + '}'
+)
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dewey Riley (Scream)', 'https://redd.it/1jgvt5z')
+add_data(['Dewey Riley'],
+'Dewey Riley',
+False,
+True,
+[
+    ['Scream']
+],
+'Scream',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Dewey'],
+'Dewey',
+False,
+False,
+[
+    ['Scream']
+],
+'Scream',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ghostface (Scream 6 Anime Promotional Trailer)', 'https://redd.it/1ji2cxp')
+add_data(['Ghostface'],
+'Ghostface',
+False,
+False,
+[
+    ['Scream 6 Anime Promotional Trailer']
+],
+'Scream 6 Anime Promotional Trailer',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ghostface (Terrordrome)', 'https://redd.it/1ji1csc')
+add_data(['Ghostface'],
+'Ghostface',
+False,
+False,
+[
+    ['Terrordrome']
+],
+'Terrordrome',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ji1csc/respect_ghostface_terrordrome/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ghostface (Mortal Kombat)', 'https://redd.it/1jhi5u7')
+add_data(['Ghostface'],
+'Ghostface',
+False,
+False,
+[
+    ['Mortal Kombat']
+],
+'Mortal Kombat',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gale Weathers (Scream)', 'https://redd.it/1jhbdfk')
+add_data(['Gale Weathers'],
+'Gale Weathers',
+False,
+True,
+[
+    ['Scream']
+],
+'Scream',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
