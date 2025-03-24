@@ -1572,7 +1572,6 @@ Sailor Galaxia,"{`"Sailor Moon`"}",t,{4414},Sailor Moon
 Aayla Secura,"{`"Star Wars`"}",t,{304},Star Wars
 Adi Gallia,"{`"Star Wars`"}",t,{305},Star Wars
 Barriss Offee,"{`"Star Wars`"}",t,{307},Star Wars
-Boba Fett,"{`"Star Wars`"}",t,{308},Star Wars
 Boba Fett,{Legends},f,{},Star Wars Legends
 Boba Fett,"{`"Extended Universe`"}",f,{},Star Wars Legends
 Boba Fett,{EU},f,{},Star Wars Legends
@@ -1596,6 +1595,7 @@ Moro,"{`"Planet(-| )Eater Moro`"}",f,{10792},Dragon Ball
 Sailor Jupiter,"{`"Sailor Moon`"}",t,{4415},Sailor Moon
 Sailor Mars,"{`"Sailor Moon`"}",t,{4416},Sailor Moon
 Darth Vader,"{`"Star Wars`"}",t,"{314,17674}",Star Wars
+Boba Fett,"{`"Star Wars`"}",t,"{308,25882}",Star Wars
 Nines,"{`"Force Awakens`"}",f,{316},Star Wars
 Nines,{Stormtrooper},f,{316},Star Wars
 General Grievous,"{`"Star Wars`"}",t,{317},Star Wars
@@ -18336,7 +18336,6 @@ Scanty,{PSG},f,{4125},Panty & Stocking
 Kneesocks,{Panty|Stocking},f,{4125},Panty & Stocking
 Kneesocks,{PSG},f,{4125},Panty & Stocking
 Good Times Sloth,{Memetic},t,{13478},Memetic
-Ghostface,{Scream},t,{13479},Scream
 Kersti,"{`"Paper Mario`"}",f,{13480},Paper Mario
 Olivia,"{`"Paper Mario`"}",f,{13481},Paper Mario
 Helicarrier,"{`"Marvel Cinematic Universe`"}",f,{13482},MCU
@@ -18352,6 +18351,7 @@ M'Baku,{199999},f,{13484},MCU
 M'Baku,"{`"Infinity War`"}",f,{13484},MCU
 Stocking,{PSG},f,{4124},Panty & Stocking
 Stocking,{Scanty|Kneesocks},f,{4124},Panty & Stocking
+Ghostface,{Scream},t,"{13479,25883,25884,25885,25886,25887}",Scream
 Joe Baker,"{`"Resident Evil`"}",t,{5371},Resident Evil
 Joe Baker,"{`"RE ?\\d`"}",t,{5371},Resident Evil
 Black Noir,{Amazon},f,{13486},"The Boys, 2019"
@@ -22663,10 +22663,6 @@ Eevee,{Chloe},f,{16616},Chloe
 Hitmonchan,"{Crystal,`"Pok(e|é)m(o|a)n Adventures`"}",f,{16617},Crystal
 Iai Banchou,"{`"Kong(o|ō)u? Banch(o|ō)u?`"}",t,{16618},Kongō Banchō
 Hikyou Banchou,"{`"Kong(o|ō)u? Banch(o|ō)u?`"}",t,{16619},Kongō Banchō
-Conquest,"{`"Image Comics`"}",f,{16620},Invincible
-Conquest,"{`"\\(Invincible`"}",f,{16620},Invincible
-Conquest,"{`"Omni(-| )?Man`"}",f,{16620},Invincible
-Conquest,{Viltrumites?},f,{16620},Invincible
 Wonder Woman,"{`"Justice Society:? World War II`"}",f,{16621},Justice Society: World War II
 Mr. Electric,"{`"(Shark(-| )?Boy)|(Lava(-| )?girl)`"}",f,{16622},Sharkboy and Lavagirl
 The Messenger,"{`"Messenger ?\\(The Messenger`"}",f,{16623},""
@@ -33033,7 +33029,6 @@ Two-Face,"{`"Dark Knight`"}",f,{6545},The Dark Knight
 Talia al Ghul,"{`"Dark Knight`"}",f,{6545},The Dark Knight
 Scarecrow,"{`"Dark Knight`"}",f,{6545},The Dark Knight
 Elphaba,"{Wicked,2024}",f,{25862},"Wicked, 2024"
-Conquest,{Invincible},f,{25863},Invincible
 Iron Man,"{`"2008 (film|movie)s?`"}",f,{247},MCU
 Balder Odinson,{616},t,{25864},616
 Sidney Prescott,{Scream},t,{25865},Scream
@@ -33064,3 +33059,32 @@ Brawly,{Pok(e|é)m(o|a)n},f,{25878},Pokémon
 Meap,{Phineas|(F|Ph)erb},f,{25879},Phineas and Ferb
 Tyrannosaurus Rex,{Primeval},f,{25880},Primeval
 Evil Queen,"{`"Snow White`"}",f,{25881},Snow White and the Seven Dwarfs
+Conquest,"{`"Image Comics`"}",f,"{16620,25863}",Invincible
+Conquest,"{`"Omni(-| )?Man`"}",f,"{16620,25863}",Invincible
+Conquest,{Viltrumites?},f,"{16620,25863}",Invincible
+Conquest,{Invincible},f,"{16620,25863}",Invincible
+Homura,"{`"Time Stop`",Gojo}",f,{4422},Madoka Magica
+Kreia,"{`"S(tar )?Wars`"}",f,{25888},Star Wars
+Kreia,{Yoda},f,{25888},Star Wars
+Kreia,{KOTOR},f,{25888},Star Wars
+Kreia,"{`"Force Sensitive`"}",f,{25888},Star Wars
+Kreia,{Darth},f,{25888},Star Wars
+Kreia,"{`"Knights of the Old Republic`"}",f,{25888},Star Wars
+Kreia,{Luke},f,{25888},Star Wars
+Darth Traya,"{`"S(tar )?Wars`"}",t,{25888},Star Wars
+Darkrai,{Pok(e|é)m(o|a)n},t,{25889},Pokémon
+Snow White,"{`"The Huntsman`"}",f,{25890},The Huntsman
+Szlachta,"{`"Vampire:? The Masquerade`"}",f,{25891},Vampire: the Masquerade
+Skelesaurs,"{`"Extreme Dinosaurs`"}",f,{25892},Extreme Dinosaurs
+Party,"{`"Mario RPG`"}",f,{25893},Super Mario RPG
+Mario,"{`"Mario.*Mario RPG`"}",f,{25893},Super Mario RPG
+Mallow,"{`"Mario RPG`"}",f,{25893},Super Mario RPG
+Geno,"{`"Mario RPG`"}",f,{25893},Super Mario RPG
+Bowser,"{`"Mario RPG`"}",f,{25893},Super Mario RPG
+Dewey Riley,{Scream},t,{25894},Scream
+Dewey,{Scream},f,{25894},Scream
+Ghostface,"{`"Scream 6 Anime Promotional Trailer`"}",f,{25895},Scream 6 Anime Promotional Trailer
+Ghostface,{Terrordrome},f,{25896},Terrordrome
+Ghostface,"{`"Mortal Kombat`"}",f,{25897},Mortal Kombat
+Gale Weathers,{Scream},t,{25898},Scream
+Killer,"{`"Shriek If You Know What I Did Last Friday The 13th`"}",f,{25899},Shriek If You Know What I Did Last Friday The 13th

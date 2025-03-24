@@ -14,23 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Boba Fett (Star Wars Legends)', 'https://redd.it/1jgkdgk'); SELECT * FROM respectthread WHERE link='https://redd.it/1jgkdgk';
-UPDATE character SET rt_id_array='{308, ?}' WHERE rt_id_array='{308}';
-
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Ghostface (Scream 2)', 'https://redd.it/1jhbg1e'); SELECT * FROM respectthread WHERE link='https://redd.it/1jhbg1e';
-INSERT INTO respectthread (title, link) VALUES ('Respect Ghostface (Scream 3)', 'https://redd.it/1jfvbyp'); SELECT * FROM respectthread WHERE link='https://redd.it/1jfvbyp';
-INSERT INTO respectthread (title, link) VALUES ('Respect Ghostface (Scream 4)', 'https://redd.it/1jg6de6'); SELECT * FROM respectthread WHERE link='https://redd.it/1jg6de6';
-INSERT INTO respectthread (title, link) VALUES ('Respect Ghostface (Scream 2022)', 'https://redd.it/1jfvoww'); SELECT * FROM respectthread WHERE link='https://redd.it/1jfvoww';
-INSERT INTO respectthread (title, link) VALUES ('Respect Ghostface (Scream 6)', 'https://redd.it/1jfvm0a'); SELECT * FROM respectthread WHERE link='https://redd.it/1jfvm0a';
-UPDATE character SET rt_id_array='{13479, ?2, ?3, ?4, ?2022, ?6}' WHERE default_name='Ghostface' AND displayed_version_name='Scream';
-
 ########################################
-
-DELETE FROM character WHERE rt_id_array='{25863}';
-UPDATE character SET rt_id_array='{16620, 25863}' WHERE rt_id_array='{16620}';
-UPDATE character SET version='{"Invincible"}' WHERE default_name='Conquest' AND version='{"\\Invincible"}';
 
 ########################################
 
