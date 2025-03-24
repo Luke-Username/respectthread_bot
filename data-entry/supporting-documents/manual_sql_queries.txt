@@ -28,6 +28,10 @@ UPDATE character SET rt_id_array='{13479, ?2, ?3, ?4, ?2022, ?6}' WHERE default_
 
 ########################################
 
+DELETE FROM character WHERE rt_id_array='{25863}';
+UPDATE character SET rt_id_array='{16620, 25863}' WHERE rt_id_array='{16620}';
+UPDATE character SET version='{"Invincible"}' WHERE default_name='Conquest' AND version='{"\\Invincible"}';
+
 ########################################
 
 ########################################

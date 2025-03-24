@@ -360,6 +360,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect The Killer (Shriek If You Know What I Did Last Friday The 13th)', 'https://redd.it/1jifbz1')
+add_data(['Killer'],
+'Killer',
+False,
+False,
+[
+    ['Shriek If You Know What I Did Last Friday The 13th']
+],
+'Shriek If You Know What I Did Last Friday The 13th',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jifbz1/respect_the_killer_shriek_if_you_know_what_i_did/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
