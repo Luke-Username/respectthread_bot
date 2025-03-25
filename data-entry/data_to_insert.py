@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect Brobding (Man''s Arrogance by 105697)", 'https://redd.it/1jjc00g')
+add_data(['Brobding'],
+'Brobding',
+False,
+False,
+[
+    ['Man''s Arrogance by 105697']
+],
+"Man''s Arrogance by 105697",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jjc00g/respect_brobding_mans_arrogance_by_105697/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
