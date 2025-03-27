@@ -122,6 +122,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect T-Bone (Extreme Dinosaurs)', 'https://redd.it/1jk9sjf')
+add_data(['T(-| )Bone'],
+'T-Bone',
+False,
+False,
+[
+    ['Extreme Dinosaurs']
+],
+'Extreme Dinosaurs',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ghostface (Ghostface vs Jeff the Killer)', 'https://redd.it/1jkcwlh')
+add_data(['Ghostface'],
+'Ghostface',
+False,
+False,
+[
+    ['Ghostface vs\.? Jeff the Killer']
+],
+'Ghostface vs Jeff the Killer',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tigra (Spidey Super Stories, Earth-57780)', 'https://redd.it/1jktb6m')
+add_data(['Tigra'],
+'Tigra',
+False,
+False,
+[
+    ['Spidey Super Stories', '57780']
+],
+'Spidey Super Stories',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
