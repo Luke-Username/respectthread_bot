@@ -158,7 +158,52 @@ add_data(['Tigra'],
 False,
 False,
 [
-    ['Spidey Super Stories', '57780']
+    ['Spidey Super Stories']
+],
+'Spidey Super Stories',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Tadpole Dinosaur (Spidey Super Stories, Earth-57780)', 'https://redd.it/1jl9bwk')
+add_data(['Tadpole Dinosaur'],
+'Tadpole Dinosaur',
+False,
+False,
+[
+    ['Spidey Super Stories']
+],
+'Spidey Super Stories',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Lizard (Spidey Super Stories, Earth-57780)', 'https://redd.it/1jleckm')
+add_data(['Lizard'],
+'Lizard',
+False,
+False,
+[
+    ['Spidey Super Stories']
+],
+'Spidey Super Stories',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Lizard (Spidey Super Stories, Earth-57780)', 'https://redd.it/1jleckm')
+add_data(['Stegron'],
+'Stegron',
+False,
+False,
+[
+    ['Spidey Super Stories']
 ],
 'Spidey Super Stories',
 '{' + '{}'.format(id) + '}'
