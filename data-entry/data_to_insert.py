@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 14422, 'Respect the Ninth Sister (Star Wars Canon)', 'https://redd.it/1jmw7y2')
+
+########################################
+
 id = get_rt_id(cur, "Respect Brobding (Man''s Arrogance by 105697)", 'https://redd.it/1jjc00g')
 add_data(['Brobding'],
 'Brobding',
@@ -206,6 +210,124 @@ False,
     ['Spidey Super Stories']
 ],
 'Spidey Super Stories',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ryu Hayabusa (Ninja Gaiden) [NES]', 'https://redd.it/1jlurr8')
+id2 = get_rt_id(cur, 'Respect Ryu Hayabusa (Ninja Gaiden) [Modern]', 'https://redd.it/1jmqlrd')
+add_data(['Ryu Hayabusa'],
+'Ryu Hayabusa',
+False,
+True,
+[
+    ['Ninja Gaiden']
+],
+'Ninja Gaiden',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Prince Naveen (The Princess and the Frog)', 'https://redd.it/1jlvsmy')
+add_data(['Prince Naveen'],
+'Prince Naveen',
+False,
+True,
+[
+    ['Princess and the Frog']
+],
+'The Princess and the Frog',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jlvsmy/respect_prince_naveen_the_princess_and_the_frog/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Princess Tiana (The Princess and the Frog)', 'https://redd.it/1jlvt0h')
+add_data(['Princess Tiana'],
+'Princess Tiana',
+False,
+True,
+[
+    ['Princess and the Frog']
+],
+'The Princess and the Frog',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Tiana'],
+'Tiana',
+False,
+False,
+[
+    ['Prince(ss)?', 'Frog'], ['Mulan'], ['Disney']
+],
+'The Princess and the Frog',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Daigo Tachikawa (Kamen Rider Kabuto)', 'https://redd.it/1jmdqyb')
+add_data(['Daigo Tachikawa'],
+'Daigo Tachikawa',
+False,
+True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider Kabuto',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, '[NSFW] Respect Takeru Ibaraki, the Witchblade! (Top Cow Comics)', 'https://redd.it/1jn49zr')
+add_data(['Takeru Ibaraki'],
+'Takeru Ibaraki',
+False,
+True,
+[
+    ['Witchblade']
+],
+'Witchblade',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Oropo, the last Eliotrope! (Wakfu)', 'https://redd.it/1jnkohr')
+add_data(['Oropo'],
+'Oropo',
+False,
+False,
+[
+    ['Wakfu'], ['Eliotrope']
+],
+'Wakfu',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jnkohr/respect_oropo_the_last_eliotrope_wakfu/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Party People No.1 (No.1 Sentai Gozyuger)', 'https://redd.it/1jo5l18')
+add_data(['Party People No\.? ?1'],
+'Party People No.1',
+False,
+False,
+[
+    ['Sentai Gozyuger']
+],
+'No.1 Sentai Gozyuger',
 '{' + '{}'.format(id) + '}'
 )
 #
