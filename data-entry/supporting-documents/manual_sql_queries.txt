@@ -14,8 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Iron Fist', 'King of the Iron Fist', -12);
-
 ########################################
 
 ########################################
