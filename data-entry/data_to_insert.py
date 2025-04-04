@@ -108,6 +108,21 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 14422, 'Respect the Ninth Sister (Star Wars Canon)', 'https://redd.it/1jmw7y2')
+update_respectthread(cur, 308, 'Respect Boba Fett (Star Wars Canon)', 'https://redd.it/1jprkh6')
+
+########################################
+
+add_data(['Immortals'],
+'Immortals',
+False,
+False,
+[
+    ['Invincible']
+],
+'Invincible',
+'{16851,16852}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1jqg693/how_many_immortals_from_invincible_would_it_take/ml8euaa/?context=3
 
 ########################################
 
@@ -331,6 +346,192 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Noisy No.1 (No.1 Sentai Gozyuger)', 'https://redd.it/1jqj3j5')
+add_data(['Noisy No\.? ?1'],
+'Noisy No.1',
+False,
+False,
+[
+    ['Sentai Gozyuger']
+],
+'No.1 Sentai Gozyuger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jqj3j5/respect_noisy_no1_no1_sentai_gozyuger/
+
+########################################
+
+id = get_rt_id(cur, "Respect Skids and Mudflap (Michael Bay''s Transformers)", 'https://redd.it/1jotbu5')
+add_data(['Skids (and|&) Mudflap'],
+'Skids and Mudflap',
+True,
+False,
+[
+    ['Transformers (Film|Movie)s?'], ['Bay(verse|formers)'], ['Michael Bay'], ['Bay', 'Transformers']
+],
+'Transformers Films',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Skids'],
+'Skids',
+False,
+False,
+[
+    ['Transformers (Film|Movie)s?'], ['Bay(verse|formers)'], ['Michael Bay'], ['Bay', 'Transformers'],
+    ['Mudflap']
+],
+'Transformers Films',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Mudflap'],
+'Mudflap',
+False,
+False,
+[
+    ['Transformers (Film|Movie)s?'], ['Bay(verse|formers)'], ['Michael Bay'], ['Bay', 'Transformers'],
+    ['Skids']
+],
+'Transformers Films',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect RPC-002, Quantum Revolver! (RPC Authority)', 'https://redd.it/1joxwm4')
+add_data(['RCP ?(-| )? ?002'],
+'RPC-002',
+False,
+True,
+[
+    ['RPC Authority'], ['Quantum Revolver']
+],
+'RPC Authority',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1joxwm4/respect_rpc002_quantum_revolver_rpc_authority/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gokdari (Super Kid)', 'https://redd.it/1joyi3k')
+add_data(['Gokdari'],
+'Gokdari',
+False,
+False,
+[
+    ['Super Kid']
+],
+'Super Kid',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1joyi3k/respect_gokdari_super_kid/
+
+########################################
+
+id = get_rt_id(cur, "Respect Grogar''s Bell! (My Little Pony: Friendship Is Magic)", 'https://redd.it/1joxxcg')
+add_data(["Grogar''s (Bewitching )?Bell", 'Bewitching Bell'],
+"Grogar''s Bell",
+False,
+False,
+[
+    ['Pony'], ['MLP']
+],
+'My Little Pony',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1joxxcg/respect_grogars_bell_my_little_pony_friendship_is/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Cheese and Chonk (Cheese and Chonk Smoke a City Safe)', 'https://redd.it/1jozmmr')
+add_data(['Cheese and Chonk'],
+'Cheese and Chonk',
+True,
+False,
+[
+    ['Cheese and Chonk Smoke a City Safe']
+],
+'Cheese and Chonk Smoke a City Safe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jozmmr/respect_cheese_and_chonk_cheese_and_chonk_smoke_a/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Barbarian (Barbarian) [1996 Korean DOS Video Game]', 'https://redd.it/1jp2ix1')
+add_data(['Barbarian'],
+'Barbarian',
+False,
+False,
+[
+    ['1996', 'Korean?', 'DOS', 'game']
+],
+'1996',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect General Thaddeus "Thunderbolt" Ross, The Red Hulk (Avengers: Earth\'\'s Mightiest Heroes)', 'https://redd.it/1jqgw1d')
+add_data(['(General|Thunderbolt) Ross'],
+'General Ross',
+False,
+False,
+[
+    ['Avengers:? Earths? Mightiest Heroes'], ['Avengers:? Earth\'\'s Mightiest Heroes'], ['A(vengers)?: ?EMH'],
+	["Earth''?s? Mightiest Heroes", 'Disney']
+],
+"Earth''s Mightiest Heroes",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jqgw1d/respect_general_thaddeus_thunderbolt_ross_the_red/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Parker Robbins, the Hood! (Marvel 616)', 'https://redd.it/1jpqasi')
+add_data(['Parker Robbins'],
+'Parker Robbins',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+
+add_data(['The Hood'],
+'The Hood',
+False,
+False,
+[
+    ['616'], ['Parker( |_)Robbins']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Among Kaiju)', 'https://redd.it/1jpfy5a')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Among Kaiju']
+],
+'Among Kaiju',
+'{' + '{}'.format(id) + '}'
+)
 
 ########################################
 

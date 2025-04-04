@@ -2402,7 +2402,7 @@ My Life As A Teenage Robot
 
 My Little Pony: Friendship is Magic
 	Version
-		'{"My Little Pony"}', '{"MLP"}'
+		['My Little Pony'], ['MLP']
 	Extra
 		'{"Ponyville"}'
 	Displayed Version Name
@@ -3639,7 +3639,7 @@ Trama Editorial
 
 Transformers Films (Michael Bay)
 	Version
-		'{"Transformers (Film|Movie)s?"}', '{"Bay(verse|formers)"}', '{"Michael Bay"}', '{"Bay", "Transformers"}'
+		['Transformers (Film|Movie)s?'], ['Bay(verse|formers)'], ['Michael Bay'], ['Bay', 'Transformers']
 	Specific
 		'{"Last Knight"}'
 		r'{"Bumblebee ?\\(Movie"}', '{"Bumblebee", "2018"}'
