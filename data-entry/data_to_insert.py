@@ -121,6 +121,63 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Rena Mamiya/Uca Worm (Kamen Rider Kabuto)', 'https://redd.it/1jr2jpe')
+add_data(['Rena Mamiya'],
+'Rena Mamiya',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider Kabuto',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jr2jpe/respect_rena_mamiyauca_worm_kamen_rider_kabuto/
+
+add_data(['Uca Worm'],
+'Uca Worm',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider Kabuto',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jr2jpe/respect_rena_mamiyauca_worm_kamen_rider_kabuto/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Imperator Furiosa (Mad Max)', 'https://redd.it/1jrd0ep')
+add_data(['Imperator Furiosa'],
+'Imperator Furiosa',
+False,
+True,
+[
+    ['Mad Max']
+],
+'Mad Max',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jrd0ep/respect_imperator_furiosa_mad_max/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Freya of the Frost (The Huntsman)', 'https://redd.it/1js093i')
+add_data(['Freya'],
+'Freya ',
+False,
+False,
+[
+    ['The Huntsman']
+],
+'The Huntsman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1js093i/respect_freya_of_the_frost_the_huntsman/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
