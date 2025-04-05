@@ -107,6 +107,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Billy Batson'],
+'Billy Batson',
+False,
+True,
+[
+    ['Shazam', 'DC']
+],
+'DC',
+'{1653,22688}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1jre5pw/green_lantern_guy_gardner_dc_vs_billy_batson/mldwi7i/?context=3
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
