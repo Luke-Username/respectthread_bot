@@ -168,7 +168,6 @@ id,title,link
 192,Respect King Kong (Godzilla),https://redd.it/bmmp94
 194,Respect Kumonga (Godzilla),https://redd.it/8j8o5h
 195,Respect M11 (Godzilla vs King Ghidorah),https://redd.it/afx4g4
-196,Respect Mechagodzilla(Heisei): Godzilla,https://redd.it/87e5wr
 198,Respect Mechani-Kong (King Kong Escapes),https://redd.it/bmmoy4
 199,Respect Megaguirus (Godzilla),https://redd.it/89k0kn
 200,Respect Megalon (Godzilla),https://redd.it/8dspla
@@ -223,6 +222,7 @@ id,title,link
 259,Respect Sif (Marvel Cinematic Universe),https://redd.it/7lxx9e
 193,"Respect Mechagodzilla, Kiryu (Godzilla, Millennium)",https://redd.it/1h2rfsl
 247,"Respect Tony Stark, Iron Man (Marvel Cinematic Universe)",https://redd.it/j0seun
+196,"Respect Mechagodzilla (Godzilla, Heisei)",https://redd.it/1jsejpm
 249,Respect Korath the Pursuer (Marvel Cinematic Universe),https://redd.it/jb3l4o
 243,Respect the Guardians of the Galaxy (Marvel Cinematic Universe),https://redd.it/jheovu
 235,"Respect Natasha Romanoff, the Black Widow (Marvel Cinematic Universe)",https://redd.it/k3atxb
@@ -8717,7 +8717,6 @@ id,title,link
 12428,Respect Thomas Samuel Eamon Cassidy: Black Tom Cassidy (Marvel 616),https://redd.it/hmim3c
 12429,Respect Anti-Cap (Marvel 616),https://redd.it/hksvxh
 12430,"Respect The Mysteria, Misty Beck (Marvel 616)",https://redd.it/hgmwke
-12431,Respect Mumen Rider (One-Punch Man),https://redd.it/hfd29g
 12432,Respect the Neo Hero Leaders (One-Punch Man),https://redd.it/hh55lb
 12433,Respect Kylo Ren! (Star Wars Canon),https://redd.it/hhg29p
 12434,Respect Shaak Ti [Star Wars Canon],https://redd.it/hq9few
@@ -8751,6 +8750,7 @@ id,title,link
 12409,(NSFW) Respect Noi (Dorohedoro),https://redd.it/11qb4gf
 12453,Respect Superalloy Darkshine! (One-Punch Man Manga),https://redd.it/13gvfz8
 12425,"Respect Seth Brundle (The Fly, 1986)",https://redd.it/1558jx2
+12431,Respect Mumen Rider (One-Punch Man),https://redd.it/1jseio8
 12465,Respect Charlotte Perospero (One Piece),https://redd.it/hi4et6
 12466,"Respect Capone `"Gang`" Bege and the Fire Tank Pirates (One Piece)",https://redd.it/hkl2vo
 12467,Respect The Predator (Archie vs The Predator),https://redd.it/hqbswv
@@ -9338,7 +9338,6 @@ id,title,link
 21038,Respect Lady Deadpool (Earth-3010),https://redd.it/r8qila
 21039,Respect The Whiz Kid (Marvel-616),https://redd.it/r6a8oz
 21040,"Respect Monet (Marvel, 616)",https://redd.it/r4fxhb
-21041,"Respect General Ross, The Hulk (Earth-523000)",https://redd.it/r5tok5
 21042,Respect Ashtaroth (Nemesis Saga book 5: Project Legion),https://redd.it/r4l8qe
 21043,Respect Tom Ward (Wardstone Chronicles),https://redd.it/r8sj2c
 21044,Respect Alice Deane (Wardstone Chronicles),https://redd.it/r6hvvi
@@ -9370,6 +9369,7 @@ id,title,link
 21070,Respect Archangel Avacyn! (Magic: The Gathering),https://redd.it/r821ur
 21071,Respect Tartarus! (DC Earth-8),https://redd.it/r8j87t
 21072,Respect Superman (Superman: Flyby Unused Script),https://redd.it/r8prch
+21041,"Respect General Thaddeus `"Thunderbolt`" Ross, The Hulk (What If General Ross Had Become the Hulk? Earth-523000)",https://redd.it/1jtbtfz
 21073,Respect 'Lightning Bolt' Zolt! (Legend of Korra),https://redd.it/r8zwro
 21074,Respect Exdeath! (Final Fantasy),https://redd.it/r97v3n
 21075,Respect Koopa (DEATH BATTLE!),https://redd.it/r9syxr
@@ -14451,3 +14451,11 @@ id,title,link
 25921,"Respect General Thaddeus `"Thunderbolt`" Ross, The Red Hulk (Avengers: Earth's Mightiest Heroes)",https://redd.it/1jqgw1d
 25922,"Respect Parker Robbins, the Hood! (Marvel 616)",https://redd.it/1jpqasi
 25923,Respect Godzilla (Among Kaiju),https://redd.it/1jpfy5a
+25924,"Respect The Corinthian (DC Comics, The Sandman) [Composite]",https://redd.it/1jt3uu5
+25939,Respect Rena Mamiya/Uca Worm (Kamen Rider Kabuto),https://redd.it/1jr2jpe
+25940,Respect Imperator Furiosa (Mad Max),https://redd.it/1jrd0ep
+25941,Respect Freya of the Frost (The Huntsman),https://redd.it/1js093i
+25942,Respect Queen Ravenna (The Huntsman),https://redd.it/1js0iqx
+25943,Respect Godzilla (Godzilla's Monsterpiece Theatre),https://redd.it/1jsx77v
+25944,Respect Nue (Nue's Exorcist),https://redd.it/1jt7abp
+25945,Respect Gakuro Yajima (Nue's Exorcist),https://redd.it/1jta0c4

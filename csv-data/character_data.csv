@@ -983,13 +983,6 @@ Mechani-Kong,"{`"King Kong Escapes`"}",t,{198},King Kong Escapes
 Mechani-Kong,{KKE},t,{198},King Kong Escapes
 Shinichi Ozaki,{Godzilla},t,{210},Godzilla: Final Wars
 Shinichi Ozaki,"{`"Final Wars`"}",t,{210},Godzilla: Final Wars
-Loki,"{`"Marvel Cinematic`"}",f,{251},MCU
-Loki,{MCU},f,{251},MCU
-Loki,{199999},f,{251},MCU
-Loki,{movie},f,{251},MCU
-Loki,{movies},f,{251},MCU
-Loki,{Ragnarok},f,{251},MCU
-Loki,"{`"Dark World`"}",f,{251},MCU
 Okoye,"{`"Marvel Cinematic`"}",f,{255},MCU
 Okoye,{MCU},f,{255},MCU
 Okoye,{199999},f,{255},MCU
@@ -1032,6 +1025,8 @@ DVAS,"{`"Kill Bill`"}",f,{224},Kill Bill
 D.V.A.S,"{`"Kill Bill`"}",f,{224},Kill Bill
 Beatrix Kiddo,"{`"Kill Bill`"}",t,{224},Kill Bill
 Beatrix,"{`"Kill Bill`"}",f,{224},Kill Bill
+Loki,"{`"Marvel Cinematic`"}",f,{251},MCU
+Loki,{MCU},f,{251},MCU
 Bill,"{`"Kill Bill`"}",f,{224},Kill Bill
 O-Ren Ishii,"{`"Kill Bill`"}",t,{224},Kill Bill
 Vernita Green,"{`"Kill Bill`"}",t,{224},Kill Bill
@@ -9606,15 +9601,6 @@ Laufey,{comics?},t,{1974},616
 Laufey,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Laufey,{MCU},f,{},MCU
 Laufey,{199999},f,{},MCU
-Loki,{616},t,{1975},616
-Loki,"{Jitari,`"New York`"}",f,{251},MCU
-Loki,"{Chitauri,`"New York`"}",f,{251},MCU
-Loki,{Jitari},f,{251},MCU
-Loki,{Chitauri},f,{251},MCU
-Loki,{2012},f,{251},MCU
-Loki,{mythology},f,{},Norse mythology
-Loki,{Nordic},f,{},Norse mythology
-Loki,{Norse},f,{},Norse mythology
 Magni Thorson,{3515},t,{1976},3515
 Magni Thorson,{comics?},t,{1976},3515
 Kato,"{`"((The )*Green Hornet)`"}",f,{453},"The Green Hornet, 2011"
@@ -9640,6 +9626,7 @@ Song-Joo,"{`"Promised Neverland`"}",f,{4443},The Promised Neverland
 That Guy,"{`"Promised Neverland`"}",f,{4444},The Promised Neverland
 Wild Demons,"{`"Promised Neverland`"}",f,{4445},The Promised Neverland
 Baymax,{movies?},f,{10863},Disney's Big Hero 6
+Loki,{616},f,{1975},616
 Scott Lang,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Scott Lang,{MCU},f,{},MCU
 Scott Lang,{199999},f,{},MCU
@@ -9663,8 +9650,16 @@ King Ghidorah,{Legendary},f,{8614},MonsterVerse
 Godzilla,{IDW},f,"{1926,21973,24473}",IDW
 Odin-Force Thor,{616},t,{21155},616
 Baymax,{D(i|y)sneys?},f,{10863},Disney's Big Hero 6
+Loki,"{Jitari,`"New York`"}",f,{251},MCU
 Thor,{comics?},f,"{1981,21155}",616
 Thor,"{`"\\(Odin(-| )?force\\)`"}",f,{21155},Odin-Force
+Loki,"{Chitauri,`"New York`"}",f,{251},MCU
+Loki,{Jitari},f,{251},MCU
+Loki,{Chitauri},f,{251},MCU
+Loki,{2012},f,{251},MCU
+Loki,{mythology},f,{},Norse mythology
+Loki,{Nordic},f,{},Norse mythology
+Loki,{Norse},f,{},Norse mythology
 Krombopulos Michael,"{`"Rick (&|and) Morty`"}",t,{10871},Rick and Morty
 Honey Lemon,"{`"Big Hero`"}",t,{10872},Big Hero 6
 Go Go Tomago,"{`"Big Hero`"}",t,{10873},Big Hero 6
@@ -10406,7 +10401,6 @@ Iron Lad,{616},t,{2424},616
 Iron Lad,{Marvel},t,{2424},616
 Kid Loki,{616},t,{2424},616
 Kid Loki,{Marvel},t,{2424},616
-Loki,"{`"God of Stories`"}",f,{2424},God of Stories
 Miss America,{616},t,{2426},616
 Kate Bishop,{616},t,{14921},616
 SCP-008,{Foundation},t,{21101},""
@@ -21501,7 +21495,6 @@ Starshot,"{`"Space Circus Fever`"}",f,{16328},Starshot: Space Circus Fever
 SCP-5514,"{`"SCP Foundation`"}",t,{16329},""
 Dr. Kondraki,{SCP},f,{16330},SCP
 Crocosquid,{SCP},f,{16331},SCP
-Loki,"{`"Son of the Mask`"}",f,{16332},Son of the Mask
 Alvey Avery,"{`"Son of the Mask`"}",t,{16333},Son of the Mask
 Yukari Yakumo,{Touhou},t,{5738},Touhou
 Aya,{Touhou},f,{16335},Touhou
@@ -22058,7 +22051,6 @@ The Color Out of Space,{Lovecraft},t,{6180},Lovecraft
 Awoken Dragons,"{`"Memory of Flames`"}",f,{6181},Memory of Flames
 London,"{`"Mortal Engines`"}",f,{6182},Mortal Engines
 Shrike,"{`"Mortal Engines`"}",f,{6183},Mortal Engines
-Loki,{Gaiman},f,{6188},Neil Gaiman
 John Taylor,{Nightside},t,{6190},Nightside
 Nogi Wakaba,"{`"is a Hero`"}",t,{6191},Nogi Wakaba is a Hero
 Takashima Yūna,"{`"is a Hero`"}",t,{6191},Nogi Wakaba is a Hero
@@ -22097,6 +22089,7 @@ Ferufivisurotte,"{`"Gaikotsu Kishi(-| )sama`"}",t,{6210},Skeleton Knight in Anot
 Slenderman,{default},t,{6211},""
 Thor,{Gaiman},f,{6189},Neil Gaiman
 Fenrir,{Nor(se|dic)},t,"{6192,25439}",Norse Mythology
+Loki,{Gaiman},f,{6188},Neil Gaiman
 Malacandra,"{`"Space Trilogy`"}",t,{6213},The Space Trilogy
 Malacandra,"{`"Silent Planet`"}",t,{6213},The Space Trilogy
 Elijah Patmos,"{`"Race X Godhood`"}",t,{6214},The Story of Elijah Patmos: Race X Godhood
@@ -25533,10 +25526,8 @@ A Train,"{`"The Boys`"}",f,{21325},The Boys
 Superman,"{`"Legion of Super Heroes`",Animated}",f,{21326},Legion of Super Heroes
 Godzilla,"{`"King of the Monsters`",`"Metaphor for Hiroshima`"}",f,{},""
 Guardians of the Multiverse,"{`"What( |-)if`"}",t,"{20200,20198,20201,20197}",MCU: What if...?
-Corinthian,{Sandman},f,{21327},Post-Crisis
 Corinthian,"{`"Posts?(-| )?C(risis)?`"}",f,{21327},Post-Crisis
 Corinthian,"{`"New(-| )Earth`"}",f,{21327},Post-Crisis
-Corinthian,{DC},f,{21327},Post-Crisis
 Jatkosota High School,"{`"Girls und Panzer`"}",t,{21328},Girls und Panzer
 Young Justice,"{`"Young Justice ?\\(Young Justice`"}",f,{1020},Young Justice
 Isekai Quartet,{default},t,{21329},""
@@ -25544,6 +25535,8 @@ Stormfront,"{`"The Boys`"}",f,"{22159,21319}",The Boys
 Stormfront,{Homelander},f,"{22159,21319}",The Boys
 Stormfront,{Amazon},f,"{22159,21319}",The Boys
 A-Train,"{`"The Boys`"}",t,{21325},The Boys
+Corinthian,{Sandman},f,"{25924,21327}",DC
+Corinthian,{DC},f,"{25924,21327}",DC
 John Henry Irons,"{`"Superman (&|and) Lois`"}",f,{},CW Arrowverse
 John Henry Irons,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
 John Henry Irons,{(DC)?CW},f,{},CW Arrowverse
@@ -26496,7 +26489,6 @@ Endeavor,{Ac(a|e)demia},f,{3920},My Hero Academia
 Eggman,"{`"Jim Carreys?`"}",f,{8608},Sonic the Hedgehog (2020 Film)
 Robotnik,"{`"Jim Carreys?`"}",f,{8608},Sonic the Hedgehog (2020 Film)
 Riddler,"{`"Jim Carreys?`"}",f,{16039},Batman Forever
-Loki,"{`"The Mask`"}",f,{},The Mask
 Megatron,"{`"Revenge of the Fallen`"}",f,{338},Transformers Films
 Bumblebee,"{`"Revenge of the Fallen`"}",f,{16016},Transformers Films
 Princess Daisy,"{`"Olympic Games`"}",f,{21862},Mario & Sonic at the Olympic Games
@@ -26506,6 +26498,7 @@ Myaxx,"{`"Ben (10|Ten(nyson)?)`"}",t,{21866},Ben 10
 Myaxx,{(Omn|Ulti)itrix},t,{21866},Ben 10
 Saxton Hale,"{`"Character Scramble`"}",f,{21867},Character Scramble
 Bugsnax,{default},t,{21868},""
+Loki,"{`"The Mask`"}",f,{},The Mask
 Numan Athletes,{default},t,{21869},""
 Major Force,"{`"\\(DC( Comics)?\\)`"}",f,{21870},DC
 Major Force,"{`"\\[DC( Comics)?\\]`"}",f,{21870},DC
@@ -28897,8 +28890,8 @@ Piccolo,{Abridged},f,{23350},TeamFourStar
 Piccolo,"{`"D(ragon)? ?B(all)? ?Z:? Abridged`"}",f,{23350},TeamFourStar
 Jack Horner,"{`"Puss i?n Boots`"}",f,{23351},Puss in Boots
 Jack Horner,"{`"The Last Wish`"}",f,{23351},Puss in Boots
-Loki,"{`"LEGO Marvel`"}",f,{23352},LEGO Marvel
 Gabriel,"{`"ULTRA ?KILL`"}",f,{23331},ULTRAKILL
+Loki,"{`"LEGO Marvel`"}",f,{23352},LEGO Marvel
 Sansfield,"{`"Bad Monday Simulator`"}",t,{23353},Bad Monday Simulator
 Nermal,"{`"Bad Monday Simulator`"}",f,{23354},Bad Monday Simulator
 ORT,"{`"TYPE(-| )?MOON`"}",f,{23355},Nasuverse
@@ -31206,7 +31199,6 @@ Lavos,"{`"Chrono Trigger`"}",f,{5553},Chrono Trigger
 Lavos,{core},f,{5553},Chrono Trigger
 Fire Lord,{Herald},f,{2082},616
 Fire Lord,{Galactus},f,{2082},616
-Loki,{Warframe},f,{},Warframe
 Lavos,{Warframe},f,{},Warframe
 Anna,"{`"\\(Frozen\\)`"}",f,{24732},Frozen
 The Juggernaut,"{`"republic juggernaut`"}",f,{},Republic
@@ -32279,8 +32271,6 @@ Han,"{`"Han the Pangolin`"}",f,{25416},Kung Fu Panda
 Kino,"{`"Kino's Journey`"}",f,{25417},Kino's Journey
 Monster,"{`"Partridge Creek`"}",f,{25418},"The Monster of `"Partridge Creek`""
 Lester Lowe,"{`"Cycle of the Werewolf`"}",f,{25419},Cycle of the Werewolf
-Loki,"{`"Norse Mythology`"}",f,{25420},Norse Mythology
-Loki,"{`"Loki.*\\(Mythology\\)`"}",f,{25420},Norse Mythology
 Naturom Demonto,"{`"Evil Dead`"}",t,{25421},Evil Dead
 Evil Ash,{Dynamite},f,{25422},Dynamite Entertainment
 Minions,"{`"Despicable Me`"}",f,{25423},Despicable Me
@@ -32805,7 +32795,6 @@ Doctor Phosphorus,"{`"Creature Commandos`"}",f,{25720},DCU
 Creature Commandos,{DCU},t,{25721},DCU
 Vendetta,"{`"Making Fiends`"}",f,{25722},Making Fiends
 Gunko,"{`"One ?Piece?`"}",f,{25723},One Piece
-Loki,"{`"Loki ?\\(One ?Piece?`"}",f,{25724},One Piece
 Trixie,"{`"Night at The Museum`"}",f,{25725},Night at The Museum
 Tablet of Ahkmenrah,"{`"Night at The Museum`"}",t,{25726},Night at The Museum
 Bertha,{Pok(e|é)m(o|a)n},f,{25727},Pokémon
@@ -33137,3 +33126,24 @@ Parker Robbins,{616},t,{25922},616
 The Hood,{616},f,{25922},616
 The Hood,"{`"Parker( |_)Robbins`"}",f,{25922},616
 Godzilla,"{`"Among Kaiju`"}",f,{25923},Among Kaiju
+Loki,{199999},f,{251},MCU
+Loki,{movie},f,{251},MCU
+Loki,{movies},f,{251},MCU
+Loki,{Ragnarok},f,{251},MCU
+Loki,"{`"Dark World`"}",f,{251},MCU
+Loki,"{`"God of Stories`"}",f,{2424},God of Stories
+Loki,"{`"Son of the Mask`"}",f,{16332},Son of the Mask
+Loki,{Warframe},f,{},Warframe
+Loki,"{`"Norse Mythology`"}",f,{25420},Norse Mythology
+Loki,"{`"Loki.*\\(Mythology\\)`"}",f,{25420},Norse Mythology
+Loki,"{`"Loki ?\\(One ?Piece?`"}",f,{25724},One Piece
+Billy Batson,"{Shazam,DC}",t,"{1653,22688}",DC
+Rena Mamiya,"{`"Kamen Rider`"}",f,{25939},Kamen Rider Kabuto
+Uca Worm,"{`"Kamen Rider`"}",f,{25939},Kamen Rider Kabuto
+Imperator Furiosa,"{`"Mad Max`"}",t,{25940},Mad Max
+Freya,"{`"The Huntsman`"}",f,{25941},The Huntsman
+Ravenna ,"{`"The Huntsman`"}",f,{25942},The Huntsman
+Godzilla,"{`"Monsterpiece Theatre`"}",f,{25943},Godzilla's Monsterpiece Theatre
+Nue,"{`"Nue'?s Exorcist`"}",f,{25944},Nue's Exorcist
+Nue,"{`"Nue no Onmy(ō|0)ji`"}",f,{25944},Nue's Exorcist
+Gakuro Yajima,{Nue},f,{25945},Nue's Exorcist
