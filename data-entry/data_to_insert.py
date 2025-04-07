@@ -107,6 +107,12 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 12431, 'Respect Mumen Rider (One-Punch Man)', 'https://redd.it/1jseio8')
+update_respectthread(cur, 196, 'Respect Mechagodzilla (Godzilla, Heisei)', 'https://redd.it/1jsejpm')
+update_respectthread(cur, 21041, 'Respect General Thaddeus "Thunderbolt" Ross, The Hulk (What If General Ross Had Become the Hulk? Earth-523000)', 'https://redd.it/1jtbtfz')
+
+########################################
+
 add_data(['Billy Batson'],
 'Billy Batson',
 False,
@@ -175,6 +181,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1js093i/respect_freya_of_the_frost_the_huntsman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Queen Ravenna (The Huntsman)', 'https://redd.it/1js0iqx')
+add_data(['Ravenna'],
+'Ravenna ',
+False,
+False,
+[
+    ['The Huntsman']
+],
+'The Huntsman',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1js0iqx/respect_queen_ravenna_the_huntsman/
+
+########################################
+
+id = get_rt_id(cur, "Respect Godzilla (Godzilla''s Monsterpiece Theatre)", 'https://redd.it/1jsx77v')
+add_data(['Godzilla'],
+'Godzilla ',
+False,
+False,
+[
+    ['Monsterpiece Theatre']
+],
+"Godzilla''s Monsterpiece Theatre",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Nue (Nue''s Exorcist)", 'https://redd.it/1jt7abp')
+add_data(['Nue'],
+'Nue',
+False,
+False,
+[
+    ["Nue''?s Exorcist"], ['Nue no Onmy(ō|0)ji']
+],
+"Nue''s Exorcist",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jt7abp/respect_nue_nues_exorcist/
+
+########################################
+
+id = get_rt_id(cur, "Respect Gakuro Yajima (Nue''s Exorcist)", 'https://redd.it/1jta0c4')
+add_data(['Gakuro Yajima'],
+'Gakuro Yajima',
+False,
+False,
+[
+    ["Nue"]
+],
+"Nue''s Exorcist",
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
