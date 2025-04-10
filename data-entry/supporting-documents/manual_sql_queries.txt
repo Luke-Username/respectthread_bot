@@ -14,9 +14,21 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+UPDATE character SET is_default=FALSE WHERE default_name='Shanks';
 
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Avatar', 'pre-Avatar', -4);
+
+########################################
+
+SELECT * FROM respectthread WHERE link='https://redd.it/1jtlr24';
+UPDATE character SET rt_id_array='{2173,24286,25696,?,25525,24256,24155,24222,24234,24208,24365,25873,25874,2174,2175,2176,24161,2177,2178,24221,24235}' WHERE rt_id_array='{2173,24286,25696,25525,24256,24155,24222,24234,24208,24365,25873,25874,2174,2175,2176,24161,2177,2178,24221,24235}';
+--After run
+
+SELECT * FROM respectthread WHERE link='https://redd.it/1jv3wja';
+UPDATE character SET rt_id_array='{7592, ?}' WHERE rt_id_array='{7592}';
+--After run
 
 ########################################
 

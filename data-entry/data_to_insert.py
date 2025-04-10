@@ -107,6 +107,234 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6658, 'Respect Spinel (Steven Universe)', 'https://redd.it/1jv3sgi')
+update_respectthread(cur, 590, 'Respect Gabriel Van Helsing (Van Helsing, 2004)', 'https://redd.it/1jv4u5j')
+update_respectthread(cur, 12408, 'Respect En (Dorohedoro)', 'https://redd.it/1jv4w2b')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man, Model 3 (Marvel, 616)', 'https://redd.it/1jtlr24')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 3']
+],
+'Model 3',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jtlr24/respect_iron_man_model_3_marvel_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gyoro Gyoro! (One-Punch Man)', 'https://redd.it/1jtst2u')
+add_data(['Gyoro Gyoro'],
+'Gyoro Gyoro',
+False,
+True,
+[
+    ['One(-| )Punch Man'], ['OPM']
+],
+'One Punch Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jtst2u/respect_gyoro_gyoro_onepunch_man/
+
+########################################
+
+id = get_rt_id(cur, 'Respect General Thaddeus "Thunderbolt" Ross, The Red Hulk (Marvel Cinematic Universe)', 'https://redd.it/1jueozf')
+add_data(['Red Hulk'],
+'Red Hulk',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jueozf/respect_general_thaddeus_thunderbolt_ross_the_red/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gomah (Dragon Ball Daima)', 'https://redd.it/1juwdqv')
+add_data(['Gomah'],
+'Gomah',
+False,
+False,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)'], ['Daima']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1juwdqv/respect_gomah_dragon_ball_daima/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miyamoto Iori (Fate/Samurai Remnant)', 'https://redd.it/1jv3pma')
+add_data(['Miyamoto Iori'],
+'Miyamoto Iori',
+False,
+False,
+[
+    ['Fate'], ['Samurai Remnant']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yamato Takeru (Fate/Samurai Remnant)', 'https://redd.it/1jvjarv')
+add_data(['Yamato Takeru'],
+'Yamato Takeru',
+False,
+False,
+[
+    ['Fate'], ['Samurai Remnant']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvjarv/respect_yamato_takeru_fatesamurai_remnant/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alice Kuonji (Witch on the Holy Night/TYPE-MOON)', 'https://redd.it/1jv98ri')
+add_data(['Alice Kuonji'],
+'Alice Kuonji',
+False,
+True,
+[
+    ['Fate'], ['Witch on the Holy Night'], ['TYPE(-| )MOON'], ['Mah(ō|o)tsukai no Yoru']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Black Hand (DC Comics, Post-Crisis)', 'https://redd.it/1jv3wja')
+add_data(['Black Hand'],
+'Black Hand',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jv3wja/respect_black_hand_dc_comics_postcrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Professor Pyg (DC Comics, Post-Flashpoint)', 'https://redd.it/1jv4mev')
+add_data(['Professor Pyg'],
+'Professor Pyg',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Professor Pyg'],
+'Professor Pyg',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'], ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nimona (Nimona) [Graphic Novel]', 'https://redd.it/1jv4fsh')
+id2 = get_rt_id(cur, 'Respect Nimona (Nimona) [Animated Film]', 'https://redd.it/1jv4fxv')
+add_data(['Nimona'],
+'Nimona',
+False,
+True,
+[
+    ['Nimona ?\(Nimona\)'], ['movie Nimona'], ['Nimona ?\(movie'], ['Nimona.*Netflix']
+],
+'',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jv4fsh/respect_nimona_nimona_graphic_novel/
+#https://www.reddit.com/r/respectthreads/comments/1jv4fxv/respect_nimona_nimona_animated_film/
+
+########################################
+
+id = get_rt_id(cur, "Respect Rick O''Connell (The Mummy Trilogy)", 'https://redd.it/1jv4hvn')
+add_data(["Rick O(''| )?Connell"],
+"Rick O''Connell",
+False,
+True,
+[
+    ['Mummy']
+],
+'The Mummy',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Marvin the Martian (Looney Tunes)', 'https://redd.it/1jv584k')
+add_data(['Marvin the Martian'],
+'Marvin the Martian',
+False,
+True,
+[
+    ['Looney Tunes']
+],
+'Looney Tunes',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jv584k/respect_marvin_the_martian_looney_tunes/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Damian "DJ" Drake Jr (Looney Tunes: Back in Action)', 'https://redd.it/1jvjwks')
+add_data(['D\.?J\.? Drake'],
+'D.J. Drake',
+False,
+False,
+[
+    ['Looney Tunes']
+],
+'Looney Tunes: Back in Action',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Princess (Slay the Princess)', 'https://redd.it/1jv6tfl')
+add_data(['Princess'],
+'Princess',
+False,
+False,
+[
+    ['Slay the Princess']
+],
+'Slay the Princess',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jv6tfl/respect_the_princess_slay_the_princess/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

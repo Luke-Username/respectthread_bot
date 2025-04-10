@@ -703,6 +703,8 @@ DC Cinematic Universe
 DC Comics
 	Version
 		['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+	Sometimes
+		['DC Comics']
 	Displayed Version Name
 		"DC"
 
@@ -914,6 +916,7 @@ Dragon Ball
 	Specific
 		['Fusion Reborn']
 		['DB ?GT']
+		['Daima']
 	Displayed Version Name
 		"Dragon Ball"
 
@@ -2442,6 +2445,8 @@ Nasuverse
 			['Fate( ?/ ?| )Zero']
 			['Apoc(rypha)?']
 			['Grande? Order'], ['F(ate )?/?GO']
+			['Mah(ō|o)tsukai no Yoru'], ['Witch on the Holy Night']
+			['TYPE(-| )MOON']
 		Other
 			['Serv(a|e)nts?']
 		Displayed Version Name
