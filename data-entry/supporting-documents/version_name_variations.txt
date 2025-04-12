@@ -1890,8 +1890,9 @@ The Legend of Zelda
 		'{"Orarina of Time"}', '{"OOT"}'
 		'{"Skyward Sword"}'
 		['Breath of the Wild'], ['BOTW']
+		['Tears of the Kingdom'], ['TOTK']
 		['Age of Calamity]
-		'{"Hyrule Warriors"}'
+		['Hyrule Warriors']
 	Displayed Version Name
 		"The Legend of Zelda"
 			

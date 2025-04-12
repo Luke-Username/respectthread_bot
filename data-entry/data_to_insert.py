@@ -110,6 +110,25 @@ cur = con.cursor()
 update_respectthread(cur, 6658, 'Respect Spinel (Steven Universe)', 'https://redd.it/1jv3sgi')
 update_respectthread(cur, 590, 'Respect Gabriel Van Helsing (Van Helsing, 2004)', 'https://redd.it/1jv4u5j')
 update_respectthread(cur, 12408, 'Respect En (Dorohedoro)', 'https://redd.it/1jv4w2b')
+update_respectthread(cur, 135, 'Respect Dominic Toretto! (The Fast and the Furious)', 'https://redd.it/1jvf5ps')
+update_respectthread(cur, 3002, 'Respect Akame! (Akame Ga Kill)', 'https://redd.it/1jvg4ut')
+update_respectthread(cur, 1174, 'Respect Miles Morales, Spider-Man! (Spider-Verse)', 'https://redd.it/1jvheyk')
+update_respectthread(cur, 1790, 'Respect Superman (DC Comics, Earth-31)', 'https://redd.it/1jxjhc8')
+update_respectthread(cur, 276, 'Respect Agent Smith! (The Matrix)', 'https://redd.it/1jx1t7k')
+
+
+########################################
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+	['Predator vs', 'r/predator']
+],
+'',
+'{2799,13507}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1jw7y6d/predator_vs_jason/mmgcqf8/?context=3
 
 ########################################
 
@@ -231,6 +250,7 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/1jv3wja/respect_black_hand_dc_comics_postcrisis/
 
+
 ########################################
 
 id = get_rt_id(cur, 'Respect Professor Pyg (DC Comics, Post-Flashpoint)', 'https://redd.it/1jv4mev')
@@ -334,6 +354,337 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1jv6tfl/respect_the_princess_slay_the_princess/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cio (Kill Six Billion Demons)', 'https://redd.it/1jv98tn')
+add_data(['Cio'],
+'Cio',
+False,
+False,
+[
+    ['Kill ?(Six|6) ?Billion ?Demons'], ['K(S|6)BD']
+],
+'Kill Six Billion Demons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jv98tn/respect_cio_kill_six_billion_demons/
+
+add_data(['Cio(cie)? Cioelle'],
+'Ciocie Cioelle',
+False,
+True,
+[
+    ['Kill ?(Six|6) ?Billion ?Demons'], ['K(S|6)BD']
+],
+'Kill Six Billion Demons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jv98tn/respect_cio_kill_six_billion_demons/
+
+########################################
+
+id = get_rt_id(cur, 'Respect 6 Juggernaut Star Scours the Universe (Kill Six Billion Demons)', 'https://redd.it/1jv98w3')
+add_data(['6 Juggernaut Star Scours the Universe'],
+'6 Juggernaut Star Scours the Universe',
+False,
+True,
+[
+    ['Kill ?(Six|6) ?Billion ?Demons'], ['K(S|6)BD']
+],
+'Kill Six Billion Demons',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jv98w3/respect_6_juggernaut_star_scours_the_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Misaki Sakimiya (Dead Mount Death Play)', 'https://redd.it/1jva7pc')
+add_data(['Misaki Sakimiya'],
+'Misaki Sakimiya',
+False,
+True,
+[
+    ['Dead Mount Death Play']
+],
+'Dead Mount Death Play',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jva7pc/respect_misaki_sakimiya_dead_mount_death_play/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Corpse God (Dead Mount Death Play)', 'https://redd.it/1jva8pl')
+add_data(['Corpse God'],
+'Corpse God',
+False,
+False,
+[
+    ['Dead Mount Death Play']
+],
+'Dead Mount Death Play',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jva8pl/respect_corpse_god_dead_mount_death_play/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ganondorf (The Legend of Zelda: Tears of the Kingdom)', 'https://redd.it/1jvbu2m')
+add_data(['Ganon(dorf)'],
+'Ganondorf',
+False,
+False,
+[
+    ['Tears of the Kingdom'], ['TOTK']
+],
+'Tears of the Kingdom',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+ ########################################
+
+id = get_rt_id(cur, 'Respect Benjamin Gates (National Treasure)', 'https://redd.it/1jvg6jt')
+add_data(['Benjamin( Franklin)? Gates'],
+'Benjamin Gates',
+False,
+False,
+[
+    ['National Treasure']
+],
+'National Treasure',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+ 
+ ########################################
+ 
+id = get_rt_id(cur, 'Respect Miles Morales, Spider-Man! (Spider-Verse)', 'https://redd.it/1jvheyk')
+add_data(['Benjamin( Franklin)? Gates'],
+'Benjamin Gates',
+False,
+False,
+[
+    ['National Treasure']
+],
+'National Treasure',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+ ########################################
+ 
+id = get_rt_id(cur, "Respect Himmel the Hero! (Frieren: Beyond Journey''s End)", 'https://redd.it/1jvipz7')
+add_data(['Himmel'],
+'Himmel',
+False,
+False,
+[
+    ['Frieren'], ['Himmel the Hero']
+],
+"Frieren: Beyond Journey''s End",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Übel (Frieren: Beyond Journey''s End)", 'https://redd.it/1jx2x83')
+add_data(['(Ü|U)bel'],
+'Übel',
+False,
+False,
+[
+    ['Frierens?']
+],
+"Frieren: Beyond Journey''s End",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+
+########################################
+id = get_rt_id(cur, "Respect Sein (Frieren: Beyond Journey''s End)", 'https://redd.it/1jxfuff')
+add_data(['Sein'],
+'Sein',
+False,
+False,
+[
+    ['Frierens?']
+],
+"Frieren: Beyond Journey''s End",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+
+########################################
+ 
+id = get_rt_id(cur, 'Respect the Twelfth Doctor (Doctor Who)', 'https://redd.it/1jvxpt3')
+add_data(['(Twelf|12)th Doctor'],
+'Twelfth Doctor',
+False,
+False,
+[
+	['(Doctor|Dr\.?) ?Who'], ['Who(ni)?verse']
+],
+"Doctor Who",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Gaiaphage, the Darkness (Gone)', 'https://redd.it/1jwc3sp')
+add_data(['Gaiaphage'],
+'Gaiaphage',
+False,
+False,
+[
+	['Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+
+########################################
+
+id = get_rt_id(cur, "Respect the Prince (Disney''s Cinderella Trilogy)", 'https://redd.it/1jwhvdh')
+add_data(['Prince'],
+'Prince',
+False,
+False,
+[
+	['Prince .*Cinderella']
+],
+"Disney''s Cinderella",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+add_data(['Prince Charming'],
+'Prince Charming',
+False,
+False,
+[
+	['Cinderella']
+],
+"Disney''s Cinderella",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Anastasia (Disney''s Cinderella Trilogy)", 'https://redd.it/1jwi6yi')
+add_data(['Anastasia'],
+'Anastasia',
+False,
+False,
+[
+	['Disney', 'Cinderella']
+],
+"Disney''s Cinderella",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Cinderella (Disney''s Cinderella Trilogy)", 'https://redd.it/1jwi73e')
+add_data(['Cinderella'],
+'Cinderella',
+False,
+False,
+[
+	['Disney']
+],
+'Disney',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+
+########################################
+id = get_rt_id(cur, "Respect the King (Disney''s Cinderella Trilogy)", 'https://redd.it/1jwi8pc')
+add_data(['King'],
+'King',
+False,
+False,
+[
+	["Disney''?s Cinderella"]
+],
+"Disney''s Cinderella",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect "That Man," Empty Void! (One-Punch Man [Manga])', 'https://redd.it/1jwi7cz')
+add_data(['Empty Void'],
+'Empty Void',
+False,
+False,
+[
+	['One(-| )Punch Man'], ['OPM']
+],
+'One Punch Man',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+########################################
+id = get_rt_id(cur, 'Respect Nathan Caine (Novocaine)', 'https://redd.it/1jwn9px')
+add_data(['Nathan Caine'],
+'Nathan Caine',
+False,
+False,
+[
+	['Novocaine']
+],
+'Novocaine',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+
+add_data(['Novocaine'],
+'Novocaine',
+False,
+True,
+[
+	['Nathan']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
+
+########################################
+id = get_rt_id(cur, 'Respect Ooube No OO(Joujuu Senjin!! Mushibugyo)', 'https://redd.it/1jxheyl')
+add_data(['Ooube No Oo'],
+'Ooube No Oo',
+False,
+False,
+[
+	['Mushibugy(ō|o)']
+],
+'Mushibugyō',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jvbu2m/respect_ganondorf_the_legend_of_zelda_tears_of/
+
 
 ########################################
 
