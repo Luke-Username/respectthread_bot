@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Snow (Dreamwalker)', 'https://redd.it/1jxo5hh')
+add_data(['Snow'],
+'Snow',
+False,
+False,
+[
+    ['Dreamwalker']
+],
+'Dreamwalker',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jxo5hh/respect_snow_dreamwalker/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Balder (Bayonetta: Bloody Fate)', 'https://redd.it/1jxojfl')
+add_data(['Balder'],
+'Balder',
+False,
+False,
+[
+    ['Bayonetta', 'Bloody Fate']
+],
+'Bayonetta: Bloody Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jxojfl/respect_balder_bayonetta_bloody_fate/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jubileus (Bayonetta: Bloody Fate)', 'https://redd.it/1jxok8j')
+add_data(['Jubileus'],
+'Jubileus',
+False,
+False,
+[
+    ['Bayonetta', 'Bloody Fate']
+],
+'Bayonetta: Bloody Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jxok8j/respect_jubileus_bayonetta_bloody_fate/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
