@@ -109,7 +109,6 @@ id,title,link
 132,Respect General Zod ! (DC EXTENDED UNIVERSE),https://redd.it/90hsgu
 133,Respect Brian O'Conner (The Fast and Furious),https://redd.it/6ci5qd
 118,Respect Aquaman (DC Extended Universe),https://redd.it/uudk8g
-135,Respect Dominic Toretto (The Fast and the Furious),https://redd.it/6dauki
 113,"Respect Peter Parker, Spider-Man (The Amazing Spider-Man)",https://redd.it/uxffyb
 137,Respect Agent Zero (X-Men Origins: Wolverine),https://redd.it/9367yt
 138,Respect Ajax (FOX),https://redd.it/50ibcn
@@ -153,6 +152,7 @@ id,title,link
 177,"Respect the Gargantuas! (Godzilla, Showa)",https://redd.it/bmd3wm
 178,"Respect Gezora! (Godzilla, Showa)",https://redd.it/bzjevn
 154,Respect Psylocke (Fox),https://redd.it/dzsapq
+135,Respect Dominic Toretto! (The Fast and the Furious),https://redd.it/1jvf5ps
 143,Respect Deadpool! (FOX X-Men),https://redd.it/n00yxy
 158,"Respect Wolverine (Fox, X-Men)",https://redd.it/oir8zw
 142,Respect Cyclops (X-Men films),https://redd.it/hblv8n
@@ -241,7 +241,6 @@ id,title,link
 272,Respect the Warriors Three (Marvel Cinematic Universe),https://redd.it/9nehv6
 273,"Respect Ivan Antonovich Vanko, Whiplash (Marvel Cinematic Universe)",https://redd.it/64drfx
 275,Respect The Agents (The Matrix),https://redd.it/8f23ue
-276,Respect Agent Smith (The Matrix),https://redd.it/8f23ay
 277,Respect Morpheus (The Matrix),https://redd.it/8f23ic
 278,Respect Neo (The Matrix),https://redd.it/8f22uo
 279,Respect Trinity (The Matrix),https://redd.it/8f23mj
@@ -301,6 +300,7 @@ id,title,link
 285,Respect King Arthur [Monty Python and the Holy Grail],https://redd.it/cjntxm
 319,Respect Jar Jar Binks! (Star Wars Canon),https://redd.it/drji6o
 308,Respect Boba Fett (Star Wars Canon),https://redd.it/1jprkh6
+276,Respect Agent Smith! (The Matrix),https://redd.it/1jx1t7k
 305,Respect Adi Gallia (Star Wars Canon),https://redd.it/g384mr
 271,"Respect James Rhodes, War Machine (Marvel Cinematic Universe)",https://redd.it/j5li6e
 313,Respect Sheev Palpatine (Star Wars Canon),https://redd.it/jgx4y2
@@ -536,7 +536,6 @@ id,title,link
 587,Respect Gwangi! (The Valley of Gwangi),https://redd.it/bwl9hr
 588,Respect Keiko (Vampire Girl vs. Frankenstein Girl),https://redd.it/cddftx
 589,Respect Monami (Vampire Girl vs. Frankenstein Girl),https://redd.it/cddfoh
-590,Respect Gabriel Van Helsing (Van Helsing),https://redd.it/8nnlqq
 592,Respect V (V for Vendetta),https://redd.it/5rr15j
 559,Respect the Headless Horseman (Sleepy Hollow 1999),https://redd.it/myjk1k
 553,Respect the Sharktopi (Sharktopus),https://redd.it/10wgrmi
@@ -550,6 +549,7 @@ id,title,link
 522,Respect Gipsy Danger! (Pacific Rim),https://redd.it/18al6w2
 573,Respect Dragonfly (Superhero Movie),https://redd.it/1dyj8mh
 531,Respect The Last Engineer (Prometheus),https://redd.it/1f4gdcw
+590,"Respect Gabriel Van Helsing (Van Helsing, 2004)",https://redd.it/1jv4u5j
 593,Respect V.I. Warshawski (V.I. Warshawski),https://redd.it/5zm71p
 594,Respect Mount Wilshire (Volcano),https://redd.it/aihqpu
 596,Respect the Tripod (War of the Worlds [2005 Movie]),https://redd.it/7fq8n4
@@ -1107,7 +1107,6 @@ id,title,link
 1170,Respect the Fairy Godmother (Shrek 2),https://redd.it/cbtg7q
 1171,Respect Mongo the giant gingerbread man (Shrek),https://redd.it/ah15g3
 1173,Respect Shrek (DreamWorks) [Updated],https://redd.it/5aewvt
-1174,Respect Miles Morales (Spider-Man: Into the Spider-verse),https://redd.it/bdjcc2
 1175,Respect Peter B. Parker (Spider-Man: Into the Spider-Verse),https://redd.it/bdjg2g
 1176,Respect the Spider-Gang (Spider-Man: Into the Spider-Verse),https://redd.it/bdj19s
 1177,Respect Eugene Fitzherbert (Tangled),https://redd.it/bdw58z
@@ -1177,6 +1176,7 @@ id,title,link
 1172,Respect Puss in Boots... if you dare! (Dreamworks),https://redd.it/1czn1sz
 1197,Respect Vector! (Despicable Me),https://redd.it/1flzdq8
 1189,"Respect Nagi Taiga, the Tank Chair (Tank Chair)",https://redd.it/1govgjy
+1174,"Respect Miles Morales, Spider-Man! (Spider-Verse)",https://redd.it/1jvheyk
 1245,Respect Mine Turtle (asdfmovie),https://redd.it/6b6c0g
 1246,Respect The Entity (Atop the Fourth Wall),https://redd.it/8l0wdp
 1247,Respect Holokara (Atop the Fourth Wall),https://redd.it/8l3t4s
@@ -1693,7 +1693,6 @@ id,title,link
 1787,Respect Superman (DC Earth 6),https://redd.it/6h542z
 1788,Respect Golden Age Superman (DC: Earth-Two),https://redd.it/9pnn3r
 1789,Respect Kingdom Come Superman,https://redd.it/3e0nj5
-1790,Respect Superman (MIllerverse),https://redd.it/6rswmf
 1791,Respect Superman One Million [Post-Crisis],https://redd.it/3onxpe
 1792,☭☭☭Respect Red Son Superman!☭☭☭,https://redd.it/3yw27y
 1793,"Respect Bizarro (DC Comics, Post Crisis)",https://redd.it/bcbuwb
@@ -1736,6 +1735,7 @@ id,title,link
 1756,Respect Superman (Post-Crisis),https://redd.it/ljsibk
 1813,"Respect Mr. Mxyzptlk (DC Comics, Post-Crisis)",https://redd.it/189vh2h
 1807,"Respect Lex Luthor (DC Comics, Post-Crisis)",https://redd.it/18xqo80
+1790,"Respect Superman (DC Comics, Earth-31)",https://redd.it/1jxjhc8
 1748,"Respect Metamorpho (DC, Post Crisis)",https://redd.it/fosjjf
 1834,Respect Arthur Light (pre-52),https://redd.it/2xkc1r
 1835,Respect Blackfire (DC Pre-Flashpoint),https://redd.it/350ouj
@@ -2862,7 +2862,6 @@ id,title,link
 2999,Respect Nike Takeuchi (Air Gear),https://redd.it/8rlrwp
 3000,Respect Simca (Air Gear),https://redd.it/4r3583
 3001,Respect Sora Takeuchi (Air gear),https://redd.it/8scpsc
-3002,Respect Akame (Akame Ga Kill),https://redd.it/71ajv2
 3003,Respect Esdeath (Akame Ga Kill),https://redd.it/4wz4dk
 3004,Respect Leone (Akame Ga Kill),https://redd.it/4wz0ze
 3005,Respect Lubbock (Akame Ga Kill),https://redd.it/4wyzdc
@@ -2934,6 +2933,7 @@ id,title,link
 3056,Respect The Female Titan (Attack on Titan),https://redd.it/u4wofq
 3077,Respect Irvine (Berserk),https://redd.it/6zmwwr
 3078,Respect Locus (Berserk),https://redd.it/6zuh9h
+3002,Respect Akame! (Akame Ga Kill),https://redd.it/1jvg4ut
 3080,Respect Rakshas (Berserk),https://redd.it/6ztth1
 3081,Respect Serpico (Berserk),https://redd.it/49icgm
 3082,Respect Silat and the Tapasa of the Bākiraka (Berserk),https://redd.it/6tbza2
@@ -6353,7 +6353,6 @@ id,title,link
 6655,Respect M-OC (LEGO Star Wars: The Freemaker Adventures),https://redd.it/d8hmpy
 6656,Respect The Zillo Beast (Star Wars: The Clone Wars),https://redd.it/d0pxvz
 6657,Respect Rukh (Star Wars Canon),https://redd.it/cxyok8
-6658,Respect Spinel (Steven Universe),https://redd.it/d4qcr3
 6659,Respect Gizmoduck (Ducktales 2017),https://redd.it/d3rg3n
 6660,Respect Superman (Justice League Action),https://redd.it/d73zvb
 6661,Respect Kim Possible (Kim Possible),https://redd.it/cv8tyh
@@ -6361,6 +6360,7 @@ id,title,link
 6663,"Respect The Giant Rock Ape, Igoo! (The Herculoids)",https://redd.it/ctbfh4
 6664,Respect Tundro the Tremendous! (The Herculoids),https://redd.it/ctbjvk
 6665,Respect Zandor! (The Herculoids),https://redd.it/ctb5dz
+6658,Respect Spinel (Steven Universe),https://redd.it/1jv3sgi
 6666,"Respect The Laser Ray Dragon, Zok! (The Herculoids)",https://redd.it/ctbi1i
 6667,Respect Team CRDL (RWBY),https://redd.it/cv9gda
 6668,"Respect `"David Blaine`" (David Blaine Street Magic)",https://redd.it/drpq3d
@@ -8696,7 +8696,6 @@ id,title,link
 12405,Respect Bulma Brief (Dragon Ball Manga),https://redd.it/cy6dor
 12406,Respect Ishigami Senku! (Dr. Stone),https://redd.it/cyyhay
 12407,Respect Tsukasa Shishio! (Dr. Stone),https://redd.it/cyg8dc
-12408,[NSFW] Respect En! (Dorohedoro),https://redd.it/cft99f
 12410,[NSFW] Respect Shin! (Dorohedoro),https://redd.it/cfs6a2
 12411,Devilman (OVA) Respect Thread,https://redd.it/dncqum
 12412,Respect the Gungeoneers (Enter the Gungeon),https://redd.it/he57kh
@@ -8751,6 +8750,7 @@ id,title,link
 12453,Respect Superalloy Darkshine! (One-Punch Man Manga),https://redd.it/13gvfz8
 12425,"Respect Seth Brundle (The Fly, 1986)",https://redd.it/1558jx2
 12431,Respect Mumen Rider (One-Punch Man),https://redd.it/1jseio8
+12408,Respect En (Dorohedoro),https://redd.it/1jv4w2b
 12465,Respect Charlotte Perospero (One Piece),https://redd.it/hi4et6
 12466,"Respect Capone `"Gang`" Bege and the Fire Tank Pirates (One Piece)",https://redd.it/hkl2vo
 12467,Respect The Predator (Archie vs The Predator),https://redd.it/hqbswv
@@ -14459,3 +14459,37 @@ id,title,link
 25943,Respect Godzilla (Godzilla's Monsterpiece Theatre),https://redd.it/1jsx77v
 25944,Respect Nue (Nue's Exorcist),https://redd.it/1jt7abp
 25945,Respect Gakuro Yajima (Nue's Exorcist),https://redd.it/1jta0c4
+25946,"Respect Gwen Stacy, Spider-Woman! (Spider-Verse)",https://redd.it/1jvhftv
+25947,"Respect Iron Man, Model 3 (Marvel, 616)",https://redd.it/1jtlr24
+25948,Respect Gyoro Gyoro! (One-Punch Man),https://redd.it/1jtst2u
+25949,"Respect General Thaddeus `"Thunderbolt`" Ross, The Red Hulk (Marvel Cinematic Universe)",https://redd.it/1jueozf
+25950,Respect Gomah (Dragon Ball Daima),https://redd.it/1juwdqv
+25951,Respect Miyamoto Iori (Fate/Samurai Remnant),https://redd.it/1jv3pma
+25952,Respect Yamato Takeru (Fate/Samurai Remnant),https://redd.it/1jvjarv
+25953,Respect Alice Kuonji (Witch on the Holy Night/TYPE-MOON),https://redd.it/1jv98ri
+25954,"Respect Black Hand (DC Comics, Post-Crisis)",https://redd.it/1jv3wja
+25955,"Respect Professor Pyg (DC Comics, Post-Flashpoint)",https://redd.it/1jv4mev
+25956,Respect Nimona (Nimona) [Graphic Novel],https://redd.it/1jv4fsh
+25957,Respect Nimona (Nimona) [Animated Film],https://redd.it/1jv4fxv
+25958,Respect Rick O'Connell (The Mummy Trilogy),https://redd.it/1jv4hvn
+25959,Respect Marvin the Martian (Looney Tunes),https://redd.it/1jv584k
+25960,"Respect Damian `"DJ`" Drake Jr (Looney Tunes: Back in Action)",https://redd.it/1jvjwks
+25961,Respect the Princess (Slay the Princess),https://redd.it/1jv6tfl
+25962,Respect Cio (Kill Six Billion Demons),https://redd.it/1jv98tn
+25963,Respect 6 Juggernaut Star Scours the Universe (Kill Six Billion Demons),https://redd.it/1jv98w3
+25964,Respect Misaki Sakimiya (Dead Mount Death Play),https://redd.it/1jva7pc
+25965,Respect Corpse God (Dead Mount Death Play),https://redd.it/1jva8pl
+25966,Respect Ganondorf (The Legend of Zelda: Tears of the Kingdom),https://redd.it/1jvbu2m
+25967,Respect Benjamin Gates (National Treasure),https://redd.it/1jvg6jt
+25968,Respect Himmel the Hero! (Frieren: Beyond Journey's End),https://redd.it/1jvipz7
+25969,Respect Übel (Frieren: Beyond Journey's End),https://redd.it/1jx2x83
+25970,Respect Sein (Frieren: Beyond Journey's End),https://redd.it/1jxfuff
+25971,Respect the Twelfth Doctor (Doctor Who),https://redd.it/1jvxpt3
+25972,"Respect the Gaiaphage, the Darkness (Gone)",https://redd.it/1jwc3sp
+25973,Respect the Prince (Disney's Cinderella Trilogy),https://redd.it/1jwhvdh
+25974,Respect Anastasia (Disney's Cinderella Trilogy),https://redd.it/1jwi6yi
+25975,Respect Cinderella (Disney's Cinderella Trilogy),https://redd.it/1jwi73e
+25976,Respect the King (Disney's Cinderella Trilogy),https://redd.it/1jwi8pc
+25977,"Respect `"That Man,`" Empty Void! (One-Punch Man [Manga])",https://redd.it/1jwi7cz
+25978,Respect Nathan Caine (Novocaine),https://redd.it/1jwn9px
+25979,Respect Ooube No OO(Joujuu Senjin!! Mushibugyo),https://redd.it/1jxheyl
