@@ -107,6 +107,94 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Uttamatomakkin! (Pocahontas)', 'https://redd.it/1jztax9')
+add_data(['Uttamatomakkin'],
+'Uttamatomakkin',
+False,
+False,
+[
+    ['Pocahontas']
+],
+'Pocahontas',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jztax9/respect_uttamatomakkin_pocahontas/
+
+########################################
+
+id = get_rt_id(cur, 'Respect John Rolfe! (Pocahontas)', 'https://redd.it/1jztcz7')
+add_data(['John Rolfe'],
+'John Rolfe',
+False,
+False,
+[
+    ['Pocahontas']
+],
+'Pocahontas',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jztax9/respect_uttamatomakkin_pocahontas/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pocahontas! (Pocahontas)', 'https://redd.it/1jztiyj')
+add_data(['Pocahontas'],
+'Pocahontas',
+False,
+False,
+[
+    ['Disneys?'], ['Mulan']
+],
+'Disney',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1jztiyj/respect_pocahontas_pocahontas/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain John Smith! (Pocahontas)', 'https://redd.it/1jztpzb')
+add_data(['John Smith'],
+'John Smith',
+False,
+False,
+[
+    ['Pocahontas']
+],
+'Pocahontas',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect C00lkidd! (Forsaken)', 'https://redd.it/1k0hjke')
+add_data(['C00lkidd'],
+'C00lkidd',
+False,
+True,
+[
+    ['Forsaken']
+],
+'Forsaken',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k0hjke/respect_c00lkidd_forsaken/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Darth Sion (Star Wars)', 'https://redd.it/1k0xdfv')
+add_data(['Darth Sion'],
+'Darth Sion',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
