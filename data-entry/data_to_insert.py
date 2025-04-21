@@ -107,6 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Verity Green (Black Mirror: Bête Noire)', 'https://redd.it/1k3nvd6')
+add_data(['Verity Green'],
+'Verity Green',
+False,
+True,
+[
+    ['Black Mirror']
+],
+'Black Mirror',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k3nvd6/respect_verity_green_black_mirror_b%C3%AAte_noire/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jaxxon (Star Wars Canon)', 'https://redd.it/1k3svrc')
+add_data(['Jaxxon'],
+'Jaxxon',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k3svrc/respect_jaxxon_star_wars_canon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gaia (Gone)', 'https://redd.it/1k3vimu')
+add_data(['Gaia'],
+'Gaia',
+False,
+False,
+[
+    ['Gaia ?\(Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k3vimu/respect_gaia_gone/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
