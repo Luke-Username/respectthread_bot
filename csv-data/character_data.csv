@@ -21721,12 +21721,12 @@ Koneko Toujou,"{`"High ?school DxD`"}",t,{3483},High School DxD
 Rias Gremory,"{`"High ?school DxD`"}",t,{3484},High School DxD
 Xenovia Quarta,"{`"High ?school DxD`"}",t,{3485},High School DxD
 Yuuto Kiba,"{`"High ?school DxD`"}",t,{3486},High School DxD
-John Walker,{MCU},f,{},MCU
 The Mountain,"{`"Game of Thrones`"}",f,"{6119,87}",Game of Thrones
 U.S. Agent,"{`"Marvel Cinematic Universe`"}",f,{21271},MCU
 The Mountain,"{`"Song of Ice`"}",f,"{6119,87}",Game of Thrones
 The Mountain,{ASOIAF},f,"{6119,87}",Game of Thrones
 The Mountain,"{`"\\(GoT\\)`"}",f,"{6119,87}",Game of Thrones
+John Walker,{MCU},f,{21271},MCU
 U.S. Agent,{MCU},f,{21271},MCU
 U.S. Agent,{199999},f,{21271},MCU
 God-Emperor of Mankind,{(WH)?40K},t,{6023},Warhammer 40k
@@ -25369,8 +25369,8 @@ Amaura,{Pok(e|é)m(o|a)n},t,{21257},Pokémon
 Aurorus,{Pok(e|é)m(o|a)n},t,{21257},Pokémon
 Raimundo,{Pedrosa},f,{21258},Xiaolin Showdown
 Raimundo,"{`"Xiaolin Showdown`"}",f,{21258},Xiaolin Showdown
-John Walker,"{`"Marvel Cinematic Universe`"}",f,{},MCU
-John Walker,{199999},f,{},MCU
+John Walker,"{`"Marvel Cinematic Universe`"}",f,{21271},MCU
+John Walker,{199999},f,{21271},MCU
 Sticks the Badger,"{`"Sonic Boom`"}",t,{21259},Sonic the Hedgehog
 Gilbert Lawsons Avatar,{Community},t,{21260},Community
 Meguro Masaki,{Kengan(verse)?},t,{20997},Kengan Asura
@@ -33242,3 +33242,19 @@ Pico,"{`"Pico'?s? School`"}",f,{26003},Newgrounds
 Pico,{FNF},f,{26003},Newgrounds
 Pico,"{`"Friday Night Funkin`"}",f,{26003},Newgrounds
 Pico,"{`"Pico Series`"}",f,{26003},Newgrounds
+Verity Green,"{`"Black Mirror`"}",t,{26004},Black Mirror
+Jaxxon,"{`"S(tar )?Wars`"}",f,{26005},Star Wars
+Gaia,"{`"Gaia ?\\(Gone`"}",f,{26006},Gone
+Butler,"{`"Butler ?\\(Pok(e|é)m(o|a)n`"}",f,{26007},Pokémon
+Nicholai,{Pok(e|é)m(o|a)n},f,{26008},Pokémon
+Dr. Namba,{Pok(e|é)m(o|a)n},f,{26009},Pokémon
+Dr. Namba,{Electabuzz},f,{26009},Pokémon
+Belle,"{`"Beauty (and |& )the Beast`"}",f,{26010},Beauty and the Beast
+Belle,{BATB},f,{26010},Beauty and the Beast
+Melody,"{`"The Little Mermaid`"}",f,{26011},Disney's The Little Mermaid
+Ariel,"{`"Little Mermaid`"}",f,{26012},Disney's The Little Mermaid
+Ariel,"{`"Princess Ariel`"}",f,{26012},Disney's The Little Mermaid
+Ariel,{Disney},f,{26012},Disney's The Little Mermaid
+Ariel,{TLM},f,{26012},Disney's The Little Mermaid
+Giant Robot Hellboy,{Hellboy},t,{26013},Hellboy
+Heart Eyes Killer,"{`"\\(Heart Eyes\\)`"}",t,{26014},""

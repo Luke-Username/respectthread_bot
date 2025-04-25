@@ -14,8 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{21271}' WHERE default_name='John Walker' AND displayed_version_name='MCU';
-
 ########################################
 
 ########################################
