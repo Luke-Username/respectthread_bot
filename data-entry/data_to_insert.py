@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 10821, 'Respect Utsuho Reiuji (Touhou)', 'https://redd.it/1k63jmf')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Verity Green (Black Mirror: Bête Noire)', 'https://redd.it/1k3nvd6')
 add_data(['Verity Green'],
 'Verity Green',
@@ -167,6 +171,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Nicholai (Pokemon Anime)', 'https://redd.it/1k5xs3u')
+add_data(['Nicholai'],
+'Nicholai',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k5xs3u/respect_nicholai_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dr. Namba (Pokemon Anime)', 'https://redd.it/1k7k4xy')
+add_data(['Dr\.? Namba'],
+'Dr. Namba',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n'], ['Electabuzz']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k7k4xy/respect_dr_namba_pokemon_anime/
+
+########################################
+
 id = get_rt_id(cur, "Respect Belle [Disney''s Beauty and the Beast (Animated Movies)]", 'https://redd.it/1k50yhh')
 add_data(['Belle'],
 'Belle',
@@ -179,6 +213,66 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Melody (The Little Mermaid: Return to the Sea)', 'https://redd.it/1k5xlo5')
+add_data(['Melody'],
+'Melody',
+False,
+False,
+[
+    ['The Little Mermaid']
+],
+"Disney''s The Little Mermaid",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Ariel (Disney''s The Little Mermaid trilogy)", 'https://redd.it/1k64gxo')
+add_data(['Ariel'],
+'Ariel',
+False,
+False,
+[
+    ['Little Mermaid'], ['Princess Ariel'], ['Disney'], ['TLM']
+],
+"Disney''s The Little Mermaid",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Giant Robot Hellboy (Hellboy)', 'https://redd.it/1k652t1')
+add_data(['Giant Robot Hellboy'],
+'Giant Robot Hellboy',
+False,
+True,
+[
+    ['Hellboy']
+],
+'Hellboy',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Heart Eyes Killer (Heart Eyes)', 'https://redd.it/1k76i8u')
+add_data(['Heart Eyes Killer'],
+'Heart Eyes Killer',
+False,
+True,
+[
+    ['\(Heart Eyes\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k76i8u/respect_the_heart_eyes_killer_heart_eyes/
 
 ########################################
 
