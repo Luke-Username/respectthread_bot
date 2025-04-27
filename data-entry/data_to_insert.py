@@ -107,6 +107,91 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Odd Thomas (Odd Thomas [2013 Film])', 'https://redd.it/1k7oobj')
+add_data(['Odd Thomas'],
+'Odd Thomas',
+False,
+False,
+[
+    ['(Film|Movie)s?'], ['2013']
+],
+'2013 Film',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wattson (Pokemon Anime)', 'https://redd.it/1k7qra8')
+add_data(['Wattson'],
+'Wattson',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k7qra8/respect_wattson_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect Guy''s Exploud (Pokemon Anime)", 'https://redd.it/1k8d58l')
+add_data(['Exploud'],
+'Exploud',
+False,
+False,
+[
+    ['Guy']
+],
+'Guy',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k8d58l/respect_guys_exploud_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Computer Jack (Gone)', 'https://redd.it/1k8s65p')
+add_data(['Computer Jack'],
+'Computer Jack',
+False,
+False,
+[
+    ['Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tsurugi Kamishiro/Scorpio Worm (Kamen Rider Kabuto)', 'https://redd.it/1k8vpqj')
+add_data(['Scorpio Worm'],
+'Scorpio Worm',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Tsurugi Kamishiro'],
+'Tsurugi Kamishiro',
+False,
+True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
