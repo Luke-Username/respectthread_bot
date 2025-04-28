@@ -18,6 +18,8 @@ UPDATE character_name SET name='Chiao?tzo?u' WHERE name='Chiaotzu';
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='The Runner';
+
 ########################################
 
 ########################################

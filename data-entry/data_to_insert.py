@@ -194,6 +194,93 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Takamura (Sakamoto Days)', 'https://redd.it/1k9fhny')
+add_data(['Takamura'],
+'Takamura',
+False,
+False,
+[
+    ['Sakamoto Days']
+],
+'Sakamoto Days',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k9fhny/respect_takamura_sakamoto_days/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Death Star (Star Wars Legends)', 'https://redd.it/1k9wr8s')
+add_data(['Death Star'],
+'Death Star',
+False,
+True,
+[
+    ['S(tar )?Wars'], ['Vader']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k9wr8s/respect_the_death_star_star_wars_legends/
+
+add_data(['Deathstar'],
+'Deathstar',
+False,
+False,
+[
+    ['S(tar )?Wars'], ['plans'], ['episode'], ['Vader'], ['Destroy']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k9wr8s/respect_the_death_star_star_wars_legends/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mosquito (Loop Hero)', 'https://redd.it/1k9t3fb')
+add_data(['Mosquitos'],
+'Mosquitos',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k9t3fb/respect_mosquito_loop_hero/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Witch (Loop Hero)', 'https://redd.it/1k9tci6')
+add_data(['Witch'],
+'Witch',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k9t3fb/respect_mosquito_loop_hero/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scarecrow (Loop Hero)', 'https://redd.it/1k9thj9')
+add_data(['Scarecrow'],
+'Scarecrow',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1k9t3fb/respect_mosquito_loop_hero/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
