@@ -135,6 +135,38 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/1k7qra8/respect_wattson_pokemon_anime/
 
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nero the Whiscash (Pokemon Anime)', 'https://redd.it/1ka7iuv')
+add_data(['Nero the Whiscash'],
+'Nero the Whiscash',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aura Sphere Riolu (Pokemon Anime)', 'https://redd.it/1kanb2l')
+add_data(['Aura Sphere Riolu'],
+'Aura Sphere Riolu',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 id = get_rt_id(cur, "Respect Guy''s Exploud (Pokemon Anime)", 'https://redd.it/1k8d58l')
@@ -184,6 +216,21 @@ add_data(['Tsurugi Kamishiro'],
 'Tsurugi Kamishiro',
 False,
 True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dark Kabuto (Kamen Rider Kabuto)', 'https://redd.it/1kabu0h')
+add_data(['Dark Kabuto'],
+'Dark Kabuto',
+False,
+False,
 [
     ['Kamen Rider']
 ],
@@ -278,6 +325,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1k9t3fb/respect_mosquito_loop_hero/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Womb Ripper (Bloodwash)', 'https://redd.it/1kapd98')
+add_data(['Womb Ripper'],
+'Womb Ripper',
+False,
+False,
+[
+    ['Bloodwash']
+],
+'Bloodwash',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kapd98/respect_the_womb_ripper_bloodwash/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cecily Bain! (Vampire: the Masquerade)', 'https://redd.it/1kasowf')
+add_data(['Cecily Bain'],
+'Cecily Bain',
+False,
+True,
+[
+    ['Vampire:? the Masquerade'], ['VTM']
+],
+'Vampire: the Masquerade',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
