@@ -22,6 +22,10 @@ UPDATE character SET is_default=FALSE WHERE default_name='The Runner';
 
 ########################################
 
+SELECT * FROM respectthread WHERE link='https://redd.it/1kc0qti';
+UPDATE character SET rt_id_array='{?, 1710,23813}' WHERE rt_id_array='{1710,23813}';
+--After run
+
 ########################################
 
 ########################################

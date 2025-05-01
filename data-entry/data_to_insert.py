@@ -199,6 +199,22 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Orc (Gone)', 'https://redd.it/1kb72lu')
+add_data(['Orc'],
+'Orc',
+False,
+False,
+[
+    ['Orc ?\(Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kb72lu/respect_orc_gone/
+
+
+########################################
+
 id = get_rt_id(cur, 'Respect Tsurugi Kamishiro/Scorpio Worm (Kamen Rider Kabuto)', 'https://redd.it/1k8vpqj')
 add_data(['Scorpio Worm'],
 'Scorpio Worm',
@@ -355,6 +371,93 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Duke (Image Comics, Energon Universe)', 'https://redd.it/1kbju5q')
+add_data(['Duke'],
+'Duke',
+False,
+False,
+[
+    ['Energon Universe']
+],
+'Energon Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kbju5q/respect_duke_image_comics_energon_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Julith (Dofus)', 'https://redd.it/1kbq345')
+add_data(['Julith'],
+'Julith',
+False,
+False,
+[
+    ['Dofus']
+],
+'Dofus',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kbq345/respect_julith_dofus/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kilowog, the Green Lantern (DC Comics, Post-Crisis)', 'https://redd.it/1kbtvtu')
+add_data(['Kilowog'],
+'Kilowog',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Kilowog'],
+'Kilowog',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kbtvtu/respect_kilowog_the_green_lantern_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zatanna Zatara (DC, Post-Flashpoint)', 'https://redd.it/1kc0qti')
+add_data(['Zatanna'],
+'Zatanna',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kc0qti/respect_zatanna_zatara_dc_postflashpoint/
+
+########################################
+
+id = get_rt_id(cur, "Respect Max (Man''s Best Friend)", 'https://redd.it/1kc846s')
+add_data(['Max'],
+'Max',
+False,
+False,
+[
+    ["Man''?s Best Friend"]
+],
+"Man''s Best Friend",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kc846s/respect_max_mans_best_friend/
 
 ########################################
 
