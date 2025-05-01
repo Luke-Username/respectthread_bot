@@ -5750,8 +5750,6 @@ Quasar,{Annihilators?},f,{2044},616
 Quasar,"{`"Adam Warlock`"}",f,{2044},616
 Quasar,"{`"Protector of the Universe`"}",f,{2044},616
 Rom the Space Knight,{Marvel},t,{2046},Marvel
-The Runner,{Marvel},t,{2047},616
-The Runner,{616},t,{2047},616
 Kazumi Subaru,"{`"Madoka Magica`"}",t,{4424},Madoka Magica
 Kirika Kure,"{`"Madoka Magica`"}",t,{4425},Madoka Magica
 Daredevil,{Marvel},t,{2051},616
@@ -5793,6 +5791,8 @@ God Emperor Doom,{comics?},t,{2058},""
 God Emperor Doom,"{`"Secret Wars`"}",t,{2058},""
 Infamous Iron Man,{616},t,{2059},""
 Bullseye,{Marvel},f,{2050},616
+The Runner,{Marvel},f,{2047},616
+The Runner,{616},f,{2047},616
 Kingpin,{616},f,{2053},616
 Kingpin,{comics?},f,{2053},616
 Wilson Fisk,{Netflix},f,{21858},MCU
@@ -29574,8 +29574,8 @@ Zatanna,{Rebirth},f,{1710},Post-Crisis / New 52
 Zatanna,{PC},f,{1710},Post-Crisis / New 52
 Zatanna,"{`"Post(-| )?C(risis)?`"}",f,{1710},Post-Crisis / New 52
 Zatanna,"{`"New(-| )Earth`"}",f,{1710},Post-Crisis / New 52
+Zatanna,"{`"(DC( Comics)?)`"}",t,"{26034,1710,23813}",DC
 Dante,"{`"Dante Alighieri`"}",f,{},Dante Alighieri
-Zatanna,"{`"(DC( Comics)?)`"}",t,"{1710,23813}",DC
 Gregor Eisenhorn,{(WH)?40K},t,{23816},Warhammer 40k
 Gregor Eisenhorn,{Warhammer},t,{23816},Warhammer 40k
 Belinda White,"{`"Candy Shop War`"}",f,{23817},The Candy Shop War
@@ -33258,3 +33258,37 @@ Ariel,{Disney},f,{26012},Disney's The Little Mermaid
 Ariel,{TLM},f,{26012},Disney's The Little Mermaid
 Giant Robot Hellboy,{Hellboy},t,{26013},Hellboy
 Heart Eyes Killer,"{`"\\(Heart Eyes\\)`"}",t,{26014},""
+Odd Thomas,{(Film|Movie)s?},f,{26015},2013 Film
+Odd Thomas,{2013},f,{26015},2013 Film
+Wattson,{Pok(e|é)m(o|a)n},f,{26016},Pokémon
+Nero the Whiscash,{Pok(e|é)m(o|a)n},t,{26017},Pokémon
+Aura Sphere Riolu,{Pok(e|é)m(o|a)n},t,{26018},Pokémon
+Exploud,{Guy},f,{26019},Guy
+Computer Jack,{Gone},f,{26020},Gone
+Orc,"{`"Orc ?\\(Gone`"}",f,{26021},Gone
+Scorpio Worm,"{`"Kamen Rider`"}",f,{26022},Kamen Rider
+Tsurugi Kamishiro,"{`"Kamen Rider`"}",t,{26022},Kamen Rider
+Dark Kabuto,"{`"Kamen Rider`"}",f,{26023},Kamen Rider
+Takamura,"{`"Sakamoto Days`"}",f,{26024},Sakamoto Days
+Death Star,"{`"S(tar )?Wars`"}",t,{26025},Star Wars
+Death Star,{Vader},t,{26025},Star Wars
+Deathstar,"{`"S(tar )?Wars`"}",f,{26025},Star Wars
+Deathstar,{plans},f,{26025},Star Wars
+Deathstar,{episode},f,{26025},Star Wars
+Deathstar,{Vader},f,{26025},Star Wars
+Deathstar,{Destroy},f,{26025},Star Wars
+Mosquitos,"{`"Loop Hero`"}",f,{26026},Loop Hero
+Witch,"{`"Loop Hero`"}",f,{26027},Loop Hero
+Scarecrow,"{`"Loop Hero`"}",f,{26028},Loop Hero
+Womb Ripper,{Bloodwash},f,{26029},Bloodwash
+Cecily Bain,"{`"Vampire:? the Masquerade`"}",t,{26030},Vampire: the Masquerade
+Cecily Bain,{VTM},t,{26030},Vampire: the Masquerade
+Duke,"{`"Energon Universe`"}",f,{26031},Energon Universe
+Julith,{Dofus},f,{26032},Dofus
+Kilowog,{PC},f,{26033},Post-Crisis
+Kilowog,"{`"Posts?(-| )?C(risis)?`"}",f,{26033},Post-Crisis
+Kilowog,"{`"New(-| )Earth`"}",f,{26033},Post-Crisis
+Kilowog,"{`"\\(DC( Comics)?\\)`"}",t,{26033},DC
+Kilowog,"{`"\\[DC( Comics)?\\]`"}",t,{26033},DC
+Zatanna,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26034},Post-Flashpoint
+Max,"{`"Man'?s Best Friend`"}",f,{26035},Man's Best Friend
