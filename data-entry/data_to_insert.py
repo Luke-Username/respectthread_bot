@@ -109,6 +109,200 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Terminator'],
+'Terminator',
+False,
+False,
+[
+    ['Doomslayer', 'or Terminator']
+],
+'',
+'{329,330,331,332}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1kd6i68/who_would_win_the_doomslayer_or_terminator/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sougo Tokiwa, Kamen Rider Zi-O (Kamen Rider Zi-O)', 'https://redd.it/1kcfv0q')
+add_data(['Kamen Rider Zi-O'],
+'Kamen Rider Zi-O',
+False,
+True,
+[
+    ['Sougo Tokiwa']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Kamen Rider'],
+'Kamen Rider',
+False,
+False,
+[
+    ['Zi-O']
+],
+'Zi-O',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kcfv0q/respect_sougo_tokiwa_kamen_rider_zio_kamen_rider/
+
+add_data(['Sougo Tokiwa'],
+'Sougo Tokiwa',
+False,
+True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Sougo'],
+'Sougo',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ohma Zi-O (Kamen Rider Zi-O)', 'https://redd.it/1kcfx9t')
+add_data(['Ohma Zi-?O'],
+'Ohma Zi-O',
+False,
+True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Princess Arzette (Arzette: The Jewel of Faramore)', 'https://redd.it/1kd0tmy')
+add_data(['Princess Arzette'],
+'Princess Arzette',
+False,
+True,
+[
+    ['Jewel of Faramore']
+],
+'Arzette: The Jewel of Faramore',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kd0tmy/respect_princess_arzette_arzette_the_jewel_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Darth Nihilus (Star Wars)', 'https://redd.it/1kd46wg')
+add_data(['Darth Nihilus'],
+'Darth Nihilus',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kd46wg/respect_darth_nihilus_star_wars/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thorn Harvestar! (BONE)', 'https://redd.it/1kdd69x')
+add_data(['Thorn Harvestar'],
+'Thorn Harvestar',
+False,
+True,
+[
+    ['BONE']
+],
+'BONE',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Lord of Locusts! (BONE)', 'https://redd.it/1kdiiro')
+add_data(['Lord of Locusts'],
+'Lord of Locusts',
+False,
+False,
+[
+    ['BONE']
+],
+'BONE',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Bone Cousins! (BONE)', 'https://redd.it/1kdcod6')
+add_data(['Bone Cousins'],
+'Bone Cousins',
+True,
+False,
+[
+    ['\(BONE\)']
+],
+'BONE',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kdcod6/respect_the_bone_cousins_bone/
+
+
+add_data(['Fone Bone'],
+'Fone Bone',
+False,
+True,
+[
+    ['BONE']
+],
+'BONE',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kdcod6/respect_the_bone_cousins_bone/
+
+
+add_data(['Phoney Bone'],
+'Phoney Bone',
+False,
+True,
+[
+    ['BONE']
+],
+'BONE',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kdcod6/respect_the_bone_cousins_bone/
+
+add_data(['Smiley Bone'],
+'Smiley Bone',
+False,
+True,
+[
+    ['BONE']
+],
+'BONE',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kdcod6/respect_the_bone_cousins_bone/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
