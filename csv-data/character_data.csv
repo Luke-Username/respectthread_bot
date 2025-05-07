@@ -33292,3 +33292,31 @@ Kilowog,"{`"\\(DC( Comics)?\\)`"}",t,{26033},DC
 Kilowog,"{`"\\[DC( Comics)?\\]`"}",t,{26033},DC
 Zatanna,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26034},Post-Flashpoint
 Max,"{`"Man'?s Best Friend`"}",f,{26035},Man's Best Friend
+Terminator,"{Doomslayer,`"or Terminator`"}",f,"{329,330,331,332}",""
+Kamen Rider Zi-O,"{`"Sougo Tokiwa`"}",t,{26036},""
+Kamen Rider,{Zi-O},f,{26036},Zi-O
+Sougo Tokiwa,"{`"Kamen Rider`"}",t,{26036},Kamen Rider
+Sougo,"{`"Kamen Rider`"}",f,{26036},Kamen Rider
+Ohma Zi-O,"{`"Kamen Rider`"}",t,{26037},Kamen Rider
+Princess Arzette,"{`"Jewel of Faramore`"}",t,{26038},Arzette: The Jewel of Faramore
+Darth Nihilus,"{`"S(tar )?Wars`"}",t,{26039},Star Wars
+Thorn Harvestar,{BONE},t,{26040},BONE
+Lord of Locusts,{BONE},f,{26041},BONE
+Bone Cousins,"{`"\\(BONE\\)`"}",f,{26042},BONE
+Fone Bone,{BONE},t,{26042},BONE
+Phoney Bone,{BONE},t,{26042},BONE
+Smiley Bone,{BONE},t,{26042},BONE
+Punisher,"{`"Punisher Kills the Marvel Universe`"}",f,{26043},Punisher Kills the Marvel Universe
+Blindside,"{`"Blindside ?\\(616`"}",f,{26044},616
+Samson,"{`"Samson.*\\(Fate\\)`"}",f,{26045},Fate
+Samson,"{`"Samurai Remnant`"}",f,{26045},Fate
+Yui Shōsetsu,{Fate},f,{26046},Fate
+Yui Shōsetsu,"{`"Samurai Remnant`"}",f,{26046},Fate
+Abaddon,"{`"Abaddon ?\\(Gone`"}",f,{26047},Gone
+Vincent Vu,{Gone},f,{26047},Gone
+Wallace,"{Pok(e|é)m(o|a)n,Champions?}",f,{26048},Pokémon
+Team Aqua,{Pok(e|é)m(o|a)n},f,{26049},Pokémon
+Team Aqua,"{`"Team Magma`"}",f,{26049},Pokémon
+Team Aqua,{Kyogre},f,{26049},Pokémon
+Tate and Liza,{Pok(e|é)m(o|a)n},f,{26050},Pokémon
+Drake,"{Pok(e|é)m(o|a)n,`"(Hoenn|Elite Four)`"}",f,{26051},Pokémon
