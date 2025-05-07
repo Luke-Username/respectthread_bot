@@ -107,6 +107,8 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2176, 'Respect Iron Man Model 42: the Black and Gold Armor (Marvel, Earth-616)', 'https://redd.it/1kepboi')
+
 ########################################
 
 add_data(['Terminator'],
@@ -300,6 +302,155 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1kdcod6/respect_the_bone_cousins_bone/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Frank Castle (Punisher Kills the Marvel Universe)', 'https://redd.it/1kdskmx')
+add_data(['Punisher'],
+'Punisher',
+False,
+False,
+[
+    ['Punisher Kills the Marvel Universe']
+],
+'Punisher Kills the Marvel Universe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Blindside (Marvel Comics, Earth 616)', 'https://redd.it/1kel7ei')
+add_data(['Blindside'],
+'Blindside',
+False,
+False,
+[
+    ['Blindside ?\(616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+########################################
+
+id = get_rt_id(cur, 'Respect Samson (Fate/Samurai Remnant)', 'https://redd.it/1ke3wv8')
+add_data(['Samson'],
+'Samson',
+False,
+False,
+[
+    ['Samson.*\(Fate\)'], ['Samurai Remnant']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yui Shousetsu (Fate/Samurai Remnant)', 'https://redd.it/1kehds4')
+add_data(['Yui Sh(ō|o)u?setsu'],
+'Yui Shōsetsu',
+False,
+False,
+[
+    ['Fate'], ['Samurai Remnant']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kehds4/respect_yui_shousetsu_fatesamurai_remnant/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vincent Vu, Abaddon (Gone)', 'https://redd.it/1kemgjr')
+add_data(['Abaddon'],
+'Abaddon',
+False,
+False,
+[
+    ['Abaddon ?\(Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Vincent Vu'],
+'Vincent Vu',
+False,
+False,
+[
+    ['Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wallace (Pokemon Anime)', 'https://redd.it/1kfaqzz')
+add_data(['Wallace'],
+'Wallace',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n', 'Champions?']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Team Aqua (Pokemon Anime)', 'https://redd.it/1kfbgjr')
+add_data(['Team Aqua'],
+'Team Aqua',
+True,
+False,
+[
+    ['Pok(e|é)m(o|a)n'], ['Team Magma'], ['Kyogre']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tate and Liza (Pokemon Anime)', 'https://redd.it/1kfqgjr')
+add_data(['Tate and Liza'],
+'Tate and Liza',
+True,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Drake of the Hoenn Elite 4 (Pokemon Anime)', 'https://redd.it/1kgimo9')
+add_data(['Drake'],
+'Drake',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n', '(Hoenn|Elite Four)']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
