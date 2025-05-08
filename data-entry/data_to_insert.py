@@ -107,6 +107,77 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Dante'],
+'Dante',
+False,
+False,
+[
+    ['Vergil'], ['Kratos', 'Asura']
+],
+'Devil May Cry',
+'{5044}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1kgyd9b/who_would_win_kratos_asuradante_and_doomslayer/mr2hkki/?context=3
+
+########################################
+
+add_data(['Dog Man'],
+'Dog Man',
+False,
+False,
+[
+    ['Dog Man ?\(Dog Man\)']
+],
+'',
+'{25858}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1kgvhbv/dog_man_dog_man_vs_catdog_catdog/mr2000b/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Giant Ancient Claydol (Pokemon Anime)', 'https://redd.it/1kgv3h6')
+add_data(['Giant( Ancient)? Claydol'],
+'Giant Ancient Claydol',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kgv3h6/respect_the_giant_ancient_claydol_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Martian! (DC Comics, Absolute Universe)', 'https://redd.it/1khdpt2')
+add_data(['Martian'],
+'Martian',
+False,
+False,
+[
+    ['Absolute Universe']
+],
+'Absolute Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1khdpt2/respect_the_martian_dc_comics_absolute_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wang Po of Tianliang! (Ze Tian Ji/Way of Choices)', 'https://redd.it/1khvzz5')
+add_data(['Wang Po'],
+'Wang Po',
+False,
+False,
+[
+    ['Ze Tian Ji'], ['Way of Choices']
+],
+'Ze Tian Ji',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1khvzz5/respect_wang_po_of_tianliang_ze_tian_jiway_of/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
