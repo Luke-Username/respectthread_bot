@@ -150,6 +150,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Juan (Pokemon Anime)', 'https://redd.it/1kiulfn')
+add_data(['Juan'],
+'Juan',
+False,
+False,
+[
+    ['Juan ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Martian! (DC Comics, Absolute Universe)', 'https://redd.it/1khdpt2')
 add_data(['Martian'],
 'Martian',
