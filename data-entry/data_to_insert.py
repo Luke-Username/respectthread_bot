@@ -150,6 +150,36 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Team Magma (Pokemon Anime)', 'https://redd.it/1kjhuwo')
+add_data(['Team Magma'],
+'Team Magma',
+True,
+False,
+[
+    ['Pok(e|é)m(o|a)n'], ['Groudon']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Crasher Wake (Pokemon Anime)', 'https://redd.it/1kk57df')
+add_data(['Crasher Wake'],
+'Crasher Wake',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kk57df/respect_crasher_wake_pokemon_anime/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Juan (Pokemon Anime)', 'https://redd.it/1kiulfn')
 add_data(['Juan'],
 'Juan',
@@ -162,6 +192,22 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pikachu (Super Smash Bros.)', 'https://redd.it/1kjlqpv')
+add_data(['Pikachus?'],
+'Pikachu',
+False,
+False,
+[
+    ['Smash (Bro(ther)?s?|Ultimate)']
+],
+'Super Smash Bros',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kjlqpv/respect_pikachu_super_smash_bros/
 
 ########################################
 
@@ -192,6 +238,63 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1khvzz5/respect_wang_po_of_tianliang_ze_tian_jiway_of/
+
+########################################
+
+id = get_rt_id(cur, "Respect King Eric (Disney''s The Little Mermaid trilogy)", 'https://redd.it/1kjgf33')
+add_data(['Prince Eric'],
+'Prince Eric',
+False,
+False,
+[
+    ['Disney'], ['Ariel'], ['Little Mermaid']
+],
+"Disney''s The Little Mermaid",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Justin DeVeere, Knightmare (Gone)', 'https://redd.it/1kjltcd')
+add_data(['Knightmare'],
+'Knightmare',
+False,
+False,
+[
+    ['Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kjltcd/respect_justin_deveere_knightmare_gone/
+
+add_data(['Justin DeVeere'],
+'Justin DeVeere',
+False,
+True,
+[
+    ['Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kjltcd/respect_justin_deveere_knightmare_gone/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yabuki Joe! (Ashita no Joe)', 'https://redd.it/1kkn9f5')
+add_data(['Joe Yabuki|Yabuki Joe'],
+'Joe Yabuki',
+False,
+True,
+[
+    ['Ashita no Joe'], ["Tomorrow''?s Joe"], ['AnJ']
+],
+'Ashita no Joe',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
