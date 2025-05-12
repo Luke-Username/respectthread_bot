@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4674, 'Respect Yabuki Joe! (Ashita no Joe)', 'https://redd.it/1kkn9f5')
+
+########################################
+
 add_data(['Dante'],
 'Dante',
 False,
@@ -283,16 +287,15 @@ True,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Yabuki Joe! (Ashita no Joe)', 'https://redd.it/1kkn9f5')
-add_data(['Joe Yabuki|Yabuki Joe'],
+add_data(['Joe Yabuki'],
 'Joe Yabuki',
 False,
 True,
 [
-    ['Ashita no Joe'], ["Tomorrow''?s Joe"], ['AnJ']
+    ["Tomorrow''?s Joe"], ['AnJ']
 ],
 'Ashita no Joe',
-'{' + '{}'.format(id) + '}'
+'{4674}'
 )
 #
 
