@@ -301,6 +301,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Soji Tendo (Kamen Rider Kabuto)', 'https://redd.it/1kla994')
+add_data(['Soji Tendo'],
+'Soji Tendo',
+False,
+True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
