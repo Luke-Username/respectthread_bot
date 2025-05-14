@@ -230,6 +230,33 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect: Ishmael (DC Comics, Rebirth)', 'https://redd.it/1kma5sj')
+add_data(['Ishmael'],
+'Ishmael',
+False,
+False,
+[
+    ['Ishmael ?\(Rebirth\)']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Ishmael'],
+'Ishmael',
+False,
+False,
+[
+    ['Ishmael ?\(DC( Commics)?\)']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kma5sj/respect_ishmael_dc_comics_rebirth/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Wang Po of Tianliang! (Ze Tian Ji/Way of Choices)', 'https://redd.it/1khvzz5')
 add_data(['Wang Po'],
 'Wang Po',
