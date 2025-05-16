@@ -139,6 +139,21 @@ False,
 
 ########################################
 
+add_data(['Theo Bell'],
+'Theo Bell',
+False,
+False,
+[
+    ['Vampire']
+],
+'Vampire: the Masquerade',
+'{25663}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1kgvhbv/dog_man_dog_man_vs_catdog_catdog/mr2000b/?context=3
+
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Giant Ancient Claydol (Pokemon Anime)', 'https://redd.it/1kgv3h6')
 add_data(['Giant( Ancient)? Claydol'],
 'Giant Ancient Claydol',
@@ -151,6 +166,51 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1kgv3h6/respect_the_giant_ancient_claydol_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Morrison (Pokemon Anime)', 'https://redd.it/1kne6n5')
+add_data(['Morrison'],
+'Morrison',
+False,
+False,
+[
+    ['Morrison ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kne6n5/respect_morrison_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Noland (Pokemon Anime)', 'https://redd.it/1knw6jq')
+add_data(['Noland'],
+'Noland',
+False,
+False,
+[
+    ['Noland ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Disney Princesses! (Disney Animated Canon)', 'https://redd.it/1jm23kl')
+add_data(['Disney Princesses'],
+'Disney Princesses',
+True,
+True,
+[
+    ['Animated']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
@@ -340,6 +400,63 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Steamboat Willie (Screamboat)', 'https://redd.it/1kmfane')
+add_data(['Steamboat Willie'],
+'Steamboat Willie',
+False,
+False,
+[
+    ['Screamboat']
+],
+'Screamboat',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kmfane/respect_steamboat_willie_screamboat/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Missing Link/Johnny Future (Johnny Future)', 'https://redd.it/1kna39e')
+add_data(['Johnny Future'],
+'Johnny Future',
+False,
+True,
+[
+    ['Missing Link'], ['Johnny Future ?\(Johnny Future\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kna39e/respect_the_missing_linkjohnny_future_johnny/
+
+add_data(['Missing Link'],
+'Missing Link',
+False,
+False,
+[
+    ['Johnny Future']
+],
+'Johnny Future',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kna39e/respect_the_missing_linkjohnny_future_johnny/
+
+########################################
+
+id = get_rt_id(cur, "Respect The Water-Mirror Demon Spiegel! (Frieren: Beyond Journey''s End)", 'https://redd.it/1knrhv5')
+add_data(['Spiegel'],
+'Spiegel',
+False,
+False,
+[
+    ['Frieren']
+],
+"Frieren: Beyond Journey''s End",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1knrhv5/respect_the_watermirror_demon_spiegel_frieren/
 
 ########################################
 
