@@ -14,9 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Satoru Gojo|Gojo Satoru' WHERE name='Satoru Gojo|Goji Satoru'
-UPDATE character_name SET name='Too?ru' WHERE name='Satoru Tooru'
-
 ########################################
 
 ########################################
