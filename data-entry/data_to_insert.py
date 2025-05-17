@@ -197,6 +197,38 @@ False,
 )
 #
 
+
+########################################
+
+id = get_rt_id(cur, "Respect James'' Chimecho (Pokemon Anime)", 'https://redd.it/1kobfa3')
+add_data(['Chimecho'],
+'Chimecho',
+False,
+False,
+[
+    ['James']
+],
+'James',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kobfa3/respect_james_chimecho_pokemon_anime/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man, the Weapons Expo Armor (Marvel, 616)', 'https://redd.it/1ko7v9w')
+add_data(['Weapons Expo Armor'],
+'Weapons Expo Armor',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ko7v9w/respect_iron_man_the_weapons_expo_armor_marvel_616/
+
 ########################################
 
 id = get_rt_id(cur, 'Respect the Disney Princesses! (Disney Animated Canon)', 'https://redd.it/1jm23kl')
