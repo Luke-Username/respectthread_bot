@@ -107,6 +107,64 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Jesus'],
+'Jesus',
+False,
+False,
+[
+    ['TWD']
+],
+'The Walking Dead',
+'{20601}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect May''s Bulbasaur (Pokemon)", 'https://redd.it/1kp4fje')
+add_data(['Bulbasaur'],
+'Bulbasaur',
+False,
+False,
+[
+    ['May']
+],
+'May',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kp4fje/respect_mays_bulbasaur_pokemon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Oswald Cobb, The Penguin (The Batman Saga)', 'https://redd.it/1kpnhjo')
+add_data(['Penguin'],
+'Penguin',
+False,
+False,
+[
+    ['The Batman Saga'], ['HBO']
+],
+'The Batman Saga',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kpnhjo/respect_oswald_cobb_the_penguin_the_batman_saga/
+#https://www.reddit.com/r/whowouldwin/comments/1gltckl/dexter_morgan_dexter_gets_dropped_into_gotham_the/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Aliens (Love Death + Robots)', 'https://redd.it/1kpqp5t')
+add_data(['Aliens'],
+'Aliens',
+False,
+False,
+[
+    ['LOVE DEATH (&|\+) ROBOTS']
+],
+'LOVE DEATH + ROBOTS',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kpqp5t/respect_the_aliens_love_death_robots/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
