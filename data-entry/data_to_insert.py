@@ -167,6 +167,52 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Steve (A Minecraft Movie)', 'https://redd.it/1kqcupz')
+add_data(['Steve'],
+'Steve',
+False,
+False,
+[
+    ['Minecraft Movie']
+],
+'A Minecraft Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kqcupz/respect_steve_a_minecraft_movie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Chicken Jockey (A Minecraft Movie)', 'https://redd.it/1kqcvbe')
+add_data(['Chicken Jockeys?'],
+'Chicken Jockey',
+False,
+False,
+[
+    ['Minecraft Movie'], ['Jack Blacks?']
+],
+'A Minecraft Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kqcupz/respect_steve_a_minecraft_movie/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect General Chungus (A Minecraft Movie)', 'https://redd.it/1kqvbct')
+add_data(['General Chungus'],
+'General Chungus',
+False,
+False,
+[
+    ['Minecraft'], ['Jack Blacks?']
+],
+'A Minecraft Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kqvbct/respect_general_chungus_a_minecraft_movie/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
