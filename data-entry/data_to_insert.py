@@ -121,6 +121,21 @@ False,
 
 ########################################
 
+add_data(['The Culture'],
+'The Culture',
+False,
+False,
+[
+    ['humanity of the Culture']
+],
+'',
+'{22640}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1kqplfr/interim_coalition_of_governance_vs_the_humanity/
+
+
+########################################
+
 id = get_rt_id(cur, "Respect May''s Bulbasaur (Pokemon)", 'https://redd.it/1kp4fje')
 add_data(['Bulbasaur'],
 'Bulbasaur',
@@ -133,6 +148,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1kp4fje/respect_mays_bulbasaur_pokemon/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lucy (Pokemon Anime)', 'https://redd.it/1krff19')
+add_data(['Lucy'],
+'Lucy',
+False,
+False,
+[
+    ['Lucy ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
