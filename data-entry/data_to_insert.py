@@ -107,6 +107,89 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Tarzan'],
+'Tarzan',
+False,
+False,
+[
+    ['Shrek']
+],
+'Disney',
+'{14470}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ksj86u/tarzan_shrek_and_mannyice_age_vs_30_vikings_with/
+
+########################################
+
+add_data(['Turok'],
+'Turok',
+False,
+False,
+[
+    ['Dinosaur Hunter'], ['Turok the Hunted']
+],
+'Valiant Comics',
+'{25730}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Larce the Undying (Dreamwalker)', 'https://redd.it/1ks1gy8')
+add_data(['Larce'],
+'Larce',
+False,
+False,
+[
+    ['Dreamwalker'], ['Larce the Undying']
+],
+'Dreamwalker',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the All-New Venom (Marvel, Earth-616)', 'https://redd.it/1kscvnt')
+add_data(['All(-| )New Venom'],
+'All-New Venom',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://old.reddit.com/r/respectthreads/comments/1kscvnt/respect_the_allnew_venom_marvel_earth616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Silver Sable and Black Cat (Silver & Black Unproduced Movie)', 'https://redd.it/1kt2rbh')
+add_data(['Silver Sable'],
+'Silver Sable',
+False,
+False,
+[
+    ['Silver (&||and) Black', 'unproduced']
+],
+'Silver & Black',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Black Cat'],
+'Black Cat',
+False,
+False,
+[
+    ['Silver (&||and) Black', 'unproduced']
+],
+'Silver & Black',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
