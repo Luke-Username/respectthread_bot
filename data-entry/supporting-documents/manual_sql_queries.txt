@@ -23,6 +23,8 @@ UPDATE character SET rt_id_array='{5094, ?}' WHERE rt_id_array='{5094}';
 
 ########################################
 
+UPDATE character SET version='{J(J|B)BA}' WHERE version='{"JJBA"}' AND rt_id_array='{3584}';
+
 ########################################
 
 ########################################

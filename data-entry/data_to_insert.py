@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 242, 'Respect Sam Wilson, Captain America (Marvel Cinematic Universe)', 'https://redd.it/1ku9apg')
+
+########################################
+
 add_data(['Tarzan'],
 'Tarzan',
 False,
@@ -165,6 +169,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect: T''Challa, the Ultimate Black Panther (Marvel, 6160)", 'https://redd.it/1kud6dh')
+add_data(['Ultimate Black Panther'],
+'Ultimate Black Panther',
+False,
+True,
+[
+    ['6160']
+],
+'6160',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kud6dh/respect_tchalla_the_ultimate_black_panther_marvel/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Silver Sable and Black Cat (Silver & Black Unproduced Movie)', 'https://redd.it/1kt2rbh')
 add_data(['Silver Sable'],
 'Silver Sable',
@@ -186,6 +205,52 @@ False,
     ['Silver (&||and) Black', 'unproduced']
 ],
 'Silver & Black',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect May''s Beautifly (Pokemon Anime)", 'https://redd.it/1ku8iie')
+add_data(['Beautifly'],
+'Beautifly',
+False,
+False,
+[
+    ['May']
+],
+'May',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ku8iie/respect_mays_beautifly_pokemon_anime/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sun (Pokemon Adventures)', 'https://redd.it/1kubjqu')
+add_data(['Sun'],
+'Sun',
+False,
+False,
+[
+    ['Sun.*Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Moon (Pokemon Adventures)', 'https://redd.it/1kubjq6')
+add_data(['Moon'],
+'Moon',
+False,
+False,
+[
+    ['Moon.*Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
 '{' + '{}'.format(id) + '}'
 )
 #
