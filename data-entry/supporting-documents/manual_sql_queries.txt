@@ -14,16 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Asajj( |_)Ventress' WHERE name='Asajj Ventress';
-
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Kratos, the Ghost of Sparta! (God of War [Greek Era])', 'https://redd.it/1ksq4up'); SELECT * FROM respectthread WHERE link='https://redd.it/1ksq4up';
-UPDATE character SET rt_id_array='{5094, ?}' WHERE rt_id_array='{5094}';
-
 ########################################
-
-UPDATE character SET version='{J(J|B)BA}' WHERE version='{"JJBA"}' AND rt_id_array='{3584}';
 
 ########################################
 

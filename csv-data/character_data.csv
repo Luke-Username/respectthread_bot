@@ -12818,8 +12818,6 @@ Meruem,"{`"Hunter ?(x ?)?Hunter`"}",t,{3520},Hunter x Hunter
 Meruem,{HxH},t,{3520},Hunter x Hunter
 Phantom Troupe,"{`"Hunter ?(x ?)?Hunter`"}",t,{3522},Hunter x Hunter
 Phantom Troupe,{HxH},t,{3522},Hunter x Hunter
-Chrollo Lucilfer,"{`"Hunter ?(x ?)?Hunter`"}",t,{3522},Hunter x Hunter
-Chrollo Lucilfer,{HxH},t,{3522},Hunter x Hunter
 Uvogin,"{`"Hunter ?(x ?)?Hunter`"}",t,{3522},Hunter x Hunter
 Uvogin,{HxH},t,{3522},Hunter x Hunter
 Feitan,"{`"Hunter ?(x ?)?Hunter`"}",t,{3522},Hunter x Hunter
@@ -12874,6 +12872,8 @@ Zombie,"{`"Phantom Blood`"}",f,{3531},Jojo's Bizarre Adventure
 Baron Zeppeli,{Jojos?(verse)?},t,{3531},Jojo's Bizarre Adventure
 Baron Zeppeli,{JJBA},t,{3531},Jojo's Bizarre Adventure
 Bruford,{Jojos?(verse)?},t,{3531},Jojo's Bizarre Adventure
+Chrollo Lucilfer,"{`"Hunter ?(x ?)?Hunter`"}",t,{26090},Hunter x Hunter
+Chrollo Lucilfer,{HxH},t,{26090},Hunter x Hunter
 Bruford,{JJBA},t,{3531},Jojo's Bizarre Adventure
 Tonpeti,{Jojos?(verse)?},t,{3531},Jojo's Bizarre Adventure
 Tonpeti,{JJBA},t,{3531},Jojo's Bizarre Adventure
@@ -13043,9 +13043,7 @@ Rohan,{Giorno},f,{3581},Jojo's Bizarre Adventure
 Terunosuke Miyamoto,{Jojos?},t,{3583},Jojo's Bizarre Adventure
 Terunosuke Miyamoto,{JJBA},t,{3583},Jojo's Bizarre Adventure
 Yoshikage Kira,{Jojos?},t,{3584},Jojo's Bizarre Adventure
-Yoshikage Kira,{JJBA},t,{3584},Jojo's Bizarre Adventure
 Kira,{Jojos?},f,{3584},Jojo's Bizarre Adventure
-Kira,{JJBA},f,{3584},Jojo's Bizarre Adventure
 Kira,"{`"Star Platinum`"}",f,{3584},Jojo's Bizarre Adventure
 Kira,"{`"Part 4`"}",f,{3584},Jojo's Bizarre Adventure
 Kira,"{`"Diamond is Unbreakable`"}",f,{3584},Jojo's Bizarre Adventure
@@ -13440,12 +13438,12 @@ Oven,"{`"One Piece`",`"Big Mom`"}",f,{12488},One Piece
 Daifuku,"{`"One Piece`"}",t,{12489},One Piece
 Charlotte Daifuku,"{`"One Piece`"}",t,{12489},One Piece
 Yuji Itadori,"{`"Jujus?tsu Kaisen`"}",t,{12490},Jujutsu Kaisen
-Kratos,"{`"God of War`"}",t,{5094},God of War
-Kratos,{GOW},t,{5094},God of War
 Ultimate Professor X,{1610},t,{12491},1610
 Charles Xavier,"{`"X(avier)? ?\\(1610`"}",f,{12491},1610
 Death,"{`"Final Destination`"}",f,{12472},Final Destination
+Kratos,"{`"God of War`"}",t,"{5094,26078}",God of War
 Percy Jackson,"{`"Heroes of Olympus`"}",t,"{5905,23655,23656}",Percy Jackson
+Kratos,{GOW},t,"{5094,26078}",God of War
 Charles Xavier,"{`"\\(Ultimates?\\)`"}",f,{12491},1610
 Rumbling,{Titans?},f,{12492},Attack on Titan
 Rumbling,"{`"Shingeki no Kyojin`"}",f,{12492},Attack on Titan
@@ -33365,3 +33363,24 @@ Chicken Jockey,"{`"Minecraft Movie`"}",f,{26076},A Minecraft Movie
 Chicken Jockey,"{`"Jack Blacks?`"}",f,{26076},A Minecraft Movie
 General Chungus,{Minecraft},f,{26077},A Minecraft Movie
 General Chungus,"{`"Jack Blacks?`"}",f,{26077},A Minecraft Movie
+Yoshikage Kira,{J(J|B)BA},t,{3584},Jojo's Bizarre Adventure
+Kira,{J(J|B)BA},f,{3584},Jojo's Bizarre Adventure
+Tarzan,{Shrek},f,{14470},Disney
+Turok,"{`"Dinosaur Hunter`"}",f,{25730},Valiant Comics
+Turok,"{`"Turok the Hunted`"}",f,{25730},Valiant Comics
+Larce,{Dreamwalker},f,{26091},Dreamwalker
+Larce,"{`"Larce the Undying`"}",f,{26091},Dreamwalker
+All-New Venom,{616},t,{26092},616
+Hallows' Eve,{616},f,{26093},616
+Elizabeth Tyne,{616},f,{26093},616
+Elizabeth Tyne,{Marvel},f,{26093},616
+Ultimate Black Panther,{6160},t,{26094},6160
+Fleet Delmar,{Rebirth},t,{26095},Rebirth
+Fleet Delmar,"{`"\\(DC( Comics)?\\)`"}",t,{26095},DC
+Fleet Delmar,"{`"\\[DC( Comics)?\\]`"}",t,{26095},DC
+Silver Sable,"{`"Silver (&||and) Black`",unproduced}",f,{26096},Silver & Black
+Black Cat,"{`"Silver (&||and) Black`",unproduced}",f,{26096},Silver & Black
+Beautifly,{May},f,{26097},May
+Blaziken,{May},f,{26098},May
+Sun,"{`"Sun.*Pok(e|é)m(o|a)n Adventures`"}",f,{26099},Pokémon Adventures
+Moon,"{`"Moon.*Pok(e|é)m(o|a)n Adventures`"}",f,{26100},Pokémon Adventures
