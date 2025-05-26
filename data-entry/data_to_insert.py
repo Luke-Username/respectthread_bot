@@ -169,6 +169,33 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Hallows'' Eve (Marvel, Earth-616)", 'https://redd.it/1kv6s4g')
+add_data(["Hallows'' Eve"],
+"Hallows'' Eve",
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Elizabeth Tyne'],
+'Elizabeth Tyne',
+False,
+False,
+[
+    ['616'], ['Marvel']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, "Respect: T''Challa, the Ultimate Black Panther (Marvel, 6160)", 'https://redd.it/1kud6dh')
 add_data(['Ultimate Black Panther'],
 'Ultimate Black Panther',
@@ -181,6 +208,32 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1kud6dh/respect_tchalla_the_ultimate_black_panther_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Fleet Delmar, Karma (DC, Rebirth)', 'https://redd.it/1kvtd4d')
+add_data(['Fleet Delmar'],
+'Fleet Delmar',
+False,
+True,
+[
+    ['Rebirth']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+
+add_data(['Fleet Delmar'],
+'Fleet Delmar',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+
 
 ########################################
 
@@ -224,6 +277,20 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/1ku8iie/respect_mays_beautifly_pokemon_anime/
 
+########################################
+
+id = get_rt_id(cur, "Respect May''s Blaziken (Pokemon Anime)", 'https://redd.it/1kvfzwx')
+add_data(['Blaziken'],
+'Blaziken',
+False,
+False,
+[
+    ['May']
+],
+'May',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kvfzwx/respect_mays_blaziken_pokemon_anime/
 
 ########################################
 
@@ -254,6 +321,33 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chrollo Lucifer, Boss of the Phantom Troupe (Hunter x Hunter)', 'https://redd.it/1kvajlm')
+add_data(['Chrollo Lucifer'],
+'Chrollo Lucifer',
+False,
+True,
+[
+    ['Hunter ?(x ?)?Hunter'], ['HxH']
+],
+'Hunter x Hunter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kvajlm/respect_chrollo_lucifer_boss_of_the_phantom/
+
+add_data(['Chrollo'],
+'Chrollo',
+False,
+False,
+[
+    ['Hunter ?(x ?)?Hunter'], ['HxH']
+],
+'Hunter x Hunter',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kvajlm/respect_chrollo_lucifer_boss_of_the_phantom/
 
 ########################################
 
