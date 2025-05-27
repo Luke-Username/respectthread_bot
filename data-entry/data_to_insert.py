@@ -107,6 +107,66 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Spider Jerusalem (Transmetropolitan)', 'https://redd.it/1kvv8gb')
+add_data(['Spider Jerusalem'],
+'Spider Jerusalem',
+False,
+True,
+[
+    ['Transmetropolitan']
+],
+'Transmetropolitan',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kvv8gb/respect_spider_jerusalem_transmetropolitan/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Mummy (Lot No. 249)', 'https://redd.it/1kvxsy1')
+add_data(['Mummy'],
+'Mummy',
+False,
+False,
+[
+    ['Lot No\.? 249']
+],
+'Lot No. 249',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gingy (Shrek Tie-In Games)', 'https://redd.it/1kw08nd')
+add_data(['Gingy'],
+'Gingy',
+False,
+False,
+[
+    ['Shrek( Tie(-| )In)? Games']
+],
+'Shrek Tie-In Games',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+########################################
+
+id = get_rt_id(cur, "Respect May''s Skitty (Pokemon Anime)", 'https://redd.it/1kw8o94')
+add_data(['Skitty'],
+'Skitty',
+False,
+False,
+[
+    ['May']
+],
+'May',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kw8o94/respect_mays_skitty_pokemon_anime/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
