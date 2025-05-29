@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5905, 'Respect Percy Jackson (Percy Jackson & the Olympians) Updated Version', 'https://redd.it/1kwtha1')
+update_respectthread(cur, 4880, 'Respect Kumada (Oyaji)', 'https://redd.it/1kxmd68')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Spider Jerusalem (Transmetropolitan)', 'https://redd.it/1kvv8gb')
 add_data(['Spider Jerusalem'],
 'Spider Jerusalem',
@@ -166,6 +171,128 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1kw8o94/respect_mays_skitty_pokemon_anime/
+
+
+########################################
+
+id = get_rt_id(cur, "Respect May''s Munchlax (Pokemon Anime)", 'https://redd.it/1kwzwp6')
+add_data(['Munchlax'],
+'Munchlax',
+False,
+False,
+[
+    ['May']
+],
+'May',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kwzwp6/respect_mays_munchlax_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, "Respect May''s Glaceon (Pokemon Anime)", 'https://redd.it/1kxpo73')
+add_data(['Glaceon'],
+'Glaceon',
+False,
+False,
+[
+    ['May']
+],
+'May',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Invader (The Day the Earth Blew Up)', 'https://redd.it/1kwnpql')
+add_data(['Invader'],
+'Invader',
+False,
+False,
+[
+    ['Day the Earth Blew Up']
+],
+'The Day the Earth Blew Up',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jeff the Land Shark (Marvel 616)', 'https://redd.it/1kwro1d')
+add_data(['Jeff the Land Shark'],
+'Jeff the Land Shark',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect "Bill Rizer" and Genbei "Jaguar" Yagyu (Contra)', 'https://redd.it/1kwro3t')
+add_data(['Jaguar'],
+'Jaguar',
+False,
+False,
+[
+    ['Contra']
+],
+'Contra',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Little Pete (Gone)', 'https://redd.it/1kx4see')
+add_data(['Little Pete'],
+'Little Pete',
+False,
+False,
+[
+    ['Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "You probably shouldn''t respect Not Important! (Hatred)", 'https://redd.it/1kx74il')
+add_data(['Not Important'],
+'Not Important',
+False,
+False,
+[
+    ['Hatred']
+],
+'Hatred',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kx74il/you_probably_shouldnt_respect_not_important_hatred/
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Popeye (Genndy''s Cancelled Popeye Movie)", 'https://redd.it/1kxvpgi')
+add_data(['Popeye'],
+'Popeye',
+False,
+False,
+[
+    ['Genndy|Tartakovsky', 'Cancelled']
+],
+"Genndy''s Cancelled Popeye Movie",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1kxvpgi/respect_popeye_genndys_cancelled_popeye_movie/
 
 ########################################
 

@@ -17,6 +17,9 @@ UPDATE character_name SET name='' WHERE...
 INSERT INTO respectthread (title, link) VALUES ('Respect Agumon! (Digimon Adventure)', 'https://redd.it/1kw21h4'); SELECT * FROM respectthread WHERE link='https://redd.it/1kw21h4';
 UPDATE character SET rt_id_array='{3243,?,25316,25104}' WHERE rt_id_array='{3243,25316,25104}';
 
+SELECT * FROM respectthread WHERE link='https://redd.it/1kwro3t';
+UPDATE character SET rt_id_array='{25532, ?2}' WHERE rt_id_array='{25532}';
+
 ########################################
 
 ########################################
