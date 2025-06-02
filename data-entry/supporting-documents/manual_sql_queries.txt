@@ -22,7 +22,11 @@ UPDATE character SET rt_id_array='{25532, ?2}' WHERE rt_id_array='{25532}';
 
 ########################################
 
+UPDATE character SET version='{"Thompson"}' WHERE default_name='Venom' AND version='{"Flash|Thompson"}';
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Doom', 'Doom him', 0);
 
 ########################################
 
