@@ -8238,7 +8238,6 @@ Venom,"{`"vs.? Venom`"}",f,{2319},616
 Venom,"{`"Venom vs`"}",f,{2319},616
 Venom,{Carnage},f,{2319},616
 Venom,{Eddie},f,{2319},616
-Venom,{Flash|Thompson},f,{2320},Flash Thompson
 Agent Venom,{616},t,{2320},616
 Agent Venom,{Marvel},t,{2320},616
 Venom,{Gargan},f,{2321},Mac Gargan
@@ -8247,6 +8246,7 @@ Firebird,"{`"West Coast Avengers`"}",f,{2322},616
 Firebird,{Bonita},f,{2322},616
 Texas Twister,{616},t,{2323},616
 Texas Twister,{Marvel},t,{2323},616
+Venom,{Thompson},f,{2320},Flash Thompson
 Lobster,{Hellboy},f,{8338},Hellboy
 Saya,"{`"Song of Saya`"}",f,{8339},Song of Saya
 Brainiac 5,"{`"DC Animated Universe`"}",f,{8340},DCAU
@@ -31802,7 +31802,7 @@ Max Schreck,"{`"Shadow of the Vampire`"}",f,{25137},Shadow of the Vampire
 Manny,"{`"Manny Calavera`"}",f,{25138},Grim Fandango
 Manny,"{`"Grim Fandango`"}",f,{25138},Grim Fandango
 Glottis,"{`"Grim Fandango`"}",f,{25139},Grim Fandango
-Agumon,{Digimon},t,"{3243,25316,25104}",Digimon
+Agumon,{Digimon},t,"{3243,26101,25316,25104}",Digimon
 Super Sinnoh Slinger Mark 1A,{Pok(e|é)m(o|a)n},t,{25140},Pokémon
 Fists of Khonshu,{616},t,{25141},616
 Monkey and Trip,{Enslaved},f,{25142},Enslaved: Odyssey to the West
@@ -32110,9 +32110,6 @@ Phantom Joe,{Tough},f,{25312},Tough
 Anxiety,"{`"Inside Out`"}",f,{25313},Inside Out
 Self-Slitted Maiden of a Thousand Souls,"{`"Dark Gathering`"}",t,{25314},Dark Gathering
 High Priest of the Evil Sutra,"{`"Dark Gathering`"}",t,{25315},Dark Gathering
-Greymon,{Digimon},t,"{3243,25316,25104}",Digimon
-MetalGreymon,{Digimon},t,"{3243,25316,25104}",Digimon
-WarGreymon,{Digimon},t,"{3243,25316,25104}",Digimon
 AiAi,"{`"Super Monkey Ball`"}",f,{25317},Super Monkey Ball
 Imprisoned Demon Sergeant who Died for his Country,"{`"Dark Gathering`"}",t,{25318},Dark Gathering
 Rappacious Bleached Head,"{`"Dark Gathering`"}",t,{25319},Dark Gathering
@@ -32121,6 +32118,7 @@ Goku,"{`"The Golden Warrior vs\\.? The Man of Steel`"}",f,{25321},The Golden War
 Custodian,{(WH)?40K},f,{23647},Warhammer 40k
 Custodian,{Warhammer},f,{23647},Warhammer 40k
 Moria,"{`"One ?Piece?`"}",f,{4044},One Piece
+Greymon,{Digimon},t,"{3243,26101,25316,25104}",Digimon
 Mizore,"{`"Mizore Shirayuki`"}",f,{25322},Rosario + Vampire
 Mizore,{Rosario},f,{25322},Rosario + Vampire
 Doctor Psycho,"{`"Doctor Psycho ?\\(Harley Quinn\\)`"}",f,{25323},Harley Quinn
@@ -32453,7 +32451,6 @@ Carl Johnson,"{`"Grand Theft Auto`"}",f,{25529},GTA
 Carl Johnson,{GTA},f,{25529},GTA
 Sheena,{Manifold},f,{25530},Manifold Series
 Crackers,{Manifold},f,{25531},Manifold Series
-Bill Rizer,{Contra},t,{25532},Contra
 Wasp,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{25533},Earths Mightiest Heroes
 Wasp,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{25533},Earths Mightiest Heroes
 Wasp,"{`"A(vengers)?: ?EMH`"}",f,{25533},Earths Mightiest Heroes
@@ -33384,3 +33381,71 @@ Beautifly,{May},f,{26097},May
 Blaziken,{May},f,{26098},May
 Sun,"{`"Sun.*Pok(e|é)m(o|a)n Adventures`"}",f,{26099},Pokémon Adventures
 Moon,"{`"Moon.*Pok(e|é)m(o|a)n Adventures`"}",f,{26100},Pokémon Adventures
+MetalGreymon,{Digimon},t,"{3243,26101,25316,25104}",Digimon
+WarGreymon,{Digimon},t,"{3243,26101,25316,25104}",Digimon
+Conner Kent,"{`"New(-| )?52`"}",f,{7633},New 52
+Conner Kent,{Nu?-?52},f,{7633},New 52
+Conner Kent,"{`"Post(-| )52`"}",f,{7633},New 52
+Conner Kent,"{`"Prime(-| )Earth`"}",f,{7633},New 52
+Conner Kent,"{`"\\(DC( Comics)?\\)`"}",t,{7633},DC
+Conner Kent,"{`"\\[DC( Comics)?\\]`"}",t,{7633},DC
+Mera,"{`"Mera.*New(-| )?52`"}",f,{1491},New 52
+Mera,"{`"Mera ?\\(DC( Comics)?\\)`"}",f,{1491},DC
+Mera,"{`"Mera ?\\[DC( Comics)?\\]`"}",f,{1491},DC
+Sgt. Gorilla,"{`"Pre(-| )?Crisis`"}",f,{26102},Pre-Crisis
+Sgt. Gorilla,"{`"\\(DC( Comics)?\\)`"}",f,{26102},DC
+Sgt. Gorilla,"{`"\\[DC( Comics)?\\]`"}",f,{26102},DC
+Gay Ghost,"{`"Pre(-| )?Flashpoint`"}",f,{26103},Pre-Flashpoint
+Gay Ghost,"{`"\\(DC( Comics)?\\)`"}",f,{26103},DC
+Gay Ghost,"{`"\\[DC( Comics)?\\]`"}",f,{26103},DC
+Monsieur Mallah,{PC},f,{26104},Post-Crisis
+Monsieur Mallah,"{`"Posts?(-| )?C(risis)?`"}",f,{26104},Post-Crisis
+Monsieur Mallah,"{`"New(-| )Earth`"}",f,{26104},Post-Crisis
+Monsieur Mallah,"{`"\\(DC( Comics)?\\)`"}",t,{26104},DC
+Monsieur Mallah,"{`"\\[DC( Comics)?\\]`"}",t,{26104},DC
+Brain,"{`"Brain ?\\(Posts?(-| )?C(risis)?\\)`"}",f,{26105},Post-Crisis
+Brain,"{`"Brain ?\\(New(-| )Earth\\)`"}",f,{26105},Post-Crisis
+Brain,"{`"Brain ?\\(DC( Comics)?\\)`"}",f,{26105},DC
+Brain,"{`"Brain ?\\[DC( Comics)?\\]`"}",f,{26105},DC
+Spider Jerusalem,{Transmetropolitan},t,{26106},Transmetropolitan
+Mummy,"{`"Lot No\\.? 249`"}",f,{26107},Lot No. 249
+Gingy,"{`"Shrek( Tie(-| )In)? Games`"}",f,{26108},Shrek Tie-In Games
+Skitty,{May},f,{26109},May
+Squirtle,{May},f,{26110},May
+Munchlax,{May},f,{26111},May
+Glaceon,{May},f,{26112},May
+May,"{`"May.*\\(Pok(e|é)m(o|a)n\\)`"}",f,{26113},Pokémon
+May,"{`"\\[Pok(e|é)m(o|a)n\\].*May`"}",f,{26113},Pokémon
+May,"{`"May from Pok(e|é)m(o|a)n`"}",f,{26113},Pokémon
+May,"{Misty,Dawn}",f,{26113},Pokémon
+May,"{Ash,companion}",f,{26113},Pokémon
+Harley,"{`"Harley ?\\(Pok(e|é)m(o|a)n\\)`"}",f,{26114},Pokémon
+Invader,"{`"Day the Earth Blew Up`"}",f,{26115},The Day the Earth Blew Up
+Jeff the Land Shark,{616},f,{26116},616
+Jaguar,{Contra},f,{26117},Contra
+Little Pete,{Gone},f,{26118},Gone
+Tom Peaks,{Gone},f,{26119},Gone
+Not Important,{Hatred},f,{26120},Hatred
+Popeye,"{Genndy|Tartakovsky,Cancelled}",f,{26121},Genndy's Cancelled Popeye Movie
+Dexter Riley,{Medfield},t,{26122},Medfield Trilogy
+Dexter Riley,"{`"Computer Wore Tennis Shoes`"}",t,{26122},Medfield Trilogy
+Dexter Riley,"{`"Now You See Him`"}",t,{26122},Medfield Trilogy
+Dexter Riley,"{`"Strongest Man in the World`"}",t,{26122},Medfield Trilogy
+Vegeta,{Daima},f,{26123},Dragon Ball Daima
+Goku,{Daima},f,{26124},Dragon Ball Daima
+Guard Dog,"{`"Meet the Guard Dog`"}",f,{26125},Meet the Guard Dog
+Nick,"{`"Nick (and|&) Lever`"}",f,{26126},Nick & Lever
+Lever,"{`"Nick (and|&) Lever`"}",f,{26126},Nick & Lever
+Herobrine,"{`"\\(HIM\\)`"}",f,{26127},HIM
+Lucius the Eternal,{(WH)?40K},t,{26128},Warhammer 40k
+Lucius the Eternal,{Warhammer},t,{26128},Warhammer 40k
+Lucius,{(WH)?40K},f,{26128},Warhammer 40k
+Lucius,{Warhammer},f,{26128},Warhammer 40k
+Rick Grimes 2000,"{`"Wa(lk|kl)ing Dead`"}",t,{26129},The Walking Dead
+Gryphon,"{`"Godzilla Found Footage`"}",f,{26130},Godzilla Found Footage
+Zilla,"{Gryphon,`"Godzilla Found Footage`"}",f,{26131},Godzilla Found Footage
+Millennial Tree Cookie,{CookieRun},t,{26132},CookieRun
+Ichi,"{`"Ichi ?\\(Ichi the Killer\\)`"}",f,{26133},Ichi the Killer
+Ichi,"{`"Ichi the Killer`",`"(Film|Movie) Ichi`"}",f,{26133},Ichi the Killer
+Ssssalbatore,{Rio},t,{26134},Rio
+Bill Rizer,{Contra},t,"{25532,26117}",Contra
