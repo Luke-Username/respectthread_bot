@@ -107,6 +107,64 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect the Pelekai ''Ohana (Chibi Tiny Tales)", 'https://redd.it/1l2kn1h')
+add_data(['Pelekai ''ohana'],
+"Pelekai ''ohana",
+True,
+False,
+[
+    ['Chibi Tiny Tales']
+],
+'Chibi Tiny Tales',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l2kn1h/respect_the_pelekai_%CA%BBohana_chibi_tiny_tales/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Carrie Kelly (DC Comics, Earth-31)', 'https://redd.it/1l2mpz2')
+add_data(['Carrie Kelle?y'],
+"Carrie Kelley",
+False,
+False,
+[
+    ['Earth(-| )31']
+],
+'Earth-31',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l2mpz2/respect_carrie_kelly_dc_comics_earth31/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the BLU Pyro (Meet the BLU Pyro)', 'https://redd.it/1l2nu1d')
+add_data(['BLU Pyro'],
+'BLU Pyro',
+False,
+False,
+[
+    ['Meet the BLU Pyro']
+],
+'Meet the BLU Pyro',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l2nu1d/respect_the_blu_pyro_meet_the_blu_pyro/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Norman (Pokemon Anime)', 'https://redd.it/1l2pigw')
+add_data(['Norman'],
+'Norman',
+False,
+False,
+[
+    ['Norman ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l2pigw/respect_norman_pokemon_anime/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
