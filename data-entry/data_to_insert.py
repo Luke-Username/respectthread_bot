@@ -107,6 +107,85 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['The Maker'],
+'The Maker',
+False,
+False,
+[
+    ['Batman who Laughs', 'Dreadpool']
+],
+'1610',
+'{2537}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1l36clc/the_batman_who_laughs_vs_the_maker_vs_superior/mvycsua/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect the cast! (2022''s Bullet Train)", 'https://redd.it/18sz6zd')
+add_data(['Bullet Train cast'],
+'Bullet Train cast',
+True,
+True,
+[
+    ['2022']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/CasualRespectThreads/comments/18sz6zd/respect_the_cast_2022s_bullet_train/
+
+add_data(['The Wolf'],
+'The Wolf',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/CasualRespectThreads/comments/18sz6zd/respect_the_cast_2022s_bullet_train/
+
+add_data(['White Death'],
+'White Death',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/CasualRespectThreads/comments/18sz6zd/respect_the_cast_2022s_bullet_train/
+
+
+add_data(['Lemon'],
+'Lemon',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/CasualRespectThreads/comments/18sz6zd/respect_the_cast_2022s_bullet_train/
+
+add_data(['The Hornet'],
+'The Hornet',
+False,
+False,
+[
+    ['Bullet Train']
+],
+'Bullet Train',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/CasualRespectThreads/comments/18sz6zd/respect_the_cast_2022s_bullet_train/
+
+
+########################################
+
 id = get_rt_id(cur, "Respect the Pelekai ''Ohana (Chibi Tiny Tales)", 'https://redd.it/1l2kn1h')
 add_data(['Pelekai ''ohana'],
 "Pelekai ''ohana",
@@ -164,6 +243,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1l2pigw/respect_norman_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Max (Pokemon Anime)', 'https://redd.it/1l3hi72')
+add_data(['Max'],
+'Max',
+False,
+False,
+[
+    ['Max ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
