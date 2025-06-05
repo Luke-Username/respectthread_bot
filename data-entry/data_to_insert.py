@@ -107,6 +107,47 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Disney Princess'],
+'Disney Princess',
+True,
+False,
+[
+    ['(which|every) Disney Princess']
+],
+'',
+'{26057}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1knc2ac/which_disney_princess_has_the_strongest/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the RED Engineer (Meet the Gunslinger)', 'https://redd.it/1l3zk6m')
+add_data(['RED Engineer'],
+'RED Engineer',
+False,
+False,
+[
+    ['Meet the Gunslinger']
+],
+'Meet the Gunslinger',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l3zk6m/respect_the_red_engineer_meet_the_gunslinger/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zhou Yu (Fate/Samurai Remnant)', 'https://redd.it/1l3zns0')
+add_data(['Zhou Yu'],
+'Zhou Yu',
+False,
+False,
+[
+    ['Fate'], ['Samurai Remnant']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l3zns0/respect_zhou_yu_fatesamurai_remnant/
 
 ########################################
 
