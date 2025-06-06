@@ -112,7 +112,7 @@ add_data(['Disney Princess'],
 True,
 False,
 [
-    ['(which|every) Disney Princess']
+    ['(which|every|strongest|most powerful) Disney Princess'], ['Disney Princess battle royale?']
 ],
 '',
 '{26057}'
