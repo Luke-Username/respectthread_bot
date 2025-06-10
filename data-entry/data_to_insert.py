@@ -151,6 +151,180 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Featuring Big D! (Hunter: the Parenting)', 'https://redd.it/1l3507o')
+add_data(['Big D'],
+'Big D',
+False,
+False,
+[
+    ['Hunter:? the Parenting']
+],
+'Hunter: the Parenting',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1l69p9o/scp001ex_and_big_d_vs_the_wod/mwn2t9x/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dreamer (DC Comics, Post-Flashpoint)', 'https://redd.it/1l4vmrs')
+add_data(['Dreamer'],
+'Dreamer',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Nia Nal'],
+'Nia Nal',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+add_data(['Nia Nal'],
+'Nia Nal',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse']
+],
+'CW Arrowverse',
+'{}'
+)
+#
+
+add_data(['Dreamer'],
+'Dreamer',
+False,
+False,
+[
+    ['(Fl)?arrow(-| )?verse']
+],
+'CW Arrowverse',
+'{}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman! (DC Comics, Absolute Universe)', 'https://redd.it/1l6l3fz')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Absolute Universe']
+],
+'Absolute Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l6l3fz/respect_superman_dc_comics_absolute_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Ultimate Beetle (Marvel, 1610)', 'https://redd.it/1l7juav')
+add_data(['Ultimate Beetle'],
+'Ultimate Beetle',
+False,
+False,
+[
+    ['1610']
+],
+'1610',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l7juav/respect_ultimate_beetle_marvel_1610/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Serverblight (Serverblight)', 'https://redd.it/1l775yi')
+add_data(['Serverblight'],
+'Serverblight',
+False,
+True,
+[
+    ['Serverblight series']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l775yi/respect_the_serverblight_serverblight/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Godzilla Found Footage)', 'https://redd.it/1l791tc')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Gryphon', 'Godzilla Found Footage']
+],
+'Godzilla Found Footage',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (Predator Killer Of Killers)', 'https://redd.it/1l7ljfp')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Killer Of Killers']
+],
+'Predator: Killer Of Killers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l7ljfp/respect_the_predators_predator_killer_of_killers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Amaki Sena! (Blue Ursus)', 'https://redd.it/1l7m9xg')
+add_data(['Amaki Sena'],
+'Amaki Sena',
+False,
+False,
+[
+    ['Blue Ursus']
+],
+'Blue Ursus',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l7m9xg/respect_amaki_sena_blue_ursus/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Torosaurus (Dinosaur King)', 'https://redd.it/1l7pgqz')
+add_data(['Torosaurus'],
+'Torosaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l7pgqz/respect_torosaurus_dinosaur_king/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
