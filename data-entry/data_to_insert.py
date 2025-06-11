@@ -107,6 +107,72 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Humans (Predator: Killer of Killers)', 'https://redd.it/1l8qtjd')
+add_data(['Humans'],
+'Humans',
+False,
+False,
+[
+    ['Predator:? Killer of Killers']
+],
+'Predator: Killer of Killers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l8qtjd/respect_the_humans_predator_killer_of_killers/
+
+add_data(['Ursa'],
+'Ursa',
+False,
+False,
+[
+    ['Predator:? Killer of Killers']
+],
+'Predator: Killer of Killers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l8qtjd/respect_the_humans_predator_killer_of_killers/
+
+add_data(['Kenji'],
+'Kenji',
+False,
+False,
+[
+    ['Predator:? Killer of Killers']
+],
+'Predator: Killer of Killers',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l8qtjd/respect_the_humans_predator_killer_of_killers/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kiyoshi (Predator: Killer of Killers)', 'https://redd.it/1l8433a')
+add_data(['Kiyoshi'],
+'Kiyoshi',
+False,
+False,
+[
+    ['Predator:? Killer of Killers']
+],
+'Predator: Killer of Killers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the monstrosity (Predator: Killer of Killers)', 'https://redd.it/1l8kuwa')
+add_data(['Monstrosity'],
+'Monstrosity',
+False,
+False,
+[
+    ['Predator:? Killer of Killers']
+],
+'Predator: Killer of Killers',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
