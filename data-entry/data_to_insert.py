@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Storm'],
+'Storm',
+False,
+False,
+[
+    ['X-Men vs']
+],
+'616',
+'{2386}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1l9y9vx/xmen_vs_justice_league/mxhr5qu/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Humans (Predator: Killer of Killers)', 'https://redd.it/1l8qtjd')
 add_data(['Humans'],
 'Humans',
@@ -173,6 +187,96 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect David Bruce Banner, The Incredible Hulk (The Incredible Hulk (1978 Television Series))', 'https://redd.it/1l95a5m')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['David Banner'], ['(Incredible|TV) Hulk', '1978'], ['1978 Hulk']
+],
+'The Incredible Hulk, 1978',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Concrete (Paul Chadwick''s Concrete)", 'https://redd.it/1l95tkt')
+add_data(['Concrete'],
+'Concrete',
+False,
+False,
+[
+    ['Chadwick'], ['Ronald Lithgow']
+],
+'Paul Chadwick',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Saurolophus (Dinosaur King)', 'https://redd.it/1l9tiok')
+add_data(['Saurolophus'],
+'Saurolophus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1l9tiok/respect_saurolophus_dinosaur_king/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Deltadromeus (Dinosaur King)', 'https://redd.it/1lat5dd')
+add_data(['Deltadromeus'],
+'Deltadromeus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Predator (Fortnite)', 'https://redd.it/1layps7')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Puk Puck! (Magical Girl Raising Project)', 'https://redd.it/1lbdai9')
+add_data(['Puk Puck'],
+'Puk Puck',
+False,
+False,
+[
+    ['Magical Girl Raising Project'], ['Mahou Shoujo Ikusei Keikaku']
+],
+'Magical Girl Raising Project',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lbdai9/respect_puk_puck_magical_girl_raising_project/
 
 ########################################
 

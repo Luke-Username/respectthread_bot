@@ -14,7 +14,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character_name SET name='Proxima Midnight' WHERE name='Proxima';
+
 ########################################
+
+DELETE FROM character WHERE default_name='General Grievous' AND displayed_version_name='Star Wars Legends';
+UPDATE character SET rt_id_array='{317, 5972}' WHERE rt_id_array='{317}';
 
 ########################################
 
