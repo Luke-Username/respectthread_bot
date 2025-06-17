@@ -121,6 +121,32 @@ False,
 
 ########################################
 
+add_data(['Bloodsport'],
+'Bloodsport',
+False,
+False,
+[
+    ['DC', 'Mercenary Soldier']
+],
+'DC',
+'{25566}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ld530r/dc_and_marvel_mercenary_soldier_type_ffa/my5iewl/?context=3
+
+add_data(['Peace ?maker'],
+'Peacemaker',
+False,
+False,
+[
+    ['DC', 'Mercenary Soldier']
+],
+'DC',
+'{21323}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ld530r/dc_and_marvel_mercenary_soldier_type_ffa/my5iewl/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Humans (Predator: Killer of Killers)', 'https://redd.it/1l8qtjd')
 add_data(['Humans'],
 'Humans',
@@ -277,6 +303,243 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1lbdai9/respect_puk_puck_magical_girl_raising_project/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Magneto (Fortnite)', 'https://redd.it/1lbp6z7')
+add_data(['Magneto'],
+'Magneto',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lbp6z7/respect_magneto_fortnite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iguanodon (Dinosaur King)', 'https://redd.it/1lbqnyd')
+add_data(['Iguanodon'],
+'Iguanodon',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lbqnyd/respect_iguanodon_dinosaur_king/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Azuka (Dreamwalker)', 'https://redd.it/1lbrlq4')
+add_data(['Azuka'],
+'Azuka',
+False,
+False,
+[
+    ['Dreamwalker']
+],
+'Dreamwalker',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lbrlq4/respect_azuka_dreamwalker/
+
+########################################
+
+id = get_rt_id(cur, "Respect Ruti Ragnason! (Banished from the Hero''s Party)", 'https://redd.it/1lc45v1')
+add_data(['Ruti Ragnason'],
+'Ruti Ragnason',
+False,
+True,
+[
+    ['Banished from the Hero''?s Party']
+],
+"Banished from the Hero''s Party",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lc45v1/respect_ruti_ragnason_banished_from_the_heros/
+
+add_data(['Ruti'],
+'Ruti',
+False,
+False,
+[
+    ['Banished from the Hero''?s Party']
+],
+"Banished from the Hero''s Party",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lc45v1/respect_ruti_ragnason_banished_from_the_heros/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mantra (Malibu Comics, Ultraverse)', 'https://redd.it/1ld9lwf')
+add_data(['Mantra'],
+'Mantra',
+False,
+False,
+[
+    ['Ultraverse']
+],
+"Ultraverse",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ld9lwf/respect_mantra_malibu_comics_ultraverse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Marvin the Martian (Looney Tunes - DC Comics)', 'https://redd.it/1lcs5uk')
+add_data(['Marvin the Martian'],
+'Marvin the Martian',
+False,
+False,
+[
+    ['DC']
+],
+"DC",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Johnathan Smatten''s Robotic Knight and the Super-Sword of Krypton (DC Comics, Pre-Crisis)", 'https://redd.it/1ld5unt')
+add_data(["Johnathan Smatten''s Robotic Knight"],
+"Johnathan Smatten''s Robotic Knight",
+False,
+True,
+[
+    ['DC Comics']
+],
+"DC",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Super(-| )Sword of Krypton'],
+'Super-Sword of Krypton',
+False,
+True,
+[
+    ['DC Comics']
+],
+"DC",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(["Johnathan Smatten''s Robotic Knight"],
+"Johnathan Smatten''s Robotic Knight",
+False,
+True,
+[
+    ['Pre(-| )?Crisis']
+],
+"Pre-Crisis",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Super(-| )Sword of Krypton'],
+'Super-Sword of Krypton',
+False,
+True,
+[
+    ['Pre(-| )?Crisis']
+],
+"Pre-Crisis",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ld5unt/respect_johnathan_smattens_robotic_knight_and_the/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lar-On, the Werewolf of Krypton! (DC, Pre-Crisis)', 'https://redd.it/1ld86mm')
+add_data(['Lar(-| )On'],
+'Lar-On',
+False,
+False,
+[
+    ['DC Comics'], ['Krypton(ian|ite)?'], ['Werewolf']
+],
+"DC",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Lar(-| )On'],
+'Lar-On',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+"Pre-Crisis",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Susan Terry, the Were-Unicorn! (DC, Pre-Crisis)', 'https://redd.it/1ld86nr')
+add_data(['Susan Terry,? the Were(-| )Unicorn'],
+'Susan Terry, the Were-Unicorn',
+False,
+True,
+[
+    ['DC Comics']
+],
+"DC",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Susan Terry,? the Were(-| )Unicorn'],
+'Susan Terry, the Were-Unicorn',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+"Pre-Crisis",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ld86nr/respect_susan_terry_the_wereunicorn_dc_precrisis/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Batman, the Were-Bat! (DC, Pre-Crisis)', 'https://redd.it/1ld86ox')
+add_data(['Batman,? the Were(-| )Bat'],
+'Batman, the Were-Bat',
+False,
+True,
+[
+    ['DC Comics']
+],
+"DC",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ld86ox/respect_batman_the_werebat_dc_precrisis/
+
+add_data(['Batman,? the Were(-| )Bat'],
+'Batman, the Were-Bat',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+"Pre-Crisis",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ld86ox/respect_batman_the_werebat_dc_precrisis/
 
 ########################################
 

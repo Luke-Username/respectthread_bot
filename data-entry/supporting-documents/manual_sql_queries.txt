@@ -23,7 +23,11 @@ UPDATE character SET rt_id_array='{317, 5972}' WHERE rt_id_array='{317}';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Jesus', 'Paul monroe Jesus', -12);
+
 ########################################
+
+UPDATE character_name SET name='John( F\\.)? Walker' WHERE name='John Walker';
 
 ########################################
 
