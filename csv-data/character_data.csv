@@ -1593,10 +1593,6 @@ Darth Vader,"{`"Star Wars`"}",t,"{314,17674}",Star Wars
 Boba Fett,"{`"Star Wars`"}",t,"{308,25882}",Star Wars
 Nines,"{`"Force Awakens`"}",f,{316},Star Wars
 Nines,{Stormtrooper},f,{316},Star Wars
-General Grievous,"{`"Star Wars`"}",t,{317},Star Wars
-General Grievous,{Legends},f,{5972},Star Wars Legends
-General Grievous,"{`"Extended Universe`"}",f,{5972},Star Wars Legends
-General Grievous,{EU},f,{5972},Star Wars Legends
 Jango Fett,"{`"Star Wars`"}",t,{318},Star Wars
 Jar Jar Binks,"{`"Star Wars`"}",t,{319},Star Wars
 K-2SO,"{`"Star Wars`"}",t,{320},Star Wars
@@ -1651,6 +1647,7 @@ Guardian Knights,"{`"Transformers Movies`"}",f,{336},Transformers Films
 Guardian Knights,{Bay},f,{336},Transformers Films
 Luke,"{`"Star Wars`"}",f,"{322,5973}",Star Wars
 Luke Skywalker,"{`"Star Wars`"}",t,"{322,5973}",Star Wars
+General Grievous,"{`"Star Wars`"}",t,"{317,5972}",Star Wars
 Guardian Knights,{Bayverse},f,{336},Transformers Films
 Guardian Knights,{Bayformers},f,{336},Transformers Films
 Guardian Knights,"{`"The Last Knight`"}",f,{336},Transformers Films
@@ -29481,8 +29478,6 @@ Terrako,"{`"Hyrule Warriors`"}",f,{23771},Hyrule Warriors
 Nate Sutter,"{`"Candy Shop War`"}",f,{23772},The Candy Shop War
 Robin Hood,{Akechi},f,{},Persona
 War Devil,"{`"Chainsaw(-| )?Man`"}",f,{22363},Chainsaw Man
-Gr(iev|evi|eiv)ous,"{`"S(tar )?Wars`"}",f,{317},Star Wars
-Gr(iev|evi|eiv)ous,"{`"light ?sabers?`"}",f,{317},Star Wars
 Megazord,"{`"Power Rangers?`"}",t,{23775},Power Rangers
 Super Science Friends,"{`"Super Science Friends ?\\(Super Science Friends\\)`"}",t,{23776},""
 Saneegee,"{`"Cartoon Fight Club`"}",t,{23777},Cartoon Fight Club
@@ -29507,6 +29502,8 @@ Daruk,{T?LOZ},t,{23787},Breath of the Wild
 Daruk,"{`"Breath of the Wild`"}",t,{23787},Breath of the Wild
 Daruk,{BOTW},t,{23787},Breath of the Wild
 Daruk,"{`"Age of Calamity`"}",t,{23787},Breath of the Wild
+Gr(iev|evi|eiv)ous,"{`"S(tar )?Wars`"}",f,"{317,5972}",Star Wars
+Gr(iev|evi|eiv)ous,"{`"light ?sabers?`"}",f,"{317,5972}",Star Wars
 Revali,{Zelda},t,{23788},Breath of the Wild
 Revali,{T?LOZ},t,{23788},Breath of the Wild
 Revali,"{`"Breath of the Wild`"}",t,{23788},Breath of the Wild
@@ -33474,3 +33471,40 @@ Godzilla,"{Gryphon,`"Godzilla Found Footage`"}",f,{26148},Godzilla Found Footage
 Predators,"{`"Killer Of Killers`"}",f,{26149},Predator: Killer Of Killers
 Amaki Sena,"{`"Blue Ursus`"}",f,{26150},Blue Ursus
 Torosaurus,"{`"Dinosaur King`"}",f,{26151},Dinosaur King
+Storm,"{`"X-Men vs`"}",f,{2386},616
+Bloodsport,"{DC,`"Mercenary Soldier`"}",f,{25566},DC
+Peacemaker,"{DC,`"Mercenary Soldier`"}",f,{21323},DC
+Humans,"{`"Predator:? Killer of Killers`"}",f,{26152},Predator: Killer of Killers
+Ursa,"{`"Predator:? Killer of Killers`"}",f,{26152},Predator: Killer of Killers
+Kenji,"{`"Predator:? Killer of Killers`"}",f,{26152},Predator: Killer of Killers
+Kiyoshi,"{`"Predator:? Killer of Killers`"}",f,{26153},Predator: Killer of Killers
+Monstrosity,"{`"Predator:? Killer of Killers`"}",f,{26154},Predator: Killer of Killers
+Hulk,"{`"David Banner`"}",f,{26155},"The Incredible Hulk, 1978"
+Hulk,"{`"(Incredible|TV) Hulk`",1978}",f,{26155},"The Incredible Hulk, 1978"
+Hulk,"{`"1978 Hulk`"}",f,{26155},"The Incredible Hulk, 1978"
+Concrete,{Chadwick},f,{26156},Paul Chadwick
+Concrete,"{`"Ronald Lithgow`"}",f,{26156},Paul Chadwick
+Saurolophus,"{`"Dinosaur King`"}",f,{26157},Dinosaur King
+Deltadromeus,"{`"Dinosaur King`"}",f,{26158},Dinosaur King
+Predator,{Fortnite},f,{26159},Fortnite
+Puk Puck,"{`"Magical Girl Raising Project`"}",f,{26160},Magical Girl Raising Project
+Puk Puck,"{`"Mahou Shoujo Ikusei Keikaku`"}",f,{26160},Magical Girl Raising Project
+Magneto,{Fortnite},f,{26161},Fortnite
+Iguanodon,"{`"Dinosaur King`"}",f,{26162},Dinosaur King
+Azuka,{Dreamwalker},f,{26163},Dreamwalker
+Ruti Ragnason,"{`"Banished from the Hero?s Party`"}",t,{26164},Banished from the Hero's Party
+Ruti,"{`"Banished from the Hero?s Party`"}",f,{26164},Banished from the Hero's Party
+Mantra,{Ultraverse},f,{26165},Ultraverse
+Marvin the Martian,{DC},f,{26166},DC
+Johnathan Smatten's Robotic Knight,"{`"DC Comics`"}",t,{26167},DC
+Super-Sword of Krypton,"{`"DC Comics`"}",t,{26167},DC
+Johnathan Smatten's Robotic Knight,"{`"Pre(-| )?Crisis`"}",t,{26167},Pre-Crisis
+Super-Sword of Krypton,"{`"Pre(-| )?Crisis`"}",t,{26167},Pre-Crisis
+Lar-On,"{`"DC Comics`"}",f,{26168},DC
+Lar-On,{Krypton(ian|ite)?},f,{26168},DC
+Lar-On,{Werewolf},f,{26168},DC
+Lar-On,"{`"Pre(-| )?Crisis`"}",f,{26168},Pre-Crisis
+"Susan Terry, the Were-Unicorn","{`"DC Comics`"}",t,{26169},DC
+"Susan Terry, the Were-Unicorn","{`"Pre(-| )?Crisis`"}",f,{26169},Pre-Crisis
+"Batman, the Were-Bat","{`"DC Comics`"}",t,{26170},DC
+"Batman, the Were-Bat","{`"Pre(-| )?Crisis`"}",f,{26170},Pre-Crisis
