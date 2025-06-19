@@ -107,6 +107,79 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Bastila Shan (Star Wars)', 'https://redd.it/1ldq0xo')
+add_data(['Bastila Shan'],
+'Bastila Shan',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ldq0xo/respect_bastila_shan_star_wars/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hawkeye (Marvel, 6160)', 'https://redd.it/1le6oww')
+add_data(['Hawk(-| )?(eye|guy)s?'],
+'Hawkeye',
+False,
+False,
+[
+    ['6160']
+],
+'6160',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1le6oww/respect_hawkeye_marvel_6160/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Angie (Pokemon Anime)', 'https://redd.it/1lehmwx')
+add_data(['Angie'],
+'Angie',
+False,
+False,
+[
+    ['Angie ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lehmwx/respect_angie_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gus Riggs (The Tripper)', 'https://redd.it/1lexjmv')
+add_data(['Gus Riggs'],
+'Gus Riggs',
+False,
+False,
+[
+    ['Tripper']
+],
+'The Tripper',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lexjmv/respect_gus_riggs_the_tripper/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hunter (Eerie)', 'https://redd.it/1lf1hp8')
+add_data(['Hunter'],
+'Hunter',
+False,
+False,
+[
+    ['Hunter ?\(Eerie']
+],
+'Eerie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lf1hp8/respect_hunter_eerie/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
