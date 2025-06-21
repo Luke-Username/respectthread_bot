@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Giran (Dragonball)', 'https://redd.it/1lf7noi'); SELECT * FROM respectthread WHERE link='https://redd.it/1lf7noi';
+UPDATE character SET rt_id_array='{14825, ?}' WHERE rt_id_array='{14825}';
+
 ########################################
 
 ########################################

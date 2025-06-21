@@ -106,6 +106,21 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+########################################
+
+add_data(['Nolan Gr(a|e)yson'],
+'Nolan Grayson',
+False,
+True,
+[
+    ['Invincible']
+],
+'Invincible',
+'{1962,16453}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1lg2t38/hashirama_vs_nolan_greyson/
+
+########################################
 
 id = get_rt_id(cur, 'Respect Bastila Shan (Star Wars)', 'https://redd.it/1ldq0xo')
 add_data(['Bastila Shan'],
@@ -179,6 +194,81 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1lf1hp8/respect_hunter_eerie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sam Harper (Uncle Sam)', 'https://redd.it/1lfcsz6')
+add_data(['Sam Harper'],
+'Sam Harper',
+False,
+False,
+[
+    ['Uncle Sam']
+],
+'Uncle Sam',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lfcsz6/respect_sam_harper_uncle_sam/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rodimus (Transformers: Last Bot Standing)', 'https://redd.it/1lgmhpm')
+add_data(['Rodimus'],
+'Rodimus',
+False,
+False,
+[
+    ['Last Bot Standing']
+],
+'Transformers: Last Bot Standing',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lgmhpm/respect_rodimus_transformers_last_bot_standing/
+
+########################################
+
+id = get_rt_id(cur, "Respect Yamada Asaemon Sagiri (Jigokuraku - Hell''s Paradise)", 'https://redd.it/1lgop9j')
+add_data(['Yamada Asaemon Sagiri'],
+'Yamada Asaemon Sagiri',
+False,
+True,
+[
+    ['Jigokuraku']
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lh1jl3/respect_yuzuriha_of_keishu_jigokuraku_hells/
+
+########################################
+
+id = get_rt_id(cur, "Respect Yuzuriha of Keishu (Jigokuraku - Hell''s Paradise)", 'https://redd.it/1lh1jl3')
+add_data(['Yuzuriha'],
+'Yuzuriha',
+False,
+False,
+[
+    ['Jigokuraku'], ['Yuzuriha of Keishu'], ["Hell''s Paradise"]
+],
+"Hell''s Paradise: Jigokuraku",
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lh1jl3/respect_yuzuriha_of_keishu_jigokuraku_hells/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Victoria Ash! (Vampire: the Masquerade)', 'https://redd.it/1lh2ibk')
+add_data(['Victoria Ash'],
+'Victoria Ash',
+False,
+False,
+[
+    ['Vampire:? The Masquerade']
+],
+'Vampire: The Masquerade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lh2ibk/respect_victoria_ash_vampire_the_masquerade/
 
 ########################################
 
