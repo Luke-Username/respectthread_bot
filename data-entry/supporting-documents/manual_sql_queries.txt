@@ -19,7 +19,11 @@ UPDATE character SET rt_id_array='{14825, ?}' WHERE rt_id_array='{14825}';
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Aragor?n', 'Lucita De Aragon', -10);
+
 ########################################
+
+UPDATE character SET rt_id_array='{3409, 3422}' WHERE rt_id_array='{3422}';
 
 ########################################
 

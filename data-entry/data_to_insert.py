@@ -272,6 +272,66 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Bacterian (Dragon Ball)', 'https://redd.it/1lhp8b0')
+add_data(['Bacterian'],
+'Bacterian',
+False,
+False,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)?'], ['Krillin'], ['Ultra Instinct']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lhp8b0/respect_bacterian_dragon_ball/
+
+########################################
+
+id = get_rt_id(cur, 'Respect King Chappa (Dragon Ball)', 'https://redd.it/1lhp9ee')
+add_data(['King Chappa'],
+'King Chappa',
+False,
+True,
+[
+    ['Dragon ?Ball'], ['DB(Z|S)?'], ['Martial Arts Tournament']
+],
+'Dragon Ball',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Optimus Prime (The Transformers 1984)', 'https://redd.it/1lhq5a0')
+add_data(['Optimus Prime'],
+'Optimus Prime',
+False,
+True,
+[
+    ['The Transformers'], ['198(4|0s?)']
+],
+'The Transformers, 1984',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lhq5a0/respect_optimus_prime_the_transformers_1984/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Megatron (The Transformers 1984)', 'https://redd.it/1lhq5ce')
+add_data(['Megatron'],
+'Megatron',
+False,
+True,
+[
+    ['The Transformers'], ['198(4|0s?)']
+],
+'The Transformers, 1984',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lhq5ce/respect_megatron_the_transformers_1984/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
