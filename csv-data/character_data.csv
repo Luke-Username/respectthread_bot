@@ -11671,8 +11671,6 @@ Happosai,{Ranma},t,{4453},Ranma ½
 Kodachi Kuno,{Ranma},t,{4454},Ranma ½
 Lust,"{`"Full ?metal`"}",f,"{3410,9297}",Fullmetal Alchemist
 Lust,{FMA:?B?},f,"{3410,9297}",Fullmetal Alchemist
-Wrath,"{`"Full ?metal`"}",f,{3422},Fullmetal Alchemist
-Wrath,{FMA:?B?},f,{3422},Fullmetal Alchemist
 Edward Elric,"{`"Full ?metal`"}",t,"{3404,9298}",Fullmetal Alchemist
 Edward Elric,{FMA:?B?},t,"{3404,9298}",Fullmetal Alchemist
 Edward,"{`"Full ?metal`"}",f,"{3404,9298}",Fullmetal Alchemist
@@ -11702,6 +11700,8 @@ Envy,"{`"Full ?metal`"}",f,"{13608,9292}",Fullmetal Alchemist
 Envy,{FMA},f,"{13608,9292}",Fullmetal Alchemist
 Ultimate Predator,"{`"The Predator`"}",f,{9309},The Predator
 Riza Hawkeye,"{`"Full ?metal`"}",t,"{23550,9296}",Fullmetal Alchemist
+Wrath,"{`"Full ?metal`"}",f,"{3409,3422}",Fullmetal Alchemist
+Wrath,{FMA:?B?},f,"{3409,3422}",Fullmetal Alchemist
 Wizard of Speed and Time,"{`"Wizard of Speed and Time`"}",t,{9311},""
 Elizabeth,{Persona},f,{9312},Persona
 Shepard,"{`"Mass Effect`"}",f,{9313},Mass Effect
@@ -17464,12 +17464,9 @@ Arthur Fleck,{Joker},t,{14823},"Joker, 2019"
 Doomsday,"{`"DC Animated Film Universe`"}",f,{14824},DC Animated Movie Universe
 Doomsday,{DCA(F|M)U},f,{14824},DC Animated Movie Universe
 Doomsday,"{`"DC Animated Movies?`"}",f,{14824},DC Animated Movie Universe
-Giran,"{`"Dragon ?Ball`"}",f,{14825},Dragon Ball
-Giran,{DB(Z|S)?},f,{14825},Dragon Ball
 Thriller,"{`"Sting of Death`"}",f,{14802},The Sting of Death
-Giran,"{`"Monster Beast`"}",f,{14825},Dragon Ball
-Giran,{Tien},f,{14825},Dragon Ball
-Giran,{Goku},f,{14825},Dragon Ball
+Giran,"{`"Dragon ?Ball`"}",f,"{14825,26171}",Dragon Ball
+Giran,{DB(Z|S)?},f,"{14825,26171}",Dragon Ball
 Namu,"{`"Dragon ?Ball`"}",f,{14826},Dragon Ball
 Namu,{DB(Z|S)?},f,{14826},Dragon Ball
 Namu,{Goku},f,{14826},Dragon Ball
@@ -17536,6 +17533,7 @@ Alatreon,"{`"Monster Hunter`"}",t,{14847},Monster Hunter
 Zinogre,"{`"Monster Hunter`"}",t,{14848},Monster Hunter
 Valstrax,"{`"Monster Hunter`"}",t,{14849},Monster Hunter
 Gore Magala,"{`"Monster Hunter`"}",t,{14850},Monster Hunter
+Giran,"{`"Monster Beast`"}",f,"{14825,26171}",Dragon Ball
 Shagaru Magala,"{`"Monster Hunter`"}",t,{14850},Monster Hunter
 Rajang,"{`"Monster Hunter`"}",t,{14851},Monster Hunter
 Lyra,{6009},f,{14852},6009
@@ -33508,3 +33506,29 @@ Lar-On,"{`"Pre(-| )?Crisis`"}",f,{26168},Pre-Crisis
 "Susan Terry, the Were-Unicorn","{`"Pre(-| )?Crisis`"}",f,{26169},Pre-Crisis
 "Batman, the Were-Bat","{`"DC Comics`"}",t,{26170},DC
 "Batman, the Were-Bat","{`"Pre(-| )?Crisis`"}",f,{26170},Pre-Crisis
+Giran,{Tien},f,"{14825,26171}",Dragon Ball
+Giran,{Goku},f,"{14825,26171}",Dragon Ball
+Nolan Grayson,{Invincible},t,"{1962,16453}",Invincible
+Bastila Shan,"{`"S(tar )?Wars`"}",t,{26172},Star Wars
+Hawkeye,{6160},f,{26173},6160
+Angie,"{`"Angie ?\\(Pok(e|é)m(o|a)n`"}",f,{26174},Pokémon
+Gus Riggs,{Tripper},f,{26175},The Tripper
+Hunter,"{`"Hunter ?\\(Eerie`"}",f,{26176},Eerie
+Sam Harper,"{`"Uncle Sam`"}",f,{26177},Uncle Sam
+Rodimus,"{`"Last Bot Standing`"}",f,{26178},Transformers: Last Bot Standing
+Yamada Asaemon Sagiri,{Jigokuraku},t,{26179},Hell's Paradise: Jigokuraku
+Yuzuriha,{Jigokuraku},f,{26180},Hell's Paradise: Jigokuraku
+Yuzuriha,"{`"Yuzuriha of Keishu`"}",f,{26180},Hell's Paradise: Jigokuraku
+Yuzuriha,"{`"Hell's Paradise`"}",f,{26180},Hell's Paradise: Jigokuraku
+Victoria Ash,"{`"Vampire:? The Masquerade`"}",f,{26181},Vampire: The Masquerade
+Bacterian,"{`"Dragon ?Ball`"}",f,{26182},Dragon Ball
+Bacterian,{DB(Z|S)?},f,{26182},Dragon Ball
+Bacterian,{Krillin},f,{26182},Dragon Ball
+Bacterian,"{`"Ultra Instinct`"}",f,{26182},Dragon Ball
+King Chappa,"{`"Dragon ?Ball`"}",t,{26183},Dragon Ball
+King Chappa,{DB(Z|S)?},t,{26183},Dragon Ball
+King Chappa,"{`"Martial Arts Tournament`"}",t,{26183},Dragon Ball
+Optimus Prime,"{`"The Transformers`"}",t,{26184},"The Transformers, 1984"
+Optimus Prime,{198(4|0s?)},t,{26184},"The Transformers, 1984"
+Megatron,"{`"The Transformers`"}",t,{26185},"The Transformers, 1984"
+Megatron,{198(4|0s?)},t,{26185},"The Transformers, 1984"
