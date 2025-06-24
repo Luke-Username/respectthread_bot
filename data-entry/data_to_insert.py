@@ -107,6 +107,55 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 21249, "Respect Gabimaru the Hollow (Jigokuraku - Hell''s Paradise)", 'https://redd.it/1lj341i')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Starscream (The Transformers 1984)', 'https://redd.it/1lioask')
+add_data(['Starscream'],
+'Starscream',
+False,
+True,
+[
+    ['The Transformers'], ['198(4|0s?)']
+],
+'The Transformers, 1984',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lioask/respect_starscream_the_transformers_1984/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Soundwave (The Transformers 1984)', 'https://redd.it/1lioatp')
+add_data(['Soundwave'],
+'Soundwave',
+False,
+False,
+[
+    ['The Transformers'], ['198(4|0s?)'], ['Soundwave ?\(Transformers\)']
+],
+'The Transformers, 1984',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lioatp/respect_soundwave_the_transformers_1984/
+
+########################################
+
+########################################
+
+id = get_rt_id(cur, 'Respect Uranos the Undying (Marvel Comics Earth 616)', 'https://redd.it/1lj3lbq')
+add_data(['Uranos'],
+'Uranos',
+False,
+False,
+[
+    ['616'], ['Uranos the Undying'], ['The Eternals']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lj3lbq/respect_uranos_the_undying_marvel_comics_earth_616/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

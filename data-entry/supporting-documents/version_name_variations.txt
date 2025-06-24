@@ -3643,6 +3643,12 @@ Trama Editorial
 	Displayed Version Name
 		"Trama Editorial Comics"
 
+Transformers (1984 Original)
+	Version
+		['The Transformers'], ['198(4|0s?)']
+	Displayed Version Name
+		"The Transformers, 1984"
+
 Transformers Films (Michael Bay)
 	Version
 		['Transformers (Film|Movie)s?'], ['Bay(verse|formers)'], ['Michael Bay'], ['Bay', 'Transformers']
