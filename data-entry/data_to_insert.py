@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 21249, "Respect Gabimaru the Hollow (Jigokuraku - Hell''s Paradise)", 'https://redd.it/1lj341i')
+update_respectthread(cur, 13094, "Respect Chucky (Child''s Play)", 'https://redd.it/1ljdwyi')
 
 ########################################
 
@@ -132,7 +133,7 @@ add_data(['Soundwave'],
 False,
 False,
 [
-    ['The Transformers'], ['198(4|0s?)'], ['Soundwave ?\(Transformers\)']
+    ['The Transformers'], ['Transformers', '198(4|0s?)'], ['Soundwave ?\(Transformers\)']
 ],
 'The Transformers, 1984',
 '{' + '{}'.format(id) + '}'
@@ -140,6 +141,36 @@ False,
 #https://www.reddit.com/r/respectthreads/comments/1lioatp/respect_soundwave_the_transformers_1984/
 
 ########################################
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bumblebee (The Transformers 1984)', 'https://redd.it/1ljkxqp')
+add_data(['Bumblebee'],
+'Bumblebee',
+False,
+False,
+[
+    ['The Transformers'], ['Transformers', '198(4|0s?)'], ['Bumblebee ?\(Transformers\)']
+],
+'The Transformers, 1984',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ljkxqp/respect_bumblebee_the_transformers_1984/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Unicron (The Transformers 1984)', 'https://redd.it/1ljkxs8')
+add_data(['Unicron'],
+'Unicron',
+False,
+True,
+[
+    ['The Transformers'], ['Transformers', '198(4|0s?)'], ['Unicron ?\(Transformers\)']
+],
+'The Transformers, 1984',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ljkxs8/respect_unicron_the_transformers_1984/
 
 ########################################
 
@@ -155,6 +186,48 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1lj3lbq/respect_uranos_the_undying_marvel_comics_earth_616/
+
+########################################
+
+id = get_rt_id(cur, 'Respect William Afton, The Animatronic (Dead By Daylight)', 'https://redd.it/1lje92y')
+add_data(['William Afton'],
+'William Afton',
+False,
+False,
+[
+    ['Dead by Daylight']
+],
+'Dead by Daylight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lje92y/respect_william_afton_the_animatronic_dead_by/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jinu Saja (KPop Demon Hunters)', 'https://redd.it/1lkdn2n')
+add_data(['Jinu Saja'],
+'Jinu Saja',
+False,
+False,
+[
+    ['KPop Demon Hunters']
+],
+'KPop Demon Hunters',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lkdn2n/respect_jinu_saja_kpop_demon_hunters/
+
+add_data(['Jinu'],
+'Jinu',
+False,
+False,
+[
+    ['KPop Demon Hunters']
+],
+'KPop Demon Hunters',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lkdn2n/respect_jinu_saja_kpop_demon_hunters/
 
 ########################################
 
