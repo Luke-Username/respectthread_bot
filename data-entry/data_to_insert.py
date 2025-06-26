@@ -112,6 +112,73 @@ update_respectthread(cur, 13094, "Respect Chucky (Child''s Play)", 'https://redd
 
 ########################################
 
+add_data(['Koichi'],
+'Koichi',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+'Jojo''s Bizarre Adventure',
+'{3579}'
+)
+#
+
+########################################
+
+add_data(['Kris'],
+'Kris',
+False,
+False,
+[
+    ['Deltarune']
+],
+'Deltarune',
+'{5499}'
+)
+#
+
+add_data(['Ralsei'],
+'Ralsei',
+False,
+False,
+[
+    ['Deltarune']
+],
+'Deltarune',
+'{5499}'
+)
+#
+
+add_data(['Susie'],
+'Susie',
+False,
+False,
+[
+    ['Deltarune']
+],
+'Deltarune',
+'{5499}'
+)
+#
+
+########################################
+
+add_data(['Kurama'],
+'Kurama',
+False,
+False,
+[
+    ['Yoko Kurama']
+],
+'Yu Yu Hakusho',
+'{4641}'
+)
+#
+
+
+########################################
+
 id = get_rt_id(cur, 'Respect Starscream (The Transformers 1984)', 'https://redd.it/1lioask')
 add_data(['Starscream'],
 'Starscream',
