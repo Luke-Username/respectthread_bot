@@ -298,6 +298,51 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect HUNTR/X! (KPop Demon Hunters)', 'https://redd.it/1llk6p8')
+add_data(['HUNTR/X'],
+'HUNTR/X',
+False,
+True,
+[
+    ['KPop Demon Hunters']
+],
+'KPop Demon Hunters',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1llk6p8/respect_huntrx_kpop_demon_hunters/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Saurophaganax (Dinosaur King)', 'https://redd.it/1llkb14')
+add_data(['Saurophaganax'],
+'Saurophaganax',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1llkb14/respect_saurophaganax_dinosaur_king/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chai! (Hi-Fi Rush)', 'https://redd.it/1llez8x')
+add_data(['Chai'],
+'Chai',
+False,
+False,
+[
+    ['Hi(-| )?Fi Rush']
+],
+'Hi-Fi Rush',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
