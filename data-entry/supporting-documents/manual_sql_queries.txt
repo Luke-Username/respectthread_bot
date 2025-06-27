@@ -14,8 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"Captain Nemo.*Fate"}' WHERE default_name='Captain Nemo' AND version='{"Fate"}';
-
 ########################################
 
 ########################################

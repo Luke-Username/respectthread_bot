@@ -26172,7 +26172,6 @@ Miyu Edelfelt,{Kaleid},t,{21685},Fate
 U-Olga,{Fate},t,{21686},Fate
 U-Olga,"{`"Grande? Order`"}",t,{21686},Fate
 U-Olga,"{`"F(ate )?/?GO`"}",t,{21686},Fate
-Captain Nemo,{Fate},f,{21687},Fate
 Captain Nemo,"{`"Grande? Order`"}",f,{21687},Fate
 Captain Nemo,"{`"F(ate )?/?GO`"}",f,{21687},Fate
 Ashiya Dōman,{Fate},f,{21688},Fate
@@ -26180,6 +26179,7 @@ Dioscuri,{Fate},f,{21689},Fate
 Dioscuri,"{`"Grande? Order`"}",f,{21689},Fate
 Ivan the Terrible,{Fate},f,{21690},Fate
 Batman,{Pattin?sons?},f,{22590},"The Batman, 2022"
+Captain Nemo,"{`"Captain Nemo.*Fate`"}",f,{21687},Fate
 Ivan the Terrible,"{`"Grande? Order`"}",f,{21690},Fate
 Scathach-Skadi,{Fate},t,{21691},Fate
 Scathach-Skadi,"{`"Grande? Order`"}",t,{21691},Fate
@@ -33532,3 +33532,26 @@ Optimus Prime,"{`"The Transformers`"}",t,{26184},"The Transformers, 1984"
 Optimus Prime,{198(4|0s?)},t,{26184},"The Transformers, 1984"
 Megatron,"{`"The Transformers`"}",t,{26185},"The Transformers, 1984"
 Megatron,{198(4|0s?)},t,{26185},"The Transformers, 1984"
+Koichi,{Jojos?(verse)?},f,{3579},Jojos Bizarre Adventure
+Koichi,{JJBA},f,{3579},Jojos Bizarre Adventure
+Kurama,"{`"Yoko Kurama`"}",f,{4641},Yu Yu Hakusho
+Starscream,"{`"The Transformers`"}",t,{26186},"The Transformers, 1984"
+Starscream,{198(4|0s?)},t,{26186},"The Transformers, 1984"
+Soundwave,"{`"The Transformers`"}",f,{26187},"The Transformers, 1984"
+Soundwave,"{Transformers,198(4|0s?)}",f,{26187},"The Transformers, 1984"
+Soundwave,"{`"Soundwave ?\\(Transformers\\)`"}",f,{26187},"The Transformers, 1984"
+Bumblebee,"{`"The Transformers`"}",f,{26188},"The Transformers, 1984"
+Bumblebee,"{Transformers,198(4|0s?)}",f,{26188},"The Transformers, 1984"
+Bumblebee,"{`"Bumblebee ?\\(Transformers\\)`"}",f,{26188},"The Transformers, 1984"
+Unicron,"{`"The Transformers`"}",t,{26189},"The Transformers, 1984"
+Unicron,"{Transformers,198(4|0s?)}",t,{26189},"The Transformers, 1984"
+Unicron,"{`"Unicron ?\\(Transformers\\)`"}",t,{26189},"The Transformers, 1984"
+Uranos,{616},f,{26190},616
+Uranos,"{`"Uranos the Undying`"}",f,{26190},616
+Uranos,"{`"The Eternals`"}",f,{26190},616
+William Afton,"{`"Dead by Daylight`"}",f,{26191},Dead by Daylight
+Jinu Saja,"{`"KPop Demon Hunters`"}",f,{26192},KPop Demon Hunters
+Jinu,"{`"KPop Demon Hunters`"}",f,{26192},KPop Demon Hunters
+HUNTR/X,"{`"KPop Demon Hunters`"}",t,{26193},KPop Demon Hunters
+Saurophaganax,"{`"Dinosaur King`"}",f,{26194},Dinosaur King
+Chai,"{`"Hi(-| )?Fi Rush`"}",f,{26195},Hi-Fi Rush
