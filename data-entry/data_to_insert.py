@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+
+id = get_rt_id(cur, 'Respect Aaron (Pokemon Anime)', 'https://redd.it/1lltebw')
+add_data(['Aaron'],
+'Aaron',
+False,
+False,
+[
+    ['Aaron ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lltebw/respect_aaron_pokemon_anime/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
