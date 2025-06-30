@@ -123,6 +123,187 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, "Respect Roark''s Rampardos (Pokemon Anime)", 'https://redd.it/1lnedmg')
+add_data(['Rampardos'],
+'Rampardos',
+False,
+False,
+[
+    ['Roark']
+],
+'Roark',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lnedmg/respect_roarks_rampardos_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wonder Woman (DC Comics, Absolute Universe)', 'https://redd.it/1ln3fy6')
+add_data(['Wonder ?Woman'],
+'Wonder Woman',
+False,
+False,
+[
+    ['Absolute Universe']
+],
+'Absolute Universe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nariko (Heavenly Sword)', 'https://redd.it/1lmjj1a')
+add_data(['Nariko'],
+'Nariko',
+False,
+False,
+[
+    ['Heavenly Sword']
+],
+'Heavenly Sword',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ampelosaurus (Dinosaur King)', 'https://redd.it/1lm7r01')
+add_data(['Ampelosaurus'],
+'Ampelosaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lm7r01/respect_ampelosaurus_dinosaur_king/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Saltasaurus (Dinosaur King)', 'https://redd.it/1ln24rh')
+add_data(['Saltasaurus'],
+'Saltasaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maiasaura (Dinosaur King)', 'https://redd.it/1lo5plf')
+add_data(['Maiasaura'],
+'Maiasaura',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fukuisaurus (Dinosaur King)', 'https://redd.it/1lnr6qp')
+add_data(['Fukuisaurus'],
+'Fukuisaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Meowdas (Fortnite)', 'https://redd.it/1lmbisf')
+add_data(['Meowdas'],
+'Meowdas',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Emperor Palpatine (Fortnite)', 'https://redd.it/1lmcejr')
+add_data(['Palpatine'],
+'Emperor Palpatine',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla! (Fortnite)', 'https://redd.it/1lnw5ev')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lnw5ev/respect_godzilla_fortnite/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wolverine! (Fortnite)', 'https://redd.it/1lo0wf6')
+add_data(['Wolverine'],
+'Wolverine',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scorpion! (Fortnite)', 'https://redd.it/1lo1crc')
+add_data(['Scorpion'],
+'Scorpion',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lo1crc/respect_scorpion_fortnite/
+
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
