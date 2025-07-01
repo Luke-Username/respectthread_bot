@@ -14,9 +14,16 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-########################################
+INSERT INTO respectthread (title, link) VALUES ('Respect Sasaki Kojirou, the Nameless Samurai! (Fate)', 'https://redd.it/sf1nrl'); SELECT * FROM respectthread WHERE link='https://redd.it/sf1nrl';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Sasaki Kojirō' AND displayed_version_name='Fate';
 
 ########################################
+
+UPDATE character SET version='{"Ghost.*616"}' WHERE default_name='Ghost' AND version='{"616"}';
+
+########################################
+
+UPDATE character_name SET name='((Motoko|Major) Kusanagi|Kusanagi Motoko)' WHERE name='(Motoko|Major) Kusanagi';
 
 ########################################
 

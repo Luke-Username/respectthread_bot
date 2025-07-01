@@ -107,6 +107,141 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 473, 'Respect Sonny (I, Robot film)', 'https://redd.it/1lokkuf')
+
+########################################
+
+add_data(['Doreen Green'],
+'Doreen Green',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{2468}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zeus! (Fortnite)', 'https://redd.it/1losqxs')
+add_data(['Zeus'],
+'Zeus',
+False,
+False,
+[
+    ['Zeus.*Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Ice King (Fortnite)', 'https://redd.it/1loorw0')
+add_data(['Ice King'],
+'Ice King',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Xanthe Zhou! (DC Comics)', 'https://redd.it/1load8o')
+add_data(['Xanthe Zhou'],
+'Xanthe Zhou',
+False,
+True,
+[
+    ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1load8o/respect_xanthe_zhou_dc_comics/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman (All-Star Superman Animated Film)', 'https://redd.it/1lodmg0')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['All(-| )Star', '(Film|Movie)']
+],
+'All-Star, Film',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roark (Pokemon Anime)', 'https://redd.it/1logkgj')
+add_data(['Roark'],
+'Roark',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1logkgj/respect_roark_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Byron (Pokemon Anime)', 'https://redd.it/1logl4s')
+add_data(['Byron'],
+'Byron',
+False,
+False,
+[
+    ['Byron.*Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rob, AKA Dr. Wrecker! (The Amazing World of Gumball)', 'https://redd.it/1lookyt')
+add_data(['Rob'],
+'Rob',
+False,
+False,
+[
+    ['World of Gumball'], ['Rob Gumball'], ['Dr\.? Wrecker'], ['Elmore Junior high']
+],
+'Amazing World of Gumball',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lookyt/respect_rob_aka_dr_wrecker_the_amazing_world_of/
+
+########################################
+
+id = get_rt_id(cur, 'Respect G.P. Lechuck (Monkey Island)', 'https://redd.it/1lp0ufy')
+add_data(['LeChuck'],
+'LeChuck',
+False,
+False,
+[
+    ['Monkey Island'], ['Ghost|Pirate'], ['G\?.P\.? LeChuck']
+],
+'Monkey Island',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lp0ufy/respect_gp_lechuck_monkey_island/
 
 ########################################
 
