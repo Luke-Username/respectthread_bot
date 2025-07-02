@@ -155,6 +155,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Iron Man! (Fortnite)', 'https://redd.it/1lphk49')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lphk49/respect_iron_man_fortnite/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Xanthe Zhou! (DC Comics)', 'https://redd.it/1load8o')
 add_data(['Xanthe Zhou'],
 'Xanthe Zhou',
@@ -242,6 +257,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1lp0ufy/respect_gp_lechuck_monkey_island/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Amargasaurus (Dinosaur King)', 'https://redd.it/1lpmddh')
+add_data(['Amargasaurus'],
+'Amargasaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lpmddh/respect_amargasaurus_dinosaur_king/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Larten Crepsley (Cirque Du Freak Novels)', 'https://redd.it/1lpd52x')
+add_data(['Larten Crepsley'],
+'Larten Crepsley',
+False,
+True,
+[
+    ['Cirque Du Freak']
+],
+'Cirque Du Freak',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lpd52x/respect_larten_crepsley_cirque_du_freak_novels/
 
 ########################################
 
