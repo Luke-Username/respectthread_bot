@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 473, 'Respect Sonny (I, Robot film)', 'https://redd.it/1lokkuf')
+update_respectthread(cur, 1503, 'Respect: Cassandra Cain, Batgirl ! (DC, Post-Flashpoint)', 'https://redd.it/1lqd5qa')
 
 ########################################
 
@@ -182,6 +183,8 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1load8o/respect_xanthe_zhou_dc_comics/
+
+########################################
 
 ########################################
 
@@ -272,6 +275,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1lpmddh/respect_amargasaurus_dinosaur_king/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Acrocanthosaurus (Dinosaur King)', 'https://redd.it/1lq7zgx')
+add_data(['Acrocanthosaurus'],
+'Acrocanthosaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
