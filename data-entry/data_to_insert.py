@@ -308,6 +308,66 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Larten Crepsley (Cirque Du Freak Novels)', 'https://redd.it/1lpd52x')
+add_data(['Larten Crepsley'],
+'Larten Crepsley',
+False,
+True,
+[
+    ['Cirque Du Freak']
+],
+'Cirque Du Freak',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Legion (Dead by Daylight)', 'https://redd.it/1lrhcme')
+add_data(['Legion'],
+'Legion',
+False,
+False,
+[
+    ['Dead by Daylight']
+],
+'Dead by Daylight',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lrhcme/respect_the_legion_dead_by_daylight/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Batman (DC Comics, Absolute Universe)', 'https://redd.it/1lrle3q')
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Absolute Universe']
+],
+'Absolute Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lrle3q/respect_batman_dc_comics_absolute_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dynamo! (T.H.U.N.D.E.R Agents)', 'https://redd.it/1ls2uqx')
+add_data(['Dynamo'],
+'Dynamo',
+False,
+False,
+[
+    ['T\.?H\.?U\.?N\.?D\.?E\.?R\.? Agents']
+],
+'T.H.U.N.D.E.R. Agents',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1ls2uqx/respect_dynamo_thunder_agents/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
