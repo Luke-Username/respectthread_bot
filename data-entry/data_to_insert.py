@@ -126,6 +126,20 @@ True,
 
 ########################################
 
+add_data(['Theo Bell'],
+'Theo Bell',
+False,
+False,
+[
+    ['Underworld']
+],
+'Vampire: the Masquerade',
+'{25663}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Zeus! (Fortnite)', 'https://redd.it/1losqxs')
 add_data(['Zeus'],
 'Zeus',
@@ -365,6 +379,36 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1ls2uqx/respect_dynamo_thunder_agents/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jet Jaguar (Godzilla vs. Avengers)', 'https://redd.it/1lskdta')
+add_data(['Jet Jaguar'],
+'Jet Jaguar',
+False,
+False,
+[
+    ['Godzilla vs\.? Avengers']
+],
+'Godzilla vs. Avengers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Godzilla vs. Marvel)', 'https://redd.it/1lsltwe')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Godzilla vs\. Marvel']
+],
+'Godzilla vs. Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
