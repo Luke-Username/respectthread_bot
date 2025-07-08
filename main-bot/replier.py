@@ -22,12 +22,14 @@ def generate_comment(cur, character_list: List[Character], with_footer: bool) ->
             if character.version != "":
                 reply_text += " ({})".format(character.version)
             reply_text += "**\n\n"
+
             rt_query = "SELECT c.* FROM respectthread c JOIN (VALUES "
             for i in range(len(character.respectthreads)):
                 rt_query += "({}, {}),".format(character.respectthreads[i], i)
             rt_query = rt_query.rstrip(",")
             rt_query += ") AS x (id, ordering) ON c.id = x.id ORDER BY x.ordering;"
             cur.execute(rt_query)
+            
             respectthreads = cur.fetchall()
             for row in respectthreads:
                 title = row[1].replace('[', '\[').replace(']', '\]')

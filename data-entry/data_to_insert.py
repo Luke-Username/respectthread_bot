@@ -292,6 +292,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Suchomimus (Dinosaur King)', 'https://redd.it/1lu8nwc')
+add_data(['Suchomimus'],
+'Suchomimus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Acrocanthosaurus (Dinosaur King)', 'https://redd.it/1lq7zgx')
 add_data(['Acrocanthosaurus'],
 'Acrocanthosaurus',
@@ -406,6 +421,51 @@ False,
     ['Godzilla vs\. Marvel']
 ],
 'Godzilla vs. Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thor (Godzilla vs. Thor)', 'https://redd.it/1lt8hcl')
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Godzilla vs\. Thor']
+],
+'Godzilla vs. Thor',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lt8hcl/respect_thor_godzilla_vs_thor/
+
+########################################
+
+id = get_rt_id(cur, 'Respect St. Jaygarcia Saturn (One Piece)', 'https://redd.it/1lt2vnp')
+add_data(['(S(ain)?t\.? )?Jaygarcia Saturn'],
+'Saint Jaygarcia Saturn',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lt2vnp/respect_st_jaygarcia_saturn_one_piece/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Queen! (The Power Fantasy)', 'https://redd.it/1lugtmc')
+add_data(['The Queen'],
+'The Queen',
+False,
+False,
+[
+    ['Queen ?\(The Power Fantasy']
+],
+'The Power Fantasy',
 '{' + '{}'.format(id) + '}'
 )
 #

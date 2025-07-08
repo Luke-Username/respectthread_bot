@@ -24,8 +24,11 @@ UPDATE character SET version='{"Ghost.*616"}' WHERE default_name='Ghost' AND ver
 ########################################
 
 UPDATE character_name SET name='((Motoko|Major) Kusanagi|Kusanagi Motoko)' WHERE name='(Motoko|Major) Kusanagi';
+UPDATE character_name SET default_name='Grievous' WHERE name='Gr(iev|evi|eiv)ous';
 
 ########################################
+
+
 
 ########################################
 
