@@ -6144,7 +6144,6 @@ Caduceus Clay,"{`"Critical Role`"}",t,{7466},Critical Role
 Salvadora,{Salvadora},t,{7467},Salvadora
 Yasha Nydoorin,"{`"Critical Role`"}",t,{7468},Critical Role
 Nott,"{`"Critical Role`"}",f,{7470},Critical Role
-Ghost,{616},f,{7471},616
 Chris,"{`"Subspace Emissary`"}",f,{7472},The Subspace Emissary's Worlds Conquest
 Lucario,"{`"Subspace Emissary`"}",f,{7473},The Subspace Emissary's Worlds Conquest
 John Henry Irons,{PC},t,{7474},Post-Crisis
@@ -6202,6 +6201,7 @@ Zelda,{LTTP},f,{7501},Composite
 Zelda,"{`"Orarina of Time`"}",f,{7501},Composite
 Zelda,{OOT},f,{7501},Composite
 Ebony Maw,{616},t,{7609},616
+Ghost,{Ghost.*616},f,{7471},616
 Zelda,"{`"Wind Waker`"}",f,{7501},Composite
 Zelda,"{`"Phantom Hourglass`"}",f,{7501},Composite
 Zelda,"{`"Skyward Sword`"}",f,{7501},Composite
@@ -22154,9 +22154,6 @@ Emiya,{Rin},f,{6247},Fate
 Emiya,"{`"Archer ?\\(Fate`"}",f,{6247},Fate
 Emiya,"{`"Archer ?\\[Fate`"}",f,{6247},Fate
 Assassin,"{`"Stay ?k?Night`"}",f,"{6248,6258}",Fate
-Sasaki Kojirō,"{`"Stay ?k?Night`"}",f,{6248},Fate
-Sasaki Kojirō,"{`"Kojir(ō|o)u? ?\\(Fate`"}",f,{6248},Fate
-Sasaki Kojirō,"{`"Kojir(ō|o)u? ?\\[Fate`"}",f,{6248},Fate
 Berserker,"{`"Stay ?k?Night`"}",f,{6249},Fate
 Berserker,{F/?SN},f,{6249},Fate
 Heracles,{Fate},f,{6249},Fate
@@ -22210,6 +22207,9 @@ Battler,{Umineko},f,"{6263,25775}",Umineko
 Battler Ushiromiya,{Umineko},t,"{6263,25775}",Umineko
 Ushiromiya Family,{Umineko},t,"{6266,25783}",Umineko
 Beatrice,{Umineko},f,"{6262,25834}",Umineko
+Sasaki Kojirō,"{`"Stay ?k?Night`"}",f,{26209},Fate
+Sasaki Kojirō,"{`"Kojir(ō|o)u? ?\\(Fate`"}",f,{26209},Fate
+Sasaki Kojirō,"{`"Kojir(ō|o)u? ?\\[Fate`"}",f,{26209},Fate
 Mina Ashido,"{`"Character Scramble`"}",f,{6279},Character Scramble
 Supermooks,"{`"Character Scramble`"}",f,{6280},Character Scramble
 Cicero,{Fargo},f,{6281},Fargo
@@ -25505,7 +25505,6 @@ Gary King,"{`"World'?s End`"}",f,{21322},The Worlds End
 Gary King,{Cornetto},f,{21322},The Worlds End
 Andy Knightley,"{`"World'?s End`"}",t,{21322},The Worlds End
 Andy Knightley,{Cornetto},t,{21322},The Worlds End
-Sasaki Kojirō,{Fate},f,{21322},Fate
 Ratchet,{Sly},f,"{5689,21294,21295}",Ratchet & Clank
 Ratchet,{wr?ench},f,"{5689,21294,21295}",Ratchet & Clank
 Peacemaker,"{`"Peace ?maker ?\\(DC( Comics)?\\)`"}",f,{21323},DC
@@ -25529,6 +25528,7 @@ Stormfront,{Amazon},f,"{22159,21319}",The Boys
 A-Train,"{`"The Boys`"}",t,{21325},The Boys
 Corinthian,{Sandman},f,"{25924,21327}",DC
 Corinthian,{DC},f,"{25924,21327}",DC
+Sasaki Kojirō,{Fate},f,{26209},Fate
 John Henry Irons,"{`"Superman (&|and) Lois`"}",f,{},CW Arrowverse
 John Henry Irons,"{`"(Fl)?arrow(-| )?verse`"}",f,{},CW Arrowverse
 John Henry Irons,{(DC)?CW},f,{},CW Arrowverse
@@ -33568,3 +33568,31 @@ Emperor Palpatine,{Fortnite},f,{26205},Fortnite
 Godzilla,{Fortnite},f,{26206},Fortnite
 Wolverine,{Fortnite},f,{26207},Fortnite
 Scorpion,{Fortnite},f,{26208},Fortnite
+Doreen Green,{616},t,{2468},616
+Theo Bell,{Underworld},f,{25663},Vampire: the Masquerade
+Zeus,{Zeus.*Fortnite},f,{26210},Fortnite
+Ice King,{Fortnite},f,{26211},Fortnite
+Iron Man,{Fortnite},f,{26212},Fortnite
+Xanthe Zhou,"{`"DC Comics`"}",t,{26213},DC
+Superman,"{`"All(-| )Star`",(Film|Movie)}",f,{26214},"All-Star, Film"
+Roark,{Pok(e|é)m(o|a)n},f,{26215},Pokémon
+Byron,{Byron.*Pok(e|é)m(o|a)n},f,{26216},Pokémon
+Rob,"{`"World of Gumball`"}",f,{26217},Amazing World of Gumball
+Rob,"{`"Rob Gumball`"}",f,{26217},Amazing World of Gumball
+Rob,"{`"Dr\\.? Wrecker`"}",f,{26217},Amazing World of Gumball
+Rob,"{`"Elmore Junior high`"}",f,{26217},Amazing World of Gumball
+LeChuck,"{`"Monkey Island`"}",f,{26218},Monkey Island
+LeChuck,{Ghost|Pirate},f,{26218},Monkey Island
+LeChuck,"{`"G\\?.P\\.? LeChuck`"}",f,{26218},Monkey Island
+Amargasaurus,"{`"Dinosaur King`"}",f,{26219},Dinosaur King
+Suchomimus,"{`"Dinosaur King`"}",f,{26220},Dinosaur King
+Acrocanthosaurus,"{`"Dinosaur King`"}",f,{26221},Dinosaur King
+Larten Crepsley,"{`"Cirque Du Freak`"}",t,{26222},Cirque Du Freak
+Legion,"{`"Dead by Daylight`"}",f,{26223},Dead by Daylight
+Batman,"{`"Absolute Universe`"}",f,{26224},Absolute Universe
+Dynamo,"{`"T\\.?H\\.?U\\.?N\\.?D\\.?E\\.?R\\.? Agents`"}",f,{26225},T.H.U.N.D.E.R. Agents
+Jet Jaguar,"{`"Godzilla vs\\.? Avengers`"}",f,{26226},Godzilla vs. Avengers
+Godzilla,"{`"Godzilla vs\\. Marvel`"}",f,{26227},Godzilla vs. Marvel
+Thor,"{`"Godzilla vs\\. Thor`"}",f,{26228},Godzilla vs. Thor
+Saint Jaygarcia Saturn,"{`"One ?Piece?`"}",t,{26229},One Piece
+The Queen,"{`"Queen ?\\(The Power Fantasy`"}",f,{26230},The Power Fantasy

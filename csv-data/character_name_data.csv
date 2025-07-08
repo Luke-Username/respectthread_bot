@@ -808,7 +808,6 @@ Hurley,Hurley,f
 Mooch,Mooch,f
 Cockroaches,Cockroaches,f
 Coffee (Maker|Machine),Coffee Maker,f
-(Motoko|Major) Kusanagi,Motoko Kusanagi,f
 The Major,The Major,f
 Corrupted Jaspers?,Corrupted Jaspers,f
 Diamond Ships?,Diamond Ships,f
@@ -861,6 +860,7 @@ Jason Voo?rhee?s,Jason Voorhees,f
 Alphonse Elric,Alphonse Elric,f
 Xeno(m|n)orphs?,Xenomorphs,f
 Kanan Jarrus,Kanan Jarrus,f
+((Motoko|Major) Kusanagi|Kusanagi Motoko),Motoko Kusanagi,f
 Jasper,Jasper,f
 Ares,Ares,f
 Poseidon,Poseidon,f
@@ -13598,7 +13598,6 @@ Charlie Bucket,Charlie Bucket,f
 Terrako,Terrako,f
 Nate Sutter,Nate Sutter,f
 War Devil,War Devil,f
-Gr(iev|evi|eiv)ous,Gr(iev|evi|eiv)ous,f
 Super Science Friends,Super Science Friends,t
 Saneegee,Saneegee,f
 Solomon David,Solomon David,f
@@ -13681,6 +13680,7 @@ Will Sawyer,Will Sawyer,f
 Blitzo,Blitzo,f
 Nolt Marcus,Nolt Marcus,f
 SCP ?(-| )? ?1048,SCP-1048,f
+Gr(iev|evi|eiv)ous,Grievous,f
 Priest,Priest,f
 Jim Gordon,Jim Gordon,f
 Payback,Payback,t
@@ -15411,3 +15411,15 @@ Saltasaurus,Saltasaurus,f
 Maiasaura,Maiasaura,f
 Fukuisaurus,Fukuisaurus,f
 Meowdas,Meowdas,f
+Doreen Green,Doreen Green,f
+Xanthe Zhou,Xanthe Zhou,f
+Roark,Roark,f
+Byron,Byron,f
+Rob,Rob,f
+LeChuck,LeChuck,f
+Amargasaurus,Amargasaurus,f
+Suchomimus,Suchomimus,f
+Acrocanthosaurus,Acrocanthosaurus,f
+Dynamo,Dynamo,f
+(S(ain)?t\\.? )?Jaygarcia Saturn,Saint Jaygarcia Saturn,f
+The Queen,The Queen,f
