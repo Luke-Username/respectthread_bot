@@ -14,6 +14,10 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character WHERE rt_id_array='{1527}';
+DELETE FROM character WHERE rt_id_array='{1528}';
+DELETE FROM character WHERE rt_id_array='{1527,1528}';
+
 ########################################
 
 ########################################

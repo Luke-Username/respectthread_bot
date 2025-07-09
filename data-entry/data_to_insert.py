@@ -107,6 +107,152 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Hugh de Clairvaux! (Dark Ages Vampire)', 'https://redd.it/1lum3v2')
+add_data(['Hugh de Clairvaux'],
+'Hugh de Clairvaux',
+False,
+False,
+[
+    ['Dark Ages:? Vampire'], ['Vampire:? The Masquerade'], ['Vampire:? The Dark Ages']
+],
+'Vampire: The Masquerade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lum3v2/respect_hugh_de_clairvaux_dark_ages_vampire/
+#https://whitewolf.fandom.com/wiki/Dark_Ages:_Vampire
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miss Eglantine Prince (Bedknobs and Broomsticks)', 'https://redd.it/1luq3iv')
+add_data(['Miss Eglantine Prin?ce'],
+'Miss Eglantine Prince',
+False,
+True,
+[
+    ['Bedknobs (and|&) Broomsticks']
+],
+'Bedknobs and Broomsticks',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Eglantine Prin?ce'],
+'Eglantine Prince',
+False,
+False,
+[
+    ['Bedknobs (and|&) Broomsticks']
+],
+'Bedknobs and Broomsticks',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect November Ajax (Pacific Rim)', 'https://redd.it/1luwjav')
+add_data(['November Ajax'],
+'November Ajax',
+False,
+False,
+[
+    ['Pacific Rims?']
+],
+'Pacific Rim',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Jean-Paul Valley, Azrael! (DC, Post-Flashpoint)', 'https://redd.it/1lv4ddv')
+add_data(['Jean(-| )Paul Valley'],
+'Jean-Paul Valley',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Jean(-| )Paul Valley'],
+'Jean-Paul Valley',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'], ['DC Comics'], ['Azrael']
+],
+'DC',
+'{' + '{}, 1527'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lv4ddv/respect_jeanpaul_valley_azrael_dc_postflashpoint/
+
+add_data(['Jean(-| )Paul Valley'],
+'Jean-Paul Valley',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{1527}'
+)
+#
+
+add_data(['Michael Lane'],
+'Michael Lane',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{1528}'
+)
+#
+
+add_data(['Michael Lane'],
+'Michael Lane',
+False,
+False,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]'], ['DC Comics'], ['Azrael']
+],
+'DC',
+'{1528}'
+)
+#
+
+add_data(['Azrael'],
+'Azrael',
+False,
+False,
+[
+    ['Azrael ?\(DC( Comics)?\)']
+],
+'DC',
+'{' + '{}, 1527, 1528'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Plungerman (Skibidi Toilet)', 'https://redd.it/1lvbcym')
+add_data(['Plungerman'],
+'Plungerman',
+False,
+False,
+[
+    ['Skibidi Toilet']
+],
+'Skibidi Toilet',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lvbcym/respect_plungerman_skibidi_toilet/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

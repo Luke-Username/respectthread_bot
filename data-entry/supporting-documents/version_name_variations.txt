@@ -3721,6 +3721,16 @@ The Vampire Diaries
 	Displayed Version Name
 		"The Vampire Diaries"
 
+Vampire: The Masquerade
+	Version
+		['Vampire:? The Masquerade']
+		['Vampire:? The Dark Ages']
+		['Dark Ages:? Vampire']
+	Acronyms
+		['VTM']
+	Displayed Version Name
+		"Vampire: The Masquerade"
+
 The VelociPastor
 	Version
 		'{"VelociPastor"}'
