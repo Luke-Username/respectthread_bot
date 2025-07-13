@@ -4131,11 +4131,6 @@ Anarky,"{`"New(-| )Earth`"}",t,{1525},Post-Crisis
 Anarky,{CW},f,{},CW Arrowverse
 Anthony Lupus,{PC},t,{1526},Pre-Crisis
 Anthony Lupus,"{`"Pre(-| )Crisis`"}",t,{1526},Pre-Crisis
-Azrael,{PC},f,"{1527,1528}",Post-Crisis
-Azrael,"{`"Post(-| )C(risis)?`"}",f,"{1527,1528}",Post-Crisis
-Azrael,"{`"New(-| )Earth`"}",f,"{1527,1528}",Post-Crisis
-Azrael,"{`"Jean(-| )Paul Valley`"}",f,{1527},Jean-Paul Valley
-Azrael,"{`"Michael Lane`"}",f,{1528},Michael Lane
 Bane,"{`"New 52`"}",f,{1529},New 52 / Rebirth
 Bane,{N-?52},f,{1529},New 52 / Rebirth
 Bane,"{`"Post(-| )52`"}",f,{1529},New 52 / Rebirth
@@ -33596,3 +33591,38 @@ Godzilla,"{`"Godzilla vs\\. Marvel`"}",f,{26227},Godzilla vs. Marvel
 Thor,"{`"Godzilla vs\\. Thor`"}",f,{26228},Godzilla vs. Thor
 Saint Jaygarcia Saturn,"{`"One ?Piece?`"}",t,{26229},One Piece
 The Queen,"{`"Queen ?\\(The Power Fantasy`"}",f,{26230},The Power Fantasy
+Rumi,"{`"KPop Demon Hunters`"}",f,{26193},KPop Demon Hunters
+Mira,"{`"KPop Demon Hunters`"}",f,{26193},KPop Demon Hunters
+Zoey,"{`"KPop Demon Hunters`"}",f,{26193},KPop Demon Hunters
+HUNTRiX,"{`"KPop Demon Hunters`"}",f,{26193},KPop Demon Hunters
+Hugh de Clairvaux,"{`"Dark Ages:? Vampire`"}",f,{26231},Vampire: The Masquerade
+Hugh de Clairvaux,"{`"Vampire:? The Masquerade`"}",f,{26231},Vampire: The Masquerade
+Hugh de Clairvaux,"{`"Vampire:? The Dark Ages`"}",f,{26231},Vampire: The Masquerade
+Miss Eglantine Prince,"{`"Bedknobs (and|&) Broomsticks`"}",t,{26232},Bedknobs and Broomsticks
+Eglantine Prince,"{`"Bedknobs (and|&) Broomsticks`"}",f,{26232},Bedknobs and Broomsticks
+November Ajax,"{`"Pacific Rims?`"}",f,{26233},Pacific Rim
+Jean-Paul Valley,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26234},Post-Flashpoint
+Jean-Paul Valley,"{`"\\(DC( Comics)?\\)`"}",t,"{26234,1527}",DC
+Jean-Paul Valley,"{`"\\[DC( Comics)?\\]`"}",t,"{26234,1527}",DC
+Jean-Paul Valley,"{`"DC Comics`"}",t,"{26234,1527}",DC
+Jean-Paul Valley,{Azrael},t,"{26234,1527}",DC
+Jean-Paul Valley,"{`"Posts?(-| )?C(risis)?`"}",f,{1527},Post-Crisis
+Jean-Paul Valley,"{`"New(-| )Earth`"}",f,{1527},Post-Crisis
+Michael Lane,"{`"Posts?(-| )?C(risis)?`"}",f,{1528},Post-Crisis
+Michael Lane,"{`"New(-| )Earth`"}",f,{1528},Post-Crisis
+Michael Lane,"{`"\\(DC( Comics)?\\)`"}",f,{1528},DC
+Michael Lane,"{`"\\[DC( Comics)?\\]`"}",f,{1528},DC
+Michael Lane,"{`"DC Comics`"}",f,{1528},DC
+Michael Lane,{Azrael},f,{1528},DC
+Azrael,"{`"Azrael ?\\(DC( Comics)?\\)`"}",f,"{26234,1527,1528}",DC
+Plungerman,"{`"Skibidi Toilet`"}",f,{26235},Skibidi Toilet
+Titan Cameraman,"{`"Skibidi Toilet`"}",t,{26236},Skibidi Toilet
+Knife Missiles,{Culture},f,{26237},Culture series
+Yusuke Onodera,"{`"Kamen Rider`"}",t,{26238},Kamen Rider
+Yaotsu,{VERSUS},f,{26239},VERSUS
+Daikokuzan,{VERSUS},f,{26240},VERSUS
+Ginbak,{VERSUS},f,{26241},VERSUS
+Moa that Fought Superman,"{`"Pre(-| )?Crisis`"}",t,{26242},Pre-Crisis
+Arkham Knight,"{`"Arkham Knight ?\\((Post(-| ))Flash(-| )?point`"}",f,{26243},Post-Flashpoint
+Joanna Dark,"{`"Canceled Perfect Dark reboot`"}",f,{26244},Canceled Perfect Dark reboot
+Richard Benson,{Dynamite},f,{26245},Dynamite Entertainment
