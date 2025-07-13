@@ -107,6 +107,60 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 25154, 'Respect Sienna Shaw (Terrifier)', 'https://redd.it/1lwx0cx')
+
+########################################
+
+add_data(['Rumi'],
+'Rumi',
+False,
+False,
+[
+    ['KPop Demon Hunters']
+],
+'KPop Demon Hunters',
+'{26193}'
+)
+#
+
+add_data(['Mira'],
+'Mira',
+False,
+False,
+[
+    ['KPop Demon Hunters']
+],
+'KPop Demon Hunters',
+'{26193}'
+)
+#
+
+add_data(['Zoey'],
+'Zoey',
+False,
+False,
+[
+    ['KPop Demon Hunters']
+],
+'KPop Demon Hunters',
+'{26193}'
+)
+#
+
+add_data(['HUNTRiX'],
+'HUNTRiX',
+True,
+False,
+[
+    ['KPop Demon Hunters']
+],
+'KPop Demon Hunters',
+'{26193}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Hugh de Clairvaux! (Dark Ages Vampire)', 'https://redd.it/1lum3v2')
 add_data(['Hugh de Clairvaux'],
 'Hugh de Clairvaux',
@@ -252,6 +306,168 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1lvbcym/respect_plungerman_skibidi_toilet/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Titan Cameraman (Skibidi Toilet)', 'https://redd.it/1lwshlx')
+add_data(['Titan Cameraman'],
+'Titan Cameraman',
+False,
+True,
+[
+    ['Skibidi Toilet']
+],
+'Skibidi Toilet',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lwshlx/respect_the_titan_cameraman_skibidi_toilet/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Knife Missiles and smaller missile types (Culture Series)', 'https://redd.it/1lww5s9')
+add_data(['Knife Missiles?'],
+'Knife Missiles',
+False,
+False,
+[
+    ['Culture']
+],
+'Culture series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lww5s9/respect_knife_missiles_and_smaller_missile_types/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yusuke Onodera, Kamen Rider Kuuga (Kamen Rider Decade)', 'https://redd.it/1lvjj4c')
+add_data(['Yusuke Onodera'],
+'Yusuke Onodera',
+False,
+True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yaotsu, God of Indignia! (VERSUS)', 'https://redd.it/1lvk74c')
+add_data(['Yaotsu'],
+'Yaotsu',
+False,
+False,
+[
+    ['VERSUS']
+],
+'VERSUS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Daikokuzan the Mega-Kaiju! (VERSUS)', 'https://redd.it/1lvkzaw')
+add_data(['Daikokuzan'],
+'Daikokuzan',
+False,
+False,
+[
+    ['VERSUS']
+],
+'VERSUS',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lvkzaw/respect_daikokuzan_the_megakaiju_versus/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ginbak (VERSUS)', 'https://redd.it/1lvsj03')
+add_data(['Ginbak'],
+'Ginbak',
+False,
+False,
+[
+    ['VERSUS']
+],
+'VERSUS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Moa that Fought Superman (DC, Pre-Crisis)', 'https://redd.it/1lvrybl')
+add_data(['Moa that Fought Superman'],
+'Moa that Fought Superman',
+False,
+True,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lvrybl/respect_the_moa_that_fought_superman_dc_precrisis/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Arkham Knight! (DC Comics [Post-Flashpoint])', 'https://redd.it/1lx4g82')
+add_data(['Arkham Knight'],
+'Arkham Knight',
+False,
+False,
+[
+    ['Arkham Knight ?\((Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Astrid Arkham'],
+'Astrid Arkham',
+False,
+False,
+[
+    ['((Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Joanna Dark (Canceled Perfect Dark reboot)', 'https://redd.it/1lx9fxr')
+add_data(['Joanna Dark'],
+'Joanna Dark',
+False,
+False,
+[
+    ['Canceled Perfect Dark reboot']
+],
+'Canceled Perfect Dark reboot',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Richard Benson, The Avenger (Dynamite Comics)', 'https://redd.it/1lxd7yb')
+add_data(['Richard Benson'],
+'Richard Benson',
+False,
+False,
+[
+    ['Dynamite']
+],
+'Dynamite Entertainment',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lxd7yb/respect_richard_benson_the_avenger_dynamite_comics/
 
 ########################################
 

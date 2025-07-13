@@ -20,6 +20,8 @@ DELETE FROM character WHERE rt_id_array='{1527,1528}';
 
 ########################################
 
+UPDATE character_name SET is_team=TRUE WHERE name='HUNTR/X';
+
 ########################################
 
 ########################################
