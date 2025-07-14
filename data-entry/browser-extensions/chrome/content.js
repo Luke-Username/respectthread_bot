@@ -31,8 +31,9 @@ const getCurrentPostData = () => {
   }
   
   const shortLink = document.querySelector('input#shortlink-text').value;
+  const currentUrl = window.location.href;
   
-  const postData = `id = get_rt_id(cur, ${postTitle}, '${shortLink}')`;
+  const postData = `id = get_rt_id(cur, ${postTitle}, '${currentUrl}')`;
   navigator.clipboard.writeText(postData)
     .then(() => console.log('Text copied to clipboard'))
     .catch((err) => console.error('Error copying text:', err));

@@ -107,6 +107,29 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6105, 'Respect Skitter, Warlord of Brockton Bay (Worm)', 'https://www.reddit.com/r/respectthreads/comments/7ukfsm/respect_skitter_warlord_of_brockton_bay_worm/')
+update_respectthread(cur, 6067, 'Respect Contessa [Worm]', 'https://www.reddit.com/r/respectthreads/comments/66sxiz/respect_contessa_worm/')
+update_respectthread(cur, 8445, 'Respect Homelander! (The Boys, Dynamite)', 'https://www.reddit.com/r/respectthreads/comments/d2ib3k/respect_homelander_the_boys_dynamite/')
+update_respectthread(cur, 13117, "Respect Homelander (Amazon''s The Boys)", 'https://www.reddit.com/r/respectthreads/comments/x1ibg9/respect_homelander_amazons_the_boys/')
+update_respectthread(cur, 1503, 'Respect: Cassandra Cain, Batgirl ! (DC, Post-Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1lqd5qa/respect_cassandra_cain_batgirl_dc_postflashpoint/')
+update_respectthread(cur, 5098, 'Respect John-117, The Master Chief (Halo)', 'https://www.reddit.com/r/respectthreads/comments/fbv3cr/respect_john117_the_master_chief_halo/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Styracosaurus (Dinosaur King)', 'https://www.reddit.com/r/respectthreads/comments/1lz7fjt/respect_styracosaurus_dinosaur_king/')
+add_data(['Styracosaurus'],
+'Styracosaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1lz7fjt/respect_styracosaurus_dinosaur_king/
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

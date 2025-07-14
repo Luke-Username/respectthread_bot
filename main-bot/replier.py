@@ -52,7 +52,7 @@ def generate_comment_no_results_apology(with_footer: bool) -> str:
     return reply_text
 
 # These links should be up to date
-about_url = "https://redd.it/owgxtl"
+about_url = "https://www.reddit.com/r/respectthread_bot/comments/owgxtl/explanation_post_what_is_respectthread_bot/"
 code_url = "https://github.com/Luke-Username/respectthread_bot"
 opt_out_url = "https://www.reddit.com/message/compose?to=respectthread_bot&subject=OPTOUTREQUEST"
 report_url = "https://www.reddit.com/message/compose?to=Luke_Username&subject=respectthread_bot+feedback"
