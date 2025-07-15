@@ -107,50 +107,6 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 6105, 'Respect Skitter, Warlord of Brockton Bay (Worm)', 'https://www.reddit.com/r/respectthreads/comments/7ukfsm/respect_skitter_warlord_of_brockton_bay_worm/')
-update_respectthread(cur, 6067, 'Respect Contessa [Worm]', 'https://www.reddit.com/r/respectthreads/comments/66sxiz/respect_contessa_worm/')
-update_respectthread(cur, 8445, 'Respect Homelander! (The Boys, Dynamite)', 'https://www.reddit.com/r/respectthreads/comments/d2ib3k/respect_homelander_the_boys_dynamite/')
-update_respectthread(cur, 13117, "Respect Homelander (Amazon''s The Boys)", 'https://www.reddit.com/r/respectthreads/comments/x1ibg9/respect_homelander_amazons_the_boys/')
-update_respectthread(cur, 1503, 'Respect: Cassandra Cain, Batgirl ! (DC, Post-Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1lqd5qa/respect_cassandra_cain_batgirl_dc_postflashpoint/')
-update_respectthread(cur, 5098, 'Respect John-117, The Master Chief (Halo)', 'https://www.reddit.com/r/respectthreads/comments/fbv3cr/respect_john117_the_master_chief_halo/')
-update_respectthread(cur, 21139, 'Respect Space Marines (Warhammer 40k)', 'https://www.reddit.com/r/Thevexarecool/comments/jbsqpz/respect_space_marines_warhammer_40k/')
-update_respectthread(cur, 6466, 'The humble Space Marine (Xpost /r/whowouldwin)', 'https://www.reddit.com/r/respectthreads/comments/1sq5al/the_humble_space_marine_xpost_rwhowouldwin/')
-update_respectthread(cur, 12490, 'Respect Yuji Itadori! (Jujutsu Kaisen)', 'https://www.reddit.com/r/respectthreads/comments/1fs37f9/respect_yuji_itadori_jujutsu_kaisen/')
-update_respectthread(cur, 4709, 'Respect Denji, the Chainsaw Man! (Chainsaw Man)', 'https://www.reddit.com/r/respectthreads/comments/vw7tm4/respect_denji_the_chainsaw_man_chainsaw_man/')
-update_respectthread(cur, 2175, 'Respect Iron Man Model 37: the Bleeding Edge Armor (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1lzmw33/respect_iron_man_model_37_the_bleeding_edge_armor/')
-update_respectthread(cur, 1962, 'Respect Omni-Man (Image Comics)', 'https://www.reddit.com/r/respectthreads/comments/mtf5fv/respect_omniman_image_comics/')
-update_respectthread(cur, 16453, 'Respect Omni-Man (Invincible)', 'https://www.reddit.com/r/respectthreads/comments/n70nig/respect_omniman_invincible/')
-
-########################################
-
-id = get_rt_id(cur, 'Respect Styracosaurus (Dinosaur King)', 'https://www.reddit.com/r/respectthreads/comments/1lz7fjt/respect_styracosaurus_dinosaur_king/')
-add_data(['Styracosaurus'],
-'Styracosaurus',
-False,
-False,
-[
-    ['Dinosaur King']
-],
-'Dinosaur King',
-'{' + '{}'.format(id) + '}'
-)
-#https://www.reddit.com/r/respectthreads/comments/1lz7fjt/respect_styracosaurus_dinosaur_king/
-
-########################################
-
-id = get_rt_id(cur, 'Respect the Imagined (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1lzxcer/respect_the_imagined_fortnite/')
-add_data(['The Imagined'],
-'The Imagined',
-False,
-False,
-[
-    ['Fortnite']
-],
-'Fortnite',
-'{' + '{}'.format(id) + '}'
-)
-#
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
