@@ -107,6 +107,8 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 23243, 'Respect Denzel Crocker! (The Fairly OddParents)', 'https://www.reddit.com/r/respectthreads/comments/10hvsus/respect_denzel_crocker_the_fairly_oddparents/')
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
