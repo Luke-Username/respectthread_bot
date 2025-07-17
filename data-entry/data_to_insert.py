@@ -108,6 +108,109 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 23243, 'Respect Denzel Crocker! (The Fairly OddParents)', 'https://www.reddit.com/r/respectthreads/comments/10hvsus/respect_denzel_crocker_the_fairly_oddparents/')
+update_respectthread(cur, 7632, 'Respect Superman (DC Rebirth)', 'https://www.reddit.com/r/respectthreads/comments/aga7wr/respect_superman_dc_rebirth/')
+update_respectthread(cur, 1761, 'Respect Superman (New 52)', 'https://www.reddit.com/r/respectthreads/comments/bq7jfu/respect_superman_new_52/')
+update_respectthread(cur, 1756, 'Respect Superman (Post-Crisis)', 'https://www.reddit.com/r/respectthreads/comments/ljsibk/respect_superman_postcrisis/')
+update_respectthread(cur, 5905, 'Respect Percy Jackson (Percy Jackson & the Olympians) Updated Version', 'https://www.reddit.com/r/respectthreads/comments/1kwtha1/respect_percy_jackson_percy_jackson_the_olympians/')
+update_respectthread(cur, 24979, 'Respect Fang Runin (The Poppy War Trilogy)', 'https://www.reddit.com/r/respectthreads/comments/1d48r79/respect_fang_runin_the_poppy_war_trilogy/')
+update_respectthread(cur, 792, 'Respect Bill Cipher (Gravity Falls)', 'https://www.reddit.com/r/respectthreads/comments/4qr9b8/respect_bill_cipher_gravity_falls/')
+update_respectthread(cur, 5258, 'Respect the Metroids (Metroid)', 'https://www.reddit.com/r/respectthreads/comments/mvr1z4/respect_the_metroids_metroid/')
+update_respectthread(cur, 5256, 'Respect Samus Aran (Metroid)', 'https://www.reddit.com/r/respectthreads/comments/n2g4us/respect_samus_aran_metroid/')
+update_respectthread(cur, 25014, 'Batman Mega Respect Thread Hub', 'https://www.reddit.com/r/BatmanMegaRT/comments/859osl/batman_mega_respect_thread_hub/')
+update_respectthread(cur, 1493, 'Respect Batman (DC, Post-Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1348ale/respect_batman_dc_postflashpoint/')
+update_respectthread(cur, 1494, 'Respect Batman (Bruce Wayne) (DC - Post Crisis)', 'https://www.reddit.com/r/respectthreads/comments/85eb91/respect_batman_bruce_wayne_dc_post_crisis/')
+update_respectthread(cur, 1077, 'Respect Marinette Dupain-Cheng, the Miraculous Ladybug! (Miraculous: Tales of Ladybug & Cat Noir)', 'https://www.reddit.com/r/respectthreads/comments/rt49u2/respect_marinette_dupaincheng_the_miraculous/')
+update_respectthread(cur, 2223, 'Respect Frank Castle, the Punisher! (Marvel: Earth-616)', 'https://www.reddit.com/r/respectthreads/comments/5hsrop/respect_frank_castle_the_punisher_marvel_earth616/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jonesy! (Fortnite Battle Royale)', 'https://www.reddit.com/r/respectthreads/comments/1m0zit1/respect_jonesy_fortnite_battle_royale/')
+add_data(['Jonesy'],
+'Jonesy',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1m0zit1/respect_jonesy_fortnite_battle_royale/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Deathstroke (DC Comics Earth 3)', 'https://www.reddit.com/r/respectthreads/comments/1m1llur/respect_deathstroke_dc_comics_earth_3/')
+add_data(['Death(-| )?stroke'],
+'Deathstroke',
+False,
+False,
+[
+    ['Death(-| )?stroke.*Earth 3']
+],
+'Earth 3',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1m1llur/respect_deathstroke_dc_comics_earth_3/
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Cassandra Cain: Batgirl & Shazam! (DCeased, DC Comics)', 'https://www.reddit.com/r/respectthreads/comments/1m1q9rm/respect_cassandra_cain_batgirl_shazam_dceased_dc/')
+add_data(['Cassandra Cain'],
+'Cassandra Cain',
+False,
+False,
+[
+    ['DCeased']
+],
+'DCeased',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Knifehead (Pacific Rim)', 'https://www.reddit.com/r/respectthreads/comments/1m1pt5n/respect_knifehead_pacific_rim/')
+add_data(['Knifehead'],
+'Knifehead',
+False,
+False,
+[
+    ['Pacific Rim']
+],
+'Pacific Rim',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1m1pt5n/respect_knifehead_pacific_rim/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Yeti (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1m1x4pl/respect_the_yeti_team_fortress_2/')
+add_data(['Yeti'],
+'Yeti',
+False,
+False,
+[
+    ['TF2'], ['Team Fortress']
+],
+'TF2',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (Marvels Predator VS Spider-Man)', 'https://www.reddit.com/r/respectthreads/comments/1m1xv2k/respect_the_predators_marvels_predator_vs/')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Predator Vs\.? Spider-Man']
+],
+'Predator Vs. Spider-Man',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
