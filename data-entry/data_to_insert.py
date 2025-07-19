@@ -121,6 +121,13 @@ update_respectthread(cur, 1493, 'Respect Batman (DC, Post-Flashpoint)', 'https:/
 update_respectthread(cur, 1494, 'Respect Batman (Bruce Wayne) (DC - Post Crisis)', 'https://www.reddit.com/r/respectthreads/comments/85eb91/respect_batman_bruce_wayne_dc_post_crisis/')
 update_respectthread(cur, 1077, 'Respect Marinette Dupain-Cheng, the Miraculous Ladybug! (Miraculous: Tales of Ladybug & Cat Noir)', 'https://www.reddit.com/r/respectthreads/comments/rt49u2/respect_marinette_dupaincheng_the_miraculous/')
 update_respectthread(cur, 2223, 'Respect Frank Castle, the Punisher! (Marvel: Earth-616)', 'https://www.reddit.com/r/respectthreads/comments/5hsrop/respect_frank_castle_the_punisher_marvel_earth616/')
+update_respectthread(cur, 5094, 'Respect Kratos (God of War)', 'https://www.reddit.com/r/respectthreads/comments/1d7ifkc/respect_kratos_god_of_war/')
+update_respectthread(cur, 26078, 'Respect Kratos, the Ghost of Sparta! (God of War [Greek Era])', 'https://www.reddit.com/r/respectthreads/comments/1ksq4up/respect_kratos_the_ghost_of_sparta_god_of_war/')
+update_respectthread(cur, 263, 'Respect Thanos (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/k7uesx/respect_thanos_marvel_cinematic_universe/')
+update_respectthread(cur, 264, 'Respect Thor Odinson (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/xguqef/respect_thor_odinson_marvel_cinematic_universe/')
+update_respectthread(cur, 5093, 'Respect The Gods of Olympus (God of War series)', 'https://www.reddit.com/r/respectthreads/comments/4bzopl/respect_the_gods_of_olympus_god_of_war_series/')
+update_respectthread(cur, 5483, 'Respect The Team Fortress Mercenaries (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/82yd3z/respect_the_team_fortress_mercenaries_team/')
+
 
 ########################################
 
@@ -211,6 +218,21 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+add_data(['Shere?( |-)Khan'],
+'Shere Khan',
+False,
+False,
+[
+    ['Talespin']
+],
+'Talespin',
+'{}'
+)
+#
+
 
 ########################################
 
