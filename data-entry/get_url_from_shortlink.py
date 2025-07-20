@@ -26,7 +26,8 @@ def bot_login() -> praw.Reddit:
 
 r = bot_login()
 shortlink_pattern = re.compile(r"https://redd\.it/([a-zA-A0-9][a-zA-A0-9]{5,99})")
-def parse_row(cur, row):
+#expected_url_pattern = re.compile(r"")
+def parse_row(con, cur, row):
     link = row[-1]
     match = re.match(shortlink_pattern, link)
 
@@ -37,9 +38,13 @@ def parse_row(cur, row):
     # https://stackoverflow.com/questions/67086726/how-to-retrieve-a-reddit-post-by-id-using-praw
     respectthread = r.submission(url=link)
     url = respectthread.url
+    if url == "":
+        return
+    
     update_link_query = "UPDATE respectthread SET link = '{}' WHERE link = '{}';".format(url, link)
     print(update_link_query)
     cur.execute(update_link_query)
+    con.commit()
 
 
 # Opening connection to database
@@ -58,7 +63,7 @@ import_path = os.path.abspath(relative_import_path)
 with open("{}/respectthread_data.csv".format(import_path), "r", newline="", encoding="utf-8") as csvfile:
     respectthread_data = csv.reader(csvfile, delimiter=",", quotechar='"', escapechar="`")
     for row in respectthread_data:
-        parse_row(cur, row)
+        parse_row(con, cur, row)
 
 
 con.commit()
