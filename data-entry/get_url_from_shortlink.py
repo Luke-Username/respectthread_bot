@@ -1,12 +1,16 @@
 # Seems like shortlinks don't work on iOS.
 # This script is to get all the shortlinks in the database and convert them to regular URLs
 
-import psycopg2 # Interface with PostgreSQL
-import config   # Login details
 import csv      # Read respectthread_data.csv
+import os       # To get the absolute path for importing
 import praw 	# Interface with Reddit's API
+import psycopg2 # Interface with PostgreSQL
 import re       # Regular expressions
+import sys      # For terminal arguments and to import from different folders
 #sys.path.insert(1, "../csv-data")
+sys.path.insert(1, "../main-bot")   # This path is to import modules the bot uses. It is relative to the shell script that runs the tests.
+
+import config           # Login details
 
 
 def bot_login() -> praw.Reddit:
@@ -19,10 +23,11 @@ def bot_login() -> praw.Reddit:
     print("Logged in")
     return r
 
-r: praw.Reddit = bot_login()
+
+r = bot_login()
 shortlink_pattern = re.compile(r"https://redd\.it/([a-zA-A0-9][a-zA-A0-9]{5,99})")
-def parse_row(row: list[str]):
-    link: str = row[-1]
+def parse_row(cur, row):
+    link = row[-1]
     match = re.match(shortlink_pattern, link)
 
     # https://www.geeksforgeeks.org/python/re-match-in-python/
@@ -30,14 +35,35 @@ def parse_row(row: list[str]):
         return
 
     # https://stackoverflow.com/questions/67086726/how-to-retrieve-a-reddit-post-by-id-using-praw
-    respectthread: praw.models.Submission = r.submission(url=link)
-    url: str = respectthread.url
-    print(url)
+    respectthread = r.submission(url=link)
+    url = respectthread.url
+    update_link_query = "UPDATE respectthread SET link = '{}' WHERE link = '{}';".format(url, link)
+    print(update_link_query)
+    cur.execute(update_link_query)
+
+
+# Opening connection to database
+con = psycopg2.connect(
+    host = config.host,
+    database = config.database,
+    user = config.d_user,
+    password = config.d_password
+)
+cur = con.cursor()
+
 
 relative_import_path = "../csv-data"
 import_path = os.path.abspath(relative_import_path)
 #with open("respectthread_data.csv") as csvfile:
-with open("{}/respectthread_data.csv".format(import_path), "r", encoding="utf-8") as csvfile:
-    respectthread_data = csv.reader(csvfile, delimiter=",", newline="", quotechar='"', escapechar="`")
+with open("{}/respectthread_data.csv".format(import_path), "r", newline="", encoding="utf-8") as csvfile:
+    respectthread_data = csv.reader(csvfile, delimiter=",", quotechar='"', escapechar="`")
     for row in respectthread_data:
-        parse_row(row)
+        parse_row(cur, row)
+
+
+con.commit()
+print("Committed")
+
+# Close the cursor and connection
+cur.close()
+con.close()

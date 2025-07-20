@@ -33396,6 +33396,7 @@ Monsieur Mallah,"{`"\\[DC( Comics)?\\]`"}",t,{26104},DC
 Brain,"{`"Brain ?\\(Posts?(-| )?C(risis)?\\)`"}",f,{26105},Post-Crisis
 Brain,"{`"Brain ?\\(New(-| )Earth\\)`"}",f,{26105},Post-Crisis
 Brain,"{`"Brain ?\\(DC( Comics)?\\)`"}",f,{26105},DC
+Yeti,{TF2},f,{26252},TF2
 Brain,"{`"Brain ?\\[DC( Comics)?\\]`"}",f,{26105},DC
 Spider Jerusalem,{Transmetropolitan},t,{26106},Transmetropolitan
 Mummy,"{`"Lot No\\.? 249`"}",f,{26107},Lot No. 249
@@ -33628,3 +33629,10 @@ Joanna Dark,"{`"Canceled Perfect Dark reboot`"}",f,{26244},Canceled Perfect Dark
 Richard Benson,{Dynamite},f,{26245},Dynamite Entertainment
 Styracosaurus,"{`"Dinosaur King`"}",f,{26246},Dinosaur King
 The Imagined,{Fortnite},f,{26247},Fortnite
+Jonesy,{Fortnite},f,{26248},Fortnite
+Deathstroke,"{`"Death(-| )?stroke.*Earth 3`"}",f,{26249},Earth 3
+Cassandra Cain,{DCeased},f,{26250},DCeased
+Knifehead,"{`"Pacific Rim`"}",f,{26251},Pacific Rim
+Yeti,"{`"Team Fortress`"}",f,{26252},TF2
+Predators,"{`"Predator Vs\\.? Spider-Man`"}",f,{26253},Predator Vs. Spider-Man
+Shere Khan,{Talespin},f,{},Talespin
