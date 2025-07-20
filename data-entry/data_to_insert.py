@@ -127,7 +127,11 @@ update_respectthread(cur, 263, 'Respect Thanos (Marvel Cinematic Universe)', 'ht
 update_respectthread(cur, 264, 'Respect Thor Odinson (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/xguqef/respect_thor_odinson_marvel_cinematic_universe/')
 update_respectthread(cur, 5093, 'Respect The Gods of Olympus (God of War series)', 'https://www.reddit.com/r/respectthreads/comments/4bzopl/respect_the_gods_of_olympus_god_of_war_series/')
 update_respectthread(cur, 5483, 'Respect The Team Fortress Mercenaries (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/82yd3z/respect_the_team_fortress_mercenaries_team/')
-
+update_respectthread(cur, 25076, 'Respect the Warrior of Light! (Final Fantasy)', 'https://www.reddit.com/r/respectthreads/comments/1driz13/respect_the_warrior_of_light_final_fantasy/')
+update_respectthread(cur, 23435, 'Respect the Warrior of Light (Final Fantasy XIV Trailers)', 'https://www.reddit.com/r/respectthreads/comments/11g74uu/respect_the_warrior_of_light_final_fantasy_xiv/')
+update_respectthread(cur, 2011,"Respect the Black Order! [Team] (Marvel, 616)", 'https://www.reddit.com/r/respectthreads/comments/8gbhzw/respect_the_black_order_team_marvel_616/')
+update_respectthread(cur, 12402,'Respect Demon King Piccolo (Dragonball)', 'https://www.reddit.com/r/respectthreads/comments/hixi11/respect_demon_king_piccolo_dragonball/')
+update_respectthread(cur, 3288,'Respect Goku (Dragon Ball Manga)', 'https://www.reddit.com/r/respectthreads/comments/b279wi/respect_goku_dragon_ball_manga/')
 
 ########################################
 
