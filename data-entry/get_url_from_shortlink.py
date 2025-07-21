@@ -7,7 +7,6 @@ import praw 	# Interface with Reddit's API
 import psycopg2 # Interface with PostgreSQL
 import re       # Regular expressions
 import sys      # For terminal arguments and to import from different folders
-#sys.path.insert(1, "../csv-data")
 sys.path.insert(1, "../main-bot")   # This path is to import modules the bot uses. It is relative to the shell script that runs the tests.
 
 import config           # Login details
@@ -26,7 +25,6 @@ def bot_login() -> praw.Reddit:
 
 r = bot_login()
 shortlink_pattern = re.compile(r"https://redd\.it/([a-zA-A0-9][a-zA-A0-9]{5,99})")
-#expected_url_pattern = re.compile(r"")
 def parse_row(con, cur, row):
     link = row[-1]
     match = re.match(shortlink_pattern, link)
@@ -59,7 +57,6 @@ cur = con.cursor()
 
 relative_import_path = "../csv-data"
 import_path = os.path.abspath(relative_import_path)
-#with open("respectthread_data.csv") as csvfile:
 with open("{}/respectthread_data.csv".format(import_path), "r", newline="", encoding="utf-8") as csvfile:
     respectthread_data = csv.reader(csvfile, delimiter=",", quotechar='"', escapechar="`")
     for row in respectthread_data:
