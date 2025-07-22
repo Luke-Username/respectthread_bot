@@ -7,6 +7,7 @@ import praw 	# Interface with Reddit's API
 import psycopg2 # Interface with PostgreSQL
 import re       # Regular expressions
 import sys      # For terminal arguments and to import from different folders
+import time             # To make an interval for the bot to wait
 sys.path.insert(1, "../main-bot")   # This path is to import modules the bot uses. It is relative to the shell script that runs the tests.
 
 import config           # Login details
@@ -31,6 +32,7 @@ def parse_row(con, cur, row):
 
     # https://www.geeksforgeeks.org/python/re-match-in-python/
     if not match:
+        print("{} is not a shortlink".format(link))
         return
 
     # https://stackoverflow.com/questions/67086726/how-to-retrieve-a-reddit-post-by-id-using-praw
@@ -43,6 +45,7 @@ def parse_row(con, cur, row):
     print(update_link_query)
     cur.execute(update_link_query)
     con.commit()
+    time.sleep(6)
 
 
 # Opening connection to database
