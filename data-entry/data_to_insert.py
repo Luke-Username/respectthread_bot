@@ -107,6 +107,33 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Allied Master ?computer'],
+'Allied Mastercomputer',
+False,
+True,
+[
+    ['Have No Mouth'], ['IHNMAIMS']
+],
+'I Have No Mouth And Must Scream',
+'{16570}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1m4xfve/allied_mastercomputer_vs_gojo/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Last Sun! (DC Comics)', 'https://www.reddit.com/r/respectthreads/comments/1m76bi8/respect_last_sun_dc_comics/')
+add_data(['Last Sun'],
+'Last Sun',
+False,
+False,
+[
+    ['Last Sun ?\(DC']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
