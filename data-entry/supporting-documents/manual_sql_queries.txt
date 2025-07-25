@@ -23,6 +23,9 @@ INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bat(-| )?mans?',
 
 ########################################
 
+SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1m8s8fb/respect_generic_garou_werewolf_the_apocalypse/';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Garou' AND displayed_version_name='World of Darkness';
+
 ########################################
 
 ########################################

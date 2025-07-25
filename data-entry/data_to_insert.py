@@ -170,6 +170,92 @@ False,
 )
 #
 
+########################################
+
+id = get_rt_id(cur, 'Respect Reiji Nogi/Cassis Worm (Kamen Rider Kabuto)', 'https://www.reddit.com/r/respectthreads/comments/1m7upqu/respect_reiji_nogicassis_worm_kamen_rider_kabuto/')
+add_data(['Cassis Worm'],
+'Cassis Worm',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Reiji Nogi'],
+'Reiji Nogi',
+False,
+True,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect: Beam (Author''s Nightmare)", 'https://www.reddit.com/r/respectthreads/comments/1m8aq8p/respect_beam_authors_nightmare/')
+add_data(['Beam'],
+'Beam',
+False,
+False,
+[
+    ["Author''?s Nightmare"]
+],
+'Author''s Nightmare',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect generic Garou! (Werewolf: The Apocalypse)', 'https://www.reddit.com/r/respectthreads/comments/1m8s8fb/respect_generic_garou_werewolf_the_apocalypse/')
+add_data(['Garou'],
+'Garou',
+False,
+False,
+[
+    ['Werewolf:? The Apocalypse']
+],
+'World of Darkness',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bane (DC Comics, Absolute Universe)', 'https://www.reddit.com/r/respectthreads/comments/1m97udi/respect_bane_dc_comics_absolute_universe/')
+add_data(['Bane'],
+'Bane',
+False,
+False,
+[
+    ['Absolute Universe']
+],
+'Absolute Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1m97udi/respect_bane_dc_comics_absolute_universe/
+
+########################################
+
+id = get_rt_id(cur, 'Respect TFC Heavy (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1m9d1sh/respect_tfc_heavy_team_fortress_2/')
+add_data(['TFC Heavy'],
+'TFC Heavy',
+False,
+True,
+[
+    ['TF2'], ['Team Fortress']
+],
+'TF2',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1m9d1sh/respect_tfc_heavy_team_fortress_2/
 
 ########################################
 
