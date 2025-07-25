@@ -107,6 +107,22 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4126, 'Respect Ash Ketchum (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/cn97u8/respect_ash_ketchum_pokemon_anime/')
+update_respectthread(cur, 256, 'Respect Quicksilver (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/jvs26s/respect_quicksilver_marvel_cinematic_universe/')
+update_respectthread(cur, 242, 'Respect Sam Wilson, Captain America (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/1ku9apg/respect_sam_wilson_captain_america_marvel/')
+update_respectthread(cur, 26090, 'Respect Chrollo Lucifer, Boss of the Phantom Troupe (Hunter x Hunter)', 'https://www.reddit.com/r/respectthreads/comments/1kvajlm/respect_chrollo_lucifer_boss_of_the_phantom/')
+update_respectthread(cur, 21730, 'Respect Hank Rutherford Hill! (King of the Hill)', 'https://www.reddit.com/r/respectthreads/comments/tx8xiw/respect_hank_rutherford_hill_king_of_the_hill/')
+update_respectthread(cur, 1131, 'Respect Mr. Incredible (The Incredibles)', 'https://www.reddit.com/r/respectthreads/comments/fygb5s/respect_mr_incredible_the_incredibles/')
+update_respectthread(cur, 20570, 'Respect The Parr Family (The Incredibles comics)', 'https://www.reddit.com/r/respectthreads/comments/q82emz/respect_the_parr_family_the_incredibles_comics/')
+update_respectthread(cur, 23348, 'Respect Yelena Belova (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/117ckm6/respect_yelena_belova_marvel_cinematic_universe/')
+update_respectthread(cur, 17487, 'Respect Alexei Alanovich Shostakov, The Red Guardian (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/ok5vpg/respect_alexei_alanovich_shostakov_the_red/')
+update_respectthread(cur, 21271, 'Respect John F. Walker! (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/mwz5vm/respect_john_f_walker_marvel_cinematic_universe/')
+update_respectthread(cur, 314, 'Respect Darth Vader (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/iaalhi/respect_darth_vader_star_wars_canon/')
+update_respectthread(cur, 17674, 'Respect Darth Vader (Star Wars Legends)', 'https://www.reddit.com/r/respectthreads/comments/ph7pyp/respect_darth_vader_star_wars_legends/')
+update_respectthread(cur, 26025, 'Respect the Death Star (Star Wars Legends)', 'https://www.reddit.com/r/respectthreads/comments/1k9wr8s/respect_the_death_star_star_wars_legends/')
+
+########################################
+
 add_data(['Allied Master ?computer'],
 'Allied Mastercomputer',
 False,
@@ -118,6 +134,26 @@ True,
 '{16570}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1m4xfve/allied_mastercomputer_vs_gojo/
+
+########################################
+
+add_data(['Thunderbolts'],
+'Thunderbolts',
+True,
+False,
+[
+    ['Thunderbolts ?\(MCU'], ['The Thunderbolts.*\(MCU\)'], ['Thunderbolts Team', 'MCU'], ['New Avengers', 'MCU'], ['MCU Thunderbolts'], ['MCU: Thunderbolts'], ['Marvel Studios Thunderbolts']
+],
+'MCU',
+'{23348, 17487, 21271, 6502, 274}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1hri6a7/marvel_studios_thunderbolts_dc_the_suicide_squad/
+#https://www.reddit.com/r/whowouldwin/comments/1kkqlc8/who_is_the_most_powerful_mcu_villain_the/
+#https://www.reddit.com/r/whowouldwin/comments/1k95y5g/the_full_thunderbolts_team_mcu_lineup_vs_sentry/
+#https://www.reddit.com/r/whowouldwin/comments/1kik9co/mcu_the_avengers_vs_the_new_avengers_formerly/
+#https://www.reddit.com/r/whowouldwin/comments/1ktdudq/mcu_thunderbolts_vs_dceu_suicide_squad/
+#https://www.reddit.com/r/whowouldwin/comments/1ke28uw/mcu_thunderbolts_vs_dceu_11th_street_kids/
+
 
 ########################################
 
@@ -133,6 +169,7 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
 
 ########################################
 
