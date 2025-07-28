@@ -120,6 +120,10 @@ update_respectthread(cur, 21271, 'Respect John F. Walker! (Marvel Cinematic Univ
 update_respectthread(cur, 314, 'Respect Darth Vader (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/iaalhi/respect_darth_vader_star_wars_canon/')
 update_respectthread(cur, 17674, 'Respect Darth Vader (Star Wars Legends)', 'https://www.reddit.com/r/respectthreads/comments/ph7pyp/respect_darth_vader_star_wars_legends/')
 update_respectthread(cur, 26025, 'Respect the Death Star (Star Wars Legends)', 'https://www.reddit.com/r/respectthreads/comments/1k9wr8s/respect_the_death_star_star_wars_legends/')
+update_respectthread(cur, 14797, 'Respect the Forerunners (Halo)', 'https://www.reddit.com/r/respectthreads/comments/cq6ywk/respect_the_forerunners_halo/')
+update_respectthread(cur, 381, 'Respect the Xenomorph (Alien) (Canon)', 'https://www.reddit.com/r/respectthreads/comments/v6u73b/respect_the_xenomorph_alien_canon/')
+update_respectthread(cur, 22087, 'Respect Ellen Ripley (Alien)', 'https://www.reddit.com/r/respectthreads/comments/v5drkt/respect_ellen_ripley_alien/')
+
 
 ########################################
 
@@ -134,6 +138,20 @@ True,
 '{16570}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1m4xfve/allied_mastercomputer_vs_gojo/
+
+########################################
+
+add_data(['Ripley'],
+'Ripley',
+False,
+False,
+[
+    ['Xenomorphs?']
+],
+'Alien',
+'{22087}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1mbalek/ds_necromorphs_vs_alien_movies_xenomorphs/n5kpbig/?context=3
 
 ########################################
 
@@ -256,6 +274,67 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/respectthreads/comments/1m9d1sh/respect_tfc_heavy_team_fortress_2/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alluka Zoldyck (Hunter x Hunter)', 'https://www.reddit.com/r/respectthreads/comments/1m9idal/respect_alluka_zoldyck_hunter_x_hunter/')
+add_data(['Alluka'],
+'Alluka',
+False,
+False,
+[
+    ['Hunter ?(x ?)?Hunter'], ['HxH'], ['Zoldycks?'], ['wish(es|ing)?']
+],
+'Hunter x Hunter',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Megaraptor (Dinosaur King)', 'https://www.reddit.com/r/respectthreads/comments/1m9n10l/respect_megaraptor_dinosaur_king/')
+add_data(['Megaraptor'],
+'Megaraptor',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bashnag Gro-Gorzoth! (The Elder Scrolls)', 'https://www.reddit.com/r/respectthreads/comments/1m9u5w4/respect_bashnag_grogorzoth_the_elder_scrolls/')
+add_data(['Bashnag'],
+'Bashnag',
+False,
+False,
+[
+    ['Elder Scrolls'], ['Gro(-| )?Gorzoth']
+],
+'Elder Scrolls',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Pedestrian (The Pedestrian)', 'https://www.reddit.com/r/respectthreads/comments/1ma576s/respect_the_pedestrian_the_pedestrian/')
+add_data(['The Pedestrian'],
+'The Pedestrian',
+False,
+False,
+[
+    ['The Pedestrian ?\(The Pedestrian\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 
 ########################################
 
