@@ -107,6 +107,25 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 23075, 'Respect David Martinez! (Cyberpunk: Edgerunners)', 'https://www.reddit.com/r/respectthreads/comments/zmfhi2/respect_david_martinez_cyberpunk_edgerunners/')
+update_respectthread(cur, 22687, 'Respect Adam Smasher (Cyberpunk)', 'https://www.reddit.com/r/respectthreads/comments/y0wryy/respect_adam_smasher_cyberpunk/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Iron Man Model 20: the Tin Man Armor (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1mbfp7o/respect_iron_man_model_20_the_tin_man_armor/')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 20'], ['Tin Man Armor']
+],
+'Tin Man Armor',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
 
 ########################################
 
