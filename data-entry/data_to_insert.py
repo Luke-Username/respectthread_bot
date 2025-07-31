@@ -109,6 +109,18 @@ cur = con.cursor()
 
 update_respectthread(cur, 23075, 'Respect David Martinez! (Cyberpunk: Edgerunners)', 'https://www.reddit.com/r/respectthreads/comments/zmfhi2/respect_david_martinez_cyberpunk_edgerunners/')
 update_respectthread(cur, 22687, 'Respect Adam Smasher (Cyberpunk)', 'https://www.reddit.com/r/respectthreads/comments/y0wryy/respect_adam_smasher_cyberpunk/')
+update_respectthread(cur, 21047, 'Respect Marisa Kirisame (Touhou)', 'https://www.reddit.com/r/respectthreads/comments/r5qi72/respect_marisa_kirisame_touhou/')
+update_respectthread(cur, 23994, 'Respect Reed Richards (Marvel, 616)', 'https://www.reddit.com/r/iridescence_stuff/comments/b73oq7/respect_reed_richards_marvel_616/')
+update_respectthread(cur, 7484, 'Respect the Infinity Gauntlet (Marvel: Earth-616)', 'https://www.reddit.com/r/respectthreads/comments/e46vif/respect_the_infinity_gauntlet_marvel_earth616/')
+update_respectthread(cur, 14893, 'Respect Chris Redfield (Resident Evil)', 'https://www.reddit.com/r/respectthreads/comments/cl603b/respect_chris_redfield_resident_evil/')
+update_respectthread(cur, 25832, 'Respect Spawn! (DEATH BATTLE!)', 'https://www.reddit.com/r/respectthreads/comments/1j26seg/respect_spawn_death_battle/')
+update_respectthread(cur, 13479, 'Respect Ghostface (Scream 1996)', 'https://www.reddit.com/r/respectthreads/comments/1jfv4is/respect_ghostface_scream_1996/')
+update_respectthread(cur, 25883, 'Respect Ghostface (Scream 2)', 'https://www.reddit.com/r/respectthreads/comments/1jhbg1e/respect_ghostface_scream_2/')
+update_respectthread(cur, 25884, 'Respect Ghostface (Scream 3)', 'https://www.reddit.com/r/respectthreads/comments/1jfvbyp/respect_ghostface_scream_3/')
+update_respectthread(cur, 25885, 'Respect Ghostface (Scream 4)', 'https://www.reddit.com/r/respectthreads/comments/1jg6de6/respect_ghostface_scream_4/')
+update_respectthread(cur, 25886, 'Respect Ghostface (Scream 2022)', 'https://www.reddit.com/r/respectthreads/comments/1jfvoww/respect_ghostface_scream_2022/')
+update_respectthread(cur, 25887, 'Respect Ghostface (Scream 6)', 'https://www.reddit.com/r/respectthreads/comments/1jfvm0a/respect_ghostface_scream_6/')
+update_respectthread(cur, 24551, 'Respect The Man in the Suit (Unknowingly/Godzilla Analog Horror)', 'https://www.reddit.com/r/respectthreads/comments/18bloxy/respect_the_man_in_the_suit_unknowinglygodzilla/')
 
 ########################################
 
@@ -126,6 +138,151 @@ False,
 #
 
 ########################################
+
+id = get_rt_id(cur, "Respect Iron Man''s Prison Escape Armor (Marvel, Earth-616)", 'https://www.reddit.com/r/respectthreads/comments/1mcots5/respect_iron_mans_prison_escape_armor_marvel/')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Prison Escape Armor']
+],
+'Prison Escape Armor',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Man in the Suit (Xeno)', 'https://www.reddit.com/r/respectthreads/comments/1mc09zr/respect_the_man_in_the_suit_xeno/')
+add_data(['Man in the Suit'],
+'Man in the Suit',
+False,
+False,
+[
+    ['Xeno']
+],
+'Xeno',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Altirhinus (Dinosaur King)', 'https://www.reddit.com/r/respectthreads/comments/1mc2vfa/respect_altirhinus_dinosaur_king/')
+add_data(['Altirhinus'],
+'Altirhinus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mapusaurus (Dinosaur King)', 'https://www.reddit.com/r/respectthreads/comments/1mc35hx/respect_mapusaurus_dinosaur_king/')
+add_data(['Mapusaurus'],
+'Mapusaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Carcharodontosaurus (Dinosaur King)', 'https://www.reddit.com/r/respectthreads/comments/1mdlwu2/respect_carcharodontosaurus_dinosaur_king/')
+add_data(['Carcharodontosaurus'],
+'Carcharodontosaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect B''wana Beast (DC Comics, Post-Crisis)", 'https://www.reddit.com/r/respectthreads/comments/1mc9r1v/respect_bwana_beast_dc_comics_postcrisis/')
+add_data(["B''?wana Beast"],
+"B''wana Beast",
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(["B''?wana Beast"],
+"B''wana Beast",
+False,
+False,
+[
+    ['Rebirth']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(["B''?wana Beast"],
+"B''wana Beast",
+False,
+True,
+[
+    ['DC Comics'], ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mr. Crocket (Mr. Crocket)', 'https://www.reddit.com/r/respectthreads/comments/1mdagyf/respect_mr_crocket_mr_crocket/')
+add_data(['Mr\.? Crocket'],
+'Mr. Crocket',
+False,
+True,
+[
+    ['Mr. Crocket ?\(Mr. Crocket\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1mdagyf/respect_mr_crocket_mr_crocket/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Geiz (Kamen Rider Zi-O)', 'https://www.reddit.com/r/respectthreads/comments/1mdlovi/respect_geiz_kamen_rider_zio/')
+add_data(['Geiz'],
+'Geiz',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#4
 
 ########################################
 
