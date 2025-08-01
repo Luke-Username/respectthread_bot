@@ -121,6 +121,9 @@ update_respectthread(cur, 25885, 'Respect Ghostface (Scream 4)', 'https://www.re
 update_respectthread(cur, 25886, 'Respect Ghostface (Scream 2022)', 'https://www.reddit.com/r/respectthreads/comments/1jfvoww/respect_ghostface_scream_2022/')
 update_respectthread(cur, 25887, 'Respect Ghostface (Scream 6)', 'https://www.reddit.com/r/respectthreads/comments/1jfvm0a/respect_ghostface_scream_6/')
 update_respectthread(cur, 24551, 'Respect The Man in the Suit (Unknowingly/Godzilla Analog Horror)', 'https://www.reddit.com/r/respectthreads/comments/18bloxy/respect_the_man_in_the_suit_unknowinglygodzilla/')
+update_respectthread(cur, 25685, "Respect Sue the Tyrannosaurus Rex (Chicago''s Field Museum of Natural History)", 'https://www.reddit.com/r/respectthreads/comments/1hs38dj/respect_sue_the_tyrannosaurus_rex_chicagos_field/')
+update_respectthread(cur, 1837, 'Respect Doctor Manhattan (Watchmen, DC Comics)', 'https://www.reddit.com/r/respectthreads/comments/17v8da5/respect_doctor_manhattan_watchmen_dc_comics/')
+update_respectthread(cur, 26184, 'Respect Optimus Prime (The Transformers 1984)', 'https://www.reddit.com/r/respectthreads/comments/1lhq5a0/respect_optimus_prime_the_transformers_1984/')
 
 ########################################
 
