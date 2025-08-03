@@ -124,6 +124,12 @@ update_respectthread(cur, 24551, 'Respect The Man in the Suit (Unknowingly/Godzi
 update_respectthread(cur, 25685, "Respect Sue the Tyrannosaurus Rex (Chicago''s Field Museum of Natural History)", 'https://www.reddit.com/r/respectthreads/comments/1hs38dj/respect_sue_the_tyrannosaurus_rex_chicagos_field/')
 update_respectthread(cur, 1837, 'Respect Doctor Manhattan (Watchmen, DC Comics)', 'https://www.reddit.com/r/respectthreads/comments/17v8da5/respect_doctor_manhattan_watchmen_dc_comics/')
 update_respectthread(cur, 26184, 'Respect Optimus Prime (The Transformers 1984)', 'https://www.reddit.com/r/respectthreads/comments/1lhq5a0/respect_optimus_prime_the_transformers_1984/')
+update_respectthread(cur, 23818, 'Respect Luigi (The Super Mario Bros. Movie)', 'https://www.reddit.com/r/respectthreads/comments/13dehd4/respect_luigi_the_super_mario_bros_movie/')
+update_respectthread(cur, 456, 'Respect Michael Myers (Halloween)', 'https://www.reddit.com/r/respectthreads/comments/qjpnfy/respect_michael_myers_halloween/')
+update_respectthread(cur, 24642, 'Respect Yogiri Takatou – The End of Everything (Instant Death Light Novel)', 'https://www.reddit.com/r/respectthreads/comments/19591um/respect_yogiri_takatou_the_end_of_everything/')
+update_respectthread(cur, 16620, 'Respect Conquest (Image Comics)', 'https://www.reddit.com/r/respectthreads/comments/n37wgb/respect_conquest_image_comics/')
+update_respectthread(cur, 25863, 'Respect Conquest (Invincible)', 'https://www.reddit.com/r/respectthreads/comments/1jaxyir/respect_conquest_invincible/')
+update_respectthread(cur, 15909, 'Respect: the SCP Foundation', 'https://www.reddit.com/r/respectthreads/comments/28i2s8/respect_the_scp_foundation/')
 
 ########################################
 
@@ -220,6 +226,36 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Megalosaurus (Dinosaur King)', 'https://www.reddit.com/r/respectthreads/comments/1mentqc/respect_megalosaurus_dinosaur_king/')
+add_data(['Megalosaurus'],
+'Megalosaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Baryonyx (Dinosaur King)', 'https://www.reddit.com/r/respectthreads/comments/1mfbbqz/respect_baryonyx_dinosaur_king/')
+add_data(['Baryonyx'],
+'Baryonyx',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, "Respect B''wana Beast (DC Comics, Post-Crisis)", 'https://www.reddit.com/r/respectthreads/comments/1mc9r1v/respect_bwana_beast_dc_comics_postcrisis/')
 add_data(["B''?wana Beast"],
 "B''wana Beast",
@@ -286,6 +322,51 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #4
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scarlet Witch (Marvel Ultimate Alliance 3: The Black Order)', 'https://www.reddit.com/r/respectthreads/comments/1memu40/respect_scarlet_witch_marvel_ultimate_alliance_3/')
+add_data(['Scarlett? Witch'],
+'Scarlet Witch',
+False,
+False,
+[
+    ['Marvel:? Ultimate Alliance']
+],
+'Marvel: Ultimate Alliance',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1memu40/respect_scarlet_witch_marvel_ultimate_alliance_3/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rocks D. Xebec! (One Piece)', 'https://www.reddit.com/r/respectthreads/comments/1mflqsn/respect_rocks_d_xebec_one_piece/')
+add_data(['Rocks D\.? Xebecs?'],
+'Rocks D. Xebec',
+False,
+True,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Hulk (Phineas and Ferb)', 'https://www.reddit.com/r/respectthreads/comments/1mgd8fb/respect_the_hulk_phineas_and_ferb/')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['Hulk.*Phineas (and|&) Ferb']
+],
+'Phineas and Ferb',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1mgd8fb/respect_the_hulk_phineas_and_ferb/
 
 ########################################
 
