@@ -130,6 +130,7 @@ update_respectthread(cur, 24642, 'Respect Yogiri Takatou – The End of Everythi
 update_respectthread(cur, 16620, 'Respect Conquest (Image Comics)', 'https://www.reddit.com/r/respectthreads/comments/n37wgb/respect_conquest_image_comics/')
 update_respectthread(cur, 25863, 'Respect Conquest (Invincible)', 'https://www.reddit.com/r/respectthreads/comments/1jaxyir/respect_conquest_invincible/')
 update_respectthread(cur, 15909, 'Respect: the SCP Foundation', 'https://www.reddit.com/r/respectthreads/comments/28i2s8/respect_the_scp_foundation/')
+update_respectthread(cur, 304, 'Respect Aayla Secura (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/1mhsdvo/respect_aayla_secura_star_wars_canon/')
 
 ########################################
 
@@ -253,6 +254,22 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect SuperBaby (DC Comics, Pre-Crisis)', 'https://www.reddit.com/r/respectthreads/comments/1mgxugk/respect_superbaby_dc_comics_precrisis/')
+add_data(['SuperBaby'],
+'SuperBaby',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/p2yf4v/baby_superman_vs_baby_goku_on_the_day_they_landed/
+#https://www.reddit.com/r/whowouldwin/comments/qohafb/baby_goku_vs_baby_superman/
 
 ########################################
 
