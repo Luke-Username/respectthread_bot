@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Iron Man thread list', 'https://www.reddit.com/user/BorBurison/comments/zyvakf/iron_man_thread_list/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/user/BorBurison/comments/zyvakf/iron_man_thread_list/';
-UPDATE character SET rt_id_array='{?}' WHERE rt_id_array='{2173,24286,25696,25947,25525,25108,24256,24155,24222,24234,24208,24365,25873,25874,2175,2176,24161,2177,2178,24221,25514,24235}';
-
 ########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='Purple Man';
 
 ########################################
 
