@@ -10698,13 +10698,6 @@ Killgrave,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Killgrave,{MCU},f,{},MCU
 Killgrave,{199999},f,{},MCU
 Killgrave,"{`"Jessica Jones`"}",f,{},MCU
-Purple Man,{616},t,{2523},616
-Purple Man,{Marvel},t,{2523},616
-Purple Man,"{`"Marvel Cinematic Universe`"}",f,{},MCU
-Purple Man,{MCU},f,{},MCU
-Purple Man,{199999},f,{},MCU
-Purple Man,"{`"Jessica Jones`"}",f,{},MCU
-Purple Man,{FNAF},f,{},FNAF
 Blink,{295},f,{2524},295
 Blink,"{`"Age of Apocalypse`"}",f,{2524},295
 Blink,{Exiles},f,{2524},295
@@ -10763,6 +10756,10 @@ Mr. 3,"{`"One Piece`"}",t,{11095},One Piece
 Codpiece,{DC},f,{11096},Post-Crisis
 Codpiece,{PC},f,{11096},Post-Crisis
 Lara Croft,{Survivor},t,"{11094,22643,22644}",Tomb Raider
+Purple Man,{616},f,{2523},616
+Purple Man,{Marvel},f,{2523},616
+Purple Man,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Purple Man,{MCU},f,{},MCU
 Codpiece,"{`"Earth(-| )(1|One)`"}",f,{11096},Post-Crisis
 Codpiece,"{`"Post(-| )?C(risis)?`"}",f,{11096},Post-Crisis
 Codpiece,"{`"New(-| )Earth`"}",f,{11096},Post-Crisis
@@ -30578,8 +30575,8 @@ Kuroto Dan,"{`"Kamen Rider`"}",t,{24398},Kamen Rider
 Dr. Jekyll and Mr. Hyde,"{`"616 versions?`"}",f,{},616
 Dr. Jekyll and Mr. Hyde,"{`"M(iste)?r\\.? Hyde ?\\(616\\)`"}",f,{},616
 Dr. Jekyll and Mr. Hyde,{Doyle},f,{},Doyle
-Iron Man,{616},t,"{2173,24286,25696,25947,25525,25108,24256,24155,24222,24234,24208,24365,25873,25874,2175,2176,24161,2177,2178,24221,25514,24235}",616
-Iron Man,{Marvel},t,"{2173,24286,25696,25947,25525,25108,24256,24155,24222,24234,24208,24365,25873,25874,2175,2176,24161,2177,2178,24221,25514,24235}",616
+Iron Man,{616},t,{26289},616
+Iron Man,{Marvel},t,{26289},616
 Dr. Jekyll and Mr. Hyde,"{`"\\(Movie\\) Mr\\.? Hyde`"}",f,{},Movie
 Dr. Jekyll and Mr. Hyde,"{`"League of Extraordinary Gentlemen`"}",f,{},The League of Extraordinary Gentlemen
 Dr. Jekyll and Mr. Hyde,"{`"The London Assignment`"}",f,{},Van Helsing: The London Assignment
@@ -31654,7 +31651,6 @@ Psyduck,{Misty},t,{25046},Pokémon
 Psyduck,{Pok(e|é)m(o|a)n},t,{25046},Pokémon
 Skar King,"{`"Monster(-| )?verse`"}",t,{25047},MonsterVerse
 Skar King,"{`"Godzilla x Kong`"}",t,{25047},MonsterVerse
-Garou,"{`"World of Darkness`"}",f,{},World of Darkness
 Almond,"{`"Cucumber Quest`"}",f,{25048},Cucumber Quest
 Togepi,{Pok(e|é)m(o|a)n},t,{25049},Pokémon
 Togepi,{Misty},t,{25049},Pokémon
@@ -33396,6 +33392,7 @@ Monsieur Mallah,"{`"\\[DC( Comics)?\\]`"}",t,{26104},DC
 Brain,"{`"Brain ?\\(Posts?(-| )?C(risis)?\\)`"}",f,{26105},Post-Crisis
 Brain,"{`"Brain ?\\(New(-| )Earth\\)`"}",f,{26105},Post-Crisis
 Brain,"{`"Brain ?\\(DC( Comics)?\\)`"}",f,{26105},DC
+Yeti,{TF2},f,{26252},TF2
 Brain,"{`"Brain ?\\[DC( Comics)?\\]`"}",f,{26105},DC
 Spider Jerusalem,{Transmetropolitan},t,{26106},Transmetropolitan
 Mummy,"{`"Lot No\\.? 249`"}",f,{26107},Lot No. 249
@@ -33628,3 +33625,80 @@ Joanna Dark,"{`"Canceled Perfect Dark reboot`"}",f,{26244},Canceled Perfect Dark
 Richard Benson,{Dynamite},f,{26245},Dynamite Entertainment
 Styracosaurus,"{`"Dinosaur King`"}",f,{26246},Dinosaur King
 The Imagined,{Fortnite},f,{26247},Fortnite
+Jonesy,{Fortnite},f,{26248},Fortnite
+Deathstroke,"{`"Death(-| )?stroke.*Earth 3`"}",f,{26249},Earth 3
+Cassandra Cain,{DCeased},f,{26250},DCeased
+Knifehead,"{`"Pacific Rim`"}",f,{26251},Pacific Rim
+Yeti,"{`"Team Fortress`"}",f,{26252},TF2
+Predators,"{`"Predator Vs\\.? Spider-Man`"}",f,{26253},Predator Vs. Spider-Man
+Shere Khan,{Talespin},f,{},Talespin
+Te Ka,{Moana},f,{25816},Moana
+Ultraman,"{`"Ultraman ?\\(Marvel`"}",f,{26254},Marvel
+Ultraman Nexus,"{`"Ultraman Nexus ?\\(Ultraman Nexus`"}",t,{26255},""
+Spartacus,"{`"Dinosaur King`"}",f,{26256},Dinosaur King
+Vlad Von Carstein,{(WH)?40K},t,{26257},Warhammer 40k
+Vlad Von Carstein,{Warhammer},t,{26257},Warhammer 40k
+Kai,"{`"Kai ?\\((The )?Legend of Korra`"}",f,{26258},Avatar: TLA
+Mottom,"{`"Kill ?(Six|6) ?Billion ?Demons`"}",f,{26259},Kill Six Billion Demons
+Mottom,{K(S|6)BD},f,{26259},Kill Six Billion Demons
+Gog-Agog,"{`"Kill ?(Six|6) ?Billion ?Demons`"}",f,{26260},Kill Six Billion Demons
+Gog-Agog,{K(S|6)BD},f,{26260},Kill Six Billion Demons
+82 White Chain,"{`"Kill ?(Six|6) ?Billion ?Demons`"}",t,{26261},Kill Six Billion Demons
+82 White Chain,{K(S|6)BD},t,{26261},Kill Six Billion Demons
+White Chain,"{`"Kill ?(Six|6) ?Billion ?Demons`"}",f,{26261},Kill Six Billion Demons
+White Chain,{K(S|6)BD},f,{26261},Kill Six Billion Demons
+Kuwagata Ohger,"{`"Sentai Gozyuger`"}",f,{26262},No.1 Sentai Gozyuger
+Natsume Tsutsumi,"{`"Sentai Gozyuger`"}",f,{26262},No.1 Sentai Gozyuger
+Tuco Salamanca,"{`"Breaking Bad`"}",t,{26263},Breaking Bad
+Allied Mastercomputer,"{`"Have No Mouth`"}",t,{16570},I Have No Mouth And Must Scream
+Allied Mastercomputer,{IHNMAIMS},t,{16570},I Have No Mouth And Must Scream
+Ripley,{Xenomorphs?},f,{22087},Alien
+Thunderbolts,"{`"Thunderbolts ?\\(MCU`"}",f,"{23348,17487,21271,6502,274}",MCU
+Thunderbolts,"{`"The Thunderbolts.*\\(MCU\\)`"}",f,"{23348,17487,21271,6502,274}",MCU
+Thunderbolts,"{`"Thunderbolts Team`",MCU}",f,"{23348,17487,21271,6502,274}",MCU
+Thunderbolts,"{`"New Avengers`",MCU}",f,"{23348,17487,21271,6502,274}",MCU
+Thunderbolts,"{`"MCU Thunderbolts`"}",f,"{23348,17487,21271,6502,274}",MCU
+Thunderbolts,"{`"MCU: Thunderbolts`"}",f,"{23348,17487,21271,6502,274}",MCU
+Thunderbolts,"{`"Marvel Studios Thunderbolts`"}",f,"{23348,17487,21271,6502,274}",MCU
+Last Sun,"{`"Last Sun ?\\(DC`"}",f,{26264},DC
+Cassis Worm,"{`"Kamen Rider`"}",f,{26265},Kamen Rider
+Reiji Nogi,"{`"Kamen Rider`"}",t,{26265},Kamen Rider
+Beam,"{`"Author'?s Nightmare`"}",f,{26266},Authors Nightmare
+Bane,"{`"Absolute Universe`"}",f,{26268},Absolute Universe
+TFC Heavy,{TF2},t,{26269},TF2
+TFC Heavy,"{`"Team Fortress`"}",t,{26269},TF2
+Alluka,"{`"Hunter ?(x ?)?Hunter`"}",f,{26270},Hunter x Hunter
+Alluka,{HxH},f,{26270},Hunter x Hunter
+Alluka,{Zoldycks?},f,{26270},Hunter x Hunter
+Alluka,{wish(es|ing)?},f,{26270},Hunter x Hunter
+Megaraptor,"{`"Dinosaur King`"}",f,{26271},Dinosaur King
+Bashnag,"{`"Elder Scrolls`"}",f,{26272},Elder Scrolls
+Bashnag,"{`"Gro(-| )?Gorzoth`"}",f,{26272},Elder Scrolls
+The Pedestrian,"{`"The Pedestrian ?\\(The Pedestrian\\)`"}",f,{26273},""
+Garou,"{`"World of Darkness`"}",f,{26267},World of Darkness
+Garou,"{`"Werewolf:? The Apocalypse`"}",f,{26267},World of Darkness
+Iron Man,"{`"Model 20`"}",f,{26274},Tin Man Armor
+Iron Man,"{`"Tin Man Armor`"}",f,{26274},Tin Man Armor
+Iron Man,"{`"Prison Escape Armor`"}",f,{26275},Prison Escape Armor
+Man in the Suit,{Xeno},f,{26276},Xeno
+Altirhinus,"{`"Dinosaur King`"}",f,{26277},Dinosaur King
+Mapusaurus,"{`"Dinosaur King`"}",f,{26278},Dinosaur King
+Carcharodontosaurus,"{`"Dinosaur King`"}",f,{26279},Dinosaur King
+Megalosaurus,"{`"Dinosaur King`"}",f,{26280},Dinosaur King
+Baryonyx,"{`"Dinosaur King`"}",f,{26281},Dinosaur King
+SuperBaby,"{`"Pre(-| )?Crisis`"}",f,{26282},Pre-Crisis
+B'wana Beast,{PC},f,{26283},Post-Crisis
+B'wana Beast,"{`"Posts?(-| )?C(risis)?`"}",f,{26283},Post-Crisis
+B'wana Beast,"{`"New(-| )Earth`"}",f,{26283},Post-Crisis
+B'wana Beast,{Rebirth},f,{26283},Rebirth
+B'wana Beast,"{`"DC Comics`"}",t,{26283},DC
+B'wana Beast,"{`"\\(DC( Comics)?\\)`"}",t,{26283},DC
+B'wana Beast,"{`"\\[DC( Comics)?\\]`"}",t,{26283},DC
+Mr. Crocket,"{`"Mr. Crocket ?\\(Mr. Crocket\\)`"}",t,{26284},""
+Geiz,"{`"Kamen Rider`"}",f,{26285},Kamen Rider
+Scarlet Witch,"{`"Marvel:? Ultimate Alliance`"}",f,{26286},Marvel: Ultimate Alliance
+Rocks D. Xebec,"{`"One ?Piece?`"}",t,{26287},One Piece
+Hulk,"{`"Hulk.*Phineas (and|&) Ferb`"}",f,{26288},Phineas and Ferb
+Purple Man,{199999},f,{},MCU
+Purple Man,"{`"Jessica Jones`"}",f,{},MCU
+Purple Man,{FNAF},f,{},FNAF
