@@ -35,18 +35,20 @@ def parse_row(con, cur, row):
         print("{} is not a shortlink".format(link))
         return
 
-    # https://stackoverflow.com/questions/67086726/how-to-retrieve-a-reddit-post-by-id-using-praw
-    respectthread = r.submission(url=link)
-    url = respectthread.url
-    if url == "":
-        return
-    
-    update_link_query = "UPDATE respectthread SET link = '{}' WHERE link = '{}';".format(url, link)
-    print(update_link_query)
-    cur.execute(update_link_query)
-    con.commit()
-    time.sleep(6)
-
+    try:
+        # https://stackoverflow.com/questions/67086726/how-to-retrieve-a-reddit-post-by-id-using-praw
+        respectthread = r.submission(url=link)
+        url = respectthread.url
+        if url == "":
+            return
+        
+        update_link_query = "UPDATE respectthread SET link = '{}' WHERE link = '{}';".format(url, link)
+        print(update_link_query)
+        cur.execute(update_link_query)
+        con.commit()
+        time.sleep(5)
+    except:
+        print("ERROR: Could not update for {}".format(link))
 
 # Opening connection to database
 con = psycopg2.connect(
