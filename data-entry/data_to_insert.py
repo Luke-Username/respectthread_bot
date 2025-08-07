@@ -107,6 +107,112 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 304, 'Respect Aayla Secura (Star Wars Canon)', 'http://reddit.com/r/respectthreads/comments/1mhsdvo/respect_aayla_secura_star_wars_canon/')
+update_respectthread(cur, 5476, 'Respect Miss Pauling (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1mj6tce/respect_miss_pauling_team_fortress_2/')
+update_respectthread(cur, 1497, 'Respect Red Hood (New 52/Rebirth)', 'https://www.reddit.com/r/respectthreads/comments/1mjgpo8/respect_red_hood_new_52rebirth/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Zodiac (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1mi8ded/respect_zodiac_marvel_616/')
+add_data(['Zodiac'],
+'Zodiac',
+False,
+False,
+[
+    ['Zodiac ?\(616\)']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1mi8ded/respect_zodiac_marvel_616/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Evader Armor (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1mj834u/respect_the_evader_armor_marvel_616/')
+add_data(['Evader Armor'],
+'Evader Armor',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Mr. Fantastic''s Iron Man Armor (Marvel, 616)", 'https://www.reddit.com/r/respectthreads/comments/1mj2yu7/respect_mr_fantastics_iron_man_armor_marvel_616/')
+add_data(["Mr. Fantastic''s Iron Man Armor"],
+"Mr. Fantastic''s Iron Man Armor",
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://marvel.fandom.com/wiki/Mister_Fantastic's_Armor
+
+########################################
+
+id = get_rt_id(cur, 'Respect Insul (Serious Weakness)', 'https://www.reddit.com/r/respectthreads/comments/1mibcuu/respect_insul_serious_weakness/')
+add_data(['Insul'],
+'Insul',
+False,
+False,
+[
+    ['Serious Weakness']
+],
+'Serious Weakness',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1mibcuu/respect_insul_serious_weakness/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Menhera-Chan and Sabukaru-Chan! (Wrist-Cut Transformation Subculture✡Menhera)', 'https://www.reddit.com/r/respectthreads/comments/1mibtrs/respect_menherachan_and_sabukaruchan_wristcut/')
+add_data(['Menhera(-| )chan'],
+'Menhera-chan',
+False,
+False,
+[
+    ['Wrist-Cut Transformation']
+],
+'Wrist-Cut Transformation Subculture✡Menhera',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Sabukaru(-| )chan'],
+'Sabukaru-chan',
+False,
+False,
+[
+    ['Wrist-Cut Transformation']
+],
+'Wrist-Cut Transformation Subculture✡Menhera',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ged (Earthsea Cycle)', 'https://www.reddit.com/r/respectthreads/comments/1mj4s33/respect_ged_earthsea_cycle/')
+add_data(['Ged'],
+'Ged',
+False,
+False,
+[
+    ['Earthsea Cycle']
+],
+'Earthsea Cycle',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
