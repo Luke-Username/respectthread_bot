@@ -216,6 +216,37 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Cyclops (X-Men: The Animated Series)', 'https://www.reddit.com/r/respectthreads/comments/1mjvti5/respect_cyclops_xmen_the_animated_series/')
+add_data(['Cyclops'],
+'Cyclops',
+False,
+False,
+[
+    ['X(-| )?Men:? The Animated Series'], ['X(-| )?Men', '1992']
+],
+'X-Men: The Animated Series',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Franciata da Pavlio de Overvich (Swords, Cider, and Other Distractions)', 'https://www.reddit.com/r/respectthreads/comments/1mk6fp8/respect_franciata_da_pavlio_de_overvich_swords/')
+add_data(['Franciata da Pavlio de Overvich'],
+'Franciata da Pavlio de Overvich',
+False,
+True,
+[
+    ['Swords, Cider, and Other Distractions']
+],
+'Swords, Cider, and Other Distractions',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
