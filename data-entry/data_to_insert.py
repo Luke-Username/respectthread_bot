@@ -113,6 +113,20 @@ update_respectthread(cur, 1497, 'Respect Red Hood (New 52/Rebirth)', 'https://ww
 
 ########################################
 
+add_data(['Disney Princess'],
+'Disney Princess',
+False,
+False,
+[
+    ['Weakest Disney Princess']
+],
+'',
+'{26057}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1mlw00n/weakest_disney_princess_that_could_kill_a/n7td73d/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect: Zodiac (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1mi8ded/respect_zodiac_marvel_616/')
 add_data(['Zodiac'],
 'Zodiac',
@@ -141,6 +155,7 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
 
 ########################################
 
@@ -243,6 +258,53 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, "Respect Awesome Possum (Awesome Possum...Kicks Dr. Machino''s Butt)", 'https://www.reddit.com/r/respectthreads/comments/1mks5ll/respect_awesome_possum_awesome_possumkicks_dr/')
+add_data(['Awesome Possum'],
+'Awesome Possum',
+False,
+True,
+[
+    ['Dr\.? Machinos?']
+],
+'Awesome Possum...Kicks Dr. Machino''s Butt',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Jacob Marshall (Cabela''s Dangerous Hunts 2013)", 'https://www.reddit.com/r/respectthreads/comments/1mlz2qq/respect_jacob_marshall_cabelas_dangerous_hunts/')
+add_data(['Jacob Marshall'],
+'Jacob Marshall',
+False,
+False,
+[
+    ["Cabela", "Dangerous Hunts"]
+],
+"Cabela''s Dangerous Hunts",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+
+########################################
+
+id = get_rt_id(cur, "Respect James'' Cacnea (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1mmf0i8/respect_james_cacnea_pokemon_anime/')
+add_data(['Cacnea'],
+'Cacnea',
+False,
+False,
+[
+    ['James']
+],
+'James',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1mmf0i8/respect_james_cacnea_pokemon_anime/
 
 
 ########################################
