@@ -127,6 +127,32 @@ False,
 
 ########################################
 
+add_data(['Steve Rogers'],
+'Steve Rogers',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{2024}'
+)
+#
+
+add_data(['Steve Rogers'],
+'Steve Rogers',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{237}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect: Zodiac (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1mi8ded/respect_zodiac_marvel_616/')
 add_data(['Zodiac'],
 'Zodiac',
@@ -306,6 +332,50 @@ False,
 )
 #https://www.reddit.com/r/respectthreads/comments/1mmf0i8/respect_james_cacnea_pokemon_anime/
 
+########################################
+
+id = get_rt_id(cur, 'Respect Neutro, The Most Astounding Super Hero of All (Dell Comics)', 'https://www.reddit.com/r/respectthreads/comments/1mml5a0/respect_neutro_the_most_astounding_super_hero_of/')
+add_data(['Neutro'],
+'Neutro',
+False,
+False,
+[
+    ['Dell Comics']
+],
+'Dell Comics',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Godzilla 1994 Cancelled Movie)', 'https://www.reddit.com/r/respectthreads/comments/1mmldgl/respect_godzilla_godzilla_1994_cancelled_movie/')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['1994.*Cancelled Movie']
+],
+'1994 Cancelled Movie',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1mmldgl/respect_godzilla_godzilla_1994_cancelled_movie/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Flexo the Rubber Man (Marvel Comics; Earth 616)', 'https://www.reddit.com/r/respectthreads/comments/1mmuvro/respect_flexo_the_rubber_man_marvel_comics_earth/')
+add_data(['Flexo'],
+'Flexo',
+False,
+False,
+[
+    ['the Rubber Man'], ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
