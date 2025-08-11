@@ -370,7 +370,7 @@ add_data(['Flexo'],
 False,
 False,
 [
-    ['the Rubber Man'], ['616']
+    ['the Rubber Man'], ['616'], ['Symbiote']
 ],
 '616',
 '{' + '{}'.format(id) + '}'
