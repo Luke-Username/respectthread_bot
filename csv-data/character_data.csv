@@ -21999,7 +21999,6 @@ Grignr,"{`"Eye of Argon`"}",t,{6149},The Eye of Argon
 Grinch,{Seuss},t,{6161},Dr. Seuss
 Grinch,"{`"How The Grinch Stole Christmas`"}",t,{6161},Dr. Seuss
 Mephistopheles,{Faust},f,{6151},Faust
-Hugo Danner,{Gladiator},t,{6153},Gladiator
 Magnus Chase,"{`"Gods of Asgard`"}",t,{6154},Magnus Chase and The Gods of Asgard
 Magnus Chase,"{`"Riordan(-| )?(verse)?`"}",t,{6154},Magnus Chase and The Gods of Asgard
 Godzilla,"{`"Godzilla Likes to Roar`"}",f,{6155},Godzilla Likes to Roar!
@@ -22010,6 +22009,7 @@ SCP-6772,"{`"Head Hunter`"}",t,{21658},""
 Spider-Woman,{1979},f,{21659},1979
 Archangel,{616},f,{2343},616
 Hugo,{Fablehaven},f,{6150},Fablehaven
+Hugo Danner,{Gladiator},t,"{26290,6153}",Gladiator
 Dragon,"{`"Golden Legend`"}",f,{6157},Golden Legend
 Breeze,{Gone},f,{6158},Gone
 Brianna Berenson,{Gone},t,{6158},Gone
@@ -33702,3 +33702,25 @@ Hulk,"{`"Hulk.*Phineas (and|&) Ferb`"}",f,{26288},Phineas and Ferb
 Purple Man,{199999},f,{},MCU
 Purple Man,"{`"Jessica Jones`"}",f,{},MCU
 Purple Man,{FNAF},f,{},FNAF
+Disney Princess,"{`"Weakest Disney Princess`"}",f,{26057},""
+Steve Rogers,{616},t,{2024},616
+Steve Rogers,"{`"Marvel Cinematic Universe`"}",f,{237},MCU
+Steve Rogers,{MCU},f,{237},MCU
+Zodiac,"{`"Zodiac ?\\(616\\)`"}",f,{26291},616
+Evader Armor,{616},f,{26292},616
+Mr. Fantastic's Iron Man Armor,{616},t,{26293},616
+Insul,"{`"Serious Weakness`"}",f,{26294},Serious Weakness
+Menhera-chan,"{`"Wrist-Cut Transformation`"}",f,{26295},Wrist-Cut Transformation Subculture✡Menhera
+Sabukaru-chan,"{`"Wrist-Cut Transformation`"}",f,{26295},Wrist-Cut Transformation Subculture✡Menhera
+Ged,"{`"Earthsea Cycle`"}",f,{26296},Earthsea Cycle
+Cyclops,"{`"X(-| )?Men:? The Animated Series`"}",f,{26297},X-Men: The Animated Series
+Cyclops,"{`"X(-| )?Men`",1992}",f,{26297},X-Men: The Animated Series
+Franciata da Pavlio de Overvich,"{`"Swords, Cider, and Other Distractions`"}",t,{26298},"Swords, Cider, and Other Distractions"
+Awesome Possum,"{`"Dr\\.? Machinos?`"}",t,{26299},Awesome Possum...Kicks Dr. Machinos Butt
+Jacob Marshall,"{Cabela,`"Dangerous Hunts`"}",f,{26300},Cabela's Dangerous Hunts
+Cacnea,{James},f,{26301},James
+Neutro,"{`"Dell Comics`"}",f,{26302},Dell Comics
+Godzilla,"{`"1994.*Cancelled Movie`"}",f,{26303},1994 Cancelled Movie
+Flexo,"{`"the Rubber Man`"}",f,{26304},616
+Flexo,{616},f,{26304},616
+Flexo,{Symbiote},f,{26304},616
