@@ -3158,8 +3158,6 @@ Spider-Man,"{`"Spectacular Spider-?Man`"}",f,{911},Spectacular Spider-Man
 Tombstone,"{`"Spectacular Spider-?Man`"}",f,{912},Spectacular Spider-Man
 Hammerhead,"{`"Spectacular Spider-?Man`"}",f,{912},Spectacular Spider-Man
 Venom,"{`"Spectacular Spider-?Man`"}",f,{913},Spectacular Spider-Man
-Durge,"{`"Star Wars`"}",t,{920},Star Wars
-Durge,"{`"Clone Wars`"}",t,{920},Star Wars
 Bo-Katan,"{`"Star Wars`"}",t,{921},Star Wars
 Bo-Katan,"{`"Clone Wars`"}",t,{921},Star Wars
 Homura Akemi,"{`"Madoka Magica`"}",t,{4422},Madoka Magica
@@ -3174,6 +3172,7 @@ Savage Opress,"{`"Star Wars`"}",t,{926},Star Wars
 Savage Opress,"{`"Clone Wars`"}",t,{926},Star Wars
 Grand Inquisitor,"{`"Star Wars`"}",t,{927},Star Wars
 Grand Inquisitor,{SWR},t,{927},Star Wars
+Durge,"{`"Star Wars`"}",f,{920},Star Wars
 Justice Guild of America,"{`"DC Animated Universe`"}",t,{762},DCAU
 Justice Guild of America,{DCAU},t,{762},DCAU
 Tom Turbine,"{`"DC Animated Universe`"}",t,{762},DCAU
@@ -19363,8 +19362,6 @@ Heavy Weapons Guy,"{`"Team Fortress`"}",t,{5483},TF2
 Heavy,{TF2},f,{5483},TF2
 Heavy,"{`"Team Fortress`"}",f,{5483},TF2
 Heavy,{Zarya},f,{5483},TF2
-Zhanna,{TF2},f,{5483},TF2
-Zhanna,"{`"Team Fortress`"}",f,{5483},TF2
 Sniper,{TF2},f,{5483},TF2
 Sniper,"{`"Team Fortress`"}",f,{5483},TF2
 Spy,{TF2},f,{5483},TF2
@@ -19382,6 +19379,8 @@ Kazuya,"{`"Kazuya Mishima`"}",f,{5490},Tekken
 Kuma II,{Tekken},t,{5491},Tekken
 Kuma,{Tekken},f,{5491},Tekken
 Raven,{Tekken},f,{5492},Tekken
+Zhanna,{TF2},f,{26305},TF2
+Zhanna,"{`"Team Fortress`"}",f,{26305},TF2
 True Ogre,{Tekken},t,{5493},Tekken
 Ogre,{Tekken},f,{5493},Tekken
 Duke Fishron,{Terraria},t,{5494},Terraria
@@ -33724,3 +33723,37 @@ Godzilla,"{`"1994.*Cancelled Movie`"}",f,{26303},1994 Cancelled Movie
 Flexo,"{`"the Rubber Man`"}",f,{26304},616
 Flexo,{616},f,{26304},616
 Flexo,{Symbiote},f,{26304},616
+Durge,"{`"Clone Wars`"}",f,{920},Star Wars
+Dragonborn,"{Durge,`"Baldur'?s Gate`"}",f,{},Baldur's Gate
+Sentry,"{`"Marvel Cinematic Universe`"}",f,{},MCU
+Sentry,{MCU},f,{},MCU
+Hattori Hanzo,"{`"Dinosaur King`"}",f,{26306},Dinosaur King
+Pentaceratops,"{`"Dinosaur King`"}",f,{26307},Dinosaur King
+Deinonychus,"{`"Dinosaur King`"}",f,{26308},Dinosaur King
+Gokuraku,"{`"Ichi the Witch`"}",f,{26309},Ichi the Witch
+World-Hater Majik,"{`"Ichi the Witch`"}",t,{26310},Ichi the Witch
+Desscaras,"{`"Ichi the Witch`"}",f,{26311},Ichi the Witch
+Ichi the Witch,"{`"Ichi the Witch ?\\(Ichi the Witch`"}",t,{26312},Ichi the Witch
+Jason Voorhees,"{`"Jason Universe`",`"Sweet Revenge`"}",f,{26313},Jason Universe: Sweet Revenge
+Solitaire,"{`"Author'?s Nightmare`"}",f,{26314},Author's Nightmare
+Dilophosaurus,"{`"Jurassic Park Comics`"}",f,{26315},Jurassic Park Comics
+Godzilla,"{`"Godzilla.*Godzilla Galaxy Odyssey`"}",f,{26316},Godzilla Galaxy Odyssey
+Volga,"{`"Godzilla Galaxy Odyssey`"}",f,{26317},Godzilla Galaxy Odyssey
+Marvel Godzilla,{Slick},f,{26318},Slick
+Showa Godzilla,"{`"Kurso Animations`"}",f,{26319},Kurso Animations
+Godzilla,"{`"Godzilla.*Godzilla:? Nightmare Option`"}",f,{26320},Godzilla: Nightmare Option
+Mr. Freeze,"{`"Absolute Universe`"}",f,{26321},Absolute Universe
+Mr. Freeze,"{`"The Batman,? 2004`"}",f,{26322},"The Batman, 2004-2008"
+Spenser,{Pok(e|é)m(o|a)n},f,{26323},Pokémon
+Jack Walker,{Pok(e|é)m(o|a)n},f,{26324},Pokémon
+Tucker,"{`"Tucker ?\\(Pok(e|é)m(o|a)n`"}",f,{26325},Pokémon
+Phantom,"{`"Phantom ?\\(Pok(e|é)m(o|a)n`"}",f,{26326},Pokémon
+Marshtomp,{Brock},f,{26327},Brock
+Mudkip,{Brock},f,{26327},Brock
+Ludicolo,{Brock},f,{26328},Brock
+Lotad,{Brock},f,{26328},Brock
+Lombre,{Brock},f,{26328},Brock
+Pineco,{Brock},f,{26329},Brock
+Forretress,{Brock},f,{26329},Brock
+Dustox,{Jessie},f,{26330},Jessie
+Treeshaker,"{`"Son of the White Mare`"}",f,{26331},Son of the White Mare

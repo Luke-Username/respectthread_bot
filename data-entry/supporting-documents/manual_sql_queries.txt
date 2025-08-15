@@ -14,16 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Durge';
-
 ########################################
 
-UPDATE character_name SET name='Hattori Hanz(ō|o)|Hanz(ō|o) Hattori' WHERE name='Hattori Hanzo';
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Zhanna (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1mqg5gm/respect_zhanna_team_fortress_2/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1mqg5gm/respect_zhanna_team_fortress_2/';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Zhanna' AND displayed_version_name='Zhanna';
 
 ########################################
 
