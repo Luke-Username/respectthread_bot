@@ -107,6 +107,149 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Kafka (Honkai: Star Rail)', 'https://www.reddit.com/r/respectthreads/comments/1mqx83g/respect_kafka_honkai_star_rail/')
+add_data(['Kafka'],
+'Kafka',
+False,
+False,
+[
+    ['Honkai']
+],
+'Honkai: Star Rail',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nathan Broome, the Gray Lantern of Sorrow (DC Comics; Prime Earth)', 'https://www.reddit.com/r/respectthreads/comments/1mqz4we/respect_nathan_broome_the_gray_lantern_of_sorrow/')
+add_data(['Nathan Broome'],
+'Nathan Broome',
+False,
+False,
+[
+    ['Prime Earth']
+],
+'Prime Earth',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Hulk (Marvel Comics; Earth 138)', 'https://www.reddit.com/r/respectthreads/comments/1ms85ki/respect_the_hulk_marvel_comics_earth_138/')
+add_data(['Robbie Banner'],
+'Robbie Banner',
+False,
+False,
+[
+    ['138']
+],
+'138',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Alternate Mark Graysons from Invincible War (Invincible)', 'https://www.reddit.com/r/respectthreads/comments/1mra58u/respect_the_alternate_mark_graysons_from/')
+add_data(['Alternate Mark Graysons'],
+'Alternate Mark Graysons',
+True,
+True,
+[
+    ['Invincible']
+],
+'Invincible',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Greta (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1mr12l6/respect_greta_pokemon_anime/')
+add_data(['Greta'],
+'Greta',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Anabel (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1mr179j/respect_anabel_pokemon_anime/')
+add_data(['Anabel'],
+'Anabel',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Drew (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1mrszy0/respect_drew_pokemon_anime/')
+add_data(['Drew'],
+'Drew',
+False,
+False,
+[
+    ['Drew ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hun and Atilla (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1mrszz3/respect_hun_and_atilla_pokemon_anime/')
+add_data(['Hun'],
+'Hun',
+False,
+False,
+[
+    ['Hun ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Atilla'],
+'Atilla',
+False,
+False,
+[
+    ['Atilla ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['(Hun and Atilla|Atilla and Hun)'],
+'Hun and Atilla',
+True,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
