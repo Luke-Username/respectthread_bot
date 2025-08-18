@@ -210,6 +210,35 @@ False,
 )
 #
 
+########################################
+
+id = get_rt_id(cur, 'Respect the wild Scolipede (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1mswu4n/respect_the_wild_scolipede_pokemon_anime/')
+add_data(['Wild Scolipede'],
+'Wild Scolipede',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lenora (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1mt655t/respect_lenora_pokemon_anime/')
+add_data(['Lenora'],
+'Lenora',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
@@ -246,6 +275,37 @@ False,
     ['Pok(e|é)m(o|a)n']
 ],
 'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Daimon Helstrom (Helstrom)', 'https://www.reddit.com/r/respectthreads/comments/1mt4m8s/respect_daimon_helstrom_helstrom/')
+add_data(['Daimon Helstrom'],
+'Daimon Helstrom',
+False,
+False,
+[
+    ['\(Helstrom\)'], ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Daspletosaurus (Dinosaur King)', 'https://www.reddit.com/r/respectthreads/comments/1mt9rqn/respect_daspletosaurus_dinosaur_king/')
+add_data(['Daspletosaurus'],
+'Daspletosaurus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
 '{' + '{}'.format(id) + '}'
 )
 #
