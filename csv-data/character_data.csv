@@ -8920,7 +8920,6 @@ Psycho-Pirate,"{`"Post(-| )?C(risis)?`"}",f,{1897},Post-Crisis
 Psycho-Pirate,"{`"New(-| )Earth`"}",f,{1897},Post-Crisis
 Quantum Zealot,{DC},t,{1898},DC
 Snowflame,{DC},t,{1899},DC
-Sun-Eaters,{DC},t,{1900},DC
 Ultimator,{DC},t,{1901},DC
 Weapons Master,{DCU?},f,{1902},DC
 Weapons Master,{PC},f,{1902},Post-Crisis
@@ -8935,6 +8934,7 @@ The Weird,{Zarolattian},f,{1903},DC
 Ash Williams,"{`"Ash Williams \\(DC\\)`"}",f,{1904},DC
 Ash Williams,"{`"DC Ash Williams`"}",f,{1904},DC
 Captain Adam,"{`"Earth(-| )4`"}",t,{1905},Earth 4
+Sun-Eaters,{DC},f,{1900},DC
 Captain Deathstroke,"{`"Flash(-| )?point`"}",t,{1906},Flashpoint
 Forerunner,"{`"Forerunner \\(DC`"}",f,{1907},Post-Crisis
 Forerunner,"{`"Forerunner \\(PC`"}",f,{1907},Post-Crisis
@@ -33757,3 +33757,19 @@ Pineco,{Brock},f,{26329},Brock
 Forretress,{Brock},f,{26329},Brock
 Dustox,{Jessie},f,{26330},Jessie
 Treeshaker,"{`"Son of the White Mare`"}",f,{26331},Son of the White Mare
+Kafka,{Honkai},f,{26332},Honkai: Star Rail
+Nathan Broome,"{`"Prime Earth`"}",f,{26333},Prime Earth
+Robbie Banner,{138},f,{26334},138
+Alternate Mark Graysons,{Invincible},t,{26335},Invincible
+Greta,{Pok(e|é)m(o|a)n},f,{26336},Pokémon
+Anabel,{Pok(e|é)m(o|a)n},f,{26337},Pokémon
+Drew,"{`"Drew ?\\(Pok(e|é)m(o|a)n`"}",f,{26338},Pokémon
+Wild Scolipede,{Pok(e|é)m(o|a)n},t,{26339},Pokémon
+Lenora,{Pok(e|é)m(o|a)n},f,{26340},Pokémon
+Hun,"{`"Hun ?\\(Pok(e|é)m(o|a)n`"}",f,{26341},Pokémon
+Atilla,"{`"Atilla ?\\(Pok(e|é)m(o|a)n`"}",f,{26341},Pokémon
+Hun and Atilla,{Pok(e|é)m(o|a)n},f,{26341},Pokémon
+Daimon Helstrom,"{`"\\(Helstrom\\)`"}",f,{26342},MCU
+Daimon Helstrom,"{`"Marvel Cinematic Universe`"}",f,{26342},MCU
+Daimon Helstrom,{MCU},f,{26342},MCU
+Daspletosaurus,"{`"Dinosaur King`"}",f,{26343},Dinosaur King
