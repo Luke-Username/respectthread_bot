@@ -111,6 +111,20 @@ update_respectthread(cur, 215, 'Respect Karl Ruprecht Kroenen (Hellboy 2004 film
 
 ########################################
 
+add_data(['Maker'],
+'Maker',
+False,
+False,
+[
+    ['Maker ?\(Marvel\)']
+],
+'1610',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1mvi96c/maker_marvel_vs_batman_who_laughs_dc/
+
+########################################
+
 id = get_rt_id(cur, 'Respect Euoplocephalus (Dinosaur King)', 'https://www.reddit.com/r/respectthreads/comments/1mtlwst/respect_euoplocephalus_dinosaur_king/')
 add_data(['Euoplocephalus'],
 'Euoplocephalus',
