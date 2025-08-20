@@ -107,6 +107,98 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 215, 'Respect Karl Ruprecht Kroenen (Hellboy 2004 film)', 'https://www.reddit.com/r/respectthreads/comments/1mubbqu/respect_karl_ruprecht_kroenen_hellboy_2004_film/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Euoplocephalus (Dinosaur King)', 'https://www.reddit.com/r/respectthreads/comments/1mtlwst/respect_euoplocephalus_dinosaur_king/')
+add_data(['Euoplocephalus'],
+'Euoplocephalus',
+False,
+False,
+[
+    ['Dinosaur King']
+],
+'Dinosaur King',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Hulk, The Herald of Galactus (Marvel Comics; Earth 25362)', 'https://www.reddit.com/r/respectthreads/comments/1mtmups/respect_the_hulk_the_herald_of_galactus_marvel/')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['Herald of Galactus', '25362']
+],
+'25362',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Worms (Kamen Rider Kabuto)', 'https://www.reddit.com/r/respectthreads/comments/1mu8czp/respect_the_worms_kamen_rider_kabuto/')
+add_data(['Worms'],
+'Worms',
+False,
+False,
+[
+    ['Worms ?\((Kamen Rider'], ['Kamen Rider Kabuto']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect U-1196, White Blood Cell (Cells at Work! CODE BLACK)', 'https://www.reddit.com/r/respectthreads/comments/1muckkv/respect_u1196_white_blood_cell_cells_at_work_code/')
+add_data(['U(-| )?1196'],
+'U-1196',
+False,
+False,
+[
+    ['CODE BLACK']
+],
+'Cells at Work! CODE BLACK',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Macrophage (Cells at Work!)', 'https://www.reddit.com/r/respectthreads/comments/1mvbp08/respect_the_macrophage_cells_at_work/')
+add_data(['Macrophage'],
+'Macrophage',
+False,
+False,
+[
+    ['Cells at Work']
+],
+'Cells at Work',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Blade (Honkai: Star Rail)', 'https://www.reddit.com/r/respectthreads/comments/1mui3hx/respect_blade_honkai_star_rail/')
+add_data(['Blade'],
+'Blade',
+False,
+False,
+[
+    ['Blade.*Honkai:? Star Rail']
+],
+'Honkai: Star Rail',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
