@@ -107,6 +107,168 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 3797, 'Respect Samphati of the Garuda Clan (One Last God: Kubera)', 'https://www.reddit.com/r/respectthreads/comments/1mwoqmd/respect_samphati_of_the_garuda_clan_one_last_god/')
+
+########################################
+
+add_data(['Scare ?crow'],
+'Scarecrow',
+False,
+False,
+[
+    ['Scarecrow.*\(.*616.*\)']
+],
+'616',
+'{13517}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1mxm613/which_illusionbased_villain_would_win_in_an_all/na5w70w/?context=3
+
+########################################
+
+add_data(['The Major'],
+'The Major',
+False,
+False,
+[
+    ['Ghost in the Shell|GITS', 'Stand Alone Complex']
+],
+'GITS: Stand Alone Complex',
+'{4766}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cindy Shears, The Rhinoceress (Marvel, Earth-616)', 'https://www.reddit.com/r/respectthreads/comments/1mvlf1n/respect_cindy_shears_the_rhinoceress_marvel/')
+add_data(['Cindy Shears'],
+'Cindy Shears',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Amazing Spider-Naut (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1mwbpi7/respect_the_amazing_spidernaut_marvel_616/')
+add_data(['Spider(-| )?Naut'],
+'Spider-Naut',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Justice Devil (Chainsaw Man)', 'https://www.reddit.com/r/respectthreads/comments/1mwipwc/respect_the_justice_devil_chainsaw_man/')
+add_data(['Justice Devil'],
+'Justice Devil',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fumiko (Chainsaw Man)', 'https://www.reddit.com/r/respectthreads/comments/1mwods2/respect_fumiko_chainsaw_man/')
+add_data(['Fumiko'],
+'Fumiko',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Fumiko Mifune'],
+'Fumiko Mifune',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Aging Devil (Chainsaw Man)', 'https://www.reddit.com/r/respectthreads/comments/1mwyznf/respect_the_aging_devil_chainsaw_man/')
+add_data(['Aging Devil'],
+'Aging Devil',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Death Devil! (Chainsaw Man)', 'https://www.reddit.com/r/respectthreads/comments/1mx9s7o/respect_the_death_devil_chainsaw_man/')
+add_data(['Death Devil'],
+'Death Devil',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Nail Fiend (Chainsaw Man)', 'https://www.reddit.com/r/respectthreads/comments/1mxfnba/respect_the_nail_fiend_chainsaw_man/')
+add_data(['Nail Fiend'],
+'Nail Fiend',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tartaglia! (Genshin impact)', 'https://www.reddit.com/r/respectthreads/comments/1mxbc76/respect_tartaglia_genshin_impact/')
+add_data(['Tartaglia'],
+'Tartaglia',
+False,
+False,
+[
+    ['Genshin']
+],
+'Genshin Impact',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
