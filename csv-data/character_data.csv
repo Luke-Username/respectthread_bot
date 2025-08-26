@@ -18466,7 +18466,6 @@ Noibat,{Pok(e|é)mon},t,{4151},Pokémon
 Oshawott,{Pok(e|é)mon},t,{4152},Pokémon
 Palpitoad,{Pok(e|é)mon},t,{4153},Pokémon
 Pidgeotto,{Pok(e|é)mon},t,{4154},Pokémon
-Scarecrow,{616},f,{13517},616
 Impostor,"{`"Among (U|i)s`"}",f,"{13514,23456}",Among Us
 Pignite,{Pok(e|é)mon},t,{4155},Pokémon
 Tepig,{Pok(e|é)mon},t,{4155},Pokémon
@@ -33779,3 +33778,29 @@ Hulk,"{`"Herald of Galactus`",25362}",f,{26345},25362
 U-1196,"{`"CODE BLACK`"}",f,{26347},Cells at Work! CODE BLACK
 Macrophage,"{`"Cells at Work`"}",f,{26348},Cells at Work
 Blade,"{`"Blade.*Honkai:? Star Rail`"}",f,{26349},Honkai: Star Rail
+Scarecrow,"{`"Scarecrow.*\\(.*616.*\\)`"}",f,{13517},616
+Batman,"{`"Bat(-| )?mans? ?\\(The Dark Knight\\)`"}",f,{6531},Nolanverse
+Tommy,"{`"Green Ranger`"}",f,{100},Power Rangers
+The Major,"{`"Ghost in the Shell|GITS`",`"Stand Alone Complex`"}",f,{4766},GITS: Stand Alone Complex
+Cindy Shears,{616},f,{26350},616
+Iron Man,"{`"Model 74`"}",f,{26351},Improvised Armor
+Iron Man,"{`"Improvised Armor`"}",f,{26351},Improvised Armor
+Spider-Naut,{616},f,{26352},616
+Justice Devil,"{`"Chainsaw(-| )?Man`"}",f,{26353},Chainsaw Man
+Fire Devil,"{`"Chainsaw(-| )?Man`"}",f,{26354},Chainsaw Man
+Longsword Devil,"{`"Chainsaw(-| )?Man`"}",f,{26355},Chainsaw Man
+Fumiko,"{`"Chainsaw(-| )?Man`"}",f,{26356},Chainsaw Man
+Fumiko Mifune,"{`"Chainsaw(-| )?Man`"}",f,{26356},Chainsaw Man
+Aging Devil,"{`"Chainsaw(-| )?Man`"}",f,{26357},Chainsaw Man
+Death Devil,"{`"Chainsaw(-| )?Man`"}",f,{26358},Chainsaw Man
+Nail Fiend,"{`"Chainsaw(-| )?Man`"}",f,{26359},Chainsaw Man
+Tartaglia,{Genshin},f,{26360},Genshin Impact
+Yaksha,{Kubera},f,{26361},Kubera
+Sea Hag,"{Popeye,IDW}",f,{26362},"Popeye, IDW"
+Bluto,"{Popeye,IDW}",f,{26363},"Popeye, IDW"
+Silver Wolf,{Honkai},f,{26364},Honkai: Star Rail
+Silver Wolf,{HSR},f,{26364},Honkai: Star Rail
+Predator,"{`"Alien vs Predator:? The Last of His Clan`"}",f,{26365},Alien vs Predator: The Last of His Clan
+Predator,"{`"Alien vs Predator.*1994`"}",f,{26366},"Alien vs. Predator, 1994"
+Wolf,"{`"Alien vs\\.? Predator:? Requiem`"}",f,{26367},Alien vs. Predator: Requiem
+Dr. Evil,"{`"Austin Powers`"}",t,{26368},Austin Powers

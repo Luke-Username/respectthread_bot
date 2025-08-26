@@ -14,11 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Scarecrow' AND version='{"616"}';
-
 ########################################
-
-DELETE FROM character_name WHERE name='Scarecrow';
 
 ########################################
 
