@@ -123,6 +123,35 @@ False,
 )
 #https://www.reddit.com/r/whowouldwin/comments/1mxm613/which_illusionbased_villain_would_win_in_an_all/na5w70w/?context=3
 
+
+########################################
+
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Bat(-| )?mans? ?\(The Dark Knight\)']
+],
+'Nolanverse',
+'{6531}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1mzrigk/sweet_tooth_twisted_metal_show_vs_batman_the_dark/nalm3y5/?context=3
+
+########################################
+
+add_data(['Tommy'],
+'Tommy',
+False,
+False,
+[
+    ['Green Ranger']
+],
+'Power Rangers',
+'{100}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1n0isoq/the_mighty_morphin_power_rangers_mmpr_vs_angron/naqwjrj/?context=3
+
 ########################################
 
 add_data(['The Major'],
@@ -154,6 +183,22 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Iron Man Model 74: the Improvised Armor (Marvel, Earth-616)', 'https://www.reddit.com/r/respectthreads/comments/1mzbd32/respect_iron_man_model_74_the_improvised_armor/')
+add_data(['I(ro|or)n(-| )?Man'],
+'Iron Man',
+False,
+False,
+[
+    ['Model 74'], ['Improvised Armor']
+],
+'Improvised Armor',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
 id = get_rt_id(cur, 'Respect The Amazing Spider-Naut (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1mwbpi7/respect_the_amazing_spidernaut_marvel_616/')
 add_data(['Spider(-| )?Naut'],
 'Spider-Naut',
@@ -172,6 +217,36 @@ False,
 id = get_rt_id(cur, 'Respect the Justice Devil (Chainsaw Man)', 'https://www.reddit.com/r/respectthreads/comments/1mwipwc/respect_the_justice_devil_chainsaw_man/')
 add_data(['Justice Devil'],
 'Justice Devil',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Fire Devil (Chainsaw Man)', 'https://www.reddit.com/r/respectthreads/comments/1mxx61h/respect_the_fire_devil_chainsaw_man/')
+add_data(['Fire Devil'],
+'Fire Devil',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Longsword Devil! (Chainsaw Man)', 'https://www.reddit.com/r/respectthreads/comments/1mydjql/respect_the_longsword_devil_chainsaw_man/')
+add_data(['Longsword Devil'],
+'Longsword Devil',
 False,
 False,
 [
@@ -265,6 +340,126 @@ False,
     ['Genshin']
 ],
 'Genshin Impact',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Nastika King, Yaksha! (One Last God: Kubera)', 'https://www.reddit.com/r/respectthreads/comments/1mxu6vf/respect_the_nastika_king_yaksha_one_last_god/')
+add_data(['Yaksha'],
+'Yaksha',
+False,
+False,
+[
+    ['Kubera']
+],
+'Kubera',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Sea Hag (Popeye [IDW Comics])', 'https://www.reddit.com/r/respectthreads/comments/1mxzr1v/respect_the_sea_hag_popeye_idw_comics/')
+add_data(['Sea Hag'],
+'Sea Hag',
+False,
+False,
+[
+    ['Popeye', 'IDW']
+],
+'Popeye, IDW',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bluto the Terrible (Popeye [IDW Comics])', 'https://www.reddit.com/r/respectthreads/comments/1mxzr2x/respect_bluto_the_terrible_popeye_idw_comics/')
+add_data(['Bluto'],
+'Bluto',
+False,
+False,
+[
+    ['Popeye', 'IDW']
+],
+'Popeye, IDW',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Silver Wolf (Honkai: Star Rail)', 'https://www.reddit.com/r/respectthreads/comments/1myxspl/respect_silver_wolf_honkai_star_rail/')
+add_data(['Silver Wolf'],
+'Silver Wolf',
+False,
+False,
+[
+    ['Honkai'], ['HSR']
+],
+'Honkai: Star Rail',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Predator (Alien vs Predator: The Last of His Clan)', 'https://www.reddit.com/r/respectthreads/comments/1mzpimf/respect_the_predator_alien_vs_predator_the_last/')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Alien vs Predator:? The Last of His Clan']
+],
+'Alien vs Predator: The Last of His Clan',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Predators (Alien vs. Predator (1994))', 'https://www.reddit.com/r/respectthreads/comments/1n01s2c/respect_the_predators_alien_vs_predator_1994/')
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Alien vs Predator.*1994']
+],
+'Alien vs. Predator, 1994',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wolf (Alien vs. Predator: Requiem)', 'https://www.reddit.com/r/respectthreads/comments/1n0f1ch/respect_wolf_alien_vs_predator_requiem/')
+add_data(['Wolf'],
+'Wolf',
+False,
+False,
+[
+    ['Alien vs\.? Predator:? Requiem']
+],
+'Alien vs. Predator: Requiem',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dr. Evil (Austin Powers)', 'https://www.reddit.com/r/respectthreads/comments/1my1b8x/respect_dr_evil_austin_powers/')
+add_data(['Dr\.? Evil'],
+'Dr. Evil',
+False,
+True,
+[
+    ['Austin Powers']
+],
+'Austin Powers',
 '{' + '{}'.format(id) + '}'
 )
 #
