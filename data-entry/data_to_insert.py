@@ -107,6 +107,93 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 23348, 'Respect Yelena Belova (MCU)', 'https://redd.it/1n1gwc1')
+update_respectthread(cur, 323, 'Respect Luminara Unduli (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/1n17p45/respect_luminara_unduli_star_wars_canon/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Traveler! Genshin Impact', 'https://www.reddit.com/r/respectthreads/comments/1n0ofgc/respect_traveler_genshin_impact/')
+add_data(['Traveler'],
+'Traveler',
+False,
+False,
+[
+    ['Genshin Impact']
+],
+'Genshin Impact',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Aether'],
+'Aether',
+False,
+False,
+[
+    ['Genshin Impact']
+],
+'Genshin Impact',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Lumine'],
+'Lumine',
+False,
+False,
+[
+    ['Genshin Impact']
+],
+'Genshin Impact',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bi-Beast (The Incredible Hulk 2008 video gane tie in)', 'https://www.reddit.com/r/respectthreads/comments/1n0szcf/respect_bibeast_the_incredible_hulk_2008_video/')
+add_data(['Bi(-| )Beast'],
+'Bi-Beast',
+False,
+False,
+[
+    ['The Incredible Hulk', '2008', 'game']
+],
+'The Incredible Hulk 2008 game',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-1529, King of the Mountain (SCP Foundation)', 'https://www.reddit.com/r/respectthreads/comments/1n10892/respect_scp1529_king_of_the_mountain_scp/')
+add_data(['SCP ?(-| )? ?1529'],
+'SCP-1529',
+False,
+True,
+[
+    ['King of the Mountain']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miko Miyazaki (Order of the Stick)', 'https://www.reddit.com/r/respectthreads/comments/1n1gddi/respect_miko_miyazaki_order_of_the_stick/')
+add_data(['Miko Miyazaki'],
+'Miko Miyazaki',
+False,
+True,
+[
+    ['Order of the Stick']
+],
+'Order of the Stick',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
