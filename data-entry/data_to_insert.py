@@ -107,8 +107,10 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 23348, 'Respect Yelena Belova (MCU)', 'https://redd.it/1n1gwc1')
+update_respectthread(cur, 23348, 'Respect Yelena Belova (MCU)', 'https://www.reddit.com/r/respectthreads/comments/1n1gwc1/respect_yelena_belova_mcu/')
 update_respectthread(cur, 323, 'Respect Luminara Unduli (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/1n17p45/respect_luminara_unduli_star_wars_canon/')
+update_respectthread(cur, 14887, 'Respect Gruntilda (Banjo-Kazooie)', 'https://www.reddit.com/r/respectthreads/comments/1n1vz1a/respect_gruntilda_banjokazooie/')
+update_respectthread(cur, 1297, 'The Punisher (MCU) Respect Thread', 'https://comicvine.gamespot.com/forums/gen-discussion-1/the-punisher-mcu-respect-thread-2016174/')
 
 ########################################
 
