@@ -25413,7 +25413,6 @@ Ratchet,{Jak},f,"{5689,21294,21295}",Ratchet & Clank
 Kaneki,"{`"Tokyo Ghoul`"}",f,{4964},Tokyo Ghoul
 Kaneki,{Dragon},f,{4964},Tokyo Ghoul
 Kaneki,{Naruto},f,{4964},Tokyo Ghoul
-King Kong,"{`"King Kong.*1933|1933.*King Kong`"}",f,{15404},1933
 Storm Eagle,"{`"Something ?Series`"}",f,{21296},Something Series
 Storm Eagle,"{`"Terminal ?Montage`"}",f,{21296},Something Series
 Mothman,{Fallout},f,{21297},Fallout
@@ -25433,6 +25432,7 @@ Translucent,{Amazon},f,{21303},"The Boys, 2019"
 Kamen Rider Shin,"{`"Shin Kamen Rider`"}",t,{21304},""
 Nase Maser,"{`"A Hero'?s Shadow`"}",t,{21305},A Hero's Shadow
 Minnal Murali,{default},t,{21306},""
+King Kong,"{`"King Kong.*1933|1933.*King Kong`"}",f,{15404},1933
 The Flash,"{Goku,`"Bat(-| )?mans?`",`"Super(-| )?man`"}",f,"{1582,1583,1590,1589}",DC
 Rogue,{Absorbs?},f,{2382},616
 Rogue,{Rogue.*616},f,{2382},616
@@ -33804,3 +33804,10 @@ Predator,"{`"Alien vs Predator:? The Last of His Clan`"}",f,{26365},Alien vs Pre
 Predator,"{`"Alien vs Predator.*1994`"}",f,{26366},"Alien vs. Predator, 1994"
 Wolf,"{`"Alien vs\\.? Predator:? Requiem`"}",f,{26367},Alien vs. Predator: Requiem
 Dr. Evil,"{`"Austin Powers`"}",t,{26368},Austin Powers
+Traveler,"{`"Genshin Impact`"}",f,{26369},Genshin Impact
+Aether,"{`"Genshin Impact`"}",f,{26369},Genshin Impact
+Lumine,"{`"Genshin Impact`"}",f,{26369},Genshin Impact
+Bi-Beast,"{`"The Incredible Hulk`",2008,game}",f,{26370},The Incredible Hulk 2008 game
+SCP-1529,"{`"King of the Mountain`"}",t,{26371},""
+Miko Miyazaki,"{`"Order of the Stick`"}",t,{26372},Order of the Stick
+Gardenia,{Pok(e|é)m(o|a)n},f,{26373},Pokémon
