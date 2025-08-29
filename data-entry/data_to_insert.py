@@ -198,6 +198,21 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Gardenia (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1n2dtvc/respect_gardenia_pokemon_anime/')
+add_data(['Gardenia'],
+'Gardenia',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
