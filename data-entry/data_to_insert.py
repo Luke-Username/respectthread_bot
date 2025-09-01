@@ -107,6 +107,127 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 216, 'Respect Liz Sherman (Hellboy 2004-2008 films)', 'https://www.reddit.com/r/respectthreads/comments/1n4pbzp/respect_liz_sherman_hellboy_20042008_films/')
+update_respectthread(cur, 580, 'Respect The Graboids! (Tremors)', 'https://www.reddit.com/r/respectthreads/comments/1n4s4rp/respect_the_graboids_tremors/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sweet Tooth (Twisted Metal TV Series)', 'https://www.reddit.com/r/respectthreads/comments/1n38tju/respect_sweet_tooth_twisted_metal_tv_series/')
+add_data(['Sweet Tooth'],
+'Sweet Tooth',
+False,
+False,
+[
+    ['Twisted Metal (TV Series|Show)']
+],
+'Twisted Metal TV Series',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shade Darby (Gone)', 'https://www.reddit.com/r/respectthreads/comments/1n3lpp3/respect_shade_darby_gone/')
+add_data(['Shade Darby'],
+'Shade Darby',
+False,
+False,
+[
+    ['Gone']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hajime Igarashi (Shinewbi)', 'https://www.reddit.com/r/respectthreads/comments/1n43zbx/respect_hajime_igarashi_shinewbi/')
+add_data(['Hajime Igarashi'],
+'Hajime Igarashi',
+False,
+False,
+[
+    ['Shinewbi']
+],
+'Shinewbi',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rio Mikazuki (Shinewbi)', 'https://www.reddit.com/r/respectthreads/comments/1n43zjp/respect_rio_mikazuki_shinewbi/')
+add_data(['Rio Mikazuki'],
+'Rio Mikazuki',
+False,
+False,
+[
+    ['Shinewbi']
+],
+'Shinewbi',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Che Heart (Ordeal)', 'https://www.reddit.com/r/respectthreads/comments/1n4mhsp/respect_che_heart_ordeal/')
+add_data(['Che Heart'],
+'Che Heart',
+False,
+True,
+[
+    ['Ordeal']
+],
+'Ordeal',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bjorn Grimmson (Ordeal)', 'https://www.reddit.com/r/respectthreads/comments/1n4v88y/respect_bjorn_grimmson_ordeal/')
+add_data(['Bjorn Grimmson'],
+'Bjorn Grimmson',
+False,
+True,
+[
+    ['Ordeal']
+],
+'Ordeal',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Masato Mishima/Gryllus Worm (Kamen Rider Kabuto)', 'https://www.reddit.com/r/respectthreads/comments/1n5etzs/respect_masato_mishimagryllus_worm_kamen_rider/')
+add_data(['Masato Mishima'],
+'Masato Mishima',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Gryllus Worm'],
+'Gryllus Worm',
+False,
+False,
+[
+    ['Kamen Rider']
+],
+'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
