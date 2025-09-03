@@ -33811,3 +33811,24 @@ Bi-Beast,"{`"The Incredible Hulk`",2008,game}",f,{26370},The Incredible Hulk 200
 SCP-1529,"{`"King of the Mountain`"}",t,{26371},""
 Miko Miyazaki,"{`"Order of the Stick`"}",t,{26372},Order of the Stick
 Gardenia,{Pok(e|é)m(o|a)n},f,{26373},Pokémon
+Ash,"{`"Ash from.*Evil Dead`"}",f,{425},Evil Dead
+Spawn,"{`"Al Simm?ons`"}",f,"{2638,2639}",Image Comics
+Sweet Tooth,"{`"Twisted Metal (TV Series|Show)`"}",f,{26374},Twisted Metal TV Series
+Shade Darby,{Gone},f,{26375},Gone
+Hajime Igarashi,{Shinewbi},f,{26376},Shinewbi
+Rio Mikazuki,{Shinewbi},f,{26377},Shinewbi
+Che Heart,{Ordeal},t,{26378},Ordeal
+Bjorn Grimmson,{Ordeal},t,{26379},Ordeal
+Masato Mishima,"{`"Kamen Rider`"}",f,{26380},Kamen Rider
+Gryllus Worm,"{`"Kamen Rider`"}",f,{26380},Kamen Rider
+Brent Halligan,"{`"Mystery of the Druids`"}",t,{26381},The Mystery of the Druids
+Martians,"{`"War of the Worlds`",`"Radio (Drama|Broadcast)`"}",f,{26382},War of the Worlds Radio Drama
+Martians,"{`"War of the Worlds`",1938,Radio}",f,{26382},War of the Worlds Radio Drama
+Boba Fett,"{`"Star Wars:? 1313`"}",f,{26383},Star Wars: 1313
+Darth Malak,"{`"S(tar )?Wars`"}",t,{26384},Star Wars
+Archangel Michael,{Bible|Biblical|Christianity|Abrahamic},t,{26385},Bible
+Michael,"{Archangel,Bible|Biblical|Christianity|Abrahamic}",f,{26385},Bible
+Michael,"{(Arch)?Angels?,Gabriel|Raphael|Uriel}",f,{26385},Bible
+Michael,"{`"Michael \\(?the Archangel`"}",f,{26385},Bible
+Dionysius,{RuneScape},f,{26386},RuneScape
+Wise Old Man,{RuneScape},f,{26386},RuneScape
