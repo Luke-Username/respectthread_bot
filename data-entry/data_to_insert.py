@@ -112,6 +112,34 @@ update_respectthread(cur, 580, 'Respect The Graboids! (Tremors)', 'https://www.r
 
 ########################################
 
+add_data(['Ash'],
+'Ash',
+False,
+False,
+[
+    ['Ash from.*Evil Dead']
+],
+'Evil Dead',
+'{425}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1n6qux2/dante_from_dmc_games_ash_from_ash_vs_evil_dead/nc1yujs/?context=3
+
+########################################
+
+add_data(['Spawn'],
+'Spawn',
+False,
+False,
+[
+    ['Al Simm?ons']
+],
+'Image Comics',
+'{2638,2639}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1n6qux2/dante_from_dmc_games_ash_from_ash_vs_evil_dead/nc1yujs/?context=3
+
+########################################
+
 id = get_rt_id(cur, 'Respect Sweet Tooth (Twisted Metal TV Series)', 'https://www.reddit.com/r/respectthreads/comments/1n38tju/respect_sweet_tooth_twisted_metal_tv_series/')
 add_data(['Sweet Tooth'],
 'Sweet Tooth',
@@ -223,6 +251,128 @@ False,
     ['Kamen Rider']
 ],
 'Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Brent Halligan (Mystery of the Druids)', 'https://www.reddit.com/r/respectthreads/comments/1n5nand/respect_brent_halligan_mystery_of_the_druids/')
+add_data(['Brent Halligan'],
+'Brent Halligan',
+False,
+True,
+[
+    ['Mystery of the Druids']
+],
+'The Mystery of the Druids',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Martians (The War of the Worlds, Original 1938 Radio Drama)', 'https://www.reddit.com/r/respectthreads/comments/1n5wa2k/respect_the_martians_the_war_of_the_worlds/')
+add_data(['Martians'],
+'Martians',
+False,
+False,
+[
+    ['War of the Worlds', 'Radio (Drama|Broadcast)'],
+    ['War of the Worlds', '1938', 'Radio'],
+],
+'War of the Worlds Radio Drama',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Boba Fett (Star Wars: 1313)', 'https://www.reddit.com/r/respectthreads/comments/1n5y4ga/respect_boba_fett_star_wars_1313/')
+add_data(['Boba Fett'],
+'Boba Fett',
+False,
+False,
+[
+    ['Star Wars:? 1313']
+],
+'Star Wars: 1313',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Darth Malak (Star Wars)', 'https://www.reddit.com/r/respectthreads/comments/1n6j800/respect_darth_malak_star_wars/')
+add_data(['Darth Malak'],
+'Darth Malak',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/1n6j800/respect_darth_malak_star_wars/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Archangel Michael, the Great Prince of Israel (Abrahamic Religions)', 'https://www.reddit.com/r/respectthreads/comments/1n66cte/respect_archangel_michael_the_great_prince_of/')
+add_data(['Archangel Michael'],
+'Archangel Michael',
+False,
+True,
+[
+    ['Bible|Biblical|Christianity|Abrahamic']
+],
+'Bible',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Michael'],
+'Michael',
+False,
+False,
+[
+    ['Archangel', 'Bible|Biblical|Christianity|Abrahamic'], ['(Arch)?Angels?', 'Gabriel|Raphael|Uriel'],
+    ['Michael \(?the Archangel']
+],
+'Bible',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/13l2unb/about_bible_supernatural_beings/
+#https://www.reddit.com/r/whowouldwin/comments/1bcy01w/mythology_earth_vs_the_elder_scrolls_verse/
+#https://www.reddit.com/r/whowouldwin/comments/2r54ay/the_4_archangels_michael_gabriel_raphael_and/
+#https://www.reddit.com/r/whowouldwin/comments/18cxeno/michael_the_archangel_vs_v1_ultrakill/
+#https://www.reddit.com/r/whowouldwin/comments/1dm0i4u/homelander_the_boys_vs_michael_the_archangel/
+#https://www.reddit.com/r/whowouldwin/comments/2gmo6a/michael_the_archangel_supernatural_versus_fully/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dionysius, the wise old man (Old School RuneScape)', 'https://www.reddit.com/r/respectthreads/comments/1n70lgq/respect_dionysius_the_wise_old_man_old_school/')
+add_data(['Dionysius'],
+'Dionysius',
+False,
+False,
+[
+    ['RuneScape']
+],
+'RuneScape',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Wise Old Man'],
+'Wise Old Man',
+False,
+False,
+[
+    ['RuneScape']
+],
+'RuneScape',
 '{' + '{}'.format(id) + '}'
 )
 #
