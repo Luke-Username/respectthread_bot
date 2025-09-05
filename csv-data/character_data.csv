@@ -33832,3 +33832,9 @@ Michael,"{(Arch)?Angels?,Gabriel|Raphael|Uriel}",f,{26385},Bible
 Michael,"{`"Michael \\(?the Archangel`"}",f,{26385},Bible
 Dionysius,{RuneScape},f,{26386},RuneScape
 Wise Old Man,{RuneScape},f,{26386},RuneScape
+Elvarg,{RuneScape},f,{26387},RuneScape
+Hammerspace,"{`"Confessions of a Costumed Evil(-| )?Doer`"}",f,{26388},Supervillainous! Confessions of a Costumed Evil-Doer
+Hammerspace,{Hammerspace.*Supervillainous},f,{26388},Supervillainous! Confessions of a Costumed Evil-Doer
+Kiso Yoshinaka,{Fate},f,{26389},Fate
+Kiso Yoshinaka,"{`"Samurai Remnant`"}",f,{26389},Fate
+Wally West,"{`"Absolute Universe`"}",f,{26390},Absolute Universe
