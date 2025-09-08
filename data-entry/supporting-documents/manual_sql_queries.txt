@@ -14,7 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character_name WHERE default_name='Kingpin';
+
 ########################################
+
+SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1n977oa/respect_flex_mentallo_dc_comics_postcrisis/';
+UPDATE character SET rt_id_array='{?,15275,1860}' WHERE rt_id_array='{1860,15275}'; --After run
+
 
 ########################################
 
