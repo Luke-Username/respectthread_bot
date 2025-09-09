@@ -111,6 +111,20 @@ update_respectthread(cur, 3560, "Respect Jotaro Kujo (Jojo''s Bizarre Adventure)
 
 ########################################
 
+add_data(['Optimus Prime'],
+'Optimus Prime',
+False,
+False,
+[
+    ['Optimus Prime 2007']
+],
+'Transformers Films',
+'{339}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1nbok8w/iorek_brynison_vs_optimus_prime_2007/nd34h5y/?context=3
+
+########################################
+
 add_data(['King ?pin'],
 'Kingpin',
 False,
