@@ -20561,10 +20561,10 @@ Kyle Rayner,"{`"White Lantern`"}",t,"{1685,15411}",DC
 Tall Man,{Phantasm},f,{15416},Phantasm
 Impa,"{`"Hyrule Warriors`"}",f,"{15408,24149}",Hyrule Warriors
 Impa,"{`"Age of Calamity`"}",f,"{15408,24149}",Hyrule Warriors
-Flex Mentallo,{DC},t,"{1860,15275}",DC
 Mister Negative,{PS4},f,{15398},Insomniac's Spider-Man
 Mister Negative,{1048},f,{15398},Insomniac's Spider-Man
 Kyle Rayner,{Ion},f,"{1685,15411}",DC
+Flex Mentallo,{DC},t,"{26391,15275,1860}",DC
 Big Daddy,{Bouncer},f,"{15417,4997}",BioShock
 Big Daddy,"{`"Bio ?Shock`"}",f,"{15417,4997}",BioShock
 Hana Gekokujou,"{`"Magical Girl Raising Project`"}",t,{15418},Magical Girl Raising Project
@@ -33838,3 +33838,12 @@ Hammerspace,{Hammerspace.*Supervillainous},f,{26388},Supervillainous! Confession
 Kiso Yoshinaka,{Fate},f,{26389},Fate
 Kiso Yoshinaka,"{`"Samurai Remnant`"}",f,{26389},Fate
 Wally West,"{`"Absolute Universe`"}",f,{26390},Absolute Universe
+Optimus Prime,"{`"Optimus Prime 2007`"}",f,{339},Transformers Films
+Kingpin,{ITSV},f,{10800},Into the Spider-Verse
+Flex Mentallo,{PC},f,{26391},Post-Crisis
+Flex Mentallo,"{`"Posts?(-| )?C(risis)?`"}",f,{26391},Post-Crisis
+Flex Mentallo,"{`"New(-| )Earth`"}",f,{26391},Post-Crisis
+Topo,"{`"Pre(-| )?Crisis`"}",f,{26392},Pre-Crisis
+Topo,"{`"Silver(-| )?Age`"}",f,{26392},Pre-Crisis
+Chimecho,{Pok(e|é)m(o|a)n},t,{26393},Pokémon
+Chingling,{Pok(e|é)m(o|a)n},t,{26393},Pokémon
