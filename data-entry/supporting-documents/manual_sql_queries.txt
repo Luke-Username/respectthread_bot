@@ -18,6 +18,12 @@ UPDATE character SET version='{"K-?Pop Demon Hunters"}' WHERE version='{"KPop De
 
 ########################################
 
+
+DELETE FROM character_name WHERE name='T1000';
+UPDATE character_name SET name='T(-| )?1000' WHERE name='T-1000';
+
+--https://www.reddit.com/r/whowouldwin/comments/1nfzwhd/t_1000_terminator_vs_adam_smasher_cyberpunk/
+
 ########################################
 
 ########################################
