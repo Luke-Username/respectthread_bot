@@ -107,6 +107,56 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 746, 'Respect Amazo (DCAU)', 'https://www.reddit.com/r/respectthreads/comments/1neko6j/respect_amazo_dcau/')
+update_respectthread(cur, 1236, 'Respect The Thief (The Thief and The Cobbler)', 'https://www.reddit.com/r/respectthreads/comments/1nenfg6/respect_the_thief_the_thief_and_the_cobbler/')
+update_respectthread(cur, 811, 'Respect Lin Beifong (The Legend of Korra)', 'https://www.reddit.com/r/respectthreads/comments/1nfpc3v/respect_lin_beifong_the_legend_of_korra/')
+update_respectthread(cur, 3791, 'Respect the Nastika King, Gandharva! (One Last God: Kubera)', 'https://www.reddit.com/r/respectthreads/comments/1ng22l0/respect_the_nastika_king_gandharva_one_last_god/')
+
+########################################
+
+add_data(['Wonder ?Woman'],
+'Wonder Woman',
+False,
+False,
+[
+    ['Snyder(verse)?']
+],
+'DCEU',
+'{131}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ng0yuz/omniman_vs_wonder_woman_snyder_verse/
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Hulk, The World Breaker (What if the Heroes lost to World War Hulk)', 'https://www.reddit.com/r/respectthreads/comments/1nfpxr9/respect_the_hulk_the_world_breaker_what_if_the/')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['What if the Heroes lost to World War Hulk']
+],
+'What if the Heroes lost to World War Hulk',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mouri Katsunaga(Joujuu Senjin Mushibugyo)', 'https://www.reddit.com/r/respectthreads/comments/1nfzvqs/respect_mouri_katsunagajoujuu_senjin_mushibugyo/')
+add_data(['Mouri Katsunaga'],
+'Mouri Katsunaga',
+False,
+False,
+[
+    ['Joujuu Senjin|Mushibugyo']
+],
+'Joujuu Senjin!! Mushibugyo',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
