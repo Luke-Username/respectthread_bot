@@ -2390,6 +2390,12 @@ Mulan
 		# If name is the same:
 			"1998"
 
+Mushibugyo
+	Version
+		['Mushibugy(ō|o)']
+	Displayed Version Name
+		"Mushibugyō"
+
 My Hero Academia
 	Version
 		['My Hero Academia'], ['\(My Hero\)'], ['(M|BN?)HA'], ['Boku no Hero'], ['Class ?1(-| )?a']

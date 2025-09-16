@@ -111,6 +111,9 @@ update_respectthread(cur, 746, 'Respect Amazo (DCAU)', 'https://www.reddit.com/r
 update_respectthread(cur, 1236, 'Respect The Thief (The Thief and The Cobbler)', 'https://www.reddit.com/r/respectthreads/comments/1nenfg6/respect_the_thief_the_thief_and_the_cobbler/')
 update_respectthread(cur, 811, 'Respect Lin Beifong (The Legend of Korra)', 'https://www.reddit.com/r/respectthreads/comments/1nfpc3v/respect_lin_beifong_the_legend_of_korra/')
 update_respectthread(cur, 3791, 'Respect the Nastika King, Gandharva! (One Last God: Kubera)', 'https://www.reddit.com/r/respectthreads/comments/1ng22l0/respect_the_nastika_king_gandharva_one_last_god/')
+update_respectthread(cur, 7524, 'Respect The Killer Klowns From Outer Space (Killer Klowns From Outer Space)', 'https://www.reddit.com/r/respectthreads/comments/1nh2mst/respect_the_killer_klowns_from_outer_space_killer/')
+update_respectthread(cur, 5474, 'Respect The Heavy (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1nhs850/respect_the_heavy_team_fortress_2/')
+update_respectthread(cur, 3787, 'Respect Agni, The God of Fire! (One Last God: Kubera)', 'https://www.reddit.com/r/respectthreads/comments/1ni3fhk/respect_agni_the_god_of_fire_one_last_god_kubera/')
 
 ########################################
 
@@ -153,6 +156,81 @@ False,
     ['Joujuu Senjin|Mushibugyo']
 ],
 'Joujuu Senjin!! Mushibugyo',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Infernal Hulk (Marvel Comics Earth-11638)', 'https://www.reddit.com/r/respectthreads/comments/1ng6f3j/respect_the_infernal_hulk_marvel_comics_earth11638/')
+add_data(['Infernal Hulk'],
+'Infernal Hulk',
+False,
+False,
+[
+    ['11638']
+],
+'11638',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Blue Hulk (Marvel Comics Earth 616)', 'https://www.reddit.com/r/respectthreads/comments/1ng6qze/respect_the_blue_hulk_marvel_comics_earth_616/')
+add_data(['Blue Hulk'],
+'Blue Hulk',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect El Mariachi (Robert Rodriguez''s Mexico Trilogy)", 'https://www.reddit.com/r/respectthreads/comments/1ngbuzh/respect_el_mariachi_robert_rodriguezs_mexico/')
+add_data(['El Mariachi'],
+'El Mariachi',
+False,
+True,
+[
+    ['Robert Rodriguez'], ['Mexico'], ['Desperado']
+],
+'Mexico Trilogy',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-1057, Absence of Shark (SCP Foundation)', 'https://www.reddit.com/r/respectthreads/comments/1nh34dy/respect_scp1057_absence_of_shark_scp_foundation/')
+add_data(['SCP ?(-| )? ?1057'],
+'SCP-1057',
+False,
+True,
+[
+    ['Absence of Shark']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jinbei Tsukishima ( Joujuu Senjin!! Mushibugyo)', 'https://www.reddit.com/r/respectthreads/comments/1nib5j7/respect_jinbei_tsukishima_joujuu_senjin_mushibugyo/')
+add_data(['Jinbei Tsukishima'],
+'Jinbei Tsukishima',
+False,
+True,
+[
+    ['Mushibugy(ō|o)']
+],
+'Mushibugyō',
 '{' + '{}'.format(id) + '}'
 )
 #
