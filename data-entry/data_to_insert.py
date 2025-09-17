@@ -118,6 +118,20 @@ update_respectthread(cur, 5475, 'Respect The Medic (Team Fortress 2)', 'https://
 
 ########################################
 
+add_data(['AM'],
+'AM',
+False,
+False,
+[
+    ['AM.*IHNM']
+],
+'I Have No Mouth And Must Scream',
+'{16570}'
+)
+#
+
+########################################
+
 add_data(['Wonder ?Woman'],
 'Wonder Woman',
 False,
@@ -129,6 +143,8 @@ False,
 '{131}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1ng0yuz/omniman_vs_wonder_woman_snyder_verse/
+
+
 
 ########################################
 
