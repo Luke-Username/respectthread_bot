@@ -14,26 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET version='{"K-?Pop Demon Hunters"}' WHERE version='{"KPop Demon Hunters"}';
-
-
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Gamma 1 & Gamma 2 (Dragon Ball Super: Super Hero)', 'https://www.reddit.com/r/respectthreads/comments/1nhw8d4/respect_gamma_1_gamma_2_dragon_ball_super_super/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1nhw8d4/respect_gamma_1_gamma_2_dragon_ball_super_super/';
-UPDATE character SET rt_id_array='{24578, ?}' WHERE rt_id_array='{24578}';
-
-INSERT INTO respectthread (title, link) VALUES ('Respect The Heavy (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1nhs850/respect_the_heavy_team_fortress_2/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1nhs850/respect_the_heavy_team_fortress_2/';
-UPDATE character SET rt_id_array='{??}' WHERE default_name='Heavy' AND displayed_version_name='TF2';
-UPDATE character SET rt_id_array='{??}' WHERE default_name='Heavy Weapons Guy' AND displayed_version_name='TF2';
-
-
 ########################################
-
-
-DELETE FROM character_name WHERE name='T1000';
-UPDATE character_name SET name='T(-| )?1000' WHERE name='T-1000';
-
---https://www.reddit.com/r/whowouldwin/comments/1nfzwhd/t_1000_terminator_vs_adam_smasher_cyberpunk/
 
 ########################################
 

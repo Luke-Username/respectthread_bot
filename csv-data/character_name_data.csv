@@ -643,8 +643,6 @@ T-800,T-800,f
 T800,T-800,f
 T-850,T-850,f
 T850,T-850,f
-T-1000,T-1000,f
-T1000,T-1000,f
 T-3000,T-3000,f
 T3000,T-3000,f
 Luke Skywall?ker,Luke Skywalker,f
@@ -720,6 +718,7 @@ Obi(-| )W(a|o)ns?,Obi-Wan Kenobi,f
 Avengers,Avengers,t
 General Gr(iev|evi|eiv)ous,General Grievous,f
 Eddie Brock,Eddie Brock,f
+T(-| )?1000,T-1000,f
 Alien Queen,Xenomorphs,f
 Drone,Drone,f
 Facehugger,Facehugger,f
@@ -15562,3 +15561,11 @@ Hammerspace,Hammerspace,f
 Kiso Yoshinaka,Kiso Yoshinaka,f
 King ?pin,Kingpin,f
 Chingling,Chingling,f
+Mouri Katsunaga,Mouri Katsunaga,f
+Infernal Hulk,Infernal Hulk,f
+Blue Hulk,Blue Hulk,f
+El Mariachi,El Mariachi,f
+SCP ?(-| )? ?1057,SCP-1057,f
+Jinbei Tsukishima,Jinbei Tsukishima,f
+Vampire Vagrant,Vampire Vagrant,f
+Gareth,Gareth,f

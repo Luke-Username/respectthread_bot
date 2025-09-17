@@ -19356,11 +19356,6 @@ Engineer,{TF2},f,{5483},TF2
 Engineer,"{`"Team Fortress`"}",f,{5483},TF2
 Demoman,{TF2},t,{5483},TF2
 Demoman,"{`"Team Fortress`"}",t,{5483},TF2
-Heavy Weapons Guy,{TF2},t,{5483},TF2
-Heavy Weapons Guy,"{`"Team Fortress`"}",t,{5483},TF2
-Heavy,{TF2},f,{5483},TF2
-Heavy,"{`"Team Fortress`"}",f,{5483},TF2
-Heavy,{Zarya},f,{5483},TF2
 Sniper,{TF2},f,{5483},TF2
 Sniper,"{`"Team Fortress`"}",f,{5483},TF2
 Spy,{TF2},f,{5483},TF2
@@ -19380,6 +19375,11 @@ Kuma,{Tekken},f,{5491},Tekken
 Raven,{Tekken},f,{5492},Tekken
 Zhanna,{TF2},f,{26305},TF2
 Zhanna,"{`"Team Fortress`"}",f,{26305},TF2
+Heavy,{TF2},f,{26395},TF2
+Heavy,"{`"Team Fortress`"}",f,{26395},TF2
+Heavy,{Zarya},f,{26395},TF2
+Heavy Weapons Guy,{TF2},t,{26395},TF2
+Heavy Weapons Guy,"{`"Team Fortress`"}",t,{26395},TF2
 True Ogre,{Tekken},t,{5493},Tekken
 Ogre,{Tekken},f,{5493},Tekken
 Duke Fishron,{Terraria},t,{5494},Terraria
@@ -30855,8 +30855,6 @@ White Dino Ranger,"{`"Power Rangers?`"}",t,{24575},Power Rangers
 Trent,"{`"(White|Dino) (Thunder)?Ranger`"}",f,{24575},Power Rangers
 Murray,{Gunbrella},f,{24576},Gunbrella
 She-Hulk,"{`"Fantastic Four: Worlds Greatest Heroes`"}",f,{24577},Fantastic Four: World's Greatest Heroes
-Gamma 1 & Gamma 2,"{`"Dragon ?Ball`"}",t,{24578},Dragon Ball
-Gamma 1 & Gamma 2,{DB(Z|S)},t,{24578},Dragon Ball
 Santa Claus,{Markiplier},f,{24579},Markiplier
 Santa Claus,"{`"Regular Show`"}",f,{24580},Regular Show
 Lunky,{Markiplier},f,{24581},Markiplier
@@ -30908,6 +30906,8 @@ Gil,"{`"Gil(bert)? LeGume`"}",f,{24423},Descendants
 Gil,"{`"Gil ?\\(Descendants\\)`"}",f,{24423},Descendants
 Necronomicon,"{`"Evil Dead`"}",f,{25466},Evil Dead
 Necronomicon,"{`"ex(-| )mortis`"}",f,{25466},Evil Dead
+Gamma 1 & Gamma 2,"{`"Dragon ?Ball`"}",t,"{24578,26394}",Dragon Ball
+Gamma 1 & Gamma 2,{DB(Z|S)},t,"{24578,26394}",Dragon Ball
 Lonnie,"{`"Li Lonnie`"}",f,{24423},Descendants
 Lonnie,{Descendants},f,{24423},Descendants
 Chad Charming,{Descendants},t,{24423},Descendants
@@ -33540,9 +33540,6 @@ Uranos,{616},f,{26190},616
 Uranos,"{`"Uranos the Undying`"}",f,{26190},616
 Uranos,"{`"The Eternals`"}",f,{26190},616
 William Afton,"{`"Dead by Daylight`"}",f,{26191},Dead by Daylight
-Jinu Saja,"{`"KPop Demon Hunters`"}",f,{26192},KPop Demon Hunters
-Jinu,"{`"KPop Demon Hunters`"}",f,{26192},KPop Demon Hunters
-HUNTR/X,"{`"KPop Demon Hunters`"}",t,{26193},KPop Demon Hunters
 Saurophaganax,"{`"Dinosaur King`"}",f,{26194},Dinosaur King
 Chai,"{`"Hi(-| )?Fi Rush`"}",f,{26195},Hi-Fi Rush
 Aaron,"{`"Aaron ?\\(Pok(e|é)m(o|a)n`"}",f,{26196},Pokémon
@@ -33586,10 +33583,6 @@ Godzilla,"{`"Godzilla vs\\. Marvel`"}",f,{26227},Godzilla vs. Marvel
 Thor,"{`"Godzilla vs\\. Thor`"}",f,{26228},Godzilla vs. Thor
 Saint Jaygarcia Saturn,"{`"One ?Piece?`"}",t,{26229},One Piece
 The Queen,"{`"Queen ?\\(The Power Fantasy`"}",f,{26230},The Power Fantasy
-Rumi,"{`"KPop Demon Hunters`"}",f,{26193},KPop Demon Hunters
-Mira,"{`"KPop Demon Hunters`"}",f,{26193},KPop Demon Hunters
-Zoey,"{`"KPop Demon Hunters`"}",f,{26193},KPop Demon Hunters
-HUNTRiX,"{`"KPop Demon Hunters`"}",f,{26193},KPop Demon Hunters
 Hugh de Clairvaux,"{`"Dark Ages:? Vampire`"}",f,{26231},Vampire: The Masquerade
 Hugh de Clairvaux,"{`"Vampire:? The Masquerade`"}",f,{26231},Vampire: The Masquerade
 Hugh de Clairvaux,"{`"Vampire:? The Dark Ages`"}",f,{26231},Vampire: The Masquerade
@@ -33847,3 +33840,24 @@ Topo,"{`"Pre(-| )?Crisis`"}",f,{26392},Pre-Crisis
 Topo,"{`"Silver(-| )?Age`"}",f,{26392},Pre-Crisis
 Chimecho,{Pok(e|é)m(o|a)n},t,{26393},Pokémon
 Chingling,{Pok(e|é)m(o|a)n},t,{26393},Pokémon
+Jinu Saja,"{`"K-?Pop Demon Hunters`"}",f,{26192},KPop Demon Hunters
+Jinu,"{`"K-?Pop Demon Hunters`"}",f,{26192},KPop Demon Hunters
+HUNTR/X,"{`"K-?Pop Demon Hunters`"}",t,{26193},KPop Demon Hunters
+Rumi,"{`"K-?Pop Demon Hunters`"}",f,{26193},KPop Demon Hunters
+Mira,"{`"K-?Pop Demon Hunters`"}",f,{26193},KPop Demon Hunters
+Zoey,"{`"K-?Pop Demon Hunters`"}",f,{26193},KPop Demon Hunters
+HUNTRiX,"{`"K-?Pop Demon Hunters`"}",f,{26193},KPop Demon Hunters
+AM,{AM.*IHNM},f,{16570},I Have No Mouth And Must Scream
+Wonder Woman,{Snyder(verse)?},f,{131},DCEU
+Hulk,"{`"What if the Heroes lost to World War Hulk`"}",f,{26396},What if the Heroes lost to World War Hulk
+Mouri Katsunaga,"{`"Joujuu Senjin|Mushibugyo`"}",f,{26397},Joujuu Senjin!! Mushibugyo
+Infernal Hulk,{11638},f,{26398},11638
+Blue Hulk,{616},f,{26399},616
+El Mariachi,"{`"Robert Rodriguez`"}",t,{26400},Mexico Trilogy
+El Mariachi,{Mexico},t,{26400},Mexico Trilogy
+El Mariachi,{Desperado},t,{26400},Mexico Trilogy
+SCP-1057,"{`"Absence of Shark`"}",t,{26401},""
+Jinbei Tsukishima,{Mushibugy(ō|o)},t,{26402},Mushibugyō
+Vampire Vagrant,{Jojos?(verse)?},f,{26403},Jojo's Bizarre Adventure
+Vampire Vagrant,{JJBA},f,{26403},Jojo's Bizarre Adventure
+Gareth,{Fate},f,{26404},Fate
