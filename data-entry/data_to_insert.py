@@ -114,6 +114,7 @@ update_respectthread(cur, 3791, 'Respect the Nastika King, Gandharva! (One Last 
 update_respectthread(cur, 7524, 'Respect The Killer Klowns From Outer Space (Killer Klowns From Outer Space)', 'https://www.reddit.com/r/respectthreads/comments/1nh2mst/respect_the_killer_klowns_from_outer_space_killer/')
 update_respectthread(cur, 5474, 'Respect The Heavy (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1nhs850/respect_the_heavy_team_fortress_2/')
 update_respectthread(cur, 3787, 'Respect Agni, The God of Fire! (One Last God: Kubera)', 'https://www.reddit.com/r/respectthreads/comments/1ni3fhk/respect_agni_the_god_of_fire_one_last_god_kubera/')
+update_respectthread(cur, 5475, 'Respect The Medic (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1niyi4n/respect_the_medic_team_fortress_2/')
 
 ########################################
 
@@ -231,6 +232,36 @@ True,
     ['Mushibugy(ō|o)']
 ],
 'Mushibugyō',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect This Unnamed Vampire Vagrant (Jojo''s Bizarre Adventure)", 'https://www.reddit.com/r/respectthreads/comments/1niz5jk/respect_this_unnamed_vampire_vagrant_jojos/')
+add_data(['Vampire Vagrant'],
+'Vampire Vagrant',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gareth (Fate/Grand Order)', 'https://www.reddit.com/r/respectthreads/comments/1nj08j3/respect_gareth_fategrand_order/')
+add_data(['Gareth'],
+'Gareth',
+False,
+False,
+[
+    ['Fate']
+],
+'Fate',
 '{' + '{}'.format(id) + '}'
 )
 #
