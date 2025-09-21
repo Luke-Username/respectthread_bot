@@ -107,6 +107,107 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 813, 'Respect Naga (The Legend of Korra)', 'https://www.reddit.com/r/respectthreads/comments/1njzk2w/respect_naga_the_legend_of_korra/')
+
+########################################
+
+id = get_rt_id(cur, 'New-52 DCAU Batman Respect Thread', 'https://comicvine.gamespot.com/profile/thevivas/blog/new-52-dcau-batman-respect-thread/129367/')
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['DC Animated Film Universe'], ['DCA(F|M)U'], ['DC Animated Movies?']
+],
+'DC Animated Movie Universe',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1nlzsmb/various_versions_of_batman_vs_various_versions_of/nf94nwu/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ao Run, the Sky Splitter [Ne Zha (2019/2025)]', 'https://www.reddit.com/r/respectthreads/comments/1nkufr9/respect_ao_run_the_sky_splitter_ne_zha_20192025/')
+add_data(['Ao Run'],
+'Ao Run',
+False,
+False,
+[
+    ['Ne Zha']
+],
+'Ne Zha',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Feraligatr (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1nl31o0/respect_feraligatr_pokemon_anime/')
+add_data(['Feraligatr'],
+'Feraligatr',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Totodile'],
+'Totodile',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Croconaw'],
+'Croconaw',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Phione (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1nm5tho/respect_phione_pokemon_anime/')
+add_data(['Phione'],
+'Phione',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Hungarian Horntail (Harry Potter Movies)', 'https://www.reddit.com/r/respectthreads/comments/1nmp3fd/respect_the_hungarian_horntail_harry_potter_movies/')
+add_data(['Hungarian Horntail'],
+'Hungarian Horntail',
+False,
+True,
+[
+    ['Harry Potter']
+],
+'Harry Potter',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
