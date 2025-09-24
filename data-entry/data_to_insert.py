@@ -141,6 +141,33 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ne Zha & Ao Bing (Ne Zha 1 & 2)', 'https://www.reddit.com/r/respectthreads/comments/1nor4ti/respect_ne_zha_ao_bing_ne_zha_1_2/')
+add_data(['Ne Zha'],
+'Ne Zha',
+False,
+True,
+[
+    ['(movie|film)s?']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Ao Bing'],
+'Ao Bing',
+False,
+False,
+[
+    ['Ne Zha']
+],
+'Ne Zha',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Feraligatr (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1nl31o0/respect_feraligatr_pokemon_anime/')
 add_data(['Feraligatr'],
 'Feraligatr',
@@ -204,6 +231,230 @@ True,
     ['Harry Potter']
 ],
 'Harry Potter',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect William "B.J." Blazkowicz! (The Golden Nazi Vampire from Absam 2 - The Secret of Castle Kottlitz)', 'https://www.reddit.com/r/respectthreads/comments/1nn0cao/respect_william_bj_blazkowicz_the_golden_nazi/')
+add_data(['B\.?J\.? Blazkowicz'],
+'B.J. Blazkowicz',
+False,
+False,
+[
+    ['The Golden Nazi Vampire from Absam 2|The Secret of Castle Kottlitz']
+],
+'The Golden Nazi Vampire from Absam 2 - The Secret of Castle Kottlitz',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Megatron (Image Comics, Energon Universe)', 'https://www.reddit.com/r/respectthreads/comments/1nn12k3/respect_megatron_image_comics_energon_universe/')
+add_data(['Megatron'],
+'Megatron',
+False,
+False,
+[
+    ['Energon']
+],
+'Energon Universe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Baobhan Sith/Tam Lin Tristan (Fate/Grand Order)', 'https://www.reddit.com/r/respectthreads/comments/1nncvxj/respect_baobhan_sithtam_lin_tristan_fategrand/')
+add_data(['Baobhan Sith'],
+'Baobhan Sith',
+False,
+False,
+[
+    ['Fate'], ['Grande? Order'], ['F(ate )?/?GO']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Tam Lin Tristan'],
+'Tam Lin Tristan',
+False,
+True,
+[
+    ['Fate'], ['Grande? Order'], ['F(ate )?/?GO']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zia Zanna (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/1nnukm1/respect_zia_zanna_star_wars_canon/')
+add_data(['Zia Zanna'],
+'Zia Zanna',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vertigo (Savage Land Mutate) (Marvel Comics, Earth 616)', 'https://www.reddit.com/r/respectthreads/comments/1no244g/respect_vertigo_savage_land_mutate_marvel_comics/')
+add_data(['Vertigo'],
+'Vertigo',
+False,
+False,
+[
+    ['Savage Land Mutate']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Schneckeczar, the Snail Emperor! (Godzilla: 70th Anniversary, The Big One) [IDW]', 'https://www.reddit.com/r/respectthreads/comments/1no8msi/respect_schneckeczar_the_snail_emperor_godzilla/')
+add_data(['Schneckeczar'],
+'Schneckeczar',
+False,
+False,
+[
+    ['Godzilla']
+],
+'Godzilla: 70th Anniversary',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Usuru! (Godzilla: 70th Anniversary, Contagion) [IDW]', 'https://www.reddit.com/r/respectthreads/comments/1no8t5w/respect_usuru_godzilla_70th_anniversary_contagion/')
+add_data(['Usuru'],
+'Usuru',
+False,
+False,
+[
+    ['Godzilla:? 70th Anniversary']
+],
+'Godzilla: 70th Anniversary',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Monstrum Üpsilon! (Godzilla''s Monsterpiece Theatre) [IDW]", 'https://www.reddit.com/r/respectthreads/comments/1nouf0w/respect_monstrum_%C3%BCpsilon_godzillas_monsterpiece/')
+add_data(['Monstrum (Ü|U)psilon'],
+'Monstrum Üpsilon',
+False,
+False,
+[
+    ['Godzilla']
+],
+"Godzilla''s Monsterpiece Theatre",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Count Dracula! (Godzilla''s Monsterpiece Theatre) [IDW]", 'https://www.reddit.com/r/respectthreads/comments/1nouf9k/respect_count_dracula_godzillas_monsterpiece/')
+add_data(['Dracula'],
+'Dracula',
+False,
+False,
+[
+    ["Godzilla''?s Monsterpiece Theatre"]
+],
+"Godzilla''s Monsterpiece Theatre",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Utma Utep! (Godzilla''s Monsterpiece Theatre) [IDW]", 'https://www.reddit.com/r/respectthreads/comments/1noufe1/respect_utma_utep_godzillas_monsterpiece_theatre/')
+add_data(['Utma Utep'],
+'Utma Utep',
+False,
+False,
+[
+    ["Godzilla''?s Monsterpiece Theatre"]
+],
+"Godzilla''s Monsterpiece Theatre",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Jay Gatsby! (Godzilla''s Monsterpiece Theatre) [IDW]", 'https://www.reddit.com/r/respectthreads/comments/1noufvv/respect_jay_gatsby_godzillas_monsterpiece_theatre/')
+add_data(['Jay Gatsby'],
+'Jay Gatsby',
+False,
+False,
+[
+    ["Godzilla''?s Monsterpiece Theatre"]
+],
+"Godzilla''s Monsterpiece Theatre",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Megaguirus! (Mothra: Queen of the Monsters) [IDW]', 'https://www.reddit.com/r/respectthreads/comments/1novbwm/respect_megaguirus_mothra_queen_of_the_monsters/')
+add_data(['Megaguirus'],
+'Megaguirus',
+False,
+False,
+[
+    ['Mothra:? Queen of the Monsters']
+],
+'Mothra: Queen of the Monsters',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect MechaMothra! (Mothra: Queen of the Monsters) [IDW]', 'https://www.reddit.com/r/respectthreads/comments/1novf5o/respect_mechamothra_mothra_queen_of_the_monsters/')
+add_data(['MechaMothra'],
+'MechaMothra',
+False,
+False,
+[
+    ['Mothra:? Queen of the Monsters']
+],
+'Mothra: Queen of the Monsters',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Antra! (Mothra: Queen of the Monsters) [IDW]', 'https://www.reddit.com/r/respectthreads/comments/1now9ik/respect_antra_mothra_queen_of_the_monsters_idw/')
+add_data(['Antra'],
+'Antra',
+False,
+False,
+[
+    ['Mothra:? Queen of the Monsters']
+],
+'Mothra: Queen of the Monsters',
 '{' + '{}'.format(id) + '}'
 )
 #
