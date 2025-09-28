@@ -107,6 +107,273 @@ cur = con.cursor()
 
 ########################################
 
+# https://www.reddit.com/r/whowouldwin/comments/1nsije6/xmen_1992_cartoon_juggernaut_vs_mcu_thanos/ngmo8ni/?context=3
+update_respectthread(cur, 24971, 'X-Men the animated series feats.', 'https://comicvine.gamespot.com/forums/feats-and-analysis-2311599/x-men-the-animated-series-feats-2340196/')
+
+update_respectthread(cur, 5477, 'Respect The Pyro (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1npk10x/respect_the_pyro_team_fortress_2/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Poliwag Line (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1npbihf/respect_the_poliwag_line_pokemon_anime/')
+add_data(['Poliwag'],
+'Poliwag',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Poliwrath'],
+'Poliwrath',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Megalon (GEMSTONE)', 'https://www.reddit.com/r/respectthreads/comments/1npd9z1/respect_megalon_gemstone/')
+add_data(['Megalon'],
+'Megalon',
+False,
+False,
+[
+    ['GEMSTONE'], ['Godzilla vs\.? Megalon', '2023']
+],
+'GEMSTONE',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maxwell Lord (DC Comics, Post-Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1nq8r82/respect_maxwell_lord_dc_comics_postflashpoint/')
+add_data(['Maxwell Lord'],
+'Maxwell Lord',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Maxwell Lord'],
+'Maxwell Lord',
+False,
+True,
+[
+    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+],
+'DC',
+'{' + '{}, 1660'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shen Zhengdao (Ne Zha 2)', 'https://www.reddit.com/r/respectthreads/comments/1nqeaol/respect_shen_zhengdao_ne_zha_2/')
+add_data(['Shen Zhengdao'],
+'Shen Zhengdao',
+False,
+True,
+[
+    ['Ne Zha']
+],
+'Ne Zha',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Deero & Crana (Ne Zha 2)', 'https://www.reddit.com/r/respectthreads/comments/1nrvi6u/respect_deero_crana_ne_zha_2/')
+add_data(['Deero'],
+'Deero',
+False,
+False,
+[
+    ['Ne Zha']
+],
+'Ne Zha',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Crana'],
+'Crana',
+False,
+False,
+[
+    ['Ne Zha']
+],
+'Ne Zha',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+add_data(['Deero (&|and) Crana'],
+'Deero & Crana',
+True,
+True,
+[
+    ['Ne Zha']
+],
+'Ne Zha',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman! (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1nqs1r0/respect_superman_fortnite/')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sandy Balgan(Flight)', 'https://www.reddit.com/r/respectthreads/comments/1nrjqg6/respect_sandy_balganflight/')
+add_data(['Sandy Balgan'],
+'Sandy Balgan',
+False,
+False,
+[
+    ['Flight']
+],
+'Flight',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Morgan Le Fay (Fate/Grand Order)', 'https://www.reddit.com/r/respectthreads/comments/1nrmrq5/respect_morgan_le_fay_fategrand_order/')
+add_data(['Morgan Le Fay'],
+'Morgan Le Fay',
+False,
+False,
+[
+    ['Fate'], ['Grande? Order'], ['F(ate )?/?GO']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Melusine/Tam Lin Lancelot (Fate/Grand Order)', 'https://www.reddit.com/r/respectthreads/comments/1nsbcys/respect_melusinetam_lin_lancelot_fategrand_order/')
+add_data(['Melusine'],
+'Melusine',
+False,
+False,
+[
+    ['Fate'], ['Grande? Order'], ['F(ate )?/?GO']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Tam Lin Lancelot'],
+'Tam Lin Lancelot',
+False,
+True,
+[
+    ['Fate'], ['Grande? Order'], ['F(ate )?/?GO']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Valkyria Underground Fighting Organization! (Star: Strike It Rich!)', 'https://www.reddit.com/r/respectthreads/comments/1nrmyf9/respect_the_valkyria_underground_fighting/')
+add_data(['Valkyria Underground Fighting Organization'],
+'Valkyria Underground Fighting Organization',
+True,
+True,
+[
+    ['Strike It Rich']
+],
+'Star: Strike It Rich',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Tenma Nozomi'],
+'Tenma Nozomi',
+False,
+False,
+[
+    ['Strike It Rich']
+],
+'Star: Strike It Rich',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Lee Yuzuha'],
+'Lee Yuzuha',
+False,
+False,
+[
+    ['Strike It Rich']
+],
+'Star: Strike It Rich',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Yukihira Sara'],
+'Yukihira Sara',
+False,
+False,
+[
+    ['Strike It Rich']
+],
+'Star: Strike It Rich',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gwen Stacy AKA Weapon X-31 AKA Gwenpool (Marvel Comics, Earth-616)', 'https://www.reddit.com/r/respectthreads/comments/1nsa58t/respect_gwen_stacy_aka_weapon_x31_aka_gwenpool/')
+add_data(['Weapon X-?31'],
+'Weapon X-31',
+False,
+False,
+[
+    ['616|Gwen(pool)?|Marvel']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
