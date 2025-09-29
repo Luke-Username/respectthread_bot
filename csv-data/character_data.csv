@@ -19350,8 +19350,6 @@ Scout,"{`"Team Fortress`"}",f,{5483},TF2
 Scout,{Tracer},f,{5483},TF2
 Soldier,{TF2},f,{5483},TF2
 Soldier,"{`"Team Fortress`"}",f,{5483},TF2
-Pyro,{TF2},f,{5483},TF2
-Pyro,"{`"Team Fortress`"}",f,{5483},TF2
 Engineer,{TF2},f,{5483},TF2
 Engineer,"{`"Team Fortress`"}",f,{5483},TF2
 Demoman,{TF2},t,{5483},TF2
@@ -19380,6 +19378,8 @@ Heavy,"{`"Team Fortress`"}",f,{26395},TF2
 Heavy,{Zarya},f,{26395},TF2
 Heavy Weapons Guy,{TF2},t,{26395},TF2
 Heavy Weapons Guy,"{`"Team Fortress`"}",t,{26395},TF2
+Pyro,{TF2},f,{5477},TF2
+Pyro,"{`"Team Fortress`"}",f,{5477},TF2
 True Ogre,{Tekken},t,{5493},Tekken
 Ogre,{Tekken},f,{5493},Tekken
 Duke Fishron,{Terraria},t,{5494},Terraria
@@ -31653,9 +31653,8 @@ Togepi,{Pok(e|é)m(o|a)n},t,{25049},Pokémon
 Togepi,{Misty},t,{25049},Pokémon
 Steelix,{Brock},f,{25050},Brock
 Onix,{Brock},f,{25050},Brock
-Politoed,{Pok(e|é)m(o|a)n},t,{25051},Pokémon
 Politoed,{Misty},t,{25051},Pokémon
-Poliwhirl,{Pok(e|é)m(o|a)n},t,{25051},Pokémon
+Politoed,{Pok(e|é)m(o|a)n},t,{26425},Pokémon
 Poliwhirl,{Misty},t,{25051},Pokémon
 Misty,{Pok(e|é)m(o|a)n},f,{25052},Pokémon
 Swarm,{Moonfall},f,{25053},Moonfall
@@ -33890,3 +33889,31 @@ Jay Gatsby,"{`"Godzilla'?s Monsterpiece Theatre`"}",f,{26421},Godzilla's Monster
 Megaguirus,"{`"Mothra:? Queen of the Monsters`"}",f,{26422},Mothra: Queen of the Monsters
 MechaMothra,"{`"Mothra:? Queen of the Monsters`"}",f,{26423},Mothra: Queen of the Monsters
 Antra,"{`"Mothra:? Queen of the Monsters`"}",f,{26424},Mothra: Queen of the Monsters
+Poliwag,{Pok(e|é)m(o|a)n},f,{26425},Pokémon
+Poliwrath,{Pok(e|é)m(o|a)n},f,{26425},Pokémon
+Megalon,{GEMSTONE},f,{26426},GEMSTONE
+Megalon,"{`"Godzilla vs\\.? Megalon`",2023}",f,{26426},GEMSTONE
+Maxwell Lord,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26427},Post-Flashpoint
+Maxwell Lord,"{`"\\(DC( Comics)?\\)`"}",t,"{26427,1660}",DC
+Maxwell Lord,"{`"\\[DC( Comics)?\\]`"}",t,"{26427,1660}",DC
+Shen Zhengdao,"{`"Ne Zha`"}",t,{26428},Ne Zha
+Deero,"{`"Ne Zha`"}",f,{26429},Ne Zha
+Crana,"{`"Ne Zha`"}",f,{26429},Ne Zha
+Deero & Crana,"{`"Ne Zha`"}",t,{26429},Ne Zha
+Superman,{Fortnite},f,{26430},Fortnite
+Sandy Balgan,{Flight},f,{26431},Flight
+Morgan Le Fay,{Fate},f,{26432},Fate
+Morgan Le Fay,"{`"Grande? Order`"}",f,{26432},Fate
+Morgan Le Fay,"{`"F(ate )?/?GO`"}",f,{26432},Fate
+Melusine,{Fate},f,{26433},Fate
+Melusine,"{`"Grande? Order`"}",f,{26433},Fate
+Melusine,"{`"F(ate )?/?GO`"}",f,{26433},Fate
+Tam Lin Lancelot,{Fate},t,{26433},Fate
+Tam Lin Lancelot,"{`"Grande? Order`"}",t,{26433},Fate
+Tam Lin Lancelot,"{`"F(ate )?/?GO`"}",t,{26433},Fate
+Valkyria Underground Fighting Organization,"{`"Strike It Rich`"}",t,{26434},Star: Strike It Rich
+Tenma Nozomi,"{`"Strike It Rich`"}",f,{26434},Star: Strike It Rich
+Lee Yuzuha,"{`"Strike It Rich`"}",f,{26434},Star: Strike It Rich
+Yukihira Sara,"{`"Strike It Rich`"}",f,{26434},Star: Strike It Rich
+Weapon X-31,{616|Gwen(pool)?|Marvel},f,{26435},616
+Poliwhirl,{Pok(e|é)m(o|a)n},t,{26425},Pokémon

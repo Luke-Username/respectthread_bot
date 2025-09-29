@@ -14,22 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Ede?lgu?ard' WHERE name='Edelgard';
-
-
-
-
 ########################################
 
-
-SELECT * FROM respectthread WHERE linl='https://www.reddit.com/r/respectthreads/comments/1npbihf/respect_the_poliwag_line_pokemon_anime/';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Poliwhirl' AND version='{"Pok(e|é)m(o|a)n"}'; --After run
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Politoed' AND version='{"Pok(e|é)m(o|a)n"}'; --After run
-
 ########################################
-
-UPDATE character SET rt_id_array='{5477}' WHERE default_name='Pyro' AND displayed_version_name='TF2';
-
 
 ########################################
 
