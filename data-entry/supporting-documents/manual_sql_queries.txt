@@ -14,6 +14,9 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Princess Bean (Disenchantment)', 'https://www.reddit.com/r/respectthreads/comments/1nssqzd/respect_princess_bean_disenchantment/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1nssqzd/respect_princess_bean_disenchantment/';
+UPDATE character SET rt_id_array='{?}' WHERE displayed_version_name='Disenchantment';
+
 ########################################
 
 ########################################

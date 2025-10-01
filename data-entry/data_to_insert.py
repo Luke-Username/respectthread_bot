@@ -107,140 +107,28 @@ cur = con.cursor()
 
 ########################################
 
-# https://www.reddit.com/r/whowouldwin/comments/1nsije6/xmen_1992_cartoon_juggernaut_vs_mcu_thanos/ngmo8ni/?context=3
-update_respectthread(cur, 24971, 'X-Men the animated series feats.', 'https://comicvine.gamespot.com/forums/feats-and-analysis-2311599/x-men-the-animated-series-feats-2340196/')
-
-update_respectthread(cur, 5477, 'Respect The Pyro (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1npk10x/respect_the_pyro_team_fortress_2/')
+update_respectthread(cur, 535, 'Respect Nick Gant (Push 2009)', 'https://www.reddit.com/r/respectthreads/comments/1ntxwbk/respect_nick_gant_push_2009/')
 
 ########################################
 
-id = get_rt_id(cur, 'Respect The Poliwag Line (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1npbihf/respect_the_poliwag_line_pokemon_anime/')
-add_data(['Poliwag'],
-'Poliwag',
-False,
-False,
-[
-    ['Pok(e|é)m(o|a)n']
-],
-'Pokémon',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-add_data(['Poliwrath'],
-'Poliwrath',
-False,
-False,
-[
-    ['Pok(e|é)m(o|a)n']
-],
-'Pokémon',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-########################################
-
-id = get_rt_id(cur, 'Respect Megalon (GEMSTONE)', 'https://www.reddit.com/r/respectthreads/comments/1npd9z1/respect_megalon_gemstone/')
-add_data(['Megalon'],
-'Megalon',
-False,
-False,
-[
-    ['GEMSTONE'], ['Godzilla vs\.? Megalon', '2023']
-],
-'GEMSTONE',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-########################################
-
-id = get_rt_id(cur, 'Respect Maxwell Lord (DC Comics, Post-Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1nq8r82/respect_maxwell_lord_dc_comics_postflashpoint/')
-add_data(['Maxwell Lord'],
-'Maxwell Lord',
-False,
-False,
-[
-    ['(Post(-| ))Flash(-| )?point']
-],
-'Post-Flashpoint',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-add_data(['Maxwell Lord'],
-'Maxwell Lord',
+id = get_rt_id(cur, 'Respect the Spooky Space Kook (Scooby Doo, Where Are You?)', 'https://www.reddit.com/r/respectthreads/comments/1nt4bjs/respect_the_spooky_space_kook_scooby_doo_where/')
+add_data(['Spooky Space Kook'],
+'Spooky Space Kook',
 False,
 True,
 [
-    ['\(DC( Comics)?\)'], ['\[DC( Comics)?\]']
+    ['Scooby(-| )?Doo']
 ],
-'DC',
-'{' + '{}, 1660'.format(id) + '}'
-)
-#
-
-########################################
-
-id = get_rt_id(cur, 'Respect Shen Zhengdao (Ne Zha 2)', 'https://www.reddit.com/r/respectthreads/comments/1nqeaol/respect_shen_zhengdao_ne_zha_2/')
-add_data(['Shen Zhengdao'],
-'Shen Zhengdao',
-False,
-True,
-[
-    ['Ne Zha']
-],
-'Ne Zha',
+'Scooby-Doo',
 '{' + '{}'.format(id) + '}'
 )
 #
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Deero & Crana (Ne Zha 2)', 'https://www.reddit.com/r/respectthreads/comments/1nrvi6u/respect_deero_crana_ne_zha_2/')
-add_data(['Deero'],
-'Deero',
-False,
-False,
-[
-    ['Ne Zha']
-],
-'Ne Zha',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-add_data(['Crana'],
-'Crana',
-False,
-False,
-[
-    ['Ne Zha']
-],
-'Ne Zha',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-
-add_data(['Deero (&|and) Crana'],
-'Deero & Crana',
-True,
-True,
-[
-    ['Ne Zha']
-],
-'Ne Zha',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-########################################
-
-id = get_rt_id(cur, 'Respect Superman! (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1nqs1r0/respect_superman_fortnite/')
-add_data(['Super(-| )?man'],
-'Superman',
+id = get_rt_id(cur, 'Respect Marshmello! (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1nt72m5/respect_marshmello_fortnite/')
+add_data(['Marshmello'],
+'Marshmello',
 False,
 False,
 [
@@ -253,123 +141,153 @@ False,
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Sandy Balgan(Flight)', 'https://www.reddit.com/r/respectthreads/comments/1nrjqg6/respect_sandy_balganflight/')
-add_data(['Sandy Balgan'],
-'Sandy Balgan',
+id = get_rt_id(cur, 'Respect Hades! (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1nt8clv/respect_hades_fortnite/')
+add_data(['Hades'],
+'Hades',
 False,
 False,
 [
-    ['Flight']
+    ['Fortnite']
 ],
-'Flight',
+'Fortnite',
 '{' + '{}'.format(id) + '}'
 )
 #
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Morgan Le Fay (Fate/Grand Order)', 'https://www.reddit.com/r/respectthreads/comments/1nrmrq5/respect_morgan_le_fay_fategrand_order/')
-add_data(['Morgan Le Fay'],
-'Morgan Le Fay',
+id = get_rt_id(cur, 'Respect the Visitor (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1nt9mai/respect_the_visitor_fortnite/')
+add_data(['The Visitor'],
+'The Visitor',
 False,
 False,
 [
-    ['Fate'], ['Grande? Order'], ['F(ate )?/?GO']
+    ['Fortnite']
 ],
-'Fate',
+'Fortnite',
 '{' + '{}'.format(id) + '}'
 )
 #
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Melusine/Tam Lin Lancelot (Fate/Grand Order)', 'https://www.reddit.com/r/respectthreads/comments/1nsbcys/respect_melusinetam_lin_lancelot_fategrand_order/')
-add_data(['Melusine'],
-'Melusine',
+id = get_rt_id(cur, 'Respect Synthwave (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1nta5xj/respect_synthwave_fortnite/')
+add_data(['Synthwave'],
+'Synthwave',
 False,
 False,
 [
-    ['Fate'], ['Grande? Order'], ['F(ate )?/?GO']
+    ['Fortnite']
 ],
-'Fate',
+'Fortnite',
 '{' + '{}'.format(id) + '}'
 )
 #
 
-add_data(['Tam Lin Lancelot'],
-'Tam Lin Lancelot',
+########################################
+
+id = get_rt_id(cur, 'Respect Swampert (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1nuqrxo/respect_swampert_pokemon_anime/')
+add_data(['Swampert'],
+'Swampert',
 False,
 True,
 [
-    ['Fate'], ['Grande? Order'], ['F(ate )?/?GO']
+    ['Pok(e|é)m(o|a)n']
 ],
-'Fate',
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Mudkip'],
+'Mudkip',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Marshtomp'],
+'Marshtomp',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
 '{' + '{}'.format(id) + '}'
 )
 #
 
 ########################################
 
-id = get_rt_id(cur, 'Respect the Valkyria Underground Fighting Organization! (Star: Strike It Rich!)', 'https://www.reddit.com/r/respectthreads/comments/1nrmyf9/respect_the_valkyria_underground_fighting/')
-add_data(['Valkyria Underground Fighting Organization'],
-'Valkyria Underground Fighting Organization',
-True,
-True,
+id = get_rt_id(cur, "Respect J''onn J'onzz (DCAU)", 'https://www.reddit.com/r/respectthreads/comments/1nv50if/respect_jonn_jonzz_dcau/')
+add_data(['Martian Manhunter'],
+'Martian Manhunter',
+False,
+False,
 [
-    ['Strike It Rich']
+    ['DC Animated Universe'], ['DCAU'], ['Timmverse'], ['Animated DC']
 ],
-'Star: Strike It Rich',
+'DCAU',
 '{' + '{}'.format(id) + '}'
 )
 #
 
-add_data(['Tenma Nozomi'],
-'Tenma Nozomi',
+add_data(["J''onn"],
+"J''onn",
 False,
 False,
 [
-    ['Strike It Rich']
+    ['DC Animated Universe'], ['DCAU'], ['Timmverse'], ['Animated DC']
 ],
-'Star: Strike It Rich',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-add_data(['Lee Yuzuha'],
-'Lee Yuzuha',
-False,
-False,
-[
-    ['Strike It Rich']
-],
-'Star: Strike It Rich',
-'{' + '{}'.format(id) + '}'
-)
-#
-
-add_data(['Yukihira Sara'],
-'Yukihira Sara',
-False,
-False,
-[
-    ['Strike It Rich']
-],
-'Star: Strike It Rich',
+'DCAU',
 '{' + '{}'.format(id) + '}'
 )
 #
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Gwen Stacy AKA Weapon X-31 AKA Gwenpool (Marvel Comics, Earth-616)', 'https://www.reddit.com/r/respectthreads/comments/1nsa58t/respect_gwen_stacy_aka_weapon_x31_aka_gwenpool/')
-add_data(['Weapon X-?31'],
-'Weapon X-31',
+id = get_rt_id(cur, 'Respect Winnie the Pooh (The Twisted Childhood Universe)', 'https://www.reddit.com/r/respectthreads/comments/1nv8rwz/respect_winnie_the_pooh_the_twisted_childhood/')
+add_data(['Winnie the Pooh'],
+'Winnie the Pooh',
 False,
 False,
 [
-    ['616|Gwen(pool)?|Marvel']
+    ['Twisted Childhood Universe']
 ],
-'616',
+'The Twisted Childhood Universe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Old Man McGucket (Gravity Falls)', 'https://www.reddit.com/r/respectthreads/comments/1nv9vbb/respect_old_man_mcgucket_gravity_falls/')
+add_data(['McGucket'],
+'McGucket',
+False,
+False,
+[
+    ['Gravity Falls']
+],
+'Gravity Falls',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Old Man McGucket'],
+'Old Man McGucket',
+False,
+False,
+[
+    ['Gravity Falls']
+],
+'Gravity Falls',
 '{' + '{}'.format(id) + '}'
 )
 #
