@@ -108,6 +108,8 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 535, 'Respect Nick Gant (Push 2009)', 'https://www.reddit.com/r/respectthreads/comments/1ntxwbk/respect_nick_gant_push_2009/')
+update_respectthread(cur, 214, 'Respect Hellboy (2004-2008 films)', 'https://www.reddit.com/r/respectthreads/comments/1nw3s94/respect_hellboy_20042008_films/')
+
 
 ########################################
 
@@ -291,6 +293,174 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Oberon (Fate/Grand Order)', 'https://www.reddit.com/r/respectthreads/comments/1nvvaxi/respect_oberon_fategrand_order/')
+add_data(['Oberon'],
+'Oberon',
+False,
+False,
+[
+    ['Grande? Order'], ['F(ate )?/?GO'], ['Oberon Vortigern'], ['Fate Series']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Woodwose (Fate/Grand Order)', 'https://www.reddit.com/r/respectthreads/comments/1nw5q6v/respect_woodwose_fategrand_order/')
+add_data(['Woodwose'],
+'Woodwose',
+False,
+False,
+[
+    ['Grande? Order'], ['F(ate )?/?GO'], ['Woodwose.*Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Barghest/Tam Lin Gawain (Fate/Grand Order)', 'https://www.reddit.com/r/respectthreads/comments/1nwni96/respect_barghesttam_lin_gawain_fategrand_order/')
+add_data(['Barghest'],
+'Barghest',
+False,
+False,
+[
+    ['Grande? Order'], ['F(ate )?/?GO'], ['Fate Series']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Tam Lin Gawain'],
+'Tam Lin Gawain',
+False,
+True,
+[
+    ['Grande? Order'], ['F(ate )?/?GO'], ['Fate']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cernunnos (Fate/Grand Order)', 'https://www.reddit.com/r/respectthreads/comments/1nxdv0n/respect_cernunnos_fategrand_order/')
+add_data(['Cernunnos'],
+'Cernunnos',
+False,
+False,
+[
+    ['Grande? Order'], ['F(ate )?/?GO'], ['Lostbelt'], ['Fate Series']
+],
+'Fate',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Irving Wallace, The Night Owl (StageFright: Aquarius)', 'https://www.reddit.com/r/respectthreads/comments/1nw4qw2/respect_irving_wallace_the_night_owl_stagefright/')
+add_data(['Irving Wallace'],
+'Irving Wallace',
+False,
+False,
+[
+    ['Stage ?Fright']
+],
+'StageFright: Aquarius',
+'{' + '{}'.format(id) + '}'
+)
+#https://en.wikipedia.org/wiki/Stage_Fright_(1987_film)
+
+########################################
+
+id = get_rt_id(cur, 'Respect Brian (Quest 64)', 'https://www.reddit.com/r/respectthreads/comments/1nw8e2s/respect_brian_quest_64/')
+add_data(['Brian'],
+'Brian',
+False,
+False,
+[
+    ['Quest 64']
+],
+'Quest 64',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Ronan O''Conner (Murdered: Soul Suspect)", 'https://www.reddit.com/r/respectthreads/comments/1nwvwzc/respect_ronan_oconner_murdered_soul_suspect/')
+add_data(["Ronan O(''| )?Conner"],
+"Ronan O''Conner",
+False,
+False,
+[
+    ['Soul Suspect']
+],
+'Murdered: Soul Suspect',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Vampires (Sinners)', 'https://www.reddit.com/r/respectthreads/comments/1nwwskz/respect_the_vampires_sinners/')
+add_data(['Vampires'],
+'Vampires',
+False,
+False,
+[
+    ['Vampires?.*\(Sinners\)'], ['vampires from recent films', 'Sinners'], ['Irish Vampire', 'Sinners']
+],
+'Sinners',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ntrl0v/two_vampires_from_recent_films_abigail_and/
+#https://www.reddit.com/r/whowouldwin/comments/1kbez4q/sinners_vs_from_dusk_till_dawn_vampires/
+#https://www.reddit.com/r/whowouldwin/comments/1k2tttm/how_much_of_1932_usa_could_a_vampire_hive_mind/
+#https://www.reddit.com/r/whowouldwin/comments/1mrp0sj/smoke_moore_sinners_vs_the_predator/
+#https://www.reddit.com/r/whowouldwin/comments/1m31cfs/rupert_the_ripper_giles_buffy_the_vampire_slayer/
+#https://www.reddit.com/r/whowouldwin/comments/1l6g9bm/vampires_sinners_vs_blade_wesley_snipes_films/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dracula (Dynamite Entertainment)', 'https://www.reddit.com/r/respectthreads/comments/1nwykdj/respect_dracula_dynamite_entertainment/')
+add_data(['Dracula'],
+'Dracula',
+False,
+False,
+[
+    ['Dracula ?\(Dynamite Entertainment']
+],
+'Dynamite Entertainment',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-6453 (SCP Foundation)', 'https://www.reddit.com/r/respectthreads/comments/1nx6aks/respect_scp6453_scp_foundation/')
+add_data(['SCP ?(-| )? ?6453'],
+'SCP-6453',
+False,
+True,
+[
+    ['SHIT YETI']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 
 ########################################
 
