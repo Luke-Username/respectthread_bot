@@ -19,6 +19,8 @@ UPDATE character SET rt_id_array='{?}' WHERE displayed_version_name='Disenchantm
 
 ########################################
 
+DELETE FROM character WHERE default_name='Smith' AND version='{"Matrix"}';
+
 ########################################
 
 ########################################
