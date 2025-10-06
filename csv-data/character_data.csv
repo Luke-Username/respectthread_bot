@@ -1148,7 +1148,6 @@ Whiplash,{199999},f,{273},MCU
 Whiplash,{movie},f,{273},MCU
 Whiplash,{movies},f,{273},MCU
 Whiplash,"{`"Iron Man 2`"}",f,{273},MCU
-Smith,{Matrix},f,"{276,275}",The Matrix
 Agent Jackson,{Matrix},t,{275},The Matrix
 The Rabbit of Caerbannog,"{`"Monty Python`"}",t,{6507},Monty Python and the Holy Grail
 The Rabbit of Caerbannog,{Spamalot},t,{6507},Monty Python and the Holy Grail
@@ -26176,9 +26175,6 @@ Scathach-Skadi,"{`"Grande? Order`"}",t,{21691},Fate
 Qin Shi Huang,{Fate},f,{21692},Fate
 Qin Shi Huang,"{`"Grande? Order`"}",f,{21692},Fate
 Zeus,"{`"Zeus.*Grande? Order`"}",f,{21693},Fate
-Princess Bean,{Disenchantment},f,{21693},Disenchantment
-Bean,{Disenchantment},f,{21693},Disenchantment
-Tiabeanie,{Disenchantment},t,{21693},Disenchantment
 Makoto,"{`"Street Fighter`",UDON}",f,{21694},UDON
 Ryu,"{`"Street Fighter Comics`"}",f,{21695},Street Fighter Comics
 Rainbow Mika,{UDON},f,{21696},UDON
@@ -26236,6 +26232,8 @@ Kirei Kotomine,{Fate},t,{21720},Fate
 Atom,"{`"Real Steel`"}",f,{21721},Real Steel
 Brogy,"{`"One ?Piece?`"}",f,{21722},One Piece
 Dorry,"{`"One ?Piece?`"}",f,{21722},One Piece
+Princess Bean,{Disenchantment},f,{26436},Disenchantment
+Bean,{Disenchantment},f,{26436},Disenchantment
 Dorry,{Brogy},f,{21722},One Piece
 Mr. 5,"{`"One ?Piece?`"}",f,{21723},One Piece
 Miss Valentine,"{`"One ?Piece?`"}",f,{21723},One Piece
@@ -33917,3 +33915,48 @@ Lee Yuzuha,"{`"Strike It Rich`"}",f,{26434},Star: Strike It Rich
 Yukihira Sara,"{`"Strike It Rich`"}",f,{26434},Star: Strike It Rich
 Weapon X-31,{616|Gwen(pool)?|Marvel},f,{26435},616
 Poliwhirl,{Pok(e|é)m(o|a)n},t,{26425},Pokémon
+Tiabeanie,{Disenchantment},t,{26436},Disenchantment
+Spooky Space Kook,"{`"Scooby(-| )?Doo`"}",t,{26443},Scooby-Doo
+Marshmello,{Fortnite},f,{26444},Fortnite
+Hades,{Fortnite},f,{26445},Fortnite
+The Visitor,{Fortnite},f,{26446},Fortnite
+Synthwave,{Fortnite},f,{26447},Fortnite
+Swampert,{Pok(e|é)m(o|a)n},t,{26448},Pokémon
+Mudkip,{Pok(e|é)m(o|a)n},t,{26448},Pokémon
+Marshtomp,{Pok(e|é)m(o|a)n},t,{26448},Pokémon
+Martian Manhunter,"{`"DC Animated Universe`"}",f,{26449},DCAU
+Martian Manhunter,{DCAU},f,{26449},DCAU
+Martian Manhunter,{Timmverse},f,{26449},DCAU
+Martian Manhunter,"{`"Animated DC`"}",f,{26449},DCAU
+J'onn,"{`"DC Animated Universe`"}",f,{26449},DCAU
+J'onn,{DCAU},f,{26449},DCAU
+J'onn,{Timmverse},f,{26449},DCAU
+J'onn,"{`"Animated DC`"}",f,{26449},DCAU
+Winnie the Pooh,"{`"Twisted Childhood Universe`"}",f,{26450},The Twisted Childhood Universe
+McGucket,"{`"Gravity Falls`"}",f,{26451},Gravity Falls
+Old Man McGucket,"{`"Gravity Falls`"}",f,{26451},Gravity Falls
+Oberon,"{`"Grande? Order`"}",f,{26452},Fate
+Oberon,"{`"F(ate )?/?GO`"}",f,{26452},Fate
+Oberon,"{`"Oberon Vortigern`"}",f,{26452},Fate
+Oberon,"{`"Fate Series`"}",f,{26452},Fate
+Woodwose,"{`"Grande? Order`"}",f,{26453},Fate
+Woodwose,"{`"F(ate )?/?GO`"}",f,{26453},Fate
+Woodwose,{Woodwose.*Fate},f,{26453},Fate
+Barghest,"{`"Grande? Order`"}",f,{26454},Fate
+Barghest,"{`"F(ate )?/?GO`"}",f,{26454},Fate
+Barghest,"{`"Fate Series`"}",f,{26454},Fate
+Tam Lin Gawain,"{`"Grande? Order`"}",t,{26454},Fate
+Tam Lin Gawain,"{`"F(ate )?/?GO`"}",t,{26454},Fate
+Tam Lin Gawain,{Fate},t,{26454},Fate
+Cernunnos,"{`"Grande? Order`"}",f,{26455},Fate
+Cernunnos,"{`"F(ate )?/?GO`"}",f,{26455},Fate
+Cernunnos,{Lostbelt},f,{26455},Fate
+Cernunnos,"{`"Fate Series`"}",f,{26455},Fate
+Irving Wallace,"{`"Stage ?Fright`"}",f,{26456},StageFright: Aquarius
+Brian,"{`"Quest 64`"}",f,{26457},Quest 64
+Ronan O'Conner,"{`"Soul Suspect`"}",f,{26458},Murdered: Soul Suspect
+Vampires,"{`"Vampires?.*\\(Sinners\\)`"}",f,{26459},Sinners
+Vampires,"{`"vampires from recent films`",Sinners}",f,{26459},Sinners
+Vampires,"{`"Irish Vampire`",Sinners}",f,{26459},Sinners
+Dracula,"{`"Dracula ?\\(Dynamite Entertainment`"}",f,{26460},Dynamite Entertainment
+SCP-6453,"{`"SHIT YETI`"}",t,{26461},""
