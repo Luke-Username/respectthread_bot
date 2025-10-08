@@ -107,6 +107,156 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1338, 'Respect Trivia Vanille/Neopolitan (RWBY)', 'https://www.reddit.com/r/respectthreads/comments/1nz88xe/respect_trivia_vanilleneopolitan_rwby/')
+update_respectthread(cur, 2498, 'Respect Owen Reece, the Molecule Man (Marvel Comics, Earth-616)', 'https://www.reddit.com/r/respectthreads/comments/1nzy4q1/respect_owen_reece_the_molecule_man_marvel_comics/')
+update_respectthread(cur, 591, "Respect Eddie Brock/Venom (Sony''s Spider-Man Universe)", 'https://www.reddit.com/r/respectthreads/comments/1o02up4/respect_eddie_brockvenom_sonys_spiderman_universe/')
+update_respectthread(cur, 17487, 'Respect Alexei Shostakov, The Red Guardian (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/1o0cklm/respect_alexei_shostakov_the_red_guardian_marvel/')
+
+########################################
+
+add_data(['Titus'],
+'Titus',
+False,
+False,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
+'{9241}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1o0c10z/bumblebee_transformers_vs_titus_wh40k/ni88a88/?context=3
+
+########################################
+
+add_data(['HUNTRiX'],
+'HUNTRiX',
+True,
+False,
+[
+    ['Rumi|Mina|Zoey']
+],
+'KPop Demon Hunters',
+'{26193}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1o1c56o/huntrix_vs_the_ninja_turtles/nifhjyi/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bubba Ritter, The Scarecrow (Dark Night of the Scarecrow)', 'https://www.reddit.com/r/respectthreads/comments/1nzhlfx/respect_bubba_ritter_the_scarecrow_dark_night_of/')
+add_data(['Bubba Ritter'],
+'Bubba Ritter',
+False,
+True,
+[
+    ['Dark Night of the Scarecrow']
+],
+'Dark Night of the Scarecrow',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Scare ?crow,Scarecrow'],
+'Scarecrow',
+False,
+False,
+[
+    ['Scarecrow.*Dark Night of the Scarecrow']
+],
+'Dark Night of the Scarecrow',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect T-A.L.O.S. (Resident Evil: Umbrella Chronicles)', 'https://www.reddit.com/r/respectthreads/comments/1nzwfx5/respect_talos_resident_evil_umbrella_chronicles/')
+add_data(['T-A\.L\.O\.S'],
+'T-A.L.O.S.',
+False,
+False,
+[
+    ['Resident Evil', 'Umbrella Chronicles']
+],
+'Resident Evil: Umbrella Chronicles',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect the Xenophage (Sony''s Spider-Man Universe)", 'https://www.reddit.com/r/respectthreads/comments/1o0368o/respect_the_xenophage_sonys_spiderman_universe/')
+add_data(['Xenophage'],
+'Xenophage',
+False,
+False,
+[
+    ['Sony'], ['Last Dance']
+],
+'Sony',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect John O''Malley! (Hunter: the Reckoning)", 'https://www.reddit.com/r/respectthreads/comments/1o0evcl/respect_john_omalley_hunter_the_reckoning/')
+add_data(["John O(''| )Malley"],
+"John O''Malley",
+False,
+False,
+[
+    ['World of Darkness'], ['Hunter:? the Reckoning']
+],
+'World of Darkness',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Michael Myers (Call of Duty)', 'https://www.reddit.com/r/respectthreads/comments/1o0x444/respect_michael_myers_call_of_duty/')
+add_data(['Mich(ae|ea)l Me?y(er|re)s'],
+'Michael Myers',
+False,
+False,
+[
+    ['Call of Duty']
+],
+'Call of Duty',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zero (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1o19utg/respect_zero_pokemon_anime/')
+add_data(['Zero'],
+'Zero',
+False,
+False,
+[
+    ['Zero ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rok Buran (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/1o1l9gk/respect_rok_buran_star_wars_canon/')
+add_data(['Rok Buran'],
+'Rok Buran',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
