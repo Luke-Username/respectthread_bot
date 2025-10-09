@@ -1824,7 +1824,6 @@ Alphonse Elric,{live-*action},f,{436},Fullmetal Alchemist 2017
 Edward Elric,{2017},f,{437},Fullmetal Alchemist 2017
 Edward Elric,"{`"live(-| )*action`"}",f,{437},Fullmetal Alchemist 2017
 Eren Yeager,"{`"Attack on Titan`"}",t,{3055},Attack on Titan
-G-Force,{G-Force},t,{438},""
 Darwin,{G-Force},f,{438},G-Force
 Blaster,{G-Force},f,{438},G-Force
 Juarez,{G-Force},f,{438},G-Force
@@ -1841,6 +1840,7 @@ Motoko Kusanagi,{GITS},t,{4765},Ghost in the Shell
 Motoko Kusanagi,"{`"Stand Alone Complex`"}",f,{4766},GITS: Stand Alone Complex
 Motoko Kusanagi,{SAC},f,{4766},GITS: Stand Alone Complex
 Ghost Rider,{2007},f,{441},2007 movie
+G-Force,{G-Force},f,{438},""
 Ghost Rider,"{`"Movie Ghost Rider`"}",f,{441},2007 movie
 Ghost Rider,"{`"Ghost Rider Movie`"}",f,{441},2007 movie
 Storm Shadow,"{`"G.*I.* *Joe`",movies*}",f,{443},G.I. Joe Movies
@@ -7261,10 +7261,6 @@ Mister Miracle,{Nu?-?52},f,{},New 52
 Mister Miracle,"{`"Post(-| )52`"}",f,{},New 52
 Mister Miracle,"{`"Prime(-| )Earth`"}",f,{},New 52
 Mister Miracle,{Rebirth},f,{},New 52
-Scott Free,"{`"Pre(-| )?Flashpoint`"}",t,{8174},DC
-Scott Free,{PC},t,{8174},DC
-Scott Free,"{`"Post(-| )?C(risis)?`"}",t,{8174},DC
-Scott Free,"{`"New(-| )Earth`"}",t,{8174},DC
 Bronze Tiger,"{`"New(-| )?52`"}",f,{8174},New 52 / Rebirth
 Bronze Tiger,{Nu?-?52},f,{8174},New 52 / Rebirth
 Bronze Tiger,"{`"Post(-| )52`"}",f,{8174},New 52 / Rebirth
@@ -7285,6 +7281,10 @@ Reverse-Flash,"{`"Post(-| )52`"}",f,{8176},Rebirth
 Doomsday,{DC},t,"{1801,23625}",DC
 Doomsday,{Flashpoint},t,"{1801,23625}",DC
 Doomsday,"{`"Doomsday vs`"}",t,"{1801,23625}",DC
+Scott Free,"{`"Pre(-| )?Flashpoint`"}",f,{8174},DC
+Scott Free,{PC},f,{8174},DC
+Scott Free,"{`"Post(-| )?C(risis)?`"}",f,{8174},DC
+Scott Free,"{`"New(-| )Earth`"}",f,{8174},DC
 Reverse-Flash,"{`"Prime(-| )Earth`"}",f,{8176},Rebirth
 Reverse-Flash,{Rebirth},f,{8176},Rebirth
 Skeleton,"{`"Skeleton Soldier Couldn't Protect the Dungeon`"}",f,{8177},Skeleton Soldier Couldn't Protect the Dungeon
@@ -33960,3 +33960,16 @@ Vampires,"{`"vampires from recent films`",Sinners}",f,{26459},Sinners
 Vampires,"{`"Irish Vampire`",Sinners}",f,{26459},Sinners
 Dracula,"{`"Dracula ?\\(Dynamite Entertainment`"}",f,{26460},Dynamite Entertainment
 SCP-6453,"{`"SHIT YETI`"}",t,{26461},""
+Titus,{(WH)?40K},f,{9241},Warhammer 40k
+Titus,{Warhammer},f,{9241},Warhammer 40k
+HUNTRiX,{Rumi|Mina|Zoey},f,{26193},KPop Demon Hunters
+Bubba Ritter,"{`"Dark Night of the Scarecrow`"}",t,{26462},Dark Night of the Scarecrow
+Scarecrow,"{`"Scarecrow.*Dark Night of the Scarecrow`"}",f,{26462},Dark Night of the Scarecrow
+T-A.L.O.S.,"{`"Resident Evil`",`"Umbrella Chronicles`"}",f,{26463},Resident Evil: Umbrella Chronicles
+Xenophage,{Sony},f,{26464},Sony
+Xenophage,"{`"Last Dance`"}",f,{26464},Sony
+John O'Malley,"{`"World of Darkness`"}",f,{26465},World of Darkness
+John O'Malley,"{`"Hunter:? the Reckoning`"}",f,{26465},World of Darkness
+Michael Myers,"{`"Call of Duty`"}",f,{26466},Call of Duty
+Zero,"{`"Zero ?\\(Pok(e|é)m(o|a)n`"}",f,{26467},Pokémon
+Rok Buran,"{`"S(tar )?Wars`"}",f,{26468},Star Wars

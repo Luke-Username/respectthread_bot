@@ -14,11 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Scott Free';
-
 ########################################
-
-UPDATE character SET is_default=FALSE WHERE default_name='G-Force';
 
 ########################################
 
