@@ -107,6 +107,91 @@ cur = con.cursor()
 
 ########################################
 
+
+add_data(['Penny(-| )?wise'],
+'Pennywise',
+False,
+False,
+[
+    ['Penny(-| )?wise ?\(Movies?\)']
+],
+'It, 2017',
+'{17638}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1o2c5lb/pennywise_movies_vs_the_djinn_wishmaster/
+
+########################################
+
+
+add_data(['Carnage'],
+'Carnage',
+False,
+False,
+[
+    ['\(Sony\) Carnage']
+],
+'Sony',
+'{22976}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1o2j6jq/sony_carnage_vs_doc_ock_green_goblin_sandman/nio5yid/?context=3
+
+########################################
+
+
+add_data(['Absolute Bane'],
+'Absolute Bane',
+False,
+True,
+[
+    ['Absolute Universe']
+],
+'Absolute Universe',
+'{26268}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1o1rlz6/frank_horrigan_fallout_2_vs_absolute_bane/niik1bs/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Eleanor Adjai, The Headhunter (Night School)', 'https://www.reddit.com/r/respectthreads/comments/1o1un9r/respect_eleanor_adjai_the_headhunter_night_school/')
+add_data(['Eleanor Adjai'],
+'Eleanor Adjai',
+False,
+True,
+[
+    ['Night School']
+],
+'Night School',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Headhunter'],
+'Headhunter',
+False,
+False,
+[
+    ['Night School']
+],
+'Night School',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Cannibals (Ravenous)', 'https://www.reddit.com/r/respectthreads/comments/1o1wq6f/respect_the_cannibals_ravenous/')
+add_data(['Cannibals'],
+'Cannibals',
+False,
+False,
+[
+    ['Cannibals ?\(Ravenous\)']
+],
+'Ravenous',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
