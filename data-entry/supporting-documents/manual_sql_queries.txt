@@ -14,12 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Dracula', 'Dracula Flow', 0);
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Bronze Tiger (New52) (Rebirth) (DC Comics)', 'https://www.reddit.com/r/respectthreads/comments/euy0zg/respect_bronze_tiger_new52_rebirth_dc_comics/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/euy0zg/respect_bronze_tiger_new52_rebirth_dc_comics/';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Bronze Tiger' AND displayed_version_name='New 52 / Rebirth';
 
 ########################################
 

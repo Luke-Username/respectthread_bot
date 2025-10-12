@@ -7261,11 +7261,6 @@ Mister Miracle,{Nu?-?52},f,{},New 52
 Mister Miracle,"{`"Post(-| )52`"}",f,{},New 52
 Mister Miracle,"{`"Prime(-| )Earth`"}",f,{},New 52
 Mister Miracle,{Rebirth},f,{},New 52
-Bronze Tiger,"{`"New(-| )?52`"}",f,{8174},New 52 / Rebirth
-Bronze Tiger,{Nu?-?52},f,{8174},New 52 / Rebirth
-Bronze Tiger,"{`"Post(-| )52`"}",f,{8174},New 52 / Rebirth
-Bronze Tiger,"{`"Prime(-| )Earth`"}",f,{8174},New 52 / Rebirth
-Bronze Tiger,{Rebirth},f,{8174},New 52 / Rebirth
 Bronze Tiger,{PC},f,{8175},Post-Crisis
 Bronze Tiger,"{`"Post(-| )?C(risis)?`"}",f,{8175},Post-Crisis
 Bronze Tiger,"{`"New(-| )Earth`"}",f,{8175},Post-Crisis
@@ -7285,6 +7280,11 @@ Scott Free,"{`"Pre(-| )?Flashpoint`"}",f,{8174},DC
 Scott Free,{PC},f,{8174},DC
 Scott Free,"{`"Post(-| )?C(risis)?`"}",f,{8174},DC
 Scott Free,"{`"New(-| )Earth`"}",f,{8174},DC
+Bronze Tiger,"{`"New(-| )?52`"}",f,{26469},New 52 / Rebirth
+Bronze Tiger,{Nu?-?52},f,{26469},New 52 / Rebirth
+Bronze Tiger,"{`"Post(-| )52`"}",f,{26469},New 52 / Rebirth
+Bronze Tiger,"{`"Prime(-| )Earth`"}",f,{26469},New 52 / Rebirth
+Bronze Tiger,{Rebirth},f,{26469},New 52 / Rebirth
 Reverse-Flash,"{`"Prime(-| )Earth`"}",f,{8176},Rebirth
 Reverse-Flash,{Rebirth},f,{8176},Rebirth
 Skeleton,"{`"Skeleton Soldier Couldn't Protect the Dungeon`"}",f,{8177},Skeleton Soldier Couldn't Protect the Dungeon
@@ -33973,3 +33973,15 @@ John O'Malley,"{`"Hunter:? the Reckoning`"}",f,{26465},World of Darkness
 Michael Myers,"{`"Call of Duty`"}",f,{26466},Call of Duty
 Zero,"{`"Zero ?\\(Pok(e|é)m(o|a)n`"}",f,{26467},Pokémon
 Rok Buran,"{`"S(tar )?Wars`"}",f,{26468},Star Wars
+Pennywise,"{`"Penny(-| )?wise ?\\(Movies?\\)`"}",f,{17638},"It, 2017"
+Carnage,"{`"\\(Sony\\) Carnage`"}",f,{22976},Sony
+Absolute Bane,"{`"Absolute Universe`"}",t,{26268},Absolute Universe
+Absolute Batman,"{`"Absolute Universe`"}",t,{26224},Absolute Universe
+Absolute Wonder Woman,"{`"Absolute Universe`"}",t,{26198},Absolute Universe
+Absolute Superman,"{`"Absolute Universe`"}",t,{26145},Absolute Universe
+Eleanor Adjai,"{`"Night School`"}",t,{26470},Night School
+Headhunter,"{`"Night School`"}",f,{26470},Night School
+Cannibals,"{`"Cannibals ?\\(Ravenous\\)`"}",f,{26471},Ravenous
+Palmer,"{`"Palmer ?\\(Pok(e|é)m(o|a)n`"}",f,{26473},Pokémon
+Sayama Mikoto,"{`"Owari no Chronicle`"}",f,{26474},Owari no Chronicle
+Sayama Mikoto,"{`"Ending Chronicles?`"}",f,{26474},Owari no Chronicle
