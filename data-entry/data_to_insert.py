@@ -107,6 +107,63 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Yautja (DEATH BATTLE!)', 'https://www.reddit.com/r/respectthreads/comments/1o513l0/respect_the_yautja_death_battle/')
+add_data(['Yautja'],
+'Yautja',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Lanier College Killer (Final Exam)', 'https://www.reddit.com/r/respectthreads/comments/1o5o440/respect_the_lanier_college_killer_final_exam/')
+add_data(['Lanier College Killer'],
+'Lanier College Killer',
+False,
+False,
+[
+    ['Final Exam']
+],
+'Final Exam',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dean Timothy Foley (Pieces)', 'https://www.reddit.com/r/respectthreads/comments/1o5oj9o/respect_dean_timothy_foley_pieces/')
+add_data(['Dean Timothy Foley'],
+'Dean Timothy Foley',
+False,
+False,
+[
+    ['Pieces']
+],
+'Pieces',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP-7416 (SCP Foundation)', 'https://www.reddit.com/r/respectthreads/comments/1o68du5/respect_scp7416_scp_foundation/')
+add_data(['SCP ?(-| )? ?7416'],
+'SCP-7416',
+False,
+False,
+[
+    ['LAWBERT']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 

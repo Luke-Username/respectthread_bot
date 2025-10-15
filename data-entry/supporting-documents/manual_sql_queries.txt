@@ -14,7 +14,14 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+SET version='{"Bram|Stoker", "(movie|film)s?"}' WHERE default_name='Dracula' AND rt_id_array='{10877}'; --https://www.reddit.com/r/whowouldwin/comments/1o5z0sz/dracula_bram_stokers_dracula_vs_frankensteins/
+
 ########################################
+
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Bat(-| )?mans?', 'Absolute Batman', -9);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Wonder ?Woman', 'Absolute Wonder Woman', -9);
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Super(-| )?man', 'Absolute Superman', -9);
+--https://www.reddit.com/r/respectthread_bot/comments/1o4u4x6/test/nj9mmoj/?context=3
 
 ########################################
 
