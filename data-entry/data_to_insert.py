@@ -167,6 +167,141 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ghostface (Call of Duty)', 'https://www.reddit.com/r/respectthreads/comments/1o79k6s/respect_ghostface_call_of_duty/')
+add_data(['Ghostface'],
+'Ghostface',
+False,
+False,
+[
+    ['Call of Duty']
+],
+'Call of Duty',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Hulk (Hulk vs Thor)', 'https://www.reddit.com/r/respectthreads/comments/1o7jy79/respect_the_hulk_hulk_vs_thor/')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['Hulk ?\(Hulk vs Thor\)']
+],
+'Hulk vs Thor',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Shadow (Amnesia)', 'https://www.reddit.com/r/respectthreads/comments/1o7lw8c/respect_the_shadow_amnesia/')
+add_data(['Shadow'],
+'Shadow',
+False,
+False,
+[
+    ['Amnesia', 'Dark Descent|Machine For Pigs|Rebirth']
+],
+'Amnesia',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Peacemaker! (DCU)', 'https://www.reddit.com/r/respectthreads/comments/1o7n5xm/respect_peacemaker_dcu/')
+add_data(['Peace ?maker'],
+'Peacemaker',
+False,
+False,
+[
+    ['DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Please don''t respect Captain Triumph (DCU)", 'https://www.reddit.com/r/respectthreads/comments/1o84ert/please_dont_respect_captain_triumph_dcu/')
+add_data(['Captain Triumph'],
+'Captain Triumph',
+False,
+False,
+[
+    ['DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Peacemaker! (Peacemaker Presents: The Vigilante/Eagly Double-Feature)', 'https://www.reddit.com/r/respectthreads/comments/1o7rm9n/respect_peacemaker_peacemaker_presents_the/')
+add_data(['Peace ?maker'],
+'Peacemaker',
+False,
+False,
+[
+    ['Peacemaker Presents', 'Vigilante', 'Double(-| )Feature']
+],
+'Peacemaker Presents: The Vigilante/Eagly Double Feature!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Hulk (Next Avengers: Heroes of Tomorrow)', 'https://www.reddit.com/r/respectthreads/comments/1o7nrgj/respect_the_hulk_next_avengers_heroes_of_tomorrow/')
+add_data(['Hulk'],
+'Hulk',
+False,
+False,
+[
+    ['Next Avengers', 'Heroes of Tomorrow']
+],
+'Next Avengers: Heroes of Tomorrow',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nova Prime (Transformers, IDW Comics [2005])', 'https://www.reddit.com/r/respectthreads/comments/1o7pa90/respect_nova_prime_transformers_idw_comics_2005/')
+add_data(['Nova Prime'],
+'Nova Prime',
+False,
+False,
+[
+    ['IDW']
+],
+'IDW',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maxwell Carpenter! (World of Darkness)', 'https://www.reddit.com/r/respectthreads/comments/1o8k4c7/respect_maxwell_carpenter_world_of_darkness/')
+add_data(['Maxwell Carpenter'],
+'Maxwell Carpenter',
+False,
+False,
+[
+    ['World of Darkness']
+],
+'World of Darkness',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
