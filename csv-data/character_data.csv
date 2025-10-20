@@ -9655,7 +9655,6 @@ Go Go Tomago,"{`"Big Hero`"}",t,{10873},Big Hero 6
 Blade Wolf,"{`"Metal Gear`"}",t,{10874},Metal Gear
 Blade Wolf,{MGRR?},t,{10874},Metal Gear
 Ieroh Itou,{Red},t,{10876},Red: Living On the Edge
-Dracula,{Bram|Stoker},f,{10877},Bram Stoker
 Murasaki,"{`"Living On the Edge`"}",t,{10878},Red: Living On the Edge
 Green Giant,{mascots?},t,{10879},Commercials
 Green Giant,{commercials?},t,{10879},Commercials
@@ -9715,6 +9714,7 @@ Gambit,"{`"Gambit ?\\( ?Ultimates?`"}",f,{2551},1610
 Thor,"{`"Thor ?\\( ?Ultimates?`"}",f,{2546},1610
 Honey Lemon,{D(i|y)sneys?},f,{10872},Disney's Big Hero 6
 Go Go Tomago,{D(i|y)sneys?},f,{10873},Disney's Big Hero 6
+Dracula,"{Bram|Stoker,(movie|film)s?}",f,{10877},Bram Stoker
 Frankenstein,"{`"Mary Shelley`"}",t,"{7691,10892}",Mary Shelley
 Gambit,{1610},f,{2551},1610
 Ultimate Gambit,{1610},t,{2551},1610
@@ -33985,3 +33985,24 @@ Cannibals,"{`"Cannibals ?\\(Ravenous\\)`"}",f,{26471},Ravenous
 Palmer,"{`"Palmer ?\\(Pok(e|é)m(o|a)n`"}",f,{26473},Pokémon
 Sayama Mikoto,"{`"Owari no Chronicle`"}",f,{26474},Owari no Chronicle
 Sayama Mikoto,"{`"Ending Chronicles?`"}",f,{26474},Owari no Chronicle
+Polyester and Polyurethane,"{`"Panty (&|and) Stocking`"}",f,{26475},Panty & Stocking
+Yautja,"{`"DEATH BATTLE`"}",f,{26476},DEATH BATTLE!
+Lanier College Killer,"{`"Final Exam`"}",f,{26477},Final Exam
+Dean Timothy Foley,{Pieces},f,{26478},Pieces
+SCP-7416,{LAWBERT},f,{26479},""
+Ghostface,"{`"Call of Duty`"}",f,{26480},Call of Duty
+Hulk,"{`"Hulk ?\\(Hulk vs Thor\\)`"}",f,{26481},Hulk vs Thor
+Shadow,"{Amnesia,`"Dark Descent|Machine For Pigs|Rebirth`"}",f,{26482},Amnesia
+Peacemaker,{DCU},f,{26483},DCU
+Captain Triumph,{DCU},f,{26484},DCU
+Peacemaker,"{`"Peacemaker Presents`",Vigilante,`"Double(-| )Feature`"}",f,{26485},Peacemaker Presents: The Vigilante/Eagly Double Feature!
+Hulk,"{`"Next Avengers`",`"Heroes of Tomorrow`"}",f,{26486},Next Avengers: Heroes of Tomorrow
+Nova Prime,{IDW},f,{26487},IDW
+Maxwell Carpenter,"{`"World of Darkness`"}",f,{26488},World of Darkness
+Zaybi,{VERSUS},f,{26489},VERSUS
+Hallow,"{`"Hallow ?\\(VERSUS`"}",f,{26490},VERSUS
+Superman,"{`"At Earth's End`"}",f,{26491},At Earth's End
+Weird Yellow Smiling Thing,"{`"Pillar Chase`"}",t,{26492},Pillar Chase
+WYST,"{`"Pillar Chase`"}",f,{26492},Pillar Chase
+Forsaken Survivors,{Roblox},f,{26493},Roblox
+Forsaken Survivors,"{`"\\(Forsaken\\)`"}",f,{26493},Roblox
