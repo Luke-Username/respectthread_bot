@@ -107,6 +107,43 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 20590, 'Respect the Death Angels (A Quiet Place)', 'https://www.reddit.com/r/respectthreads/comments/1oa0f6e/respect_the_death_angels_a_quiet_place/')
+update_respectthread(cur, 4124, '[NSFW] Respect Panty and Stocking Anarchy (Panty & Stocking with Garterbelt)', 'https://www.reddit.com/r/respectthreads/comments/1oacnrc/nsfw_respect_panty_and_stocking_anarchy_panty/')
+update_respectthread(cur, 4125, '[NSFW] Respect Scanty and Kneesocks Daemon (Panty & Stocking with Garterbelt)', 'https://www.reddit.com/r/respectthreads/comments/1oacovq/nsfw_respect_scanty_and_kneesocks_daemon_panty/')
+
+########################################
+
+id = get_rt_id(cur, '[NSFW] Respect Polyester and Polyurethane (Panty & Stocking with Garterbelt)', 'https://www.reddit.com/r/respectthreads/comments/1oacp3p/nsfw_respect_polyester_and_polyurethane_panty/')
+add_data(['Polyester (and|&) Polyurethane'],
+'Polyester and Polyurethane',
+True,
+False,
+[
+    ['Panty (&|and) Stocking']
+],
+'Panty & Stocking',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Yautja (DEATH BATTLE!)', 'https://www.reddit.com/r/respectthreads/comments/1o513l0/respect_the_yautja_death_battle/')
+add_data(['Yautja'],
+'Yautja',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
 id = get_rt_id(cur, 'Respect the Yautja (DEATH BATTLE!)', 'https://www.reddit.com/r/respectthreads/comments/1o513l0/respect_the_yautja_death_battle/')
 add_data(['Yautja'],
 'Yautja',
@@ -299,6 +336,93 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zaybi (VERSUS)', 'https://www.reddit.com/r/respectthreads/comments/1oahb2j/respect_zaybi_versus/')
+add_data(['Zaybi'],
+'Zaybi',
+False,
+False,
+[
+    ['VERSUS']
+],
+'VERSUS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hallow (VERSUS)', 'https://www.reddit.com/r/respectthreads/comments/1oagzgg/respect_hallow_versus/')
+add_data(['Hallow'],
+'Hallow',
+False,
+False,
+[
+    ['Hallow ?\(VERSUS']
+],
+'VERSUS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Superman (At Earth''s End)", 'https://www.reddit.com/r/respectthreads/comments/1o916a6/respect_superman_at_earths_end/')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ["At Earth''s End"]
+],
+"At Earth''s End",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Weird Yellow Smiling Thing, WYST! (Pillar Chase 2)', 'https://www.reddit.com/r/respectthreads/comments/1oabh4i/respect_the_weird_yellow_smiling_thing_wyst/')
+add_data(['Weird Yellow Smiling Thing'],
+'Weird Yellow Smiling Thing',
+False,
+True,
+[
+    ['Pillar Chase']
+],
+'Pillar Chase',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['W\.?Y\.?S\.?T'],
+'WYST',
+False,
+False,
+[
+    ['Pillar Chase']
+],
+'Pillar Chase',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Forsaken Survivors! (Forsaken, Roblox)', 'https://www.reddit.com/r/respectthreads/comments/1oad7f0/respect_the_forsaken_survivors_forsaken_roblox/')
+add_data(['Forsaken Survivors'],
+'Forsaken Survivors',
+True,
+False,
+[
+    ['Roblox'], ['\(Forsaken\)']
+],
+'Roblox',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1l6rhp8/1x1x1x1_1x1_forsaken_enters_the_mcu_what_is_the/
 
 ########################################
 
