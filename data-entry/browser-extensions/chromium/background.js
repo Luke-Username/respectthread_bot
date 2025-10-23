@@ -8,7 +8,8 @@ const ENUMS = Object.freeze({
 
 chrome.tabs.onUpdated.addListener((tabId, tab) => {
   if (tab.url && (
-      tab.url.includes('reddit.com/r/respectthreads/comments/')
+      tab.url.includes('reddit.com/r/respectthreads/comments/') ||
+      tab.url.includes('reddit.com/r/CasualRespectThreads/comments/')
     )) {
     // https://developer.chrome.com/docs/extensions/reference/api/tabs#method-sendMessage
     chrome.tabs.sendMessage(tabId, ENUMS.NEW_POST);

@@ -3732,8 +3732,10 @@ Vampire: The Masquerade
 		['Vampire:? The Masquerade']
 		['Vampire:? The Dark Ages']
 		['Dark Ages:? Vampire']
+		['World of Darkness']
 	Acronyms
 		['VTM']
+		['WOD']
 	Displayed Version Name
 		"Vampire: The Masquerade"
 

@@ -19,7 +19,7 @@ const getContainer = async (query) => {
 const getCurrentPostData = () => {
   let postTitle = document
     .querySelector('p.title')
-    .querySelector('a.title.may-blank.loggedin')
+    .querySelector('a.title.may-blank')
     .innerText;
   
   // Apostrophes (') are a reserved character in Postgres. Need to escape them by doubling them ('').
@@ -57,7 +57,8 @@ const addCopyToClipboardButton = (titleContainer) => {
   clipboardButton.appendChild(copyIcon);
 
   const currentUrl = window.location.href;
-  if (currentUrl.includes('reddit.com/r/respectthreads/comments/')) {
+  if (currentUrl.includes('reddit.com/r/respectthreads/comments/')
+    || currentUrl.includes('reddit.com/r/CasualRespectThreads/comments/')) {
     clipboardButton.addEventListener('click', getCurrentPostData);
   }
 
