@@ -107,6 +107,105 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Kenshin'],
+'Kenshin',
+False,
+False,
+[
+    ['Kenshin vs', 'Rurouni Kenshin']
+],
+'Rurouni Kenshin',
+'{4462}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ofd0j7/the_rurouni_kenshin_verse_vs_the_demon_slayer/nl84hrk/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Linnya Wazzo/Phantom Girl (DC Comics, Post Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1oenjs5/respect_linnya_wazzophantom_girl_dc_comics_post/')
+add_data(['Linnya Wazzo'],
+'Linnya Wazzo',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Linnya Wazzo'],
+'Linnya Wazzo',
+False,
+True,
+[
+    ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Malice, Mistress of Hate (Marvel Comics, 616)', 'https://www.reddit.com/r/respectthreads/comments/1oexstu/respect_malice_mistress_of_hate_marvel_comics_616/')
+add_data(['(Susan|Sue) Storm'],
+'Susan Storm',
+False,
+False,
+[
+    ['Malice']
+],
+'Malice',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yuri Watanabe, Wraith! (Marvel 616)', 'https://www.reddit.com/r/respectthreads/comments/1ofltl6/respect_yuri_watanabe_wraith_marvel_616/')
+add_data(['Yuri(ko)? Watanabe'],
+'Yuri Watanabe',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, '[NSFW] Respect Yi Xi! (Butcher Vanity)', 'https://www.reddit.com/r/respectthreads/comments/1oewce2/nsfw_respect_yi_xi_butcher_vanity/')
+add_data(['Yi Xi'],
+'Yi Xi',
+False,
+False,
+[
+    ['Butcher Vanity']
+],
+'Butcher Vanity',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thanatos (Pantheum)', 'https://www.reddit.com/r/respectthreads/comments/1of0wrt/respect_thanatos_pantheum/')
+add_data(['Thanatos'],
+'Thanatos',
+False,
+False,
+[
+    ['Thanatos ?\(Pantheum\)']
+],
+'Pantheum',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

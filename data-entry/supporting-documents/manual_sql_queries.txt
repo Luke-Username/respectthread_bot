@@ -14,6 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET rt_id_array='{6075, 6098}' WHERE default_name='Warrior Entity'; --https://www.reddit.com/r/whowouldwin/comments/1ofpw67/warrior_entity_worm_vs_horned_serpent_monument/
+
 ########################################
 
 ########################################
