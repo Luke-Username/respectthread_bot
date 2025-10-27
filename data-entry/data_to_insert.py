@@ -111,6 +111,21 @@ update_respectthread(cur, 1343, 'Respect Qrow Branwen (RWBY)', 'https://www.redd
 
 ########################################
 
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Predator.*Predator series']
+],
+'',
+'{2799,13507}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1oh3cam/who_would_win_a_space_marine_from_warhammer_40k/
+
+
+########################################
+
 add_data(['Kenshin'],
 'Kenshin',
 False,
