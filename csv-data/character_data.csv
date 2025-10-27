@@ -24942,7 +24942,6 @@ War Machine,"{`"Avengers:? Earths? Mightiest Heroes`"}",f,{21120},Earths Mightie
 War Machine,"{`"Avengers:? Earth's Mightiest Heroes`"}",f,{21120},Earths Mightiest Heroes
 War Machine,"{`"A(vengers)?: ?EMH`"}",f,{21120},Earths Mightiest Heroes
 Entities,"{`"Worm(-| )verse`"}",f,{6075},Worm
-Warrior Entity,{Worm},t,{6075},Worm
 Entities,"{`"\\(Worm`"}",f,{6075},Worm
 Entities,"{`"\\[Worm`"}",f,{6075},Worm
 Entities,"{`"Wild ?bow`"}",f,{6075},Worm
@@ -24954,6 +24953,7 @@ Emiya Shirou,{UBW},t,{6251},Fate
 Emiya Shirou,"{`"Unlimited Blade Works`"}",t,{6251},Fate
 Lion El'Jonson,{(WH)?40K},t,"{23516,21119}",Warhammer 40k
 Lion El'Jonson,{Warhammer},t,"{23516,21119}",Warhammer 40k
+Warrior Entity,{Worm},t,"{6075,6098}",Worm
 Kafka Hibino,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
 Leno Ichikawa,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
 Kikoru Shinomiya,"{`"(Monster|Kaiju) (#|No)\\.? ?8`"}",t,{21122},Monster #8
@@ -34018,3 +34018,20 @@ Joseph,{Magneto.*clone},f,{26499},Magneto's Clone
 Professor Membrane,"{`"Invader Zim`"}",t,{26500},Invader Zim
 Predator,"{`"Predator:? Black,? White (&|and) Blood`"}",f,{26501},"Predator: Black, White & Blood"
 Shredhead,{Energon},f,{26502},Energon Universe
+Predator,"{`"Predator.*Predator series`"}",f,"{2799,13507}",""
+Kenshin,"{`"Kenshin vs`",`"Rurouni Kenshin`"}",f,{4462},Rurouni Kenshin
+Linnya Wazzo,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26503},Post-Flashpoint
+Linnya Wazzo,"{`"DC Comics`"}",t,{26503},DC
+Susan Storm,{Malice},f,{26504},Malice
+Yuri Watanabe,{616},t,{26505},616
+Yi Xi,"{`"Butcher Vanity`"}",f,{26506},Butcher Vanity
+Thanatos,"{`"Thanatos ?\\(Pantheum\\)`"}",f,{26507},Pantheum
+The Stuff,"{`"The Stuff ?\\(The Stuff\\)`"}",f,{26508},""
+Candice,{Candice.*Pok(e|é)m(o|a)n},f,{26509},Pokémon
+Burgh,{Pok(e|é)m(o|a)n},f,{26510},Pokémon
+Roxie,{Roxie.*Pok(e|é)m(o|a)n},f,{26511},Pokémon
+Wild Magnezone,{Pok(e|é)m(o|a)n},t,{26512},Pokémon
+Wild Metagross,{Pok(e|é)m(o|a)n},t,{26513},Pokémon
+Frank Drebin Jr.,"{`"Naked Gun`"}",t,{26514},The Naked Gun
+Death,{Dreamwalker},f,{26515},Dreamwalker
+Dakwara,"{`"Isles of the Emberdark`"}",f,{26516},Isles of the Emberdark
