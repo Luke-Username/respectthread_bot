@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1343, 'Respect Qrow Branwen (RWBY)', 'https://www.reddit.com/r/respectthreads/comments/1ofw5zm/respect_qrow_branwen_rwby/')
+
+########################################
+
 add_data(['Kenshin'],
 'Kenshin',
 False,
@@ -202,6 +206,142 @@ False,
     ['Thanatos ?\(Pantheum\)']
 ],
 'Pantheum',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Stuff (The Stuff)', 'https://www.reddit.com/r/respectthreads/comments/1ofqz1g/respect_the_stuff_the_stuff/')
+add_data(['The Stuff'],
+'The Stuff',
+False,
+False,
+[
+    ['The Stuff ?\(The Stuff\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Candice (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1ofs1oa/respect_candice_pokemon_anime/')
+add_data(['Candice'],
+'Candice',
+False,
+False,
+[
+    ['Candice.*Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Burgh (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1ofw70k/respect_burgh_pokemon_anime/')
+add_data(['Burgh'],
+'Burgh',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Roxie (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1og5cbg/respect_roxie_pokemon_anime/')
+add_data(['Roxie'],
+'Roxie',
+False,
+False,
+[
+    ['Roxie.*Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect This Wild Magnezone (Pokemon Anime - DP158)', 'https://www.reddit.com/r/respectthreads/comments/1ogm89b/respect_this_wild_magnezone_pokemon_anime_dp158/')
+add_data(['Wild Magnezone'],
+'Wild Magnezone',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect This Wild Metagross (Pokemon Anime - DP158)', 'https://www.reddit.com/r/respectthreads/comments/1ogm8a2/respect_this_wild_metagross_pokemon_anime_dp158/')
+add_data(['Wild Metagross'],
+'Wild Metagross',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Frank Drebin Jr. (The Naked Gun)', 'https://www.reddit.com/r/respectthreads/comments/1og3dcd/respect_frank_drebin_jr_the_naked_gun/')
+add_data(['Frank Drebin Jr'],
+'Frank Drebin Jr.',
+False,
+True,
+[
+    ['Naked Gun']
+],
+'The Naked Gun',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Death (Dreamwalker)', 'https://www.reddit.com/r/respectthreads/comments/1ogb16m/respect_death_dreamwalker/')
+add_data(['Death'],
+'Death',
+False,
+False,
+[
+    ['Dreamwalker']
+],
+'Dreamwalker',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Dakwara (Isles of the Emberdark)', 'https://www.reddit.com/r/respectthreads/comments/1oguf79/respect_the_dakwara_isles_of_the_emberdark/')
+add_data(['Dakwara'],
+'Dakwara',
+False,
+False,
+[
+    ['Isles of the Emberdark']
+],
+'Isles of the Emberdark',
 '{' + '{}'.format(id) + '}'
 )
 #
