@@ -107,6 +107,88 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 6502, 'Respect Ava Starr, The Ghost (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/1oijn0g/respect_ava_starr_the_ghost_marvel_cinematic/')
+
+########################################
+
+
+id = get_rt_id(cur, "Respect Caitlin''s Gothitelle (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1ohfm19/respect_caitlins_gothitelle_pokemon_anime/')
+add_data(['Gothitelle'],
+'Gothitelle',
+False,
+False,
+[
+    ['Caitlin']
+],
+'Caitlin',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Fennec Shand (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/1ohvl18/respect_fennec_shand_star_wars_canon/')
+add_data(['Fennec Shand'],
+'Fennec Shand',
+False,
+True,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Winslow Leach, the Phantom (Phantom of the Paradise)', 'https://www.reddit.com/r/respectthreads/comments/1oiabl7/respect_winslow_leach_the_phantom_phantom_of_the/')
+add_data(['Winslow Leach'],
+'Winslow Leach',
+False,
+False,
+[
+    ['Phantom']
+],
+'Phantom of the Paradise',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/2z5zfr/phantom_of_the_opera_gerry_butler_v_phantom_of/
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Lester Papadopoulos/Apollo (Percy Jackson/Trials of Apollo)', 'https://www.reddit.com/r/respectthreads/comments/1oicfhx/respect_lester_papadopoulosapollo_percy/')
+add_data(['Lester Papadopoulos'],
+'Lester Papadopoulos',
+False,
+True,
+[
+    ['Riordan(-| )?(verse)?'], ['Trials of Apollo'], ['Percy Jackson']
+],
+'Percy Jackson',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Zombie Hulk (Marvel Zombies, Earth-2149)', 'https://www.reddit.com/r/respectthreads/comments/1ojdryk/respect_zombie_hulk_marvel_zombies_earth2149/')
+add_data(['Zombie Hulk'],
+'Zombie Hulk',
+False,
+True,
+[
+    ['Marvel Zombies'], ['2149']
+],
+'2149',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
