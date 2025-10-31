@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 6502, 'Respect Ava Starr, The Ghost (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/1oijn0g/respect_ava_starr_the_ghost_marvel_cinematic/')
+update_respectthread(cur, 23194, 'Respect Art the Clown (Terrifier)', 'https://www.reddit.com/r/respectthreads/comments/1oksnuu/respect_art_the_clown_terrifier/')
 
 ########################################
 
@@ -188,6 +189,123 @@ True,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Victor Crowley (Hatchet)', 'https://www.reddit.com/r/respectthreads/comments/1ojxgy5/respect_victor_crowley_hatchet/')
+add_data(['Victor Crowley'],
+'Victor Crowley',
+False,
+True,
+[
+    ['Hatchet']
+],
+'Hatchet',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Frank-N-Furter (The Rocky Horror Picture Show)', 'https://www.reddit.com/r/respectthreads/comments/1ok18tl/respect_franknfurter_the_rocky_horror_picture_show/')
+add_data(['Frank(-| )N\.?(-| )Furter'],
+'Frank-N-Furter',
+False,
+False,
+[
+    ['Rocky Horror Picture Show']
+],
+'The Rocky Horror Picture Show',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Agatha Prenderghast (ParaNorman)', 'https://www.reddit.com/r/respectthreads/comments/1ok8qcx/respect_agatha_prenderghast_paranorman/')
+add_data(['Agatha Prenderghast'],
+'Agatha Prenderghast',
+False,
+True,
+[
+    ['ParaNorman']
+],
+'ParaNorman',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect SCP-138, The Ever-Living Man (SCP Foundation)', 'https://www.reddit.com/r/respectthreads/comments/1okcqza/respect_scp138_the_everliving_man_scp_foundation/')
+add_data(['SCP ?(-| )? ?138'],
+'SCP-138',
+False,
+True,
+[
+    ['Ever(-| )Living Man']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Zombie Namor (Marvel Zombies show)', 'https://www.reddit.com/r/respectthreads/comments/1oknl8n/respect_zombie_namor_marvel_zombies_show/')
+add_data(['Zombie Namor'],
+'Zombie Namor',
+False,
+False,
+[
+    ['Marvel Zombies', '2025'], ['Marvel Zombies Show']
+],
+'Marvel Zombies, 2025',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Mystery Inc. (Scoob!)', 'https://www.reddit.com/r/respectthreads/comments/1okrpja/respect_mystery_inc_scoob/')
+add_data(['Mystery Inc(orporated)?'],
+'Mystery Inc.',
+True,
+False,
+[
+    ['Scoob!']
+],
+'Scoob!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Freddie Harris (Halloween: Resurrection)', 'https://www.reddit.com/r/respectthreads/comments/1okt8gz/respect_freddie_harris_halloween_resurrection/')
+add_data(['Freddie Harris'],
+'Freddie Harris',
+False,
+False,
+[
+    ['Halloween:? Resurrection']
+],
+'Halloween: Resurrection',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 
 ########################################
 
