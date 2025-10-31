@@ -14,9 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect The Spy (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1oiplid/respect_the_spy_team_fortress_2/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1oiplid/respect_the_spy_team_fortress_2/';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Spy' AND displayed_version_name='TF2';
-
 ########################################
 
 ########################################

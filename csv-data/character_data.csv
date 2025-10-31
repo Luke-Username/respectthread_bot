@@ -19355,8 +19355,6 @@ Demoman,{TF2},t,{5483},TF2
 Demoman,"{`"Team Fortress`"}",t,{5483},TF2
 Sniper,{TF2},f,{5483},TF2
 Sniper,"{`"Team Fortress`"}",f,{5483},TF2
-Spy,{TF2},f,{5483},TF2
-Spy,"{`"Team Fortress`"}",f,{5483},TF2
 Bryan Fury,{Tekken},t,{5485},Tekken
 Bryan,{Tekken},f,{5485},Tekken
 Craig Marduk,{Tekken},t,{5486},Tekken
@@ -19379,6 +19377,8 @@ Heavy Weapons Guy,{TF2},t,{26395},TF2
 Heavy Weapons Guy,"{`"Team Fortress`"}",t,{26395},TF2
 Pyro,{TF2},f,{5477},TF2
 Pyro,"{`"Team Fortress`"}",f,{5477},TF2
+Spy,{TF2},f,{26517},TF2
+Spy,"{`"Team Fortress`"}",f,{26517},TF2
 True Ogre,{Tekken},t,{5493},Tekken
 Ogre,{Tekken},f,{5493},Tekken
 Duke Fishron,{Terraria},t,{5494},Terraria
@@ -34035,3 +34035,19 @@ Wild Metagross,{Pok(e|é)m(o|a)n},t,{26513},Pokémon
 Frank Drebin Jr.,"{`"Naked Gun`"}",t,{26514},The Naked Gun
 Death,{Dreamwalker},f,{26515},Dreamwalker
 Dakwara,"{`"Isles of the Emberdark`"}",f,{26516},Isles of the Emberdark
+Gothitelle,{Caitlin},f,{26518},Caitlin
+Fennec Shand,"{`"S(tar )?Wars`"}",t,{26519},Star Wars
+Winslow Leach,{Phantom},f,{26520},Phantom of the Paradise
+Lester Papadopoulos,"{`"Riordan(-| )?(verse)?`"}",t,{26521},Percy Jackson
+Lester Papadopoulos,"{`"Trials of Apollo`"}",t,{26521},Percy Jackson
+Lester Papadopoulos,"{`"Percy Jackson`"}",t,{26521},Percy Jackson
+Zombie Hulk,"{`"Marvel Zombies`"}",t,{26522},2149
+Zombie Hulk,{2149},t,{26522},2149
+Victor Crowley,{Hatchet},t,{26523},Hatchet
+Frank-N-Furter,"{`"Rocky Horror Picture Show`"}",f,{26524},The Rocky Horror Picture Show
+Agatha Prenderghast,{ParaNorman},t,{26525},ParaNorman
+SCP-138,"{`"Ever(-| )Living Man`"}",t,{26526},""
+Zombie Namor,"{`"Marvel Zombies`",2025}",f,{26527},"Marvel Zombies, 2025"
+Zombie Namor,"{`"Marvel Zombies Show`"}",f,{26527},"Marvel Zombies, 2025"
+Mystery Inc.,{Scoob!},f,{26528},Scoob!
+Freddie Harris,"{`"Halloween:? Resurrection`"}",f,{26529},Halloween: Resurrection
