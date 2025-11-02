@@ -79,7 +79,7 @@ def add_data(name_list, default_name, is_team, is_default, version_list, display
                 return
             else:
                 version_array_string += '"{}",'.format(regex.replace('\\', '\\\\'))
-        
+
         version_array_string = version_array_string.strip(',') + '}'
         formatted_version_list.append(version_array_string)
 
@@ -107,6 +107,126 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1253, "Respect Dracula! (Netflix''s Castlevania)", 'https://www.reddit.com/r/respectthreads/comments/1olaph5/respect_dracula_netflixs_castlevania/')
+update_respectthread(cur, 1255, "Respect Sypha Belnades (Netflix''s Castlevania)", 'https://www.reddit.com/r/respectthreads/comments/1olcp80/respect_sypha_belnades_netflixs_castlevania/')
+update_respectthread(cur, 16028, "Respect Trevor Belmont! (Netflix''s Castlevania)", 'https://www.reddit.com/r/respectthreads/comments/1oldkbv/respect_trevor_belmont_netflixs_castlevania/')
+update_respectthread(cur, 2107, 'Respect the Beyonder (Marvel Comics, 616)', 'https://www.reddit.com/r/respectthreads/comments/1olwl16/respect_the_beyonder_marvel_comics_616/')
+
+
+########################################
+
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['1987']
+],
+'',
+'{2799,13507}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1om4382/the_cast_of_shrek_2_has_48_hours_and_the_full/nmn1sdv/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Android 13 (Dragon Ball Z: Super Android 13!)', 'https://www.reddit.com/r/respectthreads/comments/y6oe53/respect_android_13_dragon_ball_z_super_android_13/')
+add_data(['Androids 13, 14,?(&|and)? 15'],
+'Androids 13, 14, and 15',
+True,
+True,
+[
+    ['Dragon Ball']
+],
+'Dragon Ball',
+'{' + '{}, 22719'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1omefuj/dragon_ball_z_movie_villain_battle_royale/nmoplku/?context=3
+########################################
+
+id = get_rt_id(cur, 'Respect Maximillian (Vampire in Brooklyn)', 'https://www.reddit.com/r/respectthreads/comments/1okw8km/respect_maximillian_vampire_in_brooklyn/')
+add_data(['Maximillian'],
+'Maximillian',
+False,
+False,
+[
+    ['Vampire in Brooklyn']
+],
+'Vampire in Brooklyn',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Growlie (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1ola2ib/respect_growlie_pokemon_anime/')
+add_data(['Growlie'],
+'Growlie',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+########################################
+
+id = get_rt_id(cur, 'Respect Krypto the Superdog (DCU)', 'https://www.reddit.com/r/respectthreads/comments/1ollxku/respect_krypto_the_superdog_dcu/')
+add_data(['Krypto'],
+'Krypto',
+False,
+False,
+[
+    ['DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Superman (DCU)', 'https://www.reddit.com/r/respectthreads/comments/1ollxz3/respect_superman_dcu/')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+########################################
+
+id = get_rt_id(cur, 'Respect Deltandal (Ultraman Blazar)', 'https://www.reddit.com/r/respectthreads/comments/1olomp1/respect_deltandal_ultraman_blazar/')
+add_data(['Deltandal'],
+'Deltandal',
+False,
+False,
+[
+    ['Ultraman']
+],
+'Ultraman',
+'{' + '{}'.format(id) + '}'
+)
+#
+########################################
+
+id = get_rt_id(cur, 'Respect Alexander Power/Zero-G (Marvel Comics, Earth-5631)', 'https://www.reddit.com/r/respectthreads/comments/1olp8c7/respect_alexander_powerzerog_marvel_comics/')
+add_data(['Alexander Power'],
+'Alexander Power',
+False,
+False,
+[
+    ['5631']
+],
+'5631',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
@@ -124,7 +244,7 @@ def insert_character_name(cur, name_list, default_name, is_team):
         query = query.rstrip(",") + ";"
         cur.execute(query)
         print("Successfully inserted {} into TABLE character_name ({} rows)".format(default_name, rows_inserted))
-                
+
 def insert_character(cur, default_name, version_list, is_default, rt_id_array, displayed_version_name):
     rows_inserted = 0
     query = "INSERT INTO character (default_name, version, is_default, rt_id_array, displayed_version_name) VALUES "
@@ -134,7 +254,7 @@ def insert_character(cur, default_name, version_list, is_default, rt_id_array, d
         if num_results[0] == 0:
             query += "('{}', '{}', {}, '{}', '{}'),".format(default_name, version, is_default, rt_id_array, displayed_version_name)
             rows_inserted += 1
-    
+
     if rows_inserted != 0:
         query = query.rstrip(",") + ";"
         cur.execute(query)
