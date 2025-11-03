@@ -14,14 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='Androids? 13' WHERE name='Android 13'; --https://www.reddit.com/r/whowouldwin/comments/1omefuj/dragon_ball_z_movie_villain_battle_royale/nmoplku/?context=3
-
-########################################
-
-SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/y6oe53/respect_android_13_dragon_ball_z_super_android_13/';
-UPDATE character SET rt_id_array='{?, 22719}' WHERE default_name='Android 13';
---After run
-
 ########################################
 
 ########################################

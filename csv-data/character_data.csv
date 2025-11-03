@@ -27861,8 +27861,6 @@ Leonardo,"{TMNT,2003}",f,{22716},TMNT 2003
 Bob,"{`"Bob the Skull`"}",f,{22717},The Dresden Files
 Bob,"{`"Dresden( Files|verse)`"}",f,{22717},The Dresden Files
 Harley MacFinn,{Dresden(verse)?},t,{22718},The Dresden Files
-Android 13,"{`"Dragon ?Ball`"}",t,"{22718,22719}",Dragon Ball
-Android 13,{DB(Z|S)},t,"{22718,22719}",Dragon Ball
 Android 14,"{`"Dragon ?Ball`"}",f,{22719},Dragon Ball
 Android 14,{DB(Z|S)},f,{22719},Dragon Ball
 Android 14,"{`"Android 13`"}",f,{22719},Dragon Ball
@@ -27872,6 +27870,8 @@ Android 15,"{`"Android 13`"}",f,{22719},Dragon Ball
 Michelangelo,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22713},TMNT 2003
 Michelangelo,"{TMNT,2003}",f,{22713},TMNT 2003
 Teenaged Mutant Ninja Turtles,{2003},f,"{982,22716,22715,22714,22713}",TMNT 2003
+Android 13,"{`"Dragon ?Ball`"}",t,"{26530,22719}",Dragon Ball
+Android 13,{DB(Z|S)},t,"{26530,22719}",Dragon Ball
 Amleth,{Northman},f,{22720},The Northman
 Splinter,"{`"Teenaged? Mutant Ninja Turtles?`",2003}",f,{22721},TMNT 2003
 Splinter,"{TMNT,2003}",f,{22721},TMNT 2003
@@ -34051,3 +34051,15 @@ Zombie Namor,"{`"Marvel Zombies`",2025}",f,{26527},"Marvel Zombies, 2025"
 Zombie Namor,"{`"Marvel Zombies Show`"}",f,{26527},"Marvel Zombies, 2025"
 Mystery Inc.,{Scoob!},f,{26528},Scoob!
 Freddie Harris,"{`"Halloween:? Resurrection`"}",f,{26529},Halloween: Resurrection
+Sonic,"{`"Sonic ?\\(Games\\)`"}",f,"{8276,8277}",""
+Predator,{1987},f,"{2799,13507}",""
+"Androids 13, 14, and 15","{`"Dragon Ball`"}",t,"{26530,22719}",Dragon Ball
+Maximillian,"{`"Vampire in Brooklyn`"}",f,{26531},Vampire in Brooklyn
+Growlie,{Pok(e|é)m(o|a)n},f,{26532},Pokémon
+Krypto,{DCU},f,{26533},DCU
+Superman,{DCU},f,{26534},DCU
+Deltandal,{Ultraman},f,{26535},Ultraman
+Alexander Power,{5631},f,{26536},5631
+Lucky Luke,{comics},t,{26537},""
+Paibok,{Scrulls?},f,{26538},616
+Martian Manhunter,"{`"The Batman`",2004}",f,{26539},"The Batman, 2004-2008"
