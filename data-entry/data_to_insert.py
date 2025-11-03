@@ -115,6 +115,21 @@ update_respectthread(cur, 2107, 'Respect the Beyonder (Marvel Comics, 616)', 'ht
 
 ########################################
 
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Sonic ?\(Games\)']
+],
+'',
+'{8276,8277}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1omug0h/sonic_games_vs_tatsumaki_opm_but/
+
+
+########################################
+
 add_data(['Predator'],
 'Predator',
 False,
@@ -227,6 +242,53 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lucky Luke (Lucky Luke)', 'https://www.reddit.com/r/respectthreads/comments/1ommtv1/respect_lucky_luke_lucky_luke/')
+add_data(['Lucky Luke'],
+'Lucky Luke',
+False,
+True,
+[
+    ['comics']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Paibok, the Power Skrull (Marvel Comics, 616)', 'https://www.reddit.com/r/respectthreads/comments/1omsnt9/respect_paibok_the_power_skrull_marvel_comics_616/')
+add_data(['Paibok'],
+'Paibok',
+False,
+False,
+[
+    ['Scrulls?']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Martian Manhunter (The Batman show)', 'https://www.reddit.com/r/respectthreads/comments/1omqy9f/respect_martian_manhunter_the_batman_show/')
+add_data(['Martian Manhunter'],
+'Martian Manhunter',
+False,
+False,
+[
+    ['The Batman', '2004']
+],
+'The Batman, 2004-2008',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 
 ########################################
 
