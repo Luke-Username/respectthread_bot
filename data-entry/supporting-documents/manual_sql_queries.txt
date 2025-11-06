@@ -16,11 +16,14 @@ UPDATE character_name SET name='' WHERE...
 
 UPDATE character_name SET name='Ghost ?face' WHERE name='Ghostface';
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Butcher', 'butcher of heroes', 0); --https://www.reddit.com/r/whowouldwin/comments/1opo5ag/legolas_aragorn_and_gimli_vs_march_wormward/
+
 ########################################
 
 UPDATE character SET rt_id_array='{5480}' WHERE default_name='Soldier' AND displayed_version_name='TF2'; --After run
 
 ########################################
+
 
 ########################################
 
