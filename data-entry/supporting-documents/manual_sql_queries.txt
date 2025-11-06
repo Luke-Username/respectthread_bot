@@ -18,6 +18,8 @@ UPDATE character_name SET name='Ghost ?face' WHERE name='Ghostface';
 
 ########################################
 
+UPDATE character SET rt_id_array='{5480}' WHERE default_name='Soldier' AND displayed_version_name='TF2'; --After run
+
 ########################################
 
 ########################################

@@ -107,6 +107,11 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5480, 'Respect The Soldier (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1op4ohp/respect_the_soldier_team_fortress_2/')
+update_respectthread(cur, 1347, 'Respect Ruby Rose (RWBY)', 'https://www.reddit.com/r/respectthreads/comments/1opps19/respect_ruby_rose_rwby/')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Ro-Man Extension XJ-2 (Robot Monster)', 'https://www.reddit.com/r/respectthreads/comments/1ona6vj/respect_roman_extension_xj2_robot_monster/')
 add_data(['Ro-Man Extension XJ-?2'],
 'Ro-Man Extension XJ-2',
