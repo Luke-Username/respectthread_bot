@@ -19347,8 +19347,6 @@ Mercs,"{`"Team Fortress`"}",f,{5483},TF2
 Scout,{TF2},f,{5483},TF2
 Scout,"{`"Team Fortress`"}",f,{5483},TF2
 Scout,{Tracer},f,{5483},TF2
-Soldier,{TF2},f,{5483},TF2
-Soldier,"{`"Team Fortress`"}",f,{5483},TF2
 Engineer,{TF2},f,{5483},TF2
 Engineer,"{`"Team Fortress`"}",f,{5483},TF2
 Demoman,{TF2},t,{5483},TF2
@@ -19379,6 +19377,8 @@ Pyro,{TF2},f,{5477},TF2
 Pyro,"{`"Team Fortress`"}",f,{5477},TF2
 Spy,{TF2},f,{26517},TF2
 Spy,"{`"Team Fortress`"}",f,{26517},TF2
+Soldier,{TF2},f,{5480},TF2
+Soldier,"{`"Team Fortress`"}",f,{5480},TF2
 True Ogre,{Tekken},t,{5493},Tekken
 Ogre,{Tekken},f,{5493},Tekken
 Duke Fishron,{Terraria},t,{5494},Terraria
@@ -34063,3 +34063,14 @@ Alexander Power,{5631},f,{26536},5631
 Lucky Luke,{comics},t,{26537},""
 Paibok,{Scrulls?},f,{26538},616
 Martian Manhunter,"{`"The Batman`",2004}",f,{26539},"The Batman, 2004-2008"
+Ro-Man Extension XJ-2,"{`"Robot Monster`"}",t,{26540},Robot Monster
+James's Treasure Chest,{Pok(e|é)m(o|a)n},f,{26541},Pokémon
+Billy Russo,{616},t,{26543},616
+Jigsaw,"{`"Jigsaw ?\\(Marvel\\)`"}",f,{26543},616
+Billy Russo,{MCU},f,{},MCU
+Billy Russo,{Netflix},f,{},MCU
+RoboCop,"{`"RoboCop ?\\(Marvel ?(Comics)?\\)`"}",f,{26544},Marvel
+Atalon,{Ultraverse},f,{26545},Ultraverse
+Prince Edmund,"{`"Black ?adder`"}",f,{26546},Blackadder
+Ghostface,{Fortnite},f,{26546},Fortnite
+Final Peel,{Fortnite},f,{26547},Fortnite
