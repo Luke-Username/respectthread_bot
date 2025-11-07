@@ -107,6 +107,62 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Sand(-| )?man'],
+'Sandman',
+False,
+False,
+[
+    ['Electro', 'Doc Ock', 'Green Goblin', 'Lizard']
+],
+'616',
+'{2271}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1opzg8y/green_goblin_doc_ock_electro_sandman_and_the/nnf2n7n/?context=3
+
+########################################
+
+add_data(['Lizard'],
+'Lizard',
+False,
+False,
+[
+    ['Electro', 'Doc Ock', 'Green Goblin', 'Sand(-| )?man']
+],
+'616',
+'{2291}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1opzg8y/green_goblin_doc_ock_electro_sandman_and_the/nnf2n7n/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Ivan Tyrants (Resident Evil: Umbrella Chronicles)', 'https://www.reddit.com/r/respectthreads/comments/1oq0wu6/respect_the_ivan_tyrants_resident_evil_umbrella/')
+add_data(['Ivan Tyrants'],
+'Ivan Tyrants',
+False,
+False,
+[
+    ['Umbrella Chronicles']
+],
+'Resident Evil: Umbrella Chronicles',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Moka Akashiya (Rosario + Vampire)', 'https://www.reddit.com/r/respectthreads/comments/1oqluh6/respect_moka_akashiya_rosario_vampire/')
+add_data(['Moka Akashiya'],
+'Moka Akashiya',
+False,
+True,
+[
+    ['Rosario|Vampire']
+],
+'Rosario + Vampire',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
