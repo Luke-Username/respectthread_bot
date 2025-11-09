@@ -121,6 +121,20 @@ False,
 
 ########################################
 
+add_data(['Black ?Panther'],
+'Black Panther',
+False,
+False,
+[
+    ['Wakanda']
+],
+'616',
+'{2019}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1osqb29/master_chief_vs_black_panther/
+
+########################################
+
 add_data(['Lizard'],
 'Lizard',
 False,
