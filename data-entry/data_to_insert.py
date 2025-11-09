@@ -165,6 +165,51 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Swamp Thing (Swamp Thing, 1991 cartoon)', 'https://www.reddit.com/r/respectthreads/comments/1or2n1o/respect_swamp_thing_swamp_thing_1991_cartoon/')
+add_data(['Swamp Thing'],
+'Swamp Thing',
+False,
+False,
+[
+    ['1991 (cartoon|show)']
+],
+'1991 cartoon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Sinnoh Robo Diglett (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1ortsr8/respect_the_sinnoh_robo_diglett_pokemon_anime/')
+add_data(['Robo Diglett'],
+'Robo Diglett',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Fantina (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1oslepj/respect_fantina_pokemon_anime/')
+add_data(['Fantina'],
+'Fantina',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/8xzyr6/infinity_war_avengers_vs_bloodlusted_pok%C3%A9mon_gym/
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
