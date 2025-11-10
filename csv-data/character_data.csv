@@ -321,7 +321,6 @@ Weather Wizard,"{Flash,TV}",f,{27},CW Arrowverse
 Korath The Pursuer,"{`"Guardians of the Galaxy`"}",f,{249},MCU
 Jaws,"{`"Jaws 2`"}",f,{20627},""
 Korath The Pursuer,{GOTG},f,{249},MCU
-Lockjaw,"{`"Marvel Cinematic`"}",f,{253},MCU
 Thunder,"{`"Black Lightning`",Television}",f,{80},Black Lightning TV Series
 Anissa Pierce,"{`"Black Lightning`",Television}",f,{80},Black Lightning TV Series
 Black Bolt,{Television},f,{65},Inhumans/MCU
@@ -380,6 +379,7 @@ John,{POI},f,{98},Person of Interest
 Reese,"{`"Person of Interest`"}",f,{98},Person of Interest
 Reese,{POI},f,{98},Person of Interest
 Elektra,{MCU},f,{1291},MCU
+Lockjaw,"{`"Marvel Cinematic`"}",f,{253},MCU
 Sameen,"{`"Person of Interest`"}",f,{98},Person of Interest
 Sameen,{POI},f,{98},Person of Interest
 Shaw,"{`"Person of Interest`"}",f,{98},Person of Interest
@@ -815,7 +815,6 @@ Godzilla,"{`"Final Wars`"}",f,{183},Millennium Era
 Godzilla,{2016},f,{184},Shin Godzilla
 Godzilla,{Shin},f,{184},Shin Godzilla
 Shin Godzilla,{2016},t,{184},2016
-Lockjaw,{MCU},f,{253},MCU
 Monster Warrior Godzilla,{Comic},t,{4772},""
 Godzilla,{Pipeworks},f,{6495},Pipeworks games
 Godzilla,{Marvel},f,{1935},Marvel
@@ -840,6 +839,7 @@ Deathstrike,"{`"X(-| )?Men (movie|film)s?`"}",f,{162},FOX
 Zilla,{1998},f,{14373},1998
 Godzilla,{1998},f,{14373},1998
 Guiron,"{`"Gamera vs\\.? Guiron`"}",f,{165},Gamera vs Guiron
+Lockjaw,{MCU},f,{253},MCU
 King Kong,"{`"King Kong vs. Godzilla`"}",f,{192},Godzilla
 King Kong,{KKvG},f,{192},Godzilla
 King Kong,"{`"King Kong Escapes`"}",f,{192},Godzilla
@@ -847,8 +847,6 @@ King Kong,{KKE},f,{192},Godzilla
 King Kong,"{`"Gold Key`"}",f,{2766},Gold Key/Monster Comics
 King Kong,"{`"Monster Comics`"}",f,{2766},Gold Key/Monster Comics
 King Kong,{Animated},f,{1060},Kong: The Animated Series
-Lockjaw,{199999},f,{253},MCU
-Lockjaw,{Inhumans},f,{253},MCU
 Miek,"{`"Marvel Cinematic`"}",f,{250},MCU
 Miek,{MCU},f,{250},MCU
 Mothra,{1964},f,{207},Showa
@@ -911,6 +909,7 @@ Mechagodzilla,{Heisei},f,{196},Heisei Era
 Mechagodzilla,{1993},f,{196},Heisei Era
 Mechagodzilla II,{Heisei},t,{196},Heisei Era
 Godzilla,{1954},t,{180},1954
+Lockjaw,{199999},f,{253},MCU
 Mechagodzilla II,{1993},t,{196},Heisei Era
 Mechagodzilla,"{`"Ready Player One`"}",f,{291},Ready Player One
 Mechagodzilla,{RPO},f,{291},Ready Player One
@@ -6821,10 +6820,6 @@ Karnak,{Inhumans?},f,{2169},616
 Karnak,{Shatterer},f,{2169},616
 Lash,"{`"Lash \\(616`"}",f,{2170},616
 Lash,{Inhumans?},f,{2170},616
-Lockjaw,{616},t,{2171},616
-Lockjaw,{Marvel},t,{2171},616
-Lockjaw,{Inhumans?},t,{2171},616
-Lockjaw,{Krypto},t,{2171},616
 Moon Girl,{616},t,{2172},616
 Moon Girl,{Marvel},t,{2172},616
 Moon Girl,{Inhumans?},t,{2172},616
@@ -6895,6 +6890,7 @@ Nagisa,{Madoka},f,{4430},Madoka Magica
 Nagisa Momoe,{Madoka},t,{4430},Madoka Magica
 Oriko Mikuni,{Madoka},t,{4431},Madoka Magica
 Pain,{Deva},f,{3964},Naruto
+Lockjaw,{Krypto},f,{2171},616
 Superman,{Miller-?verse},f,{1790},Millerverse
 Superman,"{`"Frank Miller`"}",f,{1790},Millerverse
 Superman One Million,{PC},t,{1791},""
@@ -33493,6 +33489,7 @@ Lar-On,"{`"Pre(-| )?Crisis`"}",f,{26168},Pre-Crisis
 "Batman, the Were-Bat","{`"DC Comics`"}",t,{26170},DC
 "Batman, the Were-Bat","{`"Pre(-| )?Crisis`"}",f,{26170},Pre-Crisis
 Giran,{Tien},f,"{14825,26171}",Dragon Ball
+Lockjaw,{616},f,{2171},616
 Giran,{Goku},f,"{14825,26171}",Dragon Ball
 Nolan Grayson,{Invincible},t,"{1962,16453}",Invincible
 Bastila Shan,"{`"S(tar )?Wars`"}",t,{26172},Star Wars
@@ -33811,6 +33808,7 @@ Bjorn Grimmson,{Ordeal},t,{26379},Ordeal
 Masato Mishima,"{`"Kamen Rider`"}",f,{26380},Kamen Rider
 Gryllus Worm,"{`"Kamen Rider`"}",f,{26380},Kamen Rider
 Brent Halligan,"{`"Mystery of the Druids`"}",t,{26381},The Mystery of the Druids
+Lockjaw,{Marvel},f,{2171},616
 Martians,"{`"War of the Worlds`",`"Radio (Drama|Broadcast)`"}",f,{26382},War of the Worlds Radio Drama
 Martians,"{`"War of the Worlds`",1938,Radio}",f,{26382},War of the Worlds Radio Drama
 Boba Fett,"{`"Star Wars:? 1313`"}",f,{26383},Star Wars: 1313
@@ -34074,3 +34072,18 @@ Atalon,{Ultraverse},f,{26545},Ultraverse
 Prince Edmund,"{`"Black ?adder`"}",f,{26546},Blackadder
 Ghostface,{Fortnite},f,{26546},Fortnite
 Final Peel,{Fortnite},f,{26547},Fortnite
+Lockjaw,{Inhumans},f,{253},MCU
+Lockjaw,{Inhumans?},f,{2171},616
+Frankenstein's Monster,"{`"Guillermo del Toro`"}",f,{},Guillermo del Toro
+Frankenstein's Monster,"{`"GDT Frankensteins?`"}",f,{},Guillermo del Toro
+Sandman,"{Electro,`"Doc Ock`",`"Green Goblin`",Lizard}",f,{2271},616
+Black Panther,{Wakanda},f,{2019},616
+Lizard,"{Electro,`"Doc Ock`",`"Green Goblin`",`"Sand(-| )?man`"}",f,{2291},616
+Ivan Tyrants,"{`"Umbrella Chronicles`"}",f,{26548},Resident Evil: Umbrella Chronicles
+Moka Akashiya,{Rosario|Vampire},t,{26549},Rosario + Vampire
+Swamp Thing,"{`"1991 (cartoon|show)`"}",f,{26550},1991 cartoon
+Robo Diglett,{Pok(e|é)m(o|a)n},t,{26551},Pokémon
+Fantina,{Pok(e|é)m(o|a)n},f,{26552},Pokémon
+Mickey Mouse,"{`"X(-| )Mickey`"}",f,{26553},X-Mickey
+Pipwolf,"{`"X(-| )Mickey`"}",f,{26553},X-Mickey
+Manny Mouse,"{`"X(-| )Mickey`"}",f,{26554},X-Mickey
