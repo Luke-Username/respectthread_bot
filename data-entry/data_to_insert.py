@@ -107,6 +107,20 @@ cur = con.cursor()
 
 ########################################
 
+add_data(["Frankenstein''?s Monster"],
+"Frankenstein''s Monster",
+False,
+False,
+[
+    ['Guillermo del Toro'], ['GDT Frankensteins?']
+],
+'Guillermo del Toro',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1ot4d6g/gdt_frankensteins_monster_vs_homelander/no1zpzr/?context=3
+
+########################################
+
 add_data(['Sand(-| )?man'],
 'Sandman',
 False,
@@ -221,6 +235,48 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/8xzyr6/infinity_war_avengers_vs_bloodlusted_pok%C3%A9mon_gym/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mickey Mouse & Pipwolf (X-Mickey)', 'https://www.reddit.com/r/respectthreads/comments/1ot6uqx/respect_mickey_mouse_pipwolf_xmickey/')
+add_data(['Mickey Mouse'],
+'Mickey Mouse',
+False,
+False,
+[
+    ['X(-| )Mickey']
+],
+'X-Mickey',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Pipwolf'],
+'Pipwolf',
+False,
+False,
+[
+    ['X(-| )Mickey']
+],
+'X-Mickey',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Manny Mouse (X-Mickey)', 'https://www.reddit.com/r/respectthreads/comments/1ot72yr/respect_manny_mouse_xmickey/')
+add_data(['Manny Mouse'],
+'Manny Mouse',
+False,
+False,
+[
+    ['X(-| )Mickey']
+],
+'X-Mickey',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
