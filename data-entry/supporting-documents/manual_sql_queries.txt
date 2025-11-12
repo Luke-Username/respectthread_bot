@@ -16,6 +16,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Punisher', 'K12 "Punisher"', -5); --https://www.reddit.com/r/whowouldwin/comments/1ourwmq/odst_wave_defense_halo_vs_multi/nodsrk7/?context=3
 
 ########################################
 

@@ -107,7 +107,49 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, "Respect James''s Mime Jr. (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1otemyk/respect_jamess_mime_jr_pokemon_anime/')
+add_data(['Mime Jr'],
+'Mime Jr.',
+False,
+False,
+[
+    ['James']
+],
+'James',
+'{' + '{}'.format(id) + '}'
+)
+#
 
+########################################
+
+id = get_rt_id(cur, 'Respect Superman (Solid JJ)', 'https://www.reddit.com/r/respectthreads/comments/1otexii/respect_superman_solid_jj/')
+add_data(['Super(-| )?man'],
+'Superman',
+False,
+False,
+[
+    ['Solid JJ']
+],
+'Solid JJ',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sonic the Hedgehog! (DC x Sonic the Hedgehog)', 'https://www.reddit.com/r/respectthreads/comments/1ouocr8/respect_sonic_the_hedgehog_dc_x_sonic_the_hedgehog/')
+add_data(['Sonic the Hedgehog'],
+'Sonic the Hedgehog',
+False,
+False,
+[
+    ['Sonic.*DC x Sonic the Hedgehog']
+],
+'DC x Sonic the Hedgehog',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
