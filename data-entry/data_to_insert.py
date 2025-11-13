@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 914, 'Respect Dennis the Assassin! (Spongebob Squarepants)', 'https://www.reddit.com/r/respectthreads/comments/1ovfl1q/respect_dennis_the_assassin_spongebob_squarepants/')
+
+########################################
+
 id = get_rt_id(cur, "Respect James''s Mime Jr. (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1otemyk/respect_jamess_mime_jr_pokemon_anime/')
 add_data(['Mime Jr'],
 'Mime Jr.',
@@ -150,6 +154,92 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bigfoot (Exists, 2014)', 'https://www.reddit.com/r/respectthreads/comments/1ov5kpf/respect_bigfoot_exists_2014/')
+add_data(['Bigfoot'],
+'Bigfoot',
+False,
+False,
+[
+    ['Exists', '2014']
+],
+'Exists, 2014',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Brock''s Happiny (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1ov88kb/respect_brocks_happiny_pokemon_anime/')
+add_data(['Happiny'],
+'Happiny',
+False,
+False,
+[
+    ['Brock']
+],
+'Brock',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Chansey'],
+'Chansey',
+False,
+False,
+[
+    ['Brock']
+],
+'Brock',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Blissey'],
+'Blissey',
+False,
+False,
+[
+    ['Brock']
+],
+'Brock',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gororin (Godzilla Island)', 'https://www.reddit.com/r/respectthreads/comments/1ovl22i/respect_gororin_godzilla_island/')
+add_data(['Gororin'],
+'Gororin',
+False,
+False,
+[
+    ['Godzilla']
+],
+'Godzilla Island',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tzekel-Kan! (The Road to El Dorado)', 'https://www.reddit.com/r/respectthreads/comments/1ovj1ln/respect_tzekelkan_the_road_to_el_dorado/')
+add_data(['Tzekel(-| )Kan'],
+'Tzekel-Kan',
+False,
+False,
+[
+    ['El Dorado']
+],
+'The Road to El Dorado',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 
 ########################################
 
