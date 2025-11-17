@@ -14,7 +14,13 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character WHERE default_name='Buneary' AND rt_id_array='{4187}';
+DELETE FROM character WHERE default_name='Pachirisu' AND rt_id_array='{4187}';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Robert Reynolds, the Sentry! (The MCU)', 'https://www.reddit.com/r/respectthreads/comments/1oxxqel/respect_robert_reynolds_the_sentry_the_mcu/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1oxxqel/respect_robert_reynolds_the_sentry_the_mcu/';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Sentry' AND displayed_version_name='MCU';
 
 ########################################
 

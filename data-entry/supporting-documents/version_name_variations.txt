@@ -3717,6 +3717,12 @@ Underdog
 
 (V)
 
+Valiant Entertainment
+	Version
+		['Valiant (Entertainment|Comics)']
+	Displayed Version Name
+		"Valiant Entertainment"
+
 The Vampire Diaries
 	Version
 		['Vampire Diaries']

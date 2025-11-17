@@ -107,6 +107,128 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13524, "Respect Dawn''s Quilava (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1oynlz9/respect_dawns_quilava_pokemon_anime/')
+
+########################################
+
+add_data(['Thor'],
+'Thor',
+False,
+False,
+[
+    ['Wally West', 'vs Thor']
+],
+'616',
+'{1981,21155}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1oxz16d/wally_west_vs_thor/
+
+########################################
+
+id = get_rt_id(cur, "Respect Dawn''s Buneary (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1owxdsx/respect_dawns_buneary_pokemon_anime/')
+add_data(['Buneary'],
+'Buneary',
+False,
+True,
+[
+    ['Dawn'], ['Pok(e|é)m(o|a)n']
+],
+'Dawn',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Dawn''s Pachirisu (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1oxsfhd/respect_dawns_pachirisu_pokemon_anime/')
+add_data(['Pachirisu'],
+'Pachirisu',
+False,
+True,
+[
+    ['Dawn'], ['Pok(e|é)m(o|a)n']
+],
+'Dawn',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Inframan (Infra-Man)', 'https://www.reddit.com/r/respectthreads/comments/1oxxkf2/respect_inframan_inframan/')
+add_data(['Infra(-| )?Man'],
+'Infra-Man',
+False,
+True,
+[
+    ['1975']
+],
+'1975',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/84lnef/inframan_vs_pumaman/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Elvis Presley (Bubba Ho-Tep)', 'https://www.reddit.com/r/respectthreads/comments/1oxxkg2/respect_elvis_presley_bubba_hotep/')
+add_data(['Elvis Presley'],
+'Elvis Presley',
+False,
+False,
+[
+    ['Bubba Ho(-| )?Tep']
+],
+'Bubba Ho-Tep',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Punk Mambo (Valiant Entertainment)', 'https://www.reddit.com/r/respectthreads/comments/1oxxkhf/respect_punk_mambo_valiant_entertainment/')
+add_data(['Punk Mambo'],
+'Punk Mambo',
+False,
+True,
+[
+    ['Valiant|comics?']
+],
+'Valiant Entertainment',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bob Markovic, Vector (Gone)', 'https://www.reddit.com/r/respectthreads/comments/1oz7jqs/respect_bob_markovic_vector_gone/')
+add_data(['Vector'],
+'Vector',
+False,
+False,
+[
+    ['Vector ?\(Gone\)']
+],
+'Gone',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Ultra M! (Mario''s Madness)", 'https://www.reddit.com/r/respectthreads/comments/1ozcaky/respect_ultra_m_marios_madness/')
+add_data(['Ultra M'],
+'Ultra M',
+False,
+False,
+[
+    ["Mario''?s? Madness"]
+],
+"Mario''s Madness",
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
