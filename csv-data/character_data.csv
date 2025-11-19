@@ -18501,8 +18501,6 @@ Unfezant,{Pok(e|é)mon},t,{4186},Pokémon
 Tranquill,{Pok(e|é)mon},t,{4186},Pokémon
 Pidove,{Pok(e|é)mon},t,{4186},Pokémon
 Dawn,{Pok(e|é)mon},f,{4187},Pokémon
-Buneary,{Pok(e|é)mon},t,{4187},Pokémon
-Pachirisu,{Pok(e|é)mon},t,{4187},Pokémon
 Quilava,{Dawn},f,{13524},Dawn
 Cyndaquil,{Dawn},f,{13524},Dawn
 Togekiss,{Pok(e|é)mon},t,{13525},Pokémon
@@ -33710,8 +33708,6 @@ Flexo,{616},f,{26304},616
 Flexo,{Symbiote},f,{26304},616
 Durge,"{`"Clone Wars`"}",f,{920},Star Wars
 Dragonborn,"{Durge,`"Baldur'?s Gate`"}",f,{},Baldur's Gate
-Sentry,"{`"Marvel Cinematic Universe`"}",f,{},MCU
-Sentry,{MCU},f,{},MCU
 Hattori Hanzo,"{`"Dinosaur King`"}",f,{26306},Dinosaur King
 Pentaceratops,"{`"Dinosaur King`"}",f,{26307},Dinosaur King
 Deinonychus,"{`"Dinosaur King`"}",f,{26308},Dinosaur King
@@ -34096,3 +34092,21 @@ Chansey,{Brock},f,{26559},Brock
 Blissey,{Brock},f,{26559},Brock
 Gororin,{Godzilla},f,{26560},Godzilla Island
 Tzekel-Kan,"{`"El Dorado`"}",f,{26561},The Road to El Dorado
+Sentry,"{`"Marvel Cinematic Universe`"}",f,{26562},MCU
+Sentry,{MCU},f,{26562},MCU
+Thor,"{`"Wally West`",`"vs Thor`"}",f,"{1981,21155}",616
+Buneary,{Dawn},t,{26563},Dawn
+Buneary,{Pok(e|é)m(o|a)n},t,{26563},Dawn
+Pachirisu,{Dawn},t,{26564},Dawn
+Pachirisu,{Pok(e|é)m(o|a)n},t,{26564},Dawn
+Infra-Man,{1975},t,{26565},1975
+Elvis Presley,"{`"Bubba Ho(-| )?Tep`"}",f,{26566},Bubba Ho-Tep
+Punk Mambo,{Valiant|comics?},t,{26567},Valiant Entertainment
+Vector,"{`"Vector ?\\(Gone\\)`"}",f,{26568},Gone
+Ultra M,"{`"Mario'?s? Madness`"}",f,{26569},Mario's Madness
+Bat-Mite,"{`"DC Comics?`"}",t,{26570},DC
+Bat-Mite,{Mxy(zptlk)?},t,{26570},DC
+Strahd Von Zarovich,"{`"Dungeons (&|and) Dragons`"}",t,{26571},Dungeons & Dragons
+Strahd Von Zarovich,"{`"D ?(&|n) ?D`"}",t,{26571},Dungeons & Dragons
+Sudowoodo,{Brocks?},f,{26572},Brock
+Croagunk,{Brocks?},f,{26573},Brock
