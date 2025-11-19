@@ -232,6 +232,67 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Bat-Mite (DC Comics, Post-Crisis)', 'https://www.reddit.com/r/respectthreads/comments/1ozqu4x/respect_batmite_dc_comics_postcrisis/')
+add_data(['Bat(-| )?Mite'],
+'Bat-Mite',
+False,
+True,
+[
+    ['DC Comics?'], ['Mxy(zptlk)?']
+],
+"DC",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Strahd Von Zarovich (Dungeons&Dragons)', 'https://www.reddit.com/r/respectthreads/comments/1ozzqfq/respect_strahd_von_zarovich_dungeonsdragons/')
+add_data(['Strahd Von Zarovich'],
+'Strahd Von Zarovich',
+False,
+True,
+[
+    ['Dungeons (&|and) Dragons'], ['D ?(&|n) ?D']
+],
+'Dungeons & Dragons',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Brock''s Sudowoodo (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1p0cpp6/respect_brocks_sudowoodo_pokemon_anime/')
+add_data(['Sudowoodo'],
+'Sudowoodo',
+False,
+False,
+[
+    ['Brocks?']
+],
+'Brock',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Brock''s Croagunk (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1p18irk/respect_brocks_croagunk_pokemon_anime/')
+add_data(['Croagunk'],
+'Croagunk',
+False,
+False,
+[
+    ['Brocks?']
+],
+'Brock',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
