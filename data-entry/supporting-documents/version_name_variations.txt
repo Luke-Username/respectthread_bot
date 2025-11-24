@@ -1195,6 +1195,14 @@ Gadget and the Gadgetinis
 	Displayed Version Name
 		"Gadget and the Gadgetinis"
 
+Game of Thrones
+	Version
+		['Game of Thrones'], ['Song of Ice'], ['ASOIAF']
+	Acronyms
+		['GOT']
+	Displayed Version Name
+		"Game of Thrones"
+
 Garfield
 	Version
 		'{"Garfield"}'

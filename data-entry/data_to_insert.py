@@ -107,6 +107,96 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 13542, 'Respect Merasmus (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1p2isg3/respect_merasmus_team_fortress_2/')
+update_respectthread(cur, 8111, 'Respect Darkseid (DC Animated Universe)', 'https://www.reddit.com/r/respectthreads/comments/1p4zvkg/respect_darkseid_dc_animated_universe/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thundercracker (Transformers, IDW Comics [2005])', 'https://www.reddit.com/r/respectthreads/comments/1p2cb0l/respect_thundercracker_transformers_idw_comics/')
+add_data(['Thundercracker'],
+'Thundercracker',
+False,
+False,
+[
+    ['IDW']
+],
+'IDW',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lancelot (Night at The Museum)', 'https://www.reddit.com/r/respectthreads/comments/1p2jp7l/respect_lancelot_night_at_the_museum/')
+add_data(['Lancelot'],
+'Lancelot',
+False,
+False,
+[
+    ['Night at The Museum']
+],
+'Night at The Museum',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Duncan the Tall! (A Song Of Ice And Fire)', 'https://www.reddit.com/r/respectthreads/comments/1p3azsv/respect_duncan_the_tall_a_song_of_ice_and_fire/')
+add_data(['Duncan the Tall'],
+'Duncan the Tall',
+False,
+True,
+[
+    ['Song Of Ice']
+],
+'A Song Of Ice And Fire',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Dawn''s Piplup (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1p4rd8e/respect_dawns_piplup_pokemon_anime/')
+add_data(['Piplup'],
+'Piplup',
+False,
+False,
+[
+    ['Dawn']
+],
+'Dawn',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/respectthreads/comments/6ra7ff/respect_piplup_pokemon_anime/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lana Lang, Superwoman (DC Comics, Post-Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1p4yd6p/respect_lana_lang_superwoman_dc_comics/')
+add_data(['Lana Lang'],
+'Lana Lang',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Lana Lang'],
+'Lana Lang',
+False,
+True,
+[
+    ['DC Comics?']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
