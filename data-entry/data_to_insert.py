@@ -109,6 +109,7 @@ cur = con.cursor()
 
 update_respectthread(cur, 13542, 'Respect Merasmus (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1p2isg3/respect_merasmus_team_fortress_2/')
 update_respectthread(cur, 8111, 'Respect Darkseid (DC Animated Universe)', 'https://www.reddit.com/r/respectthreads/comments/1p4zvkg/respect_darkseid_dc_animated_universe/')
+update_respectthread(cur, 4187, 'Respect Dawn (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/728jj0/respect_dawn_pokemon_anime/')
 
 ########################################
 
@@ -193,6 +194,210 @@ True,
     ['DC Comics?']
 ],
 'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Nox Eternis A.K.A The Shadow Plague (Plague Inc.)', 'https://www.reddit.com/r/respectthreads/comments/1p1pux0/respect_the_nox_eternis_aka_the_shadow_plague/')
+add_data(['Nox Eternis'],
+'Nox Eternis',
+False,
+True,
+[
+    ['Plague Inc']
+],
+'Plague Inc.',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Shadow Plague'],
+'Shadow Plague',
+False,
+False,
+[
+    ['Plague Inc']
+],
+'Plague Inc.',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Aaron Tide (The Boxer)', 'https://www.reddit.com/r/respectthreads/comments/1p591yv/respect_aaron_tide_the_boxer/')
+add_data(['Aaron Tide'],
+'Aaron Tide',
+False,
+True,
+[
+    ['Boxer']
+],
+'The Boxer',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yu (The Boxer)', 'https://www.reddit.com/r/respectthreads/comments/1p59ujx/respect_yu_the_boxer/')
+add_data(['Yu'],
+'Yu',
+False,
+False,
+[
+    ['Yu.*The Boxer'], ['Aaron Tide']
+],
+'The Boxer',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Felix (Armor)', 'https://www.reddit.com/r/respectthreads/comments/1p5a33o/respect_felix_armor/')
+add_data(['Felix'],
+'Felix',
+False,
+False,
+[
+    ['Felix ?\(Armor\)']
+],
+'Armor',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Victor Crowley (Hatchet comics)', 'https://www.reddit.com/r/respectthreads/comments/1p5ior6/respect_victor_crowley_hatchet_comics/')
+add_data(['Victor Crowley'],
+'Victor Crowley',
+False,
+False,
+[
+    ['Hatchet', 'comics']
+],
+'Hatchet comics',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wonder Woman (The New Adventures of Wonder Woman)', 'https://www.reddit.com/r/respectthreads/comments/1p5pad6/respect_wonder_woman_the_new_adventures_of_wonder/')
+add_data(['Wonder ?Woman'],
+'Wonder Woman',
+False,
+False,
+[
+    ['New Adventures of Wonder Woman']
+],
+'The New Adventures of Wonder Woman',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Buffy Summers! (Buffy the Vampire Slayer: The Animated Series)', 'https://www.reddit.com/r/respectthreads/comments/1p60kyi/respect_buffy_summers_buffy_the_vampire_slayer/')
+add_data(['Buffy Summers'],
+'Buffy Summers',
+False,
+False,
+[
+    ['Buffy the Vampire Slayer.*Animated Series']
+],
+'Buffy the Vampire Slayer: The Animated Series',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect James''s Carnivine (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1p78hvv/respect_jamess_carnivine_pokemon_anime/')
+add_data(['Carnivine'],
+'Carnivine',
+False,
+False,
+[
+    ['James']
+],
+'James',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Karre and Am (Star Wars: Visions - The Twins)', 'https://www.reddit.com/r/respectthreads/comments/1p6majq/respect_karre_and_am_star_wars_visions_the_twins/')
+add_data(['Karre'],
+'Karre',
+False,
+False,
+[
+    ['Star Wars', 'Visions']
+],
+'Star Wars: Visions',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Am'],
+'Am',
+False,
+False,
+[
+    ['Star Wars', 'Visions|Karre']
+],
+'Star Wars: Visions',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/q5hnzz/who_is_the_strongest_star_wars_character_am/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Master of Puppets (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1p6sc8c/respect_the_master_of_puppets_fortnite/')
+add_data(['Master of Puppets'],
+'Master of Puppets',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Metallica! (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1p6sc92/respect_metallica_fortnite/')
+add_data(['Metallica'],
+'Metallica',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Red Duke! (Warhammer Fantasy)', 'https://www.reddit.com/r/respectthreads/comments/1p72fy4/respect_the_red_duke_warhammer_fantasy/')
+add_data(['Red Duke'],
+'Red Duke',
+False,
+False,
+[
+    ['(WH)?40K'], ['Warhammer']
+],
+'Warhammer 40k',
 '{' + '{}'.format(id) + '}'
 )
 #
