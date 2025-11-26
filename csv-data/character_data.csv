@@ -23892,7 +23892,6 @@ Weasel,"{`"Weasel ?\\(DC`"}",f,{20338},DC
 Hat,"{`"Hat ?\\(DC`"}",f,{20339},Post-Crisis
 Hat,"{`"Hat ?\\(Posts?(-| )?C(risis)?`"}",f,{20339},Post-Crisis
 Hat,"{`"Manchester Black`"}",f,{20339},Post-Crisis
-Hat,"{`"The Elite`"}",f,{20339},Post-Crisis
 Javelin,"{`"Javelin ?\\(DC`"}",f,{20340},DC
 Javelin,"{`"Javelin ?\\(Posts?(-| )?C(risis)?`"}",f,{20340},DC
 Mother Box,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{20342},DC
@@ -34110,3 +34109,25 @@ Strahd Von Zarovich,"{`"Dungeons (&|and) Dragons`"}",t,{26571},Dungeons & Dragon
 Strahd Von Zarovich,"{`"D ?(&|n) ?D`"}",t,{26571},Dungeons & Dragons
 Sudowoodo,{Brocks?},f,{26572},Brock
 Croagunk,{Brocks?},f,{26573},Brock
+Thundercracker,{IDW},f,{26574},IDW
+Lancelot,"{`"Night at The Museum`"}",f,{26575},Night at The Museum
+Duncan the Tall,"{`"Song Of Ice`"}",t,{26576},A Song Of Ice And Fire
+Piplup,{Dawn},f,{26577},Dawn
+Lana Lang,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26578},Post-Flashpoint
+Lana Lang,"{`"DC Comics?`"}",t,{26578},DC
+Nox Eternis,"{`"Plague Inc`"}",t,{26579},Plague Inc.
+Shadow Plague,"{`"Plague Inc`"}",f,{26579},Plague Inc.
+Aaron Tide,{Boxer},t,{26580},The Boxer
+Yu,"{`"Yu.*The Boxer`"}",f,{26581},The Boxer
+Yu,"{`"Aaron Tide`"}",f,{26581},The Boxer
+Felix,"{`"Felix ?\\(Armor\\)`"}",f,{26582},Armor
+Victor Crowley,"{Hatchet,comics}",f,{26583},Hatchet comics
+Wonder Woman,"{`"New Adventures of Wonder Woman`"}",f,{26584},The New Adventures of Wonder Woman
+Buffy Summers,"{`"Buffy the Vampire Slayer.*Animated Series`"}",f,{26585},Buffy the Vampire Slayer: The Animated Series
+Carnivine,{James},f,{26586},James
+Karre,"{`"Star Wars`",Visions}",f,{26587},Star Wars: Visions
+Am,"{`"Star Wars`",Visions|Karre}",f,{26587},Star Wars: Visions
+Master of Puppets,{Fortnite},f,{26588},Fortnite
+Metallica,{Fortnite},f,{26589},Fortnite
+Red Duke,{(WH)?40K},f,{26590},Warhammer 40k
+Red Duke,{Warhammer},f,{26590},Warhammer 40k

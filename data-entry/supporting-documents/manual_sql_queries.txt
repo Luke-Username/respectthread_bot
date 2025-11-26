@@ -14,11 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET default_name='Zod' WHERE name='Zod';
-
 ########################################
-
-DELETE FROM character WHERE default_name='Hat' AND version='{"The Elite"}';
 
 ########################################
 
