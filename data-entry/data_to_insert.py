@@ -107,6 +107,417 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 7523, 'Respect Kalibak (DC Animated Universe)', 'https://www.reddit.com/r/respectthreads/comments/1p9cccu/respect_kalibak_dc_animated_universe/')
+
+########################################
+
+add_data(['Reze'],
+'Reze',
+False,
+False,
+[
+    ['Bakugo', 'vs\.? Reze']
+],
+'Chainsaw Man',
+'{15327}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1p83cgc/bakugo_vs_reze/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sully (Monsters, Inc.)', 'https://redd.it/d2kwip')
+add_data(['Sully'],
+'Sully',
+False,
+False,
+[
+    ['Monsters,? Inc']
+],
+'Monsters, Inc.',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Megatron (Marvel 616)', 'https://www.reddit.com/r/respectthreads/comments/1p9vis9/respect_megatron_marvel_616/')
+add_data(['Megatron'],
+'Megatron',
+False,
+False,
+[
+    ['Megatron ?\((Marvel )?616\)']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Samurai Destroyer (Marvel 616)', 'https://www.reddit.com/r/respectthreads/comments/1p9vioe/respect_the_samurai_destroyer_marvel_616/')
+add_data(['Samurai Destroyer'],
+'Samurai Destroyer',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Shogun Warriors (Marvel 616)', 'https://www.reddit.com/r/respectthreads/comments/1p9v91u/respect_the_shogun_warriors_marvel_616/')
+add_data(['Shogun Warriors'],
+'Shogun Warriors',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jay Waringcrane (Cleveland Quixotic)', 'https://www.reddit.com/r/respectthreads/comments/1p858go/respect_jay_waringcrane_cleveland_quixotic/')
+add_data(['Jay Waringcrane'],
+'Jay Waringcrane',
+False,
+True,
+[
+    ['Quixotic']
+],
+'Cleveland Quixotic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Queen Mallory Tivania Coke (Cleveland Quixotic)', 'https://www.reddit.com/r/respectthreads/comments/1p859xo/respect_queen_mallory_tivania_coke_cleveland/')
+add_data(['Queen Mallory Tivania Coke'],
+'Queen Mallory Tivania Coke',
+False,
+False,
+[
+    ['Quixotic']
+],
+'Cleveland Quixotic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Flanz-le-Flore (Cleveland Quixotic)', 'https://www.reddit.com/r/respectthreads/comments/1p85aq7/respect_flanzleflore_cleveland_quixotic/')
+add_data(['Flanz(-| )le)(-| )Flore'],
+'Flanz-le-Flore',
+False,
+False,
+[
+    ['Quixotic']
+],
+'Cleveland Quixotic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lalum (Cleveland Quixotic)', 'https://www.reddit.com/r/respectthreads/comments/1p85bau/respect_lalum_cleveland_quixotic/')
+add_data(['Lalum'],
+'Lalum',
+False,
+False,
+[
+    ['Cleveland Quixotic']
+],
+'Cleveland Quixotic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Relics of Whitecrosse (Cleveland Quixotic)', 'https://www.reddit.com/r/respectthreads/comments/1p85c2t/respect_the_relics_of_whitecrosse_cleveland/')
+add_data(['Relics of Whitecrosse'],
+'Relics of Whitecrosse',
+True,
+False,
+[
+    ['Quixotic']
+],
+'Cleveland Quixotic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Perfidia Bal Berith (Cleveland Quixotic)', 'https://www.reddit.com/r/respectthreads/comments/1p8x2gv/respect_perfidia_bal_berith_cleveland_quixotic/')
+add_data(['Perfidia Bal Berith'],
+'Perfidia Bal Berith',
+False,
+True,
+[
+    ['Quixotic']
+],
+'Cleveland Quixotic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ubiquitous Bal Berith (Cleveland Quixotic)', 'https://www.reddit.com/r/respectthreads/comments/1p8x7ua/respect_ubiquitous_bal_berith_cleveland_quixotic/')
+add_data(['Ubiquitous Bal Berith'],
+'Ubiquitous Bal Berith',
+False,
+False,
+[
+    ['Quixotic']
+],
+'Cleveland Quixotic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kadeshah (Cleveland Quixotic)', 'https://www.reddit.com/r/respectthreads/comments/1p8x93g/respect_kadeshah_cleveland_quixotic/')
+add_data(['Kadeshah'],
+'Kadeshah',
+False,
+False,
+[
+    ['Cleveland Quixotic']
+],
+'Cleveland Quixotic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Seven Princes of Hell (Cleveland Quixotic)', 'https://www.reddit.com/r/respectthreads/comments/1p8xafa/respect_the_seven_princes_of_hell_cleveland/')
+add_data(['Seven Princes of Hell'],
+'Seven Princes of Hell',
+True,
+False,
+[
+    ['Cleveland Quixotic']
+],
+'Cleveland Quixotic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect El Patito Feo, Bird Cowboy (Mummy Joe)', 'https://www.reddit.com/r/respectthreads/comments/1p86lg0/respect_el_patito_feo_bird_cowboy_mummy_joe/')
+add_data(['El Patito Feo'],
+'El Patito Feo',
+False,
+False,
+[
+    ['Mummy Joe']
+],
+'Mummy Joe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jimmy Hedgeman! (Sonic: The Movie 1994)', 'https://www.reddit.com/r/respectthreads/comments/1p874l1/respect_jimmy_hedgeman_sonic_the_movie_1994/')
+add_data(['Jimmy Hedgeman'],
+'Jimmy Hedgeman',
+False,
+False,
+[
+    ['Sonic:? The Movie', '1994']
+],
+'Sonic: The Movie, 1994',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Skirk! (Genshin Impact)', 'https://www.reddit.com/r/respectthreads/comments/1p8c20v/respect_skirk_genshin_impact/')
+add_data(['Skirk'],
+'Skirk',
+False,
+False,
+[
+    ['Genshin']
+],
+'Genshin Impact',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gus Fring (Gus vs. Literally Everyone)', 'https://www.reddit.com/r/respectthreads/comments/1p8czdu/respect_gus_fring_gus_vs_literally_everyone/')
+add_data(['Gus Fring'],
+'Gus Fring',
+False,
+False,
+[
+    ['Gus vs\.? Literally Everyone']
+],
+'Gus vs. Literally Everyone',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Paninya (FullMetal Alchemist Manga/Brotherhood)', 'https://www.reddit.com/r/respectthreads/comments/1p8n1b9/respect_paninya_fullmetal_alchemist/')
+add_data(['Paninya'],
+'Paninya',
+False,
+False,
+[
+    ['Full ?metal'], ['FMA:?B?']
+],
+'Fullmetal Alchemist',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Gold Toothed Doctor and Wrath Candidates(FullMetal Alchemist Manga/Brotherhood)', 'https://www.reddit.com/r/respectthreads/comments/1pai75i/respect_the_gold_toothed_doctor_and_wrath/')
+add_data(['Gold(-| )Toothed Doctors'],
+'Gold Toothed Doctor',
+False,
+False,
+[
+    ['Full ?metal'], ['FMA:?B?']
+],
+'Fullmetal Alchemist',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/3y849q/11_of_the_gold_toothed_doctors_fuhrer_candidates/
+
+########################################
+
+id = get_rt_id(cur, "Respect Jessie''s Yanmega (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1p8wfwu/respect_jessies_yanmega_pokemon_anime/')
+add_data(['Yanma'],
+'Yanma',
+False,
+False,
+[
+    ['Jessie']
+],
+'Jessie',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Yanmega'],
+'Yanmega',
+False,
+False,
+[
+    ['Jessie']
+],
+'Jessie',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dex-Starr (DC Comics, Post Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1p9gla1/respect_dexstarr_dc_comics_post_flashpoint/')
+add_data(['Dex(-| )?Starr'],
+'Dex-Starr',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Gotham and Gotham Girl! (DC Comics, Post-Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1p9s6fx/respect_gotham_and_gotham_girl_dc_comics/')
+add_data(['Gotham and Gotham Girl'],
+'Gotham and Gotham Girl',
+True,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Gotham and Gotham Girl'],
+'Gotham and Gotham Girl',
+True,
+True,
+[
+    ['DC Comics']
+],
+'DC',
+'{' + '{}, 1512'.format(id) + '}'
+)
+#
+
+add_data(['Gotham Girl'],
+'Gotham Girl',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Gotham Girl'],
+'Gotham Girl',
+False,
+True,
+[
+    ['DC Comics']
+],
+'DC',
+'{' + '{}, 1512'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wakinyan, the Thunderer (Lakota/Dakota Mythology)', 'https://www.reddit.com/r/respectthreads/comments/1pa834e/respect_wakinyan_the_thunderer_lakotadakota/')
+add_data(['Wakinyan'],
+'Wakinyan',
+False,
+True,
+[
+    ['Mythology']
+],
+'Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

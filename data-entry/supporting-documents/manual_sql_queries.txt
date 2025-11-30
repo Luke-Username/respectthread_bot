@@ -14,7 +14,19 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Tony Stark, the Invincible Iron Man (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1p84dio/respect_tony_stark_the_invincible_iron_man_marvel/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1p84dio/respect_tony_stark_the_invincible_iron_man_marvel/';
+UPDATE character SET rt_id_array='{?, 26289}' WHERE rt_id_array='{26289}';
+
 ########################################
+
+UPDATE character SET is_default=FALSE WHERE default_name='Gotham and Gotham Girl';
+UPDATE character SET is_default=FALSE WHERE default_name='Gotham Girl';
+UPDATE character SET is_default=FALSE WHERE default_name='Henry Clover, Jr.';
+
+########################################
+
+SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1p9gla1/respect_dexstarr_dc_comics_post_flashpoint/';
+UPDATE character SET rt_id_array='{?, 8279}' WHERE rt_id_array='{8279}'; --After run
 
 ########################################
 
