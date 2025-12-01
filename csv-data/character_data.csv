@@ -4038,10 +4038,6 @@ Talon,{N-?52},f,{1511},New 52
 Talon,"{`"Post(-| )52`"}",f,{1511},New 52
 Talon,"{`"Prime(-| )Earth`"}",f,{1511},New 52
 Talon,"{`"Court of Owls`"}",f,{1511},New 52
-Gotham and Gotham Girl,"{`"New 52`"}",t,{1512},New 52
-Gotham and Gotham Girl,{N-?52},t,{1512},New 52
-Gotham and Gotham Girl,"{`"Post(-| )52`"}",t,{1512},New 52
-Gotham and Gotham Girl,"{`"Prime(-| )Earth`"}",t,{1512},New 52
 Ant-Man,{616},t,{1986},616
 Black Adam,"{`"Return of Black Adam`"}",f,{6654},Superman/Shazam! Return of Black Adam
 M-OC,{LEGO},f,{6655},LEGO Star Wars
@@ -4077,16 +4073,6 @@ Soldier,"{`"Fedora Chronicles`"}",f,{6670},Fedora Chronicles
 Scout,"{`"Fedora Chronicles`"}",f,{6670},Fedora Chronicles
 Bete Noire,{Glitchtale},t,{6671},Glitchtale
 Cell,{DevilArtemis},f,{6672},DevilArtemis
-Gotham and Gotham Girl,{Rebirth},t,{1512},New 52
-Gotham Girl,"{`"New 52`"}",t,{1512},New 52
-Gotham Girl,{N-?52},t,{1512},New 52
-Gotham Girl,"{`"Post(-| )52`"}",t,{1512},New 52
-Gotham Girl,"{`"Prime(-| )Earth`"}",t,{1512},New 52
-Gotham Girl,{Rebirth},t,{1512},New 52
-"Henry Clover, Jr.","{`"New 52`"}",t,{1512},New 52
-"Henry Clover, Jr.",{N-?52},t,{1512},New 52
-"Henry Clover, Jr.","{`"Post(-| )52`"}",t,{1512},New 52
-"Henry Clover, Jr.","{`"Prime(-| )Earth`"}",t,{1512},New 52
 Kate Kane,"{`"New 52`"}",t,{1513},New 52 / Rebirth
 Kate Kane,{N-?52},t,{1513},New 52 / Rebirth
 Kate Kane,"{`"Post(-| )52`"}",t,{1513},New 52 / Rebirth
@@ -4109,6 +4095,14 @@ Batman,"{`"Earth(-| )31`"}",f,{1519},Millerverse
 Batman,{Miller-?verse},f,{1519},Millerverse
 Batman,"{`"Frank Miller`"}",f,{1519},Millerverse
 Nosferatu,"{`"Batman: Nosferatu`"}",f,{1520},DC
+Gotham and Gotham Girl,{Rebirth},f,{1512},New 52
+Gotham Girl,"{`"New 52`"}",f,{1512},New 52
+Gotham Girl,{N-?52},f,{1512},New 52
+Gotham Girl,"{`"Post(-| )52`"}",f,{1512},New 52
+"Henry Clover, Jr.","{`"New 52`"}",f,{1512},New 52
+"Henry Clover, Jr.",{N-?52},f,{1512},New 52
+"Henry Clover, Jr.","{`"Post(-| )52`"}",f,{1512},New 52
+"Henry Clover, Jr.","{`"Prime(-| )Earth`"}",f,{1512},New 52
 Nosferatu,"{`"Earth(-| )1927`"}",f,{1520},DC
 Thomas Wayne,"{`"Earth(-| )2`"}",f,{1521},Earth-2
 Dark Knight,"{`"Earth(-| )2`"}",f,{1521},Earth-2
@@ -4991,8 +4985,8 @@ Star Sapphire,"{`"Post(-| )52`"}",f,{},New 52
 Star Sapphire,"{`"Prime(-| )Earth`"}",f,{},New 52
 Star Sapphire,{Rebirth},f,{},New 52
 Black Lantern Corps,{PC},f,{1674},Post-Crisis
-Dex-Starr,{DC},t,{8279},DC
 Hades,{D(i|y)sneys?},f,{10799},"Hercules, 1997"
+Dex-Starr,{DC},t,"{26612,8279}",DC
 Riki-Oh,{Saiga},t,{4906},""
 Black Lantern Corps,"{`"Post(-| )?C(risis)?`"}",f,{1674},Post-Crisis
 Black Lantern Corps,"{`"New(-| )Earth`"}",f,{1674},Post-Crisis
@@ -7478,9 +7472,6 @@ Sonic,"{`"Sonic vs`"}",f,"{8276,8277}",Sonic the Hedgehog
 Sonic,"{`"vs.? Sonic`"}",f,"{8276,8277}",Sonic the Hedgehog
 Sonic,"{`"Sonic could beat`"}",f,"{8276,8277}",Sonic the Hedgehog
 Stone King,{Batman},f,{8278},Batman: The Stone King
-Dex-Starr,{PC},f,{8279},Post-Crisis
-Dex-Starr,"{`"Post(-| )?C(risis)?`"}",f,{8279},Post-Crisis
-Dex-Starr,"{`"New(-| )Earth`"}",f,{8279},Post-Crisis
 Dracula,"{`"Marvel's Dracula`"}",f,{2205},616
 Droom,{616},f,{10830},616
 Droom,{Marvel},f,{10830},616
@@ -7546,6 +7537,8 @@ Sosumi Brown,{2301},t,{2225},2301
 Punisher,"{`"Punisher MAX`"}",f,{2226},Punisher MAX
 Punisher,"{`"Punisher \\(MAX`"}",f,{2226},Punisher MAX
 Space Punisher,{12091},t,{2227},12091
+Dex-Starr,{PC},f,"{26612,8279}",Post-Crisis
+Dex-Starr,"{`"Post(-| )?C(risis)?`"}",f,"{26612,8279}",Post-Crisis
 War Machine Punisher,{616},t,{2228},616
 War Machine Punisher,{Marvel},t,{2228},616
 Punisher,"{`"Punisher \\(War Machine`"}",f,{2228},War Machine
@@ -30564,8 +30557,8 @@ Kuroto Dan,"{`"Kamen Rider`"}",t,{24398},Kamen Rider
 Dr. Jekyll and Mr. Hyde,"{`"616 versions?`"}",f,{},616
 Dr. Jekyll and Mr. Hyde,"{`"M(iste)?r\\.? Hyde ?\\(616\\)`"}",f,{},616
 Dr. Jekyll and Mr. Hyde,{Doyle},f,{},Doyle
-Iron Man,{616},t,{26289},616
-Iron Man,{Marvel},t,{26289},616
+Iron Man,{616},t,"{26591,26289}",616
+Iron Man,{Marvel},t,"{26591,26289}",616
 Dr. Jekyll and Mr. Hyde,"{`"\\(Movie\\) Mr\\.? Hyde`"}",f,{},Movie
 Dr. Jekyll and Mr. Hyde,"{`"League of Extraordinary Gentlemen`"}",f,{},The League of Extraordinary Gentlemen
 Dr. Jekyll and Mr. Hyde,"{`"The London Assignment`"}",f,{},Van Helsing: The London Assignment
@@ -34131,3 +34124,52 @@ Master of Puppets,{Fortnite},f,{26588},Fortnite
 Metallica,{Fortnite},f,{26589},Fortnite
 Red Duke,{(WH)?40K},f,{26590},Warhammer 40k
 Red Duke,{Warhammer},f,{26590},Warhammer 40k
+Gotham and Gotham Girl,"{`"New 52`"}",f,{1512},New 52
+Gotham and Gotham Girl,{N-?52},f,{1512},New 52
+Gotham and Gotham Girl,"{`"Post(-| )52`"}",f,{1512},New 52
+Gotham and Gotham Girl,"{`"Prime(-| )Earth`"}",f,{1512},New 52
+Gotham Girl,"{`"Prime(-| )Earth`"}",f,{1512},New 52
+Gotham Girl,{Rebirth},f,{1512},New 52
+Reze,"{Bakugo,`"vs\\.? Reze`"}",f,{15327},Chainsaw Man
+Sully,"{`"Monsters,? Inc`"}",f,{26592},"Monsters, Inc."
+Megatron,"{`"Megatron ?\\((Marvel )?616\\)`"}",f,{26593},616
+Samurai Destroyer,{616},f,{26594},616
+Shogun Warriors,{616},f,{26595},616
+Jay Waringcrane,{Quixotic},t,{26596},Cleveland Quixotic
+Queen Mallory Tivania Coke,{Quixotic},f,{26597},Cleveland Quixotic
+Lalum,"{`"Cleveland Quixotic`"}",f,{26599},Cleveland Quixotic
+Relics of Whitecrosse,{Quixotic},f,{26600},Cleveland Quixotic
+Perfidia Bal Berith,{Quixotic},t,{26601},Cleveland Quixotic
+Ubiquitous Bal Berith,{Quixotic},f,{26602},Cleveland Quixotic
+Kadeshah,"{`"Cleveland Quixotic`"}",f,{26603},Cleveland Quixotic
+Seven Princes of Hell,"{`"Cleveland Quixotic`"}",f,{26604},Cleveland Quixotic
+El Patito Feo,"{`"Mummy Joe`"}",f,{26605},Mummy Joe
+Jimmy Hedgeman,"{`"Sonic:? The Movie`",1994}",f,{26606},"Sonic: The Movie, 1994"
+Skirk,{Genshin},f,{26607},Genshin Impact
+Gus Fring,"{`"Gus vs\\.? Literally Everyone`"}",f,{26608},Gus vs. Literally Everyone
+Paninya,"{`"Full ?metal`"}",f,{26609},Fullmetal Alchemist
+Paninya,{FMA:?B?},f,{26609},Fullmetal Alchemist
+Gold Toothed Doctor,"{`"Full ?metal`"}",f,{26610},Fullmetal Alchemist
+Gold Toothed Doctor,{FMA:?B?},f,{26610},Fullmetal Alchemist
+Yanma,{Jessie},f,{26611},Jessie
+Yanmega,{Jessie},f,{26611},Jessie
+Dex-Starr,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26612},Post-Flashpoint
+Gotham and Gotham Girl,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26613},Post-Flashpoint
+Gotham and Gotham Girl,"{`"DC Comics`"}",t,"{26613,1512}",DC
+Gotham Girl,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26613},Post-Flashpoint
+Gotham Girl,"{`"DC Comics`"}",t,"{26613,1512}",DC
+Wakinyan,{Mythology},t,{26614},Mythology
+Cole's Apple Orchard,"{`"Midnight Library`"}",f,{26615},The Midnight Library
+Juste Belmont,"{`"Castlevania Nocturne`"}",f,{26616},Castlevania Nocturne
+Annette,"{`"Castlevania Nocturne`"}",f,{26616},Castlevania Nocturne
+Adrian Shephard,"{`"Half(-| )?Life`"}",t,{26617},Half-Life
+Dek,{Yautja|Predator|Badlands},f,{26618},Predator: Badlands
+Guy Gardner,{DCU},f,{26619},DCU
+Hawkgirl,{DCU},f,{26620},DCU
+Mister Terrific,{DCU},f,{26621},DCU
+Metamorpho,{DCU},f,{26622},DCU
+Jo Mullein,"{`"Absolute Universe`"}",f,{26623},Absolute Universe
+Jo Mullein,"{`"Absolute (So)?jo(urner)? Mullein`"}",f,{26623},Absolute Universe
+Batman,"{`"Batman Meets Godzilla`"}",f,{26624},Batman Meets Godzilla
+Godzilla,"{`"Batman Meets Godzilla`"}",f,{26624},Batman Meets Godzilla
+Dex-Starr,"{`"New(-| )Earth`"}",f,"{26612,8279}",Post-Crisis
