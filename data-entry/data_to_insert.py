@@ -108,6 +108,7 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 7523, 'Respect Kalibak (DC Animated Universe)', 'https://www.reddit.com/r/respectthreads/comments/1p9cccu/respect_kalibak_dc_animated_universe/')
+update_respectthread(cur, 21547, 'Respect Huck (Huck)', 'https://www.reddit.com/r/respectthreads/comments/1pb1jih/respect_huck_huck/')
 
 ########################################
 
@@ -514,6 +515,183 @@ True,
     ['Mythology']
 ],
 'Mythology',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Cole''s Apple Orchard (The Midnight Library)", 'https://www.reddit.com/r/respectthreads/comments/1pax7a2/respect_coles_apple_orchard_the_midnight_library/')
+add_data(["Cole''?s Apple Orchard"],
+"Cole''s Apple Orchard",
+False,
+False,
+[
+    ['Midnight Library']
+],
+'The Midnight Library',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Juste Belmont! (Castlevania Nocturne)', 'https://www.reddit.com/r/respectthreads/comments/1paxliz/respect_juste_belmont_castlevania_nocturne/')
+add_data(['Juste Belmont'],
+'Juste Belmont',
+False,
+False,
+[
+    ['Castlevania Nocturne']
+],
+'Castlevania Nocturne',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Juste Belmont! (Castlevania Nocturne)', 'https://www.reddit.com/r/respectthreads/comments/1paxliz/respect_juste_belmont_castlevania_nocturne/')
+add_data(['Annette'],
+'Annette',
+False,
+False,
+[
+    ['Castlevania Nocturne']
+],
+'Castlevania Nocturne',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Adrian Shephard (Half-Life: Opposing Force)', 'https://www.reddit.com/r/respectthreads/comments/1payq06/respect_adrian_shephard_halflife_opposing_force/')
+add_data(['Adrian Shephard'],
+'Adrian Shephard',
+False,
+True,
+[
+    ['Half(-| )?Life']
+],
+'Half-Life',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dek Of The Yautja (Predator Badlands)', 'https://www.reddit.com/r/respectthreads/comments/1pb0mnb/respect_dek_of_the_yautja_predator_badlands/')
+add_data(['Dek'],
+'Dek',
+False,
+False,
+[
+    ['Yautja|Predator|Badlands']
+],
+'Predator: Badlands',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Guy Gardner, the Green Lantern (DCU)', 'https://www.reddit.com/r/respectthreads/comments/1pb13oj/respect_guy_gardner_the_green_lantern_dcu/')
+add_data(['Guy Gardner'],
+'Guy Gardner',
+False,
+False,
+[
+    ['DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hawkgirl (DCU)', 'https://www.reddit.com/r/respectthreads/comments/1pb13xk/respect_hawkgirl_dcu/')
+add_data(['Hawkgirl'],
+'Hawkgirl',
+False,
+False,
+[
+    ['DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mr. Terrific (DCU)', 'https://www.reddit.com/r/respectthreads/comments/1pb143y/respect_mr_terrific_dcu/')
+add_data(['(Mr\\.?|Mister) Terrific'],
+'Mister Terrific',
+False,
+False,
+[
+    ['DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Metamorpho (DCU)', 'https://www.reddit.com/r/respectthreads/comments/1pb14f5/respect_metamorpho_dcu/')
+add_data(['Metamorpho'],
+'Metamorpho',
+False,
+False,
+[
+    ['DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sojourner Mullein, the Green Lantern (DC Comics, Absolute Universe)', 'https://www.reddit.com/r/respectthreads/comments/1pb2d5y/respect_sojourner_mullein_the_green_lantern_dc/')
+add_data(['(So)?jo(urner)? Mullein'],
+'Jo Mullein',
+False,
+False,
+[
+    ['Absolute Universe'], ['Absolute (So)?jo(urner)? Mullein']
+],
+'Absolute Universe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Batman and Godzilla! (Batman Meets Godzilla)', 'https://www.reddit.com/r/respectthreads/comments/1pb38hm/respect_batman_and_godzilla_batman_meets_godzilla/')
+add_data(['Bat(-| )?mans?'],
+'Batman',
+False,
+False,
+[
+    ['Batman Meets Godzilla']
+],
+'Batman Meets Godzilla',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Batman Meets Godzilla']
+],
+'Batman Meets Godzilla',
 '{' + '{}'.format(id) + '}'
 )
 #
