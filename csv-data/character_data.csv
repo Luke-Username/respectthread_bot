@@ -19336,10 +19336,6 @@ Scout,"{`"Team Fortress`"}",f,{5483},TF2
 Scout,{Tracer},f,{5483},TF2
 Engineer,{TF2},f,{5483},TF2
 Engineer,"{`"Team Fortress`"}",f,{5483},TF2
-Demoman,{TF2},t,{5483},TF2
-Demoman,"{`"Team Fortress`"}",t,{5483},TF2
-Sniper,{TF2},f,{5483},TF2
-Sniper,"{`"Team Fortress`"}",f,{5483},TF2
 Bryan Fury,{Tekken},t,{5485},Tekken
 Bryan,{Tekken},f,{5485},Tekken
 Craig Marduk,{Tekken},t,{5486},Tekken
@@ -19366,6 +19362,10 @@ Spy,{TF2},f,{26517},TF2
 Spy,"{`"Team Fortress`"}",f,{26517},TF2
 Soldier,{TF2},f,{5480},TF2
 Soldier,"{`"Team Fortress`"}",f,{5480},TF2
+Demoman,{TF2},t,{5473},TF2
+Demoman,"{`"Team Fortress`"}",t,{5473},TF2
+Sniper,{TF2},f,{5481},TF2
+Sniper,"{`"Team Fortress`"}",f,{5481},TF2
 True Ogre,{Tekken},t,{5493},Tekken
 Ogre,{Tekken},f,{5493},Tekken
 Duke Fishron,{Terraria},t,{5494},Terraria
@@ -24516,7 +24516,6 @@ Denny Swan,"{`"New(-| )?52`"}",t,{20969},New 52 / Rebirth
 Denny Swan,{Nu?-?52},t,{20969},New 52 / Rebirth
 Denny Swan,"{`"Prime(-| )Earth`"}",t,{20969},New 52 / Rebirth
 Denny Swan,{Rebirth},t,{20969},New 52 / Rebirth
-Yor Forger,"{`"Spy x Family`"}",t,{20970},Spy x Family
 The Muscle,"{`"Bat(-| )?man`",`"Adventures? Continues`"}",f,{20971},DCAU
 Talon,"{`"Bat(-| )?man`",`"Adventures? Continues`"}",f,{20972},DCAU
 Mister Wing,"{`"DC Animated Universe`"}",f,{20973},DCAU
@@ -24572,6 +24571,7 @@ Ultron Singularity,{14831},t,{21001},14831
 Linda-085,{Halo},f,{21002},Halo
 Azog,{BOTFA},f,{21003},"The Hobbit, 2014"
 Azog,"{`"Battle of the Five Armies`"}",f,{21003},"The Hobbit, 2014"
+Yor Forger,"{`"Spy( x)? Family`"}",t,{20970},Spy x Family
 Azog,"{`"Hobbit (film|movie)s?`"}",f,{21003},"The Hobbit, 2014"
 Dimensional Horror,{Stellaris},t,{21004},Stellaris
 Star and Stripe,"{`"My Hero`"}",f,{21005},My Hero Academia
@@ -26510,7 +26510,6 @@ Joker,"{`"\\(The Batman\\)`"}",f,{659},"The Batman, 2004-2008"
 Killer Croc,"{`"\\(The Batman\\)`"}",f,{660},"The Batman, 2004-2008"
 Man-Bat,"{`"\\(The Batman\\)`"}",f,{661},"The Batman, 2004-2008"
 Robin,"{`"\\(The Batman\\)`"}",f,{662},"The Batman, 2004-2008"
-Yor,"{`"Spy x Family`"}",f,{20970},Spy x Family
 Jessica Cruz,"{`"\\(DC( Comics)?\\)`"}",t,{1681},DC
 Jessica Cruz,"{`"\\[DC( Comics)?\\]`"}",t,{1681},DC
 Omnidrone,{Incredibles},f,{1132},The Incredibles
@@ -26524,6 +26523,7 @@ Gar Saxon,"{`"S(tar )?Wars`"}",t,{21891},Star Wars
 Martians,"{`"Mars Attacks`"}",f,{21892},Mars Attacks!
 KISS,"{`"KISS ?\\(616`"}",f,{21893},616
 Thor,{717},f,{21885},717
+Yor,"{`"Spy( x)? Family`"}",f,{20970},Spy x Family
 Gameboy,"{`"Captain N`"}",f,{21895},Captain N: The Game Master
 Gameboy,"{`"Rock Hard Gladiators`"}",f,{21896},RHG
 Gameboy,{Zetabrand},f,{21896},RHG
@@ -26663,7 +26663,6 @@ Spider-Man,"{`"Spider(-| )?Man Unlimited`"}",f,{21978},Spider-Man Unlimited
 Gorilla-Man,"{`"Arthur Nagan`"}",f,{21979},Arthur Nagan
 Dola,"{`"Castle in the Sky`"}",f,{21980},Castle in the Sky
 Godzilla,"{`"Godzilla:? Oblivion`"}",f,{21981},Godzilla: Oblivion
-Yor Briar,"{`"Spy x Family`"}",t,{20970},Spy x Family
 Superman,{Snyders?},f,{130},DCEU
 Wanda,"{`"\\(MoM\\)`",Strange}",f,{270},MCU
 Doctor Manhattan,"{`"Watchmen (movie|film)s?`"}",f,{21590},"Watchmen, 2009"
@@ -26699,6 +26698,7 @@ Shagnasty,{Dresden},t,{22013},The Dresden Files
 Morbius,{Letos?},f,{21999},2022
 Morbius,{Sony(verse)?},f,{21999},2022
 A-Train,"{`"Black Noir`"}",t,{21325},The Boys
+Yor Briar,"{`"Spy( x)? Family`"}",t,{20970},Spy x Family
 Sonic the Hedgehog,"{`"Sonic the Hedgehog.*movies`"}",f,{8607},2020 film
 King Hippo,"{`"Captain N`"}",f,{22015},Captain N: The Game Master
 Sasha,{Amphibia},f,{22016},Amphibia
@@ -34173,3 +34173,24 @@ Jo Mullein,"{`"Absolute (So)?jo(urner)? Mullein`"}",f,{26623},Absolute Universe
 Batman,"{`"Batman Meets Godzilla`"}",f,{26624},Batman Meets Godzilla
 Godzilla,"{`"Batman Meets Godzilla`"}",f,{26624},Batman Meets Godzilla
 Dex-Starr,"{`"New(-| )Earth`"}",f,"{26612,8279}",Post-Crisis
+Saint Seiya,"{`"Hades Chapter`"}",f,{4493},Saint Seiya
+Saint Seiya,"{`"God Cloth`"}",f,{4493},Saint Seiya
+Looper,{Fortnite},f,{26625},Fortnite
+Golden Bat,{1966},f,{26626},1966
+K,"{`"Robot Detective`"}",f,{26627},Robot Detective
+Mysterians,"{`"Mysterians ?\\(The Mysterians`"}",t,{26628},1957
+Yeti,"{Abominable,2006}",f,{26629},"Abominable, 2006"
+Larry,"{`"Christmas Massacre`"}",f,{26630},Christmas Massacre
+Elizabeth Bartley,"{`"Castlevania:? Nocturne`"}",f,{26631},Castlevania: Nocturne
+Drolta Tzuentes,"{`"Castlevania:? Nocturne`"}",f,{26632},Castlevania: Nocturne
+Ori,"{`"Ori ?\\(Ori\\)`"}",f,{26633},Ori Series
+Ori,"{`"Blind Forest`"}",f,{26633},Ori Series
+Ori,"{`"Will of the Wisps`"}",f,{26633},Ori Series
+Ori,"{`"Ori Series`"}",f,{26633},Ori Series
+Ori,{Cuphead},f,{26633},Ori Series
+Zorro,{1957},f,{26634},1957
+Team Galactic,{Pok(e|é)m(o|a)n},f,{26635},Pokémon
+Streaky the Supercat,"{`"DC Comics`"}",t,{26636},DC
+Streaky,"{Krypto,Dex(-?Starr)?|Superman}",f,{26636},DC
+Streaky the Supercat,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26636},Post-Flashpoint
+Streaky,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26636},Post-Flashpoint

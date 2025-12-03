@@ -111,7 +111,6 @@ id,title,link
 208,Respect Orga (Godzilla),https://www.reddit.com/r/respectthreads/comments/83jwgy/respect_orga_godzilla/
 238,"Brock Rumlow, Crossbones (Marvel Cinematic Universe)",https://redd.it/643r0w
 210,Respect Shinichi Ozaki (Godzilla: Final Wars),https://www.reddit.com/r/respectthreads/comments/aedvvj/respect_shinichi_ozaki_godzilla_final_wars/
-211,Respect SpaceGodzilla (Godzilla),https://www.reddit.com/r/respectthreads/comments/7yymv1/respect_spacegodzilla_godzilla/
 213,Respect Zilla (Godzilla: Final Wars),https://www.reddit.com/r/respectthreads/comments/aee4uf/respect_zilla_godzilla_final_wars/
 217,Respect Prince Nuada (Hellboy II: The Golden Army),https://www.reddit.com/r/respectthreads/comments/a219ph/respect_prince_nuada_hellboy_ii_the_golden_army/
 220,Respect Owen Grady (Jurassic World),https://www.reddit.com/r/respectthreads/comments/a8qknu/respect_owen_grady_jurassic_world/
@@ -695,6 +694,7 @@ id,title,link
 1182,Respect Red (Angry Birds Films),https://www.reddit.com/r/respectthreads/comments/nan58o/respect_red_angry_birds_films/
 1205,Respect Elsa (Frozen),https://www.reddit.com/r/respectthreads/comments/fdhd4o/respect_elsa_frozen/
 1174,"Respect Miles Morales, Spider-Man! (Spider-Verse)",https://www.reddit.com/r/respectthreads/comments/1jvheyk/respect_miles_morales_spiderman_spiderverse/
+1252,Respect Alucard! (Netflix's Castlevania),https://www.reddit.com/r/respectthreads/comments/1pcm808/respect_alucard_netflixs_castlevania/
 5642,Respect The Imperfects (Marvel Nemesis),https://www.reddit.com/r/respectthreads/comments/bss9bs/respect_the_imperfects_marvel_nemesis/
 5648,"Respect Steve (Minecraft, Survival Mode)",https://www.reddit.com/r/respectthreads/comments/bqnnsf/respect_steve_minecraft_survival_mode/
 1247,Respect Holokara (Atop the Fourth Wall),https://www.reddit.com/r/respectthreads/comments/8l3t4s/respect_holokara_atop_the_fourth_wall/
@@ -703,7 +703,6 @@ id,title,link
 1288,Colleen Wing (Marvel Cinematic Universe),https://redd.it/63ubyr
 1250,Respect Lord Vyce (Atop the Fourth Wall),https://www.reddit.com/r/respectthreads/comments/8kzgrk/respect_lord_vyce_atop_the_fourth_wall/
 1290,"Davos, The Steel Serpent (Marvel Cinematic Universe)",https://redd.it/63xvoe
-1252,Respect Alucard! (Netflix's Castlevania),https://www.reddit.com/r/respectthreads/comments/9x6a94/respect_alucard_netflixs_castlevania/
 1296,Nobu (Marvel Cinematic Universe),https://redd.it/5u99uf
 1254,Respect Godbrand! (Netflix's Castlevania),https://www.reddit.com/r/respectthreads/comments/9xb7aq/respect_godbrand_netflixs_castlevania/
 1256,Respect Trevor C. Belmont! (Netflix's Castlevania),https://www.reddit.com/r/respectthreads/comments/9wvh3t/respect_trevor_c_belmont_netflixs_castlevania/
@@ -3112,6 +3111,7 @@ id,title,link
 5478,Respect Saxton Hale! (Team Fortress 2),https://www.reddit.com/r/respectthreads/comments/1mohvi5/respect_saxton_hale_team_fortress_2/
 5459,Respect the Subspace Army (Super Smash Bros.),https://redd.it/5koofv
 2235,"Respect: Ka-Zar, Lord of the Savage Land! (Marvel comics, 616)",https://www.reddit.com/r/respectthreads/comments/4uiry2/respect_kazar_lord_of_the_savage_land_marvel/
+5473,Respect The Demoman (Team Fortress 2),https://www.reddit.com/r/respectthreads/comments/1pbd37h/respect_the_demoman_team_fortress_2/
 5470,"Respect Muzet, Great Spirit of Dimensional Crossing",https://redd.it/2s2tv8
 5479,Respect The Scout (Team Fortress 2),https://redd.it/7gifhb
 5458,Respect Ridley (Super Smash Bros),https://www.reddit.com/r/respectthreads/comments/9plypf/respect_ridley_super_smash_bros/
@@ -3121,10 +3121,8 @@ id,title,link
 5467,Respect Marta Lualdi! (Tales of Symphonia: Dawn of the New World),https://www.reddit.com/r/respectthreads/comments/bfjqgy/respect_marta_lualdi_tales_of_symphonia_dawn_of/
 5469,Respect Yuri Lowell (Tales of Vesperia),https://www.reddit.com/r/respectthreads/comments/7u6v6i/respect_yuri_lowell_tales_of_vesperia/
 5471,Respect Bread (Team Fortress 2),https://www.reddit.com/r/respectthreads/comments/6bi5py/respect_bread_team_fortress_2/
-5473,Respect the Demoman!,https://www.reddit.com/r/respectthreads/comments/2jff7j/respect_the_demoman/
 5523,Respect Satoru and Sayaka! [Ape Escape],https://redd.it/3ykly2
 5474,Respect the Heavy!,https://www.reddit.com/r/respectthreads/comments/2j6e99/respect_the_heavy/
-5481,Respect the Sniper!,https://www.reddit.com/r/respectthreads/comments/2kcy5r/respect_the_sniper/
 5482,Respect the Spy,https://www.reddit.com/r/respectthreads/comments/2icbg3/respect_the_spy/
 5485,[Respect] Bryan Fury (Tekken),https://www.reddit.com/r/respectthreads/comments/3f2df9/respect_bryan_fury_tekken/
 5488,[Respect] Hwoarang (Tekken),https://www.reddit.com/r/respectthreads/comments/3f42ul/respect_hwoarang_tekken/
@@ -15121,3 +15119,17 @@ id,title,link
 26622,Respect Metamorpho (DCU),https://www.reddit.com/r/respectthreads/comments/1pb14f5/respect_metamorpho_dcu/
 26623,"Respect Sojourner Mullein, the Green Lantern (DC Comics, Absolute Universe)",https://www.reddit.com/r/respectthreads/comments/1pb2d5y/respect_sojourner_mullein_the_green_lantern_dc/
 26624,Respect Batman and Godzilla! (Batman Meets Godzilla),https://www.reddit.com/r/respectthreads/comments/1pb38hm/respect_batman_and_godzilla_batman_meets_godzilla/
+5481,Respect the Sniper (Team Fortress 2),https://www.reddit.com/r/respectthreads/comments/1pbdjcm/respect_the_sniper_team_fortress_2/
+211,"Respect SpaceGodzilla (Godzilla Franchise, Heisei Continuity)",https://www.reddit.com/r/respectthreads/comments/1pbebj7/respect_spacegodzilla_godzilla_franchise_heisei/
+26625,Respect the Looper! (Fortnite),https://www.reddit.com/r/respectthreads/comments/1pba8cr/respect_the_looper_fortnite/
+26626,"Respect Golden Bat (Golden Bat, 1966)",https://www.reddit.com/r/respectthreads/comments/1pbc508/respect_golden_bat_golden_bat_1966/
+26627,Respect K (Robot Detective),https://www.reddit.com/r/respectthreads/comments/1pbc51d/respect_k_robot_detective/
+26628,Respect the Mysterians (The Mysterians),https://www.reddit.com/r/respectthreads/comments/1pbc522/respect_the_mysterians_the_mysterians/
+26629,"Respect The Flatwoods Monster, The Yeti (Abominable, 2006)",https://www.reddit.com/r/respectthreads/comments/1pbd47m/respect_the_flatwoods_monster_the_yeti_abominable/
+26630,Respect Larry (Christmas Massacre),https://www.reddit.com/r/respectthreads/comments/1pbfm84/respect_larry_christmas_massacre/
+26631,Respect Erzsebet Bathory! (Castlevania Nocturne),https://www.reddit.com/r/respectthreads/comments/1pbtt9b/respect_erzsebet_bathory_castlevania_nocturne/
+26632,Respect Drolta Tzuentes! (Castlevania Nocturne),https://www.reddit.com/r/respectthreads/comments/1pbtuzo/respect_drolta_tzuentes_castlevania_nocturne/
+26633,Respect Ori (Ori Series),https://www.reddit.com/r/respectthreads/comments/1pc1bas/respect_ori_ori_series/
+26634,"Respect Don Diego de la Vega, Zorro (Zorro, 1957)",https://www.reddit.com/r/respectthreads/comments/1pc5neb/respect_don_diego_de_la_vega_zorro_zorro_1957/
+26635,Respect Team Galactic (Pokemon Anime),https://www.reddit.com/r/respectthreads/comments/1pc97zu/respect_team_galactic_pokemon_anime/
+26636,"Respect Streaky the Super-Cat (DC Comics, Post-Flashpoint)",https://www.reddit.com/r/respectthreads/comments/1pc9wxo/respect_streaky_the_supercat_dc_comics/
