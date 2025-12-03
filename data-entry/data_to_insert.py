@@ -107,6 +107,258 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5473, 'Respect The Demoman (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1pbd37h/respect_the_demoman_team_fortress_2/')
+update_respectthread(cur, 5481, 'Respect the Sniper (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1pbdjcm/respect_the_sniper_team_fortress_2/')
+update_respectthread(cur, 211, 'Respect SpaceGodzilla (Godzilla Franchise, Heisei Continuity)', 'https://www.reddit.com/r/respectthreads/comments/1pbebj7/respect_spacegodzilla_godzilla_franchise_heisei/')
+update_respectthread(cur, 1252, "Respect Alucard! (Netflix''s Castlevania)", 'https://www.reddit.com/r/respectthreads/comments/1pcm808/respect_alucard_netflixs_castlevania/')
+
+########################################
+
+add_data(['Saint Seiya'],
+'Saint Seiya',
+False,
+False,
+[
+    ['Hades Chapter'], ['God Cloth']
+],
+'Saint Seiya',
+'{4493}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1pcnu4c/goku_ssj_blue_kaioken_x20_seiya_god_cloth_luffy/nrz1axg/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Looper! (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1pba8cr/respect_the_looper_fortnite/')
+add_data(['Looper'],
+'Looper',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Golden Bat (Golden Bat, 1966)', 'https://www.reddit.com/r/respectthreads/comments/1pbc508/respect_golden_bat_golden_bat_1966/')
+add_data(['Looper'],
+'Looper',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Golden Bat (Golden Bat, 1966)', 'https://www.reddit.com/r/respectthreads/comments/1pbc508/respect_golden_bat_golden_bat_1966/')
+add_data(['Golden Bat'],
+'Golden Bat',
+False,
+False,
+[
+    ['1966']
+],
+'1966',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect K (Robot Detective)', 'https://www.reddit.com/r/respectthreads/comments/1pbc51d/respect_k_robot_detective/')
+add_data(['K'],
+'K',
+False,
+False,
+[
+    ['Robot Detective']
+],
+'Robot Detective',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Mysterians (The Mysterians)', 'https://www.reddit.com/r/respectthreads/comments/1pbc522/respect_the_mysterians_the_mysterians/')
+add_data(['Mysterians'],
+'Mysterians',
+True,
+True,
+[
+    ['Mysterians ?\(The Mysterians']
+],
+'1957',
+'{' + '{}'.format(id) + '}'
+)
+#
+########################################
+
+id = get_rt_id(cur, 'Respect The Flatwoods Monster, The Yeti (Abominable, 2006)', 'https://www.reddit.com/r/respectthreads/comments/1pbd47m/respect_the_flatwoods_monster_the_yeti_abominable/')
+add_data(['Yeti'],
+'Yeti',
+False,
+False,
+[
+    ['Abominable', '2006']
+],
+'Abominable, 2006',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Larry (Christmas Massacre)', 'https://www.reddit.com/r/respectthreads/comments/1pbfm84/respect_larry_christmas_massacre/')
+add_data(['Larry'],
+'Larry',
+False,
+False,
+[
+    ['Christmas Massacre']
+],
+'Christmas Massacre',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Erzsebet Bathory! (Castlevania Nocturne)', 'https://www.reddit.com/r/respectthreads/comments/1pbtt9b/respect_erzsebet_bathory_castlevania_nocturne/')
+add_data(['(Elizabeth|Erzs(é|e)bet) (Bartley|B(a|á)thory)'],
+'Elizabeth Bartley',
+False,
+False,
+[
+    ['Castlevania:? Nocturne']
+],
+'Castlevania: Nocturne',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Drolta Tzuentes! (Castlevania Nocturne)', 'https://www.reddit.com/r/respectthreads/comments/1pbtuzo/respect_drolta_tzuentes_castlevania_nocturne/')
+add_data(['Drolta Tzuentes'],
+'Drolta Tzuentes',
+False,
+False,
+[
+    ['Castlevania:? Nocturne']
+],
+'Castlevania: Nocturne',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ori (Ori Series)', 'https://www.reddit.com/r/respectthreads/comments/1pc1bas/respect_ori_ori_series/')
+add_data(['Ori'],
+'Ori',
+False,
+False,
+[
+    ['Ori ?\(Ori\)'], ['Blind Forest'], ['Will of the Wisps'], ['Ori Series'], ['Cuphead']
+],
+'Ori Series',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/vp3hsz/cuphead_and_mugman_vs_ghost_of_hallownest_and_ori/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Don Diego de la Vega, Zorro (Zorro, 1957)', 'https://www.reddit.com/r/respectthreads/comments/1pc5neb/respect_don_diego_de_la_vega_zorro_zorro_1957/')
+add_data(['Zorro'],
+'Zorro',
+False,
+False,
+[
+    ['1957']
+],
+'1957',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Team Galactic (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1pc97zu/respect_team_galactic_pokemon_anime/')
+add_data(['Team Galactic'],
+'Team Galactic',
+True,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Streaky the Super-Cat (DC Comics, Post-Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1pc9wxo/respect_streaky_the_supercat_dc_comics/')
+add_data(['Streaky the Super(-| )?cat'],
+'Streaky the Supercat',
+False,
+True,
+[
+    ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Streaky'],
+'Streaky',
+False,
+False,
+[
+    ['Krypto', 'Dex(-?Starr)?|Superman']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/59g9dg/casual_see_them_fighting_like_cats_and_dogs/
+#https://www.reddit.com/r/whowouldwin/comments/2g6xif/superman_and_streaky_the_supercat_vs_supergirl/
+
+
+add_data(['Streaky the Super(-| )?cat'],
+'Streaky the Supercat',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Streaky'],
+'Streaky',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):

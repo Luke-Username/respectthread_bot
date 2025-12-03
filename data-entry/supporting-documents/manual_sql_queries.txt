@@ -14,7 +14,12 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+UPDATE character SET version='{"Spy( x)? Family"}' WHERE version='{"Spy x Family"}' AND rt_id_array='{20970}';
+
 ########################################
+
+UPDATE character SET rt_id_array='{5473}' WHERE default_name='Demoman' AND displayed_version_name='TF2';
+UPDATE character SET rt_id_array='{5481}' WHERE default_name='Sniper' AND displayed_version_name='TF2';
 
 ########################################
 
