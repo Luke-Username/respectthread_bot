@@ -107,6 +107,133 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Ben Grimm, the Thing (Marvel Comics, 616)', 'https://www.reddit.com/r/rangernumberx/comments/1f0a4p8/respect_ben_grimm_the_thing_marvel_comics_616/')
+add_data(['The Thing'],
+'The Thing',
+False,
+False,
+[
+    ['Marvel', 'Luke Cage'], ['Marvel Bricks?']
+],
+'616',
+'{' + '{}, 2072,22166'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1pd6m5g/vulkan_runs_a_marvel_brick_gauntlet_where_does_he/ns2rsvc/?context=3
+
+add_data(['D-Man'],
+'D-Man',
+False,
+False,
+[
+    ['Marvel', 'Luke Cage'], ['Marvel Bricks?']
+],
+'616',
+'{2438}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1pd6m5g/vulkan_runs_a_marvel_brick_gauntlet_where_does_he/ns2rsvc/?context=3
+
+########################################
+
+id = get_rt_id(cur, "Respect Zoey''s Glameow (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1pd4ytj/respect_zoeys_glameow_pokemon_anime/')
+add_data(['Glameow'],
+'Glameow',
+False,
+False,
+[
+    ['Zoey']
+],
+'Zoey',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zoey (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1pd4zbf/respect_zoey_pokemon_anime/')
+add_data(['Zoey'],
+'Zoey',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Multiversal Masters of Evil (Marvel Comics)', 'https://www.reddit.com/r/respectthreads/comments/1pd5ps8/respect_the_multiversal_masters_of_evil_marvel/')
+add_data(['Masters of Evil'],
+'Masters of Evil',
+True,
+False,
+[
+    ['Multivers(e|al)']
+],
+'Multiverse',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Multiversal Masters of Evil'],
+'Multiversal Masters of Evil',
+True,
+True,
+[
+    ['Marvel']
+],
+'Marvel',
+'{' + '{}'.format(id) + '}'
+)
+#https://marvel.fandom.com/wiki/Masters_of_Evil_(Multiverse)
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Bounty Hunter (High On Life)', 'https://www.reddit.com/r/respectthreads/comments/1pd5psk/respect_the_bounty_hunter_high_on_life/')
+add_data(['Bounty Hunter'],
+'Bounty Hunter',
+False,
+False,
+[
+    ['High On Life']
+],
+'High On Life',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Scavengers (Transformers IDW, 2005)', 'https://www.reddit.com/r/respectthreads/comments/1pd5pu4/respect_the_scavengers_transformers_idw_2005/')
+add_data(['Scavengers'],
+'Scavengers',
+True,
+False,
+[
+    ['Transformers', 'IDW']
+],
+'Transformers IDW',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Leslie(The Amazing World Of Gumball)', 'https://www.reddit.com/r/respectthreads/comments/1pdmzzg/respect_lesliethe_amazing_world_of_gumball/')
+add_data(['Leslie'],
+'Leslie',
+False,
+False,
+[
+    ['Gumball']
+],
+'The Amazing World Of Gumball',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
