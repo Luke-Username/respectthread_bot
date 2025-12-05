@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2018, 'Respect Ultron (Marvel Comics, 616)', 'https://www.reddit.com/r/respectthreads/comments/1pdxvz0/respect_ultron_marvel_comics_616/')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Ben Grimm, the Thing (Marvel Comics, 616)', 'https://www.reddit.com/r/rangernumberx/comments/1f0a4p8/respect_ben_grimm_the_thing_marvel_comics_616/')
 add_data(['The Thing'],
 'The Thing',
@@ -131,6 +135,21 @@ False,
 '{2438}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1pd6m5g/vulkan_runs_a_marvel_brick_gauntlet_where_does_he/ns2rsvc/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Ultron Drones (Marvel Comics, Earth-61112)', 'https://www.reddit.com/r/respectthreads/comments/1pdxvzh/respect_the_ultron_drones_marvel_comics_earth61112/')
+add_data(['Ultron Drones'],
+'Ultron Drones',
+False,
+False,
+[
+    ['61112']
+],
+'61112',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
@@ -230,6 +249,156 @@ False,
     ['Gumball']
 ],
 'The Amazing World Of Gumball',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mark Twelve (Marvel Comics, Earth-616)', 'https://www.reddit.com/r/respectthreads/comments/1pdxw0l/respect_mark_twelve_marvel_comics_earth616/')
+add_data(['Mark Twelve'],
+'Mark Twelve',
+False,
+False,
+[
+    ['616'], ['Ultron']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kris Kalenov (The Winter Men)', 'https://www.reddit.com/r/respectthreads/comments/1pe223u/respect_kris_kalenov_the_winter_men/')
+add_data(['Kris Kalenov'],
+'Kris Kalenov',
+False,
+False,
+[
+    ['Winter Men']
+],
+'The Winter Men',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Hammer of the Revolution (The Winter Men)', 'https://www.reddit.com/r/respectthreads/comments/1pe24fp/respect_the_hammer_of_the_revolution_the_winter/')
+add_data(['Hammer of the Revolution'],
+'Hammer of the Revolution',
+False,
+False,
+[
+    ['Winter Men']
+],
+'The Winter Men',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect The 4''8 Heavy (Meet the 4''8 Heavy)", 'https://www.reddit.com/r/respectthreads/comments/1pehogd/respect_the_48_heavy_meet_the_48_heavy/')
+add_data(["4''8 Heavy"],
+"4''8 Heavy",
+False,
+False,
+[
+    ["The 4''8 Heavy"]
+],
+"Meet the 4''8 Heavy",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Isaac Lightbrad (LostMagic)', 'https://www.reddit.com/r/respectthreads/comments/1petnsj/respect_isaac_lightbrad_lostmagic/')
+add_data(['Isaac Lightbrad'],
+'Isaac Lightbrad',
+False,
+True,
+[
+    ['Lost ?Magic']
+],
+'LostMagic',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Helena Kyle (Birds of Prey)', 'https://www.reddit.com/r/respectthreads/comments/1peto9g/respect_helena_kyle_birds_of_prey/')
+add_data(['Helena Kyle'],
+'Helena Kyle',
+False,
+False,
+[
+    ['Birds of Prey']
+],
+'Birds of Prey',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Harley Quinn (Birds of Prey)', 'https://www.reddit.com/r/respectthreads/comments/1petohq/respect_harley_quinn_birds_of_prey/')
+add_data(['Harley Quinn?'],
+'Harley Quinn',
+False,
+False,
+[
+    ['Birds of Prey']
+],
+'Birds of Prey',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lily (V/H/S/, Siren)', 'https://www.reddit.com/r/respectthreads/comments/1pewi75/respect_lily_vhs_siren/')
+add_data(['Lily'],
+'Lily',
+False,
+False,
+[
+    ['V/H/S/', 'Siren']
+],
+'V/H/S/',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Forrest''s Rhyperior (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1pez3c9/respect_forrests_rhyperior_pokemon_anime/')
+add_data(['Rhyperior'],
+'Rhyperior',
+False,
+False,
+[
+    ['Forrest']
+],
+'Forrest',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Team Rocket''s Sinnoh League Mecha (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1pez43p/respect_team_rockets_sinnoh_league_mecha_pokemon/')
+add_data(['Sinnoh League Mecha'],
+'Sinnoh League Mecha',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
 '{' + '{}'.format(id) + '}'
 )
 #
