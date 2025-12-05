@@ -14,14 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-DELETE FROM character WHERE default_name='Ultraman' AND displayed_version_name='Post-Crisis';
-
 ########################################
-
-SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/rangernumberx/comments/1f0a4p8/respect_ben_grimm_the_thing_marvel_comics_616/';
-UPDATE character SET rt_id_array='{?, 2072,22166}' WHERE rt_id_array='{2072,22166}'; --After Run
---After run
---https://www.reddit.com/r/whowouldwin/comments/1pd6m5g/vulkan_runs_a_marvel_brick_gauntlet_where_does_he/ns2rsvc/?context=3
 
 ########################################
 

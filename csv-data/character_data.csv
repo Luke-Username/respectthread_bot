@@ -5848,9 +5848,9 @@ Red Shift,{Galactus},t,{2081},616
 Red Shift,{616},t,{2081},616
 Marquis of Death,{616},t,{2584},Marvel
 Human Torch,"{`"Tim Story`"}",f,{8573},Fantastic Four Movies
-Ben Grimm,{616},t,"{2072,22166}",616
-Ben Grimm,{Marvel},t,"{2072,22166}",616
-Ben Grimm,{comics?},t,"{2072,22166}",616
+Ben Grimm,{616},t,"{26637,2072,22166}",616
+Ben Grimm,{Marvel},t,"{26637,2072,22166}",616
+Ben Grimm,{comics?},t,"{26637,2072,22166}",616
 Red Shift,{Marvel},t,{2081},616
 Firelord,{Herald},f,{2082},616
 Firelord,{Galactus},f,{2082},616
@@ -27053,11 +27053,6 @@ Ultimate Tigra,{1610},t,{22165},1610
 Sans,{Skeleton},f,"{5501,5498}",Undertale
 Sans,{Papyrus},f,"{5501,5498}",Undertale
 Sans,"{`"sans vs`"}",f,"{5501,5498}",Undertale
-Thing,"{`"Thing ?\\(616`"}",f,"{2072,22166}",616
-Thing,"{`"Thing ?\\[616`"}",f,"{2072,22166}",616
-Thing,"{`"Thing \\(Marvel`"}",f,"{2072,22166}",616
-Thing,"{`"Thing \\[Marvel`"}",f,"{2072,22166}",616
-Thing,"{`"616 Thing`"}",f,"{2072,22166}",616
 Allosaurus,"{`"Allosaurus vs Tyrannosaurus Claymation`"}",f,{22167},Allosaurus vs Tyrannosaurus (Claymation)
 The Bad Guys,"{`"The Bad Guys ?\\(The Bad Guys`"}",f,{22168},Dreamworks
 The Bad Guys,"{`"The Bad Guys (film|movie)`"}",f,{22168},Dreamworks
@@ -27081,6 +27076,7 @@ Edward Kenway,"{Assassin,Creed}",t,{22174},Assassin's Creed
 Edward Kenway,"{`"AC\\d`"}",t,{22174},Assassin's Creed
 Beem,{RRR},f,{22664},RRR
 Princess Snake,"{`"Dragon ?Ball`"}",f,{22665},Dragon Ball
+Thing,"{`"Thing ?\\(616`"}",f,"{26637,2072,22166}",616
 Heracles,{myth?(ical|olog(y|ical))?},t,{22175},Greek Mythology
 Lunatik,{616},f,{22176},616
 Tyrannosaurus rex Bull,"{`"Jurassic Park`"}",f,{22177},Jurassic Park
@@ -29656,7 +29652,6 @@ Nolt Marcus,"{`"Vampire Hunter D`"}",t,{23871},Vampire Hunter D
 Lara Croft,"{`"Shadow of the Tomb Raider`"}",t,"{11094,22643,22644}",Tomb Raider
 Lara Croft,{Reboot(ed)?},t,"{11094,22643,22644}",Tomb Raider
 Lara Croft,"{`"Tomb? Raider`"}",t,"{11094,22643,22644}",Tomb Raider
-Thing,"{`"vs\\.? (The )?Fantastic (Four|4)|Fantastic (Four|4) vs`",`"Invisible Woman`",`"Human Torch`"}",f,"{2072,22166}",616
 Adam Warlock,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Adam Warlock,{MCU},f,{},MCU
 SCP-1048,"{`"SCP Foundation`"}",t,{23872},""
@@ -29671,6 +29666,7 @@ Cairax Murrain,"{`"Ex(-| )Heroes`"}",t,{23877},Ex-Heroes
 Hu Feng,"{`"Grand Reign`"}",f,{23878},Grand Reign
 Sergeant Farryn,"{`"Grand Reign`"}",t,{23879},Grand Reign
 Warrior of Light,"{`"Final Fantasy`"}",f,"{25076,23435}",Final Fantasy
+Thing,"{`"vs\\.? (The )?Fantastic (Four|4)|Fantastic (Four|4) vs`",`"Invisible Woman`",`"Human Torch`"}",f,"{26637,2072,22166}",616
 Stella Advard,"{`"Grand Reign`"}",t,{23880},Grand Reign
 Ryuuji Kusakabe,"{`"Grand Reign`"}",t,{23881},Grand Reign
 Steve Gray,"{`"Burt Wonderstone`"}",f,{23882},The Incredible Burt Wonderstone
@@ -30017,6 +30013,7 @@ Yorozu,"{`"Jujus?t?s?u Kaisen`"}",f,{24037},Jujutsu Kaisen
 Yorozu,{JJK},f,{24037},Jujutsu Kaisen
 Lily Tora-Asi,"{`"S(tar )?Wars`"}",t,{24038},Star Wars
 Mr. Kim,"{`"I Get Stronger the More I Eat`"}",f,{24038},I Get Stronger the More I Eat
+The Thing,"{`"The Thing ?\\(Fantastic Four\\)`"}",f,"{26637,2072,22166}",616
 Brundlefly,"{`"The Fly`"}",t,{12425},The Fly
 Dom,"{`"Fast and (the )?Furious`"}",f,{135},The Fast and the Furious
 Dom,"{`"Fast & Furious`"}",f,{135},The Fast and the Furious
@@ -30034,7 +30031,6 @@ Q,"{`"Q ?\\(Q\\)`"}",f,{24055},Q
 Ruby Gillman,"{`"Teenage Kraken`"}",t,{24056},"Ruby Gillman, Teenage Kraken"
 Dargo Ktor,{8710},t,{24057},8710
 Pet Shop,"{`"I Get Stronger the More I Eat`"}",f,{24058},I Get Stronger the More I Eat
-The Thing,"{`"The Thing ?\\(Fantastic Four\\)`"}",f,"{2072,22166}",616
 Blue Border,"{`"Scott The Woz`"}",f,{24061},Scott The Woz
 Maxwell Hale,"{`"Ex(-| )Heroes`"}",f,{24062},Ex-Heroes
 Dr. Pac-Man,"{`"Kamen Rider`"}",f,{24063},Kamen Rider
@@ -30781,8 +30777,6 @@ Cartoon Cat,"{`"Trevor Henderson`"}",t,{24548},Trevor Henderson
 Jodah,"{`"Magic:? The Gathering`"}",f,{24544},Magic: The Gathering
 Jodah,{M:?TG},f,{24544},Magic: The Gathering
 Jodah,{Planeswalk(er)?s?},f,{24544},Magic: The Gathering
-Ultraman,"{`"Posts?(-| )?C(risis)?`"}",f,{3971},Post-Crisis
-Ultraman,"{`"New(-| )Earth`"}",f,{3971},Post-Crisis
 Sakura,"{Sanji,`"Sakura vs|vs\\.? Sakura`"}",f,{3971},Naruto
 Sakura,"{`"Base Sakura`"}",f,{3971},Naruto
 Sakura,{Jutsu},f,{3971},Naruto
@@ -34194,3 +34188,30 @@ Streaky the Supercat,"{`"DC Comics`"}",t,{26636},DC
 Streaky,"{Krypto,Dex(-?Starr)?|Superman}",f,{26636},DC
 Streaky the Supercat,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26636},Post-Flashpoint
 Streaky,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26636},Post-Flashpoint
+The Thing,"{Marvel,`"Luke Cage`"}",f,"{26637,2072,22166}",616
+The Thing,"{`"Marvel Bricks?`"}",f,"{26637,2072,22166}",616
+D-Man,"{Marvel,`"Luke Cage`"}",f,{2438},616
+D-Man,"{`"Marvel Bricks?`"}",f,{2438},616
+Ultron Drones,{61112},f,{26638},61112
+Glameow,{Zoey},f,{26639},Zoey
+Zoey,{Pok(e|é)m(o|a)n},f,{26640},Pokémon
+Masters of Evil,{Multivers(e|al)},f,{26641},Multiverse
+Multiversal Masters of Evil,{Marvel},t,{26641},Marvel
+Bounty Hunter,"{`"High On Life`"}",f,{26642},High On Life
+Scavengers,"{Transformers,IDW}",f,{26643},Transformers IDW
+Leslie,{Gumball},f,{26644},The Amazing World Of Gumball
+Mark Twelve,{616},f,{26645},616
+Mark Twelve,{Ultron},f,{26645},616
+Kris Kalenov,"{`"Winter Men`"}",f,{26646},The Winter Men
+Hammer of the Revolution,"{`"Winter Men`"}",f,{26647},The Winter Men
+4'8 Heavy,"{`"The 4'8 Heavy`"}",f,{26648},Meet the 4'8 Heavy
+Isaac Lightbrad,"{`"Lost ?Magic`"}",t,{26649},LostMagic
+Helena Kyle,"{`"Birds of Prey`"}",f,{26650},Birds of Prey
+Harley Quinn,"{`"Birds of Prey`"}",f,{26651},Birds of Prey
+Lily,"{V/H/S/,Siren}",f,{26652},V/H/S/
+Rhyperior,{Forrest},f,{26653},Forrest
+Sinnoh League Mecha,{Pok(e|é)m(o|a)n},t,{26654},Pokémon
+Thing,"{`"Thing ?\\[616`"}",f,"{26637,2072,22166}",616
+Thing,"{`"Thing \\(Marvel`"}",f,"{26637,2072,22166}",616
+Thing,"{`"Thing \\[Marvel`"}",f,"{26637,2072,22166}",616
+Thing,"{`"616 Thing`"}",f,"{26637,2072,22166}",616
