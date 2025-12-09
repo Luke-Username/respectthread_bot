@@ -5236,7 +5236,6 @@ Megamind,{Megamind},t,{1219},""
 Metro Man,{Megamind},t,{1220},Megamind
 Hulk,"{`"\\(Hulk Vs.?\\)`"}",f,{1210},(Hulk Vs.)
 Stitch,"{`"Lilo (and|&) Stitch`"}",f,{1216},Lilo & Stitch
-Bolt,{D(i|y)sneys?},f,{1190},Bolt
 Dante,"{`"Dante's Inferno`",`"An Animated Epic`"}",f,{1195},Dante's Inferno: An Animated Epic
 Gwen,"{`"Spider(-| )?Verse`"}",f,{25946},Into the Spider-Verse
 Spider-Woman,"{`"Spider(-| )?Verse`"}",f,{25946},Into the Spider-Verse
@@ -34215,3 +34214,22 @@ Thing,"{`"Thing ?\\[616`"}",f,"{26637,2072,22166}",616
 Thing,"{`"Thing \\(Marvel`"}",f,"{26637,2072,22166}",616
 Thing,"{`"Thing \\[Marvel`"}",f,"{26637,2072,22166}",616
 Thing,"{`"616 Thing`"}",f,"{26637,2072,22166}",616
+Percy Jackson,{book},t,"{5905,23655,23656}",Percy Jackson
+Donkey Kong,"{`"Donkey Kong Country.*show`"}",f,{26655},Donkey Kong Country
+King K. Rool,"{`"Donkey Kong Country.*show`"}",f,{26656},Donkey Kong Country
+Funky Kong,"{`"Donkey Kong Country.*show`"}",f,{26657},Donkey Kong Country
+Riri Hoshina,"{`"Magical Girl|Narco Wars`"}",f,{26658},Magical Girl and Narco Wars
+Velvet Crowe,{Tales},t,{26659},Tales of Berseria
+Laphicet,{Tales},f,{26660},Tales of Berseria
+Magilou,{Tales},f,{26661},Tales of Berseria
+Rokurou Rangetsu,{Tales},t,{26662},Tales of Berseria
+Eleanor Hume,{Tales},t,{26663},Tales of Berseria
+Beatrix Kiddo,{Fortnite},f,{26664},Fortnite
+Kururu,"{`"Undead Unluck`"}",f,{26665},Undead Unluck
+Kenny,{Kenny.*Pok(e|é)m(o|a)n},f,{26666},Pokémon
+Ursula,{Ursula.*Pok(e|é)m(o|a)n},f,{26667},Pokémon
+Rohan,"{`"Mystic Knights of Tir Na Nog`"}",f,{26668},Mystic Knights of Tir Na Nog
+Deidre,"{`"Mystic Knights of Tir Na Nog`"}",f,{26669},Mystic Knights of Tir Na Nog
+Ivar,"{`"Mystic Knights of Tir Na Nog`"}",f,{26670},Mystic Knights of Tir Na Nog
+Angus,"{`"Mystic Knights of Tir Na Nog`"}",f,{26671},Mystic Knights of Tir Na Nog
+Garrett,"{`"Mystic Knights of Tir Na Nog`"}",f,{26672},Mystic Knights of Tir Na Nog
