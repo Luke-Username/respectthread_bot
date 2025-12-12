@@ -107,6 +107,245 @@ cur = con.cursor()
 
 ########################################
 
+
+id = get_rt_id(cur, 'Respect Purugly (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1pidn3i/respect_purugly_pokemon_anime/')
+add_data(['Purugly'],
+'Purugly',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jinguji Tsukasa (Life With an Ordinary Guy Who Reincarnated into a Total Fantasy Knockout)', 'https://www.reddit.com/r/respectthreads/comments/1piqj23/respect_jinguji_tsukasa_life_with_an_ordinary_guy/')
+add_data(['Jinguji Tsukasa|Tsukasa Jinguji'],
+'Tsukasa Jinguji',
+False,
+True,
+[
+    ['Ordinary Guy|Total Fantasy Knockout']
+],
+'Life With an Ordinary Guy Who Reincarnated into a Total Fantasy Knockout',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hinata Tachibana (Life With an Ordinary Guy Who Reincarnated into a Total Fantasy Knockout)', 'https://www.reddit.com/r/respectthreads/comments/1pjb73j/respect_hinata_tachibana_life_with_an_ordinary/')
+add_data(['Hinata Tachibana'],
+'Hinata Tachibana',
+False,
+False,
+[
+    ['Ordinary Guy|Total Fantasy Knockout']
+],
+'Life With an Ordinary Guy Who Reincarnated into a Total Fantasy Knockout',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maypom (Life With an Ordinary Guy Who Reincarnated into a Total Fantasy Knockout)', 'https://www.reddit.com/r/respectthreads/comments/1pjhbhj/respect_maypom_life_with_an_ordinary_guy_who/')
+add_data(['Maypom'],
+'Maypom',
+False,
+False,
+[
+    ['Ordinary Guy|Total Fantasy Knockout']
+],
+'Life With an Ordinary Guy Who Reincarnated into a Total Fantasy Knockout',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Miko Kubota (Glitch Techs)', 'https://www.reddit.com/r/respectthreads/comments/1pium9q/respect_miko_kubota_glitch_techs/')
+add_data(['Miko Kubota'],
+'Miko Kubota',
+False,
+False,
+[
+    ['Glitch Techs?']
+],
+'Glitch Techs',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['ME_K\.?O\.?'],
+'ME_K.O.',
+False,
+False,
+[
+    ['Glitch Techs?']
+],
+'Glitch Techs',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Dick Tracy (Chester Gould''s Dick Tracy)", 'https://www.reddit.com/r/respectthreads/comments/1pj1qxd/respect_dick_tracy_chester_goulds_dick_tracy/')
+add_data(['Dick Tracy'],
+'Dick Tracy',
+False,
+True,
+[
+    ['Chester Goulds?']
+],
+'Chester Gould',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect the Space Coupe (Chester Gould''s Dick Tracy)", 'https://www.reddit.com/r/respectthreads/comments/1pj1r34/respect_the_space_coupe_chester_goulds_dick_tracy/')
+add_data(['Space Coupe'],
+'Space Coupe',
+False,
+False,
+[
+    ['Dick Tracy']
+],
+'Dick Tracy',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dick Tracy (Dick Tracy)', 'https://www.reddit.com/r/respectthreads/comments/1pj1r0m/respect_dick_tracy_dick_tracy/')
+add_data(['Dick Tracy'],
+'Dick Tracy',
+False,
+False,
+[
+    ['1990'], ['(film|movie)s?']
+],
+'1990',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Frank Castle, The Punisher (THE PUNISHER: DIRTY LAUNDRY)', 'https://www.reddit.com/r/respectthreads/comments/1pjaue7/respect_frank_castle_the_punisher_the_punisher/')
+add_data(['Punisher'],
+'Punisher',
+False,
+False,
+[
+    ['The Punisher:? Dirty Laundry']
+],
+'The Punisher: Dirty Laundry',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ondai (Oban Star Racers)', 'https://www.reddit.com/r/respectthreads/comments/1pjk4g8/respect_ondai_oban_star_racers/')
+add_data(['Ondai'],
+'Ondai',
+False,
+False,
+[
+    ['Oban Star Racers']
+],
+'Oban Star Racers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Human Bill (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1pjlz5p/respect_human_bill_fortnite/')
+add_data(['Human Bill'],
+'Human Bill',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Rafael Santoro! (Joe Ledger)', 'https://www.reddit.com/r/respectthreads/comments/1pjrewh/respect_rafael_santoro_joe_ledger/')
+add_data(['Rafael Santoro'],
+'Rafael Santoro',
+False,
+False,
+[
+    ['Joe Ledger']
+],
+'Joe Ledger',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Avatar (Street Fighter 6)', 'https://www.reddit.com/r/respectthreads/comments/1pi7664/respect_the_avatar_street_fighter_6/')
+add_data(['Avatar'],
+'Avatar',
+False,
+False,
+[
+    ['Street Fighter 6']
+],
+'Street Fighter 6',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nicolaus Maduro (Súper Bigote TV Show)', 'https://www.reddit.com/r/respectthreads/comments/1pjxb8j/respect_nicolaus_maduro_s%C3%BAper_bigote_tv_show/')
+add_data(['Nicolaus Maduro'],
+'Nicolaus Maduro',
+False,
+False,
+[
+    ['S(ú|u)per Bigote']
+],
+'Súper Bigote',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Francis York Morgan (Deadly Premonition)', 'https://www.reddit.com/r/respectthreads/comments/1pjvzzm/respect_francis_york_morgan_deadly_premonition/')
+add_data(['Francis York Morgan'],
+'Francis York Morgan',
+False,
+True,
+[
+    ['Deadly Premonition']
+],
+'Deadly Premonition',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
