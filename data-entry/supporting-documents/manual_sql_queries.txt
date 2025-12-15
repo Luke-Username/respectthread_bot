@@ -14,6 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character WHERE default_name='Dutch' AND version='{"Predator"}'; --https://www.reddit.com/r/whowouldwin/comments/1pmzurv/could_the_van_der_linde_gang_red_dead_redemption/nu4ffem/?context=3
+
 ########################################
 
 ########################################

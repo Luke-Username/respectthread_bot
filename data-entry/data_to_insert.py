@@ -107,6 +107,345 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 9276, 'Respect Karma Abyss (I Can Go Adventuring by Myself, Mom!: The Son Raised by the Strongest Overprotective Dragon-Mom)', 'https://www.reddit.com/r/respectthreads/comments/1pmve52/respect_karma_abyss_i_can_go_adventuring_by/')
+
+########################################
+
+add_data(['Dutch'],
+'Dutch',
+False,
+False,
+[
+    ['Dutch ?\(Predator\)'], ["Dutch''?s? Team", 'Predator'], ['Dutch in.*Predator']
+],
+'Predator',
+'{16762}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/hp029j/john_rambo_rambo_vs_dutch_predator/
+#https://www.reddit.com/r/whowouldwin/comments/1m7k58w/rambo_first_blood_vs_dutch_predator_in_a_guerilla/
+#https://www.reddit.com/r/whowouldwin/comments/1dhy9iv/dutchs_team_predator_is_placed_in_a_wrong_horror/
+#https://www.reddit.com/r/whowouldwin/comments/1hts1sf/the_following_characters_replace_dutch_in/
+
+
+########################################
+
+add_data(['Ice(-| )?man'],
+'Iceman',
+False,
+False,
+[
+    ['Richard Kuklinski']
+],
+'Richard Kuklinski',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1pm3pux/anton_chigurh_vs_the_iceman_movie_psychopath_vs/nu03slr/?context=3
+
+
+########################################
+
+add_data(['Asha'],
+'Asha',
+False,
+False,
+[
+    ['Mirabel', 'Moana']
+],
+'Wish',
+'{25869}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1plnf05/mirabel_moana_merida_asha_and_rapunzel_debate/nttyml8/?context=3
+
+add_data(['Belle'],
+'Belle',
+False,
+False,
+[
+    ['Ariel', 'Cinderella']
+],
+'Beauty and the Beast',
+'{26010}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1plnf05/mirabel_moana_merida_asha_and_rapunzel_debate/nttyml8/?context=3
+
+add_data(['Mirabel'],
+'Mirabel',
+False,
+False,
+[
+    ['Merida', 'Moana']
+],
+'Encanto',
+'{21201}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1plnf05/mirabel_moana_merida_asha_and_rapunzel_debate/nttyml8/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect Team Deus Ex Machina (Character Scramble)', 'https://www.reddit.com/r/respectthreads/comments/1pkscv1/respect_team_deus_ex_machina_character_scramble/')
+add_data(['Deus Ex Machina'],
+'Deus Ex Machina',
+True,
+False,
+[
+    ['Character Scramble']
+],
+'Character Scramble',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect X (Pokemon Adventures)', 'https://www.reddit.com/r/respectthreads/comments/1pksd1v/respect_x_pokemon_adventures/')
+add_data(['X'],
+'X',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yvonna Gabena (Pokemon Adventures)', 'https://www.reddit.com/r/respectthreads/comments/1pksd4m/respect_yvonna_gabena_pokemon_adventures/')
+add_data(['Y'],
+'Y',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Yvonna Gabena'],
+'Yvonna Gabena',
+False,
+True,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nona Ewin (WITCHRIV)', 'https://www.reddit.com/r/respectthreads/comments/1plcrup/respect_nona_ewin_witchriv/')
+add_data(['Nona Ewin'],
+'Nona Ewin',
+False,
+False,
+[
+    ['WITCHRIV']
+],
+'WITCHRIV',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Marisa Rossetti (Street Fighter)', 'https://www.reddit.com/r/respectthreads/comments/1plw7xg/respect_marisa_rossetti_street_fighter/')
+add_data(['Marisa Rossetti'],
+'Marisa Rossetti',
+False,
+True,
+[
+    ['Street Fighter']
+],
+'Street Fighter',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Karen Aijo (Revue Starlight)', 'https://www.reddit.com/r/respectthreads/comments/1pm0n8l/respect_karen_aijo_revue_starlight/')
+add_data(['Karen Aijo'],
+'Karen Aijo',
+False,
+False,
+[
+    ['Revue Starlight']
+],
+'Revue Starlight',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hikari Kagura (Revue Starlight)', 'https://www.reddit.com/r/respectthreads/comments/1pm0n8r/respect_hikari_kagura_revue_starlight/')
+add_data(['Hikari Kagura'],
+'Hikari Kagura',
+False,
+False,
+[
+    ['Revue Starlight']
+],
+'Revue Starlight',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Scarlet (Captain Scarlet and the Mysterons)', 'https://www.reddit.com/r/respectthreads/comments/1pme8xd/respect_captain_scarlet_captain_scarlet_and_the/')
+add_data(['Captain Scarlet'],
+'Captain Scarlet',
+False,
+False,
+[
+    ['Captain Scarlet and the Mysterons']
+],
+'Captain Scarlet and the Mysterons',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Connor of Daventry (King''s Quest: Mask of Eternity)", 'https://www.reddit.com/r/respectthreads/comments/1pme8y4/respect_connor_of_daventry_kings_quest_mask_of/')
+add_data(['Connor'],
+'Connor',
+False,
+False,
+[
+    ["King''?s Quest"]
+],
+"King''s Quest",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kamen Rider (Shin Kamen Rider)', 'https://www.reddit.com/r/respectthreads/comments/1pmjz9p/respect_kamen_rider_shin_kamen_rider/')
+add_data(['Kamen Rider'],
+'Kamen Rider',
+False,
+False,
+[
+    ['Shin Kamen Rider']
+],
+'Shin Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Takeshi Hongo'],
+'Takeshi Hongo',
+False,
+False,
+[
+    ['Shin Kamen Rider']
+],
+'Shin Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kamen Rider No. 2 (Shin Kamen Rider)', 'https://www.reddit.com/r/respectthreads/comments/1pmjzb1/respect_kamen_rider_no_2_shin_kamen_rider/')
+add_data(['Kamen Rider No\.? 2'],
+'Kamen Rider No. 2',
+False,
+False,
+[
+    ['Shin Kamen Rider']
+],
+'Shin Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kamen Rider No. 0 (Shin Kamen Rider)', 'https://www.reddit.com/r/respectthreads/comments/1pmjzcg/respect_kamen_rider_no_0_shin_kamen_rider/')
+add_data(['Kamen Rider No. 0'],
+'Kamen Rider No. 0',
+False,
+False,
+[
+    ['Shin Kamen Rider']
+],
+'Shin Kamen Rider',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Beast (Angel)', 'https://www.reddit.com/r/respectthreads/comments/1pmowix/respect_the_beast_angel/')
+add_data(['The Beast'],
+'The Beast',
+False,
+False,
+[
+    ['The Beast ?\(Angel\)']
+],
+'Angel',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect SCP 352, Baba Yaga (SCP Foundation)', 'https://www.reddit.com/r/respectthreads/comments/1pmowjz/respect_scp_352_baba_yaga_scp_foundation/')
+add_data(['SCP ?(-| )? ?352'],
+'SCP-352',
+False,
+True,
+[
+    ['Baba Yaga']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, "Respect SCP 3783, Baba Yaga''s Cottage (SCP Foundation)", 'https://www.reddit.com/r/respectthreads/comments/1pmowln/respect_scp_3783_baba_yagas_cottage_scp_foundation/')
+add_data(['SCP ?(-| )? ?3783'],
+'SCP-3783',
+False,
+True,
+[
+    ["Baba Yaga''?s Cottage"]
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Travis Bickle (Taxi Driver)', 'https://www.reddit.com/r/respectthreads/comments/1pmq3sq/respect_travis_bickle_taxi_driver/')
+add_data(['Travis Bickle'],
+'Travis Bickle',
+False,
+True,
+[
+    ['Taxi Driver']
+],
+'Taxi Driver',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
