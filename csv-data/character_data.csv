@@ -22705,7 +22705,6 @@ Lady Octopus,{616},t,{16760},616
 Lady Octopus,{Marvel},t,{16760},616
 Lady Stilt-Man,{616},t,{16761},616
 Lady Stilt-Man,{Marvel},t,{16761},616
-Dutch,{Predator},f,{16762},Predator
 Dutch,{Schaefer},f,{16762},Predator
 Scooby-Doo,"{`"Scooby(-| )?Doo!? Team(-| )Up`"}",f,{16763},Scooby-Doo! Team-Up
 Link,{CD-?i},f,{16764},CD-i
@@ -34250,3 +34249,28 @@ Rafael Santoro,"{`"Joe Ledger`"}",f,{26684},Joe Ledger
 Avatar,"{`"Street Fighter 6`"}",f,{26685},Street Fighter 6
 Nicolaus Maduro,"{`"S(ú|u)per Bigote`"}",f,{26686},Súper Bigote
 Francis York Morgan,"{`"Deadly Premonition`"}",t,{26687},Deadly Premonition
+Dutch,"{`"Dutch ?\\(Predator\\)`"}",f,{16762},Predator
+Dutch,"{`"Dutch'?s? Team`",Predator}",f,{16762},Predator
+Dutch,"{`"Dutch in.*Predator`"}",f,{16762},Predator
+Iceman,"{`"Richard Kuklinski`"}",f,{},Richard Kuklinski
+Asha,"{Mirabel,Moana}",f,{25869},Wish
+Belle,"{Ariel,Cinderella}",f,{26010},Beauty and the Beast
+Mirabel,"{Merida,Moana}",f,{21201},Encanto
+Deus Ex Machina,"{`"Character Scramble`"}",f,{26704},Character Scramble
+X,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{26705},Pokémon Adventures
+Y,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{26706},Pokémon Adventures
+Yvonna Gabena,"{`"Pok(e|é)m(o|a)n Adventures`"}",t,{26706},Pokémon Adventures
+Nona Ewin,{WITCHRIV},f,{26707},WITCHRIV
+Marisa Rossetti,"{`"Street Fighter`"}",t,{26708},Street Fighter
+Karen Aijo,"{`"Revue Starlight`"}",f,{26709},Revue Starlight
+Hikari Kagura,"{`"Revue Starlight`"}",f,{26710},Revue Starlight
+Captain Scarlet,"{`"Captain Scarlet and the Mysterons`"}",f,{26711},Captain Scarlet and the Mysterons
+Connor,"{`"King'?s Quest`"}",f,{26712},King's Quest
+Kamen Rider,"{`"Shin Kamen Rider`"}",f,{26713},Shin Kamen Rider
+Kamen Rider Ichigo,"{`"Shin Kamen Rider`"}",f,{26713},Shin Kamen Rider
+Kamen Rider No. 2,"{`"Shin Kamen Rider`"}",f,{26714},Shin Kamen Rider
+Kamen Rider No. 0,"{`"Shin Kamen Rider`"}",f,{26715},Shin Kamen Rider
+The Beast,"{`"The Beast ?\\(Angel\\)`"}",f,{26716},Angel
+SCP-352,"{`"Baba Yaga`"}",t,{26717},""
+SCP-3783,"{`"Baba Yaga'?s Cottage`"}",t,{26718},""
+Travis Bickle,"{`"Taxi Driver`"}",t,{26719},Taxi Driver
