@@ -107,6 +107,322 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 14491, 'Respect War (Darksiders)', 'https://www.reddit.com/r/respectthreads/comments/1pp0v9x/respect_war_darksiders/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Strife (Darksiders)', 'https://www.reddit.com/r/respectthreads/comments/1pp0vc6/respect_strife_darksiders/')
+add_data(['Strife'],
+'Strife',
+False,
+False,
+[
+    ['Darksiders']
+],
+'Darksiders',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zephyro (Honkai: Star Rail)', 'https://www.reddit.com/r/respectthreads/comments/1pn83ie/respect_zephyro_honkai_star_rail/')
+add_data(['Zephyro'],
+'Zephyro',
+False,
+False,
+[
+    ['Honkai']
+],
+'Honkai: Star Rail',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Mil Muertes (Lucha Underground)', 'https://www.reddit.com/r/respectthreads/comments/1pnm5km/respect_mil_muertes_lucha_underground/')
+add_data(['Mil Muertes'],
+'Mil Muertes',
+False,
+True,
+[
+    ['Lucha Underground']
+],
+'Lucha Underground',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nick Russel, the Red Mystic Ranger (Power Rangers Mystic Force)', 'https://www.reddit.com/r/respectthreads/comments/1po2dwe/respect_nick_russel_the_red_mystic_ranger_power/')
+add_data(['Red Mystic Ranger'],
+'Red Mystic Ranger',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Nick Russel'],
+'Nick Russel',
+False,
+False,
+[
+    ['Power Rangers?'], ['Mystic Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Koragg / Leanbow, the Wolf Warrior (Power Rangers Mystic Force)', 'https://www.reddit.com/r/respectthreads/comments/1po2e0z/respect_koragg_leanbow_the_wolf_warrior_power/')
+add_data(['Koragg'],
+'Koragg',
+False,
+False,
+[
+    ['Rangers?|Mystic Force|Knight Wolf']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Leanbow'],
+'Leanbow',
+False,
+False,
+[
+    ['Power Rangers?|Mystic Rangers?|Mystic Force']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Titan Megazord (Power Rangers Mystic Force)', 'https://www.reddit.com/r/respectthreads/comments/1po2e1h/respect_the_titan_megazord_power_rangers_mystic/')
+add_data(['Titan Megazord'],
+'Titan Megazord',
+False,
+True,
+[
+    ['Power Rangers?|Mystic Rangers?|Mystic Force']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Daggeron, the Solaris Knight (Power Rangers Mystic Force)', 'https://www.reddit.com/r/respectthreads/comments/1po2e2a/respect_daggeron_the_solaris_knight_power_rangers/')
+add_data(['Daggeron'],
+'Daggeron',
+False,
+False,
+[
+    ['Rangers?|Mystic Force|Solaris Knight']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Chip Thorn, the Yellow Mystic Ranger (Power Rangers Mystic Force)', 'https://www.reddit.com/r/respectthreads/comments/1po75p4/respect_chip_thorn_the_yellow_mystic_ranger_power/')
+add_data(['Yellow Mystic Ranger'],
+'Yellow Mystic Ranger',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Chip Thorn'],
+'Chip Thorn',
+False,
+False,
+[
+    ['Power Rangers?'], ['Mystic Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Madison Rocca, the Blue Mystic Ranger (Power Rangers Mystic Force)', 'https://www.reddit.com/r/respectthreads/comments/1po75qv/respect_madison_rocca_the_blue_mystic_ranger/')
+add_data(['Blue Mystic Ranger'],
+'Blue Mystic Ranger',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Madison Rocca'],
+'Madison Rocca',
+False,
+False,
+[
+    ['Power Rangers?'], ['Mystic Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Vida Rocca, the Pink Mystic Ranger (Power Rangers Mystic Force)', 'https://www.reddit.com/r/respectthreads/comments/1po75rt/respect_vida_rocca_the_pink_mystic_ranger_power/')
+add_data(['Pink Mystic Ranger'],
+'Pink Mystic Ranger',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Vida Rocca'],
+'Vida Rocca',
+False,
+False,
+[
+    ['Power Rangers?'], ['Mystic Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Xander Bly, the Green Mystic Ranger (Power Rangers Mystic Force)', 'https://www.reddit.com/r/respectthreads/comments/1po75t9/respect_xander_bly_the_green_mystic_ranger_power/')
+add_data(['Green Mystic Ranger'],
+'Green Mystic Ranger',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Xander Bly'],
+'Xander Bly',
+False,
+False,
+[
+    ['Power Rangers?'], ['Mystic Rangers?']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Manticore Megazord (Power Rangers Mystic Force)', 'https://www.reddit.com/r/respectthreads/comments/1po75ur/respect_the_manticore_megazord_power_rangers/')
+add_data(['Manticore Megazord'],
+'Manticore Megazord',
+False,
+True,
+[
+    ['Power Rangers']
+],
+'Power Rangers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dick Grayson, Super Robin (DC Comics, New52/Rebirth)', 'https://www.reddit.com/r/respectthreads/comments/1po4k2s/respect_dick_grayson_super_robin_dc_comics/')
+add_data(['Dick Grayson'],
+'Dick Grayson',
+False,
+False,
+[
+    ['Super Robin']
+],
+'Super Robin',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tia! (Diamond Jack)', 'https://www.reddit.com/r/respectthreads/comments/1po902t/respect_tia_diamond_jack/')
+add_data(['Tia'],
+'Tia',
+False,
+False,
+[
+    ['Diamond Jack']
+],
+'Diamond Jack',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ms Green! (The Teacher from the Black Lagoon)', 'https://www.reddit.com/r/respectthreads/comments/1ppaizi/respect_ms_green_the_teacher_from_the_black_lagoon/')
+add_data(['Mr?s\.? Green'],
+'Mrs. Green',
+False,
+False,
+[
+    ['Teacher from the Black Lagoon']
+],
+'The Teacher from the Black Lagoon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cheetah (Justice League: Doom)', 'https://www.reddit.com/r/respectthreads/comments/1ppb0pk/respect_cheetah_justice_league_doom/')
+add_data(['Cheetah'],
+'Cheetah',
+False,
+False,
+[
+    ['Justice League:? Doom']
+],
+'Justice League: Doom',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
