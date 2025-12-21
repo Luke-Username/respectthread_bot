@@ -108,6 +108,8 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 14491, 'Respect War (Darksiders)', 'https://www.reddit.com/r/respectthreads/comments/1pp0v9x/respect_war_darksiders/')
+update_respectthread(cur, 5072, 'Respect Frank Horrigan (Fallout)', 'https://www.reddit.com/r/respectthreads/comments/1pqzmis/respect_frank_horrigan_fallout/')
+update_respectthread(cur, 5306, 'Respect Reptile (Mortal Kombat)', 'https://www.reddit.com/r/respectthreads/comments/1prb0xx/respect_reptile_mortal_kombat/')
 
 ########################################
 
@@ -419,6 +421,217 @@ False,
     ['Justice League:? Doom']
 ],
 'Justice League: Doom',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jared Carthalion, the Shadow Mage (Magic: The Gathering)', 'https://www.reddit.com/r/respectthreads/comments/1ppq04w/respect_jared_carthalion_the_shadow_mage_magic/')
+add_data(['Jared Carthalion'],
+'Jared Carthalion',
+False,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Toymaker (Doctor Who)', 'https://www.reddit.com/r/respectthreads/comments/1ppq069/respect_the_toymaker_doctor_who/')
+add_data(['Toymaker'],
+'Toymaker',
+False,
+False,
+[
+    ['Doctor Who']
+],
+'Doctor Who',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Metallo (Superman: Welcome to Metropolis)', 'https://www.reddit.com/r/respectthreads/comments/1pqiykf/respect_metallo_superman_welcome_to_metropolis/')
+add_data(['Metallo'],
+'Metallo',
+False,
+False,
+[
+    ['Superman:? Welcome to Metropolis']
+],
+'Superman: Welcome to Metropolis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ultraman (DCU)', 'https://www.reddit.com/r/respectthreads/comments/1pqizwv/respect_ultraman_dcu/')
+add_data(['Ultraman'],
+'Ultraman',
+False,
+False,
+[
+    ['Ultraman ?\(DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1msnxw1/ken_sato_ultraman_rising_vs_the_hammer_of_boravia/
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Engineer (DCU)', 'https://www.reddit.com/r/respectthreads/comments/1pqjgxw/respect_the_engineer_dcu/')
+add_data(['Engineer'],
+'Engineer',
+False,
+False,
+[
+    ['Engineer ?\(DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lex Luthor (DCU)', 'https://www.reddit.com/r/respectthreads/comments/1prbn6p/respect_lex_luthor_dcu/')
+add_data(['Lex Luth(o|e)r'],
+'Lex Luthor',
+False,
+False,
+[
+    ['DCU']
+],
+'DCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sun Wukong (The Monkey King Trilogy)', 'https://www.reddit.com/r/respectthreads/comments/1pqjw7g/respect_sun_wukong_the_monkey_king_trilogy/')
+add_data(['Sun Wu ?Kong'],
+'Sun Wukong',
+False,
+False,
+[
+    ['The Monkey King Trilogy'], ['Soi Cheang']
+],
+'The Monkey King Trilogy',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect the Bull Demon King (The Monkey King: Havoc in Heaven''s Palace)", 'https://www.reddit.com/r/respectthreads/comments/1pqjw7v/respect_the_bull_demon_king_the_monkey_king_havoc/')
+add_data(['Bull Demon King'],
+'Bull Demon King',
+False,
+False,
+[
+    ['The Monkey King Trilogy'], ["Havoc in Heaven''s Palace"]
+],
+'The Monkey King Trilogy',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect the Jade Emperor (The Monkey King: Havoc in Heaven''s Palace)", 'https://www.reddit.com/r/respectthreads/comments/1pqjw8k/respect_the_jade_emperor_the_monkey_king_havoc_in/')
+add_data(['Jade Emperor'],
+'Jade Emperor',
+False,
+False,
+[
+    ['The Monkey King Trilogy'], ["Havoc in Heaven''s Palace"]
+],
+'The Monkey King Trilogy',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Fusion of Superman, Batman and Green Lantern (DC, Rebirth)', 'https://www.reddit.com/r/respectthreads/comments/1pqofq7/respect_the_fusion_of_superman_batman_and_green/')
+add_data(['Fusion of Superman, Batman and Green Lantern'],
+'Fusion of Superman, Batman and Green Lantern',
+False,
+True,
+[
+    ['Rebirth']
+],
+'Rebirth',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Norman Bates (Psycho)', 'https://www.reddit.com/r/respectthreads/comments/1prdseo/respect_norman_bates_psycho/')
+add_data(['Norman Bates'],
+'Norman Bates',
+False,
+True,
+[
+    ['Psycho']
+],
+'Psycho',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jack/Tyler Durden (Fight Club)', 'https://www.reddit.com/r/respectthreads/comments/1prs0eh/respect_jacktyler_durden_fight_club/')
+add_data(['Tyler Durden'],
+'Tyler Durden',
+False,
+True,
+[
+    ['Fight Club']
+],
+'Fight Club',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Max Payne (Max Payne)', 'https://www.reddit.com/r/respectthreads/comments/1ps47q1/respect_max_payne_max_payne/')
+add_data(['Max Payne'],
+'Max Payne',
+False,
+True,
+[
+    ['Max Payne ?\(Max Payne 3\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Becky Brewster (#BLUD)', 'https://www.reddit.com/r/respectthreads/comments/1ps47qg/respect_becky_brewster_blud/')
+add_data(['Becky Brewster'],
+'Becky Brewster',
+False,
+False,
+[
+    ['BLUD']
+],
+'#BLUD',
 '{' + '{}'.format(id) + '}'
 )
 #
