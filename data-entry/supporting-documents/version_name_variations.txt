@@ -752,6 +752,12 @@ DEATH BATTLE!
 	Displayed Version Name
 		"DEATH BATTLE!"
 
+Delicious in Dungeon
+	Version
+		['Delicious in Dungeon'], ['Dungeon Meshi']
+	Displayed Version Name
+		'Delicious in Dungeon'
+
 Demon Slayer: Kimetsu no Yaiba
 	Version
 		['Demon ?Slayer'], ['Kimetsu no Yaiba'], ['KnY']
