@@ -27080,7 +27080,6 @@ Lunatik,{616},f,{22176},616
 Tyrannosaurus rex Bull,"{`"Jurassic Park`"}",f,{22177},Jurassic Park
 Elijah,{Prophet},f,{22178},Prophet
 Taiyo Asano,"{`"Yozakura Family`"}",t,{22179},Mission: Yozakura Family
-Alucard,"{`"Castle(-| )?vania`"}",f,"{14492,1252}",Castlevania
 Europa,{Fate},f,{22180},Fate
 Sun-Hee,"{`"The Boys`"}",f,{22181},The Boys
 Dorothy Wayneright,"{`"Big(-| )O`"}",t,{22182},The Big O
@@ -27135,6 +27134,7 @@ Kitana,"{`"Skull?duggery Pleasant`"}",f,{5957},Skulduggery Pleasant
 Kitana,"{`"Kitana (Hillher|Kella)way`"}",f,{5957},Skulduggery Pleasant
 General Washingtoad,"{`"Super Mario Bro(ther)?s\\.? Super Show`"}",t,{22195},Super Mario Brothers Super Show!
 Steve,"{`"Steve with commands?`"}",f,{5647},Minecraft
+Alucard,"{`"Castle(-| )?vania`"}",f,"{26750,14492,1252}",Castlevania
 Hit-Monkey,"{`"Hit(-| )Monkey.*TV`"}",f,{},TV Series
 Kaguya,{Akatsuki},f,{3954},Naruto
 Kaguya,"{`"Ten Tails`"}",f,{3954},Naruto
@@ -29002,8 +29002,6 @@ Obelisk the Tormentor,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23445},Yu-Gi-Oh!
 Winged Dragon of Ra,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23445},Yu-Gi-Oh!
 Dark Magician Girl,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23446},Yu-Gi-Oh!
 Magical Hats,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23448},Yu-Gi-Oh!
-Yugi Muto,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,{23449},Yu-Gi-Oh!
-Yugi,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23449},Yu-Gi-Oh!
 Doombreaker,{Rebirth},f,{23450},Rebirth
 Doombreaker,"{`"Lloyd Crayton`"}",f,{23450},Rebirth
 Doombreaker,{DC},f,{23450},Rebirth
@@ -29030,6 +29028,8 @@ Blue-Eyes,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,{23464},Yu-Gi-Oh!
 Rallen,{Spectrobes},f,{23465},Spectrobes
 Isaac,{Netflix},f,"{6574,23466}",Netflix's Castlevania
 Garfield,"{`"Animation Picture Company`"}",f,{23441},The Animation Picture Company
+Yugi Muto,"{`"Yu(-| )?Gi(-| )?Oh`"}",t,"{24749,23449}",Yu-Gi-Oh!
+Yugi,"{`"Yu(-| )?Gi(-| )?Oh`"}",f,"{24749,23449}",Yu-Gi-Oh!
 Whitebeard,{Kaido},f,{4089},One Piece
 Zeus,"{`"Zeus, DC`"}",f,{17373},DC
 Caleb,{Blood},f,{23484},Blood
@@ -34318,3 +34318,30 @@ Norman Bates,{Psycho},t,{26746},Psycho
 Tyler Durden,"{`"Fight Club`"}",t,{26747},Fight Club
 Max Payne,"{`"Max Payne ?\\(Max Payne 3\\)`"}",t,{26748},""
 Becky Brewster,{BLUD},f,{26749},#BLUD
+Wolverine,"{Batman.*Wolverine|Wolverine.*Batman,vs}",f,{2391},616
+Chance,"{`"Chance ?\\(Forsaken\\)`"}",f,{26762},Forsaken
+Dante the Great,"{`"V/?H/?S:? Viral`"}",f,{26763},V/H/S: Viral
+Ality Mellowlink,"{`"Armor Hunter Mellowlink`"}",t,{26764},Armor Hunter Mellowlink
+Joe 90,"{`"Joe 90 ?\\(Joe 90`"}",t,{26765},""
+Pipo Snake,"{`"Mesal Gear`"}",f,{26766},Mesal Gear Solid: Snake Escape
+Road Runner,"{`"Looney Tunes`"}",t,{26767},Looney Tunes
+Ghosts,"{`"A Christmas Carol`"}",f,{26768},A Christmas Carol
+Ghosts of Christmas,"{`"A Christmas Carol`"}",t,{26768},A Christmas Carol
+Three Ghosts,{Christmas},f,{26768},A Christmas Carol
+Christmas Trees,{Treevenge},f,{26769},Treevenge
+Vulture,"{`"Swallowed Star`"}",f,{26770},Swallowed Star
+Li Yao,"{`"Swallowed Star`"}",f,{26770},Swallowed Star
+Winged Lion,"{`"Delicious in Dungeon`"}",f,{26771},Delicious in Dungeon
+Winged Lion,"{`"Dungeon Meshi`"}",f,{26771},Delicious in Dungeon
+Laios' Party,"{`"Delicious in Dungeon`"}",t,{26772},Delicious in Dungeon
+Laios' Party,"{`"Dungeon Meshi`"}",t,{26772},Delicious in Dungeon
+Laios,"{`"Delicious in Dungeon`"}",f,{26772},Delicious in Dungeon
+Laios,"{`"Dungeon Meshi`"}",f,{26772},Delicious in Dungeon
+Marcille,"{`"Delicious in Dungeon`"}",f,{26772},Delicious in Dungeon
+Marcille,"{`"Dungeon Meshi`"}",f,{26772},Delicious in Dungeon
+Senshi,"{`"Delicious in Dungeon`"}",f,{26772},Delicious in Dungeon
+Senshi,"{`"Dungeon Meshi`"}",f,{26772},Delicious in Dungeon
+Izutsumi,"{`"Delicious in Dungeon`"}",f,{26772},Delicious in Dungeon
+Izutsumi,"{`"Dungeon Meshi`"}",f,{26772},Delicious in Dungeon
+Chilchuck,"{`"Delicious in Dungeon`"}",f,{26772},Delicious in Dungeon
+Chilchuck,"{`"Dungeon Meshi`"}",f,{26772},Delicious in Dungeon

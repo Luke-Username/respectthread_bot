@@ -14,13 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character SET rt_id_array='{24749, 23449}' WHERE rt_id_array='{23449}'; --https://www.reddit.com/r/respectthread_bot/comments/1pv30a6/yugi_muto_yugioh_manga/?share_id=GurIjsyYmLHcwv_H3zrDk
-
-########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Alucard (Castlevania)', 'https://www.reddit.com/r/respectthreads/comments/1pt0um5/respect_alucard_castlevania/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1pt0um5/respect_alucard_castlevania/';
-UPDATE character SET rt_id_array='{?, 14492,1252}' WHERE rt_id_array='{14492,1252}';
-
 ########################################
 
 ########################################
