@@ -107,6 +107,19 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Acheron (Honkai: Star Rail)', 'https://www.reddit.com/r/respectthreads/comments/1pwz7ti/respect_acheron_honkai_star_rail/')
+add_data(['Acheron'],
+'Acheron',
+False,
+False,
+[
+    ['Honkai|Star Rail']
+],
+'Honkai: Star Rail',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
