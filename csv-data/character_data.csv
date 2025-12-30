@@ -19330,9 +19330,6 @@ Mercenaries,{TF2},f,{5483},TF2
 Mercenaries,"{`"Team Fortress`"}",f,{5483},TF2
 Mercs,{TF2},f,{5483},TF2
 Mercs,"{`"Team Fortress`"}",f,{5483},TF2
-Scout,{TF2},f,{5483},TF2
-Scout,"{`"Team Fortress`"}",f,{5483},TF2
-Scout,{Tracer},f,{5483},TF2
 Engineer,{TF2},f,{5483},TF2
 Engineer,"{`"Team Fortress`"}",f,{5483},TF2
 Bryan Fury,{Tekken},t,{5485},Tekken
@@ -19365,6 +19362,9 @@ Demoman,{TF2},t,{5473},TF2
 Demoman,"{`"Team Fortress`"}",t,{5473},TF2
 Sniper,{TF2},f,{5481},TF2
 Sniper,"{`"Team Fortress`"}",f,{5481},TF2
+Scout,{TF2},f,{26773},TF2
+Scout,"{`"Team Fortress`"}",f,{26773},TF2
+Scout,{Tracer},f,{26773},TF2
 True Ogre,{Tekken},t,{5493},Tekken
 Ogre,{Tekken},f,{5493},Tekken
 Duke Fishron,{Terraria},t,{5494},Terraria
@@ -19663,9 +19663,6 @@ Skeppy,{Minecraft},t,{14910},""
 Sea Dragon,{Seiya},f,{14911},Saint Seiya
 Gemini Kanon,{Seiya},t,{14911},Saint Seiya
 Grettir,{Saga},t,{14912},Grettir's Saga
-Merrin,"{`"S(tar )?Wars`"}",t,{14913},Star Wars
-Merrin,"{`"Fallen Order`"}",t,{14913},Star Wars
-Merrin,{JFO},t,{14913},Star Wars
 Syndrome,{Incredibles?},f,{14914},The Incredibles
 Syndrome,{Buddy},f,{14914},The Incredibles
 Syndrome,"{`"zero(-| )point`"}",f,{14914},The Incredibles
@@ -19704,6 +19701,7 @@ Sakuragi Naruha,{TAMNI},t,{14916},Toaru Majutsu no Index
 Sakuragi Naruha,{Raildex},t,{14916},Toaru Majutsu no Index
 Yakumaru,"{`"To ?aru`"}",f,{14916},Toaru Majutsu no Index
 Yakumaru,{Index(verse)?},f,{14916},Toaru Majutsu no Index
+Merrin,{JFO},t,{26774},Star Wars
 Yakumaru,{TAMNI},f,{14916},Toaru Majutsu no Index
 Yakumaru,{Raildex},f,{14916},Toaru Majutsu no Index
 Yakumaru Itsuki,"{`"To ?aru`"}",t,{14916},Toaru Majutsu no Index
@@ -34345,3 +34343,6 @@ Izutsumi,"{`"Delicious in Dungeon`"}",f,{26772},Delicious in Dungeon
 Izutsumi,"{`"Dungeon Meshi`"}",f,{26772},Delicious in Dungeon
 Chilchuck,"{`"Delicious in Dungeon`"}",f,{26772},Delicious in Dungeon
 Chilchuck,"{`"Dungeon Meshi`"}",f,{26772},Delicious in Dungeon
+Merrin,"{`"S(tar )?Wars`"}",t,{26774},Star Wars
+Merrin,"{`"Fallen Order`"}",t,{26774},Star Wars
+Acheron,"{`"Honkai|Star Rail`"}",f,{26775},Honkai: Star Rail

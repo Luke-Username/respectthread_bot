@@ -14,16 +14,7 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-UPDATE character_name SET name='S(a|e)xton Hale' WHERE name='Saxton Hale'; --https://www.reddit.com/r/whowouldwin/comments/1pxtsux/sexton_hale_tf2_vs_little_mac_low_tier_tournament/
-
 ########################################
-
-INSERT INTO respectthread (title, link) VALUES ('Respect The Scout (Team Fortress 2)', 'https://www.reddit.com/r/respectthreads/comments/1pxnj5l/respect_the_scout_team_fortress_2/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1pxnj5l/respect_the_scout_team_fortress_2/';
-UPDATE character SET rt_id_array='{?}' WHERE default_name='Scout' AND displayed_version_name='TF2';
-
-
-INSERT INTO respectthread (title, link) VALUES ('Respect Merrin (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/1px9902/respect_merrin_star_wars_canon/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1px9902/respect_merrin_star_wars_canon/';
-UPDATE character SET rt_id_array='{?2}' WHERE rt_id_array='{14913}';
 
 ########################################
 

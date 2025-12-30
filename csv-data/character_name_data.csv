@@ -9843,7 +9843,6 @@ Richter Abend,Richter Abend,f
 Yuri Lowell,Yuri Lowell,f
 Bread,Bread,f
 M(is)?s\\.? Pauling,Miss Pauling,f
-Saxton Hale,Saxton Hale,f
 Mercenar(y|ies),Mercenaries,t
 Mercs?,Mercs,t
 Demo(-| )?man,Demoman,f
@@ -9909,6 +9908,7 @@ Monkey Red,Monkey Red,f
 Zang(ie|ei)f,Zangief,f
 M\.? ?Bison,M. Bison,f
 Ca?pt(ain)?\.? Falcon,Captain Falcon,f
+S(a|e)xton Hale,Saxton Hale,f
 Satoru,Satoru,f
 Yumi,Yumi,f
 Ezio,Ezio,f
@@ -15839,3 +15839,4 @@ Marcille,Marcille,f
 Senshi,Senshi,f
 Izutsumi,Izutsumi,f
 Chilchuck,Chilchuck,f
+Acheron,Acheron,f
