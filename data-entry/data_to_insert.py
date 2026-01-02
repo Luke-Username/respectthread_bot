@@ -319,6 +319,66 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Cyn, and the Absolute Solver! (Murder Drones)', 'https://www.reddit.com/r/respectthreads/comments/1q1mhpu/respect_cyn_and_the_absolute_solver_murder_drones/')
+add_data(['Cyn'],
+'Cyn',
+False,
+False,
+[
+    ['Murder Drones']
+],
+'Murder Drones',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wonder Woman (Batman: The Brave and the Bold)', 'https://www.reddit.com/r/respectthreads/comments/1q1po58/respect_wonder_woman_batman_the_brave_and_the_bold/')
+add_data(['Wonder ?Woman'],
+'Wonder Woman',
+False,
+False,
+[
+    ['Brave (and|&) the Bold']
+],
+'The Brave and the Bold',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scorch Worm (Loop Hero)', 'https://www.reddit.com/r/respectthreads/comments/1q1stf1/respect_scorch_worm_loop_hero/')
+add_data(['Scorch Worms?'],
+'Scorch Worm',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sand Spirit (Loop Hero)', 'https://www.reddit.com/r/respectthreads/comments/1q1t3q5/respect_sand_spirit_loop_hero/')
+add_data(['Sand Spirits?'],
+'Sand Spirit',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
