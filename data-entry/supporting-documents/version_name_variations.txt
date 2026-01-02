@@ -1975,7 +1975,7 @@ Live-Action
 
 Looney Toons
 	Version
-		'{"Looney Tunes"}'
+		['Looney Tunes']
 	Displayed Version Name
 		"Looney Tunes"
 

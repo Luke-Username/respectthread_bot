@@ -107,6 +107,216 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 317, 'Respect General Grievous (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/1pzzo40/respect_general_grievous_star_wars_canon/')
+update_respectthread(cur, 5707, 'Respect the Demi-Fiend (Shin Megami Tensei)', 'https://www.reddit.com/r/respectthreads/comments/1q0hah4/respect_the_demifiend_shin_megami_tensei/')
+update_respectthread(cur, 1469, 'Respect Logan Wayne, Dark Claw (Amalgam Comics)', 'https://www.reddit.com/r/respectthreads/comments/1q1g66m/respect_logan_wayne_dark_claw_amalgam_comics/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bode Akuna (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/1q0s1cb/respect_bode_akuna_star_wars_canon/')
+add_data(['Bode Akuna'],
+'Bode Akuna',
+False,
+True,
+[
+    ['S(tar )?Wars'], ['Jedi:? Survivor']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Effigy (DC Comics, Post-Crisis)', 'https://www.reddit.com/r/respectthreads/comments/1q020ed/respect_effigy_dc_comics_postcrisis/')
+add_data(['Effigy'],
+'Effigy',
+False,
+False,
+[
+    ['Effigy ?\(Posts?(-| )?C(risis)?']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Effigy'],
+'Effigy',
+False,
+False,
+[
+    ['Effigy from DC']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/33t3uh/who_is_the_strongest_the_flametastic_4_can_beat/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wile E Coyote (Looney Tunes)', 'https://www.reddit.com/r/respectthreads/comments/1q056nx/respect_wile_e_coyote_looney_tunes/')
+add_data(['Wile E\.? Coyote'],
+'Wile E. Coyote',
+False,
+True,
+[
+    ['Looney Tunes']
+],
+'Looney Tunes',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ash Ketchum! (Death Battle)', 'https://www.reddit.com/r/respectthreads/comments/1q0pmy2/respect_ash_ketchum_death_battle/')
+add_data(['Ash Ketchum'],
+'Ash Ketchum',
+False,
+False,
+[
+    ['Death Battle']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect John Egbert! (Homestuck the Animated Pilot)', 'https://www.reddit.com/r/respectthreads/comments/1q0urw6/respect_john_egbert_homestuck_the_animated_pilot/')
+add_data(['John Egbert'],
+'John Egbert',
+False,
+False,
+[
+    ['Homestuck the Animated Pilot']
+],
+'Homestuck the Animated Pilot',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Smoke! (Cartoon All-Stars to the Rescue)', 'https://www.reddit.com/r/respectthreads/comments/1q0vyxb/respect_smoke_cartoon_allstars_to_the_rescue/')
+add_data(['Smoke'],
+'Smoke',
+False,
+False,
+[
+    ['Cartoon All(-| )Stars to the Rescue']
+],
+'Cartoon All-Stars to the Rescue',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Captain Hook (Hook)', 'https://www.reddit.com/r/respectthreads/comments/1q0w0de/respect_captain_hook_hook/')
+add_data(['Captain Hook'],
+'Captain Hook',
+False,
+False,
+[
+    ['\(Hook\)']
+],
+'Hook',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect William Afton (Five Nights at Freddy''s Movie)", 'https://www.reddit.com/r/respectthreads/comments/1q0woj9/respect_william_afton_five_nights_at_freddys_movie/')
+add_data(['William Afton'],
+'William Afton',
+False,
+False,
+[
+    ["(Five Nights at Freddy''?s?|FNAF) (Movie|Film)"]
+],
+"Five Nights at Freddy''s, 2023",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Justice Society (DCEU)', 'https://www.reddit.com/r/respectthreads/comments/1q17psv/respect_the_justice_society_dceu/')
+add_data(['Justice Society'],
+'Justice Society',
+True,
+False,
+[
+    ['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe']
+],
+'DCEU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Hawkman'],
+'Hawkman',
+False,
+False,
+[
+    ['DC Extended Universe'], ['DC ?(E|C)U'], ['DC Cinematic Universe']
+],
+'DCEU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ocho Tootmorsel (The Amazing World of Gumball)', 'https://www.reddit.com/r/respectthreads/comments/1q1da6h/respect_ocho_tootmorsel_the_amazing_world_of/')
+add_data(['Ocho'],
+'Ocho',
+False,
+False,
+[
+    ['Elmore', 'High|Gumball'], ['Tootmorsel'], ['Amazing World of Gumball']
+],
+'The Amazing World of Gumball',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, "Respect Andrew Emory''s Pack (World of Darkness)", 'https://www.reddit.com/r/respectthreads/comments/1q1fcr0/respect_andrew_emorys_pack_world_of_darkness/')
+add_data(['Andrew Emory'],
+'Andrew Emory',
+False,
+False,
+[
+    ['World of Darkness']
+],
+'World of Darkness',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Year 2012 (2012 Movie)', 'https://www.reddit.com/r/respectthreads/comments/1q1fwrh/respect_the_year_2012_2012_movie/')
+add_data(['2012'],
+'2012',
+False,
+False,
+[
+    ['2012.*\(2012 (Movie|Film)\)'], ['2012 ?\(2009\)']
+],
+'2009',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
