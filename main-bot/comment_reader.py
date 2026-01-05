@@ -11,7 +11,7 @@ import replier                  # To generate replies to posts.
 import text_processing as tp    # To do the text processing needed for analyzing posts. 
 
 keyword = "!respect"
-subreddit_list = ["respectthread_bot", "whowouldwin"]
+subreddit_list = ["respectthread_bot"]
 
 def read_comments(r, cur, comments_list: List[str]):
     # loop through every comment on a certain subreddit. Limits to 20 comments.
