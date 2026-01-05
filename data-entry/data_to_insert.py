@@ -157,6 +157,62 @@ True,
 )
 #
 
+########################################
+
+id = get_rt_id(cur, 'Respect The Predators (Predator Kills The Marvel Universe)', 'https://www.reddit.com/r/respectthreads/comments/1q48m7e/respect_the_predators_predator_kills_the_marvel/')
+add_data(['Predators'],
+'Predators',
+False,
+False,
+[
+    ['Predators? Kills? The Marvel Universe']
+],
+'Predator Kills The Marvel Universe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Predator'],
+'Predator',
+False,
+False,
+[
+    ['Predators? Kills? The Marvel Universe']
+],
+'Predator Kills The Marvel Universe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Simon "Ghost" Riley (Call of Duty: Modern Warfare - Reboot Timeline)', 'https://www.reddit.com/r/respectthreads/comments/1q4a7vg/respect_simon_ghost_riley_call_of_duty_modern/')
+add_data(['Simon'],
+'Simon',
+False,
+False,
+[
+    ['Call of Duty', 'Riley|Ghost']
+],
+'Call of Duty',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yuki Yoshida! (The Amazing World of Gumball)', 'https://www.reddit.com/r/respectthreads/comments/1q4chpe/respect_yuki_yoshida_the_amazing_world_of_gumball/')
+add_data(['Yuki Yoshida'],
+'Yuki Yoshida',
+False,
+False,
+[
+    ['Gumball']
+],
+'Amazing World of Gumball',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
