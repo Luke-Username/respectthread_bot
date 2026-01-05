@@ -11,7 +11,7 @@ import replier                  # To generate replies to posts.
 import text_processing as tp    # To do the text processing needed for analyzing posts. 
 
 keyword = "!respect"
-subreddit_list = ["respectthread_bot", "whowouldwin"]
+subreddit_list = ["respectthread_bot"]
 
 def read_comments(r, cur, comments_list: List[str]):
     # loop through every comment on a certain subreddit. Limits to 20 comments.
@@ -22,9 +22,10 @@ def read_comments(r, cur, comments_list: List[str]):
         for comment in comments:
             now = datetime.datetime.now(datetime.timezone.utc).timestamp()
             age = now - comment.created_utc
+            lowercase_comment = comment.body.lower()
 
             # Check comment is less than 4 days old, the comment isn't by the bot itself, the bot hasn't checked it already, and the comment has the summon keyword
-            if age < 345600 and comment.author != r.user.me() and comment not in comments_list and keyword in comment.body.lower():
+            if age < 345600 and comment.author != r.user.me() and comment not in comments_list and (keyword in lowercase_comment or lowercase_comment.startswith("!")):
                 keyworded_comment = tp.get_keyworded_lines_from_comment(comment.body, keyword)
                 if keyworded_comment != "":
                     character_list = mcr.search_characters("", keyworded_comment, cur)

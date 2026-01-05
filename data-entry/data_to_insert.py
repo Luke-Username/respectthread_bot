@@ -107,6 +107,56 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 5255, 'Respect the Winds of Destruction (Metal Gear Rising: Revengeance)', 'https://www.reddit.com/r/respectthreads/comments/1q2woxs/respect_the_winds_of_destruction_metal_gear/')
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Merfolk (Loop Hero)', 'https://www.reddit.com/r/respectthreads/comments/1q2k1ox/respect_merfolk_loop_hero/')
+add_data(['Merfolk'],
+'Merfolk',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+
+id = get_rt_id(cur, 'Respect Ghosts (Loop Hero)', 'https://www.reddit.com/r/respectthreads/comments/1q36h41/respect_ghosts_loop_hero/')
+add_data(['Ghosts'],
+'Ghosts',
+False,
+False,
+[
+    ['Loop Hero']
+],
+'Loop Hero',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+
+id = get_rt_id(cur, "Respect Amigara Fault(Junji Ito''s the Enigma of Amigara Fault)", 'https://www.reddit.com/r/respectthreads/comments/1q44csk/respect_amigara_faultjunji_itos_the_enigma_of/')
+add_data(['Amigara Fault'],
+'Amigara Fault',
+False,
+True,
+[
+    ['Junji Ito'], ['Enigma']
+],
+'Junji Ito',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 
 ########################################
 

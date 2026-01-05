@@ -70,12 +70,16 @@ def valid_patterns_end(strlist) -> bool:
 
 def get_keyworded_lines_from_comment(comment_body: str, keyword: str) -> str:
     keyworded_comment = ""
+
+    # Remove bullet points if the commenter tried to use them
     keyword_regex = re.compile(r"(-|\*|\+|\d)? ?{}".format(keyword), re.IGNORECASE)
-    
+
+    # Split each comment into lines, and search for the keyword (eg. "!respect") on each line.
+    # If the line contains the keyword or starts with "!" (people think the bot responds to that for some reason), append it.    
     bodylist = comment_body.split("\n")
     for line in bodylist:
         matches = re.search(keyword_regex, line)
-        if matches is not None:
+        if matches is not None or line.startswith("!"):
             keyworded_comment += line
     
     return keyworded_comment
