@@ -137,6 +137,7 @@ False,
 ########################################
 
 id = get_rt_id(cur, 'Respect the Chief (Sally the Sleuth, Spicy Detective Stories)', 'https://www.reddit.com/r/respectthreads/comments/1q5jdau/respect_the_chief_sally_the_sleuth_spicy/')
+id2 = get_rt_id(cur, 'Respect the Chief (Sally the Sleuth, Crime Smashers)', 'https://www.reddit.com/r/respectthreads/comments/1q6g5hr/respect_the_chief_sally_the_sleuth_crime_smashers/')
 add_data(['Chief'],
 'Chief',
 False,
@@ -145,7 +146,7 @@ False,
     ['Sally the Sleuth']
 ],
 'Sally the Sleuth',
-'{' + '{}'.format(id) + '}'
+'{' + '{}, {}'.format(id, id2) + '}'
 )
 #
 
@@ -292,6 +293,22 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #
+
+########################################
+
+id = get_rt_id(cur, 'Respect Spider-Man (Spider-Man: The Darkest Hours)', 'https://www.reddit.com/r/respectthreads/comments/1q6ihx3/respect_spiderman_spiderman_the_darkest_hours/')
+add_data(['Spider(-| )?Mans?'],
+'Spider-Man',
+False,
+False,
+[
+    ['The Darkest Hours']
+],
+'Spider-Man: The Darkest Hours',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 
 ########################################
 
