@@ -10741,11 +10741,11 @@ Tahu,{BIONICLE},t,{6370},BIONICLE
 Mr. 3,"{`"One Piece`"}",t,{11095},One Piece
 Codpiece,{DC},f,{11096},Post-Crisis
 Codpiece,{PC},f,{11096},Post-Crisis
-Lara Croft,{Survivor},t,"{11094,22643,22644}",Tomb Raider
 Purple Man,{616},f,{2523},616
 Purple Man,{Marvel},f,{2523},616
 Purple Man,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Purple Man,{MCU},f,{},MCU
+Lara Croft,{Survivor},t,"{26798,11094,22643,22644}",Tomb Raider
 Codpiece,"{`"Earth(-| )(1|One)`"}",f,{11096},Post-Crisis
 Codpiece,"{`"Post(-| )?C(risis)?`"}",f,{11096},Post-Crisis
 Codpiece,"{`"New(-| )Earth`"}",f,{11096},Post-Crisis
@@ -29645,9 +29645,6 @@ Blitzo,"{`"Helluva Boss`"}",t,{23869},Helluva Boss
 Blitzo,"{`"I\\.M\\.P`"}",t,{23869},Helluva Boss
 Blitzo,{Moxxie},t,{23869},Helluva Boss
 Nolt Marcus,"{`"Vampire Hunter D`"}",t,{23871},Vampire Hunter D
-Lara Croft,"{`"Shadow of the Tomb Raider`"}",t,"{11094,22643,22644}",Tomb Raider
-Lara Croft,{Reboot(ed)?},t,"{11094,22643,22644}",Tomb Raider
-Lara Croft,"{`"Tomb? Raider`"}",t,"{11094,22643,22644}",Tomb Raider
 Adam Warlock,"{`"Marvel Cinematic Universe`"}",f,{},MCU
 Adam Warlock,{MCU},f,{},MCU
 SCP-1048,"{`"SCP Foundation`"}",t,{23872},""
@@ -29663,6 +29660,8 @@ Hu Feng,"{`"Grand Reign`"}",f,{23878},Grand Reign
 Sergeant Farryn,"{`"Grand Reign`"}",t,{23879},Grand Reign
 Warrior of Light,"{`"Final Fantasy`"}",f,"{25076,23435}",Final Fantasy
 Thing,"{`"vs\\.? (The )?Fantastic (Four|4)|Fantastic (Four|4) vs`",`"Invisible Woman`",`"Human Torch`"}",f,"{26637,2072,22166}",616
+Lara Croft,"{`"Shadow of the Tomb Raider`"}",t,"{26798,11094,22643,22644}",Tomb Raider
+Lara Croft,{Reboot(ed)?},t,"{26798,11094,22643,22644}",Tomb Raider
 Stella Advard,"{`"Grand Reign`"}",t,{23880},Grand Reign
 Ryuuji Kusakabe,"{`"Grand Reign`"}",t,{23881},Grand Reign
 Steve Gray,"{`"Burt Wonderstone`"}",f,{23882},The Incredible Burt Wonderstone
@@ -34377,3 +34376,24 @@ Predators,"{`"Predators? Kills? The Marvel Universe`"}",f,{26795},Predator Kills
 Predator,"{`"Predators? Kills? The Marvel Universe`"}",f,{26795},Predator Kills The Marvel Universe
 Simon,"{`"Call of Duty`",Riley|Ghost}",f,{26796},Call of Duty
 Yuki Yoshida,{Gumball},f,{26797},Amazing World of Gumball
+Lara Croft,"{`"Tomb? Raider`"}",t,"{26798,11094,22643,22644}",Tomb Raider
+Dek,"{Scifi,melee}",f,{26618},Predator: Badlands
+Peanuts,"{`"Sally the Sleuth`"}",f,{26799},Sally the Sleuth
+Chief,"{`"Sally the Sleuth`"}",f,"{26800,26801}",Sally the Sleuth
+Uzi,"{`"Murder Drones`"}",f,{26802},Murder Drones
+N,"{`"Murder Drones`"}",f,{26803},Murder Drones
+N,"{`"Serial Designations?`"}",f,{26803},Murder Drones
+The Fallen,"{`"Transformers (Film|Movie)s?`"}",f,{26804},Transformers Films
+The Fallen,{Bay(verse|formers)},f,{26804},Transformers Films
+The Fallen,"{`"Michael Bay`"}",f,{26804},Transformers Films
+The Fallen,"{Bay,Transformers}",f,{26804},Transformers Films
+The Grabber,"{`"Black Phone`"}",f,{26805},The Black Phone
+Velocity,"{`"Velocity ?\\(Worm\\)`"}",f,{26806},Worm
+Velocity,"{Protectorate|Armsmaster,Worm(verse)?}",f,{26806},Worm
+Leon Belmont,"{`"Castle(-| )?vania`"}",f,{26807},Castlevania
+Sarya,"{`"Emerald Empress`"}",f,{26808},DC
+Sarya,"{`"Pre(-| )Zero Hour`"}",f,{26808},Pre-Zero Hour
+Emerald Empress,"{`"DC Comics`"}",t,"{26808,23407}",DC
+Fives,"{`"(Fives.*Clone Wars)|(Fives ?\\(Star Wars)`"}",f,{26809},Star Wars
+Fives,"{`"Star Wars`",`"Clone Wars`"}",f,{26809},Star Wars
+Spider-Man,"{`"The Darkest Hours`"}",f,{26810},Spider-Man: The Darkest Hours

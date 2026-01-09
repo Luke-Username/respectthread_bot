@@ -14,9 +14,6 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Lara Croft! (Tomb Raider | Original Timeline)', 'https://www.reddit.com/r/respectthreads/comments/1q54w9m/respect_lara_croft_tomb_raider_original_timeline/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1q54w9m/respect_lara_croft_tomb_raider_original_timeline/';
-UPDATE character SET rt_id_array='{?, 11094,22643,22644}' WHERE rt_id_array='{11094,22643,22644}';
-
 ########################################
 
 ########################################
