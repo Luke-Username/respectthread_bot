@@ -191,6 +191,22 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Kristoff Vernard (Marvel Comics, 616)', 'https://www.reddit.com/r/respectthreads/comments/1qaukqm/respect_kristoff_vernard_marvel_comics_616/')
+add_data(['Kristoff Vernard'],
+'Kristoff Vernard',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
