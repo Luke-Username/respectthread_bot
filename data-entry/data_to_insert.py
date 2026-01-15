@@ -107,7 +107,96 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 612, 'Respect Huntress Wizard (Adventure Time)', 'https://www.reddit.com/r/respectthreads/comments/1qbw3cj/respect_huntress_wizard_adventure_time/c')
 
+########################################
+
+add_data(['Yoru'],
+'Yoru',
+False,
+False,
+[
+    ['Chainsaw(-| )?Man']
+],
+'Chainsaw Man',
+'{22363}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sally (Sally the Sleuth, Spicy Detective Stories)', 'https://www.reddit.com/r/respectthreads/comments/1qavxot/respect_sally_sally_the_sleuth_spicy_detective/')
+add_data(['Sally'],
+'Sally',
+False,
+False,
+[
+    ['Sally the Sleuth|Spicy Detective Stories']
+],
+'Sally the Sleuth',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sally (Sally the Sleuth, Crime Smashers)', 'https://www.reddit.com/r/respectthreads/comments/1qbua20/respect_sally_sally_the_sleuth_crime_smashers/')
+add_data(['Sally'],
+'Sally',
+False,
+False,
+[
+    ['Sally the Sleuth', 'Crime Smashers']
+],
+'Sally the Sleuth, Crime Smashers',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nokotan (My Deer Friend Noko-tan)', 'https://www.reddit.com/r/respectthreads/comments/1qbgm1n/respect_nokotan_my_deer_friend_nokotan/')
+add_data(['Nokotan'],
+'Nokotan',
+False,
+False,
+[
+    ['Deer Friend']
+],
+'My Deer Friend Nokotan',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Metamorpho (DC Comics, Post-Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1qbz9fz/respect_metamorpho_dc_comics_postflashpoint/')
+add_data(['Metamorpho'],
+'Metamorpho',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Diogenes (Getting Over It With Bennet Foddy)', 'https://www.reddit.com/r/respectthreads/comments/1qcwn3b/respect_diogenes_getting_over_it_with_bennet_foddy/')
+add_data(['Diogenes'],
+'Diogenes',
+False,
+False,
+[
+    ['Getting Over It']
+],
+'Getting Over It With Bennet Foddy',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 

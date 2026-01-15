@@ -14,6 +14,10 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1qbz9fz/respect_metamorpho_dc_comics_postflashpoint/';
+UPDATE character SET rt_id_array='{?, 1748}' WHERE default_name='Metamorpho' AND displayed_version_name='DC';
+--After run
+
 ########################################
 
 ########################################
