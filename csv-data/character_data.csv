@@ -6955,7 +6955,6 @@ OMAC,"{`"Earth(-| )AD`"}",f,{7706},Earth-AD
 Underdog,"{`"\\(Underdog\\)`"}",f,{7700},""
 Brother Eye,"{`"Earth(-| )AD`"}",f,{7706},Earth-AD
 Dormammu,{comics?},t,{2196},616
-Metamorpho,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{1748},DC
 Count Vertigo,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{1750},DC
 Deadshot,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{1751},DC
 King Shark,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,{1752},DC
@@ -7022,6 +7021,7 @@ Vishanti,{comics?},t,{},616
 Satana,{Jojos?(verse)?},f,{3544},Jojo's Bizarre Adventure
 Wired Beck,{Jojos?(verse)?},t,{10829},Jojo's Bizarre Adventure
 Brainiac,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{1795,25474}",DC
+Metamorpho,"{`"(\\(|\\[)DC( Comics)?(\\)|\\])`"}",t,"{26819,1748}",DC
 Killer Croc,"{`"\\(Arkham\\)`"}",f,"{5533,6381}",Batman: Arkham
 Willow Rosenberg,"{`"\\(Buffy\\)`"}",t,{7490},Buffy the Vampire Slayer
 Dan,"{`"\\(Dan vs\\)`"}",f,{1037},(Dan Vs.)
@@ -34404,3 +34404,17 @@ Metagenie and Genitarius,{Blame},f,{26814},Blame!
 Metagenie,{Blame},f,{26814},Blame!
 Genitarius,{Blame},f,{26814},Blame!
 Kristoff Vernard,{616},t,{26815},616
+Yoru,"{`"Chainsaw(-| )?Man`"}",f,{22363},Chainsaw Man
+Sally,"{`"Sally the Sleuth|Spicy Detective Stories`"}",f,{26816},Sally the Sleuth
+Sally,"{`"Sally the Sleuth`",`"Crime Smashers`"}",f,{26817},"Sally the Sleuth, Crime Smashers"
+Nokotan,"{`"Deer Friend`"}",f,{26818},My Deer Friend Nokotan
+Metamorpho,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26819},Post-Flashpoint
+Diogenes,"{`"Getting Over It`"}",f,{26820},Getting Over It With Bennet Foddy
+Blitz Talker,"{`"Re(:| )?CREATORS`"}",f,{26821},Re:CREATORS
+Hikayu Hoshikawa,"{`"Re(:| )?CREATORS`"}",f,{26822},Re:CREATORS
+Shō Hakua,"{`"Re(:| )?CREATORS`"}",f,{26823},Re:CREATORS
+Maximilian,"{`"Orcs Must Die`"}",f,{26824},Orcs Must Die!
+War Mage,"{`"Orcs Must Die`"}",f,{26824},Orcs Must Die!
+Oh-Mah,"{`"Primal Rage`"}",f,{26825},Primal Rage
+Wonder Woman,"{`"The New Frontier`"}",f,{26826},Earth-21
+Wonder Woman,"{`"Earth(-| )21`"}",f,{26826},Earth-21
