@@ -107,7 +107,8 @@ cur = con.cursor()
 
 ########################################
 
-update_respectthread(cur, 612, 'Respect Huntress Wizard (Adventure Time)', 'https://www.reddit.com/r/respectthreads/comments/1qbw3cj/respect_huntress_wizard_adventure_time/c')
+update_respectthread(cur, 612, 'Respect Huntress Wizard (Adventure Time)', 'https://www.reddit.com/r/respectthreads/comments/1qbw3cj/respect_huntress_wizard_adventure_time/')
+update_respectthread(cur, 4896, 'Respect Mamika Kirameki (Re:Creators)', 'https://www.reddit.com/r/respectthreads/comments/1qe6wys/respect_mamika_kirameki_recreators/')
 
 ########################################
 
@@ -194,6 +195,108 @@ False,
     ['Getting Over It']
 ],
 'Getting Over It With Bennet Foddy',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Blitz Talker (Re:Creators anime)', 'https://www.reddit.com/r/respectthreads/comments/1qdrxcm/respect_blitz_talker_recreators_anime/')
+add_data(['Blitz Talker'],
+'Blitz Talker',
+False,
+False,
+[
+    ['Re(:| )?CREATORS']
+],
+'Re:CREATORS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hikayu Hoshikawa (Re:Creators)', 'https://www.reddit.com/r/respectthreads/comments/1qe4uuq/respect_hikayu_hoshikawa_recreators/')
+add_data(['Hikayu Hoshikawa'],
+'Hikayu Hoshikawa',
+False,
+False,
+[
+    ['Re(:| )?CREATORS']
+],
+'Re:CREATORS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Shō Hakua (Re:Creators)', 'https://www.reddit.com/r/respectthreads/comments/1qel6ow/respect_sh%C5%8D_hakua_recreators/')
+add_data(['Sh(ō|o) Hakua'],
+'Shō Hakua',
+False,
+False,
+[
+    ['Re(:| )?CREATORS']
+],
+'Re:CREATORS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maximilian, aka the War Mage (Orcs must die!)', 'https://www.reddit.com/r/respectthreads/comments/1qeyzgf/respect_maximilian_aka_the_war_mage_orcs_must_die/')
+add_data(['Maximilian'],
+'Maximilian',
+False,
+False,
+[
+    ['Orcs Must Die']
+],
+'Orcs Must Die!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['War Mage'],
+'War Mage',
+False,
+False,
+[
+    ['Orcs Must Die']
+],
+'Orcs Must Die!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Oh-Mah (Primal Rage)', 'https://www.reddit.com/r/respectthreads/comments/1qgoqtq/respect_the_ohmah_primal_rage/')
+add_data(['Oh(-| )Mah'],
+'Oh-Mah',
+False,
+False,
+[
+    ['Primal Rage']
+],
+'Primal Rage',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Wonder Woman (DC Comics Earth-21, "The New Frontier")', 'https://www.reddit.com/r/respectthreads/comments/1qgtu79/respect_wonder_woman_dc_comics_earth21_the_new/')
+add_data(['Wonder ?Woman'],
+'Wonder Woman',
+False,
+False,
+[
+    ['The New Frontier'], ['Earth(-| )21']
+],
+'Earth-21',
 '{' + '{}'.format(id) + '}'
 )
 #

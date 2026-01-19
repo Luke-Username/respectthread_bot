@@ -20,6 +20,8 @@ UPDATE character SET rt_id_array='{?, 1748}' WHERE default_name='Metamorpho' AND
 
 ########################################
 
+INSERT INTO name_conflict (name, conflict, first_char) VALUES ('Jaws', 'Jaws of Life', 0); --https://www.reddit.com/r/whowouldwin/comments/1qelg9a/captain_amercia_vs_jaws_of_life/nzyb1yr/?context=3
+
 ########################################
 
 ########################################
