@@ -2878,7 +2878,7 @@ ReBoot
 
 Re:CREATORS
 	Version
-		'{"Re(:| )?CREATORS"}'
+		['Re(:| )?CREATORS']
 	Displayed Version Name
 		"Re:CREATORS"
 

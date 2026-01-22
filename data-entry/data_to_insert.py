@@ -107,6 +107,96 @@ cur = con.cursor()
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Rui Kanoya (Re:Creators)', 'https://www.reddit.com/r/respectthreads/comments/1qhezxk/respect_rui_kanoya_recreators/')
+add_data(['Rui Kanoya'],
+'Rui Kanoya',
+False,
+False,
+[
+    ['Re(:| )?CREATORS']
+],
+'Re:CREATORS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Magane Chikujoin (Re:Creators)', 'https://www.reddit.com/r/respectthreads/comments/1qhiy6c/respect_magane_chikujoin_recreators/')
+add_data(['Magane Chikujoin'],
+'Magane Chikujoin',
+False,
+False,
+[
+    ['Re(:| )?CREATORS']
+],
+'Re:CREATORS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alicetaria February (Re:Creators anime)', 'https://www.reddit.com/r/respectthreads/comments/1qho722/respect_alicetaria_february_recreators_anime/')
+add_data(['Alicetaria February'],
+'Alicetaria February',
+False,
+False,
+[
+    ['Re(:| )?CREATORS']
+],
+'Re:CREATORS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Diamond! (Pokemon Adventures)', 'https://www.reddit.com/r/respectthreads/comments/1qid8qx/respect_diamond_pokemon_adventures/')
+add_data(['Diamond'],
+'Diamond',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pearl! (Pokemon Adventures)', 'https://www.reddit.com/r/respectthreads/comments/1qid8yv/respect_pearl_pokemon_adventures/')
+add_data(['Pearl'],
+'Pearl',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Platinum! (Pokemon Adventures)', 'https://www.reddit.com/r/respectthreads/comments/1qisyg4/respect_platinum_pokemon_adventures/')
+add_data(['Platinum'],
+'Platinum',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
