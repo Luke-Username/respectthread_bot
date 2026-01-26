@@ -199,6 +199,172 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Alicia Masters, the Spider-Woman (Marvel Comics, 616)', 'https://www.reddit.com/r/respectthreads/comments/1qkrqx5/respect_alicia_masters_the_spiderwoman_marvel/')
+add_data(['Alicia Masters'],
+'Alicia Masters',
+False,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dhomochevsky and Iko (Blame!)', 'https://www.reddit.com/r/respectthreads/comments/1ql6lew/respect_dhomochevsky_and_iko_blame/')
+add_data(['Dhomochevsky'],
+'Dhomochevsky',
+False,
+False,
+[
+    ['Blame']
+],
+'Blame!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Iko'],
+'Iko',
+False,
+False,
+[
+    ['Blame!']
+],
+'Blame!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Marty Mcfly/Doc Brown (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1qllegn/respect_marty_mcflydoc_brown_fortnite/')
+add_data(['Marty Mcfly'],
+'Marty Mcfly',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Doc Brown'],
+'Doc Brown',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Micheal Scott/Dwight Schrute (Fortnite)', 'https://www.reddit.com/r/respectthreads/comments/1qmh4rd/respect_micheal_scottdwight_schrute_fortnite/')
+add_data(['Mich(ae|ae)l Scott'],
+'Michael Scott',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Dwight Schrute'],
+'Dwight Schrute',
+False,
+False,
+[
+    ['Fortnite']
+],
+'Fortnite',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yuya Mirokuji and Hangaku (Re:Creators anime)', 'https://www.reddit.com/r/respectthreads/comments/1qlukzw/respect_yuya_mirokuji_and_hangaku_recreators_anime/')
+add_data(['Yuya Mirokuji'],
+'Yuya Mirokuji',
+False,
+True,
+[
+    ['Re(:| )?CREATORS']
+],
+'Re:CREATORS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Musubi Susono (NOiSE)', 'https://www.reddit.com/r/respectthreads/comments/1qlvmgl/respect_musubi_susono_noise/')
+add_data(['Musubi Susono|Susono Musubi'],
+'Musubi Susono',
+False,
+True,
+[
+    ['NOiSE']
+],
+'NOiSE',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Susono'],
+'Susono',
+False,
+False,
+[
+    ['NOiSE']
+],
+'NOiSE',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jack Knight, the Seventh Starman (DC Comics, Post-Crisis)', 'https://www.reddit.com/r/respectthreads/comments/1qmr1h9/respect_jack_knight_the_seventh_starman_dc_comics/')
+add_data(['Jack Knight'],
+'Jack Knight',
+False,
+False,
+[
+    ['Starman'], ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Jack Knight'],
+'Jack Knight',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
