@@ -107,6 +107,10 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 25516, 'Respect Desire of The Endless (DC Comics, The Sandman)', 'https://www.reddit.com/r/DCCosmology/comments/1qm42vb/respect_desire_of_the_endless_dc_comics_the/')
+
+########################################
+
 id = get_rt_id(cur, 'Respect Rui Kanoya (Re:Creators)', 'https://www.reddit.com/r/respectthreads/comments/1qhezxk/respect_rui_kanoya_recreators/')
 add_data(['Rui Kanoya'],
 'Rui Kanoya',
@@ -359,6 +363,68 @@ False,
     ['Posts?(-| )?C(risis)?']
 ],
 'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Star Wars: Ewok respect thread(Legends Canon)', 'https://comicvine.gamespot.com/profile/wolfrazer/blog/star-wars-ewok-respect-thread-legends-canon/126732/')
+add_data(['Ewok'],
+'Ewok',
+False,
+True,
+[
+    ['S(tar )?Wars'], ['(1|One) Ewok'], ['with a spear'], ['Endor']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Ewoke?s'],
+'Ewoks',
+False,
+True,
+[
+    ['S(tar )?Wars'], ['Endor']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1qjuunb/10_ewoks_star_wars_vs_a_navi_avatar/
+#https://www.reddit.com/r/whowouldwin/comments/1jcm8xs/pitbull_vs_1_ewok_star_wars/
+#https://www.reddit.com/r/whowouldwin/comments/1jxsvxn/when_the_biblical_saul_goes_to_meet_with_the/
+#https://www.reddit.com/r/whowouldwin/comments/ek5jmc/danny_devito_with_a_gun_vs_an_ewok_with_a_spear/
+#https://www.reddit.com/r/whowouldwin/comments/1dfvlk1/8_year_old_boy_vs_1_ewokstar_wars/
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thalia (Magic: The Gathering)', 'https://www.reddit.com/r/respectthreads/comments/1qo5xgq/respect_thalia_magic_the_gathering/')
+add_data(['Thalia'],
+'Thalia',
+False,
+False,
+[
+    ['Magic:? The Gathering'], ['M:?TG']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Web-Man (Marvel Comics Earth-55780)', 'https://www.reddit.com/r/respectthreads/comments/1qo5ea8/respect_webman_marvel_comics_earth55780/')
+add_data(['Web(-| )Man'],
+'Web-Man',
+False,
+False,
+[
+    ['55780']
+],
+'55780',
 '{' + '{}'.format(id) + '}'
 )
 #
