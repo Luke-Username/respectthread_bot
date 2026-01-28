@@ -3,18 +3,18 @@
 # New respect threads are found at this link: https://www.reddit.com/r/respectthreads/new/
 # An example of how to enter a new character is as follows.
 
-id = get_rt_id(cur, 'Respect Sully (Monsters, Inc.)', 'https://redd.it/d2kwip')
-add_data(['Sully'],
-'Sully',
+id = get_rt_id(cur, 'Respect Dr. Evil (Austin Powers)', 'https://www.reddit.com/r/respectthreads/comments/1my1b8x/respect_dr_evil_austin_powers/')
+add_data(['Dr\.? Evil'],
+'Dr. Evil',
 False,
 False,
 [
-    ['Monsters,? Inc']
+    ['Austin Powers']
 ],
-'Monsters, Inc.',
+'Austin Powers',
 '{' + '{}'.format(id) + '}'
 )
-#https://www.reddit.com/r/respectthreads/comments/d2kwip/respect_sully_monsters_inc/
+#
 
 # The following function call is an example of how to update the database when a respect thread is reposted.
 # Refer to the CSV of respect threads to find the correct ID.
@@ -68,8 +68,9 @@ def add_data(name_list, default_name, is_team, is_default, version_list, display
         if not is_valid_regex(name):
             return
         else:
-            # Turn the name into a string acceptable for PostgreSQL
-            formatted_name_list.append(name.replace('\\', '\\\\'))
+            # Turn the name into a string acceptable for PostgreSQL (no idea if this is correct. can't be bothered to do proper testing.)
+            #formatted_name_list.append(name.replace('\\', '\\\\'))
+            pass
 
     formatted_version_list = []
     for version in version_list:
@@ -78,7 +79,8 @@ def add_data(name_list, default_name, is_team, is_default, version_list, display
             if not is_valid_regex(regex):
                 return
             else:
-                version_array_string += '"{}",'.format(regex.replace('\\', '\\\\'))
+                #version_array_string += '"{}",'.format(regex.replace('\\', '\\\\'))
+                pass
 
         version_array_string = version_array_string.strip(',') + '}'
         formatted_version_list.append(version_array_string)
@@ -106,6 +108,19 @@ con = psycopg2.connect(
 cur = con.cursor()
 
 ########################################
+
+id = get_rt_id(cur, 'Respect Ico (Ico)', 'https://www.reddit.com/r/respectthreads/comments/1qp7w47/respect_ico_ico/')
+add_data(['Ico'],
+'Ico',
+False,
+False,
+[
+    ['Ico ?\(Ico\)']
+],
+'Ico',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
