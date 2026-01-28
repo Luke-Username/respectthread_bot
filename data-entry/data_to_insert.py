@@ -109,19 +109,6 @@ cur = con.cursor()
 
 ########################################
 
-id = get_rt_id(cur, 'Respect Ico (Ico)', 'https://www.reddit.com/r/respectthreads/comments/1qp7w47/respect_ico_ico/')
-add_data(['Ico'],
-'Ico',
-False,
-False,
-[
-    ['Ico ?\(Ico\)']
-],
-'Ico',
-'{' + '{}'.format(id) + '}'
-)
-#
-
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
