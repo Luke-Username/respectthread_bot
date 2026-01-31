@@ -109,6 +109,96 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 17371, 'Respect Altair (Re:Creators anime)', 'https://www.reddit.com/r/respectthreads/comments/1qsaq1t/respect_altair_recreators_anime/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lesla-Lar (DC Comics, Post-Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1qpqgmm/respect_leslalar_dc_comics_postflashpoint/')
+add_data(['Lesla-Lar'],
+'Lesla-Lar',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Lesla-Lar'],
+'Lesla-Lar',
+False,
+True,
+[
+    ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Queen Clea (DC Comics, Absolute Universe)', 'https://www.reddit.com/r/respectthreads/comments/1qs7cz0/respect_queen_clea_dc_comics_absolute_universe/')
+add_data(['Queen Clea'],
+'Queen Clea',
+False,
+False,
+[
+    ['Absolute Universe']
+],
+'Absolute Universe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cobra Bubbles (Lilo & Stitch)', 'https://www.reddit.com/r/respectthreads/comments/1qpxtbt/respect_cobra_bubbles_lilo_stitch/')
+add_data(['Cobra Bubbles'],
+'Cobra Bubbles',
+False,
+False,
+[
+    ['Lilo (and|&) Stitch']
+],
+'Lilo & Stitch',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sonic (Sonic and the Blade of Courage)', 'https://www.reddit.com/r/respectthreads/comments/1qqstww/respect_sonic_sonic_and_the_blade_of_courage/')
+add_data(['Sonic'],
+'Sonic',
+False,
+False,
+[
+    ['Sonic and the Blade of Courage']
+],
+'Sonic and the Blade of Courage',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Yuuta (Sonic and the Blade of Courage)', 'https://www.reddit.com/r/respectthreads/comments/1qqvj6e/respect_yuuta_sonic_and_the_blade_of_courage/')
+add_data(['Yuuta'],
+'Yuuta',
+False,
+False,
+[
+    ['Sonic and the Blade of Courage']
+],
+'Sonic and the Blade of Courage',
+'{' + '{}'.format(id) + '}'
+)
+#
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
