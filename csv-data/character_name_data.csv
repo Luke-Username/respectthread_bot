@@ -600,7 +600,6 @@ Agent Johnson,Agent Johnson,f
 Thompson,Thompson,f
 Agent Thompson,Agent Thompson,f
 Morpheus,Morpheus,f
-Preston( J)?\\.? Cole,Preston J. Cole,f
 Neo,Neo,f
 Trinity,Trinity,f
 Black Knight,Black Knight,f
@@ -719,6 +718,7 @@ Avengers,Avengers,t
 General Gr(iev|evi|eiv)ous,General Grievous,f
 Eddie Brock,Eddie Brock,f
 T(-| )?1000,T-1000,f
+Preston( J)?\.? Cole,Preston J. Cole,f
 Alien Queen,Xenomorphs,f
 Drone,Drone,f
 Facehugger,Facehugger,f
@@ -2178,7 +2178,6 @@ Maximus the Horse,Maximus the Horse,f
 Jafar,Jafar,f
 Rasputin,Rasputin,f
 Red,Red,f
-M(iste)?r\\.? Popo,Mr. Popo,f
 Kida,Kida,f
 Kida Nedakh,Kida Nedakh,f
 Leviathan,Leviathan,f
@@ -2301,6 +2300,7 @@ Viv(ian)? Vision,Viv Vision,f
 R(a|e)punzel,Rapunzel,f
 Dante Alighieri,Dante Alighieri,f
 Paul Buny(a|o)n,Paul Bunyan,f
+M(iste)?r\.? Popo,Mr. Popo,f
 "Arby `"The Meathead`" McDonald","Arby `"The Meathead`" McDonald",f
 Jefferson Tallpipe,Jefferson Tallpipe,f
 Benny,Benny,f
@@ -5928,8 +5928,6 @@ Teo Rakan,Teo Rakan,f
 Kasak Rajof,Kasak Rajof,f
 Hitler,Hitler,f
 George Bush,George Bush,f
-George H\\.? W\\.? Bush,George H. W. Bush,f
-George W\\.? Bush,George W. Bush,f
 Junichiro Koizumi,Junichiro Koizumi,f
 Yulia Tymoshenko,Yulia Tymoshenko,f
 Putin,Putin,f
@@ -5954,7 +5952,6 @@ Asuna Kagurazaka,Asuna Kagurazaka,f
 Asuna,Asuna,f
 Chachamaru Karakuri,Chachamaru Karakuri,f
 Chachamaru,Chachamaru,f
-Evangeline A\\.? ?K\\.? McDowell,Evangeline A.K. McDowell,f
 Evangeline,Evangeline,f
 Haruna Saotome,Haruna Saotome,f
 Kaede Nagase,Kaede Nagase,f
@@ -6046,6 +6043,8 @@ Shigeo Kageyama,Shigeo Kageyama,f
 Mob,Mob,f
 Shimazaki,Shimazaki,f
 Perc(y|eus) Jackson,Percy Jackson,f
+George W\.? Bush,George W. Bush,f
+Evangeline A\.? ?K\.? McDowell,Evangeline A.K. McDowell,f
 Ryo Shimazaki,Ryo Shimazaki,f
 Teruki,Teruki,f
 Karen,Karen,f
@@ -15245,7 +15244,6 @@ Pico,Pico,f
 Verity Green,Verity Green,f
 Jaxxon,Jaxxon,f
 Nicholai,Nicholai,f
-Dr\\.? Namba,Dr. Namba,f
 Belle,Belle,f
 Melody,Melody,f
 Ariel,Ariel,f
@@ -15339,6 +15337,7 @@ Dexter Riley,Dexter Riley,f
 Guard Dog,Guard Dog,f
 Nick,Nick,f
 Lever,Lever,f
+Dr\.? Namba,Dr. Namba,f
 Lucius the Eternal,Lucius the Eternal,f
 Lucius,Lucius,f
 Rick Grimes 2000,Rick Grimes 2000,f
@@ -15895,3 +15894,14 @@ Ewoke?s,Ewoks,f
 Web(-| )Man,Web-Man,f
 Dr\.? Evil,Dr. Evil,f
 Wile E\.? Coyote,Wile E. Coyote,f
+George H\.? W\.? Bush,George H. W. Bush,f
+Lesla-Lar,Lesla-Lar,f
+Queen Clea,Queen Clea,f
+Cobra Bubbles,Cobra Bubbles,f
+Yura,Yura,f
+Scarlet El Vandimion,Scarlet El Vandimion,f
+Cat from Stray,Cat from Stray,f
+Pakkya,Pakkya,f
+X-Virus,X-Virus,f
+Nick Wilde,Nick Wilde,f
+Ico,Ico,f
