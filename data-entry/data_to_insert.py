@@ -201,6 +201,153 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Yura (Kagurabachi)', 'https://www.reddit.com/r/respectthreads/comments/1qshpbk/respect_yura_kagurabachi/')
+add_data(['Yura'],
+'Yura',
+False,
+False,
+[
+    ['Kagurabachi']
+],
+'Kagurabachi',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dracula (Buffyverse)', 'https://www.reddit.com/r/respectthreads/comments/1qsik8p/respect_dracula_buffyverse/')
+add_data(['Dracula'],
+'Dracula',
+False,
+False,
+[
+    ['Buffy the Vampire Slayer'], ['\(Buffy\)'], ['Buffyverse'], ['BTVS'], ['Dracula ?\(Buffy\)'], ['Dracula from Buffy(verse)?']
+],
+'Buffy the Vampire Slayer',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Scarlet El Vandimion (May I Ask For One Final Thing?) [Manga/Anime]', 'https://www.reddit.com/r/respectthreads/comments/1qspspx/respect_scarlet_el_vandimion_may_i_ask_for_one/')
+add_data(['Scarlet El Vandimion'],
+'Scarlet El Vandimion',
+False,
+True,
+[
+    ['May I Ask For One Final Thing']
+],
+'May I Ask For One Final Thing?',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Sentinels (Marvel, Earth-TRN1300 [X-Men Origins: Wolverine Tie-In Game])', 'https://www.reddit.com/r/respectthreads/comments/1qsyib2/respect_the_sentinels_marvel_earthtrn1300_xmen/')
+add_data(['Sentinels'],
+'Sentinels',
+False,
+False,
+[
+    ['TRN1300']
+],
+'TRN1300',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Stray Cat (Stray)', 'https://www.reddit.com/r/respectthreads/comments/1qt6i4g/respect_the_stray_cat_stray/')
+add_data(['Stray Cat'],
+'Stray Cat',
+False,
+False,
+[
+    ['\(Stray\)']
+],
+'Stray',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Cat from Stray'],
+'Cat from Stray',
+False,
+False,
+[
+    ['\(Stray\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Titans (VERSUS)', 'https://www.reddit.com/r/respectthreads/comments/1qu3fym/respect_the_titans_versus/')
+add_data(['Titans'],
+'Titans',
+False,
+False,
+[
+    ['Titans ?\(VERSUS\)']
+],
+'VERSUS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pakkya (VERSUS)', 'https://www.reddit.com/r/respectthreads/comments/1qui7um/respect_pakkya_versus/')
+add_data(['Pakkya'],
+'Pakkya',
+False,
+False,
+[
+    ['Pakkya ?\(VERSUS\)']
+],
+'VERSUS',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect X-Virus (X-Virus)', 'https://www.reddit.com/r/respectthreads/comments/1quauxe/respect_xvirus_xvirus/')
+add_data(['X-Virus'],
+'X-Virus',
+False,
+False,
+[
+    ['Creepypasta']
+],
+'Creepypasta',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nick Wilde (Zootopia)', 'https://www.reddit.com/r/respectthreads/comments/1quqfi2/respect_nick_wilde_zootopia/')
+add_data(['Nick Wilde'],
+'Nick Wilde',
+False,
+True,
+[
+    ['Zootopia']
+],
+'Zootopia',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
