@@ -109,6 +109,100 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1242, 'Respect Judy Hopps! (Zootopia)', 'https://www.reddit.com/r/respectthreads/comments/1qwehfu/respect_judy_hopps_zootopia/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ectotron (Transformers/Ghostbusters)', 'https://www.reddit.com/r/respectthreads/comments/1quv43g/respect_ectotron_transformersghostbusters/')
+add_data(['Ectotron'],
+'Ectotron',
+False,
+False,
+[
+    ['Transformers', 'Ghostbusters']
+],
+'Transformers/Ghostbusters',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Hand (Talk to Me)', 'https://www.reddit.com/r/respectthreads/comments/1qwpgio/respect_the_hand_talk_to_me/')
+add_data(['The Hand'],
+'The Hand',
+False,
+False,
+[
+    ['Talk to Me']
+],
+'Talk to Me',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Jessie''s Seviper (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1qx0v58/respect_jessies_seviper_pokemon_anime/')
+add_data(['Seviper'],
+'Seviper',
+False,
+False,
+[
+    ['Jessie']
+],
+'Jessie',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Elesa (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1qx2tkj/respect_elesa_pokemon_anime/')
+add_data(['Elesa'],
+'Elesa',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ingo and Emmet (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1qxe0tv/respect_ingo_and_emmet_pokemon_anime/')
+add_data(['Ingo and Emmet'],
+'Ingo and Emmet',
+True,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Suckhead! (Vampire: the Masquerade - Bloodlines)', 'https://www.reddit.com/r/respectthreads/comments/1qxizve/respect_suckhead_vampire_the_masquerade_bloodlines/')
+add_data(['Suckhead'],
+'Suckhead',
+False,
+False,
+[
+    ['Vampire:? The Masquerade'], ['VTM']
+],
+'Vampire: the Masquerade',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
