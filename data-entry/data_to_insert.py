@@ -205,6 +205,141 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Godzilla (IDW Comics, Kai-Sei Era)', 'https://www.reddit.com/r/respectthreads/comments/1qyx3oz/respect_godzilla_idw_comics_kaisei_era/')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['IDW', 'Kai-Sei']
+],
+'IDW Comics, Kai-Sei Era',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Charles, the Mighty Accelguard (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1qyfruk/respect_charles_the_mighty_accelguard_pokemon/')
+add_data(['Charles'],
+'Charles',
+False,
+False,
+[
+    ['Accelg(or|uard)']
+],
+'Accelguard',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Clay (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1qzabx1/respect_clay_pokemon_anime/')
+add_data(['Clay'],
+'Clay',
+False,
+False,
+[
+    ['Clay ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nibbles Maplestick (Zootopia)', 'https://www.reddit.com/r/respectthreads/comments/1qzavmo/respect_nibbles_maplestick_zootopia/')
+add_data(['Nibbles Maplestick'],
+'Nibbles Maplestick',
+False,
+False,
+[
+    ['Zootopia']
+],
+'Zootopia',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Lynxleys (Zootopia)', 'https://www.reddit.com/r/respectthreads/comments/1qzaxbs/respect_the_lynxleys_zootopia/')
+add_data(['Lynxleys'],
+'Lynxleys',
+False,
+False,
+[
+    ['Zootopia']
+],
+'Zootopia',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Gary De''Snake (Zootopia)", 'https://www.reddit.com/r/respectthreads/comments/1qzayad/respect_gary_desnake_zootopia/')
+add_data(["Gary De''Snake"],
+"Gary De''Snake",
+False,
+False,
+[
+    ['Zootopia']
+],
+'Zootopia',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect: Homelander! (DC Comics)', 'https://www.reddit.com/r/respectthreads/comments/1qzey8j/respect_homelander_dc_comics/')
+add_data(['Homelander'],
+'Homelander',
+False,
+False,
+[
+    ['Homelander ?\(DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Michael Myers (Halloween 3D)', 'https://www.reddit.com/r/respectthreads/comments/1qzgihn/respect_michael_myers_halloween_3d/')
+add_data(['Mich(ae|ea)l Me?y(er|re)s'],
+'Michael Myers',
+False,
+False,
+[
+    ['Halloween 3D']
+],
+'Halloween 3D',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Sheriff (Vampire: the Masquerade - Bloodlines)', 'https://www.reddit.com/r/respectthreads/comments/1qzlnod/respect_the_sheriff_vampire_the_masquerade/')
+add_data(['Sheriff'],
+'Sheriff',
+False,
+False,
+[
+    ['Vampire:? The Masquerade']
+],
+'Vampire: The Masquerade',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
