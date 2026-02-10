@@ -54,6 +54,7 @@ UPDATE character_name SET name='R\.?O\.?B' WHERE name='R\\.?O\\.?B';
 UPDATE character_name SET name='M(is)?s\.? Pauling' WHERE name='M(is)?s\\.? Pauling';
 UPDATE character_name SET name='A\.?B\.?E' WHERE name='A\\.?B\\.?E';
 
+DELETE FROM character WHERE default_name='Anti-Venom' AND version='{"symbiotes?"}';
 
 
 

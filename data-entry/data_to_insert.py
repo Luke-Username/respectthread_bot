@@ -171,6 +171,50 @@ False,
 )
 #
 
+########################################
+
+id = get_rt_id(cur, 'Respect Georgia (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1qzomue/respect_georgia_pokemon_anime/')
+add_data(['Georgia'],
+'Georgia',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Marlon (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1r05ysk/respect_marlon_pokemon_anime/')
+add_data(['Marlon'],
+'Marlon',
+False,
+False,
+[
+    ['Marlon.*Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Swords of Justice (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1r03xwa/respect_the_swords_of_justice_pokemon_anime/')
+add_data(['Swords of Justice'],
+'Swords of Justice',
+True,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
