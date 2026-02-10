@@ -2541,7 +2541,6 @@ Lady Bullseye,Lady Bullseye,f
 Stick,Stick,f
 Typhoid Mary,Typhoid Mary,f
 Mary Walker,Mary Walker,f
-(Doctor|Dr)\.? Doom,Doctor Doom,f
 (Victor )?Von Doom,Doctor Doom,f
 God (Emperor )?Doom,God Emperor Doom,f
 God Empire Doom,God Emperor Doom,f
@@ -5998,7 +5997,6 @@ Kagetaro,Kagetaro,f
 Kurt G(o|ö)del,Kurt Gödel,f
 Sayoko Minase,Sayoko Minase,f
 Shion Nagumo,Shion Nagumo,f
-Takamichi T\\.? Takahata,Takamichi T. Takahata,f
 Takane D\\.? Goodman,Takane D. Goodman,f
 Xingzi Chao,Xingzi Chao,f
 Hero,Hero,f
@@ -6045,6 +6043,7 @@ Shimazaki,Shimazaki,f
 Perc(y|eus) Jackson,Percy Jackson,f
 George W\.? Bush,George W. Bush,f
 Evangeline A\.? ?K\.? McDowell,Evangeline A.K. McDowell,f
+Takane D\.? Goodman,Takamichi T. Takahata,f
 Ryo Shimazaki,Ryo Shimazaki,f
 Teruki,Teruki,f
 Karen,Karen,f
@@ -6080,7 +6079,6 @@ Mirio Togata,Lemillion,f
 Midoriya Jack,Midoriya Jack,f
 Mina Ashido,Mina Ashido,f
 Mina,Mina,f
-(Mount|Mt\\.?) Lady,Mount Lady,f
 Overhaul,Overhaul,f
 Stain,Stain,f
 Suneater,Suneater,f
@@ -6195,6 +6193,7 @@ Pain,Pain,f
 Endeavou?r,Endeavor,f
 Shōta Aizawa,Shōta Aizawa,f
 Teru(ki)? Hanazawa,Teruki Hanazawa,f
+(Mount|Mt\.?) Lady,Mount Lady,f
 Decibel,Decibel,f
 Chamber,Chamber,f
 Jonothon Starsmore,Jonothon Starsmore,f
@@ -6241,7 +6240,6 @@ Ki(-| )Adi(-| )Mundi,Ki-Adi-Mundi,f
 Sabine Wren,Sabine Wren,f
 Sabine,Sabine,f
 BUGS2,BUGS2,t
-Donatello K\\.? Davis,Donatello K. Davis,f
 Thien,Thien,f
 Maria Viren,Maria Viren,f
 Nanao Akita,Nanao Akita,f
@@ -6346,6 +6344,7 @@ Mega Charizard X,Mega Charizard X,f
 Mega(-| )Gardevoir,Mega Gardevoir,f
 Mega(-| )Houndoom,Mega Houndoom,f
 Gandalfs?,Gandalf,f
+Donatello K\.? Davis,Donatello K. Davis,f
 Knuckle ?duster,Knuckleduster,f
 Gaa?raa?,Gaara,f
 Scooby,Scooby-Doo,f
@@ -6390,7 +6389,6 @@ Jimmy,Jimmy,t
 Typhlosion,Typhlosion,f
 Kimia,Kimia,t
 Gardevoir,Gardevoir,f
-Lt\\.? Surge,Lt. Surge,f
 Maylene,Maylene,t
 Meditite,Meditite,f
 Nanu,Nanu,t
@@ -6702,7 +6700,6 @@ Gordon Ramsay,Gordon Ramsay,f
 Bill Dunn,Bill Dunn,f
 Parasite,Parasite,f
 Trazyn,Trazyn,f
-Mr\\.? A,Mr. A,f
 Alan Wu,Alan Wu,f
 Power,Power,f
 Quanxi,Quanxi,f
@@ -6759,7 +6756,6 @@ Min(-| )Min,Min Min,f
 Otogi Bank,Otogi Bank,t
 Ryou?ko (Ō|O)o?kami,Ryoko Ōkami,f
 Ryoshi Morino,Ryoshi Morino,f
-(Monster|Kaiju) (#|No)\\.? ?8,Monster #8,t
 Kafka Hibino,Kafka Hibino,f
 Leno Ichikawa,Leno Ichikawa,f
 Kikoru Shinomiya,Kikoru Shinomiya,f
@@ -6772,7 +6768,6 @@ Monster #9,Monster #9,f
 Monster #10,Monster #10,f
 Pterosaur(-| )type,Pterosaur-type,f
 Ace Ventura,Ace Ventura,f
-Mr\\.? Hinx,Mr. Hinx,f
 Dolemite,Dolemite,f
 Kibaomaru,Kibaomaru,f
 Jane the Killer,Jane the Killer,f
@@ -6789,6 +6784,8 @@ Flechette,Flechette,f
 Christine,Christine,f
 Ah Sahm,Ah Sahm,f
 Zenith Team,Zenith Team,t
+Mr\.? A,Mr. A,f
+(Monster|Kaiju) (#|No)\.? ?8,Monster #8,t
 Kamen Rider Blood,Kamen Rider Blood,f
 Killbus,Killbus,f
 Evolt,Evolt,f
@@ -6797,6 +6794,7 @@ Kamen Rider Metal Build,Kamen Rider Metal Build,f
 Keiji Uraga,Kamen Rider Metal Build,f
 Sawyer Riseman,Sawyer Riseman,f
 Riseman Sawyer,Sawyer Riseman,f
+Mr\.? Hinx,Mr. Hinx,f
 Ultraman Universe,Ultraman Universe,t
 Ultraman,Ultraman,f
 Ultraman Leo,Ultraman Leo,f
@@ -6843,16 +6841,13 @@ Shinji,Shinji,f
 Zeruel,Zeruel,f
 Ninja Slayer,Ninja Slayer,f
 Yamoto Koki,Yamoto Koki,f
-(Doctor|Dr\\.?) Aris,Dr. Aris,f
 Raizel,Raizel,f
 Raizel'?s? Knights,Raizel Knights,t
 Rai's Group,Raizel Knights,t
 Tao,Tao,f
 Takeo,Takeo,f
 Regis,Regis,f
-Regis K\\.? Landegre,Regis K. Landegre,f
 M(-| )?21,M-21,f
-Seira J\\.? Loyard,Seira J. Loyard,f
 Rajak Kertia,Rajak Kertia,f
 Big M(o|u)m,Big Mom,f
 Charlotte Cracker,Charlotte Cracker,f
@@ -6912,7 +6907,6 @@ Buggy the( Star)? Clown,Buggy the Clown,f
 Sir Crocodile,Sir Crocodile,f
 Mihawk,Mihawk,f
 Ge(c|k)ko Moriah?,Gekko Moria,f
-Trafalgar( D\\.? Water)? Law,Trafalgar D. Water Law,f
 Brook,Brook,f
 Franky,Franky,f
 Jinbe,Jinbe,f
@@ -6949,6 +6943,9 @@ Perona,Perona,f
 Kumashi,Kumashi,f
 Shanks,Shanks,f
 Shiki,Shiki,f
+(Doctor|Dr\.?) Aris,Dr. Aris,f
+Seira J\.? Loyard,Seira J. Loyard,f
+Trafalgar( D\.? Water)? Law,Trafalgar D. Water Law,f
 Silvers? Rayleigh,Silvers,f
 Rayleigh,Rayleigh,f
 Edward Newgate,Edward Newgate,f
@@ -7263,7 +7260,6 @@ Quinlan,Quinlan,f
 Master,Master,f
 Brandon Breyer,Brandon Breyer,f
 Tatsuya Suou,Tatsuya Suou,f
-(Doctor|Dr\\.?) Aphra,Doctor Aphra,f
 Mystery Inc(orporated)?,Mystery Inc.,t
 Scooby(-| )(Doo(-| ))?Gang,Scooby Gang,t
 Fred Jones,Fred Jones,f
@@ -7357,8 +7353,6 @@ Another Kabuto,Another Kabuto,f
 Chex Mix Squadron,Chex Mix Squadron,t
 Fred Chexter,Fred Chexter,f
 Wheatney Chexter,Wheatney Chexter,f
-Dr\\.? O'? ?Ryen,Dr. O Ryen,f
-P\\.?R\\.?E\\.?T\\.?Z\\.?L,P.R.E.T.Z.L.,f
 NaCl ?96,NaCl 96,f
 Shane McBread,Shane McBread,f
 Tychoben Arisaenn,Tychoben Arisaenn,f
@@ -7381,6 +7375,8 @@ Elsa Granhie?rte?,Elsa Granhiert,f
 Reinhardt? v(a|o)n Astrea,Reinhard van Astrea,f
 Ahsoka,Ahsoka Tano,f
 Velma Dinkley,Velma Dinkley,f
+(Doctor|Dr\.?) Aphra,Doctor Aphra,f
+Dr\.? O'? ?Ryen,Dr. O Ryen,f
 Gold Cloth Saiya,Pegasus Seiya,f
 Saint Seiya,Saint Seiya,f
 Leopold Vermillion,Leopold Vermillion,f
@@ -7391,7 +7387,6 @@ Koops,Koops,f
 Flurrie,Flurrie,f
 Vivian,Vivian,f
 Bobbery,Bobbery,f
-Mr?s\\.? Mowz,Ms. Mowz,f
 Goombario,Goombario,f
 Kooper,Kooper,f
 Bombette,Bombette,f
@@ -7526,6 +7521,7 @@ Buizel,Buizel,f
 Bulbasaur,Bulbasaur,f
 Impost(o|e)rs?,Impostor,f
 Ghost ?face,Ghostface,f
+Mr?s\.? Mowz,Ms. Mowz,f
 Butterfree,Butterfree,f
 Charmander,Charmander,f
 Charmeleon,Charmeleon,f
@@ -7732,7 +7728,6 @@ Umbrella,Umbrella,f
 Isabellae Ashiwara,Isabellae Ashiwara,f
 (8|Eight)(th)? Gates? Guy,Might Guy,f
 Wolfe Allelujah,Wolfe Allelujah,f
-(Doctor|Dr\\.?) Bong,Doctor Bong,f
 Bellatrix,Bellatrix Lestrange,f
 Helltaker,Helltaker,f
 Starlight,Starlight,f
@@ -7882,7 +7877,6 @@ Hikyou Banchou?,Hikyou Banchou,f
 Nomiako Shirayuki,Hikyou Banchou,f
 AT(-| )KM(-| )100,Machine Banchou,f
 Conquest,Conquest,f
-(Mr\\.?|Mister) Electric,Mr. Electric,f
 The Messenger,The Messenger,f
 Spock,Spock,f
 Dora the Murderer,Dora the Murderer,f
@@ -7963,7 +7957,6 @@ Liu Dongcheng,Liu Dongcheng,f
 Caine Wise,Caine Wise,f
 Ethan Winters,Ethan Winters,f
 Ethan,Ethan,f
-(Mr\\.?|Mister) Nimbus,Mr. Nimbus,f
 Hootsman,Hootsman,f
 Hro Talak,Hro Talak,f
 The Crow,The Crow,f
@@ -7981,7 +7974,9 @@ Saya Kuroki,Saya Kuroki,f
 Kid Miracle ?man,Kid Miracleman,f
 Ethan Edwards,Ethan Edwards,f
 Mad Jim Jaspers,Mad Jim Jaspers,f
-John( F\\.)? Walker,John Walker,f
+(Mr\.?|Mister) Electric,Mr. Electric,f
+(Mr\.?|Mister) Nimbus,Mr. Nimbus,f
+John( F\.)? Walker,John Walker,f
 Ultra(-| )Heavy Engagement Chassis,Ultra-Heavy Engagement Chassis,f
 UHEC,UHEC,f
 Orange Suit,Orange Suit,f
@@ -7994,26 +7989,24 @@ Jace Beleren,Jace Beleren,f
 Jace,Jace,f
 Dolomite,Dolomite,f
 Jotua Kujo,Jotua Kujo,f
-(Doctor|Dr\\.?) (Byron )?Orpheus,Dr. Orpheus,f
 MatPat,MatPat,f
 Game Theory,Game Theory,f
 Ebon,Ebon,f
 Terrific Trio,Terrific Trio,t
-(Doctor|Dr\\.?) Mike Morgan,Dr. Mike Morgan,f
-(Doctor|Dr\\.?) Mary Michaels,Dr. Mary Michaels,f
-(Doctor|Dr\\.?) Stuart Lowe,Dr. Stuart Lowe,f
 Freon,Freon,f
 2-?D Man,2-D Man,f
 Baby Mario,Baby Mario,f
 Baby Luigi,Baby Luigi,f
 Runaway Kid,Runaway Kid,f
 Six(-| )Gun Gorilla,Six Gun Gorilla,f
+(Doctor|Dr\.?) Mary Michaels,Dr. Mary Michaels,f
+(Doctor|Dr\.?) Stuart Lowe,Dr. Stuart Lowe,f
+(Doctor|Dr\.?) (Byron )?Orpheus,Dr. Orpheus,f
 Darquesse,Darquesse,f
 Grotesquery,Grotesquery,f
 Doran,Doran,f
 Sean,Sean,f
 Mevolent,Mevolent,f
-(Mister|Mr\\.?) Bliss,Mr. Bliss,f
 Skull?duggery Pleasant,Skulduggery Pleasant,f
 Solomon Wreath,Solomon Wreath,f
 Tanith Low,Tanith Low,f
@@ -8147,9 +8140,10 @@ Bobcat,Bobcat,f
 Josiah al hajj Saddiq,Josiah al hajj Saddiq,f
 Buried Alien,Buried Alien,f
 Isaiah Bradley,Isaiah Bradley,f
-(Doctor|Dr\\.?) Druid,Doctor Druid,f
 Punie Tanaka,Punie Tanaka,f
 Elizabeth Bathory,Elizabeth Bathory,f
+(Mister|Mr\.?) Bliss,Mr. Bliss,f
+(Doctor|Dr\.?) Druid,Doctor Druid,f
 Gorilla,Gorilla,f
 Jurota,Jurota,f
 Shroobs?,Shroobs,f
@@ -8200,7 +8194,6 @@ Dragon Shiryu,Dragon Shiryu,f
 Shiryu,Shiryu,f
 Filo,Filo,f
 Melty,Melty,f
-Melty Q\\.? Melromarc,Melty Q. Melromarc,f
 Naofumi,Naofumi Iwatani,f
 Raphtalia,Raphtalia,f
 Ultimen,Ultimen,t
@@ -8287,12 +8280,13 @@ Wekapipo,Wekapipo,f
 Rikiel,Rikiel,f
 Fungami,Yuya Fungami,f
 Carne,Carne,f
-Notorious B\\.?I\\.?G,Notorious B.I.G,f
 Nandor,Nandor,f
 Laszlo Cravensworth,Laszlo Cravensworth,f
 Laszlo,Laszlo,f
 Nadja,Nadja,f
 Hum(u|o)ng(o|u)u?saur,Humungousaur,f
+Melty Q\.? Melromarc,Melty Q. Melromarc,f
+Notorious B\.?I\.?G,Notorious B.I.G,f
 Black Lady,Black Lady,f
 Wicked Lady,Wicked Lady,f
 Dark Agency,Dark Agency,t
@@ -8484,7 +8478,6 @@ Tsugumi,Tsugumi,f
 Anya,Anya,f
 Meme,Meme,f
 Ao,Ao,f
-Aurora E\\.? Juutilainen,Aurora E. Juutilainen,f
 Eila Ilmatar Juutilainen,Eila Ilmatar Juutilainen,f
 Eila,Eila,f
 Erica Hartmann,Erica Hartmann,f
@@ -8492,7 +8485,6 @@ Gertrud Barkhorn,Gertrud Barkhorn,f
 Lynette Bishop,Lynette Bishop,f
 Minna Dietlinde Wilcke,Minna Dietlinde Wilcke,f
 Minna,Minna,f
-Sanya( V\\.?)? Litvyak,Sanya V. Litvyak,f
 Kirika Akatsuki,Kirika Akatsuki,f
 Maria Cadenzavna Eve,Maria Cadenzavna Eve,f
 Hank Henriette,Hank Henriette,f
@@ -8507,10 +8499,8 @@ Lazengann,Lazengann,f
 Viral,Viral,f
 Akari Hizamaru,Akari Hizamaru,f
 Ivan Perepelkin,Ivan Perepelkin,f
-Joseph( G(ustav)?\\.?)? Newton,Joseph G. Newton,f
 Keiji Onizuka,Keiji Onizuka,f
 Liu Yiwu,Liu Yiwu,f
-Marcos( E(ringrad)?\\.?)? Garcia,Marcos Garcia,f
 Shokichi Komachi,Shokichi Komachi,f
 Komachi Shokichi,Shokichi Komachi,f
 Sylvester Asimovs,Sylvester Asimovs,f
@@ -8539,7 +8529,6 @@ Toriko,Toriko,f
 Zebra,Zebra,f
 Gung(-| )Ho(-| )Guns,Gung-Ho-Guns,t
 Monev the Gale,Monev the Gale,f
-E\\.?G\\.? Mine,E.G. Mine,f
 Dominique the Cyclops,Dominique the Cyclops,f
 Leonof the Puppet(-| )?Master,Leonof the Puppet-Master,f
 Hoppered the Gauntlet,Hoppered the Gauntlet,f
@@ -8580,6 +8569,11 @@ Kuga Y(ū|u)u?ma,Yūma Kuga,f
 Enjin,Enjin,f
 Enjin Hiizumi,Enjin Hiizumi,f
 Hime,Hime,f
+Aurora E\.? Juutilainen,Aurora E. Juutilainen,f
+Sanya( V\.?)? Litvyak,Sanya V. Litvyak,f
+Joseph( G(ustav)?\.?)? Newton,Joseph G. Newton,f
+Marcos( E(ringrad)?\.?)? Garcia,Marcos Garcia,f
+E\.?G\.? Mine,E.G. Mine,f
 Hime Yarizakura,Hime Yarizakura,f
 Kotoha Isone,Kotoha Isone,f
 Isone Kotoha,Kotoha Isone,f
@@ -8903,7 +8897,6 @@ N(ō|o)u?gami Neuro,Neuro Nōgami,f
 Neuro N(ō|o)u?gami,Neuro Nōgami,f
 Rune Balot,Rune Balot,f
 Mazinkaiser,Mazinkaiser,f
-M\\.?D\\.? Geist,M.D. Geist,f
 Eruna Ichinomiya,Eruna Ichinomiya,f
 Yuno Gasai,Yuno Gasai,f
 Gasai Yuno,Yuno Gasai,f
@@ -8918,12 +8911,10 @@ Suu,Suu,f
 Meroune,Meroune Lorelei,f
 Rachnera,Rachnera Arachnera,f
 Lala,Lala,f
-M\\.?O\\.?N,M.O.N,t
 Zombina,Zombina,f
 Monako,Monako,f
 Tionishia,Tionishia,f
 Doppel,Doppel,f
-Mr?s\\.? Smith,Ms. Smith,f
 Tirol Cerberus,Tirol Cerberus,f
 Munto,Munto,f
 Kuroko Koumori,Kuroko Koumori,f
@@ -9011,6 +9002,8 @@ Shimon Ik(a|u)ruga,Shimon Ikaruga,f
 Ik(a|u)ruga Shimon,Shimon Ikaruga,f
 Kankuro Mitosaka,Kankuro Mitosaka,f
 Mitosaka Kankuro,Kankuro Mitosaka,f
+M\.?O\.?N,M.O.N,t
+Mr?s\.? Smith,Ms. Smith,f
 Coll?in Robinson,Colin Robinson,f
 Coll?in,Colin,f
 Dipper Pines,Dipper Pines,f
@@ -9193,7 +9186,6 @@ Christopher Belmont,Christopher Belmont,f
 Simon Belmont,Simon Belmont,f
 Dingodile,Dingodile,f
 Nina Cortex,Nina Cortex,f
-(N\\.?|Nefarious) Tropy,N. Tropy,f
 Akane Owari,Akane Owari,f
 Genocider Syo,Genocide Jack,f
 Genocide Jack,Genocide Jack,f
@@ -9315,7 +9307,6 @@ Cranky,Cranky,f
 Cranky Kong,Cranky Kong,f
 Diddy,Diddy,f
 Diddy Kong,Diddy Kong,f
-King K\\.? ?Rool,King K. Rool,f
 Giygas,Giygas,f
 Kumatora,Kumatora,f
 Chosen Four,Chosen Four,t
@@ -9422,7 +9413,6 @@ Kim Wu,Kim Wu,f
 Mira,Mira,f
 Omen,Omen,f
 Orchid,Orchid,f
-B(lack)?\\.? Orchid,Black Orchid,f
 Riptor,Riptor,f
 Sabrewulf,Sabrewulf,f
 Sadira,Sadira,f
@@ -9456,6 +9446,8 @@ Gooey,Gooey,f
 Kracko,Kracko,f
 Marx,Marx,f
 Sephiro(t|p)h,Sephiroth,f
+King K\.? ?Rool,King K. Rool,f
+B(lack)?\.? Orchid,Black Orchid,f
 Haltmann,President Haltmann,f
 Sectonia,Queen Sectonia,f
 Star Rod,Star Rod,f
@@ -9736,7 +9728,6 @@ Ryuji,Ryuji,f
 Ryuji Sakamoto,Ryuji Sakamoto,f
 Labrys,Labrys,f
 Zomboss,Dr. Zomboss,f
-Plants vs\\.? Zombies,Plants vs. Zombies,t
 Crazy Dave,Crazy Dave,f
 Pea ?shooters?,Peashooter,f
 Sun ?flowers?,Sunflower,f
@@ -9760,6 +9751,7 @@ Risky Boots,Risky Boots,f
 Rottytops,Rottytops,f
 Shantae,Shantae,f
 L(é|e)on,Leon,f
+Plants vs\.? Zombies,Plants vs. Zombies,t
 Plague Knight,Plague Knight,f
 Bentley,Bentley,f
 Clockwerk,Clockwerk,f
@@ -9783,7 +9775,6 @@ Blanka,Blanka,f
 Cammy,Cammy,f
 Chun(-| )Li,Chun-Li,f
 Elena,Elena,f
-F\\.?A\\.?N\\.?G,F.A.N.G,f
 G,G,f
 Guile,Guile,f
 Hakan,Hakan,f
@@ -9791,7 +9782,6 @@ Ibuki,Ibuki,f
 Juri,Juri,f
 Oro,Oro,f
 Poison,Poison,f
-R(ainbow)?\\.? ?Mika,Rainbow Mika,f
 Sagat,Sagat,f
 Sakura Kasugano,Sakura Kasugano,f
 Vega,Vega,f
@@ -9809,7 +9799,6 @@ Lemmy Koopa,Lemmy Koopa,f
 Ludwig von Koopa,Ludwig von Koopa,f
 Morton Koopa,Morton Koopa Jr.,f
 Roy Koopa,Roy Koopa,f
-Wendy( O\\.?)? Koopa,Wendy O. Koopa,f
 Mario Party,Mario Party,f
 Rosalina,Rosalina,f
 Toadsworth,Toadsworth,f
@@ -9822,7 +9811,6 @@ Dribble (and|&) Spit?z,Dribble and Spitz,f
 9-Volt,9-Volt,f
 18-Volt,18-Volt,f
 Young Cricket,Young Cricket,f
-Dr\\.? Crygor,Dr. Crygor,f
 Mike,Mike,f
 Jimmy T,Jimmy T,f
 Super Smash,Super Smash Bros Universe,t
@@ -9832,7 +9820,6 @@ Duck Hunt,Duck Hunt,f
 Fox Mc?Cloud,Fox McCloud,f
 Marth,Marth,f
 Master Core,Master Core,f
-R\\.?O\\.?B,R.O.B,f
 Wii Fit Trainer,Wii Fit Trainer,f
 Decus,Decus,f
 Emil,Emil,f
@@ -9841,7 +9828,6 @@ Marta Lualdi,Marta Lualdi,f
 Richter Abend,Richter Abend,f
 Yuri Lowell,Yuri Lowell,f
 Bread,Bread,f
-M(is)?s\\.? Pauling,Miss Pauling,f
 Mercenar(y|ies),Mercenaries,t
 Mercs?,Mercs,t
 Demo(-| )?man,Demoman,f
@@ -9908,6 +9894,12 @@ Zang(ie|ei)f,Zangief,f
 M\.? ?Bison,M. Bison,f
 Ca?pt(ain)?\.? Falcon,Captain Falcon,f
 S(a|e)xton Hale,Saxton Hale,f
+F\.?A\.?N\.?G,F.A.N.G,f
+R(ainbow)?\.? ?Mika,Rainbow Mika,f
+Wendy( O\.?)? Koopa,Wendy O. Koopa,f
+Dr\.? Crygor,Dr. Crygor,f
+R\.?O\.?B,R.O.B,f
+M(is)?s\.? Pauling,Miss Pauling,f
 Satoru,Satoru,f
 Yumi,Yumi,f
 Ezio,Ezio,f
@@ -9940,7 +9932,6 @@ Frog,Frog,f
 Ayla,Ayla,f
 Magus,Magus,f
 Clash of Clans,Clash of Clans,f
-A\\.?B\\.?E,A.B.E,f
 Ethan Thomas,Ethan Thomas,f
 Conker,Conker,f
 Croc,Croc,f
@@ -10057,6 +10048,7 @@ Rasputia Latimore,Rasputia Latimore,f
 Lu Tian,Lu Tian,f
 Tsubone,Tsubone,f
 Is(a|s)ac Clarke?,Isaac Clarke,f
+A\.?B\.?E,A.B.E,f
 Ninja Turtles?,Teenage Mutant Ninja Turtles,t
 Sammael,Sammael,f
 Doodlebob,Doodlebob,f
@@ -15905,3 +15897,22 @@ Pakkya,Pakkya,f
 X-Virus,X-Virus,f
 Nick Wilde,Nick Wilde,f
 Ico,Ico,f
+Lt\.? Surge,Lt. Surge,f
+Regis K\.? Landegre,Regis K. Landegre,f
+P\.?R\.?E\.?T\.?Z\.?L,P.R.E.T.Z.L.,f
+(Doctor|Dr\.?) Bong,Doctor Bong,f
+(Doctor|Dr\.?) Mike Morgan,Dr. Mike Morgan,f
+M\.?D\.? Geist,M.D. Geist,f
+(N\.?|Nefarious) Tropy,N. Tropy,f
+Ectotron,Ectotron,f
+Seviper,Seviper,f
+Elesa,Elesa,f
+Georgia,Georgia,f
+Marlon,Marlon,f
+Swords of Justice,Swords of Justice,t
+Ingo and Emmet,Ingo and Emmet,t
+Suckhead,Suckhead,f
+Nibbles Maplestick,Nibbles Maplestick,f
+Lynxleys,Lynxleys,f
+Gary De'Snake,Gary De'Snake,f
+Sheriff,Sheriff,f

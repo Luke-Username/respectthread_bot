@@ -7803,7 +7803,6 @@ All-Black,"{`"All(-| )Father`"}",f,{2313},616
 All-Black,{Gorr},f,{2313},616
 Anti-Venom,{Marvel},f,{2314},616
 Anti-Venom,{616},f,{2314},616
-Anti-Venom,{symbiotes?},f,{2314},616
 Anti-Venom,"{`"Anti(-| )?Venom vs`"}",f,{2314},616
 Anti-Venom,"{`"vs.? Anti(-| )?Venom`"}",f,{2314},616
 Anti-Venom,{Carnage},f,{2314},616
@@ -34467,3 +34466,22 @@ Dracula,{BTVS},f,{26906},Buffy the Vampire Slayer
 Dracula,"{`"Dracula ?(Buffy)`"}",f,{26906},Buffy the Vampire Slayer
 Dracula,"{`"Dracula from Buffy(verse)?`"}",f,{26906},Buffy the Vampire Slayer
 Ico,"{`"\\(Ico\\)`"}",f,{26913},Ico
+Ectotron,"{Transformers,Ghostbusters}",f,{26914},Transformers/Ghostbusters
+The Hand,"{`"Talk to Me`"}",f,{26915},Talk to Me
+Seviper,{Jessie},f,{26916},Jessie
+Elesa,{Pok(e|é)m(o|a)n},f,{26917},Pokémon
+Georgia,{Pok(e|é)m(o|a)n},f,{26918},Pokémon
+Marlon,{Marlon.*Pok(e|é)m(o|a)n},f,{26919},Pokémon
+Swords of Justice,{Pok(e|é)m(o|a)n},f,{26920},Pokémon
+Ingo and Emmet,{Pok(e|é)m(o|a)n},f,{26921},Pokémon
+Suckhead,"{`"Vampire:? The Masquerade`"}",f,{26922},Vampire: the Masquerade
+Suckhead,{VTM},f,{26922},Vampire: the Masquerade
+Godzilla,"{IDW,Kai-Sei}",f,{26923},"IDW Comics, Kai-Sei Era"
+Charles,{Accelg(or|uard)},f,{26924},Accelguard
+Clay,"{`"Clay ?\\(Pok(e|é)m(o|a)n`"}",f,{26925},Pokémon
+Nibbles Maplestick,{Zootopia},f,{26926},Zootopia
+Lynxleys,{Zootopia},f,{26927},Zootopia
+Gary De'Snake,{Zootopia},f,{26928},Zootopia
+Homelander,"{`"Homelander ?\\(DC Comics`"}",f,{26929},DC
+Michael Myers,"{`"Halloween 3D`"}",f,{26930},Halloween 3D
+Sheriff,"{`"Vampire:? The Masquerade`"}",f,{26931},Vampire: The Masquerade
