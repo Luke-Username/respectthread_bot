@@ -109,6 +109,21 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4353, 'Respect Skyla (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1r0y97n/respect_skyla_pokemon_anime/')
+
+########################################
+
+add_data(['Dabura'],
+'Dabura',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen'], ['JJK']
+],
+'Jujutsu Kaisen',
+'{}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1r14uq6/dabura_jjk_modulo_vs_the_primearchs_40k_one_on_one/o4mw6sa/?context=3
 
 ########################################
 
