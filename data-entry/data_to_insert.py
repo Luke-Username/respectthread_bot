@@ -110,6 +110,8 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 4353, 'Respect Skyla (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1r0y97n/respect_skyla_pokemon_anime/')
+update_respectthread(cur, 3521, 'Respect Neferpitou (Hunter x Hunter)', 'https://www.reddit.com/r/respectthreads/comments/1r2cm5k/respect_neferpitou_hunter_x_hunter/')
+update_respectthread(cur, 159, 'Respect Laura/X-23 (Fox X-Men)', 'https://www.reddit.com/r/respectthreads/comments/1r3gl4e/respect_laurax23_fox_xmen/')
 
 ########################################
 
@@ -124,6 +126,23 @@ False,
 '{}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/1r14uq6/dabura_jjk_modulo_vs_the_primearchs_40k_one_on_one/o4mw6sa/?context=3
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Wolf Chimeras (Fullmetal Alchemist: The Sacred Star of Milos)', 'https://www.reddit.com/r/respectthreads/comments/1r31uam/respect_the_wolf_chimeras_fullmetal_alchemist_the/')
+add_data(['(Were)?wolf Chimeras?'],
+'Wolf Chimeras',
+False,
+False,
+[
+    ['Full ?metal']
+],
+'Fullmetal Alchemist',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
 
 ########################################
 
