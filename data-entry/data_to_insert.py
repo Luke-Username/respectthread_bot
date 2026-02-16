@@ -109,6 +109,41 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Sailor Mercury'],
+'Sailor Mercury',
+False,
+False,
+[
+    ['Sailor Moon Abridged']
+],
+'Sailor Moon Abridged',
+'{26933}'
+)
+#
+
+add_data(['Sailor Venus'],
+'Sailor Venus',
+False,
+False,
+[
+    ['Sailor Moon Abridged']
+],
+'Sailor Moon Abridged',
+'{26933}'
+)
+#
+
+add_data(['Sailor Jupiter'],
+'Sailor Jupiter',
+False,
+False,
+[
+    ['Sailor Moon Abridged']
+],
+'Sailor Moon Abridged',
+'{26933}'
+)
+#
 
 ########################################
 
