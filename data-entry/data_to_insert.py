@@ -109,17 +109,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Pawbert'],
-'Pawbert',
-False,
-False,
-[
-    ['Austin Powers']
-],
-'Zootopia',
-'{26927}'
-)
-#
 
 ########################################
 
