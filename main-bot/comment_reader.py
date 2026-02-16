@@ -25,7 +25,7 @@ def read_comments(r, cur, comments_list: List[str]):
             lowercase_comment = comment.body.lower()
 
             # Check comment is less than 4 days old, the comment isn't by the bot itself, the bot hasn't checked it already, and the comment has the summon keyword
-            if age < 345600 and comment.author != r.user.me() and comment not in comments_list and (keyword in lowercase_comment or lowercase_comment.startswith("!")):
+            if age < 345600 and comment.author != r.user.me() and comment not in comments_list and (keyword in lowercase_comment):
                 keyworded_comment = tp.get_keyworded_lines_from_comment(comment.body, keyword)
                 if keyworded_comment != "":
                     character_list = mcr.search_characters("", keyworded_comment, cur)
