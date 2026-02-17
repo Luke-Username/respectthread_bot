@@ -14,6 +14,8 @@ UPDATE character_name SET name='' WHERE...
 
 ########################################
 
+DELETE FROM character WHERE default_name='Drone' AND version='{"Alien"}'; --https://www.reddit.com/r/whowouldwin/comments/1r6qgms/the_ethereal_collective_xcom_euew_vs_the_urquan/o5s1mhc/?context=3
+
 ########################################
 
 ########################################
