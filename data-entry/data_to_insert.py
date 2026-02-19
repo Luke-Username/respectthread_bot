@@ -147,6 +147,66 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Lord Lowerniel Vergidiyad Drakan (Old School Runescape)', 'https://www.reddit.com/r/respectthreads/comments/1r6qkhw/respect_lord_lowerniel_vergidiyad_drakan_old/')
+add_data(['Lowerniel( Vergidiyad)? Drakan'],
+'Lord Lowerniel Vergidiyad Drakan',
+False,
+True,
+[
+    ['RuneScape']
+],
+'RuneScape',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Looker (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1r76sh8/respect_looker_pokemon_anime/')
+add_data(['Looker'],
+'Looker',
+False,
+False,
+[
+    ['Looker.*Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pavitr Prabhakar (Spider-Verse)', 'https://www.reddit.com/r/respectthreads/comments/1r84314/respect_pavitr_prabhakar_spiderverse/')
+add_data(['Pavitr Prabhakar'],
+'Pavitr Prabhakar',
+False,
+False,
+[
+    ['Spider(-| )?Verse']
+],
+'Into the Spider-Verse',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Vikor (Amazon''s The Boys: Gen V)", 'https://www.reddit.com/r/respectthreads/comments/1r8l0ye/respect_vikor_amazons_the_boys_gen_v/')
+add_data(['Vikor'],
+'Vikor',
+False,
+False,
+[
+    ['The Boys'], ['Gen V']
+],
+'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "

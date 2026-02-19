@@ -18,6 +18,9 @@ DELETE FROM character WHERE default_name='Drone' AND version='{"Alien"}'; --http
 
 ########################################
 
+--https://www.reddit.com/r/whowouldwin/comments/1r75azg/david_haller_legion_show_vs_wanda_maximoff_mcu/o5ux5za/?context=3
+UPDATE character SET version='{"David Haller ?\(Legion( Show)?\)"}' WHERE default_name='David Haller' AND version='{"David Haller ?\(Legion\)"}';
+
 ########################################
 
 ########################################
