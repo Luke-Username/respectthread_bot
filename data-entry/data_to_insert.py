@@ -109,6 +109,12 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 2566, 'Respect (?) Red Skull! (Marvel, 1610)', 'https://www.reddit.com/r/respectthreads/comments/1ra1h5u/respect_red_skull_marvel_1610/')
+update_respectthread(cur, 5201, 'Respect Vi! (Arcane / League of Legends)', 'https://www.reddit.com/r/respectthreads/comments/1rb3413/respect_vi_arcane_league_of_legends/')
+update_respectthread(cur, 8574, 'Respect Paul Blart (Paul Blart: Mall Cop)', 'https://www.reddit.com/r/respectthreads/comments/1rbkh8g/respect_paul_blart_paul_blart_mall_cop/')
+
+########################################
+
 add_data(['Sailor Mercury'],
 'Sailor Mercury',
 False,
@@ -201,6 +207,150 @@ False,
     ['The Boys'], ['Gen V']
 ],
 'The Boys',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Leviathan (User SixEyedFox''s Leviathan)", 'https://www.reddit.com/r/respectthreads/comments/1r9dogt/respect_leviathan_user_sixeyedfoxs_leviathan/')
+add_data(['Leviathan'],
+'Leviathan',
+False,
+False,
+[
+    ['SixEyedFox']
+],
+'SixEyedFox',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Clown (Dead by Daylight)', 'https://www.reddit.com/r/respectthreads/comments/1r9tg1d/respect_the_clown_dead_by_daylight/')
+add_data(['Clown'],
+'Clown',
+False,
+False,
+[
+    ['Dead by Daylight']
+],
+'Dead by Daylight',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Esteban Corazón de Ablo, Diablo (Marvel Comics, 616)', 'https://www.reddit.com/r/respectthreads/comments/1raddgw/respect_esteban_coraz%C3%B3n_de_ablo_diablo_marvel/')
+add_data(['Esteban Coraz(ó|0)n de Ablo'],
+'Esteban Corazón de Ablo',
+False,
+True,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Diablo'],
+'Diablo',
+False,
+False,
+[
+    ['616', 'Esteban']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Christof Romuald! (Vampire: the Masquerade - Redemption)', 'https://www.reddit.com/r/respectthreads/comments/1rbidvg/respect_christof_romuald_vampire_the_masquerade/')
+add_data(['Christof Romuald'],
+'Christof Romuald',
+False,
+True,
+[
+    ['Vampire:? The Masquerade'], ['VTMR?']
+],
+'Vampire: The Masquerade',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/zdzaeu/christof_romualdvtmr_vs_bloodlines_pcvtmb/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Howard Payne (Speed)', 'https://www.reddit.com/r/respectthreads/comments/1rbj7cn/respect_howard_payne_speed/')
+add_data(['Howard Payne'],
+'Howard Payne',
+False,
+False,
+[
+    ['Speed']
+],
+'Speed',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sheriff Bart (Blazing Saddles)', 'https://www.reddit.com/r/respectthreads/comments/1rbkou5/respect_sheriff_bart_blazing_saddles/')
+add_data(['Bart'],
+'Bart',
+False,
+False,
+[
+    ['Blazing Saddles']
+],
+'Blazing Saddles',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jim, The Waco Kid (Blazing Saddles)', 'https://www.reddit.com/r/respectthreads/comments/1rbkpq6/respect_jim_the_waco_kid_blazing_saddles/')
+add_data(['Jim'],
+'Jim',
+False,
+False,
+[
+    ['Blazing Saddles']
+],
+'Blazing Saddles',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Waco Kid'],
+'Waco Kid',
+False,
+False,
+[
+    ['Blazing Saddles']
+],
+'Blazing Saddles',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Casey Jones! (Michael Bay''s Teenage Mutant Ninja Turtles)", 'https://www.reddit.com/r/respectthreads/comments/1rbs23s/respect_casey_jones_michael_bays_teenage_mutant/')
+add_data(['Casey Jones'],
+'Casey Jones',
+False,
+False,
+[
+    ['Michael Bay'], ['Teenaged? Mutant Ninja Turtles?', '2014'], ['TMNT', '2014']
+],
+'Teenage Mutant Ninja Turtles, 2014',
 '{' + '{}'.format(id) + '}'
 )
 #
