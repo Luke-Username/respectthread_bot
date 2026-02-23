@@ -12,14 +12,12 @@ UPDATE character SET rt_id_array='' WHERE...
 
 UPDATE character_name SET name='' WHERE...
 
+--(Example) https://www.reddit.com/r/whowouldwin/comments/1r75azg/david_haller_legion_show_vs_wanda_maximoff_mcu/o5ux5za/?context=3
+UPDATE character SET version='{"David Haller ?\\(Legion( Show)?\\)"}' WHERE default_name='David Haller' AND version='{"David Haller ?\\(Legion\\)"}';
+
 ########################################
 
-DELETE FROM character WHERE default_name='Drone' AND version='{"Alien"}'; --https://www.reddit.com/r/whowouldwin/comments/1r6qgms/the_ethereal_collective_xcom_euew_vs_the_urquan/o5s1mhc/?context=3
-
 ########################################
-
---https://www.reddit.com/r/whowouldwin/comments/1r75azg/david_haller_legion_show_vs_wanda_maximoff_mcu/o5ux5za/?context=3
-UPDATE character SET version='{"David Haller ?\(Legion( Show)?\)"}' WHERE default_name='David Haller' AND version='{"David Haller ?\(Legion\)"}';
 
 ########################################
 

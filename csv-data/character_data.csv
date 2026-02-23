@@ -1709,7 +1709,6 @@ Robin Hood,"{`"Adventures of Robin Hood`"}",f,{379},The Adventures of Robin Hood
 Robin Hood,{1938},f,{379},The Adventures of Robin Hood
 Vasquez,{Aliens},f,{380},Aliens
 Xenomorphs,{Alien},t,{381},Alien
-Drone,{Alien},f,{381},Alien
 Drone,{Xeno},f,{381},Alien
 Facehugger,{Alien},t,{381},Alien
 Predalien,{Requiem},t,{382},Alien vs Predator: Requiem
@@ -8631,7 +8630,6 @@ Strong Guy,{Marvel},f,{2385},616
 Strong Guy,"{`"X(-| )?Factor`"}",f,{2385},616
 Strong Guy,"{`"X(-| )?Men`"}",f,{2385},616
 Quicksilver,"{`"X(-| )?Men Movies?`"}",f,{12149},FOX
-David Haller,"{`"David Haller ?\\(Legion\\)`"}",f,{13583},FX
 Quicksilver,"{`"X-?Men:? Apocalypse`"}",f,{12149},FOX
 Quicksilver,"{`"Days of Future Past`"}",f,{12149},FOX
 Quicksilver,{DOFP},f,{12149},FOX
@@ -8640,6 +8638,7 @@ Peter Maximoff,"{`"X(-| )?Men Movies?`"}",f,{12149},FOX
 Peter Maximoff,"{`"X-?Men:? Apocalypse`"}",f,{12149},FOX
 Peter Maximoff,"{`"Days of Future Past`"}",f,{12149},FOX
 Peter Maximoff,{DOFP},f,{12149},FOX
+David Haller,"{`"David Haller ?\\(Legion( Show)?\\)`"}",f,{13583},FX
 Detective Chimp,{PC},f,{1857},Pre New 52
 Detective Chimp,"{`"Earth(-| )(1|One)`"}",f,{1857},Pre New 52
 Detective Chimp,"{`"Post(-| )?C(risis)?`"}",f,{1857},Pre New 52
@@ -34495,3 +34494,24 @@ Guadalupe Droin,"{`"World of Darkness`"}",t,{26936},World of Darkness
 Hayashizake Jinsuke,{Tenkaichi},f,{26937},Tenkaichi
 Hozoin Inshun,{Tenkaichi},f,{26938},Tenkaichi
 Pawbert,{Zootopia},f,{26927},Zootopia
+Sailor Mercury,"{`"Sailor Moon Abridged`"}",f,{26933},Sailor Moon Abridged
+Sailor Venus,"{`"Sailor Moon Abridged`"}",f,{26933},Sailor Moon Abridged
+Sailor Jupiter,"{`"Sailor Moon Abridged`"}",f,{26933},Sailor Moon Abridged
+Lord Lowerniel Vergidiyad Drakan,{RuneScape},t,{26939},RuneScape
+Looker,{Looker.*Pok(e|é)m(o|a)n},f,{26940},Pokémon
+Pavitr Prabhakar,"{`"Spider(-| )?Verse`"}",f,{26941},Into the Spider-Verse
+Vikor,"{`"The Boys`"}",f,{26942},The Boys
+Vikor,"{`"Gen V`"}",f,{26942},The Boys
+Leviathan,{SixEyedFox},f,{26943},SixEyedFox
+Clown,"{`"Dead by Daylight`"}",f,{26944},Dead by Daylight
+Esteban Corazón de Ablo,{616},t,{26945},616
+Diablo,"{616,Esteban}",f,{26945},616
+Christof Romuald,"{`"Vampire:? The Masquerade`"}",t,{26946},Vampire: The Masquerade
+Christof Romuald,{VTMR?},t,{26946},Vampire: The Masquerade
+Howard Payne,{Speed},f,{26947},Speed
+Bart,"{`"Blazing Saddles`"}",f,{26948},Blazing Saddles
+Jim,"{`"Blazing Saddles`"}",f,{26949},Blazing Saddles
+Waco Kid,"{`"Blazing Saddles`"}",f,{26949},Blazing Saddles
+Casey Jones,"{`"Michael Bay`"}",f,{26950},"Teenage Mutant Ninja Turtles, 2014"
+Casey Jones,"{`"Teenaged? Mutant Ninja Turtles?`",2014}",f,{26950},"Teenage Mutant Ninja Turtles, 2014"
+Casey Jones,"{TMNT,2014}",f,{26950},"Teenage Mutant Ninja Turtles, 2014"
