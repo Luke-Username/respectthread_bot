@@ -3758,6 +3758,8 @@ Vampire: The Masquerade
 		['WOD']
 	Displayed Version Name
 		"Vampire: The Masquerade"
+		OR
+		"World of Darkness"
 
 The VelociPastor
 	Version

@@ -109,6 +109,169 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 1596, 'Respect Leonard Snart/Captain Cold (DC Comics, Post Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1rbuhcy/respect_leonard_snartcaptain_cold_dc_comics_post/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bowser (DEATH BATTLE)', 'https://www.reddit.com/r/respectthreads/comments/1rbt7hb/respect_bowser_death_battle/')
+add_data(['Bowser'],
+'Bowser',
+False,
+False,
+[
+    ['DEATH BATTLE']
+],
+'DEATH BATTLE!',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Team Galactic! (Pokémon Adventures)', 'https://www.reddit.com/r/respectthreads/comments/1rccga3/respect_team_galactic_pok%C3%A9mon_adventures/')
+add_data(['Team Galactic'],
+'Team Galactic',
+True,
+False,
+[
+    ['Pok(e|é)m(o|a)n Adventures']
+],
+'Pokémon Adventures',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cipher (Honkai: Star Rail)', 'https://www.reddit.com/r/respectthreads/comments/1rci9c9/respect_cipher_honkai_star_rail/')
+add_data(['Cipher'],
+'Cipher',
+False,
+False,
+[
+    ['Honkai', 'Star Rail']
+],
+'Honkai: Star Rail',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1mxhq9m/the_chrysos_heirs_honkai_star_rail_vs_the_round/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Schmidt and Jenko (21 Jump Street)', 'https://www.reddit.com/r/respectthreads/comments/1rckd58/respect_schmidt_and_jenko_21_jump_street/')
+add_data(['Schmidt'],
+'Schmidt',
+False,
+False,
+[
+    ['(21|22) Jump ?Street']
+],
+'21 Jump Street',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Jenko'],
+'Jenko',
+False,
+False,
+[
+    ['(21|22) Jump ?Street']
+],
+'21 Jump Street',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Schmidt and Jenko'],
+'Schmidt and Jenko',
+True,
+True,
+[
+    ['(21|22) Jump ?Street']
+],
+'21 Jump Street',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Skeletons! (The Skeleton Dance)', 'https://www.reddit.com/r/respectthreads/comments/1rcmz8a/respect_the_skeletons_the_skeleton_dance/')
+add_data(['Skeletons'],
+'Skeletons',
+False,
+False,
+[
+    ['The Skeleton Dance']
+],
+'The Skeleton Dance',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kei the Dragon (Belle: The Dragon and the Freckled Princess)', 'https://www.reddit.com/r/respectthreads/comments/1rcolva/respect_kei_the_dragon_belle_the_dragon_and_the/')
+add_data(['Kei'],
+'Kei',
+False,
+False,
+[
+    ['Dragon and the Freckled Princess']
+],
+'Belle: The Dragon and the Freckled Princess',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Suzu Naito, aka Belle (Belle: The Dragon and the Freckled Princess)', 'https://www.reddit.com/r/respectthreads/comments/1rcor6o/respect_suzu_naito_aka_belle_belle_the_dragon_and/')
+add_data(['Belle'],
+'Belle',
+False,
+False,
+[
+    ['Dragon and the Freckled Princess']
+],
+'Belle: The Dragon and the Freckled Princess',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Suzu Naito, aka Belle (Belle: The Dragon and the Freckled Princess)', 'https://www.reddit.com/r/respectthreads/comments/1rcor6o/respect_suzu_naito_aka_belle_belle_the_dragon_and/')
+add_data(['Belle'],
+'Belle',
+False,
+False,
+[
+    ['Dragon and the Freckled Princess']
+],
+'Belle: The Dragon and the Freckled Princess',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Ghouls! (World of Darkness)', 'https://www.reddit.com/r/respectthreads/comments/1rcrn82/respect_the_ghouls_world_of_darkness/')
+add_data(['Ghouls'],
+'Ghouls',
+False,
+False,
+[
+    ['World of Darkness']
+],
+'World of Darkness',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
