@@ -7,4 +7,3 @@ sudo -u postgres psql -d respectthreads -f manual_sql_queries.sql
 
 
 
-

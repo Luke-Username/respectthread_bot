@@ -110,6 +110,9 @@ cur = con.cursor()
 ########################################
 
 update_respectthread(cur, 1596, 'Respect Leonard Snart/Captain Cold (DC Comics, Post Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1rbuhcy/respect_leonard_snartcaptain_cold_dc_comics_post/')
+update_respectthread(cur, 4597, 'Respect Toriko! (Toriko)', 'https://www.reddit.com/r/respectthreads/comments/1rdbrxh/respect_toriko_toriko/')
+update_respectthread(cur, 2276, 'Respect the Shocker! (Marvel Comics, Earth-616)', 'https://www.reddit.com/r/respectthreads/comments/1redzrh/respect_the_shocker_marvel_comics_earth616/')
+update_respectthread(cur, 1079, 'Respect Jenny Wakeman/XJ-9 (My Life As A Teenage Robot)', 'https://www.reddit.com/r/respectthreads/comments/1re4jpt/respect_jenny_wakemanxj9_my_life_as_a_teenage/')
 
 ########################################
 
@@ -271,6 +274,414 @@ False,
 )
 #
 
+########################################
+
+id = get_rt_id(cur, 'Respect The Unnamed Chaos Insurgency Soldier in the SCP Tale Power', 'https://www.reddit.com/r/respectthreads/comments/1rcudan/respect_the_unnamed_chaos_insurgency_soldier_in/')
+add_data(['Chaos Insurgency Soldier'],
+'Chaos Insurgency Soldier',
+False,
+False,
+[
+    ['Power', 'SCP']
+],
+'SCP Power',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect David Speed (Super Fuzz)', 'https://www.reddit.com/r/respectthreads/comments/1rcv4a6/respect_david_speed_super_fuzz/')
+add_data(['David Speed'],
+'David Speed',
+False,
+False,
+[
+    ['Super Fuzz']
+],
+'Super Fuzz',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Lee and Carter (Rush Hour)', 'https://www.reddit.com/r/respectthreads/comments/1rdgmd8/respect_lee_and_carter_rush_hour/')
+add_data(['(Inspector )?Lee (and|&) (Detective )?Carter|(Detective )?Carter (and|&) (Inspector )?Lee'],
+'Lee and Carter',
+True,
+False,
+[
+    ['Rush Hour']
+],
+'Rush Hour',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Lee'],
+'Lee',
+False,
+False,
+[
+    ['Lee.*Rush Hour'], ['Lee.*Jackie Chan']
+],
+'Rush Hour',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Carter'],
+'Carter',
+False,
+False,
+[
+    ['Carter.*Rush Hour']
+],
+'Rush Hour',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+#https://www.reddit.com/r/whowouldwin/comments/haeusj/bad_boys_vs_rush_hour/
+#https://www.reddit.com/r/whowouldwin/comments/opjoph/wayne_from_letterkenny_vs_detective_inspector_lee/
+#https://www.reddit.com/r/whowouldwin/comments/1heqe0v/lee_carter_rush_hour_vs_mike_marcus_bad_boys/
+#https://www.reddit.com/r/whowouldwin/comments/1pr3dyy/agents_k_and_j_vs_mike_lowrey_and_marcus_burnett/
+#https://www.reddit.com/r/whowouldwin/comments/1qtu8rs/could_any_of_these_cops_succeed_in_the_speed/
+#https://www.reddit.com/r/whowouldwin/comments/oglsvd/lee_and_carter_rush_hour_vs_john_wick/
+#https://www.reddit.com/r/whowouldwin/comments/cd4t13/john_wick_carter_and_lee_rush_hour_movies_vs_rama/
+#https://www.reddit.com/r/whowouldwin/comments/50qbu6/gotham_gets_a_new_squad_of_elite_police_officers/
+#https://www.reddit.com/r/whowouldwin/comments/1kzl8cu/detective_lees_dad_or_agent_carters_dad_rush_hour/
+#https://www.reddit.com/r/whowouldwin/comments/tzeg99/leerush_hour_vs_4six_underground/
+#https://www.reddit.com/r/whowouldwin/comments/kq892v/martin_riggs_lethal_weapon_vs_axel_foley_beverly/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Tango and Cash (Tango and Cash)', 'https://www.reddit.com/r/respectthreads/comments/1rdpmwa/respect_tango_and_cash_tango_and_cash/')
+add_data(['Tango (&|and) Cash'],
+'Tango & Cash',
+True,
+True,
+[
+    ['Tango (&|and) Cash ?\(Tango & Cash\)']
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Ray(mond)? Tango'],
+'Ray Tango',
+False,
+False,
+[
+    ['Cash']
+],
+'Tango & Cash',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+add_data(['Ga(br|rb)iel Cash'],
+'Gabriel Cash',
+False,
+False,
+[
+    ['Tango']
+],
+'Tango & Cash',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Agent K! (Men in Black)', 'https://www.reddit.com/r/respectthreads/comments/1rdpv67/respect_agent_k_men_in_black/')
+add_data(['Agent K'],
+'Agent K',
+False,
+False,
+[
+    ['Men in Black']
+],
+'Men in Black',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Agent K'],
+'Agent K',
+False,
+False,
+[
+    ['Men in Black'], ['MIB']
+],
+'Men in Black',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['K'],
+'K',
+False,
+False,
+[
+    ['Men in Black'], ['MIB', 'J']
+],
+'Men in Black',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Long John Silver! (Treasure Planet)', 'https://www.reddit.com/r/respectthreads/comments/1rdswwv/respect_long_john_silver_treasure_planet/')
+add_data(['John Silver'],
+'John Silver',
+False,
+False,
+[
+    ['Treasure Planet']
+],
+'Treasure Planet',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Frederick von Frankenstein/Riot (DC Comics, Post Crisis)', 'https://www.reddit.com/r/respectthreads/comments/1rdw87j/respect_frederick_von_frankensteinriot_dc_comics/')
+add_data(['Frederick von Frankenstein'],
+'Frederick von Frankenstein',
+False,
+False,
+[
+    ['PC'], ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Frederick von Frankenstein'],
+'Frederick von Frankenstein',
+False,
+True,
+[
+    ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zatanna (DC Comics, Absolute Universe)', 'https://www.reddit.com/r/respectthreads/comments/1remwof/respect_zatanna_dc_comics_absolute_universe/')
+add_data(['Zatanna'],
+'Zatanna',
+False,
+False,
+[
+    ['Absolute Universe']
+],
+'Absolute Universe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Giganta (DC Comics, Absolute Universe)', 'https://www.reddit.com/r/respectthreads/comments/1remxgu/respect_giganta_dc_comics_absolute_universe/')
+add_data(['Giganta'],
+'Giganta',
+False,
+False,
+[
+    ['Absolute Universe']
+],
+'Absolute Universe',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sherlock Holmes (Sherlock Holmes in the 22nd Century)', 'https://www.reddit.com/r/respectthreads/comments/1re9gr2/respect_sherlock_holmes_sherlock_holmes_in_the/')
+add_data(['Sherlock'],
+'Sherlock Holmes',
+False,
+False,
+[
+    ['Sherlock Holmes in the 22nd Century']
+],
+'Sherlock Holmes in the 22nd Century',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Watson (Sherlock Holmes in the 22nd Century)', 'https://www.reddit.com/r/respectthreads/comments/1re9guz/respect_watson_sherlock_holmes_in_the_22nd_century/')
+add_data(['Watson'],
+'Watson',
+False,
+False,
+[
+    ['Sherlock Holmes in the 22nd Century']
+],
+'Sherlock Holmes in the 22nd Century',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Echo Leader (Rainbow 6: Patriots)', 'https://www.reddit.com/r/respectthreads/comments/1recunu/respect_echo_leader_rainbow_6_patriots/')
+add_data(['Echo Leader'],
+'Echo Leader',
+False,
+False,
+[
+    ['Rainbow 6:? Patriots']
+],
+'Rainbow 6: Patriots',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect the ED-209 (Robocop)', 'https://www.reddit.com/r/respectthreads/comments/1ref5mj/respect_the_ed209_robocop/')
+add_data(['ED(-| )?209'],
+'ED-209',
+False,
+False,
+[
+    ['RoboCop']
+],
+'RoboCop',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The ED-209 (Robocop Rogue City)', 'https://www.reddit.com/r/respectthreads/comments/1ref4po/respect_the_ed209_robocop_rogue_city/')
+add_data(['ED(-| )?209'],
+'ED-209',
+False,
+False,
+[
+    ['Rogue City']
+],
+'RoboCop: Rogue City',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sunstreaker (Transformers, IDW Comics [2005])', 'https://www.reddit.com/r/respectthreads/comments/1reefvw/respect_sunstreaker_transformers_idw_comics_2005/')
+add_data(['Sunstreaker'],
+'Sunstreaker',
+False,
+False,
+[
+    ['Transformers', 'IDW']
+],
+'Transformers IDW',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nathan Drake (UNCHARTED - Live Action Fan Film)', 'https://www.reddit.com/r/respectthreads/comments/1reftwt/respect_nathan_drake_uncharted_live_action_fan/')
+add_data(['Nathan Drake'],
+'Nathan Drake',
+False,
+False,
+[
+    ['Uncharted', 'Fan Film']
+],
+'Uncharted Fan Film',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Alex DeLarge (A Clockwork Orange)', 'https://www.reddit.com/r/respectthreads/comments/1reftyy/respect_alex_delarge_a_clockwork_orange/')
+add_data(['Alex DeLarge'],
+'Alex DeLarge',
+False,
+True,
+[
+    ['Clockwork Orange']
+],
+'A Clockwork Orange',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Alex'],
+'Alex',
+False,
+False,
+[
+    ['Clockwork Orange']
+],
+'A Clockwork Orange',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cohen the Barbarian (Discworld)', 'https://www.reddit.com/r/respectthreads/comments/1relepk/respect_cohen_the_barbarian_discworld/')
+add_data(['Cohen the Barbarian'],
+'Cohen the Barbarian',
+False,
+True,
+[
+    ['Disc ?world']
+],
+'Discworld',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Cohen'],
+'Cohen',
+False,
+False,
+[
+    ['Disc ?world']
+],
+'Discworld',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Omar little (The wire)', 'https://www.reddit.com/r/respectthreads/comments/1rf2rwa/respect_omar_little_the_wire/')
+add_data(['Omar little'],
+'Omar little',
+False,
+False,
+[
+    ['The wire']
+],
+'The wire',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
