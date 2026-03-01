@@ -1210,7 +1210,6 @@ Johnson,{Agent},f,{275},The Matrix
 Neo,{Matrix},f,{278},The Matrix
 Rabbit,"{`"Monty Python`"}",f,{6507},Monty Python and the Holy Grail
 Rabbit,{Spamalot},f,{6507},Monty Python and the Holy Grail
-Pikachu,"{`"Detective Pikachu`"}",f,{289},Detective Pikachu
 Super,"{`"Shaolin Soccer`"}",f,{293},Shaolin Soccer
 Will,"{`"Sky High`"}",f,{298},Sky High
 Harry Osborn,{Garfield},f,{301},Raimiverse Spider-Man
@@ -1260,6 +1259,7 @@ Sky High,"{`"Sky High`"}",t,"{298,297,296}",Sky High
 Harry Osborn,"{`"Amazing Spider(-| )?Mans?`"}",f,{301},Raimiverse Spider-Man
 Dante,"{`"Full ?metal`"}",f,{3416},Fullmetal Alchemist
 Sing,"{`"Mighty Steel Leg`"}",f,"{295,294}",Shaolin Soccer
+Pikachu,"{`"Detective Pikachu`"}",f,"{26951,289}",Detective Pikachu
 Terminatrix,{Terminator},t,{328},Terminator
 Terminatrix,{T-3},t,{328},Terminator
 Terminatrix,{T3},t,{328},Terminator
@@ -4819,7 +4819,6 @@ Krona,"{`"New(-| )Earth`"}",t,{1683},DC
 Kryb,{PC},t,{1684},DC
 Kryb,"{`"Post(-| )?C(risis)?`"}",t,{1684},DC
 Kryb,"{`"New(-| )Earth`"}",t,{1684},DC
-Larfleeze,{DC},t,{1686},DC
 Shirai Kuroko,{TAMNI},t,{10797},Toaru Majutsu no Index
 Wiz & Boomstick,"{`"DEATH BATTLE`"}",t,{10798},DEATH BATTLE!
 Mogo,{PC},t,{1688},DC
@@ -4853,6 +4852,7 @@ Kyle Rayner,"{`"Green Lantern Kyle Rayner`"}",f,"{1685,15411}",DC
 Sinestro,"{`"\\(DC( Comics)?\\)`"}",t,"{1691,1690}",DC
 Sodam Yat,"{`"\\(DC( Comics)?\\)`"}",t,{1692},DC
 Guardians of the Universe,{DC},t,"{1679,22537}",DC
+Larfleeze,{DC},t,"{26984,1686}",DC
 Kotal Kahn,{MK},t,{5291},Mortal Kombat
 Taven,"{`"Mortal Kombat`"}",t,{5317},Mortal Kombat
 Taven,{MK},t,{5317},Mortal Kombat
@@ -34515,3 +34515,100 @@ Waco Kid,"{`"Blazing Saddles`"}",f,{26949},Blazing Saddles
 Casey Jones,"{`"Michael Bay`"}",f,{26950},"Teenage Mutant Ninja Turtles, 2014"
 Casey Jones,"{`"Teenaged? Mutant Ninja Turtles?`",2014}",f,{26950},"Teenage Mutant Ninja Turtles, 2014"
 Casey Jones,"{TMNT,2014}",f,{26950},"Teenage Mutant Ninja Turtles, 2014"
+Futaba Sakura,{Persona},t,{26952},Persona
+Futaba,{Persona},f,{26952},Persona
+Bowser,"{`"DEATH BATTLE`"}",f,{26953},DEATH BATTLE!
+Team Galactic,"{`"Pok(e|é)m(o|a)n Adventures`"}",f,{26954},Pokémon Adventures
+Cipher,"{Honkai,`"Star Rail`"}",f,{26955},Honkai: Star Rail
+Schmidt,"{`"(21|22) Jump ?Street`"}",f,{26956},21 Jump Street
+Jenko,"{`"(21|22) Jump ?Street`"}",f,{26956},21 Jump Street
+Schmidt and Jenko,"{`"(21|22) Jump ?Street`"}",t,{26956},21 Jump Street
+Skeletons,"{`"The Skeleton Dance`"}",f,{26957},The Skeleton Dance
+Kei,"{`"Dragon and the Freckled Princess`"}",f,{26958},Belle: The Dragon and the Freckled Princess
+Belle,"{`"Dragon and the Freckled Princess`"}",f,{26959},Belle: The Dragon and the Freckled Princess
+Ghouls,"{`"World of Darkness`"}",f,{26960},World of Darkness
+Chaos Insurgency Soldier,"{Power,SCP}",f,{26961},SCP Power
+David Speed,"{`"Super Fuzz`"}",f,{26962},Super Fuzz
+Lee and Carter,"{`"Rush Hour`"}",f,{26963},Rush Hour
+Lee,"{`"Lee.*Rush Hour`"}",f,{26963},Rush Hour
+Lee,"{`"Lee.*Jackie Chan`"}",f,{26963},Rush Hour
+Carter,"{`"Carter.*Rush Hour`"}",f,{26963},Rush Hour
+Tango & Cash,"{`"Tango (&|and) Cash ?\\(Tango & Cash\\)`"}",t,{26964},""
+Ray Tango,{Cash},f,{26964},Tango & Cash
+Gabriel Cash,{Tango},f,{26964},Tango & Cash
+Agent K,"{`"Men in Black`"}",f,{26965},Men in Black
+Agent K,{MIB},f,{26965},Men in Black
+K,"{`"Men in Black`"}",f,{26965},Men in Black
+K,"{MIB,J}",f,{26965},Men in Black
+John Silver,"{`"Treasure Planet`"}",f,{26966},Treasure Planet
+Frederick von Frankenstein,{PC},f,{26967},Post-Crisis
+Frederick von Frankenstein,"{`"Posts?(-| )?C(risis)?`"}",f,{26967},Post-Crisis
+Frederick von Frankenstein,"{`"New(-| )Earth`"}",f,{26967},Post-Crisis
+Frederick von Frankenstein,"{`"DC Comics`"}",t,{26967},DC
+Zatanna,"{`"Absolute Universe`"}",f,{26968},Absolute Universe
+Giganta,"{`"Absolute Universe`"}",f,{26969},Absolute Universe
+Sherlock Holmes,"{`"Sherlock Holmes in the 22nd Century`"}",f,{26970},Sherlock Holmes in the 22nd Century
+Watson,"{`"Sherlock Holmes in the 22nd Century`"}",f,{26971},Sherlock Holmes in the 22nd Century
+Beth Lestrade,"{`"Sherlock Holmes in the 22nd Century`"}",f,{26972},Sherlock Holmes in the 22nd Century
+Echo Leader,"{`"Rainbow 6:? Patriots`"}",f,{26973},Rainbow 6: Patriots
+ED-209,{RoboCop},f,{26974},RoboCop
+ED-209,"{`"Rogue City`"}",f,{26975},RoboCop: Rogue City
+Sunstreaker,"{Transformers,IDW}",f,{26976},Transformers IDW
+Ultra Magnus,"{Transformers,IDW}",f,{26977},Transformers IDW
+Nathan Drake,"{Uncharted,`"Fan Film`"}",f,{26978},Uncharted Fan Film
+Alex DeLarge,"{`"Clockwork Orange`"}",t,{26979},A Clockwork Orange
+Alex,"{`"Clockwork Orange`"}",f,{26979},A Clockwork Orange
+Cohen the Barbarian,"{`"Disc ?world`"}",t,{26980},Discworld
+Cohen,"{`"Disc ?world`"}",f,{26980},Discworld
+Omar little,"{`"The wire`"}",f,{26981},The wire
+Batman,"{`"Gotham by Gaslight`"}",f,{26982},Gotham by Gaslight
+Scalphunter,"{`"Pre(-| )?Flashpoint`"}",f,{26983},Pre-Flashpoint
+Scalphunter,"{`"DC Comics`"}",f,{26983},DC
+Larfleeze,"{`"(Post(-| ))Flash(-| )?point`"}",f,{26984},Post-Flashpoint
+Joe Chill,"{`"DC Comics`"}",t,{26985},DC
+Batman,{Tomorrowverse},f,{26986},Tomorrowverse
+Batman,"{`"DC Animated (Film|Movie) Universe`"}",f,{26987},DC Animated Movie Universe
+Nicholas Scratch,{616},t,{26988},616
+Crimson Paw,"{`"Bad Guys`"}",f,{26989},The Bad Guys
+Alicia Varney,"{`"World of Darkness`"}",f,{26990},World of Darkness
+Alicia Varney,{WOD},f,{26990},World of Darkness
+Artemis Fowl,"{`"Artemis Fowl ?\\(Artemis Fowl\\)`"}",t,{26991},""
+Giovanni,{Pok(e|é)m(o|a)n},f,{26992},Pokémon
+Cilan,{Pok(e|é)m(o|a)n},f,{26993},Pokémon
+Pansage,{Cilan},f,{26994},Cilan
+Crustle,{Cilan},f,{26995},Cilan
+Dwebble,{Cilan},f,{26995},Cilan
+Stunfisk,{Cilan},f,{26996},Cilan
+Quagsire,{Pok(e|é)m(o|a)n},t,{26997},Pokémon
+Wooper,{Pok(e|é)m(o|a)n},f,{26997},Pokémon
+John Spartan,"{`"Demolition Man`"}",f,{26998},Demolition Man
+Corlis Rath,"{`"S(tar )?Wars`"}",t,{26999},Star Wars
+Unnamed Beasts,{Flight},f,{27000},Flight
+Shaun,"{`"Shaun Of The Dead`",IDW}",f,{27001},IDW Shaun Of The Dead
+Smiling Dead,"{`"Gaslight District`"}",f,{27002},The Gaslight District
+Cain,"{`"RoboCop 2`"}",f,{27003},RoboCop
+Cain,{Cain.*RoboCop},f,{27003},RoboCop
+Robo Cain,{RoboCop},f,{27003},RoboCop
+Old Man,"{RoboCop,`"Rogue City`"}",f,{27004},RoboCop: Rogue City
+Joker,"{`"Character Scramble`"}",f,{27005},Character Scramble
+Francine Nebulon,"{`"Lloyd in Space`"}",t,{27006},Lloyd in Space
+Ben Richards,"{`"Running Man`",1987}",f,{27007},"The Running Man, 1987"
+Mike and Marcus,"{`"Bad Boys`"}",f,{27008},Bad Boys
+Mike Lowrey,"{`"Bad Boys`"}",f,{27008},Bad Boys
+Marcus Burnett,"{`"Bad Boys`"}",f,{27008},Bad Boys
+Suzie Dickson,"{`"Sex Criminals`"}",f,{27009},Sex Criminals
+Jon Johnson,"{`"Sex Criminals`"}",f,{27009},Sex Criminals
+Bosko,"{`"Looney Tunes`"}",f,{27010},Looney Tunes
+Wonderland,"{Alice,`"Red Queen`"}",f,{27011},Alice's Adventures in Wonderland
+Cheshire Cat,{Wonderland},f,{27011},Alice's Adventures in Wonderland
+Alice,"{`"Alice ?\\((Alice in )?Wonderland\\)`"}",f,{27011},Alice's Adventures in Wonderland
+Queen of Hearts,{Wonderland},f,{27011},Alice's Adventures in Wonderland
+Diamondback,"{`"Marvel Cinematic Universe`"}",f,{27012},MCU
+Diamondback,{MCU},f,{27012},MCU
+Akemura Soga,{Kagurabachi},t,{27013},Kagurabachi
+Seiichi Samura,{Kagurabachi},f,{27014},Kagurabachi
+Sherlock Holmes,{Frogware},f,{27015},Frogware
+Bulk and Skull,"{`"Power ?Rangers?`"}",f,{27016},Power Rangers
+Bulk and Skull,{MMPR},f,{27016},Power Rangers
+Trunk Monkey,{Ad(vertisement)?s},f,{27017},Advertisements
+Grand Fisher,{Bleach},f,{27018},Bleach

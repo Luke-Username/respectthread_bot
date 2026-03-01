@@ -17,13 +17,7 @@ UPDATE character SET version='{"David Haller ?\\(Legion( Show)?\\)"}' WHERE defa
 
 ########################################
 
-INSERT INTO respectthread (title, link) VALUES ('Respect Pikachu! (Detective Pikachu)games', 'https://www.reddit.com/r/respectthreads/comments/1rcwlrf/respect_pikachu_detective_pikachu/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1rcwlrf/respect_pikachu_detective_pikachu/';
-UPDATE character SET rt_id_array='{?, 289}' WHERE rt_id_array='{289}';
-
 ########################################
-
-SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1rh1d5f/respect_larfleeze_the_orange_lantern_dc_comics/';
-UPDATE character SET rt_id_array='{?, 1686}' WHERE rt_id_array='{1686}';
 
 ########################################
 
