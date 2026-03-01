@@ -687,7 +687,7 @@ DC Animated Universe (DCAU)
 
 DC Animated Film Universe / DC Animated Movie Universe / DCAMU
 	Version
-		['DC Animated Film Universe'], ['DCA(F|M)U'], ['DC Animated Movies?']
+		['DC Animated (Film|Movie) Universe'], ['DCA(F|M)U'], ['DC Animated Movies?']
 	Specific
 		['Justice League:? War']
 	Displayed Version Name
