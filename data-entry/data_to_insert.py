@@ -109,6 +109,22 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 7411, 'Respect Birdy Cephon Altera (Birdy The Mighty: Decode)', 'https://www.reddit.com/r/respectthreads/comments/1rksv8o/respect_birdy_cephon_altera_birdy_the_mighty/')
+
+########################################
+
+id = get_rt_id(cur, "Respect Jessie''s Frillish (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1rktbfw/respect_jessies_frillish_pokemon_anime/')
+add_data(['Frillish'],
+'Frillish',
+False,
+False,
+[
+    ['Jessie']
+],
+'Jessie',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 
