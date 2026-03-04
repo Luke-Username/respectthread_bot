@@ -1038,6 +1038,12 @@ Fairy Tail
 	Displayed Version Name
 		"Fairy Tail"
 
+Fallout
+	Version
+		['Fallout']
+	Displayed Version Name
+		"Fallout"
+
 Fallout: Nuka Break
 	Version
 		'{"Fallout:? Nuka Break"}'

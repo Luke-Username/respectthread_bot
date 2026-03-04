@@ -17,6 +17,10 @@ UPDATE character SET version='{"David Haller ?\\(Legion( Show)?\\)"}' WHERE defa
 
 ########################################
 
+--After run
+SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1rjdatf/respect_mogo_dc_comics_post_flashpoint/';
+UPDATE character SET rt_id_array='{?, 1688}' WHERE rt_id_array='{1688}';
+
 ########################################
 
 ########################################
