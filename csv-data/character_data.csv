@@ -18,7 +18,6 @@ Gorilla Grodd,{Arrowverse},f,{23},CW Arrowverse
 King Shark,{Arrowverse},f,{24},CW Arrowverse
 Reverse Flash,{Arrowverse},f,{25},CW Arrowverse
 Solovar,{Arrowverse},f,{26},CW Arrowverse
-Weather Wizard,{Arrowverse},f,{27},CW Arrowverse
 Zoom,{Arrowverse},f,{28},CW Arrowverse
 Kuasa,{Arrowverse},f,{29},CW Arrowverse
 Vixen,{Arrowverse},f,{30},CW Arrowverse
@@ -51,7 +50,6 @@ Gorilla Grodd,{CW},f,{23},CW Arrowverse
 King Shark,{CW},f,{24},CW Arrowverse
 Reverse Flash,{CW},f,{25},CW Arrowverse
 Solovar,{CW},f,{26},CW Arrowverse
-Weather Wizard,{CW},f,{27},CW Arrowverse
 Zoom,{CW},f,{28},CW Arrowverse
 Kuasa,{CW},f,{29},CW Arrowverse
 Vixen,{CW},f,{30},CW Arrowverse
@@ -64,6 +62,8 @@ The Mountain,{Bjornsson},f,{},""
 The Mountain,{Bjornson},f,{},""
 Strowman,{WWE},t,{74},WWE
 Strowman,"{`"World Wrestling Entertainment`"}",t,{74},WWE
+Weather Wizard,{Arrowverse},f,{27},CW Arrowverse
+Weather Wizard,{CW},f,{27},CW Arrowverse
 Korath The Pursuer,{Cinematic},f,{249},MCU
 Thunder,{CW},f,{80},Black Lightning TV Series
 Anissa Pierce,{CW},f,{80},Black Lightning TV Series
@@ -89,7 +89,6 @@ Quake,"{`"Agents of SHIELD`"}",f,{69},Agents of SHIELD
 Daisy Johnson,"{`"Agents of SHIELD`"}",f,{69},Agents of SHIELD
 Korath The Pursuer,{MCU},f,{249},MCU
 The Ray,{DCCW},f,{32},CW Arrowverse
-Weather Wizard,{DCCW},f,{27},CW Arrowverse
 Captain Cold,{DCCW},f,{18},CW Arrowverse
 Zoom,{DCCW},f,{28},CW Arrowverse
 Green Arrow,{DCCW},f,{16},CW Arrowverse
@@ -118,7 +117,6 @@ Kuasa,"{`"DC TV`"}",f,{29},CW Arrowverse
 Solovar,"{`"DC TV`"}",f,{26},CW Arrowverse
 The Ray,"{`"DC TV`"}",f,{32},CW Arrowverse
 Vixen,"{`"DC TV`"}",f,{30},CW Arrowverse
-Weather Wizard,"{`"DC TV`"}",f,{27},CW Arrowverse
 Superman,"{`"DC TV`"}",f,{34},CW Arrowverse
 Cybermen,{Supreme},f,{45},"Supremacy of the Cybermen, Doctor Who"
 The Broken Hardys,{Wrestling},t,{81},Broken Universe
@@ -127,6 +125,8 @@ The Tenth Doctor,{Whoverse},t,{40},Doctor Who
 "Grant Gordon, the Ghost",{Whoverse},f,{41},Doctor Who
 Heather,{Whoverse},f,{42},Doctor Who
 Space Oil,{Whoverse},f,{42},Doctor Who
+Weather Wizard,{DCCW},f,{27},CW Arrowverse
+Weather Wizard,"{`"DC TV`"}",f,{27},CW Arrowverse
 Captain Cold,{DCTV},f,{18},CW Arrowverse
 Deathstroke,{DCTV},f,{15},CW Arrowverse
 Girder,{DCTV},f,{20},CW Arrowverse
@@ -140,7 +140,6 @@ Solovar,{DCTV},f,{26},CW Arrowverse
 Spaceman Spiff,{Calvin|Hobbes},t,{1482},Calvin and Hobbes
 The Ray,{DCTV},f,{32},CW Arrowverse
 Vixen,{DCTV},f,{30},CW Arrowverse
-Weather Wizard,{DCTV},f,{27},CW Arrowverse
 Zoom,{DCTV},f,{28},CW Arrowverse
 Superman,{DCTV},f,{34},CW Arrowverse
 Thunder,{DCTV},f,{80},Black Lightning TV Series
@@ -192,6 +191,7 @@ Black Manta,{2018},f,{120},DCEU
 Undertaker,{WWF},f,{76},WWE
 Undertaker,"{`"World Wrestling Federation`"}",f,{76},WWE
 Pandora,"{`"Sailor Moon`"}",f,{4405},Sailor Moon
+Weather Wizard,{DCTV},f,{27},CW Arrowverse
 Kamen Rider Ichigo,{KR},t,{57},Kamen Rider Build The First/The Next
 Kamen Rider Kabuto,{KR},t,{59},Kamen Rider Kabuto
 Kamen Rider Mach,{KR},t,{60},Kamen Rider Mach
@@ -255,9 +255,9 @@ Gorilla Grodd,{Flarrowverse},f,{23},CW Arrowverse
 King Shark,{Flarrowverse},f,{24},CW Arrowverse
 Reverse Flash,{Flarrowverse},f,{25},CW Arrowverse
 Solovar,{Flarrowverse},f,{26},CW Arrowverse
-Weather Wizard,{Flarrowverse},f,{27},CW Arrowverse
 Zoom,{Flarrowverse},f,{28},CW Arrowverse
 Kuasa,{Flarrowverse},f,{29},CW Arrowverse
+Weather Wizard,{Flarrowverse},f,{27},CW Arrowverse
 Vixen,{Flarrowverse},f,{30},CW Arrowverse
 Kiri,{MK},f,{71},Mortal Kombat: Conquest
 Ankha,{MK},f,{71},Mortal Kombat: Conquest
@@ -317,9 +317,9 @@ King Shark,"{Flash,TV}",f,{24},CW Arrowverse
 Captain Cold,"{Flash,TV}",f,{18},CW Arrowverse
 Gorilla Grodd,"{Flash,TV}",f,{23},CW Arrowverse
 Solovar,"{Flash,TV}",f,{26},CW Arrowverse
-Weather Wizard,"{Flash,TV}",f,{27},CW Arrowverse
 Korath The Pursuer,"{`"Guardians of the Galaxy`"}",f,{249},MCU
 Jaws,"{`"Jaws 2`"}",f,{20627},""
+Weather Wizard,"{Flash,TV}",f,{27},CW Arrowverse
 Korath The Pursuer,{GOTG},f,{249},MCU
 Thunder,"{`"Black Lightning`",Television}",f,{80},Black Lightning TV Series
 Anissa Pierce,"{`"Black Lightning`",Television}",f,{80},Black Lightning TV Series
@@ -4484,18 +4484,6 @@ Top,"{`"Roscoe Dillon`"}",f,{1603},DC
 Trickster,{Flash},f,{1604},DC
 Trickster,{Rogues},f,{1604},DC
 Trickster,"{`"James Jesse`"}",f,{1604},DC
-Weather Wizard,{PC},t,{1605},Post-Crisis
-Weather Wizard,"{`"Post(-| )?C(risis)?`"}",t,{1605},Post-Crisis
-Weather Wizard,"{`"New(-| )Earth`"}",t,{1605},Post-Crisis
-Weather Wizard,{Flash},t,{1605},Post-Crisis
-Weather Wizard,{Rogues},t,{1605},Post-Crisis
-Weather Wizard,"{`"Mark Mardon`"}",t,{1605},Post-Crisis
-Weather Wizard,"{`"New(-| )?52`"}",f,{},New 52
-Weather Wizard,{N-?52},f,{},New 52
-Weather Wizard,"{`"Post(-| )52`"}",f,{},New 52
-Weather Wizard,"{`"Prime(-| )Earth`"}",f,{},New 52
-Weather Wizard,{Rebirth},f,{},New 52
-Weather Wizard,"{`"Marco Mardon`"}",f,{},New 52
 Hunter Zolomon,{DC},t,{1606},DC
 Brick,"{`"Brick ((DC )?Post(-| )?Crisis)`"}",f,{1607},DC
 Brick,"{`"Daniel Brickwell`"}",f,{1607},DC
@@ -4505,6 +4493,9 @@ Captain Cold,{Flash},t,"{22526,1596,1595}",""
 Captain Cold,{Rogues},t,"{22526,1596,1595}",""
 Mirror Master,{Rogues},t,"{1601,22908}",""
 Mirror Master,"{`"Evan McCulloch`"}",t,"{1601,22908}",""
+Weather Wizard,{PC},f,{1605},Post-Crisis
+Weather Wizard,"{`"Post(-| )?C(risis)?`"}",f,{1605},Post-Crisis
+Weather Wizard,"{`"New(-| )Earth`"}",f,{1605},Post-Crisis
 Pedro Pena,"{Shazam,2019}",f,{6555},DCEU
 Pedro Pena,"{`"DC Extended Universe`"}",f,{6555},DCEU
 Pedro Pena,{DCEU},f,{6555},DCEU
@@ -4821,9 +4812,6 @@ Kryb,"{`"Post(-| )?C(risis)?`"}",t,{1684},DC
 Kryb,"{`"New(-| )Earth`"}",t,{1684},DC
 Shirai Kuroko,{TAMNI},t,{10797},Toaru Majutsu no Index
 Wiz & Boomstick,"{`"DEATH BATTLE`"}",t,{10798},DEATH BATTLE!
-Mogo,{PC},t,{1688},DC
-Mogo,"{`"Post(-| )?C(risis)?`"}",t,{1688},DC
-Mogo,"{`"New(-| )Earth`"}",t,{1688},DC
 Simon Baz,{PC},f,{1689},Post-Crisis
 Simon Baz,"{`"Post(-| )?C(risis)?`"}",f,{1689},Post-Crisis
 Simon Baz,"{`"New(-| )Earth`"}",f,{1689},Post-Crisis
@@ -4853,6 +4841,9 @@ Sinestro,"{`"\\(DC( Comics)?\\)`"}",t,"{1691,1690}",DC
 Sodam Yat,"{`"\\(DC( Comics)?\\)`"}",t,{1692},DC
 Guardians of the Universe,{DC},t,"{1679,22537}",DC
 Larfleeze,{DC},t,"{26984,1686}",DC
+Mogo,{PC},t,"{27020,1688}",DC
+Mogo,"{`"Post(-| )?C(risis)?`"}",t,"{27020,1688}",DC
+Mogo,"{`"New(-| )Earth`"}",t,"{27020,1688}",DC
 Kotal Kahn,{MK},t,{5291},Mortal Kombat
 Taven,"{`"Mortal Kombat`"}",t,{5317},Mortal Kombat
 Taven,{MK},t,{5317},Mortal Kombat
@@ -34612,3 +34603,44 @@ Bulk and Skull,"{`"Power ?Rangers?`"}",f,{27016},Power Rangers
 Bulk and Skull,{MMPR},f,{27016},Power Rangers
 Trunk Monkey,{Ad(vertisement)?s},f,{27017},Advertisements
 Grand Fisher,{Bleach},f,{27018},Bleach
+Legion of Darkseid,"{`"Absolute Universe`"}",f,{27019},Absolute Universe
+Mogo,"{`"(Post(-| ))Flash(-| )?point`"}",f,{27020},Post-Flashpoint
+Chronoweaver,"{`"Ichi the Witch`"}",f,{27021},Ichi the Witch
+Red,"{`"Red:? Livin('|g)? on the Edge`"}",f,{27022},RED: Living On the Edge
+Joshua Graham,{Fallout},f,{27023},Fallout
+Joshua Graham,{Caesar},f,{27023},Fallout
+Joshua Graham,"{`"New Vegas`"}",f,{27023},Fallout
+Joshua Graham,{F?NV},f,{27023},Fallout
+Li Jing,"{`"Ne Zha`"}",f,{27024},Ne Zha
+Lady Yin,"{`"Ne Zha`"}",f,{27024},Ne Zha
+Sketch Turner,"{`"Comix Zone`"}",f,{27025},Comix Zone
+Spyro,"{`"Legend of Spyro 3D`"}",f,{27026},The Legend of Spyro 3D
+Amoonguss,{James},f,{27027},James
+Weather Wizard,{Flash},f,{1605},Post-Crisis
+Weather Wizard,{Rogues},f,{1605},Post-Crisis
+Weather Wizard,"{`"Mark Mardon`"}",f,{1605},Post-Crisis
+Weather Wizard,"{`"New(-| )?52`"}",f,{},New 52
+Weather Wizard,{N-?52},f,{},New 52
+Weather Wizard,"{`"Post(-| )52`"}",f,{},New 52
+Weather Wizard,"{`"Prime(-| )Earth`"}",f,{},New 52
+Weather Wizard,{Rebirth},f,{},New 52
+Weather Wizard,"{`"Marco Mardon`"}",f,{},New 52
+Frillish,{Jessie},f,{27028},Jessie
+Striker Berserker,"{`"Pacific Rim`"}",t,{27029},Pacific Rim
+Weather Wizard,"{`"(Post(-| ))Flash(-| )?point`"}",f,{27030},Post-Flashpoint
+Weather Wizard,"{`"DC Comics`"}",t,"{27030,1605}",DC
+Frank Stone,"{`"Casting of Frank Stone`"}",f,{27031},The Casting of Frank Stone
+Twin-Tailed Beast,"{`"Path of the Twin(-| )Tailed Beast`"}",f,{27032},Path of the Twin-Tailed Beast
+The Pestilence,"{`"The Pestilence ?\\(616`"}",f,{27033},616
+Bruno,"{`"Looney Tunes`"}",f,{27034},Looney Tunes
+Woobat,{Jessie},f,{27035},Jessie
+Maru,"{`"Jujus?t?s?u Kaisen`"}",f,{27036},Jujutsu Kaisen
+Maru,{JJKM?},f,{27036},Jujutsu Kaisen
+Yuka Okkotsu,"{`"Jujus?t?s?u Kaisen`"}",f,{27037},Jujutsu Kaisen
+Yuka Okkotsu,{JJKM?},f,{27037},Jujutsu Kaisen
+Tsurugi Okkotsu,"{`"Jujus?t?s?u Kaisen`"}",f,{27038},Jujutsu Kaisen
+Tsurugi Okkotsu,{JJKM?},f,{27038},Jujutsu Kaisen
+Mysterious Game,"{`"Midnight Library`"}",f,{27039},The Midnight Library
+Tiger-Sized Cat,"{`"Zack D\\.? Films`"}",f,{27040},Zack D. Films
+Kouji Mikagami,"{`"Reincarnation Coliseum`"}",f,{27041},Reincarnation Coliseum
+Getaway,"{Transformers,IDW}",f,{27042},Transformers IDW
