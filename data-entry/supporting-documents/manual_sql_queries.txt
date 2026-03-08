@@ -17,8 +17,6 @@ UPDATE character SET version='{"David Haller ?\\(Legion( Show)?\\)"}' WHERE defa
 
 ########################################
 
-UPDATE character SET is_default=FALSE WHERE default_name='Weather Wizard';
-
 ########################################
 
 ########################################
