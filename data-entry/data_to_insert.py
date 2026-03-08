@@ -109,6 +109,18 @@ cur = con.cursor()
 
 ########################################
 
+add_data(['Infinite Zam(a)su'],
+'Infinite Zamasu',
+False,
+True,
+[
+    ['Dragon Ball']
+],
+'Dragon Ball',
+'{3318,22120,7601,3303}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/1rnhi6u/infinite_zamusu_vs_wonder_of_u/
+
 ########################################
 
 def insert_character_name(cur, name_list, default_name, is_team):
