@@ -17,7 +17,12 @@ UPDATE character SET version='{"David Haller ?\\(Legion( Show)?\\)"}' WHERE defa
 
 ########################################
 
+UPDATE character SET is_default=FALSE WHERE default_name='Dabura';
+
 ########################################
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Dabura (Jujutsu Kaisen Modulo)', 'https://www.reddit.com/r/respectthreads/comments/1roid2y/respect_dabura_jujutsu_kaisen_modulo/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1roid2y/respect_dabura_jujutsu_kaisen_modulo/';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='Dabura' AND displayed_version_name='Jujutsu Kaisen';
 
 ########################################
 

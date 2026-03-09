@@ -123,6 +123,22 @@ True,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect Sveta Karelia (Worm/Ward)', 'https://www.reddit.com/r/respectthreads/comments/1ropv07/respect_sveta_karelia_wormward/')
+add_data(['Sveta'],
+'Sveta',
+False,
+False,
+[
+    ['Karelia|Worm|Ward|Parahumans?|Breakthrough|Glory Girl']
+],
+'Worm',
+'{' + '{}, {}'.format(id, id2) + '}'
+)
+#
+
+
+########################################
+
 def insert_character_name(cur, name_list, default_name, is_team):
     rows_inserted = 0
     query = "INSERT INTO character_name (name, default_name, is_team) VALUES "
