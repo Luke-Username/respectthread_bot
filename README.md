@@ -1,3 +1,8 @@
+### 2026-03-09: Project has been abandoned.
+
+---
+
+
 # respectthread_bot
 
 ---
