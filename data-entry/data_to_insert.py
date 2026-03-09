@@ -109,33 +109,6 @@ cur = con.cursor()
 
 ########################################
 
-add_data(['Infinite Zam(a)su'],
-'Infinite Zamasu',
-False,
-True,
-[
-    ['Dragon Ball']
-],
-'Dragon Ball',
-'{3318,22120,7601,3303}'
-)
-#https://www.reddit.com/r/whowouldwin/comments/1rnhi6u/infinite_zamusu_vs_wonder_of_u/
-
-########################################
-
-id = get_rt_id(cur, 'Respect Sveta Karelia (Worm/Ward)', 'https://www.reddit.com/r/respectthreads/comments/1ropv07/respect_sveta_karelia_wormward/')
-add_data(['Sveta'],
-'Sveta',
-False,
-False,
-[
-    ['Karelia|Worm|Ward|Parahumans?|Breakthrough|Glory Girl']
-],
-'Worm',
-'{' + '{}, {}'.format(id, id2) + '}'
-)
-#
-
 
 ########################################
 

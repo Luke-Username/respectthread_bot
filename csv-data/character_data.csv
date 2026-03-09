@@ -25982,8 +25982,6 @@ Khaine,{(WH)?40K},t,{21589},Warhammer 40k
 Khaine,{Warhammer},t,{21589},Warhammer 40k
 Doctor Manhattan,{2009},f,{21590},"Watchmen, 2009"
 Doctor Manhattan,"{`"Manhattan ?\\(Movie`"}",f,{21590},"Watchmen, 2009"
-Dabura,"{`"Dragon ?Ball`"}",t,{21591},Dragon Ball
-Dabura,{DB(Z|S)?},t,{21591},Dragon Ball
 Mario,"{`"Mario Warfare`"}",f,{21592},Mario Warfare
 Waluigi,"{`"Mario Warfare`"}",f,{21593},Mario Warfare
 Pikachu,"{`"Mario Warfare`"}",f,{21594},Mario Warfare
@@ -26005,6 +26003,8 @@ Ghost Rider,{AoS},f,{16830},MCU
 Bheem,{RRR},f,{22664},RRR
 Crona,"{`"Soul ?Eater`"}",f,{4546},Soul Eater
 Batman,"{`"Arkham Knights?`"}",f,"{17381,24531}",Batman: Arkham
+Dabura,"{`"Dragon ?Ball`"}",f,{21591},Dragon Ball
+Dabura,{DB(Z|S)?},f,{21591},Dragon Ball
 Godzilla,"{`"King of the Monsters`"}",f,{280},MonsterVerse
 Godzilla,"{`"Godzilla: King of Monsters`"}",f,{280},MonsterVerse
 Godzilla,{Legendary},f,{280},MonsterVerse
@@ -34475,8 +34475,6 @@ Gary De'Snake,{Zootopia},f,{26928},Zootopia
 Homelander,"{`"Homelander ?\\(DC Comics`"}",f,{26929},DC
 Michael Myers,"{`"Halloween 3D`"}",f,{26930},Halloween 3D
 Sheriff,"{`"Vampire:? The Masquerade`"}",f,{26931},Vampire: The Masquerade
-Dabura,"{`"Jujus?t?s?u Kaisen`"}",f,{},Jujutsu Kaisen
-Dabura,{JJK},f,{},Jujutsu Kaisen
 Wolf Chimeras,"{`"Full ?metal`"}",f,{26932},Fullmetal Alchemist
 Sailor Moon,{Abridged},f,{26933},Sailor Moon Abridged
 Cheren,{Pok(e|é)m(o|a)n},f,{26934},Pokémon
@@ -34497,6 +34495,8 @@ Leviathan,{SixEyedFox},f,{26943},SixEyedFox
 Clown,"{`"Dead by Daylight`"}",f,{26944},Dead by Daylight
 Esteban Corazón de Ablo,{616},t,{26945},616
 Diablo,"{616,Esteban}",f,{26945},616
+Dabura,"{`"Jujus?t?s?u Kaisen`"}",f,{27043},Jujutsu Kaisen
+Dabura,{JJK},f,{27043},Jujutsu Kaisen
 Christof Romuald,"{`"Vampire:? The Masquerade`"}",t,{26946},Vampire: The Masquerade
 Christof Romuald,{VTMR?},t,{26946},Vampire: The Masquerade
 Howard Payne,{Speed},f,{26947},Speed
@@ -34644,3 +34644,5 @@ Mysterious Game,"{`"Midnight Library`"}",f,{27039},The Midnight Library
 Tiger-Sized Cat,"{`"Zack D\\.? Films`"}",f,{27040},Zack D. Films
 Kouji Mikagami,"{`"Reincarnation Coliseum`"}",f,{27041},Reincarnation Coliseum
 Getaway,"{Transformers,IDW}",f,{27042},Transformers IDW
+Infinite Zamasu,"{`"Dragon Ball`"}",t,"{3318,22120,7601,3303}",Dragon Ball
+Sveta,"{`"Karelia|Worm|Ward|Parahumans?|Breakthrough|Glory Girl`"}",f,{27045},Worm
