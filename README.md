@@ -1,4 +1,4 @@
-### 2026-03-09: Project has been abandoned.
+### 2026-03-12: Project has been unarchived while working out how to hand over responsibilities to r/whowouldwin mods. Bot will not be updated during this time.
 
 ---
 
