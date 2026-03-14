@@ -19,7 +19,7 @@ False,
 # The following function call is an example of how to update the database when a respect thread is reposted.
 # Refer to the CSV of respect threads to find the correct ID.
 # Take the title and URL from the post itself.
-update_respectthread(cur, 1189, 'Respect Beowulf (2007 Film)', 'https://redd.it/dspz5z')
+update_respectthread(cur, 2103, 'Respect Paladin (Marvel 616)', 'https://www.reddit.com/r/respectthreads/comments/1rt36du/respect_paladin_marvel_616/')
 """
 
 import psycopg2         # Interface with PostgreSQL
@@ -109,6 +109,318 @@ cur = con.cursor()
 
 ########################################
 
+update_respectthread(cur, 4773, 'Respect the Valkyria Mako Fujisaki! (Gokukoku no Brynhildr)', 'https://www.reddit.com/r/respectthreads/comments/1rp5y2i/respect_the_valkyria_mako_fujisaki_gokukoku_no/')
+update_respectthread(cur, 17529, 'Respect The Hero of Time (The Legend of Zelda: Twilight Princess [Manga])', 'https://www.reddit.com/r/respectthreads/comments/1rpn9k7/respect_the_hero_of_time_the_legend_of_zelda/')
+update_respectthread(cur, 2103, 'Respect Paladin (Marvel 616)', 'https://www.reddit.com/r/respectthreads/comments/1rt36du/respect_paladin_marvel_616/')
+
+########################################
+
+id = get_rt_id(cur, 'Respect Nando (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1rozyz0/respect_nando_pokemon_anime/')
+add_data(['Nando'],
+'Nando',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Barry (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1rsugvf/respect_barry_pokemon_anime/')
+add_data(['Barry'],
+'Barry',
+False,
+False,
+[
+    ['Barry ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Barry''s Empoleon (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1rqt6x9/respect_barrys_empoleon_pokemon_anime/')
+add_data(['Empoleon'],
+'Empoleon',
+False,
+False,
+[
+    ['Barry']
+],
+'Barry',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect James'' Yamask (Pokemon Anime)", 'https://www.reddit.com/r/respectthreads/comments/1rpbjlw/respect_james_yamask_pokemon_anime/')
+add_data(['Yamask'],
+'Yamask',
+False,
+False,
+[
+    ['James']
+],
+'James',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Ningbo (Jojo''s Bizarre Adventure)", 'https://www.reddit.com/r/respectthreads/comments/1rp95on/respect_ningbo_jojos_bizarre_adventure/')
+add_data(['Ningbo'],
+'Ningbo',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Maha (One Piece)', 'https://www.reddit.com/r/respectthreads/comments/1rpfcmt/respect_maha_one_piece/')
+add_data(['Maha'],
+'Maha',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Belo Betty (One Piece)', 'https://www.reddit.com/r/respectthreads/comments/1rpi2wi/respect_belo_betty_one_piece/')
+add_data(['Belo Betty'],
+'Belo Betty',
+False,
+False,
+[
+    ['One ?Piece?']
+],
+'One Piece',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect King Bulblin (The Legend of Zelda: Twilight Princess [Manga])', 'https://www.reddit.com/r/respectthreads/comments/1rpmefu/respect_king_bulblin_the_legend_of_zelda_twilight/')
+add_data(['King Bulblin'],
+'King Bulblin',
+False,
+False,
+[
+    ['Zelda'], ['Twilight Princess']
+],
+'The Legend of Zelda',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zant (The Legend of Zelda: Twilight Princess [Manga])', 'https://www.reddit.com/r/respectthreads/comments/1rplzxi/respect_zant_the_legend_of_zelda_twilight/')
+add_data(['Zant'],
+'Zant',
+False,
+False,
+[
+    ['Zelda'], ['Twilight Princess']
+],
+'The Legend of Zelda',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Flambae (Dispatch)', 'https://www.reddit.com/r/respectthreads/comments/1rq18jg/respect_flambae_dispatch/')
+add_data(['Flambae'],
+'Flambae',
+False,
+False,
+[
+    ['Dispatch(ers?)?']
+],
+'Dispatch',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The White Wolf(Scary Stories To Tell in the Dark', 'https://www.reddit.com/r/respectthreads/comments/1rqi1u0/respect_the_white_wolfscary_stories_to_tell_in/')
+add_data(['White Wolf'],
+'White Wolf',
+False,
+False,
+[
+    ['Scary Stories To Tell in the Dark']
+],
+'Scary Stories To Tell in the Dark',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pamela Isley, Poison Ivy (DCAU)', 'https://www.reddit.com/r/respectthreads/comments/1rqulpk/respect_pamela_isley_poison_ivy_dcau/')
+add_data(['Poison Ivy'],
+'Poison Ivy',
+False,
+False,
+[
+    ['DC Animated Universe'], ['DCAU']
+],
+'DCAU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Sean Cord (How to Write Fight Scenes like John Wick #johnwick #screenwriting #filmmaking)', 'https://www.reddit.com/r/respectthreads/comments/1rrdvt0/respect_sean_cord_how_to_write_fight_scenes_like/')
+add_data(['Sean Cord'],
+'Sean Cord',
+False,
+False,
+[
+    ['Write Fight Scenes like John Wick']
+],
+'How to Write Fight Scenes like John Wick',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Hot and Cold (We Were Reincarnated into a World Overrun by Monsters, but it’s No Big Deal!! Because God Gave Us a Mysterious Deck of Cards That Enable Incredible Transformations!! So We’re Going to Work Together to Save This World: The Manga)', 'https://www.reddit.com/r/respectthreads/comments/1rrqbh1/respect_hot_and_cold_we_were_reincarnated_into_a/')
+add_data(['Hot and Cold '],
+'Hot and Cold ',
+True,
+False,
+[
+    ['Reincarnated into a World Overrun by Monsters']
+],
+'We Were Reincarnated into a World Overrun by Monsters',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Superpower, Eliza Hellbound! (The Power Fantasy)', 'https://www.reddit.com/r/respectthreads/comments/1rs0naf/respect_the_superpower_eliza_hellbound_the_power/')
+add_data(['Eliza Hellbound'],
+'Eliza Hellbound',
+False,
+False,
+[
+    ['The Power Fantasy']
+],
+'The Power Fantasy',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Multi-Eternity! Personification of Omniverse, Eighth Sentience of the Cosmos (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1rsyb46/respect_multieternity_personification_of/')
+add_data(['Multi(-| )Eternity'],
+'Multi-Eternity',
+False,
+False,
+[
+    ['616'], ['Marvel']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Eternity'],
+'Eternity',
+False,
+False,
+[
+    ['Eternity.*\(Marvel\)', 'Infinity'], ['Eternity ?\(Marvel( Comics)?\)']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/ob1end/justice_league_dark_dc_comics_vs_eternity_marvel/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Thromnambular! (The Grim Adventures of Billy & Mandy)', 'https://www.reddit.com/r/respectthreads/comments/1rtn9m6/respect_thromnambular_the_grim_adventures_of/')
+add_data(['Thromnambular'],
+'Thromnambular',
+False,
+False,
+[
+    ['Billy (&|and) Mandy']
+],
+'Billy & Mandy',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zallah Macri and Kevmo Zink (Star Wars Canon)', 'https://www.reddit.com/r/respectthreads/comments/1rtqcze/respect_zallah_macri_and_kevmo_zink_star_wars/')
+add_data(['Zallah Macri'],
+'Zallah Macri',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Kevmo Zink'],
+'Kevmo Zink',
+False,
+False,
+[
+    ['S(tar )?Wars']
+],
+'Star Wars',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Bazuso! (Berserk)', 'https://www.reddit.com/r/respectthreads/comments/1rtu4a1/respect_bazuso_berserk/')
+add_data(['Bazuso'],
+'Bazuso',
+False,
+False,
+[
+    ['Berserk']
+],
+'Berserk',
+'{' + '{}'.format(id) + '}'
+)
+#
 
 ########################################
 

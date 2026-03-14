@@ -17,7 +17,15 @@ UPDATE character SET version='{"David Haller ?\\(Legion( Show)?\\)"}' WHERE defa
 
 ########################################
 
+INSERT INTO respectthread (title, link) VALUES ('Respect Midna (The Legend of Zelda: Twilight Princess [Manga])', 'https://www.reddit.com/r/respectthreads/comments/1rpmyqi/respect_midna_the_legend_of_zelda_twilight/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1rpmyqi/respect_midna_the_legend_of_zelda_twilight/';
+UPDATE character SET rt_id_array='{5217, ?}' WHERE rt_id_array='{5217}';
+
+INSERT INTO respectthread (title, link) VALUES ('Respect Link (The Legend of Zelda: Twilight Princess [Manga])', 'https://www.reddit.com/r/respectthreads/comments/1rpo5s0/respect_link_the_legend_of_zelda_twilight/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1rpo5s0/respect_link_the_legend_of_zelda_twilight/';
+UPDATE character SET rt_id_array='{5226,?,17529}' WHERE rt_id_array='{5226,17529}';
+
 ########################################
+
+UPDATE character SET displayed_version_name='Billy & Mandy' WHERE displayed_version_name='Billy and Mandy';
 
 ########################################
 
