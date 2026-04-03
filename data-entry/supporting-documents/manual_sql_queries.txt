@@ -23,6 +23,12 @@ UPDATE character SET rt_id_array='{5217, ?}' WHERE rt_id_array='{5217}';
 INSERT INTO respectthread (title, link) VALUES ('Respect Link (The Legend of Zelda: Twilight Princess [Manga])', 'https://www.reddit.com/r/respectthreads/comments/1rpo5s0/respect_link_the_legend_of_zelda_twilight/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1rpo5s0/respect_link_the_legend_of_zelda_twilight/';
 UPDATE character SET rt_id_array='{5226,?,17529}' WHERE rt_id_array='{5226,17529}';
 
+INSERT INTO respectthread (title, link) VALUES ('Respect: Durge (Star Wars, Canon)', 'https://www.reddit.com/r/respectthreads/comments/1s2jr4l/respect_durge_star_wars_canon/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1s2jr4l/respect_durge_star_wars_canon/';
+UPDATE character SET rt_id_array='{?, 920}' WHERE rt_id_array='{920}';
+
+INSERT INTO respectthread (title, link) VALUES ('Respect John Stewart, the Green Lantern (DCAU)', 'https://www.reddit.com/r/respectthreads/comments/1sad165/respect_john_stewart_the_green_lantern_dcau/'); SELECT * FROM respectthread WHERE link='https://www.reddit.com/r/respectthreads/comments/1sad165/respect_john_stewart_the_green_lantern_dcau/';
+UPDATE character SET rt_id_array='{?}' WHERE default_name='John Stewart' AND displayed_version_name='DCAU';
+
 ########################################
 
 UPDATE character SET displayed_version_name='Billy & Mandy' WHERE displayed_version_name='Billy and Mandy';

@@ -112,6 +112,8 @@ cur = con.cursor()
 update_respectthread(cur, 4773, 'Respect the Valkyria Mako Fujisaki! (Gokukoku no Brynhildr)', 'https://www.reddit.com/r/respectthreads/comments/1rp5y2i/respect_the_valkyria_mako_fujisaki_gokukoku_no/')
 update_respectthread(cur, 17529, 'Respect The Hero of Time (The Legend of Zelda: Twilight Princess [Manga])', 'https://www.reddit.com/r/respectthreads/comments/1rpn9k7/respect_the_hero_of_time_the_legend_of_zelda/')
 update_respectthread(cur, 2103, 'Respect Paladin (Marvel 616)', 'https://www.reddit.com/r/respectthreads/comments/1rt36du/respect_paladin_marvel_616/')
+update_respectthread(cur, 1700, 'Respect Lobo II (DC Comics, Post Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1rzk830/respect_lobo_ii_dc_comics_post_flashpoint/')
+update_respectthread(cur, 1451, 'Respect The Tick! (Amazon)', 'https://www.reddit.com/r/respectthreads/comments/1s0op41/respect_the_tick_amazon/')
 
 ########################################
 
@@ -340,6 +342,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect: Eimin & Uriel, the Apocalypse Twins (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1s1i7zp/respect_eimin_uriel_the_apocalypse_twins_marvel/')
+add_data(['Apocalypse Twins'],
+'Apocalypse Twins',
+True,
+False,
+[
+    ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Multi-Eternity! Personification of Omniverse, Eighth Sentience of the Cosmos (Marvel, 616)', 'https://www.reddit.com/r/respectthreads/comments/1rsyb46/respect_multieternity_personification_of/')
 add_data(['Multi(-| )Eternity'],
 'Multi-Eternity',
@@ -364,6 +381,87 @@ False,
 '{' + '{}'.format(id) + '}'
 )
 #https://www.reddit.com/r/whowouldwin/comments/ob1end/justice_league_dark_dc_comics_vs_eternity_marvel/
+
+########################################
+
+id = get_rt_id(cur, "Respect the Fantastic Four (Marvel Comics, 1996''s Heroes Reborn)", 'https://www.reddit.com/r/respectthreads/comments/1s5ya21/respect_the_fantastic_four_marvel_comics_1996s/')
+add_data(['Fantastic Four'],
+'Fantastic Four',
+True,
+False,
+[
+    ['Fantastic Four.*Heroes Reborn']
+],
+'Heroes Reborn',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect René Rodin, the Mad Thinker (Marvel Comics, 616)', 'https://www.reddit.com/r/respectthreads/comments/1s9ecsc/respect_ren%C3%A9_rodin_the_mad_thinker_marvel_comics/')
+add_data(['Mad Thinker'],
+'Mad Thinker',
+False,
+False,
+[
+    ['Marvel'], ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect René Rodin, the Mad Thinker (Marvel Comics, 616)', 'https://www.reddit.com/r/respectthreads/comments/1s9ecsc/respect_ren%C3%A9_rodin_the_mad_thinker_marvel_comics/')
+add_data(['Mad Thinker'],
+'Mad Thinker',
+False,
+False,
+[
+    ['Marvel'], ['616']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Jeff Hagees, 8-Ball! (Marvel 616)', 'https://www.reddit.com/r/respectthreads/comments/1sa7vwo/respect_jeff_hagees_8ball_marvel_616/')
+add_data(['8(-| )Ball'],
+'8-Ball',
+False,
+False,
+[
+    ['8(-| )Ball ?\(616'], ['Jeff Hagees']
+],
+'616',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Happy Hogan (Marvel Cinematic Universe)', 'https://www.reddit.com/r/respectthreads/comments/1s9h2un/respect_happy_hogan_marvel_cinematic_universe/')
+add_data(['Happy Hogan'],
+'Happy Hogan',
+False,
+False,
+[
+    ['Marvel Cinematic Universe'], ['MCU']
+],
+'MCU',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+
 
 ########################################
 
@@ -409,6 +507,21 @@ False,
 
 ########################################
 
+id = get_rt_id(cur, 'Respect the Inquisitor (Star Wars: Visions - T0-B1)', 'https://www.reddit.com/r/respectthreads/comments/1s92m5k/respect_the_inquisitor_star_wars_visions_t0b1/')
+add_data(['Inquisitor'],
+'Inquisitor',
+False,
+False,
+[
+    ['S(tar )?Wars:? Visions']
+],
+'Star Wars: Visions',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
 id = get_rt_id(cur, 'Respect Bazuso! (Berserk)', 'https://www.reddit.com/r/respectthreads/comments/1rtu4a1/respect_bazuso_berserk/')
 add_data(['Bazuso'],
 'Bazuso',
@@ -418,6 +531,448 @@ False,
     ['Berserk']
 ],
 'Berserk',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+
+########################################
+
+id = get_rt_id(cur, 'Respect Godzilla (Godzilla and Godzilla Raids Again)', 'https://www.reddit.com/r/respectthreads/comments/1s3aim3/respect_godzilla_godzilla_and_godzilla_raids_again/')
+add_data(['Godzilla'],
+'Godzilla',
+False,
+False,
+[
+    ['Godzilla and Godzilla Raids Again']
+],
+'Godzilla and Godzilla Raids Again',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Uro! (Jujutsu Kaisen)', 'https://www.reddit.com/r/respectthreads/comments/1s52zdc/respect_uro_jujutsu_kaisen/')
+add_data(['Uro'],
+'Uro',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Reggie Star! (Jujutsu Kaisen)', 'https://www.reddit.com/r/respectthreads/comments/1s0qeln/respect_reggie_star_jujutsu_kaisen/')
+add_data(['Reggie'],
+'Reggie',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kurourushi (Jujutsu Kaisen)', 'https://www.reddit.com/r/respectthreads/comments/1s52zeo/respect_kurourushi_jujutsu_kaisen/')
+add_data(['Kurourushi'],
+'Kurourushi',
+False,
+False,
+[
+    ['Jujus?t?s?u Kaisen']
+],
+'Jujutsu Kaisen',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Kuroe Akaishi (Kaiju Girl Caramelise)', 'https://www.reddit.com/r/respectthreads/comments/1s7ed0x/respect_kuroe_akaishi_kaiju_girl_caramelise/')
+add_data(['Kuroe Akaishi'],
+'Kuroe Akaishi',
+False,
+False,
+[
+    ['Kaiju Girl Caramelise']
+],
+'Kaiju Girl Caramelise',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect General Li Shang! (Mulan 1998)', 'https://www.reddit.com/r/respectthreads/comments/1s7usfm/respect_general_li_shang_mulan_1998/')
+add_data(['Li Shang'],
+'Li Shang',
+False,
+False,
+[
+    ['Mulan', 'Man'], ['Disney'], ['Princes?'], ['1998']
+],
+"Disney''s Mulan",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect the Snow Queen (Hans Christian Andersen''s The Snow Queen)", 'https://www.reddit.com/r/respectthreads/comments/1s9486i/respect_the_snow_queen_hans_christian_andersens/')
+add_data(['Snow Queen'],
+'Snow Queen',
+False,
+False,
+[
+    ['Hans Christian Andersens?']
+],
+"Hans Christian Andersen",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Dinosaurus (Invincible)', 'https://www.reddit.com/r/respectthreads/comments/1s9dtcz/respect_dinosaurus_invincible/')
+add_data(['Dinosaurus'],
+'Dinosaurus',
+False,
+False,
+[
+    ['Invincible']
+],
+'Invincible',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Boulder (Thomas & Friends)', 'https://www.reddit.com/r/respectthreads/comments/1s9e955/respect_boulder_thomas_friends/')
+add_data(['Boulder'],
+'Boulder',
+False,
+False,
+[
+    ['Thomas & Friends'], ['Thomas the Tank Engine']
+],
+'Thomas & Friends',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect EC Zombies (EC Comics)', 'https://www.reddit.com/r/respectthreads/comments/1ru4r30/respect_ec_zombies_ec_comics/')
+add_data(['EC Zombies'],
+'EC Zombies',
+False,
+False,
+[
+    ['EC Comics']
+],
+'EC Comics',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Conway (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1rueidz/respect_conway_pokemon_anime/')
+add_data(['Conway'],
+'Conway',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Pokemon Ranger Ben (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1rv8siv/respect_pokemon_ranger_ben_pokemon_anime/')
+add_data(['Ranger Ben'],
+'Ranger Ben',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Meloetta (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1rwb6w1/respect_meloetta_pokemon_anime/')
+add_data(['Meloetta'],
+'Meloetta',
+False,
+False,
+[
+    ['Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Cameron (Pokemon Anime)', 'https://www.reddit.com/r/respectthreads/comments/1rwp405/respect_cameron_pokemon_anime/')
+add_data(['Cameron'],
+'Cameron',
+False,
+False,
+[
+    ['Cameron ?\(Pok(e|é)m(o|a)n']
+],
+'Pokémon',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Little Pale Girl (Terrifier)', 'https://www.reddit.com/r/respectthreads/comments/1rvu18a/respect_the_little_pale_girl_terrifier/')
+add_data(['Pale Girl'],
+'Pale Girl',
+False,
+False,
+[
+    ['Terrifier']
+],
+'Terrifier',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Film Freak II (DC Comics: New Earth)', 'https://www.reddit.com/r/respectthreads/comments/1rw8niz/respect_film_freak_ii_dc_comics_new_earth/')
+add_data(['Film Freak II'],
+'Film Freak II',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?'], ['New(-| )Earth'], ['PC']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Film Freak II'],
+'Film Freak II',
+False,
+False,
+[
+    ['DC Comics']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Titano (DC Comics: Post Crisis)', 'https://www.reddit.com/r/respectthreads/comments/1rzyy2e/respect_titano_dc_comics_post_crisis/')
+add_data(['Titano'],
+'Titano',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?'], ['New(-| )Earth']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Titano'],
+'Titano',
+False,
+False,
+[
+    ['Superman Villains?']
+],
+'DC',
+'{' + '{}'.format(id) + '}'
+)
+#https://www.reddit.com/r/whowouldwin/comments/9ac5c5/superman_villains_vs_reallife_new_york/
+
+########################################
+
+id = get_rt_id(cur, 'Respect Electrocutioner I (DC Comics: Post-Crisis)', 'https://www.reddit.com/r/respectthreads/comments/1rytvo3/respect_electrocutioner_i_dc_comics_postcrisis/')
+add_data(['Electrocutioner I'],
+'Electrocutioner I',
+False,
+False,
+[
+    ['Posts?(-| )?C(risis)?'], ['New(-| )Earth'], ['PC']
+],
+'Post-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect The Matriarch (DC Comics, Post-Flashpoint)', 'https://www.reddit.com/r/respectthreads/comments/1rxmrgp/respect_the_matriarch_dc_comics_postflashpoint/')
+add_data(['Matriarch'],
+'Matriarch',
+False,
+False,
+[
+    ['(Post(-| ))Flash(-| )?point']
+],
+'Post-Flashpoint',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Zebra-Man (DC Comics: Pre-Crisis)', 'https://www.reddit.com/r/respectthreads/comments/1ry5yai/respect_zebraman_dc_comics_precrisis/')
+add_data(['Zebra(-| )Man'],
+'Zebra-Man',
+False,
+False,
+[
+    ['Pre(-| )?Crisis']
+],
+'Pre-Crisis',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect The Monkey''s Paw! (The Simpsons)", 'https://www.reddit.com/r/respectthreads/comments/1rwam5x/respect_the_monkeys_paw_the_simpsons/')
+add_data(["Monkey''?s Paw"],
+"Monkey''s Paw",
+False,
+False,
+[
+    ['Simpsons']
+],
+'The Simpsons',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Key West (Jojo''s Bizarre Adventure)", 'https://www.reddit.com/r/respectthreads/comments/1rxjdse/respect_key_west_jojos_bizarre_adventure/')
+add_data(['Key West'],
+'Key West',
+False,
+False,
+[
+    ['Jojos?(verse)?'], ['JJBA']
+],
+"Jojo''s Bizarre Adventure",
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Magatsu Kotono-Nushi, The Sovereign of Corpses! (Isekai Ojisan)', 'https://www.reddit.com/r/respectthreads/comments/1ryhhg7/respect_magatsu_kotononushi_the_sovereign_of/')
+add_data(['Magatsu Kotono(-| )Nushi'],
+'Magatsu Kotono-Nushi',
+False,
+False,
+[
+    ['Isekai Ojisan']
+],
+'Isekai Ojisan',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, "Respect Ocean''s Eleven (Ocean''s Franchise)", 'https://www.reddit.com/r/respectthreads/comments/1rywcm2/respect_oceans_eleven_oceans_franchise/')
+add_data(["Ocean''s Eleven"],
+"Ocean''s Eleven",
+True,
+True,
+[
+    ["Ocean''s Franchise"]
+],
+'',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect the Doctor (Dead by Daylight)', 'https://www.reddit.com/r/respectthreads/comments/1rz0m37/respect_the_doctor_dead_by_daylight/')
+add_data(['The Doctor'],
+'The Doctor',
+False,
+False,
+[
+    ['Doctor.*(Dead by Daylight|DBD)']
+],
+'Dead by Daylight',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Garruk Wildspeaker! (Magic: The Gathering)', 'https://www.reddit.com/r/respectthreads/comments/1s0uavl/respect_garruk_wildspeaker_magic_the_gathering/')
+add_data(['Garruk Wildspeaker'],
+'Garruk Wildspeaker',
+False,
+True,
+[
+    ['Magic:? The Gathering'], ['M:?TG'], ['Planeswalk(er)?s?'], ['Neo Walker']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+add_data(['Garruk'],
+'Garruk',
+False,
+False,
+[
+    ['Magic:? The Gathering'], ['M:?TG'], ['Planeswalk(er)?s?'], ['Neo Walker'], ['Apex Predator']
+],
+'Magic: The Gathering',
+'{' + '{}'.format(id) + '}'
+)
+#
+
+########################################
+
+id = get_rt_id(cur, 'Respect Ornate (Image Comics, Massive-Verse)', 'https://www.reddit.com/r/respectthreads/comments/1rzwl4a/respect_ornate_image_comics_massiveverse/')
+add_data(['Ornate'],
+'Ornate',
+False,
+False,
+[
+    ['Massive(-| )Verse']
+],
+'Massive-Verse',
 '{' + '{}'.format(id) + '}'
 )
 #
